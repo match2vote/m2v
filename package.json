@@ -1,5 +1,5 @@
 {
-  "name": "vapp",
+  "name": "m2v",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "npm --workspace @vapp/core test",
+    "test": "npm --workspace @m2v/core test",
     "sync:fec": "node pipeline/fec-sync.mjs",
-    "app": "npm --workspace vapp-mobile start"
+    "app": "npm --workspace m2v-mobile start"
   }
 }

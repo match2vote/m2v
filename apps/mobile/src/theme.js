@@ -1,4 +1,4 @@
-// VAPP theme tokens — ported from the prototype's CSS variables.
+// M2V theme tokens — ported from the prototype's CSS variables.
 export const theme = {
   colors: {
     bg: '#FAF7F2',

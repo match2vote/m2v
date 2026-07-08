@@ -1,14 +1,14 @@
-# VAPP — Voter Match App (full-scale)
+# M2V — Match to Vote
 
 Nonpartisan iPhone/Android app for the November 3, 2026 election. Users take a
 10-question issue quiz and get matched to the real candidates on their ballot —
-by policy, never by party. Full plan: see `VAPP Full-Scale Plan.md` in the
+by policy, never by party. Full plan: see `M2V Full-Scale Plan.md` in the
 Claude project.
 
 ## Layout
 
 ```
-vapp/
+m2v/
 ├── apps/mobile/        # the Expo (React Native) app — iOS + Android
 ├── packages/core/      # shared logic: 10 issues, quiz, matching math (tested)
 ├── pipeline/           # data pipeline: FEC sync for all 50 states

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// VAPP pipeline — FEC candidate sync (all 50 states).
+// M2V pipeline — FEC candidate sync (all 50 states).
 //
 // Pulls every 2026 U.S. House and Senate candidate from the free FEC API
-// and writes them into VAPP's candidate format, one JSON file per state.
+// and writes them into M2V's candidate format, one JSON file per state.
 // This replaces the prototype's hand-built fec-seed.jsx snapshots.
 //
 // Usage:
@@ -127,7 +127,7 @@ async function writeStates(candidates) {
   return byState;
 }
 
-// Tiny .env reader so the repo needs no dependencies. Looks for vapp/.env.
+// Tiny .env reader so the repo needs no dependencies. Looks for m2v/.env.
 async function readDotEnv() {
   try {
     const text = await readFile(path.join(__dirname, '..', '.env'), 'utf8');

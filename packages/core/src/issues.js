@@ -1,4 +1,4 @@
-// VAPP core — the 10-issue framework.
+// M2V core — the 10-issue framework.
 // Carried over from the prototype. Each issue has a stable key used
 // everywhere: quiz answers, candidate positions, matching.
 //

@@ -1,9 +1,9 @@
-// VAPP — root component. Simple state router (same pattern as the prototype's
+// M2V — root component. Simple state router (same pattern as the prototype's
 // app.jsx). Screens: Welcome → Quiz → Results → (profile detail later).
 import React, { useMemo, useState } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { ISSUES, rankCandidates, stanceLabel } from '@vapp/core';
+import { ISSUES, rankCandidates, stanceLabel } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing } from './src/ui';
 import { theme } from './src/theme';
 import { SAMPLE_RACE } from './src/sampleData';
@@ -53,6 +53,9 @@ export default function App() {
 function Welcome({ onStart }) {
   return (
     <Screen>
+      <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(2) }}>
+        M2V · MATCH TO VOTE
+      </Body>
       <H1>Vote the issues,{'\n'}not the party.</H1>
       <Body soft style={{ marginBottom: space(6) }}>
         Answer 10 questions about what you believe. We'll match you with the real

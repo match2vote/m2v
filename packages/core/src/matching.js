@@ -1,4 +1,4 @@
-// VAPP core — matching math.
+// M2V core — matching math.
 // Ported from the prototype's model:
 //   * Every position is -2..+2 or null ("Not stated").
 //   * Match % uses ONLY issues where BOTH the user and the candidate

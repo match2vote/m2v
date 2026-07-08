@@ -1,5 +1,5 @@
 {
-  "name": "vapp-mobile",
+  "name": "m2v-mobile",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -7,7 +7,7 @@
     "expo-status-bar": "~57.0.0",
     "react": "19.2.3",
     "react-native": "0.86.0",
-    "@vapp/core": "*"
+    "@m2v/core": "*"
   },
   "scripts": {
     "start": "expo start",

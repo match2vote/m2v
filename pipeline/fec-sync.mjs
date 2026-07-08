@@ -127,6 +127,21 @@ async function writeStates(candidates) {
   return byState;
 }
 
+// Tiny .env reader so the repo needs no dependencies. Looks for vapp/.env.
+async function readDotEnv() {
+  try {
+    const text = await readFile(path.join(__dirname, '..', '.env'), 'utf8');
+    return Object.fromEntries(
+      text.split('\n')
+        .map((l) => l.trim())
+        .filter((l) => l && !l.startsWith('#') && l.includes('='))
+        .map((l) => [l.slice(0, l.indexOf('=')), l.slice(l.indexOf('=') + 1)])
+    );
+  } catch {
+    return {};
+  }
+}
+
 async function main() {
   if (process.argv.includes('--mock')) {
     const fixture = JSON.parse(
@@ -139,7 +154,7 @@ async function main() {
     return;
   }
 
-  const apiKey = process.env.FEC_API_KEY;
+  const apiKey = process.env.FEC_API_KEY || (await readDotEnv()).FEC_API_KEY;
   if (!apiKey) {
     console.error('Set FEC_API_KEY (free key: https://api.data.gov/signup/), or run with --mock.');
     process.exit(1);

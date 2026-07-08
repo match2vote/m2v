@@ -1,0 +1,56 @@
+# Nightly FEC candidate sync — runs on GitHub's servers, free.
+#
+# One-time setup after this repo is pushed to GitHub:
+#   Repo → Settings → Secrets and variables → Actions → New repository secret
+#   Name:  FEC_API_KEY
+#   Value: (the key from your api.data.gov email)
+#
+# Then this workflow pulls every 2026 House/Senate candidate from the FEC
+# every night at 6:15am UTC and commits any changes to data/fec/*.json.
+# You can also run it on demand: repo → Actions → "FEC nightly sync" → Run.
+
+name: FEC nightly sync
+
+on:
+  schedule:
+    - cron: '15 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run FEC sync (all 50 states)
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: node pipeline/fec-sync.mjs
+
+      - name: Sanity-check output
+        run: |
+          count=$(ls data/fec/*.json 2>/dev/null | wc -l)
+          echo "State files: $count"
+          if [ "$count" -lt 45 ]; then
+            echo "::error::Expected ~50+ state files, got $count — refusing to commit."
+            exit 1
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name "vapp-data-bot"
+          git config user.email "actions@github.com"
+          git add data/fec
+          if git diff --cached --quiet; then
+            echo "No candidate changes today."
+          else
+            git commit -m "data: nightly FEC sync $(date -u +%F)"
+            git push
+          fi

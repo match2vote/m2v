@@ -1,0 +1,71 @@
+{
+  "state": "TX",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-08T21:39:56.427Z",
+  "candidates": [
+    {
+      "id": "fec-H6TX01001",
+      "fecId": "H6TX01001",
+      "name": "Jane A. Doe",
+      "party": "Democrat",
+      "state": "TX",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX01001/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX01002",
+      "fecId": "H6TX01002",
+      "name": "John McSample",
+      "party": "Republican",
+      "state": "TX",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX01002/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "state": "AK",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-08T21:39:56.428Z",
+  "candidates": [
+    {
+      "id": "fec-H6AK00001",
+      "fecId": "H6AK00001",
+      "name": "Sam II Testerson",
+      "party": "Libertarian",
+      "state": "AK",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AK00001/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

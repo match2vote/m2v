@@ -1,0 +1,49 @@
+{
+  "note": "Real response shape from GET /v1/candidates/ (fields trimmed to those the sync uses). Names below are fictional test data, NOT real candidates.",
+  "results": [
+    {
+      "candidate_id": "H6TX01001",
+      "name": "DOE, JANE A.",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX",
+      "office": "H",
+      "district": "01",
+      "incumbent_challenge": "C",
+      "candidate_status": "C"
+    },
+    {
+      "candidate_id": "H6TX01002",
+      "name": "MCSAMPLE, JOHN",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX",
+      "office": "H",
+      "district": "01",
+      "incumbent_challenge": "I",
+      "candidate_status": "C"
+    },
+    {
+      "candidate_id": "S6GA00001",
+      "name": "EXAMPLE, ALEX",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "GA",
+      "office": "S",
+      "district": "00",
+      "incumbent_challenge": "O",
+      "candidate_status": "C"
+    },
+    {
+      "candidate_id": "H6AK00001",
+      "name": "TESTERSON, SAM II",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "AK",
+      "office": "H",
+      "district": "00",
+      "incumbent_challenge": "C",
+      "candidate_status": "C"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vapp",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm --workspace @vapp/core test",
+    "sync:fec": "node pipeline/fec-sync.mjs",
+    "app": "npm --workspace vapp-mobile start"
+  }
+}

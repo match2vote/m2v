@@ -136,8 +136,15 @@ async function writeStates(candidates) {
   for (const c of candidates) (byState[c.state] ||= []).push(c);
   for (const [state, list] of Object.entries(byState)) {
     list.sort((a, b) => (a.office + (a.district || '')).localeCompare(b.office + (b.district || '')) || a.name.localeCompare(b.name));
+    const file = path.join(OUT_DIR, `${state}.json`);
+    // Skip the write when candidates are unchanged, so the nightly job only
+    // commits on real changes (syncedAt alone shouldn't churn git history).
+    try {
+      const prev = JSON.parse(await readFile(file, 'utf8'));
+      if (JSON.stringify(prev.candidates) === JSON.stringify(list)) continue;
+    } catch {}
     await writeFile(
-      path.join(OUT_DIR, `${state}.json`),
+      file,
       JSON.stringify({ state, electionYear: ELECTION_YEAR, syncedAt: new Date().toISOString(), candidates: list }, null, 2)
     );
   }

@@ -45,12 +45,24 @@ const PARTY = {
 function titleCaseName(fecName) {
   // FEC names come as "LAST, FIRST MIDDLE" — flip and title-case.
   const [last, rest] = fecName.split(',').map((s) => s.trim());
+  if (!last) return fecName.trim();
   const raw = rest ? `${rest} ${last}` : fecName;
   return raw
     .toLowerCase()
     .replace(/\b([a-z])/g, (m) => m.toUpperCase())
     .replace(/\b(Ii|Iii|Iv)\b/g, (m) => m.toUpperCase())
     .replace(/\bMc(\w)/g, (_, c) => 'Mc' + c.toUpperCase());
+}
+
+// Some FEC records are junk/incomplete filings (blank name, missing state).
+// We skip those and report how many — we never invent a name to fill a gap.
+export function isUsableRecord(fec) {
+  return !!(
+    fec &&
+    fec.candidate_id &&
+    typeof fec.name === 'string' && fec.name.trim() &&
+    typeof fec.state === 'string' && fec.state.trim()
+  );
 }
 
 export function transformCandidate(fec) {
@@ -147,9 +159,10 @@ async function main() {
     const fixture = JSON.parse(
       await readFile(path.join(__dirname, 'fixtures', 'fec-sample.json'), 'utf8')
     );
-    const transformed = fixture.results.map(transformCandidate);
+    const usable = fixture.results.filter(isUsableRecord);
+    const transformed = usable.map(transformCandidate);
     const byState = await writeStates(transformed);
-    console.log(`MOCK OK — transformed ${transformed.length} candidates into ${Object.keys(byState).length} state file(s) in data/fec/`);
+    console.log(`MOCK OK — transformed ${transformed.length} candidates (skipped ${fixture.results.length - usable.length} junk records) into ${Object.keys(byState).length} state file(s) in data/fec/`);
     console.log(JSON.stringify(transformed[0], null, 2));
     return;
   }
@@ -163,11 +176,15 @@ async function main() {
   console.log(`Syncing ${ELECTION_YEAR} federal candidates from the FEC…`);
   const house = await fetchAllCandidates('H', apiKey);
   const senate = await fetchAllCandidates('S', apiKey);
-  const transformed = [...house, ...senate].map(transformCandidate);
+  const all = [...house, ...senate];
+  const usable = all.filter(isUsableRecord);
+  const skipped = all.length - usable.length;
+  const transformed = usable.map(transformCandidate);
   const byState = await writeStates(transformed);
 
   const states = Object.keys(byState).sort();
   console.log(`Done: ${transformed.length} candidates across ${states.length} states/territories → data/fec/*.json`);
+  if (skipped) console.log(`Skipped ${skipped} incomplete FEC record(s) (blank name or state).`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

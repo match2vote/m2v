@@ -7,6 +7,7 @@ import { ISSUES, rankCandidates, stanceLabel } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing } from './src/ui';
 import { theme } from './src/theme';
 import { SAMPLE_RACE } from './src/sampleData';
+import { StatePicker, Races, Race, Profile } from './src/screens/Browse';
 
 const { colors, space } = theme;
 
@@ -20,17 +21,23 @@ const CHOICES = [
 ];
 
 export default function App() {
-  const [route, setRoute] = useState('welcome'); // welcome | quiz | results
+  // welcome | quiz | results | states | races | race | profile
+  const [route, setRoute] = useState('welcome');
   const [answers, setAnswers] = useState({});
   const [matters, setMatters] = useState({});
   const [qIndex, setQIndex] = useState(0);
+  const [stateCode, setStateCode] = useState(null);
+  const [race, setRace] = useState(null);
+  const [candidate, setCandidate] = useState(null);
 
   const reset = () => { setAnswers({}); setMatters({}); setQIndex(0); setRoute('welcome'); };
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.bg }}>
       <StatusBar style="dark" />
-      {route === 'welcome' && <Welcome onStart={() => setRoute('quiz')} />}
+      {route === 'welcome' && (
+        <Welcome onStart={() => setRoute('quiz')} onBrowse={() => setRoute('states')} />
+      )}
       {route === 'quiz' && (
         <Quiz
           key={qIndex}
@@ -45,12 +52,44 @@ export default function App() {
           onBack={() => (qIndex > 0 ? setQIndex(qIndex - 1) : setRoute('welcome'))}
         />
       )}
-      {route === 'results' && <Results answers={answers} matters={matters} onRestart={reset} />}
+      {route === 'results' && (
+        <Results
+          answers={answers}
+          matters={matters}
+          onRestart={reset}
+          onBrowse={() => setRoute('states')}
+        />
+      )}
+      {route === 'states' && (
+        <StatePicker
+          onPick={(code) => { setStateCode(code); setRoute('races'); }}
+          onBack={() => setRoute('welcome')}
+        />
+      )}
+      {route === 'races' && (
+        <Races
+          stateCode={stateCode}
+          onOpenRace={(r) => { setRace(r); setRoute('race'); }}
+          onBack={() => setRoute('states')}
+        />
+      )}
+      {route === 'race' && (
+        <Race
+          race={race}
+          answers={answers}
+          matters={matters}
+          onOpenProfile={(c) => { setCandidate(c); setRoute('profile'); }}
+          onBack={() => setRoute('races')}
+        />
+      )}
+      {route === 'profile' && (
+        <Profile candidate={candidate} onBack={() => setRoute('race')} />
+      )}
     </View>
   );
 }
 
-function Welcome({ onStart }) {
+function Welcome({ onStart, onBrowse }) {
   return (
     <Screen>
       <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(2) }}>
@@ -63,6 +102,7 @@ function Welcome({ onStart }) {
         and honest "Not stated" labels when a candidate hasn't said.
       </Body>
       <Button label="Take the quiz" onPress={onStart} />
+      <Button kind="ghost" label="Browse candidates in your state" onPress={onBrowse} />
       <Body soft style={{ fontSize: 12, marginTop: space(4), textAlign: 'center' }}>
         Nonpartisan · No account needed · Positions are never guessed
       </Body>
@@ -109,7 +149,7 @@ function Quiz({ qIndex, matters, onAnswer, onBack }) {
   );
 }
 
-function Results({ answers, matters, onRestart }) {
+function Results({ answers, matters, onRestart, onBrowse }) {
   const ranked = useMemo(
     () => rankCandidates(answers, matters, SAMPLE_RACE.candidates),
     [answers, matters]
@@ -141,6 +181,7 @@ function Results({ answers, matters, onRestart }) {
             {pct !== null && <TopIssueLines perIssue={perIssue} />}
           </Card>
         ))}
+        <Button label="See the real candidates in your state" onPress={onBrowse} />
         <Button kind="ghost" label="Retake the quiz" onPress={onRestart} />
       </ScrollView>
     </Screen>

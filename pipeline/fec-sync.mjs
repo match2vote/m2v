@@ -42,10 +42,15 @@ const PARTY = {
   GRE: 'Green', IND: 'Independent', NNE: 'None', UNK: 'Unknown', W: 'Write-in',
 };
 
+// FEC name fields sometimes carry honorifics ("TILLIS, THOM R SEN",
+// "SMITH, JOHN DR"). Strip them from the given-name side only.
+const HONORIFICS = /\b(SEN|REP|HON|DR|MR|MRS|MS|MISS)\.?$/i;
+
 function titleCaseName(fecName) {
   // FEC names come as "LAST, FIRST MIDDLE" — flip and title-case.
-  const [last, rest] = fecName.split(',').map((s) => s.trim());
+  let [last, rest] = fecName.split(',').map((s) => s.trim());
   if (!last) return fecName.trim();
+  if (rest) rest = rest.replace(HONORIFICS, '').trim();
   const raw = rest ? `${rest} ${last}` : fecName;
   return raw
     .toLowerCase()

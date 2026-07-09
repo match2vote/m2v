@@ -1,7 +1,7 @@
 {
   "state": "ME",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.462Z",
+  "syncedAt": "2026-07-09T16:14:49.182Z",
   "candidates": [
     {
       "id": "fec-H8ME01120",
@@ -670,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6ME00332/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6ME00431",
+      "fecId": "S6ME00431",
+      "name": "Paige Loud",
+      "party": "Democrat",
+      "state": "ME",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6ME00431/"
         }
       ],
       "funding": null,

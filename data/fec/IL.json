@@ -1,7 +1,7 @@
 {
   "state": "IL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.422Z",
+  "syncedAt": "2026-07-09T16:14:49.159Z",
   "candidates": [
     {
       "id": "fec-H6IL01191",
@@ -1406,6 +1406,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8IL04134/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6IL04187",
+      "fecId": "H6IL04187",
+      "name": "Lindsay Church",
+      "party": "Independent",
+      "state": "IL",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IL04187/"
         }
       ],
       "funding": null,

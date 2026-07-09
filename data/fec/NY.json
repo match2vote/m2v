@@ -1,7 +1,7 @@
 {
   "state": "NY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.442Z",
+  "syncedAt": "2026-07-09T16:14:49.174Z",
   "candidates": [
     {
       "id": "fec-H6NY01159",
@@ -2462,6 +2462,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NY23559/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H3NY23010",
+      "fecId": "H3NY23010",
+      "name": "James George King",
+      "party": "Republican",
+      "state": "NY",
+      "office": "us-house",
+      "district": "23",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H3NY23010/"
         }
       ],
       "funding": null,

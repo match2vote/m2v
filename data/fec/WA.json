@@ -1,7 +1,7 @@
 {
   "state": "WA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.466Z",
+  "syncedAt": "2026-07-09T16:14:49.184Z",
   "candidates": [
     {
       "id": "fec-H6WA01212",
@@ -702,6 +702,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4WA06117/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4WA08147",
+      "fecId": "H4WA08147",
+      "name": "Nirav Sheth",
+      "party": "Republican",
+      "state": "WA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4WA08147/"
         }
       ],
       "funding": null,

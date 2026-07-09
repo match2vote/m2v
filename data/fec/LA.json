@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.455Z",
+  "syncedAt": "2026-07-09T16:14:49.176Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -612,38 +612,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6LA05226",
-      "fecId": "H6LA05226",
-      "name": "Rick Edmonds",
-      "party": "Republican",
-      "state": "LA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6LA05226/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6LA05192",
       "fecId": "H6LA05192",
       "name": "Samuel Lee Wyatt",
@@ -798,6 +766,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05168/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05226",
+      "fecId": "H6LA05226",
+      "name": "Rick Edmonds",
+      "party": "Republican",
+      "state": "LA",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05226/"
         }
       ],
       "funding": null,

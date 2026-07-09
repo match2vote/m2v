@@ -1,0 +1,103 @@
+{
+  "state": "ND",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-09T01:59:21.310Z",
+  "candidates": [
+    {
+      "id": "fec-H4ND00079",
+      "fecId": "H4ND00079",
+      "name": "Alex Balazs",
+      "party": "Republican",
+      "state": "ND",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4ND00079/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4ND00061",
+      "fecId": "H4ND00061",
+      "name": "Julie Fedorchak",
+      "party": "Republican",
+      "state": "ND",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4ND00061/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6ND01049",
+      "fecId": "H6ND01049",
+      "name": "Trygve Hammer",
+      "party": "Democrat",
+      "state": "ND",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6ND01049/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

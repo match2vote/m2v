@@ -1,112 +1,16 @@
 {
-  "state": "AK",
+  "state": "RI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.312Z",
+  "syncedAt": "2026-07-09T01:59:21.307Z",
   "candidates": [
     {
-      "id": "fec-H6AK01092",
-      "fecId": "H6AK01092",
-      "name": "Bill Hill",
-      "party": "Independent",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01092/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01158",
-      "fecId": "H2AK01158",
-      "name": "Mary Peltola",
+      "id": "fec-H4RI01265",
+      "fecId": "H4RI01265",
+      "name": "Gabriel F Amo",
       "party": "Democrat",
-      "state": "AK",
+      "state": "RI",
       "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01158/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6AK01084",
-      "fecId": "H6AK01084",
-      "name": "Matthew Damian Schultz",
-      "party": "Democrat",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01084/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01083",
-      "fecId": "H2AK01083",
-      "name": "Nicholas III Begich",
-      "party": "Republican",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
+      "district": "1",
       "incumbent": true,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -125,20 +29,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01083/"
+          "url": "https://www.fec.gov/data/candidate/H4RI01265/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S4AK00214",
-      "fecId": "S4AK00214",
-      "name": "Dan Sullivan",
-      "party": "Republican",
-      "state": "AK",
-      "office": "us-senate",
-      "district": null,
+      "id": "fec-H2RI02184",
+      "fecId": "H2RI02184",
+      "name": "Seth Magaziner",
+      "party": "Democrat",
+      "state": "RI",
+      "office": "us-house",
+      "district": "2",
       "incumbent": true,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -157,18 +61,82 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S4AK00214/"
+          "url": "https://www.fec.gov/data/candidate/H2RI02184/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6AK00276",
-      "fecId": "S6AK00276",
-      "name": "Mary Peltola",
+      "id": "fec-H6RI02326",
+      "fecId": "H6RI02326",
+      "name": "Stephen T Skoly",
+      "party": "Republican",
+      "state": "RI",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6RI02326/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6RI02318",
+      "fecId": "H6RI02318",
+      "name": "Victor G. Mellor",
+      "party": "Republican",
+      "state": "RI",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6RI02318/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6RI00270",
+      "fecId": "S6RI00270",
+      "name": "Connor Burbridge",
       "party": "Democrat",
-      "state": "AK",
+      "state": "RI",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -189,7 +157,71 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6AK00276/"
+          "url": "https://www.fec.gov/data/candidate/S6RI00270/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6RI00163",
+      "fecId": "S6RI00163",
+      "name": "John F. Reed",
+      "party": "Democrat",
+      "state": "RI",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6RI00163/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S4RI00051",
+      "fecId": "S4RI00051",
+      "name": "Raymond Tyler Mr McKay",
+      "party": "Republican",
+      "state": "RI",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4RI00051/"
         }
       ],
       "funding": null,

@@ -1,110 +1,46 @@
 {
-  "state": "AK",
+  "state": "DE",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.312Z",
+  "syncedAt": "2026-07-09T01:59:21.317Z",
   "candidates": [
     {
-      "id": "fec-H6AK01092",
-      "fecId": "H6AK01092",
-      "name": "Bill Hill",
-      "party": "Independent",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01092/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01158",
-      "fecId": "H2AK01158",
-      "name": "Mary Peltola",
-      "party": "Democrat",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01158/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6AK01084",
-      "fecId": "H6AK01084",
-      "name": "Matthew Damian Schultz",
-      "party": "Democrat",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01084/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01083",
-      "fecId": "H2AK01083",
-      "name": "Nicholas III Begich",
+      "id": "fec-H4DE00078",
+      "fecId": "H4DE00078",
+      "name": "John J Whalen III",
       "party": "Republican",
-      "state": "AK",
+      "state": "DE",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4DE00078/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4DE00045",
+      "fecId": "H4DE00045",
+      "name": "Sarah Elizabeth McBride",
+      "party": "Democrat",
+      "state": "DE",
       "office": "us-house",
       "district": "at-large",
       "incumbent": true,
@@ -125,18 +61,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01083/"
+          "url": "https://www.fec.gov/data/candidate/H4DE00045/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S4AK00214",
-      "fecId": "S4AK00214",
-      "name": "Dan Sullivan",
-      "party": "Republican",
-      "state": "AK",
+      "id": "fec-S0DE00092",
+      "fecId": "S0DE00092",
+      "name": "Christopher A. Coons",
+      "party": "Democrat",
+      "state": "DE",
       "office": "us-senate",
       "district": null,
       "incumbent": true,
@@ -157,18 +93,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S4AK00214/"
+          "url": "https://www.fec.gov/data/candidate/S0DE00092/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6AK00276",
-      "fecId": "S6AK00276",
-      "name": "Mary Peltola",
+      "id": "fec-S6DE00156",
+      "fecId": "S6DE00156",
+      "name": "Christopher Mr. Beardsley",
       "party": "Democrat",
-      "state": "AK",
+      "state": "DE",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -189,7 +125,71 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6AK00276/"
+          "url": "https://www.fec.gov/data/candidate/S6DE00156/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6DE00198",
+      "fecId": "S6DE00198",
+      "name": "John Shulli",
+      "party": "Republican",
+      "state": "DE",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6DE00198/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6DE00206",
+      "fecId": "S6DE00206",
+      "name": "Michael S Dr. Katz",
+      "party": "Republican",
+      "state": "DE",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6DE00206/"
         }
       ],
       "funding": null,

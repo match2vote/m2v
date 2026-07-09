@@ -1,48 +1,16 @@
 {
-  "state": "AK",
+  "state": "HI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.312Z",
+  "syncedAt": "2026-07-09T01:59:21.309Z",
   "candidates": [
     {
-      "id": "fec-H6AK01092",
-      "fecId": "H6AK01092",
-      "name": "Bill Hill",
-      "party": "Independent",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01092/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01158",
-      "fecId": "H2AK01158",
-      "name": "Mary Peltola",
+      "id": "fec-H6HI01345",
+      "fecId": "H6HI01345",
+      "name": "Della Au Belatti",
       "party": "Democrat",
-      "state": "AK",
+      "state": "HI",
       "office": "us-house",
-      "district": "at-large",
+      "district": "1",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -61,52 +29,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01158/"
+          "url": "https://www.fec.gov/data/candidate/H6HI01345/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6AK01084",
-      "fecId": "H6AK01084",
-      "name": "Matthew Damian Schultz",
+      "id": "fec-H2HI02128",
+      "fecId": "H2HI02128",
+      "name": "Edward Case",
       "party": "Democrat",
-      "state": "AK",
+      "state": "HI",
       "office": "us-house",
-      "district": "at-large",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6AK01084/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2AK01083",
-      "fecId": "H2AK01083",
-      "name": "Nicholas III Begich",
-      "party": "Republican",
-      "state": "AK",
-      "office": "us-house",
-      "district": "at-large",
+      "district": "1",
       "incumbent": true,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -125,52 +61,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2AK01083/"
+          "url": "https://www.fec.gov/data/candidate/H2HI02128/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S4AK00214",
-      "fecId": "S4AK00214",
-      "name": "Dan Sullivan",
-      "party": "Republican",
-      "state": "AK",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": true,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S4AK00214/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S6AK00276",
-      "fecId": "S6AK00276",
-      "name": "Mary Peltola",
+      "id": "fec-H6HI01311",
+      "fecId": "H6HI01311",
+      "name": "Jarrett Keohokalole",
       "party": "Democrat",
-      "state": "AK",
-      "office": "us-senate",
-      "district": null,
+      "state": "HI",
+      "office": "us-house",
+      "district": "1",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -189,7 +93,71 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6AK00276/"
+          "url": "https://www.fec.gov/data/candidate/H6HI01311/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6HI02426",
+      "fecId": "H6HI02426",
+      "name": "Brenton Awa",
+      "party": "Republican",
+      "state": "HI",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6HI02426/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2HI02581",
+      "fecId": "H2HI02581",
+      "name": "Jill Naomi Tokuda",
+      "party": "Democrat",
+      "state": "HI",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2HI02581/"
         }
       ],
       "funding": null,

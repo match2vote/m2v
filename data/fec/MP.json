@@ -1,0 +1,71 @@
+{
+  "state": "MP",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-09T01:59:21.316Z",
+  "candidates": [
+    {
+      "id": "fec-H6MP01027",
+      "fecId": "H6MP01027",
+      "name": "Galvin Sablan Deleon Guerrero",
+      "party": "Independent",
+      "state": "MP",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MP01027/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4MP01022",
+      "fecId": "H4MP01022",
+      "name": "Kimberlyn Kay King-Hinds",
+      "party": "Republican",
+      "state": "MP",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MP01022/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

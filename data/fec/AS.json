@@ -1,0 +1,39 @@
+{
+  "state": "AS",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-09T01:59:21.306Z",
+  "candidates": [
+    {
+      "id": "fec-H4AS00036",
+      "fecId": "H4AS00036",
+      "name": "Aumua Amata",
+      "party": "Republican",
+      "state": "AS",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AS00036/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

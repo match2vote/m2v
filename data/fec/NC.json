@@ -1,78 +1,110 @@
 {
-  "state": "GA",
+  "state": "NC",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.303Z",
+  "syncedAt": "2026-07-09T01:59:21.296Z",
   "candidates": [
     {
-      "id": "fec-H6GA01158",
-      "fecId": "H6GA01158",
-      "name": "Amanda Hollowell",
+      "id": "fec-H6NC01165",
+      "fecId": "H6NC01165",
+      "name": "Asa Bryant III Buck",
+      "party": "Republican",
+      "state": "NC",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC01165/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC01140",
+      "fecId": "H6NC01140",
+      "name": "Ashley Nicole Russell",
+      "party": "Republican",
+      "state": "NC",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC01140/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC01132",
+      "fecId": "H6NC01132",
+      "name": "Bobby Hanig",
+      "party": "Republican",
+      "state": "NC",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC01132/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2NC02287",
+      "fecId": "H2NC02287",
+      "name": "Don Davis",
       "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01158/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01166",
-      "fecId": "H6GA01166",
-      "name": "Brian Allen Montgomery",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01166/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H4GA01039",
-      "fecId": "H4GA01039",
-      "name": "Earl Leroy Carter",
-      "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "1",
       "incumbent": true,
@@ -93,18 +125,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA01039/"
+          "url": "https://www.fec.gov/data/candidate/H2NC02287/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA12051",
-      "fecId": "H4GA12051",
-      "name": "Eugene Chin Mr. Yu",
+      "id": "fec-H4NC01137",
+      "fecId": "H4NC01137",
+      "name": "Laurie Buckhout",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "1",
       "incumbent": false,
@@ -125,18 +157,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA12051/"
+          "url": "https://www.fec.gov/data/candidate/H4NC01137/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA01109",
-      "fecId": "H6GA01109",
-      "name": "James Morris Kingston",
+      "id": "fec-H2NC02253",
+      "fecId": "H2NC02253",
+      "name": "Sandy Roberson",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "1",
       "incumbent": false,
@@ -157,306 +189,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01109/"
+          "url": "https://www.fec.gov/data/candidate/H2NC02253/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA01029",
-      "fecId": "H0GA01029",
-      "name": "Joyce Marie Griggs",
+      "id": "fec-H6NC10174",
+      "fecId": "H6NC10174",
+      "name": "Ashley Bell",
       "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA01029/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01075",
-      "fecId": "H6GA01075",
-      "name": "Kandiss Dr. Taylor",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01075/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01091",
-      "fecId": "H6GA01091",
-      "name": "Krista Penn",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01091/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01133",
-      "fecId": "H6GA01133",
-      "name": "Michael McCord",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01133/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01216",
-      "fecId": "H6GA01216",
-      "name": "Monte Monteleone",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01216/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01083",
-      "fecId": "H6GA01083",
-      "name": "Patrick K. Farrell",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01083/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01224",
-      "fecId": "H6GA01224",
-      "name": "Patrick Wilver",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01224/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01174",
-      "fecId": "H6GA01174",
-      "name": "Randy Zurcher",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01174/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01208",
-      "fecId": "H6GA01208",
-      "name": "Sharon Stokes-Williamson",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01208/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H4GA10113",
-      "fecId": "H4GA10113",
-      "name": "Alexandra Doherty",
-      "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "10",
       "incumbent": false,
@@ -477,18 +221,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA10113/"
+          "url": "https://www.fec.gov/data/candidate/H6NC10174/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA10175",
-      "fecId": "H6GA10175",
-      "name": "Houston Gaines",
-      "party": "Republican",
-      "state": "GA",
+      "id": "fec-H6NC10208",
+      "fecId": "H6NC10208",
+      "name": "Harry Clare Mr Jr Morley",
+      "party": "Democrat",
+      "state": "NC",
       "office": "us-house",
       "district": "10",
       "incumbent": false,
@@ -509,50 +253,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA10175/"
+          "url": "https://www.fec.gov/data/candidate/H6NC10208/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA10071",
-      "fecId": "H4GA10071",
-      "name": "Michael A Jr Collins",
+      "id": "fec-H6NC10216",
+      "fecId": "H6NC10216",
+      "name": "Matthew Sin",
       "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "10",
-      "incumbent": true,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA10071/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA10183",
-      "fecId": "H6GA10183",
-      "name": "Pamela Mrs Delancy",
-      "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "10",
       "incumbent": false,
@@ -573,18 +285,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA10183/"
+          "url": "https://www.fec.gov/data/candidate/H6NC10216/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA10191",
-      "fecId": "H6GA10191",
-      "name": "Ryan Millsap",
-      "party": "Republican",
-      "state": "GA",
+      "id": "fec-H6NC10224",
+      "fecId": "H6NC10224",
+      "name": "Mir Yarfitz",
+      "party": "Democrat",
+      "state": "NC",
       "office": "us-house",
       "district": "10",
       "incumbent": false,
@@ -605,18 +317,82 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA10191/"
+          "url": "https://www.fec.gov/data/candidate/H6NC10224/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA11124",
-      "fecId": "H6GA11124",
-      "name": "Barry Craig Mr. Wolfert",
+      "id": "fec-H2NC13243",
+      "fecId": "H2NC13243",
+      "name": "Pat Harrigan",
+      "party": "Republican",
+      "state": "NC",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NC13243/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC10182",
+      "fecId": "H6NC10182",
+      "name": "West Caudle",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC10182/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC11263",
+      "fecId": "H6NC11263",
+      "name": "Adam R. Smith",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-house",
       "district": "11",
       "incumbent": false,
@@ -637,18 +413,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11124/"
+          "url": "https://www.fec.gov/data/candidate/H6NC11263/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA11061",
-      "fecId": "H4GA11061",
-      "name": "Barry Loudermilk",
+      "id": "fec-H6NC11206",
+      "fecId": "H6NC11206",
+      "name": "Christopher John Harjes",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11206/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2NC14050",
+      "fecId": "H2NC14050",
+      "name": "Chuck Edwards",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "11",
       "incumbent": true,
@@ -669,82 +477,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA11061/"
+          "url": "https://www.fec.gov/data/candidate/H2NC14050/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA11215",
-      "fecId": "H6GA11215",
-      "name": "Carlquist Lisa",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11215/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11132",
-      "fecId": "H6GA11132",
-      "name": "Chris Mora",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11132/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11116",
-      "fecId": "H6GA11116",
-      "name": "Christopher Matthew Harden",
+      "id": "fec-H6NC11230",
+      "fecId": "H6NC11230",
+      "name": "Jacob Lawrence",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "11",
       "incumbent": false,
@@ -765,274 +509,178 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11116/"
+          "url": "https://www.fec.gov/data/candidate/H6NC11230/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA14048",
-      "fecId": "H0GA14048",
-      "name": "John Cowan",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA14048/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11181",
-      "fecId": "H6GA11181",
-      "name": "Rob Adkerson",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11181/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11207",
-      "fecId": "H6GA11207",
-      "name": "Tricia Pridemore",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11207/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H4GA11087",
-      "fecId": "H4GA11087",
-      "name": "Tricia Pridemore",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA11087/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA03170",
-      "fecId": "H6GA03170",
-      "name": "Uloma Ekpete Kama",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA03170/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11231",
-      "fecId": "H6GA11231",
-      "name": "Uloma Ekpete Kama",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11231/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA11223",
-      "fecId": "H6GA11223",
-      "name": "William Brown",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11223/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14284",
-      "fecId": "H6GA14284",
-      "name": "William Flynn III Kelly",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14284/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA12064",
-      "fecId": "H6GA12064",
-      "name": "Brianna Courtney Estelle Woodson",
+      "id": "fec-H6NC11248",
+      "fecId": "H6NC11248",
+      "name": "Jamie Ager",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11248/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC11222",
+      "fecId": "H6NC11222",
+      "name": "Morris D. Col. Davis",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11222/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC11271",
+      "fecId": "H6NC11271",
+      "name": "Paul Maddox",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11271/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC11255",
+      "fecId": "H6NC11255",
+      "name": "Richard Dr. Hudspeth",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11255/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC11214",
+      "fecId": "H6NC11214",
+      "name": "Zelda Briarwood",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC11214/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC12105",
+      "fecId": "H6NC12105",
+      "name": "Addul Rahman Eli Ali",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-house",
       "district": "12",
       "incumbent": false,
@@ -1053,50 +701,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA12064/"
+          "url": "https://www.fec.gov/data/candidate/H6NC12105/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA12080",
-      "fecId": "H6GA12080",
-      "name": "Ceretta Smith",
+      "id": "fec-H4NC12100",
+      "fecId": "H4NC12100",
+      "name": "Alma Shealey Adams",
       "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "12",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA12080/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2GA12121",
-      "fecId": "H2GA12121",
-      "name": "Richard W Allen",
-      "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "12",
       "incumbent": true,
@@ -1117,18 +733,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA12121/"
+          "url": "https://www.fec.gov/data/candidate/H4NC12100/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA12072",
-      "fecId": "H6GA12072",
-      "name": "Robert Christopher Stephens",
-      "party": "Democrat",
-      "state": "GA",
+      "id": "fec-H6NC12139",
+      "fecId": "H6NC12139",
+      "name": "Charay Dr Smith",
+      "party": "UNAFFILIATED",
+      "state": "NC",
       "office": "us-house",
       "district": "12",
       "incumbent": false,
@@ -1149,18 +765,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA12072/"
+          "url": "https://www.fec.gov/data/candidate/H6NC12139/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA12049",
-      "fecId": "H6GA12049",
-      "name": "Tori Branum",
+      "id": "fec-H6NC12113",
+      "fecId": "H6NC12113",
+      "name": "John Jack Codiga",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "12",
       "incumbent": false,
@@ -1181,18 +797,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA12049/"
+          "url": "https://www.fec.gov/data/candidate/H6NC12113/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA12098",
-      "fecId": "H6GA12098",
-      "name": "Tracell Peace-Nichols",
-      "party": "Democrat",
-      "state": "GA",
+      "id": "fec-H6NC12121",
+      "fecId": "H6NC12121",
+      "name": "Ryan Rabah",
+      "party": "Independent",
+      "state": "NC",
       "office": "us-house",
       "district": "12",
       "incumbent": false,
@@ -1213,18 +829,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA12098/"
+          "url": "https://www.fec.gov/data/candidate/H6NC12121/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA13088",
-      "fecId": "H6GA13088",
-      "name": "Carlos Moore",
+      "id": "fec-H6NC13236",
+      "fecId": "H6NC13236",
+      "name": "Alexander Nicholi",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "13",
       "incumbent": false,
@@ -1245,18 +861,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13088/"
+          "url": "https://www.fec.gov/data/candidate/H6NC13236/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H2GA13012",
-      "fecId": "H2GA13012",
-      "name": "David Albert Scott",
-      "party": "Democrat",
-      "state": "GA",
+      "id": "fec-H6NC13244",
+      "fecId": "H6NC13244",
+      "name": "Anthony Bailey Mr. Aguilar",
+      "party": "Green",
+      "state": "NC",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC13244/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4NC13116",
+      "fecId": "H4NC13116",
+      "name": "Brad Knott",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-house",
       "district": "13",
       "incumbent": true,
@@ -1277,306 +925,82 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA13012/"
+          "url": "https://www.fec.gov/data/candidate/H4NC13116/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA13039",
-      "fecId": "H6GA13039",
-      "name": "Emanuel Jones",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13039/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13062",
-      "fecId": "H6GA13062",
-      "name": "Everton Blair",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13062/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13104",
-      "fecId": "H6GA13104",
-      "name": "Heavenly Dr Kimes",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13104/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13070",
-      "fecId": "H6GA13070",
-      "name": "Jasmine Clark",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13070/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13120",
-      "fecId": "H6GA13120",
-      "name": "Jeffree Fauntleroy",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13120/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2GA03120",
-      "fecId": "H2GA03120",
-      "name": "Joe Nathan Lester",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA03120/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13047",
-      "fecId": "H6GA13047",
-      "name": "Jonathan Bonner",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13047/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13096",
-      "fecId": "H6GA13096",
-      "name": "Pierre Whatley",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13096/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA13054",
-      "fecId": "H6GA13054",
-      "name": "Ronald McKenzie",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "13",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA13054/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14268",
-      "fecId": "H6GA14268",
-      "name": "Brian C. Stover",
+      "id": "fec-H4NC13066",
+      "fecId": "H4NC13066",
+      "name": "Josh McConkey",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4NC13066/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC13228",
+      "fecId": "H6NC13228",
+      "name": "Paul Barringer",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC13228/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC14036",
+      "fecId": "H6NC14036",
+      "name": "Brent Caldwell",
+      "party": "Democrat",
+      "state": "NC",
       "office": "us-house",
       "district": "14",
       "incumbent": false,
@@ -1597,18 +1021,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14268/"
+          "url": "https://www.fec.gov/data/candidate/H6NC14036/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA14250",
-      "fecId": "H6GA14250",
-      "name": "Christian Michael Hurd",
+      "id": "fec-H6NC14044",
+      "fecId": "H6NC14044",
+      "name": "Kate Barr",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "14",
       "incumbent": false,
@@ -1629,18 +1053,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14250/"
+          "url": "https://www.fec.gov/data/candidate/H6NC14044/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA14099",
-      "fecId": "H4GA14099",
-      "name": "Clarence Blalock",
+      "id": "fec-H6NC14069",
+      "fecId": "H6NC14069",
+      "name": "Lakesha Womack",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "14",
       "incumbent": false,
@@ -1661,18 +1085,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA14099/"
+          "url": "https://www.fec.gov/data/candidate/H6NC14069/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA14030",
-      "fecId": "H0GA14030",
-      "name": "Clay Fuller",
+      "id": "fec-H4NC14015",
+      "fecId": "H4NC14015",
+      "name": "Tim Moore",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "14",
       "incumbent": true,
@@ -1693,530 +1117,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA14030/"
+          "url": "https://www.fec.gov/data/candidate/H4NC14015/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA14193",
-      "fecId": "H6GA14193",
-      "name": "Colton Moore",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14193/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2GA14119",
-      "fecId": "H2GA14119",
-      "name": "Eric B Cunningham",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA14119/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14177",
-      "fecId": "H6GA14177",
-      "name": "James M Mr Brown",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14177/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H2GA03179",
-      "fecId": "H2GA03179",
-      "name": "Jared Craig",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA03179/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H4GA07283",
-      "fecId": "H4GA07283",
-      "name": "Jefferson Edward Criswell",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA07283/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14169",
-      "fecId": "H6GA14169",
-      "name": "Jenna Jaye Turnipseed",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14169/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14151",
-      "fecId": "H6GA14151",
-      "name": "Jim Tully",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14151/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H0GA06192",
-      "fecId": "H0GA06192",
-      "name": "Marjorie Taylor Greene",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": true,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA06192/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14243",
-      "fecId": "H6GA14243",
-      "name": "Megahn Strickland",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14243/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14201",
-      "fecId": "H6GA14201",
-      "name": "Nicky Lama",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14201/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14227",
-      "fecId": "H6GA14227",
-      "name": "Reagan Box",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14227/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14078",
-      "fecId": "H6GA14078",
-      "name": "Rob Ruszkowski ( Rush )",
-      "party": "None",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14078/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H4GA14057",
-      "fecId": "H4GA14057",
-      "name": "Shawn Harris",
-      "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA14057/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14060",
-      "fecId": "H6GA14060",
-      "name": "Star Black",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14060/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14235",
-      "fecId": "H6GA14235",
-      "name": "Thomas Jonathan Jackson Gray",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14235/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA14185",
-      "fecId": "H6GA14185",
-      "name": "Timothy Beau Brown",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA14185/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA01182",
-      "fecId": "H6GA01182",
-      "name": "Matt Day",
-      "party": "Republican",
-      "state": "GA",
+      "id": "fec-H6NC02213",
+      "fecId": "H6NC02213",
+      "name": "Brian McGinnis",
+      "party": "Independent",
+      "state": "NC",
       "office": "us-house",
       "district": "2",
       "incumbent": false,
@@ -2237,18 +1149,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA01182/"
+          "url": "https://www.fec.gov/data/candidate/H6NC02213/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H2GA02031",
-      "fecId": "H2GA02031",
-      "name": "Sanford Bishop",
+      "id": "fec-H0NC02125",
+      "fecId": "H0NC02125",
+      "name": "Deborah Ross",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "2",
       "incumbent": true,
@@ -2269,20 +1181,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2GA02031/"
+          "url": "https://www.fec.gov/data/candidate/H0NC02125/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA23012",
-      "fecId": "H6GA23012",
-      "name": "Raven Harrison",
-      "party": "Republican",
-      "state": "GA",
+      "id": "fec-H6NC03211",
+      "fecId": "H6NC03211",
+      "name": "Allison Jaslow",
+      "party": "Democrat",
+      "state": "NC",
       "office": "us-house",
-      "district": "23",
+      "district": "3",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2301,18 +1213,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA23012/"
+          "url": "https://www.fec.gov/data/candidate/H6NC03211/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA03126",
-      "fecId": "H4GA03126",
-      "name": "Brian Jack",
+      "id": "fec-H6NC03187",
+      "fecId": "H6NC03187",
+      "name": "Chris Schulte",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC03187/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H0NC03172",
+      "fecId": "H0NC03172",
+      "name": "Gregory Francis Dr. Murphy",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "3",
       "incumbent": true,
@@ -2333,18 +1277,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA03126/"
+          "url": "https://www.fec.gov/data/candidate/H0NC03172/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA03204",
-      "fecId": "H6GA03204",
-      "name": "George Melville Mr Johnson",
+      "id": "fec-H6NC03229",
+      "fecId": "H6NC03229",
+      "name": "Raymond Edward Dr. Jr. Smith",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "3",
       "incumbent": false,
@@ -2365,20 +1309,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA03204/"
+          "url": "https://www.fec.gov/data/candidate/H6NC03229/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA03100",
-      "fecId": "H4GA03100",
-      "name": "Maura Keller",
+      "id": "fec-H2NC06098",
+      "fecId": "H2NC06098",
+      "name": "Nida Allam",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "3",
+      "district": "4",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2397,18 +1341,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA03100/"
+          "url": "https://www.fec.gov/data/candidate/H2NC06098/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA04129",
-      "fecId": "H6GA04129",
-      "name": "Henry C. 'Hank' Johnson",
+      "id": "fec-H2NC06114",
+      "fecId": "H2NC06114",
+      "name": "Valerie Foushee",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "4",
       "incumbent": true,
@@ -2429,18 +1373,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA04129/"
+          "url": "https://www.fec.gov/data/candidate/H2NC06114/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA05308",
-      "fecId": "H6GA05308",
-      "name": "Andres Castro",
+      "id": "fec-H4NC05294",
+      "fecId": "H4NC05294",
+      "name": "Chuck Hubbard",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "5",
       "incumbent": false,
@@ -2461,18 +1405,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA05308/"
+          "url": "https://www.fec.gov/data/candidate/H4NC05294/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA05324",
-      "fecId": "H6GA05324",
-      "name": "Arnetress Beatty",
-      "party": "Democrat",
-      "state": "GA",
+      "id": "fec-H6NC05133",
+      "fecId": "H6NC05133",
+      "name": "David Clayton",
+      "party": "Independent",
+      "state": "NC",
       "office": "us-house",
       "district": "5",
       "incumbent": false,
@@ -2493,18 +1437,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA05324/"
+          "url": "https://www.fec.gov/data/candidate/H6NC05133/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA05301",
-      "fecId": "H0GA05301",
-      "name": "Nikema N. Williams",
+      "id": "fec-H6NC05141",
+      "fecId": "H6NC05141",
+      "name": "Kyah Creekmore",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC05141/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4NC05146",
+      "fecId": "H4NC05146",
+      "name": "Virginia Ann Foxx",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-house",
       "district": "5",
       "incumbent": true,
@@ -2525,82 +1501,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA05301/"
+          "url": "https://www.fec.gov/data/candidate/H4NC05146/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA06157",
-      "fecId": "H6GA06157",
-      "name": "Justin Pinker",
+      "id": "fec-H4NC06177",
+      "fecId": "H4NC06177",
+      "name": "Addison McDowell",
       "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "6",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA06157/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA06181",
-      "fecId": "H6GA06181",
-      "name": "Kevin Eugene Martin",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "6",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA06181/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H8GA06393",
-      "fecId": "H8GA06393",
-      "name": "Lucia Kay Ms. McBath",
-      "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "6",
       "incumbent": true,
@@ -2621,20 +1533,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H8GA06393/"
+          "url": "https://www.fec.gov/data/candidate/H4NC06177/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA07221",
-      "fecId": "H6GA07221",
-      "name": "Anthony Lawrence Kozycki",
+      "id": "fec-H6NC06180",
+      "fecId": "H6NC06180",
+      "name": "Alysa Kassay",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "7",
+      "district": "6",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2653,20 +1565,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA07221/"
+          "url": "https://www.fec.gov/data/candidate/H6NC06180/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA07197",
-      "fecId": "H6GA07197",
-      "name": "Casey Norton",
+      "id": "fec-H6NC06156",
+      "fecId": "H6NC06156",
+      "name": "Beau Blair",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "7",
+      "district": "6",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2685,20 +1597,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA07197/"
+          "url": "https://www.fec.gov/data/candidate/H6NC06156/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA07213",
-      "fecId": "H6GA07213",
-      "name": "Jayson Toweh",
+      "id": "fec-H6NC06164",
+      "fecId": "H6NC06164",
+      "name": "Cyril Jefferson",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "7",
+      "district": "6",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2717,20 +1629,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA07213/"
+          "url": "https://www.fec.gov/data/candidate/H6NC06164/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA07205",
-      "fecId": "H6GA07205",
-      "name": "Larry Long",
+      "id": "fec-H4NC08082",
+      "fecId": "H4NC08082",
+      "name": "Keith Davenport",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "7",
+      "district": "6",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2749,18 +1661,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA07205/"
+          "url": "https://www.fec.gov/data/candidate/H4NC08082/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA07273",
-      "fecId": "H0GA07273",
-      "name": "Richard Dean Dr. McCormick",
+      "id": "fec-H6NC06172",
+      "fecId": "H6NC06172",
+      "name": "Tavin Felton-Stackhouse",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC06172/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2NC07096",
+      "fecId": "H2NC07096",
+      "name": "David Rouzer",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "7",
       "incumbent": true,
@@ -2781,18 +1725,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA07273/"
+          "url": "https://www.fec.gov/data/candidate/H2NC07096/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA07189",
-      "fecId": "H6GA07189",
-      "name": "Stephen Eric Mr. Barfield",
-      "party": "Republican",
-      "state": "GA",
+      "id": "fec-H6NC07196",
+      "fecId": "H6NC07196",
+      "name": "Kimberly Dr. Hardy",
+      "party": "Democrat",
+      "state": "NC",
       "office": "us-house",
       "district": "7",
       "incumbent": false,
@@ -2813,18 +1757,146 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA07189/"
+          "url": "https://www.fec.gov/data/candidate/H6NC07196/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H0GA08099",
-      "fecId": "H0GA08099",
-      "name": "James Austin Scott",
+      "id": "fec-H6NC07204",
+      "fecId": "H6NC07204",
+      "name": "Maad Abu-Ghazalah",
+      "party": "Libertarian",
+      "state": "NC",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC07204/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC08202",
+      "fecId": "H6NC08202",
+      "name": "Colby Watson",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC08202/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC08194",
+      "fecId": "H6NC08194",
+      "name": "Jesse Oppenheim",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC08194/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NC09200",
+      "fecId": "H6NC09200",
+      "name": "Mark E Harris",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC09200/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4NC08066",
+      "fecId": "H4NC08066",
+      "name": "Mark E Harris",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-house",
       "district": "8",
       "incumbent": true,
@@ -2845,20 +1917,20 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA08099/"
+          "url": "https://www.fec.gov/data/candidate/H4NC08066/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA08138",
-      "fecId": "H6GA08138",
-      "name": "Kelly Dr Esti",
+      "id": "fec-H4NC09171",
+      "fecId": "H4NC09171",
+      "name": "Nigel William Bristow",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
-      "district": "8",
+      "district": "9",
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -2877,50 +1949,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA08138/"
+          "url": "https://www.fec.gov/data/candidate/H4NC09171/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4GA08125",
-      "fecId": "H4GA08125",
-      "name": "Vinson Watkins",
+      "id": "fec-H2NC08185",
+      "fecId": "H2NC08185",
+      "name": "Richard L. Jr. Hudson",
       "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "8",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4GA08125/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H0GA09246",
-      "fecId": "H0GA09246",
-      "name": "Andrew Clyde",
-      "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "9",
       "incumbent": true,
@@ -2941,18 +1981,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0GA09246/"
+          "url": "https://www.fec.gov/data/candidate/H2NC08185/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA09284",
-      "fecId": "H6GA09284",
-      "name": "Caitlyn Gegen",
+      "id": "fec-H6NC09218",
+      "fecId": "H6NC09218",
+      "name": "Richard N. Ojeda",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
       "office": "us-house",
       "district": "9",
       "incumbent": false,
@@ -2973,20 +2013,52 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA09284/"
+          "url": "https://www.fec.gov/data/candidate/H6NC09218/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA09276",
-      "fecId": "H6GA09276",
-      "name": "Gregg Poole",
+      "id": "fec-S6NC00464",
+      "fecId": "S6NC00464",
+      "name": "Brian McGinnis",
+      "party": "Green",
+      "state": "NC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00464/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6NC00373",
+      "fecId": "S6NC00373",
+      "name": "Don Brown",
       "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "9",
+      "state": "NC",
+      "office": "us-senate",
+      "district": null,
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "filed",
@@ -3005,82 +2077,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA09276/"
+          "url": "https://www.fec.gov/data/candidate/S6NC00373/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA09268",
-      "fecId": "H6GA09268",
-      "name": "Nicholas Francis Mr. Alex",
+      "id": "fec-S8NC00270",
+      "fecId": "S8NC00270",
+      "name": "Marcus W. Williams",
       "party": "Democrat",
-      "state": "GA",
-      "office": "us-house",
-      "district": "9",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA09268/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-H6GA09250",
-      "fecId": "H6GA09250",
-      "name": "Sam Couvillon",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "9",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA09250/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S6GA00366",
-      "fecId": "S6GA00366",
-      "name": "Christina Loren Rev Dr Truste Clement",
-      "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -3101,18 +2109,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00366/"
+          "url": "https://www.fec.gov/data/candidate/S8NC00270/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6GA00408",
-      "fecId": "S6GA00408",
-      "name": "Derek Dooley",
+      "id": "fec-S6NC00449",
+      "fecId": "S6NC00449",
+      "name": "Margot Dupre",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -3133,18 +2141,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00408/"
+          "url": "https://www.fec.gov/data/candidate/S6NC00449/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6GA00374",
-      "fecId": "S6GA00374",
-      "name": "Earl Leroy Carter",
+      "id": "fec-S6NC00415",
+      "fecId": "S6NC00415",
+      "name": "Michael Whatley",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -3165,18 +2173,18 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00374/"
+          "url": "https://www.fec.gov/data/candidate/S6NC00415/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6GA00382",
-      "fecId": "S6GA00382",
-      "name": "John King",
+      "id": "fec-S6NC00522",
+      "fecId": "S6NC00522",
+      "name": "Michele Morrow",
       "party": "Republican",
-      "state": "GA",
+      "state": "NC",
       "office": "us-senate",
       "district": null,
       "incumbent": false,
@@ -3197,114 +2205,50 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00382/"
+          "url": "https://www.fec.gov/data/candidate/S6NC00522/"
         }
       ],
       "funding": null,
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S2GA00282",
-      "fecId": "S2GA00282",
-      "name": "Jonathan Mr McColumn",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S2GA00282/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S6GA00390",
-      "fecId": "S6GA00390",
-      "name": "Michael A Jr Collins",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00390/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S6GA00267",
-      "fecId": "S6GA00267",
-      "name": "Reagan Box",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6GA00267/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S8GA00180",
-      "fecId": "S8GA00180",
-      "name": "T. Jonathan Ossoff",
+      "id": "fec-S6NC00407",
+      "fecId": "S6NC00407",
+      "name": "Roy Cooper",
       "party": "Democrat",
-      "state": "GA",
+      "state": "NC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00407/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S4NC00162",
+      "fecId": "S4NC00162",
+      "name": "Thom R Sen Tillis",
+      "party": "Republican",
+      "state": "NC",
       "office": "us-senate",
       "district": null,
       "incumbent": true,
@@ -3325,7 +2269,71 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S8GA00180/"
+          "url": "https://www.fec.gov/data/candidate/S4NC00162/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6NC00480",
+      "fecId": "S6NC00480",
+      "name": "Thomas Lee Johnson",
+      "party": "Republican",
+      "state": "NC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00480/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6NC00340",
+      "fecId": "S6NC00340",
+      "name": "Wiley Nickel",
+      "party": "Democrat",
+      "state": "NC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00340/"
         }
       ],
       "funding": null,

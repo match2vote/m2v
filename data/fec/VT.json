@@ -1,0 +1,71 @@
+{
+  "state": "VT",
+  "electionYear": 2026,
+  "syncedAt": "2026-07-09T01:59:21.311Z",
+  "candidates": [
+    {
+      "id": "fec-H4VT01056",
+      "fecId": "H4VT01056",
+      "name": "C. Mark Mr Coester",
+      "party": "Republican",
+      "state": "VT",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4VT01056/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2VT01076",
+      "fecId": "H2VT01076",
+      "name": "Rebecca 'Becca' Balint",
+      "party": "Democrat",
+      "state": "VT",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": true,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2VT01076/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    }
+  ]
+}

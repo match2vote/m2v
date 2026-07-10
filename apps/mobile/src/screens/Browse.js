@@ -61,31 +61,47 @@ export function Races({ stateCode, onOpenRace, onBack }) {
 
 export function Race({ race, answers, matters, onOpenProfile, onBack }) {
   const hasQuiz = answers && Object.values(answers).some((v) => v !== null && v !== undefined);
+  const onBallot = race.candidates.filter((c) => c.ballotStatus !== 'not-advancing');
+  const notAdvancing = race.candidates.filter((c) => c.ballotStatus === 'not-advancing');
+
+  const row = (c) => {
+    const m = hasQuiz ? computeMatch(answers, matters, c.positions || {}) : null;
+    return (
+      <Pressable key={c.id} onPress={() => onOpenProfile(c)}>
+        <Card>
+          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <View style={{ flex: 1 }}>
+              <H2>
+                {c.name}
+                {c.ballotStatus === 'nominee' ? '  ·  Nominee' : c.incumbent ? '  ·  Incumbent' : ''}
+              </H2>
+              <Body soft style={{ marginBottom: 6 }}>{c.party}</Body>
+              <TierBadge tier={c.tier} />
+            </View>
+            {hasQuiz && <MatchRing pct={m.pct} />}
+          </View>
+        </Card>
+      </Pressable>
+    );
+  };
+
   return (
     <Screen>
       <H1>{race.title}</H1>
       <Body soft style={{ marginBottom: space(3) }}>
-        Everyone who has filed with the FEC for this race. Primary results will
-        narrow this list as states finalize ballots.
+        {race.meta?.statusNote ||
+          'Everyone who has filed with the FEC for this race. Primary results will narrow this list as states finalize ballots.'}
       </Body>
       <ScrollView style={{ flex: 1 }}>
-        {race.candidates.map((c) => {
-          const m = hasQuiz ? computeMatch(answers, matters, c.positions || {}) : null;
-          return (
-            <Pressable key={c.id} onPress={() => onOpenProfile(c)}>
-              <Card>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                  <View style={{ flex: 1 }}>
-                    <H2>{c.name}{c.incumbent ? '  ·  Incumbent' : ''}</H2>
-                    <Body soft style={{ marginBottom: 6 }}>{c.party}</Body>
-                    <TierBadge tier={c.tier} />
-                  </View>
-                  {hasQuiz && <MatchRing pct={m.pct} />}
-                </View>
-              </Card>
-            </Pressable>
-          );
-        })}
+        {onBallot.map(row)}
+        {notAdvancing.length > 0 && (
+          <>
+            <Body soft style={{ marginTop: space(3), marginBottom: space(2), fontSize: 13 }}>
+              Filed with the FEC but not advancing to the November ballot:
+            </Body>
+            {notAdvancing.map(row)}
+          </>
+        )}
         <Button kind="ghost" label="Back" onPress={onBack} />
       </ScrollView>
     </Screen>
@@ -93,15 +109,24 @@ export function Race({ race, answers, matters, onOpenProfile, onBack }) {
 }
 
 export function Profile({ candidate, onBack }) {
-  const src = candidate.sources?.[0];
+  const positions = candidate.positions || {};
+  const posSources = candidate.positionSources || {};
   return (
     <Screen>
       <H1>{candidate.name}</H1>
-      <Body soft>{candidate.party}{candidate.incumbent ? ' · Incumbent' : ''}</Body>
+      <Body soft>
+        {candidate.party}
+        {candidate.ballotStatus === 'nominee' ? ' · Nominee' : candidate.incumbent ? ' · Incumbent' : ''}
+      </Body>
       <View style={{ marginVertical: space(2) }}>
         <TierBadge tier={candidate.tier} />
       </View>
       <ScrollView style={{ flex: 1 }}>
+        {candidate.background && (
+          <Card>
+            <Body style={{ fontSize: 13 }}>{candidate.background}</Body>
+          </Card>
+        )}
         {candidate.tier === 'fec' && (
           <Card>
             <Body soft style={{ fontSize: 13 }}>
@@ -111,24 +136,34 @@ export function Profile({ candidate, onBack }) {
             </Body>
           </Card>
         )}
-        {ISSUES.map((issue) => (
-          <Card key={issue.key} style={{ paddingVertical: space(3) }}>
-            <Body style={{ fontWeight: '700', marginBottom: 2 }}>{issue.name}</Body>
-            <Body
-              soft={!((candidate.positions || {})[issue.key] !== null && (candidate.positions || {})[issue.key] !== undefined)}
-              style={{ fontSize: 13 }}
-            >
-              {stanceLabel(issue, (candidate.positions || {})[issue.key])}
-            </Body>
-          </Card>
-        ))}
-        {src && (
+        {ISSUES.map((issue) => {
+          const val = positions[issue.key];
+          const stated = val !== null && val !== undefined;
+          const src = posSources[issue.key];
+          return (
+            <Card key={issue.key} style={{ paddingVertical: space(3) }}>
+              <Body style={{ fontWeight: '700', marginBottom: 2 }}>{issue.name}</Body>
+              <Body soft={!stated} style={{ fontSize: 13 }}>
+                {stanceLabel(issue, val)}
+              </Body>
+              {stated && src && (
+                <Pressable onPress={() => Linking.openURL(src.url)}>
+                  <Body style={{ fontSize: 11, color: theme.colors.accent, marginTop: 4 }}>
+                    Source: {src.label} ↗
+                  </Body>
+                </Pressable>
+              )}
+            </Card>
+          );
+        })}
+        {(candidate.sources || []).map((s) => (
           <Button
+            key={s.url}
             kind="ghost"
-            label={`View source: ${src.label}`}
-            onPress={() => Linking.openURL(src.url)}
+            label={`View source: ${s.label}`}
+            onPress={() => Linking.openURL(s.url)}
           />
-        )}
+        ))}
         <Button kind="ghost" label="Back" onPress={onBack} />
       </ScrollView>
     </Screen>

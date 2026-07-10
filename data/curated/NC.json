@@ -1,0 +1,86 @@
+{
+  "state": "NC",
+  "note": "Hand-curated, sourced entries. Every non-null position cites a source in positionSources. Never infer from party.",
+  "races": {
+    "NC-senate": {
+      "status": "general",
+      "advancing": ["fec-S6NC00407", "fec-S6NC00415"],
+      "statusNote": "Primary held March 3, 2026 — Cooper (D) and Whatley (R) won their nominations."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6NC00407",
+      "name": "Roy Cooper",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "NC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Governor of North Carolina 2017–2025; NC Attorney General 2001–2017. Won the March 2026 Democratic primary for U.S. Senate.",
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": { "label": "Campaign platform: lower grocery costs, block anti-competitive mergers, ban algorithmic pricing (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
+        "health": { "label": "Championed NC Medicaid expansion; platform: cap drug costs, protect ACA (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
+        "immigration": { "label": "Vetoed 2019 bill requiring sheriffs to cooperate with ICE (WBTV)", "url": "https://www.wbtv.com/2019/08/20/nc-house-passes-bill-requiring-sheriffs-cooperate-with-ice-bill-heads-gov-roy-cooper/" },
+        "climate": { "label": "Launched NC Clean Energy Plan as governor (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
+        "education": { "label": "Record: teacher raises, pre-K expansion, Teaching Fellows; opposed voucher expansion (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
+        "repro": { "label": "Vetoed NC's 12-week abortion ban, May 2023 (NPR)", "url": "https://www.npr.org/2023/05/14/1176064846/north-carolinas-governor-vetoed-a-12-week-abortion-ban-setting-up-an-override-fi" },
+        "democracy": { "label": "Vetoed 2018 voter ID implementing law SB 824 (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" }
+      },
+      "sources": [
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Roy_Cooper" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NC00407/" }
+      ],
+      "curatedAt": "2026-07-09"
+    },
+    {
+      "id": "fec-S6NC00415",
+      "name": "Michael Whatley",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "NC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Former Republican National Committee chairman and NC GOP chairman; earlier an energy-industry executive (Consumer Energy Alliance). Won the March 2026 Republican primary; endorsed by President Trump.",
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 2,
+        "education": null,
+        "safety": 2,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": { "label": "Campaign: 'more money in your pockets,' fiscal responsibility, unleash American energy (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "immigration": { "label": "'100% supportive' of securing the border and deportations (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "taxes": { "label": "Campaign: fiscal responsibility, 'more money in your pockets' — no detailed tax plan published (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "climate": { "label": "Campaign: energy independence, 'unleashing American energy' (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "safety": { "label": "Campaign: 'back the blue without apology,' restore law and order, opposes cashless bail (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "repro": { "label": "Campaign pledges 'protecting life' — no specifics published (campaign site)", "url": "https://michaelwhatley.com/issues/" },
+        "democracy": { "label": "Campaign: 'protect the ballot'; led election-integrity efforts as NC GOP chair (campaign site)", "url": "https://michaelwhatley.com/issues/" }
+      },
+      "sources": [
+        { "label": "Campaign issues page", "url": "https://michaelwhatley.com/issues/" },
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Michael_Whatley" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NC00415/" }
+      ],
+      "curatedAt": "2026-07-09"
+    }
+  ]
+}

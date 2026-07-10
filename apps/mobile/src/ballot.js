@@ -33,7 +33,12 @@ export function getRaces(code) {
   if (!data) return [];
   const races = [];
   if (data.senate?.length) {
-    races.push({ id: `${code}-senate`, title: 'U.S. Senate', candidates: data.senate });
+    races.push({
+      id: `${code}-senate`,
+      title: 'U.S. Senate',
+      candidates: data.senate,
+      meta: data.raceMeta?.[`${code}-senate`] || null,
+    });
   }
   const districts = Object.keys(data.house || {}).sort((a, b) => {
     if (a === 'at-large') return -1;
@@ -45,6 +50,7 @@ export function getRaces(code) {
       id: `${code}-house-${d}`,
       title: d === 'at-large' ? 'U.S. House — At-Large' : `U.S. House — District ${d}`,
       candidates: data.house[d],
+      meta: data.raceMeta?.[`${code}-house-${d}`] || null,
     });
   }
   return races;

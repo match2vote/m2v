@@ -32,6 +32,14 @@ export function getRaces(code) {
   const data = getStateData(code);
   if (!data) return [];
   const races = [];
+  if (data.governor?.length) {
+    races.push({
+      id: `${code}-governor`,
+      title: 'Governor',
+      candidates: data.governor,
+      meta: data.raceMeta?.[`${code}-governor`] || null,
+    });
+  }
   if (data.senate?.length) {
     races.push({
       id: `${code}-senate`,

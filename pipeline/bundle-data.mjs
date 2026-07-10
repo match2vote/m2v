@@ -48,9 +48,19 @@ for (const f of files.sort()) {
   });
   const senate = [];
   const house = {};
+  const governor = [];
   for (const c of candidates) {
     total++;
     if (c.office === 'us-senate') senate.push(c);
+    else (house[c.district || 'at-large'] ||= []).push(c);
+  }
+  // Curated-only candidates (e.g. governor races — FEC is federal-only).
+  const fecIds = new Set(candidates.map((c) => c.id));
+  for (const c of Object.values(curatedById)) {
+    if (c.state !== state || fecIds.has(c.id)) continue;
+    total++;
+    if (c.office === 'governor') governor.push(c);
+    else if (c.office === 'us-senate') senate.push(c);
     else (house[c.district || 'at-large'] ||= []).push(c);
   }
   // Nominees first, then incumbents, then alphabetical; not-advancing last.
@@ -59,8 +69,9 @@ for (const f of files.sort()) {
   const order = (a, b) =>
     rank(a) - rank(b) || (b.incumbent - a.incumbent) || a.name.localeCompare(b.name);
   senate.sort(order);
+  governor.sort(order);
   for (const d of Object.keys(house)) house[d].sort(order);
-  states[state] = { senate, house, syncedAt, raceMeta: raceMetaByState[state] || null };
+  states[state] = { senate, house, governor, syncedAt, raceMeta: raceMetaByState[state] || null };
 }
 
 await mkdir(OUT_DIR, { recursive: true });

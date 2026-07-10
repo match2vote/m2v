@@ -1,0 +1,158 @@
+{
+  "state": "TX",
+  "note": "Hand-curated, sourced entries. Every non-null position cites a source in positionSources. Never infer from party.",
+  "races": {
+    "TX-senate": {
+      "status": "general",
+      "advancing": ["fec-S6TX00388", "fec-S6TX00479"],
+      "statusNote": "Nominees set: Ken Paxton (R) won the May 26 runoff over Sen. John Cornyn; James Talarico (D) won the March primary."
+    },
+    "TX-governor": {
+      "status": "general",
+      "statusNote": "Nominees set in the March 3 primary: Gov. Greg Abbott (R) and state Rep. Gina Hinojosa (D)."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6TX00388",
+      "name": "Ken Paxton",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "TX",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Texas Attorney General since 2015. Won the May 2026 Republican runoff against Sen. John Cornyn. Impeached by the Texas House in 2023 and acquitted by the Senate.",
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": { "label": "Led lawsuit to strike down the entire Affordable Care Act (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" },
+        "immigration": { "label": "Campaign: secure border, deportations; challenged DACA; defended SB4; backed border wall (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" },
+        "taxes": { "label": "Campaign pledges 'cutting taxes' (Ballotpedia)", "url": "https://ballotpedia.org/Ken_Paxton" },
+        "climate": { "label": "Sued EPA over Clean Power Plan; defended ExxonMobil in climate probes (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" },
+        "repro": { "label": "Enforced Texas abortion bans; sued FDA over mifepristone; opposed Kate Cox exemption (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" },
+        "democracy": { "label": "Filed Texas v. Pennsylvania challenging 2020 results; ran voter-fraud unit; defended voter ID (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" }
+      },
+      "sources": [
+        { "label": "Wikipedia: Ken Paxton", "url": "https://en.wikipedia.org/wiki/Ken_Paxton" },
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Ken_Paxton" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6TX00388/" }
+      ],
+      "curatedAt": "2026-07-09"
+    },
+    {
+      "id": "fec-S6TX00479",
+      "name": "James Talarico",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "TX",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Texas state representative from Austin and former middle-school teacher; seminary student. Won the March 2026 Democratic primary.",
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": -1,
+        "repro": null,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": { "label": "Authored $25/month insulin price-cap bill; campaign centers cost of living (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        "health": { "label": "Proposes 'Medicare for Y'all' — Medicare buy-in/public option for all (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        "immigration": { "label": "Border should be 'a giant welcome mat' with security; opposes border wall (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        "education": { "label": "Former teacher; fought school-voucher legislation (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        "safety": { "label": "Authored Javier Ambler's Law and youth-justice reform bills (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        "democracy": { "label": "Joined 2021 quorum break against voting restrictions; anti-gerrymandering, term limits, stock-trading ban (Wikipedia)", "url": "https://en.wikipedia.org/wiki/James_Talarico" }
+      },
+      "sources": [
+        { "label": "Wikipedia: James Talarico", "url": "https://en.wikipedia.org/wiki/James_Talarico" },
+        { "label": "Campaign issues page", "url": "https://jamestalarico.com/issues/" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6TX00479/" }
+      ],
+      "curatedAt": "2026-07-09"
+    },
+    {
+      "id": "tx-gov-abbott",
+      "name": "Greg Abbott",
+      "party": "Republican",
+      "office": "governor",
+      "state": "TX",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "Governor of Texas since 2015, seeking a fourth term; former Texas Attorney General. Won the March 2026 primary with 81.8%.",
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": { "label": "Texas declined Medicaid expansion throughout his tenure (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "immigration": { "label": "Launched Operation Lone Star; signed $1.54B border-barrier funding (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "taxes": { "label": "Signed record Texas property-tax cut package, 2023 (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "climate": { "label": "Champions oil & gas expansion; opposed federal emissions rules (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "education": { "label": "Led the push for education savings accounts (vouchers), incl. primary campaigns against opponents (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "repro": { "label": "Signed Texas six-week abortion ban (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "democracy": { "label": "Signed SB 1 election-rules law (2021) and 2025 mid-decade redistricting maps (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" }
+      },
+      "sources": [
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Greg_Abbott" }
+      ],
+      "curatedAt": "2026-07-09"
+    },
+    {
+      "id": "tx-gov-hinojosa",
+      "name": "Gina Hinojosa",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "TX",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Texas state representative from Austin; former Austin ISD school board president. Won the March 2026 Democratic primary with 58.5%.",
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "Campaign: corporations post record profits while Texans pay more; corporate accountability (Ballotpedia)", "url": "https://ballotpedia.org/Gina_Hinojosa" },
+        "health": { "label": "Campaign: rein in private equity and insurers 'making healthcare more expensive' (Ballotpedia)", "url": "https://ballotpedia.org/Gina_Hinojosa" },
+        "taxes": { "label": "Opposes tax incentives for 'private equity and corporate giants' (Ballotpedia)", "url": "https://ballotpedia.org/Gina_Hinojosa" },
+        "education": { "label": "Opposes Abbott's 'voucher scam'; invest in neighborhood public schools (Ballotpedia)", "url": "https://ballotpedia.org/Gina_Hinojosa" }
+      },
+      "sources": [
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Gina_Hinojosa" }
+      ],
+      "curatedAt": "2026-07-09"
+    }
+  ]
+}

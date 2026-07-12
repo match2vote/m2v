@@ -1,7 +1,7 @@
 {
   "state": "OK",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.461Z",
+  "syncedAt": "2026-07-12T11:00:16.318Z",
   "candidates": [
     {
       "id": "fec-H6OK01243",
@@ -606,6 +606,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OK05293/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OK05301",
+      "fecId": "H6OK05301",
+      "name": "Robert Patrick Henri",
+      "party": "Independent",
+      "state": "OK",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OK05301/"
         }
       ],
       "funding": null,

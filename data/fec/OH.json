@@ -1,7 +1,7 @@
 {
   "state": "OH",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.430Z",
+  "syncedAt": "2026-07-13T13:51:54.708Z",
   "candidates": [
     {
       "id": "fec-H6OH01187",
@@ -996,38 +996,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H2OH04164",
-      "fecId": "H2OH04164",
-      "name": "Tamara Wilson",
-      "party": "Independent",
-      "state": "OH",
-      "office": "us-house",
-      "district": "4",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H2OH04164/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6OH04173",
       "fecId": "H6OH04173",
       "name": "Tamara Wilson",
@@ -1054,6 +1022,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH04173/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2OH04164",
+      "fecId": "H2OH04164",
+      "name": "Tamara Wilson",
+      "party": "Independent",
+      "state": "OH",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OH04164/"
         }
       ],
       "funding": null,

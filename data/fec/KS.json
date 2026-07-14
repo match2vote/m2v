@@ -1,7 +1,7 @@
 {
   "state": "KS",
   "electionYear": 2026,
-  "syncedAt": "2026-07-12T11:00:16.325Z",
+  "syncedAt": "2026-07-14T11:48:41.907Z",
   "candidates": [
     {
       "id": "fec-H6KS01195",
@@ -158,6 +158,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KS02276/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6KS03308",
+      "fecId": "H6KS03308",
+      "name": "Eric Jenkins",
+      "party": "Republican",
+      "state": "KS",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KS03308/"
         }
       ],
       "funding": null,

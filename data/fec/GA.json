@@ -1,7 +1,7 @@
 {
   "state": "GA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-13T13:51:54.713Z",
+  "syncedAt": "2026-07-14T11:48:41.892Z",
   "candidates": [
     {
       "id": "fec-H6GA01158",
@@ -900,38 +900,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA11231",
-      "fecId": "H6GA11231",
-      "name": "Uloma Ekpete Kama",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11231/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6GA03170",
       "fecId": "H6GA03170",
       "name": "Uloma Ekpete Kama",
@@ -958,6 +926,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA03170/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6GA11231",
+      "fecId": "H6GA11231",
+      "name": "Uloma Ekpete Kama",
+      "party": "Republican",
+      "state": "GA",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6GA11231/"
         }
       ],
       "funding": null,

@@ -1,8 +1,40 @@
 {
   "state": "NJ",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.433Z",
+  "syncedAt": "2026-07-14T11:48:41.890Z",
   "candidates": [
+    {
+      "id": "fec-H2NJ01187",
+      "fecId": "H2NJ01187",
+      "name": "Damon Galdo",
+      "party": "Republican",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NJ01187/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
     {
       "id": "fec-H4NJ01084",
       "fecId": "H4NJ01084",

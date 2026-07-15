@@ -1,7 +1,7 @@
 {
   "state": "WA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-12T11:00:16.322Z",
+  "syncedAt": "2026-07-15T11:55:15.722Z",
   "candidates": [
     {
       "id": "fec-H6WA01212",
@@ -254,6 +254,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2WA03217/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WA03317",
+      "fecId": "H6WA03317",
+      "name": "Troy Austin Rasband",
+      "party": "Democrat",
+      "state": "WA",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA03317/"
         }
       ],
       "funding": null,

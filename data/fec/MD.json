@@ -1,7 +1,7 @@
 {
   "state": "MD",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.461Z",
+  "syncedAt": "2026-07-15T11:55:15.718Z",
   "candidates": [
     {
       "id": "fec-H8MD01094",
@@ -1374,6 +1374,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MD08457/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MD08630",
+      "fecId": "H6MD08630",
+      "name": "K. Anita Mpambara Cox",
+      "party": "Republican",
+      "state": "MD",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MD08630/"
         }
       ],
       "funding": null,

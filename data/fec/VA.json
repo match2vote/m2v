@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.465Z",
+  "syncedAt": "2026-07-15T11:55:15.721Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -1726,6 +1726,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA00028/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA07296",
+      "fecId": "H6VA07296",
+      "name": "Joseph Schiarizzi",
+      "party": "Democrat",
+      "state": "VA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA07296/"
         }
       ],
       "funding": null,

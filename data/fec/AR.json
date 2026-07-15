@@ -1,7 +1,7 @@
 {
   "state": "AR",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.471Z",
+  "syncedAt": "2026-07-15T11:55:15.726Z",
   "candidates": [
     {
       "id": "fec-H0AR01083",
@@ -318,6 +318,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AR04048/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6AR04084",
+      "fecId": "H6AR04084",
+      "name": "James Richard Mr III Russell",
+      "party": "Democrat",
+      "state": "AR",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AR04084/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "IN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.440Z",
+  "syncedAt": "2026-07-16T12:01:59.509Z",
   "candidates": [
     {
       "id": "fec-H6IN01231",
@@ -670,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IN06230/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6IN06255",
+      "fecId": "H6IN06255",
+      "name": "David Lawrence Boyd",
+      "party": "Democrat",
+      "state": "IN",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IN06255/"
         }
       ],
       "funding": null,

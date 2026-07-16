@@ -1,7 +1,7 @@
 {
   "state": "MN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-12T11:00:16.309Z",
+  "syncedAt": "2026-07-16T12:01:59.508Z",
   "candidates": [
     {
       "id": "fec-H6MN01232",
@@ -382,6 +382,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4MN03118/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MN03188",
+      "fecId": "H6MN03188",
+      "name": "Quentin Wittrock",
+      "party": "Republican",
+      "state": "MN",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MN03188/"
         }
       ],
       "funding": null,

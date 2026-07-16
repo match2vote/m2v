@@ -1,7 +1,7 @@
 {
   "state": "RI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.307Z",
+  "syncedAt": "2026-07-16T12:01:59.512Z",
   "candidates": [
     {
       "id": "fec-H4RI01265",
@@ -190,6 +190,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6RI00163/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6RI00288",
+      "fecId": "S6RI00288",
+      "name": "Michael Bahry",
+      "party": "Independent",
+      "state": "RI",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6RI00288/"
         }
       ],
       "funding": null,

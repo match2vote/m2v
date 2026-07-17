@@ -1,7 +1,7 @@
 {
   "state": "MI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.428Z",
+  "syncedAt": "2026-07-17T11:11:20.916Z",
   "candidates": [
     {
       "id": "fec-H4MI01155",
@@ -766,6 +766,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MI11258/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MI12306",
+      "fecId": "H6MI12306",
+      "name": "Byron H Nolen",
+      "party": "Democrat",
+      "state": "MI",
+      "office": "us-house",
+      "district": "12",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI12306/"
         }
       ],
       "funding": null,
@@ -1726,6 +1758,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0MI10287/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MI09245",
+      "fecId": "H6MI09245",
+      "name": "Steven Raymond Pooley",
+      "party": "Democrat",
+      "state": "MI",
+      "office": "us-house",
+      "district": "9",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI09245/"
         }
       ],
       "funding": null,

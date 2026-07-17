@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T16:14:49.176Z",
+  "syncedAt": "2026-07-17T11:11:20.933Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -638,6 +638,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05192/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05184",
+      "fecId": "H6LA05184",
+      "name": "Stewart Jr. Cathey",
+      "party": "Republican",
+      "state": "LA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05184/"
         }
       ],
       "funding": null,

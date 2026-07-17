@@ -1,7 +1,7 @@
 {
   "state": "WI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-14T11:48:41.894Z",
+  "syncedAt": "2026-07-17T11:11:20.926Z",
   "candidates": [
     {
       "id": "fec-H6WI01267",
@@ -68,6 +68,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H4WI01163",
+      "fecId": "H4WI01163",
+      "name": "Lorenzo Juan Santos",
+      "party": "Democrat",
+      "state": "WI",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4WI01163/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6WI01291",
       "fecId": "H6WI01291",
       "name": "Miguel Aranda",
@@ -126,6 +158,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WI01283/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WI01333",
+      "fecId": "H6WI01333",
+      "name": "Peter Burgelis",
+      "party": "Democrat",
+      "state": "WI",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WI01333/"
         }
       ],
       "funding": null,

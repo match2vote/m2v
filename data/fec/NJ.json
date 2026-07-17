@@ -1,7 +1,7 @@
 {
   "state": "NJ",
   "electionYear": 2026,
-  "syncedAt": "2026-07-14T11:48:41.890Z",
+  "syncedAt": "2026-07-17T11:11:20.921Z",
   "candidates": [
     {
       "id": "fec-H2NJ01187",
@@ -1694,6 +1694,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8NJ03073/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NJ06286",
+      "fecId": "H6NJ06286",
+      "name": "Hillary Herzig",
+      "party": "Republican",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NJ06286/"
         }
       ],
       "funding": null,

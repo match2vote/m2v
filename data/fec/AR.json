@@ -1,7 +1,7 @@
 {
   "state": "AR",
   "electionYear": 2026,
-  "syncedAt": "2026-07-15T11:55:15.726Z",
+  "syncedAt": "2026-07-17T11:11:20.947Z",
   "candidates": [
     {
       "id": "fec-H0AR01083",
@@ -446,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6AR00215/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6AR00223",
+      "fecId": "S6AR00223",
+      "name": "Jeffrey Francis Wadlin",
+      "party": "Libertarian",
+      "state": "AR",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AR00223/"
         }
       ],
       "funding": null,

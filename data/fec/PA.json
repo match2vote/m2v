@@ -1,7 +1,7 @@
 {
   "state": "PA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.467Z",
+  "syncedAt": "2026-07-17T11:11:20.943Z",
   "candidates": [
     {
       "id": "fec-H6PA08277",
@@ -1118,6 +1118,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6PA03179/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6PA03369",
+      "fecId": "H6PA03369",
+      "name": "Dennis Joseph Mahoney",
+      "party": "Independent",
+      "state": "PA",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6PA03369/"
         }
       ],
       "funding": null,

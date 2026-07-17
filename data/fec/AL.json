@@ -1,7 +1,7 @@
 {
   "state": "AL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.435Z",
+  "syncedAt": "2026-07-17T11:11:20.922Z",
   "candidates": [
     {
       "id": "fec-H6AL01102",
@@ -126,6 +126,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0AL01055/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6AL02217",
+      "fecId": "H6AL02217",
+      "name": "David Matthews",
+      "party": "Republican",
+      "state": "AL",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL02217/"
         }
       ],
       "funding": null,
@@ -734,6 +766,70 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AL06098/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6AL06184",
+      "fecId": "H6AL06184",
+      "name": "Maurice Mercer",
+      "party": "Democrat",
+      "state": "AL",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL06184/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6AL07208",
+      "fecId": "H6AL07208",
+      "name": "Ammie Akin",
+      "party": "Republican",
+      "state": "AL",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL07208/"
         }
       ],
       "funding": null,

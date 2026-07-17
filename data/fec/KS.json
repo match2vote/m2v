@@ -1,7 +1,7 @@
 {
   "state": "KS",
   "electionYear": 2026,
-  "syncedAt": "2026-07-14T11:48:41.907Z",
+  "syncedAt": "2026-07-17T11:11:20.946Z",
   "candidates": [
     {
       "id": "fec-H6KS01195",
@@ -446,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6KS00304/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6KS00320",
+      "fecId": "S6KS00320",
+      "name": "Kevin Latz",
+      "party": "Democrat",
+      "state": "KS",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KS00320/"
         }
       ],
       "funding": null,

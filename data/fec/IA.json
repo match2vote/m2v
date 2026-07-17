@@ -1,7 +1,7 @@
 {
   "state": "IA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.456Z",
+  "syncedAt": "2026-07-17T11:11:20.933Z",
   "candidates": [
     {
       "id": "fec-H2IA02111",
@@ -94,6 +94,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8IA02043/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6IA01213",
+      "fecId": "H6IA01213",
+      "name": "Michael Bridgford",
+      "party": "Independent",
+      "state": "IA",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA01213/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "MA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.444Z",
+  "syncedAt": "2026-07-17T11:11:20.932Z",
   "candidates": [
     {
       "id": "fec-H6MA01120",
@@ -132,6 +132,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6MA03100",
+      "fecId": "H6MA03100",
+      "name": "Gary J. Grossi",
+      "party": "Republican",
+      "state": "MA",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MA03100/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H8MA03106",
       "fecId": "H8MA03106",
       "name": "Lori Trahan",
@@ -254,6 +286,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MA04132/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MA04140",
+      "fecId": "H6MA04140",
+      "name": "Thomas Phd Stalcup",
+      "party": "Republican",
+      "state": "MA",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MA04140/"
         }
       ],
       "funding": null,

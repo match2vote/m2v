@@ -1,7 +1,7 @@
 {
   "state": "OH",
   "electionYear": 2026,
-  "syncedAt": "2026-07-13T13:51:54.708Z",
+  "syncedAt": "2026-07-17T11:11:20.917Z",
   "candidates": [
     {
       "id": "fec-H6OH01187",
@@ -996,9 +996,9 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6OH04173",
-      "fecId": "H6OH04173",
-      "name": "Tamara Wilson",
+      "id": "fec-H6OH04181",
+      "fecId": "H6OH04181",
+      "name": "Joshua Kolasinski",
       "party": "Democrat",
       "state": "OH",
       "office": "us-house",
@@ -1021,7 +1021,7 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6OH04173/"
+          "url": "https://www.fec.gov/data/candidate/H6OH04181/"
         }
       ],
       "funding": null,
@@ -1054,6 +1054,70 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2OH04164/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OH04173",
+      "fecId": "H6OH04173",
+      "name": "Tamara Wilson",
+      "party": "Democrat",
+      "state": "OH",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OH04173/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OH05154",
+      "fecId": "H6OH05154",
+      "name": "Brian Alan Shaver",
+      "party": "Democrat",
+      "state": "OH",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OH05154/"
         }
       ],
       "funding": null,

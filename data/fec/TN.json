@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-16T12:01:59.518Z",
+  "syncedAt": "2026-07-17T11:11:20.939Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -932,6 +932,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6TN08367",
+      "fecId": "H6TN08367",
+      "name": "Heidi Kuhn",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN08367/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H0TN09061",
       "fecId": "H0TN09061",
       "name": "Charlotte Bergmann",
@@ -1060,6 +1092,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6TN09498",
+      "fecId": "H6TN09498",
+      "name": "London Lamar",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-house",
+      "district": "9",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN09498/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6TN09068",
       "fecId": "H6TN09068",
       "name": "Steve I Cohen",
@@ -1150,6 +1214,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6TN00398/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6TN00380",
+      "fecId": "S6TN00380",
+      "name": "Maria A Brewer",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6TN00380/"
         }
       ],
       "funding": null,

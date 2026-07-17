@@ -1,7 +1,7 @@
 {
   "state": "WA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-16T12:01:59.521Z",
+  "syncedAt": "2026-07-17T11:11:20.941Z",
   "candidates": [
     {
       "id": "fec-H6WA01212",
@@ -94,6 +94,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0WA08046/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WA10023",
+      "fecId": "H6WA10023",
+      "name": "Alexander William Scheel",
+      "party": "Democrat",
+      "state": "WA",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA10023/"
         }
       ],
       "funding": null,
@@ -900,6 +932,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6WA08126",
+      "fecId": "H6WA08126",
+      "name": "Bob Hagglund",
+      "party": "Republican",
+      "state": "WA",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA08126/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H8WA08189",
       "fecId": "H8WA08189",
       "name": "Kim Schrier",
@@ -1022,6 +1086,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WA09025/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4WA09061",
+      "fecId": "H4WA09061",
+      "name": "Douglas Michael Basler",
+      "party": "Republican",
+      "state": "WA",
+      "office": "us-house",
+      "district": "9",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4WA09061/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "ID",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.469Z",
+  "syncedAt": "2026-07-17T11:11:20.944Z",
   "candidates": [
     {
       "id": "fec-H2ID01192",
@@ -254,6 +254,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6ID02233/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6ID02241",
+      "fecId": "H6ID02241",
+      "name": "Tripp Charles Hutchinson",
+      "party": "Independent",
+      "state": "ID",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6ID02241/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "IL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T16:14:49.159Z",
+  "syncedAt": "2026-07-17T11:11:20.911Z",
   "candidates": [
     {
       "id": "fec-H6IL01191",
@@ -1726,6 +1726,70 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL07420/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6IL07594",
+      "fecId": "H6IL07594",
+      "name": "Chad Chad Koppie",
+      "party": "Republican",
+      "state": "IL",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IL07594/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2IL08203",
+      "fecId": "H2IL08203",
+      "name": "Chad Koppie",
+      "party": "Republican",
+      "state": "IL",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2IL08203/"
         }
       ],
       "funding": null,

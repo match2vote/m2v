@@ -1,7 +1,7 @@
 {
   "state": "GA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-16T12:01:59.505Z",
+  "syncedAt": "2026-07-17T11:11:20.923Z",
   "candidates": [
     {
       "id": "fec-H6GA01158",
@@ -1342,6 +1342,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA13062/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6GA13146",
+      "fecId": "H6GA13146",
+      "name": "Fayth Park",
+      "party": "Republican",
+      "state": "GA",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6GA13146/"
         }
       ],
       "funding": null,

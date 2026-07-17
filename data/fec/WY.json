@@ -1,7 +1,7 @@
 {
   "state": "WY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-15T11:55:15.720Z",
+  "syncedAt": "2026-07-17T11:11:20.939Z",
   "candidates": [
     {
       "id": "fec-H6WY00217",
@@ -260,6 +260,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6WY01165",
+      "fecId": "H6WY01165",
+      "name": "Stephen Friess",
+      "party": "Republican",
+      "state": "WY",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WY01165/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-S0WY00137",
       "fecId": "S0WY00137",
       "name": "Cynthia Marie Lummis",
@@ -356,6 +388,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-S6WY00191",
+      "fecId": "S6WY00191",
+      "name": "Jimmy Skovgard",
+      "party": "Republican",
+      "state": "WY",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6WY00191/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-S4WY00162",
       "fecId": "S4WY00162",
       "name": "Reid Rasner",
@@ -382,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S4WY00162/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6WY00225",
+      "fecId": "S6WY00225",
+      "name": "Samuel Mead",
+      "party": "Republican",
+      "state": "WY",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6WY00225/"
         }
       ],
       "funding": null,

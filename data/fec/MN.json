@@ -1,7 +1,7 @@
 {
   "state": "MN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-16T12:01:59.508Z",
+  "syncedAt": "2026-07-17T11:11:20.925Z",
   "candidates": [
     {
       "id": "fec-H6MN01232",
@@ -894,6 +894,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MN08120/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MN08195",
+      "fecId": "H6MN08195",
+      "name": "Luke Gulbranson",
+      "party": "Democrat",
+      "state": "MN",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MN08195/"
         }
       ],
       "funding": null,

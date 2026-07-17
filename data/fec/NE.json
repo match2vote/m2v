@@ -1,7 +1,7 @@
 {
   "state": "NE",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.457Z",
+  "syncedAt": "2026-07-17T11:11:20.934Z",
   "candidates": [
     {
       "id": "fec-H6NE01143",
@@ -542,6 +542,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S4NE00090/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6NE00145",
+      "fecId": "S6NE00145",
+      "name": "Cindy Burbank",
+      "party": "DE",
+      "state": "NE",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NE00145/"
         }
       ],
       "funding": null,

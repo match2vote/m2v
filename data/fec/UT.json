@@ -1,7 +1,7 @@
 {
   "state": "UT",
   "electionYear": 2026,
-  "syncedAt": "2026-07-10T13:32:09.210Z",
+  "syncedAt": "2026-07-17T11:11:20.943Z",
   "candidates": [
     {
       "id": "fec-H8UT04053",
@@ -382,6 +382,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6UT01160/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6UT02531",
+      "fecId": "H6UT02531",
+      "name": "Robert Michael Moesinger",
+      "party": "Independent",
+      "state": "UT",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT02531/"
         }
       ],
       "funding": null,

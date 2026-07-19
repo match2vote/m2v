@@ -1,7 +1,7 @@
 {
   "state": "MI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.916Z",
+  "syncedAt": "2026-07-19T10:59:58.730Z",
   "candidates": [
     {
       "id": "fec-H4MI01155",
@@ -452,6 +452,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6MI10367",
+      "fecId": "H6MI10367",
+      "name": "Steffan Demetropoulos",
+      "party": "Republican",
+      "state": "MI",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI10367/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H2MI13311",
       "fecId": "H2MI13311",
       "name": "Steven Elliott",
@@ -606,6 +638,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MI11241/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MI11290",
+      "fecId": "H6MI11290",
+      "name": "Ethan D Baker",
+      "party": "Republican",
+      "state": "MI",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI11290/"
         }
       ],
       "funding": null,

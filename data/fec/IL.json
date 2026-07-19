@@ -1,7 +1,7 @@
 {
   "state": "IL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.911Z",
+  "syncedAt": "2026-07-19T10:59:58.725Z",
   "candidates": [
     {
       "id": "fec-H6IL01191",
@@ -1374,6 +1374,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL04161/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6IL04195",
+      "fecId": "H6IL04195",
+      "name": "Christopher Roman Getty",
+      "party": "Independent",
+      "state": "IL",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IL04195/"
         }
       ],
       "funding": null,

@@ -1,8 +1,40 @@
 {
   "state": "NE",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.934Z",
+  "syncedAt": "2026-07-19T10:59:58.752Z",
   "candidates": [
+    {
+      "id": "fec-H6NE01150",
+      "fecId": "H6NE01150",
+      "name": "Austin Lawrence Ahlman",
+      "party": "Independent",
+      "state": "NE",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE01150/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
     {
       "id": "fec-H6NE01143",
       "fecId": "H6NE01143",

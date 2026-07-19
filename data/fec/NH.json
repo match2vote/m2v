@@ -1,7 +1,7 @@
 {
   "state": "NH",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.309Z",
+  "syncedAt": "2026-07-19T10:59:58.762Z",
   "candidates": [
     {
       "id": "fec-H6NH01420",
@@ -510,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NH02261/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NH02287",
+      "fecId": "H6NH02287",
+      "name": "Victor D Orlando",
+      "party": "Republican",
+      "state": "NH",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NH02287/"
         }
       ],
       "funding": null,

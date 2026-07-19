@@ -1,7 +1,7 @@
 {
   "state": "OR",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.427Z",
+  "syncedAt": "2026-07-19T10:59:58.729Z",
   "candidates": [
     {
       "id": "fec-H4OR01121",
@@ -606,6 +606,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2OR01240/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OR06018",
+      "fecId": "H6OR06018",
+      "name": "Jason J Faler",
+      "party": "NO PARTY AFFILIATION",
+      "state": "OR",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR06018/"
         }
       ],
       "funding": null,

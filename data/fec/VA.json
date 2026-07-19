@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.940Z",
+  "syncedAt": "2026-07-19T10:59:58.766Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -1828,6 +1828,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H4VA07275",
+      "fecId": "H4VA07275",
+      "name": "Elizabeth Guzman",
+      "party": "Democrat",
+      "state": "VA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4VA07275/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6VA07189",
       "fecId": "H6VA07189",
       "name": "John Gray",
@@ -1918,6 +1950,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA07296/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA07320",
+      "fecId": "H6VA07320",
+      "name": "Philip A. Harding",
+      "party": "Republican",
+      "state": "VA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA07320/"
         }
       ],
       "funding": null,
@@ -2270,6 +2334,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA09102/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA09144",
+      "fecId": "H6VA09144",
+      "name": "Douglas Crockett",
+      "party": "Democrat",
+      "state": "VA",
+      "office": "us-house",
+      "district": "9",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA09144/"
         }
       ],
       "funding": null,

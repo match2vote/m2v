@@ -1,7 +1,7 @@
 {
   "state": "WA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.941Z",
+  "syncedAt": "2026-07-19T10:59:58.767Z",
   "candidates": [
     {
       "id": "fec-H6WA01212",
@@ -772,6 +772,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6WA05288",
+      "fecId": "H6WA05288",
+      "name": "Richard Freudenberg",
+      "party": "Democrat",
+      "state": "WA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA05288/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H4WA06117",
       "fecId": "H4WA06117",
       "name": "Emily Randall",
@@ -830,6 +862,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WA06260/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WA06286",
+      "fecId": "H6WA06286",
+      "name": "Teresa Fox",
+      "party": "Republican",
+      "state": "WA",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA06286/"
         }
       ],
       "funding": null,

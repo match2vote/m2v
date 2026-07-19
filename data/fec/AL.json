@@ -1,7 +1,7 @@
 {
   "state": "AL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.922Z",
+  "syncedAt": "2026-07-19T10:59:58.749Z",
   "candidates": [
     {
       "id": "fec-H6AL01102",
@@ -766,6 +766,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AL06098/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6AL06168",
+      "fecId": "H6AL06168",
+      "name": "Kimberly Ashtyn Kennedy",
+      "party": "Democrat",
+      "state": "AL",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL06168/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "WY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.939Z",
+  "syncedAt": "2026-07-19T10:59:58.765Z",
   "candidates": [
     {
       "id": "fec-H6WY00217",
@@ -190,6 +190,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WY00225/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WY01140",
+      "fecId": "H6WY01140",
+      "name": "Kevin Christensen",
+      "party": "Republican",
+      "state": "WY",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WY01140/"
         }
       ],
       "funding": null,

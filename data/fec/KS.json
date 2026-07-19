@@ -1,7 +1,7 @@
 {
   "state": "KS",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.946Z",
+  "syncedAt": "2026-07-19T10:59:58.771Z",
   "candidates": [
     {
       "id": "fec-H6KS01195",
@@ -350,6 +350,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8KS04112/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6KS00312",
+      "fecId": "S6KS00312",
+      "name": "Adam Hamilton",
+      "party": "Democrat",
+      "state": "KS",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KS00312/"
         }
       ],
       "funding": null,

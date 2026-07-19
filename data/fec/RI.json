@@ -1,7 +1,7 @@
 {
   "state": "RI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-16T12:01:59.512Z",
+  "syncedAt": "2026-07-19T10:59:58.758Z",
   "candidates": [
     {
       "id": "fec-H4RI01265",
@@ -30,6 +30,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4RI01265/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6RI01153",
+      "fecId": "H6RI01153",
+      "name": "Kellie Eleanor Keenan",
+      "party": "Republican",
+      "state": "RI",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6RI01153/"
         }
       ],
       "funding": null,

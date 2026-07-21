@@ -1,7 +1,7 @@
 {
   "state": "GA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.751Z",
+  "syncedAt": "2026-07-21T12:11:42.720Z",
   "candidates": [
     {
       "id": "fec-H6GA01158",
@@ -1540,6 +1540,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6GA13153",
+      "fecId": "H6GA13153",
+      "name": "Marcye Scott",
+      "party": "Democrat",
+      "state": "GA",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6GA13153/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6GA13096",
       "fecId": "H6GA13096",
       "name": "Pierre Whatley",
@@ -2558,6 +2590,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0GA05301/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6GA06173",
+      "fecId": "H6GA06173",
+      "name": "Crystal Shauna Baptiste",
+      "party": "Republican",
+      "state": "GA",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6GA06173/"
         }
       ],
       "funding": null,

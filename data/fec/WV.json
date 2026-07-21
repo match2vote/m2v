@@ -1,7 +1,7 @@
 {
   "state": "WV",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.437Z",
+  "syncedAt": "2026-07-21T12:11:42.721Z",
   "candidates": [
     {
       "id": "fec-H6WV01137",
@@ -286,6 +286,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4WV02247/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S4WV00407",
+      "fecId": "S4WV00407",
+      "name": "Janet McNulty",
+      "party": "Republican",
+      "state": "WV",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4WV00407/"
         }
       ],
       "funding": null,

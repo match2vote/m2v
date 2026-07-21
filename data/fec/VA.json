@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.766Z",
+  "syncedAt": "2026-07-21T12:11:42.734Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -1022,6 +1022,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA02164/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA02255",
+      "fecId": "H6VA02255",
+      "name": "William Weathers Fleming",
+      "party": "Democrat",
+      "state": "VA",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA02255/"
         }
       ],
       "funding": null,

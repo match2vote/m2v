@@ -1,8 +1,40 @@
 {
   "state": "OR",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.729Z",
+  "syncedAt": "2026-07-21T12:11:42.713Z",
   "candidates": [
+    {
+      "id": "fec-H6OR01308",
+      "fecId": "H6OR01308",
+      "name": "Barbara J Dr Dvm Kahl",
+      "party": "Republican",
+      "state": "OR",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR01308/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
     {
       "id": "fec-H4OR01121",
       "fecId": "H4OR01121",

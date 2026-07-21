@@ -1,8 +1,40 @@
 {
   "state": "VI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.316Z",
+  "syncedAt": "2026-07-21T12:11:42.740Z",
   "candidates": [
+    {
+      "id": "fec-H6VI01073",
+      "fecId": "H6VI01073",
+      "name": "Delia Laverne Smith",
+      "party": "Democrat",
+      "state": "VI",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VI01073/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
     {
       "id": "fec-H6VI01065",
       "fecId": "H6VI01065",

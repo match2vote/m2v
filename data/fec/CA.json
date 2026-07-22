@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.426Z",
+  "syncedAt": "2026-07-22T12:14:05.826Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -6750,6 +6750,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8CA49074/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H0CA34115",
+      "fecId": "H0CA34115",
+      "name": "Frances Yasmeen Motiwalla",
+      "party": "Democrat",
+      "state": "CA",
+      "office": "us-house",
+      "district": "52",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0CA34115/"
         }
       ],
       "funding": null,

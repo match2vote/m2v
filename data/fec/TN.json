@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.765Z",
+  "syncedAt": "2026-07-22T12:14:05.859Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -798,6 +798,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN06288/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TN07286",
+      "fecId": "H6TN07286",
+      "name": "Darden Hunter Copeland",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN07286/"
         }
       ],
       "funding": null,

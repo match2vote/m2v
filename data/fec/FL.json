@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-21T12:11:42.717Z",
+  "syncedAt": "2026-07-22T12:14:05.830Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -2244,8 +2244,8 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6FL19327",
-      "fecId": "H6FL19327",
+      "id": "fec-H6FL19319",
+      "fecId": "H6FL19319",
       "name": "Seth Haskin",
       "party": "NO PARTY AFFILIATION",
       "state": "FL",
@@ -2269,7 +2269,7 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6FL19327/"
+          "url": "https://www.fec.gov/data/candidate/H6FL19319/"
         }
       ],
       "funding": null,
@@ -6782,6 +6782,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S2FL00466/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6FL00863",
+      "fecId": "S6FL00863",
+      "name": "Neil Joseph Gilespie",
+      "party": "NO PARTY AFFILIATION",
+      "state": "FL",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6FL00863/"
         }
       ],
       "funding": null,

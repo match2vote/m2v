@@ -1,7 +1,7 @@
 {
   "state": "KY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-22T12:14:05.851Z",
+  "syncedAt": "2026-07-23T12:12:26.884Z",
   "candidates": [
     {
       "id": "fec-H6KY01110",
@@ -1086,6 +1086,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6KY00385/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6KY00377",
+      "fecId": "S6KY00377",
+      "name": "Christopher Todd Campbell",
+      "party": "OTHER",
+      "state": "KY",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KY00377/"
         }
       ],
       "funding": null,

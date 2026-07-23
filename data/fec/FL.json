@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-22T12:14:05.830Z",
+  "syncedAt": "2026-07-23T12:12:26.730Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -5540,6 +5540,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H2FL03197",
+      "fecId": "H2FL03197",
+      "name": "Manuel Asensio",
+      "party": "Republican",
+      "state": "FL",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2FL03197/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6FL06423",
       "fecId": "H6FL06423",
       "name": "Michael Gist",
@@ -6782,38 +6814,6 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S2FL00466/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
-      "id": "fec-S6FL00863",
-      "fecId": "S6FL00863",
-      "name": "Neil Joseph Gilespie",
-      "party": "NO PARTY AFFILIATION",
-      "state": "FL",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6FL00863/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "VT",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T01:59:21.311Z",
+  "syncedAt": "2026-07-24T12:01:59.650Z",
   "candidates": [
     {
       "id": "fec-H4VT01056",
@@ -30,6 +30,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4VT01056/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VT01085",
+      "fecId": "H6VT01085",
+      "name": "Gerald Malloy",
+      "party": "Republican",
+      "state": "VT",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VT01085/"
         }
       ],
       "funding": null,

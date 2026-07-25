@@ -1,7 +1,7 @@
 {
   "state": "MD",
   "electionYear": 2026,
-  "syncedAt": "2026-07-15T11:55:15.718Z",
+  "syncedAt": "2026-07-25T10:55:22.910Z",
   "candidates": [
     {
       "id": "fec-H8MD01094",
@@ -1406,6 +1406,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MD08630/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MD03508",
+      "fecId": "H6MD03508",
+      "name": "Austin Dyches",
+      "party": "Democrat",
+      "state": "MD",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MD03508/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-22T12:14:05.826Z",
+  "syncedAt": "2026-07-27T15:59:01.785Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -6718,6 +6718,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2CA52089/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2CA50190",
+      "fecId": "H2CA50190",
+      "name": "Timothy Daniel Dr. M.D. Bilash",
+      "party": "Democrat",
+      "state": "CA",
+      "office": "us-house",
+      "district": "50",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA50190/"
         }
       ],
       "funding": null,

@@ -1,7 +1,7 @@
 {
   "state": "MO",
   "electionYear": 2026,
-  "syncedAt": "2026-07-25T10:55:22.903Z",
+  "syncedAt": "2026-07-27T15:59:01.807Z",
   "candidates": [
     {
       "id": "fec-H8MO01143",
@@ -254,6 +254,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO02335/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MO02327",
+      "fecId": "H6MO02327",
+      "name": "Timothy D Bilash",
+      "party": "Democrat",
+      "state": "MO",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MO02327/"
         }
       ],
       "funding": null,

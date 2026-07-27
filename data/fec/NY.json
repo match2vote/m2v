@@ -1,7 +1,7 @@
 {
   "state": "NY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-22T12:14:05.852Z",
+  "syncedAt": "2026-07-27T15:59:01.810Z",
   "candidates": [
     {
       "id": "fec-H6NY01159",
@@ -3678,6 +3678,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NY08139/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NY09160",
+      "fecId": "H6NY09160",
+      "name": "Jean Fritzner Depalis",
+      "party": "Republican",
+      "state": "NY",
+      "office": "us-house",
+      "district": "9",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NY09160/"
         }
       ],
       "funding": null,

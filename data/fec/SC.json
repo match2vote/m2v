@@ -1,7 +1,7 @@
 {
   "state": "SC",
   "electionYear": 2026,
-  "syncedAt": "2026-07-27T15:59:01.814Z",
+  "syncedAt": "2026-07-28T12:26:51.471Z",
   "candidates": [
     {
       "id": "fec-H6SC01268",
@@ -644,38 +644,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6SC02159",
-      "fecId": "H6SC02159",
-      "name": "Zyon Deshon Khalifa",
-      "party": "Democrat",
-      "state": "SC",
-      "office": "us-house",
-      "district": "2",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6SC02159/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6SC02167",
       "fecId": "H6SC02167",
       "name": "Zyon Deshon Khalifa",
@@ -702,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC02167/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6SC02159",
+      "fecId": "H6SC02159",
+      "name": "Zyon Deshon Khalifa",
+      "party": "Democrat",
+      "state": "SC",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC02159/"
         }
       ],
       "funding": null,

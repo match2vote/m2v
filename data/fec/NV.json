@@ -1,7 +1,7 @@
 {
   "state": "NV",
   "electionYear": 2026,
-  "syncedAt": "2026-07-24T12:01:59.642Z",
+  "syncedAt": "2026-07-28T12:26:51.468Z",
   "candidates": [
     {
       "id": "fec-H6NV01315",
@@ -804,38 +804,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6NV03204",
-      "fecId": "H6NV03204",
-      "name": "Marty O'Donnell",
-      "party": "Republican",
-      "state": "NV",
-      "office": "us-house",
-      "district": "3",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6NV03204/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H4NV03225",
       "fecId": "H4NV03225",
       "name": "Marty O'Donnell",
@@ -862,6 +830,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4NV03225/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NV03204",
+      "fecId": "H6NV03204",
+      "name": "Marty O'Donnell",
+      "party": "Republican",
+      "state": "NV",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV03204/"
         }
       ],
       "funding": null,

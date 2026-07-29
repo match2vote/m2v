@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-26T11:10:19.596Z",
+  "syncedAt": "2026-07-29T13:11:02.285Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -574,6 +574,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05259/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05317",
+      "fecId": "H6LA05317",
+      "name": "Michael Gabriel Firment",
+      "party": "Republican",
+      "state": "LA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05317/"
         }
       ],
       "funding": null,

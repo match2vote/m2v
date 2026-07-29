@@ -1,7 +1,7 @@
 {
   "state": "KY",
   "electionYear": 2026,
-  "syncedAt": "2026-07-27T15:59:01.809Z",
+  "syncedAt": "2026-07-29T13:11:02.281Z",
   "candidates": [
     {
       "id": "fec-H6KY01110",
@@ -484,38 +484,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6KY04155",
-      "fecId": "H6KY04155",
-      "name": "Robert Stacy Wells",
-      "party": "Republican",
-      "state": "KY",
-      "office": "us-house",
-      "district": "4",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6KY04155/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6KY04197",
       "fecId": "H6KY04197",
       "name": "Robert Stacy Wells",
@@ -542,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KY04197/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6KY04155",
+      "fecId": "H6KY04155",
+      "name": "Robert Stacy Wells",
+      "party": "Republican",
+      "state": "KY",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY04155/"
         }
       ],
       "funding": null,

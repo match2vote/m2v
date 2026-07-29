@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-24T12:01:59.621Z",
+  "syncedAt": "2026-07-29T13:11:02.273Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -1758,6 +1758,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL17081/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6FL18212",
+      "fecId": "H6FL18212",
+      "name": "Curtis Gibson",
+      "party": "Democrat",
+      "state": "FL",
+      "office": "us-house",
+      "district": "18",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6FL18212/"
         }
       ],
       "funding": null,

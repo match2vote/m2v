@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-07-25T10:55:22.912Z",
+  "syncedAt": "2026-07-29T13:11:02.290Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -670,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN06262/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TN06239",
+      "fecId": "H6TN06239",
+      "name": "Lore Ann Bergman",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN06239/"
         }
       ],
       "funding": null,

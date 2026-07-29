@@ -1,7 +1,7 @@
 {
   "state": "MA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.932Z",
+  "syncedAt": "2026-07-29T13:11:02.284Z",
   "candidates": [
     {
       "id": "fec-H6MA01120",
@@ -318,6 +318,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MA04140/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MA05105",
+      "fecId": "H6MA05105",
+      "name": "Jonathan Paz",
+      "party": "Democrat",
+      "state": "MA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MA05105/"
         }
       ],
       "funding": null,

@@ -1,8 +1,40 @@
 {
   "state": "CT",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.459Z",
+  "syncedAt": "2026-07-30T12:14:37.570Z",
   "candidates": [
+    {
+      "id": "fec-H2CT03102",
+      "fecId": "H2CT03102",
+      "name": "Amy Fogelstrom Chai",
+      "party": "Republican",
+      "state": "CT",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CT03102/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
     {
       "id": "fec-H6CT01198",
       "fecId": "H6CT01198",

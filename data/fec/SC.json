@@ -1,7 +1,7 @@
 {
   "state": "SC",
   "electionYear": 2026,
-  "syncedAt": "2026-07-29T13:11:02.286Z",
+  "syncedAt": "2026-07-30T12:14:37.569Z",
   "candidates": [
     {
       "id": "fec-H6SC01268",
@@ -644,38 +644,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6SC02159",
-      "fecId": "H6SC02159",
-      "name": "Zyon Deshon Khalifa",
-      "party": "Democrat",
-      "state": "SC",
-      "office": "us-house",
-      "district": "2",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6SC02159/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6SC02167",
       "fecId": "H6SC02167",
       "name": "Zyon Deshon Khalifa",
@@ -702,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC02167/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6SC02159",
+      "fecId": "H6SC02159",
+      "name": "Zyon Deshon Khalifa",
+      "party": "Democrat",
+      "state": "SC",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC02159/"
         }
       ],
       "funding": null,
@@ -1540,6 +1540,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-S6SC04452",
+      "fecId": "S6SC04452",
+      "name": "Marshall C Sanford",
+      "party": "Republican",
+      "state": "SC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04452/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-S6SC04346",
       "fecId": "S6SC04346",
       "name": "Patrick Joseph Herrmann",
@@ -1630,6 +1662,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6SC04445/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6SC04403",
+      "fecId": "S6SC04403",
+      "name": "Russell Fry",
+      "party": "Republican",
+      "state": "SC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04403/"
         }
       ],
       "funding": null,

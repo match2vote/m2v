@@ -1,7 +1,7 @@
 {
   "state": "MI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.730Z",
+  "syncedAt": "2026-08-01T11:06:31.961Z",
   "candidates": [
     {
       "id": "fec-H4MI01155",
@@ -606,6 +606,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4MI10131/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MI11266",
+      "fecId": "H6MI11266",
+      "name": "Antonio J Prieto",
+      "party": "Republican",
+      "state": "MI",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI11266/"
         }
       ],
       "funding": null,

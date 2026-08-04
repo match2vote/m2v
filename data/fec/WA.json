@@ -1,7 +1,7 @@
 {
   "state": "WA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-21T12:11:42.735Z",
+  "syncedAt": "2026-08-04T12:32:01.049Z",
   "candidates": [
     {
       "id": "fec-H6WA01212",
@@ -190,6 +190,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0WA02080/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WA02202",
+      "fecId": "H6WA02202",
+      "name": "Tomas Roberto Scheel",
+      "party": "Democrat",
+      "state": "WA",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA02202/"
         }
       ],
       "funding": null,

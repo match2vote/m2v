@@ -1,7 +1,7 @@
 {
   "state": "GA",
   "electionYear": 2026,
-  "syncedAt": "2026-08-05T12:28:02.930Z",
+  "syncedAt": "2026-08-06T12:33:23.961Z",
   "candidates": [
     {
       "id": "fec-H6GA01158",
@@ -836,38 +836,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6GA11207",
-      "fecId": "H6GA11207",
-      "name": "Tricia Pridemore",
-      "party": "Republican",
-      "state": "GA",
-      "office": "us-house",
-      "district": "11",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6GA11207/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H4GA11087",
       "fecId": "H4GA11087",
       "name": "Tricia Pridemore",
@@ -894,6 +862,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4GA11087/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6GA11207",
+      "fecId": "H6GA11207",
+      "name": "Tricia Pridemore",
+      "party": "Republican",
+      "state": "GA",
+      "office": "us-house",
+      "district": "11",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6GA11207/"
         }
       ],
       "funding": null,

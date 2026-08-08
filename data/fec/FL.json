@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-31T13:09:33.267Z",
+  "syncedAt": "2026-08-08T08:22:01.392Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -4350,6 +4350,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL23154/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6FL25068",
+      "fecId": "H6FL25068",
+      "name": "Peter Jassenoff",
+      "party": "Libertarian",
+      "state": "FL",
+      "office": "us-house",
+      "district": "25",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6FL25068/"
         }
       ],
       "funding": null,

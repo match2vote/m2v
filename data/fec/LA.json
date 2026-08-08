@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-29T13:11:02.285Z",
+  "syncedAt": "2026-08-08T08:22:01.399Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -484,38 +484,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6LA05309",
-      "fecId": "H6LA05309",
-      "name": "Lindsay Garcia",
-      "party": "Democrat",
-      "state": "LA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6LA05309/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6LA05242",
       "fecId": "H6LA05242",
       "name": "Michael Charles Echols",
@@ -830,6 +798,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05168/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05309",
+      "fecId": "H6LA05309",
+      "name": "Lindsay Garcia",
+      "party": "Democrat",
+      "state": "LA",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05309/"
         }
       ],
       "funding": null,

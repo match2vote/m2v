@@ -1,7 +1,7 @@
 {
   "state": "AK",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.466Z",
+  "syncedAt": "2026-08-10T08:06:26.897Z",
   "candidates": [
     {
       "id": "fec-H6AK01092",
@@ -158,6 +158,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S4AK00214/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6AK00326",
+      "fecId": "S6AK00326",
+      "name": "Daniel J Sullivan",
+      "party": "Republican",
+      "state": "AK",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AK00326/"
         }
       ],
       "funding": null,

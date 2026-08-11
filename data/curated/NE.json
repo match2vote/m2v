@@ -1,0 +1,63 @@
+{
+  "state": "NE",
+  "note": "Hand-curated, sourced entries. Two-way race: Republican incumbent vs. independent — no Democratic nominee; a reminder the app matches on policy, never party.",
+  "races": {
+    "NE-senate": {
+      "status": "general",
+      "advancing": ["fec-S6NE00129", "fec-S4NE00207"],
+      "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6NE00129",
+      "name": "Pete Ricketts",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "NE",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "U.S. Senator since 2023 (appointed, then elected in a 2024 special); Governor of Nebraska 2015–2023; former TD Ameritrade executive.",
+      "positions": {
+        "cost": null, "health": null, "housing": null, "immigration": null, "taxes": 2,
+        "climate": null, "education": null, "safety": null, "repro": 2, "democracy": null
+      },
+      "positionSources": {
+        "taxes": { "label": "As governor: $408M property-tax relief, cut state spending growth 6.5%→0.6% (Ballotpedia)", "url": "https://ballotpedia.org/Pete_Ricketts" },
+        "repro": { "label": "Moved to end Title X funds for abortion providers; signed pro-life legislation as governor (Ballotpedia)", "url": "https://ballotpedia.org/Pete_Ricketts" }
+      },
+      "sources": [
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Pete_Ricketts" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NE00129/" }
+      ],
+      "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "fec-S4NE00207",
+      "name": "Dan Osborn",
+      "party": "Independent",
+      "office": "us-senate",
+      "state": "NE",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Industrial mechanic and Navy veteran who led the 2021 Kellogg's strike in Omaha; ran a close independent race in 2024, running again in 2026. Petitioned onto the November ballot.",
+      "positions": {
+        "cost": -1, "health": null, "housing": null, "immigration": 0, "taxes": -1,
+        "climate": null, "education": null, "safety": null, "repro": 0, "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "Raise the federal minimum wage; cut taxes on overtime and small business; right-to-repair (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dan_Osborn" },
+        "immigration": { "label": "Mixed: supports the border wall and security, and legalizing long-term non-criminal undocumented workers (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dan_Osborn" },
+        "taxes": { "label": "Raise Social Security cap on high earners; criticizes 'tax cuts for the billionaires'; cut small-business taxes (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dan_Osborn" },
+        "repro": { "label": "Personally pro-life, opposes a national ban; backs access within Roe limits, opposes late-term abortion (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dan_Osborn" }
+      },
+      "sources": [
+        { "label": "Wikipedia: Dan Osborn", "url": "https://en.wikipedia.org/wiki/Dan_Osborn" },
+        { "label": "Nebraska Examiner: ballot qualification", "url": "https://nebraskaexaminer.com/2026/07/16/nebraska-nonpartisan-us-senate-candidate-dan-osborn-qualifies-for-november-ballot/" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S4NE00207/" }
+      ],
+      "curatedAt": "2026-08-12"
+    }
+  ]
+}

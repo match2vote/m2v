@@ -1,0 +1,64 @@
+{
+  "state": "KS",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "KS-senate": {
+      "status": "general",
+      "advancing": ["fec-S0KS00315", "fec-S6KS00312"],
+      "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S0KS00315",
+      "name": "Roger Marshall",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "KS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "U.S. Senator since 2021; OB-GYN physician; previously represented Kansas's Big First district in the House.",
+      "positions": {
+        "cost": null, "health": 2, "housing": null, "immigration": 2, "taxes": 2,
+        "climate": 1, "education": null, "safety": null, "repro": 2, "democracy": 2
+      },
+      "positionSources": {
+        "health": { "label": "Opposes 'Obamacare' and 'socialized medicine'; voted to repeal the individual mandate (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" },
+        "immigration": { "label": "Supports the border wall; 'turn off the magnets' attracting migrants (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" },
+        "taxes": { "label": "'The less control the federal government has, the better off we will be' — lower taxes, less regulation (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" },
+        "climate": { "label": "Opposes EPA Waters of the U.S. rules and environmental regulation of farming (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" },
+        "repro": { "label": "'Life begins at conception'; backed Heartbeat Bill, 20-week ban, defunding Planned Parenthood (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" },
+        "democracy": { "label": "Objected to certifying Arizona and Pennsylvania 2020 electoral votes (Ballotpedia)", "url": "https://ballotpedia.org/Roger_Marshall" }
+      },
+      "sources": [
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Roger_Marshall" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S0KS00315/" }
+      ],
+      "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "fec-S6KS00312",
+      "name": "Adam Hamilton",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "KS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Founding pastor of the Church of the Resurrection, the largest United Methodist congregation in the U.S.; first-time candidate running as an 'independent-minded Democrat.' Won the Aug 4 primary.",
+      "positions": {
+        "cost": 1, "health": null, "housing": null, "immigration": null, "taxes": null,
+        "climate": null, "education": null, "safety": null, "repro": -1, "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "Critical of tariffs as a cost to consumers (Christian Post platform coverage)", "url": "https://www.christianpost.com/news/adam-hamilton-releases-pro-choice-anti-tariff-platform.html" },
+        "repro": { "label": "'Pro-choice on abortion' — platform statement, no further detail yet (Christian Post)", "url": "https://www.christianpost.com/news/adam-hamilton-releases-pro-choice-anti-tariff-platform.html" }
+      },
+      "sources": [
+        { "label": "Christian Post: platform coverage", "url": "https://www.christianpost.com/news/adam-hamilton-releases-pro-choice-anti-tariff-platform.html" },
+        { "label": "Campaign site", "url": "https://hamiltonforkansas.com/" }
+      ],
+      "curatedAt": "2026-08-12"
+    }
+  ]
+}

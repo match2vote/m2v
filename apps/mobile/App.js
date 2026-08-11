@@ -8,6 +8,8 @@ import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing }
 import { theme } from './src/theme';
 import { SAMPLE_RACE } from './src/sampleData';
 import { StatePicker, Races, Race, Profile } from './src/screens/Browse';
+import { MyBallot, Methodology } from './src/screens/Ballot';
+import { savePick } from './src/api';
 
 const { colors, space } = theme;
 
@@ -36,7 +38,12 @@ export default function App() {
     <View style={{ flex: 1, backgroundColor: colors.bg }}>
       <StatusBar style="dark" />
       {route === 'welcome' && (
-        <Welcome onStart={() => setRoute('quiz')} onBrowse={() => setRoute('states')} />
+        <Welcome
+          onStart={() => setRoute('quiz')}
+          onBrowse={() => setRoute('states')}
+          onBallot={() => setRoute('ballot')}
+          onMethodology={() => setRoute('methodology')}
+        />
       )}
       {route === 'quiz' && (
         <Quiz
@@ -83,13 +90,26 @@ export default function App() {
         />
       )}
       {route === 'profile' && (
-        <Profile candidate={candidate} onBack={() => setRoute('race')} />
+        <Profile
+          candidate={candidate}
+          race={race}
+          answers={answers}
+          matters={matters}
+          onAddToBallot={(pick) => savePick(pick)}
+          onBack={() => setRoute('race')}
+        />
+      )}
+      {route === 'ballot' && (
+        <MyBallot onBack={() => setRoute('welcome')} onBrowse={() => setRoute('states')} />
+      )}
+      {route === 'methodology' && (
+        <Methodology onBack={() => setRoute('welcome')} />
       )}
     </View>
   );
 }
 
-function Welcome({ onStart, onBrowse }) {
+function Welcome({ onStart, onBrowse, onBallot, onMethodology }) {
   return (
     <Screen>
       <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(2) }}>
@@ -103,9 +123,12 @@ function Welcome({ onStart, onBrowse }) {
       </Body>
       <Button label="Take the quiz" onPress={onStart} />
       <Button kind="ghost" label="Browse candidates in your state" onPress={onBrowse} />
-      <Body soft style={{ fontSize: 12, marginTop: space(4), textAlign: 'center' }}>
-        Nonpartisan · No account needed · Positions are never guessed
-      </Body>
+      <Button kind="ghost" label="My Ballot" onPress={onBallot} />
+      <Pressable onPress={onMethodology}>
+        <Body soft style={{ fontSize: 12, marginTop: space(4), textAlign: 'center', textDecorationLine: 'underline' }}>
+          How matching works · Nonpartisan · Positions are never guessed
+        </Body>
+      </Pressable>
     </Screen>
   );
 }

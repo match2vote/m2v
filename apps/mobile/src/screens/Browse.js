@@ -116,9 +116,12 @@ export function Race({ race, answers, matters, onOpenProfile, onBack }) {
   );
 }
 
-export function Profile({ candidate, onBack }) {
+export function Profile({ candidate, race, answers, matters, onAddToBallot, onBack }) {
+  const [added, setAdded] = useState(false);
   const positions = candidate.positions || {};
   const posSources = candidate.positionSources || {};
+  const hasQuiz = answers && Object.values(answers).some((v) => v !== null && v !== undefined);
+  const match = hasQuiz ? computeMatch(answers, matters || {}, positions) : null;
   return (
     <Screen>
       <H1>{candidate.name}</H1>
@@ -172,6 +175,20 @@ export function Profile({ candidate, onBack }) {
             onPress={() => Linking.openURL(s.url)}
           />
         ))}
+        {race && onAddToBallot && (
+          <Button
+            label={added ? '✓ On your ballot' : 'Add to My Ballot'}
+            onPress={() => {
+              if (added) return;
+              onAddToBallot({
+                raceId: race.id, raceTitle: race.title, state: candidate.state,
+                candidateId: candidate.id, name: candidate.name, party: candidate.party,
+                tier: candidate.tier, matchPct: match?.pct ?? null,
+              });
+              setAdded(true);
+            }}
+          />
+        )}
         <Button kind="ghost" label="Back" onPress={onBack} />
       </ScrollView>
     </Screen>

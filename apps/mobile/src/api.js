@@ -95,6 +95,23 @@ export async function getStateData(code, onUpdate) {
   return current;
 }
 
+// --- My Ballot: the user's saved picks, on device only (never uploaded) ---
+const PICKS_KEY = 'm2v:picks:v1';
+export async function getPicks() {
+  try { return JSON.parse((await store.get(PICKS_KEY)) || '[]'); } catch { return []; }
+}
+export async function savePick(pick) {
+  const picks = (await getPicks()).filter((p) => p.raceId !== pick.raceId);
+  picks.push(pick);
+  await store.set(PICKS_KEY, JSON.stringify(picks));
+  return picks;
+}
+export async function removePick(raceId) {
+  const picks = (await getPicks()).filter((p) => p.raceId !== raceId);
+  await store.set(PICKS_KEY, JSON.stringify(picks));
+  return picks;
+}
+
 // Dataset-wide freshness info for the About/Methodology screen.
 export async function getDatasetInfo() {
   try {

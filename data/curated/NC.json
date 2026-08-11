@@ -4,8 +4,19 @@
   "races": {
     "NC-senate": {
       "status": "general",
-      "advancing": ["fec-S6NC00407", "fec-S6NC00415"],
+      "advancing": [
+        "fec-S6NC00407",
+        "fec-S6NC00415"
+      ],
       "statusNote": "Primary held March 3, 2026 — Cooper (D) and Whatley (R) won their nominations."
+    },
+    "NC-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2NC02287",
+        "fec-H4NC01137"
+      ],
+      "statusNote": "NC's most competitive House seat: Rep. Don Davis (D) faces Laurie Buckhout (R) in a 2024 rematch. We know who's running — positions not researched yet."
     }
   },
   "candidates": [
@@ -31,19 +42,54 @@
         "democracy": -1
       },
       "positionSources": {
-        "cost": { "label": "'Make Stuff Cost Less' platform: block grocery mergers, ban algorithmic pricing, bar price coordination (NC Newsline)", "url": "https://ncnewsline.com/2026/03/04/former-nc-gov-roy-cooper-kicks-off-us-senate-campaign-with-pledge-to-make-stuff-cost-less/" },
-        "health": { "label": "Championed NC Medicaid expansion; platform: cap drug costs, protect ACA (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
-        "immigration": { "label": "Vetoed 2019 bill requiring sheriffs to cooperate with ICE (WBTV)", "url": "https://www.wbtv.com/2019/08/20/nc-house-passes-bill-requiring-sheriffs-cooperate-with-ice-bill-heads-gov-roy-cooper/" },
-        "climate": { "label": "Launched NC Clean Energy Plan as governor (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
-        "education": { "label": "Record: teacher raises, pre-K expansion, Teaching Fellows; opposed voucher expansion (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" },
-        "repro": { "label": "Vetoed NC's 12-week abortion ban, May 2023 (NPR)", "url": "https://www.npr.org/2023/05/14/1176064846/north-carolinas-governor-vetoed-a-12-week-abortion-ban-setting-up-an-override-fi" },
-        "democracy": { "label": "Long-standing opposition to NC voter ID legislation (Ballotpedia)", "url": "https://ballotpedia.org/Roy_Cooper" }
+        "cost": {
+          "label": "'Make Stuff Cost Less' platform: block grocery mergers, ban algorithmic pricing, bar price coordination (NC Newsline)",
+          "url": "https://ncnewsline.com/2026/03/04/former-nc-gov-roy-cooper-kicks-off-us-senate-campaign-with-pledge-to-make-stuff-cost-less/"
+        },
+        "health": {
+          "label": "Championed NC Medicaid expansion; platform: cap drug costs, protect ACA (Ballotpedia)",
+          "url": "https://ballotpedia.org/Roy_Cooper"
+        },
+        "immigration": {
+          "label": "Vetoed 2019 bill requiring sheriffs to cooperate with ICE (WBTV)",
+          "url": "https://www.wbtv.com/2019/08/20/nc-house-passes-bill-requiring-sheriffs-cooperate-with-ice-bill-heads-gov-roy-cooper/"
+        },
+        "climate": {
+          "label": "Launched NC Clean Energy Plan as governor (Ballotpedia)",
+          "url": "https://ballotpedia.org/Roy_Cooper"
+        },
+        "education": {
+          "label": "Record: teacher raises, pre-K expansion, Teaching Fellows; opposed voucher expansion (Ballotpedia)",
+          "url": "https://ballotpedia.org/Roy_Cooper"
+        },
+        "repro": {
+          "label": "Vetoed NC's 12-week abortion ban, May 2023 (NPR)",
+          "url": "https://www.npr.org/2023/05/14/1176064846/north-carolinas-governor-vetoed-a-12-week-abortion-ban-setting-up-an-override-fi"
+        },
+        "democracy": {
+          "label": "Long-standing opposition to NC voter ID legislation (Ballotpedia)",
+          "url": "https://ballotpedia.org/Roy_Cooper"
+        }
       },
       "sources": [
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Roy_Cooper" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NC00407/" }
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Roy_Cooper"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00407/"
+        }
       ],
-      "curatedAt": "2026-07-09"
+      "curatedAt": "2026-07-09",
+      "age": 68,
+      "home": "Nashville, NC",
+      "now": "Governor of North Carolina",
+      "priorities": [
+        "Lower health-care costs and expand Medicaid",
+        "Fund public education",
+        "Protect reproductive rights"
+      ]
     },
     {
       "id": "fec-S6NC00415",
@@ -67,20 +113,112 @@
         "democracy": 2
       },
       "positionSources": {
-        "cost": { "label": "Campaign: 'more money in your pockets,' fiscal responsibility, unleash American energy (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "immigration": { "label": "'100% supportive' of securing the border and deportations (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "taxes": { "label": "Campaign: fiscal responsibility, 'more money in your pockets' — no detailed tax plan published (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "climate": { "label": "Campaign: energy independence, 'unleashing American energy' (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "safety": { "label": "Campaign: 'back the blue without apology,' restore law and order, opposes cashless bail (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "repro": { "label": "Campaign pledges 'protecting life' — no specifics published (campaign site)", "url": "https://michaelwhatley.com/issues/" },
-        "democracy": { "label": "Campaign: 'protect the ballot'; led election-integrity efforts as NC GOP chair (campaign site)", "url": "https://michaelwhatley.com/issues/" }
+        "cost": {
+          "label": "Campaign: 'more money in your pockets,' fiscal responsibility, unleash American energy (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "immigration": {
+          "label": "'100% supportive' of securing the border and deportations (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "taxes": {
+          "label": "Campaign: fiscal responsibility, 'more money in your pockets' — no detailed tax plan published (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "climate": {
+          "label": "Campaign: energy independence, 'unleashing American energy' (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "safety": {
+          "label": "Campaign: 'back the blue without apology,' restore law and order, opposes cashless bail (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "repro": {
+          "label": "Campaign pledges 'protecting life' — no specifics published (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        "democracy": {
+          "label": "Campaign: 'protect the ballot'; led election-integrity efforts as NC GOP chair (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
+        }
       },
       "sources": [
-        { "label": "Campaign issues page", "url": "https://michaelwhatley.com/issues/" },
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Michael_Whatley" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NC00415/" }
+        {
+          "label": "Campaign issues page",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Michael_Whatley"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NC00415/"
+        }
       ],
-      "curatedAt": "2026-07-09"
+      "curatedAt": "2026-07-09",
+      "age": 57,
+      "home": "Gastonia, NC",
+      "now": "Chair, Republican National Committee",
+      "priorities": [
+        "Border security",
+        "Cut taxes and spending",
+        "Support the Trump agenda"
+      ]
+    },
+    {
+      "id": "fec-H2NC02287",
+      "name": "Don Davis",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "NC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 54,
+      "home": "Greene County, NC",
+      "now": "U.S. House of Representatives (NC-01)",
+      "background": "Don Davis is the incumbent U.S. Representative for North Carolina’s 1st District, a former Air Force officer, Presbyterian minister, ex-mayor of Snow Hill, and longtime state senator. He is widely described as a moderate Democrat with a notably bipartisan voting record, and faces a competitive 2026 rematch in a redrawn, more Republican-leaning district.",
+      "priorities": [
+        "Make everyday life more affordable (groceries, health care)",
+        "Deliver for eastern NC — agriculture, rural water, flood recovery",
+        "Support veterans and military families"
+      ],
+      "sources": [
+        {
+          "label": "NC Newsline: primary result",
+          "url": "https://ncnewsline.com/2026/03/03/ager-wraps-up-dem-nomination-in-nc-11-buckhout-takes-nc-01-republican-primary/"
+        }
+      ],
+      "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "fec-H4NC01137",
+      "name": "Laurie Buckhout",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "NC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 64,
+      "home": "Edenton, NC",
+      "now": "Acting Asst. Secretary of Defense for Cyber Policy",
+      "background": "Laurie Buckhout is a retired U.S. Army colonel (26 years, Gulf War and Iraq) who founded a cyber/electronic-warfare consulting firm and served as Acting Assistant Secretary of Defense for Cyber Policy in the Trump administration in 2025. She was the 2024 GOP nominee for this seat, losing to Davis by 1.6 points, and is Trump-endorsed for the 2026 rematch.",
+      "priorities": [
+        "Border security",
+        "Lower cost of living and rein in spending",
+        "Defend the Second Amendment"
+      ],
+      "sources": [
+        {
+          "label": "NC Newsline: primary result",
+          "url": "https://ncnewsline.com/2026/03/03/ager-wraps-up-dem-nomination-in-nc-11-buckhout-takes-nc-01-republican-primary/"
+        }
+      ],
+      "curatedAt": "2026-08-12"
     }
   ]
 }

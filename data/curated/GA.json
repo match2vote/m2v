@@ -4,7 +4,10 @@
   "races": {
     "GA-senate": {
       "status": "general",
-      "advancing": ["fec-S8GA00180", "fec-S6GA00390"],
+      "advancing": [
+        "fec-S8GA00180",
+        "fec-S6GA00390"
+      ],
       "statusNote": "Nominees set: Sen. Jon Ossoff (D) faces Rep. Mike Collins (R), who won the June 16 runoff."
     },
     "GA-governor": {
@@ -24,23 +27,66 @@
       "incumbent": true,
       "background": "U.S. Senator since 2021, seeking a second term. Investigative journalist before politics. 2026 campaign themes include banning congressional stock trading.",
       "positions": {
-        "cost": null, "health": -1, "housing": null, "immigration": -1, "taxes": 0,
-        "climate": -1, "education": null, "safety": 0, "repro": -2, "democracy": -2
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": 0,
+        "climate": -1,
+        "education": null,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
-        "health": { "label": "Defends ACA and pre-existing-condition protections; opposes Medicare for All (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "immigration": { "label": "Backs enforcement + pathways reform; voted for the Laken Riley Act (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "taxes": { "label": "Calls for repealing 'wasteful, anti-competitive special interest subsidies' and cutting duplicate programs (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "climate": { "label": "Supports Paris Agreement, blocked Okefenokee mine; does not support the Green New Deal (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "safety": { "label": "Opposed defunding police; opposes prison for nonviolent drug offenses, backs cannabis legalization (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "repro": { "label": "Post-Dobbs: Court 'stripped American women of autonomy'; backed Roe-upholding judges (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        "democracy": { "label": "Champions the John Lewis Voting Rights Act (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" }
+        "health": {
+          "label": "Defends ACA and pre-existing-condition protections; opposes Medicare for All (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "immigration": {
+          "label": "Backs enforcement + pathways reform; voted for the Laken Riley Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "taxes": {
+          "label": "Calls for repealing 'wasteful, anti-competitive special interest subsidies' and cutting duplicate programs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "climate": {
+          "label": "Supports Paris Agreement, blocked Okefenokee mine; does not support the Green New Deal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "safety": {
+          "label": "Opposed defunding police; opposes prison for nonviolent drug offenses, backs cannabis legalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "repro": {
+          "label": "Post-Dobbs: Court 'stripped American women of autonomy'; backed Roe-upholding judges (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "democracy": {
+          "label": "Champions the John Lewis Voting Rights Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        }
       },
       "sources": [
-        { "label": "Wikipedia: Jon Ossoff", "url": "https://en.wikipedia.org/wiki/Jon_Ossoff" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S8GA00180/" }
+        {
+          "label": "Wikipedia: Jon Ossoff",
+          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8GA00180/"
+        }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-12",
+      "age": 39,
+      "home": "Atlanta, GA",
+      "now": "U.S. Senate",
+      "priorities": [
+        "Lower health-care and prescription costs",
+        "Anti-corruption and Senate ethics",
+        "Protect voting rights"
+      ]
     },
     {
       "id": "fec-S6GA00390",
@@ -53,24 +99,70 @@
       "incumbent": false,
       "background": "U.S. Representative for GA-10 since 2023; built a trucking company from one semi-truck to a fleet of 115. Won the June 2026 Republican runoff.",
       "positions": {
-        "cost": null, "health": 1, "housing": null, "immigration": 2, "taxes": 2,
-        "climate": 2, "education": 1, "safety": 2, "repro": 2, "democracy": 2
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
       },
       "positionSources": {
-        "health": { "label": "Reform Medicare/Medicaid through private-sector solutions (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "immigration": { "label": "Finish the wall, reinstate Remain in Mexico, oppose amnesty and birthright citizenship (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "taxes": { "label": "'I will never support a tax increase in Congress'; make TCJA permanent (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "climate": { "label": "Deregulate energy production, 'get government out of the way' (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "education": { "label": "School choice; opposes critical race theory in schools (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "safety": { "label": "'Back the Blue'; opposes police defunding (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "repro": { "label": "Life 'begins at the moment of conception'; opposes taxpayer-funded abortion (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        "democracy": { "label": "Backs GA Election Integrity Act, voter ID; opposed H.R. 1 (Ballotpedia)", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" }
+        "health": {
+          "label": "Reform Medicare/Medicaid through private-sector solutions (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "immigration": {
+          "label": "Finish the wall, reinstate Remain in Mexico, oppose amnesty and birthright citizenship (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "taxes": {
+          "label": "'I will never support a tax increase in Congress'; make TCJA permanent (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "climate": {
+          "label": "Deregulate energy production, 'get government out of the way' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "education": {
+          "label": "School choice; opposes critical race theory in schools (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "safety": {
+          "label": "'Back the Blue'; opposes police defunding (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "repro": {
+          "label": "Life 'begins at the moment of conception'; opposes taxpayer-funded abortion (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "democracy": {
+          "label": "Backs GA Election Integrity Act, voter ID; opposed H.R. 1 (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        }
       },
       "sources": [
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Mike_Collins_(Georgia)" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6GA00390/" }
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6GA00390/"
+        }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-12",
+      "age": 58,
+      "home": "Jackson, GA",
+      "now": "U.S. House (GA-10)",
+      "priorities": [
+        "Secure the border",
+        "Cut taxes and spending",
+        "Back law enforcement"
+      ]
     },
     {
       "id": "ga-gov-bottoms",
@@ -83,24 +175,70 @@
       "incumbent": false,
       "background": "Mayor of Atlanta 2018–2022; later a senior adviser in the Biden White House. Won the May 2026 Democratic primary.",
       "positions": {
-        "cost": -1, "health": -2, "housing": -1, "immigration": -1, "taxes": null,
-        "climate": null, "education": -2, "safety": -2, "repro": -1, "democracy": -2
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": -2,
+        "repro": -1,
+        "democracy": -2
       },
       "positionSources": {
-        "cost": { "label": "Targeted tax relief (teachers, veterans); curb corporate-landlord costs (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "health": { "label": "Expand Medicaid to cover more Georgians and save rural hospitals (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "housing": { "label": "Address corporate-landlord acquisitions squeezing homeowners and renters (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "immigration": { "label": "As mayor: barred city jail from holding ICE detainees; 'welcoming city' (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms" },
-        "education": { "label": "Fully fund Georgia schools; modernize the funding formula (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "safety": { "label": "Violence-reduction investment, diversion and reentry programs, universal background checks (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "repro": { "label": "'Supports abortion access' (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        "democracy": { "label": "Expand early/absentee voting, Election Day holiday, protect election officials (Branch.vote platform)", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" }
+        "cost": {
+          "label": "Targeted tax relief (teachers, veterans); curb corporate-landlord costs (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "health": {
+          "label": "Expand Medicaid to cover more Georgians and save rural hospitals (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "housing": {
+          "label": "Address corporate-landlord acquisitions squeezing homeowners and renters (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "immigration": {
+          "label": "As mayor: barred city jail from holding ICE detainees; 'welcoming city' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
+        },
+        "education": {
+          "label": "Fully fund Georgia schools; modernize the funding formula (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "safety": {
+          "label": "Violence-reduction investment, diversion and reentry programs, universal background checks (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "repro": {
+          "label": "'Supports abortion access' (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        "democracy": {
+          "label": "Expand early/absentee voting, Election Day holiday, protect election officials (Branch.vote platform)",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        }
       },
       "sources": [
-        { "label": "Branch.vote platform summary", "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms" },
-        { "label": "Wikipedia: Keisha Lance Bottoms", "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms" }
+        {
+          "label": "Branch.vote platform summary",
+          "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-governor-ga-d/candidates/keisha-r-lance-bottoms"
+        },
+        {
+          "label": "Wikipedia: Keisha Lance Bottoms",
+          "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
+        }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-12",
+      "age": 56,
+      "home": "Atlanta, GA",
+      "now": "White House Office of Public Engagement",
+      "priorities": [
+        "Expand access to affordable health care",
+        "Affordable housing",
+        "Safe communities and strong schools"
+      ]
     },
     {
       "id": "ga-gov-jackson",
@@ -113,20 +251,53 @@
       "incumbent": false,
       "background": "Healthcare staffing executive and first-time candidate; grew up partly in foster care. Won the June 2026 Republican runoff, defeating the Trump-endorsed lieutenant governor.",
       "positions": {
-        "cost": 1, "health": null, "housing": null, "immigration": 2, "taxes": 2,
-        "climate": null, "education": 1, "safety": 2, "repro": null, "democracy": null
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
       },
       "positionSources": {
-        "cost": { "label": "Freeze property taxes immediately; affordability through tax cuts (Ballotpedia)", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" },
-        "immigration": { "label": "'Make Georgia number one in the nation for deporting criminal illegal immigrants' (Ballotpedia)", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" },
-        "taxes": { "label": "Halve the state income tax in 4 years, work to eliminate it in 8 (Ballotpedia)", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" },
-        "education": { "label": "'Parental authority in Georgia classrooms'; ban DEI; freeze public-college tuition (Ballotpedia)", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" },
-        "safety": { "label": "'Ban revolving-door justice'; full support for law enforcement (Ballotpedia)", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" }
+        "cost": {
+          "label": "Freeze property taxes immediately; affordability through tax cuts (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        "immigration": {
+          "label": "'Make Georgia number one in the nation for deporting criminal illegal immigrants' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        "taxes": {
+          "label": "Halve the state income tax in 4 years, work to eliminate it in 8 (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        "education": {
+          "label": "'Parental authority in Georgia classrooms'; ban DEI; freeze public-college tuition (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        "safety": {
+          "label": "'Ban revolving-door justice'; full support for law enforcement (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        }
       },
       "sources": [
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)" }
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-12",
+      "home": "Georgia",
+      "now": "Health-care company founder & executive",
+      "priorities": [
+        "Run government like a business",
+        "Lower taxes",
+        "Secure the border"
+      ]
     }
   ]
 }

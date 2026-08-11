@@ -100,7 +100,7 @@ export function Methodology({ onBack }) {
         </P>
         <P>
           M2V is nonpartisan. It favors no party and no candidate. If you find an
-          error in a position or a source, email kirontaylor28@gmail.com and we'll
+          error in a position or a source, email match2vote@gmail.com and we'll
           review it against the record — corrections go live server-side, usually
           within hours.
         </P>

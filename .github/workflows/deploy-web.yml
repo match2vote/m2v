@@ -108,3 +108,20 @@ jobs:
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
+
+      # The whole reason deploys broke silently before: the deploy step failed
+      # but nothing checked the live site. This step fails the run (red X) if
+      # the exact JS bundle we just built isn't being served within ~4 minutes.
+      - name: Verify the live site serves this build
+        run: |
+          bundle=$(basename _site/_expo/static/js/web/index-*.js)
+          url="https://match2vote.github.io/m2v/_expo/static/js/web/$bundle"
+          echo "Checking $url"
+          for i in $(seq 1 16); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$url?v=$GITHUB_SHA-$i")
+            echo "attempt $i: $code"
+            [ "$code" = "200" ] && exit 0
+            sleep 15
+          done
+          echo "::error::Live site never served the new bundle ($url). Deploy did NOT go live."
+          exit 1

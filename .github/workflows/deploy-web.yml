@@ -13,10 +13,11 @@ on:
       - '.github/workflows/deploy-web.yml'
   workflow_dispatch: {}
 
+# Deploys by force-pushing the built site to the gh-pages branch (plain git,
+# reliable) after the Pages API path (actions/deploy-pages) failed repeatedly
+# with runner TLS errors. Pages source is set to "Deploy from a branch".
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -25,9 +26,6 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -52,17 +50,15 @@ jobs:
             name=$(basename "$v")
             if [ -f "$v/index.html" ]; then mkdir -p "_site/$name" && cp "$v/index.html" "_site/$name/"; fi
           done
+          # Pages runs Jekyll on branch deploys, which would drop the _expo dir.
+          touch _site/.nojekyll
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish to gh-pages branch
+        run: |
+          cd _site
+          git init -b gh-pages
+          git config user.name "m2v-deploy-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -qm "deploy ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages

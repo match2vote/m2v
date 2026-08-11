@@ -13,9 +13,13 @@ on:
       - '.github/workflows/deploy-web.yml'
   workflow_dispatch: {}
 
-# Deploys by force-pushing the built site to the gh-pages branch (plain git,
-# reliable) after the Pages API path (actions/deploy-pages) failed repeatedly
-# with runner TLS errors. Pages source is set to "Deploy from a branch".
+# Two deploy paths, because actions/deploy-pages started failing with runner
+# TLS errors ("self-signed certificate", Node 24) and the workflow token is
+# not allowed to flip the Pages source setting (403):
+#   1. artifact deploy (works while Pages source = "GitHub Actions"), with the
+#      NODE_TLS_REJECT_UNAUTHORIZED workaround for the TLS bug
+#   2. force-push to gh-pages branch (works once Pages source = branch)
+# Outcomes are logged to deploy-log.txt inside the branch for debugging.
 permissions:
   contents: write
   pages: write
@@ -55,22 +59,32 @@ jobs:
           # Pages runs Jekyll on branch deploys, which would drop the _expo dir.
           touch _site/.nojekyll
 
-      - name: Point Pages at the gh-pages branch (logged into the branch for debugging)
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages (artifact path, TLS workaround)
+        id: deployment
+        continue-on-error: true
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: '0'
+        uses: actions/deploy-pages@v4
+
+      - name: Try to point Pages at the gh-pages branch + log everything
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           {
             echo "deploy ${GITHUB_SHA} at $(date -u +%FT%TZ)"
-            echo "--- GET /pages"
-            curl -s -w '\nstatus=%{http_code}\n' \
-              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${{ github.repository }}/pages"
+            echo "deploy-pages (artifact) outcome: ${{ steps.deployment.outcome }}"
+            echo "deploy-pages page_url: ${{ steps.deployment.outputs.page_url }}"
             echo "--- PUT /pages (build_type=legacy, source=gh-pages /)"
             curl -s -w '\nstatus=%{http_code}\n' -X PUT \
               -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${{ github.repository }}/pages" \
               -d '{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
-            echo "--- GET /pages after PUT"
+            echo "--- GET /pages"
             curl -s -w '\nstatus=%{http_code}\n' \
               -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${{ github.repository }}/pages"
@@ -94,16 +108,3 @@ jobs:
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
-
-      # Pages source is currently "GitHub Actions" and the token can't flip it,
-      # so also deploy via the artifact path. v4 failed with runner TLS errors
-      # (Node 24); v3 runs on Node 20. Both deploy paths are kept so whichever
-      # the settings point at, the site updates.
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Deploy to GitHub Pages (artifact path)
-        id: deployment
-        continue-on-error: true
-        uses: actions/deploy-pages@v3

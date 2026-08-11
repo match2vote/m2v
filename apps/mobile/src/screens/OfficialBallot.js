@@ -33,7 +33,9 @@ export function OfficialBallot() {
 
   if (picks === null) return <Screen><Body soft>Loading…</Body></Screen>;
 
-  const races = stateCode ? getRaces(stateCode, data, { curatedOnly: true }) : [];
+  // Both tiers appear on the ballot (you can mark a names-only race too) —
+  // but only races with at least one showable candidate. No blank slots, ever.
+  const races = stateCode ? getRaces(stateCode, data, { display: true }) : [];
   const pickByRace = Object.fromEntries(picks.map((p) => [p.raceId, p]));
   const marked = races.filter((r) => pickByRace[r.id]).length;
 

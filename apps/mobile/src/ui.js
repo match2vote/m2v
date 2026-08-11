@@ -72,17 +72,17 @@ export function Button({ label, onPress, kind = 'primary', disabled, style, smal
       disabled={disabled}
       style={({ pressed }) => [
         {
-          borderRadius: radius.lg, alignItems: 'center', marginVertical: space(1),
+          borderRadius: 14, alignItems: 'center', marginVertical: space(1),
           paddingVertical: small ? space(2) : space(3.5), paddingHorizontal: space(5),
         },
         kind === 'primary' && { backgroundColor: colors.accent },
         kind === 'ghost' && { borderWidth: 1.5, borderColor: colors.accent },
         disabled && { opacity: 0.4 },
-        pressed && { opacity: 0.75, transform: [{ scale: 0.99 }] },
+        pressed && { opacity: 0.8, transform: [{ scale: 0.99 }] },
         style,
       ]}
     >
-      <Text style={{ fontSize: small ? 14 : 17, fontWeight: '700', color: kind === 'primary' ? '#fff' : colors.accent }}>
+      <Text style={{ fontSize: small ? 14 : 16.5, fontWeight: '700', color: kind === 'primary' ? '#FFF9EE' : colors.accent }}>
         {label}
       </Text>
     </Pressable>
@@ -178,14 +178,53 @@ export function BackBar({ label = 'Back', onPress }) {
   );
 }
 
-// Persistent bottom tab bar. Ballot is always one tap away.
+// Category pill: Federal / State — muted colors, never party red/blue.
+export function CategoryPill({ kind }) {
+  const { colors } = useTheme();
+  const fed = kind === 'federal';
+  return (
+    <View style={{ borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3, backgroundColor: fed ? colors.federalSoft : colors.stateSoft }}>
+      <Text style={{ fontSize: 11, fontWeight: '700', color: fed ? colors.federal : colors.state }}>
+        {fed ? 'Federal' : 'State'}
+      </Text>
+    </View>
+  );
+}
+
+// The green info callout carried over from the prototype's how-to guide.
+export function InfoCallout({ children }) {
+  const { colors } = useTheme();
+  return (
+    <View style={{ backgroundColor: colors.greenSoft, borderRadius: radius.md, padding: space(3.5), marginBottom: space(3) }}>
+      <Text style={{ color: colors.green, fontSize: 13, lineHeight: 19, fontWeight: '500' }}>{children}</Text>
+    </View>
+  );
+}
+
+// Espresso dark card with a soft corner glow — the mockup's hero card.
+export function DarkCard({ children, style }) {
+  const { colors } = useTheme();
+  return (
+    <View style={[{ backgroundColor: colors.espresso, borderRadius: 22, padding: space(5), overflow: 'hidden', marginBottom: space(3) }, style]}>
+      <View
+        style={{
+          position: 'absolute', right: -50, top: -50, width: 160, height: 160, borderRadius: 80,
+          backgroundColor: colors.espressoGlow, opacity: 0.55,
+        }}
+      />
+      {children}
+    </View>
+  );
+}
+
+// Persistent bottom tab bar: Home · Match · Browse · Ballot.
 export function TabBar({ active, onChange, ballotCount }) {
   const { colors } = useTheme();
   const tabs = [
-    { key: 'ballot', label: 'My Ballot', icon: '▢' },
-    { key: 'races', label: 'Races', icon: '⌂' },
-    { key: 'matches', label: 'Matches', icon: '◉' },
-    { key: 'about', label: 'About', icon: 'ⓘ' },
+    { key: 'home', label: 'Home', icon: '⌂' },
+    { key: 'matches', label: 'Match', icon: '✦' },
+    { key: 'races', label: 'Browse', icon: '☰' },
+    { key: 'ballot', label: 'Ballot', icon: '▢' },
   ];
   return (
     <View

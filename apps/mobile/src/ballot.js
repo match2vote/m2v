@@ -27,41 +27,61 @@ export function getBundledStateData(code) {
 }
 
 // Returns the list of races for a state:
-//   [{ id, title, candidates, meta, hiddenCount? }]
-// `data` (from api.getStateData) takes precedence; bundled snapshot is the fallback.
-// opts.curatedOnly: only races with researched candidates, and only those
-// candidates — users never see placeholder "Not stated" candidates.
+//   [{ id, title, candidates, meta, coverage: 'full' | 'names', hiddenCount? }]
+//
+// Two tiers, both real, clearly distinguished:
+//   'full'  — researched, sourced positions → match percentages, full profiles
+//   'names' — we know who's on the ballot (FEC roster + verified nominees) but
+//             haven't researched positions. No match %, explicit labeling.
+// A race with zero showable candidates IS NOT RETURNED — no empty rows, ever.
+//
+// opts.curatedOnly → only 'full' races (used for matching).
+// opts.display     → both tiers (used for Browse, Home, Ballot).
 export function getRaces(code, data, opts = {}) {
   const races = buildRaces(code, data);
-  if (!opts.curatedOnly) return races;
+  if (!opts.curatedOnly && !opts.display) return races;
   return races
     .map((race) => {
       const curated = race.candidates.filter(
         (c) => c.tier === 'curated' && c.ballotStatus !== 'not-advancing'
       );
-      if (!curated.length) return null;
-      return { ...race, candidates: curated, hiddenCount: race.candidates.length - curated.length };
+      if (curated.length) {
+        return { ...race, coverage: 'full', candidates: curated, hiddenCount: race.candidates.length - curated.length };
+      }
+      if (opts.display && (race.meta?.namesOnly || race.meta?.status === 'names-only')) {
+        // Names-only: show verified general-election candidates by name.
+        const adv = race.meta.advancing;
+        const names = adv
+          ? race.candidates.filter((c) => adv.includes(c.id))
+          : [];
+        if (names.length) {
+          return { ...race, coverage: 'names', candidates: names, hiddenCount: race.candidates.length - names.length };
+        }
+      }
+      return null; // zero showable candidates → race does not exist in the UI
     })
     .filter(Boolean);
 }
 
-// Coverage summary: which states have at least one fully researched race.
+// Coverage summary across both tiers.
 export function getCoverage(dataByState) {
   const src = dataByState || candidatesByState;
   const states = [];
-  let totalRaces = 0;
-  let totalCandidates = 0;
+  let fullRaces = 0, namesRaces = 0, totalCandidates = 0;
   for (const code of Object.keys(src)) {
-    const races = getRaces(code, src[code], { curatedOnly: true });
+    const races = getRaces(code, src[code], { display: true });
     if (races.length) {
-      const n = races.reduce((s, r) => s + r.candidates.length, 0);
-      states.push({ code, name: STATE_NAMES[code] || code, races: races.length, candidates: n });
-      totalRaces += races.length;
+      const full = races.filter((r) => r.coverage === 'full');
+      const names = races.filter((r) => r.coverage === 'names');
+      const n = full.reduce((s, r) => s + r.candidates.length, 0);
+      states.push({ code, name: STATE_NAMES[code] || code, races: races.length, full: full.length, names: names.length, candidates: n });
+      fullRaces += full.length;
+      namesRaces += names.length;
       totalCandidates += n;
     }
   }
   states.sort((a, b) => a.name.localeCompare(b.name));
-  return { states, totalRaces, totalCandidates };
+  return { states, totalRaces: fullRaces + namesRaces, fullRaces, namesRaces, totalCandidates };
 }
 
 // Resolve a race by id like "NC-senate", "TX-governor", "CA-house-12"
@@ -69,14 +89,14 @@ export function getCoverage(dataByState) {
 export function findRaceById(id, data) {
   const state = (id || '').split('-')[0];
   if (!STATE_NAMES[state] && state !== state.toUpperCase()) return null;
-  return getRaces(state, data, { curatedOnly: true }).find((r) => r.id === id) || null;
+  return getRaces(state, data, { display: true }).find((r) => r.id === id) || null;
 }
 
-// Resolve a curated candidate by id across all covered states.
+// Resolve a showable candidate by id across all covered states.
 // Returns { candidate, race } or null.
 export function findCandidateById(id) {
   for (const code of Object.keys(candidatesByState)) {
-    for (const race of getRaces(code, candidatesByState[code], { curatedOnly: true })) {
+    for (const race of getRaces(code, candidatesByState[code], { display: true })) {
       const candidate = race.candidates.find((c) => c.id === id);
       if (candidate) return { candidate, race };
     }

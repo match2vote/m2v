@@ -9,6 +9,8 @@ const NavCtx = createContext(null);
 
 function routeToPath(r) {
   switch (r.name) {
+    case 'home': return '/';
+    case 'howto': return '/howto';
     case 'ballot': return '/ballot';
     case 'races': return r.state ? `/races/${r.state}` : '/races';
     case 'race': return `/race/${encodeURIComponent(r.id)}`;
@@ -16,7 +18,7 @@ function routeToPath(r) {
     case 'matches': return '/matches';
     case 'quiz': return '/quiz';
     case 'about': return '/about';
-    default: return '/ballot';
+    default: return '/';
   }
 }
 
@@ -24,7 +26,9 @@ export function pathToRoute(pathname) {
   let p = pathname || '/';
   if (p.startsWith(BASE)) p = p.slice(BASE.length);
   const seg = p.split('/').filter(Boolean);
-  if (!seg.length) return { name: 'ballot' };
+  if (!seg.length) return { name: 'home' };
+  if (seg[0] === 'home') return { name: 'home' };
+  if (seg[0] === 'howto') return { name: 'howto' };
   if (seg[0] === 'ballot') return { name: 'ballot' };
   if (seg[0] === 'races') return seg[1] ? { name: 'races', state: seg[1].toUpperCase() } : { name: 'races' };
   if (seg[0] === 'race' && seg[1]) return { name: 'race', id: decodeURIComponent(seg[1]) };
@@ -32,13 +36,13 @@ export function pathToRoute(pathname) {
   if (seg[0] === 'matches') return { name: 'matches' };
   if (seg[0] === 'quiz') return { name: 'quiz' };
   if (seg[0] === 'about') return { name: 'about' };
-  return { name: 'ballot' };
+  return { name: 'home' };
 }
 
 export function NavProvider({ children }) {
   const isWeb = Platform.OS === 'web' && typeof window !== 'undefined';
   const [route, setRouteState] = useState(() =>
-    isWeb ? pathToRoute(window.location.pathname) : { name: 'ballot' }
+    isWeb ? pathToRoute(window.location.pathname) : { name: 'home' }
   );
   const [stack, setStack] = useState([]);
 
@@ -69,7 +73,7 @@ export function NavProvider({ children }) {
       }
       setStack((s) => {
         const prev = s[s.length - 1];
-        setRouteState(prev || fallback || { name: 'ballot' });
+        setRouteState(prev || fallback || { name: 'home' });
         return s.slice(0, -1);
       });
     };
@@ -86,9 +90,9 @@ export function useNav() {
 // Which tab a route belongs to (for highlighting the tab bar).
 export function tabOf(route) {
   switch (route.name) {
+    case 'home': case 'about': case 'howto': return 'home';
     case 'ballot': return 'ballot';
     case 'matches': case 'quiz': return 'matches';
-    case 'about': return 'about';
     default: return 'races';
   }
 }

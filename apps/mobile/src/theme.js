@@ -4,50 +4,65 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { useColorScheme } from 'react-native';
 
+// Palette source of truth: Draft 1 mockup. Warm cream, deep gold as the only
+// strong color, espresso dark cards. Never party red/blue anywhere.
 const light = {
-  bg: '#FAF6EF',
+  bg: '#FAF8F5',            // warm cream, never white
   surface: '#FFFFFF',
-  ink: '#141210',
-  inkSoft: '#645E55',
-  line: '#E5DED2',
-  accent: '#0E5A43',        // deep civic green (brand)
-  accentBright: '#12B981',  // energetic green for highlights/motion
-  accentSoft: '#E3F2EB',
-  gold: '#C78A19',
-  goldSoft: '#FBF0DA',
-  danger: '#A33B2E',
-  notStated: '#98928A',
+  ink: '#262019',           // warm espresso ink
+  inkSoft: '#7A7167',
+  line: '#EAE4DB',
+  accent: '#A87722',        // deep gold — CTAs, countdown, counters, active tab
+  accentBright: '#C08A2D',
+  accentSoft: '#F5EBDA',
+  gold: '#A87722',
+  goldSoft: '#F5EBDA',
+  espresso: '#2E2621',      // dark cards
+  espressoGlow: '#4A3A28',  // soft corner gradient on dark cards
+  green: '#3D5A46',         // info callout ink
+  greenSoft: '#E9EFE6',     // the green info callout
+  federal: '#5A7291', federalSoft: '#E4EAF2',   // muted category pills (not party colors)
+  state: '#4A7A6F', stateSoft: '#E2EEEA',
+  danger: '#A3543B',
+  dangerSoft: '#F6E7E0',
+  notStated: '#9A9188',
   sample: '#7A6DB3',
   ballotPaper: '#FFFDF8',
-  ballotInk: '#111111',
+  ballotInk: '#211B14',
   tabBg: '#FFFFFF',
 };
 
 const dark = {
-  bg: '#12110F',
-  surface: '#1D1B18',
-  ink: '#F4EFE7',
-  inkSoft: '#A79F93',
-  line: '#312E29',
-  accent: '#35C08E',
-  accentBright: '#3DDC97',
-  accentSoft: '#173A2E',
-  gold: '#E3A83A',
-  goldSoft: '#33290F',
-  danger: '#E0705F',
-  notStated: '#7D776E',
+  bg: '#191512',
+  surface: '#241E19',
+  ink: '#F2EBE1',
+  inkSoft: '#A89C8E',
+  line: '#38302A',
+  accent: '#D2A24C',
+  accentBright: '#E0B15C',
+  accentSoft: '#3A2E1B',
+  gold: '#D2A24C',
+  goldSoft: '#3A2E1B',
+  espresso: '#2E2621',
+  espressoGlow: '#4A3A28',
+  green: '#9DBBA5',
+  greenSoft: '#25302A',
+  federal: '#93A9C4', federalSoft: '#242C38',
+  state: '#8EB5AB', stateSoft: '#22302C',
+  danger: '#D08A73',
+  dangerSoft: '#3A2822',
+  notStated: '#847A6F',
   sample: '#A99BE0',
-  ballotPaper: '#FFFDF8',   // the ballot stays paper-white even in dark mode
-  ballotInk: '#111111',
-  tabBg: '#1D1B18',
+  ballotPaper: '#FFFDF8',   // the ballot stays paper even in dark mode
+  ballotInk: '#211B14',
+  tabBg: '#241E19',
 };
 
 // Non-partisan match-strength scale. Never red/blue.
 export function matchColor(pct, c) {
   if (pct === null || pct === undefined) return c.notStated;
-  if (pct >= 80) return c.accentBright;
-  if (pct >= 60) return c.accent;
-  if (pct >= 40) return c.gold;
+  if (pct >= 80) return c.green === '#3D5A46' ? '#3D6B4F' : '#7FB08D';
+  if (pct >= 55) return c.accent;
   return c.inkSoft;
 }
 

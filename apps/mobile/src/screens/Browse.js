@@ -58,13 +58,15 @@ export function Races({ stateCode }) {
       .then((d) => { if (alive && d) setData(d); });
     return () => { alive = false; };
   }, [stateCode]);
-  const races = getRaces(stateCode, data, { curatedOnly: true });
+  const races = getRaces(stateCode, data, { display: true });
+  const full = races.filter((r) => r.coverage === 'full').length;
   return (
     <Screen>
       <BackBar label="All states" onPress={() => nav.go({ name: 'races' }, { replace: true })} />
       <H1>{STATE_NAMES[stateCode] || stateCode}</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {races.length} researched race{races.length === 1 ? '' : 's'} · every position sourced
+        Races we're covering here: {full} fully researched
+        {races.length > full ? ` · ${races.length - full} names-only` : ''}
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {races.map((r) => (
@@ -72,6 +74,11 @@ export function Races({ stateCode }) {
             <Card>
               <H2>{r.title}</H2>
               <Body soft>{r.candidates.map((c) => c.name).join(' vs ')}</Body>
+              {r.coverage === 'names' && (
+                <Body soft style={{ fontSize: 12, marginTop: 4, fontStyle: 'italic' }}>
+                  Names only — we haven't researched positions here yet.
+                </Body>
+              )}
             </Card>
           </Pressable>
         ))}
@@ -111,6 +118,7 @@ export function Race({ raceId }) {
     );
   }
   const hasQuiz = answers && Object.values(answers).some((v) => v !== null && v !== undefined);
+  const namesOnly = race.coverage === 'names';
   return (
     <Screen>
       <BackBar label={STATE_NAMES[stateCode] || 'Races'} onPress={() => nav.go({ name: 'races', state: stateCode }, { replace: true })} />
@@ -118,9 +126,20 @@ export function Race({ raceId }) {
       <Body soft style={{ marginBottom: space(3) }}>
         {race.meta?.statusNote || 'Candidates with researched, sourced positions.'}
       </Body>
+      {namesOnly && (
+        <Card>
+          <Body style={{ fontWeight: '700', fontSize: 14 }}>
+            We know who's running here. We haven't researched their positions yet.
+          </Body>
+          <Body soft style={{ fontSize: 13, marginTop: 4 }}>
+            So there are no match percentages in this race — M2V never guesses
+            a position from someone's party.
+          </Body>
+        </Card>
+      )}
       <ScrollView style={{ flex: 1 }}>
         {race.candidates.map((c) => {
-          const m = hasQuiz ? computeMatch(answers, matters, c.positions || {}) : null;
+          const m = hasQuiz && !namesOnly ? computeMatch(answers, matters, c.positions || {}) : null;
           return (
             <Pressable key={c.id} onPress={() => nav.go({ name: 'candidate', id: c.id })}>
               <Card>
@@ -131,9 +150,9 @@ export function Race({ raceId }) {
                       {c.ballotStatus === 'nominee' ? '  ·  Nominee' : c.incumbent ? '  ·  Incumbent' : ''}
                     </H2>
                     <Body soft style={{ marginBottom: 6 }}>{c.party}</Body>
-                    <TierBadge tier={c.tier} />
+                    {!namesOnly && <TierBadge tier={c.tier} />}
                   </View>
-                  {hasQuiz && <MatchRing pct={m.pct} />}
+                  {m && <MatchRing pct={m.pct} />}
                 </View>
               </Card>
             </Pressable>
@@ -172,8 +191,16 @@ export function Profile({ candidateId }) {
   const { candidate, race } = found;
   const positions = candidate.positions || {};
   const posSources = candidate.positionSources || {};
-  const hasQuiz = answers && Object.values(answers).some((v) => v !== null && v !== undefined);
+  const isNamesOnly = race.coverage === 'names' || candidate.tier !== 'curated';
+  const hasQuiz = !isNamesOnly && answers && Object.values(answers).some((v) => v !== null && v !== undefined);
   const match = hasQuiz ? computeMatch(answers, matters || {}, positions) : null;
+
+  const Tile = ({ label, value, wide }) => (
+    <Card style={{ flex: wide ? undefined : 1, paddingVertical: space(3), marginBottom: space(2) }}>
+      <Body soft style={{ fontSize: 10.5, fontWeight: '800', letterSpacing: 1 }}>{label}</Body>
+      <Body style={{ fontSize: 15, fontWeight: '600', marginTop: 2 }}>{value}</Body>
+    </Card>
+  );
 
   return (
     <Screen>
@@ -189,13 +216,65 @@ export function Profile({ candidateId }) {
         {hasQuiz && <MatchRing pct={match.pct} size={76} />}
       </View>
       <View style={{ marginVertical: space(2) }}>
-        <TierBadge tier={candidate.tier} />
+        <TierBadge tier={isNamesOnly ? 'fec' : candidate.tier} />
       </View>
       <ScrollView style={{ flex: 1 }}>
+        {candidate.quote ? (
+          <Body style={{ fontFamily: 'Georgia', fontStyle: 'italic', fontSize: 17, lineHeight: 25, color: colors.accent, marginBottom: space(3) }}>
+            “{candidate.quote}”
+          </Body>
+        ) : null}
+        {candidate.controversies?.length ? (
+          <Card style={{ backgroundColor: colors.dangerSoft, borderColor: colors.dangerSoft }}>
+            <Body style={{ color: colors.danger, fontWeight: '700', fontSize: 13, marginBottom: 4 }}>
+              ✳ {candidate.controversies.length} reported controvers{candidate.controversies.length === 1 ? 'y' : 'ies'} on record
+            </Body>
+            {candidate.controversies.map((s) => (
+              <Body key={s.title} style={{ fontSize: 12.5, marginBottom: 4 }}>
+                <Body style={{ fontWeight: '700', fontSize: 12.5 }}>{s.title}: </Body>{s.detail}
+              </Body>
+            ))}
+          </Card>
+        ) : null}
+        {(candidate.age || candidate.home) ? (
+          <View style={{ flexDirection: 'row', gap: 8 }}>
+            {candidate.age ? <Tile label="AGE" value={candidate.age} /> : null}
+            {candidate.home ? <Tile label="HOME" value={candidate.home} /> : null}
+          </View>
+        ) : null}
+        {candidate.now ? <Tile label="NOW" value={candidate.now} wide /> : null}
         {candidate.background && (
-          <Card><Body style={{ fontSize: 13 }}>{candidate.background}</Body></Card>
+          <>
+            <H2 style={{ marginTop: space(2) }}>Background</H2>
+            <Body soft style={{ fontSize: 14, lineHeight: 21, marginBottom: space(3) }}>{candidate.background}</Body>
+          </>
         )}
-        {ISSUES.map((issue) => {
+        {candidate.priorities?.length ? (
+          <>
+            <H2>Top priorities</H2>
+            {candidate.priorities.map((p, i) => (
+              <View key={p} style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(2) }}>
+                <View style={{ width: 22, height: 22, borderRadius: 11, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center', marginRight: space(2.5) }}>
+                  <Body style={{ color: colors.accent, fontWeight: '800', fontSize: 12 }}>{i + 1}</Body>
+                </View>
+                <Body style={{ fontSize: 14, flex: 1 }}>{p}</Body>
+              </View>
+            ))}
+            <View style={{ height: space(2) }} />
+          </>
+        ) : null}
+        {isNamesOnly && (
+          <Card>
+            <Body style={{ fontWeight: '700', fontSize: 13.5 }}>
+              We haven't researched this candidate's positions yet.
+            </Body>
+            <Body soft style={{ fontSize: 13, marginTop: 4 }}>
+              No match percentage is shown, because M2V never guesses from party.
+              This candidate is on the ballot per official filings.
+            </Body>
+          </Card>
+        )}
+        {!isNamesOnly && ISSUES.map((issue) => {
           const val = positions[issue.key];
           const stated = val !== null && val !== undefined;
           const src = posSources[issue.key];

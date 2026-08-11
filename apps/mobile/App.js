@@ -11,6 +11,8 @@ import { QuizContext } from './src/quizContext';
 import { StatePicker, Races, Race, Profile } from './src/screens/Browse';
 import { OfficialBallot } from './src/screens/OfficialBallot';
 import { About } from './src/screens/About';
+import { Home } from './src/screens/Home';
+import { HowTo } from './src/screens/HowTo';
 import { getRaces, getCoverage, STATE_NAMES } from './src/ballot';
 import { getStateData, getPicks, getQuizState, saveQuizState, clearQuizState, kv } from './src/api';
 import { shareResultCard } from './src/share';
@@ -60,7 +62,7 @@ function Root() {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-        <Welcome onDone={(dest) => { kv.set('m2v:onboarded', '1'); setOnboarded(true); nav.go(dest, { replace: true }); }} />
+        <Welcome onDone={(dest) => { kv.set('m2v:onboarded', '1'); setOnboarded(true); nav.go(dest.name === 'races' ? { name: 'home' } : dest, { replace: true }); }} />
       </View>
     );
   }
@@ -71,6 +73,8 @@ function Root() {
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
         <View style={{ flex: 1 }}>
+          {r.name === 'home' && <Home />}
+          {r.name === 'howto' && <HowTo />}
           {r.name === 'ballot' && <OfficialBallot key={ballotCount >= 0 ? 'b' : 'b'} />}
           {r.name === 'races' && !r.state && <StatePicker />}
           {r.name === 'races' && r.state && <Races stateCode={r.state} />}
@@ -88,10 +92,10 @@ function Root() {
           active={tabOf(r)}
           ballotCount={ballotCount}
           onChange={(tab) => {
-            if (tab === 'ballot') nav.go({ name: 'ballot' });
+            if (tab === 'home') nav.go({ name: 'home' });
+            else if (tab === 'ballot') nav.go({ name: 'ballot' });
             else if (tab === 'races') nav.go({ name: 'races' });
-            else if (tab === 'matches') nav.go({ name: 'matches' });
-            else nav.go({ name: 'about' });
+            else nav.go({ name: 'matches' });
           }}
         />
       </View>

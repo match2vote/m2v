@@ -64,6 +64,26 @@ export function getCoverage(dataByState) {
   return { states, totalRaces, totalCandidates };
 }
 
+// Resolve a race by id like "NC-senate", "TX-governor", "CA-house-12"
+// (curated view). Returns null if unknown/uncovered.
+export function findRaceById(id, data) {
+  const state = (id || '').split('-')[0];
+  if (!STATE_NAMES[state] && state !== state.toUpperCase()) return null;
+  return getRaces(state, data, { curatedOnly: true }).find((r) => r.id === id) || null;
+}
+
+// Resolve a curated candidate by id across all covered states.
+// Returns { candidate, race } or null.
+export function findCandidateById(id) {
+  for (const code of Object.keys(candidatesByState)) {
+    for (const race of getRaces(code, candidatesByState[code], { curatedOnly: true })) {
+      const candidate = race.candidates.find((c) => c.id === id);
+      if (candidate) return { candidate, race };
+    }
+  }
+  return null;
+}
+
 function buildRaces(code, data) {
   data = data || getBundledStateData(code);
   if (!data) return [];

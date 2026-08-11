@@ -95,6 +95,24 @@ export async function getStateData(code, onUpdate) {
   return current;
 }
 
+// Generic persisted key-value access (theme mode, quiz progress, chosen state).
+export const kv = {
+  get: (k) => store.get(k),
+  set: (k, v) => store.set(k, typeof v === 'string' ? v : JSON.stringify(v)),
+};
+
+// --- Quiz progress: answers survive leaving mid-quiz; resume any time ---
+const QUIZ_KEY = 'm2v:quiz:v1';
+export async function getQuizState() {
+  try { return JSON.parse((await store.get(QUIZ_KEY)) || 'null'); } catch { return null; }
+}
+export async function saveQuizState(state) {
+  await store.set(QUIZ_KEY, JSON.stringify(state));
+}
+export async function clearQuizState() {
+  await store.set(QUIZ_KEY, 'null');
+}
+
 // --- My Ballot: the user's saved picks, on device only (never uploaded) ---
 const PICKS_KEY = 'm2v:picks:v1';
 export async function getPicks() {

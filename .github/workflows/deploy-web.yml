@@ -42,8 +42,11 @@ jobs:
         working-directory: apps/mobile
         run: npx expo export --platform web --output-dir ../../_site
 
-      - name: Add curation tool
-        run: mkdir -p _site/curate && cp tools/curate/index.html _site/curate/
+      - name: Add curation tool + SPA fallback
+        run: |
+          mkdir -p _site/curate && cp tools/curate/index.html _site/curate/
+          # GitHub Pages SPA fallback: hard refresh on /m2v/ballot etc. serves the app
+          cp _site/index.html _site/404.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

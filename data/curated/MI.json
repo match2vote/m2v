@@ -1,0 +1,68 @@
+{
+  "state": "MI",
+  "note": "Hand-curated, sourced entries. Open seat (Sen. Peters retiring).",
+  "races": {
+    "MI-senate": {
+      "status": "general",
+      "advancing": ["fec-S6MI00418", "fec-S4MI00595"],
+      "statusNote": "Open seat: Abdul El-Sayed (D) won the Aug 4 primary over Haley Stevens; Mike Rogers (R) is the Republican nominee."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6MI00418",
+      "name": "Abdul El-Sayed",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Physician and epidemiologist; former Detroit health director and Wayne County health official; author of 'Medicare for All: A Citizen's Guide.' Won the August 2026 Democratic primary.",
+      "positions": {
+        "cost": -1, "health": -2, "housing": -2, "immigration": -2, "taxes": null,
+        "climate": -2, "education": null, "safety": null, "repro": null, "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "Union member (SEIU/AFT/UAW); campaigns on expanding union protections and worker power (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" },
+        "health": { "label": "Supports Medicare for All; co-wrote a book on it (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" },
+        "housing": { "label": "Backed repealing state preemption of rent control (2018) (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" },
+        "immigration": { "label": "Supports abolishing ICE while keeping 'certain kinds' of border enforcement (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" },
+        "climate": { "label": "100% renewable energy by 2030; tougher environmental enforcement (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" }
+      },
+      "sources": [
+        { "label": "Wikipedia: Abdul El-Sayed", "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed" },
+        { "label": "Detroit News: primary result", "url": "https://www.detroitnews.com/story/news/politics/2026/08/04/michigan-senate-election-results/91144752007/" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6MI00418/" }
+      ],
+      "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "fec-S4MI00595",
+      "name": "Mike Rogers",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "background": "Former FBI special agent and U.S. Representative (2001–2015), chaired the House Intelligence Committee; 2024 Senate nominee, running again in 2026.",
+      "positions": {
+        "cost": 1, "health": 2, "housing": null, "immigration": 2, "taxes": 1,
+        "climate": null, "education": null, "safety": 1, "repro": 0, "democracy": 2
+      },
+      "positionSources": {
+        "cost": { "label": "Argues controlling federal spending and rates — not intervention — lowers costs (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "health": { "label": "Voted repeatedly against Medicare drug-price negotiation; opposes ACA provisions, favors free-market care (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "immigration": { "label": "Backs border wall and stricter enforcement; blames 'open borders' for crime (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "taxes": { "label": "Emphasizes cutting federal spending; backs Trump tariff plans (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "safety": { "label": "Former FBI agent (organized crime); campaigns on tougher enforcement (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "repro": { "label": "Says he won't try to overturn Michigan's 2022 abortion-rights amendment; leaves issue to states (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        "democracy": { "label": "Backs aggressive election-security measures incl. police monitoring of election workers; promoted 2020 fraud claims (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" }
+      },
+      "sources": [
+        { "label": "Wikipedia: Mike Rogers", "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)" },
+        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S4MI00595/" }
+      ],
+      "curatedAt": "2026-08-12"
+    }
+  ]
+}

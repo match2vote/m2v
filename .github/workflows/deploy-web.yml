@@ -19,6 +19,7 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -93,3 +94,16 @@ jobs:
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
+
+      # Pages source is currently "GitHub Actions" and the token can't flip it,
+      # so also deploy via the artifact path. v4 failed with runner TLS errors
+      # (Node 24); v3 runs on Node 20. Both deploy paths are kept so whichever
+      # the settings point at, the site updates.
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages (artifact path)
+        id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v3

@@ -11,6 +11,7 @@ function routeToPath(r) {
   switch (r.name) {
     case 'home': return '/';
     case 'howto': return '/howto';
+    case 'state': return '/state';
     case 'ballot': return '/ballot';
     case 'races': return r.state ? `/races/${r.state}` : '/races';
     case 'race': return `/race/${encodeURIComponent(r.id)}`;
@@ -29,6 +30,7 @@ export function pathToRoute(pathname) {
   if (!seg.length) return { name: 'home' };
   if (seg[0] === 'home') return { name: 'home' };
   if (seg[0] === 'howto') return { name: 'howto' };
+  if (seg[0] === 'state') return { name: 'state' };
   if (seg[0] === 'ballot') return { name: 'ballot' };
   if (seg[0] === 'races') return seg[1] ? { name: 'races', state: seg[1].toUpperCase() } : { name: 'races' };
   if (seg[0] === 'race' && seg[1]) return { name: 'race', id: decodeURIComponent(seg[1]) };
@@ -90,7 +92,7 @@ export function useNav() {
 // Which tab a route belongs to (for highlighting the tab bar).
 export function tabOf(route) {
   switch (route.name) {
-    case 'home': case 'about': case 'howto': return 'home';
+    case 'home': case 'about': case 'howto': case 'state': return 'home';
     case 'ballot': return 'ballot';
     case 'matches': case 'quiz': return 'matches';
     default: return 'races';

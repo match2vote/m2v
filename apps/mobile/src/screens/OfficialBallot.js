@@ -152,7 +152,7 @@ export function OfficialBallot() {
           style={{ marginTop: space(4) }}
         />
         {shareMsg && <Body soft style={{ textAlign: 'center', fontSize: 13 }}>{shareMsg}</Body>}
-        <Pressable onPress={() => { kv.set('m2v:ballotState', ''); setStateCode(null); }}>
+        <Pressable onPress={() => nav.go({ name: 'state' })}>
           <Body soft style={{ textAlign: 'center', fontSize: 13, textDecorationLine: 'underline', marginVertical: space(3) }}>
             Change ballot state
           </Body>

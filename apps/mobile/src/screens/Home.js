@@ -50,7 +50,7 @@ export function Home() {
             </Body>
           </View>
           <Pressable
-            onPress={() => nav.go({ name: 'races' })}
+            onPress={() => nav.go({ name: 'state' })}
             style={{ borderWidth: 1, borderColor: colors.line, borderRadius: 999, paddingHorizontal: 14, paddingVertical: 7, backgroundColor: colors.surface }}
           >
             <Text style={{ fontWeight: '700', fontSize: 13, color: colors.ink }}>⌖ Change</Text>

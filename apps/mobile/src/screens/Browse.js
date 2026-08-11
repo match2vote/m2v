@@ -17,16 +17,17 @@ export function StatePicker() {
   const { states, totalRaces } = getCoverage();
   return (
     <Screen>
-      <H1>Where do you vote?</H1>
+      <H1>Browse the races</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {totalRaces} researched races across {states.length} states — every
-        position sourced, nothing guessed. New races weekly.
+        {totalRaces} covered races across {states.length} states — every
+        position sourced, nothing guessed. Browsing here never changes your
+        home state.
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {states.map((s) => (
           <Pressable
             key={s.code}
-            onPress={() => { kv.set('m2v:ballotState', s.code); nav.go({ name: 'races', state: s.code }); }}
+            onPress={() => nav.go({ name: 'races', state: s.code })}
             style={[styles.stateRow, { borderColor: colors.line, backgroundColor: colors.surface }]}
           >
             <Text style={{ fontSize: 17, fontWeight: '700', color: colors.ink }}>{s.name}</Text>
@@ -304,7 +305,10 @@ export function Profile({ candidateId }) {
               candidateId: candidate.id, name: candidate.name, party: candidate.party,
               tier: candidate.tier, matchPct: match?.pct ?? null,
             });
-            kv.set('m2v:ballotState', candidate.state);
+            // Only adopt this state as the user's ballot state if they have none —
+            // marking a candidate while browsing must never silently switch states.
+            const cur = await kv.get('m2v:ballotState');
+            if (!cur) kv.set('m2v:ballotState', candidate.state);
             setAdded(true);
           }}
         />

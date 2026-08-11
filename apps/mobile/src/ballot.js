@@ -132,7 +132,7 @@ function buildRaces(code, data) {
   for (const d of districts) {
     races.push({
       id: `${code}-house-${d}`,
-      title: d === 'at-large' ? 'U.S. House — At-Large' : `U.S. House — District ${d}`,
+      title: d === 'at-large' ? 'U.S. House — At-Large' : `U.S. House · District ${d}`,
       candidates: data.house[d],
       meta: data.raceMeta?.[`${code}-house-${d}`] || null,
     });

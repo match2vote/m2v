@@ -13,6 +13,7 @@ import { OfficialBallot } from './src/screens/OfficialBallot';
 import { About } from './src/screens/About';
 import { Home } from './src/screens/Home';
 import { HowTo } from './src/screens/HowTo';
+import { ChooseState } from './src/screens/ChooseState';
 import { getRaces, getCoverage, STATE_NAMES } from './src/ballot';
 import { getStateData, getPicks, getQuizState, saveQuizState, clearQuizState, kv } from './src/api';
 import { shareResultCard } from './src/share';
@@ -62,7 +63,18 @@ function Root() {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-        <Welcome onDone={(dest) => { kv.set('m2v:onboarded', '1'); setOnboarded(true); nav.go(dest.name === 'races' ? { name: 'home' } : dest, { replace: true }); }} />
+        {onboarded === false && !quiz.pickingState ? (
+          <Welcome onStart={() => setQuiz({ ...quiz, pickingState: true })} />
+        ) : (
+          <ChooseState
+            onboarding
+            onDone={() => {
+              kv.set('m2v:onboarded', '1');
+              setOnboarded(true);
+              nav.go({ name: 'home' }, { replace: true });
+            }}
+          />
+        )}
       </View>
     );
   }
@@ -74,6 +86,7 @@ function Root() {
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
         <View style={{ flex: 1 }}>
           {r.name === 'home' && <Home />}
+          {r.name === 'state' && <ChooseState />}
           {r.name === 'howto' && <HowTo />}
           {r.name === 'ballot' && <OfficialBallot key={ballotCount >= 0 ? 'b' : 'b'} />}
           {r.name === 'races' && !r.state && <StatePicker />}
@@ -103,8 +116,8 @@ function Root() {
   );
 }
 
-// One screen. Get to the quiz fast.
-function Welcome({ onDone }) {
+// One screen, then straight to "where do you vote?".
+function Welcome({ onStart }) {
   const { colors } = useTheme();
   const cov = getCoverage();
   return (
@@ -123,8 +136,7 @@ function Welcome({ onDone }) {
         <Body style={{ fontWeight: '700', color: colors.accent, marginBottom: space(5) }}>
           {cov.totalRaces} races · {cov.states.length} states · growing weekly
         </Body>
-        <Button label="Find my matches" onPress={() => onDone({ name: 'quiz' })} />
-        <Button kind="ghost" label="Just browse the races" onPress={() => onDone({ name: 'races' })} />
+        <Button label="Get started" onPress={onStart} />
       </View>
     </Screen>
   );
@@ -244,9 +256,17 @@ function Matches({ quiz, setQuiz }) {
     );
   }
 
-  // Done → results
+  // Done → results (needs a ballot state)
   if (!stateCode) {
-    return <StatePickerInline onPick={(code) => { kv.set('m2v:ballotState', code); setStateCode(code); }} />;
+    return (
+      <Screen>
+        <H1>One more thing</H1>
+        <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
+          Tell us where you vote and we'll match you against your actual ballot.
+        </Body>
+        <Button label="Choose my state" onPress={() => nav.go({ name: 'state' })} />
+      </Screen>
+    );
   }
 
   const races = getRaces(stateCode, data, { curatedOnly: true });
@@ -261,7 +281,7 @@ function Matches({ quiz, setQuiz }) {
       <H1>Here's who agrees with you</H1>
       <Body soft style={{ marginBottom: space(3) }}>
         {STATE_NAMES[stateCode] || stateCode} · November 3, 2026.{' '}
-        <Text style={{ textDecorationLine: 'underline' }} onPress={() => setStateCode(null)}>Change state</Text>
+        <Text style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'state' })}>Change state</Text>
       </Body>
       <ScrollView style={{ flex: 1 }}>
         <Button
@@ -306,35 +326,6 @@ function Matches({ quiz, setQuiz }) {
           </Card>
         )}
         <View style={{ height: space(6) }} />
-      </ScrollView>
-    </Screen>
-  );
-}
-
-function StatePickerInline({ onPick }) {
-  const { colors } = useTheme();
-  const { states } = getCoverage();
-  return (
-    <Screen>
-      <H1>Where do you vote?</H1>
-      <Body soft style={{ marginBottom: space(3) }}>So we can match you with your actual ballot.</Body>
-      <ScrollView style={{ flex: 1 }}>
-        {states.map((s) => (
-          <Pressable
-            key={s.code}
-            onPress={() => onPick(s.code)}
-            style={{
-              flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 14, paddingHorizontal: 16,
-              borderWidth: 1, borderColor: colors.line, backgroundColor: colors.surface, borderRadius: 12, marginBottom: 8,
-            }}
-          >
-            <Text style={{ fontSize: 17, fontWeight: '700', color: colors.ink }}>{s.name}</Text>
-            <Text style={{ color: colors.inkSoft }}>›</Text>
-          </Pressable>
-        ))}
-        <Body soft style={{ fontSize: 13, marginTop: space(2) }}>
-          Not listed? We don't cover your state yet — new races are added weekly.
-        </Body>
       </ScrollView>
     </Screen>
   );

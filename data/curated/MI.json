@@ -9,6 +9,10 @@
         "fec-S4MI00595"
       ],
       "statusNote": "Open seat: Abdul El-Sayed (D) won the Aug 4 primary over Haley Stevens; Mike Rogers (R) is the Republican nominee."
+    },
+    "MI-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Whitmer term-limited): Secretary of State Jocelyn Benson (D) faces Rep. John James (R), both nominated Aug 4."
     }
   },
   "candidates": [
@@ -147,6 +151,98 @@
         "Cut taxes and spending",
         "Strong national defense"
       ]
+    },
+    {
+      "id": "mi-gov-benson",
+      "name": "Jocelyn Benson",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "MI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Michigan Secretary of State since 2019; former law school dean. Awarded the JFK Profile in Courage Award for defending the 2020 election.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": -2
+      },
+      "positionSources": {
+        "repro": {
+          "label": "Launched campaign on the Roe anniversary, signaling abortion rights as a priority (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jocelyn_Benson"
+        },
+        "democracy": {
+          "label": "SoS record: Election Day registration, absentee applications to all voters, ballot tracking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jocelyn_Benson"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Jocelyn Benson",
+          "url": "https://en.wikipedia.org/wiki/Jocelyn_Benson"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Detroit, MI",
+      "now": "Michigan Secretary of State"
+    },
+    {
+      "id": "mi-gov-james",
+      "name": "John James",
+      "party": "Republican",
+      "office": "governor",
+      "state": "MI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "U.S. Representative (MI-10) since 2023; West Point graduate, Apache pilot, and auto-logistics executive. Won the Aug 4 Republican primary.",
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Calls the ACA 'a monstrosity'; opposes it (with replacement) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        },
+        "education": {
+          "label": "Top priority: more power for parents and teachers (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        },
+        "repro": {
+          "label": "Strongly pro-life; compared Roe to 'genocide'; defund Planned Parenthood (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        },
+        "democracy": {
+          "label": "Challenged the certification of the 2020 election results (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: John James",
+          "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Farmington Hills, MI",
+      "now": "U.S. Representative, MI-10"
     }
   ]
 }

@@ -4,8 +4,15 @@
   "races": {
     "OH-senate": {
       "status": "general",
-      "advancing": ["fec-S6OH00163", "fec-S6OH00304"],
+      "advancing": [
+        "fec-S6OH00163",
+        "fec-S6OH00304"
+      ],
       "statusNote": "Special election: former Sen. Sherrod Brown (D) faces appointed Sen. Jon Husted (R) for the seat JD Vance vacated."
+    },
+    "OH-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. DeWine term-limited): Vivek Ramaswamy (R) faces Dr. Amy Acton (D)."
     }
   },
   "candidates": [
@@ -19,20 +26,52 @@
       "ballotStatus": "nominee",
       "background": "U.S. Senator 1993–2025 (House then Senate); lost his seat in 2024, now running in the 2026 special election. Known as one of the Senate's most labor-focused members.",
       "positions": {
-        "cost": -2, "health": -2, "housing": -1, "immigration": null, "taxes": -2,
-        "climate": -1, "education": null, "safety": null, "repro": null, "democracy": null
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -2,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
       },
       "positionSources": {
-        "cost": { "label": "Career centered on working-class economics: opposed NAFTA/CAFTA, paid-sick-days bills, Stop Predatory Investing Act (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" },
-        "health": { "label": "Voted for the ACA; backed Medicare buy-in at 55+; earlier co-sponsored Medicare for All (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" },
-        "housing": { "label": "Co-sponsored YIGBY housing act and Stop Predatory Investing Act limiting corporate home-buying (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" },
-        "taxes": { "label": "Fought the 2017 tax law as favoring the wealthy and corporations (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" },
-        "climate": { "label": "Pushed EPA to regulate PFAS 'forever chemicals' (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" }
+        "cost": {
+          "label": "Career centered on working-class economics: opposed NAFTA/CAFTA, paid-sick-days bills, Stop Predatory Investing Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        "health": {
+          "label": "Voted for the ACA; backed Medicare buy-in at 55+; earlier co-sponsored Medicare for All (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        "housing": {
+          "label": "Co-sponsored YIGBY housing act and Stop Predatory Investing Act limiting corporate home-buying (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        "taxes": {
+          "label": "Fought the 2017 tax law as favoring the wealthy and corporations (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        "climate": {
+          "label": "Pushed EPA to regulate PFAS 'forever chemicals' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        }
       },
       "sources": [
-        { "label": "Wikipedia: Sherrod Brown", "url": "https://en.wikipedia.org/wiki/Sherrod_Brown" },
-        { "label": "NBC: Brown wins primary", "url": "https://www.nbcnews.com/politics/2026-election/sherrod-brown-wins-ohio-senate-democratic-primary-jon-husted-rcna343049" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6OH00163/" }
+        {
+          "label": "Wikipedia: Sherrod Brown",
+          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        {
+          "label": "NBC: Brown wins primary",
+          "url": "https://www.nbcnews.com/politics/2026-election/sherrod-brown-wins-ohio-senate-democratic-primary-jon-husted-rcna343049"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OH00163/"
+        }
       ],
       "curatedAt": "2026-08-12"
     },
@@ -46,20 +85,138 @@
       "ballotStatus": "nominee",
       "background": "Appointed U.S. Senator (Jan 2025) after JD Vance became Vice President; previously Ohio Lt. Governor and Secretary of State. Running to keep the seat in the special election.",
       "positions": {
-        "cost": null, "health": null, "housing": null, "immigration": null, "taxes": 1,
-        "climate": 1, "education": 2, "safety": null, "repro": null, "democracy": 2
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 1,
+        "education": 2,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
       },
       "positionSources": {
-        "taxes": { "label": "Deregulation record: InnovateOhio, office budget cuts, lower business fees (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Husted" },
-        "climate": { "label": "Sponsored 2025 repeal of appliance energy-efficiency standards as regulatory burden (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Husted" },
-        "education": { "label": "Backed charter schools and expanded access to private/religious education (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Husted" },
-        "democracy": { "label": "'Easy to vote and hard to cheat': voter-roll purges (upheld 5–4 in Husted v. Randolph Institute), uniform early-voting limits (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Jon_Husted" }
+        "taxes": {
+          "label": "Deregulation record: InnovateOhio, office budget cuts, lower business fees (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        },
+        "climate": {
+          "label": "Sponsored 2025 repeal of appliance energy-efficiency standards as regulatory burden (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        },
+        "education": {
+          "label": "Backed charter schools and expanded access to private/religious education (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        },
+        "democracy": {
+          "label": "'Easy to vote and hard to cheat': voter-roll purges (upheld 5–4 in Husted v. Randolph Institute), uniform early-voting limits (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        }
       },
       "sources": [
-        { "label": "Wikipedia: Jon Husted", "url": "https://en.wikipedia.org/wiki/Jon_Husted" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6OH00304/" }
+        {
+          "label": "Wikipedia: Jon Husted",
+          "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OH00304/"
+        }
       ],
       "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "oh-gov-ramaswamy",
+      "name": "Vivek Ramaswamy",
+      "party": "Republican",
+      "office": "governor",
+      "state": "OH",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Biotech entrepreneur, author, and 2024 presidential candidate; briefly co-led DOGE. Endorsed by the Ohio Republican Party for the open governor seat.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": 2,
+        "education": 1,
+        "safety": 0,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Advocates ending birthright citizenship; merit-based H-1B reform (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        },
+        "climate": {
+          "label": "'Burn coal,' frack without 'environmental agendas'; opposes EV subsidies (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        },
+        "education": {
+          "label": "Pledged to abolish the U.S. Education Department; opposes CRT in schools (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        },
+        "safety": {
+          "label": "Mixed: military action against cartels, but supports federal marijuana legalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        },
+        "democracy": {
+          "label": "Proposed raising the voting age to 25 absent service or a civics test (2023 campaign) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Vivek Ramaswamy",
+          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Cincinnati, OH",
+      "now": "Entrepreneur; 2024 presidential candidate"
+    },
+    {
+      "id": "oh-gov-acton",
+      "name": "Amy Acton",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "OH",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Physician and former Ohio Department of Health director — the state's trusted voice in the early COVID-19 response.",
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaign centers healthcare costs: Medicaid, caregiver tax credits, marketplace affordability (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Amy_Acton"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Amy Acton",
+          "url": "https://en.wikipedia.org/wiki/Amy_Acton"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Columbus, OH",
+      "now": "Former Director, Ohio Department of Health"
     }
   ]
 }

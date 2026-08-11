@@ -1,0 +1,120 @@
+{
+  "state": "AZ",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "AZ-governor": {
+      "status": "general",
+      "statusNote": "Gov. Katie Hobbs (D) seeks re-election against Rep. Andy Biggs (R), who won the Republican primary."
+    }
+  },
+  "candidates": [
+    {
+      "id": "az-gov-hobbs",
+      "name": "Katie Hobbs",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "AZ",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "Governor of Arizona since 2023; former Secretary of State and social worker.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Vetoed 2024 bill cutting construction regulations as 'a step too far' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        "immigration": {
+          "label": "Mixed: deployed the National Guard to the border; proposed scholarships for undocumented students (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        "safety": {
+          "label": "Mixed: created independent prison oversight; resumed executions after a pause (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        "repro": {
+          "label": "Signed repeal of Arizona's 1864 abortion ban; backs viability protections (Prop 139) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        "democracy": {
+          "label": "As SoS, defended 2020 results and criticized the Maricopa 'audit' as conspiracy-chasing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Katie Hobbs",
+          "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Phoenix, AZ",
+      "now": "Governor of Arizona"
+    },
+    {
+      "id": "az-gov-biggs",
+      "name": "Andy Biggs",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AZ",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "U.S. Representative (AZ-05) since 2017 and former House Freedom Caucus chairman. Won the July 2026 Republican primary.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted to oust Speaker McCarthy over a bill lacking border-security provisions (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        "taxes": {
+          "label": "Backed the 2017 tax cuts; Freedom Caucus record against spending bills and debt-ceiling hikes (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        "climate": {
+          "label": "'I do not believe climate change is occurring'; opposed Paris Accords (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        "repro": {
+          "label": "'Opposed to all forms of elective abortion'; called Dobbs 'a major victory' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        "democracy": {
+          "label": "Objected to certifying AZ/PA 2020 electors; sought decertification per Jan. 6 committee (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Andy Biggs",
+          "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Gilbert, AZ",
+      "now": "U.S. Representative, AZ-05"
+    }
+  ]
+}

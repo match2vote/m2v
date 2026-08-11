@@ -1,0 +1,120 @@
+{
+  "state": "PA",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "PA-governor": {
+      "status": "general",
+      "statusNote": "Gov. Josh Shapiro (D) seeks re-election against State Treasurer Stacy Garrity (R)."
+    }
+  },
+  "candidates": [
+    {
+      "id": "pa-gov-shapiro",
+      "name": "Josh Shapiro",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "PA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "Governor of Pennsylvania since 2023; former state Attorney General.",
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 0,
+        "education": 0,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Repeatedly proposed raising the minimum wage to $15 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "taxes": {
+          "label": "Championed cutting the corporate tax rate from 8.99% to 4.99% (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "climate": {
+          "label": "Mixed: 'skeptical' of the RGGI cap-and-trade program, backs clean-energy expansion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "education": {
+          "label": "Mixed: $1.1B public-school funding boost AND supports lifeline-scholarship ESAs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "safety": {
+          "label": "Signed parole reform; paused executions and backs abolishing the death penalty (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "repro": {
+          "label": "Pledged to veto abortion restrictions; ended state contract with anti-abortion Real Alternatives (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "democracy": {
+          "label": "Implemented automatic voter registration, Sept 2023 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Josh Shapiro",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Abington, PA",
+      "now": "Governor of Pennsylvania"
+    },
+    {
+      "id": "pa-gov-garrity",
+      "name": "Stacy Garrity",
+      "party": "Republican",
+      "office": "governor",
+      "state": "PA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Pennsylvania State Treasurer since 2021; retired U.S. Army Reserve colonel, three Bronze Stars.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Fiscal-hawk record as treasurer: opposed spending programs, cost-focused critiques (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        },
+        "climate": {
+          "label": "Threatened state divestment from banks that cut fossil-fuel financing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        },
+        "democracy": {
+          "label": "Spoke at Jan 5, 2021 rally urging decertification of 2020 results; endorsed Trump fraud claims (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Stacy Garrity",
+          "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        }
+      ],
+      "curatedAt": "2026-08-12",
+      "home": "Athens Township, PA",
+      "now": "Pennsylvania State Treasurer"
+    }
+  ]
+}

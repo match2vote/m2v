@@ -2,12 +2,13 @@
 // open a candidate profile. All data is real (FEC tier) — names, parties,
 // districts, incumbency, FEC filing links. Positions show "Not stated"
 // until curated, which is the honest truth.
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-native';
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing } from '../ui';
 import { theme } from '../theme';
 import { STATE_LIST, STATE_NAMES, getRaces } from '../ballot';
+import { getStateData } from '../api';
 
 const { colors, space } = theme;
 
@@ -32,14 +33,21 @@ export function StatePicker({ onPick, onBack }) {
 }
 
 export function Races({ stateCode, onOpenRace, onBack }) {
-  const races = getRaces(stateCode);
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    let alive = true;
+    getStateData(stateCode, (fresh) => { if (alive) setData(fresh); })
+      .then((d) => { if (alive && d) setData(d); });
+    return () => { alive = false; };
+  }, [stateCode]);
+  const races = getRaces(stateCode, data);
   const total = races.reduce((n, r) => n + r.candidates.length, 0);
   return (
     <Screen>
       <H1>{STATE_NAMES[stateCode] || stateCode}</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {races.length} federal race{races.length === 1 ? '' : 's'} · {total} filed
-        candidates · live from FEC filings
+        {races.length} race{races.length === 1 ? '' : 's'} · {total} candidates ·{' '}
+        {data?.live ? 'live data' : 'offline snapshot'} from FEC filings
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {races.map((r) => (

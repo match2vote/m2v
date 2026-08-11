@@ -22,14 +22,15 @@ export const STATE_LIST = Object.entries(STATE_NAMES)
   .sort((a, b) => a[1].localeCompare(b[1]))
   .map(([code, name]) => ({ code, name }));
 
-export function getStateData(code) {
+export function getBundledStateData(code) {
   return candidatesByState[code] || null;
 }
 
 // Returns the list of races for a state:
 //   [{ id, title, candidates }]
-export function getRaces(code) {
-  const data = getStateData(code);
+// `data` (from api.getStateData) takes precedence; bundled snapshot is the fallback.
+export function getRaces(code, data) {
+  data = data || getBundledStateData(code);
   if (!data) return [];
   const races = [];
   if (data.governor?.length) {

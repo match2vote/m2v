@@ -65,3 +65,8 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      - name: Push dataset to Supabase
+        env:
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: node pipeline/db-push.mjs

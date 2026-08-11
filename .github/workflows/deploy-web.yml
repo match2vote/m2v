@@ -1,0 +1,60 @@
+# Companion web app + curation tool → GitHub Pages.
+# Public URL: https://match2vote.github.io/m2v/  (curation tool at /m2v/curate/)
+# This is the store-rejection fallback: same code, always deployable, no gatekeeper.
+name: Deploy web app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/mobile/**'
+      - 'packages/**'
+      - 'tools/**'
+      - '.github/workflows/deploy-web.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install app dependencies
+        working-directory: apps/mobile
+        run: npm install --no-audit --no-fund
+
+      - name: Export web build
+        working-directory: apps/mobile
+        run: npx expo export --platform web --output-dir ../../_site
+
+      - name: Add curation tool
+        run: mkdir -p _site/curate && cp tools/curate/index.html _site/curate/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

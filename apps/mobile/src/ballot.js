@@ -27,9 +27,44 @@ export function getBundledStateData(code) {
 }
 
 // Returns the list of races for a state:
-//   [{ id, title, candidates }]
+//   [{ id, title, candidates, meta, hiddenCount? }]
 // `data` (from api.getStateData) takes precedence; bundled snapshot is the fallback.
-export function getRaces(code, data) {
+// opts.curatedOnly: only races with researched candidates, and only those
+// candidates — users never see placeholder "Not stated" candidates.
+export function getRaces(code, data, opts = {}) {
+  const races = buildRaces(code, data);
+  if (!opts.curatedOnly) return races;
+  return races
+    .map((race) => {
+      const curated = race.candidates.filter(
+        (c) => c.tier === 'curated' && c.ballotStatus !== 'not-advancing'
+      );
+      if (!curated.length) return null;
+      return { ...race, candidates: curated, hiddenCount: race.candidates.length - curated.length };
+    })
+    .filter(Boolean);
+}
+
+// Coverage summary: which states have at least one fully researched race.
+export function getCoverage(dataByState) {
+  const src = dataByState || candidatesByState;
+  const states = [];
+  let totalRaces = 0;
+  let totalCandidates = 0;
+  for (const code of Object.keys(src)) {
+    const races = getRaces(code, src[code], { curatedOnly: true });
+    if (races.length) {
+      const n = races.reduce((s, r) => s + r.candidates.length, 0);
+      states.push({ code, name: STATE_NAMES[code] || code, races: races.length, candidates: n });
+      totalRaces += races.length;
+      totalCandidates += n;
+    }
+  }
+  states.sort((a, b) => a.name.localeCompare(b.name));
+  return { states, totalRaces, totalCandidates };
+}
+
+function buildRaces(code, data) {
   data = data || getBundledStateData(code);
   if (!data) return [];
   const races = [];

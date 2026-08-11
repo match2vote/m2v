@@ -7,25 +7,38 @@ import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-na
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing } from '../ui';
 import { theme } from '../theme';
-import { STATE_LIST, STATE_NAMES, getRaces } from '../ballot';
+import { STATE_NAMES, getRaces, getCoverage } from '../ballot';
 import { getStateData } from '../api';
 
 const { colors, space } = theme;
 
 export function StatePicker({ onPick, onBack }) {
+  const { states, totalRaces } = getCoverage();
   return (
     <Screen>
       <H1>Where do you vote?</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        Pick your state to see every federal race on your November 2026 ballot.
+        {totalRaces} fully researched race{totalRaces === 1 ? '' : 's'} across{' '}
+        {states.length} state{states.length === 1 ? '' : 's'} — every position
+        sourced, nothing guessed. Growing weekly.
       </Body>
       <ScrollView style={{ flex: 1 }}>
-        {STATE_LIST.map((s) => (
+        {states.map((s) => (
           <Pressable key={s.code} onPress={() => onPick(s.code)} style={styles.stateRow}>
             <Text style={styles.stateName}>{s.name}</Text>
-            <Text style={{ color: colors.inkSoft }}>›</Text>
+            <Text style={{ color: colors.inkSoft }}>
+              {s.races} race{s.races === 1 ? '' : 's'}  ›
+            </Text>
           </Pressable>
         ))}
+        <Card style={{ marginTop: space(3) }}>
+          <Body style={{ fontWeight: '700', marginBottom: 4 }}>Don't see your state?</Body>
+          <Body soft style={{ fontSize: 13 }}>
+            M2V doesn't cover it yet. We only show candidates whose positions
+            we've researched and sourced — no placeholders, no guesses — and
+            we're adding new races weekly through Election Day.
+          </Body>
+        </Card>
         <Button kind="ghost" label="Back" onPress={onBack} />
       </ScrollView>
     </Screen>
@@ -40,14 +53,14 @@ export function Races({ stateCode, onOpenRace, onBack }) {
       .then((d) => { if (alive && d) setData(d); });
     return () => { alive = false; };
   }, [stateCode]);
-  const races = getRaces(stateCode, data);
+  const races = getRaces(stateCode, data, { curatedOnly: true });
   const total = races.reduce((n, r) => n + r.candidates.length, 0);
   return (
     <Screen>
       <H1>{STATE_NAMES[stateCode] || stateCode}</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {races.length} race{races.length === 1 ? '' : 's'} · {total} candidates ·{' '}
-        {data?.live ? 'live data' : 'offline snapshot'} from FEC filings
+        {races.length} researched race{races.length === 1 ? '' : 's'} · {total}{' '}
+        candidates with sourced positions · {data?.live ? 'live data' : 'offline snapshot'}
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {races.map((r) => (
@@ -55,8 +68,7 @@ export function Races({ stateCode, onOpenRace, onBack }) {
             <Card>
               <H2>{r.title}</H2>
               <Body soft>
-                {r.candidates.length} candidate{r.candidates.length === 1 ? '' : 's'}
-                {r.candidates.some((c) => c.incumbent) ? ' · includes the incumbent' : ' · open race'}
+                {r.candidates.map((c) => c.name).join(' vs ')}
               </Body>
             </Card>
           </Pressable>
@@ -69,8 +81,7 @@ export function Races({ stateCode, onOpenRace, onBack }) {
 
 export function Race({ race, answers, matters, onOpenProfile, onBack }) {
   const hasQuiz = answers && Object.values(answers).some((v) => v !== null && v !== undefined);
-  const onBallot = race.candidates.filter((c) => c.ballotStatus !== 'not-advancing');
-  const notAdvancing = race.candidates.filter((c) => c.ballotStatus === 'not-advancing');
+  const onBallot = race.candidates;
 
   const row = (c) => {
     const m = hasQuiz ? computeMatch(answers, matters, c.positions || {}) : null;
@@ -102,13 +113,12 @@ export function Race({ race, answers, matters, onOpenProfile, onBack }) {
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {onBallot.map(row)}
-        {notAdvancing.length > 0 && (
-          <>
-            <Body soft style={{ marginTop: space(3), marginBottom: space(2), fontSize: 13 }}>
-              Filed with the FEC but not advancing to the November ballot:
-            </Body>
-            {notAdvancing.map(row)}
-          </>
+        {race.hiddenCount > 0 && (
+          <Body soft style={{ marginTop: space(2), marginBottom: space(2), fontSize: 13 }}>
+            {race.hiddenCount} other filed candidate{race.hiddenCount === 1 ? '' : 's'} in
+            this race {race.hiddenCount === 1 ? 'isn’t' : 'aren’t'} shown because we
+            haven't researched their positions yet — M2V never guesses.
+          </Body>
         )}
         <Button kind="ghost" label="Back" onPress={onBack} />
       </ScrollView>

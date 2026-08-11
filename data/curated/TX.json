@@ -97,7 +97,7 @@
       "background": "Governor of Texas since 2015, seeking a fourth term; former Texas Attorney General. Won the March 2026 primary with 81.8%.",
       "positions": {
         "cost": null,
-        "health": 1,
+        "health": null,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
@@ -108,13 +108,12 @@
         "democracy": 2
       },
       "positionSources": {
-        "health": { "label": "Texas declined Medicaid expansion throughout his tenure (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
         "immigration": { "label": "Launched Operation Lone Star; signed $1.54B border-barrier funding (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
-        "taxes": { "label": "Signed record Texas property-tax cut package, 2023 (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
-        "climate": { "label": "Champions oil & gas expansion; opposed federal emissions rules (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "taxes": { "label": "Supported Prop 4 (2023) property-tax cut and education-funding amendment (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
+        "climate": { "label": "Sued the EPA to block greenhouse-gas regulation; opposed federal emissions rules (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
         "education": { "label": "Led the push for education savings accounts (vouchers), incl. primary campaigns against opponents (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
         "repro": { "label": "Signed Texas six-week abortion ban (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" },
-        "democracy": { "label": "Signed SB 1 election-rules law (2021) and 2025 mid-decade redistricting maps (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" }
+        "democracy": { "label": "Signed 2025 mid-decade congressional redistricting maps favoring his party (Ballotpedia)", "url": "https://ballotpedia.org/Greg_Abbott" }
       },
       "sources": [
         { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Greg_Abbott" }

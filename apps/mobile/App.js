@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ISSUES, rankCandidates } from '@m2v/core';
-import { getRaces, STATE_NAMES } from './src/ballot';
+import { getRaces, getCoverage, STATE_NAMES } from './src/ballot';
 import { getStateData } from './src/api';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing } from './src/ui';
 import { theme } from './src/theme';
@@ -120,16 +120,20 @@ export default function App() {
 }
 
 function Welcome({ onStart, onBrowse, onBallot, onMethodology }) {
+  const cov = getCoverage();
   return (
     <Screen>
       <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(2) }}>
         M2V · MATCH TO VOTE
       </Body>
       <H1>Vote the issues,{'\n'}not the party.</H1>
-      <Body soft style={{ marginBottom: space(6) }}>
-        Answer 10 questions about what you believe. We'll match you with the real
-        candidates on your November 2026 ballot — with sources for every position,
-        and honest "Not stated" labels when a candidate hasn't said.
+      <Body soft style={{ marginBottom: space(4) }}>
+        Answer 10 questions about what you believe. We'll match you with real
+        candidates on the November 2026 ballot — every position sourced, nothing
+        ever guessed from party.
+      </Body>
+      <Body style={{ fontWeight: '700', color: colors.accent, marginBottom: space(4) }}>
+        Now covering {cov.totalRaces} races across {cov.states.length} states · growing weekly
       </Body>
       <Button label="Take the quiz" onPress={onStart} />
       <Button kind="ghost" label="Browse candidates in your state" onPress={onBrowse} />
@@ -193,15 +197,15 @@ function Results({ stateCode, answers, matters, onRestart, onChangeState, onOpen
     return () => { alive = false; };
   }, [stateCode]);
 
-  const races = useMemo(() => getRaces(stateCode, data), [stateCode, data]);
-  // Statewide races first (they're the curated ones), then House districts.
+  const races = useMemo(
+    () => getRaces(stateCode, data, { curatedOnly: true }),
+    [stateCode, data]
+  );
   const ranked = useMemo(() =>
-    races.map((race) => {
-      const onBallot = race.candidates.filter((c) => c.ballotStatus !== 'not-advancing');
-      const rows = rankCandidates(answers, matters, onBallot);
-      const unscored = rows.filter((r) => r.pct === null).length;
-      return { race, rows, unscored };
-    }), [races, answers, matters]);
+    races.map((race) => ({
+      race,
+      rows: rankCandidates(answers, matters, race.candidates),
+    })), [races, answers, matters]);
 
   return (
     <Screen>
@@ -214,11 +218,11 @@ function Results({ stateCode, answers, matters, onRestart, onChangeState, onOpen
         </Text>
       </Body>
       <ScrollView style={{ flex: 1 }}>
-        {ranked.map(({ race, rows, unscored }) => (
+        {ranked.map(({ race, rows }) => (
           <Pressable key={race.id} onPress={() => onOpenRace(race)}>
             <Card>
               <H2 style={{ marginBottom: space(2) }}>{race.title}</H2>
-              {rows.slice(0, 3).map(({ candidate, pct, sharedIssues }) => (
+              {rows.map(({ candidate, pct, sharedIssues }) => (
                 <View
                   key={candidate.id}
                   style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(2) }}
@@ -237,10 +241,10 @@ function Results({ stateCode, answers, matters, onRestart, onChangeState, onOpen
                 </View>
               ))}
               <Body soft style={{ fontSize: 12 }}>
-                {rows.length > 3 ? `+ ${rows.length - 3} more · ` : ''}
-                {unscored > 0
-                  ? `${unscored} candidate${unscored === 1 ? ' hasn’t' : 's haven’t'} stated positions — never guessed from party.`
-                  : 'All candidates scored from sourced positions.'}
+                Every score built from sourced positions — tap for details
+                {race.hiddenCount > 0
+                  ? ` · ${race.hiddenCount} unresearched filer${race.hiddenCount === 1 ? '' : 's'} not shown`
+                  : ''}
               </Body>
             </Card>
           </Pressable>

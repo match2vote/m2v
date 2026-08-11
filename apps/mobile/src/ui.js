@@ -1,4 +1,4 @@
-// Shared UI v2 — bold type, motion, dark-mode aware, ballot bubbles, tab bar.
+// Shared UI v2, bold type, motion, dark-mode aware, ballot bubbles, tab bar.
 import React, { useEffect, useRef } from 'react';
 import { Text, View, Pressable, Animated, Easing, StyleSheet } from 'react-native';
 import { theme, useTheme, matchColor, typography } from './theme';
@@ -103,7 +103,7 @@ export function TierBadge({ tier }) {
   const map = {
     curated: { label: 'Every position sourced', color: colors.accent, bg: colors.accentSoft },
     fec: { label: 'Positions not stated yet', color: colors.notStated, bg: colors.line },
-    sample: { label: 'Sample — not a real candidate', color: colors.sample, bg: colors.line },
+    sample: { label: 'Sample, not a real candidate', color: colors.sample, bg: colors.line },
   };
   const t = map[tier] || map.fec;
   return (
@@ -134,7 +134,7 @@ export function MatchRing({ pct, size = 92 }) {
       }}
     >
       <Text style={{ fontSize: size * 0.26, fontWeight: '800', color: colors.ink }}>
-        {shown === null ? '—' : `${shown}%`}
+        {shown === null ? '-' : `${shown}%`}
       </Text>
       <Text style={{ fontSize: 10, color: colors.inkSoft, fontWeight: '600' }}>
         {pct === null ? 'not enough info' : 'match'}
@@ -143,7 +143,7 @@ export function MatchRing({ pct, size = 92 }) {
   );
 }
 
-// Ballot bubble — the fillable oval. Fills with a quick satisfying pop.
+// Ballot bubble, the fillable oval. Fills with a quick satisfying pop.
 export function Bubble({ filled, size = 26 }) {
   const scale = useRef(new Animated.Value(filled ? 1 : 0)).current;
   useEffect(() => {
@@ -178,7 +178,7 @@ export function BackBar({ label = 'Back', onPress }) {
   );
 }
 
-// Category pill: Federal / State — muted colors, never party red/blue.
+// Category pill: Federal / State, muted colors, never party red/blue.
 export function CategoryPill({ kind }) {
   const { colors } = useTheme();
   const fed = kind === 'federal';
@@ -201,7 +201,7 @@ export function InfoCallout({ children }) {
   );
 }
 
-// Espresso dark card with a soft corner glow — the mockup's hero card.
+// Espresso dark card with a soft corner glow, the mockup's hero card.
 export function DarkCard({ children, style }) {
   const { colors } = useTheme();
   return (

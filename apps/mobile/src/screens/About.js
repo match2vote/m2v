@@ -21,20 +21,20 @@ export function About() {
           <Body style={{ fontSize: 15 }}>
             <Text style={{ fontWeight: '800' }}>{cov.totalRaces} races · {cov.totalCandidates} candidates · {cov.states.length} states</Text>
             {'\n'}Growing weekly through Election Day. We show only what we've
-            actually researched — that's a feature, not an apology.
+            actually researched, that's a feature, not an apology.
           </Body>
         </Card>
 
         <H2>How matching works</H2>
         <P>
           You answer 10 questions. We compare your answers with what each
-          candidate has publicly said or done — bills signed or vetoed, roll-call
+          candidate has publicly said or done, bills signed or vetoed, roll-call
           votes, lawsuits filed, statements on their own campaign site or in
           reputable coverage. Every scored position links to its source.
         </P>
         <P>
           A position is never inferred. If a candidate hasn't stated one, it stays
-          "Not stated" — never guessed from their party or anything else. Party
+          "Not stated", never guessed from their party or anything else. Party
           labels are shown for identification only and play zero role in the math.
         </P>
         <P>
@@ -51,7 +51,7 @@ export function About() {
         <Card>
           <H2>Spot an error?</H2>
           <Body style={{ fontSize: 14, marginBottom: space(2) }}>
-            If a position or source looks wrong, tell us — we review it against
+            If a position or source looks wrong, tell us, we review it against
             the record and corrections go live within hours, no app update needed.
           </Body>
           <Button

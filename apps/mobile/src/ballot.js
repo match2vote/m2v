@@ -1,4 +1,4 @@
-// Ballot data access — reads the bundled 50-state candidate snapshot.
+// Ballot data access, reads the bundled 50-state candidate snapshot.
 // Later this becomes a fetch from the M2V backend with this file as the
 // offline fallback; the call sites won't change.
 import candidatesByState from './data/candidates.json';
@@ -30,10 +30,10 @@ export function getBundledStateData(code) {
 //   [{ id, title, candidates, meta, coverage: 'full' | 'names', hiddenCount? }]
 //
 // Two tiers, both real, clearly distinguished:
-//   'full'  — researched, sourced positions → match percentages, full profiles
-//   'names' — we know who's on the ballot (FEC roster + verified nominees) but
+//   'full' , researched, sourced positions → match percentages, full profiles
+//   'names', we know who's on the ballot (FEC roster + verified nominees) but
 //             haven't researched positions. No match %, explicit labeling.
-// A race with zero showable candidates IS NOT RETURNED — no empty rows, ever.
+// A race with zero showable candidates IS NOT RETURNED, no empty rows, ever.
 //
 // opts.curatedOnly → only 'full' races (used for matching).
 // opts.display     → both tiers (used for Browse, Home, Ballot).
@@ -132,7 +132,7 @@ function buildRaces(code, data) {
   for (const d of districts) {
     races.push({
       id: `${code}-house-${d}`,
-      title: d === 'at-large' ? 'U.S. House — At-Large' : `U.S. House · District ${d}`,
+      title: d === 'at-large' ? 'U.S. House. At-Large' : `U.S. House · District ${d}`,
       candidates: data.house[d],
       meta: data.raceMeta?.[`${code}-house-${d}`] || null,
     });

@@ -1,10 +1,10 @@
 {
   "state": "NH",
-  "note": "Hand-curated, sourced entries. Primary not yet held (Sept 8) — frontrunners curated, not marked nominees.",
+  "note": "Hand-curated, sourced entries. Primary not yet held (Sept 8), frontrunners curated, not marked nominees.",
   "races": {
     "NH-senate": {
       "status": "primary-pending",
-      "statusNote": "Open seat (Sen. Shaheen retiring). The primary is September 8 — Chris Pappas (D) and John E. Sununu (R) lead their fields in UNH polling, but nominees aren't final."
+      "statusNote": "Open seat (Sen. Shaheen retiring). The primary is September 8. Chris Pappas (D) and John E. Sununu (R) lead their fields in UNH polling, but nominees aren't final."
     }
   },
   "candidates": [
@@ -18,20 +18,52 @@
       "ballotStatus": null,
       "background": "U.S. Representative for NH-01 since 2019; family runs Manchester's Puritan Backroom restaurant. Leading the September 2026 Democratic primary field.",
       "positions": {
-        "cost": -1, "health": -2, "housing": null, "immigration": -1, "taxes": null,
-        "climate": -2, "education": -2, "safety": null, "repro": -2, "democracy": null
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
       },
       "positionSources": {
-        "cost": { "label": "Backs minimum-wage increases indexed to inflation; paid family leave (Ballotpedia; 2018 platform)", "url": "https://ballotpedia.org/Chris_Pappas" },
-        "health": { "label": "Supports public option / Medicare opt-in, drug-price negotiation (Ballotpedia)", "url": "https://ballotpedia.org/Chris_Pappas" },
-        "immigration": { "label": "Backs Dreamer citizenship pathway and comprehensive reform (Ballotpedia)", "url": "https://ballotpedia.org/Chris_Pappas" },
-        "climate": { "label": "Calls climate change 'an existential threat'; opposes offshore drilling off NH (Ballotpedia)", "url": "https://ballotpedia.org/Chris_Pappas" },
-        "education": { "label": "Tuition-free public college, universal pre-K; opposes diverting funds to private schools (Ballotpedia)", "url": "https://ballotpedia.org/Chris_Pappas" },
-        "repro": { "label": "100% pro-choice record; led reversal of Planned Parenthood defunding (Ballotpedia)", "url": "https://ballotpedia.org/Chris_Pappas" }
+        "cost": {
+          "label": "Backs minimum-wage increases indexed to inflation; paid family leave (Ballotpedia; 2018 platform)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "health": {
+          "label": "Supports public option / Medicare opt-in, drug-price negotiation (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "immigration": {
+          "label": "Backs Dreamer citizenship pathway and comprehensive reform (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "climate": {
+          "label": "Calls climate change 'an existential threat'; opposes offshore drilling off NH (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "education": {
+          "label": "Tuition-free public college, universal pre-K; opposes diverting funds to private schools (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "repro": {
+          "label": "100% pro-choice record; led reversal of Planned Parenthood defunding (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        }
       },
       "sources": [
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Chris_Pappas" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NH00141/" }
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NH00141/"
+        }
       ],
       "curatedAt": "2026-08-12"
     },
@@ -45,20 +77,52 @@
       "ballotStatus": null,
       "background": "U.S. Senator 2003–2009 and Representative 1997–2003, seeking his old seat; son of Gov. John H. Sununu and brother of Gov. Chris Sununu. Endorsed by President Trump. 2026 campaign theme: 'lower the temperature' in Washington.",
       "positions": {
-        "cost": null, "health": null, "housing": null, "immigration": 2, "taxes": 2,
-        "climate": 0, "education": null, "safety": null, "repro": 2, "democracy": null
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 0,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
       },
       "positionSources": {
-        "immigration": { "label": "Voted against the 2007 McCain-Kennedy reform; opposed legalization pathways (Wikipedia)", "url": "https://en.wikipedia.org/wiki/John_E._Sununu" },
-        "taxes": { "label": "ATR 'Friend of the Taxpayer'; 100% Citizens Against Government Waste rating (Wikipedia)", "url": "https://en.wikipedia.org/wiki/John_E._Sununu" },
-        "climate": { "label": "Mixed record: co-sponsored 2007 Clean Air Planning Act (cap-and-trade) but opposed 2003 Climate Stewardship Act (Wikipedia)", "url": "https://en.wikipedia.org/wiki/John_E._Sununu" },
-        "repro": { "label": "Opposed abortion rights; among the most conservative House records on abortion (Wikipedia, citing Boston Globe)", "url": "https://en.wikipedia.org/wiki/John_E._Sununu" }
+        "immigration": {
+          "label": "Voted against the 2007 McCain-Kennedy reform; opposed legalization pathways (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        "taxes": {
+          "label": "ATR 'Friend of the Taxpayer'; 100% Citizens Against Government Waste rating (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        "climate": {
+          "label": "Mixed record: co-sponsored 2007 Clean Air Planning Act (cap-and-trade) but opposed 2003 Climate Stewardship Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        "repro": {
+          "label": "Opposed abortion rights; among the most conservative House records on abortion (Wikipedia, citing Boston Globe)",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        }
       },
       "sources": [
-        { "label": "Wikipedia: John E. Sununu", "url": "https://en.wikipedia.org/wiki/John_E._Sununu" },
-        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/John_E._Sununu" },
-        { "label": "Roll Call: campaign launch", "url": "https://rollcall.com/2025/10/22/john-sununu-launches-senate-comeback-bid-in-new-hampshire/" },
-        { "label": "FEC filing", "url": "https://www.fec.gov/data/candidate/S6NH00208/" }
+        {
+          "label": "Wikipedia: John E. Sununu",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/John_E._Sununu"
+        },
+        {
+          "label": "Roll Call: campaign launch",
+          "url": "https://rollcall.com/2025/10/22/john-sununu-launches-senate-comeback-bid-in-new-hampshire/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NH00208/"
+        }
       ],
       "curatedAt": "2026-08-12"
     }

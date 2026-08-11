@@ -1,4 +1,4 @@
-// My Ballot v2 — looks like the paper ballot you fill out at the polls.
+// My Ballot v2, looks like the paper ballot you fill out at the polls.
 // Ruled sections, ALL-CAPS race titles, fillable ovals that mark with a pop.
 // The SAMPLE BALLOT banner is mandatory and always visible (and baked into exports).
 import React, { useEffect, useState, useCallback } from 'react';
@@ -33,7 +33,7 @@ export function OfficialBallot() {
 
   if (picks === null) return <Screen><Body soft>Loading…</Body></Screen>;
 
-  // Both tiers appear on the ballot (you can mark a names-only race too) —
+  // Both tiers appear on the ballot (you can mark a names-only race too),
   // but only races with at least one showable candidate. No blank slots, ever.
   const races = stateCode ? getRaces(stateCode, data, { display: true }) : [];
   const pickByRace = Object.fromEntries(picks.map((p) => [p.raceId, p]));
@@ -62,7 +62,7 @@ export function OfficialBallot() {
             YOUR SAMPLE BALLOT
           </Text>
           <Text style={{ textAlign: 'center', color: inkB, fontWeight: '600', marginTop: 4, fontSize: 13 }}>
-            GENERAL ELECTION — TUESDAY, NOVEMBER 3, 2026
+            GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026
           </Text>
           <View style={{ height: 2, backgroundColor: inkB, marginVertical: space(4) }} />
           {[1, 2, 3].map((i) => (
@@ -97,7 +97,7 @@ export function OfficialBallot() {
               {(STATE_NAMES[stateCode] || stateCode).toUpperCase()}
             </Text>
             <Text style={{ textAlign: 'center', color: inkB, fontWeight: '700', marginTop: 2, fontSize: 13, letterSpacing: 0.5 }}>
-              GENERAL ELECTION — TUESDAY, NOVEMBER 3, 2026
+              GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026
             </Text>
             <Text style={{ textAlign: 'center', color: '#555', marginTop: 6, fontSize: 12 }}>
               {marked} of {races.length} races marked · tap an oval to mark
@@ -136,7 +136,7 @@ export function OfficialBallot() {
               })}
               {race.hiddenCount > 0 && (
                 <Text style={{ fontSize: 11, color: '#777', marginTop: 4 }}>
-                  {race.hiddenCount} other filed candidate{race.hiddenCount === 1 ? '' : 's'} not yet researched — never guessed.
+                  {race.hiddenCount} other filed candidate{race.hiddenCount === 1 ? '' : 's'} not yet researched, never guessed.
                 </Text>
               )}
             </View>

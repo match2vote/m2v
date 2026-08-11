@@ -89,7 +89,7 @@ export async function getStateData(code, onUpdate) {
         await store.set(cacheKey, JSON.stringify(fresh));
         if (onUpdate) onUpdate(fresh);
       }
-    } catch { /* offline or server unreachable — cached/bundled data stands */ }
+    } catch { /* offline or server unreachable, cached/bundled data stands */ }
   })();
 
   return current;

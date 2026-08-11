@@ -1,4 +1,4 @@
-// M2V root v3 — persistent tab bar, real routing, quiz that never loses
+// M2V root v3, persistent tab bar, real routing, quiz that never loses
 // progress, ballot always one tap away.
 import React, { useEffect, useMemo, useState } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
@@ -131,7 +131,7 @@ function Welcome({ onStart }) {
         </H1>
         <Body soft style={{ marginVertical: space(4), fontSize: 17 }}>
           10 quick questions. Real candidates on the November ballot. Every
-          position sourced — never guessed from party.
+          position sourced, never guessed from party.
         </Body>
         <Body style={{ fontWeight: '700', color: colors.accent, marginBottom: space(5) }}>
           {cov.totalRaces} races · {cov.states.length} states · growing weekly
@@ -194,7 +194,7 @@ function Quiz({ quiz, setQuiz, onDone }) {
           }}
         >
           <Text style={{ color: mattersFlag ? '#fff' : colors.accent, fontWeight: '700' }}>
-            {mattersFlag ? '★ Top issue — counts double' : '☆ Make this a top issue'}
+            {mattersFlag ? '★ Top issue, counts double' : '☆ Make this a top issue'}
           </Text>
         </Pressable>
         <Button kind="ghost" label="Skip this one" onPress={() => answer(null)} />
@@ -235,7 +235,7 @@ function Matches({ quiz, setQuiz }) {
         <H1>Your matches</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
           Take the 10-question quiz and we'll show you who on your ballot
-          actually agrees with you — with a source for every position.
+          actually agrees with you, with a source for every position.
         </Body>
         <Button label="Start the quiz (2 minutes)" onPress={() => nav.go({ name: 'quiz' })} />
       </Screen>
@@ -248,7 +248,7 @@ function Matches({ quiz, setQuiz }) {
       <Screen>
         <H1>Pick up where you left off</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
-          You're {quiz.qIndex} of {ISSUES.length} questions in — your answers are saved.
+          You're {quiz.qIndex} of {ISSUES.length} questions in, your answers are saved.
         </Body>
         <Button label={`Resume at question ${quiz.qIndex + 1}`} onPress={() => nav.go({ name: 'quiz' })} />
         <Button kind="ghost" label="Start over instead" onPress={() => { setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
@@ -318,7 +318,7 @@ function Matches({ quiz, setQuiz }) {
         ) : (
           <Card>
             <Body style={{ fontWeight: '700', marginBottom: space(2) }}>
-              Retake the quiz? Your saved ballot stays exactly as it is — only
+              Retake the quiz? Your saved ballot stays exactly as it is, only
               your quiz answers reset.
             </Body>
             <Button label="Yes, retake" onPress={() => { setConfirmRetake(false); clearQuizState(); setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />

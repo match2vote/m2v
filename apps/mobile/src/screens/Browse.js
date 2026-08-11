@@ -1,4 +1,4 @@
-// Browse screens v2 — nav-driven, back affordance everywhere, curated-only.
+// Browse screens v2, nav-driven, back affordance everywhere, curated-only.
 import React, { useState, useEffect, useContext } from 'react';
 import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-native';
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
@@ -19,7 +19,7 @@ export function StatePicker() {
     <Screen>
       <H1>Browse the races</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {totalRaces} covered races across {states.length} states — every
+        {totalRaces} covered races across {states.length} states, every
         position sourced, nothing guessed. Browsing here never changes your
         home state.
       </Body>
@@ -40,7 +40,7 @@ export function StatePicker() {
           <Body style={{ fontWeight: '700', marginBottom: 4 }}>Don't see your state?</Body>
           <Body soft style={{ fontSize: 13 }}>
             M2V doesn't cover it yet. We only show candidates whose positions
-            we've researched and sourced — no placeholders, no guesses — and
+            we've researched and sourced, no placeholders, no guesses, and
             we're adding races weekly through Election Day.
           </Body>
         </Card>
@@ -77,7 +77,7 @@ export function Races({ stateCode }) {
               <Body soft>{r.candidates.map((c) => c.name).join(' vs ')}</Body>
               {r.coverage === 'names' && (
                 <Body soft style={{ fontSize: 12, marginTop: 4, fontStyle: 'italic' }}>
-                  Names only — we haven't researched positions here yet.
+                  Names only, we haven't researched positions here yet.
                 </Body>
               )}
             </Card>
@@ -86,7 +86,7 @@ export function Races({ stateCode }) {
         {races.length === 0 && (
           <Card>
             <Body soft>
-              No researched races here yet — we're adding races weekly.
+              No researched races here yet, we're adding races weekly.
             </Body>
           </Card>
         )}
@@ -113,7 +113,7 @@ export function Race({ raceId }) {
     return (
       <Screen>
         <BackBar label="Races" onPress={() => nav.back({ name: 'races' })} />
-        <Body soft>We don't cover this race yet — races are added weekly.</Body>
+        <Body soft>We don't cover this race yet, races are added weekly.</Body>
         <Button label="Browse covered races" onPress={() => nav.go({ name: 'races' })} />
       </Screen>
     );
@@ -133,7 +133,7 @@ export function Race({ raceId }) {
             We know who's running here. We haven't researched their positions yet.
           </Body>
           <Body soft style={{ fontSize: 13, marginTop: 4 }}>
-            So there are no match percentages in this race — M2V never guesses
+            So there are no match percentages in this race. M2V never guesses
             a position from someone's party.
           </Body>
         </Card>
@@ -162,7 +162,7 @@ export function Race({ raceId }) {
         {race.hiddenCount > 0 && (
           <Body soft style={{ fontSize: 13, marginBottom: space(3) }}>
             {race.hiddenCount} other filed candidate{race.hiddenCount === 1 ? '' : 's'} in this race
-            {race.hiddenCount === 1 ? " isn't" : " aren't"} shown — positions not researched yet, and M2V never guesses.
+            {race.hiddenCount === 1 ? " isn't" : " aren't"} shown, positions not researched yet, and M2V never guesses.
           </Body>
         )}
         {!hasQuiz && (
@@ -305,7 +305,7 @@ export function Profile({ candidateId }) {
               candidateId: candidate.id, name: candidate.name, party: candidate.party,
               tier: candidate.tier, matchPct: match?.pct ?? null,
             });
-            // Only adopt this state as the user's ballot state if they have none —
+            // Only adopt this state as the user's ballot state if they have none,
             // marking a candidate while browsing must never silently switch states.
             const cur = await kv.get('m2v:ballotState');
             if (!cur) kv.set('m2v:ballotState', candidate.state);

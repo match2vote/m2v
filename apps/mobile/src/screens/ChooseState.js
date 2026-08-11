@@ -1,4 +1,4 @@
-// "Where do you vote?" — the ONLY place your ballot state gets set.
+// "Where do you vote?", the ONLY place your ballot state gets set.
 // Lists every state; covered ones are marked. Browsing never changes this.
 import React from 'react';
 import { ScrollView, View, Text, Pressable } from 'react-native';
@@ -57,7 +57,7 @@ export function ChooseState({ onboarding, onDone }) {
           );
         })}
         <Body soft style={{ fontSize: 12.5, marginVertical: space(3), textAlign: 'center' }}>
-          Not-covered states still get the how-to-vote guide — and we're adding
+          Not-covered states still get the how-to-vote guide, and we're adding
           races weekly through Election Day.
         </Body>
       </ScrollView>

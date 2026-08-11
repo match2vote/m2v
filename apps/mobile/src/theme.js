@@ -1,4 +1,4 @@
-// M2V theme v2 — bold, high-contrast, dark-mode-aware.
+// M2V theme v2, bold, high-contrast, dark-mode-aware.
 // Hard rule: no red/blue party coding anywhere. Match strength has its own
 // non-partisan scale (neutral sand → amber → deep teal-green).
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
@@ -12,7 +12,7 @@ const light = {
   ink: '#262019',           // warm espresso ink
   inkSoft: '#7A7167',
   line: '#EAE4DB',
-  accent: '#A87722',        // deep gold — CTAs, countdown, counters, active tab
+  accent: '#A87722',        // deep gold. CTAs, countdown, counters, active tab
   accentBright: '#C08A2D',
   accentSoft: '#F5EBDA',
   gold: '#A87722',

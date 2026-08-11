@@ -22,8 +22,8 @@ export async function shareResultCard({ stateName, rows }) {
   const top = rows.slice(0, 3);
   if (Platform.OS !== 'web') {
     const msg = [
-      `My top matches in ${stateName} — via M2V (Match to Vote)`,
-      ...top.map((r, i) => `${i + 1}. ${r.name}${r.pct != null ? ` — ${r.pct}% match` : ''} (${r.raceTitle})`),
+      `My top matches in ${stateName}, via M2V (Match to Vote)`,
+      ...top.map((r, i) => `${i + 1}. ${r.name}${r.pct != null ? `, ${r.pct}% match` : ''} (${r.raceTitle})`),
       '',
       `Who actually agrees with YOU? ${URL_LINE}`,
       'Every position sourced. Never matched by party.',
@@ -64,7 +64,7 @@ export async function shareResultCard({ stateName, rows }) {
     x.fillStyle = BRAND.ink;
     x.font = '800 60px system-ui, sans-serif';
     x.textAlign = 'center';
-    x.fillText(r.pct != null ? `${r.pct}%` : '—', 210, y + 152);
+    x.fillText(r.pct != null ? `${r.pct}%` : '-', 210, y + 152);
     x.textAlign = 'left';
     // name + race
     x.font = '700 52px Georgia, serif';
@@ -80,7 +80,7 @@ export async function shareResultCard({ stateName, rows }) {
   // footer
   x.fillStyle = 'rgba(255,255,255,0.92)';
   x.font = '600 40px system-ui, sans-serif';
-  x.fillText('Take the quiz — never matched by party:', 80, 1740);
+  x.fillText('Take the quiz, never matched by party:', 80, 1740);
   x.fillStyle = BRAND.bright;
   x.font = '800 52px system-ui, sans-serif';
   x.fillText(URL_LINE, 80, 1810);
@@ -93,7 +93,7 @@ export async function shareBallotImage({ stateName, races, picks }) {
   if (Platform.OS !== 'web') {
     const msg = [
       'SAMPLE BALLOT — NOT AN OFFICIAL BALLOT. For planning only.',
-      `${stateName.toUpperCase()} · GENERAL ELECTION — TUESDAY, NOVEMBER 3, 2026`,
+      `${stateName.toUpperCase()} · GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026`,
       '',
       ...races.map((r) => {
         const picked = r.candidates.find((cd) => cd.id === pickBy[r.id]);
@@ -111,7 +111,7 @@ export async function shareBallotImage({ stateName, races, picks }) {
   c.width = 1080; c.height = Math.max(height, 1400);
   const x = c.getContext('2d');
   x.fillStyle = BRAND.paper; x.fillRect(0, 0, c.width, c.height);
-  // MANDATORY sample banner — part of the image itself
+  // MANDATORY sample banner, part of the image itself
   x.fillStyle = BRAND.gold; x.fillRect(0, 0, 1080, 110);
   x.fillStyle = '#111'; x.font = '800 40px system-ui, sans-serif'; x.textAlign = 'center';
   x.fillText('SAMPLE BALLOT — NOT AN OFFICIAL BALLOT', 540, 62);
@@ -123,7 +123,7 @@ export async function shareBallotImage({ stateName, races, picks }) {
   x.font = '800 58px Georgia, serif';
   x.fillText(stateName.toUpperCase(), 540, 250);
   x.font = '600 34px system-ui, sans-serif';
-  x.fillText('GENERAL ELECTION — TUESDAY, NOVEMBER 3, 2026', 540, 305);
+  x.fillText('GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026', 540, 305);
   x.fillRect(60, 340, 960, 3);
   x.textAlign = 'left';
   let y = 420;

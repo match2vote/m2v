@@ -1,4 +1,4 @@
-// Home — matches the Draft 1 mockup: "Your 2026 Ballot" header, countdown,
+// Home, matches the Draft 1 mockup: "Your 2026 Ballot" header, countdown,
 // honesty callout, espresso quiz card, Browse/How-to cards, then
 // "Races we're covering on your ballot" with Federal/State pills.
 import React, { useEffect, useState } from 'react';
@@ -65,7 +65,7 @@ export function Home() {
 
         {/* Honesty callout */}
         <InfoCallout>
-          <Text style={{ fontWeight: '800' }}>Every candidate here is real</Text> — rosters from official
+          <Text style={{ fontWeight: '800' }}>Every candidate here is real</Text>, rosters from official
           FEC filings, positions researched with a source for every score. We show only the{' '}
           {cov.totalRaces} races across {cov.states.length} states we've actually covered so far, and add more weekly.
         </InfoCallout>
@@ -79,7 +79,7 @@ export function Home() {
             Answer 10 questions.{'\n'}Meet your candidates.
           </Text>
           <Text style={{ color: 'rgba(246,239,228,0.75)', fontSize: 14, lineHeight: 20, marginTop: 8 }}>
-            We'll rank the candidates we've researched by how well they line up with you — never by party.
+            We'll rank the candidates we've researched by how well they line up with you, never by party.
           </Text>
           <Pressable
             onPress={() => nav.go({ name: 'quiz' })}
@@ -157,7 +157,7 @@ export function Home() {
               <View style={{ flex: 1 }}>
                 <Body style={{ fontWeight: '700', fontSize: 15.5 }}>{r.title}</Body>
                 <Body soft style={{ fontSize: 12 }}>
-                  {r.coverage === 'names' ? 'Names only — positions not researched yet' : r.candidates.map((c) => c.name).join(' vs ')}
+                  {r.coverage === 'names' ? 'Names only, positions not researched yet' : r.candidates.map((c) => c.name).join(' vs ')}
                 </Body>
               </View>
               <CategoryPill kind={r.id.includes('governor') ? 'state' : 'federal'} />

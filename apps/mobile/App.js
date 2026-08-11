@@ -1,12 +1,13 @@
 // M2V — root component. Simple state router (same pattern as the prototype's
 // app.jsx). Screens: Welcome → Quiz → Results → (profile detail later).
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { ISSUES, rankCandidates, stanceLabel } from '@m2v/core';
+import { ISSUES, rankCandidates } from '@m2v/core';
+import { getRaces, STATE_NAMES } from './src/ballot';
+import { getStateData } from './src/api';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing } from './src/ui';
 import { theme } from './src/theme';
-import { SAMPLE_RACE } from './src/sampleData';
 import { StatePicker, Races, Race, Profile } from './src/screens/Browse';
 import { MyBallot, Methodology } from './src/screens/Ballot';
 import { savePick } from './src/api';
@@ -31,6 +32,7 @@ export default function App() {
   const [stateCode, setStateCode] = useState(null);
   const [race, setRace] = useState(null);
   const [candidate, setCandidate] = useState(null);
+  const [cameFrom, setCameFrom] = useState('races');
 
   const reset = () => { setAnswers({}); setMatters({}); setQIndex(0); setRoute('welcome'); };
 
@@ -59,12 +61,20 @@ export default function App() {
           onBack={() => (qIndex > 0 ? setQIndex(qIndex - 1) : setRoute('welcome'))}
         />
       )}
-      {route === 'results' && (
+      {route === 'results' && !stateCode && (
+        <StatePicker
+          onPick={(code) => setStateCode(code)}
+          onBack={() => setRoute('welcome')}
+        />
+      )}
+      {route === 'results' && stateCode && (
         <Results
+          stateCode={stateCode}
           answers={answers}
           matters={matters}
           onRestart={reset}
-          onBrowse={() => setRoute('states')}
+          onChangeState={() => setStateCode(null)}
+          onOpenRace={(r) => { setRace(r); setRoute('race'); setCameFrom('results'); }}
         />
       )}
       {route === 'states' && (
@@ -76,7 +86,7 @@ export default function App() {
       {route === 'races' && (
         <Races
           stateCode={stateCode}
-          onOpenRace={(r) => { setRace(r); setRoute('race'); }}
+          onOpenRace={(r) => { setRace(r); setRoute('race'); setCameFrom('races'); }}
           onBack={() => setRoute('states')}
         />
       )}
@@ -86,7 +96,7 @@ export default function App() {
           answers={answers}
           matters={matters}
           onOpenProfile={(c) => { setCandidate(c); setRoute('profile'); }}
-          onBack={() => setRoute('races')}
+          onBack={() => setRoute(cameFrom)}
         />
       )}
       {route === 'profile' && (
@@ -172,60 +182,72 @@ function Quiz({ qIndex, matters, onAnswer, onBack }) {
   );
 }
 
-function Results({ answers, matters, onRestart, onBrowse }) {
-  const ranked = useMemo(
-    () => rankCandidates(answers, matters, SAMPLE_RACE.candidates),
-    [answers, matters]
-  );
+// Real matches: every race on the user's ballot, candidates ranked by match.
+// No sample data — these are the actual filed candidates in the user's state.
+function Results({ stateCode, answers, matters, onRestart, onChangeState, onOpenRace }) {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    let alive = true;
+    getStateData(stateCode, (fresh) => { if (alive) setData(fresh); })
+      .then((d) => { if (alive && d) setData(d); });
+    return () => { alive = false; };
+  }, [stateCode]);
+
+  const races = useMemo(() => getRaces(stateCode, data), [stateCode, data]);
+  // Statewide races first (they're the curated ones), then House districts.
+  const ranked = useMemo(() =>
+    races.map((race) => {
+      const onBallot = race.candidates.filter((c) => c.ballotStatus !== 'not-advancing');
+      const rows = rankCandidates(answers, matters, onBallot);
+      const unscored = rows.filter((r) => r.pct === null).length;
+      return { race, rows, unscored };
+    }), [races, answers, matters]);
 
   return (
     <Screen>
       <H1>Your matches</H1>
-      <Body soft style={{ marginBottom: space(4) }}>
-        {SAMPLE_RACE.office} · {SAMPLE_RACE.state} — sample race until your real
-        ballot data is connected.
+      <Body soft style={{ marginBottom: space(3) }}>
+        {STATE_NAMES[stateCode] || stateCode} · November 3, 2026 ballot · real
+        candidates from FEC filings.{' '}
+        <Text style={{ textDecorationLine: 'underline' }} onPress={onChangeState}>
+          Change state
+        </Text>
       </Body>
       <ScrollView style={{ flex: 1 }}>
-        {ranked.map(({ candidate, pct, sharedIssues, perIssue }) => (
-          <Card key={candidate.id}>
-            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <MatchRing pct={pct} />
-              <View style={{ flex: 1, marginLeft: space(4) }}>
-                <H2>{candidate.name}</H2>
-                <Body soft style={{ marginBottom: 6 }}>{candidate.party}</Body>
-                <TierBadge tier={candidate.tier} />
-              </View>
-            </View>
-            <Body soft style={{ marginTop: space(2), fontSize: 13 }}>
-              {pct === null
-                ? "This candidate hasn't stated positions on your issues yet — a match can't be calculated."
-                : `Based on ${sharedIssues} issue${sharedIssues === 1 ? '' : 's'} you both weighed in on.`}
-            </Body>
-            {pct !== null && <TopIssueLines perIssue={perIssue} />}
-          </Card>
+        {ranked.map(({ race, rows, unscored }) => (
+          <Pressable key={race.id} onPress={() => onOpenRace(race)}>
+            <Card>
+              <H2 style={{ marginBottom: space(2) }}>{race.title}</H2>
+              {rows.slice(0, 3).map(({ candidate, pct, sharedIssues }) => (
+                <View
+                  key={candidate.id}
+                  style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(2) }}
+                >
+                  <MatchRing pct={pct} />
+                  <View style={{ flex: 1, marginLeft: space(3) }}>
+                    <Body style={{ fontWeight: '700' }}>{candidate.name}</Body>
+                    <Body soft style={{ fontSize: 12 }}>
+                      {candidate.party}
+                      {pct !== null
+                        ? ` · ${sharedIssues} shared issue${sharedIssues === 1 ? '' : 's'}`
+                        : ' · positions not yet stated'}
+                    </Body>
+                  </View>
+                  <TierBadge tier={candidate.tier} />
+                </View>
+              ))}
+              <Body soft style={{ fontSize: 12 }}>
+                {rows.length > 3 ? `+ ${rows.length - 3} more · ` : ''}
+                {unscored > 0
+                  ? `${unscored} candidate${unscored === 1 ? ' hasn’t' : 's haven’t'} stated positions — never guessed from party.`
+                  : 'All candidates scored from sourced positions.'}
+              </Body>
+            </Card>
+          </Pressable>
         ))}
-        <Button label="See the real candidates in your state" onPress={onBrowse} />
         <Button kind="ghost" label="Retake the quiz" onPress={onRestart} />
       </ScrollView>
     </Screen>
-  );
-}
-
-function TopIssueLines({ perIssue }) {
-  const shared = perIssue.filter((p) => p.shared);
-  const best = [...shared].sort((a, b) => b.agreement - a.agreement).slice(0, 2);
-  return (
-    <View style={{ marginTop: space(2) }}>
-      {best.map((p) => {
-        const issue = ISSUES.find((i) => i.key === p.issue);
-        return (
-          <Body key={p.issue} style={{ fontSize: 13, marginBottom: 4 }}>
-            <Text style={{ fontWeight: '700' }}>{issue.name}: </Text>
-            {stanceLabel(issue, p.candidate)}
-          </Body>
-        );
-      })}
-    </View>
   );
 }
 

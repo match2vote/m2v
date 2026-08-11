@@ -42,11 +42,16 @@ jobs:
         working-directory: apps/mobile
         run: npx expo export --platform web --output-dir ../../_site
 
-      - name: Add curation tool + SPA fallback
+      - name: Add curation tool + SPA fallback + archived drafts
         run: |
           mkdir -p _site/curate && cp tools/curate/index.html _site/curate/
           # GitHub Pages SPA fallback: hard refresh on /m2v/ballot etc. serves the app
           cp _site/index.html _site/404.html
+          # Archived drafts stay live at /m2v/v3/, /m2v/v4/, ... (self-contained builds)
+          for v in docs/versions/*/; do
+            name=$(basename "$v")
+            if [ -f "$v/index.html" ]; then mkdir -p "_site/$name" && cp "$v/index.html" "_site/$name/"; fi
+          done
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

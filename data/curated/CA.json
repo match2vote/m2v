@@ -1,0 +1,67 @@
+{
+  "state": "CA",
+  "note": "Hand-curated, sourced entries. Every non-null position cites a source. Never infer from party.",
+  "races": {
+    "CA-governor": {
+      "status": "general",
+      "statusNote": "Top-two primary held June 2 — Xavier Becerra (D) and Steve Hilton (R) advanced to November. California has no U.S. Senate race in 2026."
+    }
+  },
+  "candidates": [
+    {
+      "id": "ca-gov-becerra",
+      "name": "Xavier Becerra",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "U.S. Health and Human Services Secretary 2021–2025; California Attorney General 2017–2021 (filed 122 lawsuits against the first Trump administration); 24 years in the U.S. House. Advanced from the June 2026 top-two primary.",
+      "positions": {
+        "cost": -1, "health": -2, "housing": null, "immigration": -2, "taxes": null,
+        "climate": -2, "education": null, "safety": null, "repro": -2, "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "Campaign centers affordability; negotiated Medicare drug prices 38–79% below list (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" },
+        "health": { "label": "Led multi-state defense of the ACA; ran Medicare drug-price negotiations as HHS Secretary (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" },
+        "immigration": { "label": "Led 21-state coalition defending DACA; sued over border-wall emergency declaration (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" },
+        "climate": { "label": "Created CA environmental-justice bureau; repeatedly sued to block environmental rollbacks (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" },
+        "repro": { "label": "Directed HHS to expand abortion-related care access after Dobbs (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" }
+      },
+      "sources": [
+        { "label": "Wikipedia: Xavier Becerra", "url": "https://en.wikipedia.org/wiki/Xavier_Becerra" },
+        { "label": "Ballotpedia profile", "url": "https://ballotpedia.org/Xavier_Becerra" }
+      ],
+      "curatedAt": "2026-08-12"
+    },
+    {
+      "id": "ca-gov-hilton",
+      "name": "Steve Hilton",
+      "party": "Republican",
+      "office": "governor",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Author and former Fox News host; former adviser to UK Prime Minister David Cameron; runs on a 'Cali-ffordability' platform. Advanced from the June 2026 top-two primary.",
+      "positions": {
+        "cost": 2, "health": null, "housing": 2, "immigration": 1, "taxes": 2,
+        "climate": 2, "education": null, "safety": 2, "repro": null, "democracy": null
+      },
+      "positionSources": {
+        "cost": { "label": "'Cali-ffordability': blames regulation/taxation for high costs; deregulation platform (KEYT)", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" },
+        "housing": { "label": "Backed initiative barring private CEQA lawsuits and capping developer impact fees (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Steve_Hilton" },
+        "immigration": { "label": "Would end taxpayer-funded healthcare for undocumented immigrants; no broader plan stated (KEYT)", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" },
+        "taxes": { "label": "'Your first 100 grand tax free' (KEYT)", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" },
+        "climate": { "label": "'$3 gas,' halve electric bills through energy deregulation (KEYT)", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" },
+        "safety": { "label": "Reverse prison closures, expand capacity, implement Prop 36 (KEYT)", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" }
+      },
+      "sources": [
+        { "label": "KEYT: Cali-ffordability platform", "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/" },
+        { "label": "Wikipedia: Steve Hilton", "url": "https://en.wikipedia.org/wiki/Steve_Hilton" }
+      ],
+      "curatedAt": "2026-08-12"
+    }
+  ]
+}

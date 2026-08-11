@@ -54,6 +54,27 @@ jobs:
           # Pages runs Jekyll on branch deploys, which would drop the _expo dir.
           touch _site/.nojekyll
 
+      - name: Point Pages at the gh-pages branch (logged into the branch for debugging)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "deploy ${GITHUB_SHA} at $(date -u +%FT%TZ)"
+            echo "--- GET /pages"
+            curl -s -w '\nstatus=%{http_code}\n' \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages"
+            echo "--- PUT /pages (build_type=legacy, source=gh-pages /)"
+            curl -s -w '\nstatus=%{http_code}\n' -X PUT \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages" \
+              -d '{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
+            echo "--- GET /pages after PUT"
+            curl -s -w '\nstatus=%{http_code}\n' \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages"
+          } | tee _site/deploy-log.txt
+
       - name: Publish to gh-pages branch
         run: |
           cd _site
@@ -64,27 +85,11 @@ jobs:
           git commit -qm "deploy ${GITHUB_SHA}"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
 
-      - name: Point Pages at the gh-pages branch + request a build
+      - name: Request a Pages build of the branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Flip the Pages source to branch deployment (idempotent). If Pages
-          # somehow doesn't exist yet, create it with the same source.
-          code=$(curl -s -o /tmp/pages.json -w '%{http_code}' -X PUT \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages" \
-            -d '{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}')
-          echo "PUT /pages -> $code"; cat /tmp/pages.json || true
-          if [ "$code" = "404" ]; then
-            curl -s -X POST \
-              -H "Authorization: Bearer $GH_TOKEN" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${{ github.repository }}/pages" \
-              -d '{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
-          fi
-          # Kick a Pages build so the just-pushed branch goes live immediately.
-          curl -s -X POST \
+          curl -s -w '\nstatus=%{http_code}\n' -X POST \
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true

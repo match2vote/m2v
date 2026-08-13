@@ -1,0 +1,340 @@
+{
+  "state": "AL",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "AL-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6AL00476",
+        "fec-S6AL00518"
+      ],
+      "statusNote": "Open seat (Sen. Tuberville running for governor): Rep. Barry Moore (R) faces Birmingham attorney Everett Wess (D). Both won June 16 runoffs (Moore 55.8%, Wess 54.6%); independent Craig Jelks is also on the November ballot."
+    },
+    "AL-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Ivey term-limited): Sen. Tommy Tuberville (R) faces former Sen. Doug Jones (D). Both won the May 19 primary outright (Tuberville 85%, Jones 78%), no runoff."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6AL00476",
+      "name": "Barry Moore",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "AL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 59,
+      "home": "Enterprise, AL",
+      "now": "U.S. Representative for Alabama's 1st District",
+      "background": "U.S. Representative since 2021 (AL-02, then AL-01 after redistricting); Army National Guard veteran and former waste-services small-business owner from Coffee County. Freedom Caucus conservative endorsed by President Trump. Won the June 16 Republican runoff for the open Senate seat with 55.8% over former Navy SEAL Jared Hudson.",
+      "priorities": [
+        "Secure the border, 'zero tolerance for illegal immigration'",
+        "Cut taxes and federal spending",
+        "Back law enforcement and the pro-life movement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "'Zero tolerance for illegal immigration' and 'secure borders permanently'; voted for deportation funding (Ballotpedia)",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
+        "taxes": {
+          "label": "Backs cutting taxes on tips, overtime and Social Security plus small-business tax reductions through recent legislation; voted against the American Rescue Plan (Ballotpedia)",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
+        "education": {
+          "label": "Opposes Common Core; 'parents' and 'local school boards' should control education, not the federal government (Ballotpedia)",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
+        "safety": {
+          "label": "'Violent criminals should be prosecuted to the fullest extent'; supports fully funding law enforcement (Ballotpedia)",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
+        "repro": {
+          "label": "Called overturning Roe 'a huge victory for the pro-life movement'; 'no greater right than the Right to Life', opposes federal abortion funding (Wikipedia, Ballotpedia)",
+          "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+        },
+        "democracy": {
+          "label": "Voted to object to certifying 2020 electoral votes on January 7, 2021 and posted false election-theft claims (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Arrested in 2014 on felony perjury charges tied to a state corruption probe, acquitted at trial; later opposed the Congressional Gold Medal for January 6 Capitol police (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
+        {
+          "label": "Wikipedia: Barry Moore",
+          "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+        },
+        {
+          "label": "Wikipedia: 2026 Senate race (runoff results)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AL00476/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6AL00518",
+      "name": "Everett Wess",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "AL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Birmingham, AL",
+      "now": "Attorney and Midfield Municipal Court judge",
+      "background": "Birmingham attorney, managing partner of The Wess Law Firm since 2001 and a Midfield municipal judge for eight years; former prosecutor and public defender. Has run unsuccessfully for Jefferson County judicial offices. Won the June 16 Democratic runoff with 54.6% over Dakarai Larriett.",
+      "priorities": [
+        "Affordable healthcare and rural hospitals",
+        "Protect Alabama jobs",
+        "Quality public education and voting rights"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Affordable healthcare is essential, especially when it comes to funding medical providers in rural Alabama and supporting hospitals in underserved areas' (campaign site)",
+          "url": "https://wessforsenate.com/f/voter-guide-qa"
+        },
+        "education": {
+          "label": "Backs 'quality public education to equip our future leaders' (campaign site)",
+          "url": "https://wessforsenate.com/f/voter-guide-qa"
+        },
+        "democracy": {
+          "label": "Pledges to 'advocate for voting rights' as a core campaign principle (campaign site)",
+          "url": "https://wessforsenate.com/f/voter-guide-qa"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign voter guide Q&A",
+          "url": "https://wessforsenate.com/f/voter-guide-qa"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://wessforsenate.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Everett_Wess"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AL00518/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "al-gov-tuberville",
+      "name": "Tommy Tuberville",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 71,
+      "home": "Auburn, AL",
+      "now": "U.S. Senator from Alabama",
+      "background": "U.S. Senator since 2021 and former college football head coach at Ole Miss, Auburn, Texas Tech and Cincinnati. Passed on Senate reelection to run for governor with President Trump's endorsement and won the May 19 Republican primary with 85% of the vote.",
+      "priorities": [
+        "Deport 'illegal alien criminals' and back the blue",
+        "Expand school choice with parents in charge",
+        "Reduce taxes and cut red tape"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames affordability through cuts: 'lower taxes, get rid of waste, and make life in Alabama more affordable' while recruiting manufacturing jobs (campaign site)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "health": {
+          "label": "'Obamacare must go. This failed experiment has led to higher costs, less quality care' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
+        },
+        "immigration": {
+          "label": "Pledges to 'deport illegal alien criminals' and work with Trump on the 'more than ten million illegals who came here under Joe Biden' (campaign site)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "taxes": {
+          "label": "Committed to 'reduce taxes' and 'cut red tape'; credits lower taxes and reduced federal spending with job growth (campaign site)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "climate": {
+          "label": "Dismisses climate science, saying the global climate 'won't change enough in the next 400 years to affect anybody' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        },
+        "education": {
+          "label": "Will 'expand school choice and make sure that parents, not the government, are in charge', backing charter, magnet, private, public and homeschools (campaign site)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "safety": {
+          "label": "Pledges to 'back the blue, enforce the law' (campaign site)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "repro": {
+          "label": "'Every life is sacred and created by God'; wants 'zero taxpayer dollars' for abortion; blocked 451 military promotions over a Pentagon abortion-travel policy (campaign site, Wikipedia)",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        "democracy": {
+          "label": "Voted to object to certifying Arizona's and Pennsylvania's 2020 electoral votes (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Held up 451 senior military promotions for 10 months in 2023 over a Pentagon abortion-travel policy, leaving the Marine Corps without a confirmed commandant for the first time in two centuries (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        },
+        {
+          "label": "Violated the STOCK Act by failing to timely disclose roughly 132 stock trades in 2021; Washington Post reporting raised questions about his Florida residency (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://coachforgovernor.com/issues/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
+        },
+        {
+          "label": "Wikipedia: Tommy Tuberville",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        },
+        {
+          "label": "Alabama Realtors: primary results recap",
+          "url": "https://www.alabamarealtors.com/posts/2026/05/26/primary-election-results-recap"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "al-gov-jones",
+      "name": "Doug Jones",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "AL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 72,
+      "home": "Mountain Brook, AL",
+      "now": "Attorney; former U.S. Senator",
+      "background": "U.S. Senator from Alabama 2018 to 2021, the first Democrat to win an Alabama Senate seat in a quarter century; as U.S. Attorney he prosecuted the 1963 Birmingham church bombing case. Won the May 19 Democratic primary for governor with 78% of the vote.",
+      "priorities": [
+        "Expand Medicaid",
+        "Eliminate grocery, tip and overtime taxes to lower costs",
+        "Early voting and a citizen ballot initiative process"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Affordability agenda: eliminate grocery, tip and overtime taxes, raise worker wages statewide, invest in affordable childcare and paid family leave (Alabama Reflector)",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        "health": {
+          "label": "'Medicaid expansion is not a handout, it's a hand up'; Alabama lags 39 states that expanded (Alabama Reflector)",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        "housing": {
+          "label": "Committed to decreasing housing costs through federal housing legislation (Alabama Reflector)",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        "climate": {
+          "label": "'I believe in science. The impact of unchecked fossil fuels on our planet and our health has not been in dispute for decades' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Doug_Jones_(Alabama)"
+        },
+        "education": {
+          "label": "Advocates quality public education access regardless of socioeconomic status; championed HBCU funding increases (Ballotpedia)",
+          "url": "https://ballotpedia.org/Doug_Jones_(Alabama)"
+        },
+        "repro": {
+          "label": "'I will defend women's access to contraception and a woman's right to choose'; wants a constitutional amendment protecting contraception and IVF (Ballotpedia, Alabama Reflector)",
+          "url": "https://ballotpedia.org/Doug_Jones_(Alabama)"
+        },
+        "democracy": {
+          "label": "Would implement early voting, create a citizen ballot initiative process and expand local authority (Alabama Reflector)",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Alabama Reflector: policy agenda speech",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Doug_Jones_(Alabama)"
+        },
+        {
+          "label": "Alabama Realtors: primary results recap",
+          "url": "https://www.alabamarealtors.com/posts/2026/05/26/primary-election-results-recap"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

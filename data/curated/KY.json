@@ -1,0 +1,188 @@
+{
+  "state": "KY",
+  "note": "Hand-curated, sourced entries. Open seat (Sen. McConnell retiring).",
+  "races": {
+    "KY-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6KY00286",
+        "fec-S6KY00385"
+      ],
+      "statusNote": "Open seat (Sen. McConnell retiring): Rep. Andy Barr (R) faces former state Rep. Charles Booker (D). Barr won the May 19 primary 64-28 over Daniel Cameron; Booker beat Amy McGrath 47-36."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6KY00286",
+      "name": "Andy Barr",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "KY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 53,
+      "home": "Lexington, KY",
+      "now": "U.S. Representative for KY-06",
+      "background": "U.S. Representative for Kentucky's 6th District since 2013; attorney and former deputy general counsel to Gov. Ernie Fletcher. Senior member of the House Financial Services Committee. Won the May 19 Republican primary with 64% over former Attorney General Daniel Cameron (28%), boosted by President Trump's endorsement; businessman Nate Morris dropped out May 1.",
+      "priorities": [
+        "Secure the border and deport criminal illegal immigrants",
+        "Extend the 2025 tax cuts",
+        "Unleash American energy and bring back coal"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Lower costs through supply and deregulation: bring back coal to 'lower energy costs', backed deregulation and a 'pro-growth strategy' (campaign site)",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        "health": {
+          "label": "Called the ACA 'this 2,700-page monstrosity'; backed the AHCA as 'patient-centered' with more 'competition and choice'; voted to repeal the individual mandate (Ballotpedia)",
+          "url": "https://ballotpedia.org/Andy_Barr"
+        },
+        "immigration": {
+          "label": "'Deport all criminal illegals and secure the border': restart wall construction, reinstate Remain in Mexico, end catch-and-release; A+ from NumbersUSA (campaign site)",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        "taxes": {
+          "label": "Voted for the TCJA and the 2025 'largest tax cut in American history'; signed the Taxpayer Protection Pledge (campaign site)",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        "climate": {
+          "label": "'No one fought Biden's war on energy more': bring back coal, block ESG mandates, oppose the Green New Deal; Coal Caucus member who cosponsored anti-carbon-tax resolutions (campaign site)",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        "safety": {
+          "label": "'Strongly supports police': voted to increase federal law enforcement funding, championed the STOP Chinese Fentanyl Act; endorsed by the Kentucky FOP (campaign site)",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        "repro": {
+          "label": "Cosponsored the Pain-Capable Unborn Child Protection Act, a 20-week abortion ban (Ballotpedia)",
+          "url": "https://ballotpedia.org/Andy_Barr"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://barrforsenate.com/issues/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Andy_Barr"
+        },
+        {
+          "label": "LPM: GOP primary result",
+          "url": "https://www.lpm.org/news/2026-05-19/andy-barr-wins-gop-primary-for-senate-in-kentucky-in-bid-to-succeed-mcconnell"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KY00286/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6KY00385",
+      "name": "Charles Booker",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "KY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 41,
+      "home": "Louisville, KY",
+      "now": "Former Kentucky state representative; founder of Hood to the Holler",
+      "background": "Former Kentucky House member (2019-2021), at the time the youngest Black state lawmaker in Kentucky, and founder of the nonprofit Hood to the Holler. Lost the 2020 Senate primary narrowly to Amy McGrath, won the 2022 nomination but lost to Rand Paul. Won the May 19 Democratic primary with 47% over McGrath (36%), running as an unapologetic progressive.",
+      "priorities": [
+        "Medicare for All",
+        "The 40x40x45 plan: 40-hour week, 40 hours paid sick leave, $45,000 minimum income",
+        "Housing as a human right with a Tenant Bill of Rights"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "40x40x45 plan: anyone working 40 hours gets 40 hours of paid sick leave and a $45,000 minimum income, made 'tax free' by a Cost of Living Tax Exemption (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "health": {
+          "label": "'Healthcare is a human right': Medicare for All; Type 1 diabetic who rationed insulin (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "housing": {
+          "label": "'Housing is a human right': Tenant Bill of Rights with just-cause eviction and right to counsel, build affordable housing (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "immigration": {
+          "label": "Has called for abolishing ICE (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Charles_Booker_(American_politician)"
+        },
+        "taxes": {
+          "label": "Wealth tax and equal tax rates on capital gains: 'wealth should be taxed the same as work' (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "climate": {
+          "label": "Endorsed the Green New Deal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Charles_Booker_(American_politician)"
+        },
+        "education": {
+          "label": "'Full and equitable investment in our education system'; tuition-free public colleges and student debt cancellation (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "safety": {
+          "label": "'Decriminalizing poverty' and community safety through holistic investment; has criticized increasing police budgets while not backing defunding (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "repro": {
+          "label": "'Abortion is healthcare': restore abortion rights, repeal the Hyde Amendment, full coverage for abortion and contraception (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        "democracy": {
+          "label": "Opposes the president's threats to 'take over elections'; wants Citizens United overturned and a ban on congressional stock trading (campaign site)",
+          "url": "https://charlesbooker.org/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://charlesbooker.org/issues/"
+        },
+        {
+          "label": "Wikipedia: Charles Booker",
+          "url": "https://en.wikipedia.org/wiki/Charles_Booker_(American_politician)"
+        },
+        {
+          "label": "LPM: Democratic primary result",
+          "url": "https://www.lpm.org/news/2026-05-19/charles-booker-wins-democratic-primary-for-us-senate-in-kentucky-will-face-barr"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KY00385/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

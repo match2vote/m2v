@@ -1,0 +1,309 @@
+{
+  "state": "MD",
+  "note": "Hand-curated, sourced entries. No U.S. Senate race in Maryland in 2026; governor only.",
+  "races": {
+    "MD-governor": {
+      "status": "general",
+      "statusNote": "Rematch of 2022: Gov. Wes Moore (D) won the June 23 primary with about 88% over Eric Felber; Dan Cox (R) won his primary 45-36 over Ed Hale Sr. Green (Andy Ellis) and Working Class Party (Cathy White) tickets are also certified for November."
+    }
+  },
+  "candidates": [
+    {
+      "id": "md-gov-moore",
+      "name": "Wes Moore",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "MD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 47,
+      "home": "Annapolis, MD",
+      "now": "Governor of Maryland (since 2023)",
+      "background": "Governor since 2023 and the first Black governor in Maryland history; Army veteran (captain, 82nd Airborne, deployed to Afghanistan), Rhodes Scholar, and former CEO of the Robin Hood Foundation anti-poverty group. Beat Dan Cox roughly 65-32 in 2022 and won renomination June 23 with about 88% of the Democratic primary vote. Widely discussed as a potential 2028 presidential candidate.",
+      "priorities": [
+        "Lower costs and raise wages for working families",
+        "Fully fund the Blueprint for Maryland's Future education plan",
+        "100% clean energy by 2035"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Signed the Fair Wage Act accelerating the $15 minimum wage and allocated $218M to help providers absorb it (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "health": {
+          "label": "'Healthcare is a basic right that every Marylander deserves'; behavioral-health coverage, protect community health centers (Ballotpedia)",
+          "url": "https://ballotpedia.org/Wes_Moore"
+        },
+        "housing": {
+          "label": "Housing Expansion and Affordability Act plus tenant protections, right to counsel in evictions, and an order to clear 5,000 vacant Baltimore homes (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "immigration": {
+          "label": "Signed the Maryland Values Act barring immigration enforcement at sensitive locations; declined to send the Guard to the border; condemned the Abrego Garcia deportation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "taxes": {
+          "label": "Mixed: signed 2025 budget raising $1B+ via new brackets on the wealthy and a 2% capital gains surcharge, but paired with $2.5B in spending cuts after proposing corporate rate cuts (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "climate": {
+          "label": "100% carbon-free electricity by 2035 and net-zero by 2045; POWER Act targets 8.5 GW of offshore wind by 2031 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "education": {
+          "label": "Funds the Blueprint public-school plan ($500M first budget) while cutting the BOOST voucher program with intent to phase it out (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "safety": {
+          "label": "Leans prevention: community violence-intervention funding and the Youth Charging Reform Act, alongside tougher juvenile probation measures and police data-platform funding (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "repro": {
+          "label": "Backed the constitutional abortion-rights amendment, a $25M abortion access fund, mifepristone stockpiles, and a 2026 emergency-abortion hospital mandate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        "democracy": {
+          "label": "Signed the Maryland Voting Rights Act (SB 255) banning racially discriminatory local voting systems and 'removing barriers to the ballot box' (NAACP LDF)",
+          "url": "https://www.naacpldf.org/press-release/maryland-voting-rights-act-bill-prohibiting-discrimination-in-voting-signed-into-law/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Wes_Moore"
+        },
+        {
+          "label": "Wikipedia: Governorship of Wes Moore",
+          "url": "https://en.wikipedia.org/wiki/Governorship_of_Wes_Moore"
+        },
+        {
+          "label": "Maryland Matters: primary results",
+          "url": "https://marylandmatters.org/2026/06/23/moore-cruises-to-renomination-as-republicans-duke-it-out/"
+        },
+        {
+          "label": "Maryland State Board of Elections: general candidate list",
+          "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "md-gov-cox",
+      "name": "Dan Cox",
+      "party": "Republican",
+      "office": "governor",
+      "state": "MD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 52,
+      "home": "Frederick County, MD",
+      "now": "Attorney, The Cox Law Center",
+      "background": "Constitutional lawyer and former state delegate (2019-2023) from Frederick County; father of ten. The 2022 Republican nominee for governor, he lost to Wes Moore roughly 65-32, then won the June 23, 2026 primary with 45% over Ed Hale Sr.'s 36% for a rematch. Endorsed by President Trump in his 2022 run.",
+      "priorities": [
+        "Reduce and eliminate taxes and fees",
+        "Border security and fighting fentanyl trafficking",
+        "Restore police funding and public safety"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": 0,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'reduce and eliminate taxes and fees', suspend the gas tax, and cut property taxes to lower costs (campaign site)",
+          "url": "https://dancoxforgovernor.com/"
+        },
+        "housing": {
+          "label": "Mixed: down-payment assistance and first-time homebuyer tax credits alongside cutting 'building costs and permitting burdens' (campaign site)",
+          "url": "https://dancoxforgovernor.com/"
+        },
+        "immigration": {
+          "label": "Opposes sanctuary policies; backs E-verify enforcement, 'Remain in Mexico', and ending catch-and-release (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "taxes": {
+          "label": "'Lower taxes, bigger paychecks': cut property taxes, suspend the gas tax, reduce budget spending; has advocated eliminating the state income tax (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "climate": {
+          "label": "'Unleash domestic energy resources' and 'eliminate the socialist Green New Deal'; reopen power plants, study small modular reactors (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "education": {
+          "label": "Expand charter schools, vouchers, and tax credits; opposes CRT and 'gender ideology' in curricula (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "safety": {
+          "label": "'Double pay' for police officers, restore 'full quasi-immunity', opposes defunding the police (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "repro": {
+          "label": "Defends 'the right to all human life, from conception to natural death'; opposed state funding for abortion (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "democracy": {
+          "label": "'Election integrity' via voter ID and hand-counted paper ballots; promoted 2020 fraud claims and demanded forensic audits (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Arranged buses to the Jan 6, 2021 'Save America March' and tweeted 'Pence is a traitor' during the riot; continuously promoted disproven 2020 fraud claims (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Cox"
+        },
+        {
+          "label": "Introduced articles of impeachment against Gov. Larry Hogan over pandemic policies, rejected unanimously; filed unsuccessful suits against mail-in ballot counting (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Cox"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://dancoxforgovernor.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        {
+          "label": "Wikipedia: Dan Cox",
+          "url": "https://en.wikipedia.org/wiki/Dan_Cox"
+        },
+        {
+          "label": "Maryland Matters: primary results",
+          "url": "https://marylandmatters.org/2026/06/23/moore-cruises-to-renomination-as-republicans-duke-it-out/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "md-gov-ellis",
+      "name": "Andy Ellis",
+      "party": "Green",
+      "office": "governor",
+      "state": "MD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Baltimore, MD",
+      "now": "Green Party candidate for governor",
+      "background": "Baltimore Green Party organizer and former debate coach who ran for House of Delegates District 45 in 2018 (4.5%). Running with Owen Silverman Andrews on a ticket that rejects corporate and PAC money; his signature proposal is a statewide ban on data centers.",
+      "priorities": [
+        "Statewide ban on data centers",
+        "Declare climate and environmental emergencies",
+        "End the corruption of the two-party system"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "climate": {
+          "label": "'Declare climate, environment, energy, food, and water emergencies to ensure state and local government act with urgency' (campaign site)",
+          "url": "https://gogreen2026.com/priorities"
+        },
+        "education": {
+          "label": "'Build out and fully fund our public education system so it truly works for all' (campaign site)",
+          "url": "https://gogreen2026.com/priorities"
+        },
+        "democracy": {
+          "label": "Build 'robust multiparty democracy' in Maryland and everyday civic engagement; campaign rejects corporate and PAC money (campaign site)",
+          "url": "https://gogreen2026.com/priorities"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://gogreen2026.com/priorities"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Andy_Ellis"
+        },
+        {
+          "label": "Maryland Matters: third-party candidates",
+          "url": "https://marylandmatters.org/2026/07/11/third-party-candidates-know-the-odds-but-they-wont-give-up-the-fight/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "md-gov-white",
+      "name": "Cathy White",
+      "party": "Working Class Party",
+      "office": "governor",
+      "state": "MD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Retired factory production worker",
+      "background": "Factory production worker for about 40 years, including 35 years in a photofinishing plant, with long family caregiving experience. The Working Class Party's 2022 lieutenant governor nominee (ticket took 0.9%), now leading its 2026 ticket with Cathy Permut. The party argues 'the two-party system serves only the rich' but has not published specific policy proposals.",
+      "priorities": [
+        "Representation for working people",
+        "Wages and cost of living",
+        "Affordable childcare and eldercare"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Working Class Party of Maryland",
+          "url": "https://sites.google.com/view/wcp-md"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Cathy_White"
+        },
+        {
+          "label": "Maryland Matters: third-party candidates",
+          "url": "https://marylandmatters.org/2026/07/11/third-party-candidates-know-the-odds-but-they-wont-give-up-the-fight/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

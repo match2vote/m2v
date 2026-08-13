@@ -1,0 +1,381 @@
+{
+  "state": "SC",
+  "note": "Hand-curated, sourced entries. Senate race upended by Sen. Lindsey Graham's death on July 11, 2026.",
+  "races": {
+    "SC-senate": {
+      "status": "primary-pending",
+      "statusNote": "Sen. Lindsey Graham died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in an Aug 25 special-primary runoff after leading the Aug 10 special primary 33% to 25%. The GOP nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee."
+    },
+    "SC-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. McMaster term-limited): Attorney General Alan Wilson (R) won the June 23 runoff with 68.6% over Lt. Gov. Pamela Evette and faces state Rep. Jermaine Johnson (D), who won the June 9 primary with 59.7%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6SC04239",
+      "name": "Annie Andrews",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "SC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Pediatrician",
+      "background": "Pediatrician and 2022 Democratic nominee in South Carolina's 1st District, where she took 42.5% against Rep. Nancy Mace. Won the June 9 Democratic Senate primary with 61.5% over Brandon Brown, and will face the winner of the Aug 25 Republican special-primary runoff.",
+      "priorities": [
+        "Affordable healthcare for every South Carolinian",
+        "Reproductive freedom",
+        "Protecting voting rights and cleaning up Washington"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs Medicaid expansion and the ACA: 'no one in the United States should go broke because they or their child got sick' (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        "taxes": {
+          "label": "Make 'it harder for billionaires to skirt their taxes'; opposes tax breaks for billionaires, paired with PAYGO deficit rules (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        "climate": {
+          "label": "'The science is settled': ban offshore drilling and seismic testing off SC, transition off fossil fuels within twenty years (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        "education": {
+          "label": "Fully fund public schools, trust teachers, no book bans (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        "repro": {
+          "label": "Endorses the Women's Health Protection Act and 'guaranteed access to abortion services up to the point of viability' (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        "democracy": {
+          "label": "Backs Voting Rights Act reauthorization, the Freedom to Vote Act, automatic voter registration and expanded early voting (campaign site)",
+          "url": "https://www.drannieandrews.com/issues"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.drannieandrews.com/issues"
+        },
+        {
+          "label": "Wikipedia: 2026 Senate election in South Carolina (primary results)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04239/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6SC04437",
+      "name": "Darline Graham",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "SC",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 62,
+      "home": "Lexington, SC",
+      "now": "U.S. Senator (appointed July 2026)",
+      "background": "Appointed by Gov. McMaster to complete the term of her brother, Sen. Lindsey Graham, after his death on July 11; South Carolina's first female U.S. senator. Spent 28 years in state government, most recently seven years leading the SC Commission for the Blind. A first-time candidate endorsed by President Trump, she led the Aug 10 special primary with 33% and faces Rep. Ralph Norman in the Aug 25 runoff.",
+      "priorities": [
+        "Kitchen-table affordability: 'the price of groceries, the price of gas, healthcare'",
+        "Employment and independence for people with disabilities",
+        "Constituent-focused service rather than foreign policy"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.darlinegraham.com/"
+        },
+        {
+          "label": "Forbes: her political views are largely unknown",
+          "url": "https://www.forbes.com/sites/saradorn/2026/07/20/darline-grahams-political-views-largely-unknown-as-she-launches-senate-campaign/"
+        },
+        {
+          "label": "SC Daily Gazette: special primary result",
+          "url": "https://scdailygazette.com/2026/08/11/darline-graham-advances-to-runoff-in-special-gop-primary-its-unclear-who-shell-face/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04437/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6SC04445",
+      "name": "Ralph Norman",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "SC",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 73,
+      "home": "Rock Hill, SC",
+      "now": "U.S. Representative, SC-05",
+      "background": "Rock Hill real estate developer and U.S. representative for SC-05 since 2017; House Freedom Caucus member rated the most conservative House member of the 117th Congress by GovTrack. Lost the June governor's primary, then entered the Senate special primary after Lindsey Graham's death, taking 25% on Aug 10 to reach the Aug 25 runoff against Darline Graham.",
+      "priorities": [
+        "Fiscal conservatism and cutting federal spending",
+        "'100% Pro-Life' laws",
+        "School choice with funding following the child"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": null,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaigned on strict Medicaid work requirements (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
+        },
+        "immigration": {
+          "label": "Ran on cutting federal spending for undocumented immigrants (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
+        },
+        "taxes": {
+          "label": "'A consistent voice for fiscal conservatism, limited government, and reduced federal spending' (Fox Carolina profile)",
+          "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
+        },
+        "education": {
+          "label": "Supports school choice, wants 'the funding to follow the child' (Fox Carolina profile)",
+          "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
+        },
+        "repro": {
+          "label": "'100% Pro-Life'; only GOP primary candidate willing to sign S. 1095, which drops exceptions for rape, incest and fatal fetal anomalies (Fox Carolina profile)",
+          "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
+        },
+        "democracy": {
+          "label": "Texted Mark Meadows on Jan 17, 2021 urging Trump to 'invoke martial law' to block Biden's inauguration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Displayed a loaded handgun at a 2018 constituent meeting, and had $306,520 in PPP loans forgiven while criticizing student loan forgiveness (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Ralph Norman",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
+        },
+        {
+          "label": "Fox Carolina candidate profile",
+          "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
+        },
+        {
+          "label": "SC Daily Gazette: special primary result",
+          "url": "https://scdailygazette.com/2026/08/11/darline-graham-advances-to-runoff-in-special-gop-primary-its-unclear-who-shell-face/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04445/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "sc-gov-wilson",
+      "name": "Alan Wilson",
+      "party": "Republican",
+      "office": "governor",
+      "state": "SC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 52,
+      "home": "West Columbia, SC",
+      "now": "Attorney General of South Carolina",
+      "background": "South Carolina attorney general since 2011; adopted son of U.S. Rep. Joe Wilson and a colonel in the SC Army National Guard's JAG Corps who deployed to Iraq. Won the June 23 Republican runoff with 68.6% over Lt. Gov. Pamela Evette after finishing behind her in the June 9 first round; running mate is state Sen. Mike Reichenbach.",
+      "priorities": [
+        "Cut taxes and eliminate the state income tax",
+        "Law and order, backing law enforcement",
+        "Expand school choice while funding public schools"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Make South Carolina Affordable Again' by cutting taxes and slashing 'government red tape' (campaign site)",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        "immigration": {
+          "label": "'Deny state benefits to illegal residents, enforce immigration law'; 'If you want to be here, come here legally' (campaign site)",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        "taxes": {
+          "label": "'Fight to eliminate the state income tax', cut personal property taxes, audit government for waste (campaign site)",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        "education": {
+          "label": "Backs universal school choice: parents 'should have the same right, to give your kid the option'; also pledges to fully fund public schools (Fox Carolina profile)",
+          "url": "https://www.foxcarolina.com/2026/05/29/sc-governors-race-candidate-profile-alan-wilson/"
+        },
+        "safety": {
+          "label": "'Restore law and order', 'strengthen penalties for fentanyl and violent offenders'; endorsed by most GOP sheriffs for 'backing the blue' (campaign site)",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        "repro": {
+          "label": "'Firmly pro-life and will always support laws that defend the unborn', though he would veto the no-exceptions bill S. 1095 (campaign site)",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        "democracy": {
+          "label": "Hailed the Supreme Court's rollback of Voting Rights Act preclearance as 'a victory for all voters' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Alan_Wilson_(South_Carolina)"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Removed special prosecutor David Pascoe from a Statehouse corruption probe; the SC Supreme Court ruled 4-1 against him and let the investigation proceed (Ballotpedia)",
+          "url": "https://ballotpedia.org/Alan_Wilson_(South_Carolina)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://wilsonforsc.com/priorities/"
+        },
+        {
+          "label": "Wikipedia: 2026 SC gubernatorial election (runoff result)",
+          "url": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election"
+        },
+        {
+          "label": "Fox Carolina candidate profile",
+          "url": "https://www.foxcarolina.com/2026/05/29/sc-governors-race-candidate-profile-alan-wilson/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Alan_Wilson_(South_Carolina)"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "sc-gov-johnson",
+      "name": "Jermaine Johnson",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "SC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 40,
+      "home": "Hopkins, SC",
+      "now": "South Carolina State Representative",
+      "background": "State representative first elected in 2020 after defeating a 22-year incumbent; former professional basketball player who grew up working-class, earned a doctorate, and founded a nonprofit focused on job-skills training. Won the June 9 Democratic primary with 59.7% over Billy Webster and Mullins McLeod; would be South Carolina's first Black governor.",
+      "priorities": [
+        "Affordability: a state minimum wage and lower property taxes for working families",
+        "Fix public education before any vouchers",
+        "Public safety: more officers plus mental-health crisis teams"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Backs a state minimum wage via a labor advisory council; earlier proposed a UBI pilot and blasted lawmakers for failing to create 'a livable, minimum wage' (campaign site)",
+          "url": "https://johnsonforsc.com/policies"
+        },
+        "health": {
+          "label": "Lists Medicaid expansion as a key priority; wants rural hospitals funded and healthcare made affordable (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jermaine_Johnson"
+        },
+        "housing": {
+          "label": "Would 'fund a grant program that allows municipalities to convert existing structures into affordable housing units' (campaign site)",
+          "url": "https://johnsonforsc.com/policies"
+        },
+        "education": {
+          "label": "'I'm not for any vouchers or anything going into private schools until we fix public education' (Fox Carolina profile)",
+          "url": "https://www.foxcarolina.com/2026/05/29/sc-governors-race-candidate-profile-jermaine-johnson/"
+        },
+        "safety": {
+          "label": "Mixed: would 'raise the salaries for and hire additional state and local law enforcement officers' while adding mental-health teams for 'de-escalation of crises that don't need armed police intervention' (campaign site)",
+          "url": "https://johnsonforsc.com/policies"
+        },
+        "repro": {
+          "label": "'Medical decisions are best left to families and their doctors'; wrote a bill centering female legislators on reproductive rights (campaign site)",
+          "url": "https://johnsonforsc.com/policies"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign policies page",
+          "url": "https://johnsonforsc.com/policies"
+        },
+        {
+          "label": "Wikipedia: 2026 SC gubernatorial election (primary result)",
+          "url": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election"
+        },
+        {
+          "label": "Fox Carolina candidate profile",
+          "url": "https://www.foxcarolina.com/2026/05/29/sc-governors-race-candidate-profile-jermaine-johnson/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jermaine_Johnson"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

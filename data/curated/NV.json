@@ -1,0 +1,204 @@
+{
+  "state": "NV",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "NV-governor": {
+      "status": "general",
+      "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 65% over Washoe County Commissioner Alexis Hill. One of the most competitive governor races in the country."
+    }
+  },
+  "candidates": [
+    {
+      "id": "nv-gov-lombardo",
+      "name": "Joe Lombardo",
+      "party": "Republican",
+      "office": "governor",
+      "state": "NV",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 63,
+      "home": "Las Vegas, NV",
+      "now": "Governor of Nevada",
+      "background": "Governor since 2023 after 34 years in law enforcement, including two terms as Clark County Sheriff (2015-2023). Army and Nevada National Guard veteran with UNLV degrees in civil engineering and crisis management. Won the June 9 Republican primary with 91% against six challengers.",
+      "priorities": [
+        "No new taxes and lighter regulation",
+        "School choice and education accountability",
+        "Attainable housing and public safety"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 0,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 2,
+        "education": 1,
+        "safety": 1,
+        "repro": 0,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "On inflation: 'I can't control that', calls fix-it promises false; points instead to cutting employer taxes and eliminating over 900 regulations (Nevada Current)",
+          "url": "https://nevadacurrent.com/2026/08/04/lombardo-says-hes-powerless-to-address-affordability/"
+        },
+        "health": {
+          "label": "Vetoed prescription drug price caps along with paid family leave and free school meals in a record 87-veto session (Nevada Current)",
+          "url": "https://nevadacurrent.com/2026/08/04/lombardo-says-hes-powerless-to-address-affordability/"
+        },
+        "housing": {
+          "label": "Mixed: created a $250M state attainable-housing fund he says unlocks $1B in projects, with expedited permitting and prevailing-wage exemptions, while critics note he twice blocked limits on corporate home purchases (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/heres-how-lombardo-proposes-fixing-nevadas-housing-affordability-crisis"
+        },
+        "immigration": {
+          "label": "Opposes sanctuary cities; as sheriff worked with ICE to identify and deport 'violent criminals' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        },
+        "taxes": {
+          "label": "Pledged to 'veto any new tax increase'; touts reduced employer taxes (Ballotpedia)",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        },
+        "climate": {
+          "label": "Withdrew Nevada from the U.S. Climate Alliance, saying its goals 'conflict with Nevada's energy policy objectives'; ordered a 'balanced approach' pairing natural gas with renewables (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/lombardo-withdraws-nevada-from-state-led-greenhouse-gas-reduction-coalition"
+        },
+        "education": {
+          "label": "Supports expanding charter schools, 'school choice, and opportunity scholarships' plus read-by-three accountability (Ballotpedia)",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        },
+        "safety": {
+          "label": "Opposes defunding police; pledges to 'put bad guys away' and keep communities safe (Ballotpedia)",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        },
+        "repro": {
+          "label": "Mixed: self-described pro-life and endorsed by National Right to Life, but signed SB 131 shielding abortion patients and providers and says he will respect Nevada's voter-approved 24-week law (CBS News)",
+          "url": "https://www.cbsnews.com/news/nevada-abortion-rights-protections-republican-governor-joe-lombardo/"
+        },
+        "democracy": {
+          "label": "Proposed to 'eliminate ballot harvesting, end universal mail ballots, require an ID to vote' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Settled a four-year Nevada Ethics Commission case over campaigning in his sheriff's uniform and badge, paying $5,000 with no willful violation found after the commission's original $20,000 fine and censure were challenged in court (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/lombardo-ethics-commission-settle-long-running-dispute-over-use-of-sheriffs-badge-office"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Joe_Lombardo"
+        },
+        {
+          "label": "Las Vegas Sun: primary results",
+          "url": "https://lasvegassun.com/news/2026/jun/09/polls-are-closed-in-nevadas-primary-election-resul/"
+        },
+        {
+          "label": "Wikipedia: Joe Lombardo",
+          "url": "https://en.wikipedia.org/wiki/Joe_Lombardo"
+        },
+        {
+          "label": "Nevada Current: affordability record",
+          "url": "https://nevadacurrent.com/2026/08/04/lombardo-says-hes-powerless-to-address-affordability/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "nv-gov-ford",
+      "name": "Aaron Ford",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "NV",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 54,
+      "home": "Las Vegas, NV",
+      "now": "Nevada Attorney General",
+      "background": "Nevada Attorney General since 2019 and the first Black official elected to statewide constitutional office in Nevada; previously state Senate Majority Leader (2017-2018). A former public school math teacher from Dallas with a J.D. and Ph.D. from Ohio State, he secured over $1 billion in opioid settlements as AG. Won the June 9 Democratic primary with 65% over Alexis Hill.",
+      "priorities": [
+        "'Affordable Nevada' agenda: housing, healthcare, and energy costs",
+        "Renter protections and cracking down on corporate landlords",
+        "Protecting public education funding"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'crack down on price gouging and fraudulent medical billing', ban junk fees, deliver medical debt relief, and fight NV Energy rate hikes and tariffs (campaign site)",
+          "url": "https://www.fordfornevada.com/issues"
+        },
+        "health": {
+          "label": "Targets pharmacy benefit managers and drug price gouging, medical debt relief; won $1.2B in opioid settlements as AG (campaign site)",
+          "url": "https://www.fordfornevada.com/issues"
+        },
+        "housing": {
+          "label": "Cap security deposits at one month's rent, ban junk fees, limit Wall Street purchases of single-family homes, and revive corporate-landlord bills Lombardo vetoed, while also accelerating permitting (campaign housing plan)",
+          "url": "https://www.fordfornevada.com/news/aaron-ford-unveils-first-plank-of-affordable-nevada-agenda-housing"
+        },
+        "immigration": {
+          "label": "Committed to protecting Nevada's 13,000 DACA recipients from federal overreach (Ballotpedia)",
+          "url": "https://ballotpedia.org/Aaron_D._Ford"
+        },
+        "climate": {
+          "label": "Backs 'clean and affordable energy', rooftop solar and efficiency incentives, and making data centers 'pay their fair share' for energy and water demands (campaign site)",
+          "url": "https://www.fordfornevada.com/issues"
+        },
+        "education": {
+          "label": "Former math teacher who sued the Trump administration over dismantling the Department of Education to protect $1B in annual federal school funding (campaign site)",
+          "url": "https://www.fordfornevada.com/issues"
+        },
+        "safety": {
+          "label": "Mixed 'tough and smart on crime': funds diversion courts and mental health programs while also 'increasing penalties for criminals who attack our law enforcement officers' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Aaron_D._Ford"
+        },
+        "repro": {
+          "label": "'Abortion is health care'; pledges to 'uphold the fullest scope of Nevada's state statute protecting access to abortion' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Aaron_D._Ford"
+        },
+        "democracy": {
+          "label": "Prosecuted Nevada's 2020 fake electors, calling their acts 'direct attempts to both sow doubt in our democracy and undermine the results of a free and fair election' (Las Vegas Sun)",
+          "url": "https://lasvegassun.com/news/2024/dec/12/nevada-attorney-general-ford-refiles-charges-on-fa/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "A 2026 ethics complaint over $140,000 in sponsored international travel and campaign use of official social media advanced past initial review; IRS liens of $185,000 for 2010-2013 taxes were cleared in 2016 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.fordfornevada.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Aaron_D._Ford"
+        },
+        {
+          "label": "Las Vegas Sun: primary results",
+          "url": "https://lasvegassun.com/news/2026/jun/09/polls-are-closed-in-nevadas-primary-election-resul/"
+        },
+        {
+          "label": "Wikipedia: Aaron D. Ford",
+          "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

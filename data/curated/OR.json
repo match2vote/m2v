@@ -1,0 +1,308 @@
+{
+  "state": "OR",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "OR-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S8OR00207",
+        "fec-S6OR05218"
+      ],
+      "statusNote": "Sen. Jeff Merkley (D) seeks a fourth term against state Sen. David Brock Smith (R); both nominated in the May 19 primary."
+    },
+    "OR-governor": {
+      "status": "general",
+      "statusNote": "Gov. Tina Kotek (D) seeks a second term in a rematch of 2022 against former House Republican leader Christine Drazan (R); both nominated May 19."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S8OR00207",
+      "name": "Jeff Merkley",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "OR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "background": "U.S. Senator since 2009 and former Speaker of the Oregon House; grew up in Portland, the son of a millworker. Known for leading filibuster-reform fights, including a record 22-plus-hour floor speech in 2025. Won the May 19 Democratic primary with 93.2% and is seeking a fourth term.",
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Give every American the opportunity to participate in simple, seamless, cost-effective Medicare for All' (campaign site)",
+          "url": "https://www.jeffmerkley.com/issues/"
+        },
+        "housing": {
+          "label": "End Hedge Fund Control of American Homes Act would force hedge funds to sell off single-family homes; backed mortgage relief for underwater homeowners (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Merkley"
+        },
+        "immigration": {
+          "label": "Called family separation the 'dehumanization' of asylum seekers after his viral 2018 visit to a Texas detention site; co-sponsored the Dreamer Confidentiality Act protecting DACA recipients (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Merkley"
+        },
+        "taxes": {
+          "label": "Attacks 'a rigged economy and tax system that continuously puts more and more money in the hands of those who already have the most' (campaign site)",
+          "url": "https://www.jeffmerkley.com/issues/"
+        },
+        "climate": {
+          "label": "'We must invest in a shift to 100% clean and renewable energy sources'; backs a Green New Deal (campaign site)",
+          "url": "https://www.jeffmerkley.com/issues/"
+        },
+        "education": {
+          "label": "Reduce elementary class sizes, bring back shop classes, and let every young person 'go to college debt-free' (campaign site)",
+          "url": "https://www.jeffmerkley.com/issues/"
+        },
+        "safety": {
+          "label": "Voted for the First Step Act expanding job training and early release and cutting mandatory minimums for nonviolent drug offenses (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Merkley"
+        },
+        "repro": {
+          "label": "Has 'fought to protect a woman's constitutional right to the full scope of comprehensive reproductive health care, including abortion'; co-sponsors a nationwide access guarantee (Senate office)",
+          "url": "https://www.merkley.senate.gov/about/issues/womens-rights-and-health-2/"
+        },
+        "democracy": {
+          "label": "Backs required early voting periods, vote-by-mail, same-day registration, an end to gerrymandering, and overturning Citizens United (campaign site)",
+          "url": "https://www.jeffmerkley.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.jeffmerkley.com/issues/"
+        },
+        {
+          "label": "Wikipedia: 2026 Senate election in Oregon (primary results)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8OR00207/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6OR05218",
+      "name": "David Brock Smith",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "OR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Oregon state senator for coastal District 1 since 2023, previously in the state House (2017-2023) and on the Curry County Board of Commissioners; third-generation southwest Oregon resident from Port Orford who ran his family's restaurant. Won the May 19 Republican primary with 29.5% in a multi-candidate field.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": 2,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Signed a legislators' letter backing Gov. Greg Abbott's position in the Eagle Pass border standoff with federal authorities (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/David_Brock_Smith"
+        },
+        "climate": {
+          "label": "Has claimed human actions do not contribute to climate change, contradicting scientific consensus (Oregon Capital Chronicle)",
+          "url": "https://oregoncapitalchronicle.com/2026/03/03/coastal-oregon-conservative-announces-run-for-u-s-senate/"
+        },
+        "safety": {
+          "label": "Campaign pledge to 'restore safety to our streets' and address addiction and homelessness 'with accountability' (Oregon Capital Chronicle)",
+          "url": "https://oregoncapitalchronicle.com/2026/03/03/coastal-oregon-conservative-announces-run-for-u-s-senate/"
+        },
+        "democracy": {
+          "label": "Sponsored a 2025 bill to let voters repeal Oregon's vote-by-mail law; signed the 2020 letter urging Oregon's AG to back Texas's lawsuit contesting the presidential results (Oregon Capital Chronicle)",
+          "url": "https://oregoncapitalchronicle.com/2026/03/03/coastal-oregon-conservative-announces-run-for-u-s-senate/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Oregon Capital Chronicle: campaign launch profile",
+          "url": "https://oregoncapitalchronicle.com/2026/03/03/coastal-oregon-conservative-announces-run-for-u-s-senate/"
+        },
+        {
+          "label": "Wikipedia: David Brock Smith",
+          "url": "https://en.wikipedia.org/wiki/David_Brock_Smith"
+        },
+        {
+          "label": "Wikipedia: 2026 Senate election in Oregon (primary results)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OR05218/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "or-gov-kotek",
+      "name": "Tina Kotek",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "OR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 59,
+      "home": "Portland, OR",
+      "now": "Governor of Oregon",
+      "background": "Governor since 2023 and the longest-serving House Speaker in Oregon history (2013-2022). Declared a homelessness state of emergency on her first day and set a goal of 36,000 new homes a year. Won the May 19 Democratic primary with 84% and is seeking a second term.",
+      "priorities": [
+        "Reduce homelessness and build more housing",
+        "Lower everyday costs for Oregonians",
+        "Improve schools and expand mental health and addiction care"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": null,
+        "housing": 0,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": 0,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Touts canceling freeway tolls, reining in utility rate hikes, banning hidden junk fees, and shielding credit scores from medical debt (campaign announcement)",
+          "url": "https://www.tinafororegon.com/news/governor-kotek-announces-reelection-campaign-to-build-on-progress-defend-oregon-values/"
+        },
+        "housing": {
+          "label": "Mixed record: led HB 2001 abolishing single-family-only zoning statewide, while also signing $376M in affordable housing and shelter funding and creating a statewide shelter program (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tina_Kotek"
+        },
+        "education": {
+          "label": "Invested in early literacy and summer learning and committed $50 million to expand affordable childcare (campaign announcement)",
+          "url": "https://www.tinafororegon.com/news/governor-kotek-announces-reelection-campaign-to-build-on-progress-defend-oregon-values/"
+        },
+        "safety": {
+          "label": "Signed HB 4002 recriminalizing drug possession as 'a package that encourages treatment first, while balancing the need for accountability' (KGW)",
+          "url": "https://www.kgw.com/article/news/politics/kotek-signs-bill-overhaul-measure-110-recriminalize-drugs/283-041a6791-4441-4e30-a435-14707256544b"
+        },
+        "repro": {
+          "label": "Campaigns on having protected abortion access and provider safety; co-founded the West Coast Health Alliance (campaign announcement)",
+          "url": "https://www.tinafororegon.com/news/governor-kotek-announces-reelection-campaign-to-build-on-progress-defend-oregon-values/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign reelection announcement",
+          "url": "https://www.tinafororegon.com/news/governor-kotek-announces-reelection-campaign-to-build-on-progress-defend-oregon-values/"
+        },
+        {
+          "label": "Wikipedia: Tina Kotek",
+          "url": "https://en.wikipedia.org/wiki/Tina_Kotek"
+        },
+        {
+          "label": "Wikipedia: 2026 Oregon gubernatorial election (primary results)",
+          "url": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "or-gov-drazan",
+      "name": "Christine Drazan",
+      "party": "Republican",
+      "office": "governor",
+      "state": "OR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 54,
+      "home": "Canby, OR",
+      "now": "Oregon State Senator (District 26)",
+      "background": "State senator since October 2025 and former Oregon House Republican leader (2019-2021); grew up in Klamath Falls and worked as a Capitol staffer before politics. The 2022 Republican nominee for governor, she lost to Kotek 46.9-43.5. Won the May 19 Republican primary with 41% over Ed Diehl and Chris Dudley, setting up a rematch.",
+      "priorities": [
+        "Lower the cost of living by cutting taxes and regulations",
+        "Reduce homelessness with accountability, 'fewer needles and more cops'",
+        "Budget discipline and government efficiency"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Blames government for the affordability crisis; would lower taxes, cut regulatory burdens, and reduce the cost of state services (campaign site)",
+          "url": "https://www.christinefororegon.com/"
+        },
+        "housing": {
+          "label": "Targets regulatory barriers and forest management policies as the obstacles to homeownership; property tax relief for seniors (campaign site)",
+          "url": "https://www.christinefororegon.com/"
+        },
+        "immigration": {
+          "label": "Says Oregon's sanctuary laws 'have gone too far,' citing releases of violent offenders; backs law enforcement cooperation across jurisdictions (KATU)",
+          "url": "https://katu.com/news/know-your-candidates/2026-christine-drazan-oregon-governor-republican"
+        },
+        "taxes": {
+          "label": "Cites a 77% rise in business taxes since 2019 and a state budget that 'doubled in just a decade'; pledges lower taxes and budget discipline (campaign site, KATU)",
+          "url": "https://www.christinefororegon.com/"
+        },
+        "climate": {
+          "label": "As House GOP leader she joined 2020 quorum denials to block cap-and-trade climate legislation and demanded a referendum on it; 20% lifetime League of Conservation Voters score (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Christine_Drazan"
+        },
+        "education": {
+          "label": "Prioritizes parental authority in education and opposes 'radical ideologies' in schools (campaign site)",
+          "url": "https://www.christinefororegon.com/"
+        },
+        "safety": {
+          "label": "'Fewer needles and more cops to restore safe communities'; homelessness should be 'rare and temporary, not chronic' (campaign site)",
+          "url": "https://www.christinefororegon.com/"
+        },
+        "repro": {
+          "label": "Endorsed by Oregon Right to Life in 2022; described as standing alone among that field in her anti-abortion views (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Christine_Drazan"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.christinefororegon.com/"
+        },
+        {
+          "label": "KATU Know Your Candidates interview",
+          "url": "https://katu.com/news/know-your-candidates/2026-christine-drazan-oregon-governor-republican"
+        },
+        {
+          "label": "Wikipedia: Christine Drazan",
+          "url": "https://en.wikipedia.org/wiki/Christine_Drazan"
+        },
+        {
+          "label": "Oregon Capital Chronicle: primary result",
+          "url": "https://oregoncapitalchronicle.com/2026/05/19/oregon-2026-primary-governor-results/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

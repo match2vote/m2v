@@ -1,0 +1,196 @@
+{
+  "state": "AK",
+  "note": "Hand-curated, sourced entries. Top-4 primary is Aug 18; general is ranked-choice. Frontrunners curated, not marked nominees.",
+  "races": {
+    "AK-senate": {
+      "status": "primary-pending",
+      "statusNote": "Sen. Dan Sullivan (R) and former Rep. Mary Peltola (D) lead by fundraising and polling, but Alaska's top-4 primary is August 18 and up to four candidates advance to the ranked-choice general."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4AK00214",
+      "name": "Dan Sullivan",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "AK",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 61,
+      "home": "Anchorage, AK",
+      "now": "U.S. Senator for Alaska",
+      "background": "U.S. Senator since 2015; retired 30-year Marine Corps officer. Previously Alaska Attorney General, state Natural Resources Commissioner, and an Assistant Secretary of State. Seeking a third term.",
+      "priorities": [
+        "Make the 2017 tax cuts permanent",
+        "Unleash Alaska's energy potential",
+        "Military and national defense investment"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": -1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 1,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames affordability through tax relief and resource development; claims the 2025 tax bill raises family take-home pay (Senate office)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-shapes-one-big-beautiful-bill-to-unleash-alaskas-economy-create-good-paying-jobs-provide-historic-tax-cuts-for-working-families-and-strengthen-health-care"
+        },
+        "health": {
+          "label": "Voted to repeal the ACA; backed Medicaid work requirements in the 2025 bill, with an Alaska delay he secured (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        },
+        "housing": {
+          "label": "Introduced the bipartisan Workforce Housing Tax Credit Act to build middle-income housing; calls Alaska's housing crisis 'a top priority' (Senate office)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-wyden-panetta-carey-introduce-legislation-to-improve-housing-affordability-for-middle-income-families"
+        },
+        "immigration": {
+          "label": "Border-security-first: touts the $46B border security funding in the 2025 bill (Senate office)",
+          "url": "https://www.sullivan.senate.gov/wftca"
+        },
+        "taxes": {
+          "label": "Champions making the 2017 tax cuts permanent; 'prevented the largest tax hike in history' (Senate office)",
+          "url": "https://www.sullivan.senate.gov/wftca"
+        },
+        "climate": {
+          "label": "'Unleashing Alaska's energy potential': mandated ANWR/NPR-A/Cook Inlet lease sales; has said 'the verdict is still out on the human contribution to climate change' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        },
+        "education": {
+          "label": "Backed returning school control 'to teachers, local school boards, states, and engaged parents' over federal mandates (Senate office, 2015)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-supports-major-education-reform-bill"
+        },
+        "safety": {
+          "label": "Leads statewide 'One Pill Can Kill' anti-fentanyl campaign: interdiction with law enforcement plus prevention and treatment (Senate office)",
+          "url": "https://www.sullivan.senate.gov/onepill"
+        },
+        "repro": {
+          "label": "Opposes abortion except for rape, incest, or threat to the mother's life (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        }
+      },
+      "controversies": [
+        {
+          "label": "2020 undercover recordings captured Pebble Mine executives suggesting he would quietly support the mine after the election; he publicly opposed it afterward (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://dansullivanforalaska.com/"
+        },
+        {
+          "label": "Wikipedia: Dan Sullivan",
+          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4AK00214/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6AK00276",
+      "name": "Mary Peltola",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "AK",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 52,
+      "home": "Bethel, AK",
+      "now": "Former U.S. Representative for Alaska",
+      "background": "Yup'ik former fishing-boat captain and the first Alaska Native elected to Congress (2022-2025); the last Democrat to win statewide in Alaska. Served 10 years in the Alaska House and led the Kuskokwim River Inter-Tribal Fish Commission. A moderate who frequently broke party ranks.",
+      "priorities": [
+        "Affordability: groceries and energy",
+        "Fix the 'rigged system': term limits, anti-corruption",
+        "Restore Alaska fisheries; ban factory trawling"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": 0,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Affordability plan: ban price gouging, block anti-competitive grocery mergers, expand the child tax credit, restore rural Bypass Mail (campaign site)",
+          "url": "https://marypeltola.com/affordability/"
+        },
+        "health": {
+          "label": "Supports extending ACA subsidies and opposed Medicaid cuts; earlier on record for a public option (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        "housing": {
+          "label": "Would 'crack down on the out-of-state corporations and hedge funds buying up homes'; tax credits for rent-burdened renters (campaign site)",
+          "url": "https://marypeltola.com/affordability/"
+        },
+        "immigration": {
+          "label": "Mixed: broke with Democrats to back Republican-led enforcement measures, including deporting undocumented migrants who assault police (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        "taxes": {
+          "label": "Proposes eliminating federal income tax under $92,000 and taxes on Social Security; earlier supported raising taxes on the wealthiest (campaign site)",
+          "url": "https://marypeltola.com/affordability/"
+        },
+        "climate": {
+          "label": "All-of-the-above: supported the Willow oil project and NPR-A development AND would restore solar/wind/hydro tax credits; calls climate effects 'devastating' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        "education": {
+          "label": "Opposes school vouchers; 'quality schools are vital to the future of our communities' (OnTheIssues, 2022)",
+          "url": "https://www.ontheissues.org/House/Mary_Peltola.htm"
+        },
+        "repro": {
+          "label": "Pro-choice; supports codifying Roe v. Wade protections in federal law (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        "democracy": {
+          "label": "'Fixing the Rigged System' plan: 12-year term limits, congressional stock-trading ban, DISCLOSE Act, overturn Citizens United (campaign site)",
+          "url": "https://marypeltola.com/fixing-system/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "NRSC filed a 2026 FEC complaint alleging improper use of her dormant House campaign account; her campaign calls it 'a completely false attack' (Anchorage Daily News)",
+          "url": "https://www.adn.com/politics/2026/03/28/sullivan-backers-call-for-investigation-into-peltola-over-2025-campaign-spending/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign: affordability plan",
+          "url": "https://marypeltola.com/affordability/"
+        },
+        {
+          "label": "Wikipedia: Mary Peltola",
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        {
+          "label": "Alaska Beacon: campaign launch",
+          "url": "https://alaskabeacon.com/2026/01/12/mary-peltola-announces-run-for-alaska-u-s-senate-challenging-incumbent-dan-sullivan/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AK00276/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

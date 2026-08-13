@@ -1,0 +1,374 @@
+{
+  "state": "IL",
+  "note": "Hand-curated, sourced entries. Primaries held March 17, 2026.",
+  "races": {
+    "IL-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6IL00458",
+        "fec-S6IL00615"
+      ],
+      "statusNote": "Open seat (Sen. Durbin retiring): Lt. Gov. Juliana Stratton (D) faces attorney and former state GOP chair Don Tracy (R). Both nominated March 17."
+    },
+    "IL-governor": {
+      "status": "general",
+      "statusNote": "Gov. JB Pritzker (D) seeks a third term against 2022 rival Darren Bailey (R), who won his primary with about 54%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6IL00458",
+      "name": "Juliana Stratton",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "IL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 60,
+      "home": "Chicago, IL",
+      "now": "Lieutenant Governor of Illinois",
+      "background": "Illinois Lieutenant Governor since 2019 and a former state representative; earlier a mediator and director of the UIC Center for Public Safety and Justice. Won the March Democratic primary over Rep. Raja Krishnamoorthi with Gov. Pritzker's endorsement.",
+      "priorities": [
+        "Affordability and wages ($25 federal minimum wage)",
+        "Medicare for All",
+        "Protecting democracy and voting rights"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Backs a $25 federal minimum wage and a middle-class tax cut; calls affordability the top issue (WTTW questionnaire)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/juliana-stratton"
+        },
+        "health": {
+          "label": "Supports Medicare for All (WTTW questionnaire)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/juliana-stratton"
+        },
+        "housing": {
+          "label": "Mixed: 'cutting red tape, building more' so families aren't competing with banks for homes (WTTW questionnaire)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/juliana-stratton"
+        },
+        "immigration": {
+          "label": "'ICE must be abolished'; supports the DREAM Act and Protecting Sensitive Locations Act (Sun-Times questionnaire)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+        },
+        "taxes": {
+          "label": "Middle-class tax cut paid for by a tax increase on incomes over $1M; expanded EITC (Sun-Times questionnaire)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+        },
+        "climate": {
+          "label": "Cites her record of 'urgent action on climate change' in Illinois; no detailed federal proposals published (campaign site)",
+          "url": "https://www.julianastratton.com/issues"
+        },
+        "education": {
+          "label": "Restore the Department of Education; expand Pell and federal support to trade schools (campaign site)",
+          "url": "https://www.julianastratton.com/issues"
+        },
+        "repro": {
+          "label": "Restore Roe v. Wade protections in federal law (campaign site)",
+          "url": "https://www.julianastratton.com/issues"
+        },
+        "democracy": {
+          "label": "Pass the John Lewis Voting Rights Act; reform the filibuster for voting-rights bills (Sun-Times questionnaire)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+        }
+      },
+      "sources": [
+        {
+          "label": "WTTW voter guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/juliana-stratton"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.julianastratton.com/issues"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6IL00458/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6IL00615",
+      "name": "Don Tracy",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "IL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 76,
+      "home": "Springfield, IL",
+      "now": "Attorney; former Illinois Republican Party chair",
+      "background": "Springfield attorney with a 50-year legal career; chaired the Illinois Gaming Board (2015-2019) and the Illinois Republican Party (2021-2024). Longtime outside counsel to family business Dot Foods. Won the March Republican primary with about 40%.",
+      "priorities": [
+        "Lower the cost of living",
+        "Safer communities",
+        "Expand opportunity"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Central plank: lower housing, grocery, utility, and health costs by cutting spending and regulation (campaign site)",
+          "url": "https://dontracyforil.com/lower-the-cost-of-living/"
+        },
+        "health": {
+          "label": "Price transparency and cross-state-line insurance competition; opposes taxpayer-funded care for non-citizens (WTTW questionnaire)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/don-tracy"
+        },
+        "housing": {
+          "label": "Expand affordable housing by removing regulatory barriers that drive prices up (campaign site)",
+          "url": "https://dontracyforil.com/lower-the-cost-of-living/"
+        },
+        "immigration": {
+          "label": "Enforce the law, secure the border, supports the SAVE Act and ending birthright citizenship by amendment; backs a 'structured path to legal residency' (21st Show)",
+          "url": "https://will.illinois.edu/21stshow/story/don-tracy"
+        },
+        "taxes": {
+          "label": "'Keep more of what you earn'; opposes tax increases on working families; flags Illinois property-tax burden (WTTW questionnaire)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/don-tracy"
+        },
+        "climate": {
+          "label": "'All-of-the-above, common sense' energy: lower costs, energy independence (campaign site)",
+          "url": "https://dontracyforil.com/lower-the-cost-of-living/"
+        },
+        "safety": {
+          "label": "Backs law enforcement and accountability-focused policies to make communities safer (campaign site)",
+          "url": "https://dontracyforil.com/"
+        },
+        "repro": {
+          "label": "Abortion law should be left to the states; supports the Hyde Amendment with rape/incest/life exceptions (21st Show)",
+          "url": "https://will.illinois.edu/21stshow/story/don-tracy"
+        },
+        "democracy": {
+          "label": "Supports voter photo ID and proof-of-citizenship registration (SAVE Act) (21st Show)",
+          "url": "https://will.illinois.edu/21stshow/story/don-tracy"
+        }
+      },
+      "controversies": [
+        {
+          "label": "2019 inspector general alleged prohibited political activity while Gaming Board chair; the state Ethics Commission ruled in 2025 that investigators failed to prove a violation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Don_Tracy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://dontracyforil.com/"
+        },
+        {
+          "label": "WTTW voter guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/don-tracy"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6IL00615/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "il-gov-pritzker",
+      "name": "JB Pritzker",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "IL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 61,
+      "home": "Chicago, IL",
+      "now": "Governor of Illinois",
+      "background": "Governor since 2019, seeking a third term; a win would make him the first Illinois governor with three terms since Jim Thompson. Billionaire businessman and venture capitalist before office; beat Darren Bailey by about 13 points in 2022.",
+      "priorities": [
+        "Lower costs for working families",
+        "Education and health care record",
+        "Standing up to the Trump administration"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Eliminated the state grocery tax, doubled the child tax credit, raised the minimum wage to $15 (WhereTheyStand)",
+          "url": "https://wheretheystandusa.org/illinois-governor-2026/"
+        },
+        "health": {
+          "label": "Signed the $35 insulin cap; medical-debt relief erased ~$345M for 270,000 residents (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "housing": {
+          "label": "Mixed: 2026 BUILD plan relaxes zoning, legalizes ADUs, cuts parking minimums AND adds $15K down-payment assistance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "immigration": {
+          "label": "Banned private immigration detention and police-ICE deportation cooperation; resists federal ICE operations (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "taxes": {
+          "label": "Pushed a graduated income tax raising rates on high earners (voters rejected it in 2020); doubled the gas tax for infrastructure (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "climate": {
+          "label": "Signed CEJA: carbon-free power by 2045, 50% renewables by 2040; 2026 law adds 2+ GW of new nuclear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "education": {
+          "label": "Large K-12 and higher-ed funding increases across two terms (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "safety": {
+          "label": "Signed and defends the SAFE-T Act ending cash bail, paired with law-enforcement investment (WhereTheyStand)",
+          "url": "https://wheretheystandusa.org/illinois-governor-2026/"
+        },
+        "repro": {
+          "label": "Signed the Reproductive Health Act making abortion a 'fundamental right' in Illinois (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        "democracy": {
+          "label": "Co-founded Governors Safeguarding Democracy; created an Illinois commission on federal overreach (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        }
+      },
+      "controversies": [
+        {
+          "label": "~$230K property-tax break on a mansion made 'uninhabitable' by removing toilets (repaid); recorded on the 2008 Blagojevich wiretaps, later apologized (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: JB Pritzker",
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker"
+        },
+        {
+          "label": "WhereTheyStand comparison",
+          "url": "https://wheretheystandusa.org/illinois-governor-2026/"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.jbpritzker.com/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "il-gov-bailey",
+      "name": "Darren Bailey",
+      "party": "Republican",
+      "office": "governor",
+      "state": "IL",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 60,
+      "home": "Xenia, IL",
+      "now": "Farmer; former state senator",
+      "background": "Southern Illinois farmer and former state senator; the 2022 Republican nominee for governor, back for a 2026 rematch after winning the primary with about 54%. Co-founded a family farm operation and a private Christian school. This cycle he emphasizes economics over social issues.",
+      "priorities": [
+        "Property-tax relief and affordability",
+        "Repeal the SAFE-T Act",
+        "Cut energy costs; 'Illinois DOGE' spending audits"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Put more money back in the pockets of everyday Illinoisans'; cut utility bills; property-tax relief (campaign site)",
+          "url": "https://baileyforillinois.com/issues/"
+        },
+        "immigration": {
+          "label": "Mixed-enforcement: opposes Illinois sanctuary laws while criticizing federal ICE operations in Cook County (WhereTheyStand)",
+          "url": "https://wheretheystandusa.org/darren-bailey-illinois-governor-2026/"
+        },
+        "taxes": {
+          "label": "Cap property taxes, lower taxes overall, 'Illinois DOGE' efficiency audits (Capitol News Illinois)",
+          "url": "https://capitolnewsillinois.com/news/bailey-proposes-illinois-doge-as-republican-governors-race-focuses-on-spending/"
+        },
+        "climate": {
+          "label": "Repeal CEJA, the 2021 clean-energy law, blaming it for utility-price increases (Capitol News Illinois)",
+          "url": "https://capitolnewsillinois.com/news/bailey-proposes-illinois-doge-as-republican-governors-race-focuses-on-spending/"
+        },
+        "education": {
+          "label": "School choice: 'empower parents'; classrooms should teach fundamentals, 'not political agendas' (campaign site)",
+          "url": "https://baileyforillinois.com/issues/"
+        },
+        "safety": {
+          "label": "Repeal the SAFE-T Act ('radical, pro-criminal'), restore stricter bail, back law enforcement (campaign site)",
+          "url": "https://baileyforillinois.com/issues/"
+        },
+        "repro": {
+          "label": "Record of supporting a near-total ban with life-of-mother exception only; 2026 homepage still pledges to 'defend the sanctity of life' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Darren_Bailey"
+        },
+        "democracy": {
+          "label": "Refused to acknowledge Biden's 2020 victory, citing fraud claims (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Darren_Bailey"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Removed from the Illinois House floor in 2020 for refusing to wear a mask; 2017 comment comparing abortion to the Holocaust (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Darren_Bailey"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://baileyforillinois.com/issues/"
+        },
+        {
+          "label": "Wikipedia: Darren Bailey",
+          "url": "https://en.wikipedia.org/wiki/Darren_Bailey"
+        },
+        {
+          "label": "Sun-Times: primary result",
+          "url": "https://chicago.suntimes.com/elections/2026/03/17/governor-illinois-republican-race-primary-results"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

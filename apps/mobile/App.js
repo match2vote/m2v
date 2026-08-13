@@ -15,7 +15,7 @@ import { Home } from './src/screens/Home';
 import { HowTo } from './src/screens/HowTo';
 import { ChooseState } from './src/screens/ChooseState';
 import { getRaces, getCoverage, STATE_NAMES } from './src/ballot';
-import { getStateData, getPicks, getQuizState, saveQuizState, clearQuizState, kv } from './src/api';
+import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, kv } from './src/api';
 import { shareResultCard } from './src/share';
 
 const { space } = theme;
@@ -97,7 +97,7 @@ function Root() {
             <Quiz quiz={quiz} setQuiz={setQuizPersist} onDone={() => nav.go({ name: 'matches' }, { replace: true })} />
           )}
           {r.name === 'matches' && (
-            <Matches quiz={quiz} setQuiz={setQuizPersist} />
+            <Matches quiz={quiz} setQuiz={setQuizPersist} onPicksChanged={(n) => setBallotCount(n)} />
           )}
           {r.name === 'about' && <About />}
         </View>
@@ -207,17 +207,33 @@ function Quiz({ quiz, setQuiz, onDone }) {
   );
 }
 
-function Matches({ quiz, setQuiz }) {
+function Matches({ quiz, setQuiz, onPicksChanged }) {
   const nav = useNav();
   const { colors } = useTheme();
   const [stateCode, setStateCode] = useState(null);
   const [data, setData] = useState(null);
   const [confirmRetake, setConfirmRetake] = useState(false);
   const [shareMsg, setShareMsg] = useState(null);
+  const [picks, setPicks] = useState([]);
 
   useEffect(() => {
     kv.get('m2v:ballotState').then((s) => setStateCode(s || null));
+    getPicks().then(setPicks);
   }, [nav.route]);
+
+  // One-tap mark/unmark straight from the results list, with instant feedback.
+  const toggleMark = async (race, candidate, pct) => {
+    const existing = picks.find((p) => p.raceId === race.id);
+    const next = existing && existing.candidateId === candidate.id
+      ? await removePick(race.id)
+      : await savePick({
+          raceId: race.id, raceTitle: race.title, state: candidate.state,
+          candidateId: candidate.id, name: candidate.name, party: candidate.party,
+          tier: candidate.tier, matchPct: pct ?? null,
+        });
+    setPicks(next);
+    onPicksChanged?.(next.length);
+  };
   useEffect(() => {
     if (!stateCode) return;
     let alive = true;
@@ -271,6 +287,9 @@ function Matches({ quiz, setQuiz }) {
 
   const races = getRaces(stateCode, data, { curatedOnly: true });
   const ranked = races.map((race) => ({ race, rows: rankCandidates(quiz.answers, quiz.matters, race.candidates) }));
+  const ballotRaceCount = getRaces(stateCode, data, { ballotView: true }).length;
+  const markedCount = getRaces(stateCode, data, { ballotView: true })
+    .filter((r) => picks.some((p) => p.raceId === r.id)).length;
   const shareRows = ranked
     .map(({ race, rows }) => rows[0] && { name: rows[0].candidate.name, party: rows[0].candidate.party, pct: rows[0].pct, raceTitle: race.title })
     .filter(Boolean)
@@ -292,26 +311,51 @@ function Matches({ quiz, setQuiz }) {
           }}
         />
         {shareMsg && <Body soft style={{ textAlign: 'center', fontSize: 13, marginBottom: space(2) }}>{shareMsg}</Body>}
+        <Button
+          kind="ghost"
+          label={`View your ballot (${markedCount} of ${ballotRaceCount} race${ballotRaceCount === 1 ? '' : 's'} marked)`}
+          onPress={() => nav.go({ name: 'ballot' })}
+        />
         {ranked.map(({ race, rows }) => (
-          <Pressable key={race.id} onPress={() => nav.go({ name: 'race', id: race.id })}>
-            <Card>
-              <H2 style={{ marginBottom: space(2) }}>{race.title}</H2>
-              {rows.map(({ candidate, pct, sharedIssues }) => (
-                <View key={candidate.id} style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(2) }}>
-                  <MatchRing pct={pct} size={64} />
-                  <View style={{ flex: 1, marginLeft: space(3) }}>
-                    <Body style={{ fontWeight: '800', fontSize: 17 }}>{candidate.name}</Body>
-                    <Body soft style={{ fontSize: 12 }}>
-                      {candidate.party}
-                      {pct !== null ? ` · ${sharedIssues} shared issue${sharedIssues === 1 ? '' : 's'}` : ' · not enough stated positions'}
-                      {candidate.tier === 'curated' ? ' · sourced ✓' : ''}
-                    </Body>
+          <Card key={race.id}>
+            <Pressable onPress={() => nav.go({ name: 'race', id: race.id })}>
+              <H2 style={{ marginBottom: space(2) }}>{race.title} ›</H2>
+            </Pressable>
+            {rows.map(({ candidate, pct, sharedIssues }) => {
+              const isMarked = picks.some((p) => p.raceId === race.id && p.candidateId === candidate.id);
+              return (
+                <View key={candidate.id} style={{ marginBottom: space(3) }}>
+                  <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <MatchRing pct={pct} size={64} />
+                    <View style={{ flex: 1, marginLeft: space(3) }}>
+                      <Pressable onPress={() => nav.go({ name: 'candidate', id: candidate.id })}>
+                        <Body style={{ fontWeight: '800', fontSize: 17 }}>{candidate.name}</Body>
+                      </Pressable>
+                      <Body soft style={{ fontSize: 12 }}>
+                        {candidate.party}
+                        {pct !== null ? ` · ${sharedIssues} shared issue${sharedIssues === 1 ? '' : 's'}` : ' · not enough stated positions'}
+                        {candidate.tier === 'curated' ? ' · sourced ✓' : ''}
+                      </Body>
+                    </View>
                   </View>
+                  <Pressable
+                    onPress={() => toggleMark(race, candidate, pct)}
+                    style={({ pressed }) => [{
+                      marginTop: 6, marginLeft: 64 + space(3),
+                      alignSelf: 'flex-start', borderRadius: 10,
+                      paddingHorizontal: 14, paddingVertical: 8,
+                      backgroundColor: isMarked ? colors.gold : 'transparent',
+                      borderWidth: 1.5, borderColor: colors.gold,
+                    }, pressed && { opacity: 0.7 }]}
+                  >
+                    <Text style={{ fontWeight: '800', fontSize: 13, color: isMarked ? '#FFF9EE' : colors.gold }}>
+                      {isMarked ? '● Marked on your ballot · tap to unmark' : '◯ Mark on your ballot'}
+                    </Text>
+                  </Pressable>
                 </View>
-              ))}
-              <Body soft style={{ fontSize: 12 }}>Tap to compare and mark your ballot ›</Body>
-            </Card>
-          </Pressable>
+              );
+            })}
+          </Card>
         ))}
         {!confirmRetake ? (
           <Button kind="ghost" label="Retake the quiz" onPress={() => setConfirmRetake(true)} />

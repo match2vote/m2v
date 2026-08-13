@@ -10,6 +10,7 @@ on:
       - 'apps/mobile/**'
       - 'packages/**'
       - 'tools/**'
+      - 'docs/launch/**'
       - '.github/workflows/deploy-web.yml'
   workflow_dispatch: {}
 
@@ -60,6 +61,8 @@ jobs:
           touch _site/.nojekyll
           # Custom domain (kept across deploys; Pages needs this in the site root)
           echo "match2vote.org" > _site/CNAME
+          # Privacy policy at /privacy (required by Google Play + linked from the app)
+          mkdir -p _site/privacy && cp docs/launch/privacy.html _site/privacy/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

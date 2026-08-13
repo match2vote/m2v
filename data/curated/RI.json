@@ -1,0 +1,518 @@
+{
+  "state": "RI",
+  "note": "Hand-curated, sourced entries. Both primaries pending (Sept 8, 2026).",
+  "races": {
+    "RI-senate": {
+      "status": "primary-pending",
+      "statusNote": "Primary is September 8, 2026; nominees are not final. Sen. Jack Reed (D) is seeking a sixth term and Raymond McKay is the lone declared Republican. Forecasters rate the race Likely Democratic."
+    },
+    "RI-governor": {
+      "status": "primary-pending",
+      "statusNote": "Primary is September 8, 2026; nominees are not final. Gov. Dan McKee trails Helena Foulkes 42-22 in the June UNH poll of the Democratic primary. On the GOP side, party-endorsed Aaron Guckian trailed Elaine Pelino 17-40 in the same poll with 40% undecided. Independent Ken Block skips the primary and runs in November."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6RI00163",
+      "name": "Jack Reed",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 76,
+      "now": "U.S. Senator, seeking a sixth term",
+      "background": "U.S. Senator since 1997 after three terms in the U.S. House; ranking member of the Armed Services Committee and senior member of the Banking and Appropriations committees. Regarded as one of the Senate's leading voices on housing policy. Held $3.43 million cash on hand as of April 2026 against nominal opposition.",
+      "priorities": [
+        "Lowering housing costs and expanding affordable housing",
+        "Investing in education from pre-K through Pell Grants",
+        "Middle-class tax fairness"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Supports raising the minimum wage, importing prescription drugs from Canada, and negotiating bulk drug purchases to lower costs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jack_Reed_(Rhode_Island_politician)"
+        },
+        "health": {
+          "label": "Does not back Medicare for All but authored the Choose Medicare Act to expand 'access, competition, and choice' and boost Medicare funding (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jack_Reed_(Rhode_Island_politician)"
+        },
+        "housing": {
+          "label": "Created the Federal Housing Trust Fund, directed $3.2B to RI housing since 2020, and championed curbs on institutional investors outbidding families (Senate office)",
+          "url": "https://www.reed.senate.gov/issues/housing"
+        },
+        "immigration": {
+          "label": "Co-sponsored the DREAM Act, backs citizenship pathways for undocumented immigrants, criticized border fencing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jack_Reed_(Rhode_Island_politician)"
+        },
+        "taxes": {
+          "label": "Called the 2017 TCJA 'a historic transfer of wealth' to corporations and the wealthy; wants corporations to 'pay their fair share' while expanding the EITC and Child Tax Credit (Senate office)",
+          "url": "https://www.reed.senate.gov/issues/tax-reform"
+        },
+        "climate": {
+          "label": "Backs 'a national energy policy that limits carbon pollution' built on clean renewable energy; fought efforts to gut the Clean Air Act and EPA climate funding (Senate office)",
+          "url": "https://www.reed.senate.gov/issues/climate-and-environment"
+        },
+        "education": {
+          "label": "Authored the Pell Grant Preservation and Expansion Act; helped secure $250M for preschool development grants and wrote teacher-preparation legislation (Senate office)",
+          "url": "https://www.reed.senate.gov/issues/education"
+        },
+        "safety": {
+          "label": "Says lawmakers must 'tackle the root causes of neighborhood crime and poverty'; helped pass the First Step Act and funded reentry employment, alongside community policing support (Senate office)",
+          "url": "https://www.reed.senate.gov/issues/justice-and-law-enforcement"
+        },
+        "repro": {
+          "label": "'Strongly supports abortion rights'; rejected late-term bans and restrictions on minors crossing state lines (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jack_Reed_(Rhode_Island_politician)"
+        },
+        "democracy": {
+          "label": "Pushed to pass the John Lewis Voting Rights Advancement Act to 'combat voter suppression' and restore VRA protections (Senate office)",
+          "url": "https://www.reed.senate.gov/news/releases/reed-seeks-to-pass-john-lewis-voting-rights-advancement-act-end-discriminatory-voting-practices-and-ensure-election-integrity"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Jack Reed",
+          "url": "https://en.wikipedia.org/wiki/Jack_Reed_(Rhode_Island_politician)"
+        },
+        {
+          "label": "Senate office issue pages",
+          "url": "https://www.reed.senate.gov/issues"
+        },
+        {
+          "label": "Wikipedia: 2026 RI Senate election",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6RI00163/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S4RI00051",
+      "name": "Raymond McKay",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 65,
+      "now": "Retired network and telecommunications manager",
+      "background": "Retired after 26 years as network and telecommunications manager for the City of Warwick; U.S. Army veteran (1981-1992) who maintained Pershing missile electronics in West Germany. The only declared Republican in the race, running on the theme 'Right Direction Right Now'.",
+      "priorities": [
+        "Curtail federal spending to fight inflation",
+        "Secure the border",
+        "Term limits for Congress"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Advocates curtailing government expenditures to reduce inflation and economic pressure; growth through small business (Ballotpedia)",
+          "url": "https://ballotpedia.org/Raymond_McKay"
+        },
+        "immigration": {
+          "label": "'We must secure our borders and enforce our laws' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Raymond_McKay"
+        },
+        "taxes": {
+          "label": "Signed the Americans for Tax Reform Taxpayer Protection Pledge; pairs it with cutting government spending (Ballotpedia)",
+          "url": "https://ballotpedia.org/Raymond_McKay"
+        },
+        "climate": {
+          "label": "Supports 'energy independence through diverse means, without government subsidies' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Raymond_McKay"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Raymond_McKay"
+        },
+        {
+          "label": "Wikipedia: 2026 RI Senate election",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4RI00051/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-mckee",
+      "name": "Dan McKee",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 75,
+      "home": "Cumberland, RI",
+      "now": "Governor of Rhode Island",
+      "background": "Governor since March 2021, when he succeeded Gina Raimondo; elected to a full term in 2022. Former lieutenant governor, longtime mayor of Cumberland, and co-owner of a family heating business. Founded the Blackstone Valley Prep mayoral charter academies. The Providence Journal has described him as 'a moderate, probably a shade to the right of today's median Rhode Island Democrat', and he trails Helena Foulkes in 2026 primary polling.",
+      "priorities": [
+        "Rebuilding the Washington Bridge and infrastructure",
+        "Lowering energy bills",
+        "Housing production and education spending"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 0,
+        "education": 0,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "housing": {
+          "label": "His 2024 budget 'increased spending on building housing' alongside education increases (Ballotpedia)",
+          "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        "taxes": {
+          "label": "Eliminated the car tax, lowered the minimum corporate tax, and refused to sign the 2025 budget because it 'increased fees and taxes' on working families (Ballotpedia)",
+          "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        "climate": {
+          "label": "Signed the 2021 Act on Climate committing RI to net-zero by 2050, yet proposed postponing the 2033 renewable energy deadline he championed to 2050 to save ratepayers $1 billion (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/01/22/save-now-pay-later-critics-warn-mckees-plan-to-ease-energy-bills-comes-with-a-tab/"
+        },
+        "education": {
+          "label": "Charter champion who founded Blackstone Valley Prep and opposed a charter freeze as doing 'nothing to improve our public education system', while also increasing K-12 spending (Ballotpedia)",
+          "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        "safety": {
+          "label": "Signed 2021 law reclassifying simple possession of 10 grams or less of controlled substances from felony to misdemeanor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dan_McKee"
+        },
+        "repro": {
+          "label": "Signed 2023 law allowing state funds to cover abortion in health plans for state employees and Medicaid recipients (Ballotpedia)",
+          "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        "democracy": {
+          "label": "Signed the Let RI Vote Act: no-excuse mail ballots, online applications, witness requirements eliminated, drop boxes in every municipality; 'makes voting easier, safer, and more secure' (Governor's office)",
+          "url": "https://governor.ri.gov/press-releases/governor-mckee-signs-let-ri-vote-act"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Kept a forensic audit of the failed Washington Bridge secret for over a year after promising to release it; the report found state officials missed deteriorating conditions he had blamed solely on contractors (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/09/29/mckee-faces-backlash-for-keeping-washington-bridge-forensic-audit-secret-for-over-a-year/"
+        },
+        {
+          "label": "AG investigation found McKee's administration 'did not follow state procurement rules' and manipulated the RFP for the $5.2M ILO Group education contract, though no criminal charges were filed (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2024/10/29/investigation-finds-insufficient-evidence-to-prosecute-mckee-for-influencing-award-of-ilo-contract/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        {
+          "label": "Governor's office: Act on Climate signing",
+          "url": "https://governor.ri.gov/press-releases/governor-mckee-signs-act-climate"
+        },
+        {
+          "label": "Wikipedia: Dan McKee",
+          "url": "https://en.wikipedia.org/wiki/Dan_McKee"
+        },
+        {
+          "label": "Rhode Island Current: UNH primary poll",
+          "url": "https://rhodeislandcurrent.com/2026/07/01/mckee-picks-up-steam-in-new-unh-poll-but-foulkes-still-democratic-front-runner/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-foulkes",
+      "name": "Helena Foulkes",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 62,
+      "home": "Providence, RI",
+      "now": "Former CVS Health executive and Hudson's Bay Company CEO",
+      "background": "Providence native who spent 25 years at CVS Health, rising to executive vice president and chief marketing officer, then served as CEO of Hudson's Bay Company (2018-2020). Lost the 2022 Democratic primary to Gov. McKee by about 3,300 votes. Leads McKee 42-22 in the June 2026 UNH poll and has out-raised the field, running on 'Competence. Courage. Caring.'",
+      "priorities": [
+        "Making Rhode Island more affordable",
+        "Building 20,000 homes through the Rhode Home Program",
+        "Fixing healthcare access and the primary care shortage"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Universal job training, targeted childcare and transportation investments for working families, and a $500 tax cut for anyone earning under $100,000 (GoLocalProv)",
+          "url": "https://www.golocalprov.com/politics/political-profile-helena-foulkes-candidate-for-governor"
+        },
+        "health": {
+          "label": "Would raise Medicaid reimbursement rates to be competitive with neighboring states, fund enrollment assistance amid federal cuts, and expand school-based mental health care (Progressive Charlestown)",
+          "url": "https://www.progressive-charlestown.com/2026/07/amid-trump-cuts-foulkes-unveils.html"
+        },
+        "housing": {
+          "label": "Rhode Home Program: $1B millionaire's-tax-funded revolving fund to build 20,000 homes plus a tenants' bill of rights, paired with cutting permitting red tape (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/03/02/foulkes-supports-millionaires-tax-and-would-designate-the-revenue-to-building-more-homes/"
+        },
+        "taxes": {
+          "label": "Backs an 8.99% tax on personal income above $1 million, dedicating over $1B to housing (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/03/02/foulkes-supports-millionaires-tax-and-would-designate-the-revenue-to-building-more-homes/"
+        },
+        "climate": {
+          "label": "'No False Choices' plan: increase renewable production, defend Revolution Wind against Trump administration shutdown efforts, 250 solar rooftops on public buildings in two years (campaign plan)",
+          "url": "https://helenafoulkes.com/wp-content/uploads/2026/04/No-False-Choices.pdf"
+        },
+        "education": {
+          "label": "Universal pre-K, more K-8 teaching assistants, funding formula boosts for special education, more school mental health providers; pledged a single term if test scores don't improve (GoLocalProv)",
+          "url": "https://www.golocalprov.com/politics/political-profile-helena-foulkes-candidate-for-governor"
+        },
+        "repro": {
+          "label": "Supports 'a woman's right to choose' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Helena_Foulkes"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign plans page",
+          "url": "https://helenafoulkes.com/plans/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Helena_Foulkes"
+        },
+        {
+          "label": "Rhode Island Current: housing and tax plan",
+          "url": "https://rhodeislandcurrent.com/2026/03/02/foulkes-supports-millionaires-tax-and-would-designate-the-revenue-to-building-more-homes/"
+        },
+        {
+          "label": "Wikipedia: Helena Foulkes",
+          "url": "https://en.wikipedia.org/wiki/Helena_Foulkes"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-guckian",
+      "name": "Aaron Guckian",
+      "party": "Republican",
+      "office": "governor",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 49,
+      "home": "East Greenwich, RI",
+      "now": "Former executive director of the Rhode Island Dental Association",
+      "background": "Former Rhode Island Dental Association executive director, Rhode Island Foundation fundraiser, and special assistant to Gov. Don Carcieri; earlier career as an opera singer and public school music teacher. The 2022 Republican nominee for lieutenant governor, losing to Sabina Matos by eight points. Holds the state GOP endorsement for governor and pitches centrism, but trailed Elaine Pelino in the June UNH primary poll.",
+      "priorities": [
+        "Making Rhode Island affordable",
+        "Cutting state spending 10% via the 'Works Smarter' plan",
+        "Addiction treatment and mental health care"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 1,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Wants 'a Rhode Island where families can afford to live and work' by reining in spending and cutting 'burdensome taxes and fees on small businesses and residents' (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        "housing": {
+          "label": "Supports 'reducing local permits and red tape' to get affordable housing built, but opposes state mandates on towns (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        "taxes": {
+          "label": "Says residents are 'taxed out': Works Smarter plan directs savings, including nearly $600M in outside consultant costs, toward tax and fee reductions (Ocean State Media)",
+          "url": "https://www.oceanstatemedia.org/politics/gop-candidate-for-governor-aaron-guckian-on-state-spending-education-and-the-path-to-becoming-governor"
+        },
+        "repro": {
+          "label": "Would 'not reverse the protections already enshrined in state law' on abortion (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Rhode Island Current: campaign launch profile",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        {
+          "label": "Ocean State Media interview",
+          "url": "https://www.oceanstatemedia.org/politics/gop-candidate-for-governor-aaron-guckian-on-state-spending-education-and-the-path-to-becoming-governor"
+        },
+        {
+          "label": "NBC 10 GOP primary debate",
+          "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-pelino",
+      "name": "Elaine Pelino",
+      "party": "Republican",
+      "office": "governor",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "now": "Republican candidate for governor; former actress and model",
+      "background": "Former actress and model running as a self-described '100% MAGA' Republican who says 'I believe in our president.' Led party-endorsed Aaron Guckian by roughly 23 points in the June 2026 UNH poll of the GOP primary, though 40% of Republican voters were undecided.",
+      "priorities": [
+        "Eliminate the state sales tax",
+        "Governor's Office of Accountability to audit state spending",
+        "End Rhode Island's sanctuary policies"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would push the legislature to 'lower costs, reduce regulation' and help businesses grow (campaign site)",
+          "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
+        },
+        "immigration": {
+          "label": "Proposed ending sanctuary state status and having state police work with immigration enforcement to remove undocumented residents, especially those with criminal records (NBC 10 debate)",
+          "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
+        },
+        "taxes": {
+          "label": "Proposed eliminating Rhode Island's sales tax so residents shop locally instead of in neighboring states, paired with auditing state spending for waste (NBC 10 debate)",
+          "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
+        },
+        "education": {
+          "label": "Backs 'education reform that expands school choice' and increases access to trade and technical programs (campaign site)",
+          "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
+        },
+        "safety": {
+          "label": "Would give law enforcement resources to 'target violent and gang-related crime' (campaign site)",
+          "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign plan page",
+          "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
+        },
+        {
+          "label": "NBC 10 GOP primary debate",
+          "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
+        },
+        {
+          "label": "Rhode Island Current: UNH primary poll",
+          "url": "https://rhodeislandcurrent.com/2026/07/01/mckee-picks-up-steam-in-new-unh-poll-but-foulkes-still-democratic-front-runner/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-block",
+      "name": "Ken Block",
+      "party": "Independent",
+      "office": "governor",
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 60,
+      "home": "Barrington, RI",
+      "now": "Founder of Simpatico Software Systems",
+      "background": "Software entrepreneur who founded the data firm Simpatico Software Systems and Rhode Island's Moderate Party; ran for governor in 2010 (Moderate) and 2014 (Republican primary). Hired by the Trump campaign in 2020 to find voter fraud, found none, and wrote the 2024 book 'Disproven' about it. Running as an independent on Rhode Island's 'crisis of competence', citing the Washington Bridge failure; polled 27% in June UNH general-election matchups.",
+      "priorities": [
+        "Government competence and the Washington Bridge failure",
+        "Ending waste of tax dollars",
+        "Nonpartisan problem-solving"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "democracy": {
+          "label": "Hired by the Trump campaign to investigate 2020 voter fraud, 'found nothing substantial', and wrote 'Disproven' debunking stolen-election claims and proposing election improvements (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/04/02/ken-block-is-running-for-governor-again-this-time-as-an-independent/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Rhode Island Current: campaign announcement",
+          "url": "https://rhodeislandcurrent.com/2026/04/02/ken-block-is-running-for-governor-again-this-time-as-an-independent/"
+        },
+        {
+          "label": "Rhode Island Current: UNH poll with general matchups",
+          "url": "https://rhodeislandcurrent.com/2026/07/01/mckee-picks-up-steam-in-new-unh-poll-but-foulkes-still-democratic-front-runner/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

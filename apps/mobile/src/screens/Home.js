@@ -90,6 +90,11 @@ export function Home() {
           >
             <Text style={{ color: '#FFF9EE', fontWeight: '800', fontSize: 15 }}>Start the quiz  →</Text>
           </Pressable>
+          <Pressable onPress={() => nav.go({ name: 'ballot' })} hitSlop={6}>
+            <Text style={{ color: 'rgba(246,239,228,0.8)', fontSize: 13, marginTop: space(3), textDecorationLine: 'underline' }}>
+              Done your own research? Skip the quiz and fill out your ballot
+            </Text>
+          </Pressable>
         </DarkCard>
 
         {/* Browse + How to vote */}
@@ -100,7 +105,7 @@ export function Home() {
                 <Text style={{ color: colors.accent, fontSize: 17, fontWeight: '800' }}>☰</Text>
               </View>
               <H2 style={{ fontSize: 17, marginTop: space(2) }}>Browse candidates</H2>
-              <Body soft style={{ fontSize: 12.5 }}>Race by race, no quiz needed.</Body>
+              <Body soft style={{ fontSize: 12.5 }}>Race by race, no quiz needed. Mark your ballot as you go.</Body>
             </Card>
           </Pressable>
           <Pressable onPress={() => nav.go({ name: 'howto' })} style={{ flex: 1 }}>

@@ -1,0 +1,362 @@
+{
+  "state": "FL",
+  "note": "Hand-curated, sourced entries. Both primaries are Aug 18; frontrunners curated, not marked nominees.",
+  "races": {
+    "FL-senate": {
+      "status": "primary-pending",
+      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and Alex Vindman (D) lead their August 18 primaries by fundraising and polling, but nominees aren't final."
+    },
+    "FL-governor": {
+      "status": "primary-pending",
+      "statusNote": "Open seat (Gov. DeSantis term-limited). Rep. Byron Donalds (R, Trump-endorsed, polling 49-18) and former Rep. David Jolly (D, polling 47-4) lead their August 18 primaries, but nominees aren't final."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6FL00640",
+      "name": "Ashley Moody",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "FL",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 51,
+      "home": "Plant City, FL",
+      "now": "U.S. Senator for Florida (appointed)",
+      "background": "Appointed to Marco Rubio's Senate seat in January 2025. Florida Attorney General 2019-2025; before that a circuit judge and federal prosecutor. Endorsed by President Trump for the special election.",
+      "priorities": [
+        "Law and order; back law enforcement",
+        "Border security",
+        "Cut federal spending and inflation"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Blames inflation on the Fed and federal spending: 'We must audit the Fed!' (Fox News)",
+          "url": "https://www.foxnews.com/politics/desantis-chosen-rubio-replacement-moody-wants-tackle-inflation-spending-border-audit-fed"
+        },
+        "health": {
+          "label": "Kept Florida in suits challenging the ACA's constitutionality as AG; voted against extending ACA premium subsidies in Dec 2025 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        },
+        "immigration": {
+          "label": "'Strengthens the border, builds the wall, and removes those who entered unlawfully' (Fox News)",
+          "url": "https://www.foxnews.com/politics/desantis-chosen-rubio-replacement-moody-wants-tackle-inflation-spending-border-audit-fed"
+        },
+        "safety": {
+          "label": "'America First policies that promote law and order'; endorsed by the Florida Police Chiefs Association (campaign site)",
+          "url": "https://ashleymoody.com/"
+        },
+        "repro": {
+          "label": "As AG, petitioned the Florida Supreme Court to disqualify the Amendment 4 abortion-rights ballot measure (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        },
+        "democracy": {
+          "label": "Joined Texas v. Pennsylvania seeking to invalidate 2020 results in four states; opposed felon voting-rights restoration without payment of court fees (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Joined the Texas v. Pennsylvania suit to invalidate 2020 results; board member of the Rule of Law Defense Fund, which promoted the pre-Jan. 6 rally (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://ashleymoody.com/"
+        },
+        {
+          "label": "Wikipedia: Ashley Moody",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6FL00640/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6FL00855",
+      "name": "Alex Vindman",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "FL",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 51,
+      "home": "Florida (born Kyiv, came to the U.S. as a child refugee)",
+      "now": "Retired Army Lt. Colonel; senior fellow, Johns Hopkins SAIS",
+      "background": "Retired Army lieutenant colonel with a 21-year career including Iraq combat; National Security Council director for European affairs 2018-2020 and a key witness in the first Trump impeachment. Leads the Democratic primary field on fundraising against state Rep. Angie Nixon.",
+      "priorities": [
+        "Lower costs: insurance, housing, health care",
+        "Anti-corruption: congressional stock-trading ban",
+        "Checking presidential power"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": 0,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Cut everyday costs, middle-class tax relief, crack down on corporate price gouging (campaign agenda)",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        },
+        "health": {
+          "label": "Defend and strengthen the ACA, lower drug prices, add dental and vision to Medicare (campaign agenda)",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        },
+        "housing": {
+          "label": "Mixed: cut construction red tape AND curb corporate investor speculation; fix the insurance crisis (campaign agenda)",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        },
+        "immigration": {
+          "label": "Calls current policy 'cruel'; supports tech-driven border security plus a 'reasonable path to legal status' (candidate profile)",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/alexander-vindman/"
+        },
+        "taxes": {
+          "label": "Middle-class tax cuts; close corporate loopholes (candidate profile)",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/alexander-vindman/"
+        },
+        "climate": {
+          "label": "'All-of-the-above' energy: solar, wind, nuclear, and domestic oil and gas; market-driven production (candidate profile)",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/alexander-vindman/"
+        },
+        "education": {
+          "label": "Invest in teachers and public schools; opposes defunding public schools or dismantling the Dept. of Education (campaign agenda)",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        },
+        "repro": {
+          "label": "'I'll fight to restore her rights, and the rights of women across our state' (candidate profile)",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/alexander-vindman/"
+        },
+        "democracy": {
+          "label": "Ban congressional stock trading with jail for violations, repeal Citizens United, refuse corporate PAC money (campaign agenda)",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign: Florida First agenda",
+          "url": "https://alexvindman.com/florida-first-agenda/"
+        },
+        {
+          "label": "Wikipedia: Alexander Vindman",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Vindman"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6FL00855/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fl-gov-donalds",
+      "name": "Byron Donalds",
+      "party": "Republican",
+      "office": "governor",
+      "state": "FL",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 47,
+      "home": "Naples, FL",
+      "now": "U.S. Representative (FL-19)",
+      "background": "U.S. Representative for southwest Florida since 2021; before Congress, a finance and banking career and two terms in the Florida House, where he authored the Hope Scholarship school-choice program. Brooklyn-born, raised by a single mother. Endorsed by President Trump ('RUN, BYRON, RUN!').",
+      "priorities": [
+        "Property insurance and housing affordability",
+        "Zero-tolerance immigration enforcement",
+        "Implement the Trump agenda in Florida"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Solve the property insurance crisis, lower housing costs, and make Florida affordable again' via cat-fund and tort reforms (campaign site)",
+          "url": "https://byrondonalds.com/issues/"
+        },
+        "health": {
+          "label": "Opposes the ACA ('a ruse... to seize control'); favors cross-state insurance sales and tax incentives (House issues page)",
+          "url": "https://donalds.house.gov/issues/issue/?IssueID=74"
+        },
+        "housing": {
+          "label": "Cut regulatory red tape to lower the cost of new homes and apartments (News4Jax interview)",
+          "url": "https://www.news4jax.com/news/politics/2026/04/23/affordability-emerges-as-central-issue-in-florida-governors-race-as-candidates-outline-competing-approaches/"
+        },
+        "immigration": {
+          "label": "'Secure the border... end taxpayer handouts to illegals'; ban sanctuary policies statewide (campaign site)",
+          "url": "https://byrondonalds.com/issues/"
+        },
+        "taxes": {
+          "label": "'Lower taxes, less regulation'; backs eliminating property taxes for homesteaded residents (News4Jax interview)",
+          "url": "https://www.news4jax.com/news/politics/2026/04/23/affordability-emerges-as-central-issue-in-florida-governors-race-as-candidates-outline-competing-approaches/"
+        },
+        "climate": {
+          "label": "Mixed: Everglades restoration, water quality, and beach protection; opposed the Green New Deal, supports nuclear power (campaign site)",
+          "url": "https://byrondonalds.com/issues/"
+        },
+        "education": {
+          "label": "School-choice champion: authored Florida's Hope Scholarship; against 'radical woke ideology' in schools (campaign site)",
+          "url": "https://byrondonalds.com/issues/"
+        },
+        "safety": {
+          "label": "'Backing our law enforcement, enforcing the law'; keep Florida a 'law-and-order state' (Florida's Voice roundtable)",
+          "url": "https://flvoicenews.com/byron-donalds-outlines-law-and-order-agenda-at-melbourne-public-safety-roundtable/"
+        },
+        "repro": {
+          "label": "Self-described pro-life; opposed Amendment 4, the 2024 abortion-rights ballot measure (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+        },
+        "democracy": {
+          "label": "Voted to object to certifying Arizona and Pennsylvania 2020 electors; said in 2023 Biden was 'not the legitimate president' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+        }
+      },
+      "controversies": [
+        {
+          "label": "June 2024 remarks that Black families were 'together' under Jim Crow drew wide criticism; 2024 Campaign Legal Center complaint over ~$1.6M in undisclosed stock trades (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://byrondonalds.com/issues/"
+        },
+        {
+          "label": "Wikipedia: Byron Donalds",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+        },
+        {
+          "label": "Trump endorsement (The Hill)",
+          "url": "https://thehill.com/homenews/campaign/5156576-trump-endorses-donalds-in-potential-bid-for-florida-governor/amp/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fl-gov-jolly",
+      "name": "David Jolly",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "FL",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 53,
+      "home": "Dunedin, FL",
+      "now": "Former U.S. Representative (FL-13)",
+      "background": "Fifth-generation Floridian and former Republican congressman (2014-2017) who left the GOP in 2018 and registered as a Democrat in 2025. Attorney and former MSNBC political analyst. Leads the Democratic primary field in polling.",
+      "priorities": [
+        "Fix the property-insurance crisis with a state catastrophic fund",
+        "Invest in public schools; reform vouchers",
+        "Codify abortion rights"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "State catastrophic fund to pull hurricane risk out of private insurance; cap investor-owned utility profits around 10% (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "health": {
+          "label": "Expand Medicaid; supports the ACA; protect access despite federal cuts (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "housing": {
+          "label": "Insurance fix plus no-interest condo-repair loans; 'reducing costs for homeowners, renters, and retirees' (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "immigration": {
+          "label": "'Florida should embrace our immigrant community and celebrate their contributions' (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "climate": {
+          "label": "Accepts climate science; resilience investment; require more clean energy in public utilities (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "education": {
+          "label": "Dramatically increase public-school investment and teacher pay; means-test and cap vouchers (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "safety": {
+          "label": "Mixed: hold lawbreakers accountable while correcting racial disparities; local control of community policing (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "repro": {
+          "label": "'Decisions... between women and their doctors, not politicians'; codify the Roe/Casey framework (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        },
+        "democracy": {
+          "label": "Oppose legislative preemption of voter initiatives; enforce constitutional amendments passed at 50%+ (campaign site)",
+          "url": "https://davidjolly.com/issues/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Attacked by primary rivals over his past GOP 'life begins at conception' record; says his position evolved (CBS Miami)",
+          "url": "https://www.cbsnews.com/miami/news/democratic-candidate-governor-david-jolly-abortion-rights-alligator-alcatraz"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://davidjolly.com/issues/"
+        },
+        {
+          "label": "Wikipedia: David Jolly",
+          "url": "https://en.wikipedia.org/wiki/David_Jolly"
+        },
+        {
+          "label": "Primary polling (Florida's Voice)",
+          "url": "https://flvoicenews.com/poll-donalds-leads-florida-gop-primary-by-31-points-holds-edge-over-jolly/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

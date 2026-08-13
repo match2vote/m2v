@@ -9,6 +9,22 @@
         "fec-S6IA00298"
       ],
       "statusNote": "Open seat (Sen. Ernst retiring): Rep. Ashley Hinson (R) faces state Rep. Josh Turek (D), both nominated June 2."
+    },
+    "IA-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8IA02043",
+        "fec-H2IA02111"
+      ],
+      "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running, positions not researched yet."
+    },
+    "IA-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2IA03119",
+        "fec-H6IA03268"
+      ],
+      "statusNote": "Rep. Zach Nunn (R) faces state Sen. Sarah Trone Garriott (D), who won the June 2, 2026 Democratic primary in a district decided by fewer than four points in each of the last two elections. We know who's running, positions not researched yet."
     }
   },
   "candidates": [
@@ -160,6 +176,108 @@
       "nullNotes": {
         "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented; legislative-record search also empty"
       }
+    },
+    {
+      "id": "fec-H8IA02043",
+      "name": "Mariannette Miller-Meeks",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "now": "U.S. House of Representatives (IA-01)",
+      "background": "Mariannette Miller-Meeks is the incumbent U.S. Representative for Iowa's 1st District, an ophthalmologist and 24-year U.S. Army veteran who also served as director of the Iowa Department of Public Health and as a state senator. In Congress since 2021 (2nd District 2021-2023, 1st District since 2023), she won the June 2, 2026 Republican primary with 71.6% over David Pautsch with President Trump's endorsement.",
+      "sources": [
+        {
+          "label": "Iowa Capital Dispatch: primary result",
+          "url": "https://iowacapitaldispatch.com/2026/06/02/iowa-1st-district-bohannan-miller-meeks-to-face-off-in-november-ap-projects/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mariannette_Miller-Meeks"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H2IA02111",
+      "name": "Christina Bohannan",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Law professor, University of Iowa",
+      "background": "Christina Bohannan is a University of Iowa law professor and former Iowa House member who worked as an environmental engineer before her legal career. She lost this seat to Miller-Meeks by roughly 800 votes in 2024 and won the June 2, 2026 Democratic primary with 81.5% over Travis Terrell for the rematch.",
+      "sources": [
+        {
+          "label": "Iowa Capital Dispatch: primary result",
+          "url": "https://iowacapitaldispatch.com/2026/06/02/iowa-1st-district-bohannan-miller-meeks-to-face-off-in-november-ap-projects/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Christina_Bohannan"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H2IA03119",
+      "name": "Zach Nunn",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "now": "U.S. House of Representatives (IA-03)",
+      "background": "Zach Nunn is the incumbent U.S. Representative for Iowa's 3rd District, a U.S. Air Force veteran and former cybersecurity official who served on the White House National Security Council and in the Office of the Director of National Intelligence. A former state legislator, he has held the seat since 2023 after winning races decided by fewer than four points.",
+      "sources": [
+        {
+          "label": "DNC statement on IA-03 primary result",
+          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Zach_Nunn"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H6IA03268",
+      "name": "Sarah Trone Garriott",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Dallas County, IA",
+      "now": "Iowa State Senator (District 14)",
+      "background": "Sarah Trone Garriott is an Iowa state senator and ordained Lutheran minister who worked as a hospital chaplain and interfaith coordinator with the Des Moines Area Religious Council. She flipped a Republican-held state Senate seat in 2020, defeated the Republican state Senate president in 2022, and won the June 2, 2026 Democratic primary to challenge Nunn.",
+      "priorities": [
+        "Protect public education funding",
+        "Safeguard reproductive rights",
+        "Fair taxes and affordable childcare"
+      ],
+      "sources": [
+        {
+          "label": "DNC statement on IA-03 primary result",
+          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Sarah_Trone_Garriott"
+        }
+      ],
+      "curatedAt": "2026-08-13"
     }
   ]
 }

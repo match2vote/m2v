@@ -5,6 +5,14 @@
     "WI-governor": {
       "status": "general",
       "statusNote": "Open seat: Milwaukee County Executive David Crowley (D) faces U.S. Rep. Tom Tiffany (R). Both won their Aug 11 primaries."
+    },
+    "WI-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H0WI03175",
+        "fec-H4WI03169"
+      ],
+      "statusNote": "Western Wisconsin rematch: Rep. Derrick Van Orden (R) faces Rebecca Cooke (D), who won the Aug. 11, 2026 primary with 60.4% over Emily Berge after narrowly losing to Van Orden in 2024. We know who's running, positions not researched yet."
     }
   },
   "candidates": [
@@ -199,6 +207,56 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Tom_Tiffany"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H0WI03175",
+      "name": "Derrick Van Orden",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "WI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "now": "U.S. House of Representatives (WI-03)",
+      "background": "Derrick Van Orden is the incumbent U.S. Representative for Wisconsin's 3rd District and a retired Navy SEAL, described as a staunch supporter of President Trump. He won the seat in 2022 and held off Rebecca Cooke in 2024; the 2026 rematch is one of the Democrats' top House targets.",
+      "sources": [
+        {
+          "label": "Wisconsin Examiner: primary result",
+          "url": "https://wisconsinexaminer.com/2026/08/11/rebecca-cooke-wins-3rd-cd-primary-to-set-up-rematch-against-derrick-van-orden/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H4WI03169",
+      "name": "Rebecca Cooke",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "WI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Eau Claire, WI",
+      "now": "Small business owner and nonprofit founder",
+      "background": "Rebecca Cooke was raised on an Eau Claire dairy farm, founded the Red Letter Grant nonprofit that funds women-owned startups, and still waits tables part time. Appointed by Gov. Evers to the Wisconsin Economic Development Corporation board, she narrowly lost to Van Orden in 2024 and won the August 11, 2026 primary with 60.4% over Emily Berge, endorsed by both Blue Dog Democrats and Bernie Sanders.",
+      "priorities": [
+        "Health care access and affordability",
+        "An economy built for working families",
+        "Protect reproductive freedom"
+      ],
+      "sources": [
+        {
+          "label": "Wisconsin Examiner: primary result",
+          "url": "https://wisconsinexaminer.com/2026/08/11/rebecca-cooke-wins-3rd-cd-primary-to-set-up-rematch-against-derrick-van-orden/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Rebecca_Cooke"
         }
       ],
       "curatedAt": "2026-08-13"

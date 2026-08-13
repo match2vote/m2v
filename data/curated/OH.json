@@ -13,6 +13,14 @@
     "OH-governor": {
       "status": "general",
       "statusNote": "Open seat (Gov. DeWine term-limited): Vivek Ramaswamy (R) faces Dr. Amy Acton (D)."
+    },
+    "OH-house-9": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2OH09031",
+        "fec-H4OH09169"
+      ],
+      "statusNote": "Rep. Marcy Kaptur (D), the longest-serving woman in congressional history, faces former state Rep. Derek Merrin (R) in a 2024 rematch in a Toledo-area district Trump carried by 11 points. Merrin won the May 5, 2026 GOP primary with 44.1%. We know who's running, positions not researched yet."
     }
   },
   "candidates": [
@@ -312,6 +320,66 @@
         "housing": "checked actonforgovernor.com issues hub and affordability agenda (no housing plank) and Ballotpedia (2026 survey not completed), nothing documented",
         "taxes": "checked affordability agenda: proposes targeted family credits (EITC, child credit) which do not fit the axis; no corporate tax raise or across-the-board cut documented; roll-call/record search also empty"
       }
+    },
+    {
+      "id": "fec-H2OH09031",
+      "name": "Marcy Kaptur",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "9",
+      "state": "OH",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "home": "Toledo, OH",
+      "now": "U.S. House of Representatives (OH-09)",
+      "background": "Marcy Kaptur has represented Ohio's Toledo-based 9th District since 1983 and is the longest-serving woman in congressional history. A former urban planner and Carter administration urban policy adviser, she narrowly defeated Derek Merrin in 2024 and was unopposed in the 2026 Democratic primary.",
+      "priorities": [
+        "Economic and retirement security",
+        "Fair trade and manufacturing",
+        "Great Lakes restoration"
+      ],
+      "sources": [
+        {
+          "label": "Ohio Capital Journal: primary result",
+          "url": "https://ohiocapitaljournal.com/2026/05/05/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-congressional-primary-races/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Marcy_Kaptur"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H4OH09169",
+      "name": "Derek Merrin",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "9",
+      "state": "OH",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Monclova Township, OH",
+      "now": "Former Ohio state representative",
+      "background": "Derek Merrin is a former Ohio state representative (2016-2025) who earlier served as mayor and councilman of Waterville and worked as a realtor and business owner. The 2024 GOP nominee who narrowly lost to Kaptur, he won the May 5, 2026 primary with 44.1% over Josh Williams and three others.",
+      "priorities": [
+        "Balanced budget and lower taxes",
+        "Border security",
+        "Protect Social Security and Medicare"
+      ],
+      "sources": [
+        {
+          "label": "Ohio Capital Journal: primary result",
+          "url": "https://ohiocapitaljournal.com/2026/05/05/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-congressional-primary-races/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Derek_Merrin"
+        }
+      ],
+      "curatedAt": "2026-08-13"
     }
   ]
 }

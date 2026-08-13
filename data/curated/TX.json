@@ -13,6 +13,14 @@
     "TX-governor": {
       "status": "general",
       "statusNote": "Nominees set in the March 3 primary: Gov. Greg Abbott (R) and state Rep. Gina Hinojosa (D)."
+    },
+    "TX-house-34": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6TX15162",
+        "fec-H6TX34080"
+      ],
+      "statusNote": "South Texas toss-up: Rep. Vicente Gonzalez (D) faces former federal prosecutor Eric Flores (R), who beat ex-Rep. Mayra Flores 56.6% to 23.7% in the March 3, 2026 primary, avoiding a runoff. We know who's running, positions not researched yet."
     }
   },
   "candidates": [
@@ -377,6 +385,59 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {}
+    },
+    {
+      "id": "fec-H6TX15162",
+      "name": "Vicente Gonzalez",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "34",
+      "state": "TX",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "now": "U.S. House of Representatives (TX-34)",
+      "background": "Vicente Gonzalez is the incumbent U.S. Representative for Texas's 34th District, an attorney who represented the neighboring 15th District from 2017 to 2023 before winning the 34th. He won the March 3, 2026 Democratic primary with 62.7% over Etienne Rosas.",
+      "priorities": [
+        "Protect Medicare and Social Security",
+        "Expand veterans' health care",
+        "Diversify the South Texas economy"
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia: TX-34 Democratic primary results",
+          "url": "https://ballotpedia.org/Texas'_34th_Congressional_District_election,_2026_(March_3_Democratic_primary)"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Vicente_Gonzalez"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H6TX34080",
+      "name": "Eric Flores",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "34",
+      "state": "TX",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Attorney",
+      "background": "Eric Flores is an attorney and former assistant U.S. Attorney for the Southern District of Texas who led prosecutions of cartel-connected and human-trafficking operations, with service in the U.S. Army and Texas Army National Guard. He won the March 3, 2026 Republican primary outright with 56.6%, defeating former U.S. Rep. Mayra Flores (23.7%) and six others to avoid a runoff.",
+      "sources": [
+        {
+          "label": "Ballotpedia: TX-34 Republican primary results",
+          "url": "https://ballotpedia.org/Texas'_34th_Congressional_District_election,_2026_(March_3_Republican_primary)"
+        },
+        {
+          "label": "Spectrum News: primary result",
+          "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/03/02/republican-primary-results-for-texas--34th-congressional-district"
+        }
+      ],
+      "curatedAt": "2026-08-13"
     }
   ]
 }

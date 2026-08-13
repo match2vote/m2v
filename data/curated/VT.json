@@ -33,10 +33,10 @@
         "immigration": -1,
         "taxes": 1,
         "climate": 1,
-        "education": null,
-        "safety": null,
+        "education": 0,
+        "safety": 1,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -59,6 +59,18 @@
           "label": "Vetoed the S.5 clean heat standard: 'The risk to Vermonters and our economy throughout the state is too great' (VTDigger)",
           "url": "https://vtdigger.org/2023/05/04/phil-scott-vetoes-bill-that-would-set-up-a-clean-heat-standard/"
         },
+        "education": {
+          "label": "Mixed: his 2025 education plan proposed a statewide 'school choice school' lottery while ending 'the flow of public dollars to private schools outside of the state' and keeping the moratorium on new independent schools (Vermont Public)",
+          "url": "https://www.vermontpublic.org/local-news/2025-02-11/democrats-throw-cold-water-on-scotts-school-choice-proposal"
+        },
+        "safety": {
+          "label": "Vetoed 2022 bills creating a drug decriminalization advisory board (H.505) and expanding criminal record expungement (H.534), citing 'often-disastrous health and safety impacts' and law enforcement access to records (Office of Governor Phil Scott)",
+          "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-may-19-2022"
+        },
+        "democracy": {
+          "label": "Signed S.15 making universal mail-in voting permanent for general elections: 'making sure voting is easy and accessible, and increasing voter participation is important'; urged lawmakers to extend it to primaries and local elections (VTDigger)",
+          "url": "https://vtdigger.org/2021/06/07/scott-signs-bill-expanding-vote-by-mail-in-general-elections/"
+        },
         "repro": {
           "label": "Signed the 2019 abortion-rights law, among the most wide-ranging in the U.S., and the voter-approved constitutional amendment protecting abortion rights (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
@@ -80,10 +92,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "health": "checked Wikipedia profile and VTDigger reelection announcement; no documented stance on public versus private role in health coverage",
-        "education": "signed a 2025 education reform bill and pushes district consolidation, but that is a structural cost measure, not a public-investment versus school-choice stance; checked Wikipedia and VTDigger announcement",
-        "safety": "checked Wikipedia profile and campaign announcement coverage; gun bills he signed are excluded from this axis by policy and no other criminal-justice stance was documented",
-        "democracy": "checked Wikipedia profile and VTDigger announcement; Vermont's mail-ballot law and any voting-access stance were not documented in pages fetched"
+        "health": "checked Wikipedia profile and VTDigger reelection announcement; no documented stance on public versus private role in health coverage; record search also empty (his June 2026 S.190 veto objected to that bill's limited scope, not to a public or private coverage role)"
       }
     },
     {
@@ -95,9 +104,9 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
+      "age": 38,
       "home": "Burlington, VT",
-      "now": "Economist; co-founder of the Wellbeing Economy Alliance of Vermont",
+      "now": "Economist; economics and policy lead at the Wellbeing Economy Alliance",
       "background": "Economist and first-time candidate who has advised governments in the U.S. and abroad on economic policy; grew up in rural Vermont. A political unknown when she entered the race in March, she ran as the anti-establishment choice and won the Aug 11 Democratic primary with about 49% to Aly Richards's 46%.",
       "priorities": [
         "Universal publicly funded primary and preventive care",
@@ -112,7 +121,7 @@
         "taxes": -2,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": -1,
         "democracy": null
       },
@@ -130,7 +139,7 @@
           "url": "https://www.janooforvt.com/"
         },
         "taxes": {
-          "label": "2% income surcharge above $250,000 and 8% above $500,000, plus taxes on digital advertising and private-equity-owned property (Vermont Public)",
+          "label": "2% income surcharge above $250,000 and 8% above $500,000, plus higher taxes on second homes, short-term rentals and private-equity-owned properties (Vermont Public)",
           "url": "https://www.vermontpublic.org/local-news/2026-08-13/vermont-democrats-rally-behind-amanda-janoo-gop-sees-opportunity"
         },
         "climate": {
@@ -140,6 +149,10 @@
         "education": {
           "label": "Community schools as 'shared civic infrastructure' with healthcare and childcare inside; protects rural schools rather than consolidating them (campaign platform)",
           "url": "https://www.janooforvt.com/platform-page/"
+        },
+        "safety": {
+          "label": "'The safest communities are the ones where people know their neighbors and people have access to their basic needs'; wants to focus on 'the root of that repeat offending' (WCAX debate)",
+          "url": "https://www.wcax.com/2026/07/28/watch-live-democrats-vermont-governor-debate/"
         },
         "repro": {
           "label": "Platform commits to defending constitutional freedoms including reproductive freedom (campaign platform)",
@@ -162,9 +175,8 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "checked campaign platform and Vermont Public coverage; her affordability frame is 'keeping wealth circulating in our communities' via local business investment, which fits neither direct intervention nor deregulation on this axis",
-        "safety": "checked campaign platform and campaign home page, no criminal-justice or policing stance documented",
-        "democracy": "platform proposes citizens' assemblies and participatory budgeting, which do not map to the voting-access versus voter-ID axis; no voting-rules stance documented on pages fetched"
+        "cost": "checked campaign platform and Vermont Public coverage; her affordability frame is 'keeping wealth circulating in our communities' via local business investment, which fits neither direct intervention nor deregulation on this axis; record search also empty (debate coverage repeats the keep-dollars-local frame, no price or wage mechanism)",
+        "democracy": "platform proposes citizens' assemblies and participatory budgeting, which do not map to the voting-access versus voter-ID axis; no voting-rules stance documented on pages fetched; record search also empty"
       }
     }
   ]

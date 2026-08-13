@@ -27,18 +27,26 @@
         "Keeping communities safe"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": 2,
         "safety": 1,
         "repro": 2,
         "democracy": 1
       },
       "positionSources": {
+        "cost": {
+          "label": "Voted against waiving the point of order that stripped the $35 insulin copay cap for private insurance from the Inflation Reduction Act, Senate roll call 314 of Aug 7 2022, 57-43 (U.S. Senate roll call)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00314.htm"
+        },
+        "climate": {
+          "label": "Voted no on passage of the Inflation Reduction Act and its clean energy investments, Senate roll call 325 of Aug 7 2022, 50-50 with the VP breaking the tie (U.S. Senate roll call)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.htm"
+        },
         "health": {
           "label": "'Tennesseans know the false promises of a government-controlled system'; wants 'a patient-centered system where families and doctors can make their decisions' (Ballotpedia)",
           "url": "https://ballotpedia.org/Marsha_Blackburn"
@@ -56,7 +64,7 @@
           "url": "https://ballotpedia.org/Marsha_Blackburn"
         },
         "safety": {
-          "label": "Law enforcement 'don't need the federal government to tell them how to do their jobs'; pledges resources to help them keep Tennesseans safe (Ballotpedia)",
+          "label": "Law enforcement 'don't need the federal government to tell them how to do their jobs' (Ballotpedia)",
           "url": "https://ballotpedia.org/Marsha_Blackburn"
         },
         "repro": {
@@ -84,9 +92,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "checked Ballotpedia and campaign issues page; 'cutting taxes to bolster our economy' is scored on the taxes axis and no separate price or cost-of-living mechanism is documented",
-        "housing": "checked Ballotpedia and the campaign issues list; nothing documented",
-        "climate": "checked Ballotpedia and the campaign issues list; only a 2012-era statement supporting Clean Water Act goals is documented, which does not fit the clean-energy versus expand-all-sources axis"
+        "housing": "checked Ballotpedia and the campaign issues list; nothing documented; record search also empty (she was the sole Not Voting on H.R. 6644, the Senate housing supply bill, March 2026, which documents no stance)"
       }
     },
     {
@@ -115,7 +121,7 @@
         "taxes": -1,
         "climate": -1,
         "education": -2,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": null
       },
@@ -148,6 +154,10 @@
           "label": "'Fully fund K-12 public education, not siphon dollars into unaccountable voucher schemes'; raise teacher pay (campaign policy agenda)",
           "url": "https://greenforgovernor.com/policy/"
         },
+        "safety": {
+          "label": "Sponsored a council resolution against National Guard deployment to Memphis: 'We need resources to support our schools. We need resources to support our infrastructure', urging mental health and community funding over military presence (Action News 5)",
+          "url": "https://www.actionnews5.com/2025/09/19/we-say-no-memphis-city-council-introduces-resolution-stop-national-guard-republicans-fire-back/"
+        },
         "repro": {
           "label": "'Repeal Tennessee's near-total abortion ban' and restore access including contraception and emergency care (campaign policy agenda)",
           "url": "https://greenforgovernor.com/policy/"
@@ -173,8 +183,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "safety": "her documented public-safety items (universal background checks, red flag laws) are gun measures, which are excluded from this axis by policy; no non-gun policing or sentencing stance found on campaign policy agenda, Ballotpedia, or WSMV coverage",
-        "democracy": "campaign mentions 'greater government transparency' but no voting-access or election-rules stance documented on campaign policy agenda, Ballotpedia, or news coverage fetched"
+        "democracy": "campaign mentions 'greater government transparency' but no voting-access or election-rules stance documented on campaign policy agenda, Ballotpedia, or news coverage fetched; record search also empty (her criticism of Blackburn over redistricting is a maps dispute, not a voting-rules stance, and no council election action was found)"
       }
     }
   ]

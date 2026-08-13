@@ -20,7 +20,7 @@
       "age": 62,
       "home": "Tulsa, OK",
       "now": "Attorney General of Oklahoma (since 2023)",
-      "background": "Oklahoma Attorney General since 2023; former Air Force F-15 pilot who flew in the Gulf War's first combat mission, Osage County rancher, banking lawyer, and principal owner of Blue Sky Bank. Led the June 16 primary with just over 25% and faces Mike Mazzei in the Aug 25 Republican runoff.",
+      "background": "Oklahoma Attorney General since 2023; former Air Force F-15 pilot who flew 32 combat missions in the Gulf War, Osage County rancher, banking lawyer, and principal owner of Blue Sky Bank. Led the June 16 primary with just over 25% and faces Mike Mazzei in the Aug 25 Republican runoff.",
       "priorities": [
         "Lower costs, including insurance rates",
         "Crack down on cartels and support law enforcement",
@@ -35,8 +35,8 @@
         "climate": 1,
         "education": -1,
         "safety": 2,
-        "repro": null,
-        "democracy": null
+        "repro": 1,
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -52,16 +52,24 @@
           "url": "https://drummondok.com/issues/"
         },
         "climate": {
-          "label": "Joined Republican AGs opposing the lesser prairie-chicken endangered listing and Clean Water Act changes as 'burdensome regulations' (Wikipedia)",
+          "label": "Joined Republican AGs opposing the lesser prairie-chicken endangered listing and Biden administration changes to the 'waters of the United States' rule, and sued the EPA over ozone regulations (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Gentner_Drummond"
         },
         "education": {
-          "label": "Education plan invests in public schools: reading by 3rd grade, CareerTech expansion, incentivizing teachers; as AG he blocked the St. Isidore religious charter school (campaign issues)",
+          "label": "Education plan invests in public schools: reading proficiency by 3rd grade, CareerTech and apprenticeship expansion, incentivizing teachers (campaign issues)",
           "url": "https://drummondok.com/issues/"
         },
         "safety": {
-          "label": "'Crack down on cartel activity and drug trafficking' and 'support and strengthen local law enforcement'; created a state Top 10 Most Wanted list (campaign issues)",
+          "label": "'Crack down on cartel activity and drug trafficking' and 'support and strengthen local law enforcement' (campaign issues)",
           "url": "https://drummondok.com/issues/"
+        },
+        "repro": {
+          "label": "As AG sued the Biden administration for suspending Oklahoma's Title X grant after the state declined to provide abortion referrals, defending the state's pro-life policies (Oklahoma AG press release)",
+          "url": "https://oklahoma.gov/oag/news/newsroom/2023/november/drummond-sues-biden-administration-over-title-x-abortion-overrea.html"
+        },
+        "democracy": {
+          "label": "In a DOJ voter-data settlement touted Oklahoma's proof-of-identity requirement, absentee ballot notarization, and ballot harvesting ban, pledging cooperation 'to eliminate voter fraud' (Oklahoma AG press release)",
+          "url": "https://oklahoma.gov/oag/news/newsroom/2026/march/drummond-enters-settlement-with-doj-to-safeguard-voter-registration-data.html"
         }
       },
       "sources": [
@@ -84,10 +92,8 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "health": "campaign healthcare plank is cost-focused (price transparency, rural hospital partnerships, holding insurers accountable) with no stance on public versus private coverage role; Ballotpedia and Wikipedia also empty on this axis",
-        "housing": "checked campaign issues page, Ballotpedia, Wikipedia, News9 candidate guide; property tax relief is his only housing-adjacent item and it does not fit the axis",
-        "repro": "checked campaign issues page, Ballotpedia, Wikipedia, and News9 candidate guide; no abortion stance documented (Ballotpedia records only his opposition to marijuana legalization SQ 820)",
-        "democracy": "checked campaign issues page, Ballotpedia, Wikipedia, News9 candidate guide; no election-law or voting stance documented"
+        "health": "campaign healthcare plank is cost-focused (price transparency, rural hospital partnerships, holding insurers accountable) with no stance on public versus private coverage role; Ballotpedia and Wikipedia also empty on this axis; record search also empty (his AG letter calling Stitt's Medicaid managed care 'an abject, systemic failure' is an operational critique that also disparages Obamacare, not a coverage-role stance)",
+        "housing": "checked campaign issues page, Ballotpedia, Wikipedia, News9 candidate guide; property tax relief is his only housing-adjacent item and it does not fit the axis; record search also empty (his OHFA letter concerns appointee removal, not housing policy)"
       }
     },
     {
@@ -166,10 +172,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "health": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no healthcare stance documented",
-        "housing": "his 'no Oklahoman should be taxed out of their home' plank is senior and veteran property tax relief, not a build-versus-protect housing stance; checked campaign site, KOSU, Ballotpedia",
-        "climate": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no energy or climate stance documented",
-        "democracy": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no election-law stance documented"
+        "health": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no healthcare stance documented; record search also empty (no roll calls from his 2004-2016 Senate service surfaced in fetched sources)",
+        "housing": "his 'no Oklahoman should be taxed out of their home' plank is senior and veteran property tax relief, not a build-versus-protect housing stance; checked campaign site, KOSU, Ballotpedia; record search also empty",
+        "climate": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no energy or climate stance documented; record search also empty (Wikipedia and Ballotpedia list no energy votes from his Senate service)",
+        "democracy": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no election-law stance documented; record search also empty (his individual vote on Oklahoma's 2009 voter ID referral could not be documented in any fetched source)"
       }
     },
     {
@@ -194,7 +200,7 @@
         "cost": null,
         "health": -2,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -2,
@@ -207,8 +213,12 @@
           "label": "Backs Oklahoma's voter-approved Medicaid expansion covering roughly 200,000 working Oklahomans; would cut drug and premium costs (KOSU)",
           "url": "https://www.kosu.org/cyndi-munson-oklahoma-2026-gubernatorial-election"
         },
+        "immigration": {
+          "label": "As House minority leader opposed HB 4156 making unlawful presence a state crime, calling it 'extremist legislation' offering 'false hope and false solutions' (Oklahoma Voice)",
+          "url": "https://oklahomavoice.com/2024/04/18/controversial-oklahoma-immigration-bill-heads-to-the-senate/"
+        },
         "education": {
-          "label": "Bring public school funding over the regional average, raise educator pay, and eliminate the private-school voucher tax credit (campaign priorities)",
+          "label": "Bring public school funding over the regional average, raise pay for public school teachers and staff, and end the voucher program sending public dollars to private schools (campaign priorities)",
           "url": "https://www.cyndimunson.com/Priorities"
         },
         "safety": {
@@ -236,12 +246,11 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "her affordability record is the grocery-tax repeal she championed plus unspecified healthcare cost reductions; targeted tax relief without an intervene-or-deregulate mechanism does not fit this axis (checked campaign priorities, KOSU profile, News9 guide)",
-        "housing": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented",
-        "immigration": "News9 notes immigration is not a campaign focus; no stance documented on campaign priorities page or KOSU profile",
-        "taxes": "supports 'targeted tax relief for working families' and expanded credits rather than broad cuts or raising taxes on corporations; per calibration, targeted household tax cuts do not fit the axis (News9, campaign priorities)",
-        "climate": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented",
-        "democracy": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented"
+        "cost": "her affordability record is the grocery-tax repeal she championed plus unspecified healthcare cost reductions; targeted tax relief without an intervene-or-deregulate mechanism does not fit this axis (checked campaign priorities, KOSU profile, News9 guide); record search also empty",
+        "housing": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty (her 2026 State of the State response agrees 'we need better access to affordable housing' but states no build-or-protect mechanism)",
+        "taxes": "supports 'targeted tax relief for working families' and expanded credits rather than broad cuts or raising taxes on corporations; per calibration, targeted household tax cuts do not fit the axis (News9, campaign priorities); record search also empty (she debated against the 2025 income tax cut while calling for targeted relief protecting the revenue base, still off-axis)",
+        "climate": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty",
+        "democracy": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty (her State of the State response comment on ballot measures is incidental)"
       }
     }
   ]

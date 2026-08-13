@@ -99,13 +99,18 @@ export function Home() {
 
         {/* Browse + How to vote */}
         <View style={{ flexDirection: 'row', gap: 10 }}>
-          <Pressable onPress={() => nav.go({ name: 'races' })} style={{ flex: 1 }}>
+          <Pressable
+            onPress={() => nav.go(stateCode ? { name: 'races', state: stateCode } : { name: 'races' })}
+            style={{ flex: 1 }}
+          >
             <Card style={{ minHeight: 128 }}>
               <View style={{ width: 36, height: 36, borderRadius: 10, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}>
                 <Text style={{ color: colors.accent, fontSize: 17, fontWeight: '800' }}>☰</Text>
               </View>
               <H2 style={{ fontSize: 17, marginTop: space(2) }}>Browse candidates</H2>
-              <Body soft style={{ fontSize: 12.5 }}>Race by race, no quiz needed. Mark your ballot as you go.</Body>
+              <Body soft style={{ fontSize: 12.5 }}>
+                {stateCode ? `The races on your ${STATE_NAMES[stateCode] || stateCode} ballot, no quiz needed.` : 'Race by race, no quiz needed.'}
+              </Body>
             </Card>
           </Pressable>
           <Pressable onPress={() => nav.go({ name: 'howto' })} style={{ flex: 1 }}>

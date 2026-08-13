@@ -217,7 +217,7 @@ export function DarkCard({ children, style }) {
   );
 }
 
-// Persistent bottom tab bar: Home · Match · Browse · Ballot.
+// Persistent bottom tab bar: Home · Match · Browse · Ballot · How to Vote.
 export function TabBar({ active, onChange, ballotCount }) {
   const { colors } = useTheme();
   const tabs = [
@@ -225,6 +225,7 @@ export function TabBar({ active, onChange, ballotCount }) {
     { key: 'matches', label: 'Match', icon: '✦' },
     { key: 'races', label: 'Browse', icon: '☰' },
     { key: 'ballot', label: 'Ballot', icon: '▢' },
+    { key: 'howto', label: 'How to Vote', icon: '✓' },
   ];
   return (
     <View
@@ -239,18 +240,20 @@ export function TabBar({ active, onChange, ballotCount }) {
           <Pressable key={t.key} onPress={() => onChange(t.key)} style={{ flex: 1, alignItems: 'center', paddingVertical: 4 }}>
             <View>
               <Text style={{ fontSize: 20, color: isActive ? colors.accent : colors.inkSoft }}>{t.icon}</Text>
+              {/* Only when something is marked, and labeled so it never reads
+                  like a notification count. */}
               {t.key === 'ballot' && ballotCount > 0 && (
                 <View
                   style={{
-                    position: 'absolute', top: -4, right: -14, minWidth: 18, height: 18, borderRadius: 9,
-                    backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 4,
+                    position: 'absolute', top: -7, right: -26, height: 15, borderRadius: 8,
+                    backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 5,
                   }}
                 >
-                  <Text style={{ color: '#fff', fontSize: 11, fontWeight: '800' }}>{ballotCount}</Text>
+                  <Text style={{ color: '#fff', fontSize: 9, fontWeight: '800' }}>{ballotCount} marked</Text>
                 </View>
               )}
             </View>
-            <Text style={{ fontSize: 11, fontWeight: isActive ? '800' : '600', color: isActive ? colors.accent : colors.inkSoft }}>
+            <Text style={{ fontSize: 10, fontWeight: isActive ? '800' : '600', color: isActive ? colors.accent : colors.inkSoft }}>
               {t.label}
             </Text>
           </Pressable>

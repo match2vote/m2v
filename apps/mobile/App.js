@@ -112,6 +112,7 @@ function Root() {
             if (tab === 'home') nav.go({ name: 'home' });
             else if (tab === 'ballot') nav.go({ name: 'ballot' });
             else if (tab === 'races') nav.go({ name: 'races' });
+            else if (tab === 'howto') nav.go({ name: 'howto' });
             else nav.go({ name: 'matches' });
           }}
         />

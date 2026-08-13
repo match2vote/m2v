@@ -92,7 +92,8 @@ export function useNav() {
 // Which tab a route belongs to (for highlighting the tab bar).
 export function tabOf(route) {
   switch (route.name) {
-    case 'home': case 'about': case 'howto': case 'state': return 'home';
+    case 'home': case 'about': case 'state': return 'home';
+    case 'howto': return 'howto';
     case 'ballot': return 'ballot';
     case 'matches': case 'quiz': return 'matches';
     default: return 'races';

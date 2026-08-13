@@ -129,6 +129,14 @@ export function findCandidateById(id) {
   return null;
 }
 
+// States using NEW congressional maps for 2026 (verified Aug 13, 2026:
+// TX/CA/MO/NC/OH/UT mid-decade wave + FL/LA/TN/AL post-Callais wave).
+// House races in these states carry a "district lines changed" notice so a
+// voter who knew their 2024 district number doesn't silently study the wrong
+// race. The app never guesses districts (state picker only); this is the
+// residual-risk mitigation from the item-0 map audit.
+export const REDRAWN_2026 = new Set(['TX', 'CA', 'MO', 'NC', 'OH', 'UT', 'FL', 'LA', 'TN', 'AL']);
+
 function buildRaces(code, data) {
   data = data || getBundledStateData(code);
   if (!data) return [];
@@ -139,6 +147,14 @@ function buildRaces(code, data) {
       title: 'Governor',
       candidates: data.governor,
       meta: data.raceMeta?.[`${code}-governor`] || null,
+    });
+  }
+  if (data.mayor?.length) {
+    races.push({
+      id: `${code}-mayor`,
+      title: 'Mayor',
+      candidates: data.mayor,
+      meta: data.raceMeta?.[`${code}-mayor`] || null,
     });
   }
   if (data.senate?.length) {

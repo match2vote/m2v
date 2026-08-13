@@ -4,7 +4,7 @@ import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-na
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing, BackBar } from '../ui';
 import { theme, useTheme } from '../theme';
-import { STATE_NAMES, getRaces, getCoverage, findRaceById, findCandidateById } from '../ballot';
+import { STATE_NAMES, getRaces, getCoverage, findRaceById, findCandidateById, REDRAWN_2026 } from '../ballot';
 import { getStateData, savePick, kv } from '../api';
 import { useNav } from '../nav';
 import { QuizContext } from '../quizContext';
@@ -127,6 +127,13 @@ export function Race({ raceId }) {
       <Body soft style={{ marginBottom: space(3) }}>
         {race.meta?.statusNote || 'Candidates with researched, sourced positions.'}
       </Body>
+      {race.id.includes('-house-') && REDRAWN_2026.has(stateCode) && (
+        <Body soft style={{ fontSize: 12.5, fontStyle: 'italic', marginBottom: space(3) }}>
+          District lines changed for 2026 in this state. If you knew your
+          district number from a past election, confirm it on your state's
+          official district finder before relying on this race.
+        </Body>
+      )}
       {namesOnly && (
         <Card>
           <Body style={{ fontWeight: '700', fontSize: 14 }}>

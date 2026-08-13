@@ -182,10 +182,11 @@ export function BackBar({ label = 'Back', onPress }) {
 export function CategoryPill({ kind }) {
   const { colors } = useTheme();
   const fed = kind === 'federal';
+  const label = fed ? 'Federal' : kind === 'local' ? 'Local' : 'State';
   return (
     <View style={{ borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3, backgroundColor: fed ? colors.federalSoft : colors.stateSoft }}>
       <Text style={{ fontSize: 11, fontWeight: '700', color: fed ? colors.federal : colors.state }}>
-        {fed ? 'Federal' : 'State'}
+        {label}
       </Text>
     </View>
   );

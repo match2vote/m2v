@@ -49,6 +49,7 @@ for (const f of files.sort()) {
   const senate = [];
   const house = {};
   const governor = [];
+  const mayor = [];
   for (const c of candidates) {
     total++;
     if (c.office === 'us-senate') senate.push(c);
@@ -60,6 +61,7 @@ for (const f of files.sort()) {
     if (c.state !== state || fecIds.has(c.id)) continue;
     total++;
     if (c.office === 'governor') governor.push(c);
+    else if (c.office === 'mayor') mayor.push(c);
     else if (c.office === 'us-senate') senate.push(c);
     else (house[c.district || 'at-large'] ||= []).push(c);
   }
@@ -70,8 +72,9 @@ for (const f of files.sort()) {
     rank(a) - rank(b) || (b.incumbent - a.incumbent) || a.name.localeCompare(b.name);
   senate.sort(order);
   governor.sort(order);
+  mayor.sort(order);
   for (const d of Object.keys(house)) house[d].sort(order);
-  states[state] = { senate, house, governor, syncedAt, raceMeta: raceMetaByState[state] || null };
+  states[state] = { senate, house, governor, mayor, syncedAt, raceMeta: raceMetaByState[state] || null };
 }
 
 await mkdir(OUT_DIR, { recursive: true });

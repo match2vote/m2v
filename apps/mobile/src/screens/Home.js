@@ -170,7 +170,7 @@ export function Home() {
                   {r.coverage === 'names' ? 'Names only, positions not researched yet' : r.candidates.map((c) => c.name).join(' vs ')}
                 </Body>
               </View>
-              <CategoryPill kind={r.id.includes('governor') ? 'state' : 'federal'} />
+              <CategoryPill kind={r.id.includes('governor') ? 'state' : r.id.includes('mayor') ? 'local' : 'federal'} />
               <Text style={{ color: colors.inkSoft, marginLeft: 8 }}>›</Text>
             </Card>
           </Pressable>

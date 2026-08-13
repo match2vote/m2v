@@ -271,7 +271,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
@@ -313,11 +313,14 @@
         "democracy": {
           "label": "Hailed the Supreme Court's rollback of Voting Rights Act preclearance as 'a victory for all voters' (Ballotpedia)",
           "url": "https://ballotpedia.org/Alan_Wilson_(South_Carolina)"
+        },
+        "health": {
+          "label": "Joined the 20-state suit asking a federal court to declare the ACA's individual mandate unconstitutional and invalidate the entire law (SC Attorney General's office)",
+          "url": "https://www.scag.gov/about-the-office/news/sc-attorney-general-alan-wilson-joins-coalition-to-fight-against-unconstitutional-obamacare/"
         }
       },
       "nullNotes": {
-        "health": "checked campaign priorities page, Ballotpedia and Fox Carolina profile; rural clinics and telemedicine pledge does not fit the public-vs-private axis",
-        "housing": "checked campaign priorities page, Ballotpedia and Fox Carolina profile, nothing documented"
+        "housing": "checked campaign priorities page, Ballotpedia and Fox Carolina profile, nothing documented; record search also empty, only an op-ed noting he declined to join the DOJ RealPage rent price-fixing suit"
       },
       "controversies": [
         {
@@ -367,13 +370,13 @@
         "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
         "education": -2,
         "safety": 0,
         "repro": -2,
-        "democracy": null
+        "democracy": 0
       },
       "positionSources": {
         "cost": {
@@ -399,14 +402,25 @@
         "repro": {
           "label": "'Medical decisions are best left to families and their doctors'; wrote a bill centering female legislators on reproductive rights (campaign site)",
           "url": "https://johnsonforsc.com/policies"
+        },
+        "immigration": {
+          "label": "Voted nay on H.4764, which requires SC jails to join ICE's 287(g) deportation program and passed 85-30 (SC House roll call)",
+          "url": "https://www.scstatehouse.gov/votehistory.php?KEY=27162"
+        },
+        "taxes": {
+          "label": "Voted nay on H.4216, the income tax overhaul cutting the bottom rate to 1.99% with a trigger path toward zero (SC House roll call)",
+          "url": "https://www.scstatehouse.gov/votehistory.php?KEY=26221"
+        },
+        "climate": {
+          "label": "Voted nay on H.5118, the 2024 Energy Security Act that fast-tracked new natural gas plant construction (LegiScan roll call)",
+          "url": "https://legiscan.com/SC/rollcall/H5118/id/1416638"
+        },
+        "democracy": {
+          "label": "Voted yea on the 2022 election law that created two weeks of in-person early voting while tightening voter ID and absentee rules (SC House roll call)",
+          "url": "https://www.scstatehouse.gov/votehistory.php?KEY=21123"
         }
       },
-      "nullNotes": {
-        "immigration": "checked campaign policies page, Ballotpedia and Fox Carolina profile, nothing documented",
-        "taxes": "campaign plan (property tax cuts for working families, 70% paying no income tax, new cannabis tax) is targeted household relief that does not fit the axis; checked campaign site, Ballotpedia and Fox Carolina profile",
-        "climate": "listed 'Climate Change' as a concern in the 2020 Ballotpedia survey with no direction; 25% in-state energy production pledge does not fit the axis",
-        "democracy": "checked campaign policies page, Ballotpedia and Fox Carolina profile, nothing documented"
-      },
+      "nullNotes": {},
       "sources": [
         {
           "label": "Campaign policies page",

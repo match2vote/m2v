@@ -33,7 +33,7 @@
       "positions": {
         "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 0,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
@@ -78,10 +78,11 @@
         "climate": {
           "label": "0% LCV score in 2025: voted to terminate wind and solar credits, roll back the methane fee, and block state clean-car standards (League of Conservation Voters)",
           "url": "https://www.lcv.org/moc/ashley-moody/"
+        },
+        "housing": {
+          "label": "Voted yes on the 89-10 ROAD to Housing Act package pairing permitting streamlining and local zoning-reform incentives with expanded CDBG and HOME affordable-construction grants (Senate roll call 53)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.htm"
         }
-      },
-      "nullNotes": {
-        "housing": "checked campaign site, Senate office releases, and LCV scorecard; only a niche first-responder homeownership bill found, nothing that fits the axis"
       },
       "controversies": [
         {
@@ -174,7 +175,7 @@
         }
       },
       "nullNotes": {
-        "safety": "checked Florida First agenda page and Smarter.vote issue profile; nothing documented beyond gun policy, which does not map to this axis"
+        "safety": "checked Florida First agenda page and Smarter.vote issue profile; nothing documented beyond gun policy, which does not map to this axis; roll-call/record search also empty"
       },
       "sources": [
         {
@@ -309,7 +310,7 @@
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": -2,
         "safety": 0,
@@ -352,10 +353,11 @@
         "democracy": {
           "label": "Oppose legislative preemption of voter initiatives; enforce constitutional amendments passed at 50%+ (campaign site)",
           "url": "https://davidjolly.com/issues/"
+        },
+        "taxes": {
+          "label": "One of only three House Republicans to vote no on the 2015 Death Tax Repeal Act, a $269 billion estate tax cut that passed 240-179 (The Hill, House Clerk roll call 161)",
+          "url": "https://clerk.house.gov/Votes/2015161"
         }
-      },
-      "nullNotes": {
-        "taxes": "checked campaign issues page (14 areas, no tax section) and WUSF debate coverage; only targeted property-tax relief with services protected, which does not fit the axis"
       },
       "controversies": [
         {

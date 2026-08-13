@@ -198,7 +198,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "housing": "checked campaign issues page (covers fraud, law and order, taxes, healthcare, social issues; housing absent) and Wikipedia, nothing documented"
+        "housing": "checked campaign issues page (covers fraud, law and order, taxes, healthcare, social issues; housing absent) and Wikipedia, nothing documented; legislative-record search also empty"
       }
     },
     {
@@ -317,13 +317,13 @@
         "cost": 2,
         "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 2,
         "climate": 2,
         "education": null,
         "safety": 2,
         "repro": 2,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -349,6 +349,14 @@
         "health": {
           "label": "Led the 2025 budget rollback ending MinnesotaCare for undocumented adults: 'It's a fiscal issue', saying 'they can still join the private market' (CBS Minnesota)",
           "url": "https://www.cbsnews.com/minnesota/news/minnesota-lawmakers-reach-budget-agreement-2025/"
+        },
+        "immigration": {
+          "label": "Voted no on HF 4, granting driver's licenses regardless of immigration status, March 2023 roll call (LegiScan)",
+          "url": "https://legiscan.com/MN/rollcall/HF4/id/1267944"
+        },
+        "democracy": {
+          "label": "Voted no on HF 3, the Democracy for the People Act with automatic voter registration and a permanent absentee list (LegiScan)",
+          "url": "https://legiscan.com/MN/rollcall/HF3/id/1301387"
         }
       },
       "sources": [
@@ -367,10 +375,8 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "housing": "checked campaign priorities page and Minnesota Reformer launch coverage, nothing documented",
-        "education": "removed in QA: the 'reading proficiency, dollars in the classroom instead of bureaucracy' agenda does not map to the public-schools-versus-choice axis; checked campaign priorities page and Wikipedia, no documented stance on vouchers, ESAs, or parental-control measures",
-        "immigration": "checked campaign priorities page and launch and budget coverage; the MinnesotaCare benefits fight does not map to the pathways-versus-enforcement axis",
-        "democracy": "checked campaign priorities page, Minnesota Reformer launch and primary coverage, and Wikipedia, nothing documented"
+        "housing": "checked campaign priorities page and Minnesota Reformer launch coverage, nothing documented; legislative-record search also empty",
+        "education": "removed in QA: the 'reading proficiency, dollars in the classroom instead of bureaucracy' agenda does not map to the public-schools-versus-choice axis; checked campaign priorities page and Wikipedia, no documented stance on vouchers, ESAs, or parental-control measures"
       }
     }
   ]

@@ -127,7 +127,7 @@
         "immigration": 2,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 2,
         "repro": -1,
         "democracy": null
@@ -160,12 +160,15 @@
         "repro": {
           "label": "Says New York abortion law is 'well-settled'; state Conservative Party leaders describe him as pro-choice (Washington Examiner)",
           "url": "https://www.washingtonexaminer.com/news/campaigns/state/4356642/bruce-blakeman-abortion-rights-stance-gop-gubernatorial-front-runner/"
+        },
+        "education": {
+          "label": "Campaign spotlights the attack line 'Hochul Is Blocking Hundreds of Millions in Education Scholarships for New York Kids', backing federal tax-credit scholarships (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
         }
       },
       "nullNotes": {
-        "housing": "checked campaign site (only a critique that all-electric mandates stall construction), Ballotpedia, Wikipedia, and City & State coverage; nothing that fits the axis",
-        "education": "checked campaign site (school mask and AI exam critiques only), Ballotpedia, and Wikipedia; nothing that fits the axis",
-        "democracy": "checked campaign site, Ballotpedia, Wikipedia, and City & State coverage; nothing documented"
+        "housing": "checked campaign site (only a critique that all-electric mandates stall construction), Ballotpedia, Wikipedia, and City & State coverage; nothing that fits the axis; record search also empty, county record shows only opposition to the state zoning overrides in Hochul's housing compact, which fits neither pole",
+        "democracy": "checked campaign site, Ballotpedia, Wikipedia, and City & State coverage; nothing documented; record search also empty"
       },
       "controversies": [
         {
@@ -254,8 +257,8 @@
         }
       },
       "nullNotes": {
-        "housing": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented",
-        "immigration": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented"
+        "housing": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented; record search also empty, policy hub lists no housing topic and deep links return 404",
+        "immigration": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented; record search also empty, policy hub lists no immigration topic and deep links return 404"
       },
       "sources": [
         {

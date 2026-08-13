@@ -24,7 +24,7 @@
         "housing": -1,
         "immigration": 0,
         "taxes": -1,
-        "climate": null,
+        "climate": -1,
         "education": -2,
         "safety": 0,
         "repro": -2,
@@ -66,6 +66,10 @@
         "education": {
           "label": "Budget caps ESA vouchers by income, calls the program an entitlement; $285.6M more K-12 funding (Arizona Mirror)",
           "url": "https://azmirror.com/2025/01/17/hobbs-targets-entitlement-vouchers-in-17-7b-budget-plan/"
+        },
+        "climate": {
+          "label": "Joined the U.S. Climate Alliance, committing Arizona to Paris-aligned emissions cuts of 50 to 52 percent by 2030 and net-zero by 2050 (U.S. Climate Alliance)",
+          "url": "https://usclimatealliance.org/press-releases/arizona-joins-alliance-jul-2023/"
         }
       },
       "sources": [
@@ -84,10 +88,7 @@
       ],
       "curatedAt": "2026-08-13",
       "home": "Phoenix, AZ",
-      "now": "Governor of Arizona",
-      "nullNotes": {
-        "climate": "checked Ballotpedia, Wikipedia, katiehobbs.org, budget coverage; nothing documented"
-      }
+      "now": "Governor of Arizona"
     },
     {
       "id": "az-gov-biggs",
@@ -101,7 +102,7 @@
       "background": "U.S. Representative (AZ-05) since 2017 and former House Freedom Caucus chairman. Won the July 2026 Republican primary.",
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": 2,
         "housing": 1,
         "immigration": 1,
         "taxes": 2,
@@ -147,6 +148,10 @@
         "safety": {
           "label": "'Fully fund our public safety departments'; crack down on drug and human traffickers (Biggs campaign)",
           "url": "https://biggsforarizona.com/issues/"
+        },
+        "health": {
+          "label": "Voted no on the 2017 AHCA because it retained Obamacare's framework instead of full repeal, backing market-based fixes like insurance sales across state lines (Biggs press release)",
+          "url": "https://biggs.house.gov/media/press-releases/congressman-biggs-statement-american-health-care-act-passage"
         }
       },
       "sources": [
@@ -161,10 +166,7 @@
       ],
       "curatedAt": "2026-08-13",
       "home": "Gilbert, AZ",
-      "now": "U.S. Representative, AZ-05",
-      "nullNotes": {
-        "health": "checked biggsforarizona.com issues page, Wikipedia, KTAR issues guide; nothing documented"
-      }
+      "now": "U.S. Representative, AZ-05"
     }
   ]
 }

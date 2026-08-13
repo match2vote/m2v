@@ -104,7 +104,7 @@
         "taxes": -1,
         "climate": null,
         "education": -2,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -140,6 +140,10 @@
         "democracy": {
           "label": "Constitutional amendment to reverse Citizens United, DISCLOSE Act, ban corporate PAC money, congressional stock-trading ban, term limits (campaign platform)",
           "url": "https://turek4iowa.com/platform/"
+        },
+        "safety": {
+          "label": "Voted no on SF 2399 imposing mandatory minimum cash bonds for repeat offenders (Iowa House Journal, March 4, 2026)",
+          "url": "https://www.legis.iowa.gov/docs/publications/HJNL/20260304_HJNL.pdf"
         }
       },
       "sources": [
@@ -154,8 +158,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented",
-        "safety": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented"
+        "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented; legislative-record search also empty"
       }
     }
   ]

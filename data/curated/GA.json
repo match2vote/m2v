@@ -272,7 +272,7 @@
         "Safe communities and strong schools"
       ],
       "nullNotes": {
-        "taxes": "checked Branch.vote platform; only targeted tax relief for teachers and veterans, which does not fit the axis",
+        "taxes": "checked Branch.vote platform; only targeted tax relief for teachers and veterans, which does not fit the axis; record search also empty, mayoral record shows a no-tax-increase FY2019 budget and the targeted Anti-Displacement Tax Fund, neither fits the axis",
         "climate": "checked Branch.vote platform; flood mitigation, brownfield redevelopment and water infrastructure do not map to the clean-energy-vs-fossil axis"
       }
     },
@@ -296,7 +296,7 @@
         "education": 1,
         "safety": 2,
         "repro": 2,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -330,6 +330,10 @@
         "repro": {
           "label": "Campaign: 'Rick strongly supports Georgia's current Heartbeat law and will defend it as governor' (CBS Atlanta)",
           "url": "https://www.cbsnews.com/atlanta/news/audio-recordings-reveal-georgia-gop-gubernatorial-candidate-rick-jacksons-views-on-abortion-exceptions/"
+        },
+        "democracy": {
+          "label": "Echoed stolen-election claims, 'that was totally ridiculous what happened in 2020', and urged redrawing maps to 'ensure secure elections' (Democracy Docket)",
+          "url": "https://www.democracydocket.com/news-alerts/election-denier-rick-jackson-wins-georgia-gop-governor-primary-runoff/"
         }
       },
       "sources": [
@@ -355,8 +359,7 @@
         "Secure the border"
       ],
       "nullNotes": {
-        "climate": "checked Ballotpedia, rickjackson.com action plan, iVoterGuide (survey unanswered), AJC roundup; nothing documented",
-        "democracy": "checked Ballotpedia, rickjackson.com action plan, iVoterGuide (survey unanswered), AJC roundup; nothing documented"
+        "climate": "checked Ballotpedia, rickjackson.com action plan, iVoterGuide (survey unanswered), AJC roundup; nothing documented"
       }
     }
   ]

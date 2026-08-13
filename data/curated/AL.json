@@ -36,7 +36,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
@@ -78,10 +78,13 @@
         "democracy": {
           "label": "Voted to object to certifying 2020 electoral votes on January 7, 2021 and posted false election-theft claims (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+        },
+        "health": {
+          "label": "Voted for the 2025 reconciliation law and touted its Medicaid restrictions, 'removing 1.4 million illegals, eliminating waste, fraud, and abuse' and barring Medicaid funding for transition procedures (Rep. Moore press release)",
+          "url": "https://barrymoore.house.gov/media/press-releases/rep-barry-moore-supports-president-trumps-one-big-beautiful-reconciliation"
         }
       },
       "nullNotes": {
-        "health": "checked Ballotpedia, Wikipedia and campaign issues page, nothing documented",
         "housing": "checked Ballotpedia, Wikipedia and campaign issues page, nothing documented"
       },
       "controversies": [
@@ -202,14 +205,14 @@
         "Lower taxes and less government spending"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": 1,
-        "safety": null,
+        "safety": 2,
         "repro": 2,
         "democracy": 2
       },
@@ -241,12 +244,19 @@
         "democracy": {
           "label": "Voted to object to certifying Arizona's and Pennsylvania's 2020 electoral votes (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+        },
+        "cost": {
+          "label": "Voted with all Senate Republicans on Aug 8, 2022 to strip the $35 insulin copay cap for private insurance from the Inflation Reduction Act (Newsweek)",
+          "url": "https://www.newsweek.com/fortythree-republicans-voted-against-capping-insulin-costs-1731670"
+        },
+        "housing": {
+          "label": "One of five senators voting no on the ROAD to Housing Act, saying 'giving the federal government more control over housing is not the answer' and preferring market-driven solutions; also voted nay on the March 2026 housing supply bill (Time, Senate roll call 53)",
+          "url": "https://time.com/article/2026/06/23/housing-bill-congress-senators-voted-against/"
+        },
+        "safety": {
+          "label": "Pledged to the Alabama FOP to 'invest in training, equipment, and resources' so police are 'trained and empowered', introduced the Empowering Law Enforcement Act, and voted yea on the HALT Fentanyl Act's permanent Schedule I crackdown (Tuberville Senate office)",
+          "url": "https://www.tuberville.senate.gov/?p=70190"
         }
-      },
-      "nullNotes": {
-        "cost": "removed in QA: source URL dead https://coachforgovernor.com/issues/; no other fetched source documents a cost-of-living approach",
-        "housing": "checked Ballotpedia and Wikipedia, nothing documented",
-        "safety": "removed in QA: source URL dead https://coachforgovernor.com/issues/; Ballotpedia and Wikipedia document no scoreable police-funding or sentencing stance"
       },
       "controversies": [
         {

@@ -42,7 +42,7 @@
         "taxes": -1,
         "climate": 0,
         "education": -1,
-        "safety": null,
+        "safety": 0,
         "repro": -2,
         "democracy": -2
       },
@@ -78,11 +78,14 @@
         "democracy": {
           "label": "Introduced the John Lewis Voting Rights Advancement Act, Freedom to Vote Act, and Native American Voting Rights Act; opposes the SAVE Act as 'anti-voter' (Sen. Lujan press release)",
           "url": "https://www.lujan.senate.gov/newsroom/press-releases/lujan-fights-for-voting-rights-amid-trumps-push-to-suppress-millions-of-american-voters/"
+        },
+        "safety": {
+          "label": "Voted yea both on the First Step Act's sentencing and reentry reforms in the House, 358-36, and on the enforcement-side HALT Fentanyl Act permanently placing fentanyl-related substances in Schedule I, 84-16 (House Clerk roll call 448, Senate roll call 127)",
+          "url": "https://clerk.house.gov/Votes/2018448"
         }
       },
       "nullNotes": {
-        "housing": "checked campaign site, Ballotpedia, and Senate office issues pages, nothing documented",
-        "safety": "checked campaign site, Ballotpedia, and Senate office issues pages (justice page returned 404), nothing documented"
+        "housing": "checked campaign site, Ballotpedia, and Senate office issues pages, nothing documented"
       },
       "sources": [
         {
@@ -255,7 +258,7 @@
         }
       },
       "nullNotes": {
-        "taxes": "checked campaign plans page (child tax credit increase is a targeted household measure that does not fit the axis), Ballotpedia, and Wikipedia, nothing documented"
+        "taxes": "checked campaign plans page (child tax credit increase is a targeted household measure that does not fit the axis), Ballotpedia, and Wikipedia, nothing documented; roll-call/record search also empty"
       },
       "sources": [
         {
@@ -298,7 +301,7 @@
       "positions": {
         "cost": 1,
         "health": 1,
-        "housing": null,
+        "housing": 0,
         "immigration": 1,
         "taxes": 1,
         "climate": 2,
@@ -339,11 +342,14 @@
         "safety": {
           "label": "Doubled Rio Rancho's police budget; pledges to 'increase police presence throughout the state' and a 'zero-tolerance policy for all violent crimes and crimes against children' (campaign site)",
           "url": "https://gregghull.com/issues/"
+        },
+        "housing": {
+          "label": "As mayor oversaw 7,200 new single-family homes with city infrastructure support for the Los Diamantes master-planned development, while completing affordable housing projects and backing a city affordable housing study, 'a comprehensive study will verify our needs' (City Desk ABQ, KRQE)",
+          "url": "https://citydesk.org/2024/10/28/mayor-hull-looks-back-on-how-rio-rancho-has-changed-in-the-last-decade/"
         }
       },
       "nullNotes": {
-        "housing": "checked campaign issues pages and subpage list (no housing section), Ballotpedia, iVoterGuide, and news coverage, nothing documented",
-        "repro": "checked campaign issues pages, Ballotpedia, iVoterGuide survey (did not answer), and KOB interview page, nothing documented"
+        "repro": "checked campaign issues pages, Ballotpedia, iVoterGuide survey (did not answer), and KOB interview page, nothing documented; roll-call/record search also empty"
       },
       "sources": [
         {

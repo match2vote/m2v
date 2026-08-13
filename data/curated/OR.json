@@ -109,13 +109,13 @@
       "positions": {
         "cost": null,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": 1,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 2,
         "safety": 1,
-        "repro": null,
+        "repro": 2,
         "democracy": 2
       },
       "positionSources": {
@@ -138,14 +138,23 @@
         "democracy": {
           "label": "Sponsored a 2025 bill to let voters repeal Oregon's vote-by-mail law; signed the 2020 letter urging Oregon's AG to back Texas's lawsuit contesting the presidential results (Oregon Capital Chronicle)",
           "url": "https://oregoncapitalchronicle.com/2026/03/03/coastal-oregon-conservative-announces-run-for-u-s-senate/"
+        },
+        "housing": {
+          "label": "Touted bills easing rural home siting and letting ADUs hook into existing sewer systems to get more homes built, HB 3442 and SB 835 (official 2023 session recap)",
+          "url": "https://content.govdelivery.com/accounts/ORLEG/bulletins/362ef2e"
+        },
+        "education": {
+          "label": "Co-authored SB 1100 giving tax credits for private school and homeschool costs plus parental notification and curriculum transparency mandates (The News Guard)",
+          "url": "https://www.thenewsguard.com/news/oregon-reform-education-act-introduced/article_9f1733d4-6c0b-5916-9138-80e0120254aa.html"
+        },
+        "repro": {
+          "label": "'A consistent vote for unborn children' who 'voted for numerous life-affirming bills' in the legislature (Oregon Right to Life PAC endorsement)",
+          "url": "https://ortlpac.org/oregon-right-to-life-pac-endorses-senator-david-brock-smith/"
         }
       },
       "nullNotes": {
-        "cost": "checked campaign issues page (says families are 'being priced out' but offers no scoreable mechanism), Wikipedia, and Oregon Capital Chronicle launch profile, nothing documented",
-        "health": "checked campaign site and issues page, Wikipedia, and Oregon Capital Chronicle profile; Ballotpedia fetch blocked, nothing documented",
-        "housing": "checked campaign issues page (only 'help make homes more affordable' via local timber, too thin to score), Wikipedia, and Oregon Capital Chronicle profile, nothing scoreable",
-        "education": "checked campaign site and issues page, Wikipedia, and Oregon Capital Chronicle profile; Ballotpedia fetch blocked, nothing documented",
-        "repro": "checked campaign site, Wikipedia, Oregon Capital Chronicle profile, and 2023 walkout coverage (he stayed on the floor; no HB 2002 vote or stance documented), nothing scoreable"
+        "cost": "checked campaign issues page (says families are 'being priced out' but offers no scoreable mechanism), Wikipedia, and Oregon Capital Chronicle launch profile, nothing documented; legislative-record search also empty",
+        "health": "checked campaign site and issues page, Wikipedia, and Oregon Capital Chronicle profile; Ballotpedia fetch blocked, nothing documented; legislative-record search also empty"
       },
       "sources": [
         {
@@ -275,7 +284,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": 1,
         "immigration": 1,
         "taxes": 2,
@@ -321,10 +330,11 @@
         "democracy": {
           "label": "2022 platform pledged to 'ban ballot harvesting', create a 'permanent task force on election integrity', and direct the attorney general to investigate and prosecute voter fraud allegations (Ballotpedia)",
           "url": "https://ballotpedia.org/Christine_Drazan"
+        },
+        "health": {
+          "label": "Voted no on HB 2010, the 2025 provider-tax package securing Oregon Health Plan Medicaid funding, with the GOP objecting it raised taxes without a supermajority (Jefferson Public Radio)",
+          "url": "https://www.ijpr.org/politics-government/2025-02-28/6-republicans-join-democrats-pass-medicaid-funding-bill-in-the-oregon-house"
         }
-      },
-      "nullNotes": {
-        "health": "checked campaign site, Ballotpedia, and KATU interview coverage, nothing documented"
       },
       "sources": [
         {

@@ -28,7 +28,7 @@
       "positions": {
         "cost": 2,
         "health": 2,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
@@ -73,6 +73,10 @@
         "safety": {
           "label": "Created AG human-trafficking unit and won quadrupled enforcement funding; led Backpage raid (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ken_Paxton"
+        },
+        "housing": {
+          "label": "As AG issued an August 2020 opinion that local governments cannot 'prohibit, delay, or restrict' eviction notices, blocking pandemic eviction moratoriums (Texas Tribune)",
+          "url": "https://www.texastribune.org/2020/08/07/texas-evictions-coronavirus-ken-paxton/"
         }
       },
       "sources": [
@@ -112,9 +116,7 @@
           "detail": "Impeached by the Texas House in 2023 over allegations of bribery and abuse of office; acquitted by the Texas Senate. He denied wrongdoing."
         }
       ],
-      "nullNotes": {
-        "housing": "checked Ballotpedia, kenpaxton.com/issues, Texas Tribune economic-plan coverage, Wikipedia; only a first-time homebuyer tax deduction, which does not fit the axis"
-      }
+      "nullNotes": {}
     },
     {
       "id": "fec-S6TX00479",
@@ -309,11 +311,11 @@
         "cost": -2,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -1,
-        "climate": null,
+        "climate": -1,
         "education": -2,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -2
       },
@@ -345,6 +347,18 @@
         "democracy": {
           "label": "Broke quorum in 2021 against voting-restriction bills and in 2025 against mid-decade redistricting (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa"
+        },
+        "immigration": {
+          "label": "Voted nay on SB 4, the 2023 law making illegal entry a state crime enforceable with state deportation orders (Texas House Journal, Record 48)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM"
+        },
+        "climate": {
+          "label": "Voted nay on SB 2627, the Texas Energy Fund program of subsidized loans to build new gas power plants (Texas House Journal, Record 1977)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY69FINAL.HTM"
+        },
+        "safety": {
+          "label": "Voted yea on SJR 5, the constitutional amendment requiring judges to deny bail for certain violent or sexual felonies, passed 133-8 (Texas House Journal, Record 2931)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM"
         }
       },
       "sources": [
@@ -362,11 +376,7 @@
         }
       ],
       "curatedAt": "2026-08-13",
-      "nullNotes": {
-        "immigration": "checked Ballotpedia, ginafortexas.com, Wikipedia; nothing documented",
-        "climate": "checked Ballotpedia, ginafortexas.com incl. data-centers page, Wikipedia; data-center moratorium and rate freeze do not map to the axis",
-        "safety": "checked Ballotpedia, ginafortexas.com, Wikipedia; only a gay/trans panic defense bill, incidental to the axis"
-      }
+      "nullNotes": {}
     }
   ]
 }

@@ -1,0 +1,196 @@
+{
+  "state": "ME",
+  "note": "Hand-curated, sourced entries. A consensus national toss-up. Independent-candidate qualification conflicting between sources; re-verify against the Maine SOS list before ballot lock.",
+  "races": {
+    "ME-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6ME00159",
+        "fec-S6ME00373"
+      ],
+      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces oyster farmer and veteran Graham Platner (D), who won the June 9 primary with about 78%. Rated a toss-up by Cook and Sabato."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6ME00159",
+      "name": "Susan Collins",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "ME",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 73,
+      "home": "Bangor, ME",
+      "now": "U.S. Senator; Chair, Senate Appropriations Committee",
+      "background": "U.S. Senator since 1997, seeking a sixth term; chairs the Appropriations Committee and holds the longest perfect attendance streak in Senate history. From a sixth-generation Caribou lumber family. Repeatedly ranked the Senate's most bipartisan member; voted to convict President Trump in the 2021 impeachment trial.",
+      "priorities": [
+        "Health care: Alzheimer's, diabetes, rural access",
+        "Maine jobs and small business",
+        "Bipartisan constituent service"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": 1,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Record: champions federal home-heating assistance; secured $4B in LIHEAP funding and pressed for its release (Senate office)",
+          "url": "https://www.collins.senate.gov/newsroom/senator-collins-announces-release-of-more-than-43-million-in-additional-federal-home-heating-aid-for-mainers"
+        },
+        "health": {
+          "label": "One of the deciding Republican votes against ACA repeal in 2017; co-sponsored insulin and drug-price bills (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
+        },
+        "housing": {
+          "label": "Record: directs federal affordable-housing funding to Maine as an appropriator (Senate office)",
+          "url": "https://www.collins.senate.gov/newsroom/senator-collins-announces-208-million-affordable-housing-and-economic-development-maine"
+        },
+        "immigration": {
+          "label": "Voted for the 2013 comprehensive reform with a citizenship path; opposed family separation and the 2017 travel ban (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
+        },
+        "taxes": {
+          "label": "Voted for the 2017 Tax Cuts and Jobs Act after securing SALT and medical-expense amendments (Senate office)",
+          "url": "https://www.collins.senate.gov/newsroom/senator-collins%E2%80%99-statement-support-senate-tax-reform-bill"
+        },
+        "climate": {
+          "label": "Backs offshore wind expansion; co-authored a 30% offshore-wind investment tax credit (Senate office)",
+          "url": "https://www.collins.senate.gov/newsroom/collins-carper-introduce-bill-spur-investments-offshore-wind"
+        },
+        "education": {
+          "label": "Voted against Betsy DeVos for Education Secretary, citing commitment to public and rural schools (Senate office)",
+          "url": "https://www.collins.senate.gov/newsroom/senator-collins-announces-she-will-vote-against-confirmation-betsy-devos-be-secretary"
+        },
+        "repro": {
+          "label": "Self-identified pro-choice: opposed 20-week bans and Planned Parenthood defunding, but voted against the Women's Health Protection Act and to confirm Justice Kavanaugh (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Her Kavanaugh vote, cast after predicting he would not overturn Roe, was contradicted by the Dobbs decision (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.susancollins.com/"
+        },
+        {
+          "label": "Senate: about",
+          "url": "https://www.collins.senate.gov/about"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6ME00159/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6ME00373",
+      "name": "Graham Platner",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "ME",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 41,
+      "home": "Sullivan, ME",
+      "now": "Oyster farmer; Sullivan harbormaster",
+      "background": "Oyster farmer, Marine Corps and Army National Guard veteran (Iraq and Afghanistan), and political newcomer backed by Bernie Sanders and organized labor. Won the June Democratic primary with about 78% over former Gov. Janet Mills, who had suspended her campaign. Raised over $21M, nearly all from individuals.",
+      "priorities": [
+        "Get billionaire money out of politics",
+        "Medicare for All",
+        "Housing affordability"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Raise the federal minimum wage and index it to inflation; 'cost-of-living tax cut' for working people (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "health": {
+          "label": "Medicare for All, replacing for-profit insurance; Medicare drug-price negotiation (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "housing": {
+          "label": "Restore federal housing investment, expand VA home loans, ban hedge funds from buying homes (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "immigration": {
+          "label": "Opposes mass deportation; reform pairing strong border security with a path to citizenship (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "taxes": {
+          "label": "Billionaire minimum tax; lift the Social Security payroll-tax cap (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "climate": {
+          "label": "Urgent climate action; defend and strengthen Clean Air and Clean Water Act enforcement (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "education": {
+          "label": "Opposes private-school vouchers; federal investment so every public district is adequately funded (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "safety": {
+          "label": "Legalize cannabis with clemency for drug-war convictions; invest revenue in addiction treatment and prevention (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "repro": {
+          "label": "Strong federal statutory guarantee of the right to choose (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        "democracy": {
+          "label": "Constitutional amendment to overturn Citizens United; 'ban billionaires buying elections' (campaign platform)",
+          "url": "https://www.grahamforsenate.com/platform"
+        }
+      },
+      "controversies": [
+        {
+          "label": "A 2007 tattoo resembling a Nazi Totenkopf (denied awareness, since covered) and years of offensive Reddit posts he disavowed, attributing them to post-service PTSD (The Hill)",
+          "url": "https://thehill.com/homenews/campaign/5567179-who-is-graham-platner-maine-senate-candidate/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://www.grahamforsenate.com/platform"
+        },
+        {
+          "label": "Bangor Daily News: primary result",
+          "url": "https://www.bangordailynews.com/2026/06/09/politics/elections/maine-senate-democratic-primary-results-graham-platner/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6ME00373/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

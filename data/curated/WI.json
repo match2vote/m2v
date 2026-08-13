@@ -1,0 +1,204 @@
+{
+  "state": "WI",
+  "note": "Hand-curated, sourced entries. Open seat (Gov. Evers not seeking a third term). Primaries held Aug 11, 2026.",
+  "races": {
+    "WI-governor": {
+      "status": "general",
+      "statusNote": "Open seat: Milwaukee County Executive David Crowley (D) faces U.S. Rep. Tom Tiffany (R). Both won their Aug 11 primaries."
+    }
+  },
+  "candidates": [
+    {
+      "id": "wi-gov-crowley",
+      "name": "David Crowley",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "WI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 40,
+      "home": "Milwaukee, WI",
+      "now": "Milwaukee County Executive",
+      "background": "Milwaukee County Executive since 2020, the first Black person and youngest ever elected to the office. Previously served in the Wisconsin State Assembly (2017-2020). Won the Aug 11 Democratic primary in a photo finish over state Rep. Francesca Hong; endorsed by Gov. Tony Evers.",
+      "priorities": [
+        "Lower everyday costs ('Badger Basics' plan)",
+        "Strengthen public schools",
+        "Good-paying jobs"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Badger Basics plan: $15 minimum wage now and $20 by 2030, cap child-care costs at 7% of income, energy rebates (campaign site)",
+          "url": "https://www.crowleyforwi.com/badger-basics"
+        },
+        "health": {
+          "label": "Expand BadgerCare with sliding-scale income-based premiums, a public-option approach (campaign site)",
+          "url": "https://www.crowleyforwi.com/badger-basics"
+        },
+        "housing": {
+          "label": "Mixed tools: zoning flexibility for duplexes/fourplexes AND down-payment assistance, eviction prevention, Housing First (campaign site)",
+          "url": "https://www.crowleyforwi.com/badger-basics"
+        },
+        "immigration": {
+          "label": "Publicly objected to ICE arrests at the Milwaukee County courthouse: they 'undermine public trust, breed fear' (official statement)",
+          "url": "https://urbanmilwaukee.com/pressrelease/milwaukee-county-executive-david-crowley-statement-on-ice-arrests-at-courthouse/"
+        },
+        "climate": {
+          "label": "Led Milwaukee County climate plan (~48% emissions cut, zero-carbon by 2050); wants state investment in solar and retrofits (campaign record)",
+          "url": "https://www.crowleyforwi.com/Record"
+        },
+        "education": {
+          "label": "Restore two-thirds state school funding, universal early childhood education; would not expand vouchers (Wisconsin Examiner voter guide)",
+          "url": "https://wisconsinexaminer.com/voter-guides/contests/2026-democratic-primary-governor/"
+        },
+        "safety": {
+          "label": "Mixed: says the state 'should not defund police' while investing in wraparound services and prevention (Wisconsin Examiner voter guide)",
+          "url": "https://wisconsinexaminer.com/voter-guides/contests/2026-democratic-primary-governor/"
+        },
+        "repro": {
+          "label": "'Access to safe, legal abortion is essential healthcare'; co-sponsored 2017 resolution declaring abortion is health care (official statement)",
+          "url": "https://county.milwaukee.gov/EN/County-Executive/News/Milwaukee-County-Executive-David-Crowleys-Statement-on-Wisconsin-Supreme-Court-1849-Abortion-Ban-Ruling"
+        },
+        "democracy": {
+          "label": "Supports protecting voting rights and nonpartisan redistricting (campaign plan)",
+          "url": "https://www.crowleyforwi.com/Plan"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Ran a past Twitter account that posted crude, sexist and homophobic messages (he says he wasn't its sole author), and oversaw a county health-insurance lapse affecting employees, after which he fired the administrator (WPR)",
+          "url": "https://www.wpr.org/news/david-crowley-democratic-primary-campaign-governor-2026"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign: Badger Basics plan",
+          "url": "https://www.crowleyforwi.com/badger-basics"
+        },
+        {
+          "label": "Wikipedia: David Crowley",
+          "url": "https://en.wikipedia.org/wiki/David_Crowley_(Wisconsin_politician)"
+        },
+        {
+          "label": "PBS Wisconsin: primary result",
+          "url": "https://pbswisconsin.org/news-item/crowley-wins-wisconsins-2026-democratic-primary-for-governor-in-a-photo-finish/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/David_Crowley_(Wisconsin)"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "wi-gov-tiffany",
+      "name": "Tom Tiffany",
+      "party": "Republican",
+      "office": "governor",
+      "state": "WI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 68,
+      "home": "Minocqua, WI",
+      "now": "U.S. Representative (WI-07)",
+      "background": "U.S. Representative for Wisconsin's 7th District since 2020; before that a state senator, state representative, town supervisor, and river-excursion business co-owner. Won the Aug 11 Republican primary with about 95% of the vote; endorsed by President Trump and Vice President Vance.",
+      "priorities": [
+        "Freeze property taxes",
+        "Immigration enforcement; ban sanctuary cities statewide",
+        "Back-to-basics education"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Freeze property taxes, drive down energy costs, cut regulations that raise housing/childcare/health costs (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "health": {
+          "label": "Backs price transparency and market competition; opposes Medicare for All (Fox6 primary coverage)",
+          "url": "https://www.fox6now.com/news/wisconsin-governor-race-republican-primary-081126"
+        },
+        "housing": {
+          "label": "Cut regulations to make housing more affordable (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "immigration": {
+          "label": "Ban sanctuary cities statewide, enforce immigration laws, secure the border; opposes amnesty (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "taxes": {
+          "label": "Property-tax freeze; repeal what he calls Evers' '400-year property tax increase'; touts federal tax cuts (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "climate": {
+          "label": "Promote baseload power, fight wind/solar projects on farmland; record of opposing environmental regulation (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "education": {
+          "label": "Focus on reading/writing/math, move money from administration to classrooms, opposes race-based curricula framing (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "safety": {
+          "label": "More resources for law enforcement; end 'revolving door' policies for repeat offenders (campaign site)",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        "repro": {
+          "label": "Pro-life; supports Wisconsin's existing 20-week abortion ban, calling it a 'compromise'; voted to defund Planned Parenthood as a state legislator (Fox6)",
+          "url": "https://www.fox6now.com/news/wisconsin-governor-race-republican-primary-081126"
+        },
+        "democracy": {
+          "label": "Voted against certifying Arizona's and Pennsylvania's 2020 electoral votes; signed the Texas v. Pennsylvania amicus brief (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Tiffany"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Objected to certifying 2020 electoral votes and signed the Texas v. Pennsylvania brief; one of 14 House votes against the Juneteenth holiday (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Tiffany"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://tomtiffany.com/solutions/"
+        },
+        {
+          "label": "Wikipedia: Tom Tiffany",
+          "url": "https://en.wikipedia.org/wiki/Tom_Tiffany"
+        },
+        {
+          "label": "Fox6: GOP primary result",
+          "url": "https://www.fox6now.com/news/wisconsin-governor-race-republican-primary-081126"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Tom_Tiffany"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

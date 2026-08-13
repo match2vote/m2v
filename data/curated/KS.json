@@ -9,9 +9,183 @@
         "fec-S6KS00312"
       ],
       "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4."
+    },
+    "KS-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Kelly term-limited): Senate President Ty Masterson (R) faces state Sen. Cindy Holscher (D). Both nominated Aug 4."
     }
   },
   "candidates": [
+    {
+      "id": "ks-gov-masterson",
+      "name": "Ty Masterson",
+      "party": "Republican",
+      "office": "governor",
+      "state": "KS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 56,
+      "home": "Andover, KS",
+      "now": "President of the Kansas Senate",
+      "background": "President of the Kansas Senate; state senator since 2009 after service in the Kansas House and on the Andover City Council. Former realtor and construction small-business owner. Won the Aug 4 Republican primary with 43% in a seven-candidate field; endorsed by President Trump.",
+      "priorities": [
+        "Lower taxes",
+        "Safe communities",
+        "Educational freedom and economic opportunity"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames affordability through tax cuts ('Kansas taxes too much'); pledges utility-ratepayer protections on data centers (campaign site)",
+          "url": "https://www.mastersonforgovernor.com/about"
+        },
+        "health": {
+          "label": "Opposes Medicaid expansion; led the Senate where expansion was defeated 12-28 (Kansas Reflector)",
+          "url": "https://kansasreflector.com/2025/02/18/medicaid-expansion-fails-in-kansas-senate-in-takeover-attempt-by-democrats/"
+        },
+        "immigration": {
+          "label": "SB 452 ('Halo Act') expanding protections for ICE and federal agents was introduced at his urging; passed Senate 31-7 (Kansas Reflector)",
+          "url": "https://kansasreflector.com/2026/03/16/dozens-oppose-kansas-bill-inflating-enforcement-powers-of-ice-and-other-federal-agents/"
+        },
+        "taxes": {
+          "label": "Touts leading a ~$2B tax cut and promises more: 'Kansas taxes too much and delivers too little' (campaign site)",
+          "url": "https://www.mastersonforgovernor.com/about"
+        },
+        "education": {
+          "label": "Raise pay for 'good teachers', put parents in charge, hold spending accountable; banned DEI in higher ed (campaign site)",
+          "url": "https://www.mastersonforgovernor.com/about"
+        },
+        "safety": {
+          "label": "'Fund the police and fight for safer streets'; cites 24% public-safety budget increase (campaign site)",
+          "url": "https://www.mastersonforgovernor.com/about"
+        },
+        "repro": {
+          "label": "Anti-abortion; linked electing Supreme Court justices to ending Kansas abortion-rights protections (Kansas Reflector)",
+          "url": "https://kansasreflector.com/2026/07/13/four-years-after-value-them-both-kansas-abortion-rights-are-back-on-the-ballot-aug-4/"
+        },
+        "democracy": {
+          "label": "Pledges 'commonsense measures to protect the ballot box' (campaign site)",
+          "url": "https://www.mastersonforgovernor.com/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Criticized over his 2025 vote for 20-year data-center tax breaks and for pressuring the state bank commissioner on behalf of Beneficient, whose CEO was later convicted of fraud (Kansas Reflector)",
+          "url": "https://kansasreflector.com/2026/07/07/kansas-gubernatorial-race-descends-into-phase-dominated-by-attacks-and-counterpunches/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.mastersonforgovernor.com/about"
+        },
+        {
+          "label": "Kansas Reflector: primary result",
+          "url": "https://kansasreflector.com/2026/08/04/masterson-scores-win-in-gop-primary-for-kansas-governor-holscher-prevails-in-democratic-race/"
+        },
+        {
+          "label": "Wikipedia: Ty Masterson",
+          "url": "https://en.wikipedia.org/wiki/Ty_Masterson"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ty_Masterson"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ks-gov-holscher",
+      "name": "Cindy Holscher",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "KS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 57,
+      "home": "Overland Park, KS",
+      "now": "Kansas State Senator (District 8)",
+      "background": "Kansas state senator since 2021, previously a state representative (2017-2020); spent about 12 years in marketing at Sprint before politics. Won the Aug 4 Democratic primary 49-39 over Ethan Corson, who had Gov. Kelly's endorsement.",
+      "priorities": [
+        "Lower everyday costs (healthcare, childcare, groceries)",
+        "Fully fund K-12 education",
+        "Moratorium on new hyperscale data centers"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "$16 minimum wage, paid sick time, tax-free diapers and hygiene products, cut costs on 'healthcare, childcare, groceries, and gas' (campaign site)",
+          "url": "https://cindyforkansas.com/priorities/"
+        },
+        "health": {
+          "label": "Expand Medicaid to low- and moderate-income Kansans; legalize medical marijuana to lower costs (campaign site)",
+          "url": "https://cindyforkansas.com/priorities/"
+        },
+        "housing": {
+          "label": "Build more affordable housing, cap late-rent penalties, cut the residential property assessment rate (campaign site)",
+          "url": "https://cindyforkansas.com/priorities/"
+        },
+        "immigration": {
+          "label": "Opposes ICE raids and detention expansion; will 'pull every lever as governor to protect our neighbors' (Democracy Now)",
+          "url": "https://www.democracynow.org/2026/8/7/cindy_holscher"
+        },
+        "education": {
+          "label": "Fully fund all classrooms, free school lunch for every student, expand special-education funding (campaign site)",
+          "url": "https://cindyforkansas.com/priorities/"
+        },
+        "repro": {
+          "label": "Supports abortion rights; called the judicial-election amendment a 'backdoor attempt' to undermine reproductive health care (Democracy Now)",
+          "url": "https://www.democracynow.org/2026/8/7/cindy_holscher"
+        },
+        "democracy": {
+          "label": "Independent redistricting panel, term limits, limits on corporate PAC money (campaign site)",
+          "url": "https://cindyforkansas.com/priorities/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://cindyforkansas.com/priorities/"
+        },
+        {
+          "label": "Kansas Reflector: primary result",
+          "url": "https://kansasreflector.com/2026/08/04/masterson-scores-win-in-gop-primary-for-kansas-governor-holscher-prevails-in-democratic-race/"
+        },
+        {
+          "label": "Wikipedia: Cindy Holscher",
+          "url": "https://en.wikipedia.org/wiki/Cindy_Holscher"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Cindy_Holscher"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
     {
       "id": "fec-S0KS00315",
       "name": "Roger Marshall",

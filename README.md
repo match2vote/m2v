@@ -2,8 +2,7 @@
 
 Nonpartisan iPhone/Android app for the November 3, 2026 election. Users take a
 10-question issue quiz and get matched to the real candidates on their ballot —
-by policy, never by party. Full plan: see `M2V Full-Scale Plan.md` in the
-Claude project.
+by policy, never by party.
 
 ## Layout
 

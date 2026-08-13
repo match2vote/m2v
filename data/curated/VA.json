@@ -1,0 +1,168 @@
+{
+  "state": "VA",
+  "note": "Hand-curated, sourced entries. Warner's primary was canceled (unopposed); GOP primary held Aug 4.",
+  "races": {
+    "VA-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6VA00093",
+        "fec-S8VA00321"
+      ],
+      "statusNote": "Sen. Mark Warner (D), seeking a fourth term, faces retired Army Maj. Gen. Bert Mizusawa (R), who won the Aug 4 primary with about 51%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6VA00093",
+      "name": "Mark Warner",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "VA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 71,
+      "home": "Alexandria, VA",
+      "now": "U.S. Senator; Vice Chair, Senate Intelligence Committee",
+      "background": "Virginia's senior senator since 2009 and former governor (2002-2006), who left office with 71% approval. Made a telecom venture-capital fortune before politics. Seeking a fourth term.",
+      "priorities": [
+        "Lower household costs",
+        "Health care access",
+        "National security and intelligence oversight"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Focused on 'lowering costs for families, growing wages'; cites $2,900+ in added family costs from tariffs (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/economy/"
+        },
+        "health": {
+          "label": "Early ACA champion who wants to move 'towards a universal coverage model'; defend Medicaid, protect rural hospitals (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/health-care/"
+        },
+        "housing": {
+          "label": "Backs bipartisan bills for new construction and first-time-buyer down-payment help; ROAD to Housing Act (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/housing/"
+        },
+        "immigration": {
+          "label": "'A meaningful pathway to citizenship with secure borders'; DREAM Act; opposes 'inhumane mass round-ups' (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/immigration/"
+        },
+        "taxes": {
+          "label": "Wants the wealthiest and corporations 'paying their fair share'; close 'unfair tax loopholes' (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/taxes/"
+        },
+        "climate": {
+          "label": "'All-of-the-above' energy independence: defends offshore wind and nuclear; 'practical, science-based' emissions reduction (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/energy-environment/"
+        },
+        "education": {
+          "label": "College affordability and student-debt relief; industry certifications and non-4-year pathways (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/education/"
+        },
+        "safety": {
+          "label": "Mixed: prevention plus accountability; body cameras, modern forensics, bipartisan anti-fentanyl work (Senate priorities)",
+          "url": "https://www.warner.senate.gov/about/priorities/crime-and-public-safety/"
+        },
+        "repro": {
+          "label": "Co-introduced the Women's Health Protection Act: decisions 'between a woman and her doctor, not politicians' (Senate release)",
+          "url": "https://www.warner.senate.gov/newsroom/press-releases/sens-warner-kaine-introduce-bill-to-protect-access-to-reproductive-health-care/"
+        },
+        "democracy": {
+          "label": "Co-sponsor of the John Lewis Voting Rights Advancement Act: 'ensure that every American can make their voice heard' (Senate release)",
+          "url": "https://www.warner.senate.gov/newsroom/press-releases/amid-partisan-attempts-to-gerrymander-texas-warner-and-kaine-join-colleagues-to-restore-the-voting-rights-act/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Senate priorities",
+          "url": "https://www.warner.senate.gov/public/index.cfm/issues"
+        },
+        {
+          "label": "Wikipedia: Mark Warner",
+          "url": "https://en.wikipedia.org/wiki/Mark_Warner"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6VA00093/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S8VA00321",
+      "name": "Bert Mizusawa",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "VA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 69,
+      "home": "McLean, VA",
+      "now": "Retired Army Major General; consulting-firm CEO",
+      "background": "Retired two-star Army general, first in his 1979 West Point class, awarded the Silver Star for a 1984 action at the Korean DMZ. Harvard-trained attorney and former deputy undersecretary of the Army; foreign policy adviser to the 2016 Trump campaign. Won the Aug 4 Republican primary with about 51%.",
+      "priorities": [
+        "National security and military readiness",
+        "Simplify the tax code; attack fraudulent spending",
+        "American energy production"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Reduce costs for 'farmers, small businesses and working families' through deregulation and American energy (Charlottesville Tomorrow)",
+          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+        },
+        "immigration": {
+          "label": "Border security plus legal immigration; those 'who broke the law and came here illegally should not be given a free path to citizenship' (Charlottesville Tomorrow)",
+          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+        },
+        "taxes": {
+          "label": "Simplify tax filing; balance the budget primarily by attacking fraudulent federal spending (Cardinal News)",
+          "url": "https://cardinalnews.org/2026/06/19/three-republicans-seek-u-s-senate-nomination-to-face-warner-all-cite-ties-to-trump/"
+        },
+        "climate": {
+          "label": "Criticizes energy-production restrictions; supports American energy production; localities should decide on data centers (Charlottesville Tomorrow)",
+          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Charlottesville Tomorrow Q&A",
+          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+        },
+        {
+          "label": "Cardinal News: primary result",
+          "url": "https://cardinalnews.org/2026/08/04/mizusawa-wins-republican-u-s-senate-primary-mcguire-beats-primary-challenger/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8VA00321/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

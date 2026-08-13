@@ -1,0 +1,183 @@
+{
+  "state": "NJ",
+  "note": "Hand-curated, sourced entries. Primary held June 2, 2026.",
+  "races": {
+    "NJ-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S4NJ00185",
+        "fec-S4NJ00532"
+      ],
+      "statusNote": "Sen. Cory Booker (D), seeking a third full term, faces attorney and Navy veteran Justin Murphy (R), who won the June 2 primary with 33%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4NJ00185",
+      "name": "Cory Booker",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "NJ",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 57,
+      "home": "Newark, NJ",
+      "now": "U.S. Senator for New Jersey",
+      "background": "U.S. Senator since 2013 and former Mayor of Newark; ran for president in 2020. In 2025 he delivered the longest speech in Senate history (25 hours 5 minutes). Former tenants' rights lawyer.",
+      "priorities": [
+        "Economic justice: baby bonds, EITC and child tax credit",
+        "Criminal justice reform",
+        "Health care as a right"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Targets 'the soaring cost of rent and predatory practices like overdraft fees'; championed EITC/child tax credit expansion (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/economic-opportunity"
+        },
+        "health": {
+          "label": "Calls health care a fundamental human right; leader in protecting and building on the ACA (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/health-care"
+        },
+        "housing": {
+          "label": "Made rental affordability a priority, 'cracking down on the soaring cost of rent' (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/economic-opportunity"
+        },
+        "immigration": {
+          "label": "Backs protections for undocumented spouses and DACA recipients; urges comprehensive reform (Senate release)",
+          "url": "https://www.booker.senate.gov/news/press/booker-applauds-president-bidens-announcement-to-give-legal-protections-to-keep-families-together"
+        },
+        "taxes": {
+          "label": "Championed EITC/child tax credit expansion; authored 'baby bonds' seed-money-at-birth legislation (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/economic-opportunity"
+        },
+        "climate": {
+          "label": "Original Green New Deal cosponsor; frames climate as an equity issue; lead on plastics reduction (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/environment"
+        },
+        "education": {
+          "label": "RAISE Act for up to $15,000 in teacher-pay tax credits; 'a student's zip code should not determine' their trajectory (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/education"
+        },
+        "safety": {
+          "label": "Authored the First Step Act; works to end mass incarceration, reform sentencing, improve reentry (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/criminal-justice"
+        },
+        "repro": {
+          "label": "Introduced legislation affirming FDA preemption to protect medication-abortion access nationwide (Senate issues)",
+          "url": "https://www.booker.senate.gov/about/issues/health-care"
+        },
+        "democracy": {
+          "label": "Co-led the John R. Lewis Voting Rights Advancement Act: 'the right to vote is sacred for all Americans' (Senate release)",
+          "url": "https://www.booker.senate.gov/news/press/booker-durbin-warnock-schumer-reintroduce-john-r-lewis-voting-rights-and-advancement-act"
+        }
+      },
+      "sources": [
+        {
+          "label": "Senate issues pages",
+          "url": "https://www.booker.senate.gov/about/issues"
+        },
+        {
+          "label": "Wikipedia: Cory Booker",
+          "url": "https://en.wikipedia.org/wiki/Cory_Booker"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4NJ00185/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S4NJ00532",
+      "name": "Justin Murphy",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "NJ",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Tabernacle, NJ",
+      "now": "Attorney; small-business owner",
+      "background": "Attorney and Navy veteran who enlisted at 17 and served during the Iran-Iraq War era; a former Tabernacle Township committeeman and deputy mayor. Won the June Republican primary with 33% on his second Senate try.",
+      "priorities": [
+        "Border security",
+        "Flat tax; abolish the IRS",
+        "Energy independence"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Middle-class economic security via a 10-12% flat tax, low interest rates, protecting seniors' Medicare (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "health": {
+          "label": "Opposes government-run health care; universal coverage via mandatory Health Savings Accounts and national market competition (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "immigration": {
+          "label": "Complete the border wall, defund sanctuary cities, station the military at the border against cartels (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "taxes": {
+          "label": "Abolish the IRS; 10-12% flat income tax; eliminate capital gains and estate taxes (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "climate": {
+          "label": "Energy independence via shale oil and nuclear expansion; keep the Jersey Shore 'windmill free' (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "education": {
+          "label": "Eliminate the federal Dept. of Education and redirect funds to local boards and vouchers (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "safety": {
+          "label": "Stop fentanyl at the border, deport criminal offenders, federal prosecution where local enforcement fails (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        "repro": {
+          "label": "Pro-life with rape, incest, and mother's-health exceptions; opposes taxpayer-funded abortion (campaign site)",
+          "url": "https://jerseyjustin4senate.org/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://jerseyjustin4senate.org/"
+        },
+        {
+          "label": "CentralJersey: primary result",
+          "url": "https://www.centraljersey.com/2026/06/04/justin-murphy-wins-nj-gop-primary-to-face-cory-booker/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4NJ00532/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

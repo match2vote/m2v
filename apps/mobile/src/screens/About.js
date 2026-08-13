@@ -95,8 +95,12 @@ export function About() {
           label="Privacy policy"
           onPress={() => Linking.openURL('https://match2vote.github.io/m2v/privacy/')}
         />
-        <Body soft style={{ fontSize: 12, textAlign: 'center', marginVertical: space(3) }}>
+        <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(3) }}>
           M2V is nonpartisan. It favors no party and no candidate.
+        </Body>
+        <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(1), marginBottom: space(3) }}>
+          Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit
+          organization based in Greenwich, Connecticut.
         </Body>
         <View style={{ height: space(6) }} />
       </ScrollView>

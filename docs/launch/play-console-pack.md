@@ -42,7 +42,7 @@ PRIVACY, FOR REAL
 
 No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app's only network request is downloading public candidate data. Full policy: https://match2vote.github.io/m2v/privacy/
 
-M2V is an independent civic project. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
+Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit organization based in Greenwich, Connecticut. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
 
 Questions or corrections: match2vote@gmail.com
 ```
@@ -105,7 +105,7 @@ Expected rating: **Everyone / PEGI 3** (possibly Everyone 10+ if the cannabis-re
 Google's misinformation and election policies require election apps to be transparent about who they are and where information comes from. Paste-ready answers:
 
 **Who publishes this app?**
-M2V is an independent, nonpartisan civic project published by an individual developer (account holder), with all code and data public at github.com/match2vote/m2v. It is not affiliated with any party, campaign, PAC, or government agency, accepts no advertising, and endorses no one.
+Match to Vote is a project of Page Not Found, a 501(c)(3) public charity based in Greenwich, Connecticut (IRS-recognized, on the Publication 78 list). All code and data are public at github.com/match2vote/m2v. It is not affiliated with any party, campaign, PAC, or government agency, accepts no advertising, and endorses no one.
 
 **Where does candidate data come from?**
 Candidate rosters come from official FEC bulk data (nightly sync, visible in the repo's commit history) and state election records for governors. Policy positions are hand-researched: a position is shown only when a specific public source URL (campaign site, voting record, established news organization) documents it, and that source link is displayed to users next to every single scored position. Our database schema enforces this: it rejects any scored position lacking a source URL.

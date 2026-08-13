@@ -6,6 +6,9 @@ Nonpartisan iPhone/Android app for the November 3, 2026 election. Users take a
 10-question issue quiz and get matched to the real candidates on their ballot —
 by policy, never by party.
 
+Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit
+organization based in Greenwich, Connecticut.
+
 ## Layout
 
 ```

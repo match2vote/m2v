@@ -1,0 +1,200 @@
+{
+  "state": "MS",
+  "note": "Hand-curated, sourced entries. Editorial pick: rated Solid R, but curated for the Hyde-Smith vs Colom matchup.",
+  "races": {
+    "MS-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S8MS00261",
+        "fec-S6MS00133",
+        "fec-S4MS00187"
+      ],
+      "statusNote": "Sen. Cindy Hyde-Smith (R) faces District Attorney Scott Colom (D); both won their March 10 primaries outright (Hyde-Smith 80.8%, Colom 73%), no runoffs needed. Attorney Ty Pinkins is also on the November ballot as an independent. Mississippi has not elected a Democrat to the U.S. Senate since 1982."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S8MS00261",
+      "name": "Cindy Hyde-Smith",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 67,
+      "home": "Brookhaven, MS",
+      "now": "U.S. Senator from Mississippi",
+      "background": "U.S. Senator since April 2018; cattle farmer, former Mississippi Commissioner of Agriculture and Commerce (2012-2018) and state senator (2000-2012), first elected as a Democrat before switching parties in 2010. Won the March 10, 2026 Republican primary with 80.8% over physician Sarah Adlakha; endorsed by President Trump.",
+      "priorities": [
+        "Permanent extension of the 2017 tax cuts",
+        "Border security",
+        "Expanding Gulf offshore oil and gas production"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Answers family cost pressures with more supply, not caps: 'stop finding every excuse in the book to shrink energy production'; cosponsored the Lease Now Act to force resumed lease sales (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/citing-rising-gas-prices-hyde-smith-says-miss-families-businesses-paying-price-failed-biden-energy"
+        },
+        "health": {
+          "label": "Calls the ACA 'anything but affordable' and 'unsupportable over the long term'; instead of extending subsidies, backs S.3386 directing funds to patients rather than insurance companies (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-appeals-legitimate-cooperation-fix-unaffordable-fraud-plagued-obamacare"
+        },
+        "housing": {
+          "label": "Backs the ROAD to Housing Act to 'increase housing supply, cut regulations' and get 'the government out of the way' with no new federal spending (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-supports-sweeping-affordable-housing-legislation"
+        },
+        "immigration": {
+          "label": "Voted to pass the Laken Riley Act, S. 5, requiring DHS detention of aliens charged with theft, passed 64-35 (Senate roll call 7, Jan 20, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
+        },
+        "taxes": {
+          "label": "Voted for the One Big Beautiful Bill Act making the 2017 tax cuts permanent, versus 'forcing a more than $4.0 trillion tax hike on everyone' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-statement-trumps-one-big-beautiful-bill-act-passage"
+        },
+        "climate": {
+          "label": "Cosponsored the Offshore Energy Security Act of 2025 to resume Gulf of Mexico oil and gas lease sales, 'unleashing American energy dominance' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-moves-resume-offshore-lease-sales-gulf-mexico"
+        },
+        "education": {
+          "label": "Cosponsored National School Choice Week resolutions: parents should be able to 'direct their children to schools that best suit their needs', including charter, private, online, and homeschool options (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/wicker-hyde-smith-back-national-school-choice-week-resolutions"
+        },
+        "safety": {
+          "label": "Cosponsors the Back the Blue Act, S.3366, creating new federal crimes with mandatory sentences and death-penalty eligibility for killing officers: targeting police 'should be met with the full force of the law' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-renews-support-back-blue-act"
+        },
+        "repro": {
+          "label": "Defended OBBBA language 'prohibiting abortion providers from receiving Medicaid funds' on the Senate floor, raising a point of order against the amendment to strike it (Congressional Record via Senate office)",
+          "url": "https://www.hydesmith.senate.gov/one-big-beautiful-bill-act-resumed"
+        },
+        "democracy": {
+          "label": "Voted to sustain the objection to counting Arizona's 2020 electoral votes, one of 6 senators to do so, objection failed 6-93 (Senate roll call 1, Jan 6, 2021)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00001.htm"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Her 2018 runoff remark 'if he invited me to a public hanging, I'd be in the front row' drew national criticism given Mississippi's lynching history; she called the criticism 'ridiculous' and did not apologize (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Cindy_Hyde-Smith"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8MS00261/"
+        },
+        {
+          "label": "Mississippi Today: primary results",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "Wikipedia: Cindy Hyde-Smith",
+          "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6MS00133",
+      "name": "Scott Colom",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 43,
+      "home": "Columbus, MS",
+      "now": "District Attorney, 16th Circuit Court District of Mississippi",
+      "background": "District attorney for Mississippi's 16th Circuit (Lowndes, Clay, Noxubee, and Oktibbeha counties) since 2016, elected at 32 by defeating a nearly 30-year incumbent, the first Black DA elected in a majority-white Mississippi district. Nominated by President Biden to a federal judgeship in 2022 but blocked when Hyde-Smith withheld her blue slip. Won the March 10, 2026 Democratic primary with 73%, calling himself 'a commonsense Democrat with Mississippi values.'",
+      "priorities": [
+        "Save Mississippi hospitals and reverse Medicaid cuts",
+        "Lower costs for families",
+        "Root out corruption in Washington"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": 0,
+        "taxes": -2,
+        "climate": null,
+        "education": -1,
+        "safety": 0,
+        "repro": null,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'We got to raise the minimum wage. We haven't raised it, it's $7.25'; frames the race around lowering costs for families (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "health": {
+          "label": "Medicaid expansion is 'a good deal for Mississippi'; says his first bill would 'cancel the healthcare cuts' from the One Big Beautiful Bill and restore ACA subsidies (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "immigration": {
+          "label": "Mixed: supports a 'strong, secure border' but 'we also have to have due process' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "taxes": {
+          "label": "'We have to raise taxes 3 percent on people making more than $600,000 a year to pay for Mississippians to continue to have health insurance, and to save our hospitals' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2025/11/25/colom-champions-tax-increase-for-mississippians-to-continue-to-have-health-insurance/"
+        },
+        "education": {
+          "label": "Proposes teachers earning under $75,000 pay no federal income tax because Mississippi is 'losing too many teachers and cops' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "safety": {
+          "label": "Mixed record: convictions in over 95% of jury trials including high-profile murders, AND freed a man held 11 years without trial and dropped murder charges built on discredited bite-mark evidence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scott_Colom"
+        },
+        "democracy": {
+          "label": "Mixed: open to voter ID if 'everybody needs to get access to a free ID very easily', while insisting polls stay 'available to people' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.scottcolom.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MS00133/"
+        },
+        {
+          "label": "Magnolia Tribune: interview",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        {
+          "label": "Mississippi Today: primary results",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign site, the long Magnolia Tribune interview, Wikipedia, and Ballotpedia, nothing documented",
+        "climate": "checked campaign site, Magnolia Tribune interview, Wikipedia, and Ballotpedia; tariff and jobs comments do not state a clean-energy versus fossil position",
+        "repro": "checked Ballotpedia (Candidate Connection survey not completed), Wikipedia, campaign site, and Magnolia Tribune interview; no abortion position documented"
+      }
+    }
+  ]
+}

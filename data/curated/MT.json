@@ -1,0 +1,371 @@
+{
+  "state": "MT",
+  "note": "Hand-curated, sourced entries. Open seat (Sen. Daines withdrew at the filing deadline); four-way general.",
+  "races": {
+    "MT-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6MT00295",
+        "fec-S6MT00253",
+        "fec-S6MT00287",
+        "fec-S6MT00261"
+      ],
+      "statusNote": "Open seat: Sen. Steve Daines withdrew minutes before the March filing deadline and endorsed Kurt Alme (R), who won the June 2 primary with 77%. Alme faces Alani Bankhead (D, 44% primary winner), independent former UM president Seth Bodnar (qualified by petition with 21,284 verified signatures), and Libertarian Kyle Austin. Bankhead and Bodnar each refused drop-out pressure before the Aug 10 withdrawal deadline, locking in a four-way general."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6MT00295",
+      "name": "Kurt Alme",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 59,
+      "home": "Billings, MT",
+      "now": "Attorney; resigned as U.S. Attorney for Montana in March 2026 to run",
+      "background": "Great Falls-born attorney who served twice as U.S. Attorney for the District of Montana (2017-2020 and 2025-2026, both under President Trump) and as Gov. Gianforte's budget director and Revenue Department director; also led the Yellowstone Boys and Girls Ranch Foundation. Filed for the seat minutes before Sen. Steve Daines withdrew and endorsed him, then won the June 2, 2026 Republican primary with 77%. Endorsed by Trump, Daines, Gianforte, and Sen. Sheehy; has never before run for office.",
+      "priorities": [
+        "Make life more affordable",
+        "Make communities safer: prosecute violent crime and cartel drug trafficking",
+        "Protect the Montana way of life"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Deficit spending creates higher prices'; 'government spending and overregulation created these issues', answered with fiscal responsibility, tax relief, and cutting red tape (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/"
+        },
+        "health": {
+          "label": "Backs the Rural Health Transformation Program, price transparency, and telehealth, recruiting clinicians 'rather than subsidizing health insurance companies' (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/"
+        },
+        "housing": {
+          "label": "Increase housing supply by 'cutting red tape'; blames overregulation for housing costs (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/"
+        },
+        "immigration": {
+          "label": "Primary victory pledge to 'secure our borders' (Daily Montanan)",
+          "url": "https://dailymontanan.com/2026/06/02/republican-heavyweight-cruises-through-u-s-senate-primary/"
+        },
+        "taxes": {
+          "label": "Touts cutting taxes by $60 million per year as state budget director and a 'fiscally responsible budget' with strong reserves (Missoula Current)",
+          "url": "https://missoulacurrent.com/alme-files-senate/"
+        },
+        "safety": {
+          "label": "Top priority is making 'Montana communities safer': prosecuting violent criminals and drug trafficking 'all the way up to the cartels', paired with HEART Fund addiction-treatment support (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/"
+        },
+        "repro": {
+          "label": "Endorsed by SBA Pro-Life America as one who 'can be trusted to be a true pro-life champion in the Senate' (SBA Pro-Life America)",
+          "url": "https://sbaprolife.org/candidate-fund/leading-natl-pro-life-group-endorses-kurt-alme-for-mt-sen"
+        },
+        "democracy": {
+          "label": "Primary victory pledge to 'secure our elections' (Daily Montanan)",
+          "url": "https://dailymontanan.com/2026/06/02/republican-heavyweight-cruises-through-u-s-senate-primary/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "The American Leadership Fund super PAC boosting him has funded groups urging sale of federal lands; Alme says 'we need to continue to protect public lands' but declined questions on a public-lands agenda (Public Domain)",
+          "url": "https://www.publicdomain.media/p/kurt-alme-public-lands-montana"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Montana Free Press election guide: Kurt Alme",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/"
+        },
+        {
+          "label": "Daily Montanan: primary result",
+          "url": "https://dailymontanan.com/2026/06/02/republican-heavyweight-cruises-through-u-s-senate-primary/"
+        },
+        {
+          "label": "Wikipedia: Kurt Alme",
+          "url": "https://en.wikipedia.org/wiki/Kurt_Alme"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MT00295/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "climate": "checked MTFP election guide, Daily Montanan, Public Domain reporting, and campaign site (whose priorities page still shows placeholder text); says 'protect our public lands' but no clean-energy versus oil and gas position documented, and he declined Public Domain's public-lands questions",
+        "education": "only documented item is 'keep boys out of girls' sports' (Daily Montanan), incidental to the public-schools versus choice axis; no funding or voucher stance found in MTFP guide, campaign site, or launch coverage"
+      }
+    },
+    {
+      "id": "fec-S6MT00253",
+      "name": "Alani Bankhead",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Helena, MT",
+      "now": "Retired Air Force lieutenant colonel; co-hosts the 'Montana Matters' podcast",
+      "background": "Retired Air Force lieutenant colonel and federal supervisory special agent who spent about 21 years investigating child sex crimes and, in her words, 'hunted terror networks, spies, and child predators across the globe.' Won the June 2, 2026 Democratic primary with 44% in a five-way field. Refused calls from Democratic groups and former party chair Nancy Keenan to withdraw before the Aug 10 deadline, saying 'I already signed a blank check for my life to America 25 years ago', despite raising under $60,000.",
+      "priorities": [
+        "Affordability for working families",
+        "Accountability starting from the top",
+        "Protecting kids, survivors, and seniors"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": 1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'We already know universal healthcare works': expand a TRICARE-style model to everyone, funded by cutting Pentagon waste; protect Medicare and Medicaid payments to keep rural hospitals open (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "housing": {
+          "label": "'A Montana paycheck should buy a Montana home'; tax breaks for construction companies building affordable housing (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/"
+        },
+        "immigration": {
+          "label": "Mixed: secure borders and fix systemic failures AND treat migrants humanely, drawing on her anti-trafficking career (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "climate": {
+          "label": "'Public lands stay public: period', no sales or exploitation, environmental studies before data centers; 'I would never allow the exploitation or development of our public lands' (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "education": {
+          "label": "Raise Montana's last-in-the-nation starting teacher pay and deliver the promised 40% federal share of special-education funding, up from 13% (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "safety": {
+          "label": "Runs on 'a record of putting child predators in prison' from 21 years of child-protection cases, emphasizing financial-crime investigation methods (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "repro": {
+          "label": "'Reproductive freedom: trust people, not the government'; protect abortion access, citing Montana's constitutional protections (campaign positions page)",
+          "url": "https://alaniformt.com/positions"
+        },
+        "democracy": {
+          "label": "Supreme Court ethics reform on undisclosed gifts (campaign positions page); backs the 'Montana Plan' to eliminate dark money in politics (Daily Montanan)",
+          "url": "https://alaniformt.com/positions"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign positions page",
+          "url": "https://alaniformt.com/positions"
+        },
+        {
+          "label": "Montana Free Press election guide: Alani Bankhead",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/"
+        },
+        {
+          "label": "Daily Montanan: Bankhead stays in race",
+          "url": "https://dailymontanan.com/2026/08/10/bankhead-staying-in-senate-race-setting-up-a-four-way-battle/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MT00253/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "affordability is her headline priority ('Lower the price of a normal life') and she frames grocery and gas prices as a national-security matter, but no price-intervention versus deregulation mechanism is documented; checked campaign positions page, MTFP election guide, and Daily Montanan coverage",
+        "taxes": "only documented item is opposing 'taxing seniors out of family homes', a property-tax relief stance that does not fit the raise-versus-cut federal axis; checked campaign positions page and MTFP election guide"
+      }
+    },
+    {
+      "id": "fec-S6MT00287",
+      "name": "Seth Bodnar",
+      "party": "Independent",
+      "office": "us-senate",
+      "state": "MT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 47,
+      "home": "Missoula, MT",
+      "now": "Former University of Montana president (stepped down January 2026)",
+      "background": "President of the University of Montana from 2018 to January 2026, when he resigned to run; Army Green Beret with two Iraq deployments, Rhodes Scholar, West Point economics instructor, and former General Electric transportation executive. Qualified as the first independent on a Montana federal ballot since 2022, with county officials accepting 21,284 petition signatures. Leads the field in fundraising ($3.2 million raised through June 30) and says 'I'm not worried about splitting the vote. I'm worried about earning votes.'",
+      "priorities": [
+        "Bring housing and healthcare costs back in line with Montana wages",
+        "Defend public lands as common ground",
+        "Reform broken politics: ban congressional stock trading, overturn Citizens United"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": 0,
+        "immigration": 0,
+        "taxes": null,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Will 'defend Medicaid Expansion and oppose reckless cuts' stripping coverage; backs telehealth expansion and rural workforce incentives to keep rural hospitals alive (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/"
+        },
+        "housing": {
+          "label": "Mixed: build more housing by 'cutting red tape, using incentives in the tax code' AND prevent 'big private equity firms from buying up huge numbers of single-family homes' (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/"
+        },
+        "immigration": {
+          "label": "Mixed: 'We need strong borders, we need to enforce our immigration policies' but 'without trampling upon the individual liberties of American citizens' (KTVH interview)",
+          "url": "https://www.ktvh.com/news/montana-politics/bodnar-says-independent-u-s-senate-campaign-aiming-for-sensible-center"
+        },
+        "climate": {
+          "label": "'I think we need fossil fuels', with renewables 'an important component of an all-of-the-above energy strategy' (Bozeman Daily Chronicle, Glendive campaign stop)",
+          "url": "http://www.bozemandailychronicle.com/news/independent-u-s-senate-candidate-seth-bodnar-focuses-on-rural-issues-during-glendive-stop/article_093b63fd-7c6f-5bb3-8cb4-285b7628e5e8.html"
+        },
+        "repro": {
+          "label": "Supports abortion rights, per NPR's profile of the race (NPR)",
+          "url": "https://www.npr.org/2026/08/09/nx-s1-5922215/montanas-democratic-candidate-is-facing-pressure-to-drop-out-by-the-deadline"
+        },
+        "democracy": {
+          "label": "'Overturn Citizens United', 'end gerrymandering with mandatory nonpartisan redistricting', ban congressional insider trading, full financial transparency for Congress, the executive branch, and the Supreme Court (campaign platform)",
+          "url": "https://www.sethformontana.com/Platform"
+        }
+      },
+      "controversies": [
+        {
+          "label": "The University of Montana settled a sex-discrimination lawsuit for $350,000 in 2024; the 18 plaintiffs alleged wage, promotion, and opportunity gaps for women and the suit named Bodnar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Seth_Bodnar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Montana Free Press election guide: Seth Bodnar",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/"
+        },
+        {
+          "label": "Campaign platform",
+          "url": "https://www.sethformontana.com/Platform"
+        },
+        {
+          "label": "Wikipedia: Seth Bodnar",
+          "url": "https://en.wikipedia.org/wiki/Seth_Bodnar"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MT00287/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "laments 'soaring costs of housing, healthcare, and child care' and calls tariffs 'taxes that are crushing our ag producers' (Daily Montanan launch story), but no intervene-versus-deregulate mechanism beyond housing; checked campaign platform, MTFP questionnaire, KTVH, NBC Montana, and Bozeman Chronicle coverage",
+        "taxes": "only a debt concern ('The national debt continues to skyrocket') and a 'Fiscal Responsibility' platform heading with no published detail; no position on tax rates found across platform, MTFP questionnaire, and launch coverage",
+        "education": "cites public education as a priority (KTVH) and platform lists an education pillar, but no funding-versus-choice policy is published; UM presidency record is administrative rather than K-12 policy",
+        "safety": "platform pledges to 'support our law enforcement officers' as a values line with no policy mechanism, below the scoring bar; checked platform, MTFP questionnaire, Glendive stop coverage, and NPR profile"
+      }
+    },
+    {
+      "id": "fec-S6MT00261",
+      "name": "Kyle Austin",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "state": "MT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Billings, MT",
+      "now": "Pharmacist and owner of Pharm406 pharmacy in Billings",
+      "background": "Fourth-generation Montanan raised on his grandfather's Hi-Line farm near Havre, which he now owns; pharmacist for 18 years with a University of Montana PharmD and an independent pharmacy owner. A former Republican, he won the June 2, 2026 Libertarian primary with 53% (1,819 votes). Hosts a weekly 'My Fellow Montanans' livestream and has challenged all federal candidates to open debates.",
+      "priorities": [
+        "Overhaul healthcare ('Healthcare 2.0')",
+        "Cut government spending and lower taxes",
+        "Revitalize Montana agriculture"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 1,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'The cost of living is out of control' and 'anytime the government gets involved, costs go up'; answers with deregulation, not price controls (Montana Public Radio Q&A)",
+          "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
+        },
+        "health": {
+          "label": "'Healthcare 2.0': 'eliminate the insurance corruption, and eliminate government overreach', oppose subsidizing insurers, consolidate Medicare, Medicaid, Tricare, and VA for efficiency (Montana Public Radio Q&A)",
+          "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
+        },
+        "housing": {
+          "label": "'Reduce the construction barriers', zero tariffs on building materials, support 'responsible logging and lumber mills' to cut home costs (Montana Free Press election guide)",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/"
+        },
+        "taxes": {
+          "label": "'Cut government spending so we can lower taxes'; 'we need to DOGE the government on a federal level and even on the state level' (Montana Public Radio Q&A)",
+          "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
+        },
+        "democracy": {
+          "label": "Supports voter ID ('REAL ID'), comparing it to needing a driver's license, and opposes non-citizen voting (Montana Public Radio Q&A)",
+          "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Won the Libertarian primary but 'was disavowed by the Montana Libertarian Party' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Montana Public Radio: candidate Q&A",
+          "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
+        },
+        {
+          "label": "Montana Free Press election guide: Kyle Austin",
+          "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.kyleaustinmt.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MT00261/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "immigration": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site; nothing on border or legal-immigration policy (his non-citizen voting stance is scored under democracy)",
+        "climate": "fuel and fertilizer costs and an in-state fertilizer plant are ag-economics stances, not a clean-energy versus fossil position; checked MTPR, KTVQ, NBC Montana, MTFP guide, and campaign site",
+        "education": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site, nothing documented",
+        "safety": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site, nothing documented",
+        "repro": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site, nothing documented"
+      }
+    }
+  ]
+}

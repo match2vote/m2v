@@ -1,0 +1,191 @@
+{
+  "state": "WA",
+  "note": "Hand-curated, sourced entries. Washington has no statewide 2026 race (no Senate seat or governorship on the ballot), so WA-3, a Cook toss-up, is the state's first covered race.",
+  "races": {
+    "WA-house-3": {
+      "status": "general",
+      "advancing": [
+        "fec-H2WA03217",
+        "fec-H6WA03275"
+      ],
+      "statusNote": "A Cook toss-up: Rep. Marie Gluesenkamp Perez (D) and state Senate Republican leader John Braun, endorsed by President Trump, advanced from the Aug 4 top-two primary in a near tie (38.9% to 38.7% on election night), with progressive Democrat Brent Hennrich taking 15.3% and declining to endorse Gluesenkamp Perez."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-H2WA03217",
+      "name": "Marie Gluesenkamp Perez",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "WA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 38,
+      "home": "Skamania County, WA",
+      "now": "U.S. House of Representatives (WA-03)",
+      "background": "U.S. Representative for Washington's 3rd District since 2023 and co-chair of the Blue Dog Coalition; she co-owns Dean's Car Care, an auto repair shop, and has made the skilled trades and right to repair her signature issues. She upset Trump-backed Joe Kent in 2022 and beat him again in 2024, and is one of the House Democrats who most often breaks with her party. Advanced from the Aug 4, 2026 top-two primary with 38.9%.",
+      "priorities": [
+        "Right to repair and the skilled trades",
+        "Lower everyday costs for working families",
+        "Rural healthcare access"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": 0,
+        "repro": -2,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Opposes grocery chain mergers and deceptive packaging; 'a well trained workforce and higher wages for workers will increase the labor force and stabilize consumer prices' (campaign issues)",
+          "url": "https://marieforcongress.com/issues/"
+        },
+        "health": {
+          "label": "Voted no on the One Big Beautiful Bill Act, the law that cut Medicaid, which passed 218-214 (House roll call 190, 2025)",
+          "url": "https://clerk.house.gov/Votes/2025190"
+        },
+        "immigration": {
+          "label": "Broke with her party to vote for the Laken Riley Act requiring ICE detention; backs Title 42 expulsions and Remain in Mexico; one of five Democrats condemning the Biden administration's border handling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Marie_Gluesenkamp_Perez"
+        },
+        "climate": {
+          "label": "'Climate change is real and is man-made'; champions 'tax-rebates for energy efficiency upgrades for working class families' (campaign issues)",
+          "url": "https://marieforcongress.com/issues/"
+        },
+        "safety": {
+          "label": "Mixed: keep fentanyl off the streets through border security AND expanded treatment access (campaign issues)",
+          "url": "https://marieforcongress.com/issues/"
+        },
+        "repro": {
+          "label": "'Fighting to ensure every woman can see a doctor whenever she wants'; pledges to prevent a national abortion ban (campaign issues)",
+          "url": "https://marieforcongress.com/issues/"
+        },
+        "democracy": {
+          "label": "Mixed: voted for the SAVE Act's documentary proof-of-citizenship requirement twice, one of only four or five Democrats, while defending vote-by-mail as safe and refuting fraud claims (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Marie_Gluesenkamp_Perez"
+        }
+      },
+      "sources": [
+        {
+          "label": "OPB: primary result",
+          "url": "https://www.opb.org/article/2026/08/04/republican-braun-democrat-gluesenkamp-perez-advance-to-wa-3-general-election/"
+        },
+        {
+          "label": "Wikipedia: Marie Gluesenkamp Perez",
+          "url": "https://en.wikipedia.org/wiki/Marie_Gluesenkamp_Perez"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://marieforcongress.com/issues/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2WA03217/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "campaign pledges to 'bring down the cost of housing' but no mechanism documented; checked campaign issues page, House site, and OPB race profile",
+        "taxes": "checked campaign issues page, OPB race profile, and Wikipedia; no position on tax rates or spending levels documented",
+        "education": "her documented agenda (apprenticeships, Pell Grants for job training, opposing 2023 student debt relief as one of two House Democrats) does not map onto the public-schools-versus-choice axis; no voucher or K-12 funding stance found on campaign site, Wikipedia, or OPB profile"
+      }
+    },
+    {
+      "id": "fec-H6WA03275",
+      "name": "John Braun",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "WA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 59,
+      "home": "Centralia, WA",
+      "now": "Washington State Senate Republican leader (District 20)",
+      "background": "Washington state senator since 2013 and Senate Republican minority leader since the 2021 session; a seven-year Navy veteran and president of Braun Northwest, his family's emergency-vehicle manufacturing company. Endorsed by President Trump in April 2026, he advanced from the Aug 4 top-two primary with 38.7%, essentially tied with the incumbent.",
+      "priorities": [
+        "Lower the cost of living by cutting spending and red tape",
+        "Border security and fentanyl interdiction",
+        "Energy production from all sources"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Cut wasteful spending that feeds inflation, reduce red tape on small manufacturers' and protect the skilled-trades economy (campaign issues)",
+          "url": "https://votebraun.com/issues/"
+        },
+        "health": {
+          "label": "Favors making cuts to Medicaid, the federal healthcare program (OPB race profile)",
+          "url": "https://www.opb.org/article/2026/07/21/washington-3rd-district-marie-gluesenkamp-perez-john-braun/"
+        },
+        "immigration": {
+          "label": "'Complete high-priority barriers, hire and equip more agents, deploy proven technology, tighten asylum loopholes'; pursue cartel supply chains (campaign issues)",
+          "url": "https://votebraun.com/issues/"
+        },
+        "taxes": {
+          "label": "Opposed Washington's 2021 capital gains tax and the $12 billion 2025 tax package, led opposition to an income tax proposal: 'In government, we shouldn't waste your money either' (campaign about page)",
+          "url": "https://www.votebraun.com/about"
+        },
+        "climate": {
+          "label": "Champions 'market-based production including hydropower, solar, oil, natural gas and nuclear power' for affordable energy independence (campaign issues)",
+          "url": "https://votebraun.com/issues/"
+        },
+        "education": {
+          "label": "'Parents, not bureaucrats, have the right to know what's happening in their kids' classrooms'; backs parental rights legislation; authored 'the largest cuts to public university tuition in the nation' (campaign issues)",
+          "url": "https://votebraun.com/issues/"
+        },
+        "safety": {
+          "label": "'Shut down open-air drug markets', support local camping bans when shelter is available, 'supercharge fentanyl interdiction, and fund detox and mental-health beds' (campaign issues)",
+          "url": "https://votebraun.com/issues/"
+        },
+        "repro": {
+          "label": "Consistent anti-abortion voting record since 2012, including votes against birth-control coverage requirements; wants to change Washington's 1970 abortion law by 'winning hearts and minds', though his campaign says he does not back a nationwide ban (Washington State Standard)",
+          "url": "https://washingtonstatestandard.com/2026/08/11/gluesenkamp-perez-hits-braun-on-abortion-as-battle-begins-for-wa-house-seat/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://votebraun.com/issues/"
+        },
+        {
+          "label": "OPB: primary result",
+          "url": "https://www.opb.org/article/2026/08/04/republican-braun-democrat-gluesenkamp-perez-advance-to-wa-3-general-election/"
+        },
+        {
+          "label": "Washington State Standard: abortion fight in WA-3",
+          "url": "https://washingtonstatestandard.com/2026/08/11/gluesenkamp-perez-hits-braun-on-abortion-as-battle-begins-for-wa-house-seat/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WA03275/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign issues and about pages plus OPB race profile; his camping-ban stance is a public-safety item and no housing supply or renter policy is documented",
+        "democracy": "checked campaign issues and about pages, OPB race profile, and Washington State Standard coverage; no elections or voting-rules position documented"
+      }
+    }
+  ]
+}

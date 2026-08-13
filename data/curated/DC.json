@@ -1,0 +1,509 @@
+{
+  "state": "DC",
+  "note": "Hand-curated, sourced entries. DC quirk: in the overwhelmingly Democratic District, the June 16, 2026 primary (the city's first using ranked choice voting) effectively decides both races; the general is November 3.",
+  "races": {
+    "DC-house-at-large": {
+      "status": "general",
+      "advancing": [
+        "fec-H6DC01079",
+        "fec-H6DC01111",
+        "dc-house-freeman",
+        "dc-house-solana"
+      ],
+      "statusNote": "Open seat: Del. Eleanor Holmes Norton, 89, in office since 1991, ended her re-election bid on January 25, 2026. At-large Councilmember Robert White (D) won the June 16 Democratic primary with 63% over Councilmember Brooke Pinto (22%); he faces Denise Rosado (R), Kymone Freeman (Statehood Green), and David Solana (I) in November. In deep-blue DC the primary winner is the de facto winner."
+    },
+    "DC-mayor": {
+      "status": "general",
+      "statusNote": "Open seat: Mayor Muriel Bowser announced November 25, 2025 she would not seek a fourth term. Ward 4 Councilmember Janeese Lewis George (D), a democratic socialist, won the June 16 Democratic primary with 54% of first-choice votes over Kenyan McDuffie (36%); the primary effectively decides the race. Also certified for November: Robert L. Gross (Statehood Green), plus 13 independent or minor candidates including Rhonda Hamilton (I); the other 12 independents drew no substantive coverage and are not curated here. No Republican qualified."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-H6DC01079",
+      "name": "Robert White",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 44,
+      "home": "Washington, DC (Shepherd Park)",
+      "now": "At-large member, DC Council",
+      "background": "Fifth-generation Washingtonian and at-large DC councilmember since 2016; earlier spent five years as legislative counsel to Del. Eleanor Holmes Norton. Ran second to Bowser in the 2022 mayoral primary. Won the June 16, 2026 Democratic primary for the open delegate seat with 63% over Brooke Pinto (22%).",
+      "priorities": [
+        "DC statehood and defending Home Rule",
+        "Make DC affordable for working people",
+        "Good-paying jobs and youth-focused crime prevention"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": -1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Advocated 'legislation to force employers to provide 12 weeks of paid sick leave'; campaign centers on lowering household costs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
+        },
+        "housing": {
+          "label": "'Stronger federal investment in affordable housing production, preservation of existing affordable units, rehabilitation of neglected public housing', alongside increasing housing production (WTOP)",
+          "url": "https://wtop.com/dc-election/2026/06/get-to-know-dc-delegate-candidate-robert-white/"
+        },
+        "immigration": {
+          "label": "Pledges to protect DC residents 'from ICE and unaccountable federal agents' (campaign site)",
+          "url": "https://www.joinrobertwhite.com/"
+        },
+        "climate": {
+          "label": "Sponsored the Renewable Energy Future Amendment Act on the DC Council; endorsed by Sierra Club DC (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
+        },
+        "education": {
+          "label": "Wants federal funding supporting DC teachers and classrooms; wrote the Birth to Three for All DC Act expanding early childhood education (campaign site)",
+          "url": "https://www.joinrobertwhite.com/"
+        },
+        "safety": {
+          "label": "'Fully staffing our courts, supporting accountable, effective policing, and investing in violence prevention and youth opportunity'; invest to 'prevent crime before it starts' (WTOP)",
+          "url": "https://wtop.com/dc-election/2026/06/get-to-know-dc-delegate-candidate-robert-white/"
+        },
+        "democracy": {
+          "label": "'I will protect Home Rule and advance D.C. statehood, so residents have full representation and local control'; council record includes pay-to-play campaign finance limits (WTOP)",
+          "url": "https://wtop.com/dc-election/2026/06/get-to-know-dc-delegate-candidate-robert-white/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "In 2019 reversed his opposition to DC's no-bid $215M sports-betting contract after his committee gained new oversight authority, and took a $2,000 donation from an executive of a contractor facing whistleblower allegations despite an earlier no-corporate-money pledge (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.joinrobertwhite.com/"
+        },
+        {
+          "label": "NBC Washington: primary result",
+          "url": "https://www.nbcwashington.com/decision-2026/pinto-white-primary-congress/4117978/"
+        },
+        {
+          "label": "Wikipedia: Robert White",
+          "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6DC01079/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "checked campaign site, WTOP interview, and Wikipedia; campaign mentions 'accessible healthcare' among household costs but no public-versus-private mechanism documented",
+        "taxes": "checked campaign site, WTOP interview, and Wikipedia; no position on tax rates or spending documented",
+        "repro": "checked campaign site, WTOP interview, and Wikipedia, nothing documented; council-record search also empty"
+      }
+    },
+    {
+      "id": "fec-H6DC01111",
+      "name": "Denise Rosado",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Washington, DC",
+      "now": "Lawyer, former federal attorney advisor",
+      "background": "Lawyer and former federal attorney advisor, bilingual in English and Spanish. Ran unopposed for the June 16, 2026 Republican nomination for delegate; first Republican general-election contender for the seat since Norton's retirement opened it.",
+      "priorities": [
+        "Smarter, tougher public safety policy",
+        "Revitalize downtown and expand housing supply",
+        "Federal income-tax exemption for DC residents"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "housing": {
+          "label": "'If you increase the supply of housing, it will reduce demand, making housing more affordable': convert vacant properties, cut bureaucratic barriers to attract private developers, while also backing 'new investment' in affordable housing (campaign platform)",
+          "url": "https://rosadoforcongress.com/platform"
+        },
+        "safety": {
+          "label": "Calls for 'smarter, tougher public safety policy'; 'the District should continue to work with and coordinate efforts with federal law enforcement', crediting the coordination for crime drops (campaign platform)",
+          "url": "https://rosadoforcongress.com/platform"
+        },
+        "democracy": {
+          "label": "'DC cannot become a state under the Constitution as it is currently written'; says statehood requires a constitutional amendment and pushes tax exemption instead (campaign platform)",
+          "url": "https://rosadoforcongress.com/platform"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://rosadoforcongress.com/platform"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://rosadoforcongress.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6DC01111/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked campaign homepage and platform page; economic pitch is downtown revitalization and an AI/tech hub, no price-intervention versus deregulation stance documented",
+        "health": "checked campaign homepage and platform page, nothing documented",
+        "immigration": "checked campaign homepage and platform page, nothing documented",
+        "taxes": "her signature 'No Taxation Without Representation' plan (exempt DC residents from federal income tax like Puerto Rico and Guam) is a representation protest, not a raise-versus-cut position, so it does not fit this axis",
+        "climate": "checked campaign homepage and platform page, nothing documented",
+        "education": "homepage mentions 'better outcomes for our schools' with no public-versus-choice mechanism documented",
+        "repro": "checked campaign homepage and platform page, nothing documented"
+      }
+    },
+    {
+      "id": "dc-house-freeman",
+      "name": "Kymone Freeman",
+      "party": "DC Statehood Green",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Washington, DC (Southeast)",
+      "now": "Co-founder, We Act Radio",
+      "background": "Playwright, community activist, and co-founder of We Act Radio, a progressive station on Martin Luther King Jr. Avenue in Southeast DC. First challenged Norton as a Democrat in 2024; now the DC Statehood Green Party nominee, campaigning under the banner 'No Representation, No Taxes'.",
+      "priorities": [
+        "DC statehood",
+        "Federal tax resistance until DC has representation",
+        "Addressing root causes of violence and inequality"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -2,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Would mandate that HUD designate '30% of a person's income as the maximum monthly rent' (Washington Informer)",
+          "url": "https://www.washingtoninformer.com/independent-d-c-statehood-green-party-candidates-stand-against-a-unified-d-c-democratic-party/"
+        },
+        "safety": {
+          "label": "Wants to address 'root causes of violence' through holistic solutions, citing systemic resource gaps like Ward 3 having three times more grocery stores than Ward 7 (Washington Informer)",
+          "url": "https://www.washingtoninformer.com/independent-d-c-statehood-green-party-candidates-stand-against-a-unified-d-c-democratic-party/"
+        },
+        "democracy": {
+          "label": "Statehood advocate who backed Initiative 83's ranked choice voting and open primaries, opposing the 'closed primary system as a tool to silence D.C.'s growing non-party affiliated population' (Green Party US)",
+          "url": "https://www.gp.org/kymone_freeman_announces_run"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.freeman4congress.com/"
+        },
+        {
+          "label": "Washington Informer: third-party candidates",
+          "url": "https://www.washingtoninformer.com/independent-d-c-statehood-green-party-candidates-stand-against-a-unified-d-c-democratic-party/"
+        },
+        {
+          "label": "Green Party US: campaign announcement",
+          "url": "https://www.gp.org/kymone_freeman_announces_run"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked campaign site, Washington Informer coverage, and Green Party announcement; SNAP-benefits criticism is framed as economic justice, no price-intervention versus deregulation position documented",
+        "health": "checked campaign site, Washington Informer coverage, and Green Party announcement, nothing documented",
+        "immigration": "checked campaign site, Washington Informer coverage, and Green Party announcement, nothing documented",
+        "taxes": "his signature stance, 'D.C. should not be paying federal income taxes in the absence of statehood', is tax resistance tied to representation, not a raise-versus-cut position, so it does not fit this axis",
+        "climate": "checked campaign site, Washington Informer coverage, and Green Party announcement, nothing documented",
+        "education": "checked campaign site, Washington Informer coverage, and Green Party announcement, nothing documented",
+        "repro": "checked campaign site, Washington Informer coverage, and Green Party announcement, nothing documented"
+      }
+    },
+    {
+      "id": "dc-house-solana",
+      "name": "David Solana",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "background": "Independent candidate certified by the DC Board of Elections for the November 3, 2026 general election ballot for Delegate to the House. No campaign website or substantive press coverage located as of curation.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "DC Board of Elections: certified general election candidates (July 15, 2026)",
+          "url": "https://www.dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en"
+        },
+        {
+          "label": "Politics1: DC candidate directory",
+          "url": "https://politics1.com/dc.htm"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "all": "all 10 axes null: web searches and the DCBOE candidate list turned up no campaign site, platform, or press coverage documenting any policy position"
+      }
+    },
+    {
+      "id": "dc-mayor-lewis-george",
+      "name": "Janeese Lewis George",
+      "party": "Democrat",
+      "office": "mayor",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 38,
+      "home": "Washington, DC (Manor Park, Ward 4)",
+      "now": "Ward 4 member, DC Council",
+      "background": "Third-generation Washingtonian, Howard Law graduate, and former juvenile prosecutor in the DC attorney general's office; Ward 4 councilmember since 2021 and a self-described democratic socialist. Won the June 16, 2026 Democratic primary for the open mayor's seat with 54% of first-choice votes over Kenyan McDuffie (36%) in DC's first ranked-choice election.",
+      "priorities": [
+        "Universal childcare capped at 7% of household income",
+        "Publicly owned social housing and 72,000 new homes",
+        "Standing up to federal intervention in DC"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": null,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": null,
+        "education": -1,
+        "safety": -1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Universal childcare: 'every family will be eligible for childcare assistance and will spend no more than 7% of their household income on childcare'; would shield residents from Pepco and Washington Gas rate hikes (campaign platform)",
+          "url": "https://janeesefordc.com/childcare-for-all/"
+        },
+        "housing": {
+          "label": "'Dignified Homes DC, a bold commitment to build publicly owned, mixed-income housing' plus 'strengthen and expand DC's rent stabilization program', while also pledging to 'reform zoning laws, streamline the permitting process' (campaign platform)",
+          "url": "https://janeesefordc.com/homes-for-all/"
+        },
+        "immigration": {
+          "label": "Would start by 'rescinding the MPD order that permits our officers to work with ICE, sharing information and transferring people to ICE custody' (campaign platform)",
+          "url": "https://janeesefordc.com/stand-up-for-all-dc/"
+        },
+        "taxes": {
+          "label": "Backs a Business Activity Tax on law and lobbying firms worth 'an additional $500 million': 'I would not raise taxes on working families or middle class residents' (NOTUS interview)",
+          "url": "https://www.notus.org/metro/janeese-lewis-george-interview"
+        },
+        "education": {
+          "label": "'Expand after-school programming in all eight Wards', school-based mental health, special education services, and 'expand the workforce at schools' (campaign platform)",
+          "url": "https://janeesefordc.com/excellent-schools-for-all/"
+        },
+        "safety": {
+          "label": "'Comprehensive public safety strategy that addresses prevention, intervention, and enforcement' built on Community Hubs linking families to jobs and mental health services; opposes expanding teen curfew zones (campaign platform)",
+          "url": "https://janeesefordc.com/safe-communities-for-all/"
+        },
+        "democracy": {
+          "label": "Will 'walk the halls of Congress herself' toward 'protecting DC autonomy and passing DC Statehood'; pledges to protect Home Rule against federal overreach (campaign platform)",
+          "url": "https://janeesefordc.com/stand-up-for-all-dc/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://janeesefordc.com/people-first-platform/"
+        },
+        {
+          "label": "PBS NewsHour: primary result",
+          "url": "https://www.pbs.org/newshour/politics/janeese-lewis-george-wins-the-democratic-primary-for-mayor-of-washington-d-c"
+        },
+        {
+          "label": "Wikipedia: Janeese Lewis George",
+          "url": "https://en.wikipedia.org/wiki/Janeese_Lewis_George"
+        },
+        {
+          "label": "NOTUS interview",
+          "url": "https://www.notus.org/metro/janeese-lewis-george-interview"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "checked all 11 platform pages, NOTUS interview, and Wikipedia; behavioral health appears inside safety and schools plans but no public-versus-private healthcare position documented",
+        "climate": "checked platform pages, NOTUS interview, and Wikipedia; utilities plan is cost-framed (rate hikes, data centers) and her 2022 Green New Deal-inspired bills were social housing measures, no clean-energy-transition stance documented",
+        "repro": "checked platform pages, NOTUS interview, and Wikipedia, nothing documented; DC council record search also empty"
+      }
+    },
+    {
+      "id": "dc-mayor-gross",
+      "name": "Robert Gross",
+      "party": "DC Statehood Green",
+      "office": "mayor",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Washington, DC",
+      "now": "Information technology professional",
+      "background": "Washington native and military veteran who worked on aircraft before roughly a decade in information technology; attended Cardozo Education Campus. The youngest candidate in the race, running as the DC Statehood Green Party nominee on a platform of modernizing DC government with AI and closing east-of-the-river investment gaps.",
+      "priorities": [
+        "Modernize DC government operations with AI",
+        "Housing vouchers and family stability",
+        "Close economic gaps east of the Anacostia River"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Proposes the District Housing Utilization and Family Stability Act creating differentiated housing vouchers, with new construction meeting a 'Green Housing Modernization Standard'; would also streamline housing-development approvals (Green Party US)",
+          "url": "https://www.gp.org/robert_gross_proposes_modernizing_dc_government"
+        },
+        "climate": {
+          "label": "Climate resiliency agenda: clean public transportation, green infrastructure, energy-efficient buildings, and expanding the urban tree canopy (Green Party US)",
+          "url": "https://www.gp.org/robert_gross_proposes_modernizing_dc_government"
+        }
+      },
+      "sources": [
+        {
+          "label": "Green Party US: platform coverage",
+          "url": "https://www.gp.org/robert_gross_proposes_modernizing_dc_government"
+        },
+        {
+          "label": "Anacostia forum coverage",
+          "url": "https://anacostia.substack.com/p/young-mayoral-candidate-robert-gross"
+        },
+        {
+          "label": "DC Board of Elections: certified general election candidates",
+          "url": "https://www.dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Green Party platform coverage and Anacostia forum coverage; east-west 'economic equity' investment framing does not map to price intervention versus deregulation",
+        "health": "checked Green Party platform coverage and Anacostia forum coverage; 'human well-being' listed as a priority with no healthcare mechanism documented",
+        "immigration": "checked Green Party platform coverage and Anacostia forum coverage, nothing documented",
+        "taxes": "checked Green Party platform coverage and Anacostia forum coverage, nothing documented",
+        "education": "'education and opportunity' listed as a Human Life Standard priority but no public-versus-choice mechanism documented",
+        "safety": "public safety listed as a priority area with no prevention-versus-enforcement specifics documented",
+        "repro": "checked Green Party platform coverage and Anacostia forum coverage, nothing documented",
+        "democracy": "Statehood Green Party membership implies statehood support but no fetched source documents his own statehood or voting-access stance, so left null rather than inferred from party"
+      }
+    },
+    {
+      "id": "dc-mayor-hamilton",
+      "name": "Rhonda Hamilton",
+      "party": "Independent",
+      "office": "mayor",
+      "state": "DC",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Washington, DC",
+      "now": "Founder and director, M.I. Mother's Keep (mental health nonprofit)",
+      "background": "Mental health advocate and small business owner who founded the nonprofit M.I. Mother's Keep in 2015; spent 20 years in finance as a broker and owned Coldwell Banker's first African American real estate brokerage in Prince George's County. Left the Democratic Party over a decade ago and is the most-covered of the 13 independent or minor candidates certified for the November ballot.",
+      "priorities": [
+        "Housing stability",
+        "Integrating behavioral health with medical care",
+        "Budget accountability and transparency"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 0,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Would increase income-restricted subsidized units and new affordable homes, audit housing waitlists, focus on 'getting folks stabilized' (DC News Now via AOL)",
+          "url": "https://www.aol.com/articles/meet-2026-mayoral-candidates-rhonda-150029000.html"
+        },
+        "immigration": {
+          "label": "Opposes immigration enforcement in the District even while saying she understands Trump's crime concerns (DC News Now via AOL)",
+          "url": "https://www.aol.com/articles/meet-2026-mayoral-candidates-rhonda-150029000.html"
+        },
+        "safety": {
+          "label": "Mixed: supports law enforcement 'while ensuring accountability and transparency' but opposes over-policing and wants to repair 'strained community-police relationships' (DC News Now via AOL)",
+          "url": "https://www.aol.com/articles/meet-2026-mayoral-candidates-rhonda-150029000.html"
+        }
+      },
+      "sources": [
+        {
+          "label": "DC News Now candidate profile (via AOL)",
+          "url": "https://www.aol.com/articles/meet-2026-mayoral-candidates-rhonda-150029000.html"
+        },
+        {
+          "label": "Washington Informer: independent candidates",
+          "url": "https://www.washingtoninformer.com/independent-d-c-statehood-green-party-candidates-stand-against-a-unified-d-c-democratic-party/"
+        },
+        {
+          "label": "DC Board of Elections: certified general election candidates",
+          "url": "https://www.dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "'we have to better manage our assets' is a stewardship line, no price-intervention versus deregulation position documented",
+        "health": "wants to integrate behavioral health with general medical care to lower patient costs, a delivery reform that does not map to the public-versus-private axis",
+        "taxes": "checked DC News Now profile and Washington Informer coverage, nothing documented",
+        "climate": "checked DC News Now profile and Washington Informer coverage, nothing documented",
+        "education": "checked DC News Now profile and Washington Informer coverage; 'investments in youth' has no public-versus-choice mechanism documented",
+        "repro": "checked DC News Now profile and Washington Informer coverage, nothing documented",
+        "democracy": "checked DC News Now profile and Washington Informer coverage; anti-partisan framing and transparency talk, no voting-access or statehood position documented"
+      }
+    }
+  ]
+}

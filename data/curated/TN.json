@@ -1,0 +1,181 @@
+{
+  "state": "TN",
+  "note": "Hand-curated, sourced entries. Open seat (Gov. Lee term-limited).",
+  "races": {
+    "TN-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Lee term-limited): Sen. Marsha Blackburn (R) won the Aug 6 primary 43.8% to 32.6% over Rep. John Rose; Memphis City Council member Jerri Green (D) won the Democratic primary the same night. Tennessee is guaranteed its first female governor."
+    }
+  },
+  "candidates": [
+    {
+      "id": "tn-gov-blackburn",
+      "name": "Marsha Blackburn",
+      "party": "Republican",
+      "office": "governor",
+      "state": "TN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 74,
+      "home": "Brentwood, TN",
+      "now": "U.S. Senator from Tennessee (since 2019)",
+      "background": "U.S. Senator since 2019 after 16 years representing Tennessee's 7th District in the House; former state senator and owner of a promotion-event management firm. Raised $10.8 million and won the Aug 6 Republican gubernatorial primary 43.8% to 32.6% over Rep. John Rose.",
+      "priorities": [
+        "Cutting taxes to bolster the economy",
+        "Stopping illegal immigration",
+        "Keeping communities safe"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Tennesseans know the false promises of a government-controlled system'; wants 'a patient-centered system where families and doctors can make their decisions' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "immigration": {
+          "label": "'Secure the border to stem the flow of illegal immigration', deport those who commit crimes, stop sanctuary cities (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "taxes": {
+          "label": "Pledges to 'maintain President Trump's tax cuts' and a tax code that is 'simple, fair, low, and permanent' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "education": {
+          "label": "'Expanding school choice, increasing charter school options, making homeschooling easier'; campaign vows to fight 'woke anti-American curriculum' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "safety": {
+          "label": "Law enforcement 'don't need the federal government to tell them how to do their jobs'; pledges resources to help them keep Tennesseans safe (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "repro": {
+          "label": "'100 percent pro-life' and 'has always fought to ban late term abortions'; campaign plank on 'defending the innocent right to life' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        "democracy": {
+          "label": "Campaign plank on 'Protecting Tennessee Elections And Supporting Party Registration' (campaign issues)",
+          "url": "https://marshablackburn.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Marsha_Blackburn"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://marshablackburn.com/issues/"
+        },
+        {
+          "label": "CBS News: GOP primary result",
+          "url": "https://www.cbsnews.com/news/tennessee-governor-republican-primary-results-marsha-blackburn-john-rose/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Ballotpedia and campaign issues page; 'cutting taxes to bolster our economy' is scored on the taxes axis and no separate price or cost-of-living mechanism is documented",
+        "housing": "checked Ballotpedia and the campaign issues list; nothing documented",
+        "climate": "checked Ballotpedia and the campaign issues list; only a 2012-era statement supporting Clean Water Act goals is documented, which does not fit the clean-energy versus expand-all-sources axis"
+      }
+    },
+    {
+      "id": "tn-gov-green",
+      "name": "Jerri Green",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "TN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Memphis, TN",
+      "now": "Memphis City Council member (District 2)",
+      "background": "Memphis City Council member since 2024, former public defender, and community-engagement director at Memphis's Community Legal Center; Georgetown Law graduate who has worked across Tennessee's judicial, legislative, and executive branches. Calls herself 'One Tough Mother.' Won the Aug 6 Democratic primary over four opponents.",
+      "priorities": [
+        "Expand Medicaid and keep rural hospitals open",
+        "Fully fund K-12 public education",
+        "Affordable housing and childcare"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "$50 million in TANF funds to clear the childcare waitlist 'for every family' and expand paid family leave (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "health": {
+          "label": "'Expand Medicaid to cover more working families and keep rural hospitals open'; calls healthcare access a right every citizen should have (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "housing": {
+          "label": "Use TANF funds to 'waive security deposits and ensure affordable housing for 100,000+ Tennessee families' (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "immigration": {
+          "label": "'Stop the cooperation between the Tennessee Highway Patrol and ICE to protect our immigrant neighbors'; legal representation in deportation cases (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "taxes": {
+          "label": "Fund initiatives by 'closing corporate loopholes' and ending voucher spending, without raising taxes on working families (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "climate": {
+          "label": "'Protect Tennessee's rivers, forests, farmland, and public lands from pollution' and invest in renewable energy (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "education": {
+          "label": "'Fully fund K-12 public education, not siphon dollars into unaccountable voucher schemes'; raise teacher pay (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        "repro": {
+          "label": "'Repeal Tennessee's near-total abortion ban' and restore access including contraception and emergency care (campaign policy agenda)",
+          "url": "https://greenforgovernor.com/policy/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign policy agenda",
+          "url": "https://greenforgovernor.com/policy/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jerri_Green"
+        },
+        {
+          "label": "WSMV: Democratic primary result",
+          "url": "https://www.wsmv.com/2026/08/07/jerri-green-wins-tennessee-democratic-gubernatorial-primary/"
+        },
+        {
+          "label": "Fox17/AP: primary projection",
+          "url": "https://fox17.com/news/local/ap-projects-jerri-green-wins-tennessee-democratic-primary-for-governor-and-advances-to-november-general-election-to-succeed-term-limited-gov-bill-lee"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "safety": "her documented public-safety items (universal background checks, red flag laws) are gun measures, which are excluded from this axis by policy; no non-gun policing or sentencing stance found on campaign policy agenda, Ballotpedia, or WSMV coverage",
+        "democracy": "campaign mentions 'greater government transparency' but no voting-access or election-rules stance documented on campaign policy agenda, Ballotpedia, or news coverage fetched"
+      }
+    }
+  ]
+}

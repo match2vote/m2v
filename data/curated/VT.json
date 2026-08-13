@@ -1,0 +1,171 @@
+{
+  "state": "VT",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "VT-governor": {
+      "status": "general",
+      "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term; he was unopposed in the Aug 11 primary. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "vt-gov-scott",
+      "name": "Phil Scott",
+      "party": "Republican",
+      "office": "governor",
+      "state": "VT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 68,
+      "home": "Berlin, VT",
+      "now": "Governor of Vermont (since 2017)",
+      "background": "Governor since 2017 and the nation's most popular governor in Morning Consult polling (74% approval, Feb 2026). Co-owned DuBois Construction and led the Associated General Contractors of Vermont before serving as state senator and lieutenant governor. Announced May 28 he would seek a sixth term and was unopposed in the Aug 11 Republican primary.",
+      "priorities": [
+        "Making Vermont more affordable",
+        "Education reform, including school district consolidation",
+        "Common-sense, collaborative governing"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 1,
+        "immigration": -1,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Centers his bid on Vermont's 'affordability crisis'; pursues school district consolidation and school funding changes to restrain costs rather than new subsidies (VTDigger)",
+          "url": "https://vtdigger.org/2026/05/28/gov-phil-scott-is-running-for-reelection/"
+        },
+        "housing": {
+          "label": "Has pushed reform of Vermont's Act 250 land-use permitting process to make it easier to build (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
+        },
+        "immigration": {
+          "label": "Signed a 2017 law limiting Vermont police involvement in federal immigration enforcement; opposed Trump administration immigration policies (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
+        },
+        "taxes": {
+          "label": "Vetoed the FY19 budget twice over legislators' tax increases and has repeatedly blocked property tax hikes (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
+        },
+        "climate": {
+          "label": "Vetoed the S.5 clean heat standard: 'The risk to Vermonters and our economy throughout the state is too great' (VTDigger)",
+          "url": "https://vtdigger.org/2023/05/04/phil-scott-vetoes-bill-that-would-set-up-a-clean-heat-standard/"
+        },
+        "repro": {
+          "label": "Signed the 2019 abortion-rights law, among the most wide-ranging in the U.S., and the voter-approved constitutional amendment protecting abortion rights (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
+        }
+      },
+      "sources": [
+        {
+          "label": "VTDigger: reelection announcement",
+          "url": "https://vtdigger.org/2026/05/28/gov-phil-scott-is-running-for-reelection/"
+        },
+        {
+          "label": "Wikipedia: Phil Scott",
+          "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)"
+        },
+        {
+          "label": "270toWin: Vermont primary (unopposed for renomination)",
+          "url": "https://www.270towin.com/2026-election-results-live/state/vermont/primary/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "checked Wikipedia profile and VTDigger reelection announcement; no documented stance on public versus private role in health coverage",
+        "education": "signed a 2025 education reform bill and pushes district consolidation, but that is a structural cost measure, not a public-investment versus school-choice stance; checked Wikipedia and VTDigger announcement",
+        "safety": "checked Wikipedia profile and campaign announcement coverage; gun bills he signed are excluded from this axis by policy and no other criminal-justice stance was documented",
+        "democracy": "checked Wikipedia profile and VTDigger announcement; Vermont's mail-ballot law and any voting-access stance were not documented in pages fetched"
+      }
+    },
+    {
+      "id": "vt-gov-janoo",
+      "name": "Amanda Janoo",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "VT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Burlington, VT",
+      "now": "Economist; co-founder of the Wellbeing Economy Alliance of Vermont",
+      "background": "Economist and first-time candidate who has advised governments in the U.S. and abroad on economic policy; grew up in rural Vermont. A political unknown when she entered the race in March, she ran as the anti-establishment choice and won the Aug 11 Democratic primary with about 49% to Aly Richards's 46%.",
+      "priorities": [
+        "Universal publicly funded primary and preventive care",
+        "Affordable housing and taxing investor-owned properties",
+        "Strengthening local businesses and community-owned energy"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Universal free primary and preventive care with no copays or deductibles, funded publicly as groundwork for comprehensive universal healthcare (campaign platform)",
+          "url": "https://www.janooforvt.com/platform-page/"
+        },
+        "housing": {
+          "label": "Expand permanently affordable housing through community land trusts and shift property taxes onto 'luxury second homes, commercial vacation rentals, vacant investment properties' (campaign platform)",
+          "url": "https://www.janooforvt.com/platform-page/"
+        },
+        "immigration": {
+          "label": "Pledges to protect immigrant neighbors: 'If you come for our neighbors, you'll have to come through us first' (campaign site)",
+          "url": "https://www.janooforvt.com/"
+        },
+        "taxes": {
+          "label": "2% income surcharge above $250,000 and 8% above $500,000, plus taxes on digital advertising and private-equity-owned property (Vermont Public)",
+          "url": "https://www.vermontpublic.org/local-news/2026-08-13/vermont-democrats-rally-behind-amanda-janoo-gop-sees-opportunity"
+        },
+        "climate": {
+          "label": "Community-owned renewable energy and regenerative agriculture; opposes energy-intensive AI data centers and the new nuclear proposed to power them (campaign platform)",
+          "url": "https://www.janooforvt.com/platform-page/"
+        },
+        "education": {
+          "label": "Community schools as 'shared civic infrastructure' with healthcare and childcare inside; protects rural schools rather than consolidating them (campaign platform)",
+          "url": "https://www.janooforvt.com/platform-page/"
+        },
+        "repro": {
+          "label": "Platform commits to defending constitutional freedoms including reproductive freedom (campaign platform)",
+          "url": "https://www.janooforvt.com/platform-page/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://www.janooforvt.com/platform-page/"
+        },
+        {
+          "label": "VTDigger: primary results",
+          "url": "https://vtdigger.org/2026/08/11/the-latest-results-from-vermonts-2026-primary-election/"
+        },
+        {
+          "label": "Vermont Public: Democrats rally behind Janoo",
+          "url": "https://www.vermontpublic.org/local-news/2026-08-13/vermont-democrats-rally-behind-amanda-janoo-gop-sees-opportunity"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked campaign platform and Vermont Public coverage; her affordability frame is 'keeping wealth circulating in our communities' via local business investment, which fits neither direct intervention nor deregulation on this axis",
+        "safety": "checked campaign platform and campaign home page, no criminal-justice or policing stance documented",
+        "democracy": "platform proposes citizens' assemblies and participatory budgeting, which do not map to the voting-access versus voter-ID axis; no voting-rules stance documented on pages fetched"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "state": "OK",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "OK-governor": {
+      "status": "primary-pending",
+      "statusNote": "Open seat (Gov. Stitt term-limited). The June 16 GOP primary went to an Aug 25 runoff: Attorney General Gentner Drummond and former state Sen. Mike Mazzei each took just over 25% in a nine-candidate field, so the Republican nominee is not final. House Minority Leader Cyndi Munson won the Democratic nomination June 16 with 75.1%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "ok-gov-drummond",
+      "name": "Gentner Drummond",
+      "party": "Republican",
+      "office": "governor",
+      "state": "OK",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 62,
+      "home": "Tulsa, OK",
+      "now": "Attorney General of Oklahoma (since 2023)",
+      "background": "Oklahoma Attorney General since 2023; former Air Force F-15 pilot who flew in the Gulf War's first combat mission, Osage County rancher, banking lawyer, and principal owner of Blue Sky Bank. Led the June 16 primary with just over 25% and faces Mike Mazzei in the Aug 25 Republican runoff.",
+      "priorities": [
+        "Lower costs, including insurance rates",
+        "Crack down on cartels and support law enforcement",
+        "Education 'From 50th to First Class'"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 1,
+        "education": -1,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would lower costs by confronting insurance companies and corporations rather than through broad tax cuts (News9 candidate guide)",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/who-should-i-vote-for-leading-oklahoma-governor-candidates-at-a-glance"
+        },
+        "immigration": {
+          "label": "'Strong supporter of President Trump's border policies', tougher immigration enforcement and cooperation with federal authorities (News9 candidate guide)",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/who-should-i-vote-for-leading-oklahoma-governor-candidates-at-a-glance"
+        },
+        "taxes": {
+          "label": "'Cut taxes responsibly without sacrificing schools, roads, or public safety', with property tax relief (campaign issues)",
+          "url": "https://drummondok.com/issues/"
+        },
+        "climate": {
+          "label": "Joined Republican AGs opposing the lesser prairie-chicken endangered listing and Clean Water Act changes as 'burdensome regulations' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gentner_Drummond"
+        },
+        "education": {
+          "label": "Education plan invests in public schools: reading by 3rd grade, CareerTech expansion, incentivizing teachers; as AG he blocked the St. Isidore religious charter school (campaign issues)",
+          "url": "https://drummondok.com/issues/"
+        },
+        "safety": {
+          "label": "'Crack down on cartel activity and drug trafficking' and 'support and strengthen local law enforcement'; created a state Top 10 Most Wanted list (campaign issues)",
+          "url": "https://drummondok.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://drummondok.com/issues/"
+        },
+        {
+          "label": "KOSU: primary results and runoff",
+          "url": "https://www.kosu.org/2026-oklahoma-governor-primary-election-results"
+        },
+        {
+          "label": "Wikipedia: Gentner Drummond",
+          "url": "https://en.wikipedia.org/wiki/Gentner_Drummond"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Gentner_Drummond"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "campaign healthcare plank is cost-focused (price transparency, rural hospital partnerships, holding insurers accountable) with no stance on public versus private coverage role; Ballotpedia and Wikipedia also empty on this axis",
+        "housing": "checked campaign issues page, Ballotpedia, Wikipedia, News9 candidate guide; property tax relief is his only housing-adjacent item and it does not fit the axis",
+        "repro": "checked campaign issues page, Ballotpedia, Wikipedia, and News9 candidate guide; no abortion stance documented (Ballotpedia records only his opposition to marijuana legalization SQ 820)",
+        "democracy": "checked campaign issues page, Ballotpedia, Wikipedia, News9 candidate guide; no election-law or voting stance documented"
+      }
+    },
+    {
+      "id": "ok-gov-mazzei",
+      "name": "Mike Mazzei",
+      "party": "Republican",
+      "office": "governor",
+      "state": "OK",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": null,
+      "home": "Tulsa, OK",
+      "now": "Financial planner; founder and president of The Financial Coach, Inc.",
+      "background": "Former state senator for the Bixby area (2004-2016) who twice chaired the Senate Finance Committee, and Gov. Stitt's first Secretary of Budget. Founder of a Tulsa financial planning firm. Advanced to the Aug 25 Republican runoff with just over 25% on June 16; endorsed by President Trump per his campaign site.",
+      "priorities": [
+        "Eliminate the state income tax in phases",
+        "Statewide literacy initiative",
+        "Lower the cost of living for families"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 0,
+        "safety": 2,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Lower the cost of living for families' by cutting taxes and making government live within its means (campaign issues)",
+          "url": "https://mikeforok.com/the-issues/"
+        },
+        "immigration": {
+          "label": "Pledges prosecuting criminals and deporting undocumented immigrants, plus stronger action against cartels and foreign influence (KOSU)",
+          "url": "https://www.kosu.org/local-news/2025-04-04/mike-mazzei-launches-bid-for-governor-vows-education-reform-and-tax-cuts"
+        },
+        "taxes": {
+          "label": "Three-phase plan to eliminate the state income tax, starting with a cut from 4.75% to 3.25%; calls the tax code 'a giant octopus' (KOSU)",
+          "url": "https://www.kosu.org/local-news/2025-04-04/mike-mazzei-launches-bid-for-governor-vows-education-reform-and-tax-cuts"
+        },
+        "education": {
+          "label": "Mixed: up to $150 million for phonics-based reading programs and a statewide literacy director, while vowing to remove 'woke ideology' from classrooms (KOSU)",
+          "url": "https://www.kosu.org/local-news/2025-04-04/mike-mazzei-launches-bid-for-governor-vows-education-reform-and-tax-cuts"
+        },
+        "safety": {
+          "label": "Targets 'Mexican cartels and illegal marijuana operations' as top public safety priorities (News9 candidate guide)",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/who-should-i-vote-for-leading-oklahoma-governor-candidates-at-a-glance"
+        },
+        "repro": {
+          "label": "'Life begins at conception'; opposes abortion in all circumstances (campaign issues)",
+          "url": "https://mikeforok.com/the-issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://mikeforok.com/the-issues/"
+        },
+        {
+          "label": "KOSU: campaign launch",
+          "url": "https://www.kosu.org/local-news/2025-04-04/mike-mazzei-launches-bid-for-governor-vows-education-reform-and-tax-cuts"
+        },
+        {
+          "label": "KOSU: primary results and runoff",
+          "url": "https://www.kosu.org/2026-oklahoma-governor-primary-election-results"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mike_Mazzei"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no healthcare stance documented",
+        "housing": "his 'no Oklahoman should be taxed out of their home' plank is senior and veteran property tax relief, not a build-versus-protect housing stance; checked campaign site, KOSU, Ballotpedia",
+        "climate": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no energy or climate stance documented",
+        "democracy": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no election-law stance documented"
+      }
+    },
+    {
+      "id": "ok-gov-munson",
+      "name": "Cyndi Munson",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "OK",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 41,
+      "home": "Oklahoma City, OK",
+      "now": "Oklahoma House Minority Leader",
+      "background": "Oklahoma House minority leader and the first Asian American elected to the Oklahoma Legislature; daughter of a Vietnam veteran and a South Korean immigrant mother, and a first-generation college graduate. Worked in nonprofits before winning her Oklahoma City House seat in 2015. Won the June 16 Democratic primary with 75.1%.",
+      "priorities": [
+        "Public school funding and teacher raises",
+        "Lower healthcare and prescription drug costs",
+        "Let voters repeal the abortion ban"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs Oklahoma's voter-approved Medicaid expansion covering roughly 200,000 working Oklahomans; would cut drug and premium costs (KOSU)",
+          "url": "https://www.kosu.org/cyndi-munson-oklahoma-2026-gubernatorial-election"
+        },
+        "education": {
+          "label": "Bring public school funding over the regional average, raise educator pay, and eliminate the private-school voucher tax credit (campaign priorities)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "safety": {
+          "label": "Emphasizes 'prevention and addressing root causes of crime' through mental health services (News9 candidate guide)",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/who-should-i-vote-for-leading-oklahoma-governor-candidates-at-a-glance"
+        },
+        "repro": {
+          "label": "Would 'send the repeal of the abortion ban to a vote of the people' (campaign priorities)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        {
+          "label": "KOSU: primary results",
+          "url": "https://www.kosu.org/2026-oklahoma-governor-primary-election-results"
+        },
+        {
+          "label": "KOSU: candidate profile",
+          "url": "https://www.kosu.org/cyndi-munson-oklahoma-2026-gubernatorial-election"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "her affordability record is the grocery-tax repeal she championed plus unspecified healthcare cost reductions; targeted tax relief without an intervene-or-deregulate mechanism does not fit this axis (checked campaign priorities, KOSU profile, News9 guide)",
+        "housing": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented",
+        "immigration": "News9 notes immigration is not a campaign focus; no stance documented on campaign priorities page or KOSU profile",
+        "taxes": "supports 'targeted tax relief for working families' and expanded credits rather than broad cuts or raising taxes on corporations; per calibration, targeted household tax cuts do not fit the axis (News9, campaign priorities)",
+        "climate": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented",
+        "democracy": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented"
+      }
+    }
+  ]
+}

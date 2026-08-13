@@ -1,0 +1,288 @@
+{
+  "state": "MA",
+  "note": "Hand-curated, sourced entries. Democratic primary contested (Markey vs. Moulton); primary Sept 1, 2026.",
+  "races": {
+    "MA-senate": {
+      "status": "primary-pending",
+      "statusNote": "Primary is September 1, 2026, so nominees are not final. Sen. Ed Markey faces Rep. Seth Moulton in the Democratic primary; John Deaton is the only Republican on the primary ballot."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4MA00028",
+      "name": "Ed Markey",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MA",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 80,
+      "home": "Malden, MA",
+      "now": "U.S. Senator from Massachusetts",
+      "background": "U.S. Senator since 2013 after 37 years representing Massachusetts in the House; son of a Malden milkman who worked as an ice cream man to pay for college. Senate author of the Green New Deal and a longtime progressive on climate and telecommunications policy. Seeking a third full term at age 80 while facing a primary challenge from Rep. Seth Moulton.",
+      "priorities": [
+        "Bold climate action and clean energy investment",
+        "Lower costs and protect workers",
+        "Expand healthcare access and hold corporations accountable"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Co-authored the Freedom to Move Act offering $5 billion in annual grants for fare-free transit; campaign pledges to 'lower costs, expand opportunity, protect workers' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "health": {
+          "label": "One of 16 senators to cosponsor the 2017 Medicare for All Act expanding Medicare to all residents (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "housing": {
+          "label": "Co-led the Green New Deal for Public Housing Act: $234 billion for public housing and repeal of the Faircloth Amendment to allow new public housing construction (Markey Senate office)",
+          "url": "https://www.markey.senate.gov/news/press-releases/markey-joins-sanders-and-ocasio-cortez-in-reintroducing-green-new-deal-for-public-housing-act"
+        },
+        "immigration": {
+          "label": "Co-sponsored the Protecting Sensitive Locations Act limiting ICE enforcement at schools and hospitals; backed protecting military family members from deportation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "taxes": {
+          "label": "Equal Tax Act co-lead: 'requiring millionaires and billionaires to pay taxes on investment income the same way working people pay taxes on their earnings' (Rep. Ramirez press release)",
+          "url": "https://ramirez.house.gov/media/press-releases/tax-day-ramirez-markey-call-congress-tax-rich"
+        },
+        "climate": {
+          "label": "Senate author of the Green New Deal calling for '100% renewable, zero-emission energy sources' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "education": {
+          "label": "Supports universal preschool for 3- and 4-year-olds; co-sponsored the Child Care for Working Families Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "safety": {
+          "label": "Campaign pledges to 'invest in prevention' and 'ensure a fair, just system for all' (campaign site)",
+          "url": "https://www.edmarkey.com/issues/"
+        },
+        "repro": {
+          "label": "Opposes abortion restrictions; wore an abortion rights pin to the 2023 State of the Union (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        "democracy": {
+          "label": "'We need to abolish the filibuster for the sake of democracy and pass voting rights legislation', backing the Freedom to Vote: John R. Lewis Act (Markey Senate office)",
+          "url": "https://www.markey.senate.gov/news/press-releases/senator-markey-statement-on-republican-obstruction-of-voting-rights-legislation"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Faces calls to retire due to age; he will be 80 at the time of the election and Moulton has made generational change the center of his challenge (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.edmarkey.com/issues/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4MA00028/"
+        },
+        {
+          "label": "Wikipedia: Ed Markey",
+          "url": "https://en.wikipedia.org/wiki/Ed_Markey"
+        },
+        {
+          "label": "MA Secretary of State: 2026 Democratic primary candidates",
+          "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/dem-state-primary-candidates2026.htm"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6MA00296",
+      "name": "Seth Moulton",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MA",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 47,
+      "home": "Salem, MA",
+      "now": "U.S. Representative, MA-06",
+      "background": "U.S. Representative for Massachusetts's 6th district since 2015; Marine Corps captain who served four tours in Iraq and earned two Bronze Stars with valor. Harvard physics graduate with an MBA/MPA. Announced his primary challenge to Sen. Markey in October 2025, arguing for 'a new generation of leadership' and citing Markey's age.",
+      "priorities": [
+        "American Affordability Agenda: housing, healthcare, and education as human rights",
+        "A new generation of leadership in the Senate",
+        "Protecting elections from federal interference"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Affordability Agenda extends prescription drug price caps to all plans, offers mortgage assistance, and frames 'housing, healthcare and education are human rights' (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "health": {
+          "label": "Backs a 'national public option to lower premiums', extended ACA subsidies, and restricting pharmacy benefit managers (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "housing": {
+          "label": "Mixed approach: ban private equity from buying homes and strengthen renter protections, alongside building via infill development and ADUs (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "immigration": {
+          "label": "Campaign publishes a Know Your Rights guide for ICE encounters: 'ICE needs a valid warrant signed by a judge to enter your home' (campaign site)",
+          "url": "https://sethmoulton.com/issue/know-your-rights-immigration-ice/"
+        },
+        "taxes": {
+          "label": "Funds his agenda with 'a national wealth tax on mega-millionaires and by closing tax loopholes', projected to raise over $3.5 trillion in ten years (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "climate": {
+          "label": "Supports carbon pricing, banning fossil fuel extraction on federal lands, renewable expansion plus nuclear; signed onto the Green New Deal in 2018 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Seth_Moulton"
+        },
+        "education": {
+          "label": "Universal pre-K for all 4-year-olds and expanded free community college and vocational training (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "safety": {
+          "label": "Author of the law creating the national 988 mental health crisis line and sponsor of the Brandon Act on military mental health reporting (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Seth_Moulton"
+        },
+        "repro": {
+          "label": "Affordability Agenda 'codifies abortion protections' and expands maternal care funding (campaign site)",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        "democracy": {
+          "label": "Would prohibit federal agents at polling places, protect election officials from intimidation, and fund election cybersecurity (campaign site)",
+          "url": "https://sethmoulton.com/issue/protecting-election-integrity/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Returned $120,000 in AIPAC donations citing the group's support for Netanyahu, though reports said he retained over $40,000; his November 2024 comments on transgender athletes drew backlash he later walked back (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Seth_Moulton"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign: American Affordability Agenda",
+          "url": "https://sethmoulton.com/issue/affordability-agenda/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MA00296/"
+        },
+        {
+          "label": "Wikipedia: Seth Moulton",
+          "url": "https://en.wikipedia.org/wiki/Seth_Moulton"
+        },
+        {
+          "label": "MA Secretary of State: 2026 Democratic primary candidates",
+          "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/dem-state-primary-candidates2026.htm"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6MA00304",
+      "name": "John Deaton",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MA",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "age": 59,
+      "home": "Bolton, MA",
+      "now": "Trial attorney and Marine Corps veteran",
+      "background": "Trial attorney and Marine Corps Major (medically retired) who grew up in generational poverty in Highland Park, Michigan, and was the only member of his family to finish high school. Nationally known for representing over 75,000 XRP token holders against the SEC. Lost the 2024 Senate race to Elizabeth Warren 60 to 40 after winning the GOP primary with 64.5%; he is the only Republican on the 2026 primary ballot.",
+      "priorities": [
+        "Housing affordability: build five million new homes in five years",
+        "Patients Before Profits healthcare reform targeting PBMs",
+        "Term limits and government reform (Clean Hands Initiative)"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 2,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Blames government spending for inflation harming working families; would control federal spending and eliminate 'wasteful and unnecessary pork-barrel spending' (Ballotpedia)",
+          "url": "https://ballotpedia.org/John_Deaton_(Massachusetts)"
+        },
+        "health": {
+          "label": "'Patients Before Profits' plan: ban secret PBM rebates, end PBM-insurer-pharmacy vertical integration, expand telehealth across state lines (campaign site)",
+          "url": "https://www.johndeatonforsenate.com/"
+        },
+        "housing": {
+          "label": "Build five million homes in five years by cutting federal and state red tape and reforming zoning so private construction can build (campaign site)",
+          "url": "https://www.johndeatonforsenate.com/"
+        },
+        "immigration": {
+          "label": "Pledged to 'secure the border, end catch and release, and fight to reform the asylum process, while expanding legal immigration' (Ballotpedia)",
+          "url": "https://ballotpedia.org/John_Deaton_(Massachusetts)"
+        },
+        "taxes": {
+          "label": "Backs tax relief, citing 65% voter support for an income tax cut, paired with his pledge to rein in federal spending (campaign site)",
+          "url": "https://www.johndeatonforsenate.com/"
+        },
+        "climate": {
+          "label": "Opposed the Green New Deal; supports clean energy transition 'without punishing American workers' through 'reasonable sustainable growth' (Ballotpedia)",
+          "url": "https://ballotpedia.org/John_Deaton_(Massachusetts)"
+        },
+        "repro": {
+          "label": "Pro-choice: supports codifying Roe v. Wade and pledged to leave the Republican Party if the GOP pursues a national abortion ban (Axios)",
+          "url": "https://www.axios.com/local/boston/2024/10/02/elizabeth-warren-john-deaton-abortion-switch-parties-gop"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.johndeatonforsenate.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MA00304/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/John_Deaton_(Massachusetts)"
+        },
+        {
+          "label": "MA Secretary of State: 2026 Republican primary candidates",
+          "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/rep-state-primary-candidates2026.htm"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

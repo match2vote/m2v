@@ -36,7 +36,10 @@ export function OfficialBallot() {
     // less shows no percentages and no star (see docs/design/match-confidence.md).
     const realAnswers = q ? Object.values(q.answers || {}).filter((v) => v !== null && v !== undefined).length : 0;
     setQuiz(q && q.done && realAnswers >= 3 ? { ...q, realAnswers } : null);
-    const code = s || p[p.length - 1]?.state || null;
+    // Ballot state comes ONLY from the explicit "Where do you vote?" choice.
+    // (Previously fell back to the last marked pick's state, which could
+    // surface a state the user merely browsed. Killed Aug 13.)
+    const code = s || null;
     setStateCode(code);
     if (code) getStateData(code, setData).then((d) => d && setData(d));
   }, []);

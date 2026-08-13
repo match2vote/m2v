@@ -128,7 +128,7 @@ function Welcome({ onStart }) {
     <Screen>
       <View style={{ flex: 1, justifyContent: 'center' }}>
         <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(3) }}>
-          M2V · MATCH TO VOTE
+          WELCOME TO MATCH TO VOTE
         </Body>
         <H1 style={{ fontSize: 42, lineHeight: 48 }}>
           Who actually{'\n'}agrees with you?

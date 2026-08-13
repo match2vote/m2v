@@ -13,8 +13,13 @@ const { space } = theme;
 export function ChooseState({ onboarding, onDone }) {
   const { colors } = useTheme();
   const nav = useNav();
+  const [showAll, setShowAll] = React.useState(false);
   const cov = getCoverage();
   const covered = Object.fromEntries(cov.states.map((s) => [s.code, s]));
+  // Covered states first; everyone else behind an honest "not listed" reveal.
+  const coveredList = STATE_LIST.filter((s) => covered[s.code]);
+  const restList = STATE_LIST.filter((s) => !covered[s.code]);
+  const shown = showAll ? [...coveredList, ...restList] : coveredList;
 
   const pick = (code) => {
     kv.set('m2v:ballotState', code);
@@ -30,9 +35,10 @@ export function ChooseState({ onboarding, onDone }) {
       </Text>
       <Body soft style={{ fontSize: 14, marginTop: 4, marginBottom: space(3) }}>
         This sets which ballot you see. You can change it anytime from Home.
+        These are the {coveredList.length} states we've researched so far.
       </Body>
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
-        {STATE_LIST.map((s) => {
+        {shown.map((s) => {
           const c = covered[s.code];
           return (
             <Pressable
@@ -56,9 +62,23 @@ export function ChooseState({ onboarding, onDone }) {
             </Pressable>
           );
         })}
+        {!showAll && (
+          <Pressable
+            onPress={() => setShowAll(true)}
+            style={({ pressed }) => [{
+              paddingVertical: 13, paddingHorizontal: 16, borderWidth: 1, borderRadius: 14,
+              borderColor: colors.line, borderStyle: 'dashed', alignItems: 'center', marginBottom: 8,
+            }, pressed && { opacity: 0.7 }]}
+          >
+            <Text style={{ fontSize: 15, fontWeight: '700', color: colors.inkSoft }}>
+              My state isn't listed ▾
+            </Text>
+          </Pressable>
+        )}
         <Body soft style={{ fontSize: 12.5, marginVertical: space(3), textAlign: 'center' }}>
-          Not-covered states still get the how-to-vote guide, and we're adding
-          races weekly through Election Day.
+          {showAll
+            ? "Not-covered states still get the how-to-vote guide, and we're adding races weekly through Election Day."
+            : "Don't see yours? Tap above, you can still use the how-to-vote guide while we add more states."}
         </Body>
       </ScrollView>
     </Screen>

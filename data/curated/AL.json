@@ -35,18 +35,26 @@
         "Back law enforcement and the pro-life movement"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": 1,
         "safety": 2,
         "repro": 2,
         "democracy": 2
       },
       "positionSources": {
+        "cost": {
+          "label": "Approach to affordability is to 'cut useless regulations, shrink the size of government, and restore freedom to our economy', touting tax cuts on tips, overtime and Social Security (campaign site)",
+          "url": "https://barrymooreforalabama.com/issues/"
+        },
+        "climate": {
+          "label": "Voted yes on the Lower Energy Costs Act to expand domestic energy production and lower energy prices (Ballotpedia)",
+          "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
+        },
         "immigration": {
           "label": "'Zero tolerance for illegal immigration' and 'secure borders permanently'; voted for deportation funding (Ballotpedia)",
           "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
@@ -71,6 +79,10 @@
           "label": "Voted to object to certifying 2020 electoral votes on January 7, 2021 and posted false election-theft claims (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
         }
+      },
+      "nullNotes": {
+        "health": "checked Ballotpedia, Wikipedia and campaign issues page, nothing documented",
+        "housing": "checked Ballotpedia, Wikipedia and campaign issues page, nothing documented"
       },
       "controversies": [
         {
@@ -141,6 +153,15 @@
           "label": "Pledges to 'advocate for voting rights' as a core campaign principle (campaign site)",
           "url": "https://wessforsenate.com/f/voter-guide-qa"
         }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site, voter guide Q&A and Ballotpedia (no Candidate Connection survey filed), nothing documented",
+        "housing": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
+        "immigration": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
+        "taxes": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
+        "climate": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
+        "safety": "campaign 'SAFE COMMUNITIES' and 'tough fair justice' phrases are too vague to score a direction; checked campaign site and Ballotpedia",
+        "repro": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented"
       },
       "sources": [
         {
@@ -230,6 +251,9 @@
           "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
         }
       },
+      "nullNotes": {
+        "housing": "checked campaign issues page and Ballotpedia, nothing documented"
+      },
       "controversies": [
         {
           "label": "Held up 451 senior military promotions for 10 months in 2023 over a Pentagon abortion-travel policy, leaving the Marine Corps without a confirmed commandant for the first time in two centuries (Wikipedia)",
@@ -282,11 +306,11 @@
         "cost": -1,
         "health": -2,
         "housing": -1,
-        "immigration": null,
-        "taxes": null,
+        "immigration": -1,
+        "taxes": 0,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -2
       },
@@ -302,6 +326,18 @@
         "housing": {
           "label": "Committed to decreasing housing costs through federal housing legislation (Alabama Reflector)",
           "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        "immigration": {
+          "label": "Voted for the McCain-Coons pathway to citizenship for Dreamers and against defunding sanctuary cities; says border security needs improvement but opposes Trump's wall (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
+        },
+        "taxes": {
+          "label": "Mixed: opposed the TCJA as 'skewed to benefit the wealthy' yet has called for corporate tax reductions and has not called for tax increases (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
+        },
+        "safety": {
+          "label": "Voted for the First Step Act to reduce recidivism and supports reversing mandatory three-strikes laws for nonviolent offenses (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
         },
         "climate": {
           "label": "'I believe in science. The impact of unchecked fossil fuels on our planet and our health has not been in dispute for decades' (Ballotpedia)",
@@ -324,6 +360,10 @@
         {
           "label": "Alabama Reflector: policy agenda speech",
           "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        {
+          "label": "Wikipedia: Doug Jones (Senate voting record)",
+          "url": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
         },
         {
           "label": "Ballotpedia profile",

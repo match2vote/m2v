@@ -120,7 +120,7 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": 1,
         "housing": 0,
         "immigration": 2,
         "taxes": 2,
@@ -165,6 +165,10 @@
         },
         "democracy": {
           "label": "'Election integrity' via voter ID and hand-counted paper ballots; promoted 2020 fraud claims and demanded forensic audits (Ballotpedia)",
+          "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
+        },
+        "health": {
+          "label": "Backs 'expanding healthcare choice, transparency, and affordability' and 'increased competition in the health insurance market' (Ballotpedia)",
           "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
         }
       },
@@ -218,13 +222,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": -1,
         "immigration": null,
         "taxes": null,
         "climate": -2,
         "education": -2,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": -1
       },
@@ -240,7 +244,25 @@
         "democracy": {
           "label": "Build 'robust multiparty democracy' in Maryland and everyday civic engagement; campaign rejects corporate and PAC money (campaign site)",
           "url": "https://gogreen2026.com/priorities"
+        },
+        "health": {
+          "label": "'Maryland needs housing, education, and healthcare guaranteed as rights and not luxuries' (campaign site)",
+          "url": "https://www.gogreen2026.com/why-we-are-running"
+        },
+        "housing": {
+          "label": "Wants housing 'guaranteed as rights and not luxuries' and cites 'sky-high rental eviction rates' as a problem the two parties failed to fix (campaign site)",
+          "url": "https://www.gogreen2026.com/why-we-are-running"
+        },
+        "safety": {
+          "label": "'Too many people are locked up, too many people can't afford to live here, too many people are left behind' (campaign site)",
+          "url": "https://www.gogreen2026.com/campaign-plan"
         }
+      },
+      "nullNotes": {
+        "cost": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
+        "immigration": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
+        "taxes": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
+        "repro": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented"
       },
       "sources": [
         {
@@ -289,6 +311,18 @@
         "democracy": null
       },
       "positionSources": {},
+      "nullNotes": {
+        "cost": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "health": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "housing": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "immigration": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "taxes": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "climate": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "education": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "safety": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "repro": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented",
+        "democracy": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented"
+      },
       "sources": [
         {
           "label": "Working Class Party of Maryland",

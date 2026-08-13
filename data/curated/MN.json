@@ -192,7 +192,10 @@
           "url": "https://www.fec.gov/data/committee/C00935528/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign issues page (covers fraud, law and order, taxes, healthcare, social issues; housing absent) and Wikipedia, nothing documented"
+      }
     },
     {
       "id": "mn-gov-klobuchar",
@@ -217,12 +220,12 @@
         "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": -1,
         "safety": 1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -256,6 +259,14 @@
         "repro": {
           "label": "Pledges to protect the reproductive rights codified in state law; voted for the Women's Health Protection Act (campaign health plan)",
           "url": "https://www.amyklobuchar.com/priorities/healthcare"
+        },
+        "taxes": {
+          "label": "Voted against the 2017 Tax Cuts and Jobs Act conference report, which passed 51-48 (Senate roll call 303, 2017)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00303.htm"
+        },
+        "democracy": {
+          "label": "Lead sponsor of the Freedom to Vote Act: automatic voter registration, two weeks of early voting, mail ballots for all voters, same-day registration (Senate office)",
+          "url": "https://www.klobuchar.senate.gov/public/index.cfm/2023/7/klobuchar-colleagues-introduce-legislation-to-protect-the-freedom-to-vote-and-strengthen-our-democracy"
         }
       },
       "controversies": [
@@ -300,7 +311,7 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": null,
         "taxes": 2,
@@ -334,6 +345,10 @@
         "repro": {
           "label": "Opposes abortion: supported fetal-heartbeat legislation (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Lisa_Demuth"
+        },
+        "health": {
+          "label": "Led the 2025 budget rollback ending MinnesotaCare for undocumented adults: 'It's a fiscal issue', pointing them to 'private market insurance' (CBS Minnesota)",
+          "url": "https://www.cbsnews.com/minnesota/news/minnesota-lawmakers-reach-budget-agreement-2025/"
         }
       },
       "sources": [
@@ -350,7 +365,12 @@
           "url": "https://minnesotareformer.com/2026/08/11/lisa-demuth-beats-trump-endorsed-mike-lindell-in-gop-primary-for-minnesota-governor/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign priorities page and Minnesota Reformer launch coverage, nothing documented",
+        "immigration": "checked campaign priorities page and launch and budget coverage; the MinnesotaCare benefits fight does not map to the pathways-versus-enforcement axis",
+        "democracy": "checked campaign priorities page, Minnesota Reformer launch and primary coverage, and Wikipedia, nothing documented"
+      }
     }
   ]
 }

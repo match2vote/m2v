@@ -36,7 +36,7 @@
         "education": 1,
         "safety": 1,
         "repro": 2,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -74,6 +74,10 @@
         "repro": {
           "label": "Opposes abortion except for rape, incest, or threat to the mother's life (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+        },
+        "democracy": {
+          "label": "Voted against advancing the Freedom to Vote: John R. Lewis Act; cloture on H.R. 5746 failed 49-51 (Senate roll call 9, Jan 2022)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00009.htm"
         }
       },
       "controversies": [
@@ -124,7 +128,7 @@
         "taxes": -1,
         "climate": 0,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -164,6 +168,10 @@
         "democracy": {
           "label": "'Fixing the Rigged System' plan: 12-year term limits, congressional stock-trading ban, DISCLOSE Act, overturn Citizens United (campaign site)",
           "url": "https://marypeltola.com/fixing-system/"
+        },
+        "safety": {
+          "label": "Voted against H.J.Res. 26, the resolution overturning DC's revised criminal code and its lower sentences; it passed 250-173 (House roll call 119, 2023)",
+          "url": "https://clerk.house.gov/Votes/2023119"
         }
       },
       "controversies": [

@@ -19,13 +19,13 @@
       "incumbent": true,
       "background": "Governor of Arizona since 2023; former Secretary of State and social worker.",
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -1,
         "housing": -1,
         "immigration": 0,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -2,
         "safety": 0,
         "repro": -2,
         "democracy": -1
@@ -50,17 +50,44 @@
         "democracy": {
           "label": "As SoS, defended 2020 results and criticized the Maricopa 'audit' as conspiracy-chasing (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        "cost": {
+          "label": "Proposed a state child tax credit and sales-tax exemptions for diapers, formula and OTC medicines (Ballotpedia)",
+          "url": "https://ballotpedia.org/Katie_Hobbs"
+        },
+        "health": {
+          "label": "'Worked across the aisle to expand Medicaid'; proposed 12-month postpartum Medicaid coverage (Ballotpedia)",
+          "url": "https://ballotpedia.org/Katie_Hobbs"
+        },
+        "taxes": {
+          "label": "Voted against 'the Republicans' massive corporate tax cuts' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Katie_Hobbs"
+        },
+        "education": {
+          "label": "Budget caps ESA vouchers by income, calls the program an entitlement; $285.6M more K-12 funding (Arizona Mirror)",
+          "url": "https://azmirror.com/2025/01/17/hobbs-targets-entitlement-vouchers-in-17-7b-budget-plan/"
         }
       },
       "sources": [
         {
           "label": "Wikipedia: Katie Hobbs",
           "url": "https://en.wikipedia.org/wiki/Katie_Hobbs"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Katie_Hobbs"
+        },
+        {
+          "label": "Arizona Mirror: Hobbs budget plan",
+          "url": "https://azmirror.com/2025/01/17/hobbs-targets-entitlement-vouchers-in-17-7b-budget-plan/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Phoenix, AZ",
-      "now": "Governor of Arizona"
+      "now": "Governor of Arizona",
+      "nullNotes": {
+        "climate": "checked Ballotpedia, Wikipedia, katiehobbs.org, budget coverage; nothing documented"
+      }
     },
     {
       "id": "az-gov-biggs",
@@ -73,14 +100,14 @@
       "incumbent": false,
       "background": "U.S. Representative (AZ-05) since 2017 and former House Freedom Caucus chairman. Won the July 2026 Republican primary.",
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": 1,
         "taxes": 2,
         "climate": 2,
-        "education": null,
-        "safety": null,
+        "education": 1,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -104,17 +131,40 @@
         "democracy": {
           "label": "Objected to certifying AZ/PA 2020 electors; sought decertification per Jan. 6 committee (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        "cost": {
+          "label": "'Bring down costs... by lowering taxes and reducing government interference'; roll back regulations (Biggs campaign)",
+          "url": "https://biggsforarizona.com/issues/"
+        },
+        "housing": {
+          "label": "Manage water and land to ensure 'an increased supply of single-family homes' (Biggs campaign)",
+          "url": "https://biggsforarizona.com/issues/"
+        },
+        "education": {
+          "label": "'Supporting school choice policies' and Arizonans' own education choices (Biggs campaign)",
+          "url": "https://biggsforarizona.com/issues/"
+        },
+        "safety": {
+          "label": "'Fully fund our public safety departments'; crack down on drug and human traffickers (Biggs campaign)",
+          "url": "https://biggsforarizona.com/issues/"
         }
       },
       "sources": [
         {
           "label": "Wikipedia: Andy Biggs",
           "url": "https://en.wikipedia.org/wiki/Andy_Biggs"
+        },
+        {
+          "label": "Biggs campaign issues page",
+          "url": "https://biggsforarizona.com/issues/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Gilbert, AZ",
-      "now": "U.S. Representative, AZ-05"
+      "now": "U.S. Representative, AZ-05",
+      "nullNotes": {
+        "health": "checked biggsforarizona.com issues page, Wikipedia, KTAR issues guide; nothing documented"
+      }
     }
   ]
 }

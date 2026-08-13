@@ -42,7 +42,7 @@
         "taxes": -2,
         "climate": -1,
         "education": -2,
-        "safety": null,
+        "safety": -2,
         "repro": -2,
         "democracy": -2
       },
@@ -82,6 +82,10 @@
         "democracy": {
           "label": "Pass the John Lewis Voting Rights Act; reform the filibuster for voting-rights bills (Sun-Times questionnaire)",
           "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+        },
+        "safety": {
+          "label": "Leads the Justice, Equity and Opportunity Initiative to move Illinois 'from a strictly punitive system to one that examines the root causes' of crime (Capitol News Illinois)",
+          "url": "https://capitolnewsillinois.com/news/pritzker-names-lt-gov-stratton-to-lead-criminal-justice-reform-initiative/"
         }
       },
       "sources": [
@@ -167,6 +171,9 @@
           "label": "Supports voter photo ID and proof-of-citizenship registration (SAVE Act) (21st Show)",
           "url": "https://will.illinois.edu/21stshow/story/don-tracy"
         }
+      },
+      "nullNotes": {
+        "education": "checked campaign site, WTTW voter guide, and Ballotpedia (no Candidate Connection survey); nothing documented"
       },
       "controversies": [
         {
@@ -347,6 +354,10 @@
           "label": "Refused to acknowledge Biden's 2020 victory, citing fraud claims (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Darren_Bailey"
         }
+      },
+      "nullNotes": {
+        "health": "checked campaign issues page, Ballotpedia (no surveys completed), and Where They Stand USA profile; nothing documented",
+        "housing": "checked campaign issues page, Ballotpedia (no surveys completed), and Where They Stand USA profile; nothing documented"
       },
       "controversies": [
         {

@@ -36,7 +36,7 @@
         "education": -2,
         "safety": 1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -74,6 +74,10 @@
         "repro": {
           "label": "$35M abortion-provider fund, misoprostol stockpile, six post-Dobbs shield laws (official release)",
           "url": "https://www.governor.ny.gov/news/wake-attacks-reproductive-health-care-governor-hochul-vows-fight-protect-abortion-rights"
+        },
+        "democracy": {
+          "label": "Signed the John R. Lewis Voting Rights Act of New York, creating state preclearance and barring vote dilution, intimidation, and obstruction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_R._Lewis_Voting_Rights_Act_of_New_York"
         }
       },
       "controversies": [
@@ -158,6 +162,11 @@
           "url": "https://www.washingtonexaminer.com/news/campaigns/state/4356642/bruce-blakeman-abortion-rights-stance-gop-gubernatorial-front-runner/"
         }
       },
+      "nullNotes": {
+        "housing": "checked campaign site (only a critique that all-electric mandates stall construction), Ballotpedia, Wikipedia, and City & State coverage; nothing that fits the axis",
+        "education": "checked campaign site (school mask and AI exam critiques only), Ballotpedia, and Wikipedia; nothing that fits the axis",
+        "democracy": "checked campaign site, Ballotpedia, Wikipedia, and City & State coverage; nothing documented"
+      },
       "controversies": [
         {
           "label": "2024 order banning transgender women from girls' teams at county facilities (struck down, then re-passed and in litigation); armed 'special deputies' program critics called a personal militia (Wikipedia)",
@@ -203,7 +212,7 @@
         "immigration": null,
         "taxes": 1,
         "climate": 0,
-        "education": null,
+        "education": 2,
         "safety": -1,
         "repro": -1,
         "democracy": -1
@@ -236,7 +245,15 @@
         "democracy": {
           "label": "Expand ballot access for independents and third parties, open primaries, ranked-choice voting (policy page)",
           "url": "https://larrysharpe.com/ny-policies/"
+        },
+        "education": {
+          "label": "Would abolish the Board of Regents, reject federal education grants, decentralize schooling, and let anyone opt out of state testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Larry_Sharpe_(political_activist)"
         }
+      },
+      "nullNotes": {
+        "housing": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented",
+        "immigration": "checked ny-policies platform page, Ballotpedia (no Candidate Connection survey), and Wikipedia; nothing documented"
       },
       "sources": [
         {

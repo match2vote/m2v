@@ -129,7 +129,7 @@
         "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": 0,
         "climate": -1,
         "education": -1,
         "safety": 0,
@@ -152,6 +152,10 @@
         "immigration": {
           "label": "Committed to protecting Nevada's 13,000 DACA recipients from federal overreach (Ballotpedia)",
           "url": "https://ballotpedia.org/Aaron_D._Ford"
+        },
+        "taxes": {
+          "label": "Mixed: wants K-12 funding raised to the national average yet is 'not open to adding new taxes during an affordability crisis'; his team says 'he will not raise taxes period' (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/from-abortion-to-taxes-where-nevadas-2026-governor-candidates-stand-on-the-issues"
         },
         "climate": {
           "label": "Backs 'clean and affordable energy', rooftop solar and efficiency incentives, and making data centers 'pay their fair share' for energy and water demands (campaign site)",

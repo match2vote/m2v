@@ -40,7 +40,7 @@
         "education": -1,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": 0
       },
       "positionSources": {
         "cost": {
@@ -74,6 +74,10 @@
         "repro": {
           "label": "Self-identified pro-choice: opposed 20-week bans and Planned Parenthood defunding, but voted against the Women's Health Protection Act and to confirm Justice Kavanaugh (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
+        },
+        "democracy": {
+          "label": "Mixed: co-authored the Electoral Count Reform Act to 'prevent this outdated law from being used to undermine future presidential elections' (Senate office), but voted against advancing the Freedom to Vote: John R. Lewis Act in Jan 2022",
+          "url": "https://www.collins.senate.gov/newsroom/senator-collins-urges-colleagues-to-pass-reforms-to-the-electoral-count-act-of-1887"
         }
       },
       "controversies": [
@@ -96,7 +100,10 @@
           "url": "https://www.fec.gov/data/candidate/S6ME00159/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "safety": "checked Senate office releases (routine law-enforcement funding appropriations only, which per calibration anchors do not score) and campaign site, nothing axis-mapping documented"
+      }
     },
     {
       "id": "fec-S6ME00373",

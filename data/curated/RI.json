@@ -150,6 +150,14 @@
           "url": "https://ballotpedia.org/Raymond_McKay"
         }
       },
+      "nullNotes": {
+        "health": "checked campaign site (home and Right Direction pages), Ballotpedia survey, Cranston Herald interview; only Social Security and Medicare anti-fraud rhetoric, no stance on public vs private system role documented",
+        "housing": "checked campaign site, Ballotpedia survey, Cranston Herald interview; housing mentioned only as a cost challenge, no policy documented",
+        "education": "checked campaign site, Ballotpedia survey, Cranston Herald interview; 'a well educated American nation' listed as a priority with no policy detail",
+        "safety": "checked campaign site, Ballotpedia survey, Cranston Herald interview, nothing documented",
+        "repro": "checked campaign site, Ballotpedia survey, Cranston Herald interview, nothing documented",
+        "democracy": "checked campaign site, Ballotpedia survey, Cranston Herald interview, nothing documented"
+      },
       "sources": [
         {
           "label": "Ballotpedia profile",
@@ -185,10 +193,10 @@
         "Housing production and education spending"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 0,
+        "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": 1,
         "climate": 0,
         "education": 0,
@@ -197,9 +205,21 @@
         "democracy": -1
       },
       "positionSources": {
+        "cost": {
+          "label": "Mixed on costs: delivered $180M in direct winter bill credits via the PPL settlement and RGGI assistance for lower-income households, while his Affordability for All executive order targets trimming the 'state programs and taxes' share of energy bills (Governor's office)",
+          "url": "https://governor.ri.gov/press-releases/governor-mckee-highlights-two-year-relief-package-cut-energy-costs-rhode-islanders"
+        },
+        "health": {
+          "label": "Primary care rescue plan: accelerated Medicaid rate review, requires commercial insurers to double per-member primary care spending by 2029, $5M in practice grants, and a 20% cut in prior authorization requirements (Governor's office)",
+          "url": "https://governor.ri.gov/press-releases/governor-mckee-announces-strategic-actions-strengthen-rhode-islands-primary-care"
+        },
         "housing": {
           "label": "His 2024 budget 'increased spending on building housing' alongside education increases (Ballotpedia)",
           "url": "https://ballotpedia.org/Daniel_McKee"
+        },
+        "immigration": {
+          "label": "Pledged in the WPRO debate to 'protect Rhode Island from unlawful actions by federal immigration authorities' while bolstering safety net programs (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/08/03/mckee-and-foulkes-clash-on-cvs-washington-bridge-and-pawtucket-soccer-stadium-in-wpro-debate/"
         },
         "taxes": {
           "label": "Eliminated the car tax, lowered the minimum corporate tax, and refused to sign the 2025 budget because it 'increased fees and taxes' on working families (Ballotpedia)",
@@ -278,13 +298,13 @@
         "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -2,
         "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -298,6 +318,10 @@
         "housing": {
           "label": "Rhode Home Program: $1B millionaire's-tax-funded revolving fund to build 20,000 homes plus a tenants' bill of rights, paired with cutting permitting red tape (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2026/03/02/foulkes-supports-millionaires-tax-and-would-designate-the-revenue-to-building-more-homes/"
+        },
+        "immigration": {
+          "label": "Pledged in the WPRO debate to 'protect Rhode Island from unlawful actions by federal immigration authorities' while bolstering safety net programs (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2026/08/03/mckee-and-foulkes-clash-on-cvs-washington-bridge-and-pawtucket-soccer-stadium-in-wpro-debate/"
         },
         "taxes": {
           "label": "Backs an 8.99% tax on personal income above $1 million, dedicating over $1B to housing (Rhode Island Current)",
@@ -314,7 +338,14 @@
         "repro": {
           "label": "Supports 'a woman's right to choose' (Ballotpedia)",
           "url": "https://ballotpedia.org/Helena_Foulkes"
+        },
+        "democracy": {
+          "label": "Voting rights plan: drop boxes in every municipality, up to three hours of paid leave to vote, weekend early voting, ending the two-witness mail ballot rule, and affidavits as an alternative for voters without photo ID (campaign site)",
+          "url": "https://www.helenafoulkes.com/voting-rights"
         }
+      },
+      "nullNotes": {
+        "safety": "checked campaign plans page, campaign kickoff coverage, WPRO debate recap, Ballotpedia, nothing documented"
       },
       "sources": [
         {
@@ -356,12 +387,12 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": -1,
         "housing": 1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": 2,
-        "climate": null,
-        "education": null,
+        "climate": -1,
+        "education": 0,
         "safety": null,
         "repro": -1,
         "democracy": null
@@ -370,6 +401,22 @@
         "cost": {
           "label": "Wants 'a Rhode Island where families can afford to live and work' by reining in spending and cutting 'burdensome taxes and fees on small businesses and residents' (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        "health": {
+          "label": "Prioritizes addiction treatment and mental health care, citing his own sobriety, and touts his work raising Medicaid dental fees to expand care in underserved Providence neighborhoods (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        "immigration": {
+          "label": "Backs 'creating pathways to citizenship to support the workforce needs of major employers' while cracking down on violent offenders (Rhode Island Current debate recap)",
+          "url": "https://rhodeislandcurrent.com/2026/08/12/guckian-and-pelino-trade-accusations-over-resumes-and-radio-comments-in-first-tv-debate/"
+        },
+        "climate": {
+          "label": "Takes 'moderate takes on renewable energy' and 'did not agree with the Trump administration's halt to work' on the Revolution Wind offshore project (Rhode Island Current)",
+          "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
+        },
+        "education": {
+          "label": "Mixed: supports both public and charter schools; wants teachers freed from administrative burdens, 'back in the classroom and just reading outloud, going back to the basics', with faster screening instead of lengthy testing (Ocean State Media)",
+          "url": "https://www.oceanstatemedia.org/politics/gop-candidate-for-governor-aaron-guckian-on-state-spending-education-and-the-path-to-becoming-governor"
         },
         "housing": {
           "label": "Supports 'reducing local permits and red tape' to get affordable housing built, but opposes state mandates on towns (Rhode Island Current)",
@@ -383,6 +430,10 @@
           "label": "Would 'not reverse the protections already enshrined in state law' on abortion (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2025/12/01/tall-order-for-r-i-gop-aaron-guckian-enters-governors-race-focused-on-moderation-and-compassion/"
         }
+      },
+      "nullNotes": {
+        "safety": "checked campaign site, Ballotpedia, RI Current launch profile and debate recap, NBC 10 debate coverage, Ocean State Media interview; only an immigration-context line on violent offenders, too incidental to score",
+        "democracy": "checked campaign site, Ballotpedia, RI Current launch profile and debate recap, Ocean State Media interview; he deflected Trump and election questions, nothing documented"
       },
       "sources": [
         {
@@ -419,10 +470,10 @@
       "positions": {
         "cost": 1,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": 1,
         "repro": null,
@@ -432,6 +483,14 @@
         "cost": {
           "label": "Would push the legislature to 'lower costs, reduce regulation' and help businesses grow (campaign site)",
           "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
+        },
+        "housing": {
+          "label": "Promises residents 'a chance to buy a home, afford a home' through a free-enterprise, capitalist approach (Rhode Island Current debate recap)",
+          "url": "https://rhodeislandcurrent.com/2026/08/12/guckian-and-pelino-trade-accusations-over-resumes-and-radio-comments-in-first-tv-debate/"
+        },
+        "climate": {
+          "label": "Opposes 'all these crazy green energy standards', preferring free-enterprise capitalism on energy (Rhode Island Current debate recap)",
+          "url": "https://rhodeislandcurrent.com/2026/08/12/guckian-and-pelino-trade-accusations-over-resumes-and-radio-comments-in-first-tv-debate/"
         },
         "immigration": {
           "label": "Proposed ending sanctuary state status and having state police work with immigration enforcement to remove undocumented residents, especially those with criminal records (NBC 10 debate)",
@@ -449,6 +508,11 @@
           "label": "Would give law enforcement resources to 'target violent and gang-related crime' (campaign site)",
           "url": "https://www.elainepelino4governor.com/my-plan-rhode-island"
         }
+      },
+      "nullNotes": {
+        "health": "checked campaign plan page, Ballotpedia (no Candidate Connection survey), iVoterGuide (questionnaire unanswered), NBC 10 and RI Current debate recaps; debate calls for mental illness and drug abuse clinics do not map to the public vs private system axis",
+        "repro": "checked campaign plan page, Ballotpedia, iVoterGuide (abortion questions unanswered), NBC 10 and RI Current debate recaps, nothing documented",
+        "democracy": "checked campaign plan page, Ballotpedia, iVoterGuide (voter ID question unanswered), NBC 10 and RI Current debate recaps, nothing documented"
       },
       "sources": [
         {
@@ -489,7 +553,7 @@
         "health": null,
         "housing": null,
         "immigration": null,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": null,
@@ -497,10 +561,24 @@
         "democracy": -1
       },
       "positionSources": {
+        "taxes": {
+          "label": "Ran statewide on eliminating wasteful government spending to save Rhode Island $1 billion over four years and has long argued high tax rates force businesses to relocate out of state (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ken_Block_(politician)"
+        },
         "democracy": {
           "label": "Hired by the Trump campaign to investigate 2020 voter fraud, 'found nothing substantial', and wrote 'Disproven' debunking stolen-election claims and proposing election improvements (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2026/04/02/ken-block-is-running-for-governor-again-this-time-as-an-independent/"
         }
+      },
+      "nullNotes": {
+        "cost": "checked campaign homepage (issues page returns an error and could not be loaded), Ballotpedia, Wikipedia, RI Current and Ocean State Media launch coverage, Boston Globe poll story; campaign is about government competence, nothing documented",
+        "health": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented",
+        "housing": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented",
+        "immigration": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented",
+        "climate": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented",
+        "education": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe; only a 2007-era concern about school quality with no A-or-B direction",
+        "safety": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented",
+        "repro": "checked campaign homepage (issues page unloadable), Ballotpedia, Wikipedia, RI Current, Ocean State Media, Boston Globe, nothing documented"
       },
       "sources": [
         {

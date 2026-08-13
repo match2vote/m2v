@@ -27,13 +27,13 @@
       "incumbent": true,
       "background": "U.S. Senator since 2021, seeking a second term. Investigative journalist before politics. 2026 campaign themes include banning congressional stock trading.",
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
         "taxes": 0,
         "climate": -1,
-        "education": null,
+        "education": -2,
         "safety": 0,
         "repro": -2,
         "democracy": -2
@@ -66,6 +66,18 @@
         "democracy": {
           "label": "Champions the John Lewis Voting Rights Act (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+        },
+        "cost": {
+          "label": "Backs crackdown on drug-company 'price gouging'; 'health care guaranteed at an affordable price' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jon_Ossoff"
+        },
+        "housing": {
+          "label": "Investigating corporations 'buying up homes in bulk'; directed federal funds to build affordable housing, renter protections (Capital B Atlanta)",
+          "url": "https://atlanta.capitalbnews.org/ossoff-atlanta-housing/"
+        },
+        "education": {
+          "label": "Raise teacher pay, break 'the link between a community's wealth and' school funding; debt-free public college (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jon_Ossoff"
         }
       },
       "sources": [
@@ -76,9 +88,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S8GA00180/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jon_Ossoff"
+        },
+        {
+          "label": "Capital B Atlanta: Ossoff on housing",
+          "url": "https://atlanta.capitalbnews.org/ossoff-atlanta-housing/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "age": 39,
       "home": "Atlanta, GA",
       "now": "U.S. Senate",
@@ -99,9 +119,9 @@
       "incumbent": false,
       "background": "U.S. Representative for GA-10 since 2023; built a trucking company from one semi-truck to a fleet of 115. Won the June 2026 Republican runoff.",
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
-        "housing": null,
+        "housing": 0,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
@@ -142,6 +162,14 @@
         "democracy": {
           "label": "Backs GA Election Integrity Act, voter ID; opposed H.R. 1 (Ballotpedia)",
           "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "cost": {
+          "label": "On inflation: fight 'burdensome and outdated rules and regulations,' 'get government out of the way of job creators' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+        },
+        "housing": {
+          "label": "Mixed: 'reduce regulations on builders' and ban companies from 'buying up excessive numbers of homes' (AJC)",
+          "url": "https://www.ajc.com/politics/2026/04/mike-collins-a-look-at-the-ajcs-coverage/"
         }
       },
       "sources": [
@@ -152,9 +180,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6GA00390/"
+        },
+        {
+          "label": "AJC: Mike Collins on the issues",
+          "url": "https://www.ajc.com/politics/2026/04/mike-collins-a-look-at-the-ajcs-coverage/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "age": 58,
       "home": "Jackson, GA",
       "now": "U.S. House (GA-10)",
@@ -230,7 +262,7 @@
           "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "age": 56,
       "home": "Atlanta, GA",
       "now": "White House Office of Public Engagement",
@@ -238,7 +270,11 @@
         "Expand access to affordable health care",
         "Affordable housing",
         "Safe communities and strong schools"
-      ]
+      ],
+      "nullNotes": {
+        "taxes": "checked Branch.vote platform; only targeted tax relief for teachers and veterans, which does not fit the axis",
+        "climate": "checked Branch.vote platform; flood mitigation, brownfield redevelopment and water infrastructure do not map to the clean-energy-vs-fossil axis"
+      }
     },
     {
       "id": "ga-gov-jackson",
@@ -252,14 +288,14 @@
       "background": "Healthcare staffing executive and first-time candidate; grew up partly in foster care. Won the June 2026 Republican runoff, defeating the Trump-endorsed lieutenant governor.",
       "positions": {
         "cost": 1,
-        "health": null,
-        "housing": null,
+        "health": 2,
+        "housing": 1,
         "immigration": 2,
         "taxes": 2,
         "climate": null,
         "education": 1,
         "safety": 2,
-        "repro": null,
+        "repro": 2,
         "democracy": null
       },
       "positionSources": {
@@ -282,22 +318,46 @@
         "safety": {
           "label": "'Ban revolving-door justice'; full support for law enforcement (Ballotpedia)",
           "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        "health": {
+          "label": "Opposes full ACA Medicaid expansion; favors block grants with work requirements (AJC)",
+          "url": "https://www.ajc.com/politics/2026/04/rick-jackson-a-look-at-the-ajcs-coverage/"
+        },
+        "housing": {
+          "label": "'Reducing government bureaucracy and cutting property taxes' so Georgians can afford homes (AJC)",
+          "url": "https://www.ajc.com/politics/2026/04/rick-jackson-a-look-at-the-ajcs-coverage/"
+        },
+        "repro": {
+          "label": "Campaign: 'Rick strongly supports Georgia's current Heartbeat law and will defend it as governor' (CBS Atlanta)",
+          "url": "https://www.cbsnews.com/atlanta/news/audio-recordings-reveal-georgia-gop-gubernatorial-candidate-rick-jacksons-views-on-abortion-exceptions/"
         }
       },
       "sources": [
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        {
+          "label": "AJC: Rick Jackson on the issues",
+          "url": "https://www.ajc.com/politics/2026/04/rick-jackson-a-look-at-the-ajcs-coverage/"
+        },
+        {
+          "label": "CBS Atlanta on abortion stance",
+          "url": "https://www.cbsnews.com/atlanta/news/audio-recordings-reveal-georgia-gop-gubernatorial-candidate-rick-jacksons-views-on-abortion-exceptions/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Georgia",
       "now": "Health-care company founder & executive",
       "priorities": [
         "Run government like a business",
         "Lower taxes",
         "Secure the border"
-      ]
+      ],
+      "nullNotes": {
+        "climate": "checked Ballotpedia, rickjackson.com action plan, iVoterGuide (survey unanswered), AJC roundup; nothing documented",
+        "democracy": "checked Ballotpedia, rickjackson.com action plan, iVoterGuide (survey unanswered), AJC roundup; nothing documented"
+      }
     }
   ]
 }

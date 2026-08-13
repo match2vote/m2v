@@ -20,9 +20,9 @@
       "background": "Governor of Pennsylvania since 2023; former state Attorney General.",
       "positions": {
         "cost": -1,
-        "health": null,
-        "housing": null,
-        "immigration": null,
+        "health": -1,
+        "housing": 0,
+        "immigration": -1,
         "taxes": 1,
         "climate": 0,
         "education": 0,
@@ -58,15 +58,35 @@
         "democracy": {
           "label": "Implemented automatic voter registration, Sept 2023 (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        "health": {
+          "label": "Fought federal Medicaid cuts, backs higher Medicaid reimbursement rates, funded rural hospitals (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/"
+        },
+        "housing": {
+          "label": "Mixed: Housing Action Plan cuts red tape to build, plus $1B affordable-housing bond and rental-application-fee cap (Office of the Governor)",
+          "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-unveils-pennsylvania-s-first-ever-housing-actio"
+        },
+        "immigration": {
+          "label": "Declined GOP calls to send the National Guard to the border; has criticized ICE tactics (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
         }
       },
       "sources": [
         {
           "label": "Wikipedia: Josh Shapiro",
           "url": "https://en.wikipedia.org/wiki/Josh_Shapiro"
+        },
+        {
+          "label": "Spotlight PA: rural issues guide",
+          "url": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/"
+        },
+        {
+          "label": "Office of the Governor: Housing Action Plan",
+          "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-unveils-pennsylvania-s-first-ever-housing-actio"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Abington, PA",
       "now": "Governor of Pennsylvania"
     },
@@ -81,15 +101,15 @@
       "incumbent": false,
       "background": "Pennsylvania State Treasurer since 2021; retired U.S. Army Reserve colonel, three Bronze Stars.",
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": 0,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 2,
         "safety": null,
-        "repro": null,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -104,17 +124,45 @@
         "democracy": {
           "label": "Spoke at Jan 5, 2021 rally urging decertification of 2020 results; endorsed Trump fraud claims (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        },
+        "cost": {
+          "label": "'Unleash the liquid fuel that we have at our feet' to cut energy prices; lower property taxes for seniors (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/"
+        },
+        "health": {
+          "label": "Mixed: backed federal package including Medicaid cuts, yet proposes higher rural Medicaid rates and a Rural Health Emergency (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/"
+        },
+        "immigration": {
+          "label": "Says ICE detention-center proposals warrant serious review; would 'work with any president'; calls Shapiro's opposition posturing (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/"
+        },
+        "education": {
+          "label": "'Parents, not bureaucrats, should be deciding'; backs charters, cyber charters and private-school scholarships (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/"
+        },
+        "repro": {
+          "label": "Called the ruling ending PA's Medicaid abortion ban 'immoral,' opposes taxpayer funding; says abortion policy is up to legislators (Spotlight PA)",
+          "url": "https://www.spotlightpa.org/news/2026/06/josh-shapiro-stacy-garrity-abortion-access-medicaid-guide-governor-race-elections/"
         }
       },
       "sources": [
         {
           "label": "Wikipedia: Stacy Garrity",
           "url": "https://en.wikipedia.org/wiki/Stacy_Garrity"
+        },
+        {
+          "label": "Spotlight PA: Garrity candidate guide",
+          "url": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Athens Township, PA",
-      "now": "Pennsylvania State Treasurer"
+      "now": "Pennsylvania State Treasurer",
+      "nullNotes": {
+        "housing": "checked Wikipedia, Ballotpedia, Spotlight PA candidate guide; only a vague line about young people affording a first home",
+        "safety": "checked Wikipedia, Ballotpedia, Spotlight PA candidate guide; only a vague pledge to partner with Trump on safe streets"
+      }
     }
   ]
 }

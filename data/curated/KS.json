@@ -40,7 +40,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": 2,
         "repro": 2,
@@ -78,6 +78,10 @@
         "democracy": {
           "label": "Pledges 'commonsense measures to protect the ballot box' (campaign site)",
           "url": "https://www.mastersonforgovernor.com/"
+        },
+        "climate": {
+          "label": "Pledges to be 'the most oil and gas friendly governor this state has seen' and is 'super engaged with ethanol' (KCTV5)",
+          "url": "https://www.kctv5.com/2026/07/15/what-kansas-gubernatorial-candidates-said-about-their-plan-address-economy/"
         }
       },
       "controversies": [
@@ -104,7 +108,10 @@
           "url": "https://ballotpedia.org/Ty_Masterson"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign site, KCTV5 economy interview, and GOP debate coverage; laments first-time homebuyer age over 40 but no housing policy mechanism documented"
+      }
     },
     {
       "id": "ks-gov-holscher",
@@ -129,7 +136,7 @@
         "health": -2,
         "housing": -1,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -2,
         "safety": null,
@@ -164,6 +171,10 @@
         "democracy": {
           "label": "Independent redistricting panel, term limits, limits on corporate PAC money (campaign site)",
           "url": "https://cindyforkansas.com/priorities/"
+        },
+        "taxes": {
+          "label": "Attacks 'continued giveaways to billionaires and corporations, which leaves regular people behind'; would end data-center tax incentives (Democracy Now)",
+          "url": "https://www.democracynow.org/2026/8/7/cindy_holscher"
         }
       },
       "sources": [
@@ -184,7 +195,11 @@
           "url": "https://ballotpedia.org/Cindy_Holscher"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "climate": "checked campaign priorities page, Democracy Now interview, and KCTV5 interview; data-center moratorium is a utility and water-use stance, no clean-energy versus fossil position documented",
+        "safety": "checked campaign priorities page and Democracy Now interview, nothing documented"
+      }
     },
     {
       "id": "fec-S0KS00315",
@@ -197,14 +212,14 @@
       "incumbent": true,
       "background": "U.S. Senator since 2021; OB-GYN physician; previously represented Kansas's Big First district in the House.",
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 0,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
-        "education": null,
-        "safety": null,
+        "education": 2,
+        "safety": 2,
         "repro": 2,
         "democracy": 2
       },
@@ -232,6 +247,22 @@
         "democracy": {
           "label": "Objected to certifying Arizona and Pennsylvania 2020 electoral votes (Ballotpedia)",
           "url": "https://ballotpedia.org/Roger_Marshall"
+        },
+        "cost": {
+          "label": "Lower cost of living through price transparency and competition (Patients Deserve Price Tags Act) and cutting regulations, not price caps (Senate office)",
+          "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-kansans-need-a-cost-of-living-they-can-afford/"
+        },
+        "housing": {
+          "label": "Mixed: co-sponsored the Affordable Housing Credit Improvement Act expanding the Low-Income Housing Tax Credit, while blaming 'the regulatory environment' for driving up home-building costs (Senate office)",
+          "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-joins-senators-young-and-cantwell-introducing-legislation-to-address-the-housing-affordability-crisis/"
+        },
+        "education": {
+          "label": "Lead sponsor of the Educational Choice for Children Act, $10B a year in scholarship tax credits: 'Parents, not the government, know what is best for their children' (Senate office)",
+          "url": "https://www.marshall.senate.gov/?p=78958"
+        },
+        "safety": {
+          "label": "His Concerned Citizens Bill of Rights blocks DOJ COPS and Byrne grants from jurisdictions with cashless bail or that ignore 'criminal history and dangerousness' pretrial (Senate office)",
+          "url": "https://www.marshall.senate.gov/newsroom/press-releases/sen-marshall-announces-anti-crime-bill/"
         }
       },
       "sources": [
@@ -244,7 +275,7 @@
           "url": "https://www.fec.gov/data/candidate/S0KS00315/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13"
     },
     {
       "id": "fec-S6KS00312",
@@ -257,15 +288,15 @@
       "background": "Founding pastor of the Church of the Resurrection, the largest United Methodist congregation in the U.S.; first-time candidate running as an 'independent-minded Democrat.' Won the Aug 4 primary.",
       "positions": {
         "cost": 1,
-        "health": null,
-        "housing": null,
-        "immigration": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": 0,
         "education": null,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -275,6 +306,26 @@
         "repro": {
           "label": "'Pro-choice on abortion', platform statement, no further detail yet (Christian Post)",
           "url": "https://www.christianpost.com/news/adam-hamilton-releases-pro-choice-anti-tariff-platform.html"
+        },
+        "health": {
+          "label": "'Reverse the cuts to Medicaid and restore the ACA subsidies'; expand Medicare drug-price negotiation and add vision and dental (campaign issues)",
+          "url": "https://hamiltonforkansas.com/issues"
+        },
+        "housing": {
+          "label": "'Ban Wall St. and other investors from buying up single family homes', first-time buyer tax credits, stop landlord algorithmic price collusion; also streamline modular-home rules (campaign issues)",
+          "url": "https://hamiltonforkansas.com/issues"
+        },
+        "immigration": {
+          "label": "Reform the H-2A guest-worker program with year-round visas and 'give existing workers a path to legal status' (campaign issues)",
+          "url": "https://hamiltonforkansas.com/issues"
+        },
+        "climate": {
+          "label": "Mixed, cost-framed: 'stop the war on domestic energy projects and restore energy production tax credits', year-round E15 ethanol, and make data centers 'pay their fair share of electricity costs' (campaign issues)",
+          "url": "https://hamiltonforkansas.com/issues"
+        },
+        "democracy": {
+          "label": "Term limits and age limits for Congress and the Supreme Court, end 'dark money', congressional stock-trading ban, lobbying cooling-off periods (campaign issues)",
+          "url": "https://hamiltonforkansas.com/issues"
         }
       },
       "sources": [
@@ -287,7 +338,12 @@
           "url": "https://hamiltonforkansas.com/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "taxes": "checked campaign issues page and Christian Post platform coverage; no position on tax rates or spending documented",
+        "education": "checked campaign issues page and Christian Post platform coverage, nothing documented",
+        "safety": "checked campaign issues page and Christian Post platform coverage, nothing documented"
+      }
     }
   ]
 }

@@ -33,14 +33,14 @@
       "positions": {
         "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 1,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
@@ -70,6 +70,18 @@
         "repro": {
           "label": "Cosponsored the Pain-Capable Unborn Child Protection Act, a 20-week abortion ban (Ballotpedia)",
           "url": "https://ballotpedia.org/Andy_Barr"
+        },
+        "housing": {
+          "label": "Championed a 2026 housing package that 'slashes big government regulations to accelerate homebuilding' while also limiting institutional investors' home purchases (House office)",
+          "url": "https://barr.house.gov/2026/5/historic-housing-package-championed-by-congressman-andy-barr-sails-through-congress"
+        },
+        "education": {
+          "label": "Cosponsored a school choice scholarship bill and 529 expansion so parents and teachers decide 'what is best for their education', alongside public career-tech funding (House office)",
+          "url": "https://barr.house.gov/education"
+        },
+        "democracy": {
+          "label": "Voted for the SAVE Act voter ID mandate: 'Anyone who opposes voter ID to safeguard the integrity of our elections is anti-American' (House office)",
+          "url": "https://barr.house.gov/2026/2/barr-backs-voter-id-mandate-calls-on-mcconnell-to-advance-save-america-act"
         }
       },
       "sources": [

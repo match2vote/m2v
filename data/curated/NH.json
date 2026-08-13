@@ -20,14 +20,14 @@
       "positions": {
         "cost": -1,
         "health": -2,
-        "housing": null,
+        "housing": 0,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": -2,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -53,6 +53,22 @@
         "repro": {
           "label": "100% pro-choice record; led reversal of Planned Parenthood defunding (Ballotpedia)",
           "url": "https://ballotpedia.org/Chris_Pappas"
+        },
+        "housing": {
+          "label": "Mixed: authored a permitting pilot funding pre-approved 'pattern books' for missing-middle and infill building AND expanded FHA manufactured-home and accessory-dwelling financing for affordable housing (House office)",
+          "url": "https://pappas.house.gov/media/press-releases/major-housing-bill-passes-with-pappas-provisions-to-lower-costs-and-increase-supply"
+        },
+        "taxes": {
+          "label": "Against lowering the corporate rate, 'largest corporations...should pay a minimum tax'; raise the Social Security income cap; opposed the 2017 Trump tax plan (Citizens Count)",
+          "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+        },
+        "safety": {
+          "label": "Backed the George Floyd Justice in Policing Act, 'curtailing excessive use of force, and increasing accountability', and ending qualified immunity (Citizens Count)",
+          "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+        },
+        "democracy": {
+          "label": "Voted for the John R. Lewis Voting Rights Advancement Act, H.R. 4, passed 219-212 (House roll call 260, 2021); also backs mail-in voting (House clerk)",
+          "url": "https://clerk.house.gov/Votes/2021260"
         }
       },
       "sources": [
@@ -65,7 +81,7 @@
           "url": "https://www.fec.gov/data/candidate/S6NH00141/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13"
     },
     {
       "id": "fec-S6NH00208",
@@ -77,8 +93,8 @@
       "ballotStatus": null,
       "background": "U.S. Senator 2003–2009 and Representative 1997–2003, seeking his old seat; son of Gov. John H. Sununu and brother of Gov. Chris Sununu. Endorsed by President Trump. 2026 campaign theme: 'lower the temperature' in Washington.",
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": -1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
@@ -104,6 +120,14 @@
         "repro": {
           "label": "Opposed abortion rights; among the most conservative House records on abortion (Wikipedia, citing Boston Globe)",
           "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        "cost": {
+          "label": "Opposed minimum-wage increases (Boston Globe, 2000); 100% Club for Growth rating, market and spending-restraint approach (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_E._Sununu"
+        },
+        "health": {
+          "label": "Voted for both 2007 CHIP expansion bills that President Bush vetoed, H.R. 976 and H.R. 3963 (Senate roll call 403, 2007)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1101/vote_110_1_00403.htm"
         }
       },
       "sources": [
@@ -124,7 +148,13 @@
           "url": "https://www.fec.gov/data/candidate/S6NH00208/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked Citizens Count 2026 survey (no responses), Wikipedia, and campaign site, nothing documented",
+        "education": "checked Citizens Count 2026 survey (no responses), Wikipedia, and campaign site, nothing documented",
+        "safety": "checked Citizens Count 2026 survey (no responses), Wikipedia, and campaign site, nothing documented",
+        "democracy": "checked Citizens Count 2026 survey (no responses), Wikipedia, and campaign site, nothing documented"
+      }
     }
   ]
 }

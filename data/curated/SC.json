@@ -66,6 +66,12 @@
           "url": "https://www.drannieandrews.com/issues"
         }
       },
+      "nullNotes": {
+        "cost": "checked campaign issues page and Ballotpedia (no Candidate Connection survey filed), nothing documented",
+        "housing": "checked campaign issues page and Ballotpedia, nothing documented",
+        "immigration": "checked campaign issues page and Ballotpedia, nothing documented",
+        "safety": "checked campaign issues page and Ballotpedia; only gun-violence items, which do not map to this axis"
+      },
       "sources": [
         {
           "label": "Campaign issues page",
@@ -109,10 +115,29 @@
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": 1,
+        "democracy": 2
       },
-      "positionSources": {},
+      "positionSources": {
+        "repro": {
+          "label": "Says she is 'against abortion' in her only extended interviews since her appointment; no specifics on exceptions or bills yet (Forbes)",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/10/darline-grahams-riding-with-trump-but-political-views-beyond-that-still-unclear-as-primary-looms/"
+        },
+        "democracy": {
+          "label": "Backs the SAVE America Act voter ID law, echoed Trump's concerns about non-citizens voting, and would end the filibuster to pass voting legislation (Forbes)",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/10/darline-grahams-riding-with-trump-but-political-views-beyond-that-still-unclear-as-primary-looms/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site, Forbes profiles and news sweep; only an incidental gas-price remark ('Trump is gonna get us through this'), nothing scoreable",
+        "health": "checked campaign site and Forbes profiles; appointed weeks ago with no voting record, nothing documented",
+        "housing": "checked campaign site and Forbes profiles, nothing documented",
+        "immigration": "checked campaign site and Forbes profiles, nothing documented beyond general Trump alignment",
+        "taxes": "checked campaign site ('fiercely protective of taxpayer dollars' is too vague) and Forbes profiles, nothing scoreable",
+        "climate": "checked campaign site and Forbes profiles, nothing documented",
+        "education": "checked campaign site and Forbes profiles, nothing documented",
+        "safety": "checked campaign site and Forbes profiles, nothing documented"
+      },
       "sources": [
         {
           "label": "Campaign site",
@@ -157,13 +182,17 @@
         "housing": null,
         "immigration": 1,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": 2,
         "safety": null,
         "repro": 2,
         "democracy": 2
       },
       "positionSources": {
+        "climate": {
+          "label": "House energy page pushes 'Ending Market Distorting Subsidies, Unleashing All-of-the-Above Approach' to energy (House office)",
+          "url": "https://norman.house.gov/Issues/Issue/?IssueID=15681"
+        },
         "health": {
           "label": "Campaigned on strict Medicaid work requirements (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
@@ -188,6 +217,11 @@
           "label": "Texted Mark Meadows on Jan 17, 2021 urging Trump to 'invoke martial law' to block Biden's inauguration (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ralph_Norman"
         }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia, Fox Carolina profile, Daily Signal and House inflation page, nothing scoreable beyond general spending rhetoric already captured under taxes",
+        "housing": "checked Wikipedia, Fox Carolina profile and House issues pages, nothing documented",
+        "safety": "checked Wikipedia, Fox Carolina profile and House law enforcement page; only headlines and gun items, which do not map to this axis"
       },
       "controversies": [
         {
@@ -239,7 +273,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 2,
         "safety": 2,
         "repro": 2,
@@ -249,6 +283,10 @@
         "cost": {
           "label": "'Make South Carolina Affordable Again' by cutting taxes and slashing 'government red tape' (campaign site)",
           "url": "https://wilsonforsc.com/priorities/"
+        },
+        "climate": {
+          "label": "As AG joined multistate suits to block EPA carbon rules for power plants, calling them 'unfounded rules' that mean 'higher power bills for South Carolinians' (SC AG office)",
+          "url": "https://www.scag.gov/about-the-office/news/ag-alan-wilson-fighting-for-sc-against-the-epa/"
         },
         "immigration": {
           "label": "'Deny state benefits to illegal residents, enforce immigration law'; 'If you want to be here, come here legally' (campaign site)",
@@ -274,6 +312,10 @@
           "label": "Hailed the Supreme Court's rollback of Voting Rights Act preclearance as 'a victory for all voters' (Ballotpedia)",
           "url": "https://ballotpedia.org/Alan_Wilson_(South_Carolina)"
         }
+      },
+      "nullNotes": {
+        "health": "checked campaign priorities page, Ballotpedia and Fox Carolina profile; rural clinics and telemedicine pledge does not fit the public-vs-private axis",
+        "housing": "checked campaign priorities page, Ballotpedia and Fox Carolina profile, nothing documented"
       },
       "controversies": [
         {
@@ -356,6 +398,12 @@
           "label": "'Medical decisions are best left to families and their doctors'; wrote a bill centering female legislators on reproductive rights (campaign site)",
           "url": "https://johnsonforsc.com/policies"
         }
+      },
+      "nullNotes": {
+        "immigration": "checked campaign policies page, Ballotpedia and Fox Carolina profile, nothing documented",
+        "taxes": "campaign plan (property tax cuts for working families, 70% paying no income tax, new cannabis tax) is targeted household relief that does not fit the axis; checked campaign site, Ballotpedia and Fox Carolina profile",
+        "climate": "listed 'Climate Change' as a concern in the 2020 Ballotpedia survey with no direction; 25% in-state energy production pledge does not fit the axis",
+        "democracy": "checked campaign policies page, Ballotpedia and Fox Carolina profile, nothing documented"
       },
       "sources": [
         {

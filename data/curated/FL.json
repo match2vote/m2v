@@ -35,9 +35,9 @@
         "health": 2,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
         "safety": 2,
         "repro": 2,
         "democracy": 2
@@ -66,7 +66,22 @@
         "democracy": {
           "label": "Joined Texas v. Pennsylvania seeking to invalidate 2020 results in four states; opposed felon voting-rights restoration without payment of court fees (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        },
+        "taxes": {
+          "label": "Voted for the One Big Beautiful Bill extending the 2017 tax cuts, calling it 'the LARGEST tax cut for the working and middle class in history' (Senate office)",
+          "url": "https://www.moody.senate.gov/press-releases/sen-ashley-moody-brings-home-wins-for-floridians-in-one-big-beautiful-bill/"
+        },
+        "education": {
+          "label": "Secured a federal tax credit scholarship program so 'as many as two million students' can 'access a school or education service of their parents' choice' (Senate office)",
+          "url": "https://www.moody.senate.gov/press-releases/sen-ashley-moody-brings-home-wins-for-floridians-in-one-big-beautiful-bill/"
+        },
+        "climate": {
+          "label": "0% LCV score in 2025: voted to terminate wind and solar credits, roll back the methane fee, and block state clean-car standards (League of Conservation Voters)",
+          "url": "https://www.lcv.org/moc/ashley-moody/"
         }
+      },
+      "nullNotes": {
+        "housing": "checked campaign site, Senate office releases, and LCV scorecard; only a niche first-responder homeownership bill found, nothing that fits the axis"
       },
       "controversies": [
         {
@@ -157,6 +172,9 @@
           "label": "Ban congressional stock trading with jail for violations, repeal Citizens United, refuse corporate PAC money (campaign agenda)",
           "url": "https://alexvindman.com/florida-first-agenda/"
         }
+      },
+      "nullNotes": {
+        "safety": "checked Florida First agenda page and Smarter.vote issue profile; nothing documented beyond gun policy, which does not map to this axis"
       },
       "sources": [
         {
@@ -335,6 +353,9 @@
           "label": "Oppose legislative preemption of voter initiatives; enforce constitutional amendments passed at 50%+ (campaign site)",
           "url": "https://davidjolly.com/issues/"
         }
+      },
+      "nullNotes": {
+        "taxes": "checked campaign issues page (14 areas, no tax section) and WUSF debate coverage; only targeted property-tax relief with services protected, which does not fit the axis"
       },
       "controversies": [
         {

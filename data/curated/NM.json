@@ -35,18 +35,30 @@
         "Protect New Mexico's natural resources"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": 0,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": -2,
         "democracy": -2
       },
       "positionSources": {
+        "cost": {
+          "label": "Cosponsored the Raise the Wage Act to lift the federal minimum wage and phase out the tipped subminimum wage: 'New Mexico's workers want to receive a fair day's pay for a fair day's work' (Los Alamos Daily Post)",
+          "url": "https://ladailypost.com/rep-ben-ray-lujan-cosponsors-raise-the-wage-act/"
+        },
+        "taxes": {
+          "label": "Voted Yea on H.R. 5376, the Inflation Reduction Act reconciliation bill financed by a new 15% corporate minimum tax, which passed 51-50 (Senate roll call vote 325)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.htm"
+        },
+        "education": {
+          "label": "Sees schools as 'centers of the community that provide wraparound services, including mental and behavioral health services' (Senate office issues page)",
+          "url": "https://www.lujan.senate.gov/issues/"
+        },
         "health": {
           "label": "Longtime public-option advocate: 'we must demand a public option' in health reform (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ben_Ray_Luj%C3%A1n"
@@ -67,6 +79,10 @@
           "label": "Introduced the John Lewis Voting Rights Advancement Act, Freedom to Vote Act, and Native American Voting Rights Act; opposes the SAVE Act as 'anti-voter' (Sen. Lujan press release)",
           "url": "https://www.lujan.senate.gov/newsroom/press-releases/lujan-fights-for-voting-rights-amid-trumps-push-to-suppress-millions-of-american-voters/"
         }
+      },
+      "nullNotes": {
+        "housing": "checked campaign site, Ballotpedia, and Senate office issues pages, nothing documented",
+        "safety": "checked campaign site, Ballotpedia, and Senate office issues pages (justice page returned 404), nothing documented"
       },
       "sources": [
         {
@@ -114,7 +130,7 @@
         "taxes": null,
         "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -130,7 +146,19 @@
         "climate": {
           "label": "'Make New Mexico a leader in oil, gas, hydrogen, and nuclear innovation'; campaign built on energy independence and pushing back on regulation (campaign site)",
           "url": "https://larrymarker.com/"
+        },
+        "safety": {
+          "label": "'The first duty of government is to keep its citizens safe': opposes 'policies that shield violent offenders' and backs 'Border Patrol and local law enforcement' (campaign site)",
+          "url": "https://larrymarker.com/"
         }
+      },
+      "nullNotes": {
+        "health": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
+        "housing": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
+        "taxes": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
+        "education": "checked campaign site (education mentioned only as a beneficiary of energy revenue), Ballotpedia, and news profiles, nothing documented",
+        "repro": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile (asked but answer not printed), and NM Political Report profile, nothing documented",
+        "democracy": "checked campaign site, Ballotpedia, and NM Political Report profile (documents association with 2020 election conspiracy events but no policy statement by Marker), nothing scoreable"
       },
       "controversies": [
         {
@@ -186,7 +214,7 @@
         "education": -2,
         "safety": -1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -220,7 +248,14 @@
         "repro": {
           "label": "'Fierce and unwavering advocate for reproductive freedom'; collected signatures to repeal New Mexico's dormant criminal abortion ban (Planned Parenthood Votes NM endorsement)",
           "url": "https://www.plannedparenthoodaction.org/planned-parenthood-votes-new-mexico/blog/pp-votes-new-mexico-endorses-deb-haaland-for-governor"
+        },
+        "democracy": {
+          "label": "Voted Yea on H.R. 1, the For the People Act, with automatic voter registration and expanded early and mail voting; it passed 234-193 (House Clerk roll call 118, 2019)",
+          "url": "https://clerk.house.gov/Votes/2019118"
         }
+      },
+      "nullNotes": {
+        "taxes": "checked campaign plans page (child tax credit increase is a targeted household measure that does not fit the axis), Ballotpedia, and Wikipedia, nothing documented"
       },
       "sources": [
         {
@@ -261,18 +296,30 @@
         "Border security to end the fentanyl crisis"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": null,
         "immigration": 1,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": -1,
         "safety": 2,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
+        "cost": {
+          "label": "Regulatory reform plan: cut 'unnecessary red tape' and 'long, confusing licensing rules' that 'hurt families, limit opportunity, and slow economic growth' (campaign site)",
+          "url": "https://gregghull.com/issues/regulatory-reform/"
+        },
+        "education": {
+          "label": "Will 'make meaningful investments in public education and demand accountability', with youth tutoring, stronger special education, and expanded Career Technical Education (campaign issues page)",
+          "url": "https://gregghull.com/issues/"
+        },
+        "democracy": {
+          "label": "'Gregg will fight for statewide Voter ID laws that protect legally registered voters' (campaign election integrity page)",
+          "url": "https://gregghull.com/election-integrity/"
+        },
         "health": {
           "label": "Market-side cost fixes: 'reform medical malpractice laws to reduce costs', lower prescription drug prices, strengthen rural hospitals (campaign site)",
           "url": "https://gregghull.com/issues/"
@@ -293,6 +340,10 @@
           "label": "Doubled Rio Rancho's police budget; pledges to 'increase police presence throughout the state' and a 'zero-tolerance policy for all violent crimes and crimes against children' (campaign site)",
           "url": "https://gregghull.com/issues/"
         }
+      },
+      "nullNotes": {
+        "housing": "checked campaign issues pages and subpage list (no housing section), Ballotpedia, iVoterGuide, and news coverage, nothing documented",
+        "repro": "checked campaign issues pages, Ballotpedia, iVoterGuide survey (did not answer), and KOB interview page, nothing documented"
       },
       "sources": [
         {

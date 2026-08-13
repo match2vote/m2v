@@ -29,13 +29,13 @@
         "cost": -2,
         "health": -2,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -2,
         "climate": -1,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "education": -1,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -57,6 +57,26 @@
         "climate": {
           "label": "Pushed EPA to regulate PFAS 'forever chemicals' (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
+        },
+        "immigration": {
+          "label": "Supports DACA legal status for DREAMers (2018) while backing 'resources for Border Patrol agents; expedite asylum process' (2024) (OnTheIssues)",
+          "url": "https://www.ontheissues.org/senate/sherrod_brown.htm"
+        },
+        "education": {
+          "label": "'Longtime opponent of vouchers for private schools'; cut student loan rates, raise Pell Grants, free community college (OnTheIssues)",
+          "url": "https://www.ontheissues.org/senate/sherrod_brown.htm"
+        },
+        "safety": {
+          "label": "Backs police de-escalation training and cutting recidivism through Second Chance reentry programs (OnTheIssues)",
+          "url": "https://www.ontheissues.org/senate/sherrod_brown.htm"
+        },
+        "repro": {
+          "label": "'Restore Roe v. Wade abortion protection'; keep federal funding for family planning clinics (OnTheIssues)",
+          "url": "https://www.ontheissues.org/senate/sherrod_brown.htm"
+        },
+        "democracy": {
+          "label": "Automatic voter registration for all citizens, expand early and mail voting; says photo-ID rules discourage voting (OnTheIssues)",
+          "url": "https://www.ontheissues.org/senate/sherrod_brown.htm"
         }
       },
       "sources": [
@@ -73,7 +93,7 @@
           "url": "https://www.fec.gov/data/candidate/S6OH00163/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13"
     },
     {
       "id": "fec-S6OH00304",
@@ -86,14 +106,14 @@
       "background": "Appointed U.S. Senator (Jan 2025) after JD Vance became Vice President; previously Ohio Lt. Governor and Secretary of State. Running to keep the seat in the special election.",
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": 1,
         "education": 2,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": 2
       },
       "positionSources": {
@@ -112,6 +132,18 @@
         "democracy": {
           "label": "'Easy to vote and hard to cheat': voter-roll purges (upheld 5–4 in Husted v. Randolph Institute), uniform early-voting limits (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Jon_Husted"
+        },
+        "health": {
+          "label": "Defends One Big Beautiful Bill Medicaid work requirements: 'work 20 hours a week or take classes' (Blue Water Healthy Living)",
+          "url": "https://bluewaterhealthyliving.com/news/national-news/ohio/whats-packed-into-big-beautiful-bill-for-ohioans-u-s-sen-jon-husted-shares-his-view/"
+        },
+        "immigration": {
+          "label": "Backs deporting people 'who came here illegally and committed crimes' while wanting legal pathways for agriculture and construction workers (Blue Water Healthy Living)",
+          "url": "https://bluewaterhealthyliving.com/news/national-news/ohio/whats-packed-into-big-beautiful-bill-for-ohioans-u-s-sen-jon-husted-shares-his-view/"
+        },
+        "repro": {
+          "label": "Campaign pledge: 'Jon will always stand for life, defend the most vulnerable' (Husted for Senate)",
+          "url": "https://www.jonhustedforsenate.com/"
         }
       },
       "sources": [
@@ -124,7 +156,12 @@
           "url": "https://www.fec.gov/data/candidate/S6OH00304/"
         }
       ],
-      "curatedAt": "2026-08-12"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked jonhustedforsenate.com and Ballotpedia, nothing documented beyond generic 'reining in Big Government'",
+        "housing": "checked jonhustedforsenate.com and Ballotpedia, nothing documented",
+        "safety": "checked jonhustedforsenate.com, Ballotpedia, and OBBB interview coverage, nothing documented"
+      }
     },
     {
       "id": "oh-gov-ramaswamy",
@@ -137,15 +174,15 @@
       "incumbent": false,
       "background": "Biotech entrepreneur, author, and 2024 presidential candidate; briefly co-led DOGE. Endorsed by the Ohio Republican Party for the open governor seat.",
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 2,
         "climate": 2,
         "education": 1,
         "safety": 0,
-        "repro": null,
+        "repro": 2,
         "democracy": 2
       },
       "positionSources": {
@@ -168,6 +205,18 @@
         "democracy": {
           "label": "Proposed raising the voting age to 25 absent service or a civics test (2023 campaign) (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+        },
+        "cost": {
+          "label": "Plan: 'Slash red tape that drives up costs and stalls business growth' plus low-cost energy and lower taxes as the affordability fix (Vivek for Ohio)",
+          "url": "https://vivekforohio.com/the-plan"
+        },
+        "taxes": {
+          "label": "'Phase out the state income tax,' 'slash property taxes immediately,' and 'cut government bloat so our government lives within its means' (Vivek for Ohio)",
+          "url": "https://vivekforohio.com/the-plan"
+        },
+        "repro": {
+          "label": "'Unapologetically pro-life'; praised Iowa's six-week ban as 'progress that should come from the states'; open to a federal ban (Heartland Signal)",
+          "url": "https://heartlandsignal.com/2026/05/12/vivek-ramaswamys-anti-abortion-record-clashes-with-ohios-constitutional-protections/"
         }
       },
       "sources": [
@@ -176,9 +225,13 @@
           "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Cincinnati, OH",
-      "now": "Entrepreneur; 2024 presidential candidate"
+      "now": "Entrepreneur; 2024 presidential candidate",
+      "nullNotes": {
+        "health": "checked vivekforohio.com plan and homepage plus Ballotpedia, no healthcare plank documented",
+        "housing": "checked vivekforohio.com plan (homeownership mentioned only via lower cost of living, no housing policy) and Ballotpedia, nothing documented"
+      }
     },
     {
       "id": "oh-gov-acton",
@@ -191,21 +244,45 @@
       "incumbent": false,
       "background": "Physician and former Ohio Department of Health director, the state's trusted voice in the early COVID-19 response.",
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": null,
         "immigration": null,
         "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "climate": -1,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
       },
       "positionSources": {
         "health": {
           "label": "Campaign centers healthcare costs: Medicaid, caregiver tax credits, marketplace affordability (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Amy_Acton"
+        },
+        "cost": {
+          "label": "Affordability agenda: 'crack down on price gouging,' a price-gouging hotline, Ohio Rx drug-purchasing platform, wage-theft enforcement (Acton for Governor)",
+          "url": "https://actonforgovernor.com/issue/acton-lowering-costs-affordability-agenda/"
+        },
+        "climate": {
+          "label": "Lower bills by 'incorporating the lowest-cost and cleanest sources of energy'; regulators 'not beholden to utility companies' (Acton for Governor)",
+          "url": "https://actonforgovernor.com/issue/lowering-energy-costs/"
+        },
+        "education": {
+          "label": "'Public money should be for public schools': restore constitutional funding, reform the 'corrupt school voucher system' (Acton for Governor)",
+          "url": "https://actonforgovernor.com/issue/education/"
+        },
+        "safety": {
+          "label": "Mixed: 'fully fund the police and public safety' alongside investing in 'addiction treatment, mental health services and community programming' (Acton for Governor)",
+          "url": "https://actonforgovernor.com/issue/building-safer-communities/"
+        },
+        "repro": {
+          "label": "Protect 'safe, legal abortion care, contraception, fertility treatments, and miscarriage care,' free from government interference (Acton for Governor)",
+          "url": "https://actonforgovernor.com/issue/ensuring-reproductive-freedom/"
+        },
+        "democracy": {
+          "label": "Will 'help try again to pass a redistricting reform amendment in 2027'; called GOP ballot language 'lawless' (Signal Akron)",
+          "url": "https://signalakron.org/amy-acton-says-shell-push-for-new-redistricting-amendment-as-ohio-governor-election-2026/"
         }
       },
       "sources": [
@@ -214,9 +291,14 @@
           "url": "https://en.wikipedia.org/wiki/Amy_Acton"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Columbus, OH",
-      "now": "Former Director, Ohio Department of Health"
+      "now": "Former Director, Ohio Department of Health",
+      "nullNotes": {
+        "housing": "checked actonforgovernor.com issues hub and affordability agenda (no housing plank) and Ballotpedia (2026 survey not completed), nothing documented",
+        "immigration": "checked actonforgovernor.com issues pages and Ballotpedia, nothing documented",
+        "taxes": "checked affordability agenda: proposes targeted family credits (EITC, child credit) which do not fit the axis; no corporate tax raise or across-the-board cut documented"
+      }
     }
   ]
 }

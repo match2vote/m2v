@@ -32,12 +32,12 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": -2,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -69,6 +69,18 @@
         "democracy": {
           "label": "Long-standing opposition to NC voter ID legislation (Ballotpedia)",
           "url": "https://ballotpedia.org/Roy_Cooper"
+        },
+        "housing": {
+          "label": "As governor proposed $160M, 'the largest proposed housing investment in the state in over a decade': Housing Trust Fund, Workforce Housing Loan Program, affordable senior rentals (NLIHC)",
+          "url": "https://nlihc.org/resource/field-north-carolina-governor-proposes-160-million-affordable-housing"
+        },
+        "taxes": {
+          "label": "Vetoed the GOP budget for keeping 'income tax breaks for corporations and families making over $200,000 a year instead of investing in education'; proposed freezing those cuts to raise teacher pay (NC Newsline)",
+          "url": "https://ncnewsline.com/briefs/cooper-vetoes-budget-bill-heres-why/"
+        },
+        "safety": {
+          "label": "Vetoed HB 805, which imposed harsher penalties for rioting and tighter pretrial release rules (ACLU of North Carolina)",
+          "url": "https://www.acluofnorthcarolina.org/press-releases/governor-cooper-vetoes-harsh-anti-protester-legislation/"
         }
       },
       "sources": [
@@ -81,7 +93,7 @@
           "url": "https://www.fec.gov/data/candidate/S6NC00407/"
         }
       ],
-      "curatedAt": "2026-07-09",
+      "curatedAt": "2026-08-13",
       "age": 68,
       "home": "Nashville, NC",
       "now": "Governor of North Carolina",
@@ -107,7 +119,7 @@
         "immigration": 2,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 2,
         "repro": 1,
         "democracy": 2
@@ -140,6 +152,10 @@
         "democracy": {
           "label": "Campaign: 'protect the ballot'; led election-integrity efforts as NC GOP chair (campaign site)",
           "url": "https://michaelwhatley.com/issues/"
+        },
+        "education": {
+          "label": "Pledges 'keeping radical woke ideology out of schools' (campaign site)",
+          "url": "https://michaelwhatley.com/issues/"
         }
       },
       "sources": [
@@ -156,7 +172,7 @@
           "url": "https://www.fec.gov/data/candidate/S6NC00415/"
         }
       ],
-      "curatedAt": "2026-07-09",
+      "curatedAt": "2026-08-13",
       "age": 57,
       "home": "Gastonia, NC",
       "now": "Chair, Republican National Committee",
@@ -164,7 +180,11 @@
         "Border security",
         "Cut taxes and spending",
         "Support the Trump agenda"
-      ]
+      ],
+      "nullNotes": {
+        "health": "checked campaign issues page and Ballotpedia (2026 Candidate Connection survey not completed), nothing documented",
+        "housing": "checked campaign issues page and Ballotpedia (2026 Candidate Connection survey not completed), nothing documented"
+      }
     },
     {
       "id": "fec-H2NC02287",

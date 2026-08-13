@@ -30,12 +30,12 @@
         "health": -2,
         "housing": -2,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -2,
         "climate": -2,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -57,6 +57,26 @@
         "climate": {
           "label": "100% renewable energy by 2030; tougher environmental enforcement (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
+        },
+        "taxes": {
+          "label": "'A billionaire tax on wealth over $1 billion,' tax capital gains over $1M as ordinary income, close the stepped-up basis loophole and Social Security cap (Abdul for Senate)",
+          "url": "https://abdulforsenate.com/priority/money-in-your-pocket/"
+        },
+        "education": {
+          "label": "'I oppose efforts to privatize public education through vouchers'; $60,000 minimum teacher salary; universal pre-K (Abdul for Senate)",
+          "url": "https://abdulforsenate.com/priority/money-in-your-pocket/"
+        },
+        "safety": {
+          "label": "2020: invest in 'any and all efforts to get people out of jails and prisons,' policing as 'duct tape' for broken systems; later deleted defund-police posts (Fox News)",
+          "url": "https://www.foxnews.com/politics/democratic-senate-candidate-called-mass-release-criminals-during-prison-abolition-webinar"
+        },
+        "repro": {
+          "label": "'Unwavering in his support for reproductive rights for women'; vows to reverse the erosion of these rights (Abdul for Senate)",
+          "url": "https://go.abdulforsenate.com/women-for-abdul"
+        },
+        "democracy": {
+          "label": "Automatic registration at 18, 'no-reason absentee and early in-person voting,' opposes 'mandatory Voter ID laws like the SAVE Act' (Abdul for Senate)",
+          "url": "https://abdulforsenate.com/priority/money-out-of-politics/"
         }
       },
       "sources": [
@@ -73,7 +93,7 @@
           "url": "https://www.fec.gov/data/candidate/S6MI00418/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Ann Arbor, MI",
       "now": "Executive Director, Detroit Health Department",
       "priorities": [
@@ -94,11 +114,11 @@
       "positions": {
         "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 2,
         "immigration": 2,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 0,
         "democracy": 2
@@ -131,6 +151,14 @@
         "democracy": {
           "label": "Backs aggressive election-security measures incl. police monitoring of election workers; promoted 2020 fraud claims (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)"
+        },
+        "housing": {
+          "label": "Housing plan 'breaks down barriers to homeownership by rolling back overregulation,' cuts red tape, tax-free new construction zones (Rogers for Senate)",
+          "url": "https://rogersforsenate.com/housingplan"
+        },
+        "education": {
+          "label": "Campaign pledge: 'prioritizing education not indoctrination' to set kids up for success (Rogers for Senate)",
+          "url": "https://rogersforsenate.com/"
         }
       },
       "sources": [
@@ -143,14 +171,17 @@
           "url": "https://www.fec.gov/data/candidate/S4MI00595/"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "White Lake, MI",
       "now": "U.S. Senate candidate (2024 nominee)",
       "priorities": [
         "Border security",
         "Cut taxes and spending",
         "Strong national defense"
-      ]
+      ],
+      "nullNotes": {
+        "climate": "checked rogersforsenate.com (no energy or climate page in site navigation) and Ballotpedia, nothing documented"
+      }
     },
     {
       "id": "mi-gov-benson",
@@ -163,13 +194,13 @@
       "incumbent": false,
       "background": "Michigan Secretary of State since 2019; former law school dean. Awarded the JFK Profile in Courage Award for defending the 2020 election.",
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": 0,
+        "health": -1,
+        "housing": 0,
         "immigration": null,
         "taxes": null,
-        "climate": null,
-        "education": null,
+        "climate": -1,
+        "education": -1,
         "safety": null,
         "repro": -1,
         "democracy": -2
@@ -182,6 +213,26 @@
         "democracy": {
           "label": "SoS record: Election Day registration, absentee applications to all voters, ballot tracking (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Jocelyn_Benson"
+        },
+        "cost": {
+          "label": "Mixed: 'streamlining regulations that slow down construction' and 'government is showing up everywhere we don't need it,' alongside cracking down on corporate investors and drug pricing (Benson for Governor)",
+          "url": "https://www.jocelynbenson.com/issues/Affordability"
+        },
+        "health": {
+          "label": "Healthcare 'a right, not a privilege': Prescription Drug Affordability Board to approve price increases, surprise-billing ban, medical debt relief (Benson for Governor)",
+          "url": "https://www.jocelynbenson.com/issues/Healthcare"
+        },
+        "housing": {
+          "label": "Mixed: remove 'outdated zoning regulations and bureaucratic red tape' to build faster, while targeting 'Wall Street landlords' buying up homes (Benson for Governor)",
+          "url": "https://www.jocelynbenson.com/issues/Housing"
+        },
+        "climate": {
+          "label": "'Clean, renewable energy is the cheapest form of energy'; invest in clean energy and manufacturing, hold 'polluters accountable' (Benson for Governor)",
+          "url": "https://www.jocelynbenson.com/issues/environment"
+        },
+        "education": {
+          "label": "Daughter of two public school teachers: 'it's really critical to me... that we improve our public education system' (Michigan Public)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-07-17/michigans-race-for-governor-meet-candidate-jocelyn-benson"
         }
       },
       "sources": [
@@ -190,9 +241,14 @@
           "url": "https://en.wikipedia.org/wiki/Jocelyn_Benson"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Detroit, MI",
-      "now": "Michigan Secretary of State"
+      "now": "Michigan Secretary of State",
+      "nullNotes": {
+        "immigration": "checked jocelynbenson.com issues pages, Ballotpedia, and Michigan Public interview, nothing documented",
+        "taxes": "checked affordability page: only a $5,000 caregiver tax credit, which does not fit the axis; no corporate raise or across-the-board cut documented",
+        "safety": "checked jocelynbenson.com issues pages, Ballotpedia, and Michigan Public interview (only a general school-safety remark), nothing documented"
+      }
     },
     {
       "id": "mi-gov-james",
@@ -208,8 +264,8 @@
         "cost": null,
         "health": 2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 2,
         "climate": null,
         "education": 1,
         "safety": null,
@@ -232,6 +288,14 @@
         "democracy": {
           "label": "Challenged the certification of the 2020 election results (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
+        },
+        "taxes": {
+          "label": "Voted yes on the One Big Beautiful Bill making the 2017 tax cuts permanent: 'protects the average taxpayer from a 22 percent tax hike' (james.house.gov)",
+          "url": "https://james.house.gov/news/documentsingle.aspx?DocumentID=248"
+        },
+        "immigration": {
+          "label": "Voted for the One Big Beautiful Bill and touts that it 'strengthens border security' with $46.5 billion for border barrier construction (james.house.gov)",
+          "url": "https://james.house.gov/news/documentsingle.aspx?DocumentID=248"
         }
       },
       "sources": [
@@ -240,9 +304,15 @@
           "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)"
         }
       ],
-      "curatedAt": "2026-08-12",
+      "curatedAt": "2026-08-13",
       "home": "Farmington Hills, MI",
-      "now": "U.S. Representative, MI-10"
+      "now": "U.S. Representative, MI-10",
+      "nullNotes": {
+        "cost": "checked Spectrum News key-issues interview, james.house.gov OBBB release, and campaign coverage, no cost-of-living approach documented",
+        "housing": "checked Spectrum News interview, james.house.gov, and Ballotpedia, nothing documented",
+        "climate": "checked Spectrum News interview (data-center siting remarks only) and james.house.gov OBBB release (no energy statement), nothing documented",
+        "safety": "checked Spectrum News interview, james.house.gov, and Ballotpedia, nothing documented"
+      }
     }
   ]
 }

@@ -1,0 +1,356 @@
+{
+  "state": "MN",
+  "note": "Hand-curated, sourced entries. Primaries held Aug 11, 2026; vote shares are election-night counts, re-verify certified results. Gov. Walz is not seeking a third term.",
+  "races": {
+    "MN-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6MN00440",
+        "fec-S6MN00556"
+      ],
+      "statusNote": "Open seat (Sen. Tina Smith retiring): Lt. Gov. Peggy Flanagan (DFL) faces former NBC sideline reporter Michele Tafoya (R). Both nominated Aug 11."
+    },
+    "MN-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Walz not running): Sen. Amy Klobuchar (DFL) faces state House Speaker Lisa Demuth (R), who beat the Trump-endorsed Mike Lindell in the primary."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6MN00440",
+      "name": "Peggy Flanagan",
+      "party": "Democrat (DFL)",
+      "office": "us-senate",
+      "state": "MN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 46,
+      "home": "St. Louis Park, MN",
+      "now": "Lieutenant Governor of Minnesota",
+      "background": "Minnesota's Lieutenant Governor since 2019 and a White Earth Nation citizen; would be the first Native American woman in the U.S. Senate. Former state representative and Children's Defense Fund-MN director. Won the Aug 11 DFL primary about 59-40 over Rep. Angie Craig.",
+      "priorities": [
+        "Affordability: 'one good job should be enough'",
+        "Medicare for All",
+        "Tackling fraud and corporate influence"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "$17 federal minimum wage tied to inflation, national paid family leave, expanded child tax credits (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "health": {
+          "label": "Medicare for All; drug-price negotiation; add dental, vision, and hearing (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "housing": {
+          "label": "Backs the Homes Act to build affordable housing; curb corporate landlords buying single-family homes (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "immigration": {
+          "label": "Calls for dismantling ICE, ending mass deportations, and a legal-status pathway for longtime residents (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "taxes": {
+          "label": "Lift the payroll-tax cap on the wealthy; end special corporate tax treatment; no federal tax on Social Security (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "climate": {
+          "label": "Wind and solar with union jobs, biofuels, green hydrogen; opposes clean-energy rollbacks (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "education": {
+          "label": "Fully fund IDEA, universal pre-K, more K-12 funding without vouchers (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "safety": {
+          "label": "Mixed: well-resourced police paired with accountability, re-entry programs, banning private prisons (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "repro": {
+          "label": "Women's Health Protection Act to restore Roe; opposes the Hyde Amendment; backs IVF coverage (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        "democracy": {
+          "label": "John Lewis Voting Rights Act; reverse Citizens United; congressional stock-trading ban (campaign priorities)",
+          "url": "https://peggyflanagan.com/priorities/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Attacked over Minnesota fraud scandals on the Walz-Flanagan watch (Feeding Our Future, Medicaid autism services); Walz declined to endorse her (Minnesota Reformer)",
+          "url": "https://minnesotareformer.com/2026/07/28/in-tight-senate-race-peggy-flanagan-cant-escape-the-f-word/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign priorities",
+          "url": "https://peggyflanagan.com/priorities/"
+        },
+        {
+          "label": "Wikipedia: Peggy Flanagan",
+          "url": "https://en.wikipedia.org/wiki/Peggy_Flanagan"
+        },
+        {
+          "label": "FEC committee",
+          "url": "https://www.fec.gov/data/committee/C00897751/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6MN00556",
+      "name": "Michele Tafoya",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 61,
+      "home": "Edina, MN",
+      "now": "Broadcaster; former NBC Sunday Night Football reporter",
+      "background": "Five-time Sports Emmy winner who left NBC's Sunday Night Football in 2022 and became a conservative commentator. Won the Aug 11 Republican primary with about 52% of a nine-candidate field. First run for office.",
+      "priorities": [
+        "Fraud crackdown",
+        "Middle-class cost of living and energy costs",
+        "Backing law enforcement"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 2,
+        "repro": 0,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Washington should 'spend less, borrow less and tax less'; lower utility and gas prices via energy expansion (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "health": {
+          "label": "Fight 'bureaucrats, middlemen and price-gougers'; cut drug costs; keep power with patients (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "immigration": {
+          "label": "Enforce immigration laws, deport criminal offenders; opposes abolishing ICE (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "taxes": {
+          "label": "Will oppose any tax increase on the middle class (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "climate": {
+          "label": "'All-of-the-above' energy to cut utility and gas prices 'while continuing to protect our environment' (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "education": {
+          "label": "Restore parents' say, transparency and accountability, reverse test-score decline (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "safety": {
+          "label": "Tough new mandatory-minimum sentences for fraud; more funding, training, and legal protections for police (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        "repro": {
+          "label": "Conflicting statements: calls herself 'a pro-choice Republican' saying Dobbs made it a state issue (NOTUS), while calling Minnesota's abortion protections 'awful... barbaric' and pledging 'strict, conservative judges' (DFL release quoting her podcast)",
+          "url": "https://www.notus.org/2026-election/republican-top-senate-recruit-minnesota-michele-tafoya-interview"
+        },
+        "democracy": {
+          "label": "Backs voter ID and paper ballots: 'easy to vote and hard to cheat' (campaign issues)",
+          "url": "https://micheletafoya.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://micheletafoya.com/issues/"
+        },
+        {
+          "label": "Wikipedia: Michele Tafoya",
+          "url": "https://en.wikipedia.org/wiki/Michele_Tafoya"
+        },
+        {
+          "label": "FEC committee",
+          "url": "https://www.fec.gov/data/committee/C00935528/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "mn-gov-klobuchar",
+      "name": "Amy Klobuchar",
+      "party": "Democrat (DFL)",
+      "office": "governor",
+      "state": "MN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 66,
+      "home": "Plymouth, MN",
+      "now": "U.S. Senator for Minnesota",
+      "background": "Minnesota's senior U.S. Senator since 2007, four-term winner and 2020 presidential candidate, now running for governor. Former Hennepin County Attorney. Won the Aug 11 DFL primary with about 89%; would be Minnesota's first female governor.",
+      "priorities": [
+        "Lower housing, child care, and health care costs",
+        "Government accountability; root out fraud",
+        "Workforce and apprenticeships"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Priority #1: lower housing, child-care, and health-care costs; child-care expansion and lower drug prices (campaign priorities)",
+          "url": "https://www.amyklobuchar.com/priorities/"
+        },
+        "health": {
+          "label": "State bulk drug purchasing, reinsurance to cut premiums, price-transparency tool, rural-hospital grants (campaign health plan)",
+          "url": "https://www.amyklobuchar.com/priorities/healthcare"
+        },
+        "housing": {
+          "label": "Build at least 100,000 homes, standardize permitting, one-application down-payment help, ban rent price-fixing algorithms (campaign housing plan)",
+          "url": "https://www.amyklobuchar.com/priorities/lower-housing-costs-for-minnesotans"
+        },
+        "immigration": {
+          "label": "Mixed: 'ICE needs to leave our state,' while saying 'we're always gonna have some immigration enforcement... and border control' (Minnesota Reformer)",
+          "url": "https://minnesotareformer.com/2026/01/29/sen-klobuchar-launches-campaign-for-minnesota-governor/"
+        },
+        "climate": {
+          "label": "Modernize the power grid with renewable energy; conservation of air, water, and public lands (campaign priorities)",
+          "url": "https://www.amyklobuchar.com/priorities/"
+        },
+        "education": {
+          "label": "Evidence-based phonics, tutoring, classroom phone ban; double apprenticeships and dual enrollment (campaign workforce plan)",
+          "url": "https://www.amyklobuchar.com/priorities/prepare-minnesotas-workforce-for-the-future"
+        },
+        "safety": {
+          "label": "Record: tough-on-crime Hennepin County Attorney with more convictions and longer sentences; led felony law change for repeat drunk drivers (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar"
+        },
+        "repro": {
+          "label": "Pledges to protect the reproductive rights codified in state law; voted for the Women's Health Protection Act (campaign health plan)",
+          "url": "https://www.amyklobuchar.com/priorities/healthcare"
+        }
+      },
+      "controversies": [
+        {
+          "label": "2019 reporting on staff mistreatment and high turnover; zero police-brutality prosecutions as county attorney; the flawed Myon Burrell prosecution, commuted in 2020 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign priorities",
+          "url": "https://www.amyklobuchar.com/priorities/"
+        },
+        {
+          "label": "Wikipedia: Amy Klobuchar",
+          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar"
+        },
+        {
+          "label": "Minnesota Reformer: campaign launch",
+          "url": "https://minnesotareformer.com/2026/01/29/sen-klobuchar-launches-campaign-for-minnesota-governor/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "mn-gov-demuth",
+      "name": "Lisa Demuth",
+      "party": "Republican",
+      "office": "governor",
+      "state": "MN",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 59,
+      "home": "Cold Spring, MN",
+      "now": "Speaker of the Minnesota House",
+      "background": "Speaker of the Minnesota House since 2025, the first Republican woman and first African American in the role. Business owner and former school board member from Cold Spring. Won the Aug 11 Republican primary with about 45%, beating the Trump-endorsed Mike Lindell.",
+      "priorities": [
+        "Eliminate state-program fraud (Inspector General, 'fraud czar')",
+        "Tax cuts and affordability",
+        "Education 'reset'"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Cut income taxes in the two lowest brackets, reduce car-tab fees, return surpluses, reform energy mandates 'driving up utility bills' (campaign priorities)",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        "taxes": {
+          "label": "Cut income taxes for families, end state taxes on Social Security, mandate surplus refunds (campaign priorities)",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        "climate": {
+          "label": "'All-of-the-above' energy: repeal the nuclear ban, roll back clean-energy mandates, cut permitting timelines, expand mining (campaign priorities)",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        "education": {
+          "label": "'Dramatic reset': prioritize reading proficiency, shift spending from bureaucracy to classrooms (campaign priorities)",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        "safety": {
+          "label": "Stronger sentences for repeat offenders; crack down on 'soft-on-crime' judges and county attorneys (campaign priorities)",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        "repro": {
+          "label": "Opposes abortion: supported fetal-heartbeat legislation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lisa_Demuth"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities",
+          "url": "https://lisaformn.com/priorities/"
+        },
+        {
+          "label": "Wikipedia: Lisa Demuth",
+          "url": "https://en.wikipedia.org/wiki/Lisa_Demuth"
+        },
+        {
+          "label": "Minnesota Reformer: primary result",
+          "url": "https://minnesotareformer.com/2026/08/11/lisa-demuth-beats-trump-endorsed-mike-lindell-in-gop-primary-for-minnesota-governor/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

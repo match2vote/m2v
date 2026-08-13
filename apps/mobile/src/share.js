@@ -5,7 +5,7 @@
 import { Platform, Share } from 'react-native';
 
 const BRAND = { bg: '#0E5A43', paper: '#FFFDF8', ink: '#141210', soft: '#645E55', bright: '#3DDC97', gold: '#C78A19' };
-const URL_LINE = 'match2vote.github.io/m2v';
+const URL_LINE = 'match2vote.org';
 
 function download(canvas, filename) {
   try {

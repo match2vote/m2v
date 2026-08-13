@@ -1,5 +1,5 @@
 # Companion web app + curation tool → GitHub Pages.
-# Public URL: https://match2vote.github.io/m2v/  (curation tool at /m2v/curate/)
+# Public URL: https://match2vote.org/  (curation tool at /curate/)
 # This is the store-rejection fallback: same code, always deployable, no gatekeeper.
 name: Deploy web app
 
@@ -58,6 +58,8 @@ jobs:
           done
           # Pages runs Jekyll on branch deploys, which would drop the _expo dir.
           touch _site/.nojekyll
+          # Custom domain (kept across deploys; Pages needs this in the site root)
+          echo "match2vote.org" > _site/CNAME
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -115,10 +117,11 @@ jobs:
       - name: Verify the live site serves this build
         run: |
           bundle=$(basename _site/_expo/static/js/web/index-*.js)
-          url="https://match2vote.github.io/m2v/_expo/static/js/web/$bundle"
+          # Primary host is the custom domain; the github.io URL 301s there.
+          url="https://match2vote.org/_expo/static/js/web/$bundle"
           echo "Checking $url"
           for i in $(seq 1 16); do
-            code=$(curl -s -o /dev/null -w '%{http_code}' "$url?v=$GITHUB_SHA-$i")
+            code=$(curl -sL -o /dev/null -w '%{http_code}' "$url?v=$GITHUB_SHA-$i")
             echo "attempt $i: $code"
             [ "$code" = "200" ] && exit 0
             sleep 15

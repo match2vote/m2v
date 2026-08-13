@@ -4,7 +4,7 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { Platform } from 'react-native';
 
-const BASE = '/m2v';
+const BASE = '';
 const NavCtx = createContext(null);
 
 function routeToPath(r) {

@@ -1,0 +1,194 @@
+{
+  "state": "CO",
+  "note": "Hand-curated, sourced entries. Open seat (Gov. Polis term-limited). Marx's repro stance is from third-party reporting, absent from his platform; labeled accordingly.",
+  "races": {
+    "CO-governor": {
+      "status": "general",
+      "statusNote": "Open seat: AG Phil Weiser (D), who beat Sen. Michael Bennet in the primary, faces ministry founder Victor Marx (R), who won the closest GOP primary in state history by 2,516 votes."
+    }
+  },
+  "candidates": [
+    {
+      "id": "co-gov-weiser",
+      "name": "Phil Weiser",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "CO",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 58,
+      "home": "Denver, CO",
+      "now": "Attorney General of Colorado",
+      "background": "Colorado Attorney General since 2019; former CU Law dean and clerk to Justices White and Ginsburg. Son and grandson of Holocaust survivors. Has filed 64 lawsuits against the Trump administration since January 2025. Beat Sen. Michael Bennet about 55-45 in the June primary.",
+      "priorities": [
+        "Cost of living and housing affordability",
+        "Health care access ('Healthy Colorado Plan')",
+        "Defending Coloradans' rights against federal overreach"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": 0,
+        "climate": -2,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pairs business-friendly regulatory review with state investment in housing, childcare, and health care (Colorado Sun issue guide)",
+          "url": "https://coloradosun.com/2026/06/02/michael-bennet-phil-weiser-colorado-governor-democratic-primary-issue-guide/"
+        },
+        "health": {
+          "label": "'Healthy Colorado Plan': universal primary care, building on the Colorado Option, insulin caps, surprise-billing ban (campaign site)",
+          "url": "https://philforcolorado.com/issue/healthcare/"
+        },
+        "housing": {
+          "label": "Mixed: 40,000 attainable homes via faster permitting and lower fees AND down-payment help plus a ban on algorithmic rent collusion; skeptical of rent control (campaign site)",
+          "url": "https://philforcolorado.com/issue/affordable-homes-and-communities/"
+        },
+        "immigration": {
+          "label": "Enforce state laws barring federal coercion of local police into immigration enforcement and blocking ICE detention facility sales (campaign site)",
+          "url": "https://philforcolorado.com/issue/our-rights-and-freedoms/"
+        },
+        "taxes": {
+          "label": "Mixed: keep TABOR's voter-approval requirement for tax increases; open to revenue changes for childcare (Colorado Sun issue guide)",
+          "url": "https://coloradosun.com/2026/06/02/michael-bennet-phil-weiser-colorado-governor-democratic-primary-issue-guide/"
+        },
+        "climate": {
+          "label": "Meet emission-reduction goals: Geothermal Development Authority, battery storage, EV incentives, heat-pump rates (campaign site)",
+          "url": "https://philforcolorado.com/issue/energy-and-climate/"
+        },
+        "education": {
+          "label": "Livable teacher wages plus teacher housing aid; defend public schools against privatization; expand Universal Preschool (campaign site)",
+          "url": "https://philforcolorado.com/issue/education/"
+        },
+        "safety": {
+          "label": "Mixed: police recruitment and modernized training AND co-responder mental-health teams, risk-based bail (campaign site)",
+          "url": "https://philforcolorado.com/issue/public-safety/"
+        },
+        "repro": {
+          "label": "Defend reproductive rights 'including Amendment 79 and against any attacks on our laws protecting the right to choose' (campaign site)",
+          "url": "https://philforcolorado.com/issue/our-rights-and-freedoms/"
+        },
+        "democracy": {
+          "label": "'Defend Colorado's gold-standard voting laws against political power plays and retaliation' (campaign site)",
+          "url": "https://philforcolorado.com/issue/our-rights-and-freedoms/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues",
+          "url": "https://philforcolorado.com/issues/"
+        },
+        {
+          "label": "CPR: primary result",
+          "url": "https://www.cpr.org/2026/06/30/colorado-governor-democratic-primary-election-2026-results/"
+        },
+        {
+          "label": "Wikipedia: Phil Weiser",
+          "url": "https://en.wikipedia.org/wiki/Phil_Weiser"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "co-gov-marx",
+      "name": "Victor Marx",
+      "party": "Republican",
+      "office": "governor",
+      "state": "CO",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 61,
+      "home": "north of Colorado Springs, CO",
+      "now": "CEO, All Things Possible Ministries",
+      "background": "Founder of a religious humanitarian nonprofit and Marine Corps veteran; a political newcomer who describes himself as a 'high-risk missionary.' Won the closest Republican gubernatorial primary in Colorado history, 39.9% to Barbara Kirkmeyer's 39.4%. Both his primary rivals have declined to support him.",
+      "priorities": [
+        "Housing affordability via deregulation",
+        "Public safety: fentanyl, repeal 'soft-on-crime' laws",
+        "Election integrity and immigration enforcement"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 2,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Mixed-market: expanded EITC and property-tax caps plus deregulation of housing and childcare; state spending audit (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "health": {
+          "label": "Keep Cover All Coloradans for pregnant women and children already enrolled while auditing Medicaid for waste and fraud (Colorado Sun issue guide)",
+          "url": "https://coloradosun.com/2026/06/06/barbara-kirkmeyer-scott-bottoms-victor-marx-colorado-primary-election-gop-governor-issue-guide/"
+        },
+        "housing": {
+          "label": "'Slash red tape on home building': mandatory expedited permitting, roll back construction mandates; free market over state involvement on rent (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "immigration": {
+          "label": "End sanctuary policies, require cooperation with federal authorities, Border-Related Crime Strike Force (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "taxes": {
+          "label": "Colorado is 'over-taxed': phased income-tax reduction, close the 'fees loophole,' protect TABOR (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "climate": {
+          "label": "'All-of-the-above' energy keeping oil and gas; says 'humans contribute to some aspect of climate change' (Colorado Sun issue guide)",
+          "url": "https://coloradosun.com/2026/06/06/barbara-kirkmeyer-scott-bottoms-victor-marx-colorado-primary-election-gop-governor-issue-guide/"
+        },
+        "education": {
+          "label": "Expand school choice via education savings accounts; parental curriculum access; local board control (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "safety": {
+          "label": "Repeal 'soft-on-crime laws': end 'catch-and-release,' detain dangerous defendants, statewide fentanyl priority (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        "repro": {
+          "label": "Personally 'pro-life' but says he would not try to overturn Colorado's voter-approved abortion protections; absent from his own platform (Colorado Times Recorder)",
+          "url": "https://coloradotimesrecorder.com/2025/12/abortion-shaping-the-republican-gubernatorial-primary/74886/"
+        },
+        "democracy": {
+          "label": "Voter ID for all ballots, annual voter-roll maintenance, ballot chain-of-custody standards (campaign policies)",
+          "url": "https://www.victor2026.com/my-policies"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Ministry's claim of rescuing 40,000+ women and children was disproven and removed from campaign materials; could not verify a childhood homicide story; skipped most primary debates; both GOP rivals call him unfit (Colorado Sun)",
+          "url": "https://coloradosun.com/2026/07/09/victor-marx-wins-colorados-republican-primary-governor/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign policies",
+          "url": "https://www.victor2026.com/my-policies"
+        },
+        {
+          "label": "CPR voter guide",
+          "url": "https://www.cpr.org/2026/05/29/vg-2026-primary-election-colorado-governor-victor-marx/"
+        },
+        {
+          "label": "Colorado Sun: primary result",
+          "url": "https://coloradosun.com/2026/07/09/victor-marx-wins-colorados-republican-primary-governor/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

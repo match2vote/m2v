@@ -36,29 +36,54 @@ export function getBundledStateData(code) {
 // A race with zero showable candidates IS NOT RETURNED, no empty rows, ever.
 //
 // opts.curatedOnly → only 'full' races (used for matching).
-// opts.display     → both tiers (used for Browse, Home, Ballot).
+// opts.display     → both tiers (used for Browse, Home).
+// opts.ballotView  → BALLOT ONLY (rule change, Aug 13): covered races with
+//   EVERY candidate likely to appear on the real paper ballot, researched or
+//   not. The ballot is a planning tool and must mirror the ballot the voter
+//   will actually face. Researched candidates come first and are flagged
+//   `researched: true`; the rest are listed by name/party from official
+//   filing data, flagged `researched: false`, never with inferred positions.
+//   Candidates who lost or won't advance are still excluded. Browse/Races
+//   deliberately do NOT do this; only the ballot mirrors the full field.
+const ELIMINATED = new Set(['not-advancing', 'lost', 'withdrawn']);
+
 export function getRaces(code, data, opts = {}) {
   const races = buildRaces(code, data);
-  if (!opts.curatedOnly && !opts.display) return races;
+  if (!opts.curatedOnly && !opts.display && !opts.ballotView) return races;
   return races
     .map((race) => {
       const curated = race.candidates.filter(
         (c) => c.tier === 'curated' && c.ballotStatus !== 'not-advancing'
       );
+      let shown = null;
       if (curated.length) {
-        return { ...race, coverage: 'full', candidates: curated, hiddenCount: race.candidates.length - curated.length };
-      }
-      if (opts.display && (race.meta?.namesOnly || race.meta?.status === 'names-only')) {
+        shown = { ...race, coverage: 'full', candidates: curated, hiddenCount: race.candidates.length - curated.length };
+      } else if ((opts.display || opts.ballotView) && (race.meta?.namesOnly || race.meta?.status === 'names-only')) {
         // Names-only: show verified general-election candidates by name.
         const adv = race.meta.advancing;
         const names = adv
           ? race.candidates.filter((c) => adv.includes(c.id))
           : [];
         if (names.length) {
-          return { ...race, coverage: 'names', candidates: names, hiddenCount: race.candidates.length - names.length };
+          shown = { ...race, coverage: 'names', candidates: names, hiddenCount: race.candidates.length - names.length };
         }
       }
-      return null; // zero showable candidates → race does not exist in the UI
+      if (!shown) return null; // zero showable candidates → race does not exist in the UI
+      if (!opts.ballotView) return shown;
+      // Ballot view: append every remaining non-eliminated filer, unresearched.
+      const shownIds = new Set(shown.candidates.map((c) => c.id));
+      const extras = race.candidates
+        .filter((c) => !shownIds.has(c.id) && !ELIMINATED.has(c.ballotStatus))
+        .map((c) => ({ ...c, researched: false }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      return {
+        ...shown,
+        candidates: [
+          ...shown.candidates.map((c) => ({ ...c, researched: shown.coverage === 'full' })),
+          ...extras,
+        ],
+        hiddenCount: 0,
+      };
     })
     .filter(Boolean);
 }

@@ -1,12 +1,17 @@
-// My Ballot v2, looks like the paper ballot you fill out at the polls.
-// Ruled sections, ALL-CAPS race titles, fillable ovals that mark with a pop.
-// The SAMPLE BALLOT banner is mandatory and always visible (and baked into exports).
+// My Ballot v3, looks like the paper ballot you fill out at the polls.
+// RULE (Aug 13, deliberate change): the ballot mirrors the REAL ballot, every
+// likely candidate is listed and markable, researched or not. Unresearched
+// candidates are clearly labeled and never get a match number. Researched
+// candidates show the user's own match %, and the user's strongest match per
+// race gets a star THAT IS EXPLICITLY THE USER'S RESULT, NEVER OUR PICK.
+// The SAMPLE BALLOT banner is mandatory and always visible (and in exports).
 import React, { useEffect, useState, useCallback } from 'react';
 import { ScrollView, View, Text, Pressable } from 'react-native';
+import { rankCandidates } from '@m2v/core';
 import { Screen, H2, Body, Button, Bubble } from '../ui';
 import { theme, useTheme } from '../theme';
-import { getPicks, savePick, removePick, getStateData, kv } from '../api';
-import { getRaces, getCoverage, STATE_NAMES } from '../ballot';
+import { getPicks, savePick, removePick, getStateData, getQuizState, kv } from '../api';
+import { getRaces, STATE_NAMES } from '../ballot';
 import { useNav } from '../nav';
 import { shareBallotImage } from '../share';
 
@@ -20,11 +25,14 @@ export function OfficialBallot() {
   const [picks, setPicks] = useState(null);
   const [stateCode, setStateCode] = useState(null);
   const [data, setData] = useState(null);
+  const [quiz, setQuiz] = useState(null);
   const [shareMsg, setShareMsg] = useState(null);
+  const [starInfo, setStarInfo] = useState(null); // race id whose star note is open
 
   const load = useCallback(async () => {
-    const [p, s] = await Promise.all([getPicks(), kv.get('m2v:ballotState')]);
+    const [p, s, q] = await Promise.all([getPicks(), kv.get('m2v:ballotState'), getQuizState()]);
     setPicks(p);
+    setQuiz(q && q.done ? q : null);
     const code = s || p[p.length - 1]?.state || null;
     setStateCode(code);
     if (code) getStateData(code, setData).then((d) => d && setData(d));
@@ -33,11 +41,29 @@ export function OfficialBallot() {
 
   if (picks === null) return <Screen><Body soft>Loading…</Body></Screen>;
 
-  // Both tiers appear on the ballot (you can mark a names-only race too),
-  // but only races with at least one showable candidate. No blank slots, ever.
-  const races = stateCode ? getRaces(stateCode, data, { display: true }) : [];
+  // Ballot view: every likely candidate on the real ballot, researched first.
+  // Races with zero candidates still never render.
+  const races = stateCode ? getRaces(stateCode, data, { ballotView: true }) : [];
   const pickByRace = Object.fromEntries(picks.map((p) => [p.raceId, p]));
   const marked = races.filter((r) => pickByRace[r.id]).length;
+
+  // The user's own quiz result per race: match % for researched candidates,
+  // and the top-match star. Star rules: quiz taken, AND the race has 2+
+  // researched candidates (starring the only researched person would mislead),
+  // AND the top result has a real percentage.
+  const quizResults = {};
+  if (quiz) {
+    for (const race of races) {
+      const researched = race.candidates.filter((c) => c.researched);
+      const rows = rankCandidates(quiz.answers, quiz.matters, researched);
+      const pctById = Object.fromEntries(rows.map((r) => [r.candidate.id, r.pct]));
+      const top = rows[0];
+      quizResults[race.id] = {
+        pctById,
+        starId: researched.length >= 2 && top && top.pct !== null ? top.candidate.id : null,
+      };
+    }
+  }
 
   const toggle = async (race, cand) => {
     const existing = pickByRace[race.id];
@@ -47,7 +73,7 @@ export function OfficialBallot() {
       setPicks(await savePick({
         raceId: race.id, raceTitle: race.title, state: cand.state,
         candidateId: cand.id, name: cand.name, party: cand.party, tier: cand.tier,
-        matchPct: existing?.matchPct ?? null,
+        matchPct: quizResults[race.id]?.pctById?.[cand.id] ?? null,
       }));
     }
   };
@@ -104,44 +130,80 @@ export function OfficialBallot() {
             </Text>
           </View>
 
-          {races.map((race) => (
-            <View key={race.id} style={{ marginBottom: space(5) }}>
-              <Text style={{ fontWeight: '800', fontSize: 15, color: inkB, letterSpacing: 0.6 }}>
-                {race.title.toUpperCase()}
-              </Text>
-              <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: space(3) }} />
-              {race.candidates.map((cand) => {
-                const filled = pickByRace[race.id]?.candidateId === cand.id;
-                return (
-                  <Pressable
-                    key={cand.id}
-                    onPress={() => toggle(race, cand)}
-                    style={({ pressed }) => [
-                      { flexDirection: 'row', alignItems: 'center', paddingVertical: space(2.5) },
-                      pressed && { opacity: 0.6 },
-                    ]}
-                  >
-                    <Bubble filled={filled} />
-                    <View style={{ marginLeft: space(3), flex: 1 }}>
-                      <Text style={{ fontFamily: 'Georgia', fontSize: 17, color: inkB, fontWeight: filled ? '800' : '500' }}>
-                        {cand.name}
-                      </Text>
-                      <Text style={{ fontSize: 12, color: '#555' }}>{cand.party}</Text>
-                    </View>
-                    <Pressable onPress={() => nav.go({ name: 'candidate', id: cand.id })} hitSlop={8}>
-                      <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 13 }}>view ›</Text>
-                    </Pressable>
-                  </Pressable>
-                );
-              })}
-              {race.hiddenCount > 0 && (
-                <Text style={{ fontSize: 11, color: '#777', marginTop: 4 }}>
-                  {race.hiddenCount} other filed candidate{race.hiddenCount === 1 ? '' : 's'} not yet researched, never guessed.
+          {races.map((race) => {
+            const qr = quizResults[race.id];
+            return (
+              <View key={race.id} style={{ marginBottom: space(5) }}>
+                <Text style={{ fontWeight: '800', fontSize: 15, color: inkB, letterSpacing: 0.6 }}>
+                  {race.title.toUpperCase()}
                 </Text>
-              )}
-            </View>
-          ))}
+                <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: space(3) }} />
+                {race.candidates.map((cand) => {
+                  const filled = pickByRace[race.id]?.candidateId === cand.id;
+                  const pct = cand.researched ? qr?.pctById?.[cand.id] : undefined;
+                  const starred = qr?.starId === cand.id;
+                  return (
+                    <View key={cand.id}>
+                      <Pressable
+                        onPress={() => toggle(race, cand)}
+                        style={({ pressed }) => [
+                          { flexDirection: 'row', alignItems: 'center', paddingVertical: space(2.5) },
+                          pressed && { opacity: 0.6 },
+                        ]}
+                      >
+                        <Bubble filled={filled} />
+                        <View style={{ marginLeft: space(3), flex: 1 }}>
+                          <View style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
+                            <Text style={{ fontFamily: 'Georgia', fontSize: 17, color: inkB, fontWeight: filled ? '800' : '500' }}>
+                              {cand.name}
+                            </Text>
+                            {starred && (
+                              <Pressable onPress={() => setStarInfo(starInfo === race.id ? null : race.id)} hitSlop={6}>
+                                <Text style={{ marginLeft: 8, color: '#8a6a14', fontWeight: '800', fontSize: 12 }}>
+                                  ★ Your top match
+                                </Text>
+                              </Pressable>
+                            )}
+                          </View>
+                          <Text style={{ fontSize: 12, color: '#555' }}>
+                            {cand.party}
+                            {cand.researched && pct !== undefined && pct !== null ? ` · ${pct}% match for your answers` : ''}
+                          </Text>
+                          {!cand.researched && (
+                            <Text style={{ fontSize: 11.5, color: '#8a7f72', fontStyle: 'italic' }}>
+                              We haven't researched this candidate's positions.
+                            </Text>
+                          )}
+                        </View>
+                        {cand.researched && (
+                          <Pressable onPress={() => nav.go({ name: 'candidate', id: cand.id })} hitSlop={8}>
+                            <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 13 }}>view ›</Text>
+                          </Pressable>
+                        )}
+                      </Pressable>
+                      {starred && starInfo === race.id && (
+                        <Text style={{ fontSize: 11.5, color: '#555', marginLeft: 46, marginBottom: 6 }}>
+                          This star only reflects how YOUR quiz answers line up with this
+                          candidate's sourced positions. M2V does not endorse candidates.{' '}
+                          <Text style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'about' })}>
+                            How matching works ›
+                          </Text>
+                        </Text>
+                      )}
+                    </View>
+                  );
+                })}
+              </View>
+            );
+          })}
         </View>
+
+        {!quiz && (
+          <Body soft style={{ fontSize: 12.5, textAlign: 'center', marginTop: space(2) }}>
+            Take the quiz and your match percentages will appear here next to
+            the candidates we've researched.
+          </Body>
+        )}
 
         <Button
           label="Share my ballot as an image"

@@ -1,0 +1,318 @@
+{
+  "state": "NM",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "NM-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S0NM00058",
+        "fec-S6NM01186"
+      ],
+      "statusNote": "Sen. Ben Ray Lujan (D) won the June 2 primary 84-16 over Matt Dodson; Larry Marker (R) of Roswell won the GOP nomination as a write-in with 4,470 votes (threshold 2,351) after no Republican filed for the ballot."
+    },
+    "NM-governor": {
+      "status": "general",
+      "statusNote": "Open seat (Gov. Lujan Grisham term-limited): former Interior Secretary Deb Haaland (D, 72% primary win) faces Rio Rancho Mayor Gregg Hull (R, 47% in a three-way primary). Independent Ken Miyagishima was denied ballot access, dropped out, and endorsed Hull."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S0NM00058",
+      "name": "Ben Ray Lujan",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "NM",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 54,
+      "home": "Nambe, NM",
+      "now": "U.S. Senator (since 2021)",
+      "background": "U.S. Senator since 2021, seeking a second term; previously represented New Mexico's 3rd district in the House (2009-2021), rising to Assistant Speaker. Before Congress he chaired the New Mexico Public Regulation Commission. Won the June 2 Democratic primary 84-16 over Matt Dodson.",
+      "priorities": [
+        "Lower costs and affordable health care",
+        "Good-paying jobs and economic opportunity",
+        "Protect New Mexico's natural resources"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": 0,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Longtime public-option advocate: 'we must demand a public option' in health reform (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ben_Ray_Luj%C3%A1n"
+        },
+        "immigration": {
+          "label": "Voted against the Laken Riley Act expanding immigration detention authority (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ben_Ray_Luj%C3%A1n"
+        },
+        "climate": {
+          "label": "Mixed record: supports the Green New Deal and authored clean-energy bills, but joined Republicans in 2021 to block a hydraulic fracturing ban (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ben_Ray_Luj%C3%A1n"
+        },
+        "repro": {
+          "label": "Co-sponsored the Women's Health Protection Act of 2025 to restore nationwide abortion access: 'we will keep fighting to restore and protect reproductive rights' (Sen. Lujan press release)",
+          "url": "https://www.lujan.senate.gov/newsroom/press-releases/heinrich-lujan-announce-introduction-of-legislation-to-restore-abortion-access-nationwide/"
+        },
+        "democracy": {
+          "label": "Introduced the John Lewis Voting Rights Advancement Act, Freedom to Vote Act, and Native American Voting Rights Act; opposes the SAVE Act as 'anti-voter' (Sen. Lujan press release)",
+          "url": "https://www.lujan.senate.gov/newsroom/press-releases/lujan-fights-for-voting-rights-amid-trumps-push-to-suppress-millions-of-american-voters/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://benraylujan.com/"
+        },
+        {
+          "label": "Roswell Daily Record: primary result",
+          "url": "https://www.rdrnews.com/news/local/results-of-the-new-mexico-primary-2026-write-in-campaign-gets-marker-gop-nomination-in/article_af4014da-b950-4d3c-a8f2-17bda428111d.html"
+        },
+        {
+          "label": "Wikipedia: Ben Ray Lujan",
+          "url": "https://en.wikipedia.org/wiki/Ben_Ray_Luj%C3%A1n"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0NM00058/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6NM01186",
+      "name": "Larry Marker",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "NM",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 62,
+      "home": "Roswell, NM",
+      "now": "Businessman (oil and gas, farming, ranching, construction)",
+      "background": "Roswell businessman whose career spans oil and gas production, farming, ranching, manufacturing, and construction; self-described 'America First' conservative. Ran for state land commissioner in 2022 and the state Senate in 2024, losing both. Won the Republican U.S. Senate nomination as a write-in with 4,470 votes after no Republican filed for the ballot.",
+      "priorities": [
+        "New Mexico energy independence (oil, gas, hydrogen, nuclear)",
+        "Secure the border and shut down the fentanyl pipeline",
+        "Stop regulatory overreach on farmers, ranchers, and small businesses"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Wants to loosen regulations 'hurting small businesses'; says Lujan pushes 'welfare-type programs' instead of economic opportunity through capitalism (Santa Fe New Mexican)",
+          "url": "https://www.santafenewmexican.com/news/elections/id-like-to-see-more-hope-gop-write-in-u-s-senate-candidate-larry-marker/article_4e9038b9-0d10-48e4-84f5-69d2255c603e.html"
+        },
+        "immigration": {
+          "label": "Backs President Trump's immigration policies; 'shut down the fentanyl pipeline' and 'support Border Patrol' (Santa Fe New Mexican; campaign site)",
+          "url": "https://www.santafenewmexican.com/news/elections/id-like-to-see-more-hope-gop-write-in-u-s-senate-candidate-larry-marker/article_4e9038b9-0d10-48e4-84f5-69d2255c603e.html"
+        },
+        "climate": {
+          "label": "'Make New Mexico a leader in oil, gas, hydrogen, and nuclear innovation'; campaign built on energy independence and pushing back on regulation (campaign site)",
+          "url": "https://larrymarker.com/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Aligned himself with 'patriot movement' groups and shared photos with Steve Bannon and Mike Lindell at a 2022 convention promoting debunked 2020 election conspiracy theories (New Mexico Political Report)",
+          "url": "https://nmpoliticalreport.com/2026/03/09/nmgop-scrambles-to-qualify-a-write-in-against-ben-ray-lujan-who-is-he-and-how-does-that-work/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://larrymarker.com/"
+        },
+        {
+          "label": "Roswell Daily Record: primary result",
+          "url": "https://www.rdrnews.com/news/local/results-of-the-new-mexico-primary-2026-write-in-campaign-gets-marker-gop-nomination-in/article_af4014da-b950-4d3c-a8f2-17bda428111d.html"
+        },
+        {
+          "label": "Santa Fe New Mexican profile",
+          "url": "https://www.santafenewmexican.com/news/elections/id-like-to-see-more-hope-gop-write-in-u-s-senate-candidate-larry-marker/article_4e9038b9-0d10-48e4-84f5-69d2255c603e.html"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NM01186/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "nm-gov-haaland",
+      "name": "Deb Haaland",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "NM",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 65,
+      "home": "Albuquerque, NM",
+      "now": "Former U.S. Secretary of the Interior (2021-2025)",
+      "background": "Former U.S. Secretary of the Interior (2021-2025), the first Native American Cabinet secretary, and an enrolled member of Laguna Pueblo. Represented New Mexico's 1st district in the U.S. House (2019-2021) and chaired the state Democratic Party. Won the June 2 Democratic primary 72-28 over Attorney General Sam Bregman.",
+      "priorities": [
+        "Affordability agenda: raise the minimum wage, crack down on price gouging",
+        "Fix the doctor shortage and expand rural health care",
+        "Build more housing and ban rent fixing"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Raise the state minimum wage and 'crack down on big industries that price gouge at the cost of every day New Mexicans' (campaign site)",
+          "url": "https://debhaaland.com/debsplans/"
+        },
+        "health": {
+          "label": "Supported Medicare for All in Congress; as governor would fill Medicaid gaps with budget surpluses and expand the Health Care Affordability Fund (Wikipedia; campaign site)",
+          "url": "https://en.wikipedia.org/wiki/Deb_Haaland"
+        },
+        "housing": {
+          "label": "Mixed approach: 'aggressively build more housing' by cutting barriers and expediting permits, while banning AI rent fixing, restricting private-equity ownership, and expanding down-payment help (campaign site)",
+          "url": "https://debhaaland.com/debsplans/"
+        },
+        "immigration": {
+          "label": "Would limit state coordination with ICE, require agents to identify themselves, and create 500-yard ICE-free zones around schools: 'the state is the first line of defense' (Native News Online)",
+          "url": "https://nativenewsonline.net/currents/haaland-condemns-doj-lawsuit-over-new-mexico-immigration-policies/"
+        },
+        "climate": {
+          "label": "Supports the Green New Deal, endorsed by the Sunrise Movement; pledges to hold utilities to New Mexico's 100%-by-2045 renewable mandate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deb_Haaland"
+        },
+        "education": {
+          "label": "Universal child care, community schools with counseling and health services, and expanding the Opportunity Scholarship to free tuition including graduate school (campaign site)",
+          "url": "https://debhaaland.com/debsplans/"
+        },
+        "safety": {
+          "label": "Office of Community Safety pairing social workers with responders, substance-abuse treatment 'beyond incarceration', violence-intervention programs, plus new tech for police (campaign site)",
+          "url": "https://debhaaland.com/debsplans/"
+        },
+        "repro": {
+          "label": "'Fierce and unwavering advocate for reproductive freedom'; collected signatures to repeal New Mexico's dormant criminal abortion ban (Planned Parenthood Votes NM endorsement)",
+          "url": "https://www.plannedparenthoodaction.org/planned-parenthood-votes-new-mexico/blog/pp-votes-new-mexico-endorses-deb-haaland-for-governor"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign plans page",
+          "url": "https://debhaaland.com/debsplans/"
+        },
+        {
+          "label": "Source New Mexico: affordability agenda",
+          "url": "https://sourcenm.com/2026/02/25/deb-haaland-announces-affordability-agenda-in-campaign-for-nm-governor/"
+        },
+        {
+          "label": "Wikipedia: Deb Haaland",
+          "url": "https://en.wikipedia.org/wiki/Deb_Haaland"
+        },
+        {
+          "label": "Daily Lobo: primary results",
+          "url": "https://www.dailylobo.com/article/2026/06/2026-new-mexico-primary-election-results"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "nm-gov-hull",
+      "name": "Gregg Hull",
+      "party": "Republican",
+      "office": "governor",
+      "state": "NM",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 57,
+      "home": "Rio Rancho, NM",
+      "now": "Mayor of Rio Rancho (since 2014)",
+      "background": "Longest-serving mayor of Rio Rancho, New Mexico's third-largest city, first elected in 2014; former small-business owner and past chairman of the New Mexico Mayors Caucus. Touts $6 billion in investment attracted to Rio Rancho and 12 national budget awards. Won the June 2 Republican primary with 47% over Doug Turner (37%) and Duke Rodriguez (16%).",
+      "priorities": [
+        "Public safety: more police, zero tolerance for violent crime",
+        "Economic growth and high-paying jobs",
+        "Border security to end the fentanyl crisis"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 2,
+        "education": null,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Market-side cost fixes: 'reform medical malpractice laws to reduce costs', lower prescription drug prices, strengthen rural hospitals (campaign site)",
+          "url": "https://gregghull.com/issues/"
+        },
+        "immigration": {
+          "label": "'Enhance border security to end the fentanyl crisis' (campaign site)",
+          "url": "https://gregghull.com/issues/"
+        },
+        "taxes": {
+          "label": "Fiscal restraint record: 12 years without raising Rio Rancho's sales tax rate, budgets that live 'within our means' (Source New Mexico)",
+          "url": "https://sourcenm.com/2026/04/10/new-mexico-primary-2026-governor/"
+        },
+        "climate": {
+          "label": "'Expanding the state's energy portfolio to include all sources while unleashing our oil and gas operations' (campaign site)",
+          "url": "https://gregghull.com/issues/"
+        },
+        "safety": {
+          "label": "Doubled Rio Rancho's police budget; pledges to 'increase police presence throughout the state' and a 'zero-tolerance policy for all violent crimes and crimes against children' (campaign site)",
+          "url": "https://gregghull.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://gregghull.com/issues/"
+        },
+        {
+          "label": "Source New Mexico: candidate profile",
+          "url": "https://sourcenm.com/2026/04/10/new-mexico-primary-2026-governor/"
+        },
+        {
+          "label": "Wikipedia: Gregg Hull",
+          "url": "https://en.wikipedia.org/wiki/Gregg_Hull"
+        },
+        {
+          "label": "Daily Lobo: primary results",
+          "url": "https://www.dailylobo.com/article/2026/06/2026-new-mexico-primary-election-results"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

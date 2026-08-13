@@ -1,6 +1,6 @@
 {
   "state": "ME",
-  "note": "Hand-curated, sourced entries. A consensus national toss-up. Independent-candidate qualification conflicting between sources; re-verify against the Maine SOS list before ballot lock.",
+  "note": "Hand-curated, sourced entries. A consensus national toss-up. Ballotpedia lists three qualified unaffiliated/independent general-election candidates (Alcorn, Rich, Evans), not curated here.",
   "races": {
     "ME-senate": {
       "status": "general",
@@ -8,7 +8,7 @@
         "fec-S6ME00159",
         "fec-S6ME00373"
       ],
-      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces oyster farmer and veteran Graham Platner (D), who won the June 9 primary with about 78%. Rated a toss-up by Cook and Sabato."
+      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces oyster farmer and veteran Graham Platner (D), who won the June 9 primary with about 78%. Rated a toss-up by the Cook Political Report."
     }
   },
   "candidates": [
@@ -48,7 +48,7 @@
           "url": "https://www.collins.senate.gov/newsroom/senator-collins-announces-release-of-more-than-43-million-in-additional-federal-home-heating-aid-for-mainers"
         },
         "health": {
-          "label": "One of the deciding Republican votes against ACA repeal in 2017; co-sponsored insulin and drug-price bills (Wikipedia)",
+          "label": "One of the Republican votes that blocked repealing the ACA without replacement in 2017; co-sponsored insulin and drug-price bills (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
         },
         "housing": {
@@ -72,12 +72,12 @@
           "url": "https://www.collins.senate.gov/newsroom/senator-collins-announces-she-will-vote-against-confirmation-betsy-devos-be-secretary"
         },
         "repro": {
-          "label": "Self-identified pro-choice: opposed 20-week bans and Planned Parenthood defunding, but voted against the Women's Health Protection Act and to confirm Justice Kavanaugh (Wikipedia)",
+          "label": "Self-identified pro-choice: opposed 20-week bans and Planned Parenthood defunding, but voted to confirm Justice Kavanaugh (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Political_positions_of_Susan_Collins"
         },
         "democracy": {
-          "label": "Mixed: co-authored the Electoral Count Reform Act to 'prevent this outdated law from being used to undermine future presidential elections' (Senate office), but voted against advancing the Freedom to Vote: John R. Lewis Act in Jan 2022",
-          "url": "https://www.collins.senate.gov/newsroom/senator-collins-urges-colleagues-to-pass-reforms-to-the-electoral-count-act-of-1887"
+          "label": "Mixed: backs Electoral Count Act reform to stop Congress overriding state election results, but joined the GOP in blocking the Freedom to Vote: John R. Lewis Act in Jan 2022, calling it 'a federal takeover of state elections' (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2022-01-20/collins-king-divided-as-democrats-fail-to-enact-voting-rights-bill"
         }
       },
       "controversies": [
@@ -117,7 +117,7 @@
       "age": 41,
       "home": "Sullivan, ME",
       "now": "Oyster farmer; Sullivan harbormaster",
-      "background": "Oyster farmer, Marine Corps and Army National Guard veteran (Iraq and Afghanistan), and political newcomer backed by Bernie Sanders and organized labor. Won the June Democratic primary with about 78% over former Gov. Janet Mills, who had suspended her campaign. Raised over $21M, nearly all from individuals.",
+      "background": "Oyster farmer, Marine Corps and Army National Guard veteran (Iraq and Afghanistan), and political newcomer endorsed by Bernie Sanders. Won the June Democratic primary with about 78% over Gov. Janet Mills, who had suspended her campaign in April. His campaign rejects PAC money and reported a $4.1M first-quarter 2026 haul, largely from working people.",
       "priorities": [
         "Get billionaire money out of politics",
         "Medicare for All",
@@ -179,8 +179,8 @@
       },
       "controversies": [
         {
-          "label": "A 2007 tattoo resembling a Nazi Totenkopf (denied awareness, since covered) and years of offensive Reddit posts he disavowed, attributing them to post-service PTSD (The Hill)",
-          "url": "https://thehill.com/homenews/campaign/5567179-who-is-graham-platner-maine-senate-candidate/"
+          "label": "A 2007 tattoo compared to the Nazi Totenkopf ('I never once thought about it in that context'), covered up once flagged, and offensive Reddit posts he admits were angry and crude, citing post-infantry trauma (WGME)",
+          "url": "https://wgme.com/news/local/senate-candidate-graham-platner-addresses-past-reddit-posts-and-controversial-tattoo-maine-social-media-maine-democrats-senate-race-republicans-susan-collins-janet-mills"
         }
       ],
       "sources": [

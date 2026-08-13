@@ -1,10 +1,10 @@
 {
   "state": "NY",
-  "note": "Hand-curated, sourced entries. Both major-party primaries (June 23) were uncontested.",
+  "note": "Hand-curated, sourced entries. Major-party primaries held June 23.",
   "races": {
     "NY-governor": {
       "status": "general",
-      "statusNote": "Gov. Kathy Hochul (D) faces Nassau County Executive Bruce Blakeman (R), with Libertarian Larry Sharpe also on the ballot. Both major-party primaries were uncontested."
+      "statusNote": "Gov. Kathy Hochul (D) faces Nassau County Executive Bruce Blakeman (R), with Libertarian Larry Sharpe also on the ballot. Hochul and Blakeman easily won their June 23 primaries."
     }
   },
   "candidates": [
@@ -28,11 +28,11 @@
       ],
       "positions": {
         "cost": -2,
-        "health": -2,
+        "health": -1,
         "housing": 0,
         "immigration": -1,
         "taxes": 0,
-        "climate": -1,
+        "climate": 0,
         "education": -2,
         "safety": 1,
         "repro": -2,
@@ -40,11 +40,11 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Inflation refund checks up to $400, expanded child tax credit up to $1,000/child, senior rent-freeze expansion (NYS affordability program)",
+          "label": "Inflation refund checks up to $400 per family, expanded child tax credit up to $1,000 per child under four (NYS affordability program)",
           "url": "https://www.governor.ny.gov/programs/making-new-york-state-more-affordable"
         },
         "health": {
-          "label": "Defend Medicaid from federal cuts; invest in safety-net hospitals; keep drug costs down (2026 State of the State)",
+          "label": "'Invested billions' to stabilize health systems against 'draconian' federal cuts; strengthen safety-net hospitals, keep drug costs down (2026 State of the State)",
           "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
         },
         "housing": {
@@ -56,16 +56,16 @@
           "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
         },
         "taxes": {
-          "label": "Mixed: middle-class tax cut for ~8.3M filers and no tax on tips, while opposing tax increases on the wealthy (Spectrum News)",
+          "label": "Mixed: delivered a middle-class tax cut while 'opposing an income tax hike on the wealthy' (Spectrum News)",
           "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/07/16/strategists-issues-ny-governor-s-race"
         },
         "climate": {
-          "label": "Backs a zero-emission grid with a 'nuclear reliability backbone' but has delayed cap-and-invest rules and negotiated slower climate-law timelines over cost (Gothamist)",
+          "label": "Mixed: 'stands by the intent' of the state climate law but delayed cap-and-invest rules and is pushing to slow it, citing 'enormous cost to families' (Gothamist)",
           "url": "https://tollbit.gothamist.com/news/nys-climate-law-clashes-with-gov-hochuls-affordability-campaign"
         },
         "education": {
-          "label": "Universal free school meals, $1.7B child-care increase, seventh straight SUNY/CUNY tuition freeze (2026 State of the State)",
-          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+          "label": "Universal free school meals guaranteeing every student breakfast and lunch, up to $450M in monthly grocery savings for families (official release)",
+          "url": "https://www.governor.ny.gov/news/governor-hochul-announces-396-million-free-school-meals-served-statewide-2025-2026-school-year"
         },
         "safety": {
           "label": "Sustain record-low subway crime through platform barriers and expanded police presence (2026 State of the State)",
@@ -125,7 +125,7 @@
         "health": 2,
         "housing": null,
         "immigration": 2,
-        "taxes": 2,
+        "taxes": 1,
         "climate": 2,
         "education": null,
         "safety": 2,
@@ -146,7 +146,7 @@
           "url": "https://www.blakemanfornewyork.com/"
         },
         "taxes": {
-          "label": "Touts blocking $150M in scheduled Nassau property-tax hikes; opposes new income and business taxes (campaign site)",
+          "label": "Eliminated $150M in scheduled Nassau property-tax hikes; 'didn't raise property or sales taxes by a single penny' (campaign site)",
           "url": "https://www.blakemanfornewyork.com/"
         },
         "climate": {
@@ -158,7 +158,7 @@
           "url": "https://www.blakemanfornewyork.com/"
         },
         "repro": {
-          "label": "Identifies as pro-choice; calls NY abortion law 'well-settled' with 'no litmus test' for his administration (Washington Examiner)",
+          "label": "Says New York abortion law is 'well-settled'; state Conservative Party leaders describe him as pro-choice (Washington Examiner)",
           "url": "https://www.washingtonexaminer.com/news/campaigns/state/4356642/bruce-blakeman-abortion-rights-stance-gop-gubernatorial-front-runner/"
         }
       },
@@ -198,8 +198,10 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": 58,
+      "home": "Queens, NY",
       "now": "Business consultant; Libertarian nominee",
-      "background": "Libertarian nominee who previously ran for New York governor in 2018, drawing about 100,000 votes. Marine Corps veteran and business consultant.",
+      "background": "Libertarian nominee who previously ran for New York governor in 2018, drawing about 95,000 votes (1.6%) and winning the party automatic ballot access. Marine Corps veteran (1986-1993) and business trainer and consultant.",
       "priorities": [
         "Shrink 'too big, too expensive' government",
         "Local control",
@@ -219,7 +221,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Lower taxes and shrink government so New York costs less (campaign site)",
+          "label": "Says government is 'too big, too expensive, and too out of touch' and blames the nation's highest tax burden for driving New Yorkers away (campaign site)",
           "url": "https://larrysharpe.com/"
         },
         "health": {
@@ -227,7 +229,7 @@
           "url": "https://larrysharpe.com/ny-policies/"
         },
         "taxes": {
-          "label": "Lower taxes; shrink 'too big, too expensive' government (campaign site)",
+          "label": "Calls NY's tax burden 'the highest in the country' with 'the worst business climate'; would shrink 'too big, too expensive' government (campaign site)",
           "url": "https://larrysharpe.com/"
         },
         "climate": {
@@ -263,6 +265,10 @@
         {
           "label": "Ballotpedia: 2026 NY governor race",
           "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        },
+        {
+          "label": "Wikipedia: Larry Sharpe",
+          "url": "https://en.wikipedia.org/wiki/Larry_Sharpe_(political_activist)"
         }
       ],
       "curatedAt": "2026-08-13"

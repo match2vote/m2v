@@ -8,7 +8,7 @@
         "fec-S6AL00476",
         "fec-S6AL00518"
       ],
-      "statusNote": "Open seat (Sen. Tuberville running for governor): Rep. Barry Moore (R) faces Birmingham attorney Everett Wess (D). Both won June 16 runoffs (Moore 55.8%, Wess 54.6%); independent Craig Jelks is also on the November ballot."
+      "statusNote": "Open seat (Sen. Tuberville running for governor): Rep. Barry Moore (R) faces Birmingham attorney Everett Wess (D). Both won June 16 runoffs (Moore 55.8%, Wess 54.6%); independent educator Craig Jelks is also running."
     },
     "AL-governor": {
       "status": "general",
@@ -56,7 +56,7 @@
           "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
         },
         "immigration": {
-          "label": "'Zero tolerance for illegal immigration' and 'secure borders permanently'; voted for deportation funding (Ballotpedia)",
+          "label": "'Zero tolerance for illegal immigration'; voted for the bill providing $45 billion to ICE to deport illegal immigrants (Ballotpedia)",
           "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
         },
         "taxes": {
@@ -72,7 +72,7 @@
           "url": "https://ballotpedia.org/Barry_Moore_(Alabama)"
         },
         "repro": {
-          "label": "Called overturning Roe 'a huge victory for the pro-life movement'; 'no greater right than the Right to Life', opposes federal abortion funding (Wikipedia, Ballotpedia)",
+          "label": "Called overturning Roe 'a huge victory for the pro-life movement and the Constitution' (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
         },
         "democracy": {
@@ -197,54 +197,46 @@
       "now": "U.S. Senator from Alabama",
       "background": "U.S. Senator since 2021 and former college football head coach at Ole Miss, Auburn, Texas Tech and Cincinnati. Passed on Senate reelection to run for governor with President Trump's endorsement and won the May 19 Republican primary with 85% of the vote.",
       "priorities": [
-        "Deport 'illegal alien criminals' and back the blue",
-        "Expand school choice with parents in charge",
-        "Reduce taxes and cut red tape"
+        "Secure the border and back Trump's deportation agenda",
+        "School choice, charter schools and local control of education",
+        "Lower taxes and less government spending"
       ],
       "positions": {
-        "cost": 1,
+        "cost": null,
         "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": 2,
-        "safety": 1,
+        "education": 1,
+        "safety": null,
         "repro": 2,
         "democracy": 2
       },
       "positionSources": {
-        "cost": {
-          "label": "Frames affordability through cuts: 'lower taxes, get rid of waste, and make life in Alabama more affordable' while recruiting manufacturing jobs (campaign site)",
-          "url": "https://coachforgovernor.com/issues/"
-        },
         "health": {
           "label": "'Obamacare must go. This failed experiment has led to higher costs, less quality care' (Ballotpedia)",
           "url": "https://ballotpedia.org/Tommy_Tuberville"
         },
         "immigration": {
-          "label": "Pledges to 'deport illegal alien criminals' and work with Trump on the 'more than ten million illegals who came here under Joe Biden' (campaign site)",
-          "url": "https://coachforgovernor.com/issues/"
+          "label": "'We must first secure our border'; 'fully support[s] President Trump's plan to build a wall' against 'illegal immigration that brings drugs, terrorists, and criminals' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
         },
         "taxes": {
-          "label": "Committed to 'reduce taxes' and 'cut red tape'; credits lower taxes and reduced federal spending with job growth (campaign site)",
-          "url": "https://coachforgovernor.com/issues/"
+          "label": "'Lower taxes create jobs and less spending reduces the size and scope of the federal government' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
         },
         "climate": {
           "label": "Dismisses climate science, saying the global climate 'won't change enough in the next 400 years to affect anybody' (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
         },
         "education": {
-          "label": "Will 'expand school choice and make sure that parents, not the government, are in charge', backing charter, magnet, private, public and homeschools (campaign site)",
-          "url": "https://coachforgovernor.com/issues/"
-        },
-        "safety": {
-          "label": "Pledges to 'back the blue, enforce the law' (campaign site)",
-          "url": "https://coachforgovernor.com/issues/"
+          "label": "Supports 'school choice, charter schools, and improving our existing public schools'; says the best solutions 'come from the local level' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
         },
         "repro": {
-          "label": "'Every life is sacred and created by God'; wants 'zero taxpayer dollars' for abortion; blocked 451 military promotions over a Pentagon abortion-travel policy (campaign site, Wikipedia)",
-          "url": "https://coachforgovernor.com/issues/"
+          "label": "Calls abortion 'this generation's holocaust' and pledges to 'fight to protect the sanctity of every human life'; blocked 451 military promotions over a Pentagon abortion-travel policy (Ballotpedia, Wikipedia)",
+          "url": "https://ballotpedia.org/Tommy_Tuberville"
         },
         "democracy": {
           "label": "Voted to object to certifying Arizona's and Pennsylvania's 2020 electoral votes (Wikipedia)",
@@ -252,7 +244,9 @@
         }
       },
       "nullNotes": {
-        "housing": "checked campaign issues page and Ballotpedia, nothing documented"
+        "cost": "removed in QA: source URL dead https://coachforgovernor.com/issues/; no other fetched source documents a cost-of-living approach",
+        "housing": "checked Ballotpedia and Wikipedia, nothing documented",
+        "safety": "removed in QA: source URL dead https://coachforgovernor.com/issues/; Ballotpedia and Wikipedia document no scoreable police-funding or sentencing stance"
       },
       "controversies": [
         {
@@ -265,10 +259,6 @@
         }
       ],
       "sources": [
-        {
-          "label": "Campaign issues page",
-          "url": "https://coachforgovernor.com/issues/"
-        },
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Tommy_Tuberville"
@@ -328,7 +318,7 @@
           "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
         },
         "immigration": {
-          "label": "Voted for the McCain-Coons pathway to citizenship for Dreamers and against defunding sanctuary cities; says border security needs improvement but opposes Trump's wall (Wikipedia)",
+          "label": "Voted for the McCain-Coons pathway to citizenship for Dreamers and against defunding sanctuary cities; agrees border security needs improvement but did not consider it a national emergency (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
         },
         "taxes": {

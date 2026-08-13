@@ -132,7 +132,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Pledges to 'reduce and eliminate taxes and fees', suspend the gas tax, and cut property taxes to lower costs (campaign site)",
+          "label": "Pledges to 'reduce and eliminate taxes and fees' and to 'limit, cap, and, where possible, eliminate property taxes' to make Maryland more affordable (campaign site)",
           "url": "https://dancoxforgovernor.com/"
         },
         "housing": {
@@ -144,7 +144,7 @@
           "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
         },
         "taxes": {
-          "label": "'Lower taxes, bigger paychecks': cut property taxes, suspend the gas tax, reduce budget spending; has advocated eliminating the state income tax (Ballotpedia)",
+          "label": "'Lower taxes, bigger paychecks': reduce property taxes and 'Reduce Inflation by Suspending the Gas Tax' (Ballotpedia)",
           "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
         },
         "climate": {
@@ -160,7 +160,7 @@
           "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
         },
         "repro": {
-          "label": "Defends 'the right to all human life, from conception to natural death'; opposed state funding for abortion (Ballotpedia)",
+          "label": "Defends 'the right to all human life, from conception to natural death' (Ballotpedia)",
           "url": "https://ballotpedia.org/Dan_Cox_(Maryland)"
         },
         "democracy": {
@@ -230,19 +230,15 @@
         "education": -2,
         "safety": -1,
         "repro": null,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "climate": {
-          "label": "'Declare climate, environment, energy, food, and water emergencies to ensure state and local government act with urgency' (campaign site)",
+          "label": "'Declare climate, environment, food, and water emergencies to ensure state and local government act with urgency' (campaign site)",
           "url": "https://gogreen2026.com/priorities"
         },
         "education": {
           "label": "'Build out and fully fund our public education system so it truly works for all' (campaign site)",
-          "url": "https://gogreen2026.com/priorities"
-        },
-        "democracy": {
-          "label": "Build 'robust multiparty democracy' in Maryland and everyday civic engagement; campaign rejects corporate and PAC money (campaign site)",
           "url": "https://gogreen2026.com/priorities"
         },
         "health": {
@@ -262,7 +258,8 @@
         "cost": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
         "immigration": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
         "taxes": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "repro": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented"
+        "repro": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
+        "democracy": "removed in QA: cited priorities page documents 'create a robust and deep multiparty democracy' but no position on voting access (registration, mail, early voting, or ID), and the corporate/PAC money claim was not found on the cited page"
       },
       "sources": [
         {

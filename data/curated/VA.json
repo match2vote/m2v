@@ -35,9 +35,9 @@
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": -2,
-        "climate": -1,
-        "education": -1,
+        "taxes": -1,
+        "climate": 0,
+        "education": null,
         "safety": 0,
         "repro": -2,
         "democracy": -2
@@ -64,12 +64,8 @@
           "url": "https://www.warner.senate.gov/about/priorities/taxes/"
         },
         "climate": {
-          "label": "'All-of-the-above' energy independence: defends offshore wind and nuclear; 'practical, science-based' emissions reduction (Senate priorities)",
+          "label": "Mixed: backs an 'all-of-the-above energy strategy' with domestic production, while defending offshore wind and nuclear and 'practical, science-based' emissions reduction (Senate priorities)",
           "url": "https://www.warner.senate.gov/about/priorities/energy-environment/"
-        },
-        "education": {
-          "label": "College affordability and student-debt relief; industry certifications and non-4-year pathways (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/education/"
         },
         "safety": {
           "label": "Mixed: prevention plus accountability; body cameras, modern forensics, bipartisan anti-fentanyl work (Senate priorities)",
@@ -83,6 +79,9 @@
           "label": "Co-sponsor of the John Lewis Voting Rights Advancement Act: 'ensure that every American can make their voice heard' (Senate release)",
           "url": "https://www.warner.senate.gov/newsroom/press-releases/amid-partisan-attempts-to-gerrymander-texas-warner-and-kaine-join-colleagues-to-restore-the-voting-rights-act/"
         }
+      },
+      "nullNotes": {
+        "education": "removed in QA: cited Senate priorities page covers college affordability, student debt, and workforce certifications only; nothing that fits the K-12 public-schools-vs-choice axis"
       },
       "sources": [
         {
@@ -122,7 +121,7 @@
         "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": 2,
+        "immigration": 1,
         "taxes": 1,
         "climate": 1,
         "education": null,

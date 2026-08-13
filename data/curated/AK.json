@@ -44,7 +44,7 @@
           "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-shapes-one-big-beautiful-bill-to-unleash-alaskas-economy-create-good-paying-jobs-provide-historic-tax-cuts-for-working-families-and-strengthen-health-care"
         },
         "health": {
-          "label": "Voted to repeal the ACA; backed Medicaid work requirements in the 2025 bill, with an Alaska delay he secured (Wikipedia)",
+          "label": "Opposed the ACA and voted to repeal it (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
         },
         "housing": {
@@ -60,8 +60,8 @@
           "url": "https://www.sullivan.senate.gov/wftca"
         },
         "climate": {
-          "label": "'Unleashing Alaska's energy potential': mandated ANWR/NPR-A/Cook Inlet lease sales; has said 'the verdict is still out on the human contribution to climate change' (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"
+          "label": "'Unleashing Alaska's energy potential': shaped the 2025 bill mandating ANWR, NPR-A, and Cook Inlet lease sales over the next decade (Senate office)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-shapes-one-big-beautiful-bill-to-unleash-alaskas-economy-create-good-paying-jobs-provide-historic-tax-cuts-for-working-families-and-strengthen-health-care"
         },
         "education": {
           "label": "Backed returning school control 'to teachers, local school boards, states, and engaged parents' over federal mandates (Senate office, 2015)",
@@ -122,10 +122,10 @@
       ],
       "positions": {
         "cost": -2,
-        "health": -2,
+        "health": -1,
         "housing": -1,
         "immigration": 0,
-        "taxes": -1,
+        "taxes": null,
         "climate": 0,
         "education": -1,
         "safety": -1,
@@ -138,7 +138,7 @@
           "url": "https://marypeltola.com/affordability/"
         },
         "health": {
-          "label": "Supports extending ACA subsidies and opposed Medicaid cuts; earlier on record for a public option (Wikipedia)",
+          "label": "Supports extending ACA premium subsidies and opposed Medicaid cuts (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
         },
         "housing": {
@@ -149,13 +149,9 @@
           "label": "Mixed: broke with Democrats to back Republican-led enforcement measures, including deporting undocumented migrants who assault police (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
         },
-        "taxes": {
-          "label": "Proposes eliminating federal income tax under $92,000 and taxes on Social Security; earlier supported raising taxes on the wealthiest (campaign site)",
-          "url": "https://marypeltola.com/affordability/"
-        },
         "climate": {
-          "label": "All-of-the-above: supported the Willow oil project and NPR-A development AND would restore solar/wind/hydro tax credits; calls climate effects 'devastating' (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+          "label": "All-of-the-above: pushed Willow approval and the Alaska LNG pipeline AND would restore federal tax credits for solar, wind, and hydro (campaign energy page)",
+          "url": "https://marypeltola.com/energy/"
         },
         "education": {
           "label": "Opposes school vouchers; 'quality schools are vital to the future of our communities' (OnTheIssues, 2022)",
@@ -173,6 +169,9 @@
           "label": "Voted against H.J.Res. 26, the resolution overturning DC's revised criminal code and its lower sentences; it passed 250-173 (House roll call 119, 2023)",
           "url": "https://clerk.house.gov/Votes/2023119"
         }
+      },
+      "nullNotes": {
+        "taxes": "removed in QA: cited affordability page documents only targeted household tax cuts (no federal income tax under $92,000, no tax on Social Security) with no spending-cut agenda, which per calibration does not fit the axis; the 'raising taxes on the wealthiest' claim was not documented on the cited page"
       },
       "controversies": [
         {

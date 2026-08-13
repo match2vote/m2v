@@ -1,14 +1,14 @@
 {
   "state": "RI",
-  "note": "Hand-curated, sourced entries. Both primaries pending (Sept 8, 2026).",
+  "note": "Hand-curated, sourced entries. Both primaries pending (Wednesday, September 9, 2026, per the RI Secretary of State election calendar).",
   "races": {
     "RI-senate": {
       "status": "primary-pending",
-      "statusNote": "Primary is September 8, 2026; nominees are not final. Sen. Jack Reed (D) is seeking a sixth term and Raymond McKay is the lone declared Republican. Forecasters rate the race Likely Democratic."
+      "statusNote": "Primary is September 9, 2026; nominees are not final. Sen. Jack Reed (D) is seeking a sixth term and Raymond McKay is the lone declared Republican. Forecasters rate the race Likely Democratic."
     },
     "RI-governor": {
       "status": "primary-pending",
-      "statusNote": "Primary is September 8, 2026; nominees are not final. Gov. Dan McKee trails Helena Foulkes 42-22 in the June UNH poll of the Democratic primary. On the GOP side, party-endorsed Aaron Guckian trailed Elaine Pelino 17-40 in the same poll with 40% undecided. Independent Ken Block skips the primary and runs in November."
+      "statusNote": "Primary is September 9, 2026; nominees are not final. Gov. Dan McKee trails Helena Foulkes 42-22 in the June UNH poll of the Democratic primary. On the GOP side, party-endorsed Aaron Guckian trailed Elaine Pelino 17-40 in the same poll with 40% undecided. Independent Ken Block skips the primary and runs in November."
     }
   },
   "candidates": [
@@ -193,7 +193,7 @@
         "Housing production and education spending"
       ],
       "positions": {
-        "cost": 0,
+        "cost": -1,
         "health": -1,
         "housing": -1,
         "immigration": -1,
@@ -206,7 +206,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Mixed on costs: delivered $180M in direct winter bill credits via the PPL settlement and RGGI assistance for lower-income households, while his Affordability for All executive order targets trimming the 'state programs and taxes' share of energy bills (Governor's office)",
+          "label": "Delivered a two-year energy relief package: $155M in direct PPL settlement bill credits, about $24.50 off electric and $47.50 off gas bills monthly, plus $5M in RGGI relief for income-eligible customers (Governor's office)",
           "url": "https://governor.ri.gov/press-releases/governor-mckee-highlights-two-year-relief-package-cut-energy-costs-rhode-islanders"
         },
         "health": {
@@ -226,7 +226,7 @@
           "url": "https://ballotpedia.org/Daniel_McKee"
         },
         "climate": {
-          "label": "Signed the 2021 Act on Climate committing RI to net-zero by 2050, yet proposed postponing the 2033 renewable energy deadline he championed to 2050 to save ratepayers $1 billion (Rhode Island Current)",
+          "label": "Mixed: heralded the 2022 law requiring 100% renewable electricity by 2033 at its passage, yet now proposes postponing that deadline to 2050 to save ratepayers $1 billion (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2026/01/22/save-now-pay-later-critics-warn-mckees-plan-to-ease-energy-bills-comes-with-a-tab/"
         },
         "education": {
@@ -316,7 +316,7 @@
           "url": "https://www.progressive-charlestown.com/2026/07/amid-trump-cuts-foulkes-unveils.html"
         },
         "housing": {
-          "label": "Rhode Home Program: $1B millionaire's-tax-funded revolving fund to build 20,000 homes plus a tenants' bill of rights, paired with cutting permitting red tape (Rhode Island Current)",
+          "label": "Rhode Home Program: $1B millionaire's-tax-funded revolving fund to build 20,000 homes and apartments over eight years, with renter protections and a pledge that red tape 'doesn't keep housing from being built' (Rhode Island Current)",
           "url": "https://rhodeislandcurrent.com/2026/03/02/foulkes-supports-millionaires-tax-and-would-designate-the-revenue-to-building-more-homes/"
         },
         "immigration": {
@@ -382,7 +382,7 @@
       "background": "Former Rhode Island Dental Association executive director, Rhode Island Foundation fundraiser, and special assistant to Gov. Don Carcieri; earlier career as an opera singer and public school music teacher. The 2022 Republican nominee for lieutenant governor, losing to Sabina Matos by eight points. Holds the state GOP endorsement for governor and pitches centrism, but trailed Elaine Pelino in the June UNH primary poll.",
       "priorities": [
         "Making Rhode Island affordable",
-        "Cutting state spending 10% via the 'Works Smarter' plan",
+        "Cutting wasteful state spending via the 'Rhode Island Works Smarter' plan",
         "Addiction treatment and mental health care"
       ],
       "positions": {
@@ -497,7 +497,7 @@
           "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
         },
         "taxes": {
-          "label": "Proposed eliminating Rhode Island's sales tax so residents shop locally instead of in neighboring states, paired with auditing state spending for waste (NBC 10 debate)",
+          "label": "Proposed eliminating Rhode Island's sales tax: 'I would love to get rid of it because look how much money people would spend... they'll stay in Rhode Island' (NBC 10 debate)",
           "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
         },
         "education": {

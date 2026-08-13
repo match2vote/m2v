@@ -38,7 +38,7 @@
         "taxes": 2,
         "climate": 2,
         "education": 2,
-        "safety": 2,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -125,7 +125,7 @@
       ],
       "positions": {
         "cost": -1,
-        "health": -2,
+        "health": -1,
         "housing": 0,
         "immigration": -1,
         "taxes": -1,
@@ -204,7 +204,7 @@
       "age": 47,
       "home": "Naples, FL",
       "now": "U.S. Representative (FL-19)",
-      "background": "U.S. Representative for southwest Florida since 2021; before Congress, a finance and banking career and two terms in the Florida House, where he authored the Hope Scholarship school-choice program. Brooklyn-born, raised by a single mother. Endorsed by President Trump ('RUN, BYRON, RUN!').",
+      "background": "U.S. Representative for southwest Florida since 2021; before Congress, a finance and banking career and two terms in the Florida House, where he shepherded the bill creating the precursor to Florida's universal school-voucher program. Brooklyn-born, raised by a single mother. Endorsed by President Trump ('RUN, BYRON, RUN!').",
       "priorities": [
         "Property insurance and housing affordability",
         "Zero-tolerance immigration enforcement",
@@ -224,8 +224,8 @@
       },
       "positionSources": {
         "cost": {
-          "label": "'Solve the property insurance crisis, lower housing costs, and make Florida affordable again' via cat-fund and tort reforms (campaign site)",
-          "url": "https://byrondonalds.com/issues/"
+          "label": "Affordability through deregulation: says cutting regulatory 'red tape' is crucial to lowering the cost of new homes, backs property-tax elimination (News4Jax interview)",
+          "url": "https://www.news4jax.com/news/politics/2026/04/23/affordability-emerges-as-central-issue-in-florida-governors-race-as-candidates-outline-competing-approaches/"
         },
         "health": {
           "label": "Opposes the ACA ('a ruse... to seize control'); favors cross-state insurance sales and tax incentives (House issues page)",
@@ -236,28 +236,28 @@
           "url": "https://www.news4jax.com/news/politics/2026/04/23/affordability-emerges-as-central-issue-in-florida-governors-race-as-candidates-outline-competing-approaches/"
         },
         "immigration": {
-          "label": "'Secure the border... end taxpayer handouts to illegals'; ban sanctuary policies statewide (campaign site)",
+          "label": "'Secure the border, keep our families and communities safe, end taxpayer handouts to illegals' (campaign site)",
           "url": "https://byrondonalds.com/issues/"
         },
         "taxes": {
-          "label": "'Lower taxes, less regulation'; backs eliminating property taxes for homesteaded residents (News4Jax interview)",
+          "label": "Supports DeSantis's push to eliminate property taxes for homesteaded residents; less regulation to cut costs (News4Jax interview)",
           "url": "https://www.news4jax.com/news/politics/2026/04/23/affordability-emerges-as-central-issue-in-florida-governors-race-as-candidates-outline-competing-approaches/"
         },
         "climate": {
-          "label": "Mixed: Everglades restoration, water quality, and beach protection; opposed the Green New Deal, supports nuclear power (campaign site)",
-          "url": "https://byrondonalds.com/issues/"
+          "label": "Opposed the Green New Deal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
         },
         "education": {
-          "label": "School-choice champion: authored Florida's Hope Scholarship; against 'radical woke ideology' in schools (campaign site)",
-          "url": "https://byrondonalds.com/issues/"
+          "label": "School-choice champion: shepherded the bill creating the precursor to Florida's universal voucher program; 'I've been in this fight my whole career' (WUSF)",
+          "url": "https://www.wusf.org/education/2026-08-01/what-byron-and-erika-donalds-gospel-of-school-choice-could-mean-for-florida"
         },
         "safety": {
           "label": "'Backing our law enforcement, enforcing the law'; keep Florida a 'law-and-order state' (Florida's Voice roundtable)",
           "url": "https://flvoicenews.com/byron-donalds-outlines-law-and-order-agenda-at-melbourne-public-safety-roundtable/"
         },
         "repro": {
-          "label": "Self-described pro-life; opposed Amendment 4, the 2024 abortion-rights ballot measure (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+          "label": "Publicly opposed Amendment 4, the 2024 abortion-rights ballot measure, urging Floridians to vote no (Florida's Voice)",
+          "url": "https://flvoicenews.com/florida-reps-byron-donalds-neal-dunn-the-latest-to-vocally-oppose-abortion-amendment-4/"
         },
         "democracy": {
           "label": "Voted to object to certifying Arizona and Pennsylvania 2020 electors; said in 2023 Biden was 'not the legitimate president' (Wikipedia)",
@@ -318,7 +318,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "State catastrophic fund to pull hurricane risk out of private insurance; cap investor-owned utility profits around 10% (campaign site)",
+          "label": "State catastrophic fund to pull natural-disaster risk out of the private market and 'dramatically reduce property and car insurance rates' (campaign site)",
           "url": "https://davidjolly.com/issues/"
         },
         "health": {

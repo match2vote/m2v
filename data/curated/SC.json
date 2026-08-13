@@ -4,7 +4,7 @@
   "races": {
     "SC-senate": {
       "status": "primary-pending",
-      "statusNote": "Sen. Lindsey Graham died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in an Aug 25 special-primary runoff after leading the Aug 10 special primary 33% to 25%. The GOP nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee."
+      "statusNote": "Sen. Lindsey Graham died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in an Aug 25 special-primary runoff after leading the Aug 11 special primary 33% to 25%. The GOP nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee."
     },
     "SC-governor": {
       "status": "general",
@@ -21,6 +21,8 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": "Mount Pleasant, SC",
       "now": "Pediatrician",
       "background": "Pediatrician and 2022 Democratic nominee in South Carolina's 1st District, where she took 42.5% against Rep. Nancy Mace. Won the June 9 Democratic Senate primary with 61.5% over Brandon Brown, and will face the winner of the Aug 25 Republican special-primary runoff.",
       "priorities": [
@@ -100,7 +102,7 @@
       "age": 62,
       "home": "Lexington, SC",
       "now": "U.S. Senator (appointed July 2026)",
-      "background": "Appointed by Gov. McMaster to complete the term of her brother, Sen. Lindsey Graham, after his death on July 11; South Carolina's first female U.S. senator. Spent 28 years in state government, most recently seven years leading the SC Commission for the Blind. A first-time candidate endorsed by President Trump, she led the Aug 10 special primary with 33% and faces Rep. Ralph Norman in the Aug 25 runoff.",
+      "background": "Appointed by Gov. McMaster to complete the term of her brother, Sen. Lindsey Graham, after his death on July 11; South Carolina's first female U.S. senator. Spent 28 years in state government, most recently seven years leading the SC Commission for the Blind. A first-time candidate endorsed by President Trump, she led the Aug 11 special primary with 33% and faces Rep. Ralph Norman in the Aug 25 runoff.",
       "priorities": [
         "Kitchen-table affordability: 'the price of groceries, the price of gas, healthcare'",
         "Employment and independence for people with disabilities",
@@ -120,7 +122,7 @@
       },
       "positionSources": {
         "repro": {
-          "label": "Says she is 'against abortion' in her only extended interviews since her appointment; no specifics on exceptions or bills yet (Forbes)",
+          "label": "Advocated against abortion in her campaign ad, with no specifics on exceptions or bills yet (Forbes)",
           "url": "https://www.forbes.com/sites/saradorn/2026/08/10/darline-grahams-riding-with-trump-but-political-views-beyond-that-still-unclear-as-primary-looms/"
         },
         "democracy": {
@@ -170,10 +172,10 @@
       "age": 73,
       "home": "Rock Hill, SC",
       "now": "U.S. Representative, SC-05",
-      "background": "Rock Hill real estate developer and U.S. representative for SC-05 since 2017; House Freedom Caucus member rated the most conservative House member of the 117th Congress by GovTrack. Lost the June governor's primary, then entered the Senate special primary after Lindsey Graham's death, taking 25% on Aug 10 to reach the Aug 25 runoff against Darline Graham.",
+      "background": "Rock Hill real estate developer and U.S. representative for SC-05 since 2017; House Freedom Caucus member rated the most conservative House member of the 117th Congress by GovTrack. Lost the June governor's primary, then entered the Senate special primary after Lindsey Graham's death, taking 25% on Aug 11 to reach the Aug 25 runoff against Darline Graham.",
       "priorities": [
         "Fiscal conservatism and cutting federal spending",
-        "'100% Pro-Life' laws",
+        "Pro-life laws with no exceptions",
         "School choice with funding following the child"
       ],
       "positions": {
@@ -210,7 +212,7 @@
           "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
         },
         "repro": {
-          "label": "'100% Pro-Life'; only GOP primary candidate willing to sign S. 1095, which drops exceptions for rape, incest and fatal fetal anomalies (Fox Carolina profile)",
+          "label": "Only GOP primary candidate willing to sign S. 1095, which drops exceptions for rape, incest and fatal fetal anomalies (Fox Carolina profile)",
           "url": "https://www.foxcarolina.com/2026/08/04/us-senate-special-election-candidate-profile-ralph-norman/"
         },
         "democracy": {
@@ -297,7 +299,7 @@
           "url": "https://wilsonforsc.com/priorities/"
         },
         "education": {
-          "label": "Backs universal school choice: parents 'should have the same right, to give your kid the option'; also pledges to fully fund public schools (Fox Carolina profile)",
+          "label": "Backs universal school choice as a top priority: parents 'should have the same right and the same opportunity to give your kid the option' (Fox Carolina profile)",
           "url": "https://www.foxcarolina.com/2026/05/29/sc-governors-race-candidate-profile-alan-wilson/"
         },
         "safety": {
@@ -305,7 +307,7 @@
           "url": "https://wilsonforsc.com/priorities/"
         },
         "repro": {
-          "label": "'Firmly pro-life and will always support laws that defend the unborn', though he would veto the no-exceptions bill S. 1095 (campaign site)",
+          "label": "'Firmly pro-life and will always support laws that defend the unborn' (campaign site)",
           "url": "https://wilsonforsc.com/priorities/"
         },
         "democracy": {
@@ -362,7 +364,7 @@
         "Public safety: more officers plus mental-health crisis teams"
       ],
       "positions": {
-        "cost": -2,
+        "cost": -1,
         "health": -1,
         "housing": -1,
         "immigration": null,
@@ -375,11 +377,11 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Backs a state minimum wage via a labor advisory council; earlier proposed a UBI pilot and blasted lawmakers for failing to create 'a livable, minimum wage' (campaign site)",
+          "label": "Would create a labor advisory council responsible for recommending a state minimum wage (campaign site)",
           "url": "https://johnsonforsc.com/policies"
         },
         "health": {
-          "label": "Lists Medicaid expansion as a key priority; wants rural hospitals funded and healthcare made affordable (Ballotpedia)",
+          "label": "Listed Medicaid expansion among his key policy priorities in his Candidate Connection survey (Ballotpedia)",
           "url": "https://ballotpedia.org/Jermaine_Johnson"
         },
         "housing": {

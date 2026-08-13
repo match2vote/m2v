@@ -1,0 +1,254 @@
+{
+  "state": "NY",
+  "note": "Hand-curated, sourced entries. Both major-party primaries (June 23) were uncontested.",
+  "races": {
+    "NY-governor": {
+      "status": "general",
+      "statusNote": "Gov. Kathy Hochul (D) faces Nassau County Executive Bruce Blakeman (R), with Libertarian Larry Sharpe also on the ballot. Both major-party primaries were uncontested."
+    }
+  },
+  "candidates": [
+    {
+      "id": "ny-gov-hochul",
+      "name": "Kathy Hochul",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "NY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 67,
+      "home": "Buffalo, NY",
+      "now": "Governor of New York",
+      "background": "Governor since 2021 and New York's first female governor; won a full term in 2022. Previously Lieutenant Governor, a member of Congress, and Erie County Clerk. Seeking a second full term on an affordability platform.",
+      "priorities": [
+        "Affordability: refund checks, tax cuts, child care",
+        "Public safety: subway policing",
+        "Fighting federal cuts to health care"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": 0,
+        "climate": -1,
+        "education": -2,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Inflation refund checks up to $400, expanded child tax credit up to $1,000/child, senior rent-freeze expansion (NYS affordability program)",
+          "url": "https://www.governor.ny.gov/programs/making-new-york-state-more-affordable"
+        },
+        "health": {
+          "label": "Defend Medicaid from federal cuts; invest in safety-net hospitals; keep drug costs down (2026 State of the State)",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        "housing": {
+          "label": "Mixed: pro-supply 'Let Them Build' agenda cutting regulatory barriers AND expanded rent freezes for seniors/disabled (2026 State of the State)",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        "immigration": {
+          "label": "Proposes a state right to sue federal officers for constitutional violations and 'sensitive location' protections during enforcement (2026 State of the State)",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        "taxes": {
+          "label": "Mixed: middle-class tax cut for ~8.3M filers and no tax on tips, while opposing tax increases on the wealthy (Spectrum News)",
+          "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/07/16/strategists-issues-ny-governor-s-race"
+        },
+        "climate": {
+          "label": "Backs a zero-emission grid with a 'nuclear reliability backbone' but has delayed cap-and-invest rules and negotiated slower climate-law timelines over cost (Gothamist)",
+          "url": "https://tollbit.gothamist.com/news/nys-climate-law-clashes-with-gov-hochuls-affordability-campaign"
+        },
+        "education": {
+          "label": "Universal free school meals, $1.7B child-care increase, seventh straight SUNY/CUNY tuition freeze (2026 State of the State)",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        "safety": {
+          "label": "Sustain record-low subway crime through platform barriers and expanded police presence (2026 State of the State)",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        "repro": {
+          "label": "$35M abortion-provider fund, misoprostol stockpile, six post-Dobbs shield laws (official release)",
+          "url": "https://www.governor.ny.gov/news/wake-attacks-reproductive-health-care-governor-hochul-vows-fight-protect-abortion-rights"
+        }
+      },
+      "controversies": [
+        {
+          "label": "First Lt. Gov. pick resigned after a federal bribery indictment; $850M Buffalo Bills stadium subsidy; paused then revived congestion pricing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+        }
+      ],
+      "sources": [
+        {
+          "label": "2026 State of the State",
+          "url": "https://www.governor.ny.gov/news/governor-kathy-hochuls-2026-state-state-your-family-your-future-my-fight"
+        },
+        {
+          "label": "Wikipedia: Kathy Hochul",
+          "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+        },
+        {
+          "label": "Ballotpedia: 2026 NY governor race",
+          "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ny-gov-blakeman",
+      "name": "Bruce Blakeman",
+      "party": "Republican",
+      "office": "governor",
+      "state": "NY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 70,
+      "home": "Atlantic Beach, NY",
+      "now": "Nassau County Executive",
+      "background": "Nassau County Executive since 2022, re-elected in 2025; previously a Hempstead town councilman, Nassau legislature presiding officer, and Port Authority commissioner. Endorsed by President Trump after Elise Stefanik withdrew from the race.",
+      "priorities": [
+        "Affordability: cut electric bills, block tax hikes",
+        "Crime: end cashless bail, expand police",
+        "Reverse state energy mandates"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": 2,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'cut electricity bills in half' by reversing energy mandates; blames rate hikes on state policy (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        "health": {
+          "label": "Says 'of course' he'd cut Medicaid spending, calling NY's bill larger than Florida plus Texas combined (LI Life & Politics)",
+          "url": "https://lilifepolitics.com/news/politics/blakeman-hochul-spar-over-medicaid/"
+        },
+        "immigration": {
+          "label": "Rejects sanctuary policies; touts Nassau's cooperation agreement with ICE (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        "taxes": {
+          "label": "Touts blocking $150M in scheduled Nassau property-tax hikes; opposes new income and business taxes (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        "climate": {
+          "label": "Calls the state climate agenda a 'green energy scam'; opposes offshore wind and clean-energy mandates, favors natural gas (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        "safety": {
+          "label": "Hired 600+ officers in Nassau; opposes cashless bail and Raise the Age (campaign site)",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        "repro": {
+          "label": "Identifies as pro-choice; calls NY abortion law 'well-settled' with 'no litmus test' for his administration (Washington Examiner)",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4356642/bruce-blakeman-abortion-rights-stance-gop-gubernatorial-front-runner/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "2024 order banning transgender women from girls' teams at county facilities (struck down, then re-passed and in litigation); armed 'special deputies' program critics called a personal militia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.blakemanfornewyork.com/"
+        },
+        {
+          "label": "Wikipedia: Bruce Blakeman",
+          "url": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+        },
+        {
+          "label": "City & State: Conservative Party convention",
+          "url": "https://www.cityandstateny.com/politics/2026/02/blakeman-courts-right-wing-voters-state-conservative-party-convention/411132/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ny-gov-sharpe",
+      "name": "Larry Sharpe",
+      "party": "Libertarian",
+      "office": "governor",
+      "state": "NY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Business consultant; Libertarian nominee",
+      "background": "Libertarian nominee who previously ran for New York governor in 2018, drawing about 100,000 votes. Marine Corps veteran and business consultant.",
+      "priorities": [
+        "Shrink 'too big, too expensive' government",
+        "Local control",
+        "Ballot access and open primaries"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 0,
+        "education": null,
+        "safety": -1,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Lower taxes and shrink government so New York costs less (campaign site)",
+          "url": "https://larrysharpe.com/"
+        },
+        "health": {
+          "label": "Mandatory transparent pricing from all providers so consumers can comparison-shop (policy page)",
+          "url": "https://larrysharpe.com/ny-policies/"
+        },
+        "taxes": {
+          "label": "Lower taxes; shrink 'too big, too expensive' government (campaign site)",
+          "url": "https://larrysharpe.com/"
+        },
+        "climate": {
+          "label": "Mixed: Gen-4 nuclear plus renewables; hold polluters 'fully accountable' for damage (policy page)",
+          "url": "https://larrysharpe.com/ny-policies/"
+        },
+        "safety": {
+          "label": "Bail reform via monitored release; 'Community Reform Units' focused on rehabilitation and recidivism (policy page)",
+          "url": "https://larrysharpe.com/ny-policies/"
+        },
+        "repro": {
+          "label": "Personally opposes abortion but says government should not restrict it; wants over-the-counter birth control (policy page)",
+          "url": "https://larrysharpe.com/ny-policies/"
+        },
+        "democracy": {
+          "label": "Expand ballot access for independents and third parties, open primaries, ranked-choice voting (policy page)",
+          "url": "https://larrysharpe.com/ny-policies/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign policy page",
+          "url": "https://larrysharpe.com/ny-policies/"
+        },
+        {
+          "label": "Ballotpedia: 2026 NY governor race",
+          "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

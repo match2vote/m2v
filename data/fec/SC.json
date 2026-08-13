@@ -1,7 +1,7 @@
 {
   "state": "SC",
   "electionYear": 2026,
-  "syncedAt": "2026-08-11T15:12:43.574Z",
+  "syncedAt": "2026-08-13T14:26:05.779Z",
   "candidates": [
     {
       "id": "fec-H6SC01268",
@@ -1342,6 +1342,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6SC04379/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6SC04437",
+      "fecId": "S6SC04437",
+      "name": "Darline Graham",
+      "party": "Republican",
+      "state": "SC",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SC04437/"
         }
       ],
       "funding": null,

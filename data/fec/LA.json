@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-08-09T07:18:19.784Z",
+  "syncedAt": "2026-08-13T14:26:05.778Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -484,38 +484,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6LA05259",
-      "fecId": "H6LA05259",
-      "name": "Michael Edward Mebruer",
-      "party": "Republican",
-      "state": "LA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6LA05259/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6LA05317",
       "fecId": "H6LA05317",
       "name": "Michael Gabriel Firment",
@@ -830,6 +798,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05309/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05259",
+      "fecId": "H6LA05259",
+      "name": "Michael Edward Mebruer",
+      "party": "Republican",
+      "state": "LA",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05259/"
         }
       ],
       "funding": null,

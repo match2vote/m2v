@@ -1,0 +1,192 @@
+{
+  "state": "CT",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "CT-governor": {
+      "status": "general",
+      "statusNote": "Gov. Ned Lamont (D) seeks a third term, rated Likely D. He beat state Rep. Josh Elliott by better than 2-1 in the Aug 11 Democratic primary; state Sen. Ryan Fazio (R) won the GOP nomination at the May 16 convention with about 92% of delegates, so Republicans held no primary. No Senate race in CT in 2026."
+    }
+  },
+  "candidates": [
+    {
+      "id": "ct-gov-lamont",
+      "name": "Ned Lamont",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 72,
+      "home": "Greenwich, CT",
+      "now": "Governor of Connecticut (since 2019)",
+      "background": "Governor since 2019, re-elected in 2022 with 56%; founded and sold the campus cable company Campus Televideo before politics and forgoes his state salary. First rose to prominence beating Sen. Joe Lieberman in the 2006 Democratic Senate primary. Survived his first primary challenge in decades, defeating progressive state Rep. Josh Elliott by more than a 2-1 margin on Aug 11.",
+      "priorities": [
+        "Lowering costs of housing, electricity, healthcare, and higher education",
+        "Fiscal discipline and continued budget surpluses",
+        "Protecting reproductive rights and immigrant communities"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": 0,
+        "climate": -2,
+        "education": -1,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Capped insulin costs at $25 per month and launched energy assistance programs cutting utility bills by hundreds of dollars a year (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "health": {
+          "label": "Created the Covered Connecticut program giving no-cost health coverage, including dental, to nearly 40,000 adults; has stopped short of a state public option (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "housing": {
+          "label": "Mixed: passed legislation promoting new construction near mass transit and reuse of existing buildings, paired with affordable options for seniors and working families (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "immigration": {
+          "label": "'Expanded and strengthened Connecticut's TRUST Act with stronger legal protections for immigrant communities' (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "taxes": {
+          "label": "Mixed: rejects a millionaire surtax ('Only when you need it'), warning it would push CT rates to almost the highest in the country, while touting the largest income tax cut in state history (CT Mirror debate coverage)",
+          "url": "https://ctmirror.org/2026/07/22/lamont-and-elliott-clash-politely-in-only-tv-debate-before-primary/"
+        },
+        "climate": {
+          "label": "Set a 100% zero-carbon electric grid goal by 2040 and launched Revolution Wind to power 350,000 homes (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "education": {
+          "label": "Prioritizes fully funding the Education Cost Sharing formula and expanding early childhood programs: 'every dollar invested in early childhood education results in $15 of future benefits' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ned_Lamont"
+        },
+        "safety": {
+          "label": "Backs Project Longevity community violence prevention, citing a 21% decrease in total shootings per month in New Haven (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ned_Lamont"
+        },
+        "repro": {
+          "label": "'Enacted the nation's first law after Roe v. Wade was overturned, establishing Connecticut as a safe haven' for reproductive care (campaign site)",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        "democracy": {
+          "label": "Signed the no-excuse absentee voting law: 'We should be doing everything we can to encourage qualified voters to participate in elections' (CT.gov press release)",
+          "url": "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-legislation-making-absentee-ballots-an-option"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.nedlamont.com/issues"
+        },
+        {
+          "label": "CT Mirror: primary result",
+          "url": "https://ctmirror.org/2026/08/11/ct-gov-ned-lamont-defeats-josh-elliott-democratic-primary/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ned_Lamont"
+        },
+        {
+          "label": "CT.gov: no-excuse absentee voting signing",
+          "url": "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-legislation-making-absentee-ballots-an-option"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ct-gov-fazio",
+      "name": "Ryan Fazio",
+      "party": "Republican",
+      "office": "governor",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 36,
+      "home": "Greenwich, CT",
+      "now": "Connecticut State Senator (District 36)",
+      "background": "State senator from Greenwich since a 2021 special election; Northwestern economics graduate who worked as a commodities trader and in renewable energy before politics. Won the Republican nomination at the May 16 convention with roughly 92% of delegates after former New Britain Mayor Erin Stewart suspended her campaign, avoiding a primary. Declines to discuss President Trump, saying commenting on national politics is 'counterproductive'.",
+      "priorities": [
+        "Cut electricity bills by 20%",
+        "Cut income taxes by $1,500 for every family",
+        "Restore proactive policing and public safety"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": 0,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 1,
+        "safety": 2,
+        "repro": 0,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'cut electricity bills by 20%' by ending hidden taxes and removing cost-driving mandates, plus a $1,500 income tax cut for every family (campaign site)",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        "health": {
+          "label": "Would increase healthcare access and jobs by 'improving state rules and regulations' rather than expanding public programs (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ryan_Fazio"
+        },
+        "housing": {
+          "label": "Mixed: defends 'local control while improving housing affordability', backing accessory dwelling units and mixed-use residential areas (campaign site)",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        "immigration": {
+          "label": "Will 'reduce taxpayer spending on illegal immigration and reverse the 2019 sanctuary state policies' (campaign site)",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        "taxes": {
+          "label": "Pledges to 'slash income tax rates for all families for the first time in state history' while cutting 'wasteful spending' and reforming state employee packages (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ryan_Fazio"
+        },
+        "climate": {
+          "label": "Energy plan centers on 'ending hidden taxes, expanding reliable supply, and removing the mandates driving up costs'; says power should be 'reliable and affordable and clean' (campaign site)",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        "education": {
+          "label": "Supports 'more choice to poor kids stuck in failing schools', higher K-12 standards with local control, and a state university tuition freeze (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ryan_Fazio"
+        },
+        "safety": {
+          "label": "Plan 'reforms the 2020 anti-police legislation, closes parole loopholes for violent offenders, and reinstates proactive policing' (campaign site)",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        "repro": {
+          "label": "Mixed: says 'restricting abortion in Connecticut is never going to happen' and backs the state's guarantee, but opposed the 2022 safe-harbor law protecting patients from out-of-state abortion prosecutions (CT Mirror)",
+          "url": "https://ctmirror.org/2024/09/22/ct-ryan-fazio-greenwich-2024-election/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://ryanfazio.com/issues/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ryan_Fazio"
+        },
+        {
+          "label": "CT Mirror: 2024 profile",
+          "url": "https://ctmirror.org/2024/09/22/ct-ryan-fazio-greenwich-2024-election/"
+        },
+        {
+          "label": "CT Mirror: Democratic primary result and general matchup",
+          "url": "https://ctmirror.org/2026/08/11/ct-gov-ned-lamont-defeats-josh-elliott-democratic-primary/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    }
+  ]
+}

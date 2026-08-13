@@ -40,7 +40,7 @@ WHAT YOU CAN DO
 
 PRIVACY, FOR REAL
 
-No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app's only network request is downloading public candidate data. Full policy: https://match2vote.org/privacy/
+No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app's only network request is downloading public candidate data. Full policy: https://match2vote.github.io/m2v/privacy/
 
 M2V is an independent civic project. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
 
@@ -50,8 +50,8 @@ Questions or corrections: match2vote@gmail.com
 **App category:** News & Magazines (alternative: Books & Reference). NOT "Social."
 **Tags:** elections, voting, civic engagement
 **Contact email:** match2vote@gmail.com
-**Website:** https://match2vote.org
-**Privacy policy URL (required):** https://match2vote.org/privacy/
+**Website:** https://match2vote.org (marketing site) · app: https://match2vote.github.io/m2v/
+**Privacy policy URL (required):** https://match2vote.github.io/m2v/privacy/
 
 Graphics needed (I can generate these next session on request): 512×512 icon (exists in repo: `apps/mobile/assets/`), 1024×500 feature graphic, at least 2 phone screenshots (we have 375px screenshots; Play wants 16:9 or 9:16, min 320px — our ballot/quiz/profile screenshots work).
 

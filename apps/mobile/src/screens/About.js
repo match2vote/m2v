@@ -93,7 +93,7 @@ export function About() {
           kind="ghost"
           small
           label="Privacy policy"
-          onPress={() => Linking.openURL('https://match2vote.org/privacy/')}
+          onPress={() => Linking.openURL('https://match2vote.github.io/m2v/privacy/')}
         />
         <Body soft style={{ fontSize: 12, textAlign: 'center', marginVertical: space(3) }}>
           M2V is nonpartisan. It favors no party and no candidate.

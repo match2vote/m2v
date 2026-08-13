@@ -32,7 +32,10 @@ export function OfficialBallot() {
   const load = useCallback(async () => {
     const [p, s, q] = await Promise.all([getPicks(), kv.get('m2v:ballotState'), getQuizState()]);
     setPicks(p);
-    setQuiz(q && q.done ? q : null);
+    // Match numbers require a COMPLETED quiz with 3+ real answers; anything
+    // less shows no percentages and no star (see docs/design/match-confidence.md).
+    const realAnswers = q ? Object.values(q.answers || {}).filter((v) => v !== null && v !== undefined).length : 0;
+    setQuiz(q && q.done && realAnswers >= 3 ? { ...q, realAnswers } : null);
     const code = s || p[p.length - 1]?.state || null;
     setStateCode(code);
     if (code) getStateData(code, setData).then((d) => d && setData(d));
@@ -48,19 +51,27 @@ export function OfficialBallot() {
   const marked = races.filter((r) => pickByRace[r.id]).length;
 
   // The user's own quiz result per race: match % for researched candidates,
-  // and the top-match star. Star rules: quiz taken, AND the race has 2+
-  // researched candidates (starring the only researched person would mislead),
-  // AND the top result has a real percentage.
+  // and the top-match star. Star rules: quiz completed (3+ real answers), AND
+  // the race has 2+ researched candidates (starring the only researched person
+  // would mislead), AND the top result has a real percentage, AND the top
+  // candidate was scored on at least as many issues as anyone else in the race.
+  // That last rule is the denominator guard: a 9-of-10-issue 71% must not
+  // outrank a 10-of-10-issue 58% into a star, thin data never wins the star.
   const quizResults = {};
   if (quiz) {
     for (const race of races) {
       const researched = race.candidates.filter((c) => c.researched);
       const rows = rankCandidates(quiz.answers, quiz.matters, researched);
-      const pctById = Object.fromEntries(rows.map((r) => [r.candidate.id, r.pct]));
+      const byId = Object.fromEntries(rows.map((r) => [r.candidate.id, r]));
       const top = rows[0];
+      const scored = rows.filter((r) => r.pct !== null);
+      const maxShared = scored.length ? Math.max(...scored.map((r) => r.sharedIssues)) : 0;
       quizResults[race.id] = {
-        pctById,
-        starId: researched.length >= 2 && top && top.pct !== null ? top.candidate.id : null,
+        byId,
+        starId:
+          researched.length >= 2 && top && top.pct !== null && top.sharedIssues >= maxShared
+            ? top.candidate.id
+            : null,
       };
     }
   }
@@ -73,7 +84,7 @@ export function OfficialBallot() {
       setPicks(await savePick({
         raceId: race.id, raceTitle: race.title, state: cand.state,
         candidateId: cand.id, name: cand.name, party: cand.party, tier: cand.tier,
-        matchPct: quizResults[race.id]?.pctById?.[cand.id] ?? null,
+        matchPct: quizResults[race.id]?.byId?.[cand.id]?.pct ?? null,
       }));
     }
   };
@@ -140,7 +151,8 @@ export function OfficialBallot() {
                 <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: space(3) }} />
                 {race.candidates.map((cand) => {
                   const filled = pickByRace[race.id]?.candidateId === cand.id;
-                  const pct = cand.researched ? qr?.pctById?.[cand.id] : undefined;
+                  const row = cand.researched ? qr?.byId?.[cand.id] : undefined;
+                  const pct = row?.pct;
                   const starred = qr?.starId === cand.id;
                   return (
                     <View key={cand.id}>
@@ -167,7 +179,9 @@ export function OfficialBallot() {
                           </View>
                           <Text style={{ fontSize: 12, color: '#555' }}>
                             {cand.party}
-                            {cand.researched && pct !== undefined && pct !== null ? ` · ${pct}% match for your answers` : ''}
+                            {cand.researched && pct !== undefined && pct !== null
+                              ? ` · ${pct}% match on ${row.sharedIssues} of your ${quiz?.realAnswers ?? 10} issues`
+                              : ''}
                           </Text>
                           {!cand.researched && (
                             <Text style={{ fontSize: 11.5, color: '#8a7f72', fontStyle: 'italic' }}>

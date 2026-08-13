@@ -43,6 +43,17 @@ export function About() {
           number, we show a dash instead of a fake percentage.
         </P>
         <P>
+          Why two percentages aren't always comparable: a candidate with fewer
+          documented positions is scored on fewer of your issues. An 80% built
+          on 6 issues is a thinner claim than a 60% built on all 10, the missing
+          issues might be exactly where you'd disagree. That's why every score
+          shows its count ("across 8 of your 10 issues"), why we flag races
+          where candidates have different counts, and why the "your top match"
+          star is never given to a candidate who was scored on fewer issues
+          than a rival. We refuse to fix this by guessing missing positions:
+          unknown stays "Not stated," always.
+        </P>
+        <P>
           Candidate rosters come from official FEC filings, refreshed nightly,
           plus hand-maintained governor races. Anything illustrative is labeled
           "Sample."

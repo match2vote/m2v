@@ -57,7 +57,11 @@ function Root() {
 
   if (onboarded === null || !quizLoaded) return <View style={{ flex: 1, backgroundColor: colors.bg }} />;
 
-  const quizCtx = { answers: quiz.done ? quiz.answers : {}, matters: quiz.matters };
+  // Match results exist ONLY for a completed quiz with at least 3 real answers
+  // (skips don't count). Anything less shows progress, never a "best match".
+  const realAnswers = Object.values(quiz.answers).filter((v) => v !== null && v !== undefined).length;
+  const quizUsable = quiz.done && realAnswers >= 3;
+  const quizCtx = { answers: quizUsable ? quiz.answers : {}, matters: quiz.matters };
 
   if (!onboarded) {
     return (
@@ -243,6 +247,7 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   }, [stateCode]);
 
   const answered = Object.keys(quiz.answers).length;
+  const realAnswered = Object.values(quiz.answers).filter((v) => v !== null && v !== undefined).length;
 
   // Not started
   if (!quiz.done && answered === 0) {
@@ -268,6 +273,21 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
         </Body>
         <Button label={`Resume at question ${quiz.qIndex + 1}`} onPress={() => nav.go({ name: 'quiz' })} />
         <Button kind="ghost" label="Start over instead" onPress={() => { setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
+      </Screen>
+    );
+  }
+
+  // Completed, but mostly skipped: one or two answers is not a match basis.
+  if (quiz.done && realAnswered < 3) {
+    return (
+      <Screen>
+        <H1>Almost there</H1>
+        <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
+          You answered {realAnswered} of {ISSUES.length} questions (skips don't
+          count). We need at least 3 real answers to say anything meaningful
+          about who agrees with you, a match built on less would be noise.
+        </Body>
+        <Button label="Answer more questions" onPress={() => { setQuiz({ ...quiz, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
       </Screen>
     );
   }
@@ -316,11 +336,25 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
           label={`View your ballot (${markedCount} of ${ballotRaceCount} race${ballotRaceCount === 1 ? '' : 's'} marked)`}
           onPress={() => nav.go({ name: 'ballot' })}
         />
-        {ranked.map(({ race, rows }) => (
+        {ranked.map(({ race, rows }) => {
+          // Different candidates can have different numbers of documented
+          // positions, so their percentages cover different denominators.
+          // Surface that difference; never let 9-issue and 10-issue numbers
+          // read as the same kind of number.
+          const dens = rows.filter((r) => r.pct !== null).map((r) => r.sharedIssues);
+          const denSpread = dens.length > 1 ? Math.max(...dens) - Math.min(...dens) : 0;
+          return (
           <Card key={race.id}>
             <Pressable onPress={() => nav.go({ name: 'race', id: race.id })}>
               <H2 style={{ marginBottom: space(2) }}>{race.title} ›</H2>
             </Pressable>
+            {denSpread >= 1 && (
+              <Body soft style={{ fontSize: 12, marginBottom: space(2), fontStyle: 'italic' }}>
+                These percentages cover different numbers of issues, because some
+                candidates have fewer documented positions. They are not directly
+                comparable, check the "of your {realAnswered}" count under each name.
+              </Body>
+            )}
             {rows.map(({ candidate, pct, sharedIssues }) => {
               const isMarked = picks.some((p) => p.raceId === race.id && p.candidateId === candidate.id);
               return (
@@ -332,9 +366,12 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
                         <Body style={{ fontWeight: '800', fontSize: 17 }}>{candidate.name}</Body>
                       </Pressable>
                       <Body soft style={{ fontSize: 12 }}>
-                        {candidate.party}
-                        {pct !== null ? ` · ${sharedIssues} shared issue${sharedIssues === 1 ? '' : 's'}` : ' · not enough stated positions'}
-                        {candidate.tier === 'curated' ? ' · sourced ✓' : ''}
+                        {candidate.party}{candidate.tier === 'curated' ? ' · sourced ✓' : ''}
+                      </Body>
+                      <Body style={{ fontSize: 12.5, fontWeight: '700' }}>
+                        {pct !== null
+                          ? `${pct}% across ${sharedIssues} of your ${realAnswered} issue${realAnswered === 1 ? '' : 's'}`
+                          : 'not enough documented positions to score'}
                       </Body>
                     </View>
                   </View>
@@ -356,7 +393,8 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
               );
             })}
           </Card>
-        ))}
+          );
+        })}
         {!confirmRetake ? (
           <Button kind="ghost" label="Retake the quiz" onPress={() => setConfirmRetake(true)} />
         ) : (

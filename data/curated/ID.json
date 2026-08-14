@@ -8,7 +8,7 @@
         "fec-S8ID00092",
         "fec-S6ID00146"
       ],
-      "statusNote": "Sen. Jim Risch (R) won the May 19 primary with 67.3% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger."
+      "statusNote": "Sen. Jim Risch (R) won the May 19 primary with about 67% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger."
     },
     "ID-governor": {
       "status": "general",
@@ -28,7 +28,7 @@
       "age": 83,
       "home": "Boise, ID",
       "now": "U.S. Senator for Idaho",
-      "background": "U.S. Senator since 2009 and chairman of the Senate Foreign Relations Committee; rancher and attorney who previously served as Idaho's governor and lieutenant governor. Won the May 19 Republican primary with 67.3% and is seeking a fourth term.",
+      "background": "U.S. Senator since 2009 and chairman of the Senate Foreign Relations Committee; rancher and attorney who previously served as Idaho's governor and lieutenant governor. Won the May 19 Republican primary with about 67% and is seeking a fourth term.",
       "priorities": [
         "Extend the 2017 tax cuts and cut federal spending",
         "Border security and immigration enforcement",
@@ -38,7 +38,7 @@
         "cost": null,
         "health": 1,
         "housing": null,
-        "immigration": 2,
+        "immigration": 1,
         "taxes": 2,
         "climate": 2,
         "education": 2,
@@ -52,11 +52,11 @@
           "url": "https://ballotpedia.org/Jim_Risch"
         },
         "immigration": {
-          "label": "Says the reconciliation bill he backed 'secures the southern border and provides the money that's needed for immigration enforcement'; opposes a pathway to citizenship (Senate office)",
+          "label": "Says the reconciliation bill he backed 'secures the southern border and provides the money that's needed for immigration enforcement' (Senate office)",
           "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
         },
         "taxes": {
-          "label": "Celebrated his One Big Beautiful Bill vote preserving the 2017 tax cuts, 'the largest tax cuts for working Idahoans in history', while cutting $1.6 trillion in federal spending (Senate office)",
+          "label": "Celebrated his reconciliation bill vote preserving the expiring 2017 tax cuts, 'the largest tax cuts for working Idahoans in history', while cutting $1.6 trillion in federal spending (Senate office)",
           "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
         },
         "climate": {
@@ -72,7 +72,7 @@
           "url": "https://ballotpedia.org/Jim_Risch"
         },
         "repro": {
-          "label": "Strongly opposes abortion access as a right (Ballotpedia)",
+          "label": "Strongly opposes abortion as a woman's unrestricted right (Ballotpedia)",
           "url": "https://ballotpedia.org/Jim_Risch"
         }
       },
@@ -128,7 +128,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Ban pharmaceutical kickbacks to doctors, require 'upfront, itemized prices for procedures and medications', and ban algorithm-driven price fixing (campaign policies)",
+          "label": "Ban pharmaceutical kickbacks to doctors, require transparent upfront pricing, ban algorithm-driven price fixing, and raise wages (campaign policies)",
           "url": "https://www.achillesforidaho.com/policies"
         },
         "health": {
@@ -140,7 +140,7 @@
           "url": "https://www.achillesforidaho.com/policies"
         },
         "immigration": {
-          "label": "Mixed: 'we can secure our border while improving our legal immigration system'; more border staffing plus modernized visas (campaign policies)",
+          "label": "Mixed: backs Customs and Border Protection staffing, technology, and resources 'to secure our border' AND a modernized visa system with revived bipartisan immigration reform (campaign policies)",
           "url": "https://www.achillesforidaho.com/policies"
         },
         "taxes": {
@@ -148,7 +148,7 @@
           "url": "https://www.achillesforidaho.com/policies"
         },
         "education": {
-          "label": "Protect federal education funding; invest in career and technical education, universities, and research (campaign policies)",
+          "label": "Calls strong public schools essential to Idaho's future; supports federal education funding and investment in career and technical education and apprenticeships (campaign policies)",
           "url": "https://www.achillesforidaho.com/policies"
         },
         "repro": {
@@ -156,7 +156,7 @@
           "url": "https://www.achillesforidaho.com/policies"
         },
         "democracy": {
-          "label": "Term limits (two Senate terms, three House terms, 18 years for the Supreme Court), ban gerrymandering, end congressional stock trading (campaign policies)",
+          "label": "Term limits (two Senate terms, three House terms), mandatory retirement at 72 for members of Congress, ban gerrymandering, end congressional stock trading (campaign policies)",
           "url": "https://www.achillesforidaho.com/policies"
         }
       },
@@ -181,7 +181,7 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "climate": "checked campaign policies page and Wikipedia, no clean-energy versus fossil position documented",
-        "safety": "checked campaign policies page; only firearm suicide prevention appears, which is a gun item and excluded from this axis by rule"
+        "safety": "campaign policies page documents only gun items (Second Amendment protections, opposition to federal firearm bans and registries, firearm suicide prevention), which are excluded from this axis by rule"
       }
     },
     {
@@ -228,7 +228,7 @@
           "url": "https://boisedev.com/news/2022/01/12/idaho-legislature-housing-funds/"
         },
         "immigration": {
-          "label": "Signed HB 83 creating state crimes of illegal entry, illegal reentry, and 'trafficking a dangerous illegal alien'; the ACLU sued within hours (Idaho Capital Sun)",
+          "label": "Signed HB 83 creating state crimes of illegal entry and illegal reentry plus penalties for transporting unauthorized immigrants with prior convictions; a federal court blocked it the same day after the ACLU sued (Idaho Capital Sun)",
           "url": "https://idahocapitalsun.com/2025/03/29/legislative-notebook-governor-signs-major-bills-including-one-idaho-has-already-been-sued-over/"
         },
         "taxes": {
@@ -306,7 +306,7 @@
           "url": "https://www.terriforidaho.com/issues"
         },
         "immigration": {
-          "label": "'We are a country of immigrants'; wants 'simple and easy ways for them to work here' and opposes demonizing immigrants (campaign issues)",
+          "label": "'We are a country of immigrants'; says the US needs immigrant workers with 'simple and easy ways for them to work here' and humane treatment of people who entered illegally (campaign issues)",
           "url": "https://www.terriforidaho.com/issues"
         },
         "taxes": {

@@ -1,0 +1,183 @@
+{
+  "state": "HI",
+  "note": "Hand-curated, sourced entries. Governor only: Hawaii has no 2026 U.S. Senate race (Schatz is up in 2028, Hirono in 2030).",
+  "races": {
+    "HI-governor": {
+      "status": "general",
+      "statusNote": "Gov. Josh Green (D) won the Aug 8 Democratic primary with 81% and faces contractor and former pastor Gary Cordery (R), who won the Republican primary with 66%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "hi-gov-green",
+      "name": "Josh Green",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "HI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 56,
+      "home": "Kailua-Kona, HI",
+      "now": "Governor of Hawaii",
+      "background": "Governor since 2022 and an emergency room physician who kept working rural Big Island ERs while serving 14 years in the legislature. As lieutenant governor he was Hawaii's designated healthcare liaison leading the COVID-19 pandemic response, and he led homelessness policy statewide. Won the Aug 8, 2026 Democratic primary with 81% seeking a second term.",
+      "priorities": [
+        "Lower the cost of living and protect middle-class tax relief",
+        "Build housing and cut unsheltered homelessness (kauhale villages)",
+        "Healthcare access and rural health investment"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": 0,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Doubled the earned income and food tax credits and pledges to 'protect the middle-class tax relief and credits families are already counting on' (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        },
+        "health": {
+          "label": "ER physician; signed 22 healthcare bills in 2024 and exempted Medicare, Medicaid, and TRICARE medical services from the state excise tax (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Green_(politician)"
+        },
+        "housing": {
+          "label": "Mixed: housing emergency proclamation to 'remove unnecessary regulations' and fast-track construction AND heavy state investment in affordable homes and kauhale villages that cut unsheltered homelessness 13% statewide (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        },
+        "immigration": {
+          "label": "Local police 'should not be working on immigration work'; cooperate with DHS only over real criminal activity; 'we're a state that's built on immigration' (Hawaii Public Radio)",
+          "url": "https://www.hawaiipublicradio.org/the-conversation/2026-01-15/gov-green-on-immigration-health-care-and-priorities-ahead-of-legislative-session"
+        },
+        "taxes": {
+          "label": "Mixed: signed 'the biggest tax cut for the middle class in Hawaii's history' while adding a new visitor climate fee raising about $100 million a year (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        },
+        "climate": {
+          "label": "Enacted a first-of-its-kind climate impact fee on visitors, about $100 million a year 'walled off' for resilience projects (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        },
+        "education": {
+          "label": "Signed HB 1890 raising teacher pay with annual step increases, plus school worker protections, community college aid, and cheaper school meals: 'we have to support the people who make those schools work' (Governor's office, July 13, 2026)",
+          "url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-gov-green-enacts-laws-to-strengthen-hawai%CA%BBis-education-system/"
+        },
+        "safety": {
+          "label": "Signed SB 3139 expanding mental health crisis intervention and the behavioral health workforce; addresses homelessness through treatment-first kauhale (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Green_(politician)"
+        },
+        "repro": {
+          "label": "Signed the March 2023 law expanding abortion access and shielding Hawaii providers from out-of-state prosecution (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Green_(politician)"
+        },
+        "democracy": {
+          "label": "Signed laws 'strengthening lobbyist disclosure, banning prohibited gifts, tightening campaign-spending rules'; supports limiting money's influence in politics (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Civil Beat Candidate Q&A",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/"
+        },
+        {
+          "label": "Hawaii Public Radio: 2026 primary results",
+          "url": "https://www.hawaiipublicradio.org/local-news/2026-08-08/2026-hawaii-primary-results"
+        },
+        {
+          "label": "Wikipedia: Josh Green",
+          "url": "https://en.wikipedia.org/wiki/Josh_Green_(politician)"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "hi-gov-cordery",
+      "name": "Gary Cordery",
+      "party": "Republican",
+      "office": "governor",
+      "state": "HI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Owner, Kingdom Builders construction and real estate company",
+      "background": "Construction and real estate business owner (Kingdom Builders, since 1998) and former church pastor who moved to Hawaii in 1982; describes himself as 'a husband, father and grandfather, businessman and community servant.' Finished third in the 2022 Republican primary for governor with 10.9%, then won the Aug 8, 2026 Republican primary with 66%. Running mate is Daniel Anthony.",
+      "priorities": [
+        "Cut the cost of living: no excise tax on food and medicine",
+        "15,000 fee-simple homes on state lands",
+        "Protect and expand Hawaii's income tax cuts"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 0,
+        "immigration": null,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 0,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Answer to cost of living is 'reducing taxes and fees': freeze property taxes for retirees, eliminate the general excise tax on food and medicine (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        },
+        "housing": {
+          "label": "Mixed: 15,000 fee-simple homes at $400K-600K built on state lands AND 'amend the 5% of zoned land to 6%' so local families can buy in and build generational wealth (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        },
+        "taxes": {
+          "label": "Protect and expand the recent income tax cuts; argues a $20.5 billion state budget for 1.4 million residents shows Hawaii overtaxes (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        },
+        "climate": {
+          "label": "Questions whether the green fee is effective; wants hydrogen, fission, and small modular reactors explored alongside renewable goals (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        },
+        "education": {
+          "label": "'Offer a voucher program', get parents actively involved, and reduce union influence over school policy (Ballotpedia)",
+          "url": "https://ballotpedia.org/Gary_Cordery"
+        },
+        "safety": {
+          "label": "Mixed: 'fully fund police and investigative agencies' AND treat the meth epidemic and homelessness through individualized mental health and drug treatment (Ballotpedia)",
+          "url": "https://ballotpedia.org/Gary_Cordery"
+        },
+        "democracy": {
+          "label": "Ban political donations from unions and PACs; supports citizen initiative and referendum alongside a constitutional convention (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Civil Beat Candidate Q&A",
+          "url": "https://www.civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Gary_Cordery"
+        },
+        {
+          "label": "Hawaii Public Radio: 2026 primary results",
+          "url": "https://www.hawaiipublicradio.org/local-news/2026-08-08/2026-hawaii-primary-results"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.garycorderyforgovernor.com/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "health": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; homelessness treatment stance is not a healthcare-system position; nothing on public versus private coverage documented",
+        "immigration": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; no immigration position documented",
+        "repro": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; no abortion position documented"
+      }
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "state": "ID",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "ID-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S8ID00092",
+        "fec-S6ID00146"
+      ],
+      "statusNote": "Sen. Jim Risch (R) won the May 19 primary with 67.3% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger."
+    },
+    "ID-governor": {
+      "status": "general",
+      "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers (Attorney General Raul Labrador was not among them), and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S8ID00092",
+      "name": "Jim Risch",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "ID",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 83,
+      "home": "Boise, ID",
+      "now": "U.S. Senator for Idaho",
+      "background": "U.S. Senator since 2009 and chairman of the Senate Foreign Relations Committee; rancher and attorney who previously served as Idaho's governor and lieutenant governor. Won the May 19 Republican primary with 67.3% and is seeking a fourth term.",
+      "priorities": [
+        "Extend the 2017 tax cuts and cut federal spending",
+        "Border security and immigration enforcement",
+        "Roll back green-energy programs"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 1,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Voted against expanding the Affordable Care Act; opposes a larger federal role in health care (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jim_Risch"
+        },
+        "immigration": {
+          "label": "Says the reconciliation bill he backed 'secures the southern border and provides the money that's needed for immigration enforcement'; opposes a pathway to citizenship (Senate office)",
+          "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
+        },
+        "taxes": {
+          "label": "Celebrated his One Big Beautiful Bill vote preserving the 2017 tax cuts, 'the largest tax cuts for working Idahoans in history', while cutting $1.6 trillion in federal spending (Senate office)",
+          "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
+        },
+        "climate": {
+          "label": "Touts that the reconciliation bill 'ends the Green New Deal, also known as the Green New Scam' (Senate office)",
+          "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
+        },
+        "education": {
+          "label": "Strongly favors vouchers for school choice (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jim_Risch"
+        },
+        "safety": {
+          "label": "Favors stricter punishment as a crime deterrent (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jim_Risch"
+        },
+        "repro": {
+          "label": "Strongly opposes abortion access as a right (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jim_Risch"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jim_Risch"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8ID00092/"
+        },
+        {
+          "label": "Senate office: reconciliation bill statement",
+          "url": "https://www.risch.senate.gov/news/press-releases/icymi-risch-celebrates-historic-tax-cuts-for-working-idahoans-victories-in-reconciliation-bill/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Ballotpedia and his reconciliation-bill press release; tax and spending cuts are scored under taxes, no distinct cost-of-living mechanism documented",
+        "housing": "checked Ballotpedia and Senate office release, nothing documented",
+        "democracy": "checked Ballotpedia and Senate office release; he did not join 2020 certification objections but no scoreable voting-rules stance was documented in fetched sources"
+      }
+    },
+    {
+      "id": "fec-S6ID00146",
+      "name": "Todd Achilles",
+      "party": "Independent",
+      "office": "us-senate",
+      "state": "ID",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Boise, ID",
+      "now": "Independent U.S. Senate candidate; former Idaho state representative",
+      "background": "Army veteran who deployed to the Persian Gulf, later a technology executive; served in the Idaho House as a Democrat (2024-2025) before leaving the party to run for Senate as an independent. Became Risch's main challenger after Democratic nominee David Roth withdrew July 28; he had outraised Roth roughly $692,000 to $8,600.",
+      "priorities": [
+        "Lower costs through price transparency and anti-price-fixing rules",
+        "Term limits and ending congressional stock trading",
+        "Give working families a fighting chance"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Ban pharmaceutical kickbacks to doctors, require 'upfront, itemized prices for procedures and medications', and ban algorithm-driven price fixing (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "health": {
+          "label": "Protect health care tax credits and pursue cross-party insurance reforms plus price transparency (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "housing": {
+          "label": "Mixed: backs the bipartisan ROAD to Housing Act and supply expansion AND a 'national ban on algorithm-driven price fixing that artificially inflates housing costs' (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "immigration": {
+          "label": "Mixed: 'we can secure our border while improving our legal immigration system'; more border staffing plus modernized visas (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "taxes": {
+          "label": "'Lower taxes for working families, small businesses, and ag producers' while closing corporate tax loopholes (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "education": {
+          "label": "Protect federal education funding; invest in career and technical education, universities, and research (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "repro": {
+          "label": "Supports Idaho's Reproductive Freedom and Privacy Act ballot initiative and says voters should decide (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        "democracy": {
+          "label": "Term limits (two Senate terms, three House terms, 18 years for the Supreme Court), ban gerrymandering, end congressional stock trading (campaign policies)",
+          "url": "https://www.achillesforidaho.com/policies"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign policies page",
+          "url": "https://www.achillesforidaho.com/policies"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6ID00146/"
+        },
+        {
+          "label": "Idaho Capital Sun: Roth withdrawal",
+          "url": "https://idahocapitalsun.com/2026/07/28/idaho-democrat-david-roth-ends-campaign-for-us-senate-seat-held-by-risch/"
+        },
+        {
+          "label": "Wikipedia: Todd Achilles",
+          "url": "https://en.wikipedia.org/wiki/Todd_Achilles"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "climate": "checked campaign policies page and Wikipedia, no clean-energy versus fossil position documented",
+        "safety": "checked campaign policies page; only firearm suicide prevention appears, which is a gun item and excluded from this axis by rule"
+      }
+    },
+    {
+      "id": "id-gov-little",
+      "name": "Brad Little",
+      "party": "Republican",
+      "office": "governor",
+      "state": "ID",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 72,
+      "home": "Emmett, ID",
+      "now": "Governor of Idaho",
+      "background": "Governor since 2019 and lieutenant governor before that; ran his family's ranching operation for nearly 30 years. Won the May 19 Republican primary with about 59% over Mark Fitzpatrick (29%) and six others, and is seeking a third term on a record of 'lower taxes, reign in government, invest in what matters most.'",
+      "priorities": [
+        "Record tax relief",
+        "Managing growth: schools, roads, water and housing",
+        "Immigration enforcement"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": -1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 0,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames affordability through 'record tax relief': signed over $400M in 2025 cuts including a $155 per person grocery tax credit (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2025/04/04/dominated-by-a-series-of-tax-cuts-idaho-legislature-adjourns-2025-legislative-session/"
+        },
+        "health": {
+          "label": "Signed HB 345 seeking Medicaid work requirements: 'reasonably reeling in Medicaid spending so taxpayers are not overly burdened' (Idaho Capital Sun via Yahoo)",
+          "url": "https://www.yahoo.com/news/legislative-notebook-governor-signs-bill-102052107.html"
+        },
+        "housing": {
+          "label": "Proposed the $50 million Idaho Workforce Housing Fund, state gap financing projected to build about 1,000 units (BoiseDev)",
+          "url": "https://boisedev.com/news/2022/01/12/idaho-legislature-housing-funds/"
+        },
+        "immigration": {
+          "label": "Signed HB 83 creating state crimes of illegal entry and reentry and letting police record immigration status; ACLU sued within hours (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2025/03/29/legislative-notebook-governor-signs-major-bills-including-one-idaho-has-already-been-sued-over/"
+        },
+        "taxes": {
+          "label": "Signed HB 40, the largest income tax cut in state history, dropping individual and corporate rates to 5.3% as part of $400M in 2025 relief (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2025/04/04/dominated-by-a-series-of-tax-cuts-idaho-legislature-adjourns-2025-legislative-session/"
+        },
+        "education": {
+          "label": "Mixed: signed HB 93 directing $50M to private school tuition tax credits, saying Idaho can 'have it all, strong public schools and education freedom', while conceding 'there's not enough accountability in it' (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2025/02/27/idaho-gov-brad-little-signs-law-that-directs-state-funds-to-private-school-tuition/"
+        },
+        "safety": {
+          "label": "Signed HB 380 allowing the death penalty for child sexual abuse: 'the perpetrators deserve the ultimate punishment' (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2025/03/29/legislative-notebook-governor-signs-major-bills-including-one-idaho-has-already-been-sued-over/"
+        },
+        "repro": {
+          "label": "Signed the six-week abortion bans HB 366 (2021) and SB 1309 (2022) and the 2023 'abortion trafficking' law criminalizing helping minors travel for abortions (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Brad_Little"
+        },
+        "democracy": {
+          "label": "Signed HB 124 (2023) removing student IDs from acceptable voter identification (Democracy Docket)",
+          "url": "https://www.democracydocket.com/news-alerts/idaho-removes-student-ids-from-list-of-acceptable-voter-id/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Idaho Capital Sun: 2025 session recap",
+          "url": "https://idahocapitalsun.com/2025/04/04/dominated-by-a-series-of-tax-cuts-idaho-legislature-adjourns-2025-legislative-session/"
+        },
+        {
+          "label": "Idaho Capital Sun: GOP primary result",
+          "url": "https://idahocapitalsun.com/2026/05/19/idaho-gov-brad-little-leads-republican-gubernatorial-primary-election/"
+        },
+        {
+          "label": "Wikipedia: Brad Little",
+          "url": "https://en.wikipedia.org/wiki/Brad_Little"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "climate": "checked Wikipedia, the 2025 session recap, and signing coverage; no clean-energy versus fossil position documented in fetched sources"
+      }
+    },
+    {
+      "id": "id-gov-pickens",
+      "name": "Terri Pickens",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "ID",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Boise, ID",
+      "now": "Attorney, founding partner of Pickens Law",
+      "background": "Boise attorney and founding partner of Pickens Law, raised in Pocatello; the 2022 Democratic nominee for lieutenant governor. Won the May 19 Democratic gubernatorial primary with about 61% over Jill Kirkham (17%), campaigning on public schools and ending what she calls the Legislature's 'endless culture war.'",
+      "priorities": [
+        "Fund public schools: teacher pay, pre-K, full-day kindergarten",
+        "Restore reproductive freedom",
+        "An economy for everyday Idahoans, not billionaires"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Health care must be affordable and accessible to all Idahoans' (campaign issues)",
+          "url": "https://www.terriforidaho.com/issues"
+        },
+        "immigration": {
+          "label": "'We are a country of immigrants'; wants 'simple and easy ways for them to work here' and opposes demonizing immigrants (campaign issues)",
+          "url": "https://www.terriforidaho.com/issues"
+        },
+        "taxes": {
+          "label": "Wants 'a system that works for everyday Idahoans, not billionaires', with a stable tax structure for small business (campaign issues)",
+          "url": "https://www.terriforidaho.com/issues"
+        },
+        "education": {
+          "label": "Better school funding, higher teacher salaries, rural district support, pre-K and full-time kindergarten (campaign issues)",
+          "url": "https://www.terriforidaho.com/issues"
+        },
+        "repro": {
+          "label": "'Women have a fundamental right to bodily autonomy'; opposes Idaho's 'dangerous, coercive, and cruel' abortion laws (campaign issues)",
+          "url": "https://www.terriforidaho.com/issues"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.terriforidaho.com/issues"
+        },
+        {
+          "label": "Idaho Capital Sun: primary result",
+          "url": "https://idahocapitalsun.com/2026/05/19/terri-pickens-projected-to-win-idaho-democratic-partys-gubernatorial-primary-election/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Terri_Pickens"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked campaign issues page, Ballotpedia, and primary coverage; economic language is scored under taxes, no distinct price or cost-of-living mechanism documented",
+        "housing": "checked campaign issues page and Ballotpedia, nothing documented",
+        "climate": "campaign issues page covers public lands access and anti-privatization, which does not map to the clean-energy versus fossil axis",
+        "safety": "only a line about violent criminals entering the country illegally, which is scored nowhere; no policing or sentencing platform documented",
+        "democracy": "checked campaign issues page and Ballotpedia, nothing documented"
+      }
+    }
+  ]
+}

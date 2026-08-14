@@ -1,0 +1,193 @@
+{
+  "state": "DE",
+  "note": "Hand-curated, sourced entries. Senate only: Delaware has no 2026 governor race (Gov. Matt Meyer was elected in 2024).",
+  "races": {
+    "DE-senate": {
+      "status": "primary-pending",
+      "statusNote": "Primaries are September 15, 2026, so nominees are not final. Sen. Chris Coons (D) is seeking re-election and is the clear Democratic frontrunner ($5.77M raised, token opposition). Army War College instructor John Shulli leads the Republican money race ($100K raised) in a field that also includes Michael Katz and Dexter Bland."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S0DE00092",
+      "name": "Chris Coons",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "DE",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": true,
+      "age": 62,
+      "home": "Wilmington, DE",
+      "now": "U.S. Senator from Delaware (since 2010)",
+      "background": "U.S. Senator since winning a 2010 special election; previously New Castle County Executive and County Council president. Holds Yale law and divinity degrees and worked as a nonprofit executive and attorney. Senior member of the Judiciary, Appropriations, and Foreign Relations committees, running for re-election in 2026.",
+      "priorities": [
+        "Protect the Affordable Care Act and Medicaid",
+        "Lower everyday costs, including ending cost-spiking tariffs",
+        "Clean energy and climate solutions for the lowest-lying state"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Voted for the Inflation Reduction Act, which capped insulin at $35 and let Medicare negotiate drug prices, passed 51-50 (Senate roll call 325, Aug 7, 2022)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.htm"
+        },
+        "health": {
+          "label": "'Fought against Trump's threats to the Affordable Care Act and Medicaid'; supports universal access to quality healthcare (campaign priorities)",
+          "url": "https://chriscoons.com/priorities/"
+        },
+        "housing": {
+          "label": "'Secured over $100 million in federal funds to invest in affordable housing initiatives across Delaware' (campaign priorities)",
+          "url": "https://chriscoons.com/priorities/"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act's mandatory-detention expansion, S. 5 passed 64-35 (Senate roll call 7, Jan 20, 2025); backs ICE oversight plus enforcement of existing law",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
+        },
+        "taxes": {
+          "label": "Voted against final passage of the Tax Cuts and Jobs Act, agreed to 51-48 (Senate roll call 323, Dec 20, 2017)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00323.htm"
+        },
+        "climate": {
+          "label": "Backs 'new clean energy technologies to reduce and eventually replace our reliance on fossil fuels'; 'a tireless advocate for climate solutions' (campaign priorities)",
+          "url": "https://chriscoons.com/priorities/"
+        },
+        "education": {
+          "label": "Led the Strong Start for America's Children Act funding preschool for lower-income 4-year-olds: every child deserves 'the opportunity for a strong start' (Senate office)",
+          "url": "https://www.coons.senate.gov/news/press-releases/senator-coons-colleagues-introduce-bill-to-expand-access-to-high-quality-early-education"
+        },
+        "safety": {
+          "label": "Co-led the bipartisan Begin Again Act expanding federal expungement: 'No one should be defined by a single one of their mistakes' (Senate office)",
+          "url": "https://www.coons.senate.gov/news/press-releases/coons-cornyn-durbin-tillis-introduce-commonsense-bipartisan-bill-to-expand-federal-expungement"
+        },
+        "repro": {
+          "label": "Voted for the Women's Health Protection Act; 100% Planned Parenthood Action Fund rating, 0% National Right to Life (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Coons"
+        },
+        "democracy": {
+          "label": "Backed the Freedom to Vote Act and John Lewis Act and a filibuster carve-out to pass them: 'voting is a moral question' (Senate floor, Jan 19, 2022)",
+          "url": "https://www.coons.senate.gov/news/press-releases/video-on-senate-floor-senator-coons-comes-out-in-favor-of-adjusting-filibuster-to-pass-critical-voting-legislation/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://chriscoons.com/priorities/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chris_Coons"
+        },
+        {
+          "label": "Wikipedia: Chris Coons",
+          "url": "https://en.wikipedia.org/wiki/Chris_Coons"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0DE00092/"
+        }
+      ],
+      "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6DE00198",
+      "name": "John Shulli",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "DE",
+      "tier": "curated",
+      "ballotStatus": null,
+      "incumbent": false,
+      "now": "U.S. Army War College instructor; Army Reserve colonel",
+      "background": "Delaware native and U.S. Army Reserve colonel with more than 29 years of service, now an instructor at the U.S. Army War College; previously worked in the Pentagon's Chief Digital and AI Office. First-time candidate who leads the Republican primary field in fundraising ahead of the September 15 primary.",
+      "priorities": [
+        "Energy independence, including small modular nuclear reactors",
+        "Make Delaware 'the jobs factory of the 21st century'",
+        "Border security and election integrity"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Stabilize the dollar and slash energy regulations to naturally drive down borrowing costs and interest rates for working families' (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "health": {
+          "label": "'Allocate health care funding directly to Americans, not to insurance companies'; mandate price transparency for all medical services and drugs (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "housing": {
+          "label": "Cut 'federal HUD red tape and environmental regulations (NEPA) that drive up local construction costs for Delaware builders' (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "immigration": {
+          "label": "'Enforce aggressive deportation operations, secure the border' (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "taxes": {
+          "label": "'Eliminate the federal estate tax to preserve family wealth' plus new federal deductions for Delaware homeowners (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "climate": {
+          "label": "'Unleash American oil, natural gas, and coal (Drill, Baby, Drill)' alongside a Manhattan-style energy program and small modular reactors (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "education": {
+          "label": "'Close the Federal Department of Education and return control and tax dollars to the States'; bar federal interference in local curricula (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "safety": {
+          "label": "'Deploy federal RICO charges to shatter gang violence' and invoke the Alien Enemies Act of 1798 against transnational gangs (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        },
+        "democracy": {
+          "label": "'All voters must show photo ID, proof of citizenship'; no mail-in ballots except for illness, disability, military, or travel (campaign platform)",
+          "url": "https://shulli.org/platform/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://shulli.org/platform/"
+        },
+        {
+          "label": "Campaign press releases",
+          "url": "https://shulli.org/press-releases/"
+        },
+        {
+          "label": "Wikipedia: 2026 U.S. Senate election in Delaware",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6DE00198/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "repro": "checked campaign platform, press releases page, and WDEL ElectionWatch interview; no abortion position documented anywhere"
+      }
+    }
+  ]
+}

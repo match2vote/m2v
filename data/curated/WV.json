@@ -1,0 +1,178 @@
+{
+  "state": "WV",
+  "note": "Hand-curated, sourced entries. Senate only; West Virginia has no 2026 governor race (Gov. Morrisey elected 2024).",
+  "races": {
+    "WV-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S4WV00159",
+        "fec-S6WV00188"
+      ],
+      "statusNote": "Sen. Shelley Moore Capito (R) seeks a third term against Morgantown attorney Rachel Fetty Anderson (D). Capito won the May 12 Republican primary with 66.5%; Fetty Anderson won the Democratic primary with 33.2% of a five-way field. Independent S. Marshall Wilson is also on the November ballot."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4WV00159",
+      "name": "Shelley Moore Capito",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "WV",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 72,
+      "home": "Charleston, WV",
+      "now": "U.S. Senator; chair, Senate Environment and Public Works Committee",
+      "background": "U.S. Senator since 2015 and previously a seven-term U.S. House member; before politics she was a career counselor at West Virginia State University and education official. Now chairs the Senate Environment and Public Works Committee. Won the May 12, 2026 Republican primary with 66.5% over Tom Willis and four others.",
+      "priorities": [
+        "All-of-the-above American energy",
+        "Fighting the opioid epidemic",
+        "Broadband and infrastructure for rural West Virginia"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 0,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames affordability through tax relief: families will 'see their take-home pay increase by thousands of dollars' and small businesses will 'grow and hire more people' (Senate office)",
+          "url": "https://www.capito.senate.gov/news/press-releases/capito-the-obbb-delivers-tax-relief-for-west-virginians"
+        },
+        "health": {
+          "label": "Mixed: opposes the ACA broadly, yet was one of three Republicans who blocked repeal without a replacement and voted to preserve Medicaid expansion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito"
+        },
+        "immigration": {
+          "label": "Voted Yea on S. 5, the Laken Riley Act requiring DHS detention of migrants charged with theft, passed 64-35 (Senate roll call vote 7, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
+        },
+        "taxes": {
+          "label": "Championed the One Big Beautiful Bill as 'the largest tax cut in history', 'permanently extending and expanding on the successful Tax Cuts and Jobs Act' (Senate office)",
+          "url": "https://www.capito.senate.gov/news/press-releases/capito-the-obbb-delivers-tax-relief-for-west-virginians"
+        },
+        "climate": {
+          "label": "Opposes greenhouse gas emission caps, voted to curtail federal fracking rules, 17% lifetime League of Conservation Voters score; backs coal, carbon capture and nuclear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito"
+        },
+        "repro": {
+          "label": "Once identified as pro-choice, reversed in 2022 saying states should decide; voted for the Partial-Birth Abortion Ban and supports 20-week restrictions but opposed six-week bans (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito"
+        },
+        "democracy": {
+          "label": "Voted against the Freedom to Vote Act, calling it 'a partisan power grab' that 'fundamentally federalizes our elections' (Senate office)",
+          "url": "https://www.capito.senate.gov/news/press-releases/capito-statement-on-vote-against-democrats-second-partisan-attempt-to-federalize-elections"
+        }
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Shelley Moore Capito",
+          "url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito"
+        },
+        {
+          "label": "Senate office issues page",
+          "url": "https://www.capito.senate.gov/about/issues"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4WV00159/"
+        }
+      ],
+      "curatedAt": "2026-08-14",
+      "nullNotes": {
+        "housing": "checked Wikipedia profile and Senate issues page, nothing documented beyond general infrastructure work",
+        "education": "Senate issues page pledges 'high-quality education from pre-school through college' with no mechanism; no public-funding versus school-choice stance documented",
+        "safety": "opioid-crisis emphasis on her Senate issues page does not map to the prevention-versus-enforcement axis; nothing else documented"
+      }
+    },
+    {
+      "id": "fec-S6WV00188",
+      "name": "Rachel Fetty Anderson",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "WV",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Morgantown, WV",
+      "now": "Public interest attorney",
+      "background": "Public interest attorney and former Morgantown city council member who has represented children and families in West Virginia since 2007; mother of four. Homeschooled, she earned her law degree from the University of Iowa. Won the May 12, 2026 Democratic primary with 33.2% of a five-way field.",
+      "priorities": [
+        "Healthcare as a benefit taxpayers have already earned",
+        "Fair taxes on the wealthiest",
+        "Protecting constitutional freedoms"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'American taxpayers pay enough taxes to receive the best healthcare in the world': invest in Medicare, Medicaid and Tricare for all Americans, medical necessity over profit (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        "taxes": {
+          "label": "Eliminate the 'Buy, Borrow, Die' loophole and increase 'the marginal tax rate of earners of over $500,000.00 per year' (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        "climate": {
+          "label": "Government should 'encourage investment in sustainable energy sources that minimally affect the environment', manage coal plants cleanly, restore environmental protections (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        "education": {
+          "label": "Prioritizes 'developmentally appropriate' public education 'consistent with current research', including age-appropriate reproductive health education (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        "repro": {
+          "label": "Supports 'autonomous decision making over their bodies' and the right 'to choose or refuse medical care, including birth control' (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        "democracy": {
+          "label": "Opposes Citizens United; candidates 'should not be allowed to take money from foreign governments or corporations' (campaign issues)",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.fettyandersonforsenate.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Rachel_Fetty_Anderson"
+        },
+        {
+          "label": "Wikipedia: 2026 WV Senate race (primary results)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6WV00188/"
+        }
+      ],
+      "curatedAt": "2026-08-14",
+      "nullNotes": {
+        "cost": "campaign issues page speaks generally about labor being 'fairly rewarded' and protecting industries providing basic needs; no price, wage or deregulation mechanism documented",
+        "housing": "checked campaign issues page and Ballotpedia profile, nothing documented",
+        "immigration": "checked campaign issues page and Ballotpedia profile, nothing documented",
+        "safety": "checked campaign issues page and Ballotpedia profile, nothing documented"
+      }
+    }
+  ]
+}

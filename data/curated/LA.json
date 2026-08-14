@@ -1,0 +1,186 @@
+{
+  "state": "LA",
+  "note": "Hand-curated, sourced entries. Louisiana switched from the November jungle primary to closed party primaries for Congress starting 2026: party primaries May 16, runoffs June 27, party nominees meet in the November general.",
+  "races": {
+    "LA-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S6LA00664",
+        "fec-S6LA00615"
+      ],
+      "statusNote": "Under Louisiana's new closed-primary system, Rep. Julia Letlow (R) faces farmer Jamie Davis (D) in November. Letlow beat Rep. John Fleming 57-43 and Davis beat Gary Crockett 80-20 in June 27 runoffs. Sen. Bill Cassidy, who voted to convict Trump in 2021, finished third in the May 16 GOP primary and is out."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S6LA00664",
+      "name": "Julia Letlow",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "LA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 45,
+      "home": "Start, LA (born in Monroe)",
+      "now": "U.S. Representative (LA-05)",
+      "background": "U.S. Representative for Louisiana's 5th District since 2021 and the first Republican woman elected to Congress from Louisiana; a former university administrator with a Ph.D. in communications. She won the seat after her husband Luke died of COVID-19 before taking office. With President Trump's endorsement she defeated Sen. Bill Cassidy in the May 16 closed primary, then Rep. John Fleming 57-43 in the June 27 runoff.",
+      "priorities": [
+        "Rural development and supporting farmers",
+        "Parental rights in education",
+        "Border security"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Voted Aye on H.R. 1 (One Big Beautiful Bill Act) with its Medicaid work requirements and spending reductions, passed 218-214 (House roll call 190, 2025)",
+          "url": "https://clerk.house.gov/Votes/2025190"
+        },
+        "immigration": {
+          "label": "Voted for H.R. 2 (Secure the Border Act); demanded the Biden administration halt immigration detainee releases in Louisiana (Ballotpedia)",
+          "url": "https://ballotpedia.org/Julia_Letlow"
+        },
+        "taxes": {
+          "label": "Voted Aye on H.R. 1 (One Big Beautiful Bill Act) extending the 2017 tax cuts, passed 218-214 (House roll call 190, 2025)",
+          "url": "https://clerk.house.gov/Votes/2025190"
+        },
+        "climate": {
+          "label": "Voted for the Lower Energy Costs Act (H.R. 1, 2023) and against the Inflation Reduction Act (Ballotpedia)",
+          "url": "https://ballotpedia.org/Julia_Letlow"
+        },
+        "education": {
+          "label": "Authored the Parents Bill of Rights Act (H.R. 5, 2023) requiring public curricula, library lists, and parental consent, passed the House 213-208 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Julia_Letlow"
+        },
+        "repro": {
+          "label": "'I've experienced the miracle of life and will always support protecting the life of the unborn'; opposes taxpayer-funded abortion (House office)",
+          "url": "https://letlow.house.gov/issues"
+        },
+        "democracy": {
+          "label": "Said she would have objected to the 2020 election results had she been in Congress (Wikipedia); voted Nay on the For the People Act (Ballotpedia)",
+          "url": "https://en.wikipedia.org/wiki/Julia_Letlow"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Julia_Letlow"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6LA00664/"
+        },
+        {
+          "label": "WWNO: June 27 runoff results",
+          "url": "https://www.wwno.org/politics/2026-06-27/letlow-davis-advance-in-louisianas-u-s-senate-race"
+        },
+        {
+          "label": "Louisiana Illuminator: Cassidy eliminated in May 16 primary",
+          "url": "https://lailluminator.com/2026/05/16/cassidy-knocked-out-in-senate-primary/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Ballotpedia, Wikipedia, campaign site, and House issues page; 'economy' listed as an issue but no price/regulation mechanism documented",
+        "housing": "checked Ballotpedia, Wikipedia, campaign site, and House issues page, nothing documented",
+        "safety": "checked Ballotpedia, Wikipedia, campaign site, and House issues page, nothing documented beyond Second Amendment items, which are excluded from scoring"
+      }
+    },
+    {
+      "id": "fec-S6LA00615",
+      "name": "Jamie Davis",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "LA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 55,
+      "home": "Waterproof, LA (Tensas Parish)",
+      "now": "Row-crop farmer",
+      "background": "Third-generation row-crop farmer working more than 2,000 acres of cotton, corn, and soybeans in Tensas Parish; studied electrical engineering at LSU and served on the Tensas Parish Police Jury. A self-described 'country boy' and fiscal conservative running a grassroots, affordability-first campaign. Won the June 27 Democratic runoff over Gary Crockett with 80%, carrying every parish.",
+      "priorities": [
+        "Affordability: raise the minimum wage",
+        "Rural healthcare and hospitals",
+        "A farm economy that lets producers cover their bills"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform 'primarily focuses on an economic agenda of affordability', led by raising the federal minimum wage (Louisiana Illuminator)",
+          "url": "https://lailluminator.com/2026/04/30/davis-senate/"
+        },
+        "health": {
+          "label": "Supports universal health care and 'a Medicare for all option in the future'; would reinstate ACA subsidies and reverse cuts to rural healthcare (WAFB; Louisiana Illuminator)",
+          "url": "https://www.wafb.com/2026/06/24/farmers-longshot-jamie-daviss-bid-us-senate/"
+        },
+        "housing": {
+          "label": "Wants to 'streamline permitting for affordable housing' (Louisiana Illuminator)",
+          "url": "https://lailluminator.com/2026/04/30/davis-senate/"
+        },
+        "immigration": {
+          "label": "Mixed: supports 'securing the border' while opposing an overly burdensome pathway to citizenship (WAFB)",
+          "url": "https://www.wafb.com/2026/06/24/farmers-longshot-jamie-daviss-bid-us-senate/"
+        },
+        "taxes": {
+          "label": "Would reverse Trump tax policies 'benefitting large corporations and the wealthiest Americans'; calls himself a fiscal conservative citing $4T in added debt (Louisiana Illuminator)",
+          "url": "https://lailluminator.com/2026/04/30/davis-senate/"
+        },
+        "repro": {
+          "label": "'Men should not be making decisions about what women can do with their bodies' (WAFB)",
+          "url": "https://www.wafb.com/2026/06/24/farmers-longshot-jamie-daviss-bid-us-senate/"
+        },
+        "democracy": {
+          "label": "Mixed: opposes restricting voter access and wants 'expanded access', but believes voters should identify themselves; backs a federal gerrymandering ban (WAFB)",
+          "url": "https://www.wafb.com/2026/06/24/farmers-longshot-jamie-daviss-bid-us-senate/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Louisiana Illuminator profile",
+          "url": "https://lailluminator.com/2026/04/30/davis-senate/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6LA00615/"
+        },
+        {
+          "label": "WWNO: June 27 runoff results",
+          "url": "https://www.wwno.org/politics/2026-06-27/letlow-davis-advance-in-louisianas-u-s-senate-race"
+        },
+        {
+          "label": "WAFB profile",
+          "url": "https://www.wafb.com/2026/06/24/farmers-longshot-jamie-daviss-bid-us-senate/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "climate": "checked Illuminator and WAFB profiles and Ballotpedia; his data-center electricity oversight stance is a utility issue, no clean-energy versus fossil position documented",
+        "education": "checked Illuminator and WAFB profiles and Ballotpedia, nothing documented",
+        "safety": "checked Illuminator and WAFB profiles and Ballotpedia; gun-ownership support is excluded from scoring, nothing else documented"
+      }
+    }
+  ]
+}

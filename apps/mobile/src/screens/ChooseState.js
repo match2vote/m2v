@@ -1,10 +1,14 @@
 // "Where do you vote?", the ONLY place your ballot state gets set.
-// Lists every state; covered ones are marked. Browsing never changes this.
+// Lists every state. Coverage is the rule now, not the exception, so covered
+// states render in NORMAL styling and the few uncovered ones are visibly
+// de-emphasized with the reason ("no 2026 race"). Gold is the interaction
+// accent here (the row you're pressing), never a coverage highlight: when 47
+// of 51 tiles glow, nothing is highlighted.
 import React from 'react';
-import { ScrollView, View, Text, Pressable } from 'react-native';
+import { ScrollView, Text, Pressable } from 'react-native';
 import { Screen, Body, BackBar } from '../ui';
 import { theme, useTheme, typography } from '../theme';
-import { STATE_LIST, getCoverage } from '../ballot';
+import { STATE_LIST, getCoverage, getUncoveredStates } from '../ballot';
 import { kv } from '../api';
 import { useNav } from '../nav';
 
@@ -13,13 +17,14 @@ const { space } = theme;
 export function ChooseState({ onboarding, onDone }) {
   const { colors } = useTheme();
   const nav = useNav();
-  const [showAll, setShowAll] = React.useState(false);
   const cov = getCoverage();
   const covered = Object.fromEntries(cov.states.map((s) => [s.code, s]));
-  // Covered states first; everyone else behind an honest "not listed" reveal.
-  const coveredList = STATE_LIST.filter((s) => covered[s.code]);
-  const restList = STATE_LIST.filter((s) => !covered[s.code]);
-  const shown = showAll ? [...coveredList, ...restList] : coveredList;
+  const uncoveredCount = getUncoveredStates().length;
+  // Covered first for scanning; the few uncovered states sink to the bottom.
+  const shown = [
+    ...STATE_LIST.filter((s) => covered[s.code]),
+    ...STATE_LIST.filter((s) => !covered[s.code]),
+  ];
 
   const pick = (code) => {
     kv.set('m2v:ballotState', code);
@@ -35,7 +40,7 @@ export function ChooseState({ onboarding, onDone }) {
       </Text>
       <Body soft style={{ fontSize: 14, marginTop: 4, marginBottom: space(3) }}>
         This sets which ballot you see. You can change it anytime from Home.
-        These are the {coveredList.length} states we've researched so far.
+        {uncoveredCount > 0 ? ` The few states with no 2026 statewide race are at the bottom.` : ''}
       </Body>
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
         {shown.map((s) => {
@@ -47,38 +52,29 @@ export function ChooseState({ onboarding, onDone }) {
               style={({ pressed }) => [{
                 flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
                 paddingVertical: 13, paddingHorizontal: 16, borderWidth: 1, borderRadius: 14, marginBottom: 8,
-                borderColor: c ? colors.accent : colors.line,
-                backgroundColor: colors.surface,
-              }, pressed && { opacity: 0.7 }]}
+                borderColor: colors.line,
+                backgroundColor: c ? colors.surface : 'transparent',
+              },
+              !c && { opacity: 0.55 },
+              // Gold marks the row being pressed, the interaction, not coverage.
+              pressed && { borderColor: colors.accent, opacity: 0.85 }]}
             >
-              <Text style={{ fontSize: 16, fontWeight: '700', color: colors.ink }}>{s.name}</Text>
+              <Text style={{ fontSize: 16, fontWeight: c ? '700' : '500', color: c ? colors.ink : colors.inkSoft }}>
+                {s.name}
+              </Text>
               {c ? (
-                <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 12.5 }}>
-                  {c.races} race{c.races === 1 ? '' : 's'} covered
+                <Text style={{ color: colors.inkSoft, fontWeight: '600', fontSize: 12.5 }}>
+                  {c.races} race{c.races === 1 ? '' : 's'}
                 </Text>
               ) : (
-                <Text style={{ color: colors.inkSoft, fontSize: 12.5 }}>not covered yet</Text>
+                <Text style={{ color: colors.inkSoft, fontSize: 12.5, fontStyle: 'italic' }}>no 2026 race</Text>
               )}
             </Pressable>
           );
         })}
-        {!showAll && (
-          <Pressable
-            onPress={() => setShowAll(true)}
-            style={({ pressed }) => [{
-              paddingVertical: 13, paddingHorizontal: 16, borderWidth: 1, borderRadius: 14,
-              borderColor: colors.line, borderStyle: 'dashed', alignItems: 'center', marginBottom: 8,
-            }, pressed && { opacity: 0.7 }]}
-          >
-            <Text style={{ fontSize: 15, fontWeight: '700', color: colors.inkSoft }}>
-              My state isn't listed ▾
-            </Text>
-          </Pressable>
-        )}
         <Body soft style={{ fontSize: 12.5, marginVertical: space(3), textAlign: 'center' }}>
-          {showAll
-            ? "Not-covered states still get the how-to-vote guide, and we're adding races weekly through Election Day."
-            : "Don't see yours? Tap above, you can still use the how-to-vote guide while we add more states."}
+          Every state gets the how-to-vote guide, including the ones with no
+          statewide race this year.
         </Body>
       </ScrollView>
     </Screen>

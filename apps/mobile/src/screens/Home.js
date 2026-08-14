@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { ScrollView, View, Text, Pressable, Linking } from 'react-native';
 import { Screen, H2, Body, Card, DarkCard, InfoCallout, CategoryPill, Button } from '../ui';
 import { theme, useTheme, typography } from '../theme';
-import { getRaces, getCoverage, STATE_NAMES } from '../ballot';
+import { getRaces, getCoverage, coverageSentence, STATE_NAMES } from '../ballot';
 import { getStateData, getPicks, kv } from '../api';
 import { useNav } from '../nav';
 
@@ -150,10 +150,15 @@ export function Home() {
               M2V doesn't cover {STATE_NAMES[stateCode] || stateCode} yet.
             </Body>
             <Body soft style={{ fontSize: 13, marginBottom: space(2) }}>
-              We're adding races weekly. Here's what we cover now:{' '}
-              {cov.states.map((s) => s.code).join(' · ')}
+              {coverageSentence()}
             </Body>
-            <Button small kind="ghost" label="See covered states" onPress={() => nav.go({ name: 'races' })} />
+            <Button small kind="ghost" label="How to vote in your state" onPress={() => nav.go({ name: 'howto' })} />
+            <Button
+              small
+              kind="ghost"
+              label={`Tell us you're in ${STATE_NAMES[stateCode] || stateCode}`}
+              onPress={() => Linking.openURL(`mailto:match2vote@gmail.com?subject=Please%20cover%20${encodeURIComponent(STATE_NAMES[stateCode] || stateCode)}`)}
+            />
           </Card>
         )}
         {races.map((r) => (

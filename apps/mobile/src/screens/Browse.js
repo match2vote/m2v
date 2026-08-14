@@ -4,7 +4,7 @@ import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-na
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing, BackBar } from '../ui';
 import { theme, useTheme } from '../theme';
-import { STATE_NAMES, getRaces, getCoverage, findRaceById, findCandidateById, REDRAWN_2026 } from '../ballot';
+import { STATE_NAMES, getRaces, getCoverage, coverageSentence, findRaceById, findCandidateById, REDRAWN_2026 } from '../ballot';
 import { getStateData, savePick, kv } from '../api';
 import { useNav } from '../nav';
 import { QuizContext } from '../quizContext';
@@ -98,18 +98,16 @@ export function Races({ stateCode }) {
         {races.length === 0 && (
           <Card>
             <Body style={{ fontWeight: '700', marginBottom: 4 }}>
-              No researched races here yet.
+              M2V doesn't cover {STATE_NAMES[stateCode] || stateCode} yet.
             </Body>
             <Body soft style={{ fontSize: 13, marginBottom: space(2) }}>
-              We're adding races weekly. Meanwhile the how-to-vote guide works
-              for every state, and here's where we do have coverage:{' '}
-              {getCoverage().states.map((s) => s.code).join(' · ')}
+              {coverageSentence()}
             </Body>
             <Button small kind="ghost" label="How to vote in your state" onPress={() => nav.go({ name: 'howto' })} />
             <Button
               small
               kind="ghost"
-              label={`Ask us to cover ${STATE_NAMES[stateCode] || stateCode}`}
+              label={`Tell us you're in ${STATE_NAMES[stateCode] || stateCode}`}
               onPress={() => Linking.openURL(`mailto:match2vote@gmail.com?subject=Please%20cover%20${encodeURIComponent(STATE_NAMES[stateCode] || stateCode)}`)}
             />
           </Card>

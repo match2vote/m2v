@@ -109,6 +109,40 @@ export function getCoverage(dataByState) {
   return { states, totalRaces: fullRaces + namesRaces, fullRaces, namesRaces, totalCandidates };
 }
 
+// States (and DC) with no showable races. Coverage is feasibility-complete:
+// every state with a 2026 statewide race is covered, so an uncovered state is
+// a fact about the election calendar, not a gap in research. Callers use this
+// to phrase coverage as "everything except..." while the exceptions are few.
+export function getUncoveredStates(dataByState) {
+  const covered = new Set(getCoverage(dataByState).states.map((s) => s.code));
+  return STATE_LIST.filter((s) => !covered.has(s.code));
+}
+
+// One sentence describing coverage for uncovered-state screens, generated
+// from the data so it stays true as coverage changes. While the exceptions
+// are few (<=6) we name the exceptions; if the uncovered list ever grows past
+// that, naming what IS covered reads better than a long list of gaps.
+export function coverageSentence() {
+  const covered = getCoverage().states;
+  const uncovered = getUncoveredStates();
+  const hasDC = covered.some((s) => s.code === 'DC');
+  const stateCount = covered.length - (hasDC ? 1 : 0);
+  if (uncovered.length > 0 && uncovered.length <= 6) {
+    return (
+      `We cover ${stateCount} states${hasDC ? ' and Washington, D.C.' : ''} ` +
+      `The only ones missing are ${nameList(uncovered.map((s) => s.name))}, ` +
+      `none of which has a Senate or governor race in 2026.`
+    );
+  }
+  return `We're adding states weekly. So far we cover ${nameList(covered.map((s) => s.name))}.`;
+}
+
+function nameList(names) {
+  if (names.length <= 1) return names[0] || '';
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
+
 // Resolve a race by id like "NC-senate", "TX-governor", "CA-house-12"
 // (curated view). Returns null if unknown/uncovered.
 export function findRaceById(id, data) {

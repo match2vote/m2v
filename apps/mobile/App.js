@@ -1,7 +1,7 @@
 // M2V root v3, persistent tab bar, real routing, quiz that never loses
 // progress, ballot always one tap away.
 import React, { useEffect, useMemo, useState } from 'react';
-import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ISSUES, rankCandidates } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing, TabBar } from './src/ui';
@@ -148,12 +148,64 @@ function Welcome({ onStart }) {
 }
 
 const CHOICES = [
-  { value: -2, label: 'Strongly ①' },
-  { value: -1, label: 'Lean ①' },
-  { value: 0, label: 'In the middle' },
-  { value: 1, label: 'Lean ②' },
-  { value: 2, label: 'Strongly ②' },
+  { value: -2, label: 'Strongly', badge: 1 },
+  { value: -1, label: 'Lean', badge: 1 },
+  { value: 0, label: 'In the middle', badge: null },
+  { value: 1, label: 'Lean', badge: 2 },
+  { value: 2, label: 'Strongly', badge: 2 },
 ];
+
+// Rendered option badge, used identically in the legend card and the answer
+// buttons so the number-to-stance mapping is obvious. Option 1 is filled gold
+// with a cream numeral; option 2 is an espresso outline. Distinguishable
+// without reading the numeral, and nowhere near party red/blue.
+function OptionBadge({ n, size = 23 }) {
+  const { colors, scheme } = useTheme();
+  const filled = n === 1;
+  return (
+    <View
+      style={{
+        width: size, height: size, borderRadius: size / 2,
+        alignItems: 'center', justifyContent: 'center',
+        backgroundColor: filled ? colors.accent : 'transparent',
+        borderWidth: filled ? 0 : 2,
+        borderColor: colors.ink,
+      }}
+    >
+      <Text
+        style={{
+          fontSize: size * 0.58, fontWeight: '800', lineHeight: size * 0.8,
+          fontFamily: Platform.OS === 'web' ? 'system-ui, sans-serif' : undefined,
+          color: filled ? (scheme === 'dark' ? '#241E19' : '#FFF9EE') : colors.ink,
+        }}
+      >
+        {n}
+      </Text>
+    </View>
+  );
+}
+
+// Answer button: same pill as Button kind="ghost", but renders a real badge
+// element next to the label instead of a tiny unicode glyph.
+function AnswerButton({ choice, onPress }) {
+  const { colors } = useTheme();
+  return (
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => [
+        {
+          borderRadius: 14, borderWidth: 1.5, borderColor: colors.accent,
+          marginVertical: space(1), paddingVertical: space(3), paddingHorizontal: space(5),
+          flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 9,
+        },
+        pressed && { opacity: 0.8, transform: [{ scale: 0.99 }] },
+      ]}
+    >
+      {choice.badge != null && <OptionBadge n={choice.badge} />}
+      <Text style={{ fontSize: 16.5, fontWeight: '700', color: colors.accent }}>{choice.label}</Text>
+    </Pressable>
+  );
+}
 
 function Quiz({ quiz, setQuiz, onDone }) {
   const { colors } = useTheme();
@@ -182,27 +234,48 @@ function Quiz({ quiz, setQuiz, onDone }) {
         {qIndex + 1} of {ISSUES.length} · {issue.name} · progress saves automatically
       </Body>
       <H2 style={{ marginBottom: space(3), fontSize: 24, lineHeight: 30 }}>{issue.question}</H2>
+      {/* Legend + top-issue toggle live OUTSIDE the ScrollView so they stay
+          pinned while the answers scroll; the mapping never leaves the screen.
+          The toggle is a statement about the question, not an answer, so it
+          sits with the question, styled as a toggle rather than an answer pill. */}
       <Card>
-        <Body style={{ marginBottom: space(2) }}>① {issue.stanceA}</Body>
-        <Body>② {issue.stanceB}</Body>
+        <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 10, marginBottom: space(2) }}>
+          <OptionBadge n={1} />
+          <Body style={{ flex: 1 }}>{issue.stanceA}</Body>
+        </View>
+        <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 10 }}>
+          <OptionBadge n={2} />
+          <Body style={{ flex: 1 }}>{issue.stanceB}</Body>
+        </View>
       </Card>
+      <Pressable
+        onPress={() => setMattersFlag((f) => !f)}
+        style={({ pressed }) => [{
+          flexDirection: 'row', alignItems: 'center', gap: 9, alignSelf: 'flex-start',
+          paddingVertical: 7, paddingHorizontal: 12, borderRadius: 10, marginBottom: space(2),
+          backgroundColor: mattersFlag ? colors.goldSoft : 'transparent',
+        }, pressed && { opacity: 0.7 }]}
+      >
+        <View style={{
+          width: 20, height: 20, borderRadius: 6, alignItems: 'center', justifyContent: 'center',
+          borderWidth: 2, borderColor: mattersFlag ? colors.accent : colors.inkSoft,
+          backgroundColor: mattersFlag ? colors.accent : 'transparent',
+        }}>
+          {mattersFlag && <Text style={{ color: '#FFF9EE', fontSize: 13, fontWeight: '800', lineHeight: 16 }}>✓</Text>}
+        </View>
+        <Text style={{ color: mattersFlag ? colors.accent : colors.inkSoft, fontWeight: '700', fontSize: 14 }}>
+          {mattersFlag ? 'Top issue. Counts double in your match' : 'Make this a top issue'}
+        </Text>
+      </Pressable>
       <ScrollView style={{ flex: 1 }}>
         {CHOICES.map((c) => (
-          <Button key={c.value} kind="ghost" label={c.label} onPress={() => answer(c.value)} />
+          <AnswerButton key={c.value} choice={c} onPress={() => answer(c.value)} />
         ))}
-        <Pressable
-          onPress={() => setMattersFlag((f) => !f)}
-          style={{
-            borderRadius: 999, borderWidth: 1.5, paddingVertical: 10, alignItems: 'center', marginVertical: 6,
-            borderColor: mattersFlag ? colors.gold : colors.accent,
-            backgroundColor: mattersFlag ? colors.gold : 'transparent',
-          }}
-        >
-          <Text style={{ color: mattersFlag ? '#fff' : colors.accent, fontWeight: '700' }}>
-            {mattersFlag ? '★ Top issue, counts double' : '☆ Make this a top issue'}
+        <Pressable onPress={() => answer(null)} style={({ pressed }) => [{ alignSelf: 'center', paddingVertical: 12, paddingHorizontal: 16 }, pressed && { opacity: 0.6 }]}>
+          <Text style={{ color: colors.inkSoft, fontSize: 13.5, textDecorationLine: 'underline' }}>
+            Skip this one
           </Text>
         </Pressable>
-        <Button kind="ghost" label="Skip this one" onPress={() => answer(null)} />
         {qIndex > 0 && (
           <Button kind="ghost" small label="‹ Previous question" onPress={() => setQuiz({ ...quiz, qIndex: qIndex - 1 })} />
         )}

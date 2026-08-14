@@ -4,11 +4,13 @@
   "races": {
     "WY-senate": {
       "status": "primary-pending",
+      "primaryDate": "AUG 18",
       "statusNote": "Open seat: Sen. Cynthia Lummis is retiring and endorsed Rep. Harriet Hageman (R). The primary is Aug 18, 2026, so nominees are not final. Hageman, with Trump, Barrasso and Lummis endorsements and a huge fundraising lead, is the clear Republican frontrunner; former state Rep. James Byrd leads the two-way Democratic field."
     },
     "WY-governor": {
       "status": "primary-pending",
-      "statusNote": "Open seat: Gov. Mark Gordon is not seeking a third term. The primary is Aug 18, 2026, so nominees are not final. Superintendent Megan Degenfelder (Trump-endorsed) and state Sen. Eric Barlow, who released an internal poll showing him ahead, lead a contested Republican primary that also includes Brent Bien; Kenneth Casner is the lone Democrat."
+      "primaryDate": "AUG 18",
+      "statusNote": "Open seat: Gov. Mark Gordon is not seeking a third term. The primary is Aug 18, 2026, so nominees are not final. Superintendent Megan Degenfelder (Trump-endorsed) and state Sen. Eric Barlow, who released an internal poll showing him ahead, lead a contested Republican primary that also includes Brent Bien and Curt Blake; Kenneth Casner is the lone Democrat."
     }
   },
   "candidates": [
@@ -55,11 +57,11 @@
           "url": "https://clerk.house.gov/Votes/2025190"
         },
         "climate": {
-          "label": "'America is blessed with abundant natural resources which can ensure accessible and affordable energy'; champions coal, oil, gas and uranium as legacy sources (House issues page)",
+          "label": "'America is blessed with abundant natural resources which can ensure that we have accessible and affordable energy'; names coal, oil, gas and uranium as legacy sources that can meet demand (House issues page)",
           "url": "https://hageman.house.gov/issues"
         },
         "education": {
-          "label": "'Education should be laser-focused on the priorities of reading, writing and arithmetic, leaving other social issues to parents' (House issues page)",
+          "label": "'Education should be laser-focused on the priorities of reading, writing and arithmetic', leaving other social issues 'to be discussed by parents at the time they determine is appropriate' (House issues page)",
           "url": "https://hageman.house.gov/issues"
         },
         "repro": {
@@ -114,7 +116,7 @@
         "cost": null,
         "health": -1,
         "housing": null,
-        "immigration": -1,
+        "immigration": 0,
         "taxes": null,
         "climate": 0,
         "education": null,
@@ -128,7 +130,7 @@
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/byrd-james/"
         },
         "immigration": {
-          "label": "Comprehensive reform 'balancing border security with humanitarian values'; modernize legal visa systems for agriculture and hospitality workers (WyoFile election guide)",
+          "label": "Mixed: 'we must secure our borders and enforce the rule of law', while a framework must balance 'strict border security with humanitarian values'; modernize visas for agriculture, ranching and hospitality (WyoFile election guide)",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/byrd-james/"
         },
         "climate": {
@@ -248,7 +250,7 @@
       "age": 60,
       "home": "Gillette, WY",
       "now": "Wyoming State Senator; chair, Senate Labor, Health and Social Services Committee",
-      "background": "Wyoming state senator from Gillette and former Speaker of the House (2021-2022); Marine Corps veteran, large-animal veterinarian and Campbell County rancher. Freedom Caucus critics call him a moderate; supporters call him 'the adult in the room.' His campaign released a July 2026 internal poll showing him at 42% to Degenfelder's 19%, which her campaign disputes.",
+      "background": "Wyoming state senator from Gillette and former Speaker of the House (2021-2022); Marine Corps veteran, large-animal veterinarian and Campbell County rancher. The Wyoming Freedom Caucus chair attacks him as 'a liberal Republican who loves big government.' His campaign released a July 2026 internal poll showing him at 42% to Degenfelder's 19%, which her campaign disputes.",
       "priorities": [
         "Cash-based budgeting and right-sized government",
         "Rural healthcare access via a 'healthcare strike team'",
@@ -256,7 +258,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": -1,
+        "health": null,
         "housing": null,
         "immigration": null,
         "taxes": 1,
@@ -267,16 +269,12 @@
         "democracy": null
       },
       "positionSources": {
-        "health": {
-          "label": "Fought for Medicaid expansion and 'sustained serious political damage with the Freedom Caucus folks'; proposes a rural healthcare strike team to strengthen hospitals and behavioral health (WyoFile)",
-          "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
-        },
         "taxes": {
           "label": "Cash-based budgeting, 'right-sized government' and maintaining state savings to keep taxes lower (WyoFile election guide)",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/barlow-eric/"
         },
         "climate": {
-          "label": "Sponsored the 2025 cut in Wyoming's coal severance tax from 6.5% to 6%; ranches and works with oil and gas producers (WyoFile)",
+          "label": "Co-sponsored House Bill 75, the 2025 law cutting Wyoming's severance tax on surface-mined coal from 6.5% to 6% (WyoFile)",
           "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
         },
         "safety": {
@@ -284,7 +282,7 @@
           "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
         },
         "repro": {
-          "label": "Supported near-total and medication abortion bans in 2023, while saying he backs exceptions and legislative compromise (WyoFile)",
+          "label": "Supported a near-total abortion ban and a medication abortion ban in 2023 (WyoFile)",
           "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
         }
       },
@@ -305,6 +303,7 @@
       "curatedAt": "2026-08-14",
       "nullNotes": {
         "cost": "checked WyoFile election guide questionnaire and WyoFile record piece; budget stances scored under taxes, no consumer-price mechanism documented",
+        "health": "Medicaid expansion claim traced to a reader comment on the WyoFile announcement article, not the reporting; his WyoFile guide answers (healthcare strike team, rural hospitals, behavioral health, telehealth, price transparency) list delivery goals with no public-versus-private mechanism",
         "housing": "checked WyoFile election guide questionnaire and WyoFile record piece, nothing documented",
         "immigration": "checked WyoFile election guide questionnaire and WyoFile record piece, nothing documented",
         "education": "favored local control on library-book restrictions at the GOP debate, but no school funding versus choice position documented",
@@ -345,7 +344,7 @@
           "url": "https://www.wyomingpublicmedia.org/politics-government/2026-06-02/kenneth-casner-is-the-lone-democrat-running-for-governor"
         },
         "education": {
-          "label": "Advocates increased public school funding and stronger history education (Wyoming Public Media)",
+          "label": "Supports public school funding and focusing on history education in public schools (Wyoming Public Media)",
           "url": "https://www.wyomingpublicmedia.org/politics-government/2026-06-02/kenneth-casner-is-the-lone-democrat-running-for-governor"
         }
       },

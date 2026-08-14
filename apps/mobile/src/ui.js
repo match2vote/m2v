@@ -237,23 +237,12 @@ export function TabBar({ active, onChange, ballotCount }) {
     >
       {tabs.map((t) => {
         const isActive = active === t.key;
+        // No badge on the Ballot tab (kiki, Aug 14): no text, no count. The
+        // only marked/unmarked signal is the icon filling in.
+        const icon = t.key === 'ballot' && ballotCount > 0 ? '▣' : t.icon;
         return (
           <Pressable key={t.key} onPress={() => onChange(t.key)} style={{ flex: 1, alignItems: 'center', paddingVertical: 4 }}>
-            <View>
-              <Text style={{ fontSize: 20, color: isActive ? colors.accent : colors.inkSoft }}>{t.icon}</Text>
-              {/* Only when something is marked, and labeled so it never reads
-                  like a notification count. */}
-              {t.key === 'ballot' && ballotCount > 0 && (
-                <View
-                  style={{
-                    position: 'absolute', top: -7, right: -26, height: 15, borderRadius: 8,
-                    backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 5,
-                  }}
-                >
-                  <Text style={{ color: '#fff', fontSize: 9, fontWeight: '800' }}>{ballotCount} marked</Text>
-                </View>
-              )}
-            </View>
+            <Text style={{ fontSize: 20, color: isActive ? colors.accent : colors.inkSoft }}>{icon}</Text>
             <Text style={{ fontSize: 10, fontWeight: isActive ? '800' : '600', color: isActive ? colors.accent : colors.inkSoft }}>
               {t.label}
             </Text>

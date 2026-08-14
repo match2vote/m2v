@@ -170,6 +170,13 @@ export function Home() {
                   {r.coverage === 'names' ? 'Names only, positions not researched yet' : r.candidates.map((c) => c.name).join(' vs ')}
                 </Body>
               </View>
+              {r.meta?.status === 'primary-pending' && (
+                <View style={{ borderWidth: 1.5, borderColor: colors.gold, borderRadius: 999, paddingHorizontal: 7, paddingVertical: 2, marginRight: 6 }}>
+                  <Text style={{ color: colors.gold, fontWeight: '800', fontSize: 9.5 }}>
+                    {r.meta?.primaryDate ? `PRIMARY ${r.meta.primaryDate}` : 'PRIMARY PENDING'}
+                  </Text>
+                </View>
+              )}
               <CategoryPill kind={r.id.includes('governor') ? 'state' : r.id.includes('mayor') ? 'local' : 'federal'} />
               <Text style={{ color: colors.inkSoft, marginLeft: 8 }}>›</Text>
             </Card>

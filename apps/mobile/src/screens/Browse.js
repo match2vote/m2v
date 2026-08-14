@@ -66,15 +66,26 @@ export function Races({ stateCode }) {
       <BackBar label="All states" onPress={() => nav.go({ name: 'races' }, { replace: true })} />
       <H1>{STATE_NAMES[stateCode] || stateCode}</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        Races we're covering here: {full} fully researched
+        Races we're covering here: {full} researched
         {races.length > full ? ` · ${races.length - full} names-only` : ''}
       </Body>
       <ScrollView style={{ flex: 1 }}>
-        {races.map((r) => (
+        {races.map((r) => {
+          const pending = r.meta?.status === 'primary-pending';
+          return (
           <Pressable key={r.id} onPress={() => nav.go({ name: 'race', id: r.id })}>
             <Card>
-              <H2>{r.title}</H2>
-              <Body soft>{r.candidates.map((c) => c.name).join(' vs ')}</Body>
+              <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                <H2>{r.title}</H2>
+                {pending && <PendingPill date={r.meta?.primaryDate} />}
+              </View>
+              <Body soft>{r.candidates.map((c) => c.name).join(pending ? ' · ' : ' vs ')}</Body>
+              {pending && (
+                <Body soft style={{ fontSize: 12, marginTop: 4, fontStyle: 'italic' }}>
+                  Primary hasn't happened yet. These candidates are competing to
+                  be on the November ballot.
+                </Body>
+              )}
               {r.coverage === 'names' && (
                 <Body soft style={{ fontSize: 12, marginTop: 4, fontStyle: 'italic' }}>
                   Names only, we haven't researched positions here yet.
@@ -82,12 +93,25 @@ export function Races({ stateCode }) {
               )}
             </Card>
           </Pressable>
-        ))}
+          );
+        })}
         {races.length === 0 && (
           <Card>
-            <Body soft>
-              No researched races here yet, we're adding races weekly.
+            <Body style={{ fontWeight: '700', marginBottom: 4 }}>
+              No researched races here yet.
             </Body>
+            <Body soft style={{ fontSize: 13, marginBottom: space(2) }}>
+              We're adding races weekly. Meanwhile the how-to-vote guide works
+              for every state, and here's where we do have coverage:{' '}
+              {getCoverage().states.map((s) => s.code).join(' · ')}
+            </Body>
+            <Button small kind="ghost" label="How to vote in your state" onPress={() => nav.go({ name: 'howto' })} />
+            <Button
+              small
+              kind="ghost"
+              label={`Ask us to cover ${STATE_NAMES[stateCode] || stateCode}`}
+              onPress={() => Linking.openURL(`mailto:match2vote@gmail.com?subject=Please%20cover%20${encodeURIComponent(STATE_NAMES[stateCode] || stateCode)}`)}
+            />
           </Card>
         )}
       </ScrollView>
@@ -95,8 +119,21 @@ export function Races({ stateCode }) {
   );
 }
 
+// Gold-outline pill for primary-pending races; shows the actual primary date.
+function PendingPill({ date }) {
+  const { colors } = useTheme();
+  return (
+    <View style={{ borderWidth: 1.5, borderColor: colors.gold, borderRadius: 999, paddingHorizontal: 8, paddingVertical: 2 }}>
+      <Text style={{ color: colors.gold, fontWeight: '800', fontSize: 10, letterSpacing: 0.5 }}>
+        {date ? `PRIMARY ${date}` : 'PRIMARY PENDING'}
+      </Text>
+    </View>
+  );
+}
+
 export function Race({ raceId }) {
   const nav = useNav();
+  const { colors } = useTheme();
   const { answers, matters } = useContext(QuizContext);
   const [data, setData] = useState(null);
   const stateCode = (raceId || '').split('-')[0];
@@ -127,6 +164,20 @@ export function Race({ raceId }) {
       <Body soft style={{ marginBottom: space(3) }}>
         {race.meta?.statusNote || 'Candidates with researched, sourced positions.'}
       </Body>
+      {race.meta?.status === 'primary-pending' && (
+        <Card style={{ borderColor: colors.gold, borderWidth: 1.5 }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+            <PendingPill date={race.meta?.primaryDate} />
+            <Body style={{ fontWeight: '700', fontSize: 13, flex: 1 }}>
+              Primary hasn't happened yet.
+            </Body>
+          </View>
+          <Body soft style={{ fontSize: 12.5, marginTop: 4 }}>
+            These candidates are competing to be on the November ballot; the
+            field will change once the primary is decided.
+          </Body>
+        </Card>
+      )}
       {race.id.includes('-house-') && REDRAWN_2026.has(stateCode) && (
         <Body soft style={{ fontSize: 12.5, fontStyle: 'italic', marginBottom: space(3) }}>
           District lines changed for 2026 in this state. If you knew your
@@ -173,7 +224,11 @@ export function Race({ raceId }) {
           </Body>
         )}
         {!hasQuiz && (
-          <Button kind="ghost" label="Take the quiz to see your match %" onPress={() => nav.go({ name: 'quiz' })} />
+          <Button
+            kind="ghost"
+            label={hasQuiz ? 'See your results ›' : 'Take the quiz to see your match %'}
+            onPress={() => nav.go({ name: hasQuiz ? 'matches' : 'quiz' })}
+          />
         )}
         <View style={{ height: space(6) }} />
       </ScrollView>
@@ -237,11 +292,34 @@ export function Profile({ candidateId }) {
             <Body style={{ color: colors.danger, fontWeight: '700', fontSize: 13, marginBottom: 4 }}>
               ✳ {candidate.controversies.length} reported controvers{candidate.controversies.length === 1 ? 'y' : 'ies'} on record
             </Body>
-            {candidate.controversies.map((s) => (
-              <Body key={s.title} style={{ fontSize: 12.5, marginBottom: 4 }}>
-                <Body style={{ fontWeight: '700', fontSize: 12.5 }}>{s.title}: </Body>{s.detail}
-              </Body>
-            ))}
+            {candidate.controversies.map((s, i) => {
+              // Canonical shape is {label, url}; tolerate legacy {title, detail}
+              // so schema drift can never render a blank allegation again.
+              const text = s.label || [s.title, s.detail].filter(Boolean).join(': ');
+              if (!text) return null;
+              return (
+                <View key={s.url || text || i} style={{ marginBottom: 6 }}>
+                  <Body style={{ fontSize: 12.5 }}>{text}</Body>
+                  {s.url ? (
+                    <Text
+                      style={{ fontSize: 12, color: colors.danger, textDecorationLine: 'underline', marginTop: 1 }}
+                      onPress={() => Linking.openURL(s.url)}
+                    >
+                      Source ›
+                    </Text>
+                  ) : null}
+                </View>
+              );
+            })}
+          </Card>
+        ) : null}
+        {!isNamesOnly && Object.values(positions).filter((v) => v !== null && v !== undefined).length <= 3 ? (
+          <Card>
+            <Body soft style={{ fontSize: 13 }}>
+              We searched this candidate's website, surveys, and public records.
+              They have published almost no positions, so most issues below show
+              "Not stated." That's about their record, not our effort.
+            </Body>
           </Card>
         ) : null}
         {(candidate.age || candidate.home) ? (

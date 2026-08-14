@@ -146,12 +146,29 @@ export function OfficialBallot() {
 
           {races.map((race) => {
             const qr = quizResults[race.id];
+            const pending = race.meta?.status === 'primary-pending';
             return (
               <View key={race.id} style={{ marginBottom: space(5) }}>
-                <Text style={{ fontWeight: '800', fontSize: 15, color: inkB, letterSpacing: 0.6 }}>
-                  {race.title.toUpperCase()}
-                </Text>
-                <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: space(3) }} />
+                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <Text style={{ fontWeight: '800', fontSize: 15, color: inkB, letterSpacing: 0.6 }}>
+                    {race.title.toUpperCase()}
+                  </Text>
+                  {pending && (
+                    <View style={{ borderWidth: 1.5, borderColor: '#8a6a14', borderRadius: 999, paddingHorizontal: 7, paddingVertical: 1 }}>
+                      <Text style={{ color: '#8a6a14', fontWeight: '800', fontSize: 9.5 }}>
+                        {race.meta?.primaryDate ? `PRIMARY ${race.meta.primaryDate}` : 'PRIMARY PENDING'}
+                      </Text>
+                    </View>
+                  )}
+                </View>
+                <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: pending ? 4 : space(3) }} />
+                {pending && (
+                  <Text style={{ fontSize: 11.5, color: '#8a6a14', fontStyle: 'italic', marginBottom: space(2) }}>
+                    Primary hasn't happened yet. These candidates are competing
+                    to be on the November ballot; this section will change.
+                    {pickByRace[race.id] ? ' Your mark is saved, but your pick may not reach November.' : ''}
+                  </Text>
+                )}
                 {race.candidates.map((cand) => {
                   const filled = pickByRace[race.id]?.candidateId === cand.id;
                   const row = cand.researched ? qr?.byId?.[cand.id] : undefined;

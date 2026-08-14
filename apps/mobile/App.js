@@ -365,6 +365,9 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
                     <View style={{ flex: 1, marginLeft: space(3) }}>
                       <Pressable onPress={() => nav.go({ name: 'candidate', id: candidate.id })}>
                         <Body style={{ fontWeight: '800', fontSize: 17 }}>{candidate.name}</Body>
+                        <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 12 }}>
+                          See {candidate.name.split(' ')[0]}'s positions ›
+                        </Text>
                       </Pressable>
                       <Body soft style={{ fontSize: 12 }}>
                         {candidate.party}{candidate.tier === 'curated' ? ' · sourced ✓' : ''}

@@ -53,7 +53,7 @@ export function getRaces(code, data, opts = {}) {
   return races
     .map((race) => {
       const curated = race.candidates.filter(
-        (c) => c.tier === 'curated' && c.ballotStatus !== 'not-advancing'
+        (c) => c.tier === 'curated' && !ELIMINATED.has(c.ballotStatus)
       );
       let shown = null;
       if (curated.length) {

@@ -1,0 +1,344 @@
+{
+  "state": "AR",
+  "note": "Hand-curated, sourced entries. Both statewide races: US Senate (Cotton) and Governor (Sanders).",
+  "races": {
+    "AR-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S4AR00103",
+        "fec-S6AR00199"
+      ],
+      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton 82.1%, Shoffner 81.2%), no runoffs."
+    },
+    "AR-governor": {
+      "status": "general",
+      "statusNote": "Gov. Sarah Huckabee Sanders (R), unopposed in her primary, faces state Sen. Fred Love (D), who won the March 3 Democratic primary. Libertarian Colt Shelby is also on the November ballot."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4AR00103",
+      "name": "Tom Cotton",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "AR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 49,
+      "home": "Little Rock, AR (raised in Dardanelle)",
+      "now": "U.S. Senator from Arkansas",
+      "background": "U.S. Senator since 2015, seeking a third term; chairs the Senate Intelligence Committee. Harvard Law graduate and U.S. Army veteran who deployed to Iraq and Afghanistan and earned a Bronze Star. Served one House term before the Senate. Won the March 3 Republican primary with 82.1%.",
+      "priorities": [
+        "Rebuild the military and confront China",
+        "Tough-on-crime enforcement",
+        "Immigration restriction and border security"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'I will fight to repeal and replace ObamaCare with free-market reforms that empower patients and doctors' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tom_Cotton"
+        },
+        "immigration": {
+          "label": "Co-authored the RAISE Act to cut family-based immigration and cap refugees at 50,000; 'I will oppose amnesty in all forms' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Cotton"
+        },
+        "taxes": {
+          "label": "Championed the 2017 tax-cut bill; his individual-mandate repeal 'will pay for a lot more tax cuts for working families' (Senate office)",
+          "url": "https://www.cotton.senate.gov/news/press-releases/cotton-statement-on-the-sfc-approval-of-tax-cut-bill"
+        },
+        "climate": {
+          "label": "'I view our fossil fuels as a valuable asset to be used, not an embarrassing liability'; backs policies that 'unleash our energy producers' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tom_Cotton"
+        },
+        "education": {
+          "label": "'Restore local control over our educational system' and empower parental choice (Ballotpedia)",
+          "url": "https://ballotpedia.org/Tom_Cotton"
+        },
+        "safety": {
+          "label": "Wrote the 'Send in the Troops' op-ed on 2020 protests; opposed the First Step Act, saying the U.S. has an 'under-incarceration problem' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Cotton"
+        },
+        "repro": {
+          "label": "Called Roe v. Wade a 'tragic mistake'; voted for the 20-week Pain-Capable Unborn Child Protection Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Cotton"
+        },
+        "democracy": {
+          "label": "With Sen. Boozman, blasted the For the People Act as 'legislation backed by Democrats to nationalize U.S. elections and enact radical changes to our voting system'; declined to object to 2020 certification (Boozman-Cotton release)",
+          "url": "https://www.boozman.senate.gov/public/index.cfm/2021/3/boozman-cotton-blast"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Tom_Cotton"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4AR00103/"
+        },
+        {
+          "label": "Arkansas Advocate: primary results",
+          "url": "https://arkansasadvocate.com/2026/03/03/shoffner-cotton-win-primaries-for-u-s-senate-seat-in-arkansas/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Ballotpedia, Wikipedia, and Senate press releases; primary-night pledge to 'lower costs for Arkansas families' has no documented mechanism, does not fit the axis",
+        "housing": "checked Ballotpedia, Wikipedia, and Senate press releases, nothing documented"
+      }
+    },
+    {
+      "id": "fec-S6AR00199",
+      "name": "Hallie Shoffner",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "AR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 38,
+      "home": "Newport, AR",
+      "now": "Founder of Delta Harvest; former farm operator",
+      "background": "Sixth-generation Arkansas farmer who ran her family's rice, soybean, and cotton farm near Newport for nine years before closing it after the 2024 season, a loss she blames on a rigged farm economy. Vanderbilt and Clinton School of Public Service graduate; founded Delta Harvest to connect small farmers with food buyers. Won the March 3 Democratic primary with 81.2%.",
+      "priorities": [
+        "Lower the cost of living for working families",
+        "Affordable, accessible healthcare",
+        "A modernized Farm Bill for family farmers"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": 0,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Raising the minimum wage', union support so 'wages rise, benefits improve', and 'lowering the cost of groceries, childcare, housing, and healthcare' (campaign platform)",
+          "url": "https://www.hallieshoffner.com/platform"
+        },
+        "health": {
+          "label": "'Make healthcare affordable and accessible': strengthen the ACA, lower prescription drug prices, protect rural hospitals, Medicare and Medicaid (campaign platform)",
+          "url": "https://www.hallieshoffner.com/platform"
+        },
+        "taxes": {
+          "label": "'Cutting taxes for working families' instead of billionaires; 'lift the contribution cap on the ultra wealthy' for Social Security (campaign platform)",
+          "url": "https://www.hallieshoffner.com/platform"
+        },
+        "education": {
+          "label": "'Paying teachers and school staff what they deserve' plus investment in workforce and technical education and apprenticeships (campaign platform)",
+          "url": "https://www.hallieshoffner.com/platform"
+        },
+        "safety": {
+          "label": "Mixed: 'keep Arkansas communities safe' by supporting law enforcement with training AND mental-health resources and 'community-based crime prevention' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Hallie_Shoffner"
+        },
+        "repro": {
+          "label": "Declines the pro-choice label but warns 'restrictive laws can keep women from having access to life-saving surgery' (Arkadelphian)",
+          "url": "https://arkadelphian.com/2025/07/15/loss-of-family-farm-leads-shoffner-to-challenge-sen-cotton/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://www.hallieshoffner.com/platform"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AR00199/"
+        },
+        {
+          "label": "Arkansas Advocate: primary results",
+          "url": "https://arkansasadvocate.com/2026/03/03/shoffner-cotton-win-primaries-for-u-s-senate-seat-in-arkansas/"
+        },
+        {
+          "label": "Arkadelphian profile",
+          "url": "https://arkadelphian.com/2025/07/15/loss-of-family-farm-leads-shoffner-to-challenge-sen-cotton/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "campaign platform lists housing only as a cost to lower, no build/zoning/renter mechanism documented",
+        "immigration": "checked campaign platform, Ballotpedia, and Arkadelphian profile, nothing documented; an Arkansas Times immigration spotlight exists but could not be fetched",
+        "climate": "platform mentions 'conservation, sustainable farming' only as agriculture practice, no energy or emissions position documented",
+        "democracy": "checked campaign platform, Ballotpedia, and Arkadelphian profile, nothing documented"
+      }
+    },
+    {
+      "id": "ar-gov-sanders",
+      "name": "Sarah Huckabee Sanders",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 44,
+      "home": "Little Rock, AR (born in Hope)",
+      "now": "Governor of Arkansas",
+      "background": "Governor since January 2023 and the first woman elected to the office; daughter of former Gov. Mike Huckabee and former White House press secretary under President Trump. Signature record includes the LEARNS Act education overhaul, four income tax cuts, and expanded prison capacity. Ran unopposed in the March 3 Republican primary.",
+      "priorities": [
+        "Phase down the state income tax",
+        "School choice via the LEARNS Act",
+        "Tougher sentencing and prison expansion"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Attacks costs by cutting taxes: Grocery Tax Relief Act 'ends our state's most regressive tax' so families 'pay less in income tax, property tax, and now less tax at the grocery store too' (Governor's office)",
+          "url": "https://governor.arkansas.gov/news_post/governor-sanders-announces-grocery-tax-relief-act-good-neighbor-act/"
+        },
+        "health": {
+          "label": "Sought a federal waiver adding Medicaid work requirements so it is 'a safety net rather than a poverty trap'; cites 220,000 able-bodied adults 'receiving free healthcare courtesy of the taxpayer' (Governor's office)",
+          "url": "https://governor.arkansas.gov/news_post/governor-sanders-announces-medicaid-work-requirement-plan/"
+        },
+        "immigration": {
+          "label": "Deployed the Arkansas National Guard to assist ICE; signed the Defense Against Criminal Illegals Act: 'violent, criminal illegal immigrants have no place in Arkansas' (Governor's office)",
+          "url": "https://governor.arkansas.gov/news_post/sanders-announces-arkansas-national-guard-to-assist-ice-with-immigration-enforcement-in-arkansas/"
+        },
+        "taxes": {
+          "label": "Signed her fourth income tax cut, a $192M package dropping the top individual rate to 3.7%: 'Arkansas continues to do really well while cutting taxes' (Arkansas Advocate)",
+          "url": "https://arkansasadvocate.com/2026/05/06/arkansas-lawmakers-approve-192m-tax-cut-legislation-end-session/"
+        },
+        "education": {
+          "label": "Signed the LEARNS Act creating universal Educational Freedom Account vouchers worth 90% of per-student funding, alongside a $50,000 starting teacher salary (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+        },
+        "safety": {
+          "label": "Expanded prisons and increased penalties for repeat offenders (Ballotpedia); signed the nitrogen hypoxia execution bill in 2025 (Wikipedia)",
+          "url": "https://ballotpedia.org/Sarah_Huckabee_Sanders"
+        },
+        "repro": {
+          "label": "Signed the 2023 law placing an anti-abortion 'monument to the unborn' on the Capitol grounds (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Sarah_Huckabee_Sanders"
+        },
+        {
+          "label": "Wikipedia: Sarah Huckabee Sanders",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+        },
+        {
+          "label": "Arkansas Advocate: Democratic primary result (Sanders unopposed)",
+          "url": "https://arkansasadvocate.com/2026/03/03/love-wins-democratic-nomination-for-arkansas-governor/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "controversies": [
+        {
+          "label": "Her office bought a $19,029 custom lectern in 2023; the state GOP reimbursed it after a FOIA request and a legislative audit questioned the purchase (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+        }
+      ],
+      "nullNotes": {
+        "housing": "checked Ballotpedia, Wikipedia, and governor's newsroom releases fetched for this entry, no housing policy documented",
+        "climate": "checked Ballotpedia and Wikipedia, no documented energy or climate position in fetched sources",
+        "democracy": "checked Ballotpedia and Wikipedia, no documented election-law action in fetched sources"
+      }
+    },
+    {
+      "id": "ar-gov-love",
+      "name": "Fred Love",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "AR",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Mabelvale, AR",
+      "now": "Arkansas State Senator (District 15)",
+      "background": "Term-limited state senator from the Little Rock area who has served in the legislature since 2011, including as House Minority Leader (2019-2021). Former Pulaski County community services director and Arkansas Foodbank staffer who overcame childhood poverty and homelessness. Won the March 3 Democratic primary over businesswoman Supha Xayprasith-Mays.",
+      "priorities": [
+        "Stop the school voucher program and reinvest in classrooms",
+        "Protect Arkansas's Medicaid expansion",
+        "Halt the 3,000-bed Franklin County prison"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": -2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Healthcare is a right, not a privilege': protect Medicaid and expand mental health and telehealth statewide (campaign values page)",
+          "url": "https://www.fredloveforarkansas.com/values-priorities"
+        },
+        "housing": {
+          "label": "Would establish an Affordable Housing Taskforce at the Arkansas Development Finance Authority (campaign values page)",
+          "url": "https://www.fredloveforarkansas.com/values-priorities"
+        },
+        "education": {
+          "label": "'Reject voucher schemes that siphon resources from classrooms'; invest in literacy specialists, mental health services, and fair teacher pay (campaign values page)",
+          "url": "https://www.fredloveforarkansas.com/values-priorities"
+        },
+        "safety": {
+          "label": "'Stop construction of a 3,000-bed prison in Franklin County'; reform prisons around rehabilitation and trade programs (campaign values page)",
+          "url": "https://www.fredloveforarkansas.com/values-priorities"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign values and priorities",
+          "url": "https://www.fredloveforarkansas.com/values-priorities"
+        },
+        {
+          "label": "Wikipedia: Fredrick Love",
+          "url": "https://en.wikipedia.org/wiki/Fredrick_Love"
+        },
+        {
+          "label": "Arkansas Advocate: primary result",
+          "url": "https://arkansasadvocate.com/2026/03/03/love-wins-democratic-nomination-for-arkansas-governor/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile; economic-hub development plans do not fit the axis",
+        "immigration": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
+        "taxes": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
+        "climate": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
+        "repro": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
+        "democracy": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile; his bill separating the MLK holiday from Robert E. Lee's name does not fit the axis"
+      }
+    }
+  ]
+}

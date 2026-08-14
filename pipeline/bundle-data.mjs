@@ -29,6 +29,18 @@ try {
   }
 } catch {}
 
+// Guard: a controversy about a named living person must have readable text
+// AND a source URL, same bar the DB enforces for scored positions. Build fails
+// otherwise so the schema can never silently drift again.
+for (const c of Object.values(curatedById)) {
+  for (const k of c.controversies || []) {
+    if (!k.label || !k.url || !/^https?:\/\//.test(k.url)) {
+      console.error(`FATAL: controversy without label+url on ${c.name} (${c.state}): ${JSON.stringify(k).slice(0, 120)}`);
+      process.exit(1);
+    }
+  }
+}
+
 const files = (await readdir(IN_DIR)).filter((f) => f.endsWith('.json'));
 const states = {};
 let total = 0;

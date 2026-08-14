@@ -1,0 +1,341 @@
+{
+  "state": "SD",
+  "note": "Hand-curated, sourced entries.",
+  "races": {
+    "SD-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S4SD00049",
+        "fec-S6SD01117"
+      ],
+      "statusNote": "Sen. Mike Rounds (R) won the June 2 primary with 75.8% and seeks a third term. Democratic nominee Julian Beaudion suspended his campaign Aug 4, leaving independent Brian Bengs, the 2022 Democratic Senate nominee, as Rounds's main challenger."
+    },
+    "SD-governor": {
+      "status": "general",
+      "statusNote": "Gov. Larry Rhoden (R), who succeeded Kristi Noem when she left to lead Homeland Security in January 2025, won the state's first-ever primary runoff July 28, 71% to 29% over Toby Doeden, after the June 2 field (Doeden 31%, Rhoden 25%, Rep. Dusty Johnson 23%, Speaker Jon Hansen 21%) missed the 35% threshold. He faces Democrat Dan Ahlers, and Dusty Johnson gave up his House seat to run."
+    }
+  },
+  "candidates": [
+    {
+      "id": "fec-S4SD00049",
+      "name": "Mike Rounds",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "SD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 71,
+      "home": "Fort Pierre, SD",
+      "now": "U.S. Senator for South Dakota",
+      "background": "U.S. Senator since 2015 and a former two-term governor of South Dakota (2003-2011); insurance and real estate businessman from Pierre. Won the June 2 Republican primary with 75.8% and is seeking a third term with President Trump's endorsement.",
+      "priorities": [
+        "Permanent extension of the 2017 tax cuts",
+        "Border security funding",
+        "Local control of education"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": null,
+        "repro": 1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Would 'repeal and replace' Obamacare 'with market-based, patient-centered solutions'; adamantly opposes single-payer (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        "immigration": {
+          "label": "Voted for the reconciliation bill touting '$3.3 billion for Border Security' for DHS enforcement operations; also backs the EB-5 investor visa program (Senate office)",
+          "url": "https://www.rounds.senate.gov/newsroom/weekly-rounds/weekly-rounds-up-june-23_-july-1-2025"
+        },
+        "taxes": {
+          "label": "Voted for the One Big Beautiful Bill's 'permanent extension of the 2017 Tax Cuts and Jobs Act', plus no tax on tips and overtime deductions (Senate office)",
+          "url": "https://www.rounds.senate.gov/newsroom/weekly-rounds/weekly-rounds-up-june-23_-july-1-2025"
+        },
+        "climate": {
+          "label": "Supports the Keystone Pipeline and 'all forms of domestic energy'; opposes higher taxes on energy producers (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        "education": {
+          "label": "Pledges to 'abolish the US Department of Education' in favor of local control (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        "repro": {
+          "label": "Holds a pro-life position (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        "democracy": {
+          "label": "Rejected Trump's stolen-election claims on ABC: 'The election was fair, as fair as we've seen', drawing Trump's 'I will never endorse this jerk again' (The Hill)",
+          "url": "https://thehill.com/homenews/campaign/588979-trump-rips-gop-senator-who-said-election-was-fair/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4SD00049/"
+        },
+        {
+          "label": "Senate office: reconciliation week recap",
+          "url": "https://www.rounds.senate.gov/newsroom/weekly-rounds/weekly-rounds-up-june-23_-july-1-2025"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked Ballotpedia and his Senate office recap; tax provisions are scored under taxes, no distinct cost-of-living mechanism documented",
+        "housing": "checked Ballotpedia and Senate office recap, nothing documented",
+        "safety": "checked Ballotpedia and Senate office recap, nothing documented beyond routine appropriations"
+      }
+    },
+    {
+      "id": "fec-S6SD01117",
+      "name": "Brian Bengs",
+      "party": "Independent",
+      "office": "us-senate",
+      "state": "SD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Aberdeen, SD",
+      "now": "Retired Air Force officer and former Northern State University professor",
+      "background": "Navy enlistee who became an Air Force JAG officer, retiring as a lieutenant colonel after 19 years, then taught criminal justice and government at Northern State University. The 2022 Democratic nominee against John Thune, he is running in 2026 as an independent, saying 'Big Money has so completely corrupted our political system.' Became Rounds's main challenger after Democrat Julian Beaudion suspended his campaign Aug 4.",
+      "priorities": [
+        "Get money out of politics",
+        "Unrig the tax code",
+        "Make daily life more affordable"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Fair wages, targeted subsidies, and tax credits so full-time workers can 'live with dignity'; 'affordable living is the foundation of a stable and productive society' (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "health": {
+          "label": "'The healthcare industry is effectively a monopoly... rigged for maximum profit'; proposes a staged overhaul for affordability and accessibility (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "immigration": {
+          "label": "Supports 'increased legal immigration' with strong border security: 'immigration is crucial to American economic growth' (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "taxes": {
+          "label": "'Unrig the tax code' so the ultra-rich 'pay their fair share once again, like they had to in the 1960s', lowering taxes for small businesses and workers (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "climate": {
+          "label": "Backs tax incentives for clean energy and renewable investments, citing South Dakota's wind potential (Ballotpedia)",
+          "url": "https://ballotpedia.org/Brian_Bengs"
+        },
+        "education": {
+          "label": "Supports 'responsible investments in public education and job training programs' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Brian_Bengs"
+        },
+        "repro": {
+          "label": "'I respect a woman's right to choose and support abortion restrictions after the point of viability with exceptions for the life or health of a mother' (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "democracy": {
+          "label": "Calls unlimited corporate PAC and mega-donor spending 'obscenely corrupt'; centerpiece is getting money out of politics and holding the Supreme Court accountable (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign policy positions",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Brian_Bengs"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6SD01117/"
+        },
+        {
+          "label": "SDPB: Beaudion exits, two-way race",
+          "url": "https://www.sdpb.org/elections/2026-08-05/beaudion-ends-bid-for-u-s-senate"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "campaign says homeownership is 'an unachievable dream' but documents no public-build or deregulation mechanism, so it does not map to the axis",
+        "safety": "checked campaign policy positions and Ballotpedia, nothing documented"
+      }
+    },
+    {
+      "id": "sd-gov-rhoden",
+      "name": "Larry Rhoden",
+      "party": "Republican",
+      "office": "governor",
+      "state": "SD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 67,
+      "home": "Union Center, SD",
+      "now": "Governor of South Dakota",
+      "background": "Rancher, custom welder, and longtime legislator who became governor in January 2025 when Kristi Noem resigned to lead Homeland Security; he had been her lieutenant governor. Seeking a full term, he finished second June 2 (25% to Doeden's 31%) then won the state's first-ever runoff July 28 with 71%, carrying 64 of 66 counties.",
+      "priorities": [
+        "Slow homeowner property tax increases",
+        "Build the new state prison",
+        "Protect landowners from pipeline eminent domain"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": 1,
+        "safety": 1,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Pledged to work with President Trump to enforce Medicaid work requirements for expansion recipients (South Dakota Searchlight via Yahoo)",
+          "url": "https://www.yahoo.com/news/rhoden-commits-prison-school-choice-222436951.html"
+        },
+        "taxes": {
+          "label": "Proposed and signed a law to slow homeowner property tax increases within two months of taking office, paired with a push for state-agency 'efficiencies' (South Dakota Searchlight)",
+          "url": "https://southdakotasearchlight.com/2025/09/22/a-pipeline-property-taxes-and-a-prison-rhodens-audition-continues-with-a-third-big-swing/"
+        },
+        "education": {
+          "label": "Backed the $4 million education savings account program giving up to $3,000 per student in public funds for private school or homeschool (South Dakota Searchlight via Yahoo)",
+          "url": "https://www.yahoo.com/news/rhoden-commits-prison-school-choice-222436951.html"
+        },
+        "safety": {
+          "label": "Championed the $650 million men's prison construction plan: 'This is the year to finish the job' (South Dakota Searchlight)",
+          "url": "https://southdakotasearchlight.com/2025/09/22/a-pipeline-property-taxes-and-a-prison-rhodens-audition-continues-with-a-third-big-swing/"
+        },
+        "repro": {
+          "label": "Signed HB 1274 letting the attorney general prosecute abortion pill trafficking, plus fetal development curriculum mandates: 'South Dakota is the most pro-life state in America' (Live Action)",
+          "url": "https://www.liveaction.org/news/south-dakota-governor-bills-protect-next-generation"
+        }
+      },
+      "sources": [
+        {
+          "label": "South Dakota Searchlight: runoff result",
+          "url": "https://southdakotasearchlight.com/2026/07/28/south-dakota-governor-wins-republican-nomination-to-seek-his-own-term-after-succeeding-noem/"
+        },
+        {
+          "label": "South Dakota Searchlight: record analysis",
+          "url": "https://southdakotasearchlight.com/2025/09/22/a-pipeline-property-taxes-and-a-prison-rhodens-audition-continues-with-a-third-big-swing/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Larry_Rhoden"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "cost": "checked first-address coverage, Searchlight analysis, and Ballotpedia; property tax relief is scored under taxes, no distinct price or cost-of-living mechanism documented",
+        "housing": "checked first-address coverage, Searchlight analysis, and Ballotpedia, nothing documented",
+        "immigration": "checked first-address coverage, Searchlight analysis, and Ballotpedia, nothing documented",
+        "climate": "his signature eminent domain ban on CO2 pipelines is framed as landowner rights, not an energy-transition stance, so it does not map to the axis",
+        "democracy": "Ballotpedia notes he signed 20 election-related bills on March 25, 2025, but their contents are not documented in fetched sources"
+      }
+    },
+    {
+      "id": "sd-gov-ahlers",
+      "name": "Dan Ahlers",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "SD",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "home": "Dell Rapids, SD",
+      "now": "Executive director of the South Dakota Democratic Party",
+      "background": "Executive director of the South Dakota Democratic Party, a Dell Rapids small business owner of more than 20 years, and a former member of both the state House and Senate from District 25. Unopposed for the Democratic nomination, he argues 50 years of Republican governors 'proves it's time' for a change.",
+      "priorities": [
+        "Wages that let South Dakotans get ahead",
+        "Keep rural hospitals and nursing homes open",
+        "Invest in teachers and school infrastructure"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Fight for wages that let hardworking South Dakotans get ahead, not just get by' (campaign issues)",
+          "url": "https://www.danahlers.com/about-3"
+        },
+        "health": {
+          "label": "'Fight to keep rural hospitals open' and 'expand access to mental health services across the state' (campaign issues)",
+          "url": "https://www.danahlers.com/about-3"
+        },
+        "housing": {
+          "label": "Leverage property tax relief and the governor's housing program and work with builders on affordable housing; cites builders unwilling to build under $600,000 (SDPB)",
+          "url": "https://www.sdpb.org/politics/2026-04-15/dan-ahlers-says-50-years-of-republican-leadership-proves-its-time-to-send-a-democrat-to-the-governors-mansion"
+        },
+        "taxes": {
+          "label": "'We have to find a better way to tax, a fair way to tax': wants tax equity across industries, noting banks pay franchise taxes while trusts go untaxed (SDPB)",
+          "url": "https://www.sdpb.org/politics/2026-04-15/dan-ahlers-says-50-years-of-republican-leadership-proves-its-time-to-send-a-democrat-to-the-governors-mansion"
+        },
+        "education": {
+          "label": "'Recruit and retain great teachers' and 'invest in school infrastructure'; points to Wyoming's investment-heavy education model (campaign issues)",
+          "url": "https://www.danahlers.com/about-3"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.danahlers.com/about-3"
+        },
+        {
+          "label": "SDPB interview",
+          "url": "https://www.sdpb.org/politics/2026-04-15/dan-ahlers-says-50-years-of-republican-leadership-proves-its-time-to-send-a-democrat-to-the-governors-mansion"
+        },
+        {
+          "label": "South Dakota Searchlight: general election matchup",
+          "url": "https://southdakotasearchlight.com/2026/07/28/south-dakota-governor-wins-republican-nomination-to-seek-his-own-term-after-succeeding-noem/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Dan_Ahlers"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "immigration": "checked campaign about and issues pages and SDPB interview, nothing documented",
+        "climate": "checked campaign pages and SDPB interview; hemp-processing economic pitch is not an energy-transition stance, nothing documented",
+        "safety": "checked campaign pages and SDPB interview, no position on the prison project or policing documented",
+        "repro": "checked campaign pages and SDPB interview, nothing documented",
+        "democracy": "checked campaign pages and SDPB interview, nothing documented"
+      }
+    }
+  ]
+}

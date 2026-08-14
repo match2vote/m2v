@@ -17,18 +17,21 @@
 <body>
 <main>
 <h1>M2V Privacy Policy</h1>
-<p class="date">Effective August 13, 2026 · M2V ("Match to Vote") · match2vote@gmail.com</p>
+<p class="date">Effective August 14, 2026 · M2V ("Match to Vote") · match2vote@gmail.com</p>
 
-<div class="card"><strong>The short version:</strong> M2V has no accounts, no ads, no analytics, and no trackers. Your quiz answers, your ballot choices, and your state selection never leave your device. The only network request the app makes is to download public candidate data.</div>
+<div class="card"><strong>The short version:</strong> M2V has no accounts, no ads, no analytics, and no trackers. Your quiz answers, your ballot choices, and your state selection never leave your device. The app makes two kinds of network request: it downloads public candidate data, and, only if you tap the "I want M2V to cover my state" button, it sends your two-letter state code and nothing else.</div>
 
 <h2>What the app collects</h2>
 <p>Nothing that identifies you. M2V does not ask for your name, email address, phone number, precise location, contacts, or any account sign-in. There is no advertising SDK, no analytics SDK, and no third-party tracking of any kind in the app.</p>
+
+<h2>The one thing the app can send: a state code</h2>
+<p>If your state has no researched races yet, the app shows a button like "I want M2V to cover Missouri." Tapping it sends exactly one thing to our database: the two-letter state code (for example, "MO"). The database records that code and the time it arrived. That is the entire record. No IP address is stored in it, no device identifier, no user identifier, no session identifier, and no user agent. The write-only key the app uses cannot read the table back. This happens only when you tap the button, never automatically, and the app remembers on your device that you tapped so it will not ask again. We use these counts for one purpose: deciding which states get expanded coverage first.</p>
 
 <h2>What stays on your device</h2>
 <p>Everything you do in the app is stored only in the app's local storage on your own device: the state you select as your ballot state, your quiz answers and which issues you mark as mattering most, the candidates you mark on your sample ballot, and your display preferences (like dark mode). We cannot see any of it. Deleting the app deletes all of it. If you use the share or export features, the image is generated on your device and goes only where you choose to send it.</p>
 
 <h2>What the app downloads</h2>
-<p>On launch, M2V downloads its public candidate database (names, races, sourced policy positions) from our server so the information can be updated between elections without an app update. This is a one-way download of public data. The request works like any web request: our hosting provider (Supabase) transiently processes your device's IP address to deliver the data, as every internet service must. We do not log, store, or analyze IP addresses, and no information about you, your answers, or your choices is uploaded. After the first load, the app works offline from its cached copy.</p>
+<p>On launch, M2V downloads its public candidate database (names, races, sourced policy positions) from our server so the information can be updated between elections without an app update. This is a one-way download of public data. The request works like any web request: our hosting provider (Supabase) transiently processes your device's IP address to deliver the data, as every internet service must, and keeps short-lived operational request logs like every hosting provider. We do not store IP addresses in our database, and we do not use logs to analyze or identify anyone. No information about you, your answers, or your choices is uploaded. After the first load, the app works offline from its cached copy.</p>
 
 <h2>What we never do</h2>
 <p>We never sell data. We never share data with third parties for marketing. We never build profiles of users. We cannot connect any quiz answer or ballot choice to any person, because that information never reaches us. Match results are computed entirely on your device.</p>

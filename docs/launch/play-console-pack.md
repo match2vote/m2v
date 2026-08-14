@@ -40,7 +40,7 @@ WHAT YOU CAN DO
 
 PRIVACY, FOR REAL
 
-No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app's only network request is downloading public candidate data. Full policy: https://match2vote.github.io/m2v/privacy/
+No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app downloads public candidate data, and if you tap the button asking us to cover your state, it sends your two-letter state code and nothing else. Full policy: https://match2vote.github.io/m2v/privacy/
 
 Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit organization based in Greenwich, Connecticut. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
 
@@ -53,18 +53,18 @@ Questions or corrections: match2vote@gmail.com
 **Website:** https://match2vote.org (marketing site) · app: https://match2vote.github.io/m2v/
 **Privacy policy URL (required):** https://match2vote.github.io/m2v/privacy/
 
-Graphics needed (I can generate these next session on request): 512×512 icon (exists in repo: `apps/mobile/assets/`), 1024×500 feature graphic, at least 2 phone screenshots (we have 375px screenshots; Play wants 16:9 or 9:16, min 320px — our ballot/quiz/profile screenshots work).
+Graphics: 512×512 icon (in repo: `apps/mobile/assets/icon.png`, the real M2V mark as of Aug 14), 1024×500 feature graphic (in repo: `docs/launch/feature-graphic.png`), at least 2 phone screenshots (we have 375px screenshots; Play wants 16:9 or 9:16, min 320px — our ballot/quiz/profile screenshots work).
 
 ---
 
-## 2. Data Safety form — answer key (verified against code Aug 13, 2026)
+## 2. Data Safety form — answer key (verified against code Aug 14, 2026)
 
-Audit basis: the app's ONLY network call is a read-only GET to Supabase REST (`api.js`) to download public candidate data. All user state (ballot state, quiz answers, picks, theme) is AsyncStorage/localStorage on device. No analytics SDK, no ads SDK, no crash reporting, no accounts, no permissions requested beyond INTERNET.
+Audit basis: the app makes two kinds of network call (`api.js`). (1) A read-only GET to Supabase REST to download public candidate data. (2) Only when the user taps "I want M2V to cover my state" on an uncovered-state screen: a single INSERT of the two-letter state code to an insert-only table; the row stores the code and a server timestamp and nothing else (no IP retained in the table, no device/user/session id, no user agent; the app's key cannot read the table). All other user state (ballot state, quiz answers, picks, theme) is AsyncStorage/localStorage on device. No analytics SDK, no ads SDK, no crash reporting, no accounts, no permissions beyond INTERNET.
 
 | Play question | Answer |
 |---|---|
-| Does your app collect or share any of the required user data types? | **No** |
-| Data collected: Location | No (state selection is a manual pick, stored on device, never transmitted) |
+| Does your app collect or share any of the required user data types? | **No** — see the state-code note below |
+| Data collected: Location | No (state selection is a manual pick, stored on device; the optional "cover my state" tap sends a bare two-letter state code with no identifier attached — see note) |
 | Data collected: Personal info (name, email, IDs) | No |
 | Data collected: Financial info | No |
 | Data collected: Health info | No |
@@ -77,6 +77,8 @@ Audit basis: the app's ONLY network call is a read-only GET to Supabase REST (`a
 | Can users request data deletion? | N/A — nothing is collected; deleting the app deletes all local data |
 
 **Note on IP addresses:** server logs at the hosting level (Supabase) transiently process IPs to serve requests, like any website. Google's form treats ephemeral processing for delivery as NOT "collection" (their definition: collected = transmitted off device AND used beyond serving the request). Answer "No collection" is accurate. The privacy policy discloses the transient IP processing anyway, which is the belt-and-suspenders position.
+
+**Note on the "cover my state" tap (added Aug 14):** the tap transmits a bare two-letter state code stored with a server timestamp and no identifier of any kind. Google's Data Safety guidance excludes data that is anonymized such that it can no longer be associated with an individual user; a state code shared by millions, with nothing to link it to a person or device, meets that bar, so the recommended answer above stays "No." If you want the zero-risk conservative posture instead, declare: Approximate location → collected (user-provided state), optional, NOT linked to identity, NOT shared, purpose "App functionality"; everything else unchanged. Either answer must match the shipped behavior, which it does; do not change the app without revisiting this table.
 
 ---
 

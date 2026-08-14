@@ -101,6 +101,31 @@ export const kv = {
   set: (k, v) => store.set(k, typeof v === 'string' ? v : JSON.stringify(v)),
 };
 
+// --- One-tap "cover my state" interest signal -------------------------------
+// Sends EXACTLY two things: a two-letter state code, and the tap itself (the
+// server stamps the time). No IP retained in the table, no device id, no user
+// id, nothing else. The privacy policy documents this sentence-for-sentence;
+// if this function ever sends more, update the policy in the same commit.
+// Fire-and-forget: the UI thanks the user optimistically and NEVER shows an
+// error for this. Insert-only RLS means this key cannot read the table back.
+const INTEREST_COOLDOWN_KEY = 'm2v:interest:lastAt';
+export async function recordStateInterest(state) {
+  try {
+    // Device-level cooldown: one send per 60s, so one person tapping through
+    // many states can't inflate counts. Per-state dedupe lives in the UI.
+    const last = Number((await store.get(INTEREST_COOLDOWN_KEY)) || 0);
+    if (Date.now() - last < 60_000) return;
+    await store.set(INTEREST_COOLDOWN_KEY, String(Date.now()));
+    await fetch(`${SUPABASE_URL}/rest/v1/state_interest`, {
+      method: 'POST',
+      headers: { ...HEADERS, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+      body: JSON.stringify({ state }),
+    });
+  } catch {
+    // Silent by design. The thank-you already showed; a lost signal is fine.
+  }
+}
+
 // --- Quiz progress: answers survive leaving mid-quiz; resume any time ---
 const QUIZ_KEY = 'm2v:quiz:v1';
 export async function getQuizState() {

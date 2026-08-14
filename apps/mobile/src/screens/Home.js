@@ -6,6 +6,7 @@ import { ScrollView, View, Text, Pressable, Linking } from 'react-native';
 import { Screen, H2, Body, Card, DarkCard, InfoCallout, CategoryPill, Button } from '../ui';
 import { theme, useTheme, typography } from '../theme';
 import { getRaces, getCoverage, coverageSentence, STATE_NAMES } from '../ballot';
+import { InterestButton } from '../InterestButton';
 import { getStateData, getPicks, kv } from '../api';
 import { useNav } from '../nav';
 
@@ -153,12 +154,7 @@ export function Home() {
               {coverageSentence()}
             </Body>
             <Button small kind="ghost" label="How to vote in your state" onPress={() => nav.go({ name: 'howto' })} />
-            <Button
-              small
-              kind="ghost"
-              label={`Tell us you're in ${STATE_NAMES[stateCode] || stateCode}`}
-              onPress={() => Linking.openURL(`mailto:match2vote@gmail.com?subject=Please%20cover%20${encodeURIComponent(STATE_NAMES[stateCode] || stateCode)}`)}
-            />
+            <InterestButton stateCode={stateCode} />
           </Card>
         )}
         {races.map((r) => (

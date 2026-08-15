@@ -9,6 +9,73 @@
         "fec-S4NE00207"
       ],
       "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition."
+    },
+    "NE-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6NE02208",
+        "fec-H6NE02174",
+        "ne-house-2-foreman"
+      ],
+      "statusNote": "Open seat with Rep. Don Bacon (R) not running: Brinker Harding (R) faces Denise Powell (D) and Libertarian Eric Foreman, nominees set in the May 12, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Nebraska 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/nebraska-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
+    },
+    "NE-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2NE01118",
+        "fec-H6NE01143",
+        "fec-H6NE01150"
+      ],
+      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and independent Austin Ahlman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
+          "url": "https://nebraskaexaminer.com/briefs/backemeyer-to-face-flood-in-ne-01-smith-advances-in-ne-03/"
+        },
+        {
+          "label": "Nebraska primary election results (1011 NOW)",
+          "url": "https://www.1011now.com/2026/05/12/nebraska-primary-election-results-live-coverage-1011/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
+    },
+    "NE-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6NE03115",
+        "fec-H6NE03180",
+        "fec-H6NE03198",
+        "ne-house-3-else",
+        "ne-house-3-budke"
+      ],
+      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independents Mark Cohen and Macey Budke. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
+          "url": "https://nebraskaexaminer.com/briefs/backemeyer-to-face-flood-in-ne-01-smith-advances-in-ne-03/"
+        },
+        {
+          "label": "Incumbent Smith fends off primary challenger in Nebraska's 3rd District (Nebraska Public Media)",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/2026-nebraska-3rd-district-results/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
     }
   },
   "candidates": [
@@ -155,6 +222,69 @@
         "education": "checked osbornforsenate.com and Ballotpedia, nothing documented; roll-call/record search also empty",
         "safety": "checked osbornforsenate.com and Ballotpedia, nothing documented; roll-call/record search also empty"
       }
+    },
+    {
+      "id": "ne-house-2-foreman",
+      "name": "Eric Foreman",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "2",
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Nebraska 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/nebraska-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
+    },
+    {
+      "id": "ne-house-3-else",
+      "name": "David Else",
+      "party": "Legal Marijuana NOW",
+      "office": "us-house",
+      "district": "3",
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Incumbent Smith fends off primary challenger in Nebraska's 3rd District (Nebraska Public Media)",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/2026-nebraska-3rd-district-results/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
+    },
+    {
+      "id": "ne-house-3-budke",
+      "name": "Macey Budke",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "3",
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Incumbent Smith fends off primary challenger in Nebraska's 3rd District (Nebraska Public Media)",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/2026-nebraska-3rd-district-results/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
     }
   ]
 }

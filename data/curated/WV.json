@@ -9,6 +9,52 @@
         "fec-S6WV00188"
       ],
       "statusNote": "Sen. Shelley Moore Capito (R) seeks a third term against Morgantown attorney Rachel Fetty Anderson (D). Capito won the May 12 Republican primary with 66.5%; Fetty Anderson won the Democratic primary with 33.2% of a five-way field. Constitution Party nominee S. Marshall Wilson is also on the November ballot."
+    },
+    "WV-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8WV03097",
+        "fec-H6WV01160",
+        "wv-house-1-rucker"
+      ],
+      "statusNote": "Rep. Carol Miller (R) seeks re-election against Vince George (D) and independent Isaiah Rucker. Miller won the May 12, 2026 Republican primary with 72.1% and George won the Democratic primary with 53.0%. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "West Virginia 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/west-virginia-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in West Virginia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_West_Virginia"
+        },
+        {
+          "label": "West Virginia's 1st Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_1st_Congressional_District_election,_2026"
+        }
+      ]
+    },
+    "WV-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4WV02205",
+        "fec-H6WV02150",
+        "wv-house-2-whitcomb"
+      ],
+      "statusNote": "Rep. Riley Moore (R) seeks re-election against Ace Parsi (D) and independent Christopher Whitcomb. Moore was unopposed in the May 12, 2026 Republican primary and Parsi won the Democratic primary with 39.8%. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "West Virginia 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/west-virginia-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in West Virginia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_West_Virginia"
+        },
+        {
+          "label": "West Virginia's 2nd Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_2nd_Congressional_District_election,_2026"
+        }
+      ]
     }
   },
   "candidates": [
@@ -173,6 +219,48 @@
         "immigration": "checked campaign issues page and Ballotpedia profile, nothing documented",
         "safety": "checked campaign issues page and Ballotpedia profile, nothing documented"
       }
+    },
+    {
+      "id": "wv-house-1-rucker",
+      "name": "Isaiah Rucker",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "1",
+      "state": "WV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "West Virginia's 1st Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_1st_Congressional_District_election,_2026"
+        },
+        {
+          "label": "West Virginia 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/west-virginia-2026/"
+        }
+      ]
+    },
+    {
+      "id": "wv-house-2-whitcomb",
+      "name": "Christopher Whitcomb",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "WV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "West Virginia's 2nd Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_2nd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "West Virginia 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/west-virginia-2026/"
+        }
+      ]
     }
   ]
 }

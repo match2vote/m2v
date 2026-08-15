@@ -1,0 +1,52 @@
+{
+  "state": "ND",
+  "note": "Hand-curated, sourced entries. Single at-large U.S. House seat.",
+  "races": {
+    "ND-house-at-large": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4ND00061",
+        "fec-H6ND01049",
+        "nd-house-at-large-neville"
+      ],
+      "statusNote": "Rep. Julie Fedorchak (R) was renominated in the June 9, 2026 primary over Alex Balazs and faces Trygve Hammer (Democratic-NPL) in a rematch of 2024, plus independent Helene Neville. We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers: North Dakota 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/ND"
+        },
+        {
+          "label": "Politics1 North Dakota 2026 candidate list",
+          "url": "https://www.politics1.com/nd.htm"
+        },
+        {
+          "label": "Wikipedia 2026 U.S. House election in North Dakota",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_North_Dakota"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "id": "nd-house-at-large-neville",
+      "name": "Helene Neville",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "ND",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Politics1 North Dakota 2026 candidate list",
+          "url": "https://www.politics1.com/nd.htm"
+        },
+        {
+          "label": "The Green Papers: North Dakota 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/ND"
+        }
+      ]
+    }
+  ]
+}

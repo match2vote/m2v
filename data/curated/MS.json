@@ -10,6 +10,85 @@
         "fec-S4MS00187"
       ],
       "statusNote": "Sen. Cindy Hyde-Smith (R) faces District Attorney Scott Colom (D); both won their March 10 primaries outright (Hyde-Smith 80.8%, Colom 73%), no runoffs needed. Attorney Ty Pinkins is also on the November ballot as an independent. Mississippi has not elected a Democrat to the U.S. Senate since 1982."
+    },
+    "MS-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8MS03125",
+        "fec-H6MS03228",
+        "ms-house-3-kiehle"
+      ],
+      "statusNote": "Rep. Michael Guest (R) seeks re-election against Michael Chiaradio (D) and Libertarian Erik Kiehle after the March 10, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-4": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2MS04258",
+        "fec-H6MS04242",
+        "fec-H6MS04259"
+      ],
+      "statusNote": "Rep. Mike Ezell (R) seeks re-election against Jeffrey Hulum III (D) and independent Carl Boyanton after the March 10, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6MS01131",
+        "fec-H6MS01313"
+      ],
+      "statusNote": "Rep. Trent Kelly (R) seeks re-election against Cliff Johnson (D). Kelly was unopposed for the Republican nomination in the March 10, 2026 primary and Johnson beat former state Rep. Kelvin Buck for the Democratic nomination, so no runoff was needed. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4MS02068",
+        "fec-H2MS02203",
+        "ms-house-2-foster"
+      ],
+      "statusNote": "Rep. Bennie Thompson (D) seeks re-election against Ron Eller (R) and independent Bennie Foster. Thompson won the March 10, 2026 Democratic primary, and Eller edged Kevin Wilson 51.1% to 49% for the Republican nomination in a race called after the count was completed, avoiding a runoff. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Ron Eller wins GOP nomination in Mississippi's 2nd Congressional District (WLBT)",
+          "url": "https://www.wlbt.com/2026/03/21/ron-eller-wins-gop-nomination-race-mississippis-2nd-congressional-district/"
+        },
+        {
+          "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "Mississippi's 2nd Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mississippi%27s_2nd_Congressional_District_election,_2026"
+        }
+      ]
     }
   },
   "candidates": [
@@ -195,6 +274,48 @@
         "climate": "checked campaign site, Magnolia Tribune interview, Wikipedia, and Ballotpedia; tariff and jobs comments do not state a clean-energy versus fossil position",
         "repro": "checked Ballotpedia (Candidate Connection survey not completed), Wikipedia, campaign site, and Magnolia Tribune interview; no abortion position documented"
       }
+    },
+    {
+      "id": "ms-house-3-kiehle",
+      "name": "Erik Kiehle",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "3",
+      "state": "MS",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    {
+      "id": "ms-house-2-foster",
+      "name": "Bennie Foster",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "MS",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Ron Eller wins GOP nomination in Mississippi's 2nd Congressional District (WLBT)",
+          "url": "https://www.wlbt.com/2026/03/21/ron-eller-wins-gop-nomination-race-mississippis-2nd-congressional-district/"
+        },
+        {
+          "label": "Mississippi's 2nd Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mississippi%27s_2nd_Congressional_District_election,_2026"
+        }
+      ]
     }
   ]
 }

@@ -13,6 +13,56 @@
     "ID-governor": {
       "status": "general",
       "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers (Attorney General Raul Labrador was not among them), and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%. Independent former Idaho Supreme Court Justice John Stegner is also running an active campaign."
+    },
+    "ID-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8ID01124",
+        "fec-H2ID01192",
+        "fec-H6ID01318",
+        "id-house-1-gomez"
+      ],
+      "statusNote": "Rep. Russ Fulcher (R) seeks re-election against Kaylee Peterson (D), Constitution Party candidate Brendan Gomez and independent Sarah Zabel. Fulcher won the May 19, 2026 Republican primary with about 78% and Peterson won the Democratic primary with about 87%. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "Democratic federal candidates Roth, Peterson and Gilbreath win their Idaho primaries (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/democratic-federal-candidate-roth-wins-primary-election-contest/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
+    },
+    "ID-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8ID02064",
+        "fec-H6ID02274",
+        "fec-H6ID02241",
+        "id-house-2-johanson",
+        "id-house-2-sierra",
+        "id-house-2-houser"
+      ],
+      "statusNote": "Rep. Mike Simpson (R) seeks re-election against Elinor Gilbreath (D), Libertarian Will Johanson, Constitution Party candidate C. Sierra and independents Emre Houser and Tripp Hutchinson. Simpson won the May 19, 2026 Republican primary with about 63% and Gilbreath was effectively unopposed for the Democratic nomination after Julie Wiley withdrew and endorsed her. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "Democratic federal candidates Roth, Peterson and Gilbreath win their Idaho primaries (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/democratic-federal-candidate-roth-wins-primary-election-contest/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
     }
   },
   "candidates": [
@@ -344,6 +394,90 @@
         "safety": "only a line about violent criminals entering the country illegally, which is scored nowhere; no policing or sentencing platform documented",
         "democracy": "checked campaign issues page and Ballotpedia, nothing documented"
       }
+    },
+    {
+      "id": "id-house-1-gomez",
+      "name": "Brendan Gomez",
+      "party": "Constitution",
+      "office": "us-house",
+      "district": "1",
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
+    },
+    {
+      "id": "id-house-2-johanson",
+      "name": "Will Johanson",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
+    },
+    {
+      "id": "id-house-2-sierra",
+      "name": "C. Sierra",
+      "party": "Constitution",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
+    },
+    {
+      "id": "id-house-2-houser",
+      "name": "Emre Houser",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/05/19/risch-wins-republican-primary-for-u-s-senate/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
     }
   ]
 }

@@ -13,6 +13,84 @@
     "AR-governor": {
       "status": "general",
       "statusNote": "Gov. Sarah Huckabee Sanders (R), unopposed in her primary, faces state Sen. Fred Love (D), who won the March 3 Democratic primary. Libertarian Colt Shelby is also on the November ballot."
+    },
+    "AR-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H0AR01083",
+        "fec-H6AR01155",
+        "ar-house-1-parsons"
+      ],
+      "statusNote": "Rep. Rick Crawford (R) seeks re-election against Terri Yarbrough Green (D) and Libertarian Steve Parsons after the March 3, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Arkansas 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/arkansas-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        }
+      ]
+    },
+    "AR-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4AR02141",
+        "fec-H6AR02286"
+      ],
+      "statusNote": "Rep. French Hill (R) seeks re-election against Chris Jones (D) after the March 3, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Arkansas 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/arkansas-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        }
+      ]
+    },
+    "AR-house-4": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4AR04048",
+        "fec-H6AR04084"
+      ],
+      "statusNote": "Rep. Bruce Westerman (R) seeks re-election against James Russell (D) after the March 3, 2026 primary. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "Arkansas 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/arkansas-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        }
+      ]
+    },
+    "AR-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H0AR03055",
+        "fec-H6AR03128",
+        "ar-house-3-hocevar"
+      ],
+      "statusNote": "Rep. Steve Womack (R) seeks re-election against pastor Robb Ryerse (D) and independent Christopher Hocevar. Womack was the only Republican to file, so his March 3, 2026 primary was canceled, and Ryerse took the Democratic nomination. Positions are not researched yet.",
+      "sources": [
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        },
+        {
+          "label": "Arkansas U.S. House District 3 primary results (NBC News)",
+          "url": "https://www.nbcnews.com/politics/2026-primary-elections/arkansas-us-house-district-3-results"
+        },
+        {
+          "label": "Arkansas' 3rd Congressional District election, 2026, March 3 Republican primary (Ballotpedia)",
+          "url": "https://ballotpedia.org/Arkansas%27_3rd_Congressional_District_election,_2026_(March_3_Republican_primary)"
+        }
+      ]
     }
   },
   "candidates": [
@@ -339,6 +417,48 @@
         "repro": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
         "democracy": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile; his bill separating the MLK holiday from Robert E. Lee's name does not fit the axis"
       }
+    },
+    {
+      "id": "ar-house-1-parsons",
+      "name": "Steve Parsons",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Arkansas 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/arkansas-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        }
+      ]
+    },
+    {
+      "id": "ar-house-3-hocevar",
+      "name": "Christopher Hocevar",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "3",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        },
+        {
+          "label": "Arkansas' 3rd Congressional District election, 2026, March 3 Republican primary (Ballotpedia)",
+          "url": "https://ballotpedia.org/Arkansas%27_3rd_Congressional_District_election,_2026_(March_3_Republican_primary)"
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,102 @@
     "NV-governor": {
       "status": "general",
       "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 65% over Washoe County Commissioner Alexis Hill. One of the most competitive governor races in the country."
+    },
+    "NV-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H8NV03036",
+        "fec-H6NV01331",
+        "fec-H6NV01315",
+        "nv-house-1-stjohn",
+        "nv-house-1-thomas",
+        "nv-house-1-willert"
+      ],
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot: Afzal Khan (No Political Party), Steven St John (No Political Party), Anthony Thomas Jr. (No Political Party), Victor Willert (No Political Party). One more name, J.E. Houston, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    "NV-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6NV02362",
+        "fec-H4NV04108",
+        "nv-house-2-chapman"
+      ],
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Teresa Benitez-Thompson (Democrat), David Flippo (Republican). No incumbent is on the November ballot. Also on the November ballot: Lynn Chapman (Independent American). We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    "NV-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6NV04020",
+        "fec-H4NV03225"
+      ],
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Three more names appear in one source only (Jon Kamerath, David Anderson, P. Dean Johnson) and are not listed here. We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    "NV-house-4": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2NV04011",
+        "fec-H6NV04111",
+        "nv-house-4-best",
+        "nv-house-4-johnson",
+        "nv-house-4-steele"
+      ],
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party), Gary Steele (No Political Party). We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
     }
   },
   "candidates": [
@@ -203,6 +299,181 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "nv-house-1-stjohn",
+      "name": "Steven St John",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-1-thomas",
+      "name": "Anthony Thomas Jr.",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-1-willert",
+      "name": "Victor Willert",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-2-chapman",
+      "name": "Lynn Chapman",
+      "party": "Independent American",
+      "office": "us-house",
+      "district": "2",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-4-best",
+      "name": "Russell Best",
+      "party": "Independent American",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-4-johnson",
+      "name": "William Johnson",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-4-steele",
+      "name": "Gary Steele",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        },
+        {
+          "label": "270toWin, 2026 Nevada U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
     }
   ]
 }

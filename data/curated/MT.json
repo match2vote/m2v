@@ -11,6 +11,52 @@
         "fec-S6MT00261"
       ],
       "statusNote": "Open seat: Sen. Steve Daines withdrew minutes before the March filing deadline and endorsed Kurt Alme (R), who won the June 2 primary with 77%. Alme faces Alani Bankhead (D, 44% primary winner), independent former UM president Seth Bodnar (qualified by petition with 21,284 verified signatures), and Libertarian Kyle Austin. Bankhead and Bodnar each refused drop-out pressure before the Aug 10 withdrawal deadline, locking in a four-way general."
+    },
+    "MT-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6MT01152",
+        "fec-H6MT01137",
+        "mt-house-1-sheedy"
+      ],
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Aaron Flint (Republican), Sam Forstag (Democrat). Open seat: Rep. Ryan Zinke is retiring and is not on the November ballot. Also on the November ballot: Nick Sheedy (Libertarian). An independent, Kimberly Persico, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Montana 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/MT"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "270toWin, 2026 Montana U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/montana"
+        }
+      ]
+    },
+    "MT-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4MT02098",
+        "fec-H6MT02150",
+        "fec-H6MT02168"
+      ],
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat). Rep. Troy Downing is the incumbent. Also on the November ballot: Michael Eisenhauer (Independent). A Libertarian, Patrick McCracken, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "sources": [
+        {
+          "label": "The Green Papers, Montana 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/MT"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "270toWin, 2026 Montana U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/montana"
+        }
+      ]
     }
   },
   "candidates": [
@@ -366,6 +412,31 @@
         "safety": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site, nothing documented",
         "repro": "checked MTPR Q&A, KTVQ and NBC Montana interviews, MTFP election guide, and campaign site, nothing documented"
       }
+    },
+    {
+      "id": "mt-house-1-sheedy",
+      "name": "Nick Sheedy",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "MT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers, Montana 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/MT"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "270toWin, 2026 Montana U.S. House races",
+          "url": "https://www.270towin.com/2026-house-election/states/montana"
+        }
+      ]
     }
   ]
 }

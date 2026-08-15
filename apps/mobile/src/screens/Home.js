@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { ScrollView, View, Text, Pressable, Linking } from 'react-native';
 import { Screen, H2, Body, Card, DarkCard, InfoCallout, CategoryPill, Button } from '../ui';
 import { theme, useTheme, typography } from '../theme';
-import { getRaces, getCoverage, coverageSentence, STATE_NAMES, districtLabel } from '../ballot';
+import { getRaces, getCoverage, coverageSentence, STATE_NAMES, districtLabel, statesPhrase } from '../ballot';
 import { DistrictLine } from '../DistrictLine';
 import { InterestButton } from '../InterestButton';
 import { getStateData, getPicks, getBallotLocation } from '../api';
@@ -77,7 +77,7 @@ export function Home() {
 
         {/* Honesty callout */}
         <InfoCallout>
-          <Text style={{ fontWeight: '800' }}>{S.honestyBold}</Text>{S.honestyRest({ races: cov.totalRaces, states: cov.states.length })}
+          <Text style={{ fontWeight: '800' }}>{S.honestyBold}</Text>{S.honestyRest({ races: cov.totalRaces, statesPhrase: statesPhrase(cov) })}
         </InfoCallout>
 
         {/* Quiz hero */}

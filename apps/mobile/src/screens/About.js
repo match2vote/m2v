@@ -3,7 +3,7 @@ import React from 'react';
 import { ScrollView, View, Pressable, Linking, Text } from 'react-native';
 import { Screen, H1, H2, Body, Card, Button } from '../ui';
 import { theme, useTheme } from '../theme';
-import { getCoverage } from '../ballot';
+import { getCoverage, statesPhrase } from '../ballot';
 import { strings } from '../strings';
 
 const S = strings.about;
@@ -22,7 +22,7 @@ export function About() {
         <Card>
           <H2>{S.coverageTitle}</H2>
           <Body style={{ fontSize: 15 }}>
-            <Text style={{ fontWeight: '800' }}>{S.coverageBold({ races: cov.totalRaces, candidates: cov.totalCandidates, states: cov.states.length })}</Text>
+            <Text style={{ fontWeight: '800' }}>{S.coverageBold({ races: cov.totalRaces, candidates: cov.totalCandidates, statesPhrase: statesPhrase(cov) })}</Text>
             {S.coverageRest}
           </Body>
         </Card>

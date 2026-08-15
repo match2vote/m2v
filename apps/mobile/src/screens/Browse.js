@@ -4,7 +4,7 @@ import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-na
 import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing, BackBar } from '../ui';
 import { theme, useTheme } from '../theme';
-import { STATE_NAMES, getRaces, getCoverage, coverageSentence, findRaceById, findCandidateById, REDRAWN_2026 } from '../ballot';
+import { STATE_NAMES, getRaces, getCoverage, coverageSentence, findRaceById, findCandidateById, REDRAWN_2026, statesPhrase } from '../ballot';
 import { InterestButton } from '../InterestButton';
 import { getStateData, savePick, getBallotLocation, setBallotState } from '../api';
 import { DistrictLine } from '../DistrictLine';
@@ -20,12 +20,13 @@ const { space } = theme;
 export function StatePicker() {
   const nav = useNav();
   const { colors } = useTheme();
-  const { states, totalRaces } = getCoverage();
+  const cov = getCoverage();
+  const { states, totalRaces } = cov;
   return (
     <Screen>
       <H1>{S.title}</H1>
       <Body soft style={{ marginBottom: space(4) }}>
-        {S.intro({ races: totalRaces, states: states.length })}
+        {S.intro({ races: totalRaces, statesPhrase: statesPhrase(cov) })}
       </Body>
       <ScrollView style={{ flex: 1 }}>
         {states.map((s) => (

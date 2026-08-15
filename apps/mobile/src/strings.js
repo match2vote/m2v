@@ -14,6 +14,8 @@ const pl = (n, one, many) => (n === 1 ? one : many);
 
 export const strings = {
   ui: {
+    // Coverage counts: DC is not a state, so 50 + DC reads "50 states and D.C."
+    statesPhrase: ({ states, hasDC }) => `${states} ${states === 1 ? 'state' : 'states'}${hasDC ? ' and D.C.' : ''}`,
     tierCurated: 'Every position sourced',
     tierFec: 'Positions not stated yet',
     tierSample: 'Sample, not a real candidate',
@@ -83,7 +85,7 @@ export const strings = {
     countdownLead: '▤ General Election · Nov 3 · ',
     countdownDays: ({ days }) => `${days} days away`,
     honestyBold: 'Every candidate here is real',
-    honestyRest: ({ races, states }) => `, rosters from official FEC filings, positions researched with a source for every score. We show only the ${races} races across ${states} states we've actually covered so far, and add more weekly.`,
+    honestyRest: ({ races, statesPhrase }) => `, rosters from official FEC filings, positions researched with a source for every score. We show only the ${races} races across ${statesPhrase} we've actually covered so far, and add more weekly.`,
     quizEyebrow: '✦ THE MATCH QUIZ',
     quizTitle: 'Answer 10 questions.\nMeet your candidates.',
     quizBody: "We'll rank the candidates we've researched by how well they line up with you, never by party.",
@@ -123,7 +125,7 @@ export const strings = {
 
   browse: {
     title: 'Browse the races',
-    intro: ({ races, states }) => `${races} covered races across ${states} states, every position sourced, nothing guessed. Browsing here never changes your home state.`,
+    intro: ({ races, statesPhrase }) => `${races} covered races across ${statesPhrase}, every position sourced, nothing guessed. Browsing here never changes your home state.`,
     stateA11y: ({ name, races }) => `${name}, ${races} ${pl(races, 'race', 'races')}`,
     stateRaces: ({ races }) => `${races} ${pl(races, 'race', 'races')}  ›`,
     dontSeeTitle: "Don't see your state?",
@@ -383,7 +385,7 @@ export const strings = {
   about: {
     title: 'About M2V',
     coverageTitle: 'Coverage right now',
-    coverageBold: ({ races, candidates, states }) => `${races} races · ${candidates} candidates · ${states} states`,
+    coverageBold: ({ races, candidates, statesPhrase }) => `${races} races · ${candidates} candidates · ${statesPhrase}`,
     coverageRest: "\nGrowing weekly through Election Day. We show only what we've actually researched, that's a feature, not an apology.",
     howTitle: 'How matching works',
     how1: 'You answer 10 questions. We compare your answers with what each candidate has publicly said or done, bills signed or vetoed, roll-call votes, lawsuits filed, statements on their own campaign site or in reputable coverage. Every scored position links to its source.',
@@ -411,7 +413,7 @@ export const strings = {
     eyebrow: 'WELCOME TO MATCH TO VOTE',
     title: 'Who actually\nagrees with you?',
     body: '10 quick questions. Real candidates on the November ballot. Every position sourced, never guessed from party.',
-    stats: ({ races, states }) => `${races} races · ${states} states · growing weekly`,
+    stats: ({ races, statesPhrase }) => `${races} races · ${statesPhrase} · growing weekly`,
     start: 'Get started',
   },
 

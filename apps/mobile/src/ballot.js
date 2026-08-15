@@ -2,6 +2,7 @@
 // Later this becomes a fetch from the M2V backend with this file as the
 // offline fallback; the call sites won't change.
 import candidatesByState from './data/candidates.json';
+import { strings as STR } from './strings';
 
 export const STATE_NAMES = {
   AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California',
@@ -124,6 +125,12 @@ export function getCoverage(dataByState) {
 export function getUncoveredStates(dataByState) {
   const covered = new Set(getCoverage(dataByState).states.map((s) => s.code));
   return STATE_LIST.filter((s) => !covered.has(s.code));
+}
+
+// "50 states and D.C." for coverage counters. DC is not a state.
+export function statesPhrase(cov) {
+  const hasDC = cov.states.some((s) => s.code === 'DC');
+  return STR.ui.statesPhrase({ states: cov.states.length - (hasDC ? 1 : 0), hasDC });
 }
 
 // One sentence describing coverage for uncovered-state screens, generated

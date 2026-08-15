@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-08-13T14:26:05.768Z",
+  "syncedAt": "2026-08-15T06:59:38.960Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -862,6 +862,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL13254/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4FL13234",
+      "fecId": "H4FL13234",
+      "name": "Tony C D'Arrigo",
+      "party": "Independent",
+      "state": "FL",
+      "office": "us-house",
+      "district": "13",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4FL13234/"
         }
       ],
       "funding": null,

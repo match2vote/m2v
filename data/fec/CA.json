@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-27T15:59:01.785Z",
+  "syncedAt": "2026-08-15T06:59:38.951Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -4222,6 +4222,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4CA33119/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6CA37339",
+      "fecId": "H6CA37339",
+      "name": "Samantha Mota",
+      "party": "Democrat",
+      "state": "CA",
+      "office": "us-house",
+      "district": "37",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA37339/"
         }
       ],
       "funding": null,

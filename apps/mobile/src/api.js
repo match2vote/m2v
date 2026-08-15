@@ -101,6 +101,25 @@ export const kv = {
   set: (k, v) => store.set(k, typeof v === 'string' ? v : JSON.stringify(v)),
 };
 
+// --- Ballot location: state plus optional House district, on device only ---
+// The district is stored beside the state and never carries over: setting a
+// new state clears it. '' and null both mean "not set"; the app never
+// defaults to any district. No address or ZIP is ever stored.
+const STATE_KEY = 'm2v:ballotState';
+const DISTRICT_KEY = 'm2v:ballotDistrict';
+export async function getBallotLocation() {
+  const [state, district] = await Promise.all([store.get(STATE_KEY), store.get(DISTRICT_KEY)]);
+  return { state: state || null, district: district || null };
+}
+export async function setBallotState(code) {
+  const cur = await store.get(STATE_KEY);
+  await store.set(STATE_KEY, code);
+  if (cur !== code) await store.set(DISTRICT_KEY, '');
+}
+export async function setBallotDistrict(district) {
+  await store.set(DISTRICT_KEY, district || '');
+}
+
 // --- One-tap "cover my state" interest signal -------------------------------
 // Sends EXACTLY two things: a two-letter state code, and the tap itself (the
 // server stamps the time). No IP retained in the table, no device id, no user

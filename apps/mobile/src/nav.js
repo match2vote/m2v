@@ -1,6 +1,6 @@
 // Tiny cross-platform router. On web it syncs real URLs (browser back/forward,
 // shareable deep links); on native it's plain state with a back stack.
-// Routes: /ballot /races /races/:state /race/:id /candidate/:id /matches /about /quiz
+// Routes: /ballot /races /races/:state /race/:id /candidate/:id /matches /about /quiz /state /district
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { Platform } from 'react-native';
 
@@ -11,7 +11,9 @@ function routeToPath(r) {
   switch (r.name) {
     case 'home': return '/';
     case 'howto': return '/howto';
+    case 'roles': return '/roles';
     case 'state': return '/state';
+    case 'district': return '/district';
     case 'ballot': return '/ballot';
     case 'races': return r.state ? `/races/${r.state}` : '/races';
     case 'race': return `/race/${encodeURIComponent(r.id)}`;
@@ -30,7 +32,9 @@ export function pathToRoute(pathname) {
   if (!seg.length) return { name: 'home' };
   if (seg[0] === 'home') return { name: 'home' };
   if (seg[0] === 'howto') return { name: 'howto' };
+  if (seg[0] === 'roles') return { name: 'roles' };
   if (seg[0] === 'state') return { name: 'state' };
+  if (seg[0] === 'district') return { name: 'district' };
   if (seg[0] === 'ballot') return { name: 'ballot' };
   if (seg[0] === 'races') return seg[1] ? { name: 'races', state: seg[1].toUpperCase() } : { name: 'races' };
   if (seg[0] === 'race' && seg[1]) return { name: 'race', id: decodeURIComponent(seg[1]) };
@@ -92,8 +96,8 @@ export function useNav() {
 // Which tab a route belongs to (for highlighting the tab bar).
 export function tabOf(route) {
   switch (route.name) {
-    case 'home': case 'about': case 'state': return 'home';
-    case 'howto': return 'howto';
+    case 'home': case 'about': case 'state': case 'district': return 'home';
+    case 'howto': case 'roles': return 'howto';
     case 'ballot': return 'ballot';
     case 'matches': case 'quiz': return 'matches';
     default: return 'races';

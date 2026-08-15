@@ -8,6 +8,9 @@ import { View, Text, Pressable } from 'react-native';
 import { theme, useTheme } from './theme';
 import { STATE_NAMES } from './ballot';
 import { kv, recordStateInterest } from './api';
+import { strings } from './strings';
+
+const S = strings.interest;
 
 const { space } = theme;
 
@@ -28,7 +31,7 @@ export function InterestButton({ stateCode }) {
     return (
       <View style={{ paddingVertical: space(2.5), paddingHorizontal: space(3), borderRadius: 12, backgroundColor: colors.goldSoft, marginVertical: space(1) }}>
         <Text style={{ color: colors.ink, fontWeight: '600', fontSize: 14, textAlign: 'center' }}>
-          Thanks! We'll cover {name} as soon as we can.
+          {S.thanks({ name })}
         </Text>
       </View>
     );
@@ -44,17 +47,19 @@ export function InterestButton({ stateCode }) {
     <View style={{ marginVertical: space(1) }}>
       <Pressable
         onPress={tap}
+        accessibilityRole="button"
+        accessibilityLabel={S.buttonA11y({ name })}
         style={({ pressed }) => [{
-          borderRadius: 14, borderWidth: 1.5, borderColor: colors.accent,
+          borderRadius: 14, borderWidth: 1.5, borderColor: colors.accent, minHeight: 44, justifyContent: 'center',
           alignItems: 'center', paddingVertical: space(2), paddingHorizontal: space(5),
         }, pressed && { opacity: 0.8, transform: [{ scale: 0.99 }] }]}
       >
         <Text style={{ fontSize: 14, fontWeight: '700', color: colors.accent }}>
-          I want M2V to cover {name}
+          {S.button({ name })}
         </Text>
       </Pressable>
       <Text style={{ color: colors.inkSoft, fontSize: 11.5, textAlign: 'center', marginTop: 4 }}>
-        Sends only your state. No email, no account, nothing else.
+        {S.note}
       </Text>
     </View>
   );

@@ -12,21 +12,25 @@ const light = {
   ink: '#262019',           // warm espresso ink
   inkSoft: '#7A7167',
   line: '#EAE4DB',
-  accent: '#A87722',        // deep gold. CTAs, countdown, counters, active tab
+  // Deep gold. CTAs, countdown, counters, active tab. Was #A87722; deepened
+  // Aug 15 so gold text clears WCAG AA on cream and white (5.1:1 and 5.4:1,
+  // the old value was 3.7:1). Same hue, still the one interaction accent.
+  accent: '#8B6318',
   accentBright: '#C08A2D',
   accentSoft: '#F5EBDA',
-  gold: '#A87722',
+  gold: '#8B6318',
   goldSoft: '#F5EBDA',
+  onAccent: '#FFF9EE',      // text on a gold fill
   espresso: '#2E2621',      // dark cards
   espressoGlow: '#4A3A28',  // soft corner gradient on dark cards
   green: '#3D5A46',         // info callout ink
   greenSoft: '#E9EFE6',     // the green info callout
-  federal: '#5A7291', federalSoft: '#E4EAF2',   // muted category pills (not party colors)
-  state: '#4A7A6F', stateSoft: '#E2EEEA',
-  danger: '#A3543B',
+  federal: '#4F6683', federalSoft: '#E4EAF2',   // muted category pills (not party colors)
+  state: '#3F6E63', stateSoft: '#E2EEEA',
+  danger: '#9C4E35',
   dangerSoft: '#F6E7E0',
-  notStated: '#9A9188',
-  sample: '#7A6DB3',
+  notStated: '#6A625A',
+  sample: '#5B4F9C',
   ballotPaper: '#FFFDF8',
   ballotInk: '#211B14',
   tabBg: '#FFFFFF',
@@ -43,6 +47,7 @@ const dark = {
   accentSoft: '#3A2E1B',
   gold: '#D2A24C',
   goldSoft: '#3A2E1B',
+  onAccent: '#241E19',      // dark ink on a gold fill (cream on this gold is 2.2:1)
   espresso: '#2E2621',
   espressoGlow: '#4A3A28',
   green: '#9DBBA5',
@@ -51,7 +56,7 @@ const dark = {
   state: '#8EB5AB', stateSoft: '#22302C',
   danger: '#D08A73',
   dangerSoft: '#3A2822',
-  notStated: '#847A6F',
+  notStated: '#A39789',
   sample: '#A99BE0',
   ballotPaper: '#FFFDF8',   // the ballot stays paper even in dark mode
   ballotInk: '#211B14',

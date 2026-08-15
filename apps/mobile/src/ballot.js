@@ -48,7 +48,15 @@ export function getBundledStateData(code) {
 const ELIMINATED = new Set(['not-advancing', 'lost', 'withdrawn']);
 
 export function getRaces(code, data, opts = {}) {
-  const races = buildRaces(code, data);
+  let races = buildRaces(code, data);
+  // Optional district filter: keep every statewide race, and only the one
+  // House race for the given district. Applied here so no call site filters
+  // on its own. Never defaults to any district; no district means all House
+  // races in the state, in district order.
+  if (opts.district) {
+    const houseId = `${code}-house-${opts.district}`;
+    races = races.filter((r) => !r.id.includes('-house-') || r.id === houseId);
+  }
   if (!opts.curatedOnly && !opts.display && !opts.ballotView) return races;
   return races
     .map((race) => {
@@ -127,6 +135,9 @@ export function coverageSentence() {
   const uncovered = getUncoveredStates();
   const hasDC = covered.some((s) => s.code === 'DC');
   const stateCount = covered.length - (hasDC ? 1 : 0);
+  if (uncovered.length === 0) {
+    return `We cover all ${stateCount} states${hasDC ? ' and Washington, D.C' : ''}.`;
+  }
   if (uncovered.length > 0 && uncovered.length <= 6) {
     return (
       `We cover ${stateCount} states${hasDC ? ' and Washington, D.C.' : ''} ` +
@@ -170,6 +181,59 @@ export function findCandidateById(id) {
 // race. The app never guesses districts (state picker only); this is the
 // residual-risk mitigation from the item-0 map audit.
 export const REDRAWN_2026 = new Set(['TX', 'CA', 'MO', 'NC', 'OH', 'UT', 'FL', 'LA', 'TN', 'AL']);
+
+// U.S. House seats per state for the 2022 to 2030 maps (2020 apportionment).
+// DC elects one non-voting delegate. Used only to list district numbers in
+// the district picker; race data still comes from the bundle.
+export const HOUSE_SEATS = {
+  AL: 7, AK: 1, AZ: 9, AR: 4, CA: 52, CO: 8, CT: 5, DE: 1, FL: 28, GA: 14,
+  HI: 2, ID: 2, IL: 17, IN: 9, IA: 4, KS: 4, KY: 6, LA: 6, ME: 2, MD: 8,
+  MA: 9, MI: 13, MN: 8, MS: 4, MO: 8, MT: 2, NE: 3, NV: 4, NH: 2, NJ: 12,
+  NM: 3, NY: 26, NC: 14, ND: 1, OH: 15, OK: 5, OR: 6, PA: 17, RI: 2, SC: 7,
+  SD: 1, TN: 9, TX: 38, UT: 4, VT: 1, VA: 11, WA: 10, WV: 2, WI: 8, WY: 1,
+  DC: 1,
+};
+
+// District ids a voter can pick for a state: ['at-large'] for single-seat
+// states and DC, otherwise ['1'..'N'].
+export function districtOptions(code) {
+  const n = HOUSE_SEATS[code] || 0;
+  if (n <= 1) return ['at-large'];
+  return Array.from({ length: n }, (_, i) => String(i + 1));
+}
+
+export function isSingleDistrict(code) {
+  return (HOUSE_SEATS[code] || 0) <= 1;
+}
+
+export function districtLabel(d) {
+  if (!d) return null;
+  return d === 'at-large' ? 'At-Large' : `District ${d}`;
+}
+
+// Where to send a voter who does not know their district. house.gov's finder
+// returns the currently seated member and, by its own note, the 2026 changes
+// in the ten redrawn states do not take effect until January 2027, so for
+// those ten it points at the state's own page instead. Verified Aug 15, 2026,
+// see docs/build-queue-progress-B.md for what each page showed; states whose
+// finder could not be verified use their main elections page.
+const HOUSE_GOV_FINDER = 'https://www.house.gov/representatives/find-your-representative';
+const STATE_DISTRICT_FINDERS = {
+  TX: { url: 'https://www.votetexas.gov/', label: 'VoteTexas.gov, Texas Secretary of State' },
+  CA: { url: 'https://sdmg.senate.ca.gov/committeehome/2025-congressional-districts', label: 'the California Senate map of the 2025 congressional districts' },
+  MO: { url: 'https://www.sos.mo.gov/elections', label: 'the Missouri Secretary of State elections page' },
+  NC: { url: 'https://www.ncsbe.gov/results-data/voting-maps-redistricting', label: 'the North Carolina State Board of Elections redistricting page' },
+  OH: { url: 'https://findmydistrict.ohiosos.gov/', label: 'the Ohio Secretary of State Find My District tool' },
+  UT: { url: 'https://vote.utah.gov/', label: 'vote.utah.gov, Utah Lieutenant Governor' },
+  FL: { url: 'https://dos.fl.gov/elections/', label: 'the Florida Division of Elections' },
+  LA: { url: 'https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx', label: 'the Louisiana Secretary of State elections page' },
+  TN: { url: 'https://sos.tn.gov/elections', label: 'the Tennessee Secretary of State elections page' },
+  AL: { url: 'https://www.sos.alabama.gov/alabama-votes/state-district-maps', label: 'the Alabama Secretary of State district maps page' },
+};
+export function districtFinder(code) {
+  if (STATE_DISTRICT_FINDERS[code]) return { ...STATE_DISTRICT_FINDERS[code], redrawn: true };
+  return { url: HOUSE_GOV_FINDER, label: 'house.gov', redrawn: false };
+}
 
 function buildRaces(code, data) {
   data = data || getBundledStateData(code);

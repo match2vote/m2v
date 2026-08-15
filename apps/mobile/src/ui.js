@@ -2,6 +2,10 @@
 import React, { useEffect, useRef } from 'react';
 import { Text, View, Pressable, Animated, Easing, StyleSheet } from 'react-native';
 import { theme, useTheme, matchColor, typography } from './theme';
+import { useReducedMotion } from './screens/VoteScenes';
+import { strings } from './strings';
+
+const S = strings.ui;
 
 const { radius, space } = theme;
 
@@ -23,7 +27,7 @@ export function Screen({ children, style, pad = true }) {
 export function H1({ children, style }) {
   const { colors } = useTheme();
   return (
-    <Text style={[typography.display, typography.h1, { color: colors.ink, marginBottom: space(2) }, style]}>
+    <Text accessibilityRole="header" style={[typography.display, typography.h1, { color: colors.ink, marginBottom: space(2) }, style]}>
       {children}
     </Text>
   );
@@ -32,7 +36,7 @@ export function H1({ children, style }) {
 export function H2({ children, style }) {
   const { colors } = useTheme();
   return (
-    <Text style={[typography.display, typography.h2, { color: colors.ink, marginBottom: space(1) }, style]}>
+    <Text accessibilityRole="header" style={[typography.display, typography.h2, { color: colors.ink, marginBottom: space(1) }, style]}>
       {children}
     </Text>
   );
@@ -64,15 +68,19 @@ export function Card({ children, style }) {
   );
 }
 
-export function Button({ label, onPress, kind = 'primary', disabled, style, small }) {
+export function Button({ label, onPress, kind = 'primary', disabled, style, small, accessibilityLabel, accessibilityHint }) {
   const { colors } = useTheme();
   return (
     <Pressable
       onPress={onPress}
       disabled={disabled}
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel || label}
+      accessibilityHint={accessibilityHint}
+      accessibilityState={{ disabled: !!disabled }}
       style={({ pressed }) => [
         {
-          borderRadius: 14, alignItems: 'center', marginVertical: space(1),
+          borderRadius: 14, alignItems: 'center', marginVertical: space(1), minHeight: 44, justifyContent: 'center',
           paddingVertical: small ? space(2) : space(3.5), paddingHorizontal: space(5),
         },
         kind === 'primary' && { backgroundColor: colors.accent },
@@ -82,7 +90,7 @@ export function Button({ label, onPress, kind = 'primary', disabled, style, smal
         style,
       ]}
     >
-      <Text style={{ fontSize: small ? 14 : 16.5, fontWeight: '700', color: kind === 'primary' ? '#FFF9EE' : colors.accent }}>
+      <Text style={{ fontSize: small ? 14 : 16.5, fontWeight: '700', textAlign: 'center', color: kind === 'primary' ? colors.onAccent : colors.accent }}>
         {label}
       </Text>
     </Pressable>
@@ -92,7 +100,12 @@ export function Button({ label, onPress, kind = 'primary', disabled, style, smal
 export function ProgressBar({ value }) {
   const { colors } = useTheme();
   return (
-    <View style={{ height: 8, borderRadius: 4, backgroundColor: colors.line, overflow: 'hidden', marginBottom: space(4) }}>
+    <View
+      accessibilityRole="progressbar"
+      accessibilityLabel={S.progressA11y({ pct: Math.round(value * 100) })}
+      accessibilityValue={{ min: 0, max: 100, now: Math.round(value * 100) }}
+      style={{ height: 8, borderRadius: 4, backgroundColor: colors.line, overflow: 'hidden', marginBottom: space(4) }}
+    >
       <View style={{ height: 8, borderRadius: 4, backgroundColor: colors.accentBright, width: `${Math.round(value * 100)}%` }} />
     </View>
   );
@@ -101,9 +114,9 @@ export function ProgressBar({ value }) {
 export function TierBadge({ tier }) {
   const { colors } = useTheme();
   const map = {
-    curated: { label: 'Every position sourced', color: colors.accent, bg: colors.accentSoft },
-    fec: { label: 'Positions not stated yet', color: colors.notStated, bg: colors.line },
-    sample: { label: 'Sample, not a real candidate', color: colors.sample, bg: colors.line },
+    curated: { label: S.tierCurated, color: colors.accent, bg: colors.accentSoft },
+    fec: { label: S.tierFec, color: colors.notStated, bg: colors.line },
+    sample: { label: S.tierSample, color: colors.sample, bg: colors.line },
   };
   const t = map[tier] || map.fec;
   return (
@@ -114,30 +127,42 @@ export function TierBadge({ tier }) {
 }
 
 // Animated match ring: number counts up, color reflects non-partisan scale.
+// The ring is announced as one element with what the number means; the
+// count-up is a JS number ticker (no style is animated), skipped under
+// reduced motion. Colour is only a hint: the number and the "match" text
+// carry the meaning, so nothing here is communicated by colour alone.
 export function MatchRing({ pct, size = 92 }) {
   const { colors } = useTheme();
   const anim = useRef(new Animated.Value(0)).current;
+  const reduced = useReducedMotion();
   const [shown, setShown] = React.useState(pct === null ? null : 0);
   useEffect(() => {
-    if (pct === null || pct === undefined) { setShown(null); return; }
+    if (pct === null || pct === undefined) { setShown(null); return undefined; }
+    if (reduced) { setShown(pct); return undefined; }
     anim.setValue(0);
     const id = anim.addListener(({ value }) => setShown(Math.round(value * pct)));
     Animated.timing(anim, { toValue: 1, duration: 700, easing: Easing.out(Easing.cubic), useNativeDriver: false }).start();
     return () => anim.removeListener(id);
-  }, [pct]);
+  }, [pct, reduced]);
   const color = matchColor(pct, colors);
+  const label = pct === null || pct === undefined
+    ? S.matchRingNotScoredA11y
+    : S.matchRingPctA11y({ pct });
   return (
     <View
+      accessible
+      accessibilityRole="text"
+      accessibilityLabel={label}
       style={{
-        width: size, height: size, borderRadius: size / 2, borderWidth: 5, borderColor: color,
+        minWidth: size, minHeight: size, borderRadius: 999, borderWidth: 5, borderColor: color, padding: 4,
         alignItems: 'center', justifyContent: 'center', backgroundColor: colors.surface,
       }}
     >
       <Text style={{ fontSize: size * 0.26, fontWeight: '800', color: colors.ink }}>
-        {shown === null ? '-' : `${shown}%`}
+        {shown === null ? S.matchRingDash : S.matchRingPct({ pct: shown })}
       </Text>
       <Text style={{ fontSize: 10, color: colors.inkSoft, fontWeight: '600' }}>
-        {pct === null ? 'not enough info' : 'match'}
+        {pct === null ? S.matchRingNotEnough : S.matchRingMatch}
       </Text>
     </View>
   );
@@ -146,13 +171,17 @@ export function MatchRing({ pct, size = 92 }) {
 // Ballot bubble, the fillable oval. Fills with a quick satisfying pop.
 export function Bubble({ filled, size = 26 }) {
   const scale = useRef(new Animated.Value(filled ? 1 : 0)).current;
+  const reduced = useReducedMotion();
   useEffect(() => {
+    if (reduced) { scale.setValue(filled ? 1 : 0); return; }
     Animated.spring(scale, {
       toValue: filled ? 1 : 0, friction: 5, tension: 140, useNativeDriver: true,
     }).start();
-  }, [filled]);
+  }, [filled, reduced]);
   return (
     <View
+      importantForAccessibility="no-hide-descendants"
+      accessibilityElementsHidden
       style={{
         width: size * 1.5, height: size, borderRadius: size / 2, borderWidth: 2.5,
         borderColor: '#111', alignItems: 'center', justifyContent: 'center', backgroundColor: '#fff',
@@ -169,11 +198,17 @@ export function Bubble({ filled, size = 26 }) {
 }
 
 // Back affordance for any pushed screen.
-export function BackBar({ label = 'Back', onPress }) {
+export function BackBar({ label = S.back, onPress }) {
   const { colors } = useTheme();
   return (
-    <Pressable onPress={onPress} style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(3) }}>
-      <Text style={{ color: colors.accent, fontSize: 17, fontWeight: '800' }}>‹  {label}</Text>
+    <Pressable
+      onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={S.backTo({ label })}
+      hitSlop={{ top: 10, bottom: 10, left: 10, right: 20 }}
+      style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(3), minHeight: 44, alignSelf: 'flex-start' }}
+    >
+      <Text style={{ color: colors.accent, fontSize: 17, fontWeight: '800' }}>{S.backArrow({ label })}</Text>
     </Pressable>
   );
 }
@@ -182,7 +217,7 @@ export function BackBar({ label = 'Back', onPress }) {
 export function CategoryPill({ kind }) {
   const { colors } = useTheme();
   const fed = kind === 'federal';
-  const label = fed ? 'Federal' : kind === 'local' ? 'Local' : 'State';
+  const label = fed ? S.pillFederal : kind === 'local' ? S.pillLocal : S.pillState;
   return (
     <View style={{ borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3, backgroundColor: fed ? colors.federalSoft : colors.stateSoft }}>
       <Text style={{ fontSize: 11, fontWeight: '700', color: fed ? colors.federal : colors.state }}>
@@ -222,11 +257,11 @@ export function DarkCard({ children, style }) {
 export function TabBar({ active, onChange, ballotCount }) {
   const { colors } = useTheme();
   const tabs = [
-    { key: 'home', label: 'Home', icon: '⌂' },
-    { key: 'matches', label: 'Match', icon: '✦' },
-    { key: 'races', label: 'Browse', icon: '☰' },
-    { key: 'ballot', label: 'Ballot', icon: '▢' },
-    { key: 'howto', label: 'How to Vote', icon: '✓' },
+    { key: 'home', label: S.tabHome, icon: '⌂' },
+    { key: 'matches', label: S.tabMatch, icon: '✦' },
+    { key: 'races', label: S.tabBrowse, icon: '☰' },
+    { key: 'ballot', label: S.tabBallot, icon: '▢' },
+    { key: 'howto', label: S.tabHowTo, icon: '✓' },
   ];
   return (
     <View
@@ -240,9 +275,17 @@ export function TabBar({ active, onChange, ballotCount }) {
         // No badge on the Ballot tab (kiki, Aug 14): no text, no count. The
         // only marked/unmarked signal is the icon filling in.
         const icon = t.key === 'ballot' && ballotCount > 0 ? '▣' : t.icon;
+        const a11yLabel = t.key === 'ballot' && ballotCount > 0 ? S.tabBallotHasMarks : t.label;
         return (
-          <Pressable key={t.key} onPress={() => onChange(t.key)} style={{ flex: 1, alignItems: 'center', paddingVertical: 4 }}>
-            <Text style={{ fontSize: 20, color: isActive ? colors.accent : colors.inkSoft }}>{icon}</Text>
+          <Pressable
+            key={t.key}
+            onPress={() => onChange(t.key)}
+            accessibilityRole="tab"
+            accessibilityLabel={a11yLabel}
+            accessibilityState={{ selected: isActive }}
+            style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 4, minHeight: 44 }}
+          >
+            <Text accessibilityElementsHidden importantForAccessibility="no" style={{ fontSize: 20, color: isActive ? colors.accent : colors.inkSoft }}>{icon}</Text>
             <Text style={{ fontSize: 10, fontWeight: isActive ? '800' : '600', color: isActive ? colors.accent : colors.inkSoft }}>
               {t.label}
             </Text>

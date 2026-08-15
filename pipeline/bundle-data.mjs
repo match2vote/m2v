@@ -92,3 +92,17 @@ for (const f of files.sort()) {
 await mkdir(OUT_DIR, { recursive: true });
 await writeFile(path.join(OUT_DIR, 'candidates.json'), JSON.stringify(states));
 console.log(`Bundled ${total} candidates for ${Object.keys(states).length} states/territories (${curatedCount} curated) → apps/mobile/src/data/candidates.json`);
+
+// Per-state voting rules (data/voting-rules.json, keyed by two-letter code,
+// schema in the Aug 15 build queue doc, section A3). Copied through as-is so
+// the app can import it. If the source does not exist yet, emit {} so the
+// import always resolves and the How to Vote screen simply shows nothing
+// state-specific.
+const RULES_SRC = path.join(__dirname, '..', 'data', 'voting-rules.json');
+let rules = {};
+try {
+  rules = JSON.parse(await readFile(RULES_SRC, 'utf8'));
+  if (!rules || typeof rules !== 'object' || Array.isArray(rules)) rules = {};
+} catch {}
+await writeFile(path.join(OUT_DIR, 'voting-rules.json'), JSON.stringify(rules));
+console.log(`Bundled voting rules for ${Object.keys(rules).length} states → apps/mobile/src/data/voting-rules.json`);

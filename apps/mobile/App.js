@@ -13,10 +13,18 @@ import { OfficialBallot } from './src/screens/OfficialBallot';
 import { About } from './src/screens/About';
 import { Home } from './src/screens/Home';
 import { HowTo } from './src/screens/HowTo';
-import { ChooseState } from './src/screens/ChooseState';
-import { getRaces, getCoverage, STATE_NAMES } from './src/ballot';
-import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, kv } from './src/api';
+import { WhatYouVoteFor } from './src/screens/WhatYouVoteFor';
+import { ChooseState, ChooseDistrict } from './src/screens/ChooseState';
+import { getRaces, getCoverage, STATE_NAMES, districtLabel } from './src/ballot';
+import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, kv } from './src/api';
 import { shareResultCard } from './src/share';
+import { DistrictLine } from './src/DistrictLine';
+import { ErrorBoundary } from './src/ErrorBoundary';
+import { strings } from './src/strings';
+
+const SW = strings.welcome;
+const SQ = strings.quiz;
+const SM = strings.matches;
 
 const { space } = theme;
 
@@ -67,18 +75,20 @@ function Root() {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-        {onboarded === false && !quiz.pickingState ? (
-          <Welcome onStart={() => setQuiz({ ...quiz, pickingState: true })} />
-        ) : (
-          <ChooseState
-            onboarding
-            onDone={() => {
-              kv.set('m2v:onboarded', '1');
-              setOnboarded(true);
-              nav.go({ name: 'home' }, { replace: true });
-            }}
-          />
-        )}
+        <ErrorBoundary>
+          {onboarded === false && !quiz.pickingState ? (
+            <Welcome onStart={() => setQuiz({ ...quiz, pickingState: true })} />
+          ) : (
+            <ChooseState
+              onboarding
+              onDone={() => {
+                kv.set('m2v:onboarded', '1');
+                setOnboarded(true);
+                nav.go({ name: 'home' }, { replace: true });
+              }}
+            />
+          )}
+        </ErrorBoundary>
       </View>
     );
   }
@@ -89,9 +99,12 @@ function Root() {
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
         <View style={{ flex: 1 }}>
+        <ErrorBoundary>
           {r.name === 'home' && <Home />}
           {r.name === 'state' && <ChooseState />}
+          {r.name === 'district' && <ChooseDistrict />}
           {r.name === 'howto' && <HowTo />}
+          {r.name === 'roles' && <WhatYouVoteFor />}
           {r.name === 'ballot' && <OfficialBallot key={ballotCount >= 0 ? 'b' : 'b'} />}
           {r.name === 'races' && !r.state && <StatePicker />}
           {r.name === 'races' && r.state && <Races stateCode={r.state} />}
@@ -104,6 +117,7 @@ function Root() {
             <Matches quiz={quiz} setQuiz={setQuizPersist} onPicksChanged={(n) => setBallotCount(n)} />
           )}
           {r.name === 'about' && <About />}
+        </ErrorBoundary>
         </View>
         <TabBar
           active={tabOf(r)}
@@ -129,30 +143,29 @@ function Welcome({ onStart }) {
     <Screen>
       <View style={{ flex: 1, justifyContent: 'center' }}>
         <Body style={{ fontWeight: '800', letterSpacing: 2, color: colors.accent, marginBottom: space(3) }}>
-          WELCOME TO MATCH TO VOTE
+          {SW.eyebrow}
         </Body>
         <H1 style={{ fontSize: 42, lineHeight: 48 }}>
-          Who actually{'\n'}agrees with you?
+          {SW.title}
         </H1>
         <Body soft style={{ marginVertical: space(4), fontSize: 17 }}>
-          10 quick questions. Real candidates on the November ballot. Every
-          position sourced, never guessed from party.
+          {SW.body}
         </Body>
         <Body style={{ fontWeight: '700', color: colors.accent, marginBottom: space(5) }}>
-          {cov.totalRaces} races · {cov.states.length} states · growing weekly
+          {SW.stats({ races: cov.totalRaces, states: cov.states.length })}
         </Body>
-        <Button label="Get started" onPress={onStart} />
+        <Button label={SW.start} onPress={onStart} />
       </View>
     </Screen>
   );
 }
 
 const CHOICES = [
-  { value: -2, label: 'Strongly', badge: 1 },
-  { value: -1, label: 'Lean', badge: 1 },
-  { value: 0, label: 'In the middle', badge: null },
-  { value: 1, label: 'Lean', badge: 2 },
-  { value: 2, label: 'Strongly', badge: 2 },
+  { value: -2, label: SQ.strongly, badge: 1 },
+  { value: -1, label: SQ.lean, badge: 1 },
+  { value: 0, label: SQ.middle, badge: null },
+  { value: 1, label: SQ.lean, badge: 2 },
+  { value: 2, label: SQ.strongly, badge: 2 },
 ];
 
 // Rendered option badge, used identically in the legend card and the answer
@@ -160,12 +173,14 @@ const CHOICES = [
 // with a cream numeral; option 2 is an espresso outline. Distinguishable
 // without reading the numeral, and nowhere near party red/blue.
 function OptionBadge({ n, size = 23 }) {
-  const { colors, scheme } = useTheme();
+  const { colors } = useTheme();
   const filled = n === 1;
   return (
     <View
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
       style={{
-        width: size, height: size, borderRadius: size / 2,
+        minWidth: size, minHeight: size, borderRadius: 999, paddingHorizontal: 4,
         alignItems: 'center', justifyContent: 'center',
         backgroundColor: filled ? colors.accent : 'transparent',
         borderWidth: filled ? 0 : 2,
@@ -176,7 +191,7 @@ function OptionBadge({ n, size = 23 }) {
         style={{
           fontSize: size * 0.58, fontWeight: '800', lineHeight: size * 0.8,
           fontFamily: Platform.OS === 'web' ? 'system-ui, sans-serif' : undefined,
-          color: filled ? (scheme === 'dark' ? '#241E19' : '#FFF9EE') : colors.ink,
+          color: filled ? colors.onAccent : colors.ink,
         }}
       >
         {n}
@@ -187,14 +202,20 @@ function OptionBadge({ n, size = 23 }) {
 
 // Answer button: same pill as Button kind="ghost", but renders a real badge
 // element next to the label instead of a tiny unicode glyph.
-function AnswerButton({ choice, onPress }) {
+function AnswerButton({ choice, onPress, stances }) {
   const { colors } = useTheme();
+  const stance = choice.badge ? stances[choice.badge - 1] : null;
+  const a11y = choice.badge
+    ? SQ.answerA11y({ label: choice.label, option: choice.badge, stance })
+    : choice.label;
   return (
     <Pressable
       onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={a11y}
       style={({ pressed }) => [
         {
-          borderRadius: 14, borderWidth: 1.5, borderColor: colors.accent,
+          borderRadius: 14, borderWidth: 1.5, borderColor: colors.accent, minHeight: 44,
           marginVertical: space(1), paddingVertical: space(3), paddingHorizontal: space(5),
           flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 9,
         },
@@ -231,7 +252,7 @@ function Quiz({ quiz, setQuiz, onDone }) {
     <Screen>
       <ProgressBar value={(qIndex + 1) / ISSUES.length} />
       <Body soft style={{ marginBottom: space(1) }}>
-        {qIndex + 1} of {ISSUES.length} · {issue.name} · progress saves automatically
+        {SQ.progress({ n: qIndex + 1, total: ISSUES.length, issue: issue.name })}
       </Body>
       <H2 style={{ marginBottom: space(3), fontSize: 24, lineHeight: 30 }}>{issue.question}</H2>
       {/* Legend + top-issue toggle live OUTSIDE the ScrollView so they stay
@@ -250,34 +271,37 @@ function Quiz({ quiz, setQuiz, onDone }) {
       </Card>
       <Pressable
         onPress={() => setMattersFlag((f) => !f)}
+        accessibilityRole="checkbox"
+        accessibilityState={{ checked: mattersFlag }}
+        accessibilityLabel={SQ.topIssueA11y}
         style={({ pressed }) => [{
-          flexDirection: 'row', alignItems: 'center', gap: 9, alignSelf: 'flex-start',
+          flexDirection: 'row', alignItems: 'center', gap: 9, alignSelf: 'flex-start', minHeight: 44,
           paddingVertical: 7, paddingHorizontal: 12, borderRadius: 10, marginBottom: space(2),
           backgroundColor: mattersFlag ? colors.goldSoft : 'transparent',
         }, pressed && { opacity: 0.7 }]}
       >
         <View style={{
-          width: 20, height: 20, borderRadius: 6, alignItems: 'center', justifyContent: 'center',
+          minWidth: 20, minHeight: 20, borderRadius: 6, alignItems: 'center', justifyContent: 'center',
           borderWidth: 2, borderColor: mattersFlag ? colors.accent : colors.inkSoft,
           backgroundColor: mattersFlag ? colors.accent : 'transparent',
         }}>
-          {mattersFlag && <Text style={{ color: '#FFF9EE', fontSize: 13, fontWeight: '800', lineHeight: 16 }}>✓</Text>}
+          {mattersFlag && <Text style={{ color: colors.onAccent, fontSize: 13, fontWeight: '800', lineHeight: 16 }}>✓</Text>}
         </View>
         <Text style={{ color: mattersFlag ? colors.accent : colors.inkSoft, fontWeight: '700', fontSize: 14 }}>
-          {mattersFlag ? 'Top issue. Counts double in your match' : 'Make this a top issue'}
+          {mattersFlag ? SQ.topIssueOn : SQ.topIssueOff}
         </Text>
       </Pressable>
       <ScrollView style={{ flex: 1 }}>
         {CHOICES.map((c) => (
-          <AnswerButton key={c.value} choice={c} onPress={() => answer(c.value)} />
+          <AnswerButton key={c.value} choice={c} stances={[issue.stanceA, issue.stanceB]} onPress={() => answer(c.value)} />
         ))}
-        <Pressable onPress={() => answer(null)} style={({ pressed }) => [{ alignSelf: 'center', paddingVertical: 12, paddingHorizontal: 16 }, pressed && { opacity: 0.6 }]}>
+        <Pressable onPress={() => answer(null)} accessibilityRole="button" accessibilityLabel={SQ.skipA11y} style={({ pressed }) => [{ alignSelf: 'center', paddingVertical: 12, paddingHorizontal: 16, minHeight: 44, justifyContent: 'center' }, pressed && { opacity: 0.6 }]}>
           <Text style={{ color: colors.inkSoft, fontSize: 13.5, textDecorationLine: 'underline' }}>
-            Skip this one
+            {SQ.skip}
           </Text>
         </Pressable>
         {qIndex > 0 && (
-          <Button kind="ghost" small label="‹ Previous question" onPress={() => setQuiz({ ...quiz, qIndex: qIndex - 1 })} />
+          <Button kind="ghost" small label={SQ.previous} onPress={() => setQuiz({ ...quiz, qIndex: qIndex - 1 })} />
         )}
         <View style={{ height: space(6) }} />
       </ScrollView>
@@ -289,13 +313,14 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   const nav = useNav();
   const { colors } = useTheme();
   const [stateCode, setStateCode] = useState(null);
+  const [district, setDistrict] = useState(null);
   const [data, setData] = useState(null);
   const [confirmRetake, setConfirmRetake] = useState(false);
   const [shareMsg, setShareMsg] = useState(null);
   const [picks, setPicks] = useState([]);
 
   useEffect(() => {
-    kv.get('m2v:ballotState').then((s) => setStateCode(s || null));
+    getBallotLocation().then(({ state, district: d }) => { setStateCode(state); setDistrict(d); });
     getPicks().then(setPicks);
   }, [nav.route]);
 
@@ -327,12 +352,11 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   if (!quiz.done && answered === 0) {
     return (
       <Screen>
-        <H1>Your matches</H1>
+        <H1>{SM.title}</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
-          Take the 10-question quiz and we'll show you who on your ballot
-          actually agrees with you, with a source for every position.
+          {SM.notStartedBody}
         </Body>
-        <Button label="Start the quiz (2 minutes)" onPress={() => nav.go({ name: 'quiz' })} />
+        <Button label={SM.startQuiz} onPress={() => nav.go({ name: 'quiz' })} />
       </Screen>
     );
   }
@@ -341,12 +365,12 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   if (!quiz.done) {
     return (
       <Screen>
-        <H1>Pick up where you left off</H1>
+        <H1>{SM.resumeTitle}</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
-          You're {quiz.qIndex} of {ISSUES.length} questions in, your answers are saved.
+          {SM.resumeBody({ n: quiz.qIndex, total: ISSUES.length })}
         </Body>
-        <Button label={`Resume at question ${quiz.qIndex + 1}`} onPress={() => nav.go({ name: 'quiz' })} />
-        <Button kind="ghost" label="Start over instead" onPress={() => { setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
+        <Button label={SM.resumeAt({ n: quiz.qIndex + 1 })} onPress={() => nav.go({ name: 'quiz' })} />
+        <Button kind="ghost" label={SM.startOver} onPress={() => { setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
       </Screen>
     );
   }
@@ -355,13 +379,11 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   if (quiz.done && realAnswered < 3) {
     return (
       <Screen>
-        <H1>Almost there</H1>
+        <H1>{SM.almostTitle}</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
-          You answered {realAnswered} of {ISSUES.length} questions (skips don't
-          count). We need at least 3 real answers to say anything meaningful
-          about who agrees with you, a match built on less would be noise.
+          {SM.almostBody({ n: realAnswered, total: ISSUES.length })}
         </Body>
-        <Button label="Answer more questions" onPress={() => { setQuiz({ ...quiz, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
+        <Button label={SM.answerMore} onPress={() => { setQuiz({ ...quiz, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
       </Screen>
     );
   }
@@ -370,20 +392,21 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
   if (!stateCode) {
     return (
       <Screen>
-        <H1>One more thing</H1>
+        <H1>{SM.oneMoreTitle}</H1>
         <Body soft style={{ marginBottom: space(4), fontSize: 16 }}>
-          Tell us where you vote and we'll match you against your actual ballot.
+          {SM.oneMoreBody}
         </Body>
-        <Button label="Choose my state" onPress={() => nav.go({ name: 'state' })} />
+        <Button label={SM.chooseMyState} onPress={() => nav.go({ name: 'state' })} />
       </Screen>
     );
   }
 
-  const races = getRaces(stateCode, data, { curatedOnly: true });
+  const races = getRaces(stateCode, data, { curatedOnly: true, district });
   const ranked = races.map((race) => ({ race, rows: rankCandidates(quiz.answers, quiz.matters, race.candidates) }));
-  const ballotRaceCount = getRaces(stateCode, data, { ballotView: true }).length;
-  const markedCount = getRaces(stateCode, data, { ballotView: true })
-    .filter((r) => picks.some((p) => p.raceId === r.id)).length;
+  const ballotRaces = getRaces(stateCode, data, { ballotView: true, district });
+  const hasHouse = getRaces(stateCode, data, { display: true }).some((r) => r.id.includes('-house-'));
+  const ballotRaceCount = ballotRaces.length;
+  const markedCount = ballotRaces.filter((r) => picks.some((p) => p.raceId === r.id)).length;
   const shareRows = ranked
     .map(({ race, rows }) => rows[0] && { name: rows[0].candidate.name, party: rows[0].candidate.party, pct: rows[0].pct, raceTitle: race.title })
     .filter(Boolean)
@@ -391,23 +414,24 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
 
   return (
     <Screen>
-      <H1>Here's who agrees with you</H1>
+      <H1>{SM.resultsTitle}</H1>
       <Body soft style={{ marginBottom: space(3) }}>
-        {STATE_NAMES[stateCode] || stateCode} · November 3, 2026.{' '}
-        <Text style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'state' })}>Change state</Text>
+        {SM.whereLine({ place: district ? SM.stateAndDistrict({ state: STATE_NAMES[stateCode] || stateCode, district: districtLabel(district) }) : STATE_NAMES[stateCode] || stateCode })}
+        <Text accessibilityRole="link" style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'state' })}>{SM.changeState}</Text>
       </Body>
       <ScrollView style={{ flex: 1 }}>
+        <DistrictLine stateCode={stateCode} district={district} hasHouseRaces={hasHouse} />
         <Button
-          label="Share my matches (image)"
+          label={SM.share}
           onPress={async () => {
             const res = await shareResultCard({ stateName: STATE_NAMES[stateCode] || stateCode, rows: shareRows });
-            setShareMsg(res === 'downloaded' ? 'Card saved! Post it anywhere.' : res === 'shared-text' ? 'Shared.' : 'Could not export here.');
+            setShareMsg(res === 'downloaded' ? SM.shareSaved : res === 'shared-text' ? SM.shareShared : SM.shareFailed);
           }}
         />
         {shareMsg && <Body soft style={{ textAlign: 'center', fontSize: 13, marginBottom: space(2) }}>{shareMsg}</Body>}
         <Button
           kind="ghost"
-          label={`View your ballot (${markedCount} of ${ballotRaceCount} race${ballotRaceCount === 1 ? '' : 's'} marked)`}
+          label={SM.viewBallot({ marked: markedCount, total: ballotRaceCount })}
           onPress={() => nav.go({ name: 'ballot' })}
         />
         {ranked.map(({ race, rows }) => {
@@ -419,14 +443,17 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
           const denSpread = dens.length > 1 ? Math.max(...dens) - Math.min(...dens) : 0;
           return (
           <Card key={race.id}>
-            <Pressable onPress={() => nav.go({ name: 'race', id: race.id })}>
-              <H2 style={{ marginBottom: space(2) }}>{race.title} ›</H2>
+            <Pressable
+              onPress={() => nav.go({ name: 'race', id: race.id })}
+              accessibilityRole="button"
+              accessibilityLabel={SM.openRaceA11y({ title: race.title })}
+              style={{ minHeight: 44, justifyContent: 'center' }}
+            >
+              <H2 style={{ marginBottom: space(2) }}>{SM.raceTitle({ title: race.title })}</H2>
             </Pressable>
             {denSpread >= 1 && (
               <Body soft style={{ fontSize: 12, marginBottom: space(2), fontStyle: 'italic' }}>
-                These percentages cover different numbers of issues, because some
-                candidates have fewer documented positions. They are not directly
-                comparable, check the "of your {realAnswered}" count under each name.
+                {SM.denominatorNote({ n: realAnswered })}
               </Body>
             )}
             {rows.map(({ candidate, pct, sharedIssues }) => {
@@ -436,34 +463,42 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
                   <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <MatchRing pct={pct} size={64} />
                     <View style={{ flex: 1, marginLeft: space(3) }}>
-                      <Pressable onPress={() => nav.go({ name: 'candidate', id: candidate.id })}>
+                      <Pressable
+                        onPress={() => nav.go({ name: 'candidate', id: candidate.id })}
+                        accessibilityRole="button"
+                        accessibilityLabel={SM.openCandidateA11y({ name: candidate.name, party: candidate.party })}
+                        style={{ minHeight: 44, justifyContent: 'center' }}
+                      >
                         <Body style={{ fontWeight: '800', fontSize: 17 }}>{candidate.name}</Body>
                         <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 12 }}>
-                          See {candidate.name.split(' ')[0]}'s positions ›
+                          {SM.seePositions({ first: candidate.name.split(' ')[0] })}
                         </Text>
                       </Pressable>
                       <Body soft style={{ fontSize: 12 }}>
-                        {candidate.party}{candidate.tier === 'curated' ? ' · sourced ✓' : ''}
+                        {candidate.party}{candidate.tier === 'curated' ? SM.sourced : ''}
                       </Body>
                       <Body style={{ fontSize: 12.5, fontWeight: '700' }}>
                         {pct !== null
-                          ? `${pct}% across ${sharedIssues} of your ${realAnswered} issue${realAnswered === 1 ? '' : 's'}`
-                          : 'not enough documented positions to score'}
+                          ? SM.pctLine({ pct, shared: sharedIssues, total: realAnswered })
+                          : SM.notEnough}
                       </Body>
                     </View>
                   </View>
                   <Pressable
                     onPress={() => toggleMark(race, candidate, pct)}
+                    accessibilityRole="checkbox"
+                    accessibilityState={{ checked: isMarked }}
+                    accessibilityLabel={isMarked ? SM.markedA11y({ name: candidate.name, race: race.title }) : SM.markA11y({ name: candidate.name, race: race.title })}
                     style={({ pressed }) => [{
-                      marginTop: 6, marginLeft: 64 + space(3),
+                      marginTop: 6, marginLeft: 64 + space(3), minHeight: 44, justifyContent: 'center',
                       alignSelf: 'flex-start', borderRadius: 10,
                       paddingHorizontal: 14, paddingVertical: 8,
                       backgroundColor: isMarked ? colors.gold : 'transparent',
                       borderWidth: 1.5, borderColor: colors.gold,
                     }, pressed && { opacity: 0.7 }]}
                   >
-                    <Text style={{ fontWeight: '800', fontSize: 13, color: isMarked ? '#FFF9EE' : colors.gold }}>
-                      {isMarked ? '● Marked on your ballot · tap to unmark' : '◯ Mark on your ballot'}
+                    <Text style={{ fontWeight: '800', fontSize: 13, color: isMarked ? colors.onAccent : colors.gold }}>
+                      {isMarked ? SM.marked : SM.mark}
                     </Text>
                   </Pressable>
                 </View>
@@ -473,15 +508,14 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
           );
         })}
         {!confirmRetake ? (
-          <Button kind="ghost" label="Retake the quiz" onPress={() => setConfirmRetake(true)} />
+          <Button kind="ghost" label={SM.retake} onPress={() => setConfirmRetake(true)} />
         ) : (
           <Card>
             <Body style={{ fontWeight: '700', marginBottom: space(2) }}>
-              Retake the quiz? Your saved ballot stays exactly as it is, only
-              your quiz answers reset.
+              {SM.retakeConfirm}
             </Body>
-            <Button label="Yes, retake" onPress={() => { setConfirmRetake(false); clearQuizState(); setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
-            <Button kind="ghost" label="Never mind" onPress={() => setConfirmRetake(false)} />
+            <Button label={SM.retakeYes} onPress={() => { setConfirmRetake(false); clearQuizState(); setQuiz({ answers: {}, matters: {}, qIndex: 0, done: false }); nav.go({ name: 'quiz' }); }} />
+            <Button kind="ghost" label={SM.retakeNo} onPress={() => setConfirmRetake(false)} />
           </Card>
         )}
         <View style={{ height: space(6) }} />

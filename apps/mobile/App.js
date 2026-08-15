@@ -15,7 +15,7 @@ import { Home } from './src/screens/Home';
 import { HowTo } from './src/screens/HowTo';
 import { WhatYouVoteFor } from './src/screens/WhatYouVoteFor';
 import { ChooseState, ChooseDistrict } from './src/screens/ChooseState';
-import { getRaces, getCoverage, STATE_NAMES, districtLabel } from './src/ballot';
+import { getRaces, getCoverage, STATE_NAMES, districtLabel, statesPhrase } from './src/ballot';
 import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, kv } from './src/api';
 import { shareResultCard } from './src/share';
 import { DistrictLine } from './src/DistrictLine';
@@ -152,7 +152,7 @@ function Welcome({ onStart }) {
           {SW.body}
         </Body>
         <Body style={{ fontWeight: '700', color: colors.accent, marginBottom: space(5) }}>
-          {SW.stats({ races: cov.totalRaces, states: cov.states.length })}
+          {SW.stats({ races: cov.totalRaces, statesPhrase: statesPhrase(cov) })}
         </Body>
         <Button label={SW.start} onPress={onStart} />
       </View>

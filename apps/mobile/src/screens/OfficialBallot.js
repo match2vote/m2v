@@ -33,7 +33,6 @@ export function OfficialBallot() {
   const [data, setData] = useState(null);
   const [quiz, setQuiz] = useState(null);
   const [shareMsg, setShareMsg] = useState(null);
-  const [starInfo, setStarInfo] = useState(null); // race id whose star note is open
 
   const load = useCallback(async () => {
     const [p, loc, q] = await Promise.all([getPicks(), getBallotLocation(), getQuizState()]);
@@ -155,6 +154,14 @@ export function OfficialBallot() {
             <Text style={{ textAlign: 'center', color: '#555', marginTop: 6, fontSize: 12 }}>
               {S.markedCount({ marked, total: races.length })}
             </Text>
+            {quiz && (
+              <Text style={{ textAlign: 'center', color: '#555', marginTop: 8, fontSize: 11.5, paddingHorizontal: 12 }}>
+                {S.starNote}
+                <Text accessibilityRole="link" style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'about' })}>
+                  {S.howMatchingWorks}
+                </Text>
+              </Text>
+            )}
           </View>
 
           {races.map((race) => {
@@ -231,7 +238,7 @@ export function OfficialBallot() {
                             )}
                           </View>
                         </Pressable>
-                        {(cand.researched || starred) && (
+                        {cand.researched && (
                           <View style={{ alignItems: 'flex-end', marginLeft: 6 }}>
                             {cand.researched && (
                               <Pressable
@@ -244,29 +251,9 @@ export function OfficialBallot() {
                                 <Text style={{ color: '#8a6a14', fontWeight: '700', fontSize: 13 }}>{S.view}</Text>
                               </Pressable>
                             )}
-                            {starred && (
-                              <Pressable
-                                onPress={() => setStarInfo(starInfo === race.id ? null : race.id)}
-                                hitSlop={{ top: 8, bottom: 8, left: 12, right: 8 }}
-                                accessibilityRole="button"
-                                accessibilityLabel={S.starInfoA11y}
-                                accessibilityState={{ expanded: starInfo === race.id }}
-                                style={{ minHeight: 36, minWidth: 44, justifyContent: 'center', alignItems: 'flex-end', paddingHorizontal: 4 }}
-                              >
-                                <Text style={{ color: '#8a6a14', fontWeight: '700', fontSize: 12 }}>{S.starInfo}</Text>
-                              </Pressable>
-                            )}
                           </View>
                         )}
                       </View>
-                      {starred && starInfo === race.id && (
-                        <Text style={{ fontSize: 11.5, color: '#555', marginLeft: 46, marginBottom: 6 }}>
-                          {S.starNote}
-                          <Text accessibilityRole="link" style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'about' })}>
-                            {S.howMatchingWorks}
-                          </Text>
-                        </Text>
-                      )}
                     </View>
                   );
                 })}

@@ -10,8 +10,13 @@ import { ScrollView, View, Text, Pressable } from 'react-native';
 import { rankCandidates } from '@m2v/core';
 import { Screen, H2, Body, Button, Bubble } from '../ui';
 import { theme, useTheme } from '../theme';
-import { getPicks, savePick, removePick, getStateData, getQuizState, kv } from '../api';
-import { getRaces, STATE_NAMES } from '../ballot';
+import { getPicks, savePick, removePick, getStateData, getQuizState, getBallotLocation } from '../api';
+import { DistrictLine } from '../DistrictLine';
+import { RankedChoiceNotice } from '../RankedChoice';
+import { strings } from '../strings';
+
+const S = strings.ballot;
+import { getRaces, STATE_NAMES, districtLabel } from '../ballot';
 import { useNav } from '../nav';
 import { shareBallotImage } from '../share';
 
@@ -24,13 +29,16 @@ export function OfficialBallot() {
   const nav = useNav();
   const [picks, setPicks] = useState(null);
   const [stateCode, setStateCode] = useState(null);
+  const [district, setDistrict] = useState(null);
   const [data, setData] = useState(null);
   const [quiz, setQuiz] = useState(null);
   const [shareMsg, setShareMsg] = useState(null);
   const [starInfo, setStarInfo] = useState(null); // race id whose star note is open
 
   const load = useCallback(async () => {
-    const [p, s, q] = await Promise.all([getPicks(), kv.get('m2v:ballotState'), getQuizState()]);
+    const [p, loc, q] = await Promise.all([getPicks(), getBallotLocation(), getQuizState()]);
+    const s = loc.state;
+    setDistrict(loc.district);
     setPicks(p);
     // Match numbers require a COMPLETED quiz with 3+ real answers; anything
     // less shows no percentages and no star (see docs/design/match-confidence.md).
@@ -45,11 +53,12 @@ export function OfficialBallot() {
   }, []);
   useEffect(() => { load(); }, [load]);
 
-  if (picks === null) return <Screen><Body soft>Loading…</Body></Screen>;
+  if (picks === null) return <Screen><Body soft>{S.loading}</Body></Screen>;
 
   // Ballot view: every likely candidate on the real ballot, researched first.
   // Races with zero candidates still never render.
-  const races = stateCode ? getRaces(stateCode, data, { ballotView: true }) : [];
+  const races = stateCode ? getRaces(stateCode, data, { ballotView: true, district }) : [];
+  const hasHouse = stateCode ? getRaces(stateCode, data, { ballotView: true }).some((r) => r.id.includes('-house-')) : false;
   const pickByRace = Object.fromEntries(picks.map((p) => [p.raceId, p]));
   const marked = races.filter((r) => pickByRace[r.id]).length;
 
@@ -99,10 +108,10 @@ export function OfficialBallot() {
         <SampleBanner />
         <View style={{ backgroundColor: paper, borderWidth: 2, borderColor: inkB, borderRadius: 6, padding: space(5), marginTop: space(3) }}>
           <Text style={{ fontFamily: 'Georgia', fontWeight: '800', fontSize: 24, color: inkB, textAlign: 'center' }}>
-            YOUR SAMPLE BALLOT
+            {S.emptyTitle}
           </Text>
           <Text style={{ textAlign: 'center', color: inkB, fontWeight: '600', marginTop: 4, fontSize: 13 }}>
-            GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026
+            {S.electionLine}
           </Text>
           <View style={{ height: 2, backgroundColor: inkB, marginVertical: space(4) }} />
           {[1, 2, 3].map((i) => (
@@ -115,12 +124,10 @@ export function OfficialBallot() {
             </View>
           ))}
           <Body style={{ color: inkB, fontSize: 14, textAlign: 'center', marginTop: space(2) }}>
-            This becomes your plan for election day. Browse your races, pick the
-            candidates who actually agree with you, and walk in knowing exactly
-            what you'll mark.
+            {S.emptyBody}
           </Body>
         </View>
-        <Button label="Find my races" onPress={() => nav.go({ name: 'races' })} style={{ marginTop: space(4) }} />
+        <Button label={S.findMyRaces} onPress={() => nav.go({ name: 'races' })} style={{ marginTop: space(4) }} />
       </Screen>
     );
   }
@@ -129,6 +136,7 @@ export function OfficialBallot() {
     <Screen>
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
         <SampleBanner />
+        <DistrictLine stateCode={stateCode} district={district} hasHouseRaces={hasHouse} style={{ marginTop: space(3), marginBottom: 0 }} />
         {/* Ballot paper */}
         <View style={{ backgroundColor: paper, borderWidth: 2, borderColor: inkB, borderRadius: 6, padding: space(4), marginTop: space(3) }}>
           {/* Header block */}
@@ -136,11 +144,16 @@ export function OfficialBallot() {
             <Text style={{ fontFamily: 'Georgia', fontWeight: '800', fontSize: 26, color: inkB, textAlign: 'center' }}>
               {(STATE_NAMES[stateCode] || stateCode).toUpperCase()}
             </Text>
+            {district ? (
+              <Text style={{ textAlign: 'center', color: inkB, fontWeight: '700', marginTop: 2, fontSize: 12, letterSpacing: 0.5 }}>
+                {districtLabel(district).toUpperCase()}
+              </Text>
+            ) : null}
             <Text style={{ textAlign: 'center', color: inkB, fontWeight: '700', marginTop: 2, fontSize: 13, letterSpacing: 0.5 }}>
-              GENERAL ELECTION. TUESDAY, NOVEMBER 3, 2026
+              {S.electionLine}
             </Text>
             <Text style={{ textAlign: 'center', color: '#555', marginTop: 6, fontSize: 12 }}>
-              {marked} of {races.length} races marked · tap an oval to mark
+              {S.markedCount({ marked, total: races.length })}
             </Text>
           </View>
 
@@ -156,17 +169,17 @@ export function OfficialBallot() {
                   {pending && (
                     <View style={{ borderWidth: 1.5, borderColor: '#8a6a14', borderRadius: 999, paddingHorizontal: 7, paddingVertical: 1 }}>
                       <Text style={{ color: '#8a6a14', fontWeight: '800', fontSize: 9.5 }}>
-                        {race.meta?.primaryDate ? `PRIMARY ${race.meta.primaryDate}` : 'PRIMARY PENDING'}
+                        {race.meta?.primaryDate ? S.primaryDate({ date: race.meta.primaryDate }) : S.primaryPending}
                       </Text>
                     </View>
                   )}
                 </View>
                 <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: pending ? 4 : space(3) }} />
+                <RankedChoiceNotice raceId={race.id} variant="ballot" onPaper />
                 {pending && (
                   <Text style={{ fontSize: 11.5, color: '#8a6a14', fontStyle: 'italic', marginBottom: space(2) }}>
-                    Primary hasn't happened yet. These candidates are competing
-                    to be on the November ballot; this section will change.
-                    {pickByRace[race.id] ? ' Your mark is saved, but your pick may not reach November.' : ''}
+                    {S.pendingNote}
+                    {pickByRace[race.id] ? S.pendingNoteMarked : ''}
                   </Text>
                 )}
                 {race.candidates.map((cand) => {
@@ -176,51 +189,81 @@ export function OfficialBallot() {
                   const starred = qr?.starId === cand.id;
                   return (
                     <View key={cand.id}>
-                      <Pressable
-                        onPress={() => toggle(race, cand)}
-                        style={({ pressed }) => [
-                          { flexDirection: 'row', alignItems: 'center', paddingVertical: space(2.5) },
-                          pressed && { opacity: 0.6 },
-                        ]}
-                      >
-                        <Bubble filled={filled} />
-                        <View style={{ marginLeft: space(3), flex: 1 }}>
-                          <View style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
-                            <Text style={{ fontFamily: 'Georgia', fontSize: 17, color: inkB, fontWeight: filled ? '800' : '500' }}>
-                              {cand.name}
-                            </Text>
-                            {starred && (
-                              <Pressable onPress={() => setStarInfo(starInfo === race.id ? null : race.id)} hitSlop={6}>
+                      {/* The mark control and the small view / star controls
+                          are siblings, never nested, so each is its own
+                          element for a screen reader. */}
+                      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                        <Pressable
+                          onPress={() => toggle(race, cand)}
+                          accessibilityRole="checkbox"
+                          accessibilityState={{ checked: filled }}
+                          accessibilityLabel={S.rowA11y({
+                            name: cand.name, party: cand.party, pct, shared: row?.sharedIssues, total: quiz?.realAnswers ?? 10,
+                            researched: cand.researched, starred, filled, race: race.title,
+                          })}
+                          style={({ pressed }) => [
+                            { flex: 1, flexDirection: 'row', alignItems: 'center', paddingVertical: space(2.5), minHeight: 44 },
+                            pressed && { opacity: 0.6 },
+                          ]}
+                        >
+                          <Bubble filled={filled} />
+                          <View style={{ marginLeft: space(3), flex: 1 }}>
+                            <View style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
+                              <Text style={{ fontFamily: 'Georgia', fontSize: 17, color: inkB, fontWeight: filled ? '800' : '500' }}>
+                                {cand.name}
+                              </Text>
+                              {starred && (
                                 <Text style={{ marginLeft: 8, color: '#8a6a14', fontWeight: '800', fontSize: 12 }}>
-                                  ★ Your top match
+                                  {S.topMatch}
                                 </Text>
+                              )}
+                            </View>
+                            <Text style={{ fontSize: 12, color: '#555' }}>
+                              {cand.party}
+                              {cand.researched && pct !== undefined && pct !== null
+                                ? S.matchLine({ pct, shared: row.sharedIssues, total: quiz?.realAnswers ?? 10 })
+                                : ''}
+                            </Text>
+                            {!cand.researched && (
+                              <Text style={{ fontSize: 11.5, color: '#6b6257', fontStyle: 'italic' }}>
+                                {S.notResearched}
+                              </Text>
+                            )}
+                          </View>
+                        </Pressable>
+                        {(cand.researched || starred) && (
+                          <View style={{ alignItems: 'flex-end', marginLeft: 6 }}>
+                            {cand.researched && (
+                              <Pressable
+                                onPress={() => nav.go({ name: 'candidate', id: cand.id })}
+                                hitSlop={{ top: 8, bottom: 8, left: 12, right: 8 }}
+                                accessibilityRole="button"
+                                accessibilityLabel={S.viewA11y({ name: cand.name })}
+                                style={{ minHeight: 36, minWidth: 44, justifyContent: 'center', alignItems: 'flex-end', paddingHorizontal: 4 }}
+                              >
+                                <Text style={{ color: '#8a6a14', fontWeight: '700', fontSize: 13 }}>{S.view}</Text>
+                              </Pressable>
+                            )}
+                            {starred && (
+                              <Pressable
+                                onPress={() => setStarInfo(starInfo === race.id ? null : race.id)}
+                                hitSlop={{ top: 8, bottom: 8, left: 12, right: 8 }}
+                                accessibilityRole="button"
+                                accessibilityLabel={S.starInfoA11y}
+                                accessibilityState={{ expanded: starInfo === race.id }}
+                                style={{ minHeight: 36, minWidth: 44, justifyContent: 'center', alignItems: 'flex-end', paddingHorizontal: 4 }}
+                              >
+                                <Text style={{ color: '#8a6a14', fontWeight: '700', fontSize: 12 }}>{S.starInfo}</Text>
                               </Pressable>
                             )}
                           </View>
-                          <Text style={{ fontSize: 12, color: '#555' }}>
-                            {cand.party}
-                            {cand.researched && pct !== undefined && pct !== null
-                              ? ` · ${pct}% match on ${row.sharedIssues} of your ${quiz?.realAnswers ?? 10} issues`
-                              : ''}
-                          </Text>
-                          {!cand.researched && (
-                            <Text style={{ fontSize: 11.5, color: '#8a7f72', fontStyle: 'italic' }}>
-                              We haven't researched this candidate's positions.
-                            </Text>
-                          )}
-                        </View>
-                        {cand.researched && (
-                          <Pressable onPress={() => nav.go({ name: 'candidate', id: cand.id })} hitSlop={8}>
-                            <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 13 }}>view ›</Text>
-                          </Pressable>
                         )}
-                      </Pressable>
+                      </View>
                       {starred && starInfo === race.id && (
                         <Text style={{ fontSize: 11.5, color: '#555', marginLeft: 46, marginBottom: 6 }}>
-                          This star only reflects how YOUR quiz answers line up with this
-                          candidate's sourced positions. M2V does not endorse candidates.{' '}
-                          <Text style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'about' })}>
-                            How matching works ›
+                          {S.starNote}
+                          <Text accessibilityRole="link" style={{ textDecorationLine: 'underline' }} onPress={() => nav.go({ name: 'about' })}>
+                            {S.howMatchingWorks}
                           </Text>
                         </Text>
                       )}
@@ -234,23 +277,22 @@ export function OfficialBallot() {
 
         {!quiz && (
           <Body soft style={{ fontSize: 12.5, textAlign: 'center', marginTop: space(2) }}>
-            Take the quiz and your match percentages will appear here next to
-            the candidates we've researched.
+            {S.takeQuizNote}
           </Body>
         )}
 
         <Button
-          label="Share my ballot as an image"
+          label={S.share}
           onPress={async () => {
             const res = await shareBallotImage({ stateName: STATE_NAMES[stateCode] || stateCode, races, picks });
-            setShareMsg(res === 'downloaded' ? 'Saved! Check your downloads.' : res === 'shared-text' ? 'Shared.' : 'Could not export on this device.');
+            setShareMsg(res === 'downloaded' ? S.shareSaved : res === 'shared-text' ? S.shareShared : S.shareFailed);
           }}
           style={{ marginTop: space(4) }}
         />
         {shareMsg && <Body soft style={{ textAlign: 'center', fontSize: 13 }}>{shareMsg}</Body>}
-        <Pressable onPress={() => nav.go({ name: 'state' })}>
+        <Pressable onPress={() => nav.go({ name: 'state' })} accessibilityRole="button" accessibilityLabel={S.changeState} style={{ minHeight: 44, justifyContent: 'center' }}>
           <Body soft style={{ textAlign: 'center', fontSize: 13, textDecorationLine: 'underline', marginVertical: space(3) }}>
-            Change ballot state
+            {S.changeState}
           </Body>
         </Pressable>
         <View style={{ height: space(6) }} />
@@ -262,12 +304,12 @@ export function OfficialBallot() {
 export function SampleBanner() {
   const { colors } = useTheme();
   return (
-    <View style={{ backgroundColor: colors.gold, borderRadius: 8, paddingVertical: space(2), paddingHorizontal: space(3) }}>
-      <Text style={{ color: '#111', fontWeight: '800', fontSize: 13, textAlign: 'center', letterSpacing: 0.4 }}>
-        SAMPLE BALLOT — NOT AN OFFICIAL BALLOT
+    <View accessible accessibilityRole="header" accessibilityLabel={S.bannerA11y} style={{ backgroundColor: colors.gold, borderRadius: 8, paddingVertical: space(2), paddingHorizontal: space(3) }}>
+      <Text style={{ color: colors.onAccent, fontWeight: '800', fontSize: 13, textAlign: 'center', letterSpacing: 0.4 }}>
+        {S.bannerTitle}
       </Text>
-      <Text style={{ color: '#111', fontWeight: '600', fontSize: 11, textAlign: 'center' }}>
-        For planning only
+      <Text style={{ color: colors.onAccent, fontWeight: '600', fontSize: 11, textAlign: 'center' }}>
+        {S.bannerSub}
       </Text>
     </View>
   );

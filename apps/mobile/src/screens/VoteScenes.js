@@ -1,17 +1,35 @@
 // Animated how-to-vote scenes, ported from the prototype's vote-anim.jsx
 // (CSS keyframes) to React Native Animated. One looping scene per chapter,
 // staged on an espresso card like the prototype's player. Palette: gold accent.
-import React, { useEffect, useRef } from 'react';
-import { View, Text, Animated, Easing } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { View, Text, Animated, Easing, AccessibilityInfo } from 'react-native';
 import { useTheme } from '../theme';
+import { strings } from '../strings';
 
-const PAPER = '#F5F2EA';
-const INKL = 'rgba(38,42,52,0.18)';
-const DUR = 3400;
+export const PAPER = '#F5F2EA';
+export const INKL = 'rgba(38,42,52,0.18)';
+export const DUR = 3400;
 
-function useLoop(duration = DUR, delay = 0) {
-  const v = useRef(new Animated.Value(0)).current;
+// Reduced motion: when the system asks for it, every scene sits in its
+// resting state and no loop starts. Read once, then follow changes.
+export function useReducedMotion() {
+  const [reduced, setReduced] = useState(false);
   useEffect(() => {
+    let alive = true;
+    AccessibilityInfo.isReduceMotionEnabled?.().then((v) => { if (alive) setReduced(!!v); }).catch(() => {});
+    const sub = AccessibilityInfo.addEventListener?.('reduceMotionChanged', (v) => setReduced(!!v));
+    return () => { alive = false; sub?.remove?.(); };
+  }, []);
+  return reduced;
+}
+
+// A looping 0 -> 1 value. All animation in these scenes runs on the native
+// driver, so consumers may only interpolate it into transform or opacity.
+export function useLoop(duration = DUR, delay = 0) {
+  const v = useRef(new Animated.Value(0)).current;
+  const reduced = useReducedMotion();
+  useEffect(() => {
+    if (reduced) { v.setValue(0); return undefined; }
     const anim = Animated.loop(
       Animated.sequence([
         Animated.delay(delay),
@@ -21,14 +39,16 @@ function useLoop(duration = DUR, delay = 0) {
     );
     anim.start();
     return () => anim.stop();
-  }, []);
+  }, [reduced]);
   return v;
 }
 
 // Gentle vertical bob shared by every scene's paper card.
-function Float({ children, style }) {
+export function Float({ children, style }) {
   const v = useRef(new Animated.Value(0)).current;
+  const reduced = useReducedMotion();
   useEffect(() => {
+    if (reduced) { v.setValue(0); return undefined; }
     const anim = Animated.loop(
       Animated.sequence([
         Animated.timing(v, { toValue: 1, duration: 1700, easing: Easing.inOut(Easing.quad), useNativeDriver: true }),
@@ -37,12 +57,12 @@ function Float({ children, style }) {
     );
     anim.start();
     return () => anim.stop();
-  }, []);
+  }, [reduced]);
   const translateY = v.interpolate({ inputRange: [0, 1], outputRange: [0, -5] });
   return <Animated.View style={[style, { transform: [{ translateY }] }]}>{children}</Animated.View>;
 }
 
-function Stage({ children }) {
+export function Stage({ children }) {
   const { colors } = useTheme();
   return (
     <View
@@ -62,7 +82,7 @@ function Stage({ children }) {
   );
 }
 
-const bar = (w, bg = INKL, h = 7) => (
+export const bar = (w, bg = INKL, h = 7) => (
   <View style={{ width: w, height: h, borderRadius: 99, backgroundColor: bg }} />
 );
 
@@ -111,7 +131,7 @@ function SceneMail({ gold }) {
         <Float>
           <View style={{ width: 58, height: 78, backgroundColor: gold, borderRadius: 9, alignItems: 'center', paddingTop: 12 }}>
             <View style={{ width: 36, height: 6, borderRadius: 99, backgroundColor: 'rgba(0,0,0,0.4)' }} />
-            <Text style={{ position: 'absolute', bottom: 8, color: 'rgba(255,255,255,0.92)', fontSize: 8, fontWeight: '800', letterSpacing: 1.5 }}>VOTE</Text>
+            <Text style={{ position: 'absolute', bottom: 8, color: 'rgba(255,255,255,0.92)', fontSize: 8, fontWeight: '800', letterSpacing: 1.5 }}>{strings.scenes.vote}</Text>
           </View>
         </Float>
       </View>
@@ -167,7 +187,7 @@ function SceneDay({ gold }) {
         <Float style={{ alignItems: 'center' }}>
           <View style={{ width: 96, backgroundColor: PAPER, borderRadius: 8, overflow: 'hidden' }}>
             <View style={{ height: 20, backgroundColor: gold, alignItems: 'center', justifyContent: 'center' }}>
-              <Text style={{ color: 'rgba(255,255,255,0.95)', fontSize: 8, fontWeight: '800', letterSpacing: 2 }}>VOTE</Text>
+              <Text style={{ color: 'rgba(255,255,255,0.95)', fontSize: 8, fontWeight: '800', letterSpacing: 2 }}>{strings.scenes.vote}</Text>
             </View>
             <View style={{ height: 42, flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10, alignItems: 'center' }}>
               <View style={{ width: 14, height: 14, borderRadius: 3, backgroundColor: INKL }} />

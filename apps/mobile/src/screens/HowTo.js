@@ -1,62 +1,166 @@
 // How to vote, the prototype's chaptered guide, carried forward as a written
 // guide (no fake video player). Same chapters, same green info callout.
-import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { ScrollView, View, Text, Pressable, Linking } from 'react-native';
 import { Screen, H2, Body, Card, InfoCallout, BackBar, DarkCard } from '../ui';
 import { theme, useTheme, typography } from '../theme';
 import { useNav } from '../nav';
 import { VoteScene } from './VoteScenes';
+import { STATE_NAMES } from '../ballot';
+import { getBallotLocation } from '../api';
+import votingRules from '../data/voting-rules.json';
+import { strings } from '../strings';
+
+const S = strings.howTo;
+const R = S.rules;
 
 const { space } = theme;
 
-const CHAPTERS = [
-  { title: 'Before you go', body: 'Make sure you are registered, know where your polling place is, and bring an accepted photo ID just in case. Check your registration early, deadlines in many states fall weeks before Election Day.' },
-  { title: 'Vote by mail', body: 'Request your ballot online or by form. When it arrives, mark it at home, seal it in the signed return envelope exactly as instructed, and return it by mail or at an official drop box before the deadline. You can usually track it online to confirm it was counted.' },
-  { title: 'Vote early in person', body: 'Many areas open early-voting sites in the weeks before Election Day, often including evenings and weekends, and often any center in your area rather than one assigned place. Same ballot, usually shorter lines.' },
-  { title: 'Vote on Election Day', body: 'Go to your assigned polling place during open hours and bring an accepted photo ID if your state requires one. If you make a mistake, ask a poll worker for a fresh ballot. If you are in line when polls close, stay in line, you can still vote.' },
-  { title: 'Fill out your ballot', body: 'Vote every race you care about, follow the "vote for one" notes, and review your choices before you submit. Your M2V sample ballot is your plan, bring it (on your phone or printed) and copy your marks across.' },
-];
+// Per-state rules from data/voting-rules.json (bundled by the pipeline, {}
+// until the data lands). Each chapter picks the fields that belong to it. A
+// null field is shown as "we could not confirm this", never as a blank that
+// could read like "no deadline". The official site is always the final word.
+const RULE_ROWS = {
+  0: [ // Before you go
+    { key: 'registrationDeadline', label: R.registrationDeadline, noteKey: 'registrationDeadlineNote' },
+    { key: 'sameDayRegistration', label: R.sameDayRegistration, bool: { true: R.yesAvailable, false: R.notAvailable } },
+    { key: 'idRequirement', label: R.idRequirement },
+  ],
+  1: [ // Vote by mail
+    { key: 'mailBallotWhoCanRequest', label: R.mailWho },
+    { key: 'mailBallotRequestDeadline', label: R.mailRequestBy },
+    { key: 'mailBallotReturnDeadline', label: R.mailReturnBy, postmarkKey: 'mailBallotReturnIsPostmark' },
+  ],
+  2: [ // Vote early in person
+    { key: 'earlyVotingStart', label: R.earlyStart },
+    { key: 'earlyVotingEnd', label: R.earlyEnd },
+    { key: 'earlyVotingNote', label: R.note, optional: true },
+  ],
+};
+
+const UNCONFIRMED = R.unconfirmed;
+const MONTHS = R.months;
+// "2026-08-15" -> "August 15, 2026"; anything else passes through untouched.
+function spokenDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ''));
+  if (!m) return String(iso || '');
+  return R.spokenDate({ month: MONTHS[Number(m[2]) - 1] || m[2], day: Number(m[3]), year: m[1] });
+}
+
+function ruleValue(row, rules) {
+  const v = rules[row.key];
+  if (v === null || v === undefined || v === '') return row.optional ? null : UNCONFIRMED;
+  if (row.bool) return row.bool[String(!!v)];
+  let text = String(v);
+  if (row.postmarkKey && rules[row.postmarkKey] === true) text += R.postmarkCounts;
+  return text;
+}
+
+function StateRules({ chapterIndex, stateCode, rules }) {
+  const { colors } = useTheme();
+  const rows = RULE_ROWS[chapterIndex];
+  if (!rows || !stateCode) return null;
+  const name = STATE_NAMES[stateCode] || stateCode;
+  if (!rules) {
+    return (
+      <View style={{ marginTop: space(3), borderTopWidth: 1, borderTopColor: colors.line, paddingTop: space(3) }}>
+        <Body soft style={{ fontSize: 13 }}>
+          {R.notAdded({ name })}
+        </Body>
+      </View>
+    );
+  }
+  return (
+    <View style={{ marginTop: space(3), borderTopWidth: 1, borderTopColor: colors.line, paddingTop: space(3) }}>
+      <Text style={{ fontSize: 11.5, fontWeight: '800', letterSpacing: 1, color: colors.accent, marginBottom: 6 }}>
+        {name.toUpperCase()}
+      </Text>
+      {rows.map((row) => {
+        const value = ruleValue(row, rules);
+        if (value === null) return null;
+        const unconfirmed = value === UNCONFIRMED;
+        const note = row.noteKey ? rules[row.noteKey] : null;
+        return (
+          <View key={row.key} style={{ marginBottom: 6 }}>
+            <Body style={{ fontSize: 13.5, lineHeight: 20 }}>
+              <Text style={{ fontWeight: '700' }}>{R.rowLabel({ label: row.label })}</Text>
+              <Text style={unconfirmed ? { fontStyle: 'italic', color: colors.inkSoft } : null}>{value}</Text>
+            </Body>
+            {note ? <Body soft style={{ fontSize: 12.5, lineHeight: 18 }}>{note}</Body> : null}
+          </View>
+        );
+      })}
+      {rules.officialSiteUrl ? (
+        <Pressable
+          onPress={() => Linking.openURL(rules.officialSiteUrl)}
+          accessibilityRole="link"
+          accessibilityLabel={R.officialSiteA11y({ label: rules.officialSiteLabel || R.officialSite })}
+          style={{ alignSelf: 'flex-start', minHeight: 36, justifyContent: 'center' }}
+        >
+          <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 13, textDecorationLine: 'underline', marginTop: 4 }}>
+            {R.officialSiteLink({ label: rules.officialSiteLabel || R.officialSite })}
+          </Text>
+        </Pressable>
+      ) : null}
+      <Body soft style={{ fontSize: 12, marginTop: 4 }}>
+        {R.finalWord}
+        {rules.verifiedAt ? R.checkedOn({ date: spokenDate(rules.verifiedAt) }) : ''}
+      </Body>
+    </View>
+  );
+}
+
+const CHAPTERS = S.chapters;
 
 export function HowTo() {
   const { colors } = useTheme();
   const nav = useNav();
+  const [stateCode, setStateCode] = useState(null);
+  useEffect(() => {
+    let alive = true;
+    getBallotLocation().then(({ state }) => { if (alive) setStateCode(state); });
+    return () => { alive = false; };
+  }, []);
+  const rules = stateCode ? votingRules[stateCode] || null : null;
   return (
     <Screen>
-      <BackBar label="Home" onPress={() => nav.go({ name: 'home' }, { replace: true })} />
+      <BackBar label={S.home} onPress={() => nav.go({ name: 'home' }, { replace: true })} />
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
-        <Text style={[typography.display, { fontSize: 28, lineHeight: 34, color: colors.ink }]}>How to vote</Text>
+        <Text accessibilityRole="header" style={[typography.display, { fontSize: 28, lineHeight: 34, color: colors.ink }]}>{S.title}</Text>
         <Body soft style={{ fontSize: 14, marginTop: 4, marginBottom: space(3) }}>
-          A 3-minute guide to your options. Rules vary by state, your state's
-          official election site is always the final word.
+          {S.intro}
         </Body>
+        <Pressable onPress={() => nav.go({ name: 'roles' })} accessibilityRole="button" accessibilityLabel={S.rolesA11y} style={({ pressed }) => [{ marginBottom: space(3), minHeight: 44, justifyContent: 'center' }, pressed && { opacity: 0.7 }]}>
+          <Text style={{ color: colors.accent, fontWeight: '800', fontSize: 14 }}>
+            {S.rolesLink}
+          </Text>
+        </Pressable>
         <InfoCallout>
-          You don't need to be an expert to vote. Pick whichever way fits your
-          life, by mail, early, or on the day. Your vote counts the same.
+          {S.callout}
         </InfoCallout>
         {CHAPTERS.map((c, i) => (
           <Card key={c.title} style={{ paddingVertical: space(4) }}>
             <VoteScene index={i} />
             <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: space(2) }}>
-              <View style={{ width: 26, height: 26, borderRadius: 13, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center', marginRight: space(2.5) }}>
+              <View style={{ minWidth: 26, minHeight: 26, borderRadius: 999, paddingHorizontal: 6, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center', marginRight: space(2.5) }}>
                 <Text style={{ color: colors.accent, fontWeight: '800', fontSize: 13 }}>{i + 1}</Text>
               </View>
-              <Text style={[typography.display, { fontSize: 18, color: colors.ink }]}>{c.title}</Text>
+              <Text accessibilityRole="header" style={[typography.display, { fontSize: 18, color: colors.ink, flex: 1 }]}>{c.title}</Text>
             </View>
             <Body soft style={{ fontSize: 14, lineHeight: 21 }}>{c.body}</Body>
+            <StateRules chapterIndex={i} stateCode={stateCode} rules={rules} />
           </Card>
         ))}
         <DarkCard>
-          <Text style={[typography.display, { fontSize: 18, color: '#F6EFE4' }]}>Walk in with a plan</Text>
+          <Text style={[typography.display, { fontSize: 18, color: '#F6EFE4' }]}>{S.planTitle}</Text>
           <Text style={{ color: 'rgba(246,239,228,0.75)', fontSize: 13.5, lineHeight: 20, marginTop: 6, marginBottom: space(3) }}>
-            Mark your picks on your M2V sample ballot and bring it with you,
-            it's the fastest way to vote confidently, top to bottom.
+            {S.planBody}
           </Text>
-          <Text
-            onPress={() => nav.go({ name: 'ballot' })}
-            style={{ color: colors.accentBright, fontWeight: '800', fontSize: 15 }}
-          >
-            Review my ballot  →
-          </Text>
+          <Pressable onPress={() => nav.go({ name: 'ballot' })} accessibilityRole="button" accessibilityLabel={S.reviewA11y} style={{ alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center' }}>
+            <Text style={{ color: colors.accentBright, fontWeight: '800', fontSize: 15 }}>
+              {S.review}
+            </Text>
+          </Pressable>
         </DarkCard>
         <View style={{ height: space(6) }} />
       </ScrollView>

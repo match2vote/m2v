@@ -4,6 +4,9 @@ import { ScrollView, View, Pressable, Linking, Text } from 'react-native';
 import { Screen, H1, H2, Body, Card, Button } from '../ui';
 import { theme, useTheme } from '../theme';
 import { getCoverage } from '../ballot';
+import { strings } from '../strings';
+
+const S = strings.about;
 
 const { space } = theme;
 const CONTACT = 'match2vote@gmail.com';
@@ -14,80 +17,54 @@ export function About() {
   const P = (props) => <Body style={{ marginBottom: space(3), fontSize: 14 }} {...props} />;
   return (
     <Screen>
-      <H1>About M2V</H1>
+      <H1>{S.title}</H1>
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
         <Card>
-          <H2>Coverage right now</H2>
+          <H2>{S.coverageTitle}</H2>
           <Body style={{ fontSize: 15 }}>
-            <Text style={{ fontWeight: '800' }}>{cov.totalRaces} races · {cov.totalCandidates} candidates · {cov.states.length} states</Text>
-            {'\n'}Growing weekly through Election Day. We show only what we've
-            actually researched, that's a feature, not an apology.
+            <Text style={{ fontWeight: '800' }}>{S.coverageBold({ races: cov.totalRaces, candidates: cov.totalCandidates, states: cov.states.length })}</Text>
+            {S.coverageRest}
           </Body>
         </Card>
 
-        <H2>How matching works</H2>
-        <P>
-          You answer 10 questions. We compare your answers with what each
-          candidate has publicly said or done, bills signed or vetoed, roll-call
-          votes, lawsuits filed, statements on their own campaign site or in
-          reputable coverage. Every scored position links to its source.
-        </P>
-        <P>
-          A position is never inferred. If a candidate hasn't stated one, it stays
-          "Not stated", never guessed from their party or anything else. Party
-          labels are shown for identification only and play zero role in the math.
-        </P>
-        <P>
-          Your match percentage counts only the issues where you both weighed in.
-          Issues you star count double. If there's not enough info for a fair
-          number, we show a dash instead of a fake percentage.
-        </P>
-        <P>
-          Why two percentages aren't always comparable: a candidate with fewer
-          documented positions is scored on fewer of your issues. An 80% built
-          on 6 issues is a thinner claim than a 60% built on all 10, the missing
-          issues might be exactly where you'd disagree. That's why every score
-          shows its count ("across 8 of your 10 issues"), why we flag races
-          where candidates have different counts, and why the "your top match"
-          star is never given to a candidate who was scored on fewer issues
-          than a rival. We refuse to fix this by guessing missing positions:
-          unknown stays "Not stated," always.
-        </P>
-        <P>
-          Candidate rosters come from official FEC filings, refreshed nightly,
-          plus hand-maintained governor races. Anything illustrative is labeled
-          "Sample."
-        </P>
+        <H2>{S.howTitle}</H2>
+        <P>{S.how1}</P>
+        <P>{S.how2}</P>
+        <P>{S.how3}</P>
+        <P>{S.how4}</P>
+        <P>{S.how5}</P>
 
         <Card>
-          <H2>Spot an error?</H2>
+          <H2>{S.errorTitle}</H2>
           <Body style={{ fontSize: 14, marginBottom: space(2) }}>
-            If a position or source looks wrong, tell us, we review it against
-            the record and corrections go live within hours, no app update needed.
+            {S.errorBody}
           </Body>
           <Button
             kind="ghost"
-            label="Contact / report an error"
+            label={S.contact}
             onPress={() => Linking.openURL(`mailto:${CONTACT}?subject=M2V%20error%20report`)}
           />
           <Body soft style={{ fontSize: 12, textAlign: 'center' }}>{CONTACT}</Body>
         </Card>
 
         <Card>
-          <H2>Appearance</H2>
+          <H2>{S.appearance}</H2>
           <View style={{ flexDirection: 'row', gap: 8 }}>
             {['auto', 'light', 'dark'].map((m) => (
               <Pressable
                 key={m}
                 onPress={() => setMode(m)}
+                accessibilityRole="radio"
+                accessibilityState={{ selected: mode === m, checked: mode === m }}
+                accessibilityLabel={m === 'auto' ? S.modeAutoA11y : m === 'light' ? S.modeLightA11y : S.modeDarkA11y}
                 style={{
-                  flex: 1, paddingVertical: 10, borderRadius: 10, alignItems: 'center',
+                  flex: 1, paddingVertical: 10, borderRadius: 10, alignItems: 'center', minHeight: 44, justifyContent: 'center',
                   borderWidth: 1.5, borderColor: mode === m ? colors.accent : colors.line,
                   backgroundColor: mode === m ? colors.accentSoft : 'transparent',
                 }}
               >
                 <Text style={{ fontWeight: '700', color: mode === m ? colors.accent : colors.inkSoft }}>
-                  {m === 'auto' ? 'Auto' : m === 'light' ? 'Light' : 'Dark'}
+                  {m === 'auto' ? S.modeAuto : m === 'light' ? S.modeLight : S.modeDark}
                 </Text>
               </Pressable>
             ))}
@@ -97,21 +74,20 @@ export function About() {
         <Button
           kind="ghost"
           small
-          label="Open-source code & data (GitHub)"
+          label={S.github}
           onPress={() => Linking.openURL('https://github.com/match2vote/m2v')}
         />
         <Button
           kind="ghost"
           small
-          label="Privacy policy"
+          label={S.privacy}
           onPress={() => Linking.openURL('https://match2vote.github.io/m2v/privacy/')}
         />
         <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(3) }}>
-          M2V is nonpartisan. It favors no party and no candidate.
+          {S.nonpartisan}
         </Body>
         <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(1), marginBottom: space(3) }}>
-          Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit
-          organization based in Greenwich, Connecticut.
+          {S.org}
         </Body>
         <View style={{ height: space(6) }} />
       </ScrollView>

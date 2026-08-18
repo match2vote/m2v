@@ -81,7 +81,7 @@ export function About() {
           kind="ghost"
           small
           label={S.privacy}
-          onPress={() => Linking.openURL('https://match2vote.github.io/m2v/privacy/')}
+          onPress={() => Linking.openURL('https://app.match2vote.org/privacy/')}
         />
         <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(3) }}>
           {S.nonpartisan}

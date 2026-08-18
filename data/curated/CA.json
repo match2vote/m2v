@@ -7,12 +7,12 @@
       "statusNote": "Top-two primary held June 2. Xavier Becerra (D) and Steve Hilton (R) advanced to November. California has no U.S. Senate race in 2026."
     },
     "CA-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6CA01285",
         "fec-H6CA01269"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: James Gallagher (Republican, 42.1%) and Mike McGuire (Democrat, 41.8%). No incumbent advanced to the general election. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: James Gallagher (Republican, 42.1%) and Mike McGuire (Democrat, 41.8%). No incumbent advanced to the general election. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -26,7 +26,8 @@
           "label": "California Secretary of State, U.S. House District 1 districtwide returns",
           "url": "https://dp.electionresults.sos.ca.gov/returns/us-rep/district/1"
         }
-      ]
+      ],
+      "overlap": 7
     },
     "CA-house-2": {
       "status": "names-only",
@@ -74,7 +75,7 @@
         "fec-H8CA01109",
         "fec-H6CA04222"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -84,15 +85,17 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 5,
+      "heldBack": "Positions researched but held back: overlap 5 of 10, below the floor of 7. Match percentages would come from partly different question sets. Flip the candidates back to tier curated once a targeted round on the one-sided axes lifts the overlap."
     },
     "CA-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CA04152",
         "fec-H6CA05377"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Tom McClintock (Republican, 61.3%) and Michael Masuda (Democrat, 24.3%). Rep. Tom McClintock is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Tom McClintock (Republican, 61.3%) and Michael Masuda (Democrat, 24.3%). Rep. Tom McClintock is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -102,7 +105,8 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 9
     },
     "CA-house-6": {
       "status": "names-only",
@@ -110,7 +114,7 @@
         "fec-H2CA03157",
         "fec-H6CA03158"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Kevin Kiley (No party preference, 24.3%) and Richard Pan (Democrat, 23.2%). Rep. Kevin Kiley is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Kevin Kiley (No party preference, 24.3%) and Richard Pan (Democrat, 23.2%). Rep. Kevin Kiley is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -120,15 +124,17 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 4,
+      "heldBack": "Positions researched but held back: overlap 4 of 10, below the floor of 7. Match percentages would come from partly different question sets. Flip the candidates back to tier curated once a targeted round on the one-sided axes lifts the overlap."
     },
     "CA-house-7": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6CA07175",
         "fec-H6CA05195"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Mai Vang (Democrat, 31.2%) and Doris Matsui (Democrat, 29.1%). Rep. Doris Matsui is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Mai Vang (Democrat, 31.2%) and Doris Matsui (Democrat, 29.1%). Rep. Doris Matsui is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -138,7 +144,8 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 8
     },
     "CA-house-8": {
       "status": "names-only",
@@ -146,7 +153,7 @@
         "fec-H0CA10149",
         "fec-H2CA00153"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: John Garamendi (Democrat, 54.4%) and Rudy Recile (Republican, 27.8%). Rep. John Garamendi is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: John Garamendi (Democrat, 54.4%) and Rudy Recile (Republican, 27.8%). Rep. John Garamendi is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -156,7 +163,9 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 6,
+      "heldBack": "Positions researched but held back: overlap 6 of 10, below the floor of 7. Match percentages would come from partly different question sets. Flip the candidates back to tier curated once a targeted round on the one-sided axes lifts the overlap."
     },
     "CA-house-9": {
       "status": "names-only",
@@ -164,7 +173,7 @@
         "fec-H8CA10126",
         "fec-H4CA09101"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Josh Harder (Democrat, 60.8%) and John McBride (Republican, 23.3%). Rep. Josh Harder is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Josh Harder (Democrat, 60.8%) and John McBride (Republican, 23.3%). Rep. Josh Harder is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -174,7 +183,9 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "overlap": 4,
+      "heldBack": "Positions researched but held back: overlap 4 of 10, below the floor of 7. Match percentages would come from partly different question sets. Flip the candidates back to tier curated once a targeted round on the one-sided axes lifts the overlap."
     },
     "CA-house-10": {
       "status": "names-only",
@@ -182,7 +193,7 @@
         "fec-H0CA10073",
         "ca-house-10-frese"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Mark DeSaulnier (Democrat, 59.7%) and Jeff Frese (Republican, 12.9%). Rep. Mark DeSaulnier is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Mark DeSaulnier (Democrat, 59.7%) and Jeff Frese (Republican, 12.9%). Rep. Mark DeSaulnier is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -196,7 +207,9 @@
           "label": "California Secretary of State, U.S. House District 10 districtwide returns",
           "url": "https://dp.electionresults.sos.ca.gov/returns/us-rep/district/10"
         }
-      ]
+      ],
+      "overlap": 6,
+      "heldBack": "Positions researched but held back: overlap 6 of 10, below the floor of 7. Match percentages would come from partly different question sets. Flip the candidates back to tier curated once a targeted round on the one-sided axes lifts the overlap."
     },
     "CA-house-11": {
       "status": "names-only",
@@ -1168,7 +1181,71 @@
       "tier": "fec",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": "Contra Costa County, CA",
+      "now": "Small business owner",
+      "background": "Small business owner and father from Contra Costa County who has no FEC candidate record and ran a locally focused campaign, arguing his opponent is preoccupied with national and international matters. He advanced from the June 2, 2026 top-two primary against fourteen year incumbent Mark DeSaulnier in a district that has not elected a Republican in decades.",
+      "priorities": [
+        "Stop deficit spending that drives up mortgage rates and prices",
+        "Cut red tape that makes building slow and expensive",
+        "Back the police and stop the fentanyl pipeline"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": -1,
+        "housing": 0,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": 1,
+        "safety": 2,
+        "repro": null,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Stop the deficit spending that drives up mortgage rates and prices' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "health": {
+          "label": "'Cap insulin and cut prescription drug costs', a price intervention rather than a market competition remedy (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "housing": {
+          "label": "Mixed: would 'ban Wall Street and hedge funds from buying up single-family homes, homes are for families, not portfolios', while also promising to 'cut the red tape that makes building slow and expensive, communities decide how they grow, not Washington' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "taxes": {
+          "label": "'Reward work, let people keep more of what they earn' and 'no federal tax on teachers' salaries' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "education": {
+          "label": "'Money to classrooms, not bureaucrats', 'parents in charge', and 'back to basics, literacy, math, and critical thinking' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "safety": {
+          "label": "'Back the police. Prosecute crime', plus 'get serious about fentanyl' and 'stop the fentanyl pipeline' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        },
+        "democracy": {
+          "label": "Mixed: would 'require voter ID for federal elections' and 'use paper ballots as the permanent audit trail', while also wanting to 'make Election Day a national holiday' (campaign site)",
+          "url": "https://freseforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "Checked his campaign site at freseforcongress.com, which has no immigration plank, his BallotReady stance list, and his iVoterGuide profile, which records 'did not answer' on every question including immigration. No immigration position documented.",
+        "climate": "Checked the campaign site, which states no energy or climate position, his BallotReady stance list, whose nearest item is reducing wildfire risk through federal forest management, and his iVoterGuide profile marked 'did not answer'. Forest management alone does not place him on the clean energy transition versus expanded production axis.",
+        "repro": "Checked the campaign site, which has no abortion plank, his BallotReady stance list, and his iVoterGuide profile, which records 'did not answer' on the right to life section. No abortion position documented."
+      },
       "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://freseforcongress.com/"
+        },
+        {
+          "label": "BallotReady stances",
+          "url": "https://www.ballotready.org/people/jeff-frese"
+        },
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
           "url": "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf"
@@ -1177,7 +1254,8 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-17"
     },
     {
       "id": "ca-house-15-hoelter",
@@ -1409,6 +1487,1315 @@
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
       ]
+    },
+    {
+      "id": "fec-H6CA01285",
+      "name": "James Gallagher",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 45,
+      "home": "Sutter County, CA",
+      "now": "U.S. House of Representatives (CA-01)",
+      "background": "Attorney and partner in his family's farming operation who served in the California State Assembly from 2014 and was Assembly Republican leader from 2022 to 2025. He won the June 2, 2026 special election with 62.1 percent to fill the vacancy left by Doug LaMalfa's death and took office that month. He also advanced from the concurrent top-two primary for the full term, against Democrat Mike McGuire.",
+      "priorities": [
+        "Lower the cost of living through lower taxes, fees and regulation",
+        "Expand energy production to bring prices down",
+        "Tougher crime laws and continued border security"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 0,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Runs on 'expand energy production to bring prices down' and making life affordable 'through lower taxes, lower fees and fewer regulations' (campaign site)",
+          "url": "https://electjamesgallagher.com/"
+        },
+        "health": {
+          "label": "Mixed: 'I think we do need to restore the Medi-Cal funding, but not for illegal immigrants', while calling seismic mandates on rural hospitals 'crazy' and urging 'reasonable things to cut their costs' (NSPR interview)",
+          "url": "https://www.mynspr.org/news/2026-05-05/james-gallagher-interview-california-1st-congressional-district-2026-primary-election"
+        },
+        "housing": {
+          "label": "'You're never going to get there unless you reduce the input costs that go into market housing'; 'you have to remove those barriers that get in the way of building the project' (Chico News and Review)",
+          "url": "https://chico.newsreview.com/2026/05/11/cnr-interview-with-assemblyman-james-gallagher/"
+        },
+        "immigration": {
+          "label": "Campaign pledge to 'continue the tough border security implemented by the President' (campaign site)",
+          "url": "https://electjamesgallagher.com/"
+        },
+        "taxes": {
+          "label": "Campaign pledge to 'make life more affordable for North State families through lower taxes, lower fees and fewer regulations' (campaign site)",
+          "url": "https://electjamesgallagher.com/"
+        },
+        "climate": {
+          "label": "'The high gas prices in California are a result of California policy'; says 'you need to streamline the overly complicated environmental regulations' (Chico News and Review)",
+          "url": "https://chico.newsreview.com/2026/05/11/cnr-interview-with-assemblyman-james-gallagher/"
+        },
+        "safety": {
+          "label": "Campaign pledge to 'enact tougher laws protect our communities, neighborhoods and homes from crime' (campaign site)",
+          "url": "https://electjamesgallagher.com/"
+        }
+      },
+      "nullNotes": {
+        "education": "Checked the campaign site, which states no K-12 position, the Chico News and Review and NSPR primary interviews, and Ballotpedia, which records he filed no Candidate Connection survey in 2014, 2020, 2022 or 2024. His only education items are expanding community college vocational programs in nursing, logging and forestry, and a general parental rights line, neither of which maps onto the public investment versus school choice axis.",
+        "repro": "Checked the campaign site, which states no abortion position, both 2026 primary interviews, Ballotpedia and Wikipedia. No abortion position is documented in this race.",
+        "democracy": "Checked the campaign site, which states no elections position, both primary interviews and Ballotpedia. His only elections item is opposing partisan redistricting after Proposition 50, which is not a voting access or voter ID position and does not map onto this axis."
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://electjamesgallagher.com/"
+        },
+        {
+          "label": "NSPR interview, 2026 primary",
+          "url": "https://www.mynspr.org/news/2026-05-05/james-gallagher-interview-california-1st-congressional-district-2026-primary-election"
+        },
+        {
+          "label": "Wikipedia: 2026 CA-01 special election",
+          "url": "https://en.wikipedia.org/wiki/2026_California%27s_1st_congressional_district_special_election"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA01285/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA01269",
+      "name": "Mike McGuire",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 47,
+      "home": "Healdsburg, CA",
+      "now": "California State Senate, District 2",
+      "background": "State senator for California's 2nd District since 2014 and president pro tempore of the State Senate from February 2024 until November 2025, the first North Coast senator to lead the chamber since 1866. He was elected to the Healdsburg School Board at 19 and later served on the city council and the Sonoma County Board of Supervisors. He advanced from the June 2, 2026 top-two primary to face Republican James Gallagher in November.",
+      "priorities": [
+        "Pass Medicare for All and keep rural hospitals open",
+        "Lower costs for working families and take on corporate price gouging",
+        "Wildfire protection and doubling the CalFire firefighting force"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -2,
+        "education": null,
+        "safety": 1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Lowering Costs for Working Families' plank: 'I'll raise wages, take on corporate price gouging, and fight to bring down the cost of living' (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "health": {
+          "label": "'Healthcare can't just be for the wealthy few'; 'In Congress, I'll fight to pass Medicare for All and keep rural hospitals open' (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "housing": {
+          "label": "'Tackling the Cost of Housing' plank backs affordable housing investments and renter protections (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "immigration": {
+          "label": "Runs a 'Holding ICE Accountable' plank opposing what he calls the weaponization of government against Americans: 'I won't back down from that fight' (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "taxes": {
+          "label": "'Making Billionaires Pay Their Fair Share' plank: 'Here in California, I've made billionaires pay their fare share' and 'I've taken on big corporations and won' (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "climate": {
+          "label": "'I've led the fight for stronger environmental laws and climate action, and taken on Big Oil'; 'Fighting for Climate Action' plank pledges wildfire prevention investment (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "safety": {
+          "label": "As Senate leader fast-tracked the 2024 retail theft package, including retail crime restraining orders and cross-jurisdictional charging: they 'give prosecutors, judges and law enforcement the enhanced tools they need'; his remarks address no treatment or prevention element (California Senate)",
+          "url": "https://sd02.senate.ca.gov/news/pro-tem-mcguire-speaker-rivas-fast-track-retail-theft-legislation-make-california-safer"
+        },
+        "repro": {
+          "label": "'Women, not politicians, should make their own healthcare decisions'; 'I'll defend reproductive freedom, protect access to contraception and IVF, and make these rights the law of the land, once and for all' (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        "democracy": {
+          "label": "'Defending Democracy and Our Rights' plank centers protecting voting rights and civil rights, with a separate plank to overturn Citizens United (campaign issues)",
+          "url": "https://www.votemikemcguire.com/issues"
+        }
+      },
+      "nullNotes": {
+        "education": "Read the full issues page, all twelve planks: education appears only inside 'Creating Good Jobs and Investing in Rural Communities' as job training and broadband. Also checked the NSPR primary interview, where his education items are community college career academies and college affordability, plus Ballotpedia and Wikipedia. Nothing maps onto the K-12 public investment versus school choice axis."
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.votemikemcguire.com/issues"
+        },
+        {
+          "label": "NSPR interview, 2026 primary",
+          "url": "https://www.mynspr.org/news/2026-05-05/mike-mcguire-interview-california-1st-congressional-district-2026"
+        },
+        {
+          "label": "Ballotpedia: Mike McGuire",
+          "url": "https://ballotpedia.org/Mike_McGuire"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA01269/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H8CA01109",
+      "name": "Mike Thompson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 75,
+      "home": "St. Helena, CA",
+      "now": "U.S. House of Representatives (CA-04)",
+      "background": "Vietnam veteran and Napa Valley vineyard manager who served in the California State Senate before winning his U.S. House seat in 1998, making this his fourteenth term. He is ranking member of the Ways and Means Subcommittee on Tax Policy and a member of the Blue Dog Coalition. He led the primary field on June 2, 2026 and faces fellow Democrat Eric Jones in November under California's top-two system.",
+      "priorities": [
+        "Treat health care as a right and reverse the Medicaid cuts",
+        "Transition away from fossil fuels",
+        "Tax policy that does not cut rates for million dollar earners"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'I believe health care is a right. Congress must work to help everyone in America gain access to quality, affordable health care' (official House site)",
+          "url": "https://mikethompson.house.gov/issues"
+        },
+        "housing": {
+          "label": "'Lack of affordable housing is devastating California families'; works through Ways and Means and Appropriations on Low-Income Housing Tax Credits and federal assistance (official House site)",
+          "url": "https://mikethompson.house.gov/issues/housing"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        "taxes": {
+          "label": "'I'm of a strong belief that if you're making a million bucks a year, you don't need any tax help in this environment' (Davis Vanguard)",
+          "url": "https://davisvanguard.org/2026/08/mike-thompson-congress-fight/"
+        },
+        "climate": {
+          "label": "'I strongly support investing in land conservation, acting to prevent climate change and transitioning to a clean energy economy' (official House site)",
+          "url": "https://mikethompson.house.gov/issues"
+        },
+        "education": {
+          "label": "'Congress must invest in early childhood, special, technical and higher education programs' (official House site)",
+          "url": "https://mikethompson.house.gov/issues"
+        },
+        "repro": {
+          "label": "Pro-choice despite being Roman Catholic; called the overturning of Roe v. Wade 'an assault on women' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Thompson_(California_politician)"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, which would require documentary proof of citizenship to register to vote, on passage April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Checked his official House issues page, which addresses the economy only as 'a good-paying job that helps them provide for their families', the August 2026 Davis Vanguard interview, where he says 'people are struggling' without naming a mechanism, and Wikipedia. No price, wage or subsidy position documented.",
+        "safety": "Checked his official House issues page, which contains no crime content, the Davis Vanguard interview and Wikipedia. The only item is a 2015 proposal for tougher penalties on illegal marijuana growers on trespassed land, which is too narrow to place him on the prevention versus enforcement axis."
+      },
+      "sources": [
+        {
+          "label": "Official House issues page",
+          "url": "https://mikethompson.house.gov/issues"
+        },
+        {
+          "label": "Davis Vanguard interview, August 2026",
+          "url": "https://davisvanguard.org/2026/08/mike-thompson-congress-fight/"
+        },
+        {
+          "label": "Wikipedia: Mike Thompson",
+          "url": "https://en.wikipedia.org/wiki/Mike_Thompson_(California_politician)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CA01109/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA04222",
+      "name": "Eric Jones",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Napa County, CA",
+      "now": "Investor and nonprofit founder",
+      "background": "First generation college graduate who attended Yale on a full scholarship and became a partner at the investment firm Dragoneer, with earlier work at companies including Lyra Health, Duolingo and Chime. He and his wife founded the Rachel and Eric Jones Foundation and the American Dream Institute. A political newcomer, he outraised the fourteen term incumbent and finished second in the June 2, 2026 top-two primary, setting up an all Democratic November race against Mike Thompson.",
+      "priorities": [
+        "A working class tax refund paid for by ending corporate tax dodging",
+        "Expand Medicare and lower prescription drug costs",
+        "End PG&E monopoly abuses and lower utility bills"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform is 'end PG&E's monopoly and lower your utility bills', a 'Working Class Refund & Tax Cut', 'lower prescription drug costs' through negotiation and 'make rent tax-deductible' (campaign site)",
+          "url": "https://www.ericjones.us/"
+        },
+        "health": {
+          "label": "Backs Medicare for All along with expanded coverage for dental, vision and hearing care (KQED)",
+          "url": "https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman"
+        },
+        "housing": {
+          "label": "Campaign themes 'Zero-Down Pathways to Homeownership' and 'Investing in Affordable Housing', backing 'major federal investments to build housing that workers, families, and seniors can afford' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        },
+        "immigration": {
+          "label": "'Tackling Immigration' theme calls for 'a humane, orderly, and fair immigration system that keeps families together, strengthens our economy, and restores accountability' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        },
+        "taxes": {
+          "label": "'The core of my platform is forcing corporations to actually follow the tax code we have on the books, closing corporate loopholes, and using that money to fund a tax cut for the working class in this country' (KQED)",
+          "url": "https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman"
+        },
+        "climate": {
+          "label": "Campaign themes include support for 'union jobs' and 'clean energy' investments (Ballotpedia)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        }
+      },
+      "nullNotes": {
+        "education": "Checked the campaign site platform list, the Ballotpedia profile, which records no 2026 Candidate Connection survey, and the KQED and Davis Vanguard race coverage. Education appears only as a general reference to restoring the American Dream through education access, with no position on public school funding or school choice.",
+        "safety": "Checked the campaign site platform list, which has no crime plank, the Ballotpedia profile and the KQED and Davis Vanguard race coverage. No crime or policing position documented.",
+        "repro": "Checked the campaign site platform list, the Ballotpedia profile and the KQED and Davis Vanguard race coverage. The closest item is 'expanding access to affordable women's health care' on his biography page, which does not state an abortion position.",
+        "democracy": "Checked the campaign site platform list, the Ballotpedia profile and race coverage. His democracy items are 'ban members of Congress from trading stocks', '12-year term limits' and 'end gerrymandering, everywhere', none of which is a voting access or voter ID position and none of which maps onto this axis."
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.ericjones.us/"
+        },
+        {
+          "label": "Ballotpedia: Eric Jones (California)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        },
+        {
+          "label": "KQED: primary result and platform",
+          "url": "https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA04222/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H8CA04152",
+      "name": "Thomas McClintock",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 70,
+      "home": null,
+      "now": "U.S. House of Representatives (CA-05)",
+      "background": "One of the longest serving fiscal conservatives in California politics, with nearly two decades in the state legislature and two runs for governor before winning his U.S. House seat in 2008. He sits on the Natural Resources, Judiciary and Budget committees and is a consistent vote against federal spending. He led the June 2, 2026 top-two primary and faces Democrat Michael Masuda in November.",
+      "priorities": [
+        "Cut federal spending, subsidies, grants and earmarks",
+        "Open up resource and energy production",
+        "Repeal the Affordable Care Act and restore market competition in health care"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 0,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'I continue to believe that the roots of all fiscal evil are subsidies, grants and earmarks'; argues subsidies 'force up prices for all' (official House site)",
+          "url": "https://mcclintock.house.gov/issues/fiscal-and-economic"
+        },
+        "health": {
+          "label": "'Price controls, which date back to Hammurabi's Code, consistently and unerringly produce a shortage of whatever commodity they're trying to control'; voted against drug price controls in H.R. 3 and for the American Health Care Act (official House site)",
+          "url": "https://mcclintock.house.gov/issues/healthcare"
+        },
+        "housing": {
+          "label": "'The high cost of housing is the product of bad public policy that has imposed expensive mandates on construction, limited the permits that can be issued, restricted the land available for housing, and flooded the market with subsidies' (official House site)",
+          "url": "https://mcclintock.house.gov/issues/fiscal-and-economic"
+        },
+        "immigration": {
+          "label": "Voted against the Fairness for High-Skilled Immigrants Act, against the appropriations increase in H-2B visas, and against barring ICE from acting on information about sponsors of unaccompanied children (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_McClintock"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, on July 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Frames resource limits as the problem: 'the very things that make us prosperous and comfortable are the things the left attempts to put off limits'; spoke on the House floor for H.R. 3109, the REFINER Act (official House site)",
+          "url": "https://mcclintock.house.gov/issues/energy"
+        },
+        "education": {
+          "label": "On the elimination of the DC voucher program, 'what a pity it is to remove the only part of the nation's education system that actually works'; calls No Child Left Behind 'a disaster' (official House site)",
+          "url": "https://mcclintock.house.gov/issues/education"
+        },
+        "safety": {
+          "label": "Mixed: authored California's lethal injection death penalty provision, but voted against qualified immunity for police in 2020 and cosponsored the Ending Qualified Immunity Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_McClintock"
+        },
+        "repro": {
+          "label": "Voted for H.R. 36, the Pain-Capable Unborn Child Protection Act, which would ban abortion after twenty weeks (Ballotpedia key votes)",
+          "url": "https://ballotpedia.org/Tom_McClintock"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, requiring documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {},
+      "sources": [
+        {
+          "label": "Official House issues pages",
+          "url": "https://mcclintock.house.gov/issues"
+        },
+        {
+          "label": "Ballotpedia: Tom McClintock",
+          "url": "https://ballotpedia.org/Tom_McClintock"
+        },
+        {
+          "label": "Wikipedia: Tom McClintock",
+          "url": "https://en.wikipedia.org/wiki/Tom_McClintock"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CA04152/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA05377",
+      "name": "Michael Masuda",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 37,
+      "home": "Amador County, CA",
+      "now": "Electrical engineer, former U.S. State Department diplomat",
+      "background": "Electrical engineer who spent seven years in defense research before serving three and a half years as a State Department diplomat working on science and technology policy. He grew up in Amador County and is the only Democrat in the race who lives inside the district. He advanced from the June 2, 2026 top-two primary against sixteen year incumbent Tom McClintock, running on rural cost of living, wildfire and hospital access.",
+      "priorities": [
+        "Lower housing, health care and energy costs in rural CA-5",
+        "Wildfire risk reduction and keeping home insurance available",
+        "Keep rural hospitals and clinics open"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": 1,
+        "education": -2,
+        "safety": -1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Affordability plank targets 'major cost drivers: housing, healthcare, and energy', promises to 'reduce out-of-pocket expenses without shifting costs elsewhere' and to 'increase transparency where pricing is disconnected from real costs' (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "health": {
+          "label": "Would 'protect Medicare and Medi-Cal', 'reduce prescription drug and out-of-pocket costs' and 'strengthen oversight to address cost drivers', and says 'I'm not going to vote to repeal the Affordable Care Act' (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "housing": {
+          "label": "Mixed: would 'expand proven federal programs that finance affordable housing' and back prevention focused homelessness programs, while also promising to 'lower the cost of building' by streamlining federal delays (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "immigration": {
+          "label": "Mixed: 'secure the border, enforce the law' and 'prioritize removal of individuals who pose public safety risks', alongside 'expand and modernize legal pathways' and 'provide an earned, lawful path forward' with 'certainty for Dreamers' (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "taxes": {
+          "label": "Faults the incumbent for 'backing tax cuts that benefit corporations and the wealthy' while voting against rural hospital and wildfire funding (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "climate": {
+          "label": "Energy plank is framed on cost and reliability, not emissions: 'reduce energy costs and improve reliability', 'support locally driven energy solutions, including biomass', 'focus on stable, predictable energy costs' (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "education": {
+          "label": "Focus is 'strengthening public education': increase special education investment, 'reduce class sizes', address teacher shortages, and 'strengthen programs like Title I and IDEA' (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "safety": {
+          "label": "Safety items are prevention side only: 'support prevention-focused approaches to student safety', expand school based mental health, and 'support treatment and recovery-focused programs' for addiction (campaign issues)",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        "democracy": {
+          "label": "On election fraud, 'I firmly believe that it just does not exist at a level that is impacting our elections' (The Modesto Focus)",
+          "url": "https://themodestofocus.org/watch-facing-uphill-climb-against-entrenched-incumbent-michael-masuda-makes-his-case-for-the-us-house/"
+        }
+      },
+      "nullNotes": {
+        "repro": "Read the full issues page, all ten sections: there is no abortion plank, and the LGBTQ+ section's health line is about 'medically appropriate care' generally. Also checked the Turlock Journal profile and The Modesto Focus interview, neither of which raises abortion. No abortion position documented."
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.votemasuda.com/issues"
+        },
+        {
+          "label": "The Modesto Focus interview",
+          "url": "https://themodestofocus.org/watch-facing-uphill-climb-against-entrenched-incumbent-michael-masuda-makes-his-case-for-the-us-house/"
+        },
+        {
+          "label": "Turlock Journal profile",
+          "url": "https://www.turlockjournal.com/news/government/democrat-masuda-seeking-to-unseat-mcclintock-for-ca-5/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA05377/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H2CA03157",
+      "name": "Kevin Kiley",
+      "party": "OTHER",
+      "office": "us-house",
+      "district": "6",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 41,
+      "home": "Rocklin, CA",
+      "now": "U.S. House of Representatives (CA-06)",
+      "background": "Former high school teacher, deputy attorney general and California state legislator who ran in the 2021 recall election against Gavin Newsom before winning a House seat in 2022. He left the Republican Party in March 2026 and is running for reelection as an independent, which is why the FEC record carries no major party. He advanced from the June 2, 2026 top-two primary against Democrat Richard Pan.",
+      "priorities": [
+        "Roll back state mandates that raise the cost of living",
+        "Expand school choice through education tax credits",
+        "Limit state taxing power over former residents"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Voted yes on H.R. 1, the One Big Beautiful Bill Act, the law that cut Medicaid, on July 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "housing": {
+          "label": "In his 2021 recall campaign: 'the cost of living in California, especially housing, which gets worse every year as a result of deliberate policy choices even as lawmakers claim they are addressing the problem' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Kevin_Kiley"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, which made the 2017 tax cuts permanent, on July 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Acknowledges climate change is real but opposes state mandates, having fought Newsom's order requiring zero emission vehicles by 2035 and the 2045 oil drilling ban, and moved to end federal funding for High-Speed Rail (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Kiley_(politician)"
+        },
+        "education": {
+          "label": "Supports charter schools and school choice, criticized teachers' unions as overly powerful, and authored 2018 legislation making it easier for students to transfer school districts (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Kiley_(politician)"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, requiring documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Checked his official House site, which carries legislative news rather than issue pages, Wikipedia and Ballotpedia, which records no Candidate Connection survey in 2020, 2021, 2022, 2024 or 2026. His one cost of living statement is about housing specifically and is scored there rather than counted twice.",
+        "safety": "Checked his official House site, Wikipedia and Ballotpedia. The nearest item is a 2021 proposal to audit homelessness spending, which is a spending accountability position rather than a policing or sentencing one.",
+        "repro": "Checked his official House site, Wikipedia and Ballotpedia, which records no Candidate Connection survey for any year. Advocacy group scorecards exist but the run book bars citing an aggregator in place of the underlying vote, and no underlying abortion vote of his was located."
+      },
+      "sources": [
+        {
+          "label": "Official House site",
+          "url": "https://kiley.house.gov/"
+        },
+        {
+          "label": "Wikipedia: Kevin Kiley",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Kiley_(politician)"
+        },
+        {
+          "label": "Ballotpedia: Kevin Kiley",
+          "url": "https://ballotpedia.org/Kevin_Kiley"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA03157/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA03158",
+      "name": "Richard Pan",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "6",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 60,
+      "home": null,
+      "now": "Pediatrician and professor at UC Davis",
+      "background": "Pediatrician and UC Davis professor who led the university's pediatric residency program before serving in the California Assembly and State Senate from 2010 to 2022. He is best known for Senate Bill 277, the 2015 law that ended personal belief exemptions to school vaccine requirements after a measles outbreak. He says the dismantling of federal public health work under RFK Jr. is what pushed him to run, and he advanced from the June 2, 2026 top-two primary against Kevin Kiley.",
+      "priorities": [
+        "Stop the gutting of the Affordable Care Act and protect Medicare",
+        "Lower prescription drug and health care costs",
+        "Restore science and public health to federal policy"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Passed laws that cut the price of insulin' and pledges to 'control the cost of prescription drugs and health care' (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "health": {
+          "label": "Would 'stop Trump from gutting the Affordable Care Act, protect Medicare' and 'stop insurance companies from denying critical care prescribed by doctors' (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "housing": {
+          "label": "'Passed legislation to help families with housing costs' (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "immigration": {
+          "label": "Will 'fight for a path to citizenship' and would overhaul ICE so it enforces the law fairly and protects constitutional rights (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "safety": {
+          "label": "Would 'invest in first responders, mental health grants, and community-based violence prevention programs that stop crime before people are hurt' (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "repro": {
+          "label": "Would 'work to codify Roe' and has ensured coverage for abortion access and contraception (campaign site)",
+          "url": "https://drpanforcongress.com/"
+        },
+        "democracy": {
+          "label": "Faults Kiley as 'unwilling to truly challenge the president when he commits things like trying to challenge a free and fair election', and says 'our constitution counts on us, the people and our elected leaders, to actually look out for it' (campaign release)",
+          "url": "https://drpanforcongress.com/news/dccc-dr-richard-pan-kicks-off-general-election-campaign-to-put-california-families-first"
+        }
+      },
+      "nullNotes": {
+        "taxes": "Checked the campaign site, which has no tax plank, the general election kickoff release, Ballotpedia, which records no Candidate Connection survey, and Wikipedia. The only tax item in the race is Kiley's charge that Pan cast the deciding vote for the state gas tax, which is an opponent's claim and a fuel levy rather than a position on corporate or high earner rates.",
+        "climate": "Checked the campaign site, whose only environment line is to 'fight for facts and science to guide federal policy on the environment', the kickoff release, Ballotpedia and Wikipedia. Nothing states a direction on clean energy transition versus expanded production.",
+        "education": "Checked the campaign site, the kickoff release, Ballotpedia and Wikipedia. His education items are 'loan relief for educational debt' and workforce training and apprenticeships, which do not map onto the public school investment versus school choice axis."
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://drpanforcongress.com/"
+        },
+        {
+          "label": "Campaign general election kickoff",
+          "url": "https://drpanforcongress.com/news/dccc-dr-richard-pan-kicks-off-general-election-campaign-to-put-california-families-first"
+        },
+        {
+          "label": "Wikipedia: Richard Pan",
+          "url": "https://en.wikipedia.org/wiki/Richard_Pan"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA03158/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA05195",
+      "name": "Doris Matsui",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "7",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 81,
+      "home": null,
+      "now": "U.S. House of Representatives (CA-07)",
+      "background": "Born in the Poston internment camp in Arizona and raised in Dinuba, she worked in the Clinton White House before winning the Sacramento seat in a 2005 special election following the death of her husband, Congressman Robert Matsui. She is a senior member of the Energy and Commerce Committee and worked on passage of the Affordable Care Act. She faces fellow Democrat Mai Vang in November after the June 2, 2026 top-two primary.",
+      "priorities": [
+        "Defend and build on the Affordable Care Act",
+        "Make Sacramento a clean energy hub and reach 100 percent clean energy by 2030",
+        "Universal access to quality education from pre-K through college"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign credits her with helping 'lower prescription drug prices' from the Energy and Commerce Committee (campaign site)",
+          "url": "https://matsuiforcongress.com/"
+        },
+        "health": {
+          "label": "'At its core, the Patient Protection and Affordable Care Act is about providing affordable access to high quality health coverage for all Americans'; led creation of the ACA's Prevention and Public Health Fund (official House site)",
+          "url": "https://matsui.house.gov/issues/health-care"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        "taxes": {
+          "label": "Favors progressive taxation and closing offshore business loopholes, and opposed extending capital gains and dividend tax breaks (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doris_Matsui"
+        },
+        "climate": {
+          "label": "Works to 'bring clean energy technology to Sacramento' and backs 'clean school buses and 100% clean energy by 2030'; opposes offshore drilling and fossil fuel subsidies (official House site)",
+          "url": "https://matsui.house.gov/issues/clean-energy-and-climate"
+        },
+        "education": {
+          "label": "'Universal access to quality education is one of Congresswoman Matsui's top priorities'; works with local school districts on federal grants and supports the Pell Grant program against cuts (official House site)",
+          "url": "https://matsui.house.gov/issues/education"
+        },
+        "repro": {
+          "label": "Called the Dobbs decision overturning Roe v. Wade 'devastating' and said she was 'deeply heartbroken and angered' by it (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doris_Matsui"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, which would require documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "Checked her official House issues index, which lists health care, clean energy and climate, education and economy and jobs but no housing page, her campaign site, and Wikipedia, which states nothing on housing. No housing position documented.",
+        "safety": "Checked her official House issues index, which has no crime page, her campaign site and Wikipedia. Her only public safety material is gun regulation, including ammunition purchase limits and the gun show loophole, and the run book excludes gun stances from this axis."
+      },
+      "sources": [
+        {
+          "label": "Official House issues pages",
+          "url": "https://matsui.house.gov/issues"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://matsuiforcongress.com/"
+        },
+        {
+          "label": "Wikipedia: Doris Matsui",
+          "url": "https://en.wikipedia.org/wiki/Doris_Matsui"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA05195/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6CA07175",
+      "name": "Mai Vang",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "7",
+      "state": "CA",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Sacramento, CA",
+      "now": "Sacramento City Council, District 8",
+      "background": "Daughter of Hmong refugees, born in Sacramento, who served on the Sacramento City Unified School Board before winning a city council seat in 2020, and who lectures in ethnic studies at Sacramento State. On the council she created the city's first Children's Fund and secured its first citywide language access coordinator. She says increased ICE activity in the region is what pushed her to run, and she would be the first Hmong American in Congress.",
+      "priorities": [
+        "Medicare for All to guarantee healthcare as a right",
+        "Abolish ICE and create a comprehensive pathway to citizenship",
+        "Take on corporate landlords and build a Federal Renters' Bill of Rights"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform is to break up monopolies, take on price gouging, raise the minimum wage tied to inflation, and guarantee paid family leave and sick days (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "health": {
+          "label": "Commits to 'Medicare for All to guarantee healthcare as a right', plus eliminating medical debt and cutting prescription costs (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "housing": {
+          "label": "Would massively increase federal construction funding, bar corporations from buying single family homes, and establish a 'Federal Renters' Bill of Rights' with eviction protections (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "immigration": {
+          "label": "Platform centers abolishing ICE, defunding deportation machinery and closing for-profit detention, alongside 'a comprehensive pathway to citizenship' (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "taxes": {
+          "label": "'I'll vote to make billionaires pay their fair share and close corporate loopholes so we can invest that money back into the communities that need it' (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "climate": {
+          "label": "Backs transitioning to clean energy with 'good-paying jobs', holding polluters accountable, and directing 'at least 40% of federal climate dollars to communities most impacted by pollution' (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "education": {
+          "label": "'I'll fight to protect their funding and resist efforts to divert public dollars to charter schools or private voucher programs'; also backs free public college tuition (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "safety": {
+          "label": "Opposes police militarization in schools and backs restorative justice; was the sole council vote against renewing ShotSpotter gunshot detection, citing false positive rates (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mai_Vang"
+        },
+        "repro": {
+          "label": "Treats 'reproductive care as healthcare' and would codify abortion rights federally and oppose contraception restrictions (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "democracy": {
+          "label": "Platform is to protect voting rights and reverse Citizens United by constitutional amendment; she has organized for 'Vote 16' initiatives to extend the franchise to sixteen year olds (campaign platform)",
+          "url": "https://www.maiforus.com/platform"
+        }
+      },
+      "nullNotes": {},
+      "sources": [
+        {
+          "label": "Campaign platform",
+          "url": "https://www.maiforus.com/platform"
+        },
+        {
+          "label": "Wikipedia: Mai Vang",
+          "url": "https://en.wikipedia.org/wiki/Mai_Vang"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA07175/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H0CA10149",
+      "name": "John Garamendi",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "8",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 81,
+      "home": null,
+      "now": "U.S. House of Representatives (CA-08)",
+      "background": "Raised on a cattle ranch in Mokelumne Hill, he served in the California legislature, as the state's first elected insurance commissioner, as deputy interior secretary under President Clinton and as lieutenant governor before winning a House seat in a 2009 special election. He works on maritime, agriculture and armed services issues. He advanced from the June 2, 2026 top-two primary against Republican Rudy Recile.",
+      "priorities": [
+        "Good-paying jobs and closing the gap between the wealthy and working families",
+        "Increase funding for federal housing and homelessness programs",
+        "Criminal justice reform that addresses systemic bias"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'My top priorities in Congress are creating good-paying jobs for Americans and combating the growing gap between the wealthy and working families'; 'I was proud to vote in support of the Inflation Reduction Act' (official House site)",
+          "url": "https://garamendi.house.gov/legislative-work/issues/economy-and-jobs/"
+        },
+        "health": {
+          "label": "Cosponsored the Medicare for All Act of 2021 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_Garamendi"
+        },
+        "housing": {
+          "label": "'I consistently advocate to increase funding for federal housing programs and ensure no American is priced out of a home'; secured low income housing construction money and backs Homeless Assistance Program funding (official House site)",
+          "url": "https://garamendi.house.gov/legislative-work/issues/housing/"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        "taxes": {
+          "label": "Called the 2017 Tax Cuts and Jobs Act a 'tax scam' benefiting the wealthy and corporations rather than middle class Americans (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_Garamendi"
+        },
+        "climate": {
+          "label": "Backed the Green New Deal: 'I welcome the energy and commitment of the supporters of H.Res.109, and I join with them as I continue my decades-long effort to stop Climate Change' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_Garamendi"
+        },
+        "education": {
+          "label": "'I have consistently spoken out against the destructive cuts to all levels of education and am a fierce advocate for both students and teachers'; page states no support for vouchers or choice (official House site)",
+          "url": "https://garamendi.house.gov/legislative-work/issues/education/"
+        },
+        "safety": {
+          "label": "Original cosponsor of the George Floyd Justice in Policing Act; frames safety around eliminating 'systemic bias and racism' and says safety 'cannot be advanced without practical criminal justice reforms that foster equity' (official House site)",
+          "url": "https://garamendi.house.gov/legislative-work/issues/public-safety-and-criminal-justice-reform/"
+        },
+        "repro": {
+          "label": "Called Roe v. Wade a 'fundamental human right to bodily autonomy' and called the 2022 decision overturning it 'devastating' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_Garamendi"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, which would require documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {},
+      "sources": [
+        {
+          "label": "Official House issues pages",
+          "url": "https://garamendi.house.gov/issues"
+        },
+        {
+          "label": "Wikipedia: John Garamendi",
+          "url": "https://en.wikipedia.org/wiki/John_Garamendi"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0CA10149/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H2CA00153",
+      "name": "Rudy Recile",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "8",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Small web design business owner",
+      "background": "Retired U.S. Army major who served from 1988 to 2014, then worked as a data manager at the U.S. Department of Agriculture before starting a small web design company. Born in Hamilton, Ontario, he holds a bachelor's degree from Eastern Illinois University and a graduate degree from the National Graduate School, and is active in Republican organizations in Solano and Yolo counties. This is his third run for the seat, and he advanced from the June 2, 2026 top-two primary against John Garamendi.",
+      "priorities": [
+        "A flat or fair tax and control of federal spending",
+        "Secure the border and enforce current immigration law",
+        "Let education money follow the child"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Names 'Reducing Inflation' as a 2024 priority and offers no price or wage mechanism for it beyond 'I would work to reduce taxes across the board' and controlling federal spending (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "immigration": {
+          "label": "2022 Candidate Connection priority: 'securing our border and enforcing current immigration laws' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "taxes": {
+          "label": "'I would work to reduce taxes across the board. A Fair Tax or Flat Tax would be far better and less complicated than what we have now'; 'Congress needs to get control of its spending' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "climate": {
+          "label": "'The Left refuses to look at the cleanest and safest form of energy: nuclear energy!!!', framing energy around supply and independence (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "education": {
+          "label": "'Money should follow the child not the child following the money. Parents should have a choice where their children are taught' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "safety": {
+          "label": "2022 Candidate Connection priority: 'restoring faith and support in our Judicial system and First Responders and Law Enforcement' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        }
+      },
+      "nullNotes": {
+        "health": "Checked his campaign site at rudyforuscongress.com, which returns no readable content and has no issues page, his iVoterGuide profile, which records 'did not answer' on every question including health care, and both his 2022 and 2024 Ballotpedia Candidate Connection surveys, neither of which states a health care position.",
+        "housing": "Checked the campaign site, the iVoterGuide profile marked 'did not answer' throughout, and both Candidate Connection surveys. No housing position documented.",
+        "repro": "Checked the campaign site, the iVoterGuide profile, which records 'did not answer' on the right to life section, and both Candidate Connection surveys. His 2024 survey line 'protecting biological Women's rights' concerns sex based definitions rather than abortion access, so it does not place him on this axis.",
+        "democracy": "Checked the campaign site, the iVoterGuide profile marked 'did not answer' on elections and voting, and both Candidate Connection surveys. His only elections item is a call for transparency in voting processes and against monopolies on election administration, which states no position on voter identification or voting access."
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Rudy Recile, Candidate Connection surveys",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        {
+          "label": "iVoterGuide profile",
+          "url": "https://ivoterguide.com/candidate/61626/race/25569/election/1385"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA00153/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H8CA10126",
+      "name": "Josh Harder",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "9",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 40,
+      "home": "Turlock, CA",
+      "now": "U.S. House of Representatives (CA-09)",
+      "background": "Central Valley native and former venture capital investor and business lecturer who flipped a Republican held seat in 2018 and has held it through redistricting. He is one of the House Democrats who most often breaks with his party, including a vote for the Laken Riley Act and a public safety agenda built on police hiring grants. He advanced from the June 2, 2026 top-two primary against Republican John McBride.",
+      "priorities": [
+        "Bring down prices on housing, utilities, gas and groceries",
+        "Treat health care as a right and stop Medicaid cuts",
+        "Restore federal law enforcement hiring grants"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Prices are skyrocketing, from housing and utilities to gas and groceries'; capped the price of insulin at $35 a month and leads the fight to stop PG&E rate increases, while also calling to suspend the gas tax (official House site)",
+          "url": "https://harder.house.gov/issues/costs"
+        },
+        "health": {
+          "label": "'Health care is a right, plain and simple'; runs on protecting the Affordable Care Act, expanding coverage and condemning cuts to Medicaid (official House site)",
+          "url": "https://harder.house.gov/issues/health-care"
+        },
+        "immigration": {
+          "label": "Mixed: 'a comprehensive, humane, and bipartisan immigration system that allows people to get right with the law and come out of the shadows', alongside 'keeping our border secure' and '21st century investments in border security' (official House site)",
+          "url": "https://harder.house.gov/issues/immigration"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, on July 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Would 'restore federal funding for law enforcement hiring grants to their original level', funded a Stockton PD Real Time Crime Center, and pushes targeted prosecution of mail theft and cybercrime; the page names no root cause measures (official House site)",
+          "url": "https://harder.house.gov/issues/public-safety"
+        },
+        "repro": {
+          "label": "Supports legal abortion rights (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Harder"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, which would require documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "Checked his official House issues index, which has pages for costs, health care, immigration, public safety, jobs and education, agriculture, veterans, water and homelessness but none for housing, and Wikipedia. Housing appears only as a price he names on the costs page, with no supply, zoning or renter position.",
+        "climate": "Checked his official House issues index, which has no climate or energy page, and Wikipedia. His environmental record there is opposition to the Delta Conveyance Project and the Stop the Delta Tunnels Act, which are water and fisheries measures rather than a position on the clean energy transition.",
+        "education": "Checked his official House issues index, where education is folded into a jobs and education page with no stated position, and Wikipedia, which documents none. No position on public school investment versus school choice documented."
+      },
+      "sources": [
+        {
+          "label": "Official House issues pages",
+          "url": "https://harder.house.gov/issues"
+        },
+        {
+          "label": "Wikipedia: Josh Harder",
+          "url": "https://en.wikipedia.org/wiki/Josh_Harder"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CA10126/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H4CA09101",
+      "name": "John McBride",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "9",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Strength and conditioning coach",
+      "background": "Strength and conditioning coach who came to California in 1989 and spent decades in athletics at the University of the Pacific, mentoring athletes in the San Joaquin area. He grew up in Meriden, Connecticut, and describes himself as a man of faith. He completed a Ballotpedia Candidate Connection survey in 2024 and advanced from the June 2, 2026 top-two primary against Josh Harder.",
+      "priorities": [
+        "Restore energy independence",
+        "Reduce taxes and drastically shrink government spending",
+        "Protect the southern border"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 0,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Health platform is 'medical freedom', 'greater emphasis on natural healing methods' and 'no death boards', with no expansion of public coverage (campaign site)",
+          "url": "https://www.johnmcbrideforcongress.com/"
+        },
+        "immigration": {
+          "label": "'Our borders must be protected at all costs the invasion being allowed at our southern border will destroy this nation' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/John_McBride_(California)"
+        },
+        "taxes": {
+          "label": "Economy platform is 'reduce oppressive tax policies', 'drastically shrink government spending' and 'no tax on Social Security' (campaign site)",
+          "url": "https://www.johnmcbrideforcongress.com/"
+        },
+        "climate": {
+          "label": "'Energy independence must be restored. America has the largest natural resources in the world for us to achieve energy independence and it is not being used' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/John_McBride_(California)"
+        },
+        "education": {
+          "label": "'The rights of parents must be protected in order for them to raise their children in ways they feel is best' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/John_McBride_(California)"
+        },
+        "safety": {
+          "label": "Mixed: his Safer Communities list runs 'support for local law enforcement' and 'support criminal prosecution' alongside 'mental health initiatives' and 'support for youth and families' (campaign site)",
+          "url": "https://www.johnmcbrideforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Checked the campaign site, whose economy list is entirely tax, spending, small business and energy items, and his 2024 Ballotpedia Candidate Connection survey. Neither names prices, inflation or wages, so his tax and spending positions are scored on the taxes axis and not counted again here.",
+        "housing": "Checked the campaign site, which lists homelessness under a youth heading but no housing policy, and his 2024 Candidate Connection survey. No housing supply, zoning or renter position documented.",
+        "repro": "Checked the campaign site, which has no abortion item, and his 2024 Candidate Connection survey, whose closest line is a general Bill of Rights statement. No abortion position documented.",
+        "democracy": "Checked the campaign site, whose Liberty list contains the bare phrase 'Voting Rights' with no direction, plus 'no CBDC', and his 2024 Candidate Connection survey. Nothing states a position on voting access or voter identification."
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.johnmcbrideforcongress.com/"
+        },
+        {
+          "label": "Ballotpedia: John McBride, 2024 Candidate Connection",
+          "url": "https://ballotpedia.org/John_McBride_(California)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4CA09101/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H0CA10073",
+      "name": "Mark Desaulnier",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "10",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 74,
+      "home": "Concord, CA",
+      "now": "U.S. House of Representatives (CA-10)",
+      "background": "Former restaurant owner who served as a Concord city councilman and mayor, a Contra Costa County supervisor, and a member of both houses of the California legislature before winning his House seat in 2014. He sits on the Education and Workforce and Transportation committees and sponsors the Medicare for All Act. He advanced from the June 2, 2026 top-two primary against Republican Jeff Frese.",
+      "priorities": [
+        "Protect, strengthen and expand the Affordable Care Act",
+        "Expand housing and affordable options in the Bay Area",
+        "Restore the balance of power in favor of the American worker"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Restoring the balance of power in favor of the American worker is imperative'; cites that since 1979 wages rose 14.8 percent while productivity rose more than 64 percent (official House site)",
+          "url": "https://desaulnier.house.gov/issues/jobs-and-economy"
+        },
+        "health": {
+          "label": "'Ardent supporter of protecting, strengthening, and expanding the Affordable Care Act' and a sponsor of the Medicare for All Act; wants a system 'that prioritizes people over profits' (official House site)",
+          "url": "https://desaulnier.house.gov/issues/health-care"
+        },
+        "housing": {
+          "label": "'The need to expand housing and provide more affordable options in the San Francisco Bay Area could not be more urgent'; authored the Housing Innovation Act and loans for affordable transit oriented housing, and urged eviction protections (official House site)",
+          "url": "https://desaulnier.house.gov/issues/housing"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, on July 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'Recognizes climate change for the existential threat that it is' and champions policies that reduce greenhouse gas emissions (official House site)",
+          "url": "https://desaulnier.house.gov/issues/energy-and-environment"
+        },
+        "education": {
+          "label": "'Values a public education, programs to support the whole child, accessible and affordable college opportunities'; the page states no support for vouchers or choice (official House site)",
+          "url": "https://desaulnier.house.gov/issues/education"
+        },
+        "repro": {
+          "label": "'Strong supporter of the Women's Health Protection Act, which blocks medically unnecessary abortion restrictions'; sponsors the Right to Contraception Act and the Access to Family Building Act (official House site)",
+          "url": "https://desaulnier.house.gov/issues/womens-rights"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, which would require documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "safety": "Checked his official House issues index, whose only public safety page is Gun Violence Prevention, plus Wikipedia, where the criminal justice material is a state bill requiring gun owners to report stolen weapons. The run book excludes gun stances from this axis, and nothing else places him on prevention versus enforcement."
+      },
+      "sources": [
+        {
+          "label": "Official House issues pages",
+          "url": "https://desaulnier.house.gov/issues"
+        },
+        {
+          "label": "Wikipedia: Mark DeSaulnier",
+          "url": "https://en.wikipedia.org/wiki/Mark_DeSaulnier"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0CA10073/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
     }
   ]
 }

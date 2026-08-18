@@ -7,12 +7,12 @@
       "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term; he was unopposed in the Aug 11 primary. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%."
     },
     "VT-house-at-large": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2VT01076",
         "fec-H6VT01085"
       ],
-      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 77% over Mark Coester. Positions are not researched yet.",
+      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 77% over Mark Coester. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them.",
       "sources": [
         {
           "label": "Gerald Malloy wins Vermont Republican primary for U.S. House (Vermont Public)",
@@ -22,7 +22,8 @@
           "label": "The results from Vermont's 2026 primary election (VTDigger)",
           "url": "https://vtdigger.org/2026/08/11/the-latest-results-from-vermonts-2026-primary-election/"
         }
-      ]
+      ],
+      "overlap": 7
     }
   },
   "candidates": [
@@ -196,6 +197,187 @@
         "cost": "checked campaign platform and Vermont Public coverage; her affordability frame is 'keeping wealth circulating in our communities' via local business investment, which fits neither direct intervention nor deregulation on this axis; record search also empty (debate coverage repeats the keep-dollars-local frame, no price or wage mechanism)",
         "democracy": "platform proposes citizens' assemblies and participatory budgeting, which do not map to the voting-access versus voter-ID axis; no voting-rules stance documented on pages fetched; record search also empty"
       }
+    },
+    {
+      "id": "fec-H2VT01076",
+      "name": "Rebecca 'Becca' Balint",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": 58,
+      "home": "Brattleboro, VT",
+      "now": "U.S. House of Representatives (Vermont at-large)",
+      "background": "U.S. Representative for Vermont's at-large district since 2023, the first woman and first openly LGBTQ person to represent the state in Congress. She taught middle school in Windham County for fourteen years before serving in the Vermont Senate from 2015 to 2023, as majority leader and then as president pro tempore. She sits in the Congressional Progressive Caucus, co-chairs the Congressional Equality Caucus, and is vice ranking member on House Judiciary. She was unopposed in the August 11, 2026 Democratic primary.",
+      "priorities": [
+        "Housing affordability and supply",
+        "Health care access and Medicare for All",
+        "Climate action"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Becca believes that comprehensive health care should be accessible to everyone, not a privilege for those who can afford it' and she is 'a proud supporter of the Medicare for All Act' (House office health care issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14939"
+        },
+        "housing": {
+          "label": "'focused on building more affordable housing and securing investments for low- and middle-income families', and says it is 'past time for that kind of transformative investment to be made at the federal level'; the $250 million she cites was delivered as a Vermont state senator, and the page names no federal bill or figure (House office housing issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14903"
+        },
+        "immigration": {
+          "label": "'supports comprehensive immigration reform as well as surging resources and increasing efficiencies to reduce processing wait times and alleviate hardships faced by refugees, asylum seekers and other immigrants'; the reform is unnamed and no bill is cited on the page (House office immigration issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14914"
+        },
+        "taxes": {
+          "label": "Voted No on H.R. 1, titled 'One Big Beautiful Bill Act' on the roll call, on the motion to concur in the Senate amendment, July 3, 2025; it passed 218 to 214 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Backs 'the Green New Deal to fund green jobs, combat the climate crisis, and transition to clean energy' and says 'Congress must take decisive and bold action before it's too late' (House office climate issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14906"
+        },
+        "education": {
+          "label": "'working to provide robust and equitable funding to K-12 public schools' and 'working to make early childhood education affordable for all Vermont families'; the page names no bill, no funding figure and does not mention teacher pay (House office education issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14901"
+        },
+        "safety": {
+          "label": "Voted No on H.R. 6260, the Keeping Violent Offenders Off Our Streets Act, May 14, 2026, which passed 243 to 179 (House roll call 169)",
+          "url": "https://clerk.house.gov/evs/2026/roll169.xml"
+        },
+        "repro": {
+          "label": "Calls the overturning of Roe 'dehumanizing and dangerous', worked to make Vermont the first state to protect reproductive freedom in its constitution, and as a member of the Congressional Pro Choice Caucus is 'fighting in Washington to provide those same protections for all Americans' (House office reproductive rights issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14907"
+        },
+        "democracy": {
+          "label": "'committed to expanding access to the ballot box by passing the John Lewis Voting Rights Act', because 'when we make voting more accessible, our government will clearly reflect the will of the people' (House office voting issue page)",
+          "url": "https://balint.house.gov/Issues/Issue/?IssueID=14905"
+        }
+      },
+      "nullNotes": {
+        "cost": "neither her campaign issues page nor her House office site has a cost of living, prices, wages, or taxes page; the House issues index lists only 14 topics and none of them is one of those. No price, wage floor, or market deregulation position was found there, on her about page, or in the 2026 race coverage checked. Her H.R. 1 votes are scored on taxes rather than counted twice here."
+      },
+      "sources": [
+        {
+          "label": "House office issues index",
+          "url": "https://balint.house.gov/issues/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://beccabalint.com/issues/"
+        },
+        {
+          "label": "House roll call 190, 2025, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2VT01076/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6VT01085",
+      "name": "Gerald Malloy",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Weathersfield, VT",
+      "now": "Business development in defense contracting; retired U.S. Army major",
+      "background": "Retired U.S. Army major and 1984 West Point graduate who served 22 years on active duty, including the Gulf War, retiring in 2006, then worked in defense and government contracting for firms including Raytheon and Lockheed Martin. A Boston native and the oldest of nine, he bought his Vermont home in 2020 and holds an MBA from Temple. He was the Republican nominee for U.S. Senate in Vermont in 2022 against Peter Welch and in 2024 against Bernie Sanders, and won the August 11, 2026 Republican House primary with about 77 percent over Mark Coester. He describes himself as 'a commonsense, moderate Republican' and ties himself to Gov. Phil Scott.",
+      "priorities": [
+        "Affordability through deregulation and fiscal discipline",
+        "Lowering health care costs through market reforms",
+        "Supporting law enforcement and fighting the opioid crisis"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 1,
+        "repro": 0,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform bullets are to 'Cut unnecessary federal regulations that hold back small businesses' and 'Push for fiscal discipline in Washington to reduce inflation'; the page names no bill or figure, and never mentions the minimum wage, price caps or subsidies (campaign positions page)",
+          "url": "https://www.deploymalloy.com/landing/positions/"
+        },
+        "health": {
+          "label": "Mixed: 'I'm not going to support any kind of cuts to Medicare, Medicaid, safety net programs, Social Security', while his affirmative fix is market based, cutting pharmaceutical patent terms 'from 10 to five, get it on the market sooner, cheaper' (Vermont Public interview, July 2026)",
+          "url": "https://www.vermontpublic.org/show/vermont-edition/2026-07-27/congressional-republican-primary-candidate-gerald-malloy-discusses-his-platform"
+        },
+        "immigration": {
+          "label": "Mixed: 'Crime and drugs are pouring into Vermont, northern and southern borders' and he would secure the southern border, while also saying 'I'm not in favor of trying to deport every single illegal immigrant that entered this country' (Vermont Public 2024 Senate debate transcript)",
+          "url": "https://www.vermontpublic.org/show/vermont-edition/2024-10-23/vermont-general-election-debate-u-s-senate-candidates-bernie-sanders-and-gerald-malloy"
+        },
+        "taxes": {
+          "label": "Candidate Connection survey answers: 'I will not support tax increases' and 'I will not support overspending' (Ballotpedia, 2024 survey)",
+          "url": "https://ballotpedia.org/Gerald_Malloy_(Vermont)"
+        },
+        "climate": {
+          "label": "Platform is to 'Support an all-of-the-above energy strategy' and 'Encourage innovation in renewables, without costly mandates' (campaign positions page)",
+          "url": "https://www.deploymalloy.com/landing/positions/"
+        },
+        "education": {
+          "label": "Candidate Connection survey answers: 'I support School Choice', 'I will be a champion for States, Local School Boards, and Parents to determine education matters', and 'I will consider major educational changes, such as the dissolving the US Department of Education' (Ballotpedia, 2024 survey)",
+          "url": "https://ballotpedia.org/Gerald_Malloy_(Vermont)"
+        },
+        "safety": {
+          "label": "Platform is to 'Fully support law enforcement' and to 'Combat the opioid crisis by holding foreign actors accountable', a supply interdiction frame with no treatment or reentry item (campaign positions page)",
+          "url": "https://www.deploymalloy.com/landing/positions/"
+        },
+        "repro": {
+          "label": "Mixed: 'Pro life. Per the 10th Amendment I support taking this decision out of the Supreme Court and giving it to States and People', alongside 'I will not support federal legislation on powers relegated to the States, this includes sweeping federal legislation related to abortion' (Ballotpedia, 2022 and 2024 Candidate Connection surveys)",
+          "url": "https://ballotpedia.org/Gerald_Malloy_(Vermont)"
+        }
+      },
+      "nullNotes": {
+        "democracy": "nothing on voter identification, registration, mail voting, or early voting on any page fetched. The only adjacent material is term limits and campaign finance, which the calibration anchors treat as incidental and not scorable here, plus his answer that Biden legitimately won in 2020. Checked his 2026 campaign positions and about pages, his Ballotpedia page including both the 2022 and 2024 Candidate Connection surveys and confirming there is no 2026 survey, the VTDigger 2024 candidate questionnaire, the 2024 Sanders debate transcript, both 2022 Senate debate write ups, and 2026 coverage in VTDigger, Vermont Public, Valley News, Seven Days and WCAX.",
+        "housing": "the only housing adjacent line in the 2026 coverage is VTDigger's own paraphrase of past remarks, that he would pursue Gov. Scott's goals 'including making Vermont more affordable and reducing regulatory barriers to new development'. That is the reporter's wording rather than his, and the words housing, zoning, renter and permitting appear nowhere in the article. Checked his 2026 campaign positions page, which has no housing section, his about page, his Ballotpedia page including both the 2022 and 2024 Candidate Connection surveys with no 2026 survey on file, the VTDigger 2024 candidate questionnaire, the 2024 Sanders debate transcript where housing was not discussed, both 2022 Senate debate write ups, and 2026 coverage in Vermont Public, Valley News, Seven Days and WCAX."
+      },
+      "sources": [
+        {
+          "label": "Campaign positions page",
+          "url": "https://www.deploymalloy.com/landing/positions/"
+        },
+        {
+          "label": "Ballotpedia: Gerald Malloy, with 2022 and 2024 Candidate Connection surveys",
+          "url": "https://ballotpedia.org/Gerald_Malloy_(Vermont)"
+        },
+        {
+          "label": "VTDigger: 2026 Republican primary profile",
+          "url": "https://vtdigger.org/2026/08/05/vermonts-gop-primary-for-u-s-house-pits-2-different-personalities-against-each-other/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VT01085/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
     }
   ]
 }

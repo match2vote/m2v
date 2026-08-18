@@ -20,7 +20,7 @@
         "fec-H6SD01109",
         "fec-H6SD01141"
       ],
-      "statusNote": "General election field from South Dakota's June 2, 2026 primary: Marty Jackley (Republican), Nicole Gronli (Democrat). Open seat: Rep. Dusty Johnson ran for governor instead of re-election. No minor party or independent candidate is listed in either source. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Dakota's June 2, 2026 primary: Marty Jackley (Republican), Nicole Gronli (Democrat). Open seat: Rep. Dusty Johnson ran for governor instead of re-election. No minor party or independent candidate is listed in either source. Both candidates fully researched Aug 17, 2026, but the race is held at names-only because the two overlap on only 6 of the 10 issues: Jackley has no documented position on health, housing, climate or education, so a match percentage would be built from different questions for each candidate.",
       "sources": [
         {
           "label": "The Green Papers, South Dakota 2026 general election",
@@ -30,7 +30,9 @@
           "label": "270toWin, 2026 South Dakota U.S. House race",
           "url": "https://www.270towin.com/2026-house-election/states/south-dakota"
         }
-      ]
+      ],
+      "overlap": 6,
+      "heldBack": "Positions researched but held back: overlap 6 of 10, below the floor of 7."
     }
   },
   "candidates": [
@@ -354,6 +356,178 @@
         "repro": "checked campaign pages and SDPB interview, nothing documented",
         "democracy": "checked campaign pages and SDPB interview, nothing documented"
       }
+    },
+    {
+      "id": "fec-H6SD01109",
+      "name": "Marty Jackley",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "SD",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "age": 55,
+      "home": "Pierre, SD",
+      "now": "Attorney General of South Dakota",
+      "background": "South Dakota's Attorney General since 2023, who also held the office from 2009 to 2019 and served as U.S. Attorney for South Dakota from 2006 to 2009. He was raised in Sturgis, took an electrical engineering degree from the South Dakota School of Mines and a law degree from the University of South Dakota, and clerked for Chief Federal Judge Richard Battey. He owns a farm at Vale and a ranch near Pierre. He won the June 2, 2026 Republican primary over James Bialota by roughly 80 to 20 and is running for the open seat Rep. Dusty Johnson left to run for governor.",
+      "priorities": [
+        "Crime and public safety",
+        "Border security and stopping drug trafficking",
+        "Cutting taxes and reducing the size of government"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "On joining a multistate suit against California's packaging law: 'This is an unconstitutional mandate that will result in higher costs for businesses and ultimately higher prices for consumers', arguing the rules are 'unreasonable, burdensome requirements on businesses and consumers nationwide' (KOTA)",
+          "url": "https://www.kotatv.com/2026/06/23/south-dakota-joins-multistate-lawsuit-challenging-california-packaging-law/"
+        },
+        "immigration": {
+          "label": "'The meth and fentanyl on our streets come across an open border. I have prosecuted the traffickers who bring it here. Secure the border, finish the wall, and let law enforcement do its job' (campaign issues page)",
+          "url": "https://martyjackley.com/issues"
+        },
+        "taxes": {
+          "label": "Campaign commitment to 'strengthen our economy, secure our borders, rebuild our national defense, reduce the size of government, and cut taxes for hard working Americans' (campaign announcement page)",
+          "url": "https://martyjackley.com/news/the-conservative-choice"
+        },
+        "safety": {
+          "label": "'I have spent my career putting violent criminals behind bars. In Congress I will back our police, sheriffs, and prosecutors with the tools and the respect they have earned. Public safety comes first' (campaign issues page)",
+          "url": "https://martyjackley.com/issues"
+        },
+        "repro": {
+          "label": "On defending South Dakota's abortion pill advertising law after a federal injunction: 'protecting and defending innocent life is and remains important to our Legislature, Governor, Attorney General and citizens' (KOTA)",
+          "url": "https://www.kotatv.com/2026/07/18/gov-rhoden-ag-jackley-say-south-dakota-will-defend-abortion-pill-ad-law-after-judge-issues-injunction/"
+        },
+        "democracy": {
+          "label": "Pressed the U.S. Senate to pass the SAVE America Act's proof of citizenship requirement: 'This is common-sense legislation to protect the integrity of our elections' (KOTA)",
+          "url": "https://www.kotatv.com/2026/03/19/gov-rhoden-ag-jackley-push-us-senate-pass-save-america-act/"
+        }
+      },
+      "nullNotes": {
+        "health": "his documented health record is drug supply chain regulation, not the public versus private coverage question: he asked Congress to bar pharmacy benefit managers from owning pharmacies, 'These managers are controlling prices that harm independent pharmacies and the public', argued via the AG coalition that this 'would foster competition', and defended South Dakota's 340B discount law; he is also barred by statute from taking a position on the Medicaid ballot amendment he writes explanations for. Checked his campaign issues page which has five headings and no health heading, his AG press release index for Feb through Aug 2026, Ballotpedia where he has completed no 2026 Candidate Connection survey, South Dakota News Watch's voter guide which carries no questionnaire answers from him, and KOTA and Daily Signal interviews. Flagged in the progress file as the borderline call that keeps this race under the overlap floor.",
+        "housing": "the only adjacent material is private property rights in the carbon pipeline eminent domain fight, 'As a proud owner of a family farm West River and ranch near Pierre, I understand the importance of private property owner rights', which concerns agricultural land taken for a private pipeline, not housing supply, zoning, permitting, renters, or homelessness. Checked his campaign issues, about and news pages, Ballotpedia, the South Dakota News Watch voter guide, his AG press release index, and KOTA, Dakota News Now and South Dakota Searchlight coverage.",
+        "climate": "his only energy record is enforcing the Renewable Fuel Standard against refinery hardship exemptions, 'The federal government needs to ensure that the RFS' integrity is maintained', framed as protecting South Dakota farmers and as refiners thwarting 'the President's national energy policy', plus a bipartisan AG letter seeking year round E15. That is biofuel market integrity and does not document a position on how fast to move off fossil fuels or on expanding oil, gas and coal, and nothing was found on those. His campaign issues page has no energy heading. Checked his campaign site, AG press release index Feb through Aug 2026, Ballotpedia, and Dakota News Now, Tri State Livestock News and South Dakota Searchlight coverage.",
+        "education": "genuinely empty on axis. The only school related items are an AG opinion requiring school districts to follow competitive bidding above $100,000 and paraphrased, unquoted opposition to proposed Title IX changes. Checked his campaign issues page which has no education heading, his about and news pages, three AG press index passes, Ballotpedia where he completed no Candidate Connection survey, the South Dakota News Watch voter guide re-checked specifically for a questionnaire, and KOTA, KELOLAND, Hub City Radio and Daily Signal coverage."
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://martyjackley.com/issues"
+        },
+        {
+          "label": "South Dakota Searchlight: Republican primary result",
+          "url": "https://southdakotasearchlight.com/2026/06/02/south-dakota-attorney-general-marty-jackley-wins-bid-for-republican-us-house-nomination/"
+        },
+        {
+          "label": "Ballotpedia: Marty Jackley",
+          "url": "https://ballotpedia.org/Marty_Jackley"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SD01109/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6SD01141",
+      "name": "Nicole Gronli",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "SD",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "age": 53,
+      "home": "Dell Rapids, SD",
+      "now": "President of Flatlander Strategies, a marketing company",
+      "background": "Small business owner from rural Dell Rapids who led USDA Rural Development in South Dakota from 2022 to 2025, overseeing federal investments in rural housing, broadband, infrastructure and community facilities. She has nearly 30 years in marketing and communications, served on Dakota State University's cyber security industry advisory board and as president of the Department of Defense STARBASE board, and is a former vice chair of the South Dakota Democratic Party. She grew up in Aurora, South Dakota. She was unopposed for the Democratic nomination on June 2, 2026. News coverage generally calls her Nikki Gronli.",
+      "priorities": [
+        "Affordability for working families",
+        "Public education funding",
+        "Rural health care access"
+      ],
+      "positions": {
+        "cost": 0,
+        "health": -2,
+        "housing": null,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Mixed: opposes broad tariffs and says of farmers 'never once have I been told by a farmer or a rancher that all they want is a bailout. They want markets', while also arguing government must protect the state's top industries because 'If our top industries in South Dakota are financially damaged, that trickles down to Main Street' (South Dakota Searchlight)",
+          "url": "https://southdakotasearchlight.com/2025/09/10/tariffs-trade-policy-at-top-of-mind-for-democratic-congressional-candidate/"
+        },
+        "health": {
+          "label": "'Congress should modernize Medicare's GME funding and expand rural and community-based training programs', 'Congress should make a major new investment in the NHSC', and 'As a member of Congress, I would not only sustain but increase our investment in proven programs' (campaign post on rural health care)",
+          "url": "https://www.nikkigforsd.com/post/protecting-rural-health-care-starts-with-building-south-dakota-s-workforce"
+        },
+        "immigration": {
+          "label": "Platform bullet under Public Safety: 'Supporting eliminating ICE enforcement in South Dakota' (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        "taxes": {
+          "label": "'Opposing federal tax breaks for data centers and ensuring companies pay for infrastructure, energy, and water' (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        "education": {
+          "label": "Would 'Fully fund IDEA so schools can provide students with disabilities proper education and services', 'Protect Title I funding for low-income family schools', 'Support competitive teacher pay and recruitment efforts in rural communities' and 'Invest in rural schools', and opposes closing the U.S. Department of Education (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        "safety": {
+          "label": "'Nikki believes ensuring citizen safety is the way to guide and assist, not to harm, isolate, or discriminate'; names that 'Women in South Dakota are incarcerated at the highest rate in the WORLD' and backs 'Strengthening programs preventing domestic violence and sexual assault' (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        "repro": {
+          "label": "'The government has no place in a woman's bedroom or in the exam room with her doctor'; backs 'Protecting a woman's ability to make her own reproductive health care decisions' and 'Protecting access to contraception and preventive health services' (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        "democracy": {
+          "label": "'Supporting accommodations for in-person and mail-in voting' (campaign priorities page)",
+          "url": "https://www.nikkigforsd.com/services-8"
+        }
+      },
+      "nullNotes": {
+        "housing": "her priorities page carries one clause, 'Investing in affordable housing, infrastructure, broadband, and community development', inside a longer economic list, with no program, funding level, zoning, permitting or renter mechanism attached, and her USDA Rural Development housing work is biography rather than a stated position. Checked her priorities page, her about page, all eight campaign blog posts, the South Dakota News Watch voter guide, Ballotpedia where she has completed no 2026 Candidate Connection survey, and South Dakota Searchlight, SDPB, Dakota News Now, Brookings Register, Mitchell Republic and Hub City Radio coverage.",
+        "climate": "her energy content expands a fuel source rather than taking a side on the transition, 'Supporting year-round E15 availability and promoting E30 and higher ethanol blends' and 'Increasing investments for biofuels', and her climate content is adaptation only, 'communities across South Dakota are experiencing more frequent and more costly weather events... we have a responsibility to prepare for it', with the response framed as disaster preparedness and FEMA performance. No position on emissions rules, the pace of a clean energy transition, or expanding oil, gas and coal. Checked her priorities page, all eight blog posts, Ballotpedia, and South Dakota Searchlight, SDPB and Brookings Register coverage."
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.nikkigforsd.com/services-8"
+        },
+        {
+          "label": "Campaign post on rural health care workforce",
+          "url": "https://www.nikkigforsd.com/post/protecting-rural-health-care-starts-with-building-south-dakota-s-workforce"
+        },
+        {
+          "label": "South Dakota Searchlight: trade and tariffs",
+          "url": "https://southdakotasearchlight.com/2025/09/10/tariffs-trade-policy-at-top-of-mind-for-democratic-congressional-candidate/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SD01141/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
     }
   ]
 }

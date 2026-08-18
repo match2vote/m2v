@@ -3,13 +3,13 @@
   "note": "Hand-curated, sourced entries. Single at-large U.S. House seat.",
   "races": {
     "ND-house-at-large": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4ND00061",
         "fec-H6ND01049",
         "nd-house-at-large-neville"
       ],
-      "statusNote": "Rep. Julie Fedorchak (R) was renominated in the June 9, 2026 primary over Alex Balazs and faces Trygve Hammer (Democratic-NPL) in a rematch of 2024, plus independent Helene Neville. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Julie Fedorchak (R) was renominated in the June 9, 2026 primary over Alex Balazs and faces Trygve Hammer (Democratic-NPL) in a rematch of 2024, plus independent Helene Neville. Positions researched Aug 17, 2026.",
       "sources": [
         {
           "label": "The Green Papers: North Dakota 2026 general election candidates",
@@ -23,7 +23,8 @@
           "label": "Wikipedia 2026 U.S. House election in North Dakota",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_North_Dakota"
         }
-      ]
+      ],
+      "overlap": 8
     }
   },
   "candidates": [
@@ -34,19 +35,273 @@
       "office": "us-house",
       "district": "at-large",
       "state": "ND",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Politics1 North Dakota 2026 candidate list",
-          "url": "https://www.politics1.com/nd.htm"
+          "label": "Campaign issues index",
+          "url": "https://www.heleneforcongress.com/issues"
         },
         {
-          "label": "The Green Papers: North Dakota 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/ND"
+          "label": "Campaign Medicare and Medicaid page",
+          "url": "https://www.heleneforcongress.com/issues/Medicare-and-Medicaid"
+        },
+        {
+          "label": "North Dakota Monitor: campaign launch",
+          "url": "https://northdakotamonitor.com/briefs/3rd-democrat-announces-campaign-for-north-dakota-us-house-seat/"
+        },
+        {
+          "label": "Politics1 North Dakota 2026 candidate list",
+          "url": "https://politics1.com/nd.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Jamestown, ND",
+      "now": "Registered nurse and public health educator",
+      "background": "Registered nurse with 41 years of experience, including travel nursing, and a stage four Non-Hodgkin lymphoma survivor in remission. She ran across all 50 states, Puerto Rico, and parts of Mexico and Canada, close to 17,000 miles, to promote healthy living, and worked as a public health educator and liaison on federal Gulf War illness grants. She moved to North Dakota in 2020 and previously lived in Iowa. She entered the race seeking the Democratic-NPL nomination in February 2026 and is on the November ballot as an independent.",
+      "priorities": [
+        "Healthcare and mental health access, especially rural",
+        "Cost of living, wages, and housing affordability",
+        "Government accountability and bipartisanship"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": 0,
+        "climate": 0,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'End starvation wages. Raise & index the minimum wage. Protect full-time workers who still struggle', framed against 'Wages have not kept pace with rising costs' (campaign issues page)",
+          "url": "https://www.heleneforcongress.com/issues"
+        },
+        "health": {
+          "label": "'Protecting Medicare and Medicaid means protecting the health and dignity of millions of Americans'; opposes 'significant cuts to Medicaid funding over the next decade and policies that could make it harder for millions of Americans to keep their coverage' (campaign Medicare and Medicaid page)",
+          "url": "https://www.heleneforcongress.com/issues/Medicare-and-Medicaid"
+        },
+        "immigration": {
+          "label": "Backs 'Expanding lawful immigration pathways for workers and families', 'Providing stability for individuals brought to the United States as children through programs like DACA', and 'Maintaining a humane refugee and asylum system'; no enforcement first content on the page (campaign immigration page)",
+          "url": "https://www.heleneforcongress.com/issues/Immigration-and-Responsible-Reform"
+        },
+        "taxes": {
+          "label": "Mixed: platform calls to 'Tax corporate gains' and separately for 'no inheritance tax' (campaign issues page)",
+          "url": "https://www.heleneforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Mixed: 'Support responsible energy development' and 'Energy independence, environmental stewardship, and economic growth can go hand in hand', with no emissions target or fuel source named (campaign climate and energy page)",
+          "url": "https://www.heleneforcongress.com/issues/Climate-Energy-and-Natural-Resources"
+        },
+        "education": {
+          "label": "'To attract and retain the best teachers, we must ensure they are paid fairly'; notes North Dakota ranks 40th for teacher salaries and backs 'Investments in education for disadvantaged students and students with disabilities' and 'Strong funding for teacher professional development'; no voucher or charter content on the page (campaign education page)",
+          "url": "https://www.heleneforcongress.com/issues/Education-and-Safe-Schools"
+        },
+        "safety": {
+          "label": "'Addiction is not a moral failure, it is a medical condition'; would expand medication assisted treatment, mental health services and 'Prevention and early intervention programs', and hold pharmaceutical companies accountable; no policing or sentencing content on the page (campaign substance use page)",
+          "url": "https://www.heleneforcongress.com/issues/Substance-Use-Disorders"
+        },
+        "repro": {
+          "label": "'I advocate for protecting reproductive freedom and ensuring people have the right to make choices about their own bodies and healthcare'; 'The government should not stand between a patient and their doctor' (campaign reproductive freedom page)",
+          "url": "https://www.heleneforcongress.com/issues/Reproductive-Freedom"
+        },
+        "democracy": {
+          "label": "Mixed: 'Every eligible voter should be able to vote, every lawful vote should be counted', with 'Accessible voting for rural communities, seniors, veterans, and individuals with disabilities', alongside 'reasonable measures that verify voter eligibility' and 'Strong election security measures' (campaign issues page)",
+          "url": "https://www.heleneforcongress.com/issues"
+        },
+        "housing": {
+          "label": "Mixed: 'Policies should focus on expanding housing supply, encouraging responsible development, and ensuring that housing programs actually help families achieve stability', with the caution that 'when assistance increases, but housing supply does not, rents often rise alongside it' (campaign housing page)",
+          "url": "https://www.heleneforcongress.com/issues/Housing-and-Cost-of-Living"
+        }
+      },
+      "nullNotes": {},
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H4ND00061",
+      "name": "Julie Fedorchak",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "ND",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": 57,
+      "home": "Bismarck, ND",
+      "now": "U.S. House of Representatives (North Dakota at-large)",
+      "background": "Freshman U.S. Representative for North Dakota's at-large district since January 2025 and a member of the moderate Republican Governance Group. She spent twelve years on the North Dakota Public Service Commission, from 2013 to 2025, regulating utilities and pipelines, and campaigns on that record. She has introduced legislation to eliminate the Inflation Reduction Act's wind and solar tax credits for new projects, arguing intermittent generation poses reliability risks to the grid. She was renominated in the June 9, 2026 primary over Alex Balazs.",
+      "priorities": [
+        "Unleash domestic energy and agriculture production",
+        "Cut federal spending and balance the budget",
+        "Border security"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign priorities are to 'Curb Inflation That Is Crushing Families', 'Rein in Overreaching Federal Agencies', 'Stop out of Control Spending and Balance the Budget' and 'Unleash America's Energy and Agriculture Industries', with a record of 'Cutting Regulatory Red Tape' and 'Fighting Against Over-Regulation of the Coal Industry' (campaign site)",
+          "url": "https://fedorchaknd.com/"
+        },
+        "health": {
+          "label": "Calls the Affordable Care Act the 'Unaffordable Care Act' and says 'Obamacare is anything but affordable'; voted against the Democrat-led discharge petition to extend the enhanced premium tax credits; wants Medicaid 'reforms' that 'restore the program to its original mission'; health decisions belong with 'doctors and patients in North Dakota, not in Washington, D.C.' (House office issues page)",
+          "url": "https://fedorchak.house.gov/issues/health"
+        },
+        "immigration": {
+          "label": "'It was something I campaigned on. I would give us an A on our work so far. We have basically shut the border down' (North Dakota Monitor candidate issue spotlight)",
+          "url": "https://northdakotamonitor.com/2026/06/01/issue-spotlight-north-dakotas-us-house-candidates-reflect-on-immigration-policy/"
+        },
+        "taxes": {
+          "label": "Voted Aye on H.R. 1, titled 'One Big Beautiful Bill Act' on the roll call, on the motion to concur in the Senate amendment, July 3, 2025; it passed 218 to 214 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted Yea on H.J.Res.88, titled on the roll call as congressional disapproval of the EPA rule on 'California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption', May 1, 2025; it passed 246 to 164 (House roll call 114)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "'As a Christian, wife, and mother, I believe in the sanctity of life and am committed to protecting the unborn'; the page carries 'Fedorchak Votes to Pass Two Pro-Life Bills', January 23, 2026 (House office issues page)",
+          "url": "https://fedorchak.house.gov/issues/values"
+        },
+        "democracy": {
+          "label": "Voted for the SAVE Act's voter identification requirement, saying it would 'improve election integrity in the U.S. and restore faith many people have lost in the election process', and says 'the federal government has a role to play in ensuring that American citizens are voting in American elections' (North Dakota Monitor candidate issue spotlight)",
+          "url": "https://northdakotamonitor.com/2026/05/26/issue-spotlight-north-dakotas-us-house-candidates-weigh-in-on-elections-mail-in-voting/"
+        },
+        "safety": {
+          "label": "Voted Aye on H.R. 6260, the Keeping Violent Offenders Off Our Streets Act, May 14, 2026, which passed 243 to 179 (House roll call 169)",
+          "url": "https://clerk.house.gov/evs/2026/roll169.xml"
+        },
+        "education": {
+          "label": "Voted Aye on H.R. 2616, titled 'PROTECT Kids Act' on the roll call, a parental notification measure, May 20, 2026; it passed 217 to 198 (House roll call 184)",
+          "url": "https://clerk.house.gov/evs/2026/roll184.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked her campaign site and its subpages, all eight fetchable House office issue pages including Budget and Economy, three pages of her House press release index, her Ballotpedia profile where she has completed no Candidate Connection survey, and North Dakota Monitor race coverage; no position on housing supply, zoning, permitting, or renters documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://fedorchaknd.com/"
+        },
+        {
+          "label": "House office issues pages",
+          "url": "https://fedorchak.house.gov/issues"
+        },
+        {
+          "label": "House roll call 114, 2025, California Clean Cars waiver disapproval",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4ND00061/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H6ND01049",
+      "name": "Trygve Hammer",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "ND",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Minot, ND",
+      "now": "Freight rail conductor, former public school science teacher",
+      "background": "Naval Academy graduate and former Marine helicopter pilot who served a combat deployment in Iraq, with later service as forward air controller and military attache at the U.S. Embassy in Rome. He has worked in the Bakken oil fields, taught seventh through twelfth grade science in North Dakota, and worked as a freight rail conductor. He took about 30 percent against Fedorchak in 2024 and was endorsed by the Democratic-NPL convention in March 2026 for a rematch. His stated frame is congressional oversight: 'If our federal delegation would act as a check on the worst impulses of the Trump administration, they would make it a better presidency.'",
+      "priorities": [
+        "Tax fairness so corporations and the ultra wealthy pay more",
+        "Defending Social Security and rural healthcare access",
+        "Congress reasserting its oversight role"
+      ],
+      "positions": {
+        "cost": 0,
+        "health": -1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": -2,
+        "climate": 0,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Mixed: 'Raising reference prices will be an important part of the new farm bill' and names processor concentration, 'Four of them control 85% of meat processing in this country', while also saying farmers and ranchers 'want to be out there and compete in the free market' and 'don't want to be propped up by the government' (North Dakota Monitor candidate interview, 2024)",
+          "url": "https://northdakotamonitor.com/2024/10/18/hammer-ranks-farm-bill-as-top-priority-if-elected-to-us-house/"
+        },
+        "taxes": {
+          "label": "Would 'remove the taxable income cap for Social Security', then $168,600, to increase the fund, and opposes raising the retirement age; his campaign priorities add that 'Profitable corporations and the ultra wealthy need to be paying their fair share' (North Dakota Monitor candidate interview, 2024)",
+          "url": "https://northdakotamonitor.com/2024/10/18/hammer-ranks-farm-bill-as-top-priority-if-elected-to-us-house/"
+        },
+        "immigration": {
+          "label": "Mixed: 'They are all human beings, and I have no problem with enforcement as long as it treats everybody like a human being', while insisting 'In the Constitution, the due process is to all persons, not to all citizens' and that judicial warrants be required to enter homes (North Dakota Monitor candidate issue spotlight)",
+          "url": "https://northdakotamonitor.com/2026/06/01/issue-spotlight-north-dakotas-us-house-candidates-reflect-on-immigration-policy/"
+        },
+        "climate": {
+          "label": "Mixed: says he is 'pro-American oil' and that record U.S. oil production 'should continue', while backing 'smaller, next generation nuclear technologies' as 'a carbon-free solution' with waste storage still an issue (North Dakota Monitor candidate interview, 2024)",
+          "url": "https://northdakotamonitor.com/2024/10/18/hammer-ranks-farm-bill-as-top-priority-if-elected-to-us-house/"
+        },
+        "education": {
+          "label": "'We need support for, rather than attacks on, the public schools that are the source of pride' (campaign priorities page)",
+          "url": "https://www.hammerfornd.com/priorities"
+        },
+        "repro": {
+          "label": "Plank titled 'Protect women's freedom to make their own healthcare decisions': 'As long as we do not have full say on our personal medical decision, we do not have full liberty. The government should not intrude into our personal decisions as patients' (campaign priorities page)",
+          "url": "https://www.hammerfornd.com/priorities"
+        },
+        "democracy": {
+          "label": "Opposes the SAVE Act, 'The idea is to get people unregistered and to have fewer people vote', and on mail voting says 'It's secure here, and it's secure everywhere. I think it's leadership malpractice to be casting all this doubt on the electoral system' (North Dakota Monitor candidate issue spotlight)",
+          "url": "https://northdakotamonitor.com/2026/05/26/issue-spotlight-north-dakotas-us-house-candidates-weigh-in-on-elections-mail-in-voting/"
+        },
+        "health": {
+          "label": "Calls for mandatory rather than discretionary appropriations for the Indian Health Service 'to ensure stable and sufficient funding', and backs Tribal control of programs like SNAP; his documented health financing commitment is specific to Indian Country (campaign policies page)",
+          "url": "https://www.hammerfornd.com/policies"
+        }
+      },
+      "nullNotes": {
+        "housing": "his tribal policies page backs 'full implementation' of the Tribal HUD-VASH Act for Native veterans, which is a veterans benefit rather than a general housing supply or renter position, so it does not score here; checked every page on his campaign site via its sitemap including /priorities, /policies, /about and 14 news items, his Ballotpedia profile with no completed Candidate Connection survey in 2020, 2022, 2024 or 2026, his iVoterGuide profile, and North Dakota Monitor coverage",
+        "safety": "his Human Decency plank is about oversight of 'those in positions to protect and serve' and his tribal policies page covers Tribal criminal jurisdiction and an MMIP alert system, which are jurisdiction and victim notification questions rather than the prevention versus enforcement axis; no policing funding, sentencing, treatment, or reentry position found on any page of his campaign site, his Ballotpedia profile, his iVoterGuide profile which he left unanswered, or North Dakota Monitor coverage"
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.hammerfornd.com/priorities"
+        },
+        {
+          "label": "Campaign policies page",
+          "url": "https://www.hammerfornd.com/policies"
+        },
+        {
+          "label": "North Dakota Monitor: candidate interview, 2024",
+          "url": "https://northdakotamonitor.com/2024/10/18/hammer-ranks-farm-bill-as-top-priority-if-elected-to-us-house/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6ND01049/"
+        }
+      ],
+      "curatedAt": "2026-08-17"
     }
   ]
 }

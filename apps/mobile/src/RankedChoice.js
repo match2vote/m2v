@@ -55,11 +55,11 @@ export function RankedChoiceNotice({ raceId, variant = 'race', onPaper = false }
   if (!info) return null;
   const ink = onPaper ? '#3a3128' : colors.ink;
   const soft = onPaper ? '#5a5046' : colors.inkSoft;
-  const accent = onPaper ? '#4A2545' : colors.accent;
+  const accent = onPaper ? '#63305A' : colors.accent;
   return (
     <View
       style={{
-        borderLeftWidth: 3, borderLeftColor: onPaper ? '#4A2545' : colors.gold,
+        borderLeftWidth: 3, borderLeftColor: onPaper ? '#63305A' : colors.gold,
         paddingLeft: space(3), paddingVertical: space(1), marginBottom: space(3),
       }}
     >

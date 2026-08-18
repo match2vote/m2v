@@ -16,16 +16,17 @@ const light = {
   ink: '#262019',           // warm espresso ink
   inkSoft: '#7A7167',
   line: '#EAE4DB',
-  // Deep aubergine. CTAs, countdown, counters, active tab. Replaced the gold
-  // #8B6318 on Aug 18. Contrast improved rather than regressed: 12.1:1 on
-  // cream and 12.8:1 on white, against gold's 5.1 and 5.4. Still the one
-  // interaction accent, never a data color.
-  accent: '#4A2545',
-  accentBright: '#C9A2BC',  // light mauve, ONLY for text on espresso cards
-  accentSoft: '#F2E9EF',
-  gold: '#4A2545',
-  goldSoft: '#F2E9EF',
-  onAccent: '#FFFFFF',      // text on an aubergine fill, 12.8:1
+  // Aubergine. CTAs, countdown, counters, active tab. Replaced the gold
+  // #8B6318 on Aug 18, then lightened one step the same day because the first
+  // value read as near-black in the large fills. Contrast is still far better
+  // than the gold ever was: 9.4:1 on cream and 9.8:1 on white, against gold's
+  // 5.1 and 5.4. Still the one interaction accent, never a data color.
+  accent: '#63305A',
+  accentBright: '#D0A9C4',  // light mauve, ONLY for text on espresso cards
+  accentSoft: '#F2E9F0',
+  gold: '#63305A',
+  goldSoft: '#F2E9F0',
+  onAccent: '#FFFFFF',      // text on an aubergine fill, 10.0:1
   espresso: '#2E2621',      // dark cards
   espressoGlow: '#4A3340',  // soft corner gradient on dark cards, plum-warm
   green: '#3D5A46',         // info callout ink

@@ -4,25 +4,30 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { useColorScheme } from 'react-native';
 
-// Palette source of truth: Draft 1 mockup. Warm cream, deep gold as the only
-// strong color, espresso dark cards. Never party red/blue anywhere.
+// Palette source of truth: warm cream, deep aubergine as the only strong
+// color, espresso dark cards. Never party red/blue anywhere. Aubergine was
+// chosen Aug 18 to unify with the logo and the marketing site; it keeps red
+// underneath so it still belongs on the warm cream rather than sitting on it.
+// The keys are still named gold/goldSoft for now so nothing downstream breaks;
+// renaming them to accent/accentSoft is a separate tidy-up.
 const light = {
   bg: '#FAF8F5',            // warm cream, never white
   surface: '#FFFFFF',
   ink: '#262019',           // warm espresso ink
   inkSoft: '#7A7167',
   line: '#EAE4DB',
-  // Deep gold. CTAs, countdown, counters, active tab. Was #A87722; deepened
-  // Aug 15 so gold text clears WCAG AA on cream and white (5.1:1 and 5.4:1,
-  // the old value was 3.7:1). Same hue, still the one interaction accent.
-  accent: '#8B6318',
-  accentBright: '#C08A2D',
-  accentSoft: '#F5EBDA',
-  gold: '#8B6318',
-  goldSoft: '#F5EBDA',
-  onAccent: '#FFF9EE',      // text on a gold fill
+  // Deep aubergine. CTAs, countdown, counters, active tab. Replaced the gold
+  // #8B6318 on Aug 18. Contrast improved rather than regressed: 12.1:1 on
+  // cream and 12.8:1 on white, against gold's 5.1 and 5.4. Still the one
+  // interaction accent, never a data color.
+  accent: '#4A2545',
+  accentBright: '#C9A2BC',  // light mauve, ONLY for text on espresso cards
+  accentSoft: '#F2E9EF',
+  gold: '#4A2545',
+  goldSoft: '#F2E9EF',
+  onAccent: '#FFFFFF',      // text on an aubergine fill, 12.8:1
   espresso: '#2E2621',      // dark cards
-  espressoGlow: '#4A3A28',  // soft corner gradient on dark cards
+  espressoGlow: '#4A3340',  // soft corner gradient on dark cards, plum-warm
   green: '#3D5A46',         // info callout ink
   greenSoft: '#E9EFE6',     // the green info callout
   federal: '#4F6683', federalSoft: '#E4EAF2',   // muted category pills (not party colors)
@@ -42,14 +47,14 @@ const dark = {
   ink: '#F2EBE1',
   inkSoft: '#A89C8E',
   line: '#38302A',
-  accent: '#D2A24C',
-  accentBright: '#E0B15C',
-  accentSoft: '#3A2E1B',
-  gold: '#D2A24C',
-  goldSoft: '#3A2E1B',
-  onAccent: '#241E19',      // dark ink on a gold fill (cream on this gold is 2.2:1)
+  accent: '#D3A8C4',
+  accentBright: '#DCB6CD',
+  accentSoft: '#3A2430',
+  gold: '#D3A8C4',
+  goldSoft: '#3A2430',
+  onAccent: '#241E19',      // dark ink on a mauve fill, 8.0:1
   espresso: '#2E2621',
-  espressoGlow: '#4A3A28',
+  espressoGlow: '#4A3340',
   green: '#9DBBA5',
   greenSoft: '#25302A',
   federal: '#93A9C4', federalSoft: '#242C38',

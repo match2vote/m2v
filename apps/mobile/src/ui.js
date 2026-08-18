@@ -106,7 +106,7 @@ export function ProgressBar({ value }) {
       accessibilityValue={{ min: 0, max: 100, now: Math.round(value * 100) }}
       style={{ height: 8, borderRadius: 4, backgroundColor: colors.line, overflow: 'hidden', marginBottom: space(4) }}
     >
-      <View style={{ height: 8, borderRadius: 4, backgroundColor: colors.accentBright, width: `${Math.round(value * 100)}%` }} />
+      <View style={{ height: 8, borderRadius: 4, backgroundColor: colors.accent, width: `${Math.round(value * 100)}%` }} />
     </View>
   );
 }

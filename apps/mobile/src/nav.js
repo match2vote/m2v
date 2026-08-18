@@ -4,7 +4,10 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { Platform } from 'react-native';
 
-const BASE = '/m2v';
+// Served from the root of app.match2vote.org. Old links still carry the
+// /m2v prefix from the github.io days, so pathToRoute tolerates it.
+const BASE = '';
+const LEGACY_BASE = '/m2v';
 const NavCtx = createContext(null);
 
 function routeToPath(r) {
@@ -27,7 +30,7 @@ function routeToPath(r) {
 
 export function pathToRoute(pathname) {
   let p = pathname || '/';
-  if (p.startsWith(BASE)) p = p.slice(BASE.length);
+  if (p.startsWith(LEGACY_BASE + '/') || p === LEGACY_BASE) p = p.slice(LEGACY_BASE.length) || '/';
   const seg = p.split('/').filter(Boolean);
   if (!seg.length) return { name: 'home' };
   if (seg[0] === 'home') return { name: 'home' };

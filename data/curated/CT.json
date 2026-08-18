@@ -7,12 +7,12 @@
       "statusNote": "Gov. Ned Lamont (D) seeks a third term, rated Likely D. He beat state Rep. Josh Elliott by better than 2-1 in the Aug 11 Democratic primary; state Sen. Ryan Fazio (R) won the GOP nomination at the May 16 convention with about 92% of delegates, so Republicans held no primary. No Senate race in CT in 2026."
     },
     "CT-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6CT01206",
         "fec-H2CT03102"
       ],
-      "statusNote": "Major party nominees after Connecticut's August 11, 2026 primary: Luke Bronin (Democrat), Amy Chai (Republican). No incumbent is on the November ballot. We know who's running, positions not researched yet.",
+      "statusNote": "Open seat. Luke Bronin (D) beat 13-term Rep. John Larson 53.5% to 34.7% in the Aug 11, 2026 Democratic primary; Amy Fogelstrom Chai (R) is the Republican nominee. Both candidates researched on the same ten issues.",
       "sources": [
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
@@ -29,13 +29,17 @@
       ]
     },
     "CT-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2CT02112",
         "fec-H6CT02196"
       ],
-      "statusNote": "Major party nominees after Connecticut's August 11, 2026 primary: Joe Courtney (Democrat), George Austin (Republican). Rep. Joe Courtney is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Joe Courtney (D) is the incumbent. George Austin (R) was nominated by acclamation at the May 15, 2026 Republican convention; no primary was held in either party. Both candidates researched on the same ten issues.",
       "sources": [
+        {
+          "label": "CT Mirror, CT GOP convention, May 15, 2026",
+          "url": "https://ctmirror.org/2026/05/15/ct-gop-opens-convention-fazio-mccaughey/"
+        },
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
           "url": "https://ctmirror.org/2026/08/11/john-larson-luke-bronin-primary-election-results/"
@@ -51,12 +55,12 @@
       ]
     },
     "CT-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0CT03072",
         "fec-H6CT03178"
       ],
-      "statusNote": "Major party nominees after Connecticut's August 11, 2026 primary: Rosa DeLauro (Democrat), Christopher Lancia (Republican). Rep. Rosa DeLauro is the incumbent. Independent filer Andrew Rice appears in FEC records and his November ballot status is not confirmed. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Rosa DeLauro (D) is the incumbent. Christopher Lancia (R) won the Republican endorsement at the May 15, 2026 convention; no primary was held in either party. Both candidates researched on the same ten issues.",
       "sources": [
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
@@ -73,12 +77,12 @@
       ]
     },
     "CT-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CT04172",
         "fec-H6CT04143"
       ],
-      "statusNote": "Major party nominees after Connecticut's August 11, 2026 primary: Jim Himes (Democrat), Michael Goldstein (Republican). Rep. Jim Himes is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Jim Himes (D) seeks a tenth term. Michael Goldstein (R) won the Aug 11, 2026 Republican primary with 73% over Dan Miressi, a rematch of 2024. Both candidates researched on the same ten issues.",
       "sources": [
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
@@ -91,17 +95,25 @@
         {
           "label": "270toWin, 2026 Connecticut U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/connecticut"
+        },
+        {
+          "label": "Patch, 4th Congressional District Republican primary results, August 11, 2026",
+          "url": "https://patch.com/connecticut/fairfield/4th-congressional-district-republican-primary-polls-close"
         }
       ]
     },
     "CT-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CT05245",
         "fec-H6CT05231"
       ],
-      "statusNote": "Major party nominees after Connecticut's August 11, 2026 primary: Jahana Hayes (Democrat), Chris Shea (Republican). Rep. Jahana Hayes is the incumbent. An independent, Jackson Taddeo-Waite, has filed with the FEC and his November ballot status is not confirmed. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Jahana Hayes (D) is the incumbent. Chris Shea (R) won the Aug 11, 2026 Republican primary about 80% to 20% over Jonathan De Barros. Both candidates researched on the same ten issues.",
       "sources": [
+        {
+          "label": "WFSB, Chris Shea wins Republican primary in CT's Fifth Congressional District, August 12, 2026",
+          "url": "https://www.wfsb.com/2026/08/12/chris-shea-wins-republican-primary-cts-fifth-congressional-district-will-face-jahana-hayes-november/"
+        },
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
           "url": "https://ctmirror.org/2026/08/11/john-larson-luke-bronin-primary-election-results/"
@@ -238,7 +250,7 @@
         "education": 1,
         "safety": 2,
         "repro": 0,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -276,10 +288,11 @@
         "repro": {
           "label": "Mixed: says 'restricting abortion in Connecticut is never going to happen' and backs the state's guarantee, but opposed the 2022 safe-harbor law protecting patients from out-of-state abortion prosecutions (CT Mirror)",
           "url": "https://ctmirror.org/2024/09/22/ct-ryan-fazio-greenwich-2024-election/"
+        },
+        "democracy": {
+          "label": "Opposed Connecticut's 2022 early voting referendum: 'Connecticut state law already effectively provides early voting', long voting periods let 'groups and parties effectively harvest votes' and diminish 'the value of Election Day' (Stamford Elections questionnaire, 2022)",
+          "url": "https://www.stamfordelections.com/candidates/631cf44e56315f0022fb637e"
         }
-      },
-      "nullNotes": {
-        "democracy": "checked campaign issues page, Ballotpedia, Wikipedia, and CT Mirror coverage, nothing documented; legislative-record search also empty"
       },
       "sources": [
         {
@@ -300,6 +313,932 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H6CT01206",
+      "name": "Luke Bronin",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 47,
+      "home": "Hartford, CT",
+      "now": "Former mayor of Hartford (2016 to 2024)",
+      "background": "Two-term mayor of Hartford (2016 to 2024), earlier general counsel to Gov. Dannel Malloy and a Treasury official in the Obama administration; Navy intelligence officer who deployed to Afghanistan on an anti-corruption task force, and a Rhodes Scholar. Suspended a 2018 run for governor. Won the Aug. 11, 2026 Democratic primary with 53.5% over 13-term Rep. John Larson (34.7%), so there is no incumbent on the November ballot.",
+      "priorities": [
+        "Bringing down costs: housing, health care, energy, child and elder care",
+        "A public Medicare option and drug price negotiation",
+        "A progressive tax code and getting dark money out of politics"
+      ],
+      "positions": {
+        "cost": 0,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
+        "safety": 0,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Mixed: wants Medicare and Medicaid to negotiate drug prices and 'investments that the private sector won't make', but also 'fixing bottlenecks that artificially drive up prices, from permitting delays to outdated regulations' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/Reforma"
+        },
+        "health": {
+          "label": "Backs 'a strong public option so that any American who wants to participate in Medicare can do so', drug price negotiation and breaking up 'healthcare monopolies' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/protecting-medicare-medicaid-and-pushing-for-universal-healthcare"
+        },
+        "housing": {
+          "label": "'We need more flexible federal financing tools, to help communities build a mix of market rate and affordable housing' and 'slumlords and absentee-landlords can be held accountable' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/building-more-housing"
+        },
+        "immigration": {
+          "label": "Wants 'legal pathways that encourage more legal immigration' and 'citizenship for DACA recipients', would 'Abolish ICE', while also backing 'secure borders, fair and timely asylum processing' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/immigration"
+        },
+        "taxes": {
+          "label": "Roll back Trump-era cuts for high earners, add 'two new top income tax brackets', restore the corporate rate to '35% or at minimum to 28%', raise estate taxes and tax capital gains 'closer to ordinary income' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/affordability"
+        },
+        "climate": {
+          "label": "'We need a massive commitment to more affordable, clean energy. Solar, wind, hydro, fuel cells, nuclear', with 'smart public investments to accelerate the transition'; faults Trump for 'doubling down on dirty and inefficient fossil fuels' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/climate-change"
+        },
+        "education": {
+          "label": "'We should invest more in people, with smaller class sizes, stronger teacher training and recruitment, better teacher pay', from early childhood through college (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/educating-our-kids"
+        },
+        "safety": {
+          "label": "Mixed: will 'support vital community violence prevention work like violence interrupters and hospital-based violence intervention programs' and as mayor 'also demanded real accountability for people involved in gun violence' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/reducing-gun-violence"
+        },
+        "repro": {
+          "label": "'Roe v Wade must be codified in federal law'; as mayor led one of the first ordinances against 'the abuses of crisis pregnancy centers' (campaign site)",
+          "url": "https://www.broninforcongress.com/issues/safeguarding-reproductive-freedom"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site: issues",
+          "url": "https://www.broninforcongress.com/issues"
+        },
+        {
+          "label": "CT Mirror: primary result",
+          "url": "https://ctmirror.org/2026/08/11/john-larson-luke-bronin-primary-election-results/"
+        },
+        {
+          "label": "CT Mirror: candidates on housing",
+          "url": "https://ctmirror.org/2026/08/14/housing-affordability-bronin-chai/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CT01206/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "democracy": "checked campaign issues index and Fighting Corruption page (overturn Citizens United, limit pardon power, ban congressional stock trading), Ballotpedia (no Candidate Connection survey), CT Mirror primary coverage; nothing on voter registration, mail or early voting, or voter ID, and campaign finance items do not fit the axis"
+      }
+    },
+    {
+      "id": "fec-H2CT03102",
+      "name": "Amy Fogelstrom Chai",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Physician, internal medicine and addiction medicine",
+      "background": "Detroit-born physician (Indiana University School of Medicine, 1989) with a master's in epidemiology, author and mental health advocate. Ran for Congress in the 3rd District in 2022 as an independent, taking 1.7% against Rep. Rosa DeLauro. Announced a Republican bid for the 1st District in January 2026 with the slogan 'listen more, hate less' and a platform of prevention, transparency in government spending and term limits; is the GOP nominee against Luke Bronin.",
+      "priorities": [
+        "Prevention of mental illness and addiction",
+        "Transparency in federal spending and the national debt",
+        "Parental rights and literacy in schools"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 0,
+        "housing": -1,
+        "immigration": 1,
+        "taxes": 0,
+        "climate": 0,
+        "education": 1,
+        "safety": -1,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Mixed: 'With passage of the ACA, the costs of healthcare skyrocketed', yet wants government 'caps on profits for VCs that own healthcare conglomerates' to put '2.6 trillion back in your pocket' (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Amy_Chai"
+        },
+        "housing": {
+          "label": "Has drafted federal legislation limiting private equity purchases of single-family homes and proposes a Hartford pilot for affordable homeownership on underutilized properties; 'Investors are using the low-income housing market for profit' (CT Mirror)",
+          "url": "https://ctmirror.org/2026/08/14/housing-affordability-bronin-chai/"
+        },
+        "immigration": {
+          "label": "'I do not believe that a US Representative should impede the enforcement of border security, ever' (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Amy_Chai"
+        },
+        "taxes": {
+          "label": "Mixed: 'Property taxes must be capped', the self-employment tax 'must be eliminated' and 'We must spend less', but also 'More tax on financial industry and less tax on earned income' (campaign site)",
+          "url": "https://chaiforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Mixed: 'I would like to present a better option for America than the Green New Deal', proposing locally sourced 'Sustainability Zones' for food, energy and medicine, innovation over top-down mandates (Ballotpedia survey, 2022 and 2025)",
+          "url": "https://ballotpedia.org/Amy_Chai"
+        },
+        "education": {
+          "label": "'Parents have every right to determine what their children are learning, whether it be through public schools or home education'; wants classroom curriculum disclosure (campaign site)",
+          "url": "https://chaiforcongress.com/issues"
+        },
+        "safety": {
+          "label": "'Prevention over reaction': address 'the root causes of mental illness, addiction, crime and poverty' and prioritize 'reintegration of ex-offenders' (New Britain Herald)",
+          "url": "https://www.newbritainherald.com/news/chai-announces-run-for-congress/article_3b1c41a5-de0b-46d8-b963-b33d0624d20f.html"
+        },
+        "democracy": {
+          "label": "'I would create federal standards with requirements for voter ID and careful monitoring of voter rolls', 'a maximum of one week of early voting' and paper ballots; also backs ranked choice voting (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Amy_Chai"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site: issues",
+          "url": "https://chaiforcongress.com/issues"
+        },
+        {
+          "label": "Ballotpedia: Amy Chai (Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Amy_Chai"
+        },
+        {
+          "label": "New Britain Herald: campaign announcement",
+          "url": "https://www.newbritainherald.com/news/chai-announces-run-for-congress/article_3b1c41a5-de0b-46d8-b963-b33d0624d20f.html"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CT03102/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "cost": "checked campaign issues page (Prosperity section is about small business and 'local self-sufficiency' with no price, subsidy, wage or deregulation mechanism), Ballotpedia survey, New Britain Herald and Bristol Press announcements, Patch 2022 profile; nothing that fits the axis",
+        "repro": "checked campaign issues page, Ballotpedia 2022 and 2025 surveys, Patch 2022 profile, Hartford Courant 2022 profile, iVoterGuide 2022 (she left the abortion question unanswered); no abortion position anywhere"
+      }
+    },
+    {
+      "id": "fec-H8CT04172",
+      "name": "Jim Himes",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 60,
+      "home": "Greenwich, CT (Cos Cob)",
+      "now": "U.S. Representative, CT-4 (since 2009); Ranking Member, House Permanent Select Committee on Intelligence",
+      "background": "Born in Lima, Peru to American parents; Harvard graduate and Rhodes Scholar. Spent 12 years at Goldman Sachs, then ran the New York office of Enterprise Community Partners, an affordable-housing nonprofit, and chaired the Greenwich Housing Authority. Elected to Congress in 2008 and now in his ninth term; sits on Financial Services and is the top Democrat on the Intelligence Committee. Beat Michael Goldstein 61% to 37% in 2024 and faces him again in November 2026.",
+      "priorities": [
+        "Lowering health care and prescription drug costs",
+        "Climate action and clean energy",
+        "Protecting democracy and voting rights"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Has 'supported measures that decrease prescription drug costs, cap insulin prices' (himes.house.gov health care page)",
+          "url": "https://himes.house.gov/issues/health-care/"
+        },
+        "health": {
+          "label": "'The Affordable Care Act put our country on the right path'; backs measures to 'expand health insurance subsidies' and 'expand eligibility for insurance coverage' (himes.house.gov health care page)",
+          "url": "https://himes.house.gov/issues/health-care/"
+        },
+        "housing": {
+          "label": "Voted Jan. 31, 2024 for the Tax Relief for American Families and Workers Act to 'expand the Low-Income Housing Tax Credit' and 'accelerate the construction of affordable housing' (himes.house.gov press release)",
+          "url": "https://himes.house.gov/2024/1/himes-votes-to-expand-funding-for-child-support-and-affordable-housing"
+        },
+        "immigration": {
+          "label": "Voted Nay on passage of S.5, the Laken Riley Act, Jan. 22, 2025, roll call 23 (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted No on concurring in the Senate amendment to H.R.1, the One Big Beautiful Bill Act, July 3, 2025, roll call 190, the Republican reconciliation bill extending the 2017 tax cuts (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'A fully-refundable carbon fee would correct this market failure by shifting the cost to emitters'; 'the urgency to transition to clean energy has never been greater'; voted for the Inflation Reduction Act (himes.house.gov climate page)",
+          "url": "https://himes.house.gov/issues/climate-environment/"
+        },
+        "education": {
+          "label": "'We must ensure our public schools are robustly funded'; has backed fully funding IDEA and increased Title I investment (himes.house.gov education page)",
+          "url": "https://himes.house.gov/issues/education/"
+        },
+        "repro": {
+          "label": "'Longtime supporter of the Women's Health Protection Act... enshrining protection to abortion access into federal law' (himes.house.gov reproductive freedom page)",
+          "url": "https://himes.house.gov/issues/reproductive-freeom/"
+        },
+        "democracy": {
+          "label": "'The John R. Lewis Voting Rights Advancement Act, which I am proud to have co-sponsored and voted for, would restore federal oversight of state and local voting policies' (himes.house.gov voting rights page)",
+          "url": "https://himes.house.gov/issues/voting-rights/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Official House site: About Jim",
+          "url": "https://himes.house.gov/about/about-jim/"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.himesforcongress.com/"
+        },
+        {
+          "label": "Patch: 2026 CT-4 Republican primary result (Goldstein nominated to face Himes)",
+          "url": "https://patch.com/connecticut/fairfield/4th-congressional-district-republican-primary-polls-close"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CT04172/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "safety": "checked himes.house.gov issues index (only a gun violence prevention page, which does not count for this axis), 2024 press releases on police department grants and a reentry health grant (both routine grant announcements, which do not count under the calibration rule), CT Mirror 2024 debate coverage; no statement for or against enforcement versus prevention"
+      }
+    },
+    {
+      "id": "fec-H6CT04143",
+      "name": "Michael Goldstein",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Greenwich, CT",
+      "now": "Ophthalmic surgeon and attorney; former member, Greenwich Representative Town Meeting",
+      "background": "New York City native and Greenwich resident since 1987; M.D. from SUNY Downstate (1974) and J.D. from Pace Law (2006), and has led state and county medical societies. Lost the 2022 GOP primary, then won the 2024 nomination and lost to Himes 61% to 37%. Won the Aug. 11, 2026 Republican primary over Dan Miressi with 73% (4,628 to 1,606) for a rematch with Himes.",
+      "priorities": [
+        "Cut health care regulation and restore competition to lower costs",
+        "Lower Connecticut electricity bills via natural gas pipelines and nuclear",
+        "Career pathways: trade schools, apprenticeships, student debt relief for graduates who stay in CT"
+      ],
+      "positions": {
+        "cost": 0,
+        "health": 1,
+        "housing": 0,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 2,
+        "education": 2,
+        "safety": 2,
+        "repro": 1,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "On drug prices, mixed: the government 'should build upon that framework' of IRA Medicare price negotiation, while 'streamlining the regulatory process, encouraging biosimilars and generics' and reforming PBMs to cut costs (Nancy on Norwalk questionnaire)",
+          "url": "https://www.nancyonnorwalk.com/michael-ted-goldstein-answers-nancyonnorwalks-2026-u-s-representative-4th-congressional-district-questionnaire/"
+        },
+        "health": {
+          "label": "Cites Democratic proposals like 'Medicare for All' as a concern and says 'health care needs more competition and choice' (CT Mirror)",
+          "url": "https://ctmirror.org/2026/08/07/gop-congressional-hopefuls-focus-on-issues-and-campaign-styles/"
+        },
+        "housing": {
+          "label": "'21st Century Homestead Act' mixes 'Down payment assistance' and first-time-buyer tax incentives with 'Streamlined permitting. Incentives for zoning reform' and cutting federal environmental review delays (campaign platform)",
+          "url": "https://goldstein-for-congress-ru4gws5.gamma.site/"
+        },
+        "immigration": {
+          "label": "'Ideally, there should be no illegal immigration'; wants secure borders and targeted enforcement on 'violent criminals, gang members, terrorists', with foreign workers admitted only 'through a lawful visa system' (Nancy on Norwalk questionnaire)",
+          "url": "https://www.nancyonnorwalk.com/michael-ted-goldstein-answers-nancyonnorwalks-2026-u-s-representative-4th-congressional-district-questionnaire/"
+        },
+        "taxes": {
+          "label": "Backed extending the expiring 2017 tax provisions: 'keeping taxes low is a way to stimulating the economy... keeping more money in people's pockets is a very good idea' (CT Mirror 2024 debate)",
+          "url": "https://ctmirror.org/2024/10/29/ct-4th-district-debate-jim-himes-michael-goldstein-benjamin-wesley/"
+        },
+        "climate": {
+          "label": "'Natural gas, nuclear, and renewables. Prioritize affordability, not ideology'; 'Remove federal barriers blocking natural gas pipeline capacity into New England'; mandates forcing 'expensive energy transitions' drive up costs (campaign platform)",
+          "url": "https://goldstein-for-congress-ru4gws5.gamma.site/"
+        },
+        "education": {
+          "label": "'Federal funding follows the student. Education Savings Accounts give families real options'; mandates 'complete curriculum disclosure' and parental consent (campaign platform)",
+          "url": "https://goldstein-for-congress-ru4gws5.gamma.site/"
+        },
+        "safety": {
+          "label": "'Safe Streets, No Exceptions': federal funding for police 'hiring bonuses, retention incentives', incentives for states keeping bail for violent crimes, 'Increase penalties' on fentanyl traffickers (campaign platform)",
+          "url": "https://goldstein-for-congress-ru4gws5.gamma.site/"
+        },
+        "repro": {
+          "label": "Disagreed that abortion access is a fundamental right: 'it is up to each state to decide and that voters should be able to vote on the issue in a referendum' (CT Mirror 2024 debate)",
+          "url": "https://ctmirror.org/2024/10/29/ct-4th-district-debate-jim-himes-michael-goldstein-benjamin-wesley/"
+        },
+        "democracy": {
+          "label": "'I also support responsible investments in election integrity. Connecticut has experienced serious concerns involving absentee ballots... The public must have confidence that... election fraud is investigated and prevented' (Nancy on Norwalk questionnaire)",
+          "url": "https://www.nancyonnorwalk.com/michael-ted-goldstein-answers-nancyonnorwalks-2026-u-s-representative-4th-congressional-district-questionnaire/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign platform: Where I Stand",
+          "url": "https://goldstein-for-congress-ru4gws5.gamma.site/"
+        },
+        {
+          "label": "Ballotpedia: Michael Goldstein (Connecticut)",
+          "url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)"
+        },
+        {
+          "label": "Patch: 2026 CT-4 Republican primary result",
+          "url": "https://patch.com/connecticut/fairfield/4th-congressional-district-republican-primary-polls-close"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CT04143/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "age": "Patch and CT Mirror gave 74 in October 2024; no fetched page states a birth date or current age"
+      }
+    },
+    {
+      "id": "fec-H2CT02112",
+      "name": "Joseph Courtney",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 73,
+      "home": "Vernon, CT",
+      "now": "U.S. Representative, CT-2 (since 2007); Ranking Member, House Armed Services Seapower Subcommittee",
+      "background": "Lawyer and former Vernon town attorney who served in the Connecticut General Assembly from 1987 to 1994, chairing the Public Health and Human Services committees. First elected to Congress in 2006 and has represented eastern Connecticut since; sits on Armed Services (Ranking Member, Seapower and Projection Forces) and Education and Workforce, and co-chairs the Congressional Shipbuilding Caucus. Seeking an eleventh term in 2026 against Republican George Austin.",
+      "priorities": [
+        "Submarine industrial base and Electric Boat jobs",
+        "Protecting Medicaid and ACA coverage from H.R. 1 cuts",
+        "Offshore wind and eastern Connecticut energy supply"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Called on Congress to 'pass the Health Care Affordability Act to make ACA subsidies permanent' after CT premium hikes, saying 'health insurance is already way too expensive' (Courtney press release, Sept 2025)",
+          "url": "https://courtney.house.gov/media-center/press-releases/courtney-statement-ct-health-care-insurance-premium-hike"
+        },
+        "health": {
+          "label": "Denounced H.R. 1's $1 trillion Medicaid cut and its 'medical frailty' work-requirement rules as 'inhumane' on the House floor (Courtney press release, June 2026)",
+          "url": "https://courtney.house.gov/media-center/press-releases/courtney-slams-latest-inhumane-health-care-cuts-big-ugly-bill"
+        },
+        "housing": {
+          "label": "Voted for the ROAD to Housing Act (396-13), a 'rare bipartisan breakthrough' pairing 'federal reforms to generate new housing construction' with measures to 'expand affordable rental housing, prevent homelessness' (Courtney press release, May 2026)",
+          "url": "https://courtney.house.gov/media-center/press-releases/courtney-votes-pass-major-housing-reform-bill"
+        },
+        "immigration": {
+          "label": "Voted for the Laken Riley Act detention bill ('it still left open the door for due process') but voted against H.R. 875 deportation bill and blasted DHS for dismissing 'due process as a requirement, which the 14th Amendment clearly creates for all persons' (CT Mirror)",
+          "url": "https://ctmirror.org/2025/07/16/trump-immigration-policy-ct-lawmakers/"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent (218-214) (House Clerk roll call 190, July 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Fought Trump's stop-work order on the Revolution Wind offshore project, calling it 'a much-needed expansion of energy capacity' negotiated below current wind rates (Courtney press release, Aug 2025)",
+          "url": "https://courtney.house.gov/media-center/press-releases/courtney-statement-trump-order-halt-revolution-wind-project-putting-200"
+        },
+        "education": {
+          "label": "Opposed abolishing the Education Department, 'a major, major partner' delivering Title I money to 'nearly every K-12 public school in CT-02' and special education funding (Courtney press release, Feb 2025)",
+          "url": "https://courtney.house.gov/media-center/press-releases/rep-courtney-abolishing-education-department-wildly-unpopular-and"
+        },
+        "repro": {
+          "label": "Voted for the Women's Health Protection Act to 're-establish that Americans have a statutory right to receive abortion care' and called Dobbs 'a stunning step backwards' (Courtney press release, July 2022)",
+          "url": "https://courtney.house.gov/media-center/press-releases/courtney-votes-protect-americans-right-privacy-pushing-back-efforts"
+        },
+        "democracy": {
+          "label": "Voted Nay on H.R. 22, the SAVE Act, requiring documentary proof of citizenship to register to vote (passed 220-208) (House Clerk roll call 102, April 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "House biography",
+          "url": "https://courtney.house.gov/about/full-biography"
+        },
+        {
+          "label": "House issues pages",
+          "url": "https://courtney.house.gov/issues"
+        },
+        {
+          "label": "Wikipedia: Joe Courtney (bio only)",
+          "url": "https://en.wikipedia.org/wiki/Joe_Courtney_(politician)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CT02112/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "safety": "checked courtney.house.gov Public Safety and Homeland Security issues page (only fire, road-safety and public-safety grant announcements plus gun votes, which do not map to this axis) and press release list; no prevention-versus-enforcement position documented"
+      }
+    },
+    {
+      "id": "fec-H6CT02196",
+      "name": "George Patrick Austin",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 38,
+      "home": "Suffield, CT",
+      "now": "Small business owner in construction management",
+      "background": "First-generation American who married at 17 after meeting his wife in Mexico and navigated the U.S. immigration system with her; paid his own way through Central Connecticut State University with a construction management degree and now owns a small business. Member of the Home Builders and Remodelers Association, NFIB, CCDL and NRA. Won the CT GOP nomination for the 2nd District by acclamation at the May 15, 2026 convention as the only Republican candidate. Wrote on his campaign blog in January 2026 that he is 38 years old.",
+      "priorities": [
+        "Lower costs: energy bills, taxes and mandates",
+        "Trade education and apprenticeships for defense manufacturing jobs",
+        "Border security and asylum reform"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Deliver tax relief to keep more money in your pocket' and 'make Connecticut more competitive to attract businesses' as the answer to housing, utility and food costs (campaign site, Dollars and Sense)",
+          "url": "https://votegeorgeforcongress.com/dollars-and-sense/"
+        },
+        "health": {
+          "label": "Campaign blog: 'the cuts to Medicaid were necessary' and calls for 'hard conversations about any and all entitlement programs'; separate April release opposes Courtney's Medicare 'expansions and subsidies' (campaign blog, Jan 2026)",
+          "url": "https://votegeorgeforcongress.com/criminals-bureaucrats-and-budgets-oh-my/"
+        },
+        "immigration": {
+          "label": "'Strengthen border security and restore order' with 'physical barriers in appropriate locations', 'replace catch-and-release with consistent processing', while also modernizing legal pathways (campaign site, Securing Our Borders)",
+          "url": "https://votegeorgeforcongress.com/secure-our-borders/"
+        },
+        "taxes": {
+          "label": "Promises an 'America First, limited-government approach' to 'cut waste, and stop abusing the taxpayer credit card with impunity' and fight 'high taxes' (campaign site)",
+          "url": "https://votegeorgeforcongress.com/"
+        },
+        "climate": {
+          "label": "Will 'push for energy policies that lower utility bills' and refuses to 'bow to extreme green ideology that relies on shame, propaganda, and fear' (campaign site, Dollars and Sense)",
+          "url": "https://votegeorgeforcongress.com/dollars-and-sense/"
+        },
+        "education": {
+          "label": "Told the Lee Elci Show of 'the importance of parental choice in education, including protecting the rights of homeschooling families' and parental 'notification and transparency' (campaign site, March 2026 post)",
+          "url": "https://votegeorgeforcongress.com/george-austin-joins-lee-elci-with-an-update-on-his-campaign/"
+        },
+        "safety": {
+          "label": "Spanish-language platform: 'proteger a nuestras comunidades del aumento de crímenes respaldando a la policía' (protect communities from rising crime by backing the police) (campaign site, Spanish page)",
+          "url": "https://votegeorgeforcongress.com/un-hombre-de-familia-conservador/"
+        },
+        "repro": {
+          "label": "Spanish-language platform: 'Seré defensor para los infantes en contra del aborto' (I will be a defender of infants against abortion); also describes 'my pro-life stance' in a March 2026 post (campaign site, Spanish page)",
+          "url": "https://votegeorgeforcongress.com/un-hombre-de-familia-conservador/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://votegeorgeforcongress.com/"
+        },
+        {
+          "label": "CT Mirror: GOP convention nomination",
+          "url": "https://ctmirror.org/2026/05/15/ct-gop-opens-convention-fazio-mccaughey/"
+        },
+        {
+          "label": "Willimantic Chronicle: campaign announcement",
+          "url": "https://www.thechronicle.com/news/republican-george-austin-to-challenge-courtney-for-2nd-district-congress-seat/article_89847edd-5764-444e-a8d3-bcbd37ef1869.html"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CT02196/"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "housing": "Dollars and Sense page only lists CT housing costing 24% more than average and a vague 'secure federal investments to ... stabilize housing' with tax relief and business competitiveness as the remedy, no zoning, permitting, public housing or renter position; ECSU student post mentions housing as a topic only; Building Opportunity, Spanish page, blog, all 17 sitemap posts, Chronicle, The Day, Patch (Enfield, Suffield), East Lyme RTC page, Ballotpedia (survey not completed) all empty; New Britain Herald (429) and WTNH (403) could not be read",
+        "democracy": "Only term-limits pledge (Jan 2026 post and Dollars and Sense) and a unity release pledging to 'defend our Constitution, our elections, and our Republic' against political violence, neither fits the voting-access axis; blog alludes to Minnesota 'potential election tampering' without a policy; nothing on voter ID, mail or early voting anywhere on site, Spanish page, Chronicle, The Day, Patch, East Lyme RTC, Ballotpedia"
+      }
+    },
+    {
+      "id": "fec-H0CT03072",
+      "name": "Rosa L Delauro",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 83,
+      "home": "New Haven, CT",
+      "now": "U.S. Representative, CT-3 (since 1991); ranking member, House Appropriations Committee",
+      "background": "New Haven native who has represented Connecticut's 3rd district since 1991 and is the top Democrat on the House Appropriations Committee. Seeking a 19th term; won the May 2026 Democratic convention endorsement with about 87 percent of delegates, and challenger Andrew Rice's convention protest was rejected, leaving her without a primary. Re-elected in 2024 with 58.9 percent.",
+      "priorities": [
+        "Protect Medicaid and health programs from Republican budget cuts",
+        "Expand the Child Tax Credit and lower costs for working families",
+        "Fund public schools, Title I and Head Start"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Helped pass the Consumer Fuel Price Gouging Prevention Act, 'the first ever federal law against price gouging' letting the president declare an energy emergency and making excessive fuel prices illegal: 'hold Big Oil accountable for price gouging' (DeLauro press release)",
+          "url": "https://delauro.house.gov/media-center/press-releases/delauro-joined-connecticut-state-officials-tout-consumer-fuel-price"
+        },
+        "health": {
+          "label": "Voted against the April 10, 2025 Republican budget resolution she said would 'gut Medicaid by $880 billion and leave 80 million Americans without healthcare' (DeLauro press release)",
+          "url": "https://delauro.house.gov/media-center/press-releases/delauro-votes-against-republican-plan-decimate-medicaid"
+        },
+        "housing": {
+          "label": "Voted for the 21st Century ROAD to Housing Act (May 21, 2026), backing 'an all-of-the-above approach that helps us build more homes' while 'fighting against the proposed cuts to the HOME Investment Partnerships Program' (DeLauro press release)",
+          "url": "https://delauro.house.gov/media-center/press-releases/delauro-votes-pass-21st-century-road-housing-act"
+        },
+        "immigration": {
+          "label": "Voted Nay on passage of S. 5, the Laken Riley Act, January 22, 2025 (House Clerk roll 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Backs a tax code 'asking the wealthiest Americans to pay their share': return rates on the wealthiest 2 percent to Clinton-era levels, the 'Buffett Rule', and end 'tax breaks for companies that ship jobs overseas' (DeLauro issues page)",
+          "url": "https://delauro.house.gov/issues/taxes"
+        },
+        "climate": {
+          "label": "Wants to 'shift away from fossil fuels and diversify with investments in the next generation of clean and renewable energy technologies'; supported the Inflation Reduction Act's emissions cuts (DeLauro issues page)",
+          "url": "https://delauro.house.gov/issues/energy"
+        },
+        "education": {
+          "label": "'Ensuring our public schools are given the resources and the support they need is among government's central obligations'; fought to fully fund Title I and Head Start and introduced the CHARTER Act to keep federal funds from for-profit-run charters (DeLauro issues page)",
+          "url": "https://delauro.house.gov/issues/education"
+        },
+        "safety": {
+          "label": "Mixed: opposed the FY2026 CJS bill both because it 'defunds federal law enforcement' and freezes COPS grants, and because it cuts 'reentry initiatives and violence prevention' and 'Community Violence Intervention and Prevention grants' (Appropriations Democrats remarks, Sept. 10, 2025)",
+          "url": "https://democrats-appropriations.house.gov/news/statements/ranking-member-delauros-remarks-full-committee-markup-fiscal-year-2026-commerce"
+        },
+        "repro": {
+          "label": "Voted for the Women's Health Protection Act and Ensuring Access to Abortion Act: 'Access to abortion is a fundamental right' (DeLauro press release)",
+          "url": "https://delauro.house.gov/media-center/press-releases/delauro-votes-defend-reproductive-freedom"
+        },
+        "democracy": {
+          "label": "Voted Nay on passage of H.R. 22, the SAVE Act, April 10, 2025 (House Clerk roll 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "DeLauro House issues pages",
+          "url": "https://delauro.house.gov/issues"
+        },
+        {
+          "label": "CT Mirror: DeLauro convention win upheld",
+          "url": "https://ctmirror.org/2026/06/02/andrew-rice-rosa-delauro-convention-nomination/"
+        },
+        {
+          "label": "House Clerk roll 190: voted No on H.R. 1 One Big Beautiful Bill Act, July 3, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0CT03072/"
+        }
+      ],
+      "curatedAt": "2026-08-18"
+    },
+    {
+      "id": "fec-H6CT03178",
+      "name": "Christopher John Lancia",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Milford, CT",
+      "now": "Outside plant manager at TNI, a fiber network provider; U.S. Coast Guard veteran and former federal law enforcement officer",
+      "background": "Bridgeport native and 1989 Central High School graduate now living in Milford. Served in the U.S. Coast Guard and as a federal police officer at Naval Submarine Base Groton, and works as a manager at fiber network provider TNI. Managed Margaret Streicker's 2020 CT-3 campaign and ran for CT GOP state chairman in 2021. Won the Republican endorsement for CT-3 by roll call at the May 2026 state convention; no primary was held in the district. Says he is running to 'help President Donald Trump finish what he started: putting America First.'",
+      "priorities": [
+        "Lower taxes, a balanced budget and an end to reckless spending",
+        "Border security",
+        "Parental rights in schools and term limits"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Fight inflation, lower taxes, and hold Washington accountable for reckless spending. Families are tightening their belts, Congress should, too' (campaign site)",
+          "url": "https://lanciaforcongress2026.org/"
+        },
+        "immigration": {
+          "label": "'We must control our borders to stop the flow of drugs and crime into our towns'; calls border security national security (campaign site)",
+          "url": "https://lanciaforcongress2026.org/"
+        },
+        "taxes": {
+          "label": "Platform lists 'lower taxes and fewer regulations to help small businesses thrive' and 'real accountability for wasteful government spending' (Joe Hoft)",
+          "url": "https://joehoft.com/coast-guard-vet-former-leo-chris-lancia-ready/"
+        },
+        "climate": {
+          "label": "Platform lists 'energy independence to bring down Connecticut's sky-high utility bills' (Joe Hoft)",
+          "url": "https://joehoft.com/coast-guard-vet-former-leo-chris-lancia-ready/"
+        },
+        "education": {
+          "label": "'Parents, not bureaucrats, should make decisions for their children. Schools should focus on academics, not agendas' (campaign site)",
+          "url": "https://lanciaforcongress2026.org/"
+        },
+        "safety": {
+          "label": "Opposing Flock cameras at a Milford meeting: 'You want the speeding to stop? Put a police cruiser there. Let our officers do their job. Stop being soft on crime' (CT Public)",
+          "url": "https://www.ctpublic.org/2026-08-07/ct-flock-cameras-technology-regulation"
+        },
+        "democracy": {
+          "label": "'Same-day voting should not happen' and 'we also have to do the stop same-day voting, mail-in'; earlier said 'We need to clean up the election, the voter rolls' (CT Common Sense podcast, Feb 26, 2026 and July 10, 2025)",
+          "url": "https://ctcommonsense.substack.com/p/on-the-campaign-trail-for-district"
+        },
+        "repro": {
+          "label": "On abortion: 'As far as Congress, we really don't have any' role, 'It belongs to the states', 'On a federal level, it never should have went to the court to begin with'; wants outreach to young mothers that 'might stop some of these abortions' (CT Common Sense podcast, July 10, 2025)",
+          "url": "https://ctcommonsense.substack.com/p/who-is-this-chris-lancia-guy"
+        },
+        "health": {
+          "label": "On the 2025 reconciliation law: 'I do like the part of the illegals, the cuts of the Medicaid, because it's not affecting anybody that deserves it' (CT Common Sense podcast, July 10, 2025)",
+          "url": "https://ctcommonsense.substack.com/p/who-is-this-chris-lancia-guy"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://lanciaforcongress2026.org/"
+        },
+        {
+          "label": "CT Mirror: GOP convention endorsements",
+          "url": "https://ctmirror.org/2026/05/15/ct-gop-opens-convention-fazio-mccaughey/"
+        },
+        {
+          "label": "Milford Mirror: 2021 profile (state chair bid)",
+          "url": "https://www.milfordmirror.com/news/article/I-ll-do-the-right-thing-Milford-man-15876422.php"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CT03178/"
+        },
+        {
+          "label": "CT Common Sense podcast, Chatting with Chris Lancia, Feb 26, 2026 (transcript on page)",
+          "url": "https://ctcommonsense.substack.com/p/on-the-campaign-trail-for-district"
+        },
+        {
+          "label": "CT Common Sense podcast, Who is this Chris Lancia Guy?, July 10, 2025 (transcript on page)",
+          "url": "https://ctcommonsense.substack.com/p/who-is-this-chris-lancia-guy"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "housing": "checked campaign site, Joe Hoft interview, CT Mirror and Bristol Edition convention stories, Milford Mirror 2021 profile, Patch 2021 story, Lock N Load and CT Common Sense podcast descriptions, web searches for Lancia with housing, rent, zoning, affordable; nothing on housing"
+      }
+    },
+    {
+      "id": "fec-H8CT05245",
+      "name": "Jahana Hayes",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 53,
+      "home": "Waterbury, CT",
+      "now": "U.S. Representative, CT-5 (since 2019)",
+      "background": "Waterbury native and former Waterbury public school history teacher, named 2016 National Teacher of the Year. Elected to Congress in 2018 and now serving her fourth term; sits on the Education and Workforce Committee and is Ranking Member of the Agriculture Subcommittee on Nutrition and Foreign Agriculture. Faces Republican Chris Shea in November 2026 after Shea won the August 11 GOP primary.",
+      "priorities": [
+        "Affordability and lowering household costs",
+        "Protecting health care and Medicaid",
+        "Public education and support for teachers"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Voted Nay on S.J.Res. 18 repealing the CFPB overdraft-fee cap for very large banks, April 9, 2025 (House Clerk roll call 96)",
+          "url": "https://clerk.house.gov/evs/2025/roll096.xml"
+        },
+        "health": {
+          "label": "'In addition to supporting Medicare for All, she has worked to curb surprise billing, cap prescription drug costs' (campaign site)",
+          "url": "https://jahanahayes.com/issues/health-care/"
+        },
+        "housing": {
+          "label": "'Supporting legislation to help first-time homebuyers and expand grant opportunities for anyone who wants to purchase a home,' and curbing large investors competing with individual buyers (campaign site)",
+          "url": "https://jahanahayes.com/issues/equity-social-justice/"
+        },
+        "immigration": {
+          "label": "Voted for the Laken Riley Act mandatory-detention bill, then said 'It's a vote that I regret,' citing 'attacks that have been targeted towards immigrants' (WSHU)",
+          "url": "https://www.wshu.org/connecticut-news/2025-04-11/ct-jahana-hayes-laken-riley-act"
+        },
+        "taxes": {
+          "label": "Voted against H.R. 1, calling it 'over $1 trillion in tax breaks to the wealthiest Americans and the largest corporations' and 'a staggering transfer of wealth' (Hayes press release)",
+          "url": "https://hayes.house.gov/2025/7/hayes-statement-on-h-r-1-the-one-big-beautiful-bill"
+        },
+        "climate": {
+          "label": "Voted Nay on H.R. 26, Protecting American Energy Production Act, barring presidential moratoria on fracking, Feb. 7, 2025 (House Clerk roll call 35)",
+          "url": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        "education": {
+          "label": "'Strongly opposed' the executive order to dismantle the Department of Education, warning it 'will increase disparities and cause the greatest harm to students from low income communities' (Hayes press release)",
+          "url": "https://hayes.house.gov/2025/3/hayes-statement-on-executive-order-signed-by-president-trump-to-dismantle-the-department-of-education"
+        },
+        "safety": {
+          "label": "Voted 'to provide police departments in the Fifth District with robust funding' while 'addressing the root causes of crime through intervention programs and mental health supports' (Hayes press release)",
+          "url": "https://hayes.house.gov/2022/9/hayes-votes-to-fund-local-law-enforcement-and-improve-public-safety"
+        },
+        "repro": {
+          "label": "Voted against H.R. 21, the Born-Alive Abortion Survivors Protection Act, saying 'every woman should be able to make her own medical decisions with her doctor' (Hayes press release)",
+          "url": "https://hayes.house.gov/2025/1/hayes-votes-against-criminalizing-reproductive-health-care"
+        },
+        "democracy": {
+          "label": "Voted Nay on H.R. 22, the SAVE Act requiring documentary proof of citizenship to register to vote, April 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site: issues",
+          "url": "https://jahanahayes.com/issues/"
+        },
+        {
+          "label": "CT Mirror: GOP says it can win the 5th District (Aug. 14, 2026)",
+          "url": "https://ctmirror.org/2026/08/14/cts-gop-says-it-can-win-the-5th-congressional-district-race/"
+        },
+        {
+          "label": "Ballotpedia: Jahana Hayes",
+          "url": "https://ballotpedia.org/Jahana_Hayes"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CT05245/"
+        }
+      ],
+      "curatedAt": "2026-08-18"
+    },
+    {
+      "id": "fec-H6CT05231",
+      "name": "Chris Shea",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 55,
+      "home": "Cheshire, CT",
+      "now": "Lieutenant, North Haven Fire Department; retired Navy SEAL",
+      "background": "Watertown native, retired Navy SEAL with more than 30 years of service who retired in January 2024, and a North Haven firefighter since 2009. Founded Hero to Hero, a nonprofit that helps veterans move into first-responder careers, and previously ran a small handyman business. First run for office; won the August 11, 2026 Republican primary over Jonathan De Barros with about 80% of the vote.",
+      "priorities": [
+        "Lowering the cost of living, energy bills and taxes",
+        "Securing the border and stopping illegal immigration and fentanyl",
+        "Supporting veterans"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Names 'high energy costs and overregulation' as the burdens on Connecticut's economy and working families (campaign site)",
+          "url": "https://chrissheaforcongress.com/issues/"
+        },
+        "immigration": {
+          "label": "'Chris will always fight to secure the border, enforce our immigration laws, and stop the flow of fentanyl' (campaign site)",
+          "url": "https://chrissheaforcongress.com/issues/"
+        },
+        "taxes": {
+          "label": "Defends the 2025 'Big Beautiful Bill' tax cuts and faults Hayes for voting against 'the SALT deduction' and the tips and overtime deductions his 'firefighter and police buddies' will get (WTNH)",
+          "url": "https://www.wtnh.com/news/connecticut/hartford/north-haven-firefighter-enters-race-for-connecticuts-5th-congressional-district/amp/"
+        },
+        "climate": {
+          "label": "'We gotta get after the energy cost here in the state, and the pipeline coming from Pennsylvania is a big deal. I would love to be in a position to put some pressure on getting that done' (FOX61, Aug 7, 2026)",
+          "url": "https://www.fox61.com/article/news/local/two-republican-candidates-last-push-secure-votes-fifth-congressional-district-election-day/520-392c03ab-5a67-4693-88af-139acc3ca0f4"
+        },
+        "education": {
+          "label": "Will 'stand against radical woke ideologies that threaten our children's future, undermine parental rights' (campaign site)",
+          "url": "https://chrissheaforcongress.com/issues/"
+        },
+        "safety": {
+          "label": "Pledges to 'support law enforcement, and put the safety of American families first' and to 'crack down on the flow of drugs and crime' (campaign site)",
+          "url": "https://chrissheaforcongress.com/issues/"
+        },
+        "housing": {
+          "label": "On 'rising housing costs': will 'promote practical housing solutions' by 'reducing unnecessary barriers that drive up costs' (campaign site)",
+          "url": "https://chrissheaforcongress.com/issues/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site: issues",
+          "url": "https://chrissheaforcongress.com/issues/"
+        },
+        {
+          "label": "WTNH: Shea enters race, defends Big Beautiful Bill tax provisions (Jan. 22, 2026)",
+          "url": "https://www.wtnh.com/news/connecticut/hartford/north-haven-firefighter-enters-race-for-connecticuts-5th-congressional-district/amp/"
+        },
+        {
+          "label": "WFSB: Shea wins Republican primary (Aug. 12, 2026)",
+          "url": "https://www.wfsb.com/2026/08/12/chris-shea-wins-republican-primary-cts-fifth-congressional-district-will-face-jahana-hayes-november/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CT05231/"
+        },
+        {
+          "label": "FOX61, 2 Republican candidates make late push for votes in CT's 5th District, Aug 7, 2026",
+          "url": "https://www.fox61.com/article/news/local/two-republican-candidates-last-push-secure-votes-fifth-congressional-district-election-day/520-392c03ab-5a67-4693-88af-139acc3ca0f4"
+        }
+      ],
+      "curatedAt": "2026-08-18",
+      "nullNotes": {
+        "health": "checked campaign issues page and home page, WTNH (Jan. 22), CT Mirror (Jan. 22, May 15, July 27, Aug. 7, Aug. 14), CT Public, WFSB, Patch, Lakeville Journal, Blaze, Hartford Business, iVoterGuide (Healthcare section blank), Ballotpedia (no Candidate Connection), Smarter.Vote, Prediction Edge, DCCC opposition release and American Journal News (both characterize his support of the 2025 reconciliation law as backing Medicaid cuts, but the only Shea quotes on the law concern its tax provisions and 'making those changes permanent'; no Shea statement on Medicaid, ACA or health care itself found; WTIC 'Brian & Company' March 3, 2026 audio not transcribable)",
+        "repro": "checked campaign issues page, WTNH, CT Mirror (Aug. 7 says only that he does not expect abortion 'to be as potent of an issue against Republicans', not a position), CT Public, WFSB, Patch, iVoterGuide (Right to Life section blank), Ballotpedia; DCCC release claims he 'backed' the reconciliation bill's Planned Parenthood provisions but cites only the WTNH tax-deduction quotes; no Shea statement on abortion found",
+        "democracy": "checked campaign issues page, WTNH, CT Mirror, CT Public, Patch, iVoterGuide (Elections and Voting section blank; signed U.S. Term Limits pledge, which does not map to this axis), Ballotpedia, Smarter.Vote; no voting or election-rules position documented"
+      }
     }
   ]
 }

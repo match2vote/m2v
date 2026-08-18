@@ -40,7 +40,7 @@ WHAT YOU CAN DO
 
 PRIVACY, FOR REAL
 
-No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app downloads public candidate data, and if you tap the button asking us to cover your state, it sends your two-letter state code and nothing else. Full policy: https://match2vote.github.io/m2v/privacy/
+No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app downloads public candidate data, and if you tap the button asking us to cover your state, it sends your two-letter state code and nothing else. Full policy: https://app.match2vote.org/privacy/
 
 Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit organization based in Greenwich, Connecticut. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
 
@@ -50,8 +50,8 @@ Questions or corrections: match2vote@gmail.com
 **App category:** News & Magazines (alternative: Books & Reference). NOT "Social."
 **Tags:** elections, voting, civic engagement
 **Contact email:** match2vote@gmail.com
-**Website:** https://match2vote.org (marketing site) · app: https://match2vote.github.io/m2v/
-**Privacy policy URL (required):** https://match2vote.github.io/m2v/privacy/
+**Website:** https://match2vote.org (marketing site) · app: https://app.match2vote.org/
+**Privacy policy URL (required):** https://app.match2vote.org/privacy/
 
 Graphics: 512×512 icon (in repo: `apps/mobile/assets/icon.png`, the real M2V mark as of Aug 14), 1024×500 feature graphic (in repo: `docs/launch/feature-graphic.png`), at least 2 phone screenshots (we have 375px screenshots; Play wants 16:9 or 9:16, min 320px — our ballot/quiz/profile screenshots work).
 

@@ -174,8 +174,8 @@ export function OfficialBallot() {
                     {race.title.toUpperCase()}
                   </Text>
                   {pending && (
-                    <View style={{ borderWidth: 1.5, borderColor: '#8a6a14', borderRadius: 999, paddingHorizontal: 7, paddingVertical: 1 }}>
-                      <Text style={{ color: '#8a6a14', fontWeight: '800', fontSize: 9.5 }}>
+                    <View style={{ borderWidth: 1.5, borderColor: '#4A2545', borderRadius: 999, paddingHorizontal: 7, paddingVertical: 1 }}>
+                      <Text style={{ color: '#4A2545', fontWeight: '800', fontSize: 9.5 }}>
                         {race.meta?.primaryDate ? S.primaryDate({ date: race.meta.primaryDate }) : S.primaryPending}
                       </Text>
                     </View>
@@ -184,7 +184,7 @@ export function OfficialBallot() {
                 <View style={{ height: 1.5, backgroundColor: inkB, marginTop: 4, marginBottom: pending ? 4 : space(3) }} />
                 <RankedChoiceNotice raceId={race.id} variant="ballot" onPaper />
                 {pending && (
-                  <Text style={{ fontSize: 11.5, color: '#8a6a14', fontStyle: 'italic', marginBottom: space(2) }}>
+                  <Text style={{ fontSize: 11.5, color: '#4A2545', fontStyle: 'italic', marginBottom: space(2) }}>
                     {S.pendingNote}
                     {pickByRace[race.id] ? S.pendingNoteMarked : ''}
                   </Text>
@@ -220,7 +220,7 @@ export function OfficialBallot() {
                                 {cand.name}
                               </Text>
                               {starred && (
-                                <Text style={{ marginLeft: 8, color: '#8a6a14', fontWeight: '800', fontSize: 12 }}>
+                                <Text style={{ marginLeft: 8, color: '#4A2545', fontWeight: '800', fontSize: 12 }}>
                                   {S.topMatch}
                                 </Text>
                               )}
@@ -248,7 +248,7 @@ export function OfficialBallot() {
                                 accessibilityLabel={S.viewA11y({ name: cand.name })}
                                 style={{ minHeight: 36, minWidth: 44, justifyContent: 'center', alignItems: 'flex-end', paddingHorizontal: 4 }}
                               >
-                                <Text style={{ color: '#8a6a14', fontWeight: '700', fontSize: 13 }}>{S.view}</Text>
+                                <Text style={{ color: '#4A2545', fontWeight: '700', fontSize: 13 }}>{S.view}</Text>
                               </Pressable>
                             )}
                           </View>

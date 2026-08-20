@@ -75,6 +75,7 @@ export const strings = {
   },
 
   home: {
+    logoA11y: 'Match2Vote logo',
     title: 'Your 2026 Ballot',
     pickState: 'Pick your state to begin',
     stateAndDistrict: ({ state, district }) => `${state}, ${district}`,

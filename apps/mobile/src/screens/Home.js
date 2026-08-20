@@ -2,7 +2,7 @@
 // honesty callout, espresso quiz card, Browse/How-to cards, then
 // "Races we're covering on your ballot" with Federal/State pills.
 import React, { useEffect, useState } from 'react';
-import { ScrollView, View, Text, Pressable, Linking } from 'react-native';
+import { ScrollView, View, Text, Pressable, Linking, Image } from 'react-native';
 import { Screen, H2, Body, Card, DarkCard, InfoCallout, CategoryPill, Button } from '../ui';
 import { theme, useTheme, typography } from '../theme';
 import { getRaces, getCoverage, coverageSentence, STATE_NAMES, districtLabel, statesPhrase } from '../ballot';
@@ -45,7 +45,16 @@ export function Home() {
 
   return (
     <Screen pad={false}>
-      <ScrollView style={{ flex: 1 }} contentContainerStyle={{ paddingHorizontal: space(5), paddingTop: space(14) }} showsVerticalScrollIndicator={false}>
+      <ScrollView style={{ flex: 1 }} contentContainerStyle={{ paddingHorizontal: space(5), paddingTop: space(10) }} showsVerticalScrollIndicator={false}>
+        {/* Brand mark */}
+        <Image
+          source={require('../../assets/logo-mark.png')}
+          accessible
+          accessibilityRole="image"
+          accessibilityLabel={S.logoA11y}
+          style={{ width: 36, height: 36, marginBottom: space(3) }}
+        />
+
         {/* Header */}
         <View style={{ flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' }}>
           <View style={{ flex: 1 }}>

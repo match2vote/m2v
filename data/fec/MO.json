@@ -1,7 +1,7 @@
 {
   "state": "MO",
   "electionYear": 2026,
-  "syncedAt": "2026-08-18T22:52:04.096Z",
+  "syncedAt": "2026-08-20T07:08:38.371Z",
   "candidates": [
     {
       "id": "fec-H8MO01143",
@@ -708,38 +708,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H4MO05366",
-      "fecId": "H4MO05366",
-      "name": "Sean Smith",
-      "party": "Republican",
-      "state": "MO",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H4MO05366/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6MO05296",
       "fecId": "H6MO05296",
       "name": "Sean Smith",
@@ -766,6 +734,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO05296/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4MO05366",
+      "fecId": "H4MO05366",
+      "name": "Sean Smith",
+      "party": "Republican",
+      "state": "MO",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MO05366/"
         }
       ],
       "funding": null,

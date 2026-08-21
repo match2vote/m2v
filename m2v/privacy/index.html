@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M2V Privacy Policy</title>
+<style>
+  body { background:#FAF8F5; color:#2E2621; font:16px/1.65 "Public Sans",system-ui,sans-serif; margin:0; }
+  main { max-width:680px; margin:0 auto; padding:48px 20px 80px; }
+  h1 { font-family:Georgia,"Newsreader",serif; font-size:34px; margin:0 0 4px; }
+  h2 { font-family:Georgia,serif; font-size:21px; margin:36px 0 8px; }
+  .date { color:#8a7f72; font-size:14px; margin-bottom:28px; }
+  a { color:#A87722; }
+  .card { background:#fff; border:1px solid #eee5d8; border-radius:16px; padding:18px 20px; margin:20px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>M2V Privacy Policy</h1>
+<p class="date">Effective August 14, 2026 · M2V ("Match to Vote") · match2vote@gmail.com</p>
+
+<div class="card"><strong>The short version:</strong> M2V has no accounts, no ads, no analytics, and no trackers. Your quiz answers, your ballot choices, and your state selection never leave your device. The app makes two kinds of network request: it downloads public candidate data, and, only if you tap the "I want M2V to cover my state" button, it sends your two-letter state code and nothing else.</div>
+
+<h2>What the app collects</h2>
+<p>Nothing that identifies you. M2V does not ask for your name, email address, phone number, precise location, contacts, or any account sign-in. There is no advertising SDK, no analytics SDK, and no third-party tracking of any kind in the app.</p>
+
+<h2>The one thing the app can send: a state code</h2>
+<p>If your state has no researched races yet, the app shows a button like "I want M2V to cover Missouri." Tapping it sends exactly one thing to our database: the two-letter state code (for example, "MO"). The database records that code and the time it arrived. That is the entire record. No IP address is stored in it, no device identifier, no user identifier, no session identifier, and no user agent. The write-only key the app uses cannot read the table back. This happens only when you tap the button, never automatically, and the app remembers on your device that you tapped so it will not ask again. We use these counts for one purpose: deciding which states get expanded coverage first.</p>
+
+<h2>What stays on your device</h2>
+<p>Everything you do in the app is stored only in the app's local storage on your own device: the state you select as your ballot state, your quiz answers and which issues you mark as mattering most, the candidates you mark on your sample ballot, and your display preferences (like dark mode). We cannot see any of it. Deleting the app deletes all of it. If you use the share or export features, the image is generated on your device and goes only where you choose to send it.</p>
+
+<h2>What the app downloads</h2>
+<p>On launch, M2V downloads its public candidate database (names, races, sourced policy positions) from our server so the information can be updated between elections without an app update. This is a one-way download of public data. The request works like any web request: our hosting provider (Supabase) transiently processes your device's IP address to deliver the data, as every internet service must, and keeps short-lived operational request logs like every hosting provider. We do not store IP addresses in our database, and we do not use logs to analyze or identify anyone. No information about you, your answers, or your choices is uploaded. After the first load, the app works offline from its cached copy.</p>
+
+<h2>What we never do</h2>
+<p>We never sell data. We never share data with third parties for marketing. We never build profiles of users. We cannot connect any quiz answer or ballot choice to any person, because that information never reaches us. Match results are computed entirely on your device.</p>
+
+<h2>Children</h2>
+<p>M2V is an election-information tool intended for people old enough to vote or preparing to vote. It collects no personal information from anyone, including children.</p>
+
+<h2>Email contact</h2>
+<p>If you email us (match2vote@gmail.com) to report an error, we receive whatever you choose to include in your email and use it only to fix the issue. We do not add you to any list.</p>
+
+<h2>Changes</h2>
+<p>If the app's behavior ever changes in a way that affects this policy (for example, adding crash reporting), we will update this page first and note the change in the app's store listing before shipping it.</p>
+
+<p><a href="/m2v/">← Back to M2V</a></p>
+</main>
+</body>
+</html>

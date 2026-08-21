@@ -1,5 +1,6 @@
-// Shareable images, drawn on a canvas (web). Native falls back to the share
-// sheet with text until view-shot is wired into the dev build.
+// Shareable images. Web draws them on a canvas; native captures the offscreen
+// BallotShareCard with view-shot and hands the PNG to the system share sheet
+// (text share remains the fallback if capture or sharing fails).
 // Rules baked in: no party red/blue; the SAMPLE BALLOT banner is part of the
 // exported ballot image and cannot be cropped out of the layout top.
 import { Platform, Share } from 'react-native';
@@ -90,10 +91,33 @@ export async function shareResultCard({ stateName, rows }) {
   return download(c, 'm2v-my-matches.png') ? 'downloaded' : 'failed';
 }
 
+// Native: capture the offscreen BallotShareCard and open the share sheet with
+// the PNG. Returns 'shared-image' on success, null on failure (caller then
+// falls back to text). Kept out of the web bundle via lazy require.
+async function shareCapturedBallot(cardRef) {
+  try {
+    const { captureRef } = require('react-native-view-shot');
+    const Sharing = require('expo-sharing');
+    if (!cardRef?.current) return null;
+    const uri = await captureRef(cardRef, { format: 'png', quality: 1, result: 'tmpfile' });
+    if (!(await Sharing.isAvailableAsync())) return null;
+    await Sharing.shareAsync(uri.startsWith('file://') ? uri : `file://${uri}`, {
+      mimeType: 'image/png',
+      dialogTitle: SS.ballotBanner,
+    });
+    return 'shared-image';
+  } catch {
+    return null;
+  }
+}
+
 // ---- Ballot image: the official-style sample ballot as a PNG ----
-export async function shareBallotImage({ stateName, races, picks }) {
+export async function shareBallotImage({ stateName, races, picks, cardRef }) {
   const pickBy = Object.fromEntries(picks.map((p) => [p.raceId, p.candidateId]));
   if (Platform.OS !== 'web') {
+    // Try the real image first; fall back to the text share sheet.
+    const img = await shareCapturedBallot(cardRef);
+    if (img) return img;
     const msg = [
       SS.ballotBanner,
       SS.ballotHeader({ stateName }),

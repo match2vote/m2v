@@ -5,8 +5,8 @@
 // candidates show the user's own match %, and the user's strongest match per
 // race gets a star THAT IS EXPLICITLY THE USER'S RESULT, NEVER OUR PICK.
 // The SAMPLE BALLOT banner is mandatory and always visible (and in exports).
-import React, { useEffect, useState, useCallback } from 'react';
-import { ScrollView, View, Text, Pressable } from 'react-native';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
+import { ScrollView, View, Text, Pressable, Platform } from 'react-native';
 import { rankCandidates } from '@m2v/core';
 import { Screen, H2, Body, Button, Bubble } from '../ui';
 import { theme, useTheme } from '../theme';
@@ -19,6 +19,7 @@ const S = strings.ballot;
 import { getRaces, STATE_NAMES, districtLabel } from '../ballot';
 import { useNav } from '../nav';
 import { shareBallotImage } from '../share';
+import { BallotShareCard } from '../BallotShareCard';
 
 const { space } = theme;
 const paper = '#FFFDF8';
@@ -33,6 +34,7 @@ export function OfficialBallot() {
   const [data, setData] = useState(null);
   const [quiz, setQuiz] = useState(null);
   const [shareMsg, setShareMsg] = useState(null);
+  const shareCardRef = useRef(null);
 
   const load = useCallback(async () => {
     const [p, loc, q] = await Promise.all([getPicks(), getBallotLocation(), getQuizState()]);
@@ -271,11 +273,28 @@ export function OfficialBallot() {
         <Button
           label={S.share}
           onPress={async () => {
-            const res = await shareBallotImage({ stateName: STATE_NAMES[stateCode] || stateCode, races, picks });
-            setShareMsg(res === 'downloaded' ? S.shareSaved : res === 'shared-text' ? S.shareShared : S.shareFailed);
+            const res = await shareBallotImage({ stateName: STATE_NAMES[stateCode] || stateCode, races, picks, cardRef: shareCardRef });
+            setShareMsg(res === 'downloaded' ? S.shareSaved : res === 'shared-image' || res === 'shared-text' ? S.shareShared : S.shareFailed);
           }}
           style={{ marginTop: space(4) }}
         />
+        {/* Offscreen export card (native only): what actually gets captured
+            and shared as the ballot image. Kept out of the accessible tree. */}
+        {Platform.OS !== 'web' && (
+          <View
+            pointerEvents="none"
+            importantForAccessibility="no-hide-descendants"
+            accessibilityElementsHidden
+            style={{ position: 'absolute', left: -9999, top: 0 }}
+          >
+            <BallotShareCard
+              ref={shareCardRef}
+              stateName={STATE_NAMES[stateCode] || stateCode}
+              races={races}
+              picks={picks}
+            />
+          </View>
+        )}
         {shareMsg && <Body soft style={{ textAlign: 'center', fontSize: 13 }}>{shareMsg}</Body>}
         <Pressable onPress={() => nav.go({ name: 'state' })} accessibilityRole="button" accessibilityLabel={S.changeState} style={{ minHeight: 44, justifyContent: 'center' }}>
           <Body soft style={{ textAlign: 'center', fontSize: 13, textDecorationLine: 'underline', marginVertical: space(3) }}>

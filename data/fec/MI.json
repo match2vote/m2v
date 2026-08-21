@@ -1,7 +1,7 @@
 {
   "state": "MI",
   "electionYear": 2026,
-  "syncedAt": "2026-08-02T11:07:38.048Z",
+  "syncedAt": "2026-08-21T07:09:31.715Z",
   "candidates": [
     {
       "id": "fec-H4MI01155",
@@ -1822,6 +1822,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4MI08218/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6MI08312",
+      "fecId": "H6MI08312",
+      "name": "Thomas James Smith",
+      "party": "Republican",
+      "state": "MI",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI08312/"
         }
       ],
       "funding": null,

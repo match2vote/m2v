@@ -208,19 +208,97 @@
       "office": "us-senate",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "sources": [
-        {
-          "label": "CBS News: Moody and Nixon win Aug 18 Florida Senate special primaries",
-          "url": "https://www.cbsnews.com/news/florida-senate-primary-results-ashley-moody-angie-nixon/"
+      "age": 42,
+      "home": "Jacksonville, FL",
+      "now": "Florida State Representative, District 13",
+      "background": "Three-term Florida state representative from Jacksonville and former Florida state field director for the SEIU. A democratic socialist who joined DSA in June 2026, she defeated Alex Vindman by 12 points in the August 18 Democratic primary for the special election, and Bernie Sanders endorsed her after the win.",
+      "priorities": [
+        "Medicare for All",
+        "National rent stabilization and affordable housing",
+        "Tax billionaires: a 5% annual wealth tax"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Proposes federal legislation banning corporations from inflating prices on groceries and fuel, with fines and potential jail time for executives who exploit consumers (Fox 13 Tampa Bay)",
+          "url": "https://www.fox13news.com/news/one-on-one-senate-candidate-angie-nixon-outlines-positions-housing-healthcare-foreign-policy"
         },
+        "health": {
+          "label": "Medicare for All, 'free at the point of service, with no premiums, no deductibles, no copays', plus canceling medical debt (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "housing": {
+          "label": "Federal rent stabilization with 'a 10% cap on rent', barring private equity from buying single-family homes, more HUD and CDBG funding (Fox 13 Tampa Bay)",
+          "url": "https://www.fox13news.com/news/one-on-one-senate-candidate-angie-nixon-outlines-positions-housing-healthcare-foreign-policy"
+        },
+        "immigration": {
+          "label": "Platform calls for a 'swift path to citizenship for Dreamers and undocumented residents, and a moratorium on deportations', and abolishing ICE (Breitbart, quoting her platform)",
+          "url": "https://www.breitbart.com/politics/2026/08/19/floridas-socialist-senate-candidate-angie-nixon-campaigns-on-abolishing-ice-granting-swift-amnesty/"
+        },
+        "taxes": {
+          "label": "A '5% annual wealth tax on billionaires', taxing capital gains the same as wages, closing corporate loopholes (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "climate": {
+          "label": "'Bold, union-built transition to renewable energy' and 'ending taxpayer subsidies for fossil fuel corporations' (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "education": {
+          "label": "'Fully funding public K-12 schools and increased teacher wages', tuition-free public college and canceling student debt (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "safety": {
+          "label": "'Ending mass incarceration', 'investment in treatment over incarceration', 'demilitarizing policing' and community-based public safety (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "repro": {
+          "label": "'Protecting reproductive freedom, including the right to abortion, contraception, and IVF, free from political interference' (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        },
+        "democracy": {
+          "label": "Automatic voter registration, 'restoring and expanding the Voting Rights Act', re-enfranchising people with felony convictions, Election Day as a national holiday (campaign priorities page)",
+          "url": "https://angienixon.com/priorities/"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Formally reprimanded by the Florida House Rules and Ethics Committee in May 2026 for disrupting a redistricting vote with a megaphone; she said afterward 'if I had to do it over again I would' (Jacksonville Today)",
+          "url": "https://jaxtoday.org/2026/05/14/state-rep-angie-nixon-reprimand/"
+        }
+      ],
+      "sources": [
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6FL00830/"
+        },
+        {
+          "label": "CBS News: Moody and Nixon win Aug 18 primaries",
+          "url": "https://www.cbsnews.com/news/florida-senate-primary-results-ashley-moody-angie-nixon/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://angienixon.com/priorities/"
+        },
+        {
+          "label": "The American Prospect: primary win and background",
+          "url": "https://prospect.org/2026/08/21/stunning-florida-senate-win-angie-nixon-dsa/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-22"
     },
     {
       "id": "fl-gov-donalds",

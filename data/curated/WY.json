@@ -12,10 +12,11 @@
     },
     "WY-governor": {
       "status": "general",
-      "statusNote": "Open seat, Gov. Mark Gordon is not seeking a third term. State Sen. Eric Barlow (R) defeated Megan Degenfelder in the Aug 18 primary. Kenneth Casner (D) won the Democratic nomination.",
+      "statusNote": "Open seat, Gov. Mark Gordon is not seeking a third term. State Sen. Eric Barlow (R) defeated Megan Degenfelder in the Aug 18 primary. Kenneth Casner (D) won the Democratic nomination. Rebecca Bextel of Jackson (Constitution Party) is also on the November ballot.",
       "advancing": [
         "wy-gov-barlow",
-        "wy-gov-casner"
+        "wy-gov-casner",
+        "wy-gov-bextel"
       ]
     }
   },
@@ -269,7 +270,7 @@
         "immigration": null,
         "taxes": 1,
         "climate": 1,
-        "education": null,
+        "education": 0,
         "safety": -1,
         "repro": 2,
         "democracy": null
@@ -290,6 +291,10 @@
         "repro": {
           "label": "Supported a near-total abortion ban and a medication abortion ban in 2023 (WyoFile)",
           "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
+        },
+        "education": {
+          "label": "Co-sponsored the 2024 $6,000 education savings account bill but voted no on final passage after 30-plus amendments, 'now it's not my bill anymore'; campaign backs local control and parental involvement (WyoFile)",
+          "url": "https://wyofile.com/senate-approves-private-school-voucher-program/"
         }
       },
       "sources": [
@@ -304,16 +309,23 @@
         {
           "label": "Cowboy State Daily: internal poll",
           "url": "https://cowboystatedaily.com/2026/07/21/barlow-poll-claims-he-has-huge-lead-over-degenfelder-bien-in-gop-governor-primary/"
+        },
+        {
+          "label": "Campaign positions page",
+          "url": "https://www.barlowforwyo.com/positions"
+        },
+        {
+          "label": "WyoFile: where the GOP candidates diverge on policy",
+          "url": "https://wyofile.com/heres-where-the-republican-candidates-for-wyoming-governor-diverge-on-policy/"
         }
       ],
-      "curatedAt": "2026-08-14",
+      "curatedAt": "2026-08-22",
       "nullNotes": {
-        "cost": "checked WyoFile election guide questionnaire and WyoFile record piece; budget stances scored under taxes, no consumer-price mechanism documented",
-        "health": "Medicaid expansion claim traced to a reader comment on the WyoFile announcement article, not the reporting; his WyoFile guide answers (healthcare strike team, rural hospitals, behavioral health, telehealth, price transparency) list delivery goals with no public-versus-private mechanism",
-        "housing": "checked WyoFile election guide questionnaire and WyoFile record piece, nothing documented",
-        "immigration": "checked WyoFile election guide questionnaire and WyoFile record piece, nothing documented",
-        "education": "favored local control on library-book restrictions at the GOP debate, but no school funding versus choice position documented",
-        "democracy": "checked WyoFile election guide questionnaire, WyoFile record piece and debate coverage, no voting-rules position documented"
+        "cost": "checked WyoFile election guide, WyoFile record piece, the Aug 2026 WyoFile policy comparison and barlowforwyo.com/positions; budget stances scored under taxes, no consumer-price mechanism documented",
+        "health": "delivery goals only: healthcare strike team, rural hospitals, telehealth (WyoFile guide and campaign site), plus a yes to a state perpetuity fund for Rural Health Transformation money (WyoFile Aug 2026 comparison); no public-versus-private insurance mechanism documented, so it does not fit the axis",
+        "housing": "campaign site says only 'exploring partnerships to address housing'; WyoFile guide and record piece have nothing scorable",
+        "immigration": "checked WyoFile guide, record piece, Aug 2026 policy comparison and barlowforwyo.com/positions, nothing documented",
+        "democracy": "checked WyoFile guide, record piece, campaign positions page and crossover-voting coverage; no named Barlow vote or stated voting-rules position found (wyoleg.gov roll calls are not fetchable from this session)"
       }
     },
     {
@@ -375,6 +387,27 @@
         "repro": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
         "democracy": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented"
       }
+    },
+    {
+      "id": "wy-gov-bextel",
+      "name": "Rebecca Bextel",
+      "party": "Constitution",
+      "office": "governor",
+      "district": null,
+      "state": "WY",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "WyoFile: Barlow wins GOP nomination; general field includes Bextel (Constitution, Jackson)",
+          "url": "https://wyofile.com/eric-barlow-wins-gop-nomination-for-wyoming-governor/"
+        },
+        {
+          "label": "Buckrail: Bextel announces Constitution Party campaign for governor",
+          "url": "https://buckrail.com/jacksons-rebecca-bextel-announces-campaign-for-governor/"
+        }
+      ]
     }
   ]
 }

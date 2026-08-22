@@ -3,14 +3,20 @@
   "note": "Hand-curated, sourced entries. Both primaries are Aug 18; frontrunners curated, not marked nominees.",
   "races": {
     "FL-senate": {
-      "status": "primary-pending",
-      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and Alex Vindman (D) lead their August 18 primaries by fundraising and polling, but nominees aren't final.",
-      "primaryDate": "AUG 18"
+      "status": "general",
+      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination.",
+      "advancing": [
+        "fec-S6FL00640",
+        "fec-S6FL00830"
+      ]
     },
     "FL-governor": {
-      "status": "primary-pending",
-      "statusNote": "Open seat (Gov. DeSantis term-limited). Rep. Byron Donalds (R, Trump-endorsed, polling 49-18) and former Rep. David Jolly (D, polling 47-4) lead their August 18 primaries, but nominees aren't final.",
-      "primaryDate": "AUG 18"
+      "status": "general",
+      "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries.",
+      "advancing": [
+        "fl-gov-donalds",
+        "fl-gov-jolly"
+      ]
     }
   },
   "candidates": [
@@ -21,7 +27,7 @@
       "office": "us-senate",
       "state": "FL",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": true,
       "age": 51,
       "home": "Plant City, FL",
@@ -115,7 +121,7 @@
       "office": "us-senate",
       "state": "FL",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "age": 51,
       "home": "Florida (born Kyiv, came to the U.S. as a child refugee)",
@@ -196,13 +202,34 @@
       "curatedAt": "2026-08-13"
     },
     {
+      "id": "fec-S6FL00830",
+      "name": "Angie Nixon",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "CBS News: Moody and Nixon win Aug 18 Florida Senate special primaries",
+          "url": "https://www.cbsnews.com/news/florida-senate-primary-results-ashley-moody-angie-nixon/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6FL00830/"
+        }
+      ]
+    },
+    {
       "id": "fl-gov-donalds",
       "name": "Byron Donalds",
       "party": "Republican",
       "office": "governor",
       "state": "FL",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 47,
       "home": "Naples, FL",
@@ -296,7 +323,7 @@
       "office": "governor",
       "state": "FL",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 53,
       "home": "Dunedin, FL",

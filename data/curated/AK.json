@@ -3,9 +3,13 @@
   "note": "Hand-curated, sourced entries. Top-4 primary is Aug 18; general is ranked-choice. Frontrunners curated, not marked nominees.",
   "races": {
     "AK-senate": {
-      "status": "primary-pending",
-      "statusNote": "Sen. Dan Sullivan (R) and former Rep. Mary Peltola (D) lead by fundraising and polling, but Alaska's top-4 primary is August 18 and up to four candidates advance to the ranked-choice general.",
-      "primaryDate": "AUG 18"
+      "status": "general",
+      "statusNote": "Sen. Dan Sullivan (R) and Mary Peltola (D) advanced from the Aug 18 top-four primary to the November ranked choice general, along with Dan J. Sullivan of Petersburg (R). The fourth spot is still being counted through Aug 28, with David Leslie (D) and Gerald Heikes (R) separated by a handful of votes.",
+      "advancing": [
+        "fec-S4AK00214",
+        "fec-S6AK00276",
+        "fec-S6AK00326"
+      ]
     }
   },
   "candidates": [
@@ -16,7 +20,7 @@
       "office": "us-senate",
       "state": "AK",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": true,
       "age": 61,
       "home": "Anchorage, AK",
@@ -110,7 +114,7 @@
       "office": "us-senate",
       "state": "AK",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 52,
       "home": "Bethel, AK",

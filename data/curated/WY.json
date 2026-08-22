@@ -3,14 +3,20 @@
   "note": "Hand-curated, sourced entries. Both statewide races are open seats with the primary on Aug 18, 2026: Sen. Lummis is retiring and Gov. Gordon is not seeking a third term.",
   "races": {
     "WY-senate": {
-      "status": "primary-pending",
-      "primaryDate": "AUG 18",
-      "statusNote": "Open seat: Sen. Cynthia Lummis is retiring and endorsed Rep. Harriet Hageman (R). The primary is Aug 18, 2026, so nominees are not final. Hageman, with Trump, Barrasso and Lummis endorsements and a huge fundraising lead, is the clear Republican frontrunner; former state Rep. James Byrd faces Sheridan greenskeeper Billy Benavidez in the two-way Democratic field."
+      "status": "general",
+      "statusNote": "Open seat, Sen. Cynthia Lummis is retiring. Rep. Harriet Hageman (R) and former state Rep. James Byrd (D) won their Aug 18 primaries.",
+      "advancing": [
+        "fec-S6WY00209",
+        "fec-S6WY00217"
+      ]
     },
     "WY-governor": {
-      "status": "primary-pending",
-      "primaryDate": "AUG 18",
-      "statusNote": "Open seat: Gov. Mark Gordon is not seeking a third term. The primary is Aug 18, 2026, so nominees are not final. Superintendent Megan Degenfelder (Trump-endorsed) and state Sen. Eric Barlow, who released an internal poll showing him ahead, lead a contested Republican primary that also includes Brent Bien and Curt Blake; Kenneth Casner is the lone Democrat."
+      "status": "general",
+      "statusNote": "Open seat, Gov. Mark Gordon is not seeking a third term. State Sen. Eric Barlow (R) defeated Megan Degenfelder in the Aug 18 primary. Kenneth Casner (D) won the Democratic nomination.",
+      "advancing": [
+        "wy-gov-barlow",
+        "wy-gov-casner"
+      ]
     }
   },
   "candidates": [
@@ -21,7 +27,7 @@
       "office": "us-senate",
       "state": "WY",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 63,
       "now": "U.S. Representative, Wyoming at-large",
@@ -101,7 +107,7 @@
       "office": "us-senate",
       "state": "WY",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 72,
       "home": "Cheyenne, WY",
@@ -170,7 +176,7 @@
       "office": "governor",
       "state": "WY",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "age": 37,
       "home": "Cheyenne, WY",
@@ -245,7 +251,7 @@
       "office": "governor",
       "state": "WY",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 60,
       "home": "Gillette, WY",
@@ -317,7 +323,7 @@
       "office": "governor",
       "state": "WY",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "home": "Elk Mountain, WY",
       "background": "Elk Mountain Democrat making his third run for governor after campaigns in 2002 and 2018, and the only Democrat in the 2026 race. Accepts no campaign donations and says 'I'm fighting for Wyoming now. I want to leave her in better shape than what she is today.' He did not respond to WyoFile's candidate questionnaire.",

@@ -1,7 +1,7 @@
 {
   "state": "TX",
   "electionYear": 2026,
-  "syncedAt": "2026-08-22T21:22:22.910Z",
+  "syncedAt": "2026-08-24T07:30:30.996Z",
   "candidates": [
     {
       "id": "fec-H6TX01337",
@@ -420,38 +420,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX17127",
-      "fecId": "H6TX17127",
-      "name": "Robert Brown",
-      "party": "Republican",
-      "state": "TX",
-      "office": "us-house",
-      "district": "10",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX17127/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6TX17135",
       "fecId": "H6TX17135",
       "name": "Robert Brown",
@@ -484,10 +452,10 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX10254",
-      "fecId": "H6TX10254",
-      "name": "Sarah Eckhardt",
-      "party": "Democrat",
+      "id": "fec-H6TX17127",
+      "fecId": "H6TX17127",
+      "name": "Robert Brown",
+      "party": "Republican",
       "state": "TX",
       "office": "us-house",
       "district": "10",
@@ -509,7 +477,7 @@
       "sources": [
         {
           "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX10254/"
+          "url": "https://www.fec.gov/data/candidate/H6TX17127/"
         }
       ],
       "funding": null,
@@ -542,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX10262/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX10254",
+      "fecId": "H6TX10254",
+      "name": "Sarah Eckhardt",
+      "party": "Democrat",
+      "state": "TX",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX10254/"
         }
       ],
       "funding": null,

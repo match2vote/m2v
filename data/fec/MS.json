@@ -1,7 +1,7 @@
 {
   "state": "MS",
   "electionYear": 2026,
-  "syncedAt": "2026-08-22T07:01:09.159Z",
+  "syncedAt": "2026-08-24T07:30:31.023Z",
   "candidates": [
     {
       "id": "fec-H6MS01313",
@@ -420,38 +420,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-S6MS00141",
-      "fecId": "S6MS00141",
-      "name": "Priscilla Williams Till",
-      "party": "Democrat",
-      "state": "MS",
-      "office": "us-senate",
-      "district": null,
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6MS00141/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-S6MS00158",
       "fecId": "S6MS00158",
       "name": "Priscilla Williams Till",
@@ -478,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6MS00158/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6MS00141",
+      "fecId": "S6MS00141",
+      "name": "Priscilla Williams Till",
+      "party": "Democrat",
+      "state": "MS",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MS00141/"
         }
       ],
       "funding": null,

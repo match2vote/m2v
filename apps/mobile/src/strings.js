@@ -270,7 +270,7 @@ export const strings = {
       { title: 'Vote by mail', body: 'Request your ballot online or by form. When it arrives, mark it at home, seal it in the signed return envelope exactly as instructed, and return it by mail or at an official drop box before the deadline. You can usually track it online to confirm it was counted.' },
       { title: 'Vote early in person', body: 'Many areas open early-voting sites in the weeks before Election Day, often including evenings and weekends, and often any center in your area rather than one assigned place. Same ballot, usually shorter lines.' },
       { title: 'Vote on Election Day', body: 'Go to your assigned polling place during open hours and bring an accepted photo ID if your state requires one. If you make a mistake, ask a poll worker for a fresh ballot. If you are in line when polls close, stay in line, you can still vote.' },
-      { title: 'Fill out your ballot', body: 'Vote every race you care about, follow the "vote for one" notes, and review your choices before you submit. Your M2V sample ballot is your plan, bring it (on your phone or printed) and copy your marks across.' },
+      { title: 'Fill out your ballot', body: 'Vote every race you care about, follow the "vote for one" notes, and review your choices before you submit. Your M2V sample ballot is your plan. Bring it printed, or on your phone where your state allows phones in the voting booth, and copy your marks across.' },
     ],
     rules: {
       registrationDeadline: 'Registration deadline',

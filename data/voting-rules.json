@@ -61,11 +61,11 @@
     "mailBallotRequestDeadline": "October 27, 2026",
     "mailBallotReturnDeadline": "November 3, 2026, mailed ballots received by 7:30 p.m.; ballots delivered in person by close of business October 30, 2026",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": "Voters are asked to show an approved form of ID at the polls, such as a driver's license, photo ID card, concealed handgun carry license, U.S. passport, military ID, or a state college employee badge or student ID. Without ID you may cast a provisional ballot and either sign a sworn statement or show ID to the county clerk by noon the Monday after the election.",
+    "idRequirement": "Voters are asked to show an approved form of ID at the polls, such as a driver's license, photo ID card, concealed handgun carry license, U.S. passport, military ID, or a state college employee badge or student ID. Without ID you may cast a provisional ballot, which counts only if you show ID to the county clerk or county election commission by noon on Monday, November 9, 2026. The option to sign a sworn statement instead of showing ID was repealed in 2021.",
     "officialSiteLabel": "Arkansas Secretary of State",
     "officialSiteUrl": "https://www.sos.arkansas.gov/elections",
-    "sourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf; https://www.sos.arkansas.gov/elections/voter-information/absentee-voting; https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information/voting-in-arkansas; https://www.sos.arkansas.gov/uploads/elections/2020_Ark_Voter_Rights.pdf",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf; https://www.sos.arkansas.gov/elections/voter-information/absentee-voting; https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information/voting-in-arkansas; https://sbec.arkansas.gov/wp-content/uploads/2024_Poll_Worker_Guide_FINAL_11-3.pdf",
+    "verifiedAt": "2026-08-24"
   },
   "CA": {
     "registrationDeadline": "October 19, 2026",
@@ -74,15 +74,15 @@
     "earlyVotingStart": "October 5, 2026",
     "earlyVotingEnd": "November 3, 2026",
     "earlyVotingNote": "Early voting sites open October 5, 2026 and vote-by-mail ballots go out by that date. Vote centers in Voter's Choice Act counties open October 24, 2026. Ballot drop boxes are available October 6 through November 3, 2026.",
-    "mailBallotWhoCanRequest": "Every registered voter is mailed a ballot automatically. No request is needed. October 27, 2026 is the last day to ask by mail for a replacement or a ballot sent to a different address.",
-    "mailBallotRequestDeadline": "October 27, 2026",
+    "mailBallotWhoCanRequest": "Every active registered voter is mailed a ballot automatically starting October 5, 2026. No request is needed. If yours does not arrive or is lost, contact your county elections office for a replacement, or vote in person through 8:00 p.m. on Election Day.",
+    "mailBallotRequestDeadline": null,
     "mailBallotReturnDeadline": "Postmarked by November 3, 2026, received by November 10, 2026",
     "mailBallotReturnIsPostmark": true,
     "idRequirement": "In most cases you do not need to show ID to vote in California. If you are voting for the first time after registering by mail and did not give a driver license, state ID number, or last four digits of your Social Security number, you may be asked for ID such as a driver's license, passport, student ID, or utility bill.",
     "officialSiteLabel": "California Secretary of State",
     "officialSiteUrl": "https://www.sos.ca.gov/elections",
-    "sourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026/key-dates-deadlines; https://www.sos.ca.gov/elections/voting-resources/voting-california/what-bring; https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/election-guide/section-07-general-election-calendar.pdf",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026/key-dates-deadlines; https://www.sos.ca.gov/elections/voter-registration/vote-mail; https://www.sos.ca.gov/elections/voting-resources/voting-california/what-bring; https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/election-guide/section-07-general-election-calendar.pdf",
+    "verifiedAt": "2026-08-24"
   },
   "CO": {
     "registrationDeadline": "October 26, 2026",
@@ -221,21 +221,21 @@
     "verifiedAt": "2026-08-15"
   },
   "IL": {
-    "registrationDeadline": null,
-    "registrationDeadlineNote": null,
-    "sameDayRegistration": null,
-    "earlyVotingStart": null,
-    "earlyVotingEnd": null,
-    "earlyVotingNote": null,
-    "mailBallotWhoCanRequest": null,
-    "mailBallotRequestDeadline": null,
-    "mailBallotReturnDeadline": null,
-    "mailBallotReturnIsPostmark": null,
-    "idRequirement": null,
+    "registrationDeadline": "October 6, 2026",
+    "registrationDeadlineNote": "Regular registration by mail or with a registrar closes October 6, 2026. Online registration stays open through October 18, 2026. After that, grace period registration and voting is available in person at your election authority's office and designated sites from October 7 through Election Day, and you can register at the polls on Election Day with two forms of ID, one showing your current address.",
+    "sameDayRegistration": true,
+    "earlyVotingStart": "September 24, 2026",
+    "earlyVotingEnd": "November 2, 2026",
+    "earlyVotingNote": "Early voting begins September 24, 2026 at the office of your election authority (county clerk or board of election commissioners) and at any additional sites it designates, and runs through November 2, 2026. Hours and locations vary by county.",
+    "mailBallotWhoCanRequest": "Any registered voter, no excuse needed. Apply with your local election authority online, by mail, or in person; applications have been accepted since August 5, 2026 and ballots begin mailing September 24, 2026.",
+    "mailBallotRequestDeadline": "October 29, 2026",
+    "mailBallotReturnDeadline": "Postmarked by November 3, 2026 and received by the election authority within 14 days after Election Day, or delivered by hand or to an official drop box by 7:00 p.m. on Election Day. In-person applications are accepted until November 2, 2026",
+    "mailBallotReturnIsPostmark": true,
+    "idRequirement": "Registered voters do not need to show ID at the polls unless their signature or registration is challenged. Two forms of ID, at least one showing your current address, are required to register or update your registration in person, including grace period and Election Day registration.",
     "officialSiteLabel": "Illinois State Board of Elections",
     "officialSiteUrl": "https://www.elections.il.gov/",
-    "sourceUrl": null,
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://www.elections.il.gov/agencyforms/1%20ELECTION%20CALENDAR/2026%20Abbreviated%20Calendar%207.7.2025%20Amended.pdf; https://www.elections.il.gov/electionoperations/VotingByMail.aspx; https://elections.il.gov/votingandregistrationsystems/beforeelectionday.aspx; https://chicagoelections.gov/voting/frequently-asked-questions; https://www.cookcountyclerkil.gov/agency/vote-mail; https://www.lakecountyil.gov/4138/November-3-2026-General-Election",
+    "verifiedAt": "2026-08-24"
   },
   "IN": {
     "registrationDeadline": "October 5, 2026",
@@ -276,17 +276,17 @@
     "registrationDeadlineNote": "Deadline to register or update your name or address for the 2026 general election is October 13, 2026 (21 days before the election).",
     "sameDayRegistration": false,
     "earlyVotingStart": "October 14, 2026",
-    "earlyVotingEnd": null,
-    "earlyVotingNote": "Advance in-person voting may begin as early as October 14, 2026 and must begin in all counties by October 27, 2026. Check your county election office for hours and the last day to vote in person.",
-    "mailBallotWhoCanRequest": "Any registered voter, no excuse needed. The application must include your driver license number or a copy of your photo ID.",
-    "mailBallotRequestDeadline": null,
-    "mailBallotReturnDeadline": "November 3, 2026, received by close of polls",
+    "earlyVotingEnd": "November 2, 2026",
+    "earlyVotingNote": "Advance in-person voting may begin as early as October 14, 2026 and must begin in all counties by October 27, 2026. It ends at noon on Monday, November 2, 2026. Check your county election office for hours and locations.",
+    "mailBallotWhoCanRequest": "Any registered voter, no excuse needed. The application must include your driver license number or a copy of your photo ID and must reach the county election office by Tuesday, October 27, 2026.",
+    "mailBallotRequestDeadline": "October 27, 2026",
+    "mailBallotReturnDeadline": "November 3, 2026, received by the county election office by close of polls. Do not rely on a postmark",
     "mailBallotReturnIsPostmark": false,
     "idRequirement": "You must show photo ID to vote in person, such as a driver license or ID card from any state, U.S. passport, military ID, tribal ID, government employee badge, Kansas college student ID, concealed carry license, or government public assistance ID. Without ID you get a provisional ballot that counts only if you show ID before the county canvass.",
     "officialSiteLabel": "Kansas Secretary of State",
     "officialSiteUrl": "https://sos.ks.gov/elections/",
-    "sourceUrl": "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates.pdf; https://sos.ks.gov/elections/important-election-dates.html; https://sos.ks.gov/elections/advance-voting.html; https://sos.ks.gov/elections/voter-information.html; https://sos.ks.gov/Pubs/Elections/Elections-101.pdf",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://sos.ks.gov/Pubs/Elections/2026-General-Election-Dates.pdf; https://sos.ks.gov/elections/important-election-dates.html; https://sos.ks.gov/elections/advance-voting-information.html; https://sos.ks.gov/elections/voter-information.html; https://sos.ks.gov/Pubs/Elections/Elections-101.pdf; https://www.sos.ks.gov/Pubs/Elections/Guides/Advance-Voting-Guide.pdf",
+    "verifiedAt": "2026-08-24"
   },
   "KY": {
     "registrationDeadline": "October 5, 2026",
@@ -328,16 +328,16 @@
     "sameDayRegistration": true,
     "earlyVotingStart": "October 4, 2026",
     "earlyVotingEnd": "October 29, 2026",
-    "earlyVotingNote": "Maine early voting is in-person absentee voting at your town or city clerk's office. Ballots become available 30 days before Election Day (October 4, 2026, computed from the stated rule) and the no-excuse period runs through Thursday, October 29, 2026.",
+    "earlyVotingNote": "Maine early voting is in-person absentee voting at your town or city clerk's office. Ballots become available 30 days before Election Day (October 4, 2026, which is a Sunday, so most clerk offices start Monday, October 5) and the no-excuse period runs through Thursday, October 29, 2026.",
     "mailBallotWhoCanRequest": "Any registered voter, no excuse needed.",
     "mailBallotRequestDeadline": "October 29, 2026",
     "mailBallotReturnDeadline": "November 3, 2026, received by your municipal clerk by 8 p.m.",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": "The state voter guide lists identification only for registering to vote (for example a driver's license, or a document showing your name and address). It does not describe an ID requirement for casting a ballot.",
+    "idRequirement": "Maine does not require ID to cast a ballot. ID (for example a driver's license, or a document showing your name and address) is needed only when you register to vote.",
     "officialSiteLabel": "Maine Secretary of State",
     "officialSiteUrl": "https://www.maine.gov/sos/elections-voting",
     "sourceUrl": "https://www.maine.gov/sos/elections-voting/state-of-maine-voter-guide; https://www.maine.gov/sos/news/maine-voters-can-request-absentee-ballots-nov-3-election-starting-today-ballots-will-be-mailed; https://www.maine.gov/sos/elections-voting/upcoming-elections",
-    "verifiedAt": "2026-08-15"
+    "verifiedAt": "2026-08-24"
   },
   "MD": {
     "registrationDeadline": "October 13, 2026",
@@ -354,7 +354,7 @@
     "officialSiteLabel": "Maryland State Board of Elections",
     "officialSiteUrl": "https://elections.maryland.gov/",
     "sourceUrl": "https://elections.maryland.gov/elections/2026/2026_Election_Calendar.pdf; https://elections.maryland.gov/elections/2026/index.html; https://elections.maryland.gov/voting/absentee.html; https://elections.maryland.gov/voter_registration/index.html; https://elections.maryland.gov/voting/election_day_questions.html",
-    "verifiedAt": "2026-08-15"
+    "verifiedAt": "2026-08-24"
   },
   "MA": {
     "registrationDeadline": "October 24, 2026",
@@ -433,17 +433,17 @@
     "earlyVotingNote": "Missouri offers no-excuse absentee voting in person from the second Tuesday before the election through the day before the election. Dates are computed from that stated rule. Locations are set by your local election authority. Photo ID is required.",
     "mailBallotWhoCanRequest": "Excuse required for a mailed ballot: absence from the jurisdiction on Election Day, illness or physical disability, religious belief or practice, work as an election worker, first responder, health care worker or law enforcement, incarceration while still eligible, or address confidentiality program participation. Most mailed ballots must be notarized.",
     "mailBallotRequestDeadline": "October 21, 2026",
-    "mailBallotReturnDeadline": null,
-    "mailBallotReturnIsPostmark": null,
+    "mailBallotReturnDeadline": "November 3, 2026, received by your local election authority by the close of polls at 7:00 p.m. A postmark is not enough. You can also vote absentee in person at the election authority's office until 5:00 p.m. on November 2, 2026",
+    "mailBallotReturnIsPostmark": false,
     "idRequirement": "You must show a photo ID: a non-expired Missouri driver or non-driver license, a non-expired military or veteran ID, a non-expired U.S. passport, or another photo ID issued by the U.S. or Missouri. Without one you can cast a provisional ballot that counts if you return with photo ID that day or your signature matches your registration record.",
     "officialSiteLabel": "Missouri Secretary of State",
     "officialSiteUrl": "https://www.sos.mo.gov/elections",
-    "sourceUrl": "https://www.sos.mo.gov/elections/calendar; https://www.sos.mo.gov/elections/govotemissouri/howtovote; https://www.sos.mo.gov/elections/goVoteMissouri/register",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://www.sos.mo.gov/elections/calendar; https://www.sos.mo.gov/elections/govotemissouri/howtovote; https://www.sos.mo.gov/elections/goVoteMissouri/register; https://www.sos.mo.gov/elections/goVoteMissouri/votingquestions",
+    "verifiedAt": "2026-08-24"
   },
   "MT": {
     "registrationDeadline": "October 5, 2026",
-    "registrationDeadlineNote": "Regular registration closes October 5, 2026 (mailed forms postmarked by that date and received within 3 days count). Late registration is available in person at the county election office from October 6 through noon on Election Day, November 3, 2026.",
+    "registrationDeadlineNote": "Regular registration closes October 5, 2026 (mailed forms postmarked by that date and received within 3 days count). Late registration is available in person at the county election office from October 6 through October 31, 2026 (open 8 a.m. to 5 p.m. that Saturday) and again on Election Day until noon. No late registrations are processed on Monday, November 2, 2026. Late registrants must pick up their ballot in person.",
     "sameDayRegistration": true,
     "earlyVotingStart": "October 5, 2026",
     "earlyVotingEnd": "November 2, 2026",
@@ -456,7 +456,7 @@
     "officialSiteLabel": "Montana Secretary of State",
     "officialSiteUrl": "https://sosmt.gov/elections/",
     "sourceUrl": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/2026-Federal-Election-Calendar(6fec86338c652319befedd4fd798de5b).pdf; https://sosmt.gov/elections/absentee/; https://votemt.gov/voter-identification/; https://sosmt.gov/secretary-christi-jacobsen-provides-voters-with-important-election-day-reminders/",
-    "verifiedAt": "2026-08-15"
+    "verifiedAt": "2026-08-24"
   },
   "NE": {
     "registrationDeadline": "October 23, 2026",
@@ -476,21 +476,21 @@
     "verifiedAt": "2026-08-15"
   },
   "NV": {
-    "registrationDeadline": null,
-    "registrationDeadlineNote": null,
-    "sameDayRegistration": null,
-    "earlyVotingStart": null,
-    "earlyVotingEnd": null,
-    "earlyVotingNote": null,
-    "mailBallotWhoCanRequest": null,
+    "registrationDeadline": "October 6, 2026",
+    "registrationDeadlineNote": "Registration by mail or in person closes October 6, 2026. Online registration at RegisterToVote.NV.gov continues through October 20, 2026. From October 21 through Election Day you can still register online or in person as a same-day registrant, but you must then vote in person and show a Nevada driver's license, Nevada ID card, DMV interim document, or tribal ID.",
+    "sameDayRegistration": true,
+    "earlyVotingStart": "October 17, 2026",
+    "earlyVotingEnd": "October 30, 2026",
+    "earlyVotingNote": "Early voting runs Saturday, October 17 through Friday, October 30, 2026 at any early voting site in your county. Hours vary by site. Early voting sites and Election Day vote centers also accept completed mail ballots.",
+    "mailBallotWhoCanRequest": "No request needed. Every active registered voter is automatically mailed a ballot unless they opted out (the opt-out deadline for the general election was September 4, 2026). If your ballot has not arrived by the start of early voting, contact your county election office.",
     "mailBallotRequestDeadline": null,
-    "mailBallotReturnDeadline": null,
-    "mailBallotReturnIsPostmark": null,
-    "idRequirement": null,
+    "mailBallotReturnDeadline": "Postmarked by November 3, 2026 and received by 5 p.m. on November 7, 2026, or dropped at any official drop box, early voting site, or vote center in your county by close of polls on Election Day",
+    "mailBallotReturnIsPostmark": true,
+    "idRequirement": "Registered voters do not need to show ID to vote in person; identity is confirmed by signature. Same-day registrants must show a Nevada driver's license, Nevada ID card, DMV interim document, or tribal ID and vote a provisional ballot. Mail ballots are verified by the signature on the return envelope; if the county cannot match it you will be contacted to fix it.",
     "officialSiteLabel": "Nevada Secretary of State",
-    "officialSiteUrl": "https://www.nvsos.gov/sos/elections",
-    "sourceUrl": null,
-    "verifiedAt": "2026-08-15"
+    "officialSiteUrl": "https://www.nvsos.gov/elections/election-information/2026-election-information",
+    "sourceUrl": "https://www.nvsos.gov/elections/election-information/2026-election-information; https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:a5950eb8-cb6d-404e-a533-b4856da8aa86/original/as/2026-dates.pdf; https://www.clarkcountynv.gov/government/departments/elections/services/mb; https://www.clarkcountynv.gov/government/departments/elections/services/early-voting; https://www.washoecounty.gov/voters/",
+    "verifiedAt": "2026-08-24"
   },
   "NH": {
     "registrationDeadline": null,
@@ -503,11 +503,11 @@
     "mailBallotRequestDeadline": null,
     "mailBallotReturnDeadline": "November 3, 2026, received by 5:00 p.m. on Election Day if returned by mail; if returned in person to the clerk, by 5:00 p.m. on November 2, 2026, the day before the election",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": null,
+    "idRequirement": "New Hampshire requires every voter to show proof of identity to get a ballot. Accepted: a driver's license from any state, a non-driver ID from the NH DMV or another state's motor vehicle agency, a free NH DMV voting identification card, a U.S. armed services ID, or a U.S. passport or passport card. The ID must show an issue or expiration date and is accepted up to 5 years past expiration (no limit if you are 65 or older). Student IDs are not accepted. If you have no ID, a moderator or other election official who knows you may verify your identity. First-time registrants, including same-day registrants at the polls, must also show proof of age, citizenship, and New Hampshire domicile.",
     "officialSiteLabel": "New Hampshire Secretary of State",
     "officialSiteUrl": "https://www.sos.nh.gov/elections",
-    "sourceUrl": "https://www.sos.nh.gov/elections/frequently-asked-questions/how-register-vote; https://www.sos.nh.gov/elections/register-vote; https://www.sos.nh.gov/elections/absentee-ballots",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://www.sos.nh.gov/elections/frequently-asked-questions/how-register-vote; https://www.sos.nh.gov/elections/register-vote; https://www.sos.nh.gov/elections/absentee-ballots; https://www.sos.nh.gov/election-day-voting; https://www.sos.nh.gov/elections/register-vote/polls-election-day",
+    "verifiedAt": "2026-08-24"
   },
   "NJ": {
     "registrationDeadline": "October 13, 2026",
@@ -595,21 +595,21 @@
     "verifiedAt": "2026-08-15"
   },
   "OH": {
-    "registrationDeadline": null,
-    "registrationDeadlineNote": null,
-    "sameDayRegistration": null,
-    "earlyVotingStart": null,
-    "earlyVotingEnd": null,
-    "earlyVotingNote": null,
-    "mailBallotWhoCanRequest": null,
-    "mailBallotRequestDeadline": null,
-    "mailBallotReturnDeadline": null,
-    "mailBallotReturnIsPostmark": null,
-    "idRequirement": null,
+    "registrationDeadline": "October 5, 2026",
+    "registrationDeadlineNote": "Registration closes 30 days before Election Day. Because that day is a Sunday, the deadline is Monday, October 5, 2026; county boards of elections stay open until 9 p.m. that day. Online, mailed (postmarked), and in-person registrations all use this deadline. Ohio has no same-day registration.",
+    "sameDayRegistration": false,
+    "earlyVotingStart": "October 6, 2026",
+    "earlyVotingEnd": "November 1, 2026",
+    "earlyVotingNote": "Early in-person voting is at your county board of elections (or its designated early vote center) from Tuesday, October 6 through Sunday, November 1, 2026, including Saturday, October 24, Saturday, October 31, and Sunday, November 1. There is no early voting on Monday, November 2.",
+    "mailBallotWhoCanRequest": "Any registered voter, no excuse needed. Send a signed absentee ballot application to your county board of elections. Absentee ballots begin mailing October 6, 2026.",
+    "mailBallotRequestDeadline": "October 27, 2026",
+    "mailBallotReturnDeadline": "November 3, 2026, received by your county board of elections by 7:30 p.m., whether returned by mail, in person, or at the board's drop box. Applications must reach the board by 8:30 p.m. on October 27, 2026",
+    "mailBallotReturnIsPostmark": false,
+    "idRequirement": "Photo ID is required to vote in person: an unexpired Ohio driver's license, state ID card, or interim ID; a U.S. passport or passport card; or a U.S. military, Ohio National Guard, or Department of Veterans Affairs ID. Without one you may cast a provisional ballot, which counts only if you bring a qualifying ID to the board of elections within four days after Election Day.",
     "officialSiteLabel": "Ohio Secretary of State",
-    "officialSiteUrl": "https://www.ohiosos.gov/elections/voters/",
-    "sourceUrl": null,
-    "verifiedAt": "2026-08-15"
+    "officialSiteUrl": "https://www.ohiosos.gov/elections/voting-schedule",
+    "sourceUrl": "https://www.ohiosos.gov/elections/voting-schedule; https://vote.franklincountyohio.gov/voters/absentee-and-early-voting; https://vote.franklincountyohio.gov/voters/identification-requirements; https://www.boe.ohio.gov/summit/elections/2026-november-general-election/",
+    "verifiedAt": "2026-08-24"
   },
   "OK": {
     "registrationDeadline": "October 9, 2026",
@@ -656,11 +656,11 @@
     "mailBallotRequestDeadline": "October 27, 2026",
     "mailBallotReturnDeadline": "November 3, 2026, received by the county election office by 8:00 p.m.",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": "ID is required only the first time you vote at a polling place. Acceptable forms include a Pennsylvania driver's license or PennDOT ID, U.S. passport, government or military ID, student or employee ID, or a non-photo document such as a utility bill or voter registration confirmation with your name and address.",
+    "idRequirement": "ID is required only the first time you vote at a new polling place. Acceptable forms include a Pennsylvania driver's license or PennDOT ID, U.S. passport, government or military ID, student or employee ID, or a non-photo document such as a utility bill or voter registration confirmation with your name and address.",
     "officialSiteLabel": "Pennsylvania Department of State",
     "officialSiteUrl": "https://www.pa.gov/agencies/vote",
     "sourceUrl": "https://www.pa.gov/agencies/vote/elections/upcoming-elections.html; https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot.html; https://www.pa.gov/agencies/vote/voter-support/new-voters; https://www.pa.gov/agencies/vote/voter-support/elections-faqs",
-    "verifiedAt": "2026-08-15"
+    "verifiedAt": "2026-08-24"
   },
   "RI": {
     "registrationDeadline": "October 4, 2026",
@@ -673,11 +673,11 @@
     "mailBallotRequestDeadline": "October 13, 2026",
     "mailBallotReturnDeadline": "November 3, 2026, received by the State Board of Elections by 8:00 p.m.",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": "A valid photo ID is required to vote in person, such as a Rhode Island driver's license, U.S. passport, tribal ID, student ID, military ID, government-issued ID, or Rhode Island Voter ID card, not expired more than 6 months before the election. Voters without an acceptable photo ID vote an emergency mail ballot at the polls.",
+    "idRequirement": "A valid photo ID is required to vote in person, such as a Rhode Island driver's license, U.S. passport, tribal ID, student ID, military ID, government-issued ID, or Rhode Island Voter ID card, not expired more than 6 months before the election. Voters who cannot show an acceptable photo ID cast a provisional ballot, which counts if the local board confirms the signature matches the voter registration.",
     "officialSiteLabel": "Rhode Island Department of State",
     "officialSiteUrl": "https://vote.sos.ri.gov/",
-    "sourceUrl": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026ElecCal.pdf; https://elections.ri.gov/elections/upcoming-elections; https://elections.ri.gov/voter-resources/mail-ballot; https://vote.sos.ri.gov/Voter/PersonVotingPage",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026ElecCal.pdf; https://elections.ri.gov/elections/upcoming-elections; https://elections.ri.gov/voter-resources/mail-ballot; https://vote.sos.ri.gov/Voter/PersonVotingPage; https://elections.ri.gov/voter-resources/voter-id",
+    "verifiedAt": "2026-08-24"
   },
   "SC": {
     "registrationDeadline": "October 4, 2026",
@@ -710,8 +710,8 @@
     "idRequirement": "Voters show a photo ID: South Dakota driver's license or nondriver ID, U.S. government photo ID such as a passport, U.S. Armed Forces ID, current South Dakota student photo ID, or tribal photo ID. Voters without photo ID may sign a personal identification affidavit and vote a regular ballot.",
     "officialSiteLabel": "South Dakota Secretary of State",
     "officialSiteUrl": "https://sdsos.gov/elections-voting/default.aspx",
-    "sourceUrl": "https://sdsos.gov/elections-voting/assets/2026%20Documents/2026ElectionCALENDAR.pdf; https://sdsos.gov/elections-voting/voting/absentee-voting.aspx; https://sdsos.gov/elections-voting/voting/default.aspx; https://sdsos.gov/elections-voting/upcoming-elections/faqs.aspx",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://sdsos.gov/elections-voting/assets/2026%20Documents/2026ElectionCALENDAR.pdf; https://sdsos.gov/elections-voting/voting/absentee-voting.aspx; https://sdsos.gov/elections-voting/voting/default.aspx; https://sdsos.gov/elections-voting/upcoming-elections/Myths-vs-Facts-and-FAQS/faqs.aspx",
+    "verifiedAt": "2026-08-24"
   },
   "TN": {
     "registrationDeadline": "October 5, 2026",
@@ -727,8 +727,8 @@
     "idRequirement": "Voters must show a federal or Tennessee state photo ID with their name and photograph. Voters without ID may vote a provisional ballot and have two business days after Election Day to show a valid photo ID at the election commission office.",
     "officialSiteLabel": "Tennessee Secretary of State",
     "officialSiteUrl": "https://sos.tn.gov/elections",
-    "sourceUrl": "https://sos.tn.gov/elections/calendar; https://sos.tn.gov/elections/guides/guide-to-absentee-voting; https://sos.tn.gov/elections/faqs; https://sos.tn.gov/elections/faqs/what-id-is-required-when-voting",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://sos.tn.gov/elections/calendar; https://sos.tn.gov/elections/guides/guide-to-absentee-voting; https://sos.tn.gov/elections/faqs/what-id-is-required-when-voting; https://sos.tn.gov/node/149",
+    "verifiedAt": "2026-08-24"
   },
   "TX": {
     "registrationDeadline": "October 5, 2026",
@@ -773,13 +773,13 @@
     "earlyVotingNote": "Town clerks must have general election ballots by September 19, 2026 (45 days before the election), and voters may vote early at the clerk's office once ballots arrive. In-person early voting at the clerk's office ends at close of business November 2, 2026.",
     "mailBallotWhoCanRequest": "Every active registered voter is automatically mailed a general election ballot, with mailing completed by October 1, 2026. Any voter can also request an early or absentee ballot from the town clerk.",
     "mailBallotRequestDeadline": "November 2, 2026",
-    "mailBallotReturnDeadline": "November 3, 2026, received by the town clerk or polling place by 7:00 p.m.",
+    "mailBallotReturnDeadline": "Return to the town clerk's office by close of business on November 2, 2026, or to your polling place by 7:00 p.m. on Election Day, November 3, 2026",
     "mailBallotReturnIsPostmark": false,
-    "idRequirement": "No ID is required to vote in person. First-time registrants who register by mail or online must include a copy of an acceptable ID such as a driver's license, passport, utility bill, bank statement, or other government document.",
+    "idRequirement": "Most voters do not need to show ID to vote in person. The exception is first-time voters who registered by mail or online without including a copy of an acceptable ID (driver's license, passport, utility bill, bank statement, or other government document); they must show one at the polls before voting.",
     "officialSiteLabel": "Vermont Secretary of State",
     "officialSiteUrl": "https://sos.vermont.gov/elections/",
-    "sourceUrl": "https://outside.vermont.gov/dept/sos/Elections_Division/town_clerks_local_elections/election_procedure/elections_calendar.pdf; https://sos.vermont.gov/elections/voters/registration; https://sos.vermont.gov/elections/voters/early-absentee-voting",
-    "verifiedAt": "2026-08-15"
+    "sourceUrl": "https://outside.vermont.gov/dept/sos/Elections_Division/town_clerks_local_elections/election_procedure/elections_calendar.pdf; https://sos.vermont.gov/elections/voters/registration; https://sos.vermont.gov/elections/voters/early-absentee-voting; https://sos.vermont.gov/elections/voters/voter-faqs/election-day-faqs/",
+    "verifiedAt": "2026-08-24"
   },
   "VA": {
     "registrationDeadline": "October 23, 2026",
@@ -787,7 +787,7 @@
     "sameDayRegistration": true,
     "earlyVotingStart": "September 18, 2026",
     "earlyVotingEnd": "October 31, 2026",
-    "earlyVotingNote": "Early in-person voting runs at your general registrar's office through 5:00 p.m. October 31, 2026. Some offices also open on the last two Saturdays and Sundays.",
+    "earlyVotingNote": "Early in-person voting runs at your general registrar's office through 5:00 p.m. October 31, 2026. Registrar offices are also open for early voting on Sunday, October 18, Saturday, October 24, Sunday, October 25, and Saturday, October 31, 2026.",
     "mailBallotWhoCanRequest": "Any registered voter, no excuse needed.",
     "mailBallotRequestDeadline": "October 23, 2026",
     "mailBallotReturnDeadline": "Postmarked by November 3, 2026, received by noon on November 6, 2026 (or returned in person by 7:00 p.m. on Election Day)",
@@ -796,7 +796,7 @@
     "officialSiteLabel": "Virginia Department of Elections",
     "officialSiteUrl": "https://www.elections.virginia.gov/",
     "sourceUrl": "https://www.elections.virginia.gov/casting-a-ballot/calendars-schedules/upcoming-elections.html; https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/index.html; https://www.elections.virginia.gov/registration/index.html; https://www.elections.virginia.gov/registration/voterid/",
-    "verifiedAt": "2026-08-15"
+    "verifiedAt": "2026-08-24"
   },
   "WA": {
     "registrationDeadline": "October 26, 2026",

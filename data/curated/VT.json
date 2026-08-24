@@ -4,15 +4,19 @@
   "races": {
     "VT-governor": {
       "status": "general",
-      "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term; he was unopposed in the Aug 11 primary. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%."
+      "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%. Also listed for the November ballot: June Goodband (Peace and Justice), Dean R. Roy (Freedom and Unity) and independent Brian Judd."
     },
     "VT-house-at-large": {
       "status": "general",
       "advancing": [
         "fec-H2VT01076",
-        "fec-H6VT01085"
+        "fec-H6VT01085",
+        "vt-house-altair",
+        "vt-house-ortiz",
+        "vt-house-seymour",
+        "vt-house-walton"
       ],
-      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 77% over Mark Coester. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them.",
+      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 76% over Mark Coester. Independents Phoenix Altair, Adam Ortiz, Suzanne Seymour and Ryan Walton are also listed for the November ballot. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them.",
       "sources": [
         {
           "label": "Gerald Malloy wins Vermont Republican primary for U.S. House (Vermont Public)",
@@ -378,6 +382,153 @@
         }
       ],
       "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "vt-gov-goodband",
+      "name": "June Goodband",
+      "party": "Peace and Justice",
+      "office": "governor",
+      "district": null,
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-gov-roy",
+      "name": "Dean R. Roy",
+      "party": "Freedom and Unity",
+      "office": "governor",
+      "district": null,
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-gov-judd",
+      "name": "Brian Judd",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-house-altair",
+      "name": "Phoenix Altair",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-house-ortiz",
+      "name": "Adam Ortiz",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-house-seymour",
+      "name": "Suzanne Seymour",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
+    },
+    {
+      "id": "vt-house-walton",
+      "name": "Ryan Walton",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "VT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: VT 2026",
+          "url": "https://www.thegreenpapers.com/G26/VT"
+        },
+        {
+          "label": "Politics1: VT 2026 candidates",
+          "url": "https://politics1.com/vt.htm"
+        }
+      ]
     }
   ]
 }

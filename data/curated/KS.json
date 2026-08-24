@@ -6,9 +6,10 @@
       "status": "general",
       "advancing": [
         "fec-S0KS00315",
-        "fec-S6KS00312"
+        "fec-S6KS00312",
+        "ks-senate-graham"
       ],
-      "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4."
+      "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4. Libertarian David Graham is also running for the November ballot."
     },
     "KS-governor": {
       "status": "general",
@@ -502,6 +503,23 @@
         {
           "label": "Politics1 Kansas 2026 candidate list",
           "url": "https://www.politics1.com/ks.htm"
+        }
+      ]
+    },
+    {
+      "id": "ks-senate-graham",
+      "name": "David Graham",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "KS",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Libertarian Party of Kansas: 2026 candidates",
+          "url": "https://www.lpks.org/candidates"
         }
       ]
     }

@@ -6,9 +6,10 @@
       "status": "general",
       "advancing": [
         "fec-S4AR00103",
-        "fec-S6AR00199"
+        "fec-S6AR00199",
+        "fec-S6AR00223"
       ],
-      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton 82.1%, Shoffner 81.2%), no runoffs."
+      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton about 82%, Shoffner about 78%), no runoffs. Libertarian Jeffrey Wadlin is also on the November ballot."
     },
     "AR-governor": {
       "status": "general",
@@ -74,9 +75,9 @@
       "advancing": [
         "fec-H0AR03055",
         "fec-H6AR03128",
-        "ar-house-3-hocevar"
+        "ar-house-3-wilson"
       ],
-      "statusNote": "Rep. Steve Womack (R) seeks re-election against pastor Robb Ryerse (D) and independent Christopher Hocevar. Womack was the only Republican to file, so his March 3, 2026 primary was canceled, and Ryerse took the Democratic nomination. Positions are not researched yet.",
+      "statusNote": "Rep. Steve Womack (R) seeks re-election against Robb Ryerse (D) and Libertarian Bobby Wilson. Womack was the only Republican to file, so his March 3, 2026 primary was canceled. Positions are not researched yet.",
       "sources": [
         {
           "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
@@ -447,7 +448,7 @@
       "district": "3",
       "state": "AR",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -457,6 +458,95 @@
         {
           "label": "Arkansas' 3rd Congressional District election, 2026, March 3 Republican primary (Ballotpedia)",
           "url": "https://ballotpedia.org/Arkansas%27_3rd_Congressional_District_election,_2026_(March_3_Republican_primary)"
+        }
+      ]
+    },
+    {
+      "id": "ar-gov-shelby",
+      "name": "Colt Shelby",
+      "party": "Libertarian",
+      "office": "governor",
+      "district": null,
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Talk Business: Arkansas Libertarians nominate 2026 candidates",
+          "url": "https://talkbusiness.net/2026/02/arkansas-libertarians-nominate-candidates-for-2026/"
+        },
+        {
+          "label": "Talk Business: poll, Gov. Sanders holds lead over two opponents",
+          "url": "https://talkbusiness.net/2026/08/poll-gov-sanders-holds-lead-over-two-opponents/"
+        }
+      ]
+    },
+    {
+      "id": "ar-house-3-wilson",
+      "name": "Bobby Wilson",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "3",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Talk Business: Arkansas Libertarians nominate 2026 candidates",
+          "url": "https://talkbusiness.net/2026/02/arkansas-libertarians-nominate-candidates-for-2026/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0AR01083",
+      "name": "Rick Crawford",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0AR01083/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0AR03055",
+      "name": "Steve Womack",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0AR03055/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6AR04084",
+      "name": "James \"Rus\" Russell III",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "AR",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AR04084/"
         }
       ]
     }

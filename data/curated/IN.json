@@ -6,10 +6,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H0IN03198",
-        "fec-H6IN03294",
-        "in-house-3-beachy"
+        "fec-H6IN03294"
       ],
-      "statusNote": "Rep. Marlin Stutzman (R) seeks re-election against Kelly Thompson (D) and independent Phillip Beachy after the May 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Marlin Stutzman (R) seeks re-election against Kelly Thompson (D) after the May 2026 primary. Phillip Beachy is running as a write-in and is not on the ballot. Positions are not researched yet.",
       "sources": [
         {
           "label": "Indiana 2026 candidates by district (Election2026)",
@@ -183,7 +182,7 @@
       "district": "3",
       "state": "IN",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -277,6 +276,23 @@
         {
           "label": "2026 United States House of Representatives elections in Indiana (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0IN03198",
+      "name": "Marlin A Stutzman",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "IN",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0IN03198/"
         }
       ]
     }

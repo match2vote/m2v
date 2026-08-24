@@ -6,7 +6,8 @@
       "status": "general",
       "advancing": [
         "fec-S4WV00159",
-        "fec-S6WV00188"
+        "fec-S6WV00188",
+        "wv-senate-wilson"
       ],
       "statusNote": "Sen. Shelley Moore Capito (R) seeks a third term against Morgantown attorney Rachel Fetty Anderson (D). Capito won the May 12 Republican primary with 66.5%; Fetty Anderson won the Democratic primary with 33.2% of a five-way field. Constitution Party nominee S. Marshall Wilson is also on the November ballot."
     },
@@ -259,6 +260,40 @@
         {
           "label": "West Virginia 2026 candidates by district (Election2026)",
           "url": "https://election2026.net/west-virginia-2026/"
+        }
+      ]
+    },
+    {
+      "id": "wv-senate-wilson",
+      "name": "S. Marshall Wilson",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "WV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "WV SOS general election candidate list (via Wikipedia summary)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6WV00170",
+      "name": "Rio Phillips",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "WV",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6WV00170/"
         }
       ]
     }

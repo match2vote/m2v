@@ -4,7 +4,15 @@
   "races": {
     "DE-senate": {
       "status": "primary-pending",
-      "statusNote": "Primaries are September 15, 2026, so nominees are not final. Sen. Chris Coons (D) is seeking re-election and is the clear Democratic frontrunner ($5.77M raised; his only notable primary challenger, Chris Beardsley, has withdrawn). Army War College instructor John Shulli leads the Republican money race ($100K raised) in a two-way primary against Michael Katz; business owner Dexter Bland is running outside the party primaries."
+      "statusNote": "Sen. Chris Coons (D) seeks a fourth term. The Sept 15, 2026 primary ballots are set: Coons faces Jeff Appelhans, E. No-Trump Hansen and Mary Louve for the Democratic nomination, and John Shulli faces Michael \"Dr. Mike\" Katz for the Republican nomination, according to the Delaware Department of Elections candidate list.",
+      "advancing": [
+        "fec-S0DE00092",
+        "fec-S6DE00198",
+        "fec-S6DE00206",
+        "de-senate-appelhans",
+        "de-senate-hansen",
+        "de-senate-louve"
+      ]
     }
   },
   "candidates": [
@@ -188,6 +196,57 @@
       "nullNotes": {
         "repro": "checked campaign platform, press releases page, and WDEL ElectionWatch interview; no abortion position documented anywhere"
       }
+    },
+    {
+      "id": "de-senate-appelhans",
+      "name": "Jeff Appelhans",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "DE",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Delaware Department of Elections: 2026 primary candidate list",
+          "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2026.html"
+        }
+      ]
+    },
+    {
+      "id": "de-senate-hansen",
+      "name": "E. No-Trump Hansen",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "DE",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Delaware Department of Elections: 2026 primary candidate list",
+          "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2026.html"
+        }
+      ]
+    },
+    {
+      "id": "de-senate-louve",
+      "name": "Mary Louve",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "DE",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Delaware Department of Elections: 2026 primary candidate list",
+          "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2026.html"
+        }
+      ]
     }
   ]
 }

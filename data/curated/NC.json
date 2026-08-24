@@ -6,7 +6,9 @@
       "status": "general",
       "advancing": [
         "fec-S6NC00407",
-        "fec-S6NC00415"
+        "fec-S6NC00415",
+        "nc-senate-bray",
+        "nc-senate-dublin"
       ],
       "statusNote": "Primary held March 3, 2026. Cooper (D) and Whatley (R) won their nominations."
     },
@@ -91,10 +93,9 @@
       "advancing": [
         "fec-H4NC05146",
         "fec-H4NC05294",
-        "fec-H6NC05133",
         "nc-house-5-luffman"
       ],
-      "statusNote": "Rep. Virginia Foxx (R) seeks re-election against Chuck Hubbard (D), independent David Clayton and Libertarian Robert Luffman after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Virginia Foxx (R) seeks re-election against Chuck Hubbard (D) and Libertarian Robert Luffman after the March 3, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "2026 United States House of Representatives elections in North Carolina (Wikipedia)",
@@ -110,10 +111,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H4NC06177",
-        "fec-H6NC06164",
-        "nc-house-6-hager"
+        "fec-H6NC06164"
       ],
-      "statusNote": "Rep. Addison McDowell (R) seeks re-election against Cyril Jefferson (D) and independent Joshua Hager after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Addison McDowell (R) seeks re-election against Cyril Jefferson (D) after the March 3, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "North Carolina 2026 candidates by district (Election2026)",
@@ -129,10 +129,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H2NC08185",
-        "fec-H6NC09218",
-        "nc-house-9-hunter-herod"
+        "fec-H6NC09218"
       ],
-      "statusNote": "Rep. Richard Hudson (R) seeks re-election against Richard Ojeda (D) and independent Tita Hunter-Herod after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Richard Hudson (R) seeks re-election against Richard Ojeda (D) after the March 3, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "North Carolina 2026 candidates by district (Election2026)",
@@ -186,10 +185,9 @@
       "advancing": [
         "fec-H4NC13116",
         "fec-H6NC13228",
-        "nc-house-13-swinton",
-        "fec-H6NC13244"
+        "nc-house-13-swinton"
       ],
-      "statusNote": "Rep. Brad Knott (R) seeks re-election against Paul Barringer (D), Libertarian Steven Swinton and Green Anthony Aguilar after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Brad Knott (R) seeks re-election against Paul Barringer (D) and Libertarian Steven Swinton after the March 3, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "North Carolina 2026 candidates by district (Election2026)",
@@ -648,7 +646,7 @@
       "district": "6",
       "state": "NC",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -669,7 +667,7 @@
       "district": "9",
       "state": "NC",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -767,6 +765,57 @@
         {
           "label": "Politics1: North Carolina 2026 candidates (names only, party not used)",
           "url": "https://politics1.com/nc.htm"
+        }
+      ]
+    },
+    {
+      "id": "nc-senate-bray",
+      "name": "Shannon W. Bray",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "NC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NC State Board of Elections: 2026 general candidate list by contest",
+          "url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nc-senate-dublin",
+      "name": "Michael Dublin",
+      "party": "Green",
+      "office": "us-senate",
+      "district": null,
+      "state": "NC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NC State Board of Elections: 2026 general candidate list by contest",
+          "url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_list_by_contest_federal_and_state.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6NC03229",
+      "name": "Raymond Smith",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "NC",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NC03229/"
         }
       ]
     }

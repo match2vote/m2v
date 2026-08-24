@@ -10,7 +10,7 @@
         "fec-S6MT00287",
         "fec-S6MT00261"
       ],
-      "statusNote": "Open seat: Sen. Steve Daines withdrew minutes before the March filing deadline and endorsed Kurt Alme (R), who won the June 2 primary with 77%. Alme faces Alani Bankhead (D, 44% primary winner), independent former UM president Seth Bodnar (qualified by petition with 21,284 verified signatures), and Libertarian Kyle Austin. Bankhead and Bodnar each refused drop-out pressure before the Aug 10 withdrawal deadline, locking in a four-way general."
+      "statusNote": "Open seat: Sen. Steve Daines withdrew minutes before the March filing deadline and endorsed Kurt Alme (R), who won the June 2 primary with 76%. Alme faces Alani Bankhead (D, 44% primary winner), independent former UM president Seth Bodnar (qualified by petition with 21,284 verified signatures), and Libertarian Kyle Austin. Bankhead and Bodnar each refused drop-out pressure before the Aug 10 withdrawal deadline, locking in a four-way general."
     },
     "MT-house-1": {
       "status": "names-only",
@@ -40,9 +40,10 @@
       "advancing": [
         "fec-H4MT02098",
         "fec-H6MT02150",
-        "fec-H6MT02168"
+        "fec-H6MT02168",
+        "mt-house-2-mccracken"
       ],
-      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat). Rep. Troy Downing is the incumbent. Also on the November ballot: Michael Eisenhauer (Independent). A Libertarian, Patrick McCracken, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat) and Libertarian nominee Patrick McCracken. Rep. Troy Downing is the incumbent. Independent Michael Eisenhauer's petition was still listed as pending by the Secretary of State on Aug 24. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers, Montana 2026 general election",
@@ -435,6 +436,27 @@
         {
           "label": "270toWin, 2026 Montana U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/montana"
+        }
+      ]
+    },
+    {
+      "id": "mt-house-2-mccracken",
+      "name": "Patrick McCracken",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "2",
+      "state": "MT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Montana SOS: 2026 primary results",
+          "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY"
+        },
+        {
+          "label": "Montana SOS: candidate filing list",
+          "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002928"
         }
       ]
     }

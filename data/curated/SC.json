@@ -4,22 +4,28 @@
   "races": {
     "SC-senate": {
       "status": "primary-pending",
-      "statusNote": "Sen. Lindsey Graham died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in an Aug 25 special-primary runoff after leading the Aug 11 special primary 33% to 25%. The GOP nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee.",
-      "primaryDate": "AUG 25"
+      "statusNote": "Special election for the seat of Sen. Lindsey Graham, who died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in the Aug 25 special-primary runoff after leading the Aug 11 special primary 33% to 25%. The Republican nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee. Kasie Whitener (Libertarian) and Mark Hackett (Constitution Party) are also listed for the November ballot.",
+      "primaryDate": "AUG 25",
+      "advancing": [
+        "fec-S6SC04239",
+        "fec-S6SC04437",
+        "fec-S6SC04247",
+        "fec-S6SC04445",
+        "sc-senate-hackett"
+      ]
     },
     "SC-governor": {
       "status": "general",
-      "statusNote": "Open seat (Gov. McMaster term-limited): Attorney General Alan Wilson (R) won the June 23 runoff with 68.6% over Lt. Gov. Pamela Evette and faces state Rep. Jermaine Johnson (D), who won the June 9 primary with 59.7%."
+      "statusNote": "Open seat (Gov. McMaster term-limited): Attorney General Alan Wilson (R) won the June 23 runoff with 68.6% over Lt. Gov. Pamela Evette and faces state Rep. Jermaine Johnson (D), who won the June 9 primary with 59.7%. Walid Hakim (Green) and Michael Addison (United Citizens) are also listed for the November ballot."
     },
     "SC-house-1": {
       "status": "names-only",
       "advancing": [
         "fec-H6SC01334",
         "fec-H6SC01359",
-        "fec-H6SC01342",
-        "sc-house-1-ellis"
+        "fec-H6SC01342"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian), Margo Ellis (Alliance Party). No incumbent is on the November ballot. A certified write in candidate, Clayton Cuteri, is not a ballot listed candidate. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian). No incumbent is on the November ballot. A certified write-in candidate, Clayton Cuteri, is not a ballot-listed candidate. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -43,9 +49,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H2SC02059",
-        "fec-H6SC02159"
+        "fec-H6SC02159",
+        "sc-house-2-smith"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon Khalifa (Democrat). Rep. Joe Wilson is the incumbent. A third candidate, Dayna Smith, is also on the ballot; sources disagree on her party (United Citizens in one, Workers Party in the other), so she is not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon El-Khalifa (Democrat) and Dayna Smith, who is listed on the Workers Party and United Citizens lines (South Carolina allows one candidate to carry more than one party line). Rep. Joe Wilson is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -270,7 +277,7 @@
       "office": "us-senate",
       "state": "SC",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "filed",
       "incumbent": true,
       "age": 62,
       "home": "Lexington, SC",
@@ -340,7 +347,7 @@
       "office": "us-senate",
       "state": "SC",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "filed",
       "incumbent": false,
       "age": 73,
       "home": "Rock Hill, SC",
@@ -622,7 +629,7 @@
       "district": "1",
       "state": "SC",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -769,6 +776,141 @@
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
+        }
+      ]
+    },
+    {
+      "id": "fec-S0SC00149",
+      "name": "Lindsey O. Graham",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0SC00149/"
+        }
+      ]
+    },
+    {
+      "id": "sc-senate-hackett",
+      "name": "Mark J. Hackett",
+      "party": "Constitution Party",
+      "office": "us-senate",
+      "district": null,
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Politics1: South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "The Green Papers: South Carolina 2026",
+          "url": "https://www.thegreenpapers.com/G26/SC"
+        }
+      ]
+    },
+    {
+      "id": "sc-gov-hakim",
+      "name": "Walid Hakim",
+      "party": "Green",
+      "office": "governor",
+      "district": null,
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Politics1: South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "The Green Papers: South Carolina 2026",
+          "url": "https://www.thegreenpapers.com/G26/SC"
+        }
+      ]
+    },
+    {
+      "id": "sc-gov-addison",
+      "name": "Michael Addison",
+      "party": "United Citizens Party",
+      "office": "governor",
+      "district": null,
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Politics1: South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "The Green Papers: South Carolina 2026",
+          "url": "https://www.thegreenpapers.com/G26/SC"
+        }
+      ]
+    },
+    {
+      "id": "fec-H2SC02059",
+      "name": "Joe Wilson",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2SC02059/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6SC02159",
+      "name": "Zyon Deshon El-Khalifa",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC02159/"
+        }
+      ]
+    },
+    {
+      "id": "sc-house-2-smith",
+      "name": "Dayna Smith",
+      "party": "Workers Party / United Citizens",
+      "office": "us-house",
+      "district": "2",
+      "state": "SC",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: South Carolina 2026",
+          "url": "https://www.thegreenpapers.com/G26/SC"
+        },
+        {
+          "label": "Politics1: South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
         }
       ]
     }

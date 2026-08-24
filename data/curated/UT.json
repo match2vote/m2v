@@ -58,9 +58,10 @@
         "fec-H6UT03182",
         "ut-house-3-easley",
         "ut-house-3-stoddard",
-        "ut-house-3-hooslyn"
+        "ut-house-3-hooslyn",
+        "ut-house-3-scott"
       ],
-      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidate Adonis Hooslyn after the June 23, 2026 primary. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidates Adonis Hooslyn and Ayden Scott after the June 23, 2026 primary. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -84,7 +85,7 @@
         "ut-house-4-wright",
         "fec-H6UT04024"
       ],
-      "statusNote": "Open seat under Utah's new map: Rep. Mike Kennedy (R), who represented the old 3rd district, faces Democrat Jonny Larsen, Libertarian Taylor Wright and independent Steven Burt after the June 23, 2026 primary. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Mike Kennedy (R), who represented the old 3rd district, is the incumbent running under Utah's new map. He faces Democrat Jonny Larsen, Libertarian Taylor Wright and unaffiliated candidate Steven Burt after the June 23, 2026 primary. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -267,6 +268,57 @@
         {
           "label": "Politics1 Utah 2026 candidate list",
           "url": "https://www.politics1.com/ut.htm"
+        }
+      ]
+    },
+    {
+      "id": "ut-house-3-scott",
+      "name": "Ayden Scott",
+      "party": "Unaffiliated",
+      "office": "us-house",
+      "district": "3",
+      "state": "UT",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Utah Lt. Governor: 2026 candidate filings",
+          "url": "https://vote.utah.gov/2026-candidate-filings/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6UT02531",
+      "name": "Robert Michael Moesinger",
+      "party": "Unaffiliated",
+      "office": "us-house",
+      "district": "2",
+      "state": "UT",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT02531/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6UT04024",
+      "name": "Steven Burt",
+      "party": "Unaffiliated",
+      "office": "us-house",
+      "district": "4",
+      "state": "UT",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT04024/"
         }
       ]
     }

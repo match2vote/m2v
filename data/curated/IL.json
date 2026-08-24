@@ -12,7 +12,7 @@
     },
     "IL-governor": {
       "status": "general",
-      "statusNote": "Gov. JB Pritzker (D) seeks a third term against 2022 rival Darren Bailey (R), who won his primary with about 54%."
+      "statusNote": "Gov. JB Pritzker (D) seeks a third term against 2022 rival Darren Bailey (R), who won his primary with about 54%. Independent Collin Corbett qualified for the November ballot by petition after an objection to his signatures was withdrawn."
     },
     "IL-house-1": {
       "status": "names-only",
@@ -118,7 +118,7 @@
         "fec-H0IL05096",
         "il-house-5-hanson"
       ],
-      "statusNote": "Rep. Mike Quigley (D) turned back two primary challengers on March 17, 2026 and faces Republican Tommy Hanson. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Mike Quigley (D) turned back three primary challengers on March 17, 2026 with about 65% and faces Republican Tommy Hanson, who won a three-way Republican primary. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Wikipedia 2026 U.S. House elections in Illinois",
@@ -140,7 +140,7 @@
         "fec-H8IL06139",
         "fec-H2IL06090"
       ],
-      "statusNote": "Rep. Sean Casten (D) won the March 17, 2026 primary with 73.4% and faces Republican Niki Conforti in a rematch of 2024. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Sean Casten (D) won the March 17, 2026 primary with about 76% and faces Republican Niki Conforti in a rematch of 2024. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Wikipedia 2026 U.S. House elections in Illinois",
@@ -382,7 +382,7 @@
         "fec-H2IL17147",
         "fec-H6IL17247"
       ],
-      "statusNote": "Rep. Eric Sorensen (D) beat Montez Soliz in the March 17, 2026 primary and faces Republican Dillan Vancil, who beat Julie Bickelhaupt, in a Cook toss-up. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Eric Sorensen (D) was unopposed in the March 17, 2026 primary and faces Republican Dillan Vancil, who beat Julie Bickelhaupt 57% to 43%. The Cook Political Report rates the seat Likely Democratic. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Center Square: Illinois 2026 primary results",
@@ -893,6 +893,23 @@
         {
           "label": "Politics1 Illinois 2026 candidate list",
           "url": "https://politics1.com/il.htm"
+        }
+      ]
+    },
+    {
+      "id": "il-gov-corbett",
+      "name": "Collin Corbett",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "IL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Capitol News Illinois: independent Collin Corbett to remain on ballot",
+          "url": "https://capitolnewsillinois.com/news/independent-collin-corbett-to-remain-on-ballot-after-bailey-camp-withdraws-objection/"
         }
       ]
     }

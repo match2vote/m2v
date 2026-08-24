@@ -6,9 +6,9 @@
       "status": "general",
       "advancing": [
         "fec-S6ME00159",
-        "fec-S6ME00373"
+        "me-senate-jackson"
       ],
-      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces oyster farmer and veteran Graham Platner (D), who won the June 9 primary with about 78%. Rated a toss-up by the Cook Political Report."
+      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces former state Senate President Troy Jackson (D). Graham Platner won the June 9 Democratic primary with 72% but withdrew on July 10; the Maine Democratic Party nominated Jackson on July 25 and the Secretary of State lists him as the replacement candidate. Rated a toss-up by the Cook Political Report. Jackson's positions are not researched yet."
     },
     "ME-house-1": {
       "status": "names-only",
@@ -157,7 +157,7 @@
       "office": "us-senate",
       "state": "ME",
       "tier": "curated",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "age": 41,
       "home": "Sullivan, ME",
@@ -243,6 +243,27 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "me-senate-jackson",
+      "name": "Troy Jackson",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "ME",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Maine SOS: 2026 post-primary withdrawals and replacement candidates",
+          "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Post%20Primary%20Withdrawals%20%26%20Replacement%20Candidates%20FINAL.pdf"
+        },
+        {
+          "label": "NPR: Maine Democrats pick Troy Jackson to replace Platner",
+          "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race"
+        }
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "races": {
     "NV-governor": {
       "status": "general",
-      "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 65% over Washoe County Commissioner Alexis Hill. One of the most competitive governor races in the country."
+      "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 63% over Washoe County Commissioner Alexis Hill. State Board of Education member Danielle Ford is running with no party affiliation. One of the most competitive governor races in the country."
     },
     "NV-house-1": {
       "status": "names-only",
@@ -12,11 +12,9 @@
         "fec-H8NV03036",
         "fec-H6NV01331",
         "fec-H6NV01315",
-        "nv-house-1-stjohn",
-        "nv-house-1-thomas",
-        "nv-house-1-willert"
+        "nv-house-1-stjohn"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot: Afzal Khan (No Political Party), Steven St John (No Political Party), Anthony Thomas Jr. (No Political Party), Victor Willert (No Political Party). One more name, J.E. Houston, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot with no party affiliation: Bobby Khan and Steven St John. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -59,9 +57,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H6NV04020",
-        "fec-H4NV03225"
+        "fec-H4NV03225",
+        "nv-house-3-kamerath"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Three more names appear in one source only (Jon Kamerath, David Anderson, P. Dean Johnson) and are not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Jon Kamerath (Independent American Party) is also on the November ballot. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -83,10 +82,9 @@
         "fec-H2NV04011",
         "fec-H6NV04111",
         "nv-house-4-best",
-        "nv-house-4-johnson",
-        "nv-house-4-steele"
+        "nv-house-4-johnson"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party), Gary Steele (No Political Party). We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party). We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -333,7 +331,7 @@
       "district": "1",
       "state": "NV",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -358,7 +356,7 @@
       "district": "1",
       "state": "NV",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -458,7 +456,7 @@
       "district": "4",
       "state": "NV",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -472,6 +470,57 @@
         {
           "label": "270toWin, 2026 Nevada U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/nevada"
+        }
+      ]
+    },
+    {
+      "id": "nv-gov-ford-danielle",
+      "name": "Danielle Ford",
+      "party": "No Political Party",
+      "office": "governor",
+      "district": null,
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Nevada Independent: 2026 general election voter guide",
+          "url": "https://thenevadaindependent.com/elections/2026/general"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6NV01315",
+      "name": "Bobby Khan",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV01315/"
+        }
+      ]
+    },
+    {
+      "id": "nv-house-3-kamerath",
+      "name": "Jon Kamerath",
+      "party": "Independent American",
+      "office": "us-house",
+      "district": "3",
+      "state": "NV",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Nevada Independent: 2026 general election voter guide",
+          "url": "https://thenevadaindependent.com/elections/2026/general"
         }
       ]
     }

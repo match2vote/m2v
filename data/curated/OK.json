@@ -4,7 +4,7 @@
   "races": {
     "OK-governor": {
       "status": "primary-pending",
-      "statusNote": "Open seat (Gov. Stitt term-limited). The June 16 GOP primary went to an Aug 25 runoff: Attorney General Gentner Drummond and former state Sen. Mike Mazzei each took just over 25% in a nine-candidate field, so the Republican nominee is not final. House Minority Leader Cyndi Munson won the Democratic nomination June 16 with 75.1%.",
+      "statusNote": "Open seat (Gov. Stitt term-limited). The June 16 GOP primary went to an Aug 25 runoff: Attorney General Gentner Drummond and former state Sen. Mike Mazzei each took just over 25% in a nine-candidate field, so the Republican nominee is not final. House Minority Leader Cyndi Munson won the Democratic nomination June 16 with 75.1%. Independents Jerry Griffin, Robert E. Brooks Sr. and Orlando Lynn Bush filed for the November ballot.",
       "primaryDate": "AUG 25"
     }
   },
@@ -253,6 +253,69 @@
         "climate": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty",
         "democracy": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty (her State of the State response comment on ballot measures is incidental)"
       }
+    },
+    {
+      "id": "ok-gov-griffin",
+      "name": "Jerry Griffin",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate list book",
+          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
+        },
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
+          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        }
+      ]
+    },
+    {
+      "id": "ok-gov-brooks",
+      "name": "Robert E. Brooks Sr.",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate list book",
+          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
+        },
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
+          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        }
+      ]
+    },
+    {
+      "id": "ok-gov-bush",
+      "name": "Orlando Lynn Bush",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate list book",
+          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
+        },
+        {
+          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
+          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        }
+      ]
     }
   ]
 }

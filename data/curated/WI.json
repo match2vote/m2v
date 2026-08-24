@@ -10,9 +10,11 @@
       "status": "names-only",
       "advancing": [
         "fec-H0WI03175",
-        "fec-H4WI03169"
+        "fec-H4WI03169",
+        "wi-house-3-kent",
+        "wi-house-3-provance"
       ],
-      "statusNote": "Western Wisconsin rematch: Rep. Derrick Van Orden (R) faces Rebecca Cooke (D), who won the Aug. 11, 2026 primary with 60.4% over Emily Berge after narrowly losing to Van Orden in 2024. We know who's running, positions not researched yet.",
+      "statusNote": "Western Wisconsin rematch: Rep. Derrick Van Orden (R) faces Rebecca Cooke (D), who won the Aug. 11, 2026 primary with 60.4% over Emily Berge after narrowly losing to Van Orden in 2024. Independents Alexander Kent and Rustin Provance are also listed for the November ballot. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "WPR: Wisconsin congressional primaries set stage for November",
@@ -27,10 +29,9 @@
     "WI-house-2": {
       "status": "names-only",
       "advancing": [
-        "fec-H2WI02124",
-        "wi-house-2-alexander"
+        "fec-H2WI02124"
       ],
-      "statusNote": "Rep. Mark Pocan (D) seeks re-election against Douglas Alexander (R) after the August 2026 primary. Each party had one candidate filed. Positions are not researched yet.",
+      "statusNote": "Rep. Mark Pocan (D) seeks re-election. No Republican appears on the November candidate lists we could check, so Pocan may be unopposed; we will update this when the Wisconsin Elections Commission list is confirmed. Positions are not researched yet.",
       "sources": [
         {
           "label": "Wisconsin 2026 candidates by district (Election2026)",
@@ -66,7 +67,7 @@
         "fec-H8WI01156",
         "fec-H6WI01283"
       ],
-      "statusNote": "Rep. Bryan Steil (R) seeks re-election against Mitchell Berman (D), who won a four-way Democratic primary on Aug. 11, 2026 with about 41 percent. Positions are not researched yet.",
+      "statusNote": "Rep. Bryan Steil (R) seeks re-election against Mitchell Berman (D), who won a four-way Democratic primary on Aug. 11, 2026 with about 44 percent. Positions are not researched yet.",
       "sources": [
         {
           "label": "WUWM: Wisconsin's 1st Congressional District candidates 2026",
@@ -429,7 +430,7 @@
       "district": "2",
       "state": "WI",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -523,6 +524,48 @@
         {
           "label": "Wisconsin Examiner: 6th District Democrats nominate Smith to challenge Grothman",
           "url": "https://wisconsinexaminer.com/briefs/wisconsin-6th-district-democrats-nominate-smith-to-challenge-u-s-rep-grothman/"
+        }
+      ]
+    },
+    {
+      "id": "wi-house-3-kent",
+      "name": "Alexander Kent",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "3",
+      "state": "WI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: WI 2026",
+          "url": "https://www.thegreenpapers.com/G26/WI"
+        },
+        {
+          "label": "Politics1: WI 2026 candidates",
+          "url": "https://politics1.com/wi.htm"
+        }
+      ]
+    },
+    {
+      "id": "wi-house-3-provance",
+      "name": "Rustin Provance",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "3",
+      "state": "WI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: WI 2026",
+          "url": "https://www.thegreenpapers.com/G26/WI"
+        },
+        {
+          "label": "Politics1: WI 2026 candidates",
+          "url": "https://politics1.com/wi.htm"
         }
       ]
     }

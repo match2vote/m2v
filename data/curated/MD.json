@@ -4,7 +4,7 @@
   "races": {
     "MD-governor": {
       "status": "general",
-      "statusNote": "Rematch of 2022: Gov. Wes Moore (D) won the June 23 primary with about 88% over Eric Felber; Dan Cox (R) won his primary 45-36 over Ed Hale Sr. Green (Andy Ellis) and Working Class Party (Cathy White) tickets are also certified for November."
+      "statusNote": "Rematch of 2022: Gov. Wes Moore (D) won the June 23 primary with about 88% over Eric Felber; Dan Cox (R) won his primary 43-36 over Ed Hale Sr. Green (Andy Ellis) and Working Class Party (Cathy White) tickets are also certified for November."
     },
     "MD-house-2": {
       "status": "names-only",
@@ -12,7 +12,7 @@
         "fec-H4MD02232",
         "fec-H2MD06138"
       ],
-      "statusNote": "Rep. Johnny Olszewski (D) seeks re-election against Dave Wallace (R), the only Republican filed in the district. Positions are not researched yet.",
+      "statusNote": "Rep. Johnny Olszewski (D) seeks re-election against Dave Wallace (R), who won the June 23, 2026 Republican primary with 89% over Nnabu Eze. Positions are not researched yet.",
       "sources": [
         {
           "label": "Maryland 2026 candidates by district (Election2026)",
@@ -30,7 +30,7 @@
         "fec-H4MD03156",
         "fec-H4MD03149"
       ],
-      "statusNote": "Rep. Sarah Elfreth (D) seeks re-election against Bernard Flowers (R), the only Republican filed in the district. Positions are not researched yet.",
+      "statusNote": "Rep. Sarah Elfreth (D) seeks re-election against Berney Flowers (R), who won a four-way Republican primary on June 23, 2026 with 49%. Positions are not researched yet.",
       "sources": [
         {
           "label": "Maryland 2026 candidates by district (Election2026)",
@@ -120,9 +120,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H2MD04232",
-        "md-house-4-mcdermott"
+        "md-house-4-mcdermott",
+        "md-house-4-husseini"
       ],
-      "statusNote": "Rep. Glenn Ivey (D) seeks re-election against George E. McDermott (R). Ivey won the June 23, 2026 Democratic primary with 79.2% and McDermott was the only Republican on the ballot. Positions are not researched yet.",
+      "statusNote": "Rep. Glenn Ivey (D) seeks re-election against George E. McDermott (R) and Green candidate Sam Husseini. Ivey won the June 23, 2026 Democratic primary with 79.2% and McDermott was the only Republican on the ballot. Positions are not researched yet.",
       "sources": [
         {
           "label": "Official 2026 primary results, Representative in Congress District 4 (Maryland State Board of Elections)",
@@ -140,7 +141,7 @@
         "fec-H6MD05321",
         "md-house-5-chaffee"
       ],
-      "statusNote": "Open seat: Rep. Steny Hoyer (D) is retiring after more than four decades. State Del. Adrian Boafo (D) won a 25 candidate June 23, 2026 Democratic primary with 32.7% and faces Chris Chaffee (R), who won the Republican primary with 51.2%. Positions are not researched yet.",
+      "statusNote": "Open seat: Rep. Steny Hoyer (D) is retiring after more than four decades. State Del. Adrian Boafo (D) won a 24 candidate June 23, 2026 Democratic primary with 32.7% and faces Chris Chaffee (R), who won the Republican primary with 51.2%. Positions are not researched yet.",
       "sources": [
         {
           "label": "Official 2026 primary results, Representative in Congress District 5 (Maryland State Board of Elections)",
@@ -584,6 +585,57 @@
         {
           "label": "Boafo wins Democratic nomination for Hoyer's seat (NBC4 Washington)",
           "url": "https://www.nbcwashington.com/decision-2026/maryland-to-choose-nominees-for-us-house-including-rep-steny-hoyers-successor/4120487/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H4MD03149",
+      "name": "Berney Flowers",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "MD",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MD03149/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H2MD04232",
+      "name": "Glenn Frederick Ivey",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "MD",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2MD04232/"
+        }
+      ]
+    },
+    {
+      "id": "md-house-4-husseini",
+      "name": "Sam Husseini",
+      "party": "Green",
+      "office": "us-house",
+      "district": "4",
+      "state": "MD",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Maryland State Board of Elections: 2026 general election candidate list",
+          "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html"
         }
       ]
     }

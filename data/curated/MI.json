@@ -6,7 +6,10 @@
       "status": "general",
       "advancing": [
         "fec-S6MI00418",
-        "fec-S4MI00595"
+        "fec-S4MI00595",
+        "mi-senate-christensen",
+        "mi-senate-long",
+        "mi-senate-marsh"
       ],
       "statusNote": "Open seat: Abdul El-Sayed (D) won the Aug 4 primary over Haley Stevens; Mike Rogers (R) is the Republican nominee."
     },
@@ -206,7 +209,7 @@
         "mi-house-8-casha",
         "mi-house-8-goodwin"
       ],
-      "statusNote": "Rep. Kristen McDonald Rivet (D) was unopposed for renomination. The Republican nominee is Thomas J. Smith, who suspended his campaign on July 16 but still won the Aug 4, 2026 primary with 50.4% over Trump-endorsed Amir Hassan because his name could not be removed from printed ballots; whether he stands in November is unsettled. Libertarian, Green and Working Class candidates are also on the ballot. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Kristen McDonald Rivet (D) was unopposed for renomination. The Republican nominee is Thomas J. Smith, who suspended his campaign on July 16 but still won the Aug 4, 2026 primary with 50.4% over Trump-endorsed Amir Hassan because his name could not be removed from printed ballots; he re-entered the race the next day and is running in November. Libertarian, Green and Working Class candidates are also on the ballot. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Michigan Bureau of Elections Nov 2026 candidate listing",
@@ -1538,6 +1541,154 @@
         {
           "label": "Politics1 Michigan 2026 candidate list",
           "url": "https://www.politics1.com/mi.htm"
+        }
+      ]
+    },
+    {
+      "id": "mi-senate-christensen",
+      "name": "Lydia Christensen",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Livingston County Clerk: candidate filings, November 2026",
+          "url": "https://milivcounty.gov/wp-content/uploads/Candidate-Filings-November-2026.pdf"
+        },
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "mi-senate-long",
+      "name": "Tim Long",
+      "party": "U.S. Taxpayers",
+      "office": "us-senate",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Livingston County Clerk: candidate filings, November 2026",
+          "url": "https://milivcounty.gov/wp-content/uploads/Candidate-Filings-November-2026.pdf"
+        },
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "mi-senate-marsh",
+      "name": "Douglas P. Marsh",
+      "party": "Green",
+      "office": "us-senate",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Livingston County Clerk: candidate filings, November 2026",
+          "url": "https://milivcounty.gov/wp-content/uploads/Candidate-Filings-November-2026.pdf"
+        },
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "mi-gov-hudson",
+      "name": "Anthony Hudson",
+      "party": "Libertarian",
+      "office": "governor",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "mi-gov-brandenburg",
+      "name": "Donna Brandenburg",
+      "party": "U.S. Taxpayers",
+      "office": "governor",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "mi-gov-campbell",
+      "name": "Douglas Campbell",
+      "party": "Green",
+      "office": "governor",
+      "district": null,
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Washtenaw County Clerk: November 2026 candidate list (updated 8/24/2026)",
+          "url": "https://content.civicplus.com/api/assets/27e0db62-cc1a-41cd-8654-e0a8a5c4f6d0"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6MI08312",
+      "name": "Thomas James Smith",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "8",
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MI08312/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H4MI10131",
+      "name": "Anil Kumar",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "11",
+      "state": "MI",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MI10131/"
         }
       ]
     }

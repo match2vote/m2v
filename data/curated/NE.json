@@ -6,9 +6,10 @@
       "status": "general",
       "advancing": [
         "fec-S6NE00129",
-        "fec-S4NE00207"
+        "fec-S4NE00207",
+        "fec-S6NE00152"
       ],
-      "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition."
+      "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition. Democrat Cindy Burbank won her primary but withdrew in July, and the state Democratic Party voted Aug 23 not to name a replacement, so no Democrat is on the ballot. Legal Marijuana NOW nominee Mike Marvin suspended his campaign and endorsed Osborn but remains on the ballot."
     },
     "NE-house-2": {
       "status": "names-only",
@@ -34,9 +35,9 @@
       "advancing": [
         "fec-H2NE01118",
         "fec-H6NE01143",
-        "fec-H6NE01150"
+        "ne-house-1-sandman"
       ],
-      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and independent Austin Ahlman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Positions are not researched yet.",
+      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and Libertarian Nik Sandman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Independent Austin Ahlman suspended his campaign on July 19 and is not on the ballot. Positions are not researched yet.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -58,10 +59,9 @@
         "fec-H6NE03115",
         "fec-H6NE03180",
         "fec-H6NE03198",
-        "ne-house-3-else",
-        "ne-house-3-budke"
+        "ne-house-3-else"
       ],
-      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independents Mark Cohen and Macey Budke. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Positions are not researched yet.",
+      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independent Mark Cohen, whose petition was certified Aug 12. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Macey Budke is a write-in candidate only. Positions are not researched yet.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -273,7 +273,7 @@
       "district": "3",
       "state": "NE",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -283,6 +283,61 @@
         {
           "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6NE00152",
+      "name": "Mike Marvin",
+      "party": "Legal Marijuana NOW",
+      "office": "us-senate",
+      "district": null,
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NE00152/"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6NE00145",
+      "name": "Cindy Burbank",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6NE00145/"
+        }
+      ]
+    },
+    {
+      "id": "ne-house-1-sandman",
+      "name": "Nik Sandman",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "NE",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Nebraska SOS: 2026 primary canvass book",
+          "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf"
+        },
+        {
+          "label": "Nebraska Examiner: Ahlman suspends campaign",
+          "url": "https://nebraskaexaminer.com/briefs/austin-ahlman-suspends-campaign-for-nebraskas-1st-district/"
         }
       ]
     }

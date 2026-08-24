@@ -4,7 +4,11 @@
   "races": {
     "NY-governor": {
       "status": "general",
-      "statusNote": "Gov. Kathy Hochul (D) faces Nassau County Executive Bruce Blakeman (R), with Libertarian Larry Sharpe also on the ballot. Hochul and Blakeman easily won their June 23 primaries."
+      "statusNote": "Gov. Kathy Hochul (D) faces Nassau County Executive Bruce Blakeman (R). Neither had a contested primary on June 23; both nominations were uncontested. Blakeman also carries the Conservative line. The state has not yet certified the full November ballot.",
+      "advancing": [
+        "ny-gov-hochul",
+        "ny-gov-blakeman"
+      ]
     },
     "NY-house-1": {
       "status": "names-only",
@@ -63,7 +67,7 @@
         "fec-H6NY03247",
         "fec-H0NY02267"
       ],
-      "statusNote": "Democratic incumbent Tom Suozzi, who returned to the House in the February 2024 special election after George Santos was expelled, faces Republican Mike LiPetri in a rematch of 2024, when LiPetri lost 48.1 percent to 51.7 percent. The 2026 primary result was not confirmed from any page fetched in this session, and the Ballotpedia 2026 race page is stale: it lists a different Republican, Gregory Hach, and shows the primary as pending, so the FEC roster identities were kept.",
+      "statusNote": "Democratic incumbent Tom Suozzi, who returned to the House in the February 2024 special election after George Santos was expelled, faces Republican Mike LiPetri in a rematch of 2024, when LiPetri lost 48.1 percent to 51.7 percent. Both won their June 23, 2026 primaries: LiPetri about 83-17 over Gregory Hach, Suozzi about 78-20 over his challenger.",
       "sources": [
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
@@ -85,10 +89,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H2NY04244",
-        "fec-H6NY04211",
-        "fec-H6NY04237"
+        "fec-H6NY04211"
       ],
-      "statusNote": "Rep. Laura Gillen holds the Long Island seat she won from Republican Anthony D'Esposito in 2024 and is scored here almost entirely from 119th Congress roll calls. Republican Jeanine Driscoll and independent Blay Tarnoff both have confirmed FEC candidacies but published no documented policy positions that could be fetched, so the overlap for this race is zero.",
+      "statusNote": "Rep. Laura Gillen (D) holds the Long Island seat she won from Republican Anthony D'Esposito in 2024 and is scored here almost entirely from 119th Congress roll calls. Republican Jeanine Driscoll won the June 23 Republican primary with 91% but has published no documented policy positions that could be fetched, so the overlap for this race is zero.",
       "sources": [
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
@@ -157,10 +160,9 @@
       "advancing": [
         "fec-H6NY07214",
         "ny-house-7-rivera",
-        "fec-H6NY07164",
         "ny-house-7-ghaznavi"
       ],
-      "statusNote": "Open seat: Rep. Nydia Velazquez (D) is retiring. Assemblymember Claire Valdez won the June 23, 2026 Democratic primary with 55.5% and faces Republican Melvin Rivera, Brooklyn Borough President Antonio Reynoso on the Working Families line, and independent Priscilla Ghaznavi. We know who's running, positions not researched yet.",
+      "statusNote": "Open seat: Rep. Nydia Velazquez (D) is retiring. Assemblymember Claire Valdez won the June 23, 2026 Democratic primary with 55.6% over Brooklyn Borough President Antonio Reynoso and faces Republican Melvin Rivera and independent Priscilla Ghaznavi. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
@@ -208,7 +210,7 @@
         "fec-H4NY11138",
         "ny-house-9-anabilah-azumah"
       ],
-      "statusNote": "Rep. Yvette D. Clarke, Democrat, has held this central Brooklyn seat since 2007 and faces Republican Joel Anabilah-Azumah, a Brooklyn small business owner and repeat candidate who ran here as a Reform Party nominee in 2018 and a Serve America Movement nominee in 2020. The June 23, 2026 primary result in the roster was not verified: Ballotpedia's 2026 race page shows no primary returns and still lists Democrats Joshua Bristol and Michael Goldfarb alongside Clarke. Politics1 lists the challenger under the shortened name Joel Azumah and marks him R/C, meaning a Republican and Conservative line; the FEC name and the Republican party label in the roster are kept as given. Overlap is 4 of 10 axes: Clarke is documented on all ten, the challenger only on cost, housing, taxes and climate, so this race should be held at names-only rather than matched.",
+      "statusNote": "Rep. Yvette D. Clarke, Democrat, has held this central Brooklyn seat since 2007 and won the June 23, 2026 primary with 66% over Michael Goldfarb and Joshua Bristol. She faces Republican Joel Anabilah-Azumah, a Brooklyn small business owner and repeat candidate who ran here as a Reform Party nominee in 2018 and a Serve America Movement nominee in 2020 and also carries the Conservative line. Overlap is 4 of 10 axes: Clarke is documented on all ten, the challenger only on cost, housing, taxes and climate.",
       "sources": [
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
@@ -232,7 +234,7 @@
         "fec-H6NY10176",
         "ny-house-10-moore"
       ],
-      "statusNote": "Rep. Dan Goldman (D) lost the June 23, 2026 primary to former NYC Comptroller Brad Lander, 65.3% to 34.7%; Lander faces Republican Jennifer Moore in November. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Dan Goldman (D) lost the June 23, 2026 primary to former NYC Comptroller Brad Lander, 65.4% to 33.6%; Lander faces Republican Jennifer Moore in November. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
@@ -276,11 +278,10 @@
       "advancing": [
         "fec-H6NY12172",
         "fec-H6NY12404",
-        "fec-H6NY12313",
         "fec-H6NY12297",
         "ny-house-12-wintrich"
       ],
-      "statusNote": "Open seat in Manhattan: Rep. Jerrold Nadler is retiring. Assemblymember Micah Lasher won the June 23, 2026 Democratic primary and faces Republican Caroline Shinkle plus three candidates on independent lines, Wilneida Negron, Karen Ortiz and Lucian Wintrich. Two aggregator notes: Ballotpedia's general election listing shows only independents and omits Lasher and Shinkle, and both Ballotpedia and Politics1 label Wilneida Negron simply Independent while the FEC record reads INDEPENDENCE PARTY. The FEC identity fields were kept in both cases. Ballotpedia also lists Lucian Wintrich in the Republican primary field, while the roster carries him as an independent, and the roster value was kept. All five candidates have a reachable web presence, so nothing is quarantined, but the overlap across all five is 0 axes, so this race should be held at names-only.",
+      "statusNote": "Open seat in Manhattan: Rep. Jerrold Nadler is retiring. Assemblymember Micah Lasher won the June 23, 2026 Democratic primary with 38.7% over Alex Bores and faces Republican Caroline Shinkle plus independents Karen Ortiz and Lucian Wintrich. The state has not yet certified the full November ballot. Overlap across the candidates is 0 axes, so this race is held at names-only.",
       "sources": [
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
@@ -828,7 +829,7 @@
       "office": "governor",
       "state": "NY",
       "tier": "curated",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "age": 58,
       "home": "Queens, NY",
@@ -1887,7 +1888,7 @@
     },
     {
       "id": "fec-H0NY02267",
-      "name": "Mike Lipetri",
+      "name": "Mike LiPetri",
       "party": "Republican",
       "district": "3",
       "state": "NY",
@@ -1976,7 +1977,7 @@
       "district": "4",
       "state": "NY",
       "office": "us-house",
-      "incumbent": false,
+      "incumbent": true,
       "tier": "fec",
       "ballotStatus": "nominee",
       "now": "U.S. House of Representatives (NY-04)",
@@ -2154,7 +2155,7 @@
       "office": "us-house",
       "incumbent": false,
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "home": "Port Washington, NY",
       "background": "Tarnoff is a Nassau County attorney and technologist who has been a Libertarian activist and representative since 1990. He is County Chair of the Nassau County Libertarian Party and Chair of the Libertarian National Judicial Committee, and the Libertarian Party of New York lists him as its 2026 candidate in the 4th Congressional District, though his FEC registration is as an independent. He holds a J.D. from Pace University and an A.B. in mathematics from Brown University, and has worked as a computer systems analyst providing technical support for quantitative financial analysts on Wall Street and as a neural network system developer and presenter at NVIDIA GPU Technology Conferences.",
       "priorities": [
@@ -2509,7 +2510,7 @@
     },
     {
       "id": "fec-H6NY11265",
-      "name": "Michael Decillis",
+      "name": "Michael DeCillis",
       "party": "Democrat",
       "district": "11",
       "state": "NY",
@@ -3491,7 +3492,7 @@
     },
     {
       "id": "fec-H6NY19268",
-      "name": "Peter Karl Jr Oberacker",
+      "name": "Peter Oberacker",
       "party": "Republican",
       "district": "19",
       "state": "NY",
@@ -5050,7 +5051,7 @@
       "office": "us-house",
       "incumbent": false,
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "now": "Director of Worker Innovation and Impact at Coworker",
       "background": "Wilneida Negron was born in Arecibo, Puerto Rico and grew up in a small rural farming community. She began her career as a therapist in juvenile detention facilities, jails and probation departments, and later provided crisis counseling in food pantries and churches across New York City. She taught herself to code, led responsible innovation work at the Ford Foundation, and now directs worker innovation and impact at Coworker while co-founding the Startups and Society Initiative and the Future of Workers Initiative. She holds a PhD in comparative politics along with an MPA and an M.Phil. She petitioned onto the NY-12 general election ballot as an independent, reporting 6,852 signatures against a 3,500 requirement.",
       "priorities": [
@@ -5197,6 +5198,23 @@
         }
       ],
       "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H2NY01190",
+      "name": "Nick LaLota",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "NY",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NY01190/"
+        }
+      ]
     }
   ]
 }

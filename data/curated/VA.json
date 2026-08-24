@@ -34,7 +34,7 @@
         "fec-H2VA02064",
         "fec-H6VA02198"
       ],
-      "statusNote": "Rep. Jen Kiggans (R) seeks a third term against former Rep. Elaine Luria (D), who won an eight-way Democratic primary on Aug 4, 2026. This is a 2024 Kiggans-over-Luria rematch and one of Virginia's few competitive seats. Positions are not researched yet.",
+      "statusNote": "Rep. Jen Kiggans (R) seeks a third term against former Rep. Elaine Luria (D), who won a four-way Democratic primary on Aug 4, 2026 with 80%. Kiggans beat Luria in 2022, making this a rematch, and it is one of Virginia's few competitive seats. Positions are not researched yet.",
       "sources": [
         {
           "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
@@ -123,7 +123,7 @@
         "fec-H8VA06104",
         "fec-H6VA06173"
       ],
-      "statusNote": "Rep. Ben Cline (R) seeks re-election against Beth Macy (D) after the August 4, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Ben Cline (R) seeks re-election against Beth Macy (D). Neither party held a primary in this district in 2026. Positions are not researched yet.",
       "sources": [
         {
           "label": "Virginia 2026 candidates by district (Election2026)",
@@ -139,9 +139,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H4VA07234",
-        "fec-H6VA07205"
+        "fec-H6VA07205",
+        "va-house-7-ahrar"
       ],
-      "statusNote": "Rep. Eugene Vindman (D) had no Democratic primary opponent and faces Douglas Ollivant (R), who won a three-way Republican primary with about 54% on Aug 4, 2026. Positions are not researched yet.",
+      "statusNote": "Rep. Eugene Vindman (D) had no Democratic primary opponent and faces Douglas Ollivant (R), who won a three-way Republican primary with 56.6% on Aug 4, 2026, and independent Alaha Ahrar. Positions are not researched yet.",
       "sources": [
         {
           "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
@@ -161,9 +162,11 @@
       "status": "names-only",
       "advancing": [
         "fec-H4VA08224",
-        "fec-H6VA08252"
+        "fec-H6VA08252",
+        "fec-H6VA08336",
+        "va-house-8-arnoldi"
       ],
-      "statusNote": "Rep. Don Beyer (D) seeks re-election against Tony Sabio (R) after the August 4, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Don Beyer (D) won the Aug 4, 2026 Democratic primary with 67% over four challengers and faces Tony Sabio (R) and independents Tim Sharman and Shelly Arnoldi. Positions are not researched yet.",
       "sources": [
         {
           "label": "Virginia 2026 candidates by district (Election2026)",
@@ -225,7 +228,7 @@
         "fec-H6VA11066",
         "fec-H6VA11249"
       ],
-      "statusNote": "Rep. James Walkinshaw (D), who won the September 2025 special election for the seat left vacant by the death of Rep. Gerry Connolly, won a contested Aug 4, 2026 Democratic primary and faces Arthur Purves (R). Positions are not researched yet.",
+      "statusNote": "Rep. James Walkinshaw (D), who won the September 2025 special election for the seat left vacant by the death of Rep. Gerry Connolly, was unopposed for the Democratic nomination and faces Arthur Purves (R). Positions are not researched yet.",
       "sources": [
         {
           "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
@@ -424,6 +427,74 @@
         {
           "label": "The Green Papers: Virginia 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/VA"
+        }
+      ]
+    },
+    {
+      "id": "va-house-7-ahrar",
+      "name": "Alaha Ahrar",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "7",
+      "state": "VA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "VPM: 2026 congressional candidates",
+          "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
+        }
+      ]
+    },
+    {
+      "id": "va-house-8-arnoldi",
+      "name": "Shelly M. Arnoldi",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "8",
+      "state": "VA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "ARLnow: independent candidate challenges Rep. Beyer",
+          "url": "https://www.arlnow.com/2026/08/24/independent-candidate-challenges-rep-beyer-targeting-frustrated-voters/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0VA07133",
+      "name": "John J. Mr. III McGuire",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "VA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0VA07133/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H8VA11062",
+      "name": "Gerald Edward Connolly",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "11",
+      "state": "VA",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8VA11062/"
         }
       ]
     }

@@ -6,13 +6,15 @@
       "status": "general",
       "advancing": [
         "fec-S8ID00092",
-        "fec-S6ID00146"
+        "fec-S6ID00146",
+        "id-senate-fleming",
+        "id-senate-loesby"
       ],
       "statusNote": "Sen. Jim Risch (R) won the May 19 primary with about 67% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger."
     },
     "ID-governor": {
       "status": "general",
-      "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers (Attorney General Raul Labrador was not among them), and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%. Independent former Idaho Supreme Court Justice John Stegner is also running an active campaign."
+      "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers, and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%. Also on the November ballot: independent former Idaho Supreme Court Justice John Stegner, Libertarian Paul Sand and Constitution Party candidate Pro-Life."
     },
     "ID-house-1": {
       "status": "names-only",
@@ -476,6 +478,95 @@
         {
           "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        }
+      ]
+    },
+    {
+      "id": "id-senate-fleming",
+      "name": "Natalie Fleming",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho Capital Sun: who is running for Congress in 2026",
+          "url": "https://idahocapitalsun.com/2026/02/27/whos-running-to-represent-idaho-in-congress-in-the-2026-election-incumbents-face-challengers/"
+        }
+      ]
+    },
+    {
+      "id": "id-senate-loesby",
+      "name": "Matt Loesby",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho SOS: 2026 primary canvass report",
+          "url": "https://archive.voteidaho.gov/results/2026/primary/canvass_report_2026_primary.pdf"
+        }
+      ]
+    },
+    {
+      "id": "id-gov-stegner",
+      "name": "John Stegner",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho Capital Sun: November contenders are set",
+          "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
+        }
+      ]
+    },
+    {
+      "id": "id-gov-sand",
+      "name": "Paul Sand",
+      "party": "Libertarian",
+      "office": "governor",
+      "district": null,
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho SOS: 2026 primary canvass report",
+          "url": "https://archive.voteidaho.gov/results/2026/primary/canvass_report_2026_primary.pdf"
+        },
+        {
+          "label": "Idaho Capital Sun: November contenders are set",
+          "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
+        }
+      ]
+    },
+    {
+      "id": "id-gov-prolife",
+      "name": "Pro-Life",
+      "party": "Constitution Party",
+      "office": "governor",
+      "district": null,
+      "state": "ID",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Idaho Capital Sun: November contenders are set",
+          "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
         }
       ]
     }

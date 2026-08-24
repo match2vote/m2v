@@ -12,7 +12,7 @@
         "fec-H6CA01285",
         "fec-H6CA01269"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: James Gallagher (Republican, 42.1%) and Mike McGuire (Democrat, 41.8%). No incumbent advanced to the general election. Both candidates researched on all ten axes.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: James Gallagher (Republican, 42.1%) and Mike McGuire (Democrat, 41.8%). Gallagher won the June 2 special election to finish the late Rep. Doug LaMalfa's term and was sworn in June 10, so he is the incumbent. Both candidates researched on all ten axes.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -75,7 +75,7 @@
         "fec-H8CA01109",
         "fec-H6CA04222"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent. Both candidates researched on all ten axes.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -114,7 +114,7 @@
         "fec-H2CA03157",
         "fec-H6CA03158"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Kevin Kiley (No party preference, 24.3%) and Richard Pan (Democrat, 23.2%). Rep. Kevin Kiley is the incumbent. Both candidates researched on all ten axes.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Kevin Kiley (No party preference, 24.3%) and Richard Pan (Democrat, 23.2%). Rep. Kevin Kiley is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -271,7 +271,7 @@
         "fec-H0CA15213",
         "fec-H6CA14163"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Aisha Wahab (Democrat, 38.3%) and Melissa Hernandez (Democrat, 17.2%). No incumbent advanced to the general election. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Aisha Wahab (Democrat, 38.3%) and Melissa Hernandez (Democrat, 17.2%). Rep. Eric Swalwell resigned in April 2026; Wahab won the Aug 18 special election to finish his term. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -581,7 +581,7 @@
         "fec-H8CA39174",
         "fec-H2CA39151"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Gil Cisneros (Democrat, 61.1%) and Eric Ching (Republican, 23.8%). No incumbent advanced to the general election. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Gil Cisneros (Democrat, 61.1%) and Eric Ching (Republican, 23.8%). Rep. Gil Cisneros is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -783,7 +783,7 @@
         "fec-H2CA47188",
         "fec-H0CA48172"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Robert Garcia (Democrat, 51.7%) and Brian Burley (Republican, 22.7%). Rep. Robert Garcia is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Robert Garcia (Democrat, 56.5%) and Brian Burley (Republican, 20.6%). Rep. Robert Garcia is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -1497,7 +1497,7 @@
       "state": "CA",
       "tier": "curated",
       "ballotStatus": "nominee",
-      "incumbent": false,
+      "incumbent": true,
       "age": 45,
       "home": "Sutter County, CA",
       "now": "U.S. House of Representatives (CA-01)",
@@ -1840,7 +1840,7 @@
     },
     {
       "id": "fec-H8CA04152",
-      "name": "Thomas McClintock",
+      "name": "Tom McClintock",
       "party": "Republican",
       "office": "us-house",
       "district": "5",
@@ -2027,7 +2027,7 @@
     {
       "id": "fec-H2CA03157",
       "name": "Kevin Kiley",
-      "party": "OTHER",
+      "party": "No Party Preference",
       "office": "us-house",
       "district": "6",
       "state": "CA",
@@ -2796,6 +2796,142 @@
         }
       ],
       "curatedAt": "2026-08-17"
+    },
+    {
+      "id": "fec-H2CA02142",
+      "name": "Doug Lamalfa",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA02142/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H2CA15094",
+      "name": "Eric Michael Swalwell",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "14",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA15094/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H8CA39174",
+      "name": "Gil Cisneros",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "31",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8CA39174/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0CA03078",
+      "name": "Ami Bera",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0CA03078/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H4CA09093",
+      "name": "Kevin Lincoln",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "13",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4CA09093/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H4CA12055",
+      "name": "Ro Khanna",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "17",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4CA12055/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6CA24345",
+      "name": "Bob Smith",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "24",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA24345/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6CA52163",
+      "name": "Jeff Belle",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "52",
+      "state": "CA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA52163/"
+        }
+      ]
     }
   ]
 }

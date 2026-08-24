@@ -4,7 +4,7 @@
   "races": {
     "PA-governor": {
       "status": "general",
-      "statusNote": "Gov. Josh Shapiro (D) seeks re-election against State Treasurer Stacy Garrity (R)."
+      "statusNote": "Gov. Josh Shapiro (D) seeks re-election against State Treasurer Stacy Garrity (R). Libertarian Ken Krawchuk's nomination papers were certified Aug 4 and he is also on the November ballot."
     },
     "PA-house-2": {
       "status": "names-only",
@@ -118,10 +118,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H2PA04135",
-        "fec-H4PA10104",
-        "fec-H6PA10174"
+        "fec-H4PA10104"
       ],
-      "statusNote": "Rep. Scott Perry (R) seeks re-election against Janelle Stelson (D) and independent Isabelle Harman after the May 19, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Scott Perry (R) seeks re-election against Janelle Stelson (D) after the May 19, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "Pennsylvania 2026 candidates by district (Election2026)",
@@ -137,10 +136,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H6PA16320",
-        "fec-H6PA11099",
-        "pa-house-11-wilder"
+        "fec-H6PA11099"
       ],
-      "statusNote": "Rep. Lloyd Smucker (R) seeks re-election against Nancy Mannion (D) and independent Jeffrey Wilder after the May 19, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Lloyd Smucker (R) seeks re-election against Nancy Mannion (D) after the May 19, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "Pennsylvania 2026 candidates by district (Election2026)",
@@ -192,10 +190,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H8PA18199",
-        "fec-H6PA14200",
-        "pa-house-14-halfhill"
+        "fec-H6PA14200"
       ],
-      "statusNote": "Rep. Guy Reschenthaler (R) seeks re-election against Alan Bradstock (D) and Adam Halfhill of the American Independent Party after the May 19, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Guy Reschenthaler (R) seeks re-election against Alan Bradstock (D) after the May 19, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "Pennsylvania 2026 candidates by district (Election2026)",
@@ -229,10 +226,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H0PA03271",
-        "fec-H6PA16379",
-        "pa-house-16-singelis"
+        "fec-H6PA16379"
       ],
-      "statusNote": "Rep. Mike Kelly (R) seeks re-election against Justin Wagner (D) and independent Nick Singelis after the May 19, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Mike Kelly (R) seeks re-election against Justin Wagner (D) after the May 19, 2026 primary. Positions are not researched yet.",
       "sources": [
         {
           "label": "Pennsylvania 2026 candidates by district (Election2026)",
@@ -268,7 +264,7 @@
         "fec-H6PA08277",
         "fec-H6PA01181"
       ],
-      "statusNote": "Rep. Brian Fitzpatrick (R) seeks re-election against Bucks County Commissioner Bob Harvie (D). Fitzpatrick was unopposed in the May 19, 2026 Republican primary and Harvie won a crowded Democratic primary with about 30%. Positions are not researched yet.",
+      "statusNote": "Rep. Brian Fitzpatrick (R) seeks re-election against Bucks County Commissioner Bob Harvie (D). Fitzpatrick was unopposed in the May 19, 2026 Republican primary and Harvie won the Democratic primary about 65% to 35% over Lucia Simonelli. Positions are not researched yet.",
       "sources": [
         {
           "label": "Matchups for 4 battleground House races are set in Pennsylvania (Roll Call)",
@@ -507,7 +503,7 @@
       "district": "11",
       "state": "PA",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -528,7 +524,7 @@
       "district": "14",
       "state": "PA",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -549,7 +545,7 @@
       "district": "16",
       "state": "PA",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -580,6 +576,27 @@
         {
           "label": "Who's running for Congress in Pennsylvania in 2026? (City & State Pennsylvania)",
           "url": "https://www.cityandstatepa.com/politics/2026/05/whos-running-congress-pennsylvania-2026/413737/"
+        }
+      ]
+    },
+    {
+      "id": "pa-gov-krawchuk",
+      "name": "Ken Krawchuk",
+      "party": "Libertarian",
+      "office": "governor",
+      "district": null,
+      "state": "PA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Chester County: 2026 general election unofficial list of candidates",
+          "url": "https://chesco.org/DocumentCenter/View/85425/CHESTER_2026-GENERAL_UNOFFICIAL-LIST-OF-CANDIDATES"
+        },
+        {
+          "label": "PA Department of State: 2026 nomination paper objection tracker",
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/voting-and-elections/running-for-office/2026/petition-filing-2026/objection%20tracker%202026.pdf"
         }
       ]
     }

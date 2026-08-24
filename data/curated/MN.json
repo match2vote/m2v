@@ -6,13 +6,15 @@
       "status": "general",
       "advancing": [
         "fec-S6MN00440",
-        "fec-S6MN00556"
+        "fec-S6MN00556",
+        "mn-senate-simonetti",
+        "mn-senate-whiting"
       ],
-      "statusNote": "Open seat (Sen. Tina Smith retiring): Lt. Gov. Peggy Flanagan (DFL) faces former NBC sideline reporter Michele Tafoya (R). Both nominated Aug 11."
+      "statusNote": "Open seat (Sen. Tina Smith retiring): Lt. Gov. Peggy Flanagan (DFL) faces former NBC sideline reporter Michele Tafoya (R). Both nominated Aug 11. Independent Marisa Simonetti and Libertarian Rebecca Whiting qualified for the November ballot by petition."
     },
     "MN-governor": {
       "status": "general",
-      "statusNote": "Open seat (Gov. Walz not running): Sen. Amy Klobuchar (DFL) faces state House Speaker Lisa Demuth (R), who beat the Trump-endorsed Mike Lindell in the primary."
+      "statusNote": "Open seat (Gov. Walz not running): Sen. Amy Klobuchar (DFL) faces state House Speaker Lisa Demuth (R), who beat the Trump-endorsed Mike Lindell in the Aug 11 primary. The Green Party ticket of Steven Young and Jane Kirby qualified for the November ballot by petition."
     },
     "MN-house-1": {
       "status": "names-only",
@@ -599,6 +601,74 @@
         {
           "label": "The Green Papers: Minnesota 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/MN"
+        }
+      ]
+    },
+    {
+      "id": "mn-senate-simonetti",
+      "name": "Marisa Simonetti",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "MN",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Minnesota SOS: 2026 candidate filings, federal offices",
+          "url": "https://candidates.sos.mn.gov/CandidateFilingResults.aspx?county=0&municipality=0&schooldistrict=0&hospitaldistrict=0&level=1&party=0&federal=True&judicial=False&executive=False&senate=False&representative=False&title=&office=0&candidateid=0"
+        }
+      ]
+    },
+    {
+      "id": "mn-senate-whiting",
+      "name": "Rebecca Whiting",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "MN",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Minnesota SOS: 2026 candidate filings, federal offices",
+          "url": "https://candidates.sos.mn.gov/CandidateFilingResults.aspx?county=0&municipality=0&schooldistrict=0&hospitaldistrict=0&level=1&party=0&federal=True&judicial=False&executive=False&senate=False&representative=False&title=&office=0&candidateid=0"
+        }
+      ]
+    },
+    {
+      "id": "mn-gov-young",
+      "name": "Steven Young",
+      "party": "Green",
+      "office": "governor",
+      "district": null,
+      "state": "MN",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Minnesota SOS: 2026 candidate filings, state executive offices",
+          "url": "https://candidates.sos.mn.gov/CandidateFilingResults.aspx?county=0&municipality=0&schooldistrict=0&hospitaldistrict=0&level=1&party=0&federal=False&judicial=False&executive=True&senate=False&representative=False&title=&office=0&candidateid=0"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6MN01190",
+      "name": "Jake Johnson",
+      "party": "DEMOCRATIC-FARMER-LABOR",
+      "office": "us-house",
+      "district": "1",
+      "state": "MN",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MN01190/"
         }
       ]
     }

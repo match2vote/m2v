@@ -7,7 +7,8 @@
       "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination.",
       "advancing": [
         "fec-S6FL00640",
-        "fec-S6FL00830"
+        "fec-S6FL00830",
+        "fec-S6FL00863"
       ]
     },
     "FL-governor": {
@@ -15,7 +16,14 @@
       "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries.",
       "advancing": [
         "fl-gov-donalds",
-        "fl-gov-jolly"
+        "fl-gov-jolly",
+        "fl-gov-jewett",
+        "fl-gov-meade",
+        "fl-gov-abrams",
+        "fl-gov-burkett",
+        "fl-gov-datto",
+        "fl-gov-dimanche",
+        "fl-gov-russo"
       ]
     }
   },
@@ -487,6 +495,170 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6FL00863",
+      "name": "Neil J. Gillespie",
+      "party": "No Party Affiliation",
+      "office": "us-senate",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6FL00863/"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-jewett",
+      "name": "Scott Eckhard Jewett",
+      "party": "Libertarian",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-meade",
+      "name": "Desmond Meade",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-abrams",
+      "name": "Dean Ocean Abrams",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-burkett",
+      "name": "Charles Burkett",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-datto",
+      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-dimanche",
+      "name": "Moliere \"Moe\" Dimanche",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
+    },
+    {
+      "id": "fl-gov-russo",
+      "name": "Frank J. Russo",
+      "party": "No Party Affiliation",
+      "office": "governor",
+      "district": null,
+      "state": "FL",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Spokesman-Review/AP: field set for Florida governor race as qualifying closes",
+          "url": "https://www.spokesman.com/stories/2026/jun/12/field-set-for-florida-2026-governor-race-as-qualif/"
+        },
+        {
+          "label": "WUSF: Donalds, Jolly to face off for governor",
+          "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        }
+      ]
     }
   ]
 }

@@ -6,7 +6,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H4MO01134",
-        "mo-house-1-berry"
+        "mo-house-1-berry",
+        "mo-house-1-schmitz",
+        "mo-house-1-phillips"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Wesley Bell (Democrat), Paul Berry (Republican). Rep. Wesley Bell is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -28,7 +30,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H2MO02102",
-        "fec-H6MO02343"
+        "fec-H6MO02343",
+        "mo-house-2-daugherty",
+        "mo-house-2-kiehne"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Ann Wagner (Republican), Fred Wellman (Democrat). Rep. Ann Wagner is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -46,9 +50,11 @@
       "status": "names-only",
       "advancing": [
         "fec-H8MO09146",
-        "fec-H2MO03167"
+        "fec-H2MO03167",
+        "mo-house-3-higgins",
+        "mo-house-3-brown"
       ],
-      "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Bob Onder (Republican), Bethany Mann (Democrat). No incumbent is on the November ballot. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Bob Onder (Republican), Bethany Mann (Democrat). Rep. Bob Onder is the incumbent. Also on the November ballot: Jim Higgins (Libertarian) and independent Theodis Brown Sr. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "270toWin, 2026 Missouri U.S. House races",
@@ -64,7 +70,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H2MO04207",
-        "fec-H6MO05254"
+        "fec-H6MO05254",
+        "mo-house-4-holbrook",
+        "mo-house-4-rogers"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Mark Alford (Republican), Jordan Herrera (Democrat). Rep. Mark Alford is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -86,7 +94,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H4MO05234",
-        "fec-H2MO04199"
+        "fec-H2MO04199",
+        "mo-house-5-langkraehr",
+        "mo-house-5-becker"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Emanuel Cleaver (Democrat), Rick Brattin (Republican). Rep. Emanuel Cleaver is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -108,7 +118,8 @@
       "status": "names-only",
       "advancing": [
         "fec-H6MO06310",
-        "fec-H6MO06260"
+        "fec-H6MO06260",
+        "mo-house-6-maidment"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Chris Stigall (Republican), Josh Smead (Democrat). No incumbent is on the November ballot. We know who's running, positions not researched yet.",
       "sources": [
@@ -130,7 +141,8 @@
       "status": "names-only",
       "advancing": [
         "fec-H2MO07143",
-        "fec-H4MO07156"
+        "fec-H4MO07156",
+        "mo-house-7-craig"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Eric Burlison (Republican), Missi Hesketh (Democrat). Rep. Eric Burlison is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -148,7 +160,8 @@
       "status": "names-only",
       "advancing": [
         "fec-H4MO08162",
-        "fec-H6MO08183"
+        "fec-H6MO08183",
+        "mo-house-8-lombard"
       ],
       "statusNote": "Major party nominees from Missouri's August 4, 2026 primary: Jason Smith (Republican), Christopher Reichard (Democrat). Rep. Jason Smith is the incumbent. We know who's running, positions not researched yet.",
       "sources": [
@@ -182,6 +195,264 @@
         {
           "label": "Missouri 2026 primary results, district by district nominees",
           "url": "https://sundayguardianlive.com/world/missouri-election-results-2026-live-updates-amendment-5-rejected-as-wesley-bell-ann-wagner-others-secure-general-election-tickets-check-district-wise-republican-democratic-winners-more-254123/"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-1-schmitz",
+      "name": "Tom Schmitz",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-1-phillips",
+      "name": "Xavier Phillips",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "1",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: MO 2026",
+          "url": "https://www.thegreenpapers.com/G26/MO"
+        },
+        {
+          "label": "Politics1: MO 2026 candidates",
+          "url": "https://politics1.com/mo.htm"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-2-daugherty",
+      "name": "Brandon Coulter Daugherty",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "2",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-2-kiehne",
+      "name": "John Kiehne",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: MO 2026",
+          "url": "https://www.thegreenpapers.com/G26/MO"
+        },
+        {
+          "label": "Politics1: MO 2026 candidates",
+          "url": "https://politics1.com/mo.htm"
+        }
+      ]
+    },
+    {
+      "id": "fec-H8MO09146",
+      "name": "Robert Frank Onder Jr",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8MO09146/"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-3-higgins",
+      "name": "Jim Higgins",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "3",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-3-brown",
+      "name": "Theodis Brown Sr.",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "3",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: MO 2026",
+          "url": "https://www.thegreenpapers.com/G26/MO"
+        },
+        {
+          "label": "Politics1: MO 2026 candidates",
+          "url": "https://politics1.com/mo.htm"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-4-holbrook",
+      "name": "Thomas Holbrook",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "4",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-4-rogers",
+      "name": "KathleenMae Rogers",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "4",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: MO 2026",
+          "url": "https://www.thegreenpapers.com/G26/MO"
+        },
+        {
+          "label": "Politics1: MO 2026 candidates",
+          "url": "https://politics1.com/mo.htm"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-5-langkraehr",
+      "name": "Randy Langkraehr",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "5",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-5-becker",
+      "name": "Todd Becker",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "5",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "The Green Papers: MO 2026",
+          "url": "https://www.thegreenpapers.com/G26/MO"
+        },
+        {
+          "label": "Politics1: MO 2026 candidates",
+          "url": "https://politics1.com/mo.htm"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-6-maidment",
+      "name": "Andy Maidment",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "6",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-7-craig",
+      "name": "Kevin Craig",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "7",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
+        }
+      ]
+    },
+    {
+      "id": "mo-house-8-lombard",
+      "name": "Rebecca Sharpe Lombard",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "8",
+      "state": "MO",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Missouri SOS: 2026 candidate list",
+          "url": "https://s1.sos.mo.gov/candidatesonweb/DisplayCandidatesPlacement.aspx"
         }
       ]
     }

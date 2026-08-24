@@ -6,9 +6,10 @@
       "status": "general",
       "advancing": [
         "fec-S6KY00286",
-        "fec-S6KY00385"
+        "fec-S6KY00385",
+        "fec-S6KY00377"
       ],
-      "statusNote": "Open seat (Sen. McConnell retiring): Rep. Andy Barr (R) faces former state Rep. Charles Booker (D). Barr won the May 19 primary 64-28 over Daniel Cameron; Booker beat Amy McGrath 47-36."
+      "statusNote": "Open seat (Sen. McConnell retiring): Rep. Andy Barr (R) faces former state Rep. Charles Booker (D). Barr won the May 19 primary 61-31 over Daniel Cameron; Booker beat Amy McGrath 47-36. Christopher Campbell (Kentucky Party) is also on the November ballot."
     },
     "KY-house-1": {
       "status": "names-only",
@@ -411,6 +412,57 @@
         {
           "label": "The Green Papers: Kentucky 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/KY"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6KY00377",
+      "name": "Christopher Campbell",
+      "party": "Kentucky Party",
+      "office": "us-senate",
+      "district": null,
+      "state": "KY",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6KY00377/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H8KY02031",
+      "name": "S. Brett Guthrie",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "KY",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8KY02031/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6KY06234",
+      "name": "Jay J Bowman",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "6",
+      "state": "KY",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY06234/"
         }
       ]
     }

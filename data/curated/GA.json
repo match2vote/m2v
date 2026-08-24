@@ -264,10 +264,9 @@
       "status": "names-only",
       "advancing": [
         "fec-H0GA14030",
-        "fec-H4GA14057",
-        "ga-house-14-underwood"
+        "fec-H4GA14057"
       ],
-      "statusNote": "General election field from Georgia's May 19, 2026 primary and June 16 runoff: Clay Fuller (Republican), Shawn Harris (Democrat) and Andrew Underwood (Libertarian). Rep. Clay Fuller is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Georgia's May 19, 2026 primary and June 16 runoff: Clay Fuller (Republican) and Shawn Harris (Democrat). Rep. Clay Fuller is the incumbent, having won the April 7, 2026 special election runoff. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Georgia",
@@ -718,7 +717,7 @@
       "district": "14",
       "state": "GA",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -736,6 +735,23 @@
         {
           "label": "Libertarian Party of Georgia, qualified state and federal candidates",
           "url": "https://lpgeorgia.com/press-release-libertarian-party-of-georgia-qualifies-state-and-federal-candidates/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H0GA06192",
+      "name": "Marjorie Taylor Greene",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "14",
+      "state": "GA",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0GA06192/"
         }
       ]
     }

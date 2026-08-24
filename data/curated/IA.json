@@ -6,15 +6,17 @@
       "status": "general",
       "advancing": [
         "fec-S6IA00314",
-        "fec-S6IA00298"
+        "fec-S6IA00298",
+        "fec-S6IA00181"
       ],
-      "statusNote": "Open seat (Sen. Ernst retiring): Rep. Ashley Hinson (R) faces state Rep. Josh Turek (D), both nominated June 2."
+      "statusNote": "Open seat (Sen. Ernst retiring): Rep. Ashley Hinson (R) faces state Rep. Josh Turek (D), both nominated June 2. Libertarian Thomas Laehn is also on the November ballot."
     },
     "IA-house-1": {
       "status": "names-only",
       "advancing": [
         "fec-H8IA02043",
-        "fec-H2IA02111"
+        "fec-H2IA02111",
+        "fec-H6IA01213"
       ],
       "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running, positions not researched yet.",
       "sources": [
@@ -58,9 +60,11 @@
       "status": "names-only",
       "advancing": [
         "fec-H6IA02237",
-        "fec-H6IA02211"
+        "fec-H6IA02211",
+        "ia-house-2-stewart",
+        "fec-H6IA02260"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Two more candidates are reported by some sources: Dave Bushaw (no party) and Rick Stewart (Libertarian). Sources do not agree on the minor party field in Iowa this early, so they are not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Also on the ballot per the Secretary of State's list: Rick Stewart (Libertarian) and Dave Bushaw (no party). We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -82,7 +86,7 @@
         "fec-H6IA04167",
         "fec-H6IA04217"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot. One source reports a Libertarian, Jermaine Decker, in this district and another lists no minor party candidate, so he is not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot, and no other candidate appears on the Secretary of State's list. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -350,6 +354,74 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-S6IA00181",
+      "name": "Thomas Laehn",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6IA00181/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6IA01213",
+      "name": "Michael Bridgford",
+      "party": "No Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA01213/"
+        }
+      ]
+    },
+    {
+      "id": "ia-house-2-stewart",
+      "name": "Rick Stewart",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "2",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Iowa SOS: 2026 general election candidate list (Aug 19, 2026)",
+          "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6IA02260",
+      "name": "Dave Bushaw",
+      "party": "No Party",
+      "office": "us-house",
+      "district": "2",
+      "state": "IA",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA02260/"
+        }
+      ]
     }
   ]
 }

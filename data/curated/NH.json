@@ -5,7 +5,22 @@
     "NH-senate": {
       "status": "primary-pending",
       "statusNote": "Open seat (Sen. Shaheen retiring). The primary is September 8. Chris Pappas (D) and John E. Sununu (R) lead their fields in UNH polling, but nominees aren't final.",
-      "primaryDate": "SEP 8"
+      "primaryDate": "SEP 8",
+      "advancing": [
+        "fec-S6NH00141",
+        "fec-S6NH00208",
+        "fec-S6NH00182",
+        "fec-S6NH00166",
+        "nh-senate-jarvis",
+        "nh-senate-saal",
+        "nh-senate-vail",
+        "nh-senate-alciere",
+        "nh-senate-danley",
+        "nh-senate-martin",
+        "nh-senate-maxwell",
+        "nh-senate-mcmenamon",
+        "nh-senate-smith"
+      ]
     }
   },
   "candidates": [
@@ -167,6 +182,212 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {}
+    },
+    {
+      "id": "fec-S0NH00219",
+      "name": "Jeanne Shaheen",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "withdrawn",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0NH00219/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-jarvis",
+      "name": "David Jarvis",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-saal",
+      "name": "Maxwell Saal",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-vail",
+      "name": "John Vail",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-alciere",
+      "name": "Tom Alciere",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-danley",
+      "name": "Sky Danley",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-martin",
+      "name": "Andy Martin",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-maxwell",
+      "name": "Mary Maxwell",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-mcmenamon",
+      "name": "Richard A. McMenamon II",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
+    },
+    {
+      "id": "nh-senate-smith",
+      "name": "Sabrina Ann Smith",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "NH",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "New Hampshire Bulletin: the ballots are set for the September primaries",
+          "url": "https://newhampshirebulletin.com/2026/06/19/the-ballots-are-set-heres-who-is-running-in-new-hampshires-primaries-this-september/"
+        },
+        {
+          "label": "InDepthNH: table set for fall elections",
+          "url": "https://indepthnh.org/2026/06/13/table-set-for-elections-this-fall-in-new-hampshire/"
+        }
+      ]
     }
   ]
 }

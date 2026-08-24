@@ -53,9 +53,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H6MS01131",
-        "fec-H6MS01313"
+        "fec-H6MS01313",
+        "ms-house-1-baucom"
       ],
-      "statusNote": "Rep. Trent Kelly (R) seeks re-election against Cliff Johnson (D). Kelly was unopposed for the Republican nomination in the March 10, 2026 primary and Johnson beat former state Rep. Kelvin Buck for the Democratic nomination, so no runoff was needed. Positions are not researched yet.",
+      "statusNote": "Rep. Trent Kelly (R) seeks re-election against Cliff Johnson (D) and Libertarian Johnny Baucom. Kelly was unopposed for the Republican nomination in the March 10, 2026 primary and Johnson beat former state Rep. Kelvin Buck for the Democratic nomination, so no runoff was needed. Positions are not researched yet.",
       "sources": [
         {
           "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
@@ -314,6 +315,57 @@
         {
           "label": "Mississippi's 2nd Congressional District election, 2026 (Ballotpedia)",
           "url": "https://ballotpedia.org/Mississippi%27s_2nd_Congressional_District_election,_2026"
+        }
+      ]
+    },
+    {
+      "id": "ms-house-1-baucom",
+      "name": "Johnny Baucom",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "MS",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Mississippi SOS: 2026 candidate qualifying list",
+          "url": "https://sos.ms.gov/content/CandidateQualifying/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6MS04259",
+      "name": "Carl Boyanton",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "4",
+      "state": "MS",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS04259/"
+        }
+      ]
+    },
+    {
+      "id": "fec-H6MS04242",
+      "name": "Jeffrey Hulum III",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "MS",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS04242/"
         }
       ]
     }

@@ -4,15 +4,16 @@
   "races": {
     "AZ-governor": {
       "status": "general",
-      "statusNote": "Gov. Katie Hobbs (D) seeks re-election against Rep. Andy Biggs (R), who won the Republican primary."
+      "statusNote": "Gov. Katie Hobbs (D) seeks re-election against Rep. Andy Biggs (R), who won the July 21 Republican primary with about 72%. Green Party nominee Risa Lombardo and No Labels nominee Teri Ann Hourihan won their parties' primaries and are also on the November ballot."
     },
     "AZ-house-1": {
       "status": "names-only",
       "advancing": [
         "fec-H6AZ05190",
-        "fec-H4AZ01194"
+        "fec-H4AZ01194",
+        "fec-H6AZ01488"
       ],
-      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Jay Feely (Republican), Amish Shah (Democrat). Open seat: no incumbent is on the November ballot. David Redkey (Green), Monica Alponte (Libertarian) and Christopher Ajluni (Arizona Independent Party) also filed in this district and their November ballot status is not confirmed in any source available to us. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Jay Feely (Republican, 49.6%), Amish Shah (Democrat, 39.4%). Open seat: no incumbent is on the November ballot. Monica Alponte won the Libertarian primary and is also on the ballot. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -123,9 +124,10 @@
       "status": "names-only",
       "advancing": [
         "fec-H2AZ02360",
-        "fec-H6AZ06099"
+        "fec-H6AZ06099",
+        "fec-H6AZ06214"
       ],
-      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Juan Ciscomani (Republican), JoAnna Mendoza (Democrat). Rep. Juan Ciscomani is the incumbent. Jereme Peters (Libertarian) and Iman Bah (Arizona Independent Party) also filed in this district and their November ballot status is not confirmed in any source available to us. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Juan Ciscomani (Republican), JoAnna Mendoza (Democrat), both unopposed. Rep. Juan Ciscomani is the incumbent. Jereme Peters was the Libertarian candidate on the primary ballot and advances to November. We know who's running, positions not researched yet.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -368,6 +370,48 @@
       "curatedAt": "2026-08-13",
       "home": "Gilbert, AZ",
       "now": "U.S. Representative, AZ-05"
+    },
+    {
+      "id": "az-gov-lombardo",
+      "name": "Risa Lombardo",
+      "party": "Green",
+      "office": "governor",
+      "district": null,
+      "state": "AZ",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Pima County: 2026 primary candidate roster",
+          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
+        },
+        {
+          "label": "Politics1: AZ 2026 candidates",
+          "url": "https://politics1.com/az.htm"
+        }
+      ]
+    },
+    {
+      "id": "az-gov-hourihan",
+      "name": "Teri Ann Hourihan",
+      "party": "No Labels",
+      "office": "governor",
+      "district": null,
+      "state": "AZ",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Pima County: 2026 primary candidate roster",
+          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
+        },
+        {
+          "label": "Politics1: AZ 2026 candidates",
+          "url": "https://politics1.com/az.htm"
+        }
+      ]
     }
   ]
 }

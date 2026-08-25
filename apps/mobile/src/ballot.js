@@ -64,9 +64,12 @@ export function getRaces(code, data, opts = {}) {
       const curated = race.candidates.filter(
         (c) => c.tier === 'curated' && !ELIMINATED.has(c.ballotStatus)
       );
+      // Only candidates still in the race count as "not shown"; primary
+      // losers and withdrawals are not "other filed candidates in this race".
+      const stillIn = race.candidates.filter((c) => !ELIMINATED.has(c.ballotStatus)).length;
       let shown = null;
       if (curated.length) {
-        shown = { ...race, coverage: 'full', candidates: curated, hiddenCount: race.candidates.length - curated.length };
+        shown = { ...race, coverage: 'full', candidates: curated, hiddenCount: Math.max(0, stillIn - curated.length) };
       } else if ((opts.display || opts.ballotView) && (race.meta?.namesOnly || race.meta?.status === 'names-only')) {
         // Names-only: show verified general-election candidates by name.
         const adv = race.meta.advancing;
@@ -74,7 +77,7 @@ export function getRaces(code, data, opts = {}) {
           ? race.candidates.filter((c) => adv.includes(c.id))
           : [];
         if (names.length) {
-          shown = { ...race, coverage: 'names', candidates: names, hiddenCount: race.candidates.length - names.length };
+          shown = { ...race, coverage: 'names', candidates: names, hiddenCount: Math.max(0, stillIn - names.length) };
         }
       }
       if (!shown) return null; // zero showable candidates → race does not exist in the UI

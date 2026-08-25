@@ -16,7 +16,7 @@ export const strings = {
   ui: {
     // Coverage counts: DC is not a state, so 50 + DC reads "50 states and D.C."
     statesPhrase: ({ states, hasDC }) => `${states} ${states === 1 ? 'state' : 'states'}${hasDC ? ' and D.C.' : ''}`,
-    tierCurated: 'Every position sourced',
+    tierCurated: 'Every scored position sourced',
     tierFec: 'Positions not stated yet',
     tierSample: 'Sample, not a real candidate',
     matchRingNotScoredA11y: 'Match not scored, not enough documented positions',
@@ -121,7 +121,7 @@ export const strings = {
     aboutLink: 'How matching works & coverage',
     contactLink: 'Contact / report an error',
     linkArrow: ({ label }) => `${label}  ›`,
-    footer: 'M2V is nonpartisan. Every position sourced. Never matched by party.',
+    footer: 'M2V is nonpartisan. Every scored position sourced. Never matched by party.',
   },
 
   browse: {
@@ -388,7 +388,7 @@ export const strings = {
     coverageRest: "\nGrowing weekly through Election Day. We show only what we've actually researched, that's a feature, not an apology.",
     howTitle: 'How matching works',
     how1: 'You answer 10 questions. We compare your answers with what each candidate has publicly said or done, bills signed or vetoed, roll-call votes, lawsuits filed, statements on their own campaign site or in reputable coverage. Every scored position links to its source.',
-    how2: 'A position is never inferred. If a candidate hasn\'t stated one, it stays "Not stated", never guessed from their party or anything else. Party labels are shown for identification only and play zero role in the math.',
+    how2: 'We do not assign positions based on party. A candidate is scored on an issue only where we have a source documenting a relevant position; otherwise it stays "Not stated". Party labels are shown for identification only and play zero role in the math.',
     how3: "Your match percentage counts only the issues where you both weighed in. Issues you star count double. If there's not enough info for a fair number, we show a dash instead of a fake percentage.",
     how4: 'Why two percentages aren\'t always comparable: a candidate with fewer documented positions is scored on fewer of your issues. An 80% built on 6 issues is a thinner claim than a 60% built on all 10, the missing issues might be exactly where you\'d disagree. That\'s why every score shows its count ("across 8 of your 10 issues"), why we flag races where candidates have different counts, and why the "your top match" star is never given to a candidate who was scored on fewer issues than a rival. We refuse to fix this by guessing missing positions: unknown stays "Not stated," always.',
     how5: 'Candidate rosters come from official state candidate lists and FEC filings, refreshed nightly, plus hand-maintained governor races. Anything illustrative is labeled "Sample."',
@@ -405,7 +405,7 @@ export const strings = {
     github: 'Open-source code & data (GitHub)',
     privacy: 'Privacy policy',
     nonpartisan: 'M2V is nonpartisan. It favors no party and no candidate.',
-    org: 'Match2Vote is a project of Page Not Found, a 501(c)(3) nonprofit organization based in Greenwich, Connecticut, published on Google Play under the developer name Kiki Taylor on the nonprofit\'s behalf. It is not affiliated with any government agency, election office, party, or campaign.',
+    org: 'Match2Vote is an independent, nonpartisan voter guide developed and published by Kiki Taylor, an independent developer based in Connecticut. It is not affiliated with any government agency, election office, party, or campaign.',
   },
 
   welcome: {
@@ -483,7 +483,7 @@ export const strings = {
     matchesTitle: ({ stateName }) => `My top matches in ${stateName}, via M2V (Match to Vote)`,
     matchesRow: ({ n, name, pct, raceTitle }) => `${n}. ${name}${pct != null ? `, ${pct}% match` : ''} (${raceTitle})`,
     matchesTagline: ({ url }) => `Who actually agrees with YOU? ${url}`,
-    matchesFooter: 'Every position sourced. Never matched by party.',
+    matchesFooter: 'Every scored position sourced. Never matched by party.',
     cardBrand: 'M2V',
     cardBrandLong: 'MATCH TO VOTE',
     cardHeadline1: 'Here’s who actually',

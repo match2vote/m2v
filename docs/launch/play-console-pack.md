@@ -42,7 +42,7 @@ PRIVACY, FOR REAL
 
 No account. No ads. No analytics. No trackers. Your quiz answers and ballot choices never leave your phone. The app downloads public candidate data, and if you tap the button asking us to cover your state, it sends your two-letter state code and nothing else. Full policy: https://app.match2vote.org/privacy/
 
-Match to Vote is a project of Page Not Found, a 501(c)(3) nonprofit organization based in Greenwich, Connecticut. It does not endorse candidates, parties, or positions. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
+Match2Vote is developed and published by Kiki Taylor, an independent developer based in Connecticut. It does not endorse candidates, parties, or positions, does not represent any government entity, and is not affiliated with or funded by any party, campaign, or political committee. Candidate data comes from official FEC filings, state election records, and hand-researched, source-linked policy positions, updated continuously through Election Day.
 
 Questions or corrections: match2vote@gmail.com
 ```
@@ -107,7 +107,7 @@ Expected rating: **Everyone / PEGI 3** (possibly Everyone 10+ if the cannabis-re
 Google's misinformation and election policies require election apps to be transparent about who they are and where information comes from. Paste-ready answers:
 
 **Who publishes this app?**
-Match to Vote is a project of Page Not Found, a 501(c)(3) public charity based in Greenwich, Connecticut (IRS-recognized, on the Publication 78 list). All code and data are public at github.com/match2vote/m2v. It is not affiliated with any party, campaign, PAC, or government agency, accepts no advertising, and endorses no one.
+Match2Vote is developed and published by Kiki Taylor, an independent developer based in Connecticut. All code and data are public at github.com/match2vote/m2v. It is not affiliated with any party, campaign, PAC, or government agency, accepts no advertising, and endorses no one.
 
 **Where does candidate data come from?**
 Candidate rosters come from official FEC bulk data (nightly sync, visible in the repo's commit history) and state election records for governors. Policy positions are hand-researched: a position is shown only when a specific public source URL (campaign site, voting record, established news organization) documents it, and that source link is displayed to users next to every single scored position. Our database schema enforces this: it rejects any scored position lacking a source URL.

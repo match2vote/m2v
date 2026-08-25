@@ -42,7 +42,7 @@ export function About() {
           <Button
             kind="ghost"
             label={S.contact}
-            onPress={() => Linking.openURL(`mailto:${CONTACT}?subject=M2V%20error%20report`)}
+            onPress={() => Linking.openURL(`mailto:${CONTACT}?subject=M2V%20error%20report`).catch(() => {})}
           />
           <Body soft style={{ fontSize: 12, textAlign: 'center' }}>{CONTACT}</Body>
         </Card>

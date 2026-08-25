@@ -234,7 +234,7 @@ export function Home() {
         <View style={{ marginTop: space(4) }}>
           {[
             [S.aboutLink, () => nav.go({ name: 'about' })],
-            [S.contactLink, () => Linking.openURL('mailto:match2vote@gmail.com?subject=M2V%20error%20report')],
+            [S.contactLink, () => Linking.openURL('mailto:match2vote@gmail.com?subject=M2V%20error%20report').catch(() => {})],
           ].map(([label, fn]) => (
             <Pressable key={label} onPress={fn} accessibilityRole="button" accessibilityLabel={label} style={{ paddingVertical: space(3), minHeight: 44, justifyContent: 'center', borderTopWidth: 1, borderTopColor: colors.line }}>
               <Body style={{ fontWeight: '600', fontSize: 14 }}>{S.linkArrow({ label })}</Body>

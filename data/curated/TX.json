@@ -882,7 +882,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": 1,
+        "education": null,
         "safety": 1,
         "repro": 2,
         "democracy": 2
@@ -897,15 +897,15 @@
           "url": "https://en.wikipedia.org/wiki/Ken_Paxton"
         },
         "taxes": {
-          "label": "Campaign pledges 'cutting taxes' (Ballotpedia)",
-          "url": "https://ballotpedia.org/Ken_Paxton"
+          "label": "Pledges to 'cut taxes and stop the wasteful spending that has led to our nation being in over $36 trillion dollars in debt' (campaign site)",
+          "url": "https://www.kenpaxton.com/issues"
         },
         "climate": {
           "label": "Sued EPA over Clean Power Plan; defended ExxonMobil in climate probes (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ken_Paxton"
         },
         "repro": {
-          "label": "Enforced Texas abortion bans; sued FDA over mifepristone; opposed Kate Cox exemption (Wikipedia)",
+          "label": "Enforced Texas abortion bans as attorney general; opposed the Kate Cox medical exemption (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ken_Paxton"
         },
         "democracy": {
@@ -914,10 +914,6 @@
         },
         "cost": {
           "label": "Campaign: 'cut taxes and stop the wasteful spending' and 'remove harmful regulations' to lower costs (Paxton campaign)",
-          "url": "https://www.kenpaxton.com/issues"
-        },
-        "education": {
-          "label": "Campaign pledges to 'protect parental rights' in schools; attacks 'radical gender ideology' content (Paxton campaign)",
           "url": "https://www.kenpaxton.com/issues"
         },
         "safety": {
@@ -966,7 +962,8 @@
           "url": "https://www.texastribune.org/2023/09/16/ken-paxton-impeachment-vote-deliberations/"
         }
       ],
-      "nullNotes": {}
+      "nullNotes": {},
+      "incumbent": false
     },
     {
       "id": "fec-S6TX00479",
@@ -1050,14 +1047,15 @@
         }
       ],
       "curatedAt": "2026-08-13",
-      "age": 36,
+      "age": 37,
       "home": "Austin, TX",
       "now": "Texas House of Representatives (re-elected)",
       "priorities": [
         "Lower health-care and prescription costs",
         "Fully fund public schools",
         "Protect reproductive rights"
-      ]
+      ],
+      "incumbent": false
     },
     {
       "id": "tx-gov-abbott",
@@ -1103,8 +1101,8 @@
           "url": "https://ballotpedia.org/Greg_Abbott"
         },
         "democracy": {
-          "label": "Signed 2025 mid-decade congressional redistricting maps favoring his party (Ballotpedia)",
-          "url": "https://ballotpedia.org/Greg_Abbott"
+          "label": "Signed Texas' 2025 mid-decade congressional map into law, an unusual redistricting to make the delegation 'more red' (Texas Tribune)",
+          "url": "https://www.texastribune.org/2025/08/29/greg-abbott-signs-texas-congressional-map-redistricting"
         },
         "cost": {
           "label": "'Taxes and Affordability': $18B 'largest property tax cut in Texas history,' ban capital-gains and inheritance taxes (Abbott campaign)",
@@ -1162,7 +1160,7 @@
         "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": -1,
+        "taxes": null,
         "climate": -1,
         "education": -2,
         "safety": 1,
@@ -1171,20 +1169,16 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Campaign: corporations post record profits while Texans pay more; corporate accountability (Ballotpedia)",
-          "url": "https://ballotpedia.org/Gina_Hinojosa"
+          "label": "Would 'ban predatory surveillance pricing and fight to ensure that grocery prices reflect actual market costs, not price gouging' (campaign priorities)",
+          "url": "https://ginafortexas.com/priority/an-affordable-texas-that-works-for-everyone/"
         },
         "health": {
-          "label": "Campaign: rein in private equity and insurers 'making healthcare more expensive' (Ballotpedia)",
-          "url": "https://ballotpedia.org/Gina_Hinojosa"
-        },
-        "taxes": {
-          "label": "Opposes tax incentives for 'private equity and corporate giants' (Ballotpedia)",
-          "url": "https://ballotpedia.org/Gina_Hinojosa"
+          "label": "Would 'hold profiteering healthcare companies accountable by banning bad-faith denials' and increase accountability for insurers; notes Texas has the highest uninsured rate (campaign priorities)",
+          "url": "https://ginafortexas.com/priority/an-affordable-texas-that-works-for-everyone/"
         },
         "education": {
-          "label": "Opposes Abbott's 'voucher scam'; invest in neighborhood public schools (Ballotpedia)",
-          "url": "https://ballotpedia.org/Gina_Hinojosa"
+          "label": "'Gina will end the voucher scam and ensure Texans' taxpayer dollars go into the neighborhood schools families depend on' (campaign priorities)",
+          "url": "https://ginafortexas.com/priority/save-texas-public-schools/"
         },
         "housing": {
           "label": "Stop private equity 'from buying up housing'; 2025 bill capping institutional investors at 10 single-family homes (Hinojosa campaign)",
@@ -1226,7 +1220,15 @@
         }
       ],
       "curatedAt": "2026-08-13",
-      "nullNotes": {}
+      "nullNotes": {},
+      "age": 52,
+      "home": "Austin, TX",
+      "now": "Texas State Representative (District 49); attorney",
+      "priorities": [
+        "Save Texas public schools and end vouchers",
+        "Money in your pocket: an affordable Texas",
+        "Hold profiteering corporations and insurers accountable"
+      ]
     },
     {
       "id": "fec-H6TX15162",
@@ -1388,7 +1390,7 @@
           "url": "https://www.ericflores.com/priorities"
         },
         "safety": {
-          "label": "Campaign priorities page lists \"SUPPORT LAW ENFORCEMENT\" as a stated priority, and the campaign runs a Law Enforcement Coalition of endorsing constables and sheriffs",
+          "label": "Campaign priorities page lists 'SUPPORT LAW ENFORCEMENT' as a stated priority (campaign site)",
           "url": "https://www.ericflores.com/priorities"
         },
         "democracy": {
@@ -1472,7 +1474,7 @@
         "education": -2,
         "safety": null,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -1501,10 +1503,6 @@
         },
         "repro": {
           "label": "Would \"co-sponsor legislation like the Women's Health Protection Act\" and \"advocate for amending the constitution to enshrine women's bodily autonomy\", plus nationwide paid parental leave (campaign platform)",
-          "url": "https://espoirfortexas.com/platform"
-        },
-        "democracy": {
-          "label": "Runs on election reform that puts voters first: overturning Citizens United through the Democracy for All Amendment, public financing of campaigns, federal incentives for ranked choice voting and \"federal standards for fair ballot access, including nonpartisan primary systems\", with no plank on registration, mail voting or voter ID (campaign platform and about page)",
           "url": "https://espoirfortexas.com/platform"
         }
       },
@@ -1635,7 +1633,7 @@
         "education": -1,
         "safety": -1,
         "repro": null,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -1656,10 +1654,6 @@
         },
         "safety": {
           "label": "Names 'criminal justice reform, mental health' among the policy areas she is passionate about (Ballotpedia TX-25 2026 election page, Candidate Connection responses)",
-          "url": "https://ballotpedia.org/Texas%27_25th_Congressional_District_election,_2026"
-        },
-        "democracy": {
-          "label": "Runs on restoring congressional oversight and checks and balances, saying 'Congress must reclaim its constitutional role' and defend democratic institutions (Ballotpedia TX-25 2026 election page, Candidate Connection responses)",
           "url": "https://ballotpedia.org/Texas%27_25th_Congressional_District_election,_2026"
         }
       },
@@ -1880,12 +1874,12 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Running \"to support working families with a $10/day cap on child care\" and says \"the costs of healthcare and child care are too high\" (campaign bio page)",
-          "url": "https://www.helifortexas.com/bio"
+          "label": "Running on a '$10/day' child care plan for working families (BallotReady)",
+          "url": "https://www.ballotready.org/people/heli-rodriguez-prillman"
         },
         "health": {
           "label": "\"I'm advocating for a universal healthcare system ... paid for by taxing the small group of billionaires\" (campaign issues and FAQ page)",
-          "url": "https://www.helifortexas.com/issues"
+          "url": "https://ballotpedia.org/Heli_Rodriguez_Prilliman"
         },
         "immigration": {
           "label": "Said she would work at the federal level to abolish ICE and that the country needs a new and reformed immigration system, at a February 2026 Tarrant County candidate forum (KERA News)",
@@ -1893,11 +1887,11 @@
         },
         "taxes": {
           "label": "Would fund universal health care and child care through \"taxing the small group of billionaires who have taken advantage of American workers\" (campaign issues and FAQ page)",
-          "url": "https://www.helifortexas.com/issues"
+          "url": "https://ballotpedia.org/Heli_Rodriguez_Prilliman"
         },
         "education": {
-          "label": "Campaigns on \"fully funding our public schools\" alongside universal child care (campaign home page)",
-          "url": "https://www.helifortexas.com/"
+          "label": "Calls for 'dramatically increasing funding for public school teachers' (campaign issues)",
+          "url": "https://helifortexas.com/issues"
         },
         "democracy": {
           "label": "Running \"to protect our democracy with voting rights, public education, and the removal of billionaire money in politics,\" with no specific voting bill named (campaign bio page)",
@@ -2121,7 +2115,7 @@
         "border security"
       ],
       "positions": {
-        "cost": 2,
+        "cost": 1,
         "health": 1,
         "housing": null,
         "immigration": 2,
@@ -2309,8 +2303,8 @@
           "url": "https://stevetothforcongress.com/issues/"
         },
         "education": {
-          "label": "Fighting Liberal Indoctrination plank: led Texas House efforts to eliminate Critical Race Theory and DEI from public institutions, with classrooms answering to parents rather than activists (campaign issues page)",
-          "url": "https://stevetothforcongress.com/issues/"
+          "label": "Voted yes on SB 2 (2025) establishing an education savings account program and voted to table an amendment putting vouchers to a public vote (Texas AFT Teach the Vote record)",
+          "url": "https://teachthevote.atpe.org/Candidates/Steve-Toth"
         },
         "safety": {
           "label": "Back the Blue plank: worked tirelessly to secure $27 million in funding for an advanced active shooter training facility for law enforcement (campaign issues page)",
@@ -2377,7 +2371,7 @@
       "ballotStatus": "nominee",
       "home": "The Woodlands, TX",
       "now": "Investment banker, senior advisor at Evercore",
-      "background": "Finnie is an investment banker who has lived in The Woodlands for about 19 years and spent roughly three decades in investment banking focused on energy sector mergers and acquisitions, most recently at Evercore and earlier at Scotiabank. He practiced as an oil and gas lawyer for three years before that, holds an economics degree, a law degree and an MBA in finance and accounting from Northwestern, and was the first in his family to attend college. He has served on the board of trustees of The John Cooper School and taught personal finance to high school students. He won the March 3, 2026 Democratic primary and faces Steve Toth in November.",
+      "background": "Finnie is an investment banker who has lived in The Woodlands for about 19 years and spent roughly three decades in investment banking focused on energy sector mergers and acquisitions, most recently at Evercore and earlier at Scotiabank. He practiced as an oil and gas lawyer for three years before that, holds an economics degree from the University of Saskatchewan, a law degree from the University of Western Ontario and an MBA from Northwestern's Kellogg School, and was the first in his family to attend college. He has served on the board of trustees of The John Cooper School and taught personal finance to high school students. He won the March 3, 2026 Democratic primary and faces Steve Toth in November.",
       "priorities": [
         "affordability and cost of living",
         "healthcare access",
@@ -2392,7 +2386,7 @@
         "climate": null,
         "education": -2,
         "safety": null,
-        "repro": -2,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -2603,7 +2597,7 @@
       "ballotStatus": "nominee",
       "home": "McKinney, TX",
       "now": "Business development executive and retired U.S. Air Force officer",
-      "background": "Evan Hunt is a 20 year Air Force veteran and combat aviator who served from 2002 to 2022, including as a squadron commander, and now works in business development. He graduated from the University of Pennsylvania in 2002 and earned a graduate degree from American Military University in 2009. He has lived in McKinney for close to seven years. He reached the November 2026 ballot by running unopposed in the March 3, 2026 Democratic primary, taking 48,612 votes.",
+      "background": "Evan Hunt is a 20 year Air Force veteran and combat aviator who served from 2002 to 2022, including as a squadron commander, and now works in business development. He graduated from the University of Pennsylvania in 2002 and earned a graduate degree from American Military University in 2009. He has lived in McKinney for six years. He reached the November 2026 ballot by running unopposed in the March 3, 2026 Democratic primary, taking 48,612 votes.",
       "priorities": [
         "lowering health care costs",
         "funding public schools and stopping vouchers",
@@ -2623,7 +2617,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Asked about a federal 17 dollar per hour minimum wage indexed to inflation, answered 'Yes, it's long overdue', and calls for cutting everyday costs through affordable housing construction and cheaper childcare (Lone Star Left candidate Q and A)",
+          "label": "Asked about a federal 17 dollar per hour minimum wage indexed to inflation, answered 'Yes, it's long overdue' (Lone Star Left candidate Q and A)",
           "url": "https://www.lonestarleft.com/p/meet-the-candidates-evan-hunt-for"
         },
         "health": {
@@ -2827,7 +2821,7 @@
       "tier": "fec",
       "ballotStatus": "nominee",
       "home": "Plano, TX",
-      "now": "Sales and customer service, first time candidate for federal office",
+      "now": "Full-time congressional candidate; former mortgage and sales professional",
       "background": "Pearce is a first time candidate who won the March 3, 2026 Democratic primary in TX-04 with 52.0 percent against Andrew Rubell. Born in 1993, he graduated from Plano Senior High School and the University of North Texas and has worked in sales, customer service, mortgage loan origination, insurance advising, restaurant management and security. He runs on affordability and anti corruption, arguing that Congress should not be made up of \"Multi-millionaires, CEO's, and Corporate lobbyists.\"",
       "priorities": [
         "cost of living and affordability",
@@ -2841,7 +2835,7 @@
         "immigration": null,
         "taxes": -1,
         "climate": null,
-        "education": -2,
+        "education": -1,
         "safety": null,
         "repro": null,
         "democracy": -2
@@ -2860,7 +2854,7 @@
           "url": "https://ballotpedia.org/Jason_Pearce"
         },
         "taxes": {
-          "label": "Would restructure taxes to cut them \"for those making under 500k a year\" with benefits scaling to lower income households, and separately would \"Close tax loopholes, break up monopolies\" (Ballotpedia Candidate Connection survey)",
+          "label": "Would restructure taxes to cut them for households making under 500,000 dollars a year, with benefits scaling to lower incomes (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Jason_Pearce"
         },
         "education": {
@@ -3080,43 +3074,43 @@
       "positionSources": {
         "cost": {
           "label": "Affordability plank calls to \"Tie the Minimum to Wage Cost of Living, starting with a $25 Minimum Wage,\" tie Social Security benefits to cost of living with a $200 increase, \"Enact Universal Childcare\" and \"End Trump's Tariffs\" (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "health": {
           "label": "\"Enact Medicare for All\" to eliminate premiums and deductibles; \"Healthcare is a human right, not a privilege\" (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "housing": {
           "label": "\"Build more affordable housing\" units and regulate corporate landlords (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "immigration": {
           "label": "\"Abolish and Prosecute ICE\" and replace it with humane immigration services; Ballotpedia survey adds she favors \"a pathway to documentation and citizenship\" (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "taxes": {
           "label": "\"Make sure corporations and the ultra-wealthy pay their fair share so we can invest in our communities,\" taxing wealthy corporations and billionaires by closing loopholes (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "climate": {
           "label": "Enact a \"Green New Deal\" expanding renewable energy and creating jobs, plus an \"AI Data Center Moratorium\" to protect water and prevent pollution (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "education": {
           "label": "\"Increasing Funding For Our Public Schools\" and \"Increase Teacher Pay\"; opposes diverting public school money through what she calls voucher scams (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "safety": {
           "label": "Crime prevention plank: \"Ensure access to quality mental health services\" for struggling individuals, \"Provide more funding to social workers\" for nonviolent crime solutions, and \"Use public services to make our communities safer\" (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "repro": {
           "label": "\"Codify Roe V. Wade\" returning medical decisions to women and doctors (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         },
         "democracy": {
           "label": "\"Enact the John Lewis Voting Rights Advancement Act\"; Ballotpedia survey adds support for overturning Citizens United and expanding voting rights (campaign issues page)",
-          "url": "https://chelseyhockettforcongress.com/issues"
+          "url": "https://chelseyhockettforcongress.com/issues.html"
         }
       },
       "nullNotes": {},
@@ -3150,7 +3144,7 @@
     },
     {
       "id": "fec-H8TX06266",
-      "name": "John Kevin Sr. Ellzey",
+      "name": "Jake Ellzey",
       "party": "Republican",
       "district": "6",
       "state": "TX",
@@ -3213,7 +3207,7 @@
           "url": "https://ellzeyfortexas.com/issues/"
         },
         "democracy": {
-          "label": "Voted Yea on passage of H.R. 22, the SAVE Act, requiring documentary proof of citizenship to register to vote, and campaigns on \"even one case of voter fraud is one too many\" (House roll call 102, April 10, 2025)",
+          "label": "Voted Yea on passage of H.R. 22, the SAVE Act, requiring documentary proof of citizenship to register to vote (House roll call 102, April 10, 2025)",
           "url": "https://clerk.house.gov/Votes/2025102"
         }
       },
@@ -3291,7 +3285,7 @@
         "health": -2,
         "housing": null,
         "immigration": -1,
-        "taxes": -2,
+        "taxes": -1,
         "climate": -1,
         "education": -2,
         "safety": null,
@@ -3308,7 +3302,7 @@
           "url": "https://bluelusionalpodcast.substack.com/p/grassroots-candidate-interview-danny"
         },
         "immigration": {
-          "label": "\"ICE should be abolished or significantly reduced, and its budget redirected to local and state law enforcement\" and wants immigrants treated with compassion and dignity, while also calling for \"a strong border, and enforceable laws for immigration\" (BallotReady candidate profile)",
+          "label": "Says ICE should be abolished or significantly reduced with its budget redirected to local law enforcement, while also calling for a strong border and enforceable immigration laws (BallotReady candidate profile)",
           "url": "https://www.ballotready.org/people/danny-minton"
         },
         "taxes": {
@@ -3316,7 +3310,7 @@
           "url": "https://www.lonestarleft.com/p/meet-the-candidates-danny-minton"
         },
         "climate": {
-          "label": "Supports the Green New Deal and \"tax incentives for rooftop solar\", and would stop farmers being pressured into selling water rights (Lone Star Left candidate interview)",
+          "label": "Backs 'tax incentives for rooftop solar' and would stop farmers being pressured into selling water rights (Lone Star Left candidate interview)",
           "url": "https://www.lonestarleft.com/p/meet-the-candidates-danny-minton"
         },
         "education": {
@@ -3408,7 +3402,7 @@
           "url": "https://www.lizziefletcher.com/immigration/"
         },
         "taxes": {
-          "label": "Voted Nay on the motion to concur in H.R. 1, the One Big Beautiful Bill Act, which makes the 2017 individual rates permanent, and called it \"the largest transfer of wealth from working Americans to the wealthiest Americans in our history\", \"raising costs for American families to pay for tax cuts for the wealthiest Americans\" (House roll call 190, July 3, 2025)",
+          "label": "Voted Nay on the motion to concur in H.R. 1, the One Big Beautiful Bill Act, which makes the 2017 individual rates permanent (House roll call 190, July 3, 2025)",
           "url": "https://clerk.house.gov/Votes/2025190"
         },
         "climate": {
@@ -3503,7 +3497,8 @@
           "url": "https://www.fec.gov/data/candidate/H8TX07140/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-08-17",
+      "age": 51
     },
     {
       "id": "fec-H6TX07151",
@@ -3836,7 +3831,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": null,
-        "education": 2,
+        "education": 1,
         "safety": 1,
         "repro": null,
         "democracy": 2
@@ -3851,12 +3846,12 @@
           "url": "https://chrisgober.com/"
         },
         "taxes": {
-          "label": "KBTX candidate interview: his policy focus includes cutting taxes and reducing input costs for farmers and ranchers, paired with his forum pledge to fight \"this reckless spending that is bankrupting our country\" (KBTX)",
+          "label": "KBTX candidate interview: his policy focus includes cutting taxes and reducing input costs for farmers and ranchers (KBTX)",
           "url": "https://www.kbtx.com/2026/03/03/republican-chris-gober-seeks-us-house-district-10-seat/"
         },
         "education": {
-          "label": "Campaign platform attacks those who \"plague our classrooms with woke ideologies that reject fundamental American values\"; his Club for Growth endorsement says he \"will be a champion for school freedom\" (chrisgober.com)",
-          "url": "https://chrisgober.com/"
+          "label": "Club for Growth endorsement says he 'will be a champion for school freedom'; campaign platform attacks 'woke ideologies' in classrooms (Club for Growth, campaign site)",
+          "url": "https://www.clubforgrowth.org/"
         },
         "safety": {
           "label": "Campaign platform: \"empowering Texas law enforcement to halt the invasion of drugs, violence, and gangs into our community\" (chrisgober.com)",
@@ -3915,7 +3910,7 @@
       "incumbent": false,
       "tier": "fec",
       "ballotStatus": "nominee",
-      "home": "Central Texas, TX",
+      "home": "Round Rock, TX",
       "now": "Communications leader in the technology industry, most recently at Dell Technologies",
       "background": "Rourk is an Army veteran who was commissioned as a military intelligence officer through Officer Candidate School and served full time with the Texas Army National Guard at Joint Forces Headquarters in Austin, supporting natural disaster, COVID-19 and border mobilizations, and later in the U.S. Army Reserve. She holds a political science degree from the University of Chicago and an MBA from the McCombs School of Business at the University of Texas at Austin, and worked on federal policy in Washington before leading communications at Dell Technologies. She entered the 2026 cycle as a candidate in TX-31, then switched to the open TX-10 seat after redistricting moved her own neighborhood into it, and won the Democratic primary on March 3, 2026 with 60.8 percent.",
       "priorities": [
@@ -3930,7 +3925,7 @@
         "immigration": null,
         "taxes": -1,
         "climate": -1,
-        "education": -2,
+        "education": -1,
         "safety": null,
         "repro": -1,
         "democracy": null
@@ -4714,7 +4709,7 @@
           "url": "https://panews.com/2023/11/15/port-arthur-mayor-thurman-bartie-concerned-with-federal-court-ruling-halting-port-arthur-lng-project/"
         },
         "education": {
-          "label": "\"I support investment in teachers, modernized classrooms, and clear pathways to success for every child. A strong public education system builds the next generation of leaders,\" and pledges to work across the aisle so Texas gets its fair share for public education (campaign Where I Stand page)",
+          "label": "'I support investment in teachers, modernized classrooms, and clear pathways to success for every child. A strong public education system builds the next generation of leaders' (campaign Where I Stand page)",
           "url": "https://votebartie.org/where"
         },
         "safety": {
@@ -4803,7 +4798,7 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": 2,
+        "taxes": null,
         "climate": 1,
         "education": null,
         "safety": 2,
@@ -4812,12 +4807,8 @@
       },
       "positionSources": {
         "immigration": {
-          "label": "Candidate survey key message on passing the America First agenda by securing the border, and pledging to leverage every federal resource to support state and local law enforcement against cartel activity and illegal settlements such as Colony Ridge (Ballotpedia Candidate Connection)",
-          "url": "https://ballotpedia.org/Alex_Mealer"
-        },
-        "taxes": {
-          "label": "Campaign key messages call for reducing government spending, taxes and regulations so the private sector creates jobs (Ballotpedia Candidate Connection)",
-          "url": "https://ballotpedia.org/Alex_Mealer"
+          "label": "'Secure the border': pledges to leverage every federal resource to support state and local law enforcement against cartel activity and Colony Ridge (campaign site)",
+          "url": "https://alexandramealer.com/"
         },
         "climate": {
           "label": "Pledged to 'fight to protect Texas energy jobs' and attacked her opponent as a 'woeful mismatch' for the energy sector (Spectrum News 1)",
@@ -4832,8 +4823,8 @@
           "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/05/13/in-heated-congressional-race-in-houston--alex-mealer-pushes-herself-as-trump-s-choice"
         },
         "democracy": {
-          "label": "'Elections should be EASY TO VOTE, AND HARD TO CHEAT,' and pledges election integrity legislation with enforcement mechanisms (Ballotpedia Candidate Connection)",
-          "url": "https://ballotpedia.org/Alex_Mealer"
+          "label": "'Elections should be EASY TO VOTE, AND HARD TO CHEAT'; calls for election integrity legislation 'with real teeth' (campaign site)",
+          "url": "https://alexandramealer.com/"
         }
       },
       "nullNotes": {
@@ -4894,7 +4885,7 @@
       "ballotStatus": "nominee",
       "home": "Houston, TX",
       "now": "Director of Government Relations and Community Outreach, Air Alliance Houston",
-      "background": "Gutierrez was born in Mexico, the daughter of farm laborers, and has lived in east Houston for more than 45 years, attending Southmayd Elementary, Deady Junior High and Milby High School before earning a finance degree from the University of St. Thomas in 2000 and later doing environmental graduate study at Rice. She left a career in banking and securities for environmental advocacy after her son developed asthma in a zip code beside the Port of Houston industrial complex, and she has spent about a decade as Director of Government Relations and Community Outreach at Air Alliance Houston, after two years as a Houston City Council chief of staff. She has run for office once before, for Houston City Council under her former name Leticia Ablaza. The Associated Press called the 2026 Democratic primary for the redrawn 9th District in her favor over a six candidate field. She is a mother of two adult children, one of them serving in the U.S. Army.",
+      "background": "Gutierrez was born in Mexico, the daughter of farm laborers, and has lived in east Houston for more than 45 years, attending Southmayd Elementary, Deady Junior High and Milby High School before earning a finance degree from the University of St. Thomas in 2000 and later doing environmental graduate study at Rice. She left a career in banking and securities for environmental advocacy after her son developed asthma in a zip code beside the Port of Houston industrial complex, and she has spent about a decade as Director of Government Relations and Community Outreach at Air Alliance Houston, after two years as a Houston City Council chief of staff. She ran twice before for Houston City Council District I (2011 and 2013) under her former name Leticia Ablaza. The Associated Press called the 2026 Democratic primary for the redrawn 9th District in her favor over a six candidate field. She is a mother of two adult children, one of them serving in the U.S. Army.",
       "priorities": [
         "Everyday affordability",
         "Infrastructure and disaster resilience",
@@ -4904,9 +4895,9 @@
         "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": -2,
+        "immigration": -1,
         "taxes": null,
-        "climate": -2,
+        "climate": -1,
         "education": null,
         "safety": null,
         "repro": null,
@@ -4914,8 +4905,8 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Names 'everyday affordability' her top issue and answers it with raising wages, creating quality local jobs and getting residents near industrial areas into higher paying work, and says government 'has been feeding subsidies to large corporations all while hardworking families foot the bill' (League of Women Voters Houston voters guide questionnaire)",
-          "url": "https://www.houstonvotersguide.org/us-house-of-rep-dem/Leticia-Guiterrez"
+          "label": "Names everyday affordability her top issue and answers it with raising wages and creating quality local jobs; says government 'has been feeding subsidies to large corporations all while hardworking families foot the bill' (campaign priorities)",
+          "url": "https://www.leticiaforcongress.com/priorities"
         },
         "health": {
           "label": "Her stated remedy for families forced to choose between 'big investments like healthcare and housing' is 'expanding access to health and childcare services,' a government role she carries over from a career in community public health advocacy (League of Women Voters Houston voters guide questionnaire)",
@@ -4926,7 +4917,7 @@
           "url": "https://democracydocket.com/news-alerts/ice-killed-a-man-in-houston-and-residents-want-answers-but-trumps-gerrymander-may-take-away-their-voice-in-congress/"
         },
         "climate": {
-          "label": "'My frustration lies with our elected officials, they're constantly reaching over to the other side,' meaning industry polluters, and she wants Houston leaders to take the stronger anti-pollution stances she sees in other states; she campaigns for 'cleaner air and healthier neighborhoods, and a government that sees east Harris County as more than a sacrifice zone' (Houston Defender Network, Houston Style Magazine)",
+          "label": "Wants stronger enforcement against industrial polluters in east Harris County and campaigns for 'cleaner air and healthier neighborhoods' (Houston Defender Network)",
           "url": "https://defendernetwork.com/people/dn-news-profiles/black-hispanic-environmental-justice-houston/"
         }
       },
@@ -5135,7 +5126,7 @@
         "health care access and prescription drug costs"
       ],
       "positions": {
-        "cost": -1,
+        "cost": null,
         "health": -1,
         "housing": null,
         "immigration": 0,
@@ -5147,10 +5138,6 @@
         "democracy": null
       },
       "positionSources": {
-        "cost": {
-          "label": "'Families are working hard, but prices keep rising and paychecks don't stretch. He wants to lower costs, grow wages, and invest in better jobs and stronger small businesses' (Ballotpedia key messages)",
-          "url": "https://ballotpedia.org/Texas%27_15th_Congressional_District_election,_2026"
-        },
         "health": {
           "label": "'He believes healthcare should be affordable and accessible, and he wants to strengthen clinics and rural hospitals, expand mental health access, and lower prescription drug prices' (Ballotpedia key messages)",
           "url": "https://ballotpedia.org/Texas%27_15th_Congressional_District_election,_2026"
@@ -5427,7 +5414,7 @@
       "ballotStatus": "nominee",
       "home": "Waco, TX",
       "now": "Criminal defense attorney, Waco",
-      "background": "Casey Shepard is a criminal defense attorney who has practiced in Central Texas since 2011 with an emphasis on indigent defense. A seventh-generation Texan whose family farms in Hill County, Shepard graduated from Midway High School near Waco in 1999, attended college in California on a policy debate scholarship, went to law school there, and returned to Waco in 2010. Shepard placed second in the March 3, 2026 Democratic primary with 32.4 percent and advanced to the May 26, 2026 runoff against Jamilah Flores, and is the candidate listed for U.S. Congress District 17 by the McLennan County Democratic Party.",
+      "background": "Casey Shepard is a criminal defense attorney who has practiced in Central Texas since 2011 with an emphasis on indigent defense. A seventh-generation Texan whose family farms in Hill County, Shepard graduated from Midway High School near Waco in 1999, attended college in California on a policy debate scholarship, went to law school there, and returned to Waco in 2010. Shepard placed second in the March 3, 2026 Democratic primary with 32.4 percent and won the May 26, 2026 runoff against Jamilah Flores with 59.6 percent to become the Democratic nominee.",
       "priorities": [
         "saving democracy",
         "feeding the hungry",
@@ -5443,7 +5430,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -5460,10 +5447,6 @@
         },
         "immigration": {
           "label": "Would update 'immigration policy so more trained medical workers can legally serve our communities' and so 'trained foreign construction workers can legally help build more homes' (campaign site, Casey's Vision)",
-          "url": "https://caseyshepardforcongress.com/caseys-vision"
-        },
-        "democracy": {
-          "label": "Saving Democracy pillar: 'Protect the separation of powers by making sure Congress can fully check the actions of the executive branch' and 'defend the rule of law by supporting a strong and independent judicial branch' (campaign site, Casey's Vision)",
           "url": "https://caseyshepardforcongress.com/caseys-vision"
         }
       },
@@ -5694,7 +5677,7 @@
           "url": "https://drbaezforcongress.com/"
         },
         "housing": {
-          "label": "'Affordable housing initiatives are essential for ensuring all families have a place they can call home in our community,' and his American Families and Communities Protection Act 'invests directly in the people and communities' with emphasis on affordable housing (campaign site)",
+          "label": "'Affordable housing initiatives are essential for ensuring all families have a place they can call home in our community' (campaign site)",
           "url": "https://drbaezforcongress.com/"
         },
         "immigration": {
@@ -5702,7 +5685,7 @@
           "url": "https://drbaezforcongress.com/"
         },
         "education": {
-          "label": "Documented mixed: calls to 'Support teachers and classroom resources' and says 'Students deserve quality education, and teachers deserve the resources to succeed,' while in the same list calling to 'Increase accountability in school districts' and 'Promote parent involvement' and elsewhere backing 'family-first educational and healthcare reforms' (campaign legislation page)",
+          "label": "Documented mixed: calls to 'Support teachers and classroom resources' while also calling to 'Increase accountability in school districts' and 'Promote parent involvement' (campaign legislation page)",
           "url": "https://www.drbaezforcongress.com/legislation"
         },
         "safety": {
@@ -5893,7 +5876,7 @@
         "immigration": 0,
         "taxes": null,
         "climate": null,
-        "education": -2,
+        "education": -1,
         "safety": null,
         "repro": -2,
         "democracy": -2
@@ -5909,7 +5892,7 @@
         },
         "education": {
           "label": "Platform headline 'Education: Investing In Public Schools', with the former classroom teacher pledging to 'strengthen our education system' (campaign issues page)",
-          "url": "https://www.drkristinhook.org/blank"
+          "url": "https://www.drkristinhook.org/issues"
         },
         "repro": {
           "label": "'I have been moved by all of the personal stories from women about how Texas' abortion ban has negatively impacted their family directly and their ability to access the healthcare they need', and decisions 'should be made by patients and providers, not politicians' (Ballotpedia Candidate Connection survey)",
@@ -5978,9 +5961,9 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": 2,
+        "taxes": 1,
         "climate": 2,
-        "education": 2,
+        "education": 1,
         "safety": 2,
         "repro": null,
         "democracy": null
@@ -5995,8 +5978,8 @@
           "url": "https://ballotpedia.org/Trever_Nehls"
         },
         "taxes": {
-          "label": "Says \"taxes and spending is out of control\" and would \"find and cut unnecessary spending and lower the tax burden\", pairing tax cuts with spending cuts (candidate's own campaign site)",
-          "url": "https://trevernehls.com/"
+          "label": "'I support lower taxes, fewer regulations, and a pro-growth agenda that strengthens the American economy' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Trever_Nehls"
         },
         "climate": {
           "label": "\"Energy Independence: Making America Prosperous Through Energy Independence\", backing expanded domestic oil, gas and nuclear production and opposing \"Biden anti-energy policies\" (Ballotpedia 2026 survey responses)",
@@ -6054,9 +6037,9 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": 0,
+        "housing": null,
         "immigration": -1,
-        "taxes": -1,
+        "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
@@ -6072,16 +6055,8 @@
           "label": "\"Now is the time to pass universal healthcare\", and \"Healthcare is a right, not a privilege\", alongside protecting and expanding ACA subsidies (campaign issues page)",
           "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts"
         },
-        "housing": {
-          "label": "Documented mixed: names both market and government causes, \"Limited housing supply, investor speculation, zoning restrictions, and rising interest rates have pushed rents and home prices far beyond what many families can afford\", answering with zoning reform on one side and a \"Lower Housing Costs\" intervention agenda on the other (campaign issues page)",
-          "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts"
-        },
         "immigration": {
           "label": "Leans to pathways while accepting enforcement: pathway to citizenship for those raised here, asylum backlog reform, guest worker programs and treating migrants with dignity, combined with increased border security resources (campaign issues page)",
-          "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts"
-        },
-        "taxes": {
-          "label": "Lists \"Fairer Tax Policy\" among her affordability remedies, framed as reducing income inequality and wealth disparities to support working families (campaign issues page)",
           "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts"
         },
         "repro": {
@@ -6449,23 +6424,19 @@
       "positions": {
         "cost": null,
         "health": -2,
-        "housing": -1,
+        "housing": null,
         "immigration": null,
         "taxes": null,
         "climate": null,
         "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "health": {
           "label": "'Additional priorities for Burge include regulating the growth of artificial intelligence, public education reform and universal health care insurance' (KERA News primary coverage); his campaign site lists 'medicare for all'",
           "url": "https://www.keranews.org/elections-2026/2026-02-25/3-democrats-face-off-against-republican-incumbent-in-u-s-house-district-24"
-        },
-        "housing": {
-          "label": "Campaign site lists 'affordable housing' first among his priorities (Burge for Congress)",
-          "url": "https://www.burgeforcongress.com/home"
         },
         "education": {
           "label": "Campaign site priorities include 'tuition-free public college & trade education' (Burge for Congress)",
@@ -6474,10 +6445,6 @@
         "repro": {
           "label": "Campaign site priorities include 'restoring abortion rights' (Burge for Congress)",
           "url": "https://www.burgeforcongress.com/home"
-        },
-        "democracy": {
-          "label": "'We need to be bringing back power to Congress and stopping an out-of-control executive branch. And we do that first and foremost by impeaching Trump.' Scored as institutional democracy defense, not as a stance on voting rules (KERA News)",
-          "url": "https://www.keranews.org/elections-2026/2026-02-25/3-democrats-face-off-against-republican-incumbent-in-u-s-house-district-24"
         }
       },
       "nullNotes": {
@@ -6622,7 +6589,7 @@
       "tier": "fec",
       "ballotStatus": "nominee",
       "now": "U.S. House of Representatives (TX-26)",
-      "background": "Gill is the first term Republican representing Texas 26, sworn in January 3, 2025 as successor to Michael C. Burgess. Ballotpedia records that he was born in Clovis, New Mexico in 1994, grew up near Abilene, Texas, and took degrees in economics and history from Dartmouth College in 2016 before working in investment banking and hedge fund analysis, launching a news outlet and producing film. He was named chairman of an Oversight task force in May 2026. He won the March 3, 2026 Republican primary against Robert Chick and Gavin Solomon.",
+      "background": "Gill is the first term Republican representing Texas 26, sworn in January 3, 2025 as successor to Michael C. Burgess. Ballotpedia records that he was born in Clovis, New Mexico in 1994, grew up near Abilene, Texas, and took degrees in economics and history from Dartmouth College in 2016 before working in investment banking and hedge fund analysis, launching a news outlet and producing film. He was named chairman of an Oversight task force in May 2026. He won the March 3, 2026 Republican primary with 91.1% over Robert Chick.",
       "priorities": [
         "border security and immigration enforcement",
         "cutting federal spending and taxes",
@@ -6716,7 +6683,7 @@
       "age": 45,
       "home": "Haslet, TX",
       "now": "Nurse practitioner",
-      "background": "Shook is a nurse practitioner with nearly two decades in health care, working in critical care across the Dallas Fort Worth area since 2009. He was born in Arlington, Texas and holds an associate degree from Tarrant County College in 2009, a bachelor's degree from Texas Tech University in 2012 and a graduate degree from the University of Texas at Arlington in 2018. He won the March 3, 2026 Democratic primary with 51.1 percent over Ernest Lineberger III and filed his FEC statement of candidacy on October 21, 2025.",
+      "background": "Shook is a nurse practitioner with nearly two decades in health care, working in critical care across the Dallas Fort Worth area since 2009. He was born in North Texas and holds an associate degree from Tarrant County College in 2009, a bachelor's degree from Texas Tech University in 2012 and a graduate degree from the University of Texas at Arlington in 2018. He won the March 3, 2026 Democratic primary with 51.1 percent over Ernest Lineberger III and filed his FEC statement of candidacy on October 21, 2025.",
       "priorities": [
         "health care affordability and access",
         "lowering the cost of living",
@@ -6730,9 +6697,9 @@
         "taxes": -1,
         "climate": null,
         "education": -2,
-        "safety": -1,
+        "safety": 0,
         "repro": null,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -6756,11 +6723,7 @@
           "url": "https://shookforcongress2026.com/#967b9dc5-c06c-46cf-b4f7-69182612b8b5"
         },
         "safety": {
-          "label": "Lists \"strengthening public safety through community policing\" among his priorities, with de-escalation and crisis intervention training and mental health access as the stated method (Ballotpedia Candidate Connection survey)",
-          "url": "https://ballotpedia.org/Steven_Shook"
-        },
-        "democracy": {
-          "label": "\"Defend voting rights while upholding election integrity and the rule of law\" (campaign site)",
+          "label": "Mixed: 'strengthening public safety through community policing' with de-escalation and crisis intervention training (campaign site)",
           "url": "https://shookforcongress2026.com/"
         }
       },
@@ -6914,7 +6877,9 @@
           "url": "https://www.fec.gov/data/candidate/H8TX27049/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-08-17",
+      "age": 51,
+      "home": "Victoria, TX"
     },
     {
       "id": "fec-H4TX27089",
@@ -6935,7 +6900,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": -1,
+        "health": null,
         "housing": null,
         "immigration": null,
         "taxes": null,
@@ -6946,10 +6911,6 @@
         "democracy": null
       },
       "positionSources": {
-        "health": {
-          "label": "\"Our rural communities deserve to have good health care and hospital access, yet Texas leads the nation in rural hospital closures. Tanya will fight to fix this\" (campaign priorities page)",
-          "url": "https://www.tanyafortx27.com/priorities"
-        },
         "education": {
           "label": "\"Tanya will protect public education from extreme Republicans who seek to gut our vital institutions\" and will \"support programs that uplift underserved youth, invest in K-12 students, and improve college affordability\" (campaign priorities page)",
           "url": "https://www.tanyafortx27.com/priorities"
@@ -7012,7 +6973,7 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": -2,
+        "housing": -1,
         "immigration": -2,
         "taxes": -2,
         "climate": -2,
@@ -7136,7 +7097,9 @@
           "url": "https://ballotpedia.org/Sylvia_Garcia"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-08-17",
+      "age": 75,
+      "home": "Houston, TX"
     },
     {
       "id": "fec-H2TX31044",
@@ -7498,16 +7461,16 @@
       },
       "positionSources": {
         "immigration": {
-          "label": "Priorities page section 'Keeping the Border Closed' backs mass deportation efforts and says he will 'oppose all amnesty efforts whether they come from the left or right' (campaign site)",
-          "url": "https://www.jaceforcongress.com/priorities"
+          "label": "'Applauds and supports President Trump's bold mass deportation efforts and will oppose all amnesty efforts' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jace_Yarbrough"
         },
         "taxes": {
-          "label": "Priorities section 'Cutting Runaway Spending and Making Washington Live Within Its Means': opposes tax increases and pledges to 'take a buzzsaw to federal spending' (campaign site)",
-          "url": "https://www.jaceforcongress.com/priorities"
+          "label": "Would 'take a buzzsaw to federal spending and oppose any effort to increase taxes' (BallotReady)",
+          "url": "https://www.ballotready.org/people/jace-yarbrough"
         },
         "climate": {
-          "label": "Priorities section 'Unleashing American Energy': expand American energy production and fight 'job-crushing Green New Deal policies' (campaign site)",
-          "url": "https://www.jaceforcongress.com/priorities"
+          "label": "'Will fight to support President Trump's expansion of American energy production' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jace_Yarbrough"
         },
         "education": {
           "label": "Campaign themes: schools should 'teach our children family values and hard work' and not 'radical woke gender ideologies', framed as parental control over curriculum (Ballotpedia)",
@@ -7584,11 +7547,11 @@
         "education": -2,
         "safety": -1,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
-          "label": "Taxes and affordability page: 'Raise wages, increase the federal minimum wage, create incentives for fair pay structures', alongside price gouging limits and merger scrutiny (campaign site)",
+          "label": "Taxes and affordability page: 'Raise wages, increase the federal minimum wage, create incentives for fair pay structures' (campaign site)",
           "url": "https://www.danbarriosforcongress.com/taxesandaffordabilty"
         },
         "health": {
@@ -7622,10 +7585,6 @@
         "repro": {
           "label": "Health care page: 'Restore access to reproductive healthcare in Texas: Codify Roe v. Wade and protect access to contraception and IVF' (campaign site)",
           "url": "https://www.danbarriosforcongress.com/accesstohealthcare"
-        },
-        "democracy": {
-          "label": "Restoring trust page calls for independent redistricting commissions to end gerrymandering and for reversing Citizens United so voters outweigh donors (campaign site)",
-          "url": "https://www.danbarriosforcongress.com/restoringtrustandaccountability"
         }
       },
       "nullNotes": {},
@@ -7762,7 +7721,8 @@
           "url": "https://www.fec.gov/data/candidate/H8TX32098/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-08-17",
+      "age": 43
     },
     {
       "id": "fec-H6TX35095",
@@ -7776,7 +7736,7 @@
       "ballotStatus": "nominee",
       "home": "San Antonio, TX",
       "now": "Public information officer, Bexar County Sheriff's Office",
-      "background": "Johnny Garcia has spent nearly two decades at the Bexar County Sheriff's Office, joining at 21 and working the jail, leading the inmate worker program, patrolling rural Bexar County, serving on the SWAT crisis negotiation team, and spending seven years as the department's public information officer under Sheriff Javier Salazar. He is a lifelong San Antonio resident who graduated from Memorial High School and worked construction while attending St. Philip's College. He announced his campaign in October 2025 for the redrawn 35th District, led the March 3, 2026 primary with 27.0 percent, and won the May 26 runoff over Maureen Galindo. He calls himself an old school Democrat and was added to the DCCC Red to Blue program before the runoff was even settled.",
+      "background": "Johnny Garcia has spent nearly two decades at the Bexar County Sheriff's Office, joining at 21 and working the jail, leading the inmate worker program, patrolling rural Bexar County, serving on the SWAT crisis negotiation team, and spending seven years as the department's public information officer under Sheriff Javier Salazar. He is a lifelong San Antonio resident who graduated from Memorial High School and worked construction while attending St. Philip's College. He announced his campaign in October 2025 for the redrawn 35th District, finished second in the March 3, 2026 primary with 27.0 percent behind Maureen Galindo, and won the May 26 runoff over Maureen Galindo. He calls himself an old school Democrat and was added to the DCCC Red to Blue program before the runoff was even settled.",
       "priorities": [
         "affordability and cost of living",
         "public safety",
@@ -7882,7 +7842,7 @@
         "immigration": 2,
         "taxes": null,
         "climate": 2,
-        "education": 1,
+        "education": null,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -7895,10 +7855,6 @@
         "climate": {
           "label": "Campaign theme American Energy Dominance: commits to \"roll back radical green regulations\" and to ensure Texas controls its energy future (Ballotpedia candidate page)",
           "url": "https://ballotpedia.org/Carlos_De_La_Cruz"
-        },
-        "education": {
-          "label": "Biography page lists \"Protecting parents' rights\" among his stated priorities, alongside opposition to what he calls woke policy in schools (campaign biography page)",
-          "url": "https://www.carlosforcongress.com/meet-carlos"
         },
         "safety": {
           "label": "Campaign theme Defending Law Enforcement: promises to back police with the resources they need to maintain law and order (Ballotpedia candidate page)",
@@ -8357,7 +8313,7 @@
         "immigration": 2,
         "taxes": 1,
         "climate": null,
-        "education": 2,
+        "education": 1,
         "safety": null,
         "repro": 2,
         "democracy": null

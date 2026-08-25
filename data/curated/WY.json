@@ -45,7 +45,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": 1,
+        "education": null,
         "safety": null,
         "repro": 1,
         "democracy": 2
@@ -65,10 +65,6 @@
         },
         "climate": {
           "label": "'America is blessed with abundant natural resources which can ensure that we have accessible and affordable energy'; names coal, oil, gas and uranium as legacy sources that can meet demand (House issues page)",
-          "url": "https://hageman.house.gov/issues"
-        },
-        "education": {
-          "label": "'Education should be laser-focused on the priorities of reading, writing and arithmetic', leaving other social issues 'to be discussed by parents at the time they determine is appropriate' (House issues page)",
           "url": "https://hageman.house.gov/issues"
         },
         "repro": {
@@ -180,7 +176,7 @@
       "ballotStatus": "lost",
       "incumbent": false,
       "age": 37,
-      "home": "Cheyenne, WY",
+      "home": "Casper, WY",
       "now": "Wyoming Superintendent of Public Instruction",
       "background": "Wyoming Superintendent of Public Instruction since 2023; sixth-generation Wyomingite from Casper who spent nearly a decade in government affairs for coal, oil and gas companies and once staffed then-Rep. Cynthia Lummis. Cancer survivor and rugby coach. Endorsed by President Trump, who calls her 'MAGA Megan', and by Rep. Harriet Hageman.",
       "priorities": [
@@ -293,7 +289,7 @@
           "url": "https://wyofile.com/sen-eric-barlow-will-run-for-wyoming-governor/"
         },
         "education": {
-          "label": "Co-sponsored the 2024 $6,000 education savings account bill but voted no on final passage after 30-plus amendments, 'now it's not my bill anymore'; campaign backs local control and parental involvement (WyoFile)",
+          "label": "Co-sponsored the 2024 $6,000 education savings account bill but voted no on final passage after 31 amendments (WyoFile)",
           "url": "https://wyofile.com/senate-approves-private-school-voucher-program/"
         }
       },

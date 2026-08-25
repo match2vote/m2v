@@ -201,7 +201,7 @@
         "housing": 0,
         "immigration": -1,
         "taxes": null,
-        "climate": -2,
+        "climate": -1,
         "education": -2,
         "safety": 0,
         "repro": -2,
@@ -225,11 +225,11 @@
           "url": "https://urbanmilwaukee.com/pressrelease/milwaukee-county-executive-david-crowley-statement-on-ice-arrests-at-courthouse/"
         },
         "climate": {
-          "label": "Led Milwaukee County climate plan (~48% emissions cut, zero-carbon by 2050); wants state investment in solar and retrofits (campaign record)",
+          "label": "Led Milwaukee County climate plan targeting a roughly 48% emissions cut (campaign record)",
           "url": "https://www.crowleyforwi.com/Record"
         },
         "education": {
-          "label": "Restore two-thirds state school funding, universal early childhood education; would not expand vouchers (Wisconsin Examiner voter guide)",
+          "label": "Restore two-thirds state school funding; would not expand vouchers (Wisconsin Examiner voter guide)",
           "url": "https://wisconsinexaminer.com/voter-guides/contests/2026-democratic-primary-governor/"
         },
         "safety": {
@@ -237,7 +237,7 @@
           "url": "https://wisconsinexaminer.com/voter-guides/contests/2026-democratic-primary-governor/"
         },
         "repro": {
-          "label": "'Access to safe, legal abortion is essential healthcare'; co-sponsored 2017 resolution declaring abortion is health care (official statement)",
+          "label": "'Access to safe, legal abortion is essential healthcare' (official statement)",
           "url": "https://county.milwaukee.gov/EN/County-Executive/News/Milwaukee-County-Executive-David-Crowleys-Statement-on-Wisconsin-Supreme-Court-1849-Abortion-Ban-Ruling"
         },
         "democracy": {
@@ -301,7 +301,7 @@
         "climate": 2,
         "education": 1,
         "safety": 2,
-        "repro": 1,
+        "repro": 2,
         "democracy": 2
       },
       "positionSources": {
@@ -310,7 +310,7 @@
           "url": "https://tomtiffany.com/solutions/"
         },
         "health": {
-          "label": "Backs price transparency and market competition; opposes Medicare for All (Fox6 primary coverage)",
+          "label": "Backs price transparency, hospital and insurer accountability, and anti-fraud measures (Fox6 primary coverage)",
           "url": "https://www.fox6now.com/news/wisconsin-governor-race-republican-primary-081126"
         },
         "housing": {
@@ -318,7 +318,7 @@
           "url": "https://tomtiffany.com/solutions/"
         },
         "immigration": {
-          "label": "Ban sanctuary cities statewide, enforce immigration laws, secure the border; opposes amnesty (campaign site)",
+          "label": "Ban sanctuary cities statewide, enforce immigration laws, secure the border (campaign site)",
           "url": "https://tomtiffany.com/solutions/"
         },
         "taxes": {
@@ -326,7 +326,7 @@
           "url": "https://tomtiffany.com/solutions/"
         },
         "climate": {
-          "label": "Promote baseload power, fight wind/solar projects on farmland; record of opposing environmental regulation (campaign site)",
+          "label": "Promote baseload power and fight wind and solar projects on farmland (campaign site)",
           "url": "https://tomtiffany.com/solutions/"
         },
         "education": {
@@ -338,7 +338,7 @@
           "url": "https://tomtiffany.com/solutions/"
         },
         "repro": {
-          "label": "Pro-life; supports Wisconsin's existing 20-week abortion ban, calling it a 'compromise'; voted to defund Planned Parenthood as a state legislator (Fox6)",
+          "label": "Pro-life; supports Wisconsin's existing 20-week abortion ban and voted in Congress for a federal six-week ban (Fox6)",
           "url": "https://www.fox6now.com/news/wisconsin-governor-race-republican-primary-081126"
         },
         "democracy": {
@@ -425,7 +425,7 @@
     {
       "id": "wi-house-2-alexander",
       "name": "Douglas Alexander",
-      "party": "Republican",
+      "party": "Democrat",
       "office": "us-house",
       "district": "2",
       "state": "WI",

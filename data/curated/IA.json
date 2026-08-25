@@ -112,7 +112,7 @@
       "state": "IA",
       "tier": "curated",
       "ballotStatus": "nominee",
-      "background": "U.S. Representative for IA-02 since 2021; former TV news anchor. Won the June 2026 Republican primary for the open seat.",
+      "background": "U.S. Representative since 2021 (IA-01, then IA-02 after redistricting); former TV news anchor. Won the June 2026 Republican primary for the open seat.",
       "positions": {
         "cost": 1,
         "health": 1,
@@ -177,7 +177,10 @@
           "url": "https://www.fec.gov/data/candidate/S6IA00314/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "incumbent": false,
+      "home": "Marion, IA",
+      "now": "U.S. Representative (IA-02)"
     },
     {
       "id": "fec-S6IA00298",
@@ -198,7 +201,7 @@
         "education": -2,
         "safety": -1,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -229,12 +232,8 @@
           "label": "'Cut taxes for the middle class and working families and close loopholes for billionaires and big corporations' (campaign platform)",
           "url": "https://turek4iowa.com/platform/"
         },
-        "democracy": {
-          "label": "Constitutional amendment to reverse Citizens United, DISCLOSE Act, ban corporate PAC money, congressional stock-trading ban, term limits (campaign platform)",
-          "url": "https://turek4iowa.com/platform/"
-        },
         "safety": {
-          "label": "Voted no on SF 2399 imposing mandatory minimum cash bonds for repeat offenders (Iowa House Journal, March 4, 2026)",
+          "label": "Voted no on SF 2399, which requires judges to give written justification for setting bail below the uniform bond schedule and restricts release for certain offenses (Iowa House Journal, March 4, 2026)",
           "url": "https://www.legis.iowa.gov/docs/publications/HJNL/20260304_HJNL.pdf"
         }
       },

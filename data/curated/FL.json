@@ -134,7 +134,7 @@
       "age": 51,
       "home": "Florida (born Kyiv, came to the U.S. as a child refugee)",
       "now": "Retired Army Lt. Colonel; senior fellow, Johns Hopkins SAIS",
-      "background": "Retired Army lieutenant colonel with a 21-year career including Iraq combat; National Security Council director for European affairs 2018-2020 and a key witness in the first Trump impeachment. Leads the Democratic primary field on fundraising against state Rep. Angie Nixon.",
+      "background": "Retired Army lieutenant colonel with a 21-year career including Iraq combat; National Security Council director for European affairs 2018-2020 and a key witness in the first Trump impeachment. Lost the Aug. 18, 2026 Democratic primary to state Rep. Angie Nixon despite a large fundraising advantage.",
       "priorities": [
         "Lower costs: insurance, housing, health care",
         "Anti-corruption: congressional stock-trading ban",
@@ -146,11 +146,11 @@
         "housing": 0,
         "immigration": -1,
         "taxes": -1,
-        "climate": 0,
+        "climate": 1,
         "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -184,10 +184,6 @@
         "repro": {
           "label": "'I'll fight to restore her rights, and the rights of women across our state' (candidate profile)",
           "url": "https://smarter.vote/races/fl-senate-2026-special/alexander-vindman/"
-        },
-        "democracy": {
-          "label": "Ban congressional stock trading with jail for violations, repeal Citizens United, refuse corporate PAC money (campaign agenda)",
-          "url": "https://alexvindman.com/florida-first-agenda/"
         }
       },
       "nullNotes": {
@@ -414,7 +410,7 @@
       "age": 53,
       "home": "Dunedin, FL",
       "now": "Former U.S. Representative (FL-13)",
-      "background": "Fifth-generation Floridian and former Republican congressman (2014-2017) who left the GOP in 2018 and registered as a Democrat in 2025. Attorney and former MSNBC political analyst. Leads the Democratic primary field in polling.",
+      "background": "Fifth-generation Floridian and former Republican congressman (2014-2017) who left the GOP in 2018 and registered as a Democrat in 2025. Attorney and former MSNBC political analyst. Won the Aug. 18, 2026 Democratic primary.",
       "priorities": [
         "Fix the property-insurance crisis with a state catastrophic fund",
         "Invest in public schools; reform vouchers",
@@ -423,10 +419,10 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": -1,
+        "housing": null,
         "immigration": -1,
         "taxes": -1,
-        "climate": -2,
+        "climate": -1,
         "education": -2,
         "safety": 0,
         "repro": -2,
@@ -438,11 +434,7 @@
           "url": "https://davidjolly.com/issues/"
         },
         "health": {
-          "label": "Expand Medicaid; supports the ACA; protect access despite federal cuts (campaign site)",
-          "url": "https://davidjolly.com/issues/"
-        },
-        "housing": {
-          "label": "Insurance fix plus no-interest condo-repair loans; 'reducing costs for homeowners, renters, and retirees' (campaign site)",
+          "label": "Expand Medicaid; 'healthcare for all Floridians'; protect access despite federal cuts (campaign site)",
           "url": "https://davidjolly.com/issues/"
         },
         "immigration": {
@@ -454,7 +446,7 @@
           "url": "https://davidjolly.com/issues/"
         },
         "education": {
-          "label": "Dramatically increase public-school investment and teacher pay; means-test and cap vouchers (campaign site)",
+          "label": "Dramatically increase public-school investment and teacher pay; means-test vouchers (campaign site)",
           "url": "https://davidjolly.com/issues/"
         },
         "safety": {

@@ -162,7 +162,7 @@
       "age": 41,
       "home": "Sullivan, ME",
       "now": "Oyster farmer; Sullivan harbormaster",
-      "background": "Oyster farmer, Marine Corps and Army National Guard veteran (Iraq and Afghanistan), and political newcomer endorsed by Bernie Sanders. Won the June Democratic primary with about 78% over Gov. Janet Mills, who had suspended her campaign in April. His campaign rejects PAC money and reported a $4.1M first-quarter 2026 haul, largely from working people.",
+      "background": "Oyster farmer, Marine Corps and Army National Guard veteran (Iraq and Afghanistan), and political newcomer endorsed by Bernie Sanders. Won the June Democratic primary over Gov. Janet Mills, who had suspended her campaign in April. His campaign rejects PAC money and reported a $4.1M first-quarter 2026 haul, largely from working people.",
       "priorities": [
         "Get billionaire money out of politics",
         "Medicare for All",
@@ -178,7 +178,7 @@
         "education": -2,
         "safety": -1,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -215,10 +215,6 @@
         },
         "repro": {
           "label": "Strong federal statutory guarantee of the right to choose (campaign platform)",
-          "url": "https://www.grahamforsenate.com/platform"
-        },
-        "democracy": {
-          "label": "Constitutional amendment to overturn Citizens United; 'ban billionaires buying elections' (campaign platform)",
           "url": "https://www.grahamforsenate.com/platform"
         }
       },

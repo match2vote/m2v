@@ -367,14 +367,14 @@
       "state": "OH",
       "tier": "curated",
       "ballotStatus": "nominee",
-      "background": "U.S. Senator 1993–2025 (House then Senate); lost his seat in 2024, now running in the 2026 special election. Known as one of the Senate's most labor-focused members.",
+      "background": "U.S. Representative (OH-13) 1993-2007 and U.S. Senator 2007-2025; lost his seat in 2024, now running in the 2026 special election. Known as one of the Senate's most labor-focused members.",
       "positions": {
         "cost": -2,
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": -2,
-        "climate": -1,
+        "taxes": -1,
+        "climate": null,
         "education": -1,
         "safety": -1,
         "repro": -2,
@@ -395,10 +395,6 @@
         },
         "taxes": {
           "label": "Fought the 2017 tax law as favoring the wealthy and corporations (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
-        },
-        "climate": {
-          "label": "Pushed EPA to regulate PFAS 'forever chemicals' (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Sherrod_Brown"
         },
         "immigration": {
@@ -436,7 +432,10 @@
           "url": "https://www.fec.gov/data/candidate/S6OH00163/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "age": 73,
+      "home": "Cleveland, OH",
+      "now": "Former U.S. Senator; founder, Dignity of Work Institute"
     },
     {
       "id": "fec-S6OH00304",
@@ -478,15 +477,15 @@
         },
         "health": {
           "label": "Defends One Big Beautiful Bill Medicaid work requirements: 'work 20 hours a week or take classes' (Blue Water Healthy Living)",
-          "url": "https://bluewaterhealthyliving.com/news/national-news/ohio/whats-packed-into-big-beautiful-bill-for-ohioans-u-s-sen-jon-husted-shares-his-view/"
+          "url": "https://signalakron.org/senator-jon-husted-discusses-health-care-medicare-medicaid-immigration-at-akron-roundtable/"
         },
         "immigration": {
           "label": "Backs deporting people 'who came here illegally and committed crimes' while wanting legal pathways for agriculture and construction workers (Blue Water Healthy Living)",
-          "url": "https://bluewaterhealthyliving.com/news/national-news/ohio/whats-packed-into-big-beautiful-bill-for-ohioans-u-s-sen-jon-husted-shares-his-view/"
+          "url": "https://signalakron.org/senator-jon-husted-discusses-health-care-medicare-medicaid-immigration-at-akron-roundtable/"
         },
         "repro": {
-          "label": "Campaign pledge: 'Jon will always stand for life, defend the most vulnerable' (Husted for Senate)",
-          "url": "https://www.jonhustedforsenate.com/"
+          "label": "Describes himself as a 'champion for life whose own started in foster care before being adopted' (campaign bio)",
+          "url": "https://www.jonhustedforsenate.com/bio/"
         },
         "cost": {
           "label": "Voted yes on S.J.Res. 18 to repeal the CFPB's $5 overdraft fee cap, March 27, 2025 (Senate roll call vote 153)",
@@ -531,7 +530,7 @@
         "taxes": 2,
         "climate": 2,
         "education": 1,
-        "safety": 0,
+        "safety": 2,
         "repro": 2,
         "democracy": 2
       },
@@ -550,7 +549,7 @@
         },
         "safety": {
           "label": "Mixed: military action against cartels, but supports federal marijuana legalization (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+          "url": "https://vivekforohio.com/the-plan"
         },
         "democracy": {
           "label": "Proposed raising the voting age to 25 absent service or a civics test (2023 campaign) (Wikipedia)",
@@ -580,7 +579,7 @@
         }
       ],
       "curatedAt": "2026-08-13",
-      "home": "Cincinnati, OH",
+      "home": "Upper Arlington, OH",
       "now": "Entrepreneur; 2024 presidential candidate",
       "nullNotes": {
         "housing": "checked vivekforohio.com plan (homeownership mentioned only via lower cost of living, no housing policy) and Ballotpedia, nothing documented"
@@ -598,11 +597,11 @@
       "background": "Physician and former Ohio Department of Health director, the state's trusted voice in the early COVID-19 response.",
       "positions": {
         "cost": -1,
-        "health": -2,
+        "health": -1,
         "housing": null,
         "immigration": 0,
         "taxes": null,
-        "climate": -1,
+        "climate": 0,
         "education": -2,
         "safety": 0,
         "repro": -2,
@@ -649,7 +648,7 @@
         }
       ],
       "curatedAt": "2026-08-13",
-      "home": "Columbus, OH",
+      "home": "Bexley, OH",
       "now": "Former Director, Ohio Department of Health",
       "nullNotes": {
         "housing": "checked actonforgovernor.com issues hub and affordability agenda (no housing plank) and Ballotpedia (2026 survey not completed), nothing documented",
@@ -684,7 +683,8 @@
           "url": "https://ballotpedia.org/Marcy_Kaptur"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "age": 80
     },
     {
       "id": "fec-H4OH09169",
@@ -714,7 +714,8 @@
           "url": "https://ballotpedia.org/Derek_Merrin"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "age": 40
     },
     {
       "id": "oh-house-1-hancock",
@@ -884,7 +885,7 @@
       "sources": [
         {
           "label": "Erie County BOE Nov 3, 2026 candidate filings",
-          "url": "https://www.boe.ohio.gov/erie/c/upload/Election_Candidates.pdf"
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio"
         },
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",

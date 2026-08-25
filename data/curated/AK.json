@@ -38,7 +38,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": 1,
+        "education": null,
         "safety": 1,
         "repro": 2,
         "democracy": 1
@@ -67,10 +67,6 @@
         "climate": {
           "label": "'Unleashing Alaska's energy potential': shaped the 2025 bill mandating ANWR, NPR-A, and Cook Inlet lease sales over the next decade (Senate office)",
           "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-shapes-one-big-beautiful-bill-to-unleash-alaskas-economy-create-good-paying-jobs-provide-historic-tax-cuts-for-working-families-and-strengthen-health-care"
-        },
-        "education": {
-          "label": "Backed returning school control 'to teachers, local school boards, states, and engaged parents' over federal mandates (Senate office, 2015)",
-          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-supports-major-education-reform-bill"
         },
         "safety": {
           "label": "Leads statewide 'One Pill Can Kill' anti-fentanyl campaign: interdiction with law enforcement plus prevention and treatment (Senate office)",
@@ -135,7 +131,7 @@
         "education": -1,
         "safety": -1,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -165,10 +161,6 @@
         "repro": {
           "label": "Pro-choice; supports codifying Roe v. Wade protections in federal law (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
-        },
-        "democracy": {
-          "label": "'Fixing the Rigged System' plan: 12-year term limits, congressional stock-trading ban, DISCLOSE Act, overturn Citizens United (campaign site)",
-          "url": "https://marypeltola.com/fixing-system/"
         },
         "safety": {
           "label": "Voted against H.J.Res. 26, the resolution overturning DC's revised criminal code and its lower sentences; it passed 250-173 (House roll call 119, 2023)",

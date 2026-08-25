@@ -73,7 +73,7 @@
       "age": 59,
       "home": "Billings, MT",
       "now": "Attorney; resigned as U.S. Attorney for Montana in March 2026 to run",
-      "background": "Great Falls-born attorney who served twice as U.S. Attorney for the District of Montana (2017-2020 and 2025-2026, both under President Trump) and as Gov. Gianforte's budget director and Revenue Department director; also led the Yellowstone Boys and Girls Ranch Foundation. Filed for the seat minutes before Sen. Steve Daines withdrew and endorsed him, then won the June 2, 2026 Republican primary with 77%. Endorsed by Trump, Daines, Gianforte, and Sen. Sheehy; has never before run for office.",
+      "background": "Great Falls-born attorney who served twice as U.S. Attorney for the District of Montana (2017-2020 and 2025-2026, both under President Trump) and as Gov. Gianforte's budget director and Revenue Department director; also led the Yellowstone Boys and Girls Ranch Foundation. Filed for the seat minutes before Sen. Steve Daines withdrew and endorsed him, then won the June 2, 2026 Republican primary with about 76%. Endorsed by Trump, Daines, Gianforte, and Sen. Sheehy; has never before run for office.",
       "priorities": [
         "Make life more affordable",
         "Make communities safer: prosecute violent crime and cartel drug trafficking",
@@ -178,11 +178,11 @@
         "housing": -1,
         "immigration": 0,
         "taxes": null,
-        "climate": -1,
+        "climate": 0,
         "education": -1,
         "safety": 1,
         "repro": -2,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "health": {
@@ -190,7 +190,7 @@
           "url": "https://alaniformt.com/positions"
         },
         "housing": {
-          "label": "'A Montana paycheck should buy a Montana home'; tax breaks for construction companies building affordable housing (Montana Free Press election guide)",
+          "label": "'A Montana paycheck should buy a Montana home'; backs tax breaks for construction companies building affordable housing (Montana Free Press election guide)",
           "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/"
         },
         "immigration": {
@@ -198,7 +198,7 @@
           "url": "https://alaniformt.com/positions"
         },
         "climate": {
-          "label": "'Public lands stay public: period', no sales or exploitation, environmental studies before data centers; 'I would never allow the exploitation or development of our public lands' (campaign positions page)",
+          "label": "Mixed: 'Public lands stay public: period', with environmental studies before data centers, but also 'I'm for the Bakken and Montana energy' (campaign positions page)",
           "url": "https://alaniformt.com/positions"
         },
         "education": {
@@ -211,10 +211,6 @@
         },
         "repro": {
           "label": "'Reproductive freedom: trust people, not the government'; protect abortion access, citing Montana's constitutional protections (campaign positions page)",
-          "url": "https://alaniformt.com/positions"
-        },
-        "democracy": {
-          "label": "Supreme Court ethics reform on undisclosed gifts (campaign positions page); backs the 'Montana Plan' to eliminate dark money in politics (Daily Montanan)",
           "url": "https://alaniformt.com/positions"
         }
       },
@@ -270,7 +266,7 @@
         "education": null,
         "safety": null,
         "repro": -1,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "health": {
@@ -292,10 +288,6 @@
         "repro": {
           "label": "Supports abortion rights, per NPR's profile of the race (NPR)",
           "url": "https://www.npr.org/2026/08/09/nx-s1-5922215/montanas-democratic-candidate-is-facing-pressure-to-drop-out-by-the-deadline"
-        },
-        "democracy": {
-          "label": "'Overturn Citizens United', 'end gerrymandering with mandatory nonpartisan redistricting', ban congressional insider trading, full financial transparency for Congress, the executive branch, and the Supreme Court (campaign platform)",
-          "url": "https://www.sethformontana.com/Platform"
         }
       },
       "controversies": [
@@ -365,7 +357,7 @@
           "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
         },
         "health": {
-          "label": "'Healthcare 2.0': 'eliminate the insurance corruption, and eliminate government overreach', oppose subsidizing insurers, consolidate Medicare, Medicaid, Tricare, and VA for efficiency (Montana Public Radio Q&A)",
+          "label": "'Healthcare 2.0': 'eliminate the insurance corruption, and eliminate government overreach' (Montana Public Radio Q&A)",
           "url": "https://www.mtpr.org/montana-news/2026-05-06/q-a-kyle-austin-libertarian-u-s-senate-candidate"
         },
         "housing": {

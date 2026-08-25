@@ -88,7 +88,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": 1,
+        "health": 2,
         "housing": null,
         "immigration": 1,
         "taxes": 2,
@@ -176,7 +176,7 @@
         "education": -1,
         "safety": null,
         "repro": -1,
-        "democracy": -1
+        "democracy": null
       },
       "positionSources": {
         "cost": {
@@ -205,10 +205,6 @@
         },
         "repro": {
           "label": "Supports Idaho's Reproductive Freedom and Privacy Act ballot initiative and says voters should decide (campaign policies)",
-          "url": "https://www.achillesforidaho.com/policies"
-        },
-        "democracy": {
-          "label": "Term limits (two Senate terms, three House terms), mandatory retirement at 72 for members of Congress, ban gerrymandering, end congressional stock trading (campaign policies)",
           "url": "https://www.achillesforidaho.com/policies"
         }
       },
@@ -261,7 +257,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": null,
-        "education": 0,
+        "education": 1,
         "safety": 2,
         "repro": 2,
         "democracy": 1
@@ -334,7 +330,7 @@
       "incumbent": false,
       "home": "Boise, ID",
       "now": "Attorney, founding partner of Pickens Law",
-      "background": "Boise attorney and founding partner of Pickens Law, raised in Pocatello; the 2022 Democratic nominee for lieutenant governor. Won the May 19 Democratic gubernatorial primary with about 61% over Jill Kirkham (17%), campaigning on public schools and ending what she calls the Legislature's 'endless culture war.'",
+      "background": "Boise attorney and founding partner of Pickens Law, raised in Pocatello; the 2022 Democratic nominee for lieutenant governor. Won the May 19 Democratic gubernatorial primary with about 65% over Jill Kirkham (15%), campaigning on public schools and ending what she calls the Legislature's 'endless culture war.'",
       "priorities": [
         "Fund public schools: teacher pay, pre-K, full-day kindergarten",
         "Restore reproductive freedom",
@@ -345,7 +341,7 @@
         "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": -1,
+        "taxes": null,
         "climate": null,
         "education": -2,
         "safety": null,
@@ -359,10 +355,6 @@
         },
         "immigration": {
           "label": "'We are a country of immigrants'; says the US needs immigrant workers with 'simple and easy ways for them to work here' and humane treatment of people who entered illegally (campaign issues)",
-          "url": "https://www.terriforidaho.com/issues"
-        },
-        "taxes": {
-          "label": "Wants 'a system that works for everyday Idahoans, not billionaires', with a stable tax structure for small business (campaign issues)",
           "url": "https://www.terriforidaho.com/issues"
         },
         "education": {

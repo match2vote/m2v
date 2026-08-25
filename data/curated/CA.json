@@ -997,7 +997,7 @@
       "background": "U.S. Health and Human Services Secretary 2021–2025; California Attorney General 2017–2021 (filed 122 lawsuits against the first Trump administration); 24 years in the U.S. House. Advanced from the June 2026 top-two primary.",
       "positions": {
         "cost": -1,
-        "health": -2,
+        "health": -1,
         "housing": -2,
         "immigration": -2,
         "taxes": -2,
@@ -1009,7 +1009,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Campaign centers affordability; negotiated Medicare drug prices 38–79% below list (Wikipedia)",
+          "label": "As HHS Secretary ran the first Medicare drug-price negotiations, cutting list prices 38 to 79 percent (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Xavier_Becerra"
         },
         "health": {
@@ -1058,7 +1058,7 @@
       "curatedAt": "2026-08-13",
       "age": 68,
       "home": "Sacramento, CA",
-      "now": "U.S. Secretary of Health and Human Services",
+      "now": "Former U.S. Secretary of Health and Human Services (2021-2025)",
       "priorities": [
         "Build more housing",
         "Protect and expand health care",
@@ -1085,7 +1085,7 @@
         "housing": 2,
         "immigration": 1,
         "taxes": 2,
-        "climate": 2,
+        "climate": 1,
         "education": null,
         "safety": 2,
         "repro": null,
@@ -1109,7 +1109,7 @@
           "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/"
         },
         "climate": {
-          "label": "'$3 gas,' halve electric bills through energy deregulation (KEYT)",
+          "label": "Pitches '$3 gas' and halving electric bills through energy deregulation (KEYT)",
           "url": "https://keyt.com/news/top-stories/2026/05/22/steve-hilton-pitches-cali-ffordability-campaign-in-california-governors-race/"
         },
         "safety": {
@@ -1184,15 +1184,15 @@
       "age": null,
       "home": "Contra Costa County, CA",
       "now": "Small business owner",
-      "background": "Small business owner and father from Contra Costa County who has no FEC candidate record and ran a locally focused campaign, arguing his opponent is preoccupied with national and international matters. He advanced from the June 2, 2026 top-two primary against fourteen year incumbent Mark DeSaulnier in a district that has not elected a Republican in decades.",
+      "background": "Small business owner and father from Contra Costa County who has no FEC candidate record and ran a locally focused campaign, arguing his opponent is preoccupied with national and international matters. He advanced from the June 2, 2026 top-two primary against incumbent Mark DeSaulnier, in office since 2015, in a district that has not elected a Republican in decades.",
       "priorities": [
         "Stop deficit spending that drives up mortgage rates and prices",
         "Cut red tape that makes building slow and expensive",
-        "Back the police and stop the fentanyl pipeline"
+        "Back the police and get fentanyl off the streets"
       ],
       "positions": {
         "cost": 2,
-        "health": -1,
+        "health": null,
         "housing": 0,
         "immigration": null,
         "taxes": 1,
@@ -1207,16 +1207,12 @@
           "label": "'Stop the deficit spending that drives up mortgage rates and prices' (campaign site)",
           "url": "https://freseforcongress.com/"
         },
-        "health": {
-          "label": "'Cap insulin and cut prescription drug costs', a price intervention rather than a market competition remedy (campaign site)",
-          "url": "https://freseforcongress.com/"
-        },
         "housing": {
           "label": "Mixed: would 'ban Wall Street and hedge funds from buying up single-family homes, homes are for families, not portfolios', while also promising to 'cut the red tape that makes building slow and expensive, communities decide how they grow, not Washington' (campaign site)",
           "url": "https://freseforcongress.com/"
         },
         "taxes": {
-          "label": "'Reward work, let people keep more of what they earn' and 'no federal tax on teachers' salaries' (campaign site)",
+          "label": "'No federal tax on teachers' salaries' (campaign site)",
           "url": "https://freseforcongress.com/"
         },
         "education": {
@@ -1224,7 +1220,7 @@
           "url": "https://freseforcongress.com/"
         },
         "safety": {
-          "label": "'Back the police. Prosecute crime', plus 'get serious about fentanyl' and 'stop the fentanyl pipeline' (campaign site)",
+          "label": "'Back the police. Prosecute crime.' and pledges to stop fentanyl trafficking (campaign site)",
           "url": "https://freseforcongress.com/"
         },
         "democracy": {
@@ -1280,7 +1276,7 @@
     },
     {
       "id": "ca-house-16-soule",
-      "name": "Peter Sundin Soule",
+      "name": "Peter Sundin Soulé",
       "party": "Republican",
       "office": "us-house",
       "district": "16",
@@ -1541,8 +1537,8 @@
           "url": "https://electjamesgallagher.com/"
         },
         "climate": {
-          "label": "'The high gas prices in California are a result of California policy'; says 'you need to streamline the overly complicated environmental regulations' (Chico News and Review)",
-          "url": "https://chico.newsreview.com/2026/05/11/cnr-interview-with-assemblyman-james-gallagher/"
+          "label": "'Expand energy production to bring prices down'; blames California policy for high gas prices (campaign site)",
+          "url": "https://electjamesgallagher.com/"
         },
         "safety": {
           "label": "Campaign pledge to 'enact tougher laws protect our communities, neighborhoods and homes from crime' (campaign site)",
@@ -1690,7 +1686,7 @@
         "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": -2,
+        "taxes": -1,
         "climate": -2,
         "education": -1,
         "safety": null,
@@ -1765,7 +1761,7 @@
       "tier": "fec",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
+      "age": 35,
       "home": "Napa County, CA",
       "now": "Investor and nonprofit founder",
       "background": "First generation college graduate who attended Yale on a full scholarship and became a partner at the investment firm Dragoneer, with earlier work at companies including Lyra Health, Duolingo and Chime. He and his wife founded the Rachel and Eric Jones Foundation and the American Dream Institute. A political newcomer, he outraised the fourteen term incumbent and finished second in the June 2, 2026 top-two primary, setting up an all Democratic November race against Mike Thompson.",
@@ -1777,7 +1773,7 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": -2,
+        "housing": -1,
         "immigration": -1,
         "taxes": -2,
         "climate": -1,
@@ -1849,9 +1845,9 @@
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 70,
-      "home": null,
+      "home": "Elk Grove, CA",
       "now": "U.S. House of Representatives (CA-05)",
-      "background": "One of the longest serving fiscal conservatives in California politics, with nearly two decades in the state legislature and two runs for governor before winning his U.S. House seat in 2008. He sits on the Natural Resources, Judiciary and Budget committees and is a consistent vote against federal spending. He led the June 2, 2026 top-two primary and faces Democrat Michael Masuda in November.",
+      "background": "One of the longest serving fiscal conservatives in California politics, with more than two decades in the state legislature and a run for governor in the 2003 recall before winning his U.S. House seat in 2008. He sits on the Natural Resources, Judiciary and Budget committees and is a consistent vote against federal spending. He led the June 2, 2026 top-two primary and faces Democrat Michael Masuda in November.",
       "priorities": [
         "Cut federal spending, subsidies, grants and earmarks",
         "Open up resource and energy production",
@@ -1899,12 +1895,12 @@
           "url": "https://mcclintock.house.gov/issues/education"
         },
         "safety": {
-          "label": "Mixed: authored California's lethal injection death penalty provision, but voted against qualified immunity for police in 2020 and cosponsored the Ending Qualified Immunity Act (Wikipedia)",
+          "label": "Mixed: authored California's lethal injection provision, but in 2020 was the sole House Republican to cosponsor the Ending Qualified Immunity Act (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Tom_McClintock"
         },
         "repro": {
-          "label": "Voted for H.R. 36, the Pain-Capable Unborn Child Protection Act, which would ban abortion after twenty weeks (Ballotpedia key votes)",
-          "url": "https://ballotpedia.org/Tom_McClintock"
+          "label": "Voted yes on H.R. 36, the Pain-Capable Unborn Child Protection Act, a 20-week abortion ban, May 13, 2015 (House roll call 223)",
+          "url": "https://clerk.house.gov/evs/2015/roll223.xml"
         },
         "democracy": {
           "label": "Voted yes on the SAVE Act, requiring documentary proof of citizenship to register to vote, April 10, 2025 (House roll call 102)",
@@ -1942,8 +1938,8 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": 37,
-      "home": "Amador County, CA",
+      "age": 36,
+      "home": "Modesto, CA",
       "now": "Electrical engineer, former U.S. State Department diplomat",
       "background": "Electrical engineer who spent seven years in defense research before serving three and a half years as a State Department diplomat working on science and technology policy. He grew up in Amador County and is the only Democrat in the race who lives inside the district. He advanced from the June 2, 2026 top-two primary against sixteen year incumbent Tom McClintock, running on rural cost of living, wildfire and hospital access.",
       "priorities": [
@@ -1957,7 +1953,7 @@
         "housing": 0,
         "immigration": 0,
         "taxes": -1,
-        "climate": 1,
+        "climate": null,
         "education": -2,
         "safety": -1,
         "repro": null,
@@ -1969,7 +1965,7 @@
           "url": "https://www.votemasuda.com/issues"
         },
         "health": {
-          "label": "Would 'protect Medicare and Medi-Cal', 'reduce prescription drug and out-of-pocket costs' and 'strengthen oversight to address cost drivers', and says 'I'm not going to vote to repeal the Affordable Care Act' (campaign issues)",
+          "label": "Would 'protect Medicare and Medi-Cal', 'reduce prescription drug and out-of-pocket costs' and 'strengthen oversight to address cost drivers' (campaign issues)",
           "url": "https://www.votemasuda.com/issues"
         },
         "housing": {
@@ -1982,10 +1978,6 @@
         },
         "taxes": {
           "label": "Faults the incumbent for 'backing tax cuts that benefit corporations and the wealthy' while voting against rural hospital and wildfire funding (campaign issues)",
-          "url": "https://www.votemasuda.com/issues"
-        },
-        "climate": {
-          "label": "Energy plank is framed on cost and reliability, not emissions: 'reduce energy costs and improve reliability', 'support locally driven energy solutions, including biomass', 'focus on stable, predictable energy costs' (campaign issues)",
           "url": "https://www.votemasuda.com/issues"
         },
         "education": {
@@ -2027,7 +2019,7 @@
     {
       "id": "fec-H2CA03157",
       "name": "Kevin Kiley",
-      "party": "No Party Preference",
+      "party": "Independent",
       "office": "us-house",
       "district": "6",
       "state": "CA",
@@ -2121,7 +2113,7 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": 60,
-      "home": null,
+      "home": "Sacramento, CA",
       "now": "Pediatrician and professor at UC Davis",
       "background": "Pediatrician and UC Davis professor who led the university's pediatric residency program before serving in the California Assembly and State Senate from 2010 to 2022. He is best known for Senate Bill 277, the 2015 law that ended personal belief exemptions to school vaccine requirements after a measles outbreak. He says the dismantling of federal public health work under RFK Jr. is what pushed him to run, and he advanced from the June 2, 2026 top-two primary against Kevin Kiley.",
       "priorities": [
@@ -2143,7 +2135,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "'Passed laws that cut the price of insulin' and pledges to 'control the cost of prescription drugs and health care' (campaign site)",
+          "label": "Says he 'passed laws that cut the price of insulin' and pledges to keep fighting to lower prescription drug and health care costs (campaign site)",
           "url": "https://drpanforcongress.com/"
         },
         "health": {
@@ -2207,7 +2199,7 @@
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 81,
-      "home": null,
+      "home": "Sacramento, CA",
       "now": "U.S. House of Representatives (CA-07)",
       "background": "Born in the Poston internment camp in Arizona and raised in Dinuba, she worked in the Clinton White House before winning the Sacramento seat in a 2005 special election following the death of her husband, Congressman Robert Matsui. She is a senior member of the Energy and Commerce Committee and worked on passage of the Affordable Care Act. She faces fellow Democrat Mai Vang in November after the June 2, 2026 top-two primary.",
       "priorities": [
@@ -2217,7 +2209,7 @@
       ],
       "positions": {
         "cost": -1,
-        "health": -2,
+        "health": -1,
         "housing": null,
         "immigration": -1,
         "taxes": -2,
@@ -2245,7 +2237,7 @@
           "url": "https://en.wikipedia.org/wiki/Doris_Matsui"
         },
         "climate": {
-          "label": "Works to 'bring clean energy technology to Sacramento' and backs 'clean school buses and 100% clean energy by 2030'; opposes offshore drilling and fossil fuel subsidies (official House site)",
+          "label": "Works to 'bring clean energy technology to Sacramento' and backs 'clean school buses and 100% clean energy by 2030' (official House site)",
           "url": "https://matsui.house.gov/issues/clean-energy-and-climate"
         },
         "education": {
@@ -2295,7 +2287,7 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
+      "age": 41,
       "home": "Sacramento, CA",
       "now": "Sacramento City Council, District 8",
       "background": "Daughter of Hmong refugees, born in Sacramento, who served on the Sacramento City Unified School Board before winning a city council seat in 2020, and who lectures in ethnic studies at Sacramento State. On the council she created the city's first Children's Fund and secured its first citywide language access coordinator. She says increased ICE activity in the region is what pushed her to run, and she would be the first Hmong American in Congress.",
@@ -2399,14 +2391,14 @@
         "Criminal justice reform that addresses systemic bias"
       ],
       "positions": {
-        "cost": -2,
+        "cost": -1,
         "health": -2,
         "housing": -2,
         "immigration": -1,
         "taxes": -2,
         "climate": -2,
         "education": -1,
-        "safety": -2,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -2559,7 +2551,7 @@
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 40,
-      "home": "Turlock, CA",
+      "home": "Tracy, CA",
       "now": "U.S. House of Representatives (CA-09)",
       "background": "Central Valley native and former venture capital investor and business lecturer who flipped a Republican held seat in 2018 and has held it through redistricting. He is one of the House Democrats who most often breaks with his party, including a vote for the Laken Riley Act and a public safety agenda built on police hiring grants. He advanced from the June 2, 2026 top-two primary against Republican John McBride.",
       "priorities": [
@@ -2569,7 +2561,7 @@
       ],
       "positions": {
         "cost": -1,
-        "health": -2,
+        "health": -1,
         "housing": null,
         "immigration": 0,
         "taxes": -1,
@@ -2643,7 +2635,7 @@
       "age": null,
       "home": null,
       "now": "Strength and conditioning coach",
-      "background": "Strength and conditioning coach who came to California in 1989 and spent decades in athletics at the University of the Pacific, mentoring athletes in the San Joaquin area. He grew up in Meriden, Connecticut, and describes himself as a man of faith. He completed a Ballotpedia Candidate Connection survey in 2024 and advanced from the June 2, 2026 top-two primary against Josh Harder.",
+      "background": "Strength and conditioning coach who came to California in 1989 and spent 12 years as strength and conditioning coach at the University of the Pacific and 13 years at St. Mary's High School, mentoring athletes in the San Joaquin area. He grew up in Meriden, Connecticut, and describes himself as a man of faith. He completed a Ballotpedia Candidate Connection survey in 2024 and advanced from the June 2, 2026 top-two primary against Josh Harder.",
       "priorities": [
         "Restore energy independence",
         "Reduce taxes and drastically shrink government spending",
@@ -2656,7 +2648,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": 1,
+        "education": null,
         "safety": 0,
         "repro": null,
         "democracy": null
@@ -2676,10 +2668,6 @@
         },
         "climate": {
           "label": "'Energy independence must be restored. America has the largest natural resources in the world for us to achieve energy independence and it is not being used' (Ballotpedia Candidate Connection)",
-          "url": "https://ballotpedia.org/John_McBride_(California)"
-        },
-        "education": {
-          "label": "'The rights of parents must be protected in order for them to raise their children in ways they feel is best' (Ballotpedia Candidate Connection)",
           "url": "https://ballotpedia.org/John_McBride_(California)"
         },
         "safety": {

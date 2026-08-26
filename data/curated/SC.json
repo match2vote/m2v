@@ -3,14 +3,12 @@
   "note": "Hand-curated, sourced entries. Senate race upended by Sen. Lindsey Graham's death on July 11, 2026.",
   "races": {
     "SC-senate": {
-      "status": "primary-pending",
-      "statusNote": "Special election for the seat of Sen. Lindsey Graham, who died July 11 after winning the June 9 GOP primary with 56.8%. Gov. McMaster appointed his sister Darline Graham to the seat; she faces Rep. Ralph Norman in the Aug 25 special-primary runoff after leading the Aug 11 special primary 33% to 25%. The Republican nominee is not final until Aug 25. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee. Kasie Whitener (Libertarian) and Mark Hackett (Constitution Party) are also listed for the November ballot.",
-      "primaryDate": "AUG 25",
+      "status": "general",
+      "statusNote": "Special election for the seat of Sen. Lindsey Graham, who died July 11. Appointed Sen. Darline Graham defeated Rep. Ralph Norman 53 to 47 in the Aug 25 Republican runoff and is the GOP nominee. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee. Kasie Whitener (Libertarian) and Mark Hackett (Constitution Party) are also on the November ballot.",
       "advancing": [
-        "fec-S6SC04239",
         "fec-S6SC04437",
+        "fec-S6SC04239",
         "fec-S6SC04247",
-        "fec-S6SC04445",
         "sc-senate-hackett"
       ]
     },
@@ -277,7 +275,7 @@
       "office": "us-senate",
       "state": "SC",
       "tier": "curated",
-      "ballotStatus": "filed",
+      "ballotStatus": "nominee",
       "incumbent": true,
       "age": 62,
       "home": "Lexington, SC",
@@ -347,7 +345,7 @@
       "office": "us-senate",
       "state": "SC",
       "tier": "curated",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "age": 73,
       "home": "Rock Hill, SC",

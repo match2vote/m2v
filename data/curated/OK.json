@@ -3,9 +3,26 @@
   "note": "Hand-curated, sourced entries.",
   "races": {
     "OK-governor": {
-      "status": "primary-pending",
-      "statusNote": "Open seat (Gov. Stitt term-limited). The June 16 GOP primary went to an Aug 25 runoff: Attorney General Gentner Drummond and former state Sen. Mike Mazzei each took just over 25% in a nine-candidate field, so the Republican nominee is not final. House Minority Leader Cyndi Munson won the Democratic nomination June 16 with 75.1%. Independents Jerry Griffin, Robert E. Brooks Sr. and Orlando Lynn Bush filed for the November ballot.",
-      "primaryDate": "AUG 25"
+      "status": "general",
+      "statusNote": "Open seat, Gov. Stitt is term-limited. Former state Sen. Mike Mazzei defeated Attorney General Gentner Drummond by 2,020 votes out of more than 371,000 cast in the Aug 25 Republican runoff; Drummond conceded. House Minority Leader Cyndi Munson won the Democratic nomination June 16. Independents Jerry Griffin, Robert Brooks and Orlando Lynn Bush are also on the November ballot.",
+      "advancing": [
+        "ok-gov-mazzei",
+        "ok-gov-munson",
+        "ok-gov-griffin",
+        "ok-gov-brooks",
+        "ok-gov-bush"
+      ]
+    },
+    "OK-senate": {
+      "status": "general",
+      "statusNote": "Open seat: Sen. Markwayne Mullin resigned in March 2026 after his confirmation as Homeland Security secretary; appointed Sen. Alan Armstrong is not running. Rep. Kevin Hern won the June 16 Republican primary with 67.6% and no runoff. N'Kiyla Thomas defeated Jim Priest with 61% in the Aug 25 Democratic runoff. Independents Ron Meinhardt and Curtis Stinnett and Libertarian Sevier White are also on the November ballot.",
+      "advancing": [
+        "fec-S6OK04247",
+        "fec-S6OK04163",
+        "fec-S6OK04205",
+        "ok-senate-stinnett",
+        "ok-senate-white"
+      ]
     }
   },
   "candidates": [
@@ -16,7 +33,7 @@
       "office": "governor",
       "state": "OK",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "age": 62,
       "home": "Tulsa, OK",
@@ -104,7 +121,7 @@
       "office": "governor",
       "state": "OK",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 61,
       "home": "Tulsa, OK",
@@ -314,6 +331,133 @@
         {
           "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
           "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        }
+      ]
+    },
+    {
+      "id": "ok-gov-griffin",
+      "name": "Jerry Griffin",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "ok-gov-brooks",
+      "name": "Robert Brooks",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "ok-gov-bush",
+      "name": "Orlando Lynn Bush",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6OK04247",
+      "name": "Kevin Hern",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "News9: Hern wins the June 16 GOP Senate primary with 67.6%",
+          "url": "https://www.news9.com/oklahoma-politics/oklahoma-primary-election/us-senator-primary-hern"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OK04247/"
+        }
+      ]
+    },
+    {
+      "id": "fec-S6OK04163",
+      "name": "N'Kiyla Jasmine - Ann Thomas",
+      "party": "Democrat",
+      "office": "us-senate",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "KSLA: Thomas wins the Aug 25 Democratic runoff with 61%",
+          "url": "https://www.ksla.com/2026/08/26/oklahoma-party-primary-runoff-results/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OK04163/"
+        }
+      ]
+    },
+    {
+      "id": "ok-senate-stinnett",
+      "name": "Curtis Stinnett",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "ok-senate-white",
+      "name": "Sevier White",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "OK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
         }
       ]
     }

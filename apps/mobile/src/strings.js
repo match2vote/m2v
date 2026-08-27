@@ -344,7 +344,7 @@ export const strings = {
         sources: [
           { label: 'senate.gov, The Senate and the Constitution' },
           { label: 'senate.gov, Powers & Procedures' },
-          { label: 'constitution.congress.gov, Article I, Section 7' },
+          { label: 'archives.gov, Constitution, Article I, Section 7' },
         ],
       },
       {
@@ -358,8 +358,8 @@ export const strings = {
         means: 'The federal official closest to you, roughly 760,000 people each. Their office also handles casework: a stuck passport, a delayed VA claim, a Social Security question.',
         sources: [
           { label: 'house.gov, The House Explained' },
-          { label: 'constitution.congress.gov, Article I, Section 2' },
-          { label: 'constitution.congress.gov, Article I, Section 7' },
+          { label: 'archives.gov, Constitution, Article I, Section 2' },
+          { label: 'archives.gov, Constitution, Article I, Section 7' },
           { label: 'census.gov, 2020 Census apportionment' },
           { label: 'A House member\'s casework page (Rep. DelBene)' },
         ],

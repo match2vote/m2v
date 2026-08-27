@@ -19,7 +19,7 @@ const { space } = theme;
 // Sources are the pages actually fetched on Aug 15, 2026:
 //   NGA, Governors' Powers & Authority
 //   senate.gov, The Senate and the Constitution; senate.gov, Powers & Procedures
-//   house.gov, The House Explained; constitution.congress.gov Article I
+//   house.gov, The House Explained; archives.gov Constitution transcript, Article I
 //   census.gov, 2020 apportionment (761,169 people per district on average)
 //   delbene.house.gov casework page (an example of a member's casework list)
 // Text lives in strings.js (strings.roles.chapters, same order); this array
@@ -32,12 +32,12 @@ const SOURCE_URLS = {
   senator: [
     'https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm',
     'https://www.senate.gov/about/powers-procedures.htm',
-    'https://constitution.congress.gov/browse/article-1/section-7/',
+    'https://www.archives.gov/founding-docs/constitution-transcript',
   ],
   representative: [
     'https://www.house.gov/the-house-explained',
-    'https://constitution.congress.gov/browse/article-1/section-2/',
-    'https://constitution.congress.gov/browse/article-1/section-7/',
+    'https://www.archives.gov/founding-docs/constitution-transcript',
+    'https://www.archives.gov/founding-docs/constitution-transcript',
     'https://www.census.gov/library/stories/2021/04/2020-census-data-release.html',
     'https://delbene.house.gov/constituent-services/casework/',
   ],

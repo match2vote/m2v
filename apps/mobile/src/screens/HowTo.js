@@ -102,6 +102,18 @@ function StateRules({ chapterIndex, stateCode, rules }) {
           </Text>
         </Pressable>
       ) : null}
+      {stateCode ? (
+        <Pressable
+          onPress={() => Linking.openURL(`https://vote.gov/register/${stateCode.toLowerCase()}`)}
+          accessibilityRole="link"
+          accessibilityLabel={R.voteGovA11y}
+          style={{ alignSelf: 'flex-start', minHeight: 36, justifyContent: 'center' }}
+        >
+          <Text style={{ color: colors.accent, fontWeight: '700', fontSize: 13, textDecorationLine: 'underline' }}>
+            {R.voteGovLink}
+          </Text>
+        </Pressable>
+      ) : null}
       <Body soft style={{ fontSize: 12, marginTop: 4 }}>
         {R.finalWord}
         {rules.verifiedAt ? R.checkedOn({ date: spokenDate(rules.verifiedAt) }) : ''}

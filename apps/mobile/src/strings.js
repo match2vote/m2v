@@ -291,6 +291,8 @@ export const strings = {
       officialSite: 'Official election site',
       officialSiteA11y: ({ label }) => `${label}, opens in your browser`,
       officialSiteLink: ({ label }) => `${label} ↗`,
+      voteGovLink: 'Vote.gov: how to register in this state (U.S. government) ↗',
+      voteGovA11y: 'Vote.gov registration page for this state, opens in your browser',
       finalWord: 'The official site is always the final word. Rules can change; if you have been offline for a while, check it before relying on this.',
       checkedOn: ({ date }) => ` We checked this on ${date}.`,
       months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],

@@ -1,7 +1,7 @@
 {
   "state": "NJ",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.921Z",
+  "syncedAt": "2026-08-27T17:40:12.620Z",
   "candidates": [
     {
       "id": "fec-H2NJ01187",
@@ -1886,6 +1886,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4NJ07131/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4NJ07164",
+      "fecId": "H4NJ07164",
+      "name": "Lana Leguia",
+      "party": "Libertarian",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4NJ07164/"
         }
       ],
       "funding": null,

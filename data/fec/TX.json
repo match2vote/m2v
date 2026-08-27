@@ -1,7 +1,7 @@
 {
   "state": "TX",
   "electionYear": 2026,
-  "syncedAt": "2026-08-25T13:48:36.474Z",
+  "syncedAt": "2026-08-27T17:40:12.599Z",
   "candidates": [
     {
       "id": "fec-H6TX01337",
@@ -484,38 +484,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX10262",
-      "fecId": "H6TX10262",
-      "name": "Sarah Eckhardt",
-      "party": "Democrat",
-      "state": "TX",
-      "office": "us-house",
-      "district": "10",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX10262/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6TX10254",
       "fecId": "H6TX10254",
       "name": "Sarah Eckhardt",
@@ -542,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX10254/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX10262",
+      "fecId": "H6TX10262",
+      "name": "Sarah Eckhardt",
+      "party": "Democrat",
+      "state": "TX",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX10262/"
         }
       ],
       "funding": null,
@@ -868,38 +868,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX14165",
-      "fecId": "H6TX14165",
-      "name": "Konstantinos Vogiatzis",
-      "party": "Democrat",
-      "state": "TX",
-      "office": "us-house",
-      "district": "14",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX14165/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6TX14157",
       "fecId": "H6TX14157",
       "name": "Konstantinos Vogiatzis",
@@ -926,6 +894,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX14157/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX14165",
+      "fecId": "H6TX14165",
+      "name": "Konstantinos Vogiatzis",
+      "party": "Democrat",
+      "state": "TX",
+      "office": "us-house",
+      "district": "14",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX14165/"
         }
       ],
       "funding": null,

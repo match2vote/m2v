@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-08-15T06:59:38.960Z",
+  "syncedAt": "2026-08-27T17:40:12.619Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -894,6 +894,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4FL13234/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6FL14252",
+      "fecId": "H6FL14252",
+      "name": "Alysha Aly Legge",
+      "party": "Republican",
+      "state": "FL",
+      "office": "us-house",
+      "district": "14",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6FL14252/"
         }
       ],
       "funding": null,

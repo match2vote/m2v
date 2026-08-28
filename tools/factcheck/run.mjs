@@ -208,9 +208,17 @@ For each claim answer:
 - label_check: "supported" (the page contains the facts the label states), "partial" (some of it, or weaker than stated), or "not_on_page" (the page does not contain it)
 - score_check: "consistent" (what the page documents matches the stored score's sign and rough strength on that axis), "too_strong" (right direction, magnitude overstated), "wrong_direction" (the page suggests the opposite sign), or "cannot_judge" (page has nothing relevant to this axis)
 - verdict: overall "TRUE" if label_check=supported and score_check=consistent; "MOSTLY_TRUE" for partial/too_strong; "FALSE" if not_on_page or wrong_direction; "CANNOT_JUDGE" otherwise
-- note: one sentence quoting or citing what the page actually says (or that it says nothing)
+- note: ONE SHORT sentence (max 25 words) on what the page actually says (or that it says nothing)
 
 Respond with ONLY a JSON array, one object per claim in order, each: {"claim":1,"label_check":"...","score_check":"...","verdict":"...","note":"..."}`;
+}
+function parseVerdicts(text) {
+  const m = text.match(/\[[\s\S]*\]/);
+  if (m) { try { return JSON.parse(m[0]); } catch {} }
+  // salvage: model wrapped in fences or output was truncated mid-array; take every complete object
+  const objs = [...text.matchAll(/\{[^{}]*\}/g)].map(x => { try { return JSON.parse(x[0]); } catch { return null; } }).filter(Boolean);
+  if (objs.length) return objs;
+  throw new Error('No JSON in model reply: ' + text.slice(0, 150));
 }
 async function askGitHubModels(group, page) {
   const content = buildPrompt(group, page) + '\n\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '');
@@ -238,10 +246,7 @@ async function askGitHubModels(group, page) {
     }
     if (!res.ok) throw new Error('GitHub Models HTTP ' + res.status + ': ' + (await res.text()).slice(0, 300));
     const j = await res.json();
-    const text = j.choices?.[0]?.message?.content || '';
-    const m = text.match(/\[[\s\S]*\]/);
-    if (!m) throw new Error('No JSON in reply: ' + text.slice(0, 200));
-    return JSON.parse(m[0]);
+    return parseVerdicts(j.choices?.[0]?.message?.content || '');
   }
   throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }
@@ -250,7 +255,7 @@ async function askGemini(group, page) {
   const parts = [{ text: buildPrompt(group, page) }];
   if (page.kind === 'pdf') parts.push({ inline_data: { mime_type: 'application/pdf', data: page.b64 } });
   else parts.push({ text: '\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '') });
-  const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 4000 } };
+  const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 16000 } };
   let lastStatus = 0;
   for (let attempt = 1; attempt <= 5; attempt++) {
     await throttle();
@@ -275,10 +280,7 @@ async function askGemini(group, page) {
     }
     if (!res.ok) throw new Error('Gemini HTTP ' + res.status + ': ' + (await res.text()).slice(0, 300));
     const j = await res.json();
-    const text = j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
-    const m = text.match(/\[[\s\S]*\]/);
-    if (!m) throw new Error('No JSON in Gemini reply: ' + text.slice(0, 200));
-    return JSON.parse(m[0]);
+    return parseVerdicts(j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '');
   }
   throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }

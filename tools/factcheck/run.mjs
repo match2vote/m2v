@@ -129,7 +129,8 @@ async function fetchPage(url) {
                               : { status: res.status, kind: 'html', text: text.slice(0, 60000) };
     }
   } catch (e) {
-    out = { status: 0, kind: 'unreachable', note: String(e && e.message || e).slice(0, 200) };
+    // transient network failure: do NOT cache, so a later run retries the fetch
+    return { status: 0, kind: 'unreachable', note: String(e && e.message || e).slice(0, 200) };
   }
   fs.mkdirSync(CACHE_DIR, { recursive: true });
   fs.writeFileSync(cp, JSON.stringify(out));
@@ -282,7 +283,8 @@ async function main() {
 
   const groups = new Map();
   for (const c of checkable) {
-    if (done.has(keyOf(c))) continue;
+    const prev = done.get(keyOf(c));
+    if (prev && prev.verdict !== 'API_ERROR') continue; // API_ERROR rows are retried (last write wins in the report)
     if (!groups.has(c.url)) groups.set(c.url, []);
     groups.get(c.url).push(c);
   }
@@ -296,7 +298,8 @@ async function main() {
     process.stdout.write(`[${i}/${list.length}] ${group.length} claim(s) ← ${url.slice(0, 90)} `);
     const page = await fetchPage(url);
     if (page.kind === 'error' || page.kind === 'unreachable' || page.kind === 'thin' || page.kind === 'pdf-too-big') {
-      const verdict = page.status === 403 || page.status === 999 ? 'FETCH_BLOCKED' : (page.kind === 'unreachable' ? 'FETCH_BLOCKED' : 'PAGE_UNREADABLE');
+      const verdict = page.kind === 'unreachable' ? 'API_ERROR' // retried next run
+        : (page.status === 403 || page.status === 999 ? 'FETCH_BLOCKED' : 'PAGE_UNREADABLE');
       record(group.map(c => ({ key: keyOf(c), ...c, verdict, label_check: '', score_check: '', note: `Could not read page (HTTP ${page.status || 'none'}, ${page.kind}${page.note ? ': ' + page.note : ''}). Needs a manual look.` })));
       console.log('→ ' + verdict);
       continue;

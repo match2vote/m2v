@@ -198,7 +198,7 @@
         "immigration": -1,
         "taxes": -1,
         "climate": null,
-        "education": -2,
+        "education": null,
         "safety": -1,
         "repro": -2,
         "democracy": null
@@ -210,10 +210,6 @@
         },
         "health": {
           "label": "Public option + restore ACA subsidies; reverse Medicaid cuts; led bill lifting Medicaid income caps for workers with disabilities (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Josh_Turek"
-        },
-        "education": {
-          "label": "Opposes school vouchers; supports public education (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Josh_Turek"
         },
         "repro": {
@@ -249,7 +245,8 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented; legislative-record search also empty"
+        "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented; legislative-record search also empty",
+        "education": "cited Wikipedia article no longer documents any voucher or education-policy stance (checked Aug 28, 2026)"
       }
     },
     {

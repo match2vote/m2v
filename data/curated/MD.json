@@ -374,18 +374,14 @@
         "immigration": null,
         "taxes": null,
         "climate": -2,
-        "education": -2,
+        "education": null,
         "safety": -1,
         "repro": null,
         "democracy": null
       },
       "positionSources": {
         "climate": {
-          "label": "'Declare climate, environment, food, and water emergencies to ensure state and local government act with urgency' (campaign site)",
-          "url": "https://gogreen2026.com/priorities"
-        },
-        "education": {
-          "label": "'Build out and fully fund our public education system so it truly works for all' (campaign site)",
+          "label": "Priorities page lists 'Declare a climate and environmental emergency' as a stated priority (campaign site)",
           "url": "https://gogreen2026.com/priorities"
         },
         "health": {
@@ -406,7 +402,8 @@
         "immigration": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
         "taxes": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
         "repro": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "democracy": "removed in QA: cited priorities page documents 'create a robust and deep multiparty democracy' but no position on voting access (registration, mail, early voting, or ID), and the corporate/PAC money claim was not found on the cited page"
+        "democracy": "removed in QA: cited priorities page documents 'create a robust and deep multiparty democracy' but no position on voting access (registration, mail, early voting, or ID), and the corporate/PAC money claim was not found on the cited page",
+        "education": "campaign priorities page now shows 'Coming soon!' placeholders and contains no education content; no supporting archive snapshot (checked Aug 28, 2026)"
       },
       "sources": [
         {

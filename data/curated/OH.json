@@ -530,7 +530,7 @@
         "taxes": 2,
         "climate": 2,
         "education": 1,
-        "safety": 2,
+        "safety": null,
         "repro": 2,
         "democracy": 2
       },
@@ -546,10 +546,6 @@
         "education": {
           "label": "Pledged to abolish the U.S. Education Department; opposes CRT in schools (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
-        },
-        "safety": {
-          "label": "Mixed: military action against cartels, but supports federal marijuana legalization (Wikipedia)",
-          "url": "https://vivekforohio.com/the-plan"
         },
         "democracy": {
           "label": "Proposed raising the voting age to 25 absent service or a civics test (2023 campaign) (Wikipedia)",
@@ -582,7 +578,8 @@
       "home": "Upper Arlington, OH",
       "now": "Entrepreneur; 2024 presidential candidate",
       "nullNotes": {
-        "housing": "checked vivekforohio.com plan (homeownership mentioned only via lower cost of living, no housing policy) and Ballotpedia, nothing documented"
+        "housing": "checked vivekforohio.com plan (homeownership mentioned only via lower cost of living, no housing policy) and Ballotpedia, nothing documented",
+        "safety": "previous label described a mixed record but carried a +2 score and cited a page without the specifics; needs recuration with a consistent label, score and source (checked Aug 28, 2026)"
       }
     },
     {

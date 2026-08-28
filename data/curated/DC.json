@@ -50,12 +50,12 @@
       "positions": {
         "cost": -1,
         "health": null,
-        "housing": -1,
+        "housing": null,
         "immigration": -1,
         "taxes": null,
         "climate": -1,
         "education": -1,
-        "safety": -1,
+        "safety": null,
         "repro": null,
         "democracy": null
       },
@@ -63,10 +63,6 @@
         "cost": {
           "label": "Advocated 'legislation to force employers to provide 12 weeks of paid sick leave'; campaign centers on lowering household costs (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
-        },
-        "housing": {
-          "label": "'Stronger federal investment in affordable housing production, preservation of existing affordable units, rehabilitation of neglected public housing', alongside increasing housing production (WTOP)",
-          "url": "https://wtop.com/dc-election/2026/06/get-to-know-dc-delegate-candidate-robert-white/"
         },
         "immigration": {
           "label": "Pledges to protect DC residents 'from ICE and unaccountable federal agents' (campaign site)",
@@ -79,10 +75,6 @@
         "education": {
           "label": "Wrote the Birth to Three for All DC Act expanding early childhood education and child care subsidies (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
-        },
-        "safety": {
-          "label": "'Fully staffing our courts, supporting accountable, effective policing, and investing in violence prevention and youth opportunity'; invest to 'prevent crime before it starts' (WTOP)",
-          "url": "https://wtop.com/dc-election/2026/06/get-to-know-dc-delegate-candidate-robert-white/"
         }
       },
       "controversies": [
@@ -113,7 +105,9 @@
       "nullNotes": {
         "health": "checked campaign site, WTOP interview, and Wikipedia; campaign mentions 'accessible healthcare' among household costs but no public-versus-private mechanism documented",
         "taxes": "checked campaign site, WTOP interview, and Wikipedia; no position on tax rates or spending documented",
-        "repro": "checked campaign site, WTOP interview, and Wikipedia, nothing documented; council-record search also empty"
+        "repro": "checked campaign site, WTOP interview, and Wikipedia, nothing documented; council-record search also empty",
+        "housing": "cited WTOP questionnaire page no longer displays the candidate's answers and the only archive snapshot lacks them; previous housing evidence unverifiable (checked Aug 28, 2026)",
+        "safety": "cited WTOP questionnaire page no longer displays the candidate's answers and the only archive snapshot lacks them; previous public safety evidence unverifiable (checked Aug 28, 2026)"
       }
     },
     {

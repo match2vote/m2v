@@ -287,7 +287,7 @@
       "positions": {
         "cost": 1,
         "health": 2,
-        "housing": 0,
+        "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
@@ -325,10 +325,6 @@
           "label": "Lower cost of living through price transparency and competition (Patients Deserve Price Tags Act) and cutting regulations, not price caps (Senate office)",
           "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-kansans-need-a-cost-of-living-they-can-afford/"
         },
-        "housing": {
-          "label": "Mixed: co-sponsored the Affordable Housing Credit Improvement Act expanding the Low-Income Housing Tax Credit, while saying 'one of the biggest runups for housing is the regulatory environment' (Senate office)",
-          "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-kansans-need-a-cost-of-living-they-can-afford/"
-        },
         "education": {
           "label": "Lead sponsor of the Educational Choice for Children Act, $10B a year in scholarship tax credits: 'Parents, not the government, know what is best for their children' (Senate office)",
           "url": "https://www.marshall.senate.gov/?p=78958"
@@ -348,7 +344,10 @@
           "url": "https://www.fec.gov/data/candidate/S0KS00315/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "cited press release documents only the deregulation half of the previously scored mixed record; the LIHTC co-sponsorship half has no verified source (checked Aug 28, 2026)"
+      }
     },
     {
       "id": "fec-S6KS00312",

@@ -15,10 +15,16 @@ It is flag-only. It never edits any file under `data/`. The output is a report y
 
 Remember the standard from the run book: FALSE means "the cited page does not support it," not necessarily "the fact is wrong in the world." A true fact with the wrong citation still fails the app's own verify-gate rule.
 
-## One-time setup
+## Engines
 
-1. Get a free Gemini API key: go to https://aistudio.google.com/apikey, sign in with any Google account, click "Create API key". No card needed for the free tier.
-2. Have Node 18+ installed (`node --version`).
+Two interchangeable judgment engines:
+
+- **GitHub Models (default in the Actions workflow, zero setup).** Uses the repo's own built-in Actions token to call GPT-4o-mini for free. No account, no key, no secret. Daily quota is modest, so a full pass takes several nightly runs; the workflow resumes automatically. PDFs can't be read by this engine and are flagged for a manual look.
+- **Gemini (optional upgrade, faster full pass, reads PDFs).** Needs a free API key from https://aistudio.google.com/apikey (requires an eligible Google account). Add it as a repo Actions secret named GEMINI_API_KEY and the workflow switches to it automatically on the next run; locally, pass --key.
+
+## One-time setup (only for running locally)
+
+Have Node 18+ installed (`node --version`). In the GitHub Actions workflow there is nothing to set up.
 
 ## Running it
 

@@ -32,7 +32,11 @@ function flag(name, dflt) {
 const REPO = path.resolve(flag('repo', path.join(HERE, '..', '..')));
 const DATA_DIR = path.join(REPO, 'data', 'curated');
 const KEY = flag('key', process.env.GEMINI_API_KEY || '');
-const MODEL = flag('model', 'gemini-2.5-flash');
+const GH_TOKEN = process.env.GITHUB_TOKEN || '';
+// Engine: gemini (needs GEMINI_API_KEY) or github (GitHub Models, needs GITHUB_TOKEN,
+// free inside GitHub Actions with `permissions: models: read`). Auto-picks Gemini when a key is set.
+const ENGINE = flag('engine', KEY ? 'gemini' : (GH_TOKEN ? 'github' : 'gemini'));
+const MODEL = flag('model', ENGINE === 'github' ? 'openai/gpt-4o-mini' : 'gemini-2.5-flash');
 const RPM = Number(flag('rpm', 8));
 const MAX_CALLS = Number(flag('max-calls', 100000));
 const LIMIT = Number(flag('limit', 0));
@@ -161,7 +165,32 @@ For each claim answer:
 
 Respond with ONLY a JSON array, one object per claim in order, each: {"claim":1,"label_check":"...","score_check":"...","verdict":"...","note":"..."}`;
 }
+async function askGitHubModels(group, page) {
+  const content = buildPrompt(group, page) + '\n\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '');
+  const body = { model: MODEL, messages: [{ role: 'user', content }], temperature: 0.1, max_tokens: 4000 };
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    await throttle();
+    const res = await fetch('https://models.github.ai/inference/chat/completions',
+      { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + GH_TOKEN, 'Accept': 'application/vnd.github+json' }, body: JSON.stringify(body) });
+    if (res.status === 429 || res.status >= 500) {
+      const ra = Number(res.headers.get('retry-after')) || 0;
+      const wait = ra ? (ra + 2) * 1000 : Math.min(120000, 7000 * attempt * attempt);
+      process.stdout.write(`  [${res.status}, retry in ${Math.round(wait / 1000)}s]`);
+      await res.text();
+      await new Promise(r => setTimeout(r, wait));
+      continue;
+    }
+    if (!res.ok) throw new Error('GitHub Models HTTP ' + res.status + ': ' + (await res.text()).slice(0, 300));
+    const j = await res.json();
+    const text = j.choices?.[0]?.message?.content || '';
+    const m = text.match(/\[[\s\S]*\]/);
+    if (!m) throw new Error('No JSON in reply: ' + text.slice(0, 200));
+    return JSON.parse(m[0]);
+  }
+  throw new Error('Rate-limited after 5 attempts. Daily quota may be exhausted; rerun tomorrow, it will resume.');
+}
 async function askGemini(group, page) {
+  if (ENGINE === 'github') return askGitHubModels(group, page);
   const parts = [{ text: buildPrompt(group, page) }];
   if (page.kind === 'pdf') parts.push({ inline_data: { mime_type: 'application/pdf', data: page.b64 } });
   else parts.push({ text: '\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '') });
@@ -237,7 +266,8 @@ ${rows.map(r => `<tr data-v="${he(r.verdict)}" data-s="${he(r.state)}"><td class
 async function main() {
   if (cmd === 'report') return writeReport();
   if (!fs.existsSync(DATA_DIR)) { console.error('Cannot find ' + DATA_DIR + ' (use --repo)'); process.exit(1); }
-  if (!DRY && !KEY) { console.error('No API key. Pass --key or set GEMINI_API_KEY, or use --dry-run.'); process.exit(1); }
+  if (!DRY && !KEY && !(ENGINE === 'github' && GH_TOKEN)) { console.error('No credentials. Pass --key / set GEMINI_API_KEY, or set GITHUB_TOKEN with --engine github, or use --dry-run.'); process.exit(1); }
+  if (!DRY) console.log(`Engine: ${ENGINE} (${MODEL})`);
 
   const all = collectClaims();
   const mech = all.filter(c => c.mech);
@@ -272,6 +302,11 @@ async function main() {
       continue;
     }
     if (DRY) { console.log('→ fetched ok (' + page.kind + ')'); continue; }
+    if (page.kind === 'pdf' && ENGINE === 'github') {
+      record(group.map(c => ({ key: keyOf(c), ...c, verdict: 'PAGE_UNREADABLE', label_check: '', score_check: '', note: 'PDF source; this engine cannot read PDFs. Check manually or rerun with a Gemini key.' })));
+      console.log('→ PDF skipped (github engine)');
+      continue;
+    }
     if (calls >= MAX_CALLS) { console.log('\nReached --max-calls; rerun later to resume.'); break; }
     try {
       const verdicts = await askGemini(group, page);

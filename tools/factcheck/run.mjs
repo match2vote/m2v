@@ -133,15 +133,15 @@ async function fetchPage(url) {
   const cp = cachePath(url);
   if (fs.existsSync(cp)) return JSON.parse(fs.readFileSync(cp, 'utf8'));
   let out;
+  const ctrl = new AbortController();
+  // one timeout guards the WHOLE fetch, headers AND body; a stalling server aborts instead of hanging the run
+  const t = setTimeout(() => ctrl.abort(new Error('timeout after 45s')), 45000);
   try {
-    const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 25000);
     const res = await fetch(url, {
       signal: ctrl.signal, redirect: 'follow',
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
                  'Accept': 'text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9' },
     });
-    clearTimeout(t);
     const ct = (res.headers.get('content-type') || '').toLowerCase();
     if (!res.ok) out = { status: res.status, kind: 'error' };
     else if (ct.includes('pdf') || url.toLowerCase().endsWith('.pdf')) {
@@ -155,8 +155,10 @@ async function fetchPage(url) {
     }
   } catch (e) {
     // transient network failure: do NOT cache, so a later run retries the fetch
-    return { status: 0, kind: 'unreachable', note: String(e && e.message || e).slice(0, 200) };
+    clearTimeout(t);
+    return { status: 0, kind: 'unreachable', note: String(e && (e.cause?.message || e.message) || e).slice(0, 200) };
   }
+  clearTimeout(t);
   fs.mkdirSync(CACHE_DIR, { recursive: true });
   fs.writeFileSync(cp, JSON.stringify(out));
   return out;
@@ -196,8 +198,15 @@ async function askGitHubModels(group, page) {
   const body = { model: MODEL, messages: [{ role: 'user', content }], temperature: 0.1, max_tokens: 4000 };
   for (let attempt = 1; attempt <= 5; attempt++) {
     await throttle();
-    const res = await fetch('https://models.github.ai/inference/chat/completions',
-      { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + GH_TOKEN, 'Accept': 'application/vnd.github+json' }, body: JSON.stringify(body) });
+    let res;
+    try {
+      res = await fetch('https://models.github.ai/inference/chat/completions',
+        { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + GH_TOKEN, 'Accept': 'application/vnd.github+json' }, body: JSON.stringify(body), signal: AbortSignal.timeout(120000) });
+    } catch (e) {
+      process.stdout.write(`  [network error, retry ${attempt}]`);
+      await new Promise(r => setTimeout(r, 8000 * attempt));
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) {
       const ra = Number(res.headers.get('retry-after')) || 0;
       const wait = ra ? (ra + 2) * 1000 : Math.min(120000, 7000 * attempt * attempt);
@@ -223,8 +232,15 @@ async function askGemini(group, page) {
   const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 4000 } };
   for (let attempt = 1; attempt <= 5; attempt++) {
     await throttle();
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`,
-      { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    let res;
+    try {
+      res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`,
+        { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: AbortSignal.timeout(120000) });
+    } catch (e) {
+      process.stdout.write(`  [network error, retry ${attempt}]`);
+      await new Promise(r => setTimeout(r, 8000 * attempt));
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) {
       const txt = await res.text();
       const m = txt.match(/"retryDelay"\s*:\s*"(\d+)s"/);

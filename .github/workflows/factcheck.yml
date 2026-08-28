@@ -17,11 +17,11 @@ on:
         description: "States to check (e.g. VT,CT) or ALL"
         default: "ALL"
       model:
-        description: "Gemini model"
-        default: "gemini-2.5-flash"
+        description: "Model (default: auto — Gemini if a GEMINI_API_KEY secret exists, else GitHub Models gpt-4o-mini)"
+        default: "auto"
       max_calls:
-        description: "Max Gemini calls this run (stay under the free daily cap)"
-        default: "240"
+        description: "Max model calls this run"
+        default: "2000"
       rpm:
         description: "Requests per minute"
         default: "8"
@@ -31,6 +31,7 @@ on:
 
 permissions:
   contents: read
+  models: read
 
 jobs:
   factcheck:
@@ -55,10 +56,14 @@ jobs:
       - name: Run fact-check
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          MODEL="${{ github.event.inputs.model || 'auto' }}"
+          MODEL_ARGS=""
+          if [ "$MODEL" != "auto" ]; then MODEL_ARGS="--model $MODEL"; fi
           node tools/factcheck/run.mjs check \
             --states "${{ github.event.inputs.states || 'ALL' }}" \
-            --model "${{ github.event.inputs.model || 'gemini-2.5-flash' }}" \
+            $MODEL_ARGS \
             --max-calls "${{ github.event.inputs.max_calls || '240' }}" \
             --rpm "${{ github.event.inputs.rpm || '8' }}"
 

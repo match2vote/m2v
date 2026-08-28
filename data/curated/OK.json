@@ -15,7 +15,7 @@
     },
     "OK-senate": {
       "status": "general",
-      "statusNote": "Open seat: Sen. Markwayne Mullin resigned in March 2026 after his confirmation as Homeland Security secretary; appointed Sen. Alan Armstrong is not running. Rep. Kevin Hern won the June 16 Republican primary with 67.6% and no runoff. N'Kiyla Thomas defeated Jim Priest with 61% in the Aug 25 Democratic runoff. Independents Ron Meinhardt and Curtis Stinnett and Libertarian Sevier White are also on the November ballot.",
+      "statusNote": "Open seat: Sen. Markwayne Mullin resigned in March 2026 after his confirmation as Homeland Security secretary; appointed Sen. Alan Armstrong is not running. Rep. Kevin Hern won the June 16 Republican primary with 67.6% and no runoff. N'Kiyla Jasmine Thomas defeated Jim Priest with 61% in the Aug 25 Democratic runoff. Independents Ron Meinhardt and Curtis Stinnett and Libertarian Sevier White are also on the November ballot; none of the three has documented policy positions we could find, so they appear by name only.",
       "advancing": [
         "fec-S6OK04247",
         "fec-S6OK04163",
@@ -38,7 +38,7 @@
       "age": 62,
       "home": "Tulsa, OK",
       "now": "Attorney General of Oklahoma (since 2023)",
-      "background": "Oklahoma Attorney General since 2023; former Air Force F-15 pilot who flew 32 combat missions in the Gulf War, Osage County rancher, banking lawyer, and principal owner of Blue Sky Bank. Led the June 16 primary with just over 25% and faces Mike Mazzei in the Aug 25 Republican runoff.",
+      "background": "Oklahoma Attorney General since 2023; former Air Force F-15 pilot who flew 32 combat missions in the Gulf War, Osage County rancher, banking lawyer, and principal owner of Blue Sky Bank. Led the June 16 primary with just over 25%, then lost the Aug 25 Republican runoff to Mike Mazzei by 2,020 votes and conceded.",
       "priorities": [
         "Lower costs, including insurance rates",
         "Crack down on cartels and support law enforcement",
@@ -126,7 +126,7 @@
       "age": 61,
       "home": "Tulsa, OK",
       "now": "Chairman and CEO, Trinity Strategic Wealth (Tulsa)",
-      "background": "Former state senator for the Bixby area (2004-2016) who chaired the Senate Finance Committee, and Gov. Stitt's first Secretary of Budget. Founder of a Tulsa financial planning firm. Advanced to the Aug 25 Republican runoff with just over 25% on June 16; endorsed by President Trump per his campaign site.",
+      "background": "Former state senator for the Bixby area (2004-2016) who chaired the Senate Finance Committee, and Gov. Stitt's first Secretary of Budget. Founder of a Tulsa financial planning firm. Won the Aug 25 Republican runoff over Attorney General Gentner Drummond by 2,020 votes out of more than 371,000 cast, after advancing with just over 25% on June 16; endorsed by President Trump per his campaign site.",
       "priorities": [
         "Eliminate the state income tax in phases",
         "Statewide literacy initiative",
@@ -289,6 +289,10 @@
         {
           "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
           "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        },
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
         }
       ]
     },
@@ -310,6 +314,10 @@
         {
           "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
           "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
+        },
+        {
+          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
+          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
         }
       ]
     },
@@ -331,54 +339,7 @@
         {
           "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
           "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
-        }
-      ]
-    },
-    {
-      "id": "ok-gov-griffin",
-      "name": "Jerry Griffin",
-      "party": "Independent",
-      "office": "governor",
-      "district": null,
-      "state": "OK",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
-          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
-        }
-      ]
-    },
-    {
-      "id": "ok-gov-brooks",
-      "name": "Robert Brooks",
-      "party": "Independent",
-      "office": "governor",
-      "district": null,
-      "state": "OK",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
-          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
-        }
-      ]
-    },
-    {
-      "id": "ok-gov-bush",
-      "name": "Orlando Lynn Bush",
-      "party": "Independent",
-      "office": "governor",
-      "district": null,
-      "state": "OK",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
+        },
         {
           "label": "NonDoc: 2026 filing period, statewide and federal candidates",
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
@@ -392,7 +353,7 @@
       "office": "us-senate",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -403,17 +364,85 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6OK04247/"
+        },
+        {
+          "label": "NonDoc: Hern launches U.S. Senate campaign",
+          "url": "https://nondoc.com/2026/03/11/kevin-hern-launches-u-s-senate-campaign-opens-tulsa-based-congressional-district/"
+        },
+        {
+          "label": "Ballotpedia: Kevin Hern",
+          "url": "https://ballotpedia.org/Kevin_Hern"
         }
-      ]
+      ],
+      "age": 64,
+      "home": "Tulsa, OK",
+      "now": "U.S. Representative, OK-1; chair, House Republican Policy Committee",
+      "background": "Longtime Tulsa-area McDonald's franchisee who built and sold a group of restaurants before winning the 1st District House seat in 2018; chaired the Republican Study Committee and now chairs the House Republican Policy Committee. Gave up his House seat to run for Senate after Markwayne Mullin resigned to lead DHS, framing his campaign as ensuring 'President Trump has a loyal ally.' Won the June 16 Republican primary with 67.6%, avoiding a runoff; endorsed by President Trump.",
+      "priorities": [
+        "America First loyalty to President Trump's agenda",
+        "Balanced federal budget and spending cuts",
+        "Border security and immigration enforcement"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Chaired the Republican Study Committee budget that frames deregulation and $16 trillion in spending cuts as the fix for inflation and high prices (RSC FY24 budget, Hern's House site)",
+          "url": "https://hern.house.gov/uploadedfiles/202306141135_fy24_rsc_budget_print_final_c.pdf"
+        },
+        "health": {
+          "label": "Supports repealing the Affordable Care Act in favor of free-market health care that 'lowers costs' with decisions between patients and doctors (Ballotpedia)",
+          "url": "https://ballotpedia.org/Kevin_Hern"
+        },
+        "immigration": {
+          "label": "Voted for H.R. 695 to fund the border wall and cosponsored H.R. 768 to defund sanctuary campuses (campaign site)",
+          "url": "https://hernforsenate.com/"
+        },
+        "taxes": {
+          "label": "Voted yes on final passage of H.R. 1, the July 2025 reconciliation law making the 2017 tax cuts permanent (House Clerk roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'We have an ambitious goal of not only energy independence, but energy dominance': backs all-of-the-above production including oil and gas (Hern House press release)",
+          "url": "https://hern.house.gov/news/documentsingle.aspx?DocumentID=329"
+        },
+        "education": {
+          "label": "Introduced the Student Empowerment Act with Sen. Cruz to extend 529 accounts to private, religious and homeschool K-12 expenses, 'giving students and families the freedom to choose' (Hern House press release)",
+          "url": "https://hern.house.gov/news/documentsingle.aspx?DocumentID=3057"
+        },
+        "repro": {
+          "label": "Says 'all life is sacred and begins at conception' and positions himself as a pro-life advocate (Ballotpedia)",
+          "url": "https://ballotpedia.org/Kevin_Hern"
+        },
+        "democracy": {
+          "label": "Voted to sustain the objection to counting Pennsylvania's 2020 electoral votes on Jan 7, 2021 (House Clerk roll call 11)",
+          "url": "https://clerk.house.gov/evs/2021/roll011.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Ballotpedia, hernforsenate.com, NonDoc campaign launch coverage and House press releases; no housing position documented",
+        "safety": "checked Ballotpedia, hernforsenate.com and NonDoc launch coverage; Second Amendment items do not map to this axis and no policing or sentencing position was documented"
+      },
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "fec-S6OK04163",
-      "name": "N'Kiyla Jasmine - Ann Thomas",
+      "name": "N'Kiyla Jasmine Thomas",
       "party": "Democrat",
       "office": "us-senate",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -424,8 +453,83 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6OK04163/"
+        },
+        {
+          "label": "NonDoc: Thomas wins the runoff, first democratic socialist nominee",
+          "url": "https://nondoc.com/2026/08/25/nkiyla-jasmine-thomas-wins-u-s-senate-runoff-becomes-oklahomas-first-democratic-socialist-nominee/"
+        },
+        {
+          "label": "Campaign policies page",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        {
+          "label": "Ballotpedia: N'Kiyla Thomas",
+          "url": "https://ballotpedia.org/N'Kiyla_Thomas"
         }
-      ]
+      ],
+      "age": 31,
+      "home": "Ardmore, OK",
+      "now": "Registered nurse and community health worker",
+      "background": "A 31-year-old nurse from Ardmore, Chickasaw Nation citizen and military spouse, and a political newcomer who identifies as a democratic socialist. Led the five-way June primary with about 45%, then defeated attorney Jim Priest with 61% in the Aug 25 runoff to become the Democratic nominee. Says she would push to impeach President Trump in her first 100 days.",
+      "priorities": [
+        "Rural hospitals and healthcare access",
+        "A living wage and price gouging protections",
+        "Public school funding and teacher pay"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": -1,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform calls for 'a living wage minimum wage' and 'strong price gouging protections' (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        "health": {
+          "label": "Aims for a single-payer 'Medicare for all' system and funding rural hospitals (NonDoc runoff profile)",
+          "url": "https://nondoc.com/2026/07/17/u-s-senate-runoff-democrats-nkiyla-jasmine-thomas-jim-priest-clash-over-electability-identity/"
+        },
+        "housing": {
+          "label": "Backs investment in affordable housing, emergency housing and utility relief, and 'accountability for predatory landlords' (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        "taxes": {
+          "label": "Supports tax reform that benefits working families rather than the wealthy (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/N'Kiyla_Thomas"
+        },
+        "climate": {
+          "label": "Would invest in renewable energy and sustainable practices to address increasingly severe natural disasters (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/N'Kiyla_Thomas"
+        },
+        "education": {
+          "label": "Platform: competitive teacher pay, fully fund special education, free school breakfast and lunch, smaller class sizes (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        "safety": {
+          "label": "Would mandate trauma-informed training for law enforcement and protect survivors from criminalization for self-defense (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        "repro": {
+          "label": "Platform: 'Restore Roe v. Wade federally' and protect women from prosecution over miscarriage or pregnancy complications (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        },
+        "democracy": {
+          "label": "Platform: safeguard voting access for disabled Americans (campaign policies page)",
+          "url": "https://www.jasmineforok.com/policies"
+        }
+      },
+      "nullNotes": {
+        "immigration": "checked jasmineforok.com policies page, Ballotpedia Candidate Connection survey, and NonDoc primary and runoff coverage; no immigration or ICE position documented in any fetched source"
+      },
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "ok-senate-stinnett",

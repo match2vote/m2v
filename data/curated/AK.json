@@ -4,11 +4,53 @@
   "races": {
     "AK-senate": {
       "status": "general",
-      "statusNote": "Sen. Dan Sullivan (R) and Mary Peltola (D) advanced from the Aug 18 top-four primary to the November ranked choice general, along with Dan J. Sullivan of Petersburg (R). The fourth spot is still being counted through Aug 28, with David Leslie (D) and Gerald Heikes (R) separated by a handful of votes.",
+      "statusNote": "Sen. Dan Sullivan (R) and Mary Peltola (D) advanced from the Aug 18 top-four primary to the November ranked choice general, along with Dan J. Sullivan of Petersburg (R). The fourth spot is still open: in the state's Aug 26 count update, David Leslie (D) led Gerald Heikes (R) by 43 votes, with absentee ballots accepted through Aug 28 and certification expected Aug 31.",
       "advancing": [
         "fec-S4AK00214",
         "fec-S6AK00276",
         "fec-S6AK00326"
+      ]
+    },
+    "AK-governor": {
+      "status": "names-only",
+      "statusNote": "Open seat: Gov. Mike Dunleavy is term-limited and cannot seek a third consecutive term. In the Aug 18 top-four primary, Jonathan Kreiss-Tomkins (D), who represented Sitka and Southeast Alaska in the Legislature for a decade, and former Anchorage state Sen. Tom Begich (D) lead with about 22% and 20%. Conservative activist and business owner Bernadette Wilson (R) holds third at about 10%. The fourth spot is not settled: former Anchorage Mayor Dave Bronson (R) leads a tight pack, with certification expected Aug 31. The November general uses ranked choice voting. Positions are not researched yet.",
+      "advancing": [
+        "ak-gov-kreiss-tomkins",
+        "ak-gov-begich",
+        "ak-gov-wilson"
+      ],
+      "sources": [
+        {
+          "label": "Alaska Public Media: governor primary results, Aug 18",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+        },
+        {
+          "label": "Alaska Public Media: updated ballot count, Aug 26",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+        },
+        {
+          "label": "Wikipedia: 2026 Alaska gubernatorial election (Dunleavy term-limited)",
+          "url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election"
+        }
+      ]
+    },
+    "AK-house-at-large": {
+      "status": "names-only",
+      "statusNote": "Rep. Nick Begich III (R) and independent Bill Hill, a commercial fisherman and retired educator, advanced from the Aug 18 top-four primary. Democrat Eric Hafner also advanced after third-place finisher Matt Schultz (D) withdrew; Hafner is serving a federal prison sentence until 2036, has no clear ties to Alaska, and legal challenges to his candidacy are expected. The final spot is not settled, with certification expected Aug 31. The November general uses ranked choice voting. Positions are not researched yet.",
+      "advancing": [
+        "fec-H2AK01083",
+        "fec-H6AK01092",
+        "ak-house-al-hafner"
+      ],
+      "sources": [
+        {
+          "label": "Alaska Public Media: House primary results, Aug 18",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/alaska-rep-nick-begich-leads-3-challengers-in-u-s-house-primary"
+        },
+        {
+          "label": "Alaska Public Media: Hafner advances after Schultz withdrawal, Aug 27",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-27/a-federal-prisoner-with-no-clear-ties-to-alaska-advances-in-primary-for-the-states-u-s-house-seat"
+        }
       ]
     }
   },
@@ -195,6 +237,83 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ak-gov-kreiss-tomkins",
+      "name": "Jonathan Kreiss-Tomkins",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "AK",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Alaska Public Media: governor primary results, Aug 18",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+        },
+        {
+          "label": "Alaska Public Media: updated ballot count, Aug 26",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+        }
+      ]
+    },
+    {
+      "id": "ak-gov-begich",
+      "name": "Tom Begich",
+      "party": "Democrat",
+      "office": "governor",
+      "state": "AK",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Alaska Public Media: governor primary results, Aug 18",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+        },
+        {
+          "label": "Alaska Public Media: updated ballot count, Aug 26",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+        }
+      ]
+    },
+    {
+      "id": "ak-gov-wilson",
+      "name": "Bernadette Wilson",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AK",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Alaska Public Media: governor primary results, Aug 18",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+        },
+        {
+          "label": "Alaska Public Media: updated ballot count, Aug 26",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+        }
+      ]
+    },
+    {
+      "id": "ak-house-al-hafner",
+      "name": "Eric Hafner",
+      "party": "Democrat",
+      "office": "us-house",
+      "state": "AK",
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Alaska Public Media: Hafner advances after Schultz withdrawal, Aug 27",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-27/a-federal-prisoner-with-no-clear-ties-to-alaska-advances-in-primary-for-the-states-u-s-house-seat"
+        }
+      ],
+      "district": "at-large"
     }
   ]
 }

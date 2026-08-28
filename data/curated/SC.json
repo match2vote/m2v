@@ -202,7 +202,7 @@
       "age": null,
       "home": "Mount Pleasant, SC",
       "now": "Pediatrician",
-      "background": "Pediatrician and 2022 Democratic nominee in South Carolina's 1st District, where she took 42.5% against Rep. Nancy Mace. Won the June 9 Democratic Senate primary with 61.5% over Brandon Brown, and will face the winner of the Aug 25 Republican special-primary runoff.",
+      "background": "Pediatrician and 2022 Democratic nominee in South Carolina's 1st District, where she took 42.5% against Rep. Nancy Mace. Won the June 9 Democratic Senate primary with 61.5% over Brandon Brown, and faces appointed Sen. Darline Graham, who won the Aug 25 Republican runoff.",
       "priorities": [
         "Affordable healthcare for every South Carolinian",
         "Reproductive freedom",
@@ -280,7 +280,7 @@
       "age": 62,
       "home": "Lexington, SC",
       "now": "U.S. Senator (appointed July 2026)",
-      "background": "Appointed by Gov. McMaster to complete the term of her brother, Sen. Lindsey Graham, after his death on July 11; South Carolina's first female U.S. senator. Spent 28 years in state government, most recently seven years leading the SC Commission for the Blind. A first-time candidate endorsed by President Trump, she led the Aug 11 special primary with 33% and faces Rep. Ralph Norman in the Aug 25 runoff.",
+      "background": "Appointed by Gov. McMaster to complete the term of her brother, Sen. Lindsey Graham, after his death on July 11; South Carolina's first female U.S. senator. Spent 28 years in state government, most recently seven years leading the SC Commission for the Blind. A first-time candidate endorsed by President Trump, she led the Aug 11 special primary with 33% and won the Aug 25 runoff over Rep. Ralph Norman, 53 to 47, to become the Republican nominee.",
       "priorities": [
         "Kitchen-table affordability: 'the price of groceries, the price of gas, healthcare'",
         "Employment and independence for people with disabilities",
@@ -309,14 +309,14 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign site, Forbes profiles and news sweep; only an incidental gas-price remark ('Trump is gonna get us through this'), nothing scoreable",
-        "health": "checked campaign site and Forbes profiles; appointed weeks ago with no voting record, nothing documented",
-        "housing": "checked campaign site and Forbes profiles, nothing documented",
-        "immigration": "checked campaign site and Forbes profiles, nothing documented beyond general Trump alignment",
-        "taxes": "checked campaign site ('fiercely protective of taxpayer dollars' is too vague) and Forbes profiles, nothing scoreable",
-        "climate": "checked campaign site and Forbes profiles, nothing documented",
-        "education": "checked campaign site and Forbes profiles, nothing documented",
-        "safety": "checked campaign site and Forbes profiles, nothing documented"
+        "cost": "checked campaign site, Forbes profiles and news sweep; only an incidental gas-price remark ('Trump is gonna get us through this'), nothing scoreable; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "health": "checked campaign site and Forbes profiles; appointed weeks ago with no voting record, nothing documented; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "housing": "checked campaign site and Forbes profiles, nothing documented; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "immigration": "checked campaign site and Forbes profiles, nothing documented beyond general Trump alignment; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "taxes": "checked campaign site ('fiercely protective of taxpayer dollars' is too vague) and Forbes profiles, nothing scoreable; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "climate": "checked campaign site and Forbes profiles, nothing documented; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "education": "checked campaign site and Forbes profiles, nothing documented; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis",
+        "safety": "checked campaign site and Forbes profiles, nothing documented; re-checked Aug 28 after her runoff win: campaign site still has no issues page, and NPR and NOTUS runoff coverage contain no position on this axis"
       },
       "sources": [
         {
@@ -334,9 +334,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6SC04437/"
+        },
+        {
+          "label": "NOTUS: runoff coverage, her record and SAVE America Act cosponsorship",
+          "url": "https://www.notus.org/2026-election/republicans-darline-graham-south-carolina-runoff"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "fec-S6SC04445",
@@ -350,7 +354,7 @@
       "age": 73,
       "home": "Rock Hill, SC",
       "now": "U.S. Representative, SC-05",
-      "background": "Rock Hill real estate developer and U.S. representative for SC-05 since 2017; House Freedom Caucus member rated the most conservative House member of the 117th Congress by GovTrack. Lost the June governor's primary, then entered the Senate special primary after Lindsey Graham's death, taking 25% on Aug 11 to reach the Aug 25 runoff against Darline Graham.",
+      "background": "Rock Hill real estate developer and U.S. representative for SC-05 since 2017; House Freedom Caucus member rated the most conservative House member of the 117th Congress by GovTrack. Lost the June governor's primary, then entered the Senate special primary after Lindsey Graham's death, taking 25% on Aug 11 to reach the Aug 25 runoff, which he lost to Darline Graham, 47 to 53.",
       "priorities": [
         "Fiscal conservatism and cutting federal spending",
         "Pro-life laws with no exceptions",

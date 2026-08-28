@@ -1,0 +1,82 @@
+# Fact-check bot on GitHub's servers.
+# INSTALL: upload this file to .github/workflows/factcheck.yml in the repo
+# (GitHub web: Add file > Create new file, path ".github/workflows/factcheck.yml", paste this).
+# Then add the API key once: repo Settings > Secrets and variables > Actions >
+# New repository secret, name GEMINI_API_KEY, value = your key from aistudio.google.com/apikey.
+# RUN: repo Actions tab > "Fact-check candidate data" > Run workflow.
+# When it finishes, the report (CSV + HTML) is downloadable under the run's Artifacts.
+# Progress is cached between runs, so if the free daily quota runs out,
+# just run it again the next day and it resumes.
+
+name: Fact-check candidate data
+
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: "States to check (e.g. VT,CT) or ALL"
+        default: "ALL"
+      model:
+        description: "Gemini model"
+        default: "gemini-2.5-flash"
+      max_calls:
+        description: "Max Gemini calls this run (stay under the free daily cap)"
+        default: "240"
+      rpm:
+        description: "Requests per minute"
+        default: "8"
+  # Runs nightly until the pass is complete (resumes from checkpoint; near-zero API calls once done):
+  schedule:
+    - cron: "30 6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  factcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Restore progress from previous runs
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            tools/factcheck/factcheck-results.jsonl
+            tools/factcheck/page-cache
+          key: factcheck-${{ github.run_id }}
+          restore-keys: factcheck-
+
+      - name: Run fact-check
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          node tools/factcheck/run.mjs check \
+            --states "${{ github.event.inputs.states || 'ALL' }}" \
+            --model "${{ github.event.inputs.model || 'gemini-2.5-flash' }}" \
+            --max-calls "${{ github.event.inputs.max_calls || '240' }}" \
+            --rpm "${{ github.event.inputs.rpm || '8' }}"
+
+      - name: Save progress
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            tools/factcheck/factcheck-results.jsonl
+            tools/factcheck/page-cache
+          key: factcheck-${{ github.run_id }}
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factcheck-report
+          path: |
+            tools/factcheck/factcheck-report.html
+            tools/factcheck/factcheck-report.csv
+            tools/factcheck/factcheck-results.jsonl

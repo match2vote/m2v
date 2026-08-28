@@ -36,7 +36,32 @@ const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 // Engine: gemini (needs GEMINI_API_KEY) or github (GitHub Models, needs GITHUB_TOKEN,
 // free inside GitHub Actions with `permissions: models: read`). Auto-picks Gemini when a key is set.
 const ENGINE = flag('engine', KEY ? 'gemini' : (GH_TOKEN ? 'github' : 'gemini'));
-const MODEL = flag('model', ENGINE === 'github' ? 'openai/gpt-4o-mini' : 'gemini-2.5-flash');
+let MODEL = flag('model', ENGINE === 'github' ? 'openai/gpt-4o-mini' : '');
+
+// Ask the Gemini API which models this key can use and pick the best general Flash model.
+// Keeps the bot working as Google renames/retires models.
+async function resolveGeminiModel() {
+  try {
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000',
+      { headers: { 'x-goog-api-key': KEY } });
+    if (!res.ok) throw new Error('ListModels HTTP ' + res.status);
+    const j = await res.json();
+    const names = (j.models || [])
+      .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
+      .map(m => m.name.replace(/^models\//, ''));
+    const bad = /(lite|image|tts|audio|live|exp|preview|embed|thinking|nano|8b|robotics|computer)/i;
+    const flash = names.filter(n => /flash/i.test(n) && !bad.test(n));
+    const ver = n => { const m = n.match(/gemini-(\d+(?:\.\d+)?)/); return m ? parseFloat(m[1]) : 0; };
+    flash.sort((a, b) => ver(b) - ver(a) || a.length - b.length);
+    const pick = flash[0] || names.find(n => /gemini/i.test(n) && !bad.test(n)) || names[0];
+    console.log('Models available to this key (sample):', names.slice(0, 15).join(', '));
+    if (!pick) throw new Error('No usable model in ListModels response');
+    return pick;
+  } catch (e) {
+    console.log('Model auto-detect failed (' + e.message + '); falling back to gemini-flash-latest');
+    return 'gemini-flash-latest';
+  }
+}
 const RPM = Number(flag('rpm', 8));
 const MAX_CALLS = Number(flag('max-calls', 100000));
 const LIMIT = Number(flag('limit', 0));
@@ -268,6 +293,7 @@ async function main() {
   if (cmd === 'report') return writeReport();
   if (!fs.existsSync(DATA_DIR)) { console.error('Cannot find ' + DATA_DIR + ' (use --repo)'); process.exit(1); }
   if (!DRY && !KEY && !(ENGINE === 'github' && GH_TOKEN)) { console.error('No credentials. Pass --key / set GEMINI_API_KEY, or set GITHUB_TOKEN with --engine github, or use --dry-run.'); process.exit(1); }
+  if (!MODEL) MODEL = ENGINE === 'github' ? 'openai/gpt-4o-mini' : (DRY ? '(dry run)' : await resolveGeminiModel());
   if (!DRY) console.log(`Engine: ${ENGINE} (${MODEL})`);
 
   const all = collectClaims();

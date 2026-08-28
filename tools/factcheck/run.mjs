@@ -35,7 +35,7 @@ const KEY = flag('key', process.env.GEMINI_API_KEY || '');
 const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 // Engine: gemini (needs GEMINI_API_KEY) or github (GitHub Models, needs GITHUB_TOKEN,
 // free inside GitHub Actions with `permissions: models: read`). Auto-picks Gemini when a key is set.
-const ENGINE = flag('engine', KEY ? 'gemini' : (GH_TOKEN ? 'github' : 'gemini'));
+let ENGINE = flag('engine', KEY ? 'gemini' : (GH_TOKEN ? 'github' : 'gemini'));
 let MODEL = flag('model', ENGINE === 'github' ? 'openai/gpt-4o-mini' : '');
 
 // Ask the Gemini API which models this key can use and pick the best general Flash model.
@@ -49,18 +49,37 @@ async function resolveGeminiModel() {
     const names = (j.models || [])
       .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
       .map(m => m.name.replace(/^models\//, ''));
-    const bad = /(lite|image|tts|audio|live|exp|preview|embed|thinking|nano|8b|robotics|computer)/i;
-    const flash = names.filter(n => /flash/i.test(n) && !bad.test(n));
+    const bad = /(image|tts|audio|live|exp|embed|thinking|nano|8b|robotics|computer)/i;
     const ver = n => { const m = n.match(/gemini-(\d+(?:\.\d+)?)/); return m ? parseFloat(m[1]) : 0; };
-    flash.sort((a, b) => ver(b) - ver(a) || a.length - b.length);
-    const pick = flash[0] || names.find(n => /gemini/i.test(n) && !bad.test(n)) || names[0];
+    const rank = n => (/flash/i.test(n) && !/lite|preview/i.test(n) ? 0 : /flash/i.test(n) && !/preview/i.test(n) ? 1 : /flash/i.test(n) ? 2 : 3);
+    const cands = names.filter(n => /gemini/i.test(n) && !bad.test(n))
+      .sort((a, b) => rank(a) - rank(b) || ver(b) - ver(a) || a.length - b.length);
     console.log('Models available to this key (sample):', names.slice(0, 15).join(', '));
-    if (!pick) throw new Error('No usable model in ListModels response');
-    return pick;
+    if (!cands.length) throw new Error('No usable model in ListModels response');
+    return cands.slice(0, 6);
   } catch (e) {
-    console.log('Model auto-detect failed (' + e.message + '); falling back to gemini-flash-latest');
-    return 'gemini-flash-latest';
+    console.log('Model auto-detect failed (' + e.message + '); falling back to defaults');
+    return ['gemini-flash-latest', 'gemini-flash-lite-latest'];
   }
+}
+// Probe candidates with a tiny request and return the first that actually answers.
+async function probeGeminiModel(cands) {
+  for (const m of cands) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent?key=${KEY}`,
+          { method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ contents: [{ parts: [{ text: 'Reply with the single word OK' }] }], generationConfig: { maxOutputTokens: 10 } }),
+            signal: AbortSignal.timeout(30000) });
+        if (res.ok) { console.log('Probe OK: ' + m); return m; }
+        const code = res.status; await res.text();
+        console.log(`Probe ${m}: HTTP ${code}`);
+        if (code === 404 || code === 400 || code === 403) break; // model not usable for this key; next candidate
+        await new Promise(r => setTimeout(r, 5000));            // 429/5xx: one more try then move on
+      } catch (e) { console.log(`Probe ${m}: ${String(e.message).slice(0, 60)}`); await new Promise(r => setTimeout(r, 3000)); }
+    }
+  }
+  return null;
 }
 const RPM = Number(flag('rpm', 8));
 const MAX_CALLS = Number(flag('max-calls', 100000));
@@ -196,6 +215,7 @@ Respond with ONLY a JSON array, one object per claim in order, each: {"claim":1,
 async function askGitHubModels(group, page) {
   const content = buildPrompt(group, page) + '\n\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '');
   const body = { model: MODEL, messages: [{ role: 'user', content }], temperature: 0.1, max_tokens: 4000 };
+  let lastStatus = 0;
   for (let attempt = 1; attempt <= 5; attempt++) {
     await throttle();
     let res;
@@ -208,6 +228,7 @@ async function askGitHubModels(group, page) {
       continue;
     }
     if (res.status === 429 || res.status >= 500) {
+      lastStatus = res.status;
       const ra = Number(res.headers.get('retry-after')) || 0;
       const wait = ra ? (ra + 2) * 1000 : Math.min(120000, 7000 * attempt * attempt);
       process.stdout.write(`  [${res.status}, retry in ${Math.round(wait / 1000)}s]`);
@@ -222,7 +243,7 @@ async function askGitHubModels(group, page) {
     if (!m) throw new Error('No JSON in reply: ' + text.slice(0, 200));
     return JSON.parse(m[0]);
   }
-  throw new Error('Rate-limited after 5 attempts. Daily quota may be exhausted; rerun tomorrow, it will resume.');
+  throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }
 async function askGemini(group, page) {
   if (ENGINE === 'github') return askGitHubModels(group, page);
@@ -230,6 +251,7 @@ async function askGemini(group, page) {
   if (page.kind === 'pdf') parts.push({ inline_data: { mime_type: 'application/pdf', data: page.b64 } });
   else parts.push({ text: '\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '') });
   const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 4000 } };
+  let lastStatus = 0;
   for (let attempt = 1; attempt <= 5; attempt++) {
     await throttle();
     let res;
@@ -242,7 +264,9 @@ async function askGemini(group, page) {
       continue;
     }
     if (res.status === 429 || res.status >= 500) {
+      lastStatus = res.status;
       const txt = await res.text();
+      if (/RESOURCE_EXHAUSTED|quota/i.test(txt)) lastStatus = 429;
       const m = txt.match(/"retryDelay"\s*:\s*"(\d+)s"/);
       const wait = m ? (Number(m[1]) + 2) * 1000 : Math.min(90000, 5000 * attempt * attempt);
       process.stdout.write(`  [${res.status}, retry in ${Math.round(wait / 1000)}s]`);
@@ -256,7 +280,7 @@ async function askGemini(group, page) {
     if (!m) throw new Error('No JSON in Gemini reply: ' + text.slice(0, 200));
     return JSON.parse(m[0]);
   }
-  throw new Error('Rate-limited after 5 attempts. Daily quota may be exhausted; rerun tomorrow, it will resume.');
+  throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }
 
 // ---------- 4. Results + report ----------
@@ -309,7 +333,15 @@ async function main() {
   if (cmd === 'report') return writeReport();
   if (!fs.existsSync(DATA_DIR)) { console.error('Cannot find ' + DATA_DIR + ' (use --repo)'); process.exit(1); }
   if (!DRY && !KEY && !(ENGINE === 'github' && GH_TOKEN)) { console.error('No credentials. Pass --key / set GEMINI_API_KEY, or set GITHUB_TOKEN with --engine github, or use --dry-run.'); process.exit(1); }
-  if (!MODEL) MODEL = ENGINE === 'github' ? 'openai/gpt-4o-mini' : (DRY ? '(dry run)' : await resolveGeminiModel());
+  if (!MODEL) {
+    if (ENGINE === 'github') MODEL = 'openai/gpt-4o-mini';
+    else if (DRY) MODEL = '(dry run)';
+    else {
+      MODEL = await probeGeminiModel(await resolveGeminiModel());
+      if (!MODEL && GH_TOKEN) { console.log('No Gemini model answered; falling back to GitHub Models.'); ENGINE = 'github'; MODEL = 'openai/gpt-4o-mini'; }
+      else if (!MODEL) { console.error('No Gemini model answered the probe. Try again later.'); process.exit(1); }
+    }
+  }
   if (!DRY) console.log(`Engine: ${ENGINE} (${MODEL})`);
 
   const all = collectClaims();
@@ -363,7 +395,7 @@ async function main() {
       console.log('→ ' + verdicts.map(v => v.verdict).join(', '));
     } catch (e) {
       console.log('→ API_ERROR: ' + String(e.message).slice(0, 140));
-      if (/quota|Rate-limited/i.test(String(e.message))) break; // stop cleanly, resume later
+      if (/quota/i.test(String(e.message))) break; // true quota exhaustion: stop cleanly, resume later
       record(group.map(c => ({ key: keyOf(c), ...c, verdict: 'API_ERROR', label_check: '', score_check: '', note: String(e.message).slice(0, 200) })));
     }
   }

@@ -814,7 +814,7 @@
         "Lower costs by curbing corporate price-gouging"
       ],
       "positions": {
-        "cost": 1,
+        "cost": 0,
         "health": -2,
         "housing": 0,
         "immigration": 0,
@@ -827,7 +827,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Would 'remove policies that raise costs while promoting fair competition' and 'repeal unnecessary tariffs that raise consumer goods and food prices' (campaign 'the plan' page)",
+          "label": "Mixed: would 'repeal unnecessary tariffs that raise consumer goods and food prices' (deregulatory) but also 'strengthen price-gouging rules during emergencies' and 'cap excessive credit-card interest rates and junk fees' (interventionist) (campaign 'the plan' page)",
           "url": "https://www.andykaplan4congress.com/the-plan"
         },
         "health": {
@@ -1455,23 +1455,23 @@
       "positionSources": {
         "health": {
           "label": "Would 'break the link between employment and health care by removing tax deductibility for employer-paid insurance' and restore fee-for-service, market competition (campaign home page)",
-          "url": "https://www.reesideforcongress.com"
+          "url": "https://www.reesideforcongress.com/priorities"
         },
         "immigration": {
           "label": "Mixed: backs 'eliminating asylum and Temporary Protected Status,' replacing them with work visas, while pledging to 'negotiate a fair path to citizenship for the Dreamers' (campaign home page)",
-          "url": "https://www.reesideforcongress.com"
+          "url": "https://www.reesideforcongress.com/priorities"
         },
         "education": {
           "label": "Advocates trade schools and certificate programs over four-year degrees and restoring private student-loan lending (campaign home page)",
-          "url": "https://www.reesideforcongress.com"
+          "url": "https://www.reesideforcongress.com/priorities"
         },
         "safety": {
           "label": "Would 'reduce the federal prison population by repealing nonviolent drug laws' and redirect enforcement funding to demand-side solutions (campaign home page)",
-          "url": "https://www.reesideforcongress.com"
+          "url": "https://www.reesideforcongress.com/priorities"
         },
         "repro": {
           "label": "Supports 'the Supreme Court's return of abortion legislation to the states' while working to reduce abortion demand (campaign home page)",
-          "url": "https://www.reesideforcongress.com"
+          "url": "https://www.reesideforcongress.com/priorities"
         }
       },
       "nullNotes": {
@@ -1483,8 +1483,8 @@
       },
       "sources": [
         {
-          "label": "Campaign home page",
-          "url": "https://www.reesideforcongress.com"
+          "label": "Campaign priorities page",
+          "url": "https://www.reesideforcongress.com/priorities"
         },
         {
           "label": "Ballotpedia Candidate Connection survey",
@@ -1770,8 +1770,8 @@
       },
       "positionSources": {
         "health": {
-          "label": "'Upstate First Agenda' pledges 'expanding access to quality healthcare' (campaign home page)",
-          "url": "https://www.mcclainforsc.com/"
+          "label": "'Upstate First Agenda' pledges 'bringing down the cost of living by expanding access to quality healthcare' (campaign issues page)",
+          "url": "https://www.mcclainforsc.com/issues"
         },
         "housing": {
           "label": "'Upstate First Agenda' pledges 'building affordable homes' (campaign home page)",
@@ -2064,8 +2064,8 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Says families are 'paying the price for years of Washington's reckless spending' and is 'fighting to make life affordable again' (campaign home page)",
-          "url": "https://russellfrysc.com"
+          "label": "Says families are 'paying the price for years of Washington's reckless spending' and is 'fighting to make life affordable again' (campaign issues page)",
+          "url": "https://russellfrysc.com/issues/"
         },
         "immigration": {
           "label": "Voted yes on the Laken Riley Act (roll call 23, Jan 22, 2025); backs finishing the wall and to 'DEPORT criminal illegal aliens' (campaign home page)",

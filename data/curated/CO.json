@@ -1596,11 +1596,11 @@
         "housing": -1,
         "immigration": null,
         "taxes": null,
-        "climate": -1,
+        "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": -2
+        "democracy": null
       },
       "positionSources": {
         "health": {
@@ -1610,14 +1610,6 @@
         "housing": {
           "label": "'Housing First' platform, pledges 'an affordable Denver' and to codify housing as a basic need (campaign site)",
           "url": "https://www.kirosforco.com"
-        },
-        "climate": {
-          "label": "Says she is 'very concerned about the existential crises we face with climate change and AI' (campaign site)",
-          "url": "https://www.kirosforco.com"
-        },
-        "democracy": {
-          "label": "Campaign finance reform is her 'primary policy concern'; also backs expanding voting rights and consolidating elections to one day (campaign site)",
-          "url": "https://www.kirosforco.com"
         }
       },
       "nullNotes": {
@@ -1626,7 +1618,9 @@
         "taxes": "Not addressed on campaign homepage, no dedicated issues page found (checked Aug 29, 2026)",
         "education": "Public education mentioned only as a 'basic need' to codify alongside housing/healthcare, no distinct education policy stated (checked Aug 29, 2026)",
         "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)"
+        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "climate": "fact-check flag verified Aug 29, 2026: checked kirosforco.com homepage, /issues, and /about; only priorities listed are Medicare for All, Housing First, Universal Childcare, and Arms Embargo, no climate/AI content found.",
+        "democracy": "fact-check flag verified Aug 29, 2026: checked kirosforco.com homepage, /issues, and /about; no campaign-finance-reform, voting-rights, or election-consolidation content found beyond a generic anti-PAC line."
       },
       "sources": [
         {

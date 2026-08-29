@@ -70,12 +70,12 @@
       ]
     },
     "CA-house-4": {
-      "status": "general",
+      "status": "names-only",
       "advancing": [
         "fec-H8CA01109",
         "fec-H6CA04222"
       ],
-      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent.",
+      "statusNote": "Top two from California's June 2, 2026 open primary: Mike Thompson (Democrat, 41.0%) and Eric Jones (Democrat, 22.2%). Rep. Mike Thompson is the incumbent. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
@@ -85,8 +85,7 @@
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
         }
-      ],
-      "overlap": 7
+      ]
     },
     "CA-house-5": {
       "status": "general",
@@ -2213,7 +2212,7 @@
       "office": "us-house",
       "district": "4",
       "incumbent": true,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2302,7 +2301,7 @@
       "office": "us-house",
       "district": "4",
       "incumbent": false,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2322,7 +2321,7 @@
         "climate": -2,
         "education": -1,
         "safety": null,
-        "repro": -1,
+        "repro": null,
         "democracy": null
       },
       "positionSources": {
@@ -2349,16 +2348,13 @@
         "education": {
           "label": "Platform includes universal free childcare, a federally backed vocational/trade program with unions, and expanded STEM curriculum (Ballotpedia summary of campaign platform)",
           "url": "https://ballotpedia.org/Eric_Jones_(California)"
-        },
-        "repro": {
-          "label": "Wants 'Medicare covers abortion care, contraception, IVF, and fertility services so families, not politicians or insurers, can make their own decisions' (campaign site)",
-          "url": "https://www.ericjones.us"
         }
       },
       "nullNotes": {
         "cost": "Checked campaign site and Ballotpedia; found only tax- and health-specific cost proposals already scored under those axes, no general price-control or minimum-wage statement (checked Aug 29, 2026).",
         "safety": "Checked campaign site and Ballotpedia summary of the platform; no public-safety or policing position found beyond the immigration-enforcement plan (checked Aug 29, 2026).",
-        "democracy": "Checked campaign site and Ballotpedia; Ballotpedia notes he has not completed the Candidate Connection survey and no voting/elections position was found (checked Aug 29, 2026)."
+        "democracy": "Checked campaign site and Ballotpedia; Ballotpedia notes he has not completed the Candidate Connection survey and no voting/elections position was found (checked Aug 29, 2026).",
+        "repro": "fact-check flag verified Aug 29, 2026: checked ericjones.us homepage in full and /issues (404); no abortion, reproductive rights, contraception, IVF, or fertility content found anywhere on the site."
       },
       "sources": [
         {
@@ -8530,7 +8526,7 @@
         "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": -1,
+        "immigration": 1,
         "taxes": -1,
         "climate": -2,
         "education": null,
@@ -8560,7 +8556,7 @@
           "url": "https://www.mikelevin.org/10bigsteps/"
         },
         "immigration": {
-          "label": "Voted no on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+          "label": "Voted yes on S.5, the Laken Riley Act, a crossover vote for a swing-district Democrat, Jan 22 2025 (House roll call 23)",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
         },
         "democracy": {

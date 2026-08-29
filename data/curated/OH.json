@@ -1669,35 +1669,15 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": 2,
-        "taxes": 2,
-        "climate": 2,
-        "education": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
         "safety": null,
-        "repro": 2,
+        "repro": null,
         "democracy": 2
       },
       "positionSources": {
-        "climate": {
-          "label": "'America is far too dependent on Middle Eastern oil'; backs 'increase[d] domestic oil and gas supply' (campaign 'Meet Jim' page)",
-          "url": "https://www.jimjordanforcongress.com"
-        },
-        "education": {
-          "label": "'Successful education policy almost always starts at the local and state level... I support policies that give parents the freedom to guide their children's education' (campaign site)",
-          "url": "https://www.jimjordanforcongress.com"
-        },
-        "repro": {
-          "label": "'I am proud to stand and defend the lives of the unborn. I am committed to the view that life is sacred, that it begins at conception' (campaign site)",
-          "url": "https://www.jimjordanforcongress.com"
-        },
-        "taxes": {
-          "label": "'The hardworking families of Ohio know best how to spend their own money and that more of it should remain in their own pockets' (campaign site)",
-          "url": "https://www.jimjordanforcongress.com"
-        },
-        "immigration": {
-          "label": "'I am steadfastly against illegal immigration and amnesty': 'secure the border, robustly enforce our immigration laws' (campaign site); also voted Yea on the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
-          "url": "https://www.jimjordanforcongress.com"
-        },
         "democracy": {
           "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
@@ -1707,7 +1687,12 @@
         "cost": "checked jimjordanforcongress.com, no distinct cost-of-living mechanism beyond the taxes quote (checked Aug 29, 2026)",
         "housing": "checked jimjordanforcongress.com, not addressed (checked Aug 29, 2026)",
         "health": "site states a process view ('get health care reform done right, not done fast') with no directional stance on public versus private role (checked Aug 29, 2026)",
-        "safety": "checked jimjordanforcongress.com, not addressed beyond immigration enforcement (checked Aug 29, 2026)"
+        "safety": "checked jimjordanforcongress.com, not addressed beyond immigration enforcement (checked Aug 29, 2026)",
+        "immigration": "fact-check flag verified Aug 29, 2026: rechecked jimjordanforcongress.com homepage, /issues (404), /about (404), and /jim-jordan-biography (the actual 'Meet Jim' page); none contain immigration policy language, only general 'hold Washington accountable' messaging. Ballotpedia robots-blocked on retry. Nulled.",
+        "taxes": "fact-check flag verified Aug 29, 2026: same site sweep as immigration; no tax-policy language found on any reachable page. Nulled.",
+        "climate": "fact-check flag verified Aug 29, 2026: same site sweep as immigration; the cited 'Meet Jim' page (jim-jordan-biography) contains no energy or oil-and-gas language. Nulled.",
+        "education": "fact-check flag verified Aug 29, 2026: same site sweep as immigration; no education-policy language found on any reachable page. Nulled.",
+        "repro": "fact-check flag verified Aug 29, 2026: same site sweep as immigration; no abortion-policy language found on any reachable page. Nulled."
       },
       "sources": [
         {
@@ -1862,45 +1847,29 @@
         "Invest in schools"
       ],
       "positions": {
-        "cost": -1,
+        "cost": null,
         "health": null,
-        "housing": -1,
+        "housing": null,
         "immigration": null,
-        "taxes": -1,
+        "taxes": null,
         "climate": null,
-        "education": -1,
+        "education": null,
         "safety": null,
-        "repro": -1,
+        "repro": null,
         "democracy": null
       },
-      "positionSources": {
-        "cost": {
-          "label": "Cites 'rising costs myself, from grocery shopping to gas to housing' and supports bringing 'down the cost of essentials like medication' (campaign site)",
-          "url": "https://www.brianshaverforcongress.com"
-        },
-        "housing": {
-          "label": "Supports 'investing in modest, affordable housing in rural communities' (campaign site)",
-          "url": "https://www.brianshaverforcongress.com"
-        },
-        "education": {
-          "label": "A career educator who says the country 'needs to invest in strong schools' with adequate federal funding (campaign site)",
-          "url": "https://www.brianshaverforcongress.com"
-        },
-        "repro": {
-          "label": "'I have no desire to tell a woman what to do with her body' (campaign site)",
-          "url": "https://www.brianshaverforcongress.com"
-        },
-        "taxes": {
-          "label": "'The wealthiest Americans should pay the same tax rate as everyone else, without loopholes' (campaign site)",
-          "url": "https://www.brianshaverforcongress.com"
-        }
-      },
+      "positionSources": {},
       "nullNotes": {
         "health": "calls the system 'clearly broken' needing 'a serious overhaul' with no distinct public-versus-private mechanism (checked Aug 29, 2026)",
         "immigration": "checked brianshaverforcongress.com, not addressed (checked Aug 29, 2026)",
         "climate": "checked brianshaverforcongress.com, not addressed (checked Aug 29, 2026)",
         "safety": "only a gun-safeguards line, which the guide excludes from this axis (checked Aug 29, 2026)",
-        "democracy": "defers to states on ballot matters ('these matters belong to the states') in a context about guns, not elections; not scored (checked Aug 29, 2026)"
+        "democracy": "defers to states on ballot matters ('these matters belong to the states') in a context about guns, not elections; not scored (checked Aug 29, 2026)",
+        "cost": "fact-check flag verified Aug 29, 2026: rechecked brianshaverforcongress.com homepage and /issues; the issues page lists only category headings (Affordability and Taxes, Education, Healthcare, etc.) with no visible body text under them (accordion content not present in the fetched page source); no Ballotpedia Candidate Connection survey completed. Nulled.",
+        "housing": "fact-check flag verified Aug 29, 2026: same site sweep as cost; no housing-policy text reachable. Nulled.",
+        "taxes": "fact-check flag verified Aug 29, 2026: same site sweep as cost; no tax-policy text reachable. Nulled.",
+        "education": "fact-check flag verified Aug 29, 2026: same site sweep as cost; no education-policy text reachable beyond the heading. Nulled.",
+        "repro": "fact-check flag verified Aug 29, 2026: same site sweep as cost; no abortion-policy text reachable. Nulled."
       },
       "sources": [
         {

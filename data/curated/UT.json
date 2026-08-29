@@ -10,7 +10,7 @@
         "ut-house-1-west",
         "ut-house-1-montgomery"
       ],
-      "statusNote": "Open seat under Utah's new map: former Rep. Ben McAdams (D) won the June 23, 2026 Democratic primary and faces Republican Riley Owen, Libertarian Jesse West and unaffiliated candidate Elias Montgomery. We know who's running, positions not researched yet.",
+      "statusNote": "Open seat under Utah's new map: former Rep. Ben McAdams (D) won the June 23, 2026 Democratic primary and faces Republican Riley Owen, Libertarian Jesse West and unaffiliated candidate Elias Montgomery. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -35,7 +35,7 @@
         "ut-house-2-cottam",
         "fec-H6UT02531"
       ],
-      "statusNote": "Rep. Blake Moore (R), who represented the old 1st district, faces Democrat Peter Crosby, Independent American candidate Carlton Bowen, Libertarian Daniel Cottam and unaffiliated candidate Robert Moesinger after the June 23, 2026 primary. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Blake Moore (R), who represented the old 1st district, faces Democrat Peter Crosby, Independent American candidate Carlton Bowen, Libertarian Daniel Cottam and unaffiliated candidate Robert Moesinger after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -61,7 +61,7 @@
         "ut-house-3-hooslyn",
         "ut-house-3-scott"
       ],
-      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidates Adonis Hooslyn and Ayden Scott after the June 23, 2026 primary. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidates Adonis Hooslyn and Ayden Scott after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -85,7 +85,7 @@
         "ut-house-4-wright",
         "fec-H6UT04024"
       ],
-      "statusNote": "Rep. Mike Kennedy (R), who represented the old 3rd district, is the incumbent running under Utah's new map. He faces Democrat Jonny Larsen, Libertarian Taylor Wright and unaffiliated candidate Steven Burt after the June 23, 2026 primary. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Mike Kennedy (R), who represented the old 3rd district, is the incumbent running under Utah's new map. He faces Democrat Jonny Larsen, Libertarian Taylor Wright and unaffiliated candidate Steven Burt after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -107,34 +107,131 @@
       "id": "ut-house-1-west",
       "name": "Jesse Keegan West",
       "party": "Libertarian",
-      "office": "us-house",
       "district": "1",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian candidate for UT-01",
+      "background": "Family law attorney and Chair of the Salt Lake City Libertarian Party running for Utah's 1st Congressional District.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site (jessewest2026.com) is JavaScript-rendered and returned only metadata (\"Peace. Truth. Freedom.\"); an /issues page fetch returned the same metadata-only result; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
+        "health": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "housing": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "immigration": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "taxes": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "climate": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "education": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "safety": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "repro": "Same site-access limitation as above (checked Aug 29, 2026)",
+        "democracy": "Same site-access limitation as above (checked Aug 29, 2026)"
+      },
       "sources": [
         {
-          "label": "The Green Papers: Utah 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/UT"
+          "label": "West campaign site",
+          "url": "https://www.jessewest2026.com"
         },
         {
-          "label": "Politics1 Utah 2026 candidate list",
-          "url": "https://www.politics1.com/ut.htm"
+          "label": "Ballotpedia: Jesse West",
+          "url": "https://ballotpedia.org/Jesse_West"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-1-montgomery",
       "name": "Elias Henry Montgomery",
       "party": "Unaffiliated",
-      "office": "us-house",
       "district": "1",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Unaffiliated candidate for UT-01",
+      "background": "Unaffiliated candidate running a detailed policy platform for Utah's 1st Congressional District, blending deregulation, anti-monopoly, and government-reform proposals.",
+      "priorities": [
+        "Ending institutional home-buying",
+        "Phasing out the federal income tax",
+        "Ending gerrymandering"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 0,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": 2,
+        "climate": -1,
+        "education": null,
+        "safety": 0,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would lower costs by \"breaking down artificial market barriers to bring relief to housing and essential goods\" (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "health": {
+          "label": "Mixed: proposes a \"catastrophic healthcare floor to shield every family from medical bankruptcy\" combined with \"competitive private options\" (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "housing": {
+          "label": "Would \"discourage large-scale institutional purchase of single-family homes and prioritize owner-occupants\" (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "immigration": {
+          "label": "Mixed: would \"streamline the legal queue\" for immigration while keeping ICE \"focus[ed] on violent threats\" and securing borders (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "taxes": {
+          "label": "Would \"end federal income taxation on individual citizens over a locked 10-year horizon,\" shifting collection to states (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "climate": {
+          "label": "Would \"enforce direct environmental liability\" so polluters \"pay directly for ecological waste footprints\" while cutting red tape for local clean energy (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "safety": {
+          "label": "Mixed: would fund \"professional police\" while requiring \"uniform body-camera operation\" and \"independent citizen oversight boards\" (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "repro": {
+          "label": "Would \"shift away from weaponized criminal systems and invest heavily in vulnerable families\" while protecting medical exceptions (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        },
+        "democracy": {
+          "label": "Would \"end gerrymandering with independent maps\" and \"prevent party monopolies\" through proportional nomination rules (Montgomery campaign)",
+          "url": "https://www.eliasmontgomery.com"
+        }
+      },
+      "nullNotes": {
+        "education": "Platform addresses school library book-curation criteria, a curriculum-control dispute that does not map to the public-funding-vs-choice axis defined here (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Montgomery campaign site",
+          "url": "https://www.eliasmontgomery.com"
+        },
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/UT"
@@ -143,40 +240,121 @@
           "label": "Politics1 Utah 2026 candidate list",
           "url": "https://www.politics1.com/ut.htm"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-2-bowen",
       "name": "Carlton E. Bowen",
       "party": "Independent American",
-      "office": "us-house",
       "district": "2",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent American Party candidate for UT-02",
+      "background": "Independent American Party candidate running for Utah's 2nd Congressional District on a constitutionalist, anti-national-debt platform.",
+      "priorities": [
+        "Constitutional-authority review of legislation",
+        "Opposing the Box Elder data center",
+        "Fiscal discipline"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site addresses constitutional authority, national debt in general terms, opposition to a local data center, and family/national-security themes, none of which state a specific position on any of the 10 axes (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "immigration": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "taxes": "National-debt complaint (\"Washington keeps spending money it does not have\") is a general fiscal-discipline statement, not a specific tax-rate position (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)",
+        "democracy": "Not addressed on campaign homepage or issues page (checked Aug 29, 2026)"
+      },
       "sources": [
         {
-          "label": "The Green Papers: Utah 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/UT"
+          "label": "Bowen campaign site",
+          "url": "https://bowenforcongress.com"
         },
         {
-          "label": "Politics1 Utah 2026 candidate list",
-          "url": "https://www.politics1.com/ut.htm"
+          "label": "Bowen campaign issues page",
+          "url": "https://bowenforcongress.com/issues/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-2-cottam",
       "name": "Daniel R. Cottam",
       "party": "Libertarian",
-      "office": "us-house",
       "district": "2",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian candidate for UT-02",
+      "background": "Physician and Libertarian candidate running for Utah's 2nd Congressional District, emphasizing balanced budgets and zoning deregulation.",
+      "priorities": [
+        "Balanced federal budget",
+        "Zoning deregulation for housing",
+        "Opposing warrantless surveillance"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 0,
+        "housing": 2,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Mixed: backs \"decreased regulations on surgical centers\" and easier opt-out of Medicare while also wanting to let \"Medicare negotiate drug prices\" (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Daniel_Cottam"
+        },
+        "housing": {
+          "label": "Supports \"higher-density development,\" saying zoning restrictions \"prevent construction needed for younger generations\" (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Daniel_Cottam"
+        }
+      },
+      "nullNotes": {
+        "cost": "Not addressed in Ballotpedia Candidate Connection survey; no campaign issues site found beyond a personal Facebook page (checked Aug 29, 2026)",
+        "immigration": "Not addressed in Ballotpedia Candidate Connection survey (checked Aug 29, 2026)",
+        "taxes": "Survey pledges \"never vote for a budget deficit\" and proposes raising the Social Security retirement age, general fiscal-discipline positions rather than a stated tax-rate position (checked Aug 29, 2026)",
+        "climate": "Not addressed in Ballotpedia Candidate Connection survey (checked Aug 29, 2026)",
+        "education": "Not addressed in Ballotpedia Candidate Connection survey (checked Aug 29, 2026)",
+        "safety": "Not addressed in Ballotpedia Candidate Connection survey (checked Aug 29, 2026)",
+        "repro": "Not addressed in Ballotpedia Candidate Connection survey (checked Aug 29, 2026)",
+        "democracy": "Survey opposes warrantless FISA surveillance and criticizes partisan congressional investigations, which are privacy/oversight issues rather than voting-access rules covered by this axis (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Ballotpedia: Daniel Cottam",
+          "url": "https://ballotpedia.org/Daniel_Cottam"
+        },
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/UT"
@@ -185,40 +363,120 @@
           "label": "Politics1 Utah 2026 candidate list",
           "url": "https://www.politics1.com/ut.htm"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-3-easley",
       "name": "Cassie Easley",
       "party": "Constitution",
-      "office": "us-house",
       "district": "3",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Constitution Party candidate for UT-03",
+      "background": "Constitution Party candidate and certified firearms instructor running for Utah's 3rd Congressional District on strict constitutionalism.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site and Ballotpedia only cover constitutional-authority philosophy, Second Amendment advocacy (ignored per guide rule), general government-spending complaints, and opposition to term limits, none of which state a position on this axis (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "immigration": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "taxes": "\"Stop spending their money on things they don't want\" is a general spending complaint, not a specific tax-rate position (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "democracy": "Opposes term limits beyond the existing two-year House term, which does not fit this axis's voting-access definition (checked Aug 29, 2026)"
+      },
       "sources": [
         {
-          "label": "The Green Papers: Utah 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/UT"
+          "label": "Easley campaign site",
+          "url": "https://cassieforcongress.com"
         },
         {
-          "label": "Politics1 Utah 2026 candidate list",
-          "url": "https://www.politics1.com/ut.htm"
+          "label": "Ballotpedia: Cassie Easley",
+          "url": "https://ballotpedia.org/Cassie_Easley"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-3-stoddard",
       "name": "Michael Ray \"Mike\" Stoddard",
       "party": "Libertarian",
-      "office": "us-house",
       "district": "3",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian candidate for UT-03",
+      "background": "Libertarian candidate running for Utah's 3rd Congressional District on a sound-money and healthcare-deregulation platform.",
+      "priorities": [
+        "Sound money / ending Fed-driven inflation",
+        "Tax reform taxing only profit",
+        "Decoupling healthcare from employment"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Inflation is a hidden tax no one voted for, the dollar has lost more than 96% of its value since the Federal Reserve was created in 1913\" (Stoddard campaign)",
+          "url": "https://2amike4congress.org"
+        },
+        "health": {
+          "label": "Would \"unchain your coverage from your job, end the 1943 tax trick by equalizing the tax treatment of health dollars\" (Stoddard campaign)",
+          "url": "https://2amike4congress.org"
+        },
+        "taxes": {
+          "label": "Plan to \"tax profit, never debasement,\" letting \"principal returns untaxed\" with \"only real profit ever taxed\" (Stoddard campaign)",
+          "url": "https://2amike4congress.org"
+        }
+      },
+      "nullNotes": {
+        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "democracy": "Not addressed on campaign site (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Stoddard campaign site",
+          "url": "https://2amike4congress.org"
+        },
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/UT"
@@ -227,40 +485,130 @@
           "label": "Politics1 Utah 2026 candidate list",
           "url": "https://www.politics1.com/ut.htm"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-3-hooslyn",
       "name": "Adonis Hooslyn",
       "party": "Unaffiliated",
-      "office": "us-house",
       "district": "3",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Unaffiliated candidate for UT-03",
+      "background": "Unaffiliated candidate running a progressive platform for Utah's 3rd Congressional District.",
+      "priorities": [
+        "Medicare for All",
+        "Wealth tax on billionaires",
+        "Abolishing ICE"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would \"lower the costs of housing, groceries, and utilities\" and \"provide a robust safety net\" (Hooslyn campaign)",
+          "url": "https://www.hooslynforhouse.com/"
+        },
+        "health": {
+          "label": "\"Healthcare must be a right, not a privilege tied to employment or wealth\"; advocates transitioning to Medicare for All (Hooslyn campaign)",
+          "url": "https://www.hooslynforhouse.com/"
+        },
+        "housing": {
+          "label": "Would restore \"affordable starter homes so families aren't priced out of their hometowns\" (Hooslyn campaign)",
+          "url": "https://www.hooslynforhouse.com/"
+        },
+        "immigration": {
+          "label": "Would \"abolish ICE and reallocate funds toward Core 4 policies that protect American families\" (Hooslyn campaign)",
+          "url": "https://www.hooslynforhouse.com/"
+        },
+        "taxes": {
+          "label": "Proposes a wealth tax: \"increase taxes for billionaires to ensure they pay their fair share toward our national prosperity\" (Hooslyn campaign)",
+          "url": "https://www.hooslynforhouse.com/"
+        }
+      },
+      "nullNotes": {
+        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "democracy": "Not addressed on campaign site (checked Aug 29, 2026)"
+      },
       "sources": [
         {
-          "label": "The Green Papers: Utah 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/UT"
-        },
-        {
-          "label": "Politics1 Utah 2026 candidate list",
-          "url": "https://www.politics1.com/ut.htm"
+          "label": "Hooslyn campaign site",
+          "url": "https://www.hooslynforhouse.com/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-4-wright",
       "name": "Taylor Wright",
       "party": "Libertarian",
-      "office": "us-house",
       "district": "4",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian candidate for UT-04",
+      "background": "Libertarian candidate running for Utah's 4th Congressional District on free-market and non-interventionist principles.",
+      "priorities": [
+        "Free markets / opposing tariffs",
+        "Limited federal power",
+        "Non-interventionist foreign policy"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Government should not distort markets or punish consumers through policies like tariffs\" (Wright campaign)",
+          "url": "https://wrightforutah.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "taxes": "Not addressed beyond general \"limits federal power\" philosophy, no specific tax-rate position (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "democracy": "Not addressed on campaign site (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Wright campaign site",
+          "url": "https://wrightforutah.com/"
+        },
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/UT"
@@ -269,58 +617,768 @@
           "label": "Politics1 Utah 2026 candidate list",
           "url": "https://www.politics1.com/ut.htm"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ut-house-3-scott",
       "name": "Ayden Scott",
       "party": "Unaffiliated",
-      "office": "us-house",
       "district": "3",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "nominee",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Unaffiliated candidate for UT-03",
+      "background": "Unaffiliated candidate for Utah's 3rd Congressional District; no campaign website or detailed platform could be located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No campaign website found on politics1.com's Utah listing (candidate not included there); Ballotpedia page robots-blocked on two attempts (checked Aug 29, 2026)",
+        "health": "Same as above (checked Aug 29, 2026)",
+        "housing": "Same as above (checked Aug 29, 2026)",
+        "immigration": "Same as above (checked Aug 29, 2026)",
+        "taxes": "Same as above (checked Aug 29, 2026)",
+        "climate": "Same as above (checked Aug 29, 2026)",
+        "education": "Same as above (checked Aug 29, 2026)",
+        "safety": "Same as above (checked Aug 29, 2026)",
+        "repro": "Same as above (checked Aug 29, 2026)",
+        "democracy": "Same as above (checked Aug 29, 2026)"
+      },
       "sources": [
         {
           "label": "Utah Lt. Governor: 2026 candidate filings",
           "url": "https://vote.utah.gov/2026-candidate-filings/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6UT02531",
       "name": "Robert Michael Moesinger",
-      "party": "Unaffiliated",
-      "office": "us-house",
+      "party": "Independent",
       "district": "2",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "filed",
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for UT-02",
+      "background": "Independent candidate running for Utah's 2nd Congressional District on a multi-party-democracy and anti-partisanship platform, opposing what he calls toxic factionalism between Democrats and Republicans.",
+      "priorities": [
+        "Multi-party democracy / electoral reform",
+        "Reducing partisan factionalism"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign homepage discusses factionalism and \"multi-party democracy\" only in general civic-theory terms (Adams/Madison quotes), with no policy position on this axis; linked sub-pages 404'd (checked Aug 29, 2026)",
+        "health": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "housing": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "immigration": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "taxes": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "climate": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "education": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "safety": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "repro": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "democracy": "Site advocates generically for \"multi-party democracy\" and against partisanship, not a specific voting-access or election-rules position matching this axis's definition (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Moesinger campaign site",
+          "url": "https://www.improveourelections.org"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6UT02531/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6UT04024",
       "name": "Steven Burt",
-      "party": "Unaffiliated",
-      "office": "us-house",
+      "party": "Independent",
       "district": "4",
       "state": "UT",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "office": "us-house",
       "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "filed",
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for UT-04",
+      "background": "Attorney with a background in the solar energy industry and pro bono immigration representation, running as an independent for Utah's 4th Congressional District on an anti-partisanship message.",
+      "priorities": [
+        "Independence from party loyalty"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site's available pages describe only his background and anti-partisanship message, no cost policy stated (checked Aug 29, 2026)",
+        "health": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "housing": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "immigration": "Site notes past \"pro bono representation ... associated with immigration issues\" as professional background, not a stated policy position on this axis (checked Aug 29, 2026)",
+        "taxes": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "climate": "Site notes he \"advocated for common sense energy policy\" as a solar-industry attorney, professional background rather than a stated policy position (checked Aug 29, 2026)",
+        "education": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "safety": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "repro": "Same site-content limitation as above (checked Aug 29, 2026)",
+        "democracy": "Site says \"the major parties in Congress require loyalty, to them, I will be loyal to only one team, yours,\" a partisanship message rather than a voting-access position matching this axis (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Burt campaign site",
+          "url": "https://www.stevenburt.com/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6UT04024/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H8UT04053",
+      "name": "Ben McAdams",
+      "party": "Democrat",
+      "district": "1",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic candidate for UT-01, former U.S. Representative (2019-2021)",
+      "background": "Former Salt Lake County Mayor who represented Utah's 4th Congressional District from 2019 to 2021 before losing reelection; running again under Utah's redrawn map.",
+      "priorities": [
+        "Affordable healthcare and housing",
+        "Defending democratic institutions",
+        "Bipartisan immigration reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": -1,
+        "education": null,
+        "safety": 0,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaign priority includes \"expanding access to affordable health care\" (McAdams campaign)",
+          "url": "https://benmcadamsutah.com"
+        },
+        "housing": {
+          "label": "\"Lowering Housing Costs and Building Economic Security for Working Families\" is a listed platform priority (McAdams campaign)",
+          "url": "https://benmcadamsutah.com"
+        },
+        "immigration": {
+          "label": "Mixed record: voted to permanently protect DACA recipients, but pitched \"comprehensive immigration reform\" including \"secured borders\" alongside \"higher legal immigration\" (Ballotpedia, prior term)",
+          "url": "https://ballotpedia.org/Ben_McAdams_(Utah)"
+        },
+        "taxes": {
+          "label": "\"Criticized the 2017 Tax Cuts and Jobs Act because it favored the wealthy over the middle class\" (Ballotpedia, prior term)",
+          "url": "https://ballotpedia.org/Ben_McAdams_(Utah)"
+        },
+        "climate": {
+          "label": "Backed \"passing legislation to reduce smog pollution and increase funding for energy efficiency programs\" (McAdams campaign)",
+          "url": "https://benmcadamsutah.com"
+        },
+        "safety": {
+          "label": "Mixed: \"does not support the idea of defunding police\" but \"does support police reforms, including ... a ban on choke holds\" (Ballotpedia, prior term)",
+          "url": "https://ballotpedia.org/Ben_McAdams_(Utah)"
+        },
+        "democracy": {
+          "label": "Campaign priority: \"Defending Democracy, the Rule of Law, and the Will of the Voters\" (McAdams campaign)",
+          "url": "https://benmcadamsutah.com"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign homepage bundles affordability language across housing/health/cost of living with no distinct cost-specific mechanism beyond what's already scored under health and housing (checked Aug 29, 2026)",
+        "education": "Campaign only has a recent op-ed about AI's role in education access disparities, not a public-schools-vs-choice stance (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign homepage or Ballotpedia's prior-term profile (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "McAdams campaign site",
+          "url": "https://benmcadamsutah.com"
+        },
+        {
+          "label": "Ballotpedia: Ben McAdams (Utah)",
+          "url": "https://ballotpedia.org/Ben_McAdams_(Utah)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8UT04053/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6UT01244",
+      "name": "Riley Montgomery Owen",
+      "party": "Republican",
+      "district": "1",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Republican candidate for UT-01",
+      "background": "Republican candidate running for Utah's 1st Congressional District.",
+      "priorities": [
+        "Zoning reform for affordable housing",
+        "Saving the Great Salt Lake",
+        "Anti-corruption reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Will \"fight for affordable housing through conditionalizing federal funding to localities implementing common-sense zoning reform\" (Owen campaign)",
+          "url": "https://www.utahriley.com/issues"
+        }
+      },
+      "nullNotes": {
+        "cost": "Not addressed on campaign issues page; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
+        "immigration": "Campaign issues page only vaguely says he'll \"fix our broken immigration system by maintaining the rule of law while enabling communities to prosper,\" too balanced/vague to score a direction (checked Aug 29, 2026)",
+        "taxes": "Campaign issues page only proposes a targeted tax credit for businesses offering paid maternity leave, not a broader tax agenda per the guide's calibration rule (checked Aug 29, 2026)",
+        "climate": "Campaign issues page addresses Great Salt Lake water conservation and state control of public lands, not clean-energy-vs-fossil-fuel policy specifically (checked Aug 29, 2026)",
+        "education": "Campaign issues page only mentions college-manufacturer apprenticeship partnerships, not a public-school-funding-vs-choice stance (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
+        "democracy": "Campaign issues page proposes overturning Citizens United, term limits, and a ban on congressional stock trading, which are campaign-finance/governance reforms rather than voting-access rules covered by this axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Owen campaign issues page",
+          "url": "https://www.utahriley.com/issues"
+        },
+        {
+          "label": "Ballotpedia: Riley Owen",
+          "url": "https://ballotpedia.org/Riley_Owen"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT01244/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H0UT01205",
+      "name": "Blake Moore",
+      "party": "Republican",
+      "district": "2",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for UT-02 (formerly UT-01) seeking reelection",
+      "background": "House Republican Conference Vice Chair representing Utah since 2021, running for reelection under Utah's redrawn map.",
+      "priorities": [
+        "Border security",
+        "Energy production",
+        "Tax relief"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act (roll 23, Jan 22, 2025) (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1 tax law (roll 190, Jul 3, 2025); campaign cites \"expanded tax relief for families, charities, and small businesses\" (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Backed the \"Lower Energy Costs Act\" expanding domestic oil, gas and energy production (Ballotpedia)",
+          "url": "https://ballotpedia.org/Blake_Moore"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act (roll 102, Apr 10, 2025) (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign homepage only pledges to \"lower costs\" with no stated policy mechanism; issues page returned a 404 (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign homepage or Ballotpedia, which has no 2026 Candidate Connection survey (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign homepage or Ballotpedia (checked Aug 29, 2026)",
+        "education": "Campaign and Ballotpedia both only list \"reforming the education system to work for all Americans\" as a priority label with no specifics (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign homepage or Ballotpedia (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign homepage or Ballotpedia (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Moore campaign site",
+          "url": "https://electmoore.com"
+        },
+        {
+          "label": "Ballotpedia: Blake Moore",
+          "url": "https://ballotpedia.org/Blake_Moore"
+        },
+        {
+          "label": "House roll call 23, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0UT01205/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6UT01160",
+      "name": "Peter Crosby",
+      "party": "Democrat",
+      "district": "2",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic candidate for UT-02",
+      "background": "Democratic candidate running for Utah's 2nd Congressional District on healthcare reform and anti-corruption themes.",
+      "priorities": [
+        "Single-payer healthcare",
+        "Housing affordability",
+        "Banning congressional stock trading"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "\"Every large-scale study points to the same solution: a single-payer system\" with optional private competition; opposes the recent bill that \"significantly cuts access to healthcare by reducing payments to Medicare\" (Crosby campaign)",
+          "url": "https://petercrosbyforcongress.org/policies"
+        },
+        "housing": {
+          "label": "Lists \"confronting the housing crisis\" as a top campaign priority (Crosby campaign)",
+          "url": "https://www.petercrosbyforcongress.org"
+        },
+        "taxes": {
+          "label": "Would close \"tax loopholes, so that if AI deployment significantly displaces Americans ... we have the resources necessary to support them\" (Crosby campaign)",
+          "url": "https://petercrosbyforcongress.org/policies"
+        },
+        "climate": {
+          "label": "Would protect \"public lands, restoring the Great Salt Lake, and standing up for communities against corporate developments\" (Crosby campaign)",
+          "url": "https://www.petercrosbyforcongress.org"
+        }
+      },
+      "nullNotes": {
+        "cost": "Homepage bundles cost-of-living language with the housing-crisis priority already scored under housing, with no distinct cost mechanism named (checked Aug 29, 2026)",
+        "immigration": "Not addressed on campaign homepage or policies page (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign homepage or policies page (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign homepage or policies page (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign homepage or policies page (checked Aug 29, 2026)",
+        "democracy": "Policies page proposes a stock-trading ban and a term-limits conversation, which are governance/ethics reforms rather than voting-access rules covered by this axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Crosby campaign policies page",
+          "url": "https://petercrosbyforcongress.org/policies"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT01160/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4UT02296",
+      "name": "Celeste Maloy",
+      "party": "Republican",
+      "district": "3",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for UT-03 (formerly UT-02) seeking reelection",
+      "background": "Former natural resources attorney who won a 2023 special election to represent Utah's 2nd Congressional District, running for reelection under the redrawn 3rd District.",
+      "priorities": [
+        "Border security",
+        "Energy independence",
+        "Tax cuts"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act (roll 23, Jan 22, 2025); backs funding to \"fully fund President Trump's border wall\" (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1 tax law (roll 190, Jul 3, 2025); campaign emphasizes \"passing tax cuts and combating inflation\" (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "\"Voted to bolster U.S. energy production and affordability by expanding and protecting American refining capacity,\" backs reduced regulation and energy independence (Maloy campaign)",
+          "url": "https://celesteforutah.com/issues"
+        },
+        "repro": {
+          "label": "\"Celeste believes all human life is sacred and will stand up for the unborn and our pro-life values in Congress\" (Maloy campaign)",
+          "url": "https://celesteforutah.com/issues"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act (roll 102, Apr 10, 2025) (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign issues page ties affordability language directly to the tax-cut mechanism already scored under taxes, with no distinct cost-specific policy named (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "safety": "Campaign issues page's \"public safety\" section is about the border wall and Border Patrol funding, already covered under immigration (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Maloy campaign issues page",
+          "url": "https://celesteforutah.com/issues"
+        },
+        {
+          "label": "House roll call 23, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4UT02296/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6UT03182",
+      "name": "Kent Udell",
+      "party": "Democrat",
+      "district": "3",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic candidate for UT-03",
+      "background": "Former university engineering department chair running as the Democratic nominee for Utah's 3rd Congressional District.",
+      "priorities": [
+        "Expanding Medicare access",
+        "Humane immigration policy",
+        "All-of-the-above energy"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": 0,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Wants to \"expand programs like Medicare to be accessible to all\" while reducing costs (Udell campaign)",
+          "url": "https://www.kentudellforcongress.com/"
+        },
+        "immigration": {
+          "label": "Opposes \"cruelty, chaos, and political theater,\" backs \"lawful, humane, and workable policies\" respecting the rule of law (Udell campaign)",
+          "url": "https://www.kentudellforcongress.com/"
+        },
+        "climate": {
+          "label": "Mixed: supports \"an all-of-the-above approach grounded in science, innovation, and economics ... without ideological extremes\" (Udell campaign)",
+          "url": "https://www.kentudellforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Not explicitly addressed on the campaign issues page beyond the healthcare-cost point already scored under health (checked Aug 29, 2026)",
+        "housing": "Campaign issues page only vaguely supports \"initiatives targeting starter homes\" with no stated mechanism (checked Aug 29, 2026)",
+        "taxes": "Not explicitly addressed on the campaign issues page (checked Aug 29, 2026)",
+        "education": "Issues page only describes his background expanding engineering-education access, not a K-12 public-schools-vs-choice stance (checked Aug 29, 2026)",
+        "safety": "Not addressed on the campaign issues page (checked Aug 29, 2026)",
+        "repro": "Not addressed on the campaign issues page (checked Aug 29, 2026)",
+        "democracy": "Campaign issues page discusses constitutional protections and anti-corruption ethics reform generally, not a specific voting-access position matching this axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Udell campaign issues page",
+          "url": "https://www.kentudellforcongress.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT03182/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4UT03260",
+      "name": "Mike Kennedy",
+      "party": "Republican",
+      "district": "4",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for UT-04 (formerly UT-03) seeking reelection",
+      "background": "Physician and former Utah state senator elected to represent Utah's 3rd Congressional District in 2024, running for reelection under the redrawn 4th District.",
+      "priorities": [
+        "Border security",
+        "Tax relief",
+        "Parental rights in education"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act (roll 23, Jan 22, 2025) (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1 tax law (roll 190, Jul 3, 2025); campaign cites helping \"deliver tax relief\" and a \"budget surplus without raising taxes\" (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "\"Parents, teachers, and local school boards should be the primary drivers of education,\" supporting \"parental rights\" (Kennedy campaign)",
+          "url": "https://kennedyforutah.org/issues"
+        },
+        "repro": {
+          "label": "Has \"a proven conservative record of defending ... the right to life\" (Kennedy campaign)",
+          "url": "https://kennedyforutah.org/issues"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act (roll 102, Apr 10, 2025) (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign issues page ties affordability language directly to the tax-relief mechanism already scored under taxes, with no distinct cost-specific policy named (checked Aug 29, 2026)",
+        "health": "Not addressed on campaign issues page; Ballotpedia page is a disambiguation page that does not resolve to his specific candidate profile (checked Aug 29, 2026)",
+        "housing": "Not addressed on campaign issues page; Ballotpedia disambiguation issue as above (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign issues page; Ballotpedia disambiguation issue as above (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign issues page; Ballotpedia disambiguation issue as above (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Kennedy campaign issues page",
+          "url": "https://kennedyforutah.org/issues"
+        },
+        {
+          "label": "House roll call 23, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4UT03260/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6UT02424",
+      "name": "Jonny Larsen",
+      "party": "Democrat",
+      "district": "4",
+      "state": "UT",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic candidate for UT-04",
+      "background": "Democratic candidate running for Utah's 4th Congressional District on affordability, healthcare and housing themes.",
+      "priorities": [
+        "Lowering healthcare and drug costs",
+        "Stopping corporate home-buying",
+        "Taxing corporations and billionaires fairly"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Working families did not cause this and should not pay for it. I will fight to lower everyday costs\" and opposes consumer-harming trade policy (Larsen campaign)",
+          "url": "https://www.jonnyutah4congress.com/issues"
+        },
+        "health": {
+          "label": "Will \"hold insurance companies accountable, expand rural access, bring prescription drug costs under control\" and establish VA clinics in underserved areas (Larsen campaign)",
+          "url": "https://www.jonnyutah4congress.com/issues"
+        },
+        "housing": {
+          "label": "Will \"fight to stop corporations from buying single family homes as investments, protect first-time buyers, and bring housing costs down\" (Larsen campaign)",
+          "url": "https://www.jonnyutah4congress.com/issues"
+        },
+        "taxes": {
+          "label": "Pledges tax dollars go \"to the people who need them, not the corporations and billionaires who do not\" (Larsen campaign)",
+          "url": "https://www.jonnyutah4congress.com/issues"
+        }
+      },
+      "nullNotes": {
+        "immigration": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "climate": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "education": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "safety": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "repro": "Not addressed on campaign issues page (checked Aug 29, 2026)",
+        "democracy": "Not addressed on campaign issues page (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Larsen campaign issues page",
+          "url": "https://www.jonnyutah4congress.com/issues"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT02424/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

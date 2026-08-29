@@ -57,7 +57,7 @@
         "education": -1,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -75,6 +75,10 @@
         "education": {
           "label": "Wrote the Birth to Three for All DC Act expanding early childhood education and child care subsidies (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Robert_White_(D.C._politician)"
+        },
+        "democracy": {
+          "label": "Calls DC statehood, two senators and a voting House member 'how we save democracy' when 'they are trying to steal votes, when they are trying to suppress the votes' (WJLA)",
+          "url": "https://wjla.com/news/elections/robert-white-primary-win-projected-history-delegate-dc-washington-council-member-history-brooke-pinto-statehood-independent-congress-holmes-norton-housing-groceries-childcare-elections"
         }
       },
       "controversies": [
@@ -106,7 +110,7 @@
         "health": "checked campaign site, WTOP interview, and Wikipedia; campaign mentions 'accessible healthcare' among household costs but no public-versus-private mechanism documented",
         "taxes": "checked campaign site, WTOP interview, and Wikipedia; no position on tax rates or spending documented",
         "repro": "checked campaign site, WTOP interview, and Wikipedia, nothing documented; council-record search also empty",
-        "housing": "cited WTOP questionnaire page no longer displays the candidate's answers and the only archive snapshot lacks them; previous housing evidence unverifiable (checked Aug 28, 2026)",
+        "housing": "cited WTOP questionnaire page no longer displays the candidate's answers and the only archive snapshot lacks them; previous housing evidence unverifiable (checked Aug 28, 2026); Aug 28 re-check: WJLA primary-night piece quotes only 'families drowning in the cost of housing', a concern with no policy mechanism, not scorable",
         "safety": "cited WTOP questionnaire page no longer displays the candidate's answers and the only archive snapshot lacks them; previous public safety evidence unverifiable (checked Aug 28, 2026)"
       }
     },
@@ -258,7 +262,7 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "background": "Independent candidate certified by the DC Board of Elections for the November 3, 2026 general election ballot for Delegate to the House. No campaign website or substantive press coverage located as of curation.",
+      "background": "Independent candidate certified by the DC Board of Elections for the November 3, 2026 general election ballot for Delegate to the House. No campaign website or substantive press coverage located as of curation; re-checked Aug 28, 2026 with the same result, so all ten axes remain Not stated deliberately.",
       "positions": {
         "cost": null,
         "health": null,
@@ -280,7 +284,7 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "all": "all 10 axes null: web searches and the DCBOE candidate list turned up no campaign site, platform, or press coverage documenting any policy position"
+        "all": "all 10 axes null: web searches and the DCBOE candidate list turned up no campaign site, platform, or press coverage documenting any policy position; re-checked Aug 28, 2026: not mentioned in the City Cast DC delegate voter guide (did not answer its questionnaire), absent from Ballotpedia's race page and from August general-election coverage of the race; still nothing documented"
       }
     },
     {

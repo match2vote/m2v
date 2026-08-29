@@ -419,7 +419,7 @@
       "positions": {
         "cost": -2,
         "health": -2,
-        "housing": null,
+        "housing": -2,
         "immigration": -1,
         "taxes": -1,
         "climate": -1,
@@ -464,6 +464,10 @@
         "taxes": {
           "label": "One of only three House Republicans to vote no on the 2015 Death Tax Repeal Act, a $269 billion estate tax cut that passed 240-179 (The Hill, House Clerk roll call 161)",
           "url": "https://clerk.house.gov/Votes/2015161"
+        },
+        "housing": {
+          "label": "Affordability plan: invest 'from workforce housing to real down-payment help', stand with renters 'so the fine print doesn't force them out', cap utility profits (Jolly campaign)",
+          "url": "https://davidjolly.com/issues/affordability/"
         }
       },
       "controversies": [

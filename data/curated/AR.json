@@ -22,7 +22,7 @@
         "fec-H6AR01155",
         "ar-house-1-parsons"
       ],
-      "statusNote": "Rep. Rick Crawford (R) seeks re-election against Terri Yarbrough Green (D) and Libertarian Steve Parsons after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Rick Crawford (R) seeks re-election against Terri Yarbrough Green (D) and Libertarian Steve Parsons after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -40,7 +40,7 @@
         "fec-H4AR02141",
         "fec-H6AR02286"
       ],
-      "statusNote": "Rep. French Hill (R) seeks re-election against Chris Jones (D) after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. French Hill (R) seeks re-election against Chris Jones (D) after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -58,7 +58,7 @@
         "fec-H4AR04048",
         "fec-H6AR04084"
       ],
-      "statusNote": "Rep. Bruce Westerman (R) seeks re-election against James Russell (D) after the March 3, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. Bruce Westerman (R) seeks re-election against James Russell (D) after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -77,7 +77,7 @@
         "fec-H6AR03128",
         "ar-house-3-wilson"
       ],
-      "statusNote": "Rep. Steve Womack (R) seeks re-election against Robb Ryerse (D) and Libertarian Bobby Wilson. Womack was the only Republican to file, so his March 3, 2026 primary was canceled. Positions are not researched yet.",
+      "statusNote": "Rep. Steve Womack (R) seeks re-election against Robb Ryerse (D) and Libertarian Bobby Wilson. Womack was the only Republican to file, so his March 3, 2026 primary was canceled. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
@@ -426,7 +426,7 @@
       "office": "us-house",
       "district": "1",
       "state": "AR",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -437,8 +437,55 @@
         {
           "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://www.steve-parsons.com/"
+        },
+        {
+          "label": "Mountain Home Observer: Lakeview economist enters race",
+          "url": "https://mhobserver.com/lakeview-economist-enters-district-1-congressional-race-as-libertarian/"
         }
-      ]
+      ],
+      "now": "Economist; Libertarian nominee, AR-1",
+      "age": null,
+      "home": null,
+      "background": "Lakeview economist running as the Libertarian nominee in Arkansas's 1st District. Campaign site lists broad policy areas (inflation, immigration reform, incarceration and mental-health reform) largely without elaborated positions.",
+      "priorities": [
+        "Cut inflation through deregulation and Federal Reserve reform",
+        "Less government, more freedom",
+        "Immigration reform"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform goal 'CUT INFLATION = Affordability' pursued through 'regulation cuts, Federal Reserve reform, and tariff policy' (campaign website)",
+          "url": "https://www.steve-parsons.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "campaign site under construction, no health policy content beyond page title (checked 2026-08-29)",
+        "housing": "checked campaign site, nothing documented (checked 2026-08-29)",
+        "immigration": "campaign site lists 'Immigration Reform' as a topic heading with no elaborated position (checked 2026-08-29)",
+        "taxes": "site states opposition to 'government intrusion into business operations' generally but no specific tax-rate or spending position (checked 2026-08-29)",
+        "climate": "checked campaign site, nothing documented (checked 2026-08-29)",
+        "education": "checked campaign site, nothing documented (checked 2026-08-29)",
+        "safety": "site lists 'Incarceration, Substance Abuse and Mental Health Reform' as a topic heading with no elaborated position (checked 2026-08-29)",
+        "repro": "checked campaign site, nothing documented (checked 2026-08-29)",
+        "democracy": "checked campaign site, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ar-house-3-hocevar",
@@ -489,15 +536,61 @@
       "office": "us-house",
       "district": "3",
       "state": "AR",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
           "label": "Talk Business: Arkansas Libertarians nominate 2026 candidates",
           "url": "https://talkbusiness.net/2026/02/arkansas-libertarians-nominate-candidates-for-2026/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Bobby_Wilson_(Arkansas)"
         }
-      ]
+      ],
+      "now": "Libertarian nominee, AR-3",
+      "age": null,
+      "home": null,
+      "background": "Libertarian nominee in Arkansas's 3rd District. Has not completed Ballotpedia's Candidate Connection survey; limited documented positions focus on monetary policy and government transparency.",
+      "priorities": [
+        "Hard-money policy and reduced federal spending",
+        "Transparent government spending dashboards",
+        "Blockchain-based secure voting systems"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Advocates 'a separation of Money & State,' opposes 'excessive government spending,' and supports transparent government spending dashboards (Ballotpedia)",
+          "url": "https://ballotpedia.org/Bobby_Wilson_(Arkansas)"
+        },
+        "climate": {
+          "label": "Supports nuclear power as a 'clean power' solution (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Bobby_Wilson_(Arkansas)"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia; 'hard money policies' address monetary policy/inflation broadly, not a price-intervention-versus-deregulation mechanism, so left off this axis (checked 2026-08-29)",
+        "health": "checked Ballotpedia, only a cannabis-legalization comment which is out of scope for this axis (checked 2026-08-29)",
+        "housing": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "democracy": "checked Ballotpedia; supports blockchain voting technology and two-year House terms, which are procedural/structural, not the easier-voting-versus-stricter-safeguards mechanism this axis tracks, so left null (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H0AR01083",
@@ -506,15 +599,74 @@
       "office": "us-house",
       "district": "1",
       "state": "AR",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0AR01083/"
+        },
+        {
+          "label": "Wikipedia: Rick Crawford (politician)",
+          "url": "https://en.wikipedia.org/wiki/Rick_Crawford_(politician)"
+        },
+        {
+          "label": "House office: Dobbs statement",
+          "url": "https://crawford.house.gov/posts/rep-crawford-responds-to-scotus-overturning-of-roe-v-wade"
         }
-      ]
+      ],
+      "now": "U.S. Representative for Arkansas's 1st District",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2011, a farmer and former radio broadcaster who chairs the House Agriculture Committee's livestock subcommittee. Seeks re-election after the March 3, 2026 Republican primary.",
+      "priorities": [
+        "Tax cuts and reduced federal spending",
+        "Border security and immigration enforcement",
+        "Pro-life record"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, mandating detention of unauthorized immigrants charged with theft or violent crimes, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law making the 2017 cuts permanent, Jul 3, 2025 (House roll call 190), and previously voted for the 2017 Tax Cuts and Jobs Act (Wikipedia)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Signed a 2010 Americans for Prosperity pledge to vote against 'global warming legislation that would raise taxes' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rick_Crawford_(politician)"
+        },
+        "repro": {
+          "label": "Applauded the Dobbs decision: 'Lives will be saved because of the Court's decision today,' and welcomed Arkansas' pro-life law taking effect (House office statement)",
+          "url": "https://crawford.house.gov/posts/rep-crawford-responds-to-scotus-overturning-of-roe-v-wade"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia and crawford.house.gov (issues page has no detail content), nothing documented (checked 2026-08-29)",
+        "health": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
+        "housing": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
+        "education": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
+        "safety": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H0AR03055",
@@ -523,15 +675,74 @@
       "office": "us-house",
       "district": "3",
       "state": "AR",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0AR03055/"
+        },
+        {
+          "label": "House office issues page",
+          "url": "https://womack.house.gov/issues/issue/?IssueID=35369"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Steve_Womack"
         }
-      ]
+      ],
+      "now": "U.S. Representative for Arkansas's 3rd District",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2011 and former mayor of Rogers; senior appropriator. Was the only Republican to file for the seat, so his March 3, 2026 primary was canceled.",
+      "priorities": [
+        "Balanced budget and reduced federal spending",
+        "Border security and immigration enforcement",
+        "Pro-life record"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'Domestic energy production is essential to the growth of our economy and the security of our nation. Both finite and renewable sources must be explored' (House office issues page)",
+          "url": "https://womack.house.gov/issues/issue/?IssueID=35369"
+        },
+        "repro": {
+          "label": "'I believe that life begins at conception... I promise to support policies that protect life and human dignity and oppose any attempts to use taxpayer funds for abortion' (House office issues page)",
+          "url": "https://womack.house.gov/issues/issue/?IssueID=35369"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia and House office issues page; 'balanced budget' and 'reduce spending' language maps to the taxes axis, no distinct price/affordability mechanism documented (checked 2026-08-29)",
+        "health": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
+        "housing": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6AR04084",
@@ -540,15 +751,433 @@
       "office": "us-house",
       "district": "4",
       "state": "AR",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AR04084/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        {
+          "label": "Arkansas Advocate: primary challengers on issues",
+          "url": "https://arkansasadvocate.com/2026/02/19/arkansas-u-s-house-primary-challengers-focus-on-education-health-care-cost-of-living/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/James_Russell_(Arkansas)"
         }
-      ]
+      ],
+      "now": "Nonprofit and community organizer; 2026 Democratic nominee, AR-4",
+      "age": null,
+      "home": null,
+      "background": "Democratic nominee challenging Rep. Bruce Westerman in Arkansas's 4th District, campaigning on affordability, universal healthcare and public education funding.",
+      "priorities": [
+        "Universal, single-payer healthcare",
+        "Fully fund public schools instead of private-school diversion",
+        "Housing affordability: stop corporate home buying, tax the ultra-wealthy to end homelessness"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": null,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'The cost of living keeps going up, housing, groceries, and everything else. But the minimum wage hasn't gone up to match' (campaign issues page)",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        "health": {
+          "label": "Backs expanding Medicare and moving 'toward healthcare for everyone,' calling for 'universal single-payer health care' and extending lapsed ACA subsidies (campaign issues page and Arkansas Advocate)",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        "housing": {
+          "label": "Proposes stopping corporate home purchases, counting rent in mortgage applications, and 'a small tax on the super-rich, the top 0.1%' to help end homelessness (campaign issues page)",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        "taxes": {
+          "label": "'Working people should pay less, and the rich should pay their fair share,' closing loopholes (campaign issues page)",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        "climate": {
+          "label": "Calls for investment 'in a clean energy future that uses multiple sources to stay safe and strong' (campaign issues page)",
+          "url": "https://russellforar.com/on-the-issues"
+        },
+        "education": {
+          "label": "Supports 'fully funding public schools instead of redirecting federal money to private schools' and free education including college or job training (campaign issues page and Arkansas Advocate)",
+          "url": "https://russellforar.com/on-the-issues"
+        }
+      },
+      "nullNotes": {
+        "immigration": "checked campaign issues page (russellforar.com/on-the-issues) and Arkansas Advocate primary-challengers coverage, nothing documented (checked 2026-08-29)",
+        "safety": "checked campaign issues page and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)",
+        "repro": "campaign issues page mentions 'bodily autonomy' within a general equal-rights list but states no specific abortion policy (checked 2026-08-29)",
+        "democracy": "checked campaign issues page and Arkansas Advocate coverage; 'listen to the people' and 'follow the Constitution' language has no specific voting-rules position (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4AR02141",
+      "name": "James French Hill",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "AR",
+      "incumbent": true,
+      "now": "U.S. Representative for Arkansas's 2nd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2015, formerly chairman of the House Financial Services Committee; banker who founded Delta Trust & Bank in Little Rock and served in the George H.W. Bush Treasury Department. Seeks re-election after the March 3, 2026 Republican primary.",
+      "priorities": [
+        "Oppose the Affordable Care Act and expand market-based healthcare",
+        "Cut federal spending and taxes",
+        "Border security and immigration enforcement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Called the ACA 'a $2.2 trillion mistake' producing 'fewer choices, higher healthcare costs' and backed market-based reforms (Ballotpedia campaign themes)",
+          "url": "https://ballotpedia.org/French_Hill"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, mandating detention of unauthorized immigrants charged with theft or violent crimes, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law making the 2017 tax cuts permanent, Jul 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Opposed Biden's cancellation of the Keystone XL pipeline (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/J._French_Hill"
+        },
+        "repro": {
+          "label": "Pro-life with a 100% National Right to Life rating, voted for the Pain-Capable Unborn Child Protection Act, and called Dobbs a decision that 'elevates life' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/J._French_Hill"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked hill.house.gov issues page (landing only, no detail) and Ballotpedia campaign themes; no distinct price/affordability mechanism documented (checked 2026-08-29)",
+        "housing": "checked hill.house.gov, Ballotpedia, and Wikipedia; as House Financial Services chairman no specific housing-finance position was documented in fetched sources (checked 2026-08-29)",
+        "education": "checked hill.house.gov and Ballotpedia campaign themes (2014-era, healthcare/jobs/spending only); nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AR02141/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/French_Hill"
+        },
+        {
+          "label": "Wikipedia: J. French Hill",
+          "url": "https://en.wikipedia.org/wiki/J._French_Hill"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AR02286",
+      "name": "Chris Jones",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "AR",
+      "incumbent": false,
+      "now": "Former teacher and 2022 Arkansas gubernatorial candidate",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Former teacher and 2022 Democratic nominee for Arkansas governor, now running for the U.S. House seat held by French Hill. Campaigns on affordability, public education and expanding renter protections.",
+      "priorities": [
+        "Renter protections and a right to safe housing",
+        "Universal pre-K and fully funded public schools",
+        "Voting rights and turnout"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Supports making prescription drugs more affordable and expanding mental health resources in underserved communities (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Jones_(Arkansas)"
+        },
+        "housing": {
+          "label": "Says 'Arkansans should have a right to a basic standard of safe living standards' in rental housing, noting Arkansas has 'the worst laws for renters in the nation' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Jones_(Arkansas)"
+        },
+        "climate": {
+          "label": "Backs solar energy development so Arkansas can 'stay competitive' in the industry (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Jones_(Arkansas)"
+        },
+        "education": {
+          "label": "Centerpiece proposal to expand 'preschool to all families' and improve early literacy; criticized Hill's vote for the Keep Kids Fed Act ending pandemic-era school meal waivers, and supports fully funding public schools instead of diverting to private schools (Arkansas Advocate)",
+          "url": "https://arkansasadvocate.com/2026/02/19/arkansas-u-s-house-primary-challengers-focus-on-education-health-care-cost-of-living/"
+        },
+        "democracy": {
+          "label": "Prioritizes voting rights, noting 'Arkansas is dead last in voter registration and turnout' and pledging to 'flip the script' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chris_Jones_(Arkansas)"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia and Arkansas Advocate primary-challengers coverage, no specific price or affordability mechanism documented beyond fiscal-responsibility language that does not fit the axis (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)",
+        "taxes": "campaign material commits only to general 'fiscal responsibility' with no rate or spending direction documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia; only a call for 'measured, productive discussion' on gun violence while protecting gun rights, which is excluded from this axis by rule (checked 2026-08-29)",
+        "repro": "checked Ballotpedia and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AR02286/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chris_Jones_(Arkansas)"
+        },
+        {
+          "label": "Arkansas Advocate: primary challengers on issues",
+          "url": "https://arkansasadvocate.com/2026/02/19/arkansas-u-s-house-primary-challengers-focus-on-education-health-care-cost-of-living/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4AR04048",
+      "name": "Bruce Westerman",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "AR",
+      "incumbent": true,
+      "now": "U.S. Representative for Arkansas's 4th District; Chairman, House Natural Resources Committee",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2015 and chairman of the House Natural Resources Committee; the only licensed forester in Congress, with a master's degree in forestry from Yale. Seeks re-election after the March 3, 2026 Republican primary.",
+      "priorities": [
+        "Chair Natural Resources: forest management and public-lands use",
+        "Tax cuts and reduced federal spending",
+        "Pro-life record"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190), and previously voted for the 2017 Tax Cuts and Jobs Act (Wikipedia)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "'Life is a right. Abortion is not.' Supported the 2022 Dobbs decision overturning Roe v. Wade (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bruce_Westerman"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia, Wikipedia, and House Natural Resources Committee news listing (no article text available), nothing documented (checked 2026-08-29)",
+        "health": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)",
+        "housing": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)",
+        "climate": "checked Ballotpedia and Wikipedia; his forestry record (Trillion Trees Act, Fix Our Forests Act) and 4% lifetime League of Conservation Voters score concern forest/wildfire management, not a documented energy-source stance, so it is not scored on this axis (checked 2026-08-29)",
+        "education": "checked Ballotpedia; only a comment that some students 'have to go out of state to find a good job' tied to economic-growth philosophy, no scoreable funding-versus-choice position (checked 2026-08-29)",
+        "safety": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AR04048/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Bruce_Westerman"
+        },
+        {
+          "label": "Wikipedia: Bruce Westerman",
+          "url": "https://en.wikipedia.org/wiki/Bruce_Westerman"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AR01155",
+      "name": "Terri Yarbrough Green",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "AR",
+      "incumbent": false,
+      "now": "Retired pathologist; 2026 Democratic nominee, AR-1",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Retired pathologist from Paragould running as the Democratic nominee against Rep. Rick Crawford in Arkansas's 1st District, campaigning on affordability and government accountability.",
+      "priorities": [
+        "Lower the cost of living: gas, diesel, and grocery prices",
+        "Congressional accountability and checks on the executive branch",
+        "Healthy democracy with real choices in leadership"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Talk Business coverage quotes her on rising gas (35%) and diesel (50%) prices hurting families, but names no specific price-control or deregulation mechanism, so it does not fit the axis (checked 2026-08-29)",
+        "health": "checked Ballotpedia (no 2026 Candidate Connection survey completed) and Talk Business coverage, nothing documented despite her medical background (checked 2026-08-29)",
+        "housing": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "taxes": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "climate": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
+        "democracy": "Talk Business quotes her calling for 'checks or balances on the executive branch' and 'real choices in leadership,' which addresses executive accountability generally, not the voting-access-versus-safeguards mechanism this axis tracks, so it is left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AR01155/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Terri_Yarbrough_Green"
+        },
+        {
+          "label": "Talk Business: Green seeking congressional seat to fight for a healthy democracy",
+          "url": "https://talkbusiness.net/2026/05/green-seeking-congressional-seat-to-fight-for-a-healthy-democracy/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AR03128",
+      "name": "Robb Ryerse",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "AR",
+      "incumbent": false,
+      "now": "Pastor and nonprofit leader; 2026 Democratic nominee, AR-3",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Pastor and nonprofit leader who has worked on anti-extremism efforts and previously ran for Arkansas's 3rd District in 2020 as a Republican before switching parties, citing concerns about affordability and Christian nationalism.",
+      "priorities": [
+        "Affordability and cost of living",
+        "Working families over politics",
+        "Resisting Christian nationalism"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Newsweek quotes him saying voters are 'really nervous about the cost of living' citing food, healthcare, and housing prices and that 'nothing has been done to bring down the cost of living,' but he names no specific mechanism (cap, subsidy, deregulation), so it does not fit the axis (checked 2026-08-29)",
+        "health": "checked campaign site (robbforcongress.com meet-Robb and 3rd-district pages, no detailed platform), Ballotpedia (no 2026 Candidate Connection survey), and iVoterGuide (did not respond to questionnaire), nothing documented (checked 2026-08-29)",
+        "housing": "same sources checked, nothing documented beyond the general cost-of-living quote above (checked 2026-08-29)",
+        "immigration": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "taxes": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "climate": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "education": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "safety": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "repro": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
+        "democracy": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AR03128/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://www.robbforcongress.com/"
+        },
+        {
+          "label": "Newsweek: party-switch profile",
+          "url": "https://www.newsweek.com/republican-robb-ryerse-switches-party-democrats-concerns-affordability-cost-living-midterms-11105179"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Robb_Ryerse"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

@@ -22,7 +22,7 @@
         "fec-H2OR01133",
         "fec-H6OR01308"
       ],
-      "statusNote": "Rep. Suzanne Bonamici (D) was renominated in the May 19, 2026 primary and faces Republican Barbara Kahl. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Suzanne Bonamici (D) was renominated in the May 19, 2026 primary and faces Republican Barbara Kahl. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -44,7 +44,7 @@
         "fec-H0OR02127",
         "fec-H6OR02322"
       ],
-      "statusNote": "Rep. Cliff Bentz (R) was renominated in the May 19, 2026 primary and faces Democrat Chris Beck, a former state representative who also carries the Independent Party of Oregon line. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Cliff Bentz (R) was renominated in the May 19, 2026 primary and faces Democrat Chris Beck, a former state representative who also carries the Independent Party of Oregon line. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -66,7 +66,7 @@
         "fec-H4OR03192",
         "or-house-3-ayles"
       ],
-      "statusNote": "Rep. Maxine Dexter (D) was renominated in the May 19, 2026 primary and faces Republican Loran Ayles in this Portland seat. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Maxine Dexter (D) was renominated in the May 19, 2026 primary and faces Republican Loran Ayles in this Portland seat. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026 (Ayles has no findable public positions).",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -89,7 +89,7 @@
         "fec-H6OR04260",
         "or-house-4-filip"
       ],
-      "statusNote": "Rep. Val Hoyle (D) was renominated in the May 19, 2026 primary and faces Republican Monique DeSpain, the 2024 nominee, plus Pacific Green candidate Justin Filip. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Val Hoyle (D) was renominated in the May 19, 2026 primary and faces Republican Monique DeSpain, the 2024 nominee, plus Pacific Green candidate Justin Filip. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -111,7 +111,7 @@
         "fec-H2OR06066",
         "fec-H2OR01240"
       ],
-      "statusNote": "Rep. Andrea Salinas (D), who also carries the Independent Party of Oregon line, was renominated in the May 19, 2026 primary and faces Republican David Russ, a former Dundee mayor. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Andrea Salinas (D), who also carries the Independent Party of Oregon line, was renominated in the May 19, 2026 primary and faces Republican David Russ, a former Dundee mayor. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -134,7 +134,7 @@
         "fec-H6OR05242",
         "or-house-5-townsend"
       ],
-      "statusNote": "Rep. Janelle Bynum (D) was renominated in the May 19, 2026 primary with about 84 percent and faces Deschutes County Commissioner Patti Adair (R), who beat Jonathan Lockwood with about 57 percent and also carries the Libertarian line, plus Pacific Green candidate Andrea Thorn Townsend. Positions are not researched yet.",
+      "statusNote": "Rep. Janelle Bynum (D) was renominated in the May 19, 2026 primary with about 84 percent and faces Deschutes County Commissioner Patti Adair (R), who beat Jonathan Lockwood with about 57 percent and also carries the Libertarian line, plus Pacific Green candidate Andrea Thorn Townsend. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -424,7 +424,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": 1,
         "immigration": 1,
         "taxes": 2,
@@ -470,6 +470,10 @@
         "democracy": {
           "label": "2022 platform pledged to 'ban ballot harvesting', create a 'permanent task force on election integrity', and direct the attorney general to investigate and prosecute voter fraud allegations (Ballotpedia)",
           "url": "https://ballotpedia.org/Christine_Drazan"
+        },
+        "health": {
+          "label": "Says the Oregon Health Plan has tried to 'be all things to all people' and cannot, urging a narrower program while noting private premiums are unaffordable (Portland Tribune, Aug 26, 2026)",
+          "url": "https://portlandtribune.com/2026/08/26/gop-governor-nominee-drazan-touts-proposals-to-slash-taxes-lower-cost-of-living-in-oregon/"
         }
       },
       "sources": [
@@ -499,9 +503,38 @@
       "office": "us-house",
       "district": "3",
       "state": "OR",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Republican nominee for Oregon's 3rd District. No campaign website, biography, or policy statements were found; his only public trace is a candidate-filing listing and a single Facebook post announcing his candidacy.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no Candidate Connection survey), BallotReady (empty profile), GoodParty.org (no policy content), and a Facebook campaign post (fetch blocked); no campaign website found (checked Aug 29, 2026)",
+        "health": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "housing": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "immigration": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "taxes": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "climate": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "education": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "safety": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "repro": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "democracy": "same hunt as cost, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -515,7 +548,8 @@
           "label": "Wikipedia 2026 U.S. House elections in Oregon",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oregon"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "or-house-4-filip",
@@ -524,23 +558,71 @@
       "office": "us-house",
       "district": "4",
       "state": "OR",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": "Eugene, OR",
+      "now": "Program Coordinator, University of Oregon; Secretary, Pacific Green Party of Oregon",
+      "background": "Pacific Green Party nominee and first-time candidate; works as a program coordinator at the University of Oregon and has served on the party's State Coordinating Committee since 2021, currently as Secretary. Criticizes both major parties as 'corrupted by money and donor influence.'",
+      "priorities": [
+        "Codify reproductive rights into law",
+        "Real affordable housing and decriminalizing homelessness",
+        "A path to citizenship for immigrant neighbors"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Advocates for 'real affordable housing, not giveaways to real estate developers' and decriminalizing homelessness to address root causes (OPB)",
+          "url": "https://www.opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress/"
+        },
+        "immigration": {
+          "label": "'I support the right to seek asylum and a path to citizenship for our immigrant neighbors' (OPB)",
+          "url": "https://www.opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress/"
+        },
+        "climate": {
+          "label": "Prioritizes strong environmental action based on scientific expertise, citing wildfires and rising sea levels as major district challenges (OPB)",
+          "url": "https://www.opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress/"
+        },
+        "repro": {
+          "label": "'I believe in women's reproductive rights and I would support codifying it in law' (OPB)",
+          "url": "https://www.opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented beyond a general anti-corporate-money framing (checked Aug 29, 2026)",
+        "health": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
+        "taxes": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
+        "education": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "OPB: Justin Filip on Israel, abortion and peace",
+          "url": "https://www.opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress/"
+        },
+        {
+          "label": "Pacific Green Party: Meet the Candidates",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_justin_filip"
+        },
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/OR"
-        },
-        {
-          "label": "Politics1 Oregon 2026 candidate list",
-          "url": "https://www.politics1.com/or.htm"
-        },
-        {
-          "label": "Wikipedia 2026 U.S. House elections in Oregon",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oregon"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "or-house-5-lehman",
@@ -570,19 +652,74 @@
       "office": "us-house",
       "district": "5",
       "state": "OR",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": "Portland, OR",
+      "now": "Homeless Service Support Specialist and Program Analyst, Oregon Housing and Community Services",
+      "background": "Pacific Green Party nominee who works as a homeless service support specialist and program analyst for Oregon Housing and Community Services, and as an art instructor for Schools Uniting Neighborhoods and Portland Parks and Recreation. Ran for the same seat in 2024, drawing about 1% of the vote.",
+      "priorities": [
+        "Tax the rich to fund housing, education, and basic income for all",
+        "$30 an hour minimum wage and a 32-hour work week",
+        "An economy that centers care for people and the planet"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": null,
+        "housing": -2,
+        "immigration": null,
+        "taxes": -2,
+        "climate": -2,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Power to the people! Union yes!...Full-employment. Move to a 32-hour, 4 day, full-time work week. $30/hour minimum wage' (Pacific Green Party candidate profile)",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        },
+        "housing": {
+          "label": "'Dismantle the war economy, tax the rich and invest in basic income for all, housing for all, education for all' (Pacific Green Party candidate profile)",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        },
+        "taxes": {
+          "label": "'Tax the rich and invest in basic income for all, housing for all, education for all' (Pacific Green Party candidate profile)",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        },
+        "climate": {
+          "label": "Advocates community gardens, regenerative farming, and long-term ecological planning for 'an economy that centers care for people and care for the planet' (Pacific Green Party candidate profile)",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        },
+        "education": {
+          "label": "'Invest in...education for all' as part of her platform (Pacific Green Party candidate profile)",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        }
+      },
+      "nullNotes": {
+        "health": "checked her Pacific Green Party profile and Ballotpedia (no Candidate Connection survey completed), nothing documented on healthcare specifically (checked Aug 29, 2026)",
+        "immigration": "checked her Pacific Green Party profile and Ballotpedia, nothing documented; her platform addresses Israel/Palestine but not U.S. immigration policy (checked Aug 29, 2026)",
+        "safety": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Pacific Green Party: Meet the Candidates for Nomination, Andrea Townsend",
+          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
+        },
+        {
+          "label": "Ballotpedia: Andrea Townsend (Oregon)",
+          "url": "https://ballotpedia.org/Andrea_Townsend_(Oregon)"
+        },
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/OR"
-        },
-        {
-          "label": "Politics1 Oregon 2026 candidate list",
-          "url": "https://www.politics1.com/or.htm"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "or-senate-dye",
@@ -654,15 +791,68 @@
       "office": "us-house",
       "district": "1",
       "state": "OR",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Veterinarian",
+      "background": "Veterinarian (DVM) and former Intel Corporation finance employee who also served as chief veterinarian for American Samoa's territorial government before entering private practice; frames her campaign around Northwest Oregon's rural and small-town concerns. Declined to respond to Oregon Capital Chronicle's 2026 primary voter guide questionnaire.",
+      "priorities": [
+        "School choice and local control of education",
+        "Reliable, affordable energy and opposition to new wind projects",
+        "Law enforcement funding and community policing"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": 1,
+        "education": 2,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "education": {
+          "label": "Backs 'federal school choice legislation that empowers Oregon families...to direct their child's education dollars' toward the setting they choose (campaign site)",
+          "url": "https://www.drkahlforcongress.com/about"
+        },
+        "climate": {
+          "label": "Campaign priorities list 'reliable energy' and oppose 'harmful wind projects,' saying 'environmental stewardship and economic survival should not be enemies' (campaign site)",
+          "url": "https://drkahloregon.com/about/"
+        },
+        "safety": {
+          "label": "Campaign priorities include 'law enforcement funding, community policing, emergency response' (campaign site)",
+          "url": "https://www.drkahlforcongress.com/about"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked drkahlforcongress.com/about, drkahloregon.com/about, and the Capital Chronicle's 2026 primary voter guide (she gave 'No response' to every question); only vague 'costs keep going up' framing found, no mechanism (checked Aug 29, 2026)",
+        "health": "checked both campaign bio pages and the Capital Chronicle voter guide; only 'rural clinic closures, prescription costs' listed as a topic with no stated direction (checked Aug 29, 2026)",
+        "housing": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)",
+        "immigration": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, which recorded 'No response' from her on immigration enforcement (checked Aug 29, 2026)",
+        "taxes": "checked both campaign bio pages; found only legislative testimony opposing Oregon HB 4143 on constitutional grounds, not a federal tax position (checked Aug 29, 2026)",
+        "repro": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Campaign bio",
+          "url": "https://www.drkahlforcongress.com/about"
+        },
+        {
+          "label": "Oregon Capital Chronicle 2026 primary voter guide",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-1/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OR01308/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H2OR01240",
@@ -671,15 +861,813 @@
       "office": "us-house",
       "district": "6",
       "state": "OR",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": "Dundee, OR",
+      "now": "Realtor; former Mayor of Dundee",
+      "background": "Former Mayor of Dundee and realtor who also served on the city's Parkway Committee and the Local Public Safety Coordinating Council; this is his third run for the seat after 2022 and 2024. Endorsed by Oregon Right to Life.",
+      "priorities": [
+        "Make it a federal felony to aid or abet illegal border crossers",
+        "Return federal public lands and control of schools and infrastructure to states",
+        "End IRS enforcement targeting 1099 workers and subsidies for large corporations"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Campaign site calls to make it 'a federal felony to aide and/or abet illegal border crossers' (campaign site)",
+          "url": "https://www.russisforus.com/"
+        },
+        "taxes": {
+          "label": "Backs 'eliminating subsidies favoring large corporations' and 'stopping IRS enforcement targeting 1099 workers' (campaign site)",
+          "url": "https://www.russisforus.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site russisforus.com; platform lines like 'Return Manufacturing to America' and 'Minimum Employment Act' are too undefined to assign a direction (checked Aug 29, 2026)",
+        "health": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign site; only a states'-rights call to return federal public lands to state control, no energy or climate position stated (checked Aug 29, 2026)",
+        "education": "checked campaign site; only a states'-rights call to return control of schools to state and local authorities, not a school-choice-versus-public-schools position (checked Aug 29, 2026)",
+        "safety": "checked campaign site; his Local Public Safety Coordinating Council service is listed as biography, not a stated position (checked Aug 29, 2026)",
+        "repro": "checked campaign site; an Oregon Right to Life PAC endorsement was found but per the sourcing rules an endorsement is not his own stated position, so this stays null (checked Aug 29, 2026)",
+        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.russisforus.com/"
+        },
+        {
+          "label": "Politics1 Oregon 2026 candidate list",
+          "url": "https://www.politics1.com/or.htm"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2OR01240/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2OR01133",
+      "name": "Suzanne Bonamici",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Oregon's 1st District",
+      "background": "U.S. Representative since 2012 and former Oregon House Speaker Pro Tempore and state senator; an attorney by training who worked in legal aid and consumer protection before politics. Serves on the Education and Workforce and Science, Space and Technology committees. Renominated in the May 19, 2026 Democratic primary.",
+      "priorities": [
+        "Protect and expand health care access, including Medicare for All",
+        "Build more affordable housing and combat homelessness",
+        "Defend abortion rights and voting rights"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Member of the Medicare for All Caucus: 'I support universal health care and...will continue to work to expand coverage and make health care more affordable for all' (house.gov)",
+          "url": "https://bonamici.house.gov/issues/health-care"
+        },
+        "housing": {
+          "label": "Co-Chair of the Congressional Caucus on Homelessness; introduced the Build Housing with Care Act and the Project Turnkey Act to fund affordable housing and shelter (house.gov)",
+          "url": "https://bonamici.house.gov/issues/housing-and-homelessness"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, S.5, Jan 22 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Says the 2017 tax law 'provided unnecessary benefits and loopholes to wealthy corporations and billionaires' and backs closing loopholes so the wealthy 'pay their fair share' (house.gov)",
+          "url": "https://bonamici.house.gov/issues/fiscal-responsibility"
+        },
+        "climate": {
+          "label": "Sits on the Energy and Environment committee and pledges to 'tackle the climate crisis' (campaign site)",
+          "url": "https://www.bonamiciforcongress.com/"
+        },
+        "education": {
+          "label": "Campaign site describes her as 'a leading advocate for public education' (campaign site)",
+          "url": "https://www.bonamiciforcongress.com/"
+        },
+        "repro": {
+          "label": "'We will never stop fighting to protect, restore, and expand access to abortion care,' backs the Women's Health Protection Act (house.gov)",
+          "url": "https://bonamici.house.gov/issues/reproductive-rights"
+        },
+        "democracy": {
+          "label": "Backs the John Lewis Voting Rights Act and the For the People Act, opposes voter ID laws that restrict access, and voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102; house.gov)",
+          "url": "https://bonamici.house.gov/issues/civil-rights"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked house.gov issues (health care, housing, fiscal responsibility) and campaign site; only vague cost-of-living framing found ('costs rise and wages remain stagnant'), no specific price-cap or subsidy mechanism (checked Aug 29, 2026)",
+        "safety": "checked the house.gov issues list and campaign site, no safety/policing page or statement found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House.gov issues",
+          "url": "https://bonamici.house.gov/issues"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.bonamiciforcongress.com/"
+        },
+        {
+          "label": "Ballotpedia: Suzanne Bonamici",
+          "url": "https://ballotpedia.org/Suzanne_Bonamici"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OR01133/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H0OR02127",
+      "name": "Cliff Bentz",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 72,
+      "home": "Ontario, OR",
+      "now": "U.S. Representative for Oregon's 2nd District",
+      "background": "U.S. Representative since 2021, an attorney and rancher from Ontario who previously served in the Oregon House and Senate; his eastern and southern Oregon district is the only one in the state not held by Democrats. Voted against certifying Pennsylvania's 2020 electoral votes. Renominated in the May 19, 2026 Republican primary.",
+      "priorities": [
+        "Defend Snake River dams and low-cost hydropower",
+        "Replace 'government run healthcare' with free-market solutions",
+        "Support agriculture and water access for ranchers and farmers"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'I strongly oppose government run healthcare...Obamacare should be replaced with solutions that focus on free market principles' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cliff_Bentz"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025, and yes on the SAVE Act, H.R. 22, Apr 10 2025 (House roll calls 23 and 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Champions hydropower as 'clean, renewable, highly reliable, and...extremely cost-effective' and works to keep 'electric rates manageable for families and businesses' (house.gov)",
+          "url": "https://bentz.house.gov/issues/energy"
+        },
+        "repro": {
+          "label": "Self-described pro-life: 'I believe that life begins at conception and that life should be protected until death by natural causes occurs,' with an exception only for the mother's life; a 0% 2025 score from Reproductive Freedom for All for votes including the Born-Alive Abortion Survivors Protection Act",
+          "url": "https://reproductivefreedomforall.org/lawmaker/cliff-bentz/"
+        },
+        "democracy": {
+          "label": "Voted against certifying Pennsylvania's 2020 presidential electors, citing constitutional concerns (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cliff_Bentz"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked house.gov issues (energy, health), a KTVZ primary-win interview, and Wikipedia; no cost-of-living mechanism beyond the healthcare and energy pricing already scored on other axes (checked Aug 29, 2026)",
+        "housing": "checked house.gov issues, KTVZ, and Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "education": "checked house.gov issues and Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked house.gov and KTVZ; he defends Portland against 'lawless city' characterizations and discusses National Guard deployment but stakes out no clear enforcement-versus-prevention position (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House.gov issues",
+          "url": "https://bentz.house.gov/issues"
+        },
+        {
+          "label": "Wikipedia: Cliff Bentz",
+          "url": "https://en.wikipedia.org/wiki/Cliff_Bentz"
+        },
+        {
+          "label": "Reproductive Freedom for All scorecard",
+          "url": "https://reproductivefreedomforall.org/lawmaker/cliff-bentz/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0OR02127/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6OR02322",
+      "name": "Chris Beck",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Phoenix, OR",
+      "now": "Rural policy consultant; former Oregon state representative",
+      "background": "Democratic nominee for Oregon's 2nd District who served three terms in the Oregon House (1997-2003) representing Lane County; later worked as a rural economic development policy adviser at the USDA under the Obama administration and for Gov. John Kitzhaber and Rep. Earl Blumenauer. Won a five-way May 19, 2026 primary with about 34%.",
+      "priorities": [
+        "Lower costs by ending tariffs that raise gas, diesel, and import prices",
+        "Repeal H.R. 1's Medicaid cuts and add a public health care option",
+        "Expand rural housing finance and legal immigration for agricultural workers"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Everything costs too much. Everything.' Calls for ending the Iran war and canceling tariffs to lower gas, diesel, and import prices (campaign site)",
+          "url": "https://chrisbeckforcongress.com/district2issues"
+        },
+        "health": {
+          "label": "Demands 'immediate repeal' of H.R. 1's Medicaid cuts, said to affect 40% of district residents, and backs 'an affordable public care option' for preventive care (campaign site)",
+          "url": "https://chrisbeckforcongress.com/district2issues"
+        },
+        "housing": {
+          "label": "Proposes low-interest financing for first-time rural home buyers and leveraging USDA housing programs, saying 'working families can't afford a home' (campaign site)",
+          "url": "https://chrisbeckforcongress.com/district2issues"
+        },
+        "immigration": {
+          "label": "Calls for 'a sensible, bipartisan approach to legal immigration' to address rural worker shortages (campaign site)",
+          "url": "https://chrisbeckforcongress.com/district2issues"
+        },
+        "democracy": {
+          "label": "Campaign site lists support for vote by mail as an important Oregon policy (campaign site)",
+          "url": "https://chrisbeckforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "taxes": "checked campaign site (district2issues and homepage) and Ballotpedia; only a passing mention of 'vacation home tax adjustments' with no detail, and the Capital Chronicle voter guide records 'No response' from Beck (checked Aug 29, 2026)",
+        "climate": "checked campaign site and Ballotpedia, nothing documented; Capital Chronicle voter guide records 'No response' (checked Aug 29, 2026)",
+        "education": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site issues page",
+          "url": "https://chrisbeckforcongress.com/district2issues"
+        },
+        {
+          "label": "OPB: Former Democratic Oregon lawmaker will face Bentz",
+          "url": "https://www.opb.org/article/2026/05/20/former-democratic-oregon-lawmaker-will-face-bentz-in-sprawling-2nd-congressional-district/"
+        },
+        {
+          "label": "Oregon Capital Chronicle 2026 primary voter guide",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-democratic-primary-u-s-house-district-2/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR02322/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4OR03192",
+      "name": "Maxine Dexter",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Oregon's 3rd District; pulmonary and critical care physician",
+      "background": "U.S. Representative since 2025 and a pulmonary and critical care physician who previously served in the Oregon House; represents the Portland-based 3rd District. Renominated in the May 19, 2026 Democratic primary.",
+      "priorities": [
+        "Fight for universal, affordable health care",
+        "Raise the federal minimum wage to $17 an hour",
+        "Expand access to safe housing and fight climate change"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Backs raising 'the federal minimum wage to $17 an hour, a critical step toward ensuring that full-time work provides a pathway to stability' (house.gov)",
+          "url": "https://dexter.house.gov/issues/economic-opportunity"
+        },
+        "health": {
+          "label": "'As a pulmonary and critical care physician, I've spent over two decades caring for' patients, campaigning to 'fight for universal, affordable health care' (campaign site)",
+          "url": "https://maxinefororegon.com/issues/"
+        },
+        "housing": {
+          "label": "'Safe housing should be a fundamental right,' on a page titled 'Housing and Homelessness' (house.gov)",
+          "url": "https://dexter.house.gov/issues/housing"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, S.5, Jan 22 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "Page titled 'Fight Climate Change and Protect our Environment,' citing children's 'anxiety about their future' (campaign site)",
+          "url": "https://maxinefororegon.com/issues/"
+        },
+        "education": {
+          "label": "Credits 'wonderful teachers in a high-quality public' school system growing up, on a page titled 'High-Quality Schools' (campaign site)",
+          "url": "https://maxinefororegon.com/issues/"
+        },
+        "repro": {
+          "label": "Page titled 'Protect and Expand Reproductive Rights': 'I have experienced myself how affordable access to birth control and reproductive care' matter (campaign site)",
+          "url": "https://maxinefororegon.com/issues/"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102); campaign page titled 'Voting Rights' says she believes 'in the fundamental power of democracy and the imperative of safeguarding' it",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "taxes": "checked house.gov issues and campaign site; no vote recorded on H.R. 1 (roll 190) and no separate tax statement found, so the axis stays null per the no-vote-alone rule for Democrats (checked Aug 29, 2026)",
+        "safety": "checked the house.gov issues list and campaign site, no safety/crime page or statement found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House.gov issues",
+          "url": "https://dexter.house.gov/issues"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://maxinefororegon.com/issues/"
+        },
+        {
+          "label": "Clerk of the House roll call votes",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4OR03192/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2OR04095",
+      "name": "Valerie Hoyle",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Oregon's 4th District",
+      "background": "U.S. Representative since 2023, previously Oregon Labor Commissioner and a state representative; serves on the House Natural Resources Committee. Renominated in the May 19, 2026 Democratic primary.",
+      "priorities": [
+        "Expand affordable and workforce housing",
+        "Protect Southwest Oregon rivers and salmon habitat from mining pollution",
+        "Defend democracy through voter turnout"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "housing": {
+          "label": "'I strongly support robust federal support for expansion of affordable and quality housing' and backs 'expanding affordable and workforce housing' (house.gov)",
+          "url": "https://hoyle.house.gov/issues/housing"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, S.5, Jan 22 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Opposes 'tax policies that subsidize the already-wealthy, including hedge funds that buy up property and contribute to inflated real estate prices,' while backing tax policy for first-time homebuyers (house.gov)",
+          "url": "https://hoyle.house.gov/issues/housing"
+        },
+        "climate": {
+          "label": "Bill would 'permanently protect Southwestern Oregon rivers, clean drinking water, wild salmon habitats, and outdoor recreation from mining pollution'; serves on the Natural Resources Committee (house.gov)",
+          "url": "https://hoyle.house.gov/issues/environment-and-climate-change"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102); re-election launch says 'the most powerful tool we have to defend democracy is your vote'",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked house.gov issues (housing) and her re-election launch statement; only vague framing that opponents 'are driving up costs, undermining working families,' no specific mechanism (checked Aug 29, 2026)",
+        "health": "house.gov health issue page returned a 410 error on repeated tries; checked her re-election launch statement and Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "education": "house.gov education issue page returned a 410 error on repeated tries; checked her re-election launch statement, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked house.gov issues list and her re-election launch statement, no safety/crime page or statement found (checked Aug 29, 2026)",
+        "repro": "checked house.gov issues list and her re-election launch statement, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House.gov issues",
+          "url": "https://hoyle.house.gov/issues"
+        },
+        {
+          "label": "Re-election campaign announcement",
+          "url": "https://www.valhoyle.com/2026/02/20/time-to-fight-is-now/"
+        },
+        {
+          "label": "Clerk of the House roll call votes",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OR04095/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6OR04260",
+      "name": "Monique Despain",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Eugene, OR",
+      "now": "Retired U.S. Air Force Colonel; attorney",
+      "background": "Retired U.S. Air Force colonel (30 years of service, 1989-2019) and licensed attorney who has lived in Eugene since 1995; a single mother of twin boys. Lost to Rep. Val Hoyle in 2024, 51.7% to 43.9%, and is running again in 2026 after winning the Republican primary.",
+      "priorities": [
+        "End 'radical tax & spend policies' driving inflation",
+        "Cut permitting and zoning barriers to housing construction",
+        "'All of the above' border security and energy production"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 2,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says 'inflation is crushing family budgets' and opposes 'radical tax & spend policies' from Washington (campaign launch announcement)",
+          "url": "https://moniqueforcongress.com/news/2025/10/monique-despain-launches-campaign/"
+        },
+        "housing": {
+          "label": "Supports removing 'prohibitive and inflationary policies that stifle new construction' and ending 'excessive permitting costs, building regulations' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "immigration": {
+          "label": "Backs an 'all of the above' border security approach including physical barriers, drones, more border patrol agents, and the 'Remain in Mexico' policy (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "taxes": {
+          "label": "Opposes 'tax and spend policies' and supports reducing 'onerous permitting and taxation' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "climate": {
+          "label": "Promotes an 'all of the above' energy strategy, opposing 'arbitrary government bans' on energy choices (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "education": {
+          "label": "Supports a 'Parents' Bill of Rights' ensuring 'full transparency' and parental involvement in curriculum decisions (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "safety": {
+          "label": "Prioritizes law enforcement resources and opposes funding 'soft-on-crime cities' that defund police (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        "democracy": {
+          "label": "Advocates photo ID voting requirements, 'updated and accurate voter registration records,' and 'vote tallying by controlled and certified machines' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        }
+      },
+      "nullNotes": {
+        "health": "checked her campaign launch announcement and Ballotpedia profile, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked her campaign launch announcement and Ballotpedia profile; not addressed in either (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign launch announcement",
+          "url": "https://moniqueforcongress.com/news/2025/10/monique-despain-launches-campaign/"
+        },
+        {
+          "label": "Ballotpedia: Monique DeSpain",
+          "url": "https://ballotpedia.org/Monique_DeSpain"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR04260/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4OR05304",
+      "name": "Janelle Bynum",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Oregon's 5th District",
+      "background": "U.S. Representative since 2025, previously an Oregon state representative and small business owner. Pitches a 'K-30' agenda targeting generational affordability through housing, education, workforce, and child care measures. Renominated in the May 19, 2026 Democratic primary.",
+      "priorities": [
+        "Lower the cost of housing and health care",
+        "Take climate action and protect reproductive rights",
+        "End homelessness"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": 1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaign site lists 'LOWERING THE COST OF HEALTH CARE' as a key issue (campaign site)",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        "housing": {
+          "label": "Campaign site lists 'LOWERING THE COST OF HOUSING' and 'ENDING HOMELESSNESS' among her priorities (campaign site)",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "Campaign site lists 'TAKING CLIMATE ACTION' among her priorities (campaign site)",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        "education": {
+          "label": "Campaign site lists 'IMPROVING ACCESS TO EDUCATION' among her priorities (campaign site)",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        "repro": {
+          "label": "Campaign site lists 'PROTECTING REPRODUCTIVE RIGHTS' among her priorities (campaign site)",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked her campaign issues page and an Oregon Capital Chronicle article on her 'K-30' affordability plan; the plan addresses housing, education, workforce, and child care (each scored on their own axes) with no separate general cost-of-living mechanism like a minimum wage or price cap (checked Aug 29, 2026)",
+        "taxes": "no vote recorded on H.R. 1 (roll 190); checked her campaign issues page and the Capital Chronicle article, no tax statement found, so the axis stays null per the no-vote-alone rule for Democrats (checked Aug 29, 2026)",
+        "safety": "checked her campaign issues page, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site issues page",
+          "url": "https://www.janellebynum.com/issues"
+        },
+        {
+          "label": "Oregon Capital Chronicle: Bynum pitches 'K-30' affordability plan",
+          "url": "https://oregoncapitalchronicle.com/2026/01/26/oregons-u-s-rep-bynum-pitches-patchwork-k-30-plan-to-tackle-generational-affordability-issues/"
+        },
+        {
+          "label": "Clerk of the House roll call votes",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4OR05304/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6OR05242",
+      "name": "Patti Adair",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Sisters, OR",
+      "now": "Deschutes County Commissioner",
+      "background": "Deschutes County Commissioner since 2018, a fourth-generation Oregonian raised on her family's ranch in Heppner; a CPA who worked at Moss Adams before managing more than 1,200 county employees. Beat Jonathan Lockwood with about 57% in the May 19, 2026 Republican primary.",
+      "priorities": [
+        "Extend the 2025 tax law's provisions, including no tax on tips, overtime, or Social Security",
+        "Repeal the Affordable Care Act",
+        "Community safety and fiscal responsibility"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Wrote '#repeal Obamacare. Now. Now. Now.' and promoted the One Big Beautiful Bill Act's roughly $1 trillion in Medicaid reductions on her social media (American Journal News)",
+          "url": "https://americanjournalnews.com/republican-patti-adair-endorsed-cutting-medicaid-repealing-obamacare/"
+        },
+        "taxes": {
+          "label": "Called for extending Trump's 2025 tax provisions, including 'no taxes on tips, overtime or social security' (Bend Bulletin)",
+          "url": "https://bendbulletin.com/2025/11/18/deschutes-county-commissioner-patti-adair-announces-bid-for-congress/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked her campaign site (issues page 404s, homepage had only vague 'fiscal responsibility' and 'community safety' language), Ballotpedia (no Candidate Connection survey), Wikipedia (page not found), and three local news profiles (OPB, Bend Source, Bend Bulletin); no specific cost-of-living mechanism found separate from her tax and healthcare statements (checked Aug 29, 2026)",
+        "housing": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "immigration": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "climate": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "education": "same hunt as cost, nothing documented beyond a passing 'test scores' complaint with no policy direction (checked Aug 29, 2026)",
+        "safety": "campaign site lists 'community safety' as a priority with no enforcement-versus-prevention direction stated; same hunt as cost otherwise (checked Aug 29, 2026)",
+        "repro": "same hunt as cost, nothing documented (checked Aug 29, 2026)",
+        "democracy": "same hunt as cost, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.pattiforcongress.com/"
+        },
+        {
+          "label": "Bend Bulletin: Adair announces bid for Congress",
+          "url": "https://bendbulletin.com/2025/11/18/deschutes-county-commissioner-patti-adair-announces-bid-for-congress/"
+        },
+        {
+          "label": "American Journal News: Adair endorsed cutting Medicaid, repealing Obamacare",
+          "url": "https://americanjournalnews.com/republican-patti-adair-endorsed-cutting-medicaid-repealing-obamacare/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR05242/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2OR06066",
+      "name": "Andrea Salinas",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "6",
+      "state": "OR",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Oregon's 6th District",
+      "background": "U.S. Representative since 2023 and former Oregon state representative; a legislative staff veteran who worked for U.S. Sen. Harry Reid, Rep. Pete Stark, and Oregon Rep. Darlene Hooley before running for office. Also carries the Independent Party of Oregon line. Renominated in the May 19, 2026 Democratic primary.",
+      "priorities": [
+        "Fight for hard-working Oregonians, not big corporations",
+        "Cap the price of insulin and let Medicare negotiate drug prices",
+        "Champion abortion access as health care"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Fights for 'hard-working Oregonians, not big corporations,' backing a '$15 minimum wage' and paid family and medical leave (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "health": {
+          "label": "'Healthcare is a human right'; supports 'capping the price of insulin and allowing Medicare to negotiate drug prices' (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "housing": {
+          "label": "Commits to 'invest in affordable housing, expand mental health services, fund addiction treatment' (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act, S.5, Jan 22 2025 (House roll call 23); supports 'a path to citizenship' for immigrants 'thriving' in local communities (campaign site, via Ballotpedia)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Wants 'a more fair tax system, so the rich pay their share and working people aren't over-burdened' (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "climate": {
+          "label": "Focuses on climate action that ensures 'marginalized communities are provided with opportunities to prosper in a new, clean energy economy' (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "repro": {
+          "label": "'An unapologetic champion for abortion access because reproductive care is health care' (campaign site, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102); supports 'expanding voting rights and reforming our campaign finance system' (campaign site, via Ballotpedia)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "education": "checked Ballotpedia profile, nothing documented on education specifically (checked Aug 29, 2026)",
+        "safety": "checked Ballotpedia profile, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Andrea Salinas",
+          "url": "https://ballotpedia.org/Andrea_Salinas"
+        },
+        {
+          "label": "Clerk of the House roll call votes",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OR06066/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

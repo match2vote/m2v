@@ -8,15 +8,15 @@
         "fec-S6ME00159",
         "me-senate-jackson"
       ],
-      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces former state Senate President Troy Jackson (D). Graham Platner won the June 9 Democratic primary with 72% but withdrew on July 10; the Maine Democratic Party nominated Jackson on July 25 and the Secretary of State lists him as the replacement candidate. Rated a toss-up by the Cook Political Report. Jackson's positions are not researched yet."
+      "statusNote": "Sen. Susan Collins (R), Senate Appropriations chair, faces former state Senate President Troy Jackson (D). Graham Platner won the June 9 Democratic primary with 72% but withdrew on July 10; the Maine Democratic Party nominated Jackson on July 25 and the Secretary of State lists him as the replacement candidate. Rated a toss-up by the Cook Political Report."
     },
     "ME-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8ME01120",
         "fec-H4ME01160"
       ],
-      "statusNote": "Rep. Chellie Pingree (D) was unopposed in the June 9, 2026 primary and faces Republican Ron Russell. Maine runs both the primary and the general with ranked choice voting. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Chellie Pingree (D), unopposed in the June 9, 2026 primary, faces Republican Ron Russell, a retired Army Special Forces officer. Maine runs both the primary and the general with ranked choice voting.",
       "sources": [
         {
           "label": "The Green Papers: Maine 2026 general election candidates",
@@ -33,12 +33,12 @@
       ]
     },
     "ME-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6ME02171",
         "fec-H6ME02148"
       ],
-      "statusNote": "Open seat: Rep. Jared Golden (D) announced in November 2025 that he would not seek reelection. Former Secretary of State Matt Dunlap won the June 9, 2026 Democratic primary in a ranked choice runoff, 52.5% to 47.5% over Joe Baldacci, and faces former Gov. Paul LePage (R). We know who's running, positions not researched yet.",
+      "statusNote": "Open seat: Rep. Jared Golden (D) is not seeking reelection. State Auditor Matt Dunlap (D) won the June 9, 2026 primary in a ranked choice runoff, 52.5 to 47.5 over Joe Baldacci, and faces former Gov. Paul LePage (R). Maine runs both the primary and the general with ranked choice voting.",
       "sources": [
         {
           "label": "The Green Papers: Maine 2026 general election candidates",
@@ -260,6 +260,360 @@
           "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race"
         }
       ]
+    },
+    {
+      "id": "fec-H8ME01120",
+      "name": "Chellie M Pingree",
+      "party": "Democrat",
+      "district": "1",
+      "state": "ME",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": 71,
+      "home": "North Haven",
+      "now": "U.S. Representative for Maine's 1st District since 2009",
+      "background": "Organic farmer and former Maine Senate majority leader who has represented the 1st District since 2009. A senior member of the House Appropriations Committee, she was unopposed in the June 9, 2026 Democratic primary.",
+      "priorities": [
+        "An economy with livable wages",
+        "Medicare for All",
+        "Rapid transition to clean energy"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign platform: 'anyone who works hard at a full time job is paid a livable wage', wages stagnant while CEOs get windfalls (Pingree campaign)",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        "health": {
+          "label": "'The time has come to pass Medicare for All. With a single-payer system, we can address unreasonable out-of-pocket costs' (Pingree campaign)",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        "housing": {
+          "label": "'Fought so strongly to fund' affordable housing projects, citing that nearly half of Maine tenants cannot afford rent (pingree.house.gov)",
+          "url": "https://pingree.house.gov/news/documentsingle.aspx?DocumentID=5156"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act's expanded immigration detention mandates (House Clerk roll 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "'We need a tax code that asks the rich to pay their share, rather than giving them more massive tax breaks' (Pingree campaign); also voted no on the 2025 H.R. 1 tax law (House Clerk roll 190)",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        "climate": {
+          "label": "'Quickly transitioning our power and transportation systems from dirty fossil fuels to clean... renewable sources is critical'; opposes offshore oil drilling (Pingree campaign)",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        "repro": {
+          "label": "'We cannot compromise on a woman's absolute right to make decisions about her own health care'; committed to protecting Roe (Pingree campaign)",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act's documentary proof-of-citizenship requirement for voter registration (House Clerk roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "education": "campaign issues page speaks only to higher-education affordability and a generic 'world-class education'; no K-12 public-investment versus school-choice position documented there or on Ballotpedia (no Candidate Connection survey filed)",
+        "safety": "campaign issues page addresses only gun safety, which does not map to this axis; no policing or sentencing approach documented"
+      },
+      "sources": [
+        {
+          "label": "Pingree campaign issues page",
+          "url": "https://www.chelliepingree.com/issues/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chellie_Pingree"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8ME01120/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H4ME01160",
+      "name": "Ronald Charles Russell",
+      "party": "Republican",
+      "district": "1",
+      "state": "ME",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Kennebunkport",
+      "now": "Retired Army Special Forces officer and defense company founder",
+      "background": "Maine native who served just over 30 years in the Army as an Airborne Ranger and Green Beret, then founded a defense contracting company he grew to more than 150 employees. Won the June 9, 2026 Republican primary to challenge Rep. Chellie Pingree.",
+      "priorities": [
+        "Border security",
+        "Energy independence and lower costs",
+        "Law and order"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 1,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says Washington policies are 'crushing Maine's middle class'; would lower fuel and grocery costs through tax reduction and deregulation (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/energy-and-the-economy/"
+        },
+        "health": {
+          "label": "Would 'ensure that Medicaid is available to those who need it by eliminating the fraud, waste, and abuse', and would end coverage for undocumented immigrants (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2026-04-17/your-vote-2026-profile-ron-russell-republican-for-1st-district"
+        },
+        "immigration": {
+          "label": "'Joe Biden's open border policies have failed America'; embraces legal immigration with vetting but calls border security the priority and wants the amnesty system reformed (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/immigration/"
+        },
+        "taxes": {
+          "label": "Advocates making temporary tax relief permanent and work-linked credits 'instead of growing welfare programs' (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/taxes/"
+        },
+        "climate": {
+          "label": "'The most important thing we can do to strengthen our economy is to become energy independent'; says current technology cannot replace fossil fuels and opposes energy-source mandates (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/energy-and-the-economy/"
+        },
+        "education": {
+          "label": "Backs 'reforms like school choice', a stronger parental voice, and says 'we can't just pour more money into a system that isn't improving' (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/education/"
+        },
+        "safety": {
+          "label": "'We must restore law and order'; violent criminals should serve full sentences, police need better pay and funding, calls defund-the-police 'dangerous' (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/reducing-crime-supporting-first-responders/"
+        },
+        "repro": {
+          "label": "Answered no when asked whether he supports abortion rights in Maine Public's candidate profile lightning round (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2026-04-17/your-vote-2026-profile-ron-russell-republican-for-1st-district"
+        },
+        "democracy": {
+          "label": "'Reforms such as voter ID are common-sense measures', while saying integrity can be ensured 'without depriving individuals of their right to vote' (Russell campaign)",
+          "url": "https://ronrussellforcongress.com/project/election-integrity/"
+        }
+      },
+      "nullNotes": {
+        "housing": "campaign site issue pages and the Maine Public profile contain no housing policy position"
+      },
+      "sources": [
+        {
+          "label": "Russell campaign issues pages",
+          "url": "https://ronrussellforcongress.com/issues/"
+        },
+        {
+          "label": "Maine Public: Your Vote 2026 profile",
+          "url": "https://www.mainepublic.org/politics/2026-04-17/your-vote-2026-profile-ron-russell-republican-for-1st-district"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4ME01160/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H6ME02171",
+      "name": "Matt Dunlap",
+      "party": "Democrat",
+      "district": "2",
+      "state": "ME",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": 61,
+      "home": "Old Town",
+      "now": "Maine State Auditor, former longtime Secretary of State",
+      "background": "Maine State Auditor and former four-plus-term Secretary of State from Old Town. Won the June 2026 Democratic primary for the open 2nd District seat in a ranked choice runoff, 52.5 to 47.5 over Joe Baldacci, after Rep. Jared Golden declined to seek reelection.",
+      "priorities": [
+        "Lower healthcare costs through Medicare for All",
+        "Making billionaires and corporations pay their fair share",
+        "Affordable childcare and housing"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaigns on universal childcare and taking on 'the powerful interests that have rigged our economy against working class Mainers' (Dunlap campaign)",
+          "url": "https://www.mattdunlapforuscongress.com/"
+        },
+        "health": {
+          "label": "'Move toward a Medicare for All system that actually brings down healthcare costs for working families' (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district"
+        },
+        "housing": {
+          "label": "Mixed: backs removing construction barriers while also targeting private equity firms that buy homes and drive up prices (Maine Morning Star voter guide)",
+          "url": "https://mainemorningstar.com/voter-guides/contests/2026-democratic-primary-u-s-house-district-2/"
+        },
+        "immigration": {
+          "label": "Calls recent ICE conduct in Maine 'indiscriminate and heavy-handed'; would cut ICE supplemental funding and impose oversight (Maine Morning Star voter guide)",
+          "url": "https://mainemorningstar.com/voter-guides/contests/2026-democratic-primary-u-s-house-district-2/"
+        },
+        "taxes": {
+          "label": "Supports the Sanders-Khanna billionaire tax and busting the payroll tax cap so 'the wealthiest are paying their fair share' (Maine Morning Star voter guide; Maine Public)",
+          "url": "https://mainemorningstar.com/voter-guides/contests/2026-democratic-primary-u-s-house-district-2/"
+        },
+        "climate": {
+          "label": "Would restore the Inflation Reduction Act's clean energy tax credits and invest in domestically produced renewable energy (Maine Public; Maine Morning Star voter guide)",
+          "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district"
+        },
+        "repro": {
+          "label": "Answered yes when asked whether he supports abortion rights in Maine Public's lightning round (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district"
+        },
+        "democracy": {
+          "label": "Answered no on requiring photo ID to vote; as Secretary of State ran Maine's elections and defended their integrity (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district"
+        }
+      },
+      "nullNotes": {
+        "education": "campaign site, Maine Public profile, and Maine Morning Star voter guide contain no K-12 public-investment versus school-choice position",
+        "safety": "campaign site, Maine Public profile, and Maine Morning Star voter guide contain no policing or sentencing position"
+      },
+      "sources": [
+        {
+          "label": "Dunlap campaign site",
+          "url": "https://www.mattdunlapforuscongress.com/"
+        },
+        {
+          "label": "Maine Public: Your Vote 2026 profile",
+          "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district"
+        },
+        {
+          "label": "Maine Morning Star Democratic primary voter guide",
+          "url": "https://mainemorningstar.com/voter-guides/contests/2026-democratic-primary-u-s-house-district-2/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6ME02171/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H6ME02148",
+      "name": "Paul Lepage",
+      "party": "Republican",
+      "district": "2",
+      "state": "ME",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Former two-term Governor of Maine",
+      "background": "Two-term Governor of Maine (2011 to 2019) and former Waterville mayor who grew up homeless in Lewiston before a business career. Lost the 2022 governor's race to Janet Mills and is now the Republican nominee for the open 2nd District seat, endorsed by the U.S. Chamber of Commerce.",
+      "priorities": [
+        "Finish the border wall and end illegal immigration",
+        "Lower taxes and less regulation",
+        "Protect Social Security and Medicare"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": 0,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Lower taxes. Less red tape. More jobs for Maine families'; would 'eliminate wasteful spending which drove up inflation' (LePage campaign)",
+          "url": "https://lepageforcongress.com/"
+        },
+        "health": {
+          "label": "Vetoed five MaineCare expansion bills, refused to implement the 2017 voter-approved Medicaid expansion, and backs new Medicaid work requirements (Maine Morning Star)",
+          "url": "https://mainemorningstar.com/2026/07/31/fate-of-medicare-medicaid-emerges-as-key-issue-in-2nd-district-race/"
+        },
+        "immigration": {
+          "label": "'Paul will fight to finish the wall, end illegal immigration, and restore law and order' (LePage campaign)",
+          "url": "https://lepageforcongress.com/"
+        },
+        "taxes": {
+          "label": "Campaign platform of lower taxes and eliminating wasteful spending (LePage campaign)",
+          "url": "https://lepageforcongress.com/"
+        },
+        "climate": {
+          "label": "As governor pushed to eliminate Maine's renewable portfolio standard, 'I'm against those that add costs to our electricity bills', and urged a shift to natural gas (NRCM)",
+          "url": "https://www.nrcm.org/news/lepage-pushes-eliminate-renewable-energy-portfolio-standard/"
+        },
+        "education": {
+          "label": "Defended charter schools as governor, publicly opposing House Speaker Eves' hiring over his 'anti-charter school stance' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Paul_LePage"
+        },
+        "safety": {
+          "label": "Vetoed expanded naloxone access as governor, saying 'the lack of consequences for serious drug use is having the opposite effect' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Paul_LePage"
+        },
+        "repro": {
+          "label": "Mixed record: attended anti-abortion rallies and opposed MaineCare abortion funding as governor, but in 2022 said yes he would veto a 15-week abortion ban and had 'never, ever attempted to change' Maine's 1993 abortion law (Bangor Daily News)",
+          "url": "https://www.bangordailynews.com/2022/10/05/politics/lepage-abortion-stance-shocks-allies-foes-n6hjn1me0n/"
+        },
+        "democracy": {
+          "label": "Made a photo ID requirement a prominent campaign plank and repeatedly claimed fraud risk in larger Maine cities (Maine Public)",
+          "url": "https://www.mainepublic.org/politics/2022-08-19/lepages-selective-worries-about-voter-fraud-explained"
+        }
+      },
+      "nullNotes": {
+        "housing": "2026 campaign site and current race coverage contain no housing policy position"
+      },
+      "sources": [
+        {
+          "label": "LePage campaign site",
+          "url": "https://lepageforcongress.com/"
+        },
+        {
+          "label": "Maine Morning Star: Medicare and Medicaid in the CD2 race",
+          "url": "https://mainemorningstar.com/2026/07/31/fate-of-medicare-medicaid-emerges-as-key-issue-in-2nd-district-race/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Paul_LePage"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6ME02148/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
     }
   ]
 }

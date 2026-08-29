@@ -23,7 +23,7 @@
         "fec-H6SC01359",
         "fec-H6SC01342"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian). No incumbent is on the November ballot. A certified write-in candidate, Clayton Cuteri, is not a ballot-listed candidate. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian). No incumbent is on the November ballot. A certified write-in candidate, Clayton Cuteri, is not a ballot-listed candidate. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -50,7 +50,7 @@
         "fec-H6SC02159",
         "sc-house-2-smith"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon El-Khalifa (Democrat) and Dayna Smith, who is listed on the Workers Party and United Citizens lines (South Carolina allows one candidate to carry more than one party line). Rep. Joe Wilson is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon El-Khalifa (Democrat) and Dayna Smith, who is listed on the Workers Party and United Citizens lines (South Carolina allows one candidate to carry more than one party line). Rep. Joe Wilson is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -73,7 +73,7 @@
         "fec-H6SC03090",
         "sc-house-3-corriea"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Sheri Biggs (Republican), Eunice Lehmacher (Democrat), Brian Corriea (Libertarian). Rep. Sheri Biggs is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Sheri Biggs (Republican), Eunice Lehmacher (Democrat), Brian Corriea (Libertarian). Rep. Sheri Biggs is the incumbent. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -100,7 +100,7 @@
         "fec-H6SC04171",
         "sc-house-4-ethridge"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: William Timmons (Republican), Courtney McClain (Democrat), Jessica Ethridge (Libertarian). Rep. William Timmons is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: William Timmons (Republican), Courtney McClain (Democrat), Jessica Ethridge (Libertarian). Rep. William Timmons is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -127,7 +127,7 @@
         "fec-H6SC05228",
         "sc-house-5-kaplan"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Wes Climer (Republican), Mallory Dittmer (Democrat), Andy Kaplan (Forward Party). No incumbent is on the November ballot. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Wes Climer (Republican), Mallory Dittmer (Democrat), Andy Kaplan (Forward Party). No incumbent is on the November ballot. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -150,7 +150,7 @@
         "sc-house-6-peterson",
         "sc-house-6-oddo"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jim Clyburn (Democrat), John Peterson (Republican), Joe Oddo (Alliance Party). Rep. Jim Clyburn is the incumbent. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jim Clyburn (Democrat), John Peterson (Republican), Joe Oddo (Alliance Party). Rep. Jim Clyburn is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -172,7 +172,7 @@
         "fec-H2SC07280",
         "fec-H6SC07034"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Russell Fry (Republican), John Vincent (Democrat). Rep. Russell Fry is the incumbent. A certified write in candidate, Carter Gibson-Grossmann, is not a ballot listed candidate. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Russell Fry (Republican), John Vincent (Democrat). Rep. Russell Fry is the incumbent. A certified write in candidate, Carter Gibson-Grossmann, is not a ballot listed candidate. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -598,7 +598,9 @@
           "url": "https://www.scstatehouse.gov/votehistory.php?KEY=21123"
         }
       },
-      "nullNotes": {},
+      "nullNotes": {
+        "climate": "campaign policies page's only energy item is a 25% in-state food, energy and water production resiliency bill, which states no transition-versus-expansion direction; no climate position documented (checked Aug 28, 2026)"
+      },
       "sources": [
         {
           "label": "Campaign policies page",
@@ -651,27 +653,64 @@
       "office": "us-house",
       "district": "3",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Campaign policies page",
+          "url": "https://www.brianforliberty.com/policies"
+        },
+        {
           "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers, South Carolina 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
-        },
-        {
-          "label": "South Carolina Libertarian Party, 2026 candidates",
-          "url": "https://sclp.org/candidates/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Libertarian nominee for South Carolina's 3rd Congressional District",
+      "background": "Self-funded Libertarian nominee for SC-03 emphasizing independence from donors and limited-government philosophy.",
+      "priorities": [
+        "Market-based healthcare",
+        "Reducing regulatory burden",
+        "Limited government"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Attributes inflation to 'excessive money printing, regulatory burden, and interventions that disrupt natural price signals' (campaign policies page)",
+          "url": "https://www.brianforliberty.com/policies"
+        },
+        "health": {
+          "label": "Backs 'market-oriented reforms that expand choice, reduce regulatory barriers, and let competition lower costs' rather than government-run systems (campaign policies page)",
+          "url": "https://www.brianforliberty.com/policies"
+        },
+        "education": {
+          "label": "Says government should not overreach into 'personal choice, commerce, and education' (campaign policies page)",
+          "url": "https://www.brianforliberty.com/policies"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked campaign policies page, not addressed (checked Aug 29, 2026)",
+        "immigration": "checked campaign policies page, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked campaign policies page, no specific tax position stated (checked Aug 29, 2026)",
+        "climate": "checked campaign policies page, not addressed (checked Aug 29, 2026)",
+        "safety": "checked campaign policies page, not addressed (checked Aug 29, 2026)",
+        "repro": "checked campaign policies page, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked campaign policies page, not addressed (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "sc-house-4-ethridge",
@@ -680,27 +719,70 @@
       "office": "us-house",
       "district": "4",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        },
+        {
           "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers, South Carolina 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
-        },
-        {
-          "label": "South Carolina Libertarian Party, 2026 candidates",
-          "url": "https://sclp.org/candidates/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Libertarian nominee for South Carolina's 4th Congressional District",
+      "background": "Libertarian nominee for SC-04 running on deregulation, school choice, cannabis reform and criminal-justice reform.",
+      "priorities": [
+        "Repeal Certificate of Need laws",
+        "Education savings accounts",
+        "End civil asset forfeiture"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": 2,
+        "safety": -1,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would remove 'overly burdensome barriers that prevent entry into the market' to foster competition and business growth (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        },
+        "health": {
+          "label": "Opposes Certificate of Need laws, pledging to 'ensure any laws that prevent access to affordable and high quality care no longer impact' healthcare decisions (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        },
+        "education": {
+          "label": "Advocates 'Education Scholarship Accounts or Tax Credit Scholarships' to give parents options beyond traditional schools (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        },
+        "safety": {
+          "label": "Opposes civil asset forfeiture, saying it 'creates the opportunity for corruption,' and supports commuting death sentences to life without parole (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        },
+        "repro": {
+          "label": "Calls abortion 'a sensitive & personal issue,' opposing legislation that prevents access to medical care while backing family-planning access and support for mothers (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Jessica_Ethridge"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Ballotpedia profile, not addressed; no campaign website found beyond a Facebook page (checked Aug 29, 2026)",
+        "immigration": "checked Ballotpedia profile, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked Ballotpedia profile, not addressed (checked Aug 29, 2026)",
+        "climate": "checked Ballotpedia profile, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked Ballotpedia profile, not addressed (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "sc-house-5-kaplan",
@@ -709,23 +791,79 @@
       "office": "us-house",
       "district": "5",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Campaign 'the plan' page",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        {
           "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers, South Carolina 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Forward Party nominee for South Carolina's 5th Congressional District",
+      "background": "Forward Party candidate for SC-05 running against the two-party system, backing electoral reform, single-payer healthcare and deficit-reducing tax changes.",
+      "priorities": [
+        "Depoliticize elections and end gerrymandering",
+        "Build toward single-payer healthcare",
+        "Lower costs by curbing corporate price-gouging"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": -2,
+        "housing": 0,
+        "immigration": 0,
+        "taxes": -2,
+        "climate": null,
+        "education": -1,
+        "safety": -1,
+        "repro": null,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'remove policies that raise costs while promoting fair competition' and 'repeal unnecessary tariffs that raise consumer goods and food prices' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "health": {
+          "label": "Wants to 'let Medicare negotiate lower drug prices' and 'build toward a single-payer system so everyone is covered and no one goes broke from getting sick' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "housing": {
+          "label": "Mixed: would 'make it easier to build more housing, reduce unnecessary permitting delays' but also 'limit corporate ownership of single-family homes' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "immigration": {
+          "label": "Mixed: backs 'strong borders and an immigration system that is lawful, workable' while also pledging to 'expand legal worker visas' and 'create an earned pathway to citizenship' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "taxes": {
+          "label": "Would 'raise the corporate tax rate, with tax incentives for profit sharing' and 'require the wealthiest Americans to pay a minimum tax rate based on their total wealth' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "education": {
+          "label": "Would 'protect and fully fund public education' while expanding trade-school and apprenticeship pathways (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "safety": {
+          "label": "Wants to 'hold federal law enforcement accountable under the law, including clear identification, de-escalation standards' (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        },
+        "democracy": {
+          "label": "Mixed: backs ranked-choice voting and independent redistricting commissions to 'ban partisan gerrymandering,' while also proposing to require voter ID (campaign 'the plan' page)",
+          "url": "https://www.andykaplan4congress.com/the-plan"
+        }
+      },
+      "nullNotes": {
+        "climate": "checked campaign 'the plan' page; only balanced 'keep energy affordable... invest in next-generation energy technology' language with no clear directional commitment (checked Aug 29, 2026)",
+        "repro": "checked campaign home and 'the plan' pages, not addressed (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "sc-house-6-peterson",
@@ -734,23 +872,67 @@
       "office": "us-house",
       "district": "6",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        },
+        {
           "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers, South Carolina 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Republican nominee for South Carolina's 6th Congressional District",
+      "background": "Republican nominee challenging Rep. Jim Clyburn in SC-06, running on fiscal conservatism, tough-on-crime and election-security themes.",
+      "priorities": [
+        "Fiscally conservative spending cuts",
+        "Tough on crime",
+        "Voter ID and election integrity"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 2,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Will 'vote for bills in Congress that are fiscally conservative and practical that cut spending, bring down inflation, and reduce the national debt' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        },
+        "taxes": {
+          "label": "Backs 'DOGE cuts that remove needless bureaucratic jobs' and deregulation for small businesses (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        },
+        "safety": {
+          "label": "Wants 'policy that is tough on crime and keep violent criminals off the street' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        },
+        "democracy": {
+          "label": "Supports 'voter ID and keep mail-in voting to a minimum' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        }
+      },
+      "nullNotes": {
+        "health": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "housing": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "immigration": "checked campaign home page and Ballotpedia survey; only a general note backing 'border patrol' officers, no specific policy (checked Aug 29, 2026)",
+        "climate": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "education": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "repro": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "sc-house-6-oddo",
@@ -759,23 +941,53 @@
       "office": "us-house",
       "district": "6",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Campaign home page",
+          "url": "https://bettercandidates.org"
+        },
+        {
           "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers, South Carolina 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Wikipedia, 2026 United States House of Representatives elections in South Carolina",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Alliance Party nominee for South Carolina's 6th Congressional District",
+      "background": "Alliance Party candidate for SC-06 running on a 'delegate' model, pledging to vote on bills according to constituent polling rather than personal policy positions.",
+      "priorities": [
+        "Vote according to constituent will on every bill",
+        "Build a 'United Independent Movement' outside the two parties"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "campaign's entire platform is a pledge to vote per constituent polling on every bill rather than stake out personal positions; checked campaign home page, no specific policy stated (checked Aug 29, 2026)",
+        "health": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "housing": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "immigration": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "taxes": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "climate": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "education": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "safety": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "repro": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)",
+        "democracy": "same delegate-model platform, no specific policy stated (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-S0SC00149",
@@ -864,15 +1076,77 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
+        {
+          "label": "House.gov issues pages",
+          "url": "https://joewilson.house.gov/issues"
+        },
+        {
+          "label": "Roll call 190, H.R. 1",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2SC02059/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative, South Carolina's 2nd District (incumbent)",
+      "background": "Incumbent Republican first elected in 2001. Chairs House committees on national security and foreign affairs matters and seeks re-election on an all-of-the-above energy, school-choice and border-security platform.",
+      "priorities": [
+        "Energy independence",
+        "School choice and local control",
+        "Border security"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Warns against policies risking 'hyperinflation, high interest rates, and higher taxes,' favoring 'limited government' where 'Washington takes a back seat to Main Street' (house.gov economy and jobs issues page)",
+          "url": "https://joewilson.house.gov/issues/economy-and-jobs"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act (roll call 23, Jan 22, 2025), requiring detention of unauthorized immigrants charged with theft and violent crimes",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax law making the 2017 TCJA cuts permanent (roll call 190, Jul 3, 2025); also touts the 2017 TCJA and 2026 'Working Families Tax Cuts' law (house.gov economy and jobs issues page)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Backs an 'all-of-the-above' energy strategy, Keystone XL, and opposes EPA rules he says 'will only drive up the cost of energy and kill jobs' (house.gov energy issues page)",
+          "url": "https://joewilson.house.gov/issues/energy"
+        },
+        "education": {
+          "label": "Supports 'school choice and local governance of schools' and eliminating the Department of Education (house.gov education issues page)",
+          "url": "https://joewilson.house.gov/issues/education"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote (roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "checked house.gov issues hub and Ballotpedia page, not addressed; Ballotpedia notes he has not completed the 2026 Candidate Connection survey (checked Aug 29, 2026)",
+        "housing": "checked house.gov issues hub, not addressed (checked Aug 29, 2026)",
+        "safety": "checked house.gov national security issues page, only covers military/foreign affairs, not domestic crime policy (checked Aug 29, 2026)",
+        "repro": "checked house.gov issues hub and Ballotpedia; Ballotpedia notes a Pain-Capable Unborn Child Protection Act vote but gives no quoted statement, and no roll call for that bill was fetched (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6SC02159",
@@ -881,15 +1155,77 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        {
+          "label": "Politics1, South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC02159/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for South Carolina's 2nd Congressional District",
+      "background": "Democratic nominee challenging Rep. Joe Wilson in SC-02, running on expanding healthcare access, renewable energy and stronger public schools.",
+      "priorities": [
+        "Expand healthcare access",
+        "Renewable energy transition",
+        "Increase teacher pay"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": -1,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Wants to 'reduce the approximately nine percent of South Carolinians who are uninsured' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "immigration": {
+          "label": "Backs a 'secure, efficient, and humane' system with due process, aiming to 'fix the backlog so cases are processed faster' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "climate": {
+          "label": "Advocates 'policies that promote solar, wind, and other renewable energy sources' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "education": {
+          "label": "Would 'advocate for competitive salaries that recognize the vital role teachers play' to strengthen public schools (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "safety": {
+          "label": "Wants to 'create pathways that guide youth away from the prison pipeline towards meaningful careers' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "repro": {
+          "label": "Backs 'protecting access to reproductive healthcare, including contraception' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign platform page, not addressed beyond general slogans (checked Aug 29, 2026)",
+        "housing": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked campaign platform page, no specific tax position found (checked Aug 29, 2026)",
+        "democracy": "checked campaign platform page, not addressed (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "sc-house-2-smith",
@@ -898,19 +1234,950 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "The Green Papers: South Carolina 2026",
-          "url": "https://www.thegreenpapers.com/G26/SC"
-        },
-        {
-          "label": "Politics1: South Carolina 2026 candidates",
+          "label": "Politics1, South Carolina 2026 candidates",
           "url": "https://politics1.com/sc.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Minor-party nominee for South Carolina's 2nd Congressional District",
+      "background": "Minor-party candidate carrying the Workers Party and United Citizens lines in SC-02 (South Carolina permits fusion candidacies). No campaign website found; her only listed presence is a Facebook page.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "no campaign website found; only a Facebook page (not fetchable) is listed on Politics1; Ballotpedia page is robots-blocked (checked Aug 29, 2026)",
+        "health": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "housing": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "immigration": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "taxes": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "climate": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "education": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "safety": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "repro": "same as above, no fetchable source found (checked Aug 29, 2026)",
+        "democracy": "same as above, no fetchable source found (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC01334",
+      "name": "Jenny Costa Honeycutt",
+      "party": "Republican",
+      "district": "1",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Republican nominee for South Carolina's 1st Congressional District",
+      "background": "Republican nominee for South Carolina's open 1st District seat. Campaigns on fiscal discipline, border security and a conservative platform styled 'serious, steady conservative leadership.'",
+      "priorities": [
+        "Fiscal discipline and balanced budget",
+        "Border security",
+        "Protecting the unborn"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Backs 'ensuring our border is secure, stopping the flow of deadly drugs like fentanyl and criminal illegal aliens' (campaign platform page)",
+          "url": "https://www.jennycostahoneycutt.com/platform"
+        },
+        "taxes": {
+          "label": "Pledges to 'combat wasteful spending, end waste, fraud, and abuse of government programs, restore fiscal discipline, and work to balance the budget' (campaign platform page)",
+          "url": "https://www.jennycostahoneycutt.com/platform"
+        },
+        "safety": {
+          "label": "Will 'stand with law enforcement and support policies that keep violent criminals off our streets' (campaign platform page)",
+          "url": "https://www.jennycostahoneycutt.com/platform"
+        },
+        "repro": {
+          "label": "Says 'every life is precious and deserving of protection' and calls herself 'a steadfast advocate for the unborn' (campaign platform page)",
+          "url": "https://www.jennycostahoneycutt.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign platform page, only general 'lower costs' language with no mechanism (checked Aug 29, 2026)",
+        "health": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
+        "housing": "checked campaign platform page, mentioned only as a family cost pressure with no policy (checked Aug 29, 2026)",
+        "climate": "checked campaign platform page, only vague 'conserving natural resources' language (checked Aug 29, 2026)",
+        "education": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked campaign platform page; Ballotpedia page robots-blocked twice (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.jennycostahoneycutt.com/platform"
+        },
+        {
+          "label": "Politics1, South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC01334/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC01359",
+      "name": "Nancy Lacore",
+      "party": "Democrat",
+      "district": "1",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Retired U.S. Navy rear admiral; Democratic nominee for South Carolina's 1st Congressional District",
+      "background": "Retired Navy rear admiral who served 35 years, including combat deployments, before becoming the Democratic nominee for SC-01. Campaigns on affordability, reproductive freedom and clean energy.",
+      "priorities": [
+        "Affordable prescription drug costs",
+        "Reproductive freedom",
+        "Clean energy and coastal protection"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Would 'cap annual out-of-pocket expenses for prescription drugs for people on private health insurance, just like the cap on Medicare' (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        "immigration": {
+          "label": "Mixed: wants to 'secure the border, enforce the law, and uphold our values at the same time,' while streamlining processes and holding ICE 'to law enforcement standards' (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        "climate": {
+          "label": "Backs 'lower costs by expanding clean energy and modernizing the grid' and protecting the coast via living shorelines (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        "repro": {
+          "label": "Will 'work to guarantee women's reproductive freedom in law,' including family planning resources (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign priorities page, only general affordability language with no mechanism (checked Aug 29, 2026)",
+        "housing": "checked campaign priorities page; only mentions ending building-material tariffs, which does not fit the housing axis (checked Aug 29, 2026)",
+        "taxes": "checked campaign priorities page; only a targeted active-duty-military tax credit is mentioned, does not fit the broader axis (checked Aug 29, 2026)",
+        "education": "checked campaign priorities page, not addressed (checked Aug 29, 2026)",
+        "safety": "checked campaign priorities page; only ICE body-camera/due-process oversight, which is immigration enforcement, not the safety axis (checked Aug 29, 2026)",
+        "democracy": "checked campaign priorities page; only a congressional stock-trading ban, does not fit the voting/election-rules axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        {
+          "label": "Politics1, South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC01359/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC01342",
+      "name": "William Oliver Jr. Reeside",
+      "party": "Libertarian",
+      "district": "1",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian nominee for South Carolina's 1st Congressional District",
+      "background": "Libertarian nominee for SC-01 running on limiting federal power, market-based healthcare and criminal-justice reform.",
+      "priorities": [
+        "Restoring Congress's Article I powers",
+        "Market-based healthcare",
+        "Reducing the federal prison population"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": 1,
+        "safety": -2,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Would 'break the link between employment and health care by removing tax deductibility for employer-paid insurance' and restore fee-for-service, market competition (campaign home page)",
+          "url": "https://www.reesideforcongress.com"
+        },
+        "immigration": {
+          "label": "Mixed: backs 'eliminating asylum and Temporary Protected Status,' replacing them with work visas, while pledging to 'negotiate a fair path to citizenship for the Dreamers' (campaign home page)",
+          "url": "https://www.reesideforcongress.com"
+        },
+        "education": {
+          "label": "Advocates trade schools and certificate programs over four-year degrees and restoring private student-loan lending (campaign home page)",
+          "url": "https://www.reesideforcongress.com"
+        },
+        "safety": {
+          "label": "Would 'reduce the federal prison population by repealing nonviolent drug laws' and redirect enforcement funding to demand-side solutions (campaign home page)",
+          "url": "https://www.reesideforcongress.com"
+        },
+        "repro": {
+          "label": "Supports 'the Supreme Court's return of abortion legislation to the states' while working to reduce abortion demand (campaign home page)",
+          "url": "https://www.reesideforcongress.com"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign home page, not addressed (checked Aug 29, 2026)",
+        "housing": "checked campaign home page, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked campaign home page and Ballotpedia Candidate Connection survey (deficit/military-spending focus, no specific tax position) (checked Aug 29, 2026)",
+        "climate": "checked campaign home page, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign home page",
+          "url": "https://www.reesideforcongress.com"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/William_Reeside"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC01342/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4SC01313",
+      "name": "Sheri Biggs",
+      "party": "Republican",
+      "district": "3",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative, South Carolina's 3rd District (incumbent)",
+      "background": "Incumbent Republican, Air Force veteran and nurse first elected in 2024, seeking re-election on border security, fiscal responsibility and pro-life priorities.",
+      "priorities": [
+        "Secure the border",
+        "Fiscal responsibility",
+        "Defend the sanctity of life"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says 'excessive and wasteful spending' has 'fueled inflation' (campaign platform page)",
+          "url": "https://www.sheribiggs.com/issues"
+        },
+        "health": {
+          "label": "Health policy built on 'competition, flexibility, transparency' with rural community support (house.gov issues page)",
+          "url": "https://sheribiggs.house.gov/issues"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act (roll call 23, Jan 22, 2025); platform pillar 'Secure the Border' cites stopping 'the flow of illegal aliens and drugs' (campaign platform page)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax law making the 2017 TCJA cuts permanent (roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Frames 'American energy independence' as a security issue and backs 'free market principles' for energy production (house.gov issues page)",
+          "url": "https://sheribiggs.house.gov/issues"
+        },
+        "education": {
+          "label": "Wants education policy to 'remain closest to the student, keep parents in charge' (house.gov issues page)",
+          "url": "https://sheribiggs.house.gov/issues"
+        },
+        "repro": {
+          "label": "Platform pillar: 'Sheri will use her voice and story to protect the sanctity of life' (campaign platform page)",
+          "url": "https://www.sheribiggs.com/issues"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote (roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked campaign platform page and house.gov issues page, not addressed (checked Aug 29, 2026)",
+        "safety": "checked campaign platform page and house.gov issues page; only border-related crime language, which is immigration not domestic safety (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.sheribiggs.com/issues"
+        },
+        {
+          "label": "House.gov issues page",
+          "url": "https://sheribiggs.house.gov/issues"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4SC01313/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC03090",
+      "name": "Eunice Lehmacher",
+      "party": "Democrat",
+      "district": "3",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for South Carolina's 3rd Congressional District",
+      "background": "Democratic nominee challenging Rep. Sheri Biggs in SC-03, running on affordable healthcare, housing access and abortion rights.",
+      "priorities": [
+        "Affordable healthcare",
+        "Affordable housing access",
+        "Abortion rights via ballot initiative"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Wants 'accessible and affordable health care for every resident of South Carolina (including affordable medication)' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        },
+        "housing": {
+          "label": "Backs 'access to affordable housing to people of all races and cultures' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        },
+        "climate": {
+          "label": "Supports 'cheap renewable energy available to all renters and homeowners, clean air and water' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        },
+        "repro": {
+          "label": "Backs 'a state ballot initiative to insure women's rights to have an abortion... voters, and not the state government, should decide' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign home page and Ballotpedia survey, no cost-of-living mechanism stated (checked Aug 29, 2026)",
+        "immigration": "checked campaign home page and Ballotpedia survey; only a general 'build a bigger table' unity message, no specific policy (checked Aug 29, 2026)",
+        "taxes": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "education": "checked Ballotpedia survey; her answer is about freedom to read/no book bans, which does not fit the public-schools-vs-choice axis (checked Aug 29, 2026)",
+        "safety": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked campaign home page and Ballotpedia survey; general 'right to vote is foundation of all rights' language with no specific policy (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        },
+        {
+          "label": "Campaign home page",
+          "url": "https://www.euniceforsc.com/ideas"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC03090/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H8SC04250",
+      "name": "William R IV Timmons",
+      "party": "Republican",
+      "district": "4",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative, South Carolina's 4th District (incumbent)",
+      "background": "Incumbent Republican first elected in 2018, seeking re-election on an affordability, border-security and pro-life platform aligned with the Trump agenda.",
+      "priorities": [
+        "Lower costs and fight inflation",
+        "Secure the border",
+        "Protect innocent life"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Plan to 'cut wasteful spending' and 'unleash American energy production,' saying 'Washington doesn't have a revenue problem, it has a spending problem' (campaign issues page)",
+          "url": "https://votetimmons.com/issues/lower-costs-fight-inflation/"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act (roll call 23, Jan 22, 2025); backs finishing the border wall and ending catch-and-release (campaign issues page)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax law making the 2017 TCJA cuts permanent (roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Would 'unleash American energy production' to fight inflation (campaign issues page)",
+          "url": "https://votetimmons.com/issues/lower-costs-fight-inflation/"
+        },
+        "safety": {
+          "label": "Opposes 'efforts to defund the police,' wants 'criminals prosecuted, violent offenders kept off our streets' (campaign issues page)",
+          "url": "https://votetimmons.com/issues/back-the-blue"
+        },
+        "repro": {
+          "label": "'Proudly pro-life,' backs 'commonsense pro-life policies' and opposes 'taxpayer-funded abortion' (campaign issues page)",
+          "url": "https://votetimmons.com/issues/protect-life/"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote (roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "checked campaign issues index, not addressed on any linked issue page fetched (checked Aug 29, 2026)",
+        "housing": "checked campaign issues index and cost-of-living page; housing mentioned only as a cost pressure, no policy (checked Aug 29, 2026)",
+        "education": "checked campaign issues index, no dedicated education page found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign issues index",
+          "url": "https://votetimmons.com/issues"
+        },
+        {
+          "label": "Roll call 190, H.R. 1",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8SC04250/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC04171",
+      "name": "Courtney McClain",
+      "party": "Democrat",
+      "district": "4",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for South Carolina's 4th Congressional District",
+      "background": "Democratic nominee challenging Rep. William Timmons in SC-04 on an 'Upstate First Agenda' of affordability, housing and healthcare access.",
+      "priorities": [
+        "Bring down the cost of living",
+        "Build affordable housing",
+        "Expand healthcare access"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Upstate First Agenda' pledges 'expanding access to quality healthcare' (campaign home page)",
+          "url": "https://www.mcclainforsc.com/"
+        },
+        "housing": {
+          "label": "'Upstate First Agenda' pledges 'building affordable homes' (campaign home page)",
+          "url": "https://www.mcclainforsc.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign home and issues pages; only slogan-level 'bring down the cost of living' headline with no mechanism (checked Aug 29, 2026)",
+        "immigration": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
+        "climate": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
+        "education": "checked campaign home and issues pages; only slogan-level 'Stronger Schools for Every Student' headline with no mechanism (checked Aug 29, 2026)",
+        "safety": "checked campaign home and issues pages; only slogan-level 'Taking Action for Safer Communities' headline with no mechanism (checked Aug 29, 2026)",
+        "repro": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked campaign home and issues, /voting subpages; only slogan-level 'Protecting the Power of Every Vote' headline with no mechanism (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign home page",
+          "url": "https://www.mcclainforsc.com/"
+        },
+        {
+          "label": "Politics1, South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC04171/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC05228",
+      "name": "Mallory Dittmer",
+      "party": "Democrat",
+      "district": "5",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for South Carolina's 5th Congressional District",
+      "background": "Democratic nominee for SC-05 running on healthcare affordability, public education funding and expanding voting access.",
+      "priorities": [
+        "Protect and strengthen the ACA and Medicaid",
+        "Fund public education",
+        "Lower grocery, utility and housing costs"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": -1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'lower costs on groceries,' 'lower utilities and energy costs,' 'lower child care costs' and 'raise the $7.25/hour minimum wage' (campaign economy priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/economy"
+        },
+        "health": {
+          "label": "Would strengthen the ACA, 'reverse GOP cuts to subsidies and Medicare/Medicaid,' prioritizing 'patients over corporate profits' (campaign healthcare priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/health-care"
+        },
+        "housing": {
+          "label": "Would 'lower rent and home prices by expanding affordable housing supply through government incentives and tax credits' (campaign economy priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/economy"
+        },
+        "immigration": {
+          "label": "Mixed: backs 'serious immigration reform that strengthens border security' while also creating 'a fair path to citizenship for people who work hard' and 'simpler paths to legal status' (campaign immigration priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/immigration"
+        },
+        "taxes": {
+          "label": "Would 'ensure fair tax and trade policies... and make billionaires and corporations pay their fair share' (campaign economy priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/economy"
+        },
+        "education": {
+          "label": "Would 'protect funding for public education,' 'expand access to early education/pre-k,' and 're-establish and revitalize the Department of Education' (campaign education priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/education"
+        },
+        "safety": {
+          "label": "Emphasizes 'prevention over reaction' and would fund 'youth programming that aims to prevent juvenile violence and crime' (campaign safety priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/safety"
+        },
+        "democracy": {
+          "label": "Would use technology for 'simplified and secure mail-in and absentee ballot processes' and 'remove barriers for political Independents to run for office and vote' (campaign elections priorities page)",
+          "url": "https://www.dittmerforcongress.com/priorities/elections"
+        }
+      },
+      "nullNotes": {
+        "climate": "checked economy and safety priorities pages, no dedicated climate/energy page found (checked Aug 29, 2026)",
+        "repro": "checked all fetched priorities pages (health-care, economy, immigration, education, safety, elections), no abortion-specific page found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign priorities pages",
+          "url": "https://www.dittmerforcongress.com/priorities"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC05228/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC05202",
+      "name": "Wes Climer",
+      "party": "Republican",
+      "district": "5",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Republican nominee for South Carolina's 5th Congressional District; former state senator",
+      "background": "Former South Carolina state senator and Republican nominee for the open SC-05 seat, running on tax cuts, border enforcement and school choice.",
+      "priorities": [
+        "Cut taxes and shrink government",
+        "Fix the border or shut it down",
+        "Take back the classroom"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Platform pillar 'Fix the Border or Shut It Down' backs 'building the wall, reinstating Remain in Mexico, defunding sanctuary cities' (campaign pillars page)",
+          "url": "https://wesclimer.com/pillars/"
+        },
+        "taxes": {
+          "label": "Pledges to 'Cut Taxes, Shrink Government, and Return Power to the People,' citing '$2 billion in tax cuts in South Carolina' he helped deliver as a state senator (campaign pillars page)",
+          "url": "https://wesclimer.com/pillars/"
+        },
+        "education": {
+          "label": "Platform pillar 'Protect Kids and Take Back the Classroom' backs parental rights and 'abolishing the federal Department of Education entirely' (campaign pillars page)",
+          "url": "https://wesclimer.com/pillars/"
+        },
+        "repro": {
+          "label": "Platform pillar 'Real Family Values' states he is 'pro-life, pro-parent, and pro-freedom' (campaign pillars page)",
+          "url": "https://wesclimer.com/pillars/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign home and pillars pages, not addressed as a distinct issue (checked Aug 29, 2026)",
+        "health": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)",
+        "housing": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)",
+        "climate": "checked campaign pillars page; only a generic 'America First agenda on... energy' reference with no specific policy (checked Aug 29, 2026)",
+        "safety": "checked campaign pillars page; only border-related crime language, which is immigration not domestic safety (checked Aug 29, 2026)",
+        "democracy": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign pillars page",
+          "url": "https://wesclimer.com/pillars/"
+        },
+        {
+          "label": "Politics1, South Carolina 2026 candidates",
+          "url": "https://politics1.com/sc.htm"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC05202/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2SC02042",
+      "name": "James E Clyburn",
+      "party": "Democrat",
+      "district": "6",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative, South Carolina's 6th District (incumbent); House Democratic Whip Emeritus",
+      "background": "Longtime incumbent Democrat first elected in 1992, a former House Majority Whip, seeking re-election on voting-rights, immigration-reform and healthcare-cost themes.",
+      "priorities": [
+        "Restore and expand voting rights",
+        "Comprehensive immigration reform with a path to citizenship",
+        "Lower prescription and insulin costs"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backed House-passed legislation capping insulin cost-sharing under private insurance and Medicare (campaign site news)",
+          "url": "https://clyburnforcongress.com/house-passes-bill-to-cap-out-of-pocket-insulin-costs/"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act (roll call 23, Jan 22, 2025); backs 'comprehensive immigration reform... a pathway to citizenship for undocumented immigrants' and the American Dream and Promise Act (campaign record and vision page)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "Working to expand the Rural Energy Savings Program and a similar rural broadband program (campaign home page)",
+          "url": "https://clyburnforcongress.com/record-and-vision/"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act (roll call 102, Apr 10, 2025); campaign backs restoring voting rights after Shelby County, making 'Election Day a federal holiday,' banning voter-roll purging and restoring voting rights for people who completed felony sentences (campaign record and vision page)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site; only a targeted student-loan-cancellation proposal, which does not fit the cost-of-living axis (checked Aug 29, 2026)",
+        "housing": "checked campaign home and record-and-vision pages, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked campaign home and record-and-vision pages, not addressed (checked Aug 29, 2026)",
+        "education": "checked campaign record-and-vision page; only higher-ed student-debt relief, which does not fit the K-12 public-schools-vs-choice axis (checked Aug 29, 2026)",
+        "safety": "checked campaign home and record-and-vision pages, not addressed (checked Aug 29, 2026)",
+        "repro": "checked campaign home and record-and-vision pages, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign record and vision page",
+          "url": "https://clyburnforcongress.com/record-and-vision/"
+        },
+        {
+          "label": "Roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2SC02042/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2SC07280",
+      "name": "Russell Fry",
+      "party": "Republican",
+      "district": "7",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative, South Carolina's 7th District (incumbent)",
+      "background": "Incumbent Republican first elected in 2022, seeking re-election on tax cuts, border security, energy dominance and school-choice priorities.",
+      "priorities": [
+        "Make the Trump tax cuts permanent",
+        "Finish the border wall",
+        "All-of-the-above energy and school choice"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says families are 'paying the price for years of Washington's reckless spending' and is 'fighting to make life affordable again' (campaign home page)",
+          "url": "https://russellfrysc.com"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act (roll call 23, Jan 22, 2025); backs finishing the wall and to 'DEPORT criminal illegal aliens' (campaign home page)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax law making the 2017 TCJA cuts permanent (roll call 190, Jul 3, 2025); campaign vows to 'make the Trump tax cuts permanent' (campaign issues page)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Backs an 'all of the above' energy strategy, 'oil, gas, nuclear, and more, without the job-killing green mandates' (campaign issues page)",
+          "url": "https://russellfrysc.com/issues/"
+        },
+        "education": {
+          "label": "Would 'champion school choice and let education dollars follow the student' and 'get Washington out of the classroom' (campaign issues page)",
+          "url": "https://russellfrysc.com/issues/"
+        },
+        "safety": {
+          "label": "Would 'PUNISH the traffickers, ARREST the drug lords, and DESTROY the fentanyl pipeline' (campaign issues page)",
+          "url": "https://russellfrysc.com/issues/"
+        },
+        "repro": {
+          "label": "Campaign page states he will 'stand for life and for the values South Carolina families hold dear' (campaign issues page)",
+          "url": "https://russellfrysc.com/issues/"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote (roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
+        "housing": "checked campaign home and issues pages; housing mentioned only as a cost pressure, no policy (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://russellfrysc.com/issues/"
+        },
+        {
+          "label": "Roll call 190, H.R. 1",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2SC07280/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6SC07034",
+      "name": "John Gregory Vincent",
+      "party": "Democrat",
+      "district": "7",
+      "state": "SC",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for South Carolina's 7th Congressional District",
+      "background": "Democratic nominee challenging Rep. Russell Fry in SC-07, running on economic affordability, veterans programs and a mixed border/immigration-reform approach.",
+      "priorities": [
+        "Tax relief for working and middle-class families",
+        "Job creation through community-college partnerships",
+        "Disaster preparedness for coastal communities"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Mixed: backs 'a fair immigration system' alongside increased border security (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Vincent_(South_Carolina)"
+        },
+        "taxes": {
+          "label": "Advocates 'tax relief for working families' that would 'benefit the middle class, not just the wealthy' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Vincent_(South_Carolina)"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia survey; only vague 'job creation' and 'cutting red tape for small businesses' language with no clear cost-of-living mechanism (checked Aug 29, 2026)",
+        "health": "checked Ballotpedia survey; only a general 'make healthcare more affordable' slogan with no mechanism (checked Aug 29, 2026)",
+        "housing": "checked Ballotpedia survey; only a targeted veterans-housing-program expansion, does not fit the broader housing axis (checked Aug 29, 2026)",
+        "climate": "checked Ballotpedia survey; only disaster-preparedness/FEMA funding content, does not fit the climate-transition-vs-energy-independence axis (checked Aug 29, 2026)",
+        "education": "checked Ballotpedia survey; only veterans job-training benefits, does not fit the K-12 public-schools-vs-choice axis (checked Aug 29, 2026)",
+        "safety": "checked Ballotpedia survey, not addressed (checked Aug 29, 2026)",
+        "repro": "checked Ballotpedia survey, not addressed; campaign site (vincent4congress.org) is robots-blocked (checked Aug 29, 2026)",
+        "democracy": "checked Ballotpedia survey, not addressed; campaign site (vincent4congress.org) is robots-blocked (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/John_Vincent_(South_Carolina)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6SC07034/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

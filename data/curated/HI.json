@@ -14,7 +14,7 @@
         "hi-house-1-conley",
         "hi-house-1-berning"
       ],
-      "statusNote": "Rep. Ed Case (D) was renominated in the Aug 8, 2026 primary and faces Republican Adriel Lam, Green candidate Jordan Conley and nonpartisan candidate Nathan Berning. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Ed Case (D) was renominated in the Aug 8, 2026 primary and faces Republican Adriel Lam, Green candidate Jordan Conley and nonpartisan candidate Nathan Berning. We know who's running, positions not researched yet. Positions for all four candidates are researched and stored (tier researched) but the race is not scored: only housing has documented positions from every candidate, far below the app's comparability floor of 7 shared issues (checked Aug 28, 2026).",
       "sources": [
         {
           "label": "The Green Papers: Hawaii 2026 general election candidates",
@@ -32,7 +32,7 @@
         "fec-H2HI02581",
         "fec-H6HI02426"
       ],
-      "statusNote": "Rep. Jill Tokuda (D) was renominated in the Aug 8, 2026 primary with 83% and faces state Senate minority leader Brenton Awa (R). We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Jill Tokuda (D) was renominated in the Aug 8, 2026 primary with 83% and faces state Senate minority leader Brenton Awa (R). Positions for both nominees are researched and sourced (stored at tier researched), but the race is not scored: only 5 of the 10 issues have documented positions from both candidates, below the app's comparability floor of 7. Overlap logged Aug 28, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Hawaii 2026 general election candidates",
@@ -74,7 +74,7 @@
         "education": -1,
         "safety": -1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -112,6 +112,10 @@
         "repro": {
           "label": "Signed the March 2023 law expanding abortion access and shielding Hawaii providers from out-of-state prosecution (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Josh_Green_(politician)"
+        },
+        "democracy": {
+          "label": "Signed SB 2239 (Act 67) on June 18, 2026, automatically registering eligible residents to vote at license renewal unless they opt out (Maui Now)",
+          "url": "https://mauinow.com/2026/06/18/sb2239-automatic-voter-registration-signed-into-law/"
         }
       },
       "sources": [
@@ -206,7 +210,8 @@
       "nullNotes": {
         "health": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; homelessness treatment stance is not a healthcare-system position; nothing on public versus private coverage documented",
         "immigration": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; no immigration position documented",
-        "repro": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; no abortion position documented"
+        "repro": "checked Civil Beat Q&A, Ballotpedia survey summary, and campaign site home page; no abortion position documented",
+        "democracy": "checked Civil Beat Q&A (his answer backs citizen initiative and referendum, a process question that does not map to the voting-access axis), the campaign Vision page, and Ballotpedia; no voter ID or voting-access position documented (Aug 28, 2026)"
       }
     },
     {
@@ -216,7 +221,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -227,8 +232,57 @@
         {
           "label": "Politics1 Hawaii 2026 candidate list",
           "url": "https://www.politics1.com/hi.htm"
+        },
+        {
+          "label": "Ballotpedia profile and survey",
+          "url": "https://ballotpedia.org/Adriel_Lam"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Retired U.S. Army officer",
+      "background": "Republican who served in the U.S. Army from 1994 to 2018. Holds a bachelor's degree from the University of Washington and several graduate degrees.",
+      "priorities": [
+        "Individual control of retirement and health programs",
+        "Making Hawaii affordable through jobs and business",
+        "Firearms education over restrictions"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Says Social Security, Medicare and Medicaid should 'be given back to the individuals... to plan, manage, invest' for their own futures (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Adriel_Lam"
+        },
+        "housing": {
+          "label": "Would 'make Hawaii home again' through a better employment and business environment rather than housing programs (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Adriel_Lam"
+        },
+        "climate": {
+          "label": "Supports monitoring climate change but wants 'real, hard sciences' rather than 'politically driven research' (Ballotpedia survey)",
+          "url": "https://ballotpedia.org/Adriel_Lam"
+        }
+      },
+      "nullNotes": {
+        "cost": "Ballotpedia survey and X account reviewed; no price, wage, or subsidy position documented",
+        "immigration": "no documented position on Ballotpedia; no campaign site located",
+        "taxes": "no documented position on Ballotpedia; no campaign site located",
+        "education": "no documented position on Ballotpedia; no campaign site located",
+        "safety": "gun-safety comments do not map to this axis; no policing or sentencing position documented",
+        "repro": "no documented position on Ballotpedia; no campaign site located",
+        "democracy": "only general comments on Senate procedure documented, which do not map to this axis"
+      },
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "hi-house-1-conley",
@@ -237,7 +291,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -248,8 +302,60 @@
         {
           "label": "Politics1 Hawaii 2026 candidate list",
           "url": "https://www.politics1.com/hi.htm"
+        },
+        {
+          "label": "Civil Beat candidate Q&A",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-jordan-conley/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "'Aiea",
+      "now": "Nonprofit co-founder",
+      "background": "Green Party candidate from 'Aiea who co-founded the Hapa Mana nonprofit in 2016. Describes himself as anti-imperialist and opposes the corporate 'duopoly'.",
+      "priorities": [
+        "National universal healthcare",
+        "Taxing vacant and short-term-rental housing",
+        "Repealing the Jones Act"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Would 'push for a vote for national universal healthcare' or pursue state-level options (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-jordan-conley/"
+        },
+        "housing": {
+          "label": "'If you have a place in Hawai'i that no one stays at for more than half the year, I will tax you'; would tax Airbnb and expand Hawaiian Homestead housing (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-jordan-conley/"
+        },
+        "immigration": {
+          "label": "Advocates fast processing with individual case evaluation and criticizes enforcement approaches of both administrations (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-jordan-conley/"
+        },
+        "climate": {
+          "label": "Opposes liquefied natural gas as a bridge fuel and favors solar panels on existing infrastructure (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-jordan-conley/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Civil Beat Q&A covers housing taxes and the Jones Act but no general price, wage, or subsidy position",
+        "taxes": "his vacancy and Airbnb taxes are housing measures; no position on overall tax rates documented",
+        "education": "Civil Beat Q&A does not cover education; nothing else documented",
+        "safety": "Civil Beat Q&A does not cover policing; nothing else documented",
+        "repro": "Civil Beat Q&A does not cover abortion; nothing else documented",
+        "democracy": "Civil Beat Q&A does not cover voting rules; nothing else documented"
+      },
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "hi-house-1-berning",
@@ -258,7 +364,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -269,8 +375,57 @@
         {
           "label": "Politics1 Hawaii 2026 candidate list",
           "url": "https://www.politics1.com/hi.htm"
+        },
+        {
+          "label": "Berning campaign site",
+          "url": "https://berningforcongress.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Nonprofit co-founder",
+      "background": "Nonpartisan candidate and nonprofit co-founder running on affordability and pledging to work with either party 'when it helps Hawaii'.",
+      "priorities": [
+        "People who work here should be able to live here",
+        "Local jobs and small business",
+        "Protecting land and water"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'challenge rules and policies that unnecessarily inflate everyday costs' (Berning campaign)",
+          "url": "https://berningforcongress.com/"
+        },
+        "housing": {
+          "label": "Pledges to 'fight for federal housing and infrastructure partnerships that expand opportunity without erasing community' (Berning campaign)",
+          "url": "https://berningforcongress.com/"
+        },
+        "repro": {
+          "label": "'I oppose abortion. I also believe being pro-life must mean more than telling a frightened woman what she should not do', backing support services (Berning campaign)",
+          "url": "https://berningforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "campaign site mentions healthcare only as support for women carrying pregnancies; no system-level position documented",
+        "immigration": "campaign site contains no immigration position",
+        "taxes": "'make tax policy work for working families' states no direction on rates; not scorable",
+        "climate": "'responsible energy policy' and land stewardship language states no transition-versus-expansion direction; not scorable",
+        "education": "campaign site contains no education position",
+        "safety": "campaign site contains no policing or sentencing position",
+        "democracy": "campaign site contains no voting-rules position"
+      },
+      "curatedAt": "2026-08-28"
     },
     {
       "id": "hi-house-2-codelia",
@@ -292,6 +447,246 @@
           "url": "https://www.politics1.com/hi.htm"
         }
       ]
+    },
+    {
+      "id": "fec-H2HI02581",
+      "name": "Jill Naomi Tokuda",
+      "party": "Democrat",
+      "district": "2",
+      "state": "HI",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Hawaii's 2nd District since 2023",
+      "background": "Former state senator from Windward Oahu who has represented Hawaii's 2nd District in Congress since 2023. Renominated in the Aug 8, 2026 primary with 83 percent of the vote.",
+      "priorities": [
+        "Lowering the cost of living",
+        "Protecting Medicaid and Medicare",
+        "Affordable housing"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Backs continued enhanced child tax credits, an expanded EITC, and 'increasing the minimum wage' (Tokuda campaign)",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "health": {
+          "label": "'We have to reverse the $1.5 trillion in cuts to Medicaid and Medicare that will result in rural hospitals closing' (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-2-jill-tokuda/"
+        },
+        "housing": {
+          "label": "Supports using 'federal resources to build, purchase, or preserve affordable housing' (Tokuda campaign)",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "immigration": {
+          "label": "Voted no on the Laken Riley Act's expanded immigration detention mandates (House Clerk roll 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "'Hawaii is ideally situated to be a leader in renewable energy, harnessing resources like solar, wind, and hydropower' (Tokuda campaign)",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "education": {
+          "label": "'Funding quality public education for students of all ages is one of the most valuable investments for the future of Hawaii' (Tokuda campaign)",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "repro": {
+          "label": "'Reproductive decisions are deeply personal and should remain in the hands of women, not dictated by politicians' (Tokuda campaign)",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act's documentary proof-of-citizenship requirement for voter registration (House Clerk roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "taxes": "campaign issues page and Civil Beat Q&A offer child tax credit and EITC expansions, targeted household credits that do not fit this axis per the calibration anchors; no position on raising or broadly cutting tax rates documented",
+        "safety": "campaign issues page addresses only gun violence, which does not map to this axis; no policing or sentencing approach documented"
+      },
+      "sources": [
+        {
+          "label": "Tokuda campaign issues page",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        {
+          "label": "Civil Beat candidate Q&A",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-2-jill-tokuda/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2HI02581/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H6HI02426",
+      "name": "Brenton Awa",
+      "party": "Republican",
+      "district": "2",
+      "state": "HI",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Ka'a'awa",
+      "now": "Hawaii State Senate minority leader",
+      "background": "Former TV news anchor from Ka'a'awa elected to the state Senate in 2022 and now its minority leader, one of three Republicans in the chamber. Says he would serve a single term and quit politics 'if we housed every Hawaiian.'",
+      "priorities": [
+        "Housing local residents",
+        "Lowering everyday costs",
+        "Safe communities"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": 1,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'increase the child tax credit to provide greater tax relief for families' and expand federal childcare assistance (Awa campaign)",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        "health": {
+          "label": "Would 'expand federally funded community health centers across Hawaii that focus on care rather than copays' and require posted prices (Awa campaign)",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        "housing": {
+          "label": "Would cap 'predatory investor buying' and expand down payment assistance so locals can afford homes (Awa campaign)",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        "climate": {
+          "label": "Backs 'a balanced federal energy approach that maintains reliable, affordable power in Hawaii' (Awa campaign)",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        "safety": {
+          "label": "Proposes 'temporary deployment of National Guard units to support local law enforcement in high crime areas' (Awa campaign)",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        "democracy": {
+          "label": "'If your numbers don't show up as the winner, you lost. Accept it'; says Joe Biden legitimately won 2020 (Civil Beat)",
+          "url": "https://www.civilbeat.org/2026/07/the-real-fight-for-hawai%CA%BBi-congressional-district-2-is-still-to-come/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "campaign issues page, Civil Beat profile, and Ballotpedia (no Candidate Connection survey) contain no immigration position; targeted searches found nothing (closer round, Aug 29, 2026: capitol.hawaii.gov legislator pages 403 blocked on two URL patterns; ivoterguide.com 404; justfacts.votesmart.org 403 blocked; re-fetched the full Civil Beat 'real fight for CD2' article, he is not quoted on immigration there)",
+        "taxes": "child tax credit expansion is a targeted household credit that does not fit this axis; no position on overall tax rates or spending documented",
+        "education": "campaign issues page, Civil Beat profile, and Ballotpedia contain no K-12 education position (closer round, Aug 29, 2026: capitol.hawaii.gov legislator pages 403 blocked; ivoterguide.com 404; justfacts.votesmart.org 403 blocked; Ballotpedia's sponsored-bills table did not render fetchable content; re-fetched the Civil Beat article, no education content)",
+        "repro": "campaign issues page, Civil Beat profile, and Ballotpedia contain no abortion position; targeted searches found nothing (closer round, Aug 29, 2026: capitol.hawaii.gov legislator pages 403 blocked; ivoterguide.com 404; justfacts.votesmart.org 403 blocked; guessed a Civil Beat candidate-Q&A URL, 404; re-fetched the 'real fight for CD2' article, no repro content)"
+      },
+      "sources": [
+        {
+          "label": "Awa campaign issues page",
+          "url": "https://www.votebrentonawa.com/issues"
+        },
+        {
+          "label": "Civil Beat: The real fight for CD2",
+          "url": "https://www.civilbeat.org/2026/07/the-real-fight-for-hawai%CA%BBi-congressional-district-2-is-still-to-come/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Brenton_Awa"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6HI02426/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H2HI02128",
+      "name": "Edward Case",
+      "party": "Democrat",
+      "district": "1",
+      "state": "HI",
+      "office": "us-house",
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Hawaii's 1st District",
+      "background": "Centrist Democrat who has represented urban Honolulu's 1st District since 2019 after earlier House service in the 2000s. Renominated in the Aug 8, 2026 primary.",
+      "priorities": [
+        "Lowering Hawaii's cost of living",
+        "Jones Act and tariff reform",
+        "Fiscal responsibility"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 1,
+        "immigration": 0,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Attacks the Jones Act and tariffs for adding 'thousands of dollars to each and every Hawaii family's costs every year'; his cost fix is reforming both, not price intervention (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-ed-case/"
+        },
+        "housing": {
+          "label": "Says the best federal housing tools are 'Jones Act and tariff reform, as each and both artificially jack up housing construction costs' (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-ed-case/"
+        },
+        "immigration": {
+          "label": "Mixed: supports legal immigration and opposes illegal immigration, but has 'strongly opposed how this administration is enforcing key parts of our laws'; voted no on the Laken Riley Act (Civil Beat Q&A; House Clerk roll 23)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-ed-case/"
+        },
+        "climate": {
+          "label": "Would 'confront climate change deniers with scientific realities', backs Paris participation and renewable energy R&D funding (Civil Beat Q&A)",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-ed-case/"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act's documentary proof-of-citizenship requirement for voter registration, one of a handful of Democrats to do so (House Clerk roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "Civil Beat Q&A does not cover healthcare and his campaign materials were not located with a stated public-versus-private position",
+        "taxes": "voted no on the 2025 H.R. 1 tax law (roll 190) but no documented position on raising or broadly cutting taxes; the vote alone does not establish direction on this axis",
+        "education": "Civil Beat Q&A does not cover education; nothing documented",
+        "safety": "Civil Beat Q&A does not cover policing or sentencing; nothing documented",
+        "repro": "Civil Beat Q&A does not cover abortion; nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Civil Beat candidate Q&A",
+          "url": "https://www.civilbeat.org/2026/06/candidate-qa-us-house-district-1-ed-case/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2HI02128/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
     }
   ]
 }

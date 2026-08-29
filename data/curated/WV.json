@@ -214,7 +214,8 @@
         "cost": "campaign issues page speaks generally about labor being 'fairly rewarded' and protecting industries providing basic needs; no price, wage or deregulation mechanism documented",
         "housing": "checked campaign issues page and Ballotpedia profile, nothing documented",
         "immigration": "checked campaign issues page and Ballotpedia profile, nothing documented",
-        "safety": "checked campaign issues page and Ballotpedia profile, nothing documented"
+        "safety": "checked campaign issues page and Ballotpedia profile, nothing documented",
+        "democracy": "searched Aug 28, 2026: campaign site, Vote-USA profile index, and race coverage contain no voting-rules or election-law position"
       }
     },
     {
@@ -224,7 +225,7 @@
       "office": "us-house",
       "district": "1",
       "state": "WV",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -236,7 +237,24 @@
           "label": "West Virginia 2026 candidates by district (Election2026)",
           "url": "https://election2026.net/west-virginia-2026/"
         }
-      ]
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "hunted politics1.com/wv.htm (not listed among WV-1 candidates in fetched content); no campaign site or statements found for independent Isaiah Rucker (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "wv-house-2-whitcomb",
@@ -245,7 +263,7 @@
       "office": "us-house",
       "district": "2",
       "state": "WV",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -257,7 +275,24 @@
           "label": "West Virginia 2026 candidates by district (Election2026)",
           "url": "https://election2026.net/west-virginia-2026/"
         }
-      ]
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "hunted politics1.com/wv.htm (not listed among WV-2 candidates in fetched content); no campaign site or statements found for independent Christopher Whitcomb (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "wv-senate-wilson",
@@ -292,6 +327,274 @@
           "url": "https://www.fec.gov/data/candidate/S6WV00170/"
         }
       ]
+    },
+    {
+      "id": "fec-H8WV03097",
+      "name": "Carol Devine Miller",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "WV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (WV-01)",
+      "background": "Carol Miller has represented West Virginia's 1st District since 2019 and sits on the House Ways and Means Committee. Won the May 12, 2026 Republican primary with 72.1%.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "climate": {
+          "label": "Vows to 'protect our energy industries' framed as 'Protecting Coal & Gas' (campaign site)",
+          "url": "https://www.electcarolmiller.com"
+        },
+        "taxes": {
+          "label": "Self-described 'pro-lower taxes': 'fought to lower taxes and create jobs' (campaign site)",
+          "url": "https://www.electcarolmiller.com"
+        },
+        "repro": {
+          "label": "Campaign site lists her as 'pro-life' (campaign site)",
+          "url": "https://www.electcarolmiller.com"
+        },
+        "immigration": {
+          "label": "Voted Yea on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "'lower costs' after blaming 'Biden's disastrous inflation' names the problem with no distinct cap-versus-deregulate mechanism beyond the taxes quote (checked Aug 29, 2026)",
+        "health": "checked electcarolmiller.com homepage, not addressed (checked Aug 29, 2026)",
+        "housing": "checked electcarolmiller.com homepage, not addressed (checked Aug 29, 2026)",
+        "education": "'Funding Education & Creating Jobs' heading has no public-versus-choice mechanism text fetched (checked Aug 29, 2026)",
+        "safety": "only a 2nd Amendment plank, which the guide excludes from the safety axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Carol Devine Miller campaign site",
+          "url": "https://www.electcarolmiller.com"
+        },
+        {
+          "label": "West Virginia's Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_2nd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8WV03097/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6WV01160",
+      "name": "Vincent Raymond George",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "WV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee, WV-1",
+      "background": "Vince George, a retired public policy analyst, is the Democratic nominee against Rep. Carol Miller in West Virginia's 1st District, winning the May 12, 2026 primary with 53.0%.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "hunted politics1.com/wv.htm (listed with 'Retired Public Policy Analyst' descriptor, no campaign website given); no statements found for Vince George (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "West Virginia's Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_1st_Congressional_District_election,_2026"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WV01160/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4WV02205",
+      "name": "Riley Moore",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "WV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (WV-02)",
+      "background": "Riley Moore has represented West Virginia's 2nd District since 2023; previously West Virginia State Treasurer. Unopposed in the May 12, 2026 Republican primary.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "climate": {
+          "label": "'Fossil fuels power America's economy and provide high-quality jobs to West Virginians', opposing efforts to 'shut down the coal industry and throttle our burgeoning natural gas sector' (campaign site)",
+          "url": "https://www.mooreforwv.com"
+        },
+        "education": {
+          "label": "'A zip code should not determine a child's future': defends 'the Hope Scholarship program' and the 'Jump Start Savings Program' (campaign site)",
+          "url": "https://www.mooreforwv.com"
+        },
+        "repro": {
+          "label": "'I believe in life from the moment of conception to the moment of natural death' and claims a '100% pro-life voting record' (campaign site)",
+          "url": "https://www.mooreforwv.com"
+        },
+        "immigration": {
+          "label": "'The only acceptable level of illegal immigration is zero' and pledges to 'finish the border wall' (campaign site); also voted Yea on the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
+        "health": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
+        "housing": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
+        "taxes": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
+        "safety": "checked available sources for this pass, nothing documented (Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Riley Moore campaign site",
+          "url": "https://www.mooreforwv.com"
+        },
+        {
+          "label": "West Virginia's Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_2nd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4WV02205/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6WV02150",
+      "name": "Ahsan Parsi",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "WV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee, WV-2",
+      "background": "Ace (Ahsan) Parsi, a political organizer, is the Democratic nominee against Rep. Riley Moore in West Virginia's 2nd District, winning the May 12, 2026 primary with 39.8%.",
+      "priorities": [],
+      "positions": {
+        "cost": 0,
+        "health": -2,
+        "housing": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": -2,
+        "safety": -2,
+        "repro": -1,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Mixed: would 'cut tariffs driving up prices on coffee, beef, OJ, and other groceries' while also proposing to 'invest in small farms' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "health": {
+          "label": "Would 'fund rural hospitals' and 'pursue a single-payer public option' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "housing": {
+          "label": "Backs 'tax incentives and zoning reform to build more housing so West Virginians can afford to stay in West Virginia' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "climate": {
+          "label": "Would 'diversify supply through wind, solar, and other sources to drive down heating bills' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "education": {
+          "label": "Wants to 'increase Title I funds for at-risk rural schools' and 'redirect lost funds for vouchers back into public schools' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "safety": {
+          "label": "Would 'defund ICE and reinvest the funds in community policing models that build trust between officers and the communities they serve' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "repro": {
+          "label": "Would 'protect the right to make personal healthcare decisions' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        },
+        "democracy": {
+          "label": "Backs 'automatic voter registration for all eligible citizens: participation should be the default, not the obstacle' (campaign platform)",
+          "url": "http://www.aceforcongress.com/aceplatform"
+        }
+      },
+      "nullNotes": {
+        "immigration": "platform's ICE-defunding line is scored under safety per one-sentence-one-axis rule; no separate border or legal-immigration statement found (checked Aug 29, 2026)",
+        "taxes": "checked aceforcongress.com/aceplatform, no distinct tax-rate statement beyond the tariff/cost line (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ahsan Parsi campaign site",
+          "url": "http://www.aceforcongress.com"
+        },
+        {
+          "label": "West Virginia's Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/West_Virginia%27s_2nd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WV02150/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

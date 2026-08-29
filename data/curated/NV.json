@@ -14,7 +14,7 @@
         "fec-H6NV01315",
         "nv-house-1-stjohn"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot with no party affiliation: Bobby Khan and Steven St John. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot with no party affiliation: Bobby Khan and Steven St John. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -37,7 +37,7 @@
         "fec-H4NV04108",
         "nv-house-2-chapman"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Teresa Benitez-Thompson (Democrat), David Flippo (Republican). No incumbent is on the November ballot. Also on the November ballot: Lynn Chapman (Independent American). We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Teresa Benitez-Thompson (Democrat), David Flippo (Republican). No incumbent is on the November ballot. Also on the November ballot: Lynn Chapman (Independent American). Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -60,7 +60,7 @@
         "fec-H4NV03225",
         "nv-house-3-kamerath"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Jon Kamerath (Independent American Party) is also on the November ballot. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Jon Kamerath (Independent American Party) is also on the November ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -84,7 +84,7 @@
         "nv-house-4-best",
         "nv-house-4-johnson"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party). We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party). Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -299,31 +299,6 @@
       "curatedAt": "2026-08-13"
     },
     {
-      "id": "nv-house-1-stjohn",
-      "name": "Steven St John",
-      "party": "No Political Party",
-      "office": "us-house",
-      "district": "1",
-      "state": "NV",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "The Green Papers, Nevada 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/NV"
-        },
-        {
-          "label": "Politics1, Nevada 2026 candidates",
-          "url": "https://politics1.com/nv.htm"
-        },
-        {
-          "label": "270toWin, 2026 Nevada U.S. House races",
-          "url": "https://www.270towin.com/2026-house-election/states/nevada"
-        }
-      ]
-    },
-    {
       "id": "nv-house-1-thomas",
       "name": "Anthony Thomas Jr.",
       "party": "No Political Party",
@@ -357,81 +332,6 @@
       "state": "NV",
       "tier": "fec",
       "ballotStatus": "withdrawn",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "The Green Papers, Nevada 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/NV"
-        },
-        {
-          "label": "Politics1, Nevada 2026 candidates",
-          "url": "https://politics1.com/nv.htm"
-        },
-        {
-          "label": "270toWin, 2026 Nevada U.S. House races",
-          "url": "https://www.270towin.com/2026-house-election/states/nevada"
-        }
-      ]
-    },
-    {
-      "id": "nv-house-2-chapman",
-      "name": "Lynn Chapman",
-      "party": "Independent American",
-      "office": "us-house",
-      "district": "2",
-      "state": "NV",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "The Green Papers, Nevada 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/NV"
-        },
-        {
-          "label": "Politics1, Nevada 2026 candidates",
-          "url": "https://politics1.com/nv.htm"
-        },
-        {
-          "label": "270toWin, 2026 Nevada U.S. House races",
-          "url": "https://www.270towin.com/2026-house-election/states/nevada"
-        }
-      ]
-    },
-    {
-      "id": "nv-house-4-best",
-      "name": "Russell Best",
-      "party": "Independent American",
-      "office": "us-house",
-      "district": "4",
-      "state": "NV",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "The Green Papers, Nevada 2026 general election",
-          "url": "https://www.thegreenpapers.com/G26/NV"
-        },
-        {
-          "label": "Politics1, Nevada 2026 candidates",
-          "url": "https://politics1.com/nv.htm"
-        },
-        {
-          "label": "270toWin, 2026 Nevada U.S. House races",
-          "url": "https://www.270towin.com/2026-house-election/states/nevada"
-        }
-      ]
-    },
-    {
-      "id": "nv-house-4-johnson",
-      "name": "William Johnson",
-      "party": "No Political Party",
-      "office": "us-house",
-      "district": "4",
-      "state": "NV",
-      "tier": "fec",
-      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
@@ -491,21 +391,601 @@
       ]
     },
     {
-      "id": "fec-H6NV01315",
-      "name": "Bobby Khan",
-      "party": "No Political Party",
+      "id": "fec-H8NV03036",
+      "name": "Dina Titus",
+      "party": "Democrat",
       "office": "us-house",
       "district": "1",
       "state": "NV",
-      "tier": "fec",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Nevada's 1st District",
+      "background": "U.S. Representative since 2013 (with an earlier term 2009-2011), former Nevada state senator and UNLV political science professor. Won the June 9, 2026 Democratic primary.",
+      "priorities": [
+        "Medicare for All Caucus member",
+        "Defend abortion access",
+        "Comprehensive immigration reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Member of the House Medicare for All Caucus; supported the Affordable Care Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dina_Titus"
+        },
+        "immigration": {
+          "label": "Mixed record: original cosponsor of the U.S. Citizenship Act providing a pathway to citizenship for up to 11 million immigrants and opposed the No Sanctuary for Criminals Act (2017), but voted yes on the enforcement-focused Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://en.wikipedia.org/wiki/Dina_Titus"
+        },
+        "repro": {
+          "label": "Received a 100% Planned Parenthood rating for supporting abortion access via the ACA and opposing a 20-week nationwide ban (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dina_Titus"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "taxes": "her no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rules; checked Wikipedia, no separate statement found (checked Aug 29, 2026)",
+        "climate": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "education": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked Wikipedia, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Dina Titus",
+          "url": "https://en.wikipedia.org/wiki/Dina_Titus"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8NV03036/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NV01331",
+      "name": "Carrie Buck",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Henderson, NV",
+      "now": "Nevada state senator and charter-school foundation president",
+      "background": "Nevada state senator (R-Henderson) since 2020 and longtime educator; president of the Pinecrest Foundation charter-school network. Launched her congressional bid against Dina Titus in 2026.",
+      "priorities": [
+        "Lower taxes",
+        "Restore law and order",
+        "Work with President Trump to create jobs"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Campaign message calls for lower taxes (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/carrie-buck-gop-state-senator-launches-congressional-bid-challenging-dina-titus"
+        },
+        "safety": {
+          "label": "Campaign message calls to restore law and order (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/carrie-buck-gop-state-senator-launches-congressional-bid-challenging-dina-titus"
+        },
+        "repro": {
+          "label": "As a state senator supported a 2023 bill protecting out-of-state abortion seekers, breaking with her party (Nevada Independent)",
+          "url": "https://thenevadaindependent.com/article/carrie-buck-gop-state-senator-launches-congressional-bid-challenging-dina-titus"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Nevada Independent launch article, nothing beyond the general tax message (checked Aug 29, 2026)",
+        "health": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
+        "immigration": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
+        "education": "her career as a charter-school foundation president is background, not a stated federal education policy position; checked Nevada Independent launch article (checked Aug 29, 2026)",
+        "democracy": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Nevada Independent: Buck launches congressional bid",
+          "url": "https://thenevadaindependent.com/article/carrie-buck-gop-state-senator-launches-congressional-bid-challenging-dina-titus"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV01331/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NV01315",
+      "name": "Bobby Khan",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "researched",
       "ballotStatus": "filed",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Businessman",
+      "background": "Businessman and self-described 'businessman-turned-fighter' running as an independent against Dina Titus; campaign centers on his own past federal fugitive case and a prison-reform message.",
+      "priorities": [
+        "Prison and justice reform",
+        "End asset forfeiture without conviction",
+        "Less government, more freedom"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "safety": {
+          "label": "Campaign platform calls for 'justice & prison reform' and 'ending asset forfeiture without conviction' (campaign site)",
+          "url": "https://bobbykhanforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "health": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "housing": "campaign site's 'conquering affordable housing' names no mechanism, checked campaign site (checked Aug 29, 2026)",
+        "immigration": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "taxes": "campaign site's 'zero taxes on veteran income' and 'zero taxes on gambling winnings' are targeted exemptions with no broader tax agenda, per project calibration this does not fit the axis; checked campaign site (checked Aug 29, 2026)",
+        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://bobbykhanforcongress.com/"
+        },
+        {
+          "label": "Las Vegas Review-Journal profile",
+          "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/he-was-on-the-fbis-most-wanted-list-now-hes-running-for-congress-3413440/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NV01315/"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "nv-house-1-stjohn",
+      "name": "Steven St John",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "1",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Hospital chaplain",
+      "background": "Hospital chaplain with nearly a decade of experience serving families, running as an independent in NV-1 on a grassroots, low-donor-money platform.",
+      "priorities": [
+        "Protect Medicare and Medicaid",
+        "Lower the cost of groceries, housing and prescriptions",
+        "Listen to constituents before donors"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaign priority to 'protect healthcare, lower costs' through 'protecting Medicare and Medicaid, and lowering the burden of medical costs' (campaign site)",
+          "url": "https://chaplainstevenstjohnforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign site names 'groceries, housing, prescriptions, and the basic needs working families face' as concerns with no price-cap or deregulation mechanism stated, checked campaign site (checked Aug 29, 2026)",
+        "housing": "listed as a priority area with no specific policy detailed, checked campaign site (checked Aug 29, 2026)",
+        "immigration": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "taxes": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked campaign site, listed only as a voter-survey topic with no stated position (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://chaplainstevenstjohnforcongress.com/"
+        },
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NV02362",
+      "name": "Teresa Benitez-Thompson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Former Nevada Assembly majority leader",
+      "background": "Former Nevada Assembly majority leader and social worker; Democratic nominee for the open NV-2 seat in 2026.",
+      "priorities": [
+        "Stabilize the economy to make groceries, healthcare and housing more affordable",
+        "A reformed immigration system that keeps families together",
+        "Safer communities"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign message of 'stabilizing the economy to make the price of groceries, healthcare, and housing more affordable' (campaign site)",
+          "url": "https://electteresa.com/"
+        },
+        "immigration": {
+          "label": "Calls for 'a reformed immigration system that works, not federal agents pulling families apart' (campaign site)",
+          "url": "https://electteresa.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "campaign site lists 'providing health care' as a priority with no mechanism stated, checked campaign homepage (checked Aug 29, 2026)",
+        "housing": "covered only within the general affordability message, checked campaign homepage (checked Aug 29, 2026)",
+        "taxes": "checked campaign homepage, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign homepage, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign homepage, nothing documented (checked Aug 29, 2026)",
+        "safety": "campaign site's 'safer communities' names no enforcement-vs-prevention direction, checked campaign homepage (checked Aug 29, 2026)",
+        "repro": "checked campaign homepage, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked campaign homepage, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://electteresa.com/"
+        },
+        {
+          "label": "Nevada Independent: Benitez-Thompson to run for Congress",
+          "url": "https://thenevadaindependent.com/article/former-dem-assembly-leader-teresa-benitez-thompson-to-run-for-congress"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV02362/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4NV04108",
+      "name": "David Flippo",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Retired U.S. Air Force lieutenant colonel",
+      "background": "Retired U.S. Air Force lieutenant colonel endorsed by President Trump and Gov. Lombardo; won the 2026 Republican primary for the open NV-2 seat.",
+      "priorities": [
+        "Oppose taxpayer-funded healthcare for undocumented immigrants",
+        "Support Border Patrol",
+        "Voter ID"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Opposes 'taxpayer-funded healthcare for illegal immigrants' and criticizes his opponent's support for 'abolishing the Border Patrol' (campaign site)",
+          "url": "https://flippo4nv.com/"
+        },
+        "democracy": {
+          "label": "Criticizes his opponent's support for 'abolishing voter ID,' implying his own support for voter ID (campaign site)",
+          "url": "https://flippo4nv.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "health": "checked campaign site, nothing documented beyond the immigration-specific healthcare line, which is scored under immigration (checked Aug 29, 2026)",
+        "housing": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "taxes": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked campaign site, nothing documented beyond immigration-adjacent lines (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://flippo4nv.com/"
+        },
+        {
+          "label": "PBS NewsHour: Flippo wins Nevada GOP primary",
+          "url": "https://www.pbs.org/newshour/politics/trump-backed-david-flippo-wins-nevada-republican-primary-for-u-s-house-seat"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4NV04108/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "nv-house-2-chapman",
+      "name": "Lynn Chapman",
+      "party": "Independent American",
+      "office": "us-house",
+      "district": "2",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent American Party candidate",
+      "background": "Independent American Party perennial candidate who ran for NV-2 in 2024 (5.0% of the vote) and is running again in 2026.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; her opencampaign.com issue-positions page is blocked by robots.txt, no other source found (checked Aug 29, 2026)",
+        "health": "same as above (checked Aug 29, 2026)",
+        "housing": "same as above (checked Aug 29, 2026)",
+        "immigration": "same as above (checked Aug 29, 2026)",
+        "taxes": "same as above (checked Aug 29, 2026)",
+        "climate": "same as above (checked Aug 29, 2026)",
+        "education": "same as above (checked Aug 29, 2026)",
+        "safety": "same as above (checked Aug 29, 2026)",
+        "repro": "same as above (checked Aug 29, 2026)",
+        "democracy": "same as above (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Lynn_Chapman"
+        },
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NV04020",
+      "name": "Susie Lee",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Nevada's 3rd District",
+      "background": "U.S. Representative since 2019, former nonprofit executive who led Communities In Schools of Nevada and the Inner-City Games after-school program. Won the June 9, 2026 Democratic primary.",
+      "priorities": [
+        "Raise the federal minimum wage",
+        "Block the Yucca Mountain nuclear waste facility",
+        "Border security paired with the Laken Riley Act"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Cosponsored the Raise the Wage Act (2019) to gradually raise the federal minimum wage to $15/hour (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Susie_Lee"
+        },
+        "immigration": {
+          "label": "One of 46 House Democrats who joined Republicans voting for the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "Worked with Nevada's delegation to keep the Yucca Mountain nuclear waste facility from becoming operational and sponsored the bipartisan LWCF Permanent Funding Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Susie_Lee"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "taxes": "her no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rules; checked Wikipedia, no separate statement found (checked Aug 29, 2026)",
+        "education": "her nonprofit career (dropout prevention, after-school programs) is background, not a stated federal education policy; checked Wikipedia (checked Aug 29, 2026)",
+        "safety": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked Wikipedia, nothing documented beyond a gun-control section, which is off-axis per project rules (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Susie Lee",
+          "url": "https://en.wikipedia.org/wiki/Susie_Lee"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV04020/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4NV03225",
+      "name": "Marty O'Donnell",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Video game composer and small-business leader",
+      "background": "Video game composer (Halo, Destiny) and small-business leader; endorsed by Gov. Lombardo, running for the second time against Susie Lee.",
+      "priorities": [
+        "Make America affordable again",
+        "Safe communities and strong borders",
+        "Support small business growth"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Campaign messaging of 'safe communities and strong borders' (campaign site)",
+          "url": "https://martyodonnellnevadacongress.com/"
+        },
+        "safety": {
+          "label": "Campaign messaging of 'safe communities and strong borders' (campaign site)",
+          "url": "https://martyodonnellnevadacongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign slogan 'making America affordable again' names no price-cap or deregulation mechanism, checked campaign site (checked Aug 29, 2026)",
+        "health": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "taxes": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://martyodonnellnevadacongress.com/"
+        },
+        {
+          "label": "Nevada Independent: O'Donnell announces run",
+          "url": "https://thenevadaindependent.com/article/gop-video-game-composer-marty-odonnell-announces-another-run-at-susie-lees-seat"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4NV03225/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "nv-house-3-kamerath",
@@ -514,15 +994,297 @@
       "office": "us-house",
       "district": "3",
       "state": "NV",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent American Party of Nevada official",
+      "background": "Independent American Party of Nevada official running as the party's NV-3 nominee in 2026.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "no Ballotpedia Candidate Connection survey, no campaign site, and Ballotpedia News coverage names him only as a candidate with no stated positions found (checked Aug 29, 2026)",
+        "health": "same as above (checked Aug 29, 2026)",
+        "housing": "same as above (checked Aug 29, 2026)",
+        "immigration": "same as above (checked Aug 29, 2026)",
+        "taxes": "same as above (checked Aug 29, 2026)",
+        "climate": "same as above (checked Aug 29, 2026)",
+        "education": "same as above (checked Aug 29, 2026)",
+        "safety": "same as above (checked Aug 29, 2026)",
+        "repro": "same as above (checked Aug 29, 2026)",
+        "democracy": "same as above (checked Aug 29, 2026)"
+      },
       "sources": [
+        {
+          "label": "Ballotpedia News: three candidates running in NV-3",
+          "url": "https://news.ballotpedia.org/2026/07/23/three-candidates-are-running-in-nevadas-3rd-district-where-the-last-two-elections-were-decided-by-fewer-than-four-points/"
+        },
         {
           "label": "The Nevada Independent: 2026 general election voter guide",
           "url": "https://thenevadaindependent.com/elections/2026/general"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2NV04011",
+      "name": "Steven Alexzander Horsford",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Nevada's 4th District",
+      "background": "U.S. Representative since 2019 (with an earlier term 2013-2015), former Nevada state Senate majority leader. Won the June 9, 2026 Democratic primary.",
+      "priorities": [
+        "Healthcare as a right, not a privilege",
+        "Pathway to citizenship for undocumented immigrants",
+        "Member of the House Pro-Choice Caucus"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Sees healthcare as a right, not a privilege,' believes all Americans should have coverage like veterans and seniors receive (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Steven_Horsford"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "repro": {
+          "label": "Member of the House Pro-Choice Caucus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Steven_Horsford"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "taxes": "his no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rules; checked Wikipedia, no separate statement found (checked Aug 29, 2026)",
+        "climate": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "education": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked Wikipedia, only a gun-control section, which is off-axis per project rules (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Steven Horsford",
+          "url": "https://en.wikipedia.org/wiki/Steven_Horsford"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NV04011/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NV04111",
+      "name": "Cody K Whipple",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Hiko, NV (Lincoln County)",
+      "now": "Fourth-generation rancher",
+      "background": "Fourth-generation Nevada rancher who operates Whipple Ranch in Lincoln County's Pahranagat Valley; Virginia Tech graduate. Republican nominee for the open-leaning NV-4 race against Steven Horsford.",
+      "priorities": [
+        "Lower the cost of living",
+        "Keep rural healthcare facilities open and funded",
+        "Strengthen the border"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Prioritizes 'ensuring healthcare facilities in rural areas remain open and sufficiently funded' and 'recruiting healthcare professionals to underserved communities' (Nevada Current)",
+          "url": "https://nevadacurrent.com/2026/05/19/three-republicans-vie-for-chance-to-beat-horsford-in-cd4/"
+        },
+        "immigration": {
+          "label": "Campaign priority of 'strengthening the border' (Nevada Current)",
+          "url": "https://nevadacurrent.com/2026/05/19/three-republicans-vie-for-chance-to-beat-horsford-in-cd4/"
+        },
+        "education": {
+          "label": "Campaign priority of 'ensuring parental control in education' (Nevada Current)",
+          "url": "https://nevadacurrent.com/2026/05/19/three-republicans-vie-for-chance-to-beat-horsford-in-cd4/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Nevada Current reports 'lowering cost of living' as a stated priority with no mechanism given, and notes his 'campaign website is light on policy positions'; checked Nevada Current (checked Aug 29, 2026)",
+        "housing": "checked Nevada Current article, nothing documented (checked Aug 29, 2026)",
+        "taxes": "checked Nevada Current article, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked Nevada Current article, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked Nevada Current article, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked Nevada Current article, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked Nevada Current article, nothing documented, and the article notes Whipple's campaign did not respond to an interview request (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Nevada Current: Three Republicans vie for chance to beat Horsford",
+          "url": "https://nevadacurrent.com/2026/05/19/three-republicans-vie-for-chance-to-beat-horsford-in-cd4/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NV04111/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "nv-house-4-best",
+      "name": "Russell Best",
+      "party": "Independent American",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent American Party candidate; retired mortgage-company owner",
+      "background": "Navy veteran and retired owner/operator of an independent mortgage company in northern Nevada; Independent American Party perennial candidate who ran for NV-4 in 2024 (1.5% of the vote, per Ballotpedia) and is running again in 2026.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Ballotpedia states he did not complete the 2024 or 2026 Candidate Connection survey and no campaign site or news coverage of 2026 positions was found (checked Aug 29, 2026)",
+        "health": "same as above (checked Aug 29, 2026)",
+        "housing": "same as above (checked Aug 29, 2026)",
+        "immigration": "same as above (checked Aug 29, 2026)",
+        "taxes": "same as above (checked Aug 29, 2026)",
+        "climate": "same as above (checked Aug 29, 2026)",
+        "education": "same as above (checked Aug 29, 2026)",
+        "safety": "same as above (checked Aug 29, 2026)",
+        "repro": "same as above (checked Aug 29, 2026)",
+        "democracy": "same as above (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Russell_Best"
+        },
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "nv-house-4-johnson",
+      "name": "William Johnson",
+      "party": "No Political Party",
+      "office": "us-house",
+      "district": "4",
+      "state": "NV",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent congressional candidate",
+      "background": "Independent (no-party) candidate running in NV-4 in 2026.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Ballotpedia's profile page for this candidate was unreachable (robots.txt block) during this pass and no campaign site or news coverage was found (checked Aug 29, 2026)",
+        "health": "same as above (checked Aug 29, 2026)",
+        "housing": "same as above (checked Aug 29, 2026)",
+        "immigration": "same as above (checked Aug 29, 2026)",
+        "taxes": "same as above (checked Aug 29, 2026)",
+        "climate": "same as above (checked Aug 29, 2026)",
+        "education": "same as above (checked Aug 29, 2026)",
+        "safety": "same as above (checked Aug 29, 2026)",
+        "repro": "same as above (checked Aug 29, 2026)",
+        "democracy": "same as above (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "The Green Papers, Nevada 2026 general election",
+          "url": "https://www.thegreenpapers.com/G26/NV"
+        },
+        {
+          "label": "Politics1, Nevada 2026 candidates",
+          "url": "https://politics1.com/nv.htm"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

@@ -20,7 +20,7 @@
         "fec-H2NM01144",
         "fec-H6NM01129"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Melanie Stansbury (Democrat), Didi Okpareke (Republican). Rep. Melanie Stansbury is the incumbent. No minor party or independent candidate is listed in either full field source. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Melanie Stansbury (Democrat), Didi Okpareke (Republican). Rep. Melanie Stansbury is the incumbent. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -42,7 +42,7 @@
         "fec-H2NM02191",
         "fec-H6NM02127"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Gabe Vasquez (Democrat), Greg Cunningham (Republican). Rep. Gabe Vasquez is the incumbent. A Green Party candidate, Tom Wakely, was disqualified and is not on the ballot. No minor party or independent candidate is listed in either full field source. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Gabe Vasquez (Democrat), Greg Cunningham (Republican). Rep. Gabe Vasquez is the incumbent. A Green Party candidate, Tom Wakely, was disqualified and is not on the ballot. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -64,7 +64,7 @@
         "fec-H0NM03102",
         "fec-H6NM03083"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Teresa Leger Fernandez (Democrat), Martin Zamora (Republican). Rep. Teresa Leger Fernandez is the incumbent. No minor party or independent candidate is listed in either full field source. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Teresa Leger Fernandez (Democrat), Martin Zamora (Republican). Rep. Teresa Leger Fernandez is the incumbent. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -436,6 +436,393 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "fec-H6NM01129",
+      "name": "Ndidiamaka Okpareke",
+      "party": "Republican",
+      "district": "1",
+      "state": "NM",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Pharmacist and compounding pharmacy owner in Albuquerque",
+      "background": "Albuquerque pharmacist who founded Olive Tree Compounding Pharmacy in 2016, a Sandia High School and University of New Mexico graduate and mother of three. Won the 2026 Republican nomination to challenge Rep. Melanie Stansbury.",
+      "priorities": [
+        "Affordable, accessible healthcare",
+        "New Mexico jobs and businesses",
+        "Answering to voters, not party bosses"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "checked didiforcongress.com (healthcare and economy passages are affordability and jobs rhetoric with no scorable mechanism), Ballotpedia (no Candidate Connection survey), and news coverage of her nomination; no scorable position on any axis documented (Aug 28, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Okpareke campaign site",
+          "url": "https://didiforcongress.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NM01129/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H6NM02127",
+      "name": "Greg Cunningham",
+      "party": "Republican",
+      "district": "2",
+      "state": "NM",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Business owner, former police officer and Marine",
+      "background": "Lifelong New Mexican, Marine combat veteran, former police officer and business owner. Won the June 2026 Republican primary and faces Rep. Gabe Vasquez in the battleground 2nd District with President Trump's endorsement.",
+      "priorities": [
+        "Locking up violent criminals",
+        "Small business relief",
+        "Good-paying jobs"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "safety": {
+          "label": "Launch platform: 'common-sense conservative solutions... starting with locking up violent criminals' (NM Political Report)",
+          "url": "https://nmpoliticalreport.com/2025/10/03/greg-cunningham-enters-race-for-congress-in-cd2-covering-southern-nm-and-abqs-westside/"
+        }
+      },
+      "nullNotes": {
+        "all-others": "campaign site is biographical with no issue pages yet (checked Aug 28, 2026); NM Political Report launch coverage adds jobs and education-accountability lines too vague to score; Trump-endorsed battleground race, re-check as the campaign publishes a platform"
+      },
+      "sources": [
+        {
+          "label": "NM Political Report: Cunningham enters race",
+          "url": "https://nmpoliticalreport.com/2025/10/03/greg-cunningham-enters-race-for-congress-in-cd2-covering-southern-nm-and-abqs-westside/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NM02127/"
+        }
+      ],
+      "curatedAt": "2026-08-28"
+    },
+    {
+      "id": "fec-H6NM03083",
+      "name": "Martin R Zamora",
+      "party": "Republican",
+      "district": "3",
+      "state": "NM",
+      "office": "us-house",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "New Mexico state representative",
+      "background": "Republican state representative from Clovis running against Rep. Teresa Leger Fernandez in the 3rd District.",
+      "priorities": [
+        "Representing rural New Mexico"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "nmlegis.gov: fetched Legislator profile (SponCode=HZAMO, confirms House District 63, farmer, Ranking Member House Agriculture/Acequias/Water Resources, Member House Government Elections & Indian Affairs since 2019) and attempted Legislation_List, Members/Legislation, Members/Sponsored_Legislation and a billtrack50/legiscan cross-reference for his bill sponsorships; all returned only search-form templates, 404s, or unrelated results (JS-driven site not scrapeable via WebFetch). No individual bill text or floor vote was retrievable this pass (checked Aug 29, 2026)."
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NM03083/"
+        },
+        {
+          "label": "NM Legislature member profile: Martin R. Zamora",
+          "url": "https://www.nmlegis.gov/Members/Legislator?SponCode=HZAMO"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2NM01144",
+      "name": "Melanie Stansbury",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "NM",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (NM-01)",
+      "background": "Melanie Stansbury has represented New Mexico's 1st District (Albuquerque) since a 2021 special election; previously a water resources engineer and state legislator.",
+      "priorities": [
+        "Raise the federal minimum wage",
+        "Medicare for All",
+        "Protect abortion access"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Backs 'Raising the Federal Minimum Wage' to $15/hour so 'everyone should have the opportunity to provide for their family with a meaningful job with a living wage' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "health": {
+          "label": "'Health care is a human right': supports Medicare for All and coverage 'regardless of pre-existing conditions' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "climate": {
+          "label": "Committed to 'pass meaningful legislation to address climate change, develop more renewable energy' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "education": {
+          "label": "Will 'push for more educational opportunities for kids, increase pay for teachers, and investments in education' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "safety": {
+          "label": "On public safety: 'we must invest in our health care and behavioral health systems, and ensure that our families have access to the services they need' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "repro": {
+          "label": "'I will always make sure that women have the right to make their own reproductive health care choices and protect reproductive health care coverage' (campaign issues page)",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "immigration": {
+          "label": "Voted Nay on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Nay on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked melaniefornewmexico.com/issues, not addressed (checked Aug 29, 2026)",
+        "taxes": "voted No on H.R. 1 (roll 190, Jul 3, 2025) which alone does not establish the axis for a Democrat; no separate tax statement found on the issues page (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Melanie Stansbury campaign site",
+          "url": "https://www.melaniefornewmexico.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in New Mexico",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NM01144/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2NM02191",
+      "name": "Gabriel Vasquez",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "NM",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (NM-02)",
+      "background": "Gabe Vasquez has represented New Mexico's battleground 2nd District (southern NM and Albuquerque's west side) since 2023; previously a Las Cruces city councilor.",
+      "priorities": [
+        "Lower healthcare and prescription costs",
+        "Clean energy transition",
+        "Police reform, not defunding"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
+        "education": null,
+        "safety": 0,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs a public option, dental/vision benefits, lowering Medicare eligibility to 55, and letting 'Medicare negotiate for lower prescription drug costs' (campaign issues page)",
+          "url": "https://gabeforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Will 'encourage a transition to clean energy like wind and solar' and wants New Mexico to lead 'in new energy technologies' (campaign issues page)",
+          "url": "https://gabeforcongress.com/issues"
+        },
+        "safety": {
+          "label": "Mixed: 'Police reform, not police defunding, is the right way forward', pairing higher training/accountability standards with 'more resources to keep our families safe' (campaign issues page)",
+          "url": "https://gabeforcongress.com/issues"
+        },
+        "repro": {
+          "label": "'Gabe will oppose any attempt by Republicans in Congress to ban access to abortion, birth control, or to prevent women from having the right to choose' (campaign issues page)",
+          "url": "https://gabeforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Supports 'repealing the Trump tax cuts for the wealthiest one-percent' while 'cutting taxes on working families' (campaign issues page)",
+          "url": "https://gabeforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "Voted Nay on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Nay on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "'support policies that cut taxes on working families while lowering the cost of healthcare, childcare, and utilities' is scored under taxes/health per one-sentence-one-axis rule; no separate cost mechanism found (checked Aug 29, 2026)",
+        "housing": "checked gabeforcongress.com/issues, not addressed (checked Aug 29, 2026)",
+        "education": "checked gabeforcongress.com/issues, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Gabriel Vasquez campaign site",
+          "url": "https://gabeforcongress.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in New Mexico",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NM02191/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H0NM03102",
+      "name": "Teresa Leger Fernandez",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "NM",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (NM-03)",
+      "background": "Teresa Leger Fernandez has represented New Mexico's 3rd District (Santa Fe and northern NM) since 2021; previously a civil rights attorney.",
+      "priorities": [
+        "Affordable healthcare access",
+        "Protect land, air and water",
+        "Education opportunity"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'All Americans deserve to have access to quality, affordable health care in their communities' (campaign issues page)",
+          "url": "https://www.teresaforall.com/issues"
+        },
+        "climate": {
+          "label": "Supports 'protecting our land, air, and water for generations to come' (campaign issues page)",
+          "url": "https://www.teresaforall.com/issues"
+        },
+        "education": {
+          "label": "Aims to 'prioritize education to provide opportunity for all' (campaign issues page)",
+          "url": "https://www.teresaforall.com/issues"
+        },
+        "immigration": {
+          "label": "Voted Nay on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Nay on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked teresaforall.com/issues, not addressed (checked Aug 29, 2026)",
+        "housing": "checked teresaforall.com/issues, not addressed (checked Aug 29, 2026)",
+        "taxes": "voted No on H.R. 1 (roll 190) which alone does not establish the axis for a Democrat; no separate tax statement found (checked Aug 29, 2026)",
+        "safety": "issues page frames public safety only via gun violence, which the guide excludes from this axis (checked Aug 29, 2026)",
+        "repro": "checked teresaforall.com/issues, not addressed in fetched content (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Teresa Leger Fernandez campaign site",
+          "url": "https://www.teresaforall.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in New Mexico",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0NM03102/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

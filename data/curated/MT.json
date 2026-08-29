@@ -19,7 +19,7 @@
         "fec-H6MT01137",
         "mt-house-1-sheedy"
       ],
-      "statusNote": "General election field from Montana's June 2, 2026 primary: Aaron Flint (Republican), Sam Forstag (Democrat). Open seat: Rep. Ryan Zinke is retiring and is not on the November ballot. Also on the November ballot: Nick Sheedy (Libertarian). An independent, Kimberly Persico, appears in one source only and is not listed here. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Aaron Flint (Republican), Sam Forstag (Democrat). Open seat: Rep. Ryan Zinke is retiring and is not on the November ballot. Also on the November ballot: Nick Sheedy (Libertarian). An independent, Kimberly Persico, appears in one source only and is not listed here. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Montana 2026 general election",
@@ -43,7 +43,7 @@
         "fec-H6MT02168",
         "mt-house-2-mccracken"
       ],
-      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat) and Libertarian nominee Patrick McCracken. Rep. Troy Downing is the incumbent. Independent Michael Eisenhauer's petition was still listed as pending by the Secretary of State on Aug 24. We know who's running, positions not researched yet.",
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat) and Libertarian nominee Patrick McCracken. Rep. Troy Downing is the incumbent. Independent Michael Eisenhauer's petition was still listed as pending by the Secretary of State on Aug 24. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers, Montana 2026 general election",
@@ -235,7 +235,8 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "cost": "affordability is her headline priority ('Lower the price of a normal life') and she frames grocery and gas prices as a national-security matter, but no price-intervention versus deregulation mechanism is documented; checked campaign positions page, MTFP election guide, and Daily Montanan coverage",
-        "taxes": "only documented item is opposing 'taxing seniors out of family homes', a property-tax relief stance that does not fit the raise-versus-cut federal axis; checked campaign positions page and MTFP election guide"
+        "taxes": "only documented item is opposing 'taxing seniors out of family homes', a property-tax relief stance that does not fit the raise-versus-cut federal axis; checked campaign positions page and MTFP election guide",
+        "democracy": "searched Aug 28, 2026: Ballotpedia, MTFP and Daily Montanan race coverage (including the pressure campaign to clear the field) contain no voting-rules position of her own"
       }
     },
     {
@@ -319,7 +320,8 @@
         "cost": "laments 'soaring costs of housing, healthcare, and child care' and calls tariffs 'taxes that are crushing our ag producers' (Daily Montanan launch story), but no intervene-versus-deregulate mechanism beyond housing; checked campaign platform, MTFP questionnaire, KTVH, NBC Montana, and Bozeman Chronicle coverage",
         "taxes": "only a debt concern ('The national debt continues to skyrocket') and a 'Fiscal Responsibility' platform heading with no published detail; no position on tax rates found across platform, MTFP questionnaire, and launch coverage",
         "education": "cites public education as a priority (KTVH) and platform lists an education pillar, but no funding-versus-choice policy is published; UM presidency record is administrative rather than K-12 policy",
-        "safety": "platform pledges to 'support our law enforcement officers' as a values line with no policy mechanism, below the scoring bar; checked platform, MTFP questionnaire, Glendive stop coverage, and NPR profile"
+        "safety": "platform pledges to 'support our law enforcement officers' as a values line with no policy mechanism, below the scoring bar; checked platform, MTFP questionnaire, Glendive stop coverage, and NPR profile",
+        "democracy": "searched Aug 28, 2026: launch announcements and race coverage contain no voting-rules or election-law position"
       }
     },
     {
@@ -413,7 +415,7 @@
       "office": "us-house",
       "district": "1",
       "state": "MT",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -429,7 +431,24 @@
           "label": "270toWin, 2026 Montana U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/montana"
         }
-      ]
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "hunted politics1.com/mt.htm (Facebook page only, no campaign website); Ballotpedia not separately checked given no site to cross-reference; no statements found for Libertarian Nick Sheedy (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "mt-house-2-mccracken",
@@ -438,7 +457,7 @@
       "office": "us-house",
       "district": "2",
       "state": "MT",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -450,7 +469,353 @@
           "label": "Montana SOS: candidate filing list",
           "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002928"
         }
-      ]
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "checked mccrackenformontana.com homepage (topic menu only: Housing Inflation, Healthcare costs, Fertilizer, Glyphosate, Mental Health, no fetched policy text) and /housing-inflation (404); no scorable statements captured for Libertarian Patrick McCracken (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MT01152",
+      "name": "Aaron Flint",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "MT",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Republican nominee, MT-1",
+      "background": "Aaron Flint, a radio host, won the June 2, 2026 Republican primary for Montana's open 1st District seat (Rep. Ryan Zinke is retiring); endorsed by President Trump.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "climate": {
+          "label": "Endorsement material on his site touts 'Unleash American Energy DOMINANCE' (campaign site)",
+          "url": "https://flintformontana.com"
+        },
+        "safety": {
+          "label": "Pledges to 'Keep our Border SECURE, Stop Migrant Crime' and support 'border security policies that keep criminals and drugs out' (campaign site)",
+          "url": "https://flintformontana.com"
+        },
+        "taxes": {
+          "label": "Endorsement material touts 'Cut Taxes and Regulations' (campaign site)",
+          "url": "https://flintformontana.com"
+        }
+      },
+      "nullNotes": {
+        "cost": "'make the Montana Dream affordable again' is a slogan with no cap-versus-deregulate mechanism (checked Aug 29, 2026)",
+        "health": "checked flintformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "housing": "checked flintformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "immigration": "border-security language scored under safety per one-sentence-one-axis rule; separate legal-immigration mechanism not found (checked Aug 29, 2026)",
+        "education": "'make a high school degree worth something again' and promoting trades does not map clearly to public-versus-choice (checked Aug 29, 2026)",
+        "repro": "checked flintformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked flintformontana.com homepage, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Aaron Flint campaign site",
+          "url": "https://flintformontana.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MT01152/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MT01137",
+      "name": "Samuel Kelley Forstag",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "MT",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee, MT-1",
+      "background": "Sam Forstag is the Democratic nominee for Montana's open 1st District, winning the June 2, 2026 primary.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Prioritizes 'investing in affordable housing' to address Montana's housing crisis (campaign site)",
+          "url": "https://samformontana.com/"
+        },
+        "education": {
+          "label": "Has 'fought for public education, libraries' and backs making 'Childcare and Education Work for Working People' (campaign site)",
+          "url": "https://samformontana.com/"
+        },
+        "taxes": {
+          "label": "Wants to make 'Taxes Work for Working People' so that 'corporations and the ultra-rich carry their own weight' (campaign site)",
+          "url": "https://samformontana.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "names rising grocery, housing, healthcare and childcare costs as a problem with no distinct cap-versus-deregulate mechanism beyond housing/taxes (checked Aug 29, 2026)",
+        "health": "'reforming our broken healthcare system' has no clear public-versus-private mechanism in fetched content (checked Aug 29, 2026)",
+        "immigration": "checked samformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "climate": "public-lands and Forest Service defense does not state a clean-energy-versus-fossil-fuel position (checked Aug 29, 2026)",
+        "safety": "checked samformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "repro": "checked samformontana.com homepage, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked samformontana.com homepage, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Samuel Kelley Forstag campaign site",
+          "url": "https://samformontana.com/"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MT01137/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4MT02098",
+      "name": "Troy Downing",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "MT",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. House of Representatives (MT-02)",
+      "background": "Troy Downing has represented Montana's 2nd District since 2025; previously Montana State Auditor. Renominated in the June 2, 2026 Republican primary.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Campaign site advocates 'lower taxes' and 'reducing government regulation' (campaign site)",
+          "url": "https://troydowning.com"
+        },
+        "immigration": {
+          "label": "Voted Yea on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "democracy": {
+          "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "As a House Financial Services Committee member has previously 'voted to increase access to public lands' and approve resource-development projects; campaign site backs 'energy independence' (campaign site)",
+          "url": "https://troydowning.com"
+        }
+      },
+      "nullNotes": {
+        "cost": "'lower taxes and reducing government regulation' scored under taxes per one-sentence-one-axis rule; no separate cost-of-living mechanism found (checked Aug 29, 2026)",
+        "health": "checked troydowning.com homepage and /issues (404), not addressed (checked Aug 29, 2026)",
+        "housing": "checked troydowning.com homepage, not addressed (checked Aug 29, 2026)",
+        "education": "checked troydowning.com homepage, not addressed (checked Aug 29, 2026)",
+        "safety": "checked troydowning.com homepage, not addressed (checked Aug 29, 2026)",
+        "repro": "checked troydowning.com homepage, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Troy Downing campaign site",
+          "url": "https://troydowning.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MT02098/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MT02150",
+      "name": "Brian James Miller",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "MT",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee, MT-2",
+      "background": "Brian Miller is the Democratic nominee against Rep. Troy Downing in Montana's 2nd District, winning the June 2, 2026 primary.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "all": "checked miller4congress.com homepage (navigation only) and /issues (404); no scorable statements captured for Brian Miller (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Brian James Miller campaign site",
+          "url": "https://miller4congress.com"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MT02150/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MT02168",
+      "name": "Michael D. Eisenhauer",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "MT",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent candidate, MT-2",
+      "background": "Michael D. Eisenhauer, a cardiologist, is an independent candidate against Rep. Troy Downing in Montana's 2nd District; his ballot petition was still listed as pending by the Secretary of State as of Aug 24, 2026.",
+      "priorities": [],
+      "positions": {
+        "cost": 1,
+        "health": 0,
+        "housing": 0,
+        "immigration": null,
+        "taxes": -1,
+        "climate": 1,
+        "education": -1,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Opposes excessive tariffs as 'an indirect tax on Americans' that increases consumer prices (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "health": {
+          "label": "Mixed: opposes single-payer systems yet vows to 'fight hard to defend and protect rural healthcare in Montana' and protect preexisting-condition coverage (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "housing": {
+          "label": "Mixed 'all of the above' plan: down-payment assistance and antitrust action against 'price-fixing' landlords alongside zoning reform for multi-family housing and tariff cuts on building materials (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "climate": {
+          "label": "Backs an '\"all of the above\" energy policy' spanning oil, gas, coal, renewables and nuclear, including small modular reactors (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "education": {
+          "label": "Opposes 'abolishing the Department of Education entirely' and supports fully funding special education to the 40% federal threshold (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "safety": {
+          "label": "Pledges to 'protect and increase federal funding' for police and fire/emergency services (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "repro": {
+          "label": "'I am, and will remain firmly Pro-Choice', supporting Montana's constitutional abortion-rights amendment (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        },
+        "taxes": {
+          "label": "Opposes cutting taxes on 'multi-millionaires, billionaires and large multi-national corporations, while the middle-class and small businesses continue to shoulder our tax burden' and backs 'targeted tax relief for the middle- and lower-classes' (campaign site)",
+          "url": "https://eisenhauerforcongress.com/issues/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "checked eisenhauerforcongress.com/issues/, not addressed (checked Aug 29, 2026)",
+        "democracy": "checked eisenhauerforcongress.com/issues/, not addressed (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Michael D. Eisenhauer campaign site",
+          "url": "https://eisenhauerforcongress.com/"
+        },
+        {
+          "label": "Wikipedia, 2026 United States House of Representatives elections in Montana",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MT02168/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

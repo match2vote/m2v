@@ -64,7 +64,7 @@
         "education": 2,
         "safety": null,
         "repro": 2,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "health": {
@@ -90,6 +90,10 @@
         "repro": {
           "label": "Pro-life; as governor signed a 2006 bill banning most abortions (Ballotpedia)",
           "url": "https://ballotpedia.org/Mike_Rounds"
+        },
+        "democracy": {
+          "label": "Cosponsored the Senate SAVE Act requiring proof of citizenship to register: 'making sure only United States citizens are voting... this rule has been loosely enforced in blue states for far too long' (rounds.senate.gov, Jan 16, 2026)",
+          "url": "https://www.rounds.senate.gov/newsroom/press-releases/rounds-joins-lee-and-roy-on-save-act-to-secure-federal-elections"
         }
       },
       "sources": [
@@ -132,7 +136,7 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": -1,
         "taxes": -2,
@@ -169,6 +173,10 @@
         },
         "democracy": {
           "label": "Backs protecting Native American voting rights and access to the ballot (campaign policy positions)",
+          "url": "https://bengsforsouthdakota.com/policy-positions/"
+        },
+        "health": {
+          "label": "Defends Medicare against privatization ('so Big Money can further profit off the backs of senior citizens') and wants a full affordability overhaul of the system (Bengs campaign)",
           "url": "https://bengsforsouthdakota.com/policy-positions/"
         }
       },
@@ -357,7 +365,7 @@
       "district": "at-large",
       "state": "SD",
       "incumbent": false,
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": 55,
       "home": "Pierre, SD",
@@ -407,10 +415,10 @@
         }
       },
       "nullNotes": {
-        "health": "his documented health record is drug supply chain regulation, not the public versus private coverage question: he asked Congress to bar pharmacy benefit managers from owning pharmacies, 'These managers are controlling prices that harm independent pharmacies and the public', argued via the AG coalition that this 'would foster competition', and defended South Dakota's 340B discount law; he is also barred by statute from taking a position on the Medicaid ballot amendment he writes explanations for. Checked his campaign issues page which has five headings and no health heading, his AG press release index for Feb through Aug 2026, Ballotpedia where he has completed no 2026 Candidate Connection survey, South Dakota News Watch's voter guide which carries no questionnaire answers from him, and KOTA and Daily Signal interviews. Flagged in the progress file as the borderline call that keeps this race under the overlap floor.",
+        "health": "his documented health record is drug supply chain regulation, not the public versus private coverage question: he asked Congress to bar pharmacy benefit managers from owning pharmacies, 'These managers are controlling prices that harm independent pharmacies and the public', argued via the AG coalition that this 'would foster competition', and defended South Dakota's 340B discount law; he is also barred by statute from taking a position on the Medicaid ballot amendment he writes explanations for. Checked his campaign issues page which has five headings and no health heading, his AG press release index for Feb through Aug 2026, Ballotpedia where he has completed no 2026 Candidate Connection survey, South Dakota News Watch's voter guide which carries no questionnaire answers from him, and KOTA and Daily Signal interviews. Flagged in the progress file as the borderline call that keeps this race under the overlap floor. (closer round, Aug 29, 2026: tried justfacts.votesmart.org, 403 blocked; tried votesmart.org candidate page, loaded but no biography/issue content rendered; tried ivoterguide.com, 404; web.archive.org unreachable via proxy for this session; politics1.com/sd.htm lists no additional URLs beyond his known campaign site)",
         "housing": "the only adjacent material is private property rights in the carbon pipeline eminent domain fight, 'As a proud owner of a family farm West River and ranch near Pierre, I understand the importance of private property owner rights', which concerns agricultural land taken for a private pipeline, not housing supply, zoning, permitting, renters, or homelessness. Checked his campaign issues, about and news pages, Ballotpedia, the South Dakota News Watch voter guide, his AG press release index, and KOTA, Dakota News Now and South Dakota Searchlight coverage.",
         "climate": "his only energy record is enforcing the Renewable Fuel Standard against refinery hardship exemptions, 'The federal government needs to ensure that the RFS' integrity is maintained', framed as protecting South Dakota farmers and as refiners thwarting 'the President's national energy policy', plus a bipartisan AG letter seeking year round E15. That is biofuel market integrity and does not document a position on how fast to move off fossil fuels or on expanding oil, gas and coal, and nothing was found on those. His campaign issues page has no energy heading. Checked his campaign site, AG press release index Feb through Aug 2026, Ballotpedia, and Dakota News Now, Tri State Livestock News and South Dakota Searchlight coverage.",
-        "education": "genuinely empty on axis. The only school related items are an AG opinion requiring school districts to follow competitive bidding above $100,000 and paraphrased, unquoted opposition to proposed Title IX changes. Checked his campaign issues page which has no education heading, his about and news pages, three AG press index passes, Ballotpedia where he completed no Candidate Connection survey, the South Dakota News Watch voter guide re-checked specifically for a questionnaire, and KOTA, KELOLAND, Hub City Radio and Daily Signal coverage."
+        "education": "genuinely empty on axis. The only school related items are an AG opinion requiring school districts to follow competitive bidding above $100,000 and paraphrased, unquoted opposition to proposed Title IX changes. Checked his campaign issues page which has no education heading, his about and news pages, three AG press index passes, Ballotpedia where he completed no Candidate Connection survey, the South Dakota News Watch voter guide re-checked specifically for a questionnaire, and KOTA, KELOLAND, Hub City Radio and Daily Signal coverage. (closer round, Aug 29, 2026: tried justfacts.votesmart.org, 403 blocked; tried votesmart.org candidate page, loaded but no biography/issue content rendered; tried ivoterguide.com, 404; web.archive.org unreachable via proxy for this session; politics1.com/sd.htm lists no additional URLs beyond his known campaign site)"
       },
       "sources": [
         {
@@ -440,7 +448,7 @@
       "district": "at-large",
       "state": "SD",
       "incumbent": false,
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": 53,
       "home": "Dell Rapids, SD",

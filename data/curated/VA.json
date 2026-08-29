@@ -1,502 +1,2272 @@
 {
-  "state": "VA",
-  "note": "Hand-curated, sourced entries. Warner's primary was canceled (unopposed); GOP primary held Aug 4.",
-  "races": {
-    "VA-senate": {
-      "status": "general",
-      "advancing": [
-        "fec-S6VA00093",
-        "fec-S8VA00321"
-      ],
-      "statusNote": "Sen. Mark Warner (D), seeking a fourth term, faces retired Army Maj. Gen. Bert Mizusawa (R), who won the Aug 4 primary with about 51%."
+    "state": "VA",
+    "note": "Hand-curated, sourced entries. Warner's primary was canceled (unopposed); GOP primary held Aug 4.",
+    "races": {
+        "VA-senate": {
+            "status": "general",
+            "advancing": [
+                "fec-S6VA00093",
+                "fec-S8VA00321"
+            ],
+            "statusNote": "Sen. Mark Warner (D), seeking a fourth term, faces retired Army Maj. Gen. Bert Mizusawa (R), who won the Aug 4 primary with about 51%."
+        },
+        "VA-house-1": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H8VA01147",
+                "fec-H6VA01299"
+            ],
+            "statusNote": "Rep. Rob Wittman (R) seeks re-election against Shannon Taylor (D) after the August 4, 2026 primary. Positions researched and stored, race not scored, overlap 4 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia 2026 candidates by district (Election2026)",
+                    "url": "https://election2026.net/virginia-2026/"
+                },
+                {
+                    "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
+                    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
+                }
+            ]
+        },
+        "VA-house-2": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H2VA02064",
+                "fec-H6VA02198"
+            ],
+            "statusNote": "Rep. Jen Kiggans (R) seeks a third term against former Rep. Elaine Luria (D), who won a four-way Democratic primary on Aug 4, 2026 with 80%. Kiggans beat Luria in 2022, making this a rematch, and it is one of Virginia's few competitive seats. Positions researched and stored, race not scored, overlap 4 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "VPAP: US Representative District 2, Nov 2026 general election candidates",
+                    "url": "https://www.vpap.org/offices/us-representative-2/elections/"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        },
+        "VA-house-3": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H6VA01117",
+                "fec-H6VA03121",
+                "fec-H6VA03139"
+            ],
+            "statusNote": "Rep. Bobby Scott (D), the dean of Virginia's delegation, seeks re-election against Edwin Rivera Jr. (R), with independent Stephen C. Woll also on the ballot, after the Aug 4, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "The Green Papers: Virginia 2026 general election candidates",
+                    "url": "https://www.thegreenpapers.com/G26/VA"
+                },
+                {
+                    "label": "Politics1: Virginia 2026 candidates",
+                    "url": "https://politics1.com/va.htm"
+                }
+            ]
+        },
+        "VA-house-4": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H4VA04066",
+                "va-house-4-murray"
+            ],
+            "statusNote": "Rep. Jennifer McClellan (D) was unopposed in the Aug 4, 2026 Democratic primary and faces Robert Murray, whom Republicans nominated by caucus rather than by primary. Murray has no FEC filing, so he is recorded here as a hand-created entry. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "VPM News: who is on the ballot for Central Virginia's congressional seats",
+                    "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
+                },
+                {
+                    "label": "Politics1: Virginia 2026 candidates",
+                    "url": "https://politics1.com/va.htm"
+                },
+                {
+                    "label": "The Green Papers: Virginia 2026 general election candidates",
+                    "url": "https://www.thegreenpapers.com/G26/VA"
+                }
+            ]
+        },
+        "VA-house-5": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H0VA07133",
+                "fec-H6VA05217"
+            ],
+            "statusNote": "Rep. John McGuire (R) won the Aug 4, 2026 Republican primary with about 84% over Melanie Lucero and faces former Rep. Tom Perriello (D), who took about 80% of a three-way Democratic primary. Former Rep. Bob Good filed with the FEC but did not make the primary ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "VPAP: US Representative District 5, Nov 2026 general election candidates",
+                    "url": "https://www.vpap.org/offices/us-representative-5/elections/"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        },
+        "VA-house-6": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H8VA06104",
+                "fec-H6VA06173"
+            ],
+            "statusNote": "Rep. Ben Cline (R) seeks re-election against Beth Macy (D). Neither party held a primary in this district in 2026. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia 2026 candidates by district (Election2026)",
+                    "url": "https://election2026.net/virginia-2026/"
+                },
+                {
+                    "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
+                    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
+                }
+            ]
+        },
+        "VA-house-7": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H4VA07234",
+                "fec-H6VA07205",
+                "va-house-7-ahrar"
+            ],
+            "statusNote": "Rep. Eugene Vindman (D) had no Democratic primary opponent and faces Douglas Ollivant (R), who won a three-way Republican primary with 56.6% on Aug 4, 2026, and independent Alaha Ahrar. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "VPM News: who is on the ballot for Central Virginia's congressional seats",
+                    "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        },
+        "VA-house-8": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H4VA08224",
+                "fec-H6VA08252",
+                "fec-H6VA08336",
+                "va-house-8-arnoldi"
+            ],
+            "statusNote": "Rep. Don Beyer (D) won the Aug 4, 2026 Democratic primary with 67% over four challengers and faces Tony Sabio (R) and independents Tim Sharman and Shelly Arnoldi. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia 2026 candidates by district (Election2026)",
+                    "url": "https://election2026.net/virginia-2026/"
+                },
+                {
+                    "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
+                    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
+                }
+            ]
+        },
+        "VA-house-9": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H0VA09055",
+                "fec-H6VA09136"
+            ],
+            "statusNote": "Rep. Morgan Griffith (R) was unopposed in his primary and faces Joy Powers (D), who won a three-way Democratic primary with about 52% on Aug 4, 2026. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "VPAP: US Representative District 9, Nov 2026 general election candidates",
+                    "url": "https://www.vpap.org/offices/us-representative-9/elections/"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        },
+        "VA-house-10": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H4VA10279",
+                "fec-H2VA10273"
+            ],
+            "statusNote": "Rep. Suhas Subramanyam (D) seeks a second term against Dave Beckwith (R), who emerged from a four-way Republican primary on Aug 4, 2026. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "The Green Papers: Virginia 2026 general election candidates",
+                    "url": "https://www.thegreenpapers.com/G26/VA"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        },
+        "VA-house-11": {
+            "status": "names-only",
+            "advancing": [
+                "fec-H6VA11066",
+                "fec-H6VA11249"
+            ],
+            "statusNote": "Rep. James Walkinshaw (D), who won the September 2025 special election for the seat left vacant by the death of Rep. Gerry Connolly, was unopposed for the Democratic nomination and faces Arthur Purves (R). Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 29, 2026.",
+            "sources": [
+                {
+                    "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
+                    "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
+                },
+                {
+                    "label": "The Green Papers: Virginia 2026 general election candidates",
+                    "url": "https://www.thegreenpapers.com/G26/VA"
+                },
+                {
+                    "label": "Virginia 2026 House races by district (270toWin)",
+                    "url": "https://www.270towin.com/2026-house-election/states/virginia"
+                }
+            ]
+        }
     },
-    "VA-house-1": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H8VA01147",
-        "fec-H6VA01299"
-      ],
-      "statusNote": "Rep. Rob Wittman (R) seeks re-election against Shannon Taylor (D) after the August 4, 2026 primary. Positions are not researched yet.",
-      "sources": [
+    "candidates": [
         {
-          "label": "Virginia 2026 candidates by district (Election2026)",
-          "url": "https://election2026.net/virginia-2026/"
+            "id": "fec-S6VA00093",
+            "name": "Mark Warner",
+            "party": "Democrat",
+            "office": "us-senate",
+            "state": "VA",
+            "tier": "curated",
+            "ballotStatus": "nominee",
+            "incumbent": true,
+            "age": 71,
+            "home": "Alexandria, VA",
+            "now": "U.S. Senator; Vice Chair, Senate Intelligence Committee",
+            "background": "Virginia's senior senator since 2009 and former governor (2002-2006), who left office with 71% approval. Made a telecom venture-capital fortune before politics. Seeking a fourth term.",
+            "priorities": [
+                "Lower household costs",
+                "Health care access",
+                "National security and intelligence oversight"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -2,
+                "housing": -1,
+                "immigration": -1,
+                "taxes": -1,
+                "climate": 0,
+                "education": null,
+                "safety": 0,
+                "repro": -2,
+                "democracy": -2
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Focused on 'lowering costs for families, growing wages'; cites $2,900 or more in added family costs under President Trump (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/economy/"
+                },
+                "health": {
+                    "label": "Early ACA champion who wants to move 'towards a universal coverage model'; defend Medicaid, protect rural hospitals (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/health-care/"
+                },
+                "housing": {
+                    "label": "Backs bipartisan bills for new construction and first-time-buyer down-payment help; ROAD to Housing Act (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/housing/"
+                },
+                "immigration": {
+                    "label": "'A meaningful pathway to citizenship with secure borders'; DREAM Act; opposes 'inhumane mass round-ups' (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/immigration/"
+                },
+                "taxes": {
+                    "label": "Wants the wealthiest and corporations 'paying their fair share'; close 'unfair tax loopholes' (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/taxes/"
+                },
+                "climate": {
+                    "label": "Mixed: backs an 'all-of-the-above energy strategy' with domestic production, while defending offshore wind and nuclear and 'practical, science-based' emissions reduction (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/energy-environment/"
+                },
+                "safety": {
+                    "label": "Mixed: prevention plus accountability; body cameras, modern forensics, bipartisan anti-fentanyl work (Senate priorities)",
+                    "url": "https://www.warner.senate.gov/about/priorities/crime-and-public-safety/"
+                },
+                "repro": {
+                    "label": "Co-introduced the Women's Health Protection Act: decisions 'between a woman and her doctor, not politicians' (Senate release)",
+                    "url": "https://www.warner.senate.gov/newsroom/press-releases/sens-warner-kaine-introduce-bill-to-protect-access-to-reproductive-health-care/"
+                },
+                "democracy": {
+                    "label": "Co-sponsored the Freedom to Vote Act: automatic voter registration, at least two weeks of early voting, vote by mail for all (Senate release)",
+                    "url": "https://www.warner.senate.gov/public/index.cfm/2023/7/warner-kaine-colleagues-introduce-legislation-to-protect-the-freedom-to-vote-and-strengthen-american-democracy"
+                }
+            },
+            "nullNotes": {
+                "education": "removed in QA: cited Senate priorities page covers college affordability, student debt, and workforce certifications only; nothing that fits the K-12 public-schools-vs-choice axis"
+            },
+            "sources": [
+                {
+                    "label": "Senate priorities",
+                    "url": "https://www.warner.senate.gov/public/index.cfm/issues"
+                },
+                {
+                    "label": "Wikipedia: Mark Warner",
+                    "url": "https://en.wikipedia.org/wiki/Mark_Warner"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/S6VA00093/"
+                }
+            ],
+            "curatedAt": "2026-08-13"
         },
         {
-          "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
+            "id": "fec-S8VA00321",
+            "name": "Bert Mizusawa",
+            "party": "Republican",
+            "office": "us-senate",
+            "state": "VA",
+            "tier": "curated",
+            "ballotStatus": "nominee",
+            "incumbent": false,
+            "age": 69,
+            "home": "McLean, VA",
+            "now": "Retired Army Major General; consulting-firm CEO",
+            "background": "Retired two-star Army general, first in his 1979 West Point class, awarded the Silver Star for a 1984 action at the Korean DMZ. Harvard-trained attorney and former deputy undersecretary of the Army; foreign policy adviser to the 2016 Trump campaign. Won the Aug 4 Republican primary with about 51%.",
+            "priorities": [
+                "National security and military readiness",
+                "Simplify the tax code; attack fraudulent spending",
+                "American energy production"
+            ],
+            "positions": {
+                "cost": 1,
+                "health": null,
+                "housing": null,
+                "immigration": 1,
+                "taxes": 1,
+                "climate": 1,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Reduce costs for 'farmers, small businesses and working families' through deregulation and American energy (Charlottesville Tomorrow)",
+                    "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+                },
+                "immigration": {
+                    "label": "Border security plus legal immigration; those 'who broke the law and came here illegally should not be given a free path to citizenship' (Charlottesville Tomorrow)",
+                    "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+                },
+                "taxes": {
+                    "label": "Simplify tax filing; balance the budget primarily by attacking fraudulent federal spending (Cardinal News)",
+                    "url": "https://cardinalnews.org/2026/06/19/three-republicans-seek-u-s-senate-nomination-to-face-warner-all-cite-ties-to-trump/"
+                },
+                "climate": {
+                    "label": "Criticizes energy-production restrictions; supports American energy production; localities should decide on data centers (Charlottesville Tomorrow)",
+                    "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+                }
+            },
+            "nullNotes": {
+                "health": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
+                "housing": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
+                "education": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
+                "safety": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
+                "repro": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
+                "democracy": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented"
+            },
+            "sources": [
+                {
+                    "label": "Charlottesville Tomorrow Q&A",
+                    "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+                },
+                {
+                    "label": "Cardinal News: primary result",
+                    "url": "https://cardinalnews.org/2026/08/04/mizusawa-wins-republican-u-s-senate-primary-mcguire-beats-primary-challenger/"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/S8VA00321/"
+                }
+            ],
+            "curatedAt": "2026-08-13"
+        },
+        {
+            "id": "va-house-4-murray",
+            "name": "Robert Murray",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "4",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "incumbent": false,
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.murrayforcongress.com/"
+                },
+                {
+                    "label": "VPM News: Central Virginia congressional candidates",
+                    "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
+                }
+            ],
+            "age": null,
+            "home": null,
+            "background": "Republican nominee, chosen by party convention rather than primary, challenging Rep. Jennifer McClellan in Virginia's 4th District. Has no FEC candidate filing.",
+            "priorities": [
+                "0% federal income tax by 2032",
+                "Bring troops home",
+                "Government transparency"
+            ],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": 2,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "taxes": {
+                    "label": "Proposes a '0% Federal individual income tax rate by 2032, no filing either' (campaign site)",
+                    "url": "https://www.murrayforcongress.com/"
+                }
+            },
+            "nullNotes": {
+                "cost": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "health": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "housing": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "immigration": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "climate": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "education": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "safety": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "repro": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)",
+                "democracy": "campaign site (murrayforcongress.com) has no dedicated issues page; the only other stated themes (military drawdown, tech privacy, civil rights) do not map to this axis (checked Aug 29, 2026)"
+            },
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "va-house-7-ahrar",
+            "name": "Alaha Ahrar",
+            "party": "Independent",
+            "office": "us-house",
+            "district": "7",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "incumbent": false,
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.alahaahrarforcongress.com"
+                },
+                {
+                    "label": "Ballotpedia profile",
+                    "url": "https://ballotpedia.org/Alaha_Ahrar"
+                }
+            ],
+            "age": null,
+            "home": null,
+            "background": "Independent candidate in Virginia's 7th District; economist and human-rights advocate.",
+            "priorities": [],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {},
+            "nullNotes": {
+                "cost": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "health": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "housing": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "immigration": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "taxes": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "climate": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "education": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "safety": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "repro": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "democracy": "campaign site (alahaahrarforcongress.com) returned only page metadata with no issues content on two attempts, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)"
+            },
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "va-house-8-arnoldi",
+            "name": "Shelly M. Arnoldi",
+            "party": "Independent",
+            "office": "us-house",
+            "district": "8",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "incumbent": false,
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.shellyarnoldi.com"
+                }
+            ],
+            "age": null,
+            "home": null,
+            "background": "Independent (Libertarian-aligned) candidate in Virginia's 8th District; parental-rights activist.",
+            "priorities": [],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {},
+            "nullNotes": {
+                "cost": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "health": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "housing": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "immigration": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "taxes": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "climate": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "education": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "safety": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "repro": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)",
+                "democracy": "campaign site (shellyarnoldi.com) lists only general organizational principles ('Individual Freedom,' 'Limited Government,' 'Free Markets') with no elaborated position on this axis, checked on two attempts (checked Aug 29, 2026)"
+            },
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H0VA07133",
+            "name": "John J. Mr. III McGuire",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "5",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "incumbent": false,
+            "sources": [
+                {
+                    "label": "House roll calls 23, 102, 190",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H0VA07133/"
+                }
+            ],
+            "age": null,
+            "home": null,
+            "background": "Representative for Virginia's 5th District since 2025; former Navy SEAL and state senator. Note: the FEC master file (data/fec/VA.json) lists him with district '5' and incumbent=false, even though he is in fact the sitting VA-05 representative and the pre-existing curated placeholder had incumbent=true; the FEC file is used verbatim per the sourcing rules and the discrepancy is logged in the ledger.",
+            "priorities": [
+                "Border security",
+                "Cut federal spending",
+                "Proof-of-citizenship voting"
+            ],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": 2,
+                "taxes": 2,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": 2
+            },
+            "positionSources": {
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "taxes": {
+                    "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House roll call 190)",
+                    "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+                },
+                "democracy": {
+                    "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "cost": "no cost-of-living statement found; campaign site (mcguireforvirginia.com) and house.gov issues page returned no readable position text (checked Aug 29, 2026)",
+                "health": "no healthcare statement found (checked Aug 29, 2026)",
+                "housing": "no housing statement found (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found (checked Aug 29, 2026)",
+                "education": "no education statement found (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found (checked Aug 29, 2026)"
+            },
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H8VA11062",
+            "name": "Gerald Edward Connolly",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "11",
+            "state": "VA",
+            "tier": "fec",
+            "ballotStatus": "withdrawn",
+            "incumbent": false,
+            "sources": [
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H8VA11062/"
+                }
+            ]
+        },
+        {
+            "id": "fec-H8VA01147",
+            "name": "Robert J. Wittman",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "1",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Republican representative for Virginia's 1st District since 2007; dean of the state's House delegation.",
+            "priorities": [
+                "Patient-centered healthcare reform",
+                "Border security",
+                "All-of-the-above energy"
+            ],
+            "positions": {
+                "cost": null,
+                "health": 1,
+                "housing": null,
+                "immigration": 2,
+                "taxes": 2,
+                "climate": 1,
+                "education": 1,
+                "safety": 1,
+                "repro": null,
+                "democracy": 2
+            },
+            "positionSources": {
+                "health": {
+                    "label": "Wants to 'expand choices for consumers, increase access to care, reduce health care costs' via HSAs, telemedicine, and ending surprise billing (campaign issues page)",
+                    "url": "https://robwittman.com/issues/"
+                },
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23); backs a border wall, mandatory E-Verify, and a merit-based visa system (roll call plus campaign issues page)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "taxes": {
+                    "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House roll call 190)",
+                    "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+                },
+                "climate": {
+                    "label": "Favors an 'all-of-the-above approach' including nuclear, hydropower, natural gas, wind and solar, emphasizing 'energy independence' (campaign issues page)",
+                    "url": "https://robwittman.com/issues/"
+                },
+                "education": {
+                    "label": "'Parents should be empowered' in education and 'we should be teaching our students how to think, not what to think' (campaign issues page)",
+                    "url": "https://robwittman.com/issues/"
+                },
+                "safety": {
+                    "label": "Pledges to equip law enforcement officers and first responders with needed resources (campaign issues page)",
+                    "url": "https://robwittman.com/issues/"
+                },
+                "democracy": {
+                    "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "cost": "no cost-of-living statement found on campaign issues page (checked Aug 29, 2026)",
+                "housing": "no housing statement found on campaign issues page (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign issues page (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign issues page",
+                    "url": "https://robwittman.com/issues/"
+                },
+                {
+                    "label": "House roll calls 23, 102, 190",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H8VA01147/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA01299",
+            "name": "Shannon Leigh Taylor",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "1",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Henrico County Commonwealth's Attorney and Democratic nominee challenging Rep. Rob Wittman in Virginia's 1st District.",
+            "priorities": [
+                "Lower healthcare and drug costs",
+                "Cut taxes for working families, not billionaires",
+                "Defend abortion access"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -1,
+                "housing": null,
+                "immigration": null,
+                "taxes": -1,
+                "climate": -1,
+                "education": null,
+                "safety": 1,
+                "repro": -2,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Pledges to 'stand up to big corporations and special interests who try to profit by increasing costs' (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                },
+                "health": {
+                    "label": "Would 'restore the Affordable Care Act tax credits that Congressman Wittman allowed to expire' and 'expand Medicare's ability to negotiate drug prices' (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                },
+                "taxes": {
+                    "label": "Will 'fight to cut taxes for working families and small businesses, not for billionaires and corporate special interests' (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                },
+                "climate": {
+                    "label": "Called for legislation to stop new data centers from raising energy costs and opposes utility price hikes (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                },
+                "safety": {
+                    "label": "As prosecutor achieved a '90% homicide conviction rate' and pledges to 'pass legislation that takes drugs like fentanyl off our streets' (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                },
+                "repro": {
+                    "label": "Was 'one of the first prosecutors in the country to defend the right for Virginia women to have the freedom to access abortion care' after Dobbs (campaign site)",
+                    "url": "https://shannontaylorva.com/"
+                }
+            },
+            "nullNotes": {
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
+                "education": "no education statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://shannontaylorva.com/"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA01299/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H2VA02064",
+            "name": "Jennifer Kiggans",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "2",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Republican representative for Virginia's 2nd District since 2023; nurse practitioner and former state senator.",
+            "priorities": [
+                "Cut inflation and taxes",
+                "Border security",
+                "Support law enforcement"
+            ],
+            "positions": {
+                "cost": 2,
+                "health": 1,
+                "housing": null,
+                "immigration": 2,
+                "taxes": 2,
+                "climate": null,
+                "education": 1,
+                "safety": 2,
+                "repro": 1,
+                "democracy": 2
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Prioritizes 'cutting inflation and lowering the cost of living' and backed the Working Families Tax Cuts including 'eliminating most taxes on tips and overtime' (campaign issues page)",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                "health": {
+                    "label": "Opposes 'Medicare for All, which would ruin seniors' healthcare' while backing ACA tax-credit reform and lower prescription costs (campaign issues page)",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23); supported '$47 billion to finish the wall' (roll call plus campaign issues page)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "taxes": {
+                    "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House roll call 190); fought to expand the Child Tax Credit and keep 'taxes low for working families' (roll call plus campaign issues page)",
+                    "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+                },
+                "education": {
+                    "label": "Opposes 'Critical Race Theory' and backs school choice, wanting students taught 'how to think' not 'what to think' (campaign issues page)",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                "safety": {
+                    "label": "Opposes defunding police and 'will never support legislation that weakens law enforcement in Virginia' (campaign issues page)",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                "repro": {
+                    "label": "Believes 'abortion laws should be determined at the state level' and opposes 'abortions up to the moment of birth,' while backing contraception and IVF access (campaign issues page)",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                "democracy": {
+                    "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102); supports the Save America Act's photo-ID requirement and opposes ballot harvesting (roll call plus campaign issues page)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "housing": "no housing statement found on campaign issues page (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found on campaign issues page (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign issues page",
+                    "url": "https://jenforcongress.com/issues/"
+                },
+                {
+                    "label": "House roll calls 23, 102, 190",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H2VA02064/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA02198",
+            "name": "Elaine Luria",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "2",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Former U.S. representative for Virginia's 2nd District (2019-2023), retired Navy commander, seeking a rematch against Rep. Jen Kiggans.",
+            "priorities": [
+                "Lower prescription drug prices",
+                "Strengthen the Affordable Care Act",
+                "Protect abortion rights"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -1,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": -1,
+                "education": -2,
+                "safety": null,
+                "repro": -2,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Supports 'making less expensive, generic drugs more quickly available to consumers' and voted to raise the federal minimum wage (campaign site)",
+                    "url": "https://elaineforcongress.com"
+                },
+                "health": {
+                    "label": "Will 'stand up to the pharmaceutical lobby,' strengthen the ACA, and 'require that health insurance providers cover patients with pre-existing conditions' (campaign site)",
+                    "url": "https://elaineforcongress.com"
+                },
+                "climate": {
+                    "label": "Advocates 'cutting greenhouse gas emissions while investing in the jobs and infrastructure of the future,' supports nuclear power, and opposes offshore drilling (campaign site)",
+                    "url": "https://elaineforcongress.com"
+                },
+                "education": {
+                    "label": "Supports 'universal pre-K,' the Rebuild America's Schools Act, career and technical education, and student loan forgiveness (campaign site)",
+                    "url": "https://elaineforcongress.com"
+                },
+                "repro": {
+                    "label": "'A woman's right to choose should be made between a woman, her health care provider, and her faith,' and advocates enshrining reproductive protections (campaign site)",
+                    "url": "https://elaineforcongress.com"
+                }
+            },
+            "nullNotes": {
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
+                "taxes": "only tax-related item found was a narrow 2017 Tax Bill correction for Gold Star families with no broader tax agenda stated (checked Aug 29, 2026)",
+                "safety": "only public-safety-adjacent content found (background checks, red-flag laws) concerns guns, which the guide excludes from this axis (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://elaineforcongress.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA02198/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA01117",
+            "name": "Robert C Scott",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "3",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 3rd District since 1993; ranking member, House Education and Workforce Committee.",
+            "priorities": [
+                "Raise the minimum wage",
+                "Protect the PRO Act",
+                "College affordability"
+            ],
+            "positions": {
+                "cost": -2,
+                "health": null,
+                "housing": null,
+                "immigration": -1,
+                "taxes": null,
+                "climate": null,
+                "education": -2,
+                "safety": -2,
+                "repro": null,
+                "democracy": -1
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Backs 'legislation to gradually raise the federal minimum wage to $17 an hour' (campaign site)",
+                    "url": "https://www.bobbyscottforcongress.com"
+                },
+                "education": {
+                    "label": "Lead author of the Every Student Succeeds Act, sponsor of the Post-9/11 G.I. Bill, and author of the College Affordability Act (campaign site)",
+                    "url": "https://www.bobbyscottforcongress.com"
+                },
+                "safety": {
+                    "label": "'Leading the fight to reform our criminal justice system by advancing evidence-based policies and solutions' (campaign site)",
+                    "url": "https://www.bobbyscottforcongress.com"
+                },
+                "immigration": {
+                    "label": "Voted no on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "democracy": {
+                    "label": "Voted no on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "health": "no healthcare statement found on campaign site; Ballotpedia was unreachable both attempts (checked Aug 29, 2026)",
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "taxes": "voted no on H.R. 1 (roll 190) but that alone does not establish the axis for a Democrat; no independent tax statement found (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.bobbyscottforcongress.com"
+                },
+                {
+                    "label": "House roll calls 23, 102",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA01117/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA03121",
+            "name": "Edwin Mr. Jr. Rivera",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "3",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Republican nominee challenging Rep. Bobby Scott in Virginia's 3rd District.",
+            "priorities": [],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {},
+            "nullNotes": {
+                "cost": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "health": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "housing": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "immigration": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "taxes": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "climate": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "education": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "safety": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "repro": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)",
+                "democracy": "campaign site (edwinriveraforcongress.com) lists only generic bipartisan-sounding priority headings ('Education Reform,' 'Public Safety,' 'Healthcare Access') with no elaborated position text, and Ballotpedia was robots-blocked on two attempts (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://edwinriveraforcongress.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA03121/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA03139",
+            "name": "Stephen C. Woll",
+            "party": "Independent",
+            "office": "us-house",
+            "district": "3",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Independent candidate in Virginia's 3rd District running on an anti-partisanship message.",
+            "priorities": [
+                "No party litmus tests",
+                "Universal healthcare access",
+                "Fair-share taxation"
+            ],
+            "positions": {
+                "cost": 0,
+                "health": -2,
+                "housing": null,
+                "immigration": -2,
+                "taxes": -2,
+                "climate": -2,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Backs 'wage restoration' to fight inflation but opposes 'blanket tariffs that hurt American families most,' favoring targeted free trade instead (campaign site, mixed)",
+                    "url": "https://www.stevewoll.com/issues"
+                },
+                "health": {
+                    "label": "'Universal access to basic health care. Other peer nations have solved this, we need to' (campaign site)",
+                    "url": "https://www.stevewoll.com/issues"
+                },
+                "immigration": {
+                    "label": "Would 'abandon mass deportation and actually focus on the worst of the worst' and provide 'a deferred but clear path to legal status for undocumented immigrants' (campaign site)",
+                    "url": "https://www.stevewoll.com/issues"
+                },
+                "taxes": {
+                    "label": "'Everyone must pay their fair share, most billionaires game the system to pay far lower rates than working Americans' (campaign site)",
+                    "url": "https://www.stevewoll.com/issues"
+                },
+                "climate": {
+                    "label": "'Climate change is real and undeniable,' advocating renewable energy as 'the most cost-effective power source of the coming century' (campaign site)",
+                    "url": "https://www.stevewoll.com/issues"
+                }
+            },
+            "nullNotes": {
+                "housing": "campaign site calls for 'increased housing... at affordable rates' without specifying a public-build or deregulation mechanism (checked Aug 29, 2026)",
+                "education": "campaign site calls for investing 'equally in vocational training and academic education,' which does not address the public-schools-versus-choice axis (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "campaign site says 'increase family planning, reduce abortion, expand adoption,' a position that does not clearly map to either guaranteeing or restricting abortion access (checked Aug 29, 2026)",
+                "democracy": "campaign site calls to end gerrymandering and reverse Citizens United, which are redistricting/campaign-finance positions that do not fit this voting-access axis (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site: issues",
+                    "url": "https://www.stevewoll.com/issues"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA03139/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H4VA04066",
+            "name": "Jennifer McClellan",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "4",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 4th District since a 2023 special election; former Virginia state senator.",
+            "priorities": [
+                "Affordable healthcare and utilities",
+                "Expand affordable housing",
+                "Protect voting rights"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -2,
+                "housing": -2,
+                "immigration": null,
+                "taxes": null,
+                "climate": -1,
+                "education": null,
+                "safety": -1,
+                "repro": -2,
+                "democracy": -2
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "'Hardworking Americans shouldn't have to choose between keeping the lights on, filling a prescription, or putting food on the table' (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "health": {
+                    "label": "Worked to 'expand Obamacare in Virginia' (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "housing": {
+                    "label": "Notes 'Virginia's housing shortage drives up rent and pushes families out' and has 'secured federal funding for affordable housing projects' (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "climate": {
+                    "label": "Worked to 'tackle climate change' as a state legislator (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "safety": {
+                    "label": "Pursued reforms to 'Virginia's criminal justice system' (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "repro": {
+                    "label": "Passed 'landmark laws... to safeguard abortion access' (campaign site)",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                "democracy": {
+                    "label": "Cosponsors the John R. Lewis Voting Rights Advancement Act and called voter-ID legislation 'a modern-day poll tax'; championed Virginia's Voting Rights Act as a state senator (campaign site)",
+                    "url": "https://www.jennifermcclellan.com/issue/voting-rights/"
+                }
+            },
+            "nullNotes": {
+                "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
+                "taxes": "backed an expanded Child Tax Credit, a targeted household credit that does not establish a broader raise-versus-cut tax position per the calibration guidance (checked Aug 29, 2026)",
+                "education": "campaign site mentions 'Education and Childcare' as an issue category with no elaborated position text retrieved (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.jennifermcclellan.com"
+                },
+                {
+                    "label": "Campaign site: voting rights issue page",
+                    "url": "https://www.jennifermcclellan.com/issue/voting-rights/"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H4VA04066/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA05217",
+            "name": "Thomas Perriello",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "5",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Former U.S. representative for Virginia's 5th District (2009-2011), Democratic nominee seeking a return to Congress.",
+            "priorities": [
+                "Lower costs for families",
+                "Affordable healthcare",
+                "Public school investment"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -1,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": -1,
+                "safety": 1,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Prioritizes 'lower costs' for families facing hardship from tariffs and geopolitical conflict (campaign site)",
+                    "url": "https://www.tomperriello.com/"
+                },
+                "health": {
+                    "label": "Cites his past 'decisive vote that delivered affordable healthcare for tens of thousands of local families' (campaign site)",
+                    "url": "https://www.tomperriello.com/"
+                },
+                "education": {
+                    "label": "Notes he previously invested in 'every public school' in the district (campaign site)",
+                    "url": "https://www.tomperriello.com/priorities"
+                },
+                "safety": {
+                    "label": "Cites past investment in 'law enforcement units in the district' and support for the rule of law (campaign site)",
+                    "url": "https://www.tomperriello.com/priorities"
+                }
+            },
+            "nullNotes": {
+                "housing": "campaign site says only he will fight 'until every family can afford... housing' with no specific mechanism (checked Aug 29, 2026)",
+                "immigration": "no immigration statement found; campaign site notes 'specific issue pages coming soon' (checked Aug 29, 2026)",
+                "taxes": "no tax statement found on campaign site (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "campaign site opposes 'dark money and insider trading' in politics, a campaign-finance position that does not fit this voting-access axis (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.tomperriello.com/"
+                },
+                {
+                    "label": "Campaign site: priorities",
+                    "url": "https://www.tomperriello.com/priorities"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA05217/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H8VA06104",
+            "name": "Benjamin Lee Cline",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "6",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Republican representative for Virginia's 6th District since 2019; former state delegate.",
+            "priorities": [
+                "Protecting the unborn",
+                "Border security",
+                "Cut government waste"
+            ],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": 2,
+                "taxes": 2,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": 2,
+                "democracy": 2
+            },
+            "positionSources": {
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "taxes": {
+                    "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House roll call 190)",
+                    "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+                },
+                "democracy": {
+                    "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                },
+                "repro": {
+                    "label": "'I have always been a champion of pro-life legislation that protects our God-given right to life, and I'll never stop fighting for the unborn' (campaign site)",
+                    "url": "https://bencline.com/issues/protecting-the-unborn"
+                }
+            },
+            "nullNotes": {
+                "cost": "no cost-of-living statement found on campaign site (checked Aug 29, 2026)",
+                "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)",
+                "education": "campaign site lists an 'Educating our Children' issue heading with no elaborated position text retrieved (checked Aug 29, 2026)",
+                "safety": "campaign site lists a 'Keep America Safe' issue heading framed around national security, with no domestic policing position text retrieved (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site: protecting the unborn",
+                    "url": "https://bencline.com/issues/protecting-the-unborn"
+                },
+                {
+                    "label": "House roll calls 23, 102, 190",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H8VA06104/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA06173",
+            "name": "Beth Macy",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "6",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Journalist and author (Dopesick), Democratic nominee challenging Rep. Ben Cline in Virginia's 6th District.",
+            "priorities": [
+                "Universal healthcare",
+                "Fair-share taxation on billionaires",
+                "Affordable housing and zoning reform"
+            ],
+            "positions": {
+                "cost": -2,
+                "health": -2,
+                "housing": -1,
+                "immigration": -2,
+                "taxes": -2,
+                "climate": -1,
+                "education": -1,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Would reduce food prices by 'cracking down on corporate profiteering' and 'ending Trump's ruinous trade wars' (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "health": {
+                    "label": "Advocates 'universal healthcare coverage including Medicare for All' and opposes privatizing Medicare and VA benefits (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "housing": {
+                    "label": "Supports 'incentives for state and local governments to enact reforms that pave the way for more affordable housing, including zoning reform,' citing waitlists of '4,000 people' in Roanoke and Harrisonburg (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "immigration": {
+                    "label": "Calls for restoring 'legal pathways for permanent legal status and/or citizenship,' opposes family separations and mass deportations of childcare workers (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "taxes": {
+                    "label": "Demands billionaires 'pay their fair share' through 'fairly taxing capital gains' (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "climate": {
+                    "label": "Calls for 'a nationwide moratorium on new data centers' pending environmental review and renewable-energy requirements for operators (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                "education": {
+                    "label": "Supports doubling Pell grants and expanding community college workforce training (campaign site)",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                }
+            },
+            "nullNotes": {
+                "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site: priorities",
+                    "url": "https://bethmacyforcongress.com/priorities"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA06173/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H4VA07234",
+            "name": "Yevgeny 'Eugene' Vindman",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "7",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 7th District since 2025; retired Army colonel and former National Security Council attorney.",
+            "priorities": [
+                "Strengthen the ACA and Medicare",
+                "Restore abortion access nationwide",
+                "Clean-energy investment"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -2,
+                "housing": null,
+                "immigration": 2,
+                "taxes": null,
+                "climate": -2,
+                "education": null,
+                "safety": 1,
+                "repro": -2,
+                "democracy": -1
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Opposes 'reckless tariffs' that 'drive up costs on everyday goods' (campaign site)",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                "health": {
+                    "label": "Supports strengthening the ACA, protecting Medicare/Medicaid, and leads efforts to 'lower the cost of prescription drugs' for veterans (campaign site)",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23); campaign site separately emphasizes 'simpler, legal pathways' and opposes ICE 'mega-detention facilities,' but the roll-call vote governs this axis per sourcing rules (roll call plus campaign site, mixed)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "climate": {
+                    "label": "Backs 'bold investments in clean energy' and 'transitioning away from fossil fuels' to position Virginia as a 'leader in the green economy' (campaign site)",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                "safety": {
+                    "label": "As a former prosecutor, supports 'ensuring law enforcement officers have the funding, training, and tools' needed (campaign site)",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                "repro": {
+                    "label": "Sponsors legislation to 'restore abortion access nationwide' and opposes bans on 'abortion, IVF, or contraceptives' (campaign site)",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                "democracy": {
+                    "label": "Voted no on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "housing": "no housing statement found beyond general infrastructure investment language (checked Aug 29, 2026)",
+                "taxes": "campaign site pledge to 'cut taxes... for working families' is framed as targeted relief with no broader raise-versus-cut agenda stated (checked Aug 29, 2026)",
+                "education": "campaign site mentions 'access to a high-quality education' with no specific public-versus-choice mechanism (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign issues page",
+                    "url": "https://vindmanforcongress.com/issues/"
+                },
+                {
+                    "label": "House roll calls 23, 102",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H4VA07234/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA07205",
+            "name": "Douglas Ollivant",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "7",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Retired Army officer and Republican nominee challenging Rep. Eugene Vindman in Virginia's 7th District.",
+            "priorities": [
+                "Cut red tape to lower housing costs",
+                "Border enforcement",
+                "All-of-the-above energy"
+            ],
+            "positions": {
+                "cost": 1,
+                "health": null,
+                "housing": 2,
+                "immigration": 2,
+                "taxes": 1,
+                "climate": 1,
+                "education": null,
+                "safety": 1,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Advocates 'reducing the cost of living, encouraging job creation, and cutting red tape' (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                "housing": {
+                    "label": "Frames high prices as a 'supply-demand problem' and favors reducing development regulations and increasing housing units 'rather than subsidies' (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                "immigration": {
+                    "label": "'I support strong enforcement of our immigration laws to stop unlawful entry and deter those who exploit our system' (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                "taxes": {
+                    "label": "Commits to 'easing the tax burden on families and businesses by promoting fiscal responsibility and reducing unnecessary spending' (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                "climate": {
+                    "label": "Supports 'a common sense all-of-the-above approach, with small modular nuclear reactors and natural gas at the center,' paired with wind, solar and carbon capture (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                "safety": {
+                    "label": "'I stand with law enforcement and believe they deserve the resources, training, and respect they need' (campaign site)",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                }
+            },
+            "nullNotes": {
+                "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
+                "education": "no education statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign issues page",
+                    "url": "https://www.dougforvirginia.com/issues/"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA07205/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H4VA08224",
+            "name": "Donald Sternoff Jr. Beyer",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "8",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 8th District since 2015; former Virginia lieutenant governor and ambassador to Switzerland.",
+            "priorities": [
+                "Universal healthcare (Choose Medicare Act)",
+                "Build 2 million affordable housing units nationwide",
+                "Humane immigration reform"
+            ],
+            "positions": {
+                "cost": null,
+                "health": -2,
+                "housing": -2,
+                "immigration": -2,
+                "taxes": null,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "health": {
+                    "label": "Introduced the Choose Medicare Act and is 'a proud co-sponsor of Medicare for All'; championed lower prescription drug costs (campaign site)",
+                    "url": "https://friendsofdonbeyer.com/priorities/healthcare"
+                },
+                "housing": {
+                    "label": "Co-lead on H.R. 2573, the Affordable Housing Credit Improvement Act, to 'build more than two million new affordable housing units nationwide over the next 10 years,' and co-led the Save Affordable Housing Act (campaign site)",
+                    "url": "https://friendsofdonbeyer.com/priorities/housing"
+                },
+                "immigration": {
+                    "label": "Opposes mass deportation as 'designed to inflict the maximum amount of cruelty,' backs the Protecting Sensitive Locations Act, and wants 'a humane approach to immigration that treats people with dignity' (campaign site)",
+                    "url": "https://friendsofdonbeyer.com/priorities/immigration"
+                }
+            },
+            "nullNotes": {
+                "cost": "no general cost-of-living statement found beyond healthcare/housing specifics already scored on those axes (checked Aug 29, 2026)",
+                "taxes": "no tax statement found; site notes only committee membership on Ways and Means with no quoted position (checked Aug 29, 2026)",
+                "climate": "campaign site lists 'Energy & The Environment' as a priority but the specific position page returned a 404 on two attempts (checked Aug 29, 2026)",
+                "education": "campaign site lists 'Education' as a priority with no elaborated position text retrieved (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site: healthcare priority",
+                    "url": "https://friendsofdonbeyer.com/priorities/healthcare"
+                },
+                {
+                    "label": "Campaign site: housing priority",
+                    "url": "https://friendsofdonbeyer.com/priorities/housing"
+                },
+                {
+                    "label": "Campaign site: immigration priority",
+                    "url": "https://friendsofdonbeyer.com/priorities/immigration"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H4VA08224/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA08336",
+            "name": "Tim Sharman",
+            "party": "Independent",
+            "office": "us-house",
+            "district": "8",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Independent candidate in Virginia's 8th District.",
+            "priorities": [],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {},
+            "nullNotes": {
+                "cost": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "health": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "housing": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "immigration": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "taxes": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "climate": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "education": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "safety": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "repro": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)",
+                "democracy": "campaign site (timsharmanforcongress.com) returned only page metadata and a general slogan on two attempts, with no issues page content found (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://timsharmanforcongress.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA08336/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA08252",
+            "name": "Tony Sabio",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "8",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Republican nominee challenging Rep. Don Beyer in Virginia's 8th District.",
+            "priorities": [],
+            "positions": {
+                "cost": null,
+                "health": 1,
+                "housing": null,
+                "immigration": null,
+                "taxes": null,
+                "climate": 1,
+                "education": null,
+                "safety": 1,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "health": {
+                    "label": "Proposes an 'American Health Freedom Plan' as one of five campaign pillars (campaign site)",
+                    "url": "https://sabioforcongress.com"
+                },
+                "climate": {
+                    "label": "Proposes an 'Energy Affordability & American Power Act' emphasizing both cost and 'American Power' (energy independence) (campaign site)",
+                    "url": "https://sabioforcongress.com"
+                },
+                "safety": {
+                    "label": "Proposes a 'Safe Communities & Secure America Act' (campaign site)",
+                    "url": "https://sabioforcongress.com"
+                }
+            },
+            "nullNotes": {
+                "cost": "the only cost-related item found ('Lowering Energy Cost') was scored under the climate/energy axis to avoid double-counting the same statement (checked Aug 29, 2026)",
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
+                "taxes": "no tax statement found on campaign site (checked Aug 29, 2026)",
+                "education": "no education statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://sabioforcongress.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA08252/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H0VA09055",
+            "name": "H Morgan Griffith",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "9",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Republican representative for Virginia's 9th District since 2011.",
+            "priorities": [
+                "Border security",
+                "Cut taxes",
+                "Roll back EPA regulations"
+            ],
+            "positions": {
+                "cost": null,
+                "health": null,
+                "housing": null,
+                "immigration": 2,
+                "taxes": 2,
+                "climate": 1,
+                "education": null,
+                "safety": null,
+                "repro": 1,
+                "democracy": 2
+            },
+            "positionSources": {
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "taxes": {
+                    "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House roll call 190)",
+                    "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+                },
+                "democracy": {
+                    "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                },
+                "climate": {
+                    "label": "Campaign site pledges 'standing up to the Environmental Protection Agency and job-killing regulations' (campaign site)",
+                    "url": "http://www.morgangriffithforcongress.com"
+                },
+                "repro": {
+                    "label": "Campaign site cites 'defending... the right to life' among his values (campaign site)",
+                    "url": "http://www.morgangriffithforcongress.com"
+                }
+            },
+            "nullNotes": {
+                "cost": "no cost-of-living statement found on campaign site (checked Aug 29, 2026)",
+                "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "education": "no education statement found on campaign site (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found beyond the immigration and 2nd-Amendment material already scored or excluded (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "http://www.morgangriffithforcongress.com"
+                },
+                {
+                    "label": "House roll calls 23, 102, 190",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H0VA09055/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA09136",
+            "name": "Joy Powers",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "9",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Democratic nominee challenging Rep. Morgan Griffith in Virginia's 9th District.",
+            "priorities": [
+                "Rural healthcare access",
+                "Affordable housing",
+                "Fully fund public schools"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -1,
+                "housing": -1,
+                "immigration": null,
+                "taxes": null,
+                "climate": null,
+                "education": -1,
+                "safety": null,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "'Too many families are being priced out of housing, groceries, and energy,' pledging to hold corporations accountable (campaign site)",
+                    "url": "https://www.joyforva.com"
+                },
+                "health": {
+                    "label": "'No one should have to drive hours or skip care because of where they live'; pledges to protect rural hospitals and expand mental health and addiction treatment (campaign site)",
+                    "url": "https://www.joyforva.com"
+                },
+                "housing": {
+                    "label": "Campaign platform calls for building affordable homes to address housing affordability (campaign site)",
+                    "url": "https://www.joyforva.com"
+                },
+                "education": {
+                    "label": "'Every child deserves a fair shot from preschool to career,' backing teachers and modernized classrooms (campaign site)",
+                    "url": "https://www.joyforva.com"
+                }
+            },
+            "nullNotes": {
+                "immigration": "no immigration statement found on campaign homepage; full issues page not retrieved (checked Aug 29, 2026)",
+                "taxes": "no tax statement found on campaign homepage (checked Aug 29, 2026)",
+                "climate": "no climate/energy statement found on campaign homepage (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found on campaign homepage (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign homepage (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.joyforva.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA09136/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H4VA10279",
+            "name": "Suhas Subramanyam",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "10",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 10th District since 2025; former Virginia state senator.",
+            "priorities": [
+                "Lower drug and toll costs",
+                "Expand healthcare access",
+                "Border and voting-rights record"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -1,
+                "housing": null,
+                "immigration": 2,
+                "taxes": null,
+                "climate": -1,
+                "education": null,
+                "safety": null,
+                "repro": null,
+                "democracy": -1
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Cites work cracking down on toll hikes and to 'bring down drug costs and increase price transparency for consumers' (campaign site)",
+                    "url": "https://www.suhasforvirginia.com/"
+                },
+                "health": {
+                    "label": "Worked to 'expand and improve health care access to millions of Americans' (campaign site)",
+                    "url": "https://www.suhasforvirginia.com/"
+                },
+                "climate": {
+                    "label": "Built 'a coalition across party lines' that secured 'more than $300 million in refunds to Virginia families' on energy overcharges (campaign site)",
+                    "url": "https://www.suhasforvirginia.com/"
+                },
+                "immigration": {
+                    "label": "Voted yes on S.5, the Laken Riley Act, Jan 22 2025 (House roll call 23)",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                "democracy": {
+                    "label": "Voted no on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
+                    "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+                }
+            },
+            "nullNotes": {
+                "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
+                "taxes": "voted no on H.R. 1 (roll 190) but that alone does not establish the axis for a Democrat; no independent tax statement found (checked Aug 29, 2026)",
+                "education": "no education statement found on campaign site (checked Aug 29, 2026)",
+                "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.suhasforvirginia.com/"
+                },
+                {
+                    "label": "House roll calls 23, 102",
+                    "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H4VA10279/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H2VA10273",
+            "name": "David Beckwith",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "10",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Republican nominee challenging Rep. Suhas Subramanyam in Virginia's 10th District.",
+            "priorities": [
+                "Keep taxes low, cut regulations",
+                "All-of-the-above energy",
+                "Vocational training and apprenticeships"
+            ],
+            "positions": {
+                "cost": 2,
+                "health": null,
+                "housing": null,
+                "immigration": null,
+                "taxes": 1,
+                "climate": 1,
+                "education": 1,
+                "safety": 1,
+                "repro": null,
+                "democracy": null
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Will 'fight to keep taxes low, cut burdensome regulations, and pursue an all-of-the-above energy strategy that lowers costs for families and small businesses' (campaign site)",
+                    "url": "https://www.beckwithforcongress.com"
+                },
+                "taxes": {
+                    "label": "Believes 'Washington should live by the same rules Virginia families do: don't spend more than you take in,' opposing wasteful spending (campaign site)",
+                    "url": "https://www.beckwithforcongress.com"
+                },
+                "climate": {
+                    "label": "Supports an 'all-of-the-above energy strategy that ends market-distorting subsidies' and reinvestment in nuclear power (campaign site)",
+                    "url": "https://www.beckwithforcongress.com"
+                },
+                "education": {
+                    "label": "Will 'advocate for parental rights and work to expand access to vocational training and apprenticeships' (campaign site)",
+                    "url": "https://www.beckwithforcongress.com"
+                },
+                "safety": {
+                    "label": "'Staunch supporter of law enforcement,' believing 'well-resourced law enforcement agencies make safer communities' (campaign site)",
+                    "url": "https://www.beckwithforcongress.com"
+                }
+            },
+            "nullNotes": {
+                "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
+                "housing": "campaign site references a housing blog post with 'three policies' but no specific position text retrieved (checked Aug 29, 2026)",
+                "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
+                "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
+                "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.beckwithforcongress.com"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H2VA10273/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA11066",
+            "name": "James Walkinshaw",
+            "party": "Democrat",
+            "office": "us-house",
+            "district": "11",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": true,
+            "now": null,
+            "background": "Democratic representative for Virginia's 11th District since a September 2025 special election; former Fairfax County chief of staff.",
+            "priorities": [
+                "Strengthen the ACA and Medicare",
+                "Expand affordable housing (LIHTC)",
+                "Protect voting rights"
+            ],
+            "positions": {
+                "cost": -1,
+                "health": -2,
+                "housing": -2,
+                "immigration": -2,
+                "taxes": null,
+                "climate": -2,
+                "education": -1,
+                "safety": 0,
+                "repro": -2,
+                "democracy": -2
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "Says families are 'feeling the pressure of rising costs' and backs 'capping out-of-pocket costs for seniors' and 'empowering Medicare to negotiate drug prices' to ease the burden (house.gov affordability issues page)",
+                    "url": "https://walkinshaw.house.gov/Issues/Issue/?IssueID=14966"
+                },
+                "health": {
+                    "label": "Supports strengthening the ACA, lowering prescription drug costs, defending Medicaid and Medicare, and would 'oppose cuts to NIH, Planned Parenthood, and life-saving research' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "housing": {
+                    "label": "Backs legislation to 'strengthen the Low-Income Housing Tax Credit (LIHTC), increase funding for the Housing Trust Fund, and incentivize local governments to reform restrictive zoning laws' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "immigration": {
+                    "label": "Advocates 'comprehensive immigration reform that creates a path to citizenship for undocumented immigrants, protects Dreamers, and secures family reunification' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "climate": {
+                    "label": "Supports 'bold federal investments in clean energy innovation, energy efficiency, and electrification' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "education": {
+                    "label": "Pledges to 'protect the Department of Education, fully fund IDEA and Title I' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "safety": {
+                    "label": "Favors 'evidence-based community policing with increased COPS funding,' mixing prevention framing with more police funding (Ballotpedia, citing campaign material, mixed)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "repro": {
+                    "label": "Believes 'access to comprehensive reproductive health care... is a fundamental right' and will 'fight to protect reproductive freedom' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                "democracy": {
+                    "label": "Supports 'the John R. Lewis Voting Rights Advancement Act and the Freedom to Vote Act' and would 'ban partisan gerrymandering' (Ballotpedia, citing campaign material)",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                }
+            },
+            "nullNotes": {
+                "taxes": "no tax statement found on Ballotpedia or campaign site, including a targeted follow-up check of the campaign priorities page; not in the 119th Congress for the relevant roll calls since he took office after all three (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked walkinshaw.house.gov full issues index including Affordability and Economy pages, no corporate/high-earner or broad tax-cut position stated beyond opposing tariffs; checked press releases list, none on taxes; checked jameswalkinshaw.org, single-page site with no tax content; Ballotpedia's only tax-adjacent item is support for a one-penny local real estate tax increase for affordable housing from his county-board record, a targeted local mechanism that does not fit the federal corporate/high-earner axis per the guide's calibration)"
+            },
+            "sources": [
+                {
+                    "label": "Ballotpedia profile",
+                    "url": "https://ballotpedia.org/James_Walkinshaw"
+                },
+                {
+                    "label": "Campaign site",
+                    "url": "https://jameswalkinshaw.org"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA11066/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
+        },
+        {
+            "id": "fec-H6VA11249",
+            "name": "Arthur Grahame Purves",
+            "party": "Republican",
+            "office": "us-house",
+            "district": "11",
+            "state": "VA",
+            "tier": "researched",
+            "ballotStatus": "nominee",
+            "age": null,
+            "home": null,
+            "incumbent": false,
+            "now": null,
+            "background": "Longtime Fairfax County tax-policy activist and Republican nominee challenging Rep. James Walkinshaw in Virginia's 11th District.",
+            "priorities": [
+                "Cut taxes and federal spending",
+                "School choice",
+                "Election integrity"
+            ],
+            "positions": {
+                "cost": 1,
+                "health": null,
+                "housing": null,
+                "immigration": 1,
+                "taxes": 2,
+                "climate": 2,
+                "education": 2,
+                "safety": null,
+                "repro": 2,
+                "democracy": 2
+            },
+            "positionSources": {
+                "cost": {
+                    "label": "'Inflation is the tax we pay for out-of-control government spending' (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "taxes": {
+                    "label": "Cites his '29-year' focus on tax reduction, saying 'I am the only candidate addressing it and the only candidate with a solution' to federal deficits (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "immigration": {
+                    "label": "Supports vetting to 'not let in the drug- and sex-traffickers and gang members from whom other immigrants are trying to flee' (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "climate": {
+                    "label": "Skeptical of climate urgency, opposes indexing 'the state gasoline tax to inflation,' and criticizes renewable-energy mandates (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "education": {
+                    "label": "Advocates school choice through vouchers, phonics-based instruction, and religious content in public schools (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "repro": {
+                    "label": "'Life begins at conception... abortion always takes a life,' while supporting legal exceptions to save the mother's life (campaign site)",
+                    "url": "https://www.votepurves.org"
+                },
+                "democracy": {
+                    "label": "'Mail-in ballots enable election fraud,' citing France's 1975 ban after 'massive fraud' (campaign site)",
+                    "url": "https://www.votepurves.org"
+                }
+            },
+            "nullNotes": {
+                "health": "campaign site frames medical costs through a personal-nutrition lens ('eat real food and you may not need Obamacare') rather than a public-versus-private healthcare policy position (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked full site again including the spending and self-sufficiency sections; the $2 trillion medical spending stat and 90 percent chronic-disease claim stay in the same nutrition-prevention frame, no public/private coverage stance; tried ivoterguide.com, 404; tried justfacts.votesmart.org, 403 blocked)",
+                "housing": "no housing statement found on campaign site, including a targeted follow-up check of the issues subpage (checked Aug 29, 2026) (closer round, Aug 29, 2026: confirmed the site is a single homepage with no separate issues subpage and re-read all 13 section headings, no housing content; tried ivoterguide.com, 404; tried justfacts.votesmart.org, 403 blocked)",
+                "safety": "the only public-safety-adjacent statement found attributes violence to poverty and mental illness rather than gun policy, but stops short of a police-funding or sentencing position (checked Aug 29, 2026) (closer round, Aug 29, 2026: fetched that section in full, 'To end gun violence, fix schools and clean up food' resolves to education and nutrition fixes only, no policing/prevention-funding content; tried ivoterguide.com, 404; tried justfacts.votesmart.org, 403 blocked)"
+            },
+            "sources": [
+                {
+                    "label": "Campaign site",
+                    "url": "https://www.votepurves.org"
+                },
+                {
+                    "label": "FEC filing",
+                    "url": "https://www.fec.gov/data/candidate/H6VA11249/"
+                }
+            ],
+            "curatedAt": "2026-08-29"
         }
-      ]
-    },
-    "VA-house-2": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H2VA02064",
-        "fec-H6VA02198"
-      ],
-      "statusNote": "Rep. Jen Kiggans (R) seeks a third term against former Rep. Elaine Luria (D), who won a four-way Democratic primary on Aug 4, 2026 with 80%. Kiggans beat Luria in 2022, making this a rematch, and it is one of Virginia's few competitive seats. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "VPAP: US Representative District 2, Nov 2026 general election candidates",
-          "url": "https://www.vpap.org/offices/us-representative-2/elections/"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    },
-    "VA-house-3": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H6VA01117",
-        "fec-H6VA03121",
-        "fec-H6VA03139"
-      ],
-      "statusNote": "Rep. Bobby Scott (D), the dean of Virginia's delegation, seeks re-election against Edwin Rivera Jr. (R), with independent Stephen C. Woll also on the ballot, after the Aug 4, 2026 primary. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "The Green Papers: Virginia 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/VA"
-        },
-        {
-          "label": "Politics1: Virginia 2026 candidates",
-          "url": "https://politics1.com/va.htm"
-        }
-      ]
-    },
-    "VA-house-4": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H4VA04066",
-        "va-house-4-murray"
-      ],
-      "statusNote": "Rep. Jennifer McClellan (D) was unopposed in the Aug 4, 2026 Democratic primary and faces Robert Murray, whom Republicans nominated by caucus rather than by primary. Murray has no FEC filing, so he is recorded here as a hand-created entry. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "VPM News: who is on the ballot for Central Virginia's congressional seats",
-          "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
-        },
-        {
-          "label": "Politics1: Virginia 2026 candidates",
-          "url": "https://politics1.com/va.htm"
-        },
-        {
-          "label": "The Green Papers: Virginia 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/VA"
-        }
-      ]
-    },
-    "VA-house-5": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H0VA07133",
-        "fec-H6VA05217"
-      ],
-      "statusNote": "Rep. John McGuire (R) won the Aug 4, 2026 Republican primary with about 84% over Melanie Lucero and faces former Rep. Tom Perriello (D), who took about 80% of a three-way Democratic primary. Former Rep. Bob Good filed with the FEC but did not make the primary ballot. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "VPAP: US Representative District 5, Nov 2026 general election candidates",
-          "url": "https://www.vpap.org/offices/us-representative-5/elections/"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    },
-    "VA-house-6": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H8VA06104",
-        "fec-H6VA06173"
-      ],
-      "statusNote": "Rep. Ben Cline (R) seeks re-election against Beth Macy (D). Neither party held a primary in this district in 2026. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia 2026 candidates by district (Election2026)",
-          "url": "https://election2026.net/virginia-2026/"
-        },
-        {
-          "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
-        }
-      ]
-    },
-    "VA-house-7": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H4VA07234",
-        "fec-H6VA07205",
-        "va-house-7-ahrar"
-      ],
-      "statusNote": "Rep. Eugene Vindman (D) had no Democratic primary opponent and faces Douglas Ollivant (R), who won a three-way Republican primary with 56.6% on Aug 4, 2026, and independent Alaha Ahrar. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "VPM News: who is on the ballot for Central Virginia's congressional seats",
-          "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    },
-    "VA-house-8": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H4VA08224",
-        "fec-H6VA08252",
-        "fec-H6VA08336",
-        "va-house-8-arnoldi"
-      ],
-      "statusNote": "Rep. Don Beyer (D) won the Aug 4, 2026 Democratic primary with 67% over four challengers and faces Tony Sabio (R) and independents Tim Sharman and Shelly Arnoldi. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia 2026 candidates by district (Election2026)",
-          "url": "https://election2026.net/virginia-2026/"
-        },
-        {
-          "label": "2026 United States House of Representatives elections in Virginia (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia"
-        }
-      ]
-    },
-    "VA-house-9": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H0VA09055",
-        "fec-H6VA09136"
-      ],
-      "statusNote": "Rep. Morgan Griffith (R) was unopposed in his primary and faces Joy Powers (D), who won a three-way Democratic primary with about 52% on Aug 4, 2026. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "VPAP: US Representative District 9, Nov 2026 general election candidates",
-          "url": "https://www.vpap.org/offices/us-representative-9/elections/"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    },
-    "VA-house-10": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H4VA10279",
-        "fec-H2VA10273"
-      ],
-      "statusNote": "Rep. Suhas Subramanyam (D) seeks a second term against Dave Beckwith (R), who emerged from a four-way Republican primary on Aug 4, 2026. Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "The Green Papers: Virginia 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/VA"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    },
-    "VA-house-11": {
-      "status": "names-only",
-      "advancing": [
-        "fec-H6VA11066",
-        "fec-H6VA11249"
-      ],
-      "statusNote": "Rep. James Walkinshaw (D), who won the September 2025 special election for the seat left vacant by the death of Rep. Gerry Connolly, was unopposed for the Democratic nomination and faces Arthur Purves (R). Positions are not researched yet.",
-      "sources": [
-        {
-          "label": "Virginia Mercury: Aug 4, 2026 primary results set the fall U.S. House matchups",
-          "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/"
-        },
-        {
-          "label": "The Green Papers: Virginia 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/VA"
-        },
-        {
-          "label": "Virginia 2026 House races by district (270toWin)",
-          "url": "https://www.270towin.com/2026-house-election/states/virginia"
-        }
-      ]
-    }
-  },
-  "candidates": [
-    {
-      "id": "fec-S6VA00093",
-      "name": "Mark Warner",
-      "party": "Democrat",
-      "office": "us-senate",
-      "state": "VA",
-      "tier": "curated",
-      "ballotStatus": "nominee",
-      "incumbent": true,
-      "age": 71,
-      "home": "Alexandria, VA",
-      "now": "U.S. Senator; Vice Chair, Senate Intelligence Committee",
-      "background": "Virginia's senior senator since 2009 and former governor (2002-2006), who left office with 71% approval. Made a telecom venture-capital fortune before politics. Seeking a fourth term.",
-      "priorities": [
-        "Lower household costs",
-        "Health care access",
-        "National security and intelligence oversight"
-      ],
-      "positions": {
-        "cost": -1,
-        "health": -2,
-        "housing": -1,
-        "immigration": -1,
-        "taxes": -1,
-        "climate": 0,
-        "education": null,
-        "safety": 0,
-        "repro": -2,
-        "democracy": -2
-      },
-      "positionSources": {
-        "cost": {
-          "label": "Focused on 'lowering costs for families, growing wages'; cites $2,900 or more in added family costs under President Trump (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/economy/"
-        },
-        "health": {
-          "label": "Early ACA champion who wants to move 'towards a universal coverage model'; defend Medicaid, protect rural hospitals (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/health-care/"
-        },
-        "housing": {
-          "label": "Backs bipartisan bills for new construction and first-time-buyer down-payment help; ROAD to Housing Act (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/housing/"
-        },
-        "immigration": {
-          "label": "'A meaningful pathway to citizenship with secure borders'; DREAM Act; opposes 'inhumane mass round-ups' (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/immigration/"
-        },
-        "taxes": {
-          "label": "Wants the wealthiest and corporations 'paying their fair share'; close 'unfair tax loopholes' (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/taxes/"
-        },
-        "climate": {
-          "label": "Mixed: backs an 'all-of-the-above energy strategy' with domestic production, while defending offshore wind and nuclear and 'practical, science-based' emissions reduction (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/energy-environment/"
-        },
-        "safety": {
-          "label": "Mixed: prevention plus accountability; body cameras, modern forensics, bipartisan anti-fentanyl work (Senate priorities)",
-          "url": "https://www.warner.senate.gov/about/priorities/crime-and-public-safety/"
-        },
-        "repro": {
-          "label": "Co-introduced the Women's Health Protection Act: decisions 'between a woman and her doctor, not politicians' (Senate release)",
-          "url": "https://www.warner.senate.gov/newsroom/press-releases/sens-warner-kaine-introduce-bill-to-protect-access-to-reproductive-health-care/"
-        },
-        "democracy": {
-          "label": "Co-sponsored the Freedom to Vote Act: automatic voter registration, at least two weeks of early voting, vote by mail for all (Senate release)",
-          "url": "https://www.warner.senate.gov/public/index.cfm/2023/7/warner-kaine-colleagues-introduce-legislation-to-protect-the-freedom-to-vote-and-strengthen-american-democracy"
-        }
-      },
-      "nullNotes": {
-        "education": "removed in QA: cited Senate priorities page covers college affordability, student debt, and workforce certifications only; nothing that fits the K-12 public-schools-vs-choice axis"
-      },
-      "sources": [
-        {
-          "label": "Senate priorities",
-          "url": "https://www.warner.senate.gov/public/index.cfm/issues"
-        },
-        {
-          "label": "Wikipedia: Mark Warner",
-          "url": "https://en.wikipedia.org/wiki/Mark_Warner"
-        },
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S6VA00093/"
-        }
-      ],
-      "curatedAt": "2026-08-13"
-    },
-    {
-      "id": "fec-S8VA00321",
-      "name": "Bert Mizusawa",
-      "party": "Republican",
-      "office": "us-senate",
-      "state": "VA",
-      "tier": "curated",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "age": 69,
-      "home": "McLean, VA",
-      "now": "Retired Army Major General; consulting-firm CEO",
-      "background": "Retired two-star Army general, first in his 1979 West Point class, awarded the Silver Star for a 1984 action at the Korean DMZ. Harvard-trained attorney and former deputy undersecretary of the Army; foreign policy adviser to the 2016 Trump campaign. Won the Aug 4 Republican primary with about 51%.",
-      "priorities": [
-        "National security and military readiness",
-        "Simplify the tax code; attack fraudulent spending",
-        "American energy production"
-      ],
-      "positions": {
-        "cost": 1,
-        "health": null,
-        "housing": null,
-        "immigration": 1,
-        "taxes": 1,
-        "climate": 1,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "positionSources": {
-        "cost": {
-          "label": "Reduce costs for 'farmers, small businesses and working families' through deregulation and American energy (Charlottesville Tomorrow)",
-          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
-        },
-        "immigration": {
-          "label": "Border security plus legal immigration; those 'who broke the law and came here illegally should not be given a free path to citizenship' (Charlottesville Tomorrow)",
-          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
-        },
-        "taxes": {
-          "label": "Simplify tax filing; balance the budget primarily by attacking fraudulent federal spending (Cardinal News)",
-          "url": "https://cardinalnews.org/2026/06/19/three-republicans-seek-u-s-senate-nomination-to-face-warner-all-cite-ties-to-trump/"
-        },
-        "climate": {
-          "label": "Criticizes energy-production restrictions; supports American energy production; localities should decide on data centers (Charlottesville Tomorrow)",
-          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
-        }
-      },
-      "nullNotes": {
-        "health": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
-        "housing": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
-        "education": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
-        "safety": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
-        "repro": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented",
-        "democracy": "checked campaign site, Ballotpedia (no Candidate Connection survey), iVoterGuide (all survey questions unanswered), Cville Tomorrow primary Q&A, and WVVA coverage; nothing documented"
-      },
-      "sources": [
-        {
-          "label": "Charlottesville Tomorrow Q&A",
-          "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
-        },
-        {
-          "label": "Cardinal News: primary result",
-          "url": "https://cardinalnews.org/2026/08/04/mizusawa-wins-republican-u-s-senate-primary-mcguire-beats-primary-challenger/"
-        },
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/S8VA00321/"
-        }
-      ],
-      "curatedAt": "2026-08-13"
-    },
-    {
-      "id": "va-house-4-murray",
-      "name": "Robert Murray",
-      "party": "Republican",
-      "office": "us-house",
-      "district": "4",
-      "state": "VA",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "VPM News: who is on the ballot for Central Virginia's congressional seats",
-          "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
-        },
-        {
-          "label": "Politics1: Virginia 2026 candidates",
-          "url": "https://politics1.com/va.htm"
-        },
-        {
-          "label": "The Green Papers: Virginia 2026 general election candidates",
-          "url": "https://www.thegreenpapers.com/G26/VA"
-        }
-      ]
-    },
-    {
-      "id": "va-house-7-ahrar",
-      "name": "Alaha Ahrar",
-      "party": "Independent",
-      "office": "us-house",
-      "district": "7",
-      "state": "VA",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "VPM: 2026 congressional candidates",
-          "url": "https://www.vpm.org/elections/2026-08-04/congress-2026-election-candidates-va01-va04-va05-va07-senate"
-        }
-      ]
-    },
-    {
-      "id": "va-house-8-arnoldi",
-      "name": "Shelly M. Arnoldi",
-      "party": "Independent",
-      "office": "us-house",
-      "district": "8",
-      "state": "VA",
-      "tier": "fec",
-      "ballotStatus": "nominee",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "ARLnow: independent candidate challenges Rep. Beyer",
-          "url": "https://www.arlnow.com/2026/08/24/independent-candidate-challenges-rep-beyer-targeting-frustrated-voters/"
-        }
-      ]
-    },
-    {
-      "id": "fec-H0VA07133",
-      "name": "John J. Mr. III McGuire",
-      "party": "Republican",
-      "office": "us-house",
-      "district": "5",
-      "state": "VA",
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "incumbent": true,
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H0VA07133/"
-        }
-      ]
-    },
-    {
-      "id": "fec-H8VA11062",
-      "name": "Gerald Edward Connolly",
-      "party": "Democrat",
-      "office": "us-house",
-      "district": "11",
-      "state": "VA",
-      "tier": "fec",
-      "ballotStatus": "withdrawn",
-      "incumbent": false,
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H8VA11062/"
-        }
-      ]
-    }
-  ]
+    ]
 }

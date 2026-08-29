@@ -20,7 +20,7 @@
         "fec-H0AL01055",
         "fec-H6AL01094"
       ],
-      "statusNote": "Open seat: Rep. Barry Moore (R) is the Republican Senate nominee. Former Rep. Jerry Carl won the Aug 11, 2026 special primary with 74.7% and faces Clyde Jones (D), an Army veteran. The May 19 result in this district was nullified by redistricting. We know who's running, positions not researched yet.",
+      "statusNote": "Open seat: Rep. Barry Moore (R) is the Republican Senate nominee. Former Rep. Jerry Carl won the Aug 11, 2026 special primary with 74.7% and faces Clyde Jones (D), an Army veteran. The May 19 result in this district was nullified by redistricting. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Alabama SOS 2026 election calendar, Aug 11 special primary",
@@ -42,7 +42,7 @@
         "fec-H4AL02170",
         "fec-H6AL01086"
       ],
-      "statusNote": "Rep. Shomari Figures (D) was unopposed in the Aug 11, 2026 special primary and faces state Rep. Rhett Marques (R), who won the Republican special primary with 50.03% over Hampton Harris. The May 19 result in this redrawn district was voided by redistricting. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Shomari Figures (D) was unopposed in the Aug 11, 2026 special primary and faces state Rep. Rhett Marques (R), who won the Republican special primary with 50.03% over Hampton Harris. The May 19 result in this redrawn district was voided by redistricting. Positions researched and stored, race not scored, overlap 4 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Alabama Political Reporter: Marques wins GOP nomination in AL-2",
@@ -64,7 +64,7 @@
         "fec-H2AL03032",
         "fec-H6AL03199"
       ],
-      "statusNote": "Rep. Mike Rogers (R) faces Democrat Lee McInnis, a retired Defense Intelligence Agency official, both settled at the May 19, 2026 primary with no runoff. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Mike Rogers (R) faces Democrat Lee McInnis, a retired Defense Intelligence Agency official, both settled at the May 19, 2026 primary with no runoff. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Alabama 2026 general election candidates",
@@ -82,7 +82,7 @@
         "fec-H6AL04098",
         "fec-H6AL05228"
       ],
-      "statusNote": "Rep. Robert Aderholt (R) faces Democrat Amanda Pusczek, a nurse, both settled at the May 19, 2026 primary with no runoff. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Robert Aderholt (R) faces Democrat Amanda Pusczek, a nurse, both settled at the May 19, 2026 primary with no runoff. Positions researched and stored, race not scored, overlap 4 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Alabama 2026 general election candidates",
@@ -100,7 +100,7 @@
         "fec-H2AL05102",
         "fec-H6AL05244"
       ],
-      "statusNote": "Rep. Dale Strong (R) was nominated at the May 19, 2026 primary and faces Democrat Andrew Sneed, who won the June 16, 2026 runoff. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Dale Strong (R) was nominated at the May 19, 2026 primary and faces Democrat Andrew Sneed, who won the June 16, 2026 runoff. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "The Green Papers: Alabama 2026 general election candidates",
@@ -118,7 +118,7 @@
         "fec-H4AL06098",
         "fec-H6AL06184"
       ],
-      "statusNote": "Rep. Gary Palmer (R) beat Case Dixon with about 87% in the Aug 11, 2026 special primary and faces Democrat Maurice Mercer, who won his special primary with 64.2%. The May 19 result in this district was nullified by redistricting. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Gary Palmer (R) beat Case Dixon with about 87% in the Aug 11, 2026 special primary and faces Democrat Maurice Mercer, who won his special primary with 64.2%. The May 19 result in this district was nullified by redistricting. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Alabama Political Reporter: Aug 11 special primary results",
@@ -140,7 +140,7 @@
         "fec-H0AL07086",
         "fec-H6AL07208"
       ],
-      "statusNote": "Rep. Terri Sewell (D) was unopposed in the Aug 11, 2026 special primary and faces Republican Ammie Akin, who won her special primary with over 70%. The May 19 result in this district was nullified by redistricting. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Terri Sewell (D) was unopposed in the Aug 11, 2026 special primary and faces Republican Ammie Akin, who won her special primary with over 70%. The May 19 result in this district was nullified by redistricting. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Alabama Political Reporter: Aug 11 special primary results",
@@ -447,7 +447,7 @@
       "positions": {
         "cost": -1,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
         "taxes": 0,
         "climate": -1,
@@ -492,6 +492,10 @@
         "democracy": {
           "label": "Would implement early voting, create a citizen ballot initiative process and expand local authority (Alabama Reflector)",
           "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
+        },
+        "housing": {
+          "label": "Policy speech calls for 'additional investments in housing and child care' and decreasing housing costs through the new federal housing bill (Alabama Reflector, July 27, 2026)",
+          "url": "https://alabamareflector.com/2026/07/27/doug-jones-calls-for-affordability-measures-government-reforms-in-policy-speech/"
         }
       },
       "sources": [
@@ -534,6 +538,1102 @@
           "url": "https://www.thegreenpapers.com/G26/AL"
         }
       ]
+    },
+    {
+      "id": "fec-H0AL01055",
+      "name": "Jerry Lee Carl",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Former U.S. Representative for Alabama's 1st District (2021-2025)",
+      "background": "Former U.S. Representative for Alabama's old 1st District from 2021 to 2025, a Mobile County businessman before Congress. Lost the 2024 GOP primary to Barry Moore after redistricting merged their districts, and won the Aug 11, 2026 special primary for the newly redrawn 1st District with 74.7%.",
+      "priorities": [
+        "Secure the border and finish the wall",
+        "Make Trump-era tax cuts permanent",
+        "Repeal and replace the Affordable Care Act"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Campaign issues page: 'Repeal and replace Obamacare once and for all' and let small businesses buy insurance across state lines (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "immigration": {
+          "label": "'Believes we must build the wall and build it now,' supports minimum sentencing for illegal entry, opposes amnesty (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "taxes": {
+          "label": "'Will vote to make President Trump's tax cuts permanent' and eliminate the death tax (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "climate": {
+          "label": "Voted yes on the Lower Energy Costs Act expanding domestic oil and gas production (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "repro": {
+          "label": "'Every life is worth fighting for, born and unborn'; opposes any funding of Planned Parenthood (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "democracy": {
+          "label": "Voted against certifying Arizona's and Pennsylvania's 2020 electoral votes (Ballotpedia)",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia issues summary, the only cost-adjacent quote is about healthcare-premium competition (scored under health), no separate price/inflation stance found (checked Aug 29, 2026)",
+        "housing": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
+        "education": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked Ballotpedia issues summary, only immigration-adjacent language found, no general crime/policing stance (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0AL01055/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL01094",
+      "name": "Clyde W Mr. Jr Jones",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "South Alabama (native of Charles City, VA)",
+      "now": "Retired Army First Sergeant and associate minister",
+      "background": "Retired 21-year Army veteran (First Sergeant, Signal Corps) and Bronze Star recipient who relocated to south Alabama in 2013; retired from FMC Corporation in 2024 and serves as associate minister at Macedonia Missionary Baptist Church. Announced his campaign against Jerry Carl in October 2025 and won the Aug 11, 2026 Democratic special primary.",
+      "priorities": [
+        "Lower costs on gas, healthcare, rent and groceries",
+        "Reform ICE enforcement while keeping secure borders",
+        "Restore congressional accountability, no corporate PAC money"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Families all over Alabama are opting out of health insurance because of the cost, yet they don't qualify for Medicaid' (campaign site)",
+          "url": "https://clydeforcongress.com/"
+        },
+        "immigration": {
+          "label": "Mixed: 'Secure borders are necessary, but ICE has gotten out of control,' opposes targeting law-abiding immigrants to meet quotas while backing accountability for criminals (campaign site)",
+          "url": "https://clydeforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign site names gas, healthcare premiums, rent and groceries as pressures and cites the Iran war and tariffs as causes, but states no price-cap or deregulation mechanism to score a direction, checked campaign site (checked Aug 29, 2026)",
+        "housing": "checked campaign site, nothing beyond the general cost-of-living mention (checked Aug 29, 2026)",
+        "taxes": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked campaign site, nothing documented beyond ICE conduct, which is scored under immigration (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "democracy": "campaign site's 'checks & balances' language is about congressional accountability and PAC money, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://clydeforcongress.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL01094/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4AL02170",
+      "name": "Shomari C. Figures",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 2nd District",
+      "background": "U.S. Representative since January 2025; previously a federal prosecutor with judicial clerkships, White House and DOJ experience, and a stint in Sen. Sherrod Brown's office. University of Alabama undergrad and law degree. Unopposed in the Aug 11, 2026 Democratic special primary.",
+      "priorities": [
+        "Build on the ACA and lower healthcare, childcare and housing costs",
+        "Raise wages for working families",
+        "Protect and expand voting rights"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": -1,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Raise wages, because families are working harder but struggling to keep up with record cost increases, particularly increasing costs of healthcare, childcare and housing' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Shomari_Figures"
+        },
+        "health": {
+          "label": "Pledges to 'build on the legacy of the Affordable Care Act' so 'every person in Alabama can get a checkup every year' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Shomari_Figures"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "education": {
+          "label": "'Increase pay for Alabama teachers' and 'advocate for increased federal funding' to modernize schools (Ballotpedia)",
+          "url": "https://ballotpedia.org/Shomari_Figures"
+        },
+        "repro": {
+          "label": "'Protect reproductive rights and ensure every patient can make their own healthcare decisions' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Shomari_Figures"
+        },
+        "democracy": {
+          "label": "Voted no on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "Ballotpedia issues summary mentions housing only as a rising cost, no distinct housing-policy stance found (checked Aug 29, 2026)",
+        "taxes": "Ballotpedia's 'targeted tax incentives for small businesses' is a narrow proposal with no broader corporate/high-earner tax agenda stated, and her no vote on the HR 1 tax law (roll 190, Jul 3 2025) alone does not establish a Democrat's position per project rules; nothing else found (checked Aug 29, 2026)",
+        "climate": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
+        "safety": "Ballotpedia mentions gun violence (off-axis) and 'police and community relations' without a clear enforcement-vs-prevention direction (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Shomari_Figures"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AL02170/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL01086",
+      "name": "Rhett Marques",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Enterprise, AL",
+      "now": "Alabama state representative and small-business owner",
+      "background": "State representative and owner of a tire and automotive-service business in Enterprise for over 26 years; University of Alabama graduate. Announced his congressional bid in August 2025 and won the Aug 11, 2026 Republican special primary with 50.03% over Hampton Harris.",
+      "priorities": [
+        "Make life affordable again for Alabama families",
+        "Cut taxes and eliminate wasteful spending",
+        "Detain and deport criminal illegal aliens"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Touts cutting the state grocery tax in half and eliminating sales tax on diapers and baby supplies as affordability wins (campaign site)",
+          "url": "https://www.rhettforalabama.com/"
+        },
+        "immigration": {
+          "label": "'Replacing Catch and Release with Detain and Deport worked, and I'll make sure it stays that way,' opposes 'mass migration madness' (campaign site)",
+          "url": "https://www.rhettforalabama.com/"
+        },
+        "taxes": {
+          "label": "Pledges to 'eliminate wasteful spending, lower taxes, and put more of your hard-earned money back in your pocket' (campaign site)",
+          "url": "https://www.rhettforalabama.com/"
+        },
+        "education": {
+          "label": "Opposes Critical Race Theory and DEI programs in schools (campaign site)",
+          "url": "https://www.rhettforalabama.com/"
+        },
+        "repro": {
+          "label": "'I voted for the strongest pro-life law in our country' as a state representative and pledges to defund Planned Parenthood (campaign site)",
+          "url": "https://www.rhettforalabama.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "housing": "campaign site's 'families deserve better when trying to afford a home' names no specific policy mechanism, checked campaign site (checked Aug 29, 2026)",
+        "climate": "campaign site's energy-adjacent content is about cryptocurrency and a central bank digital currency, not power generation or emissions, checked campaign site (checked Aug 29, 2026)",
+        "safety": "campaign site ties 'keeping our streets safe' specifically to illegal immigration enforcement (scored under immigration), no separate domestic crime/policing stance found (checked Aug 29, 2026)",
+        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.rhettforalabama.com/"
+        },
+        {
+          "label": "Alabama Political Reporter: Marques wins GOP nomination",
+          "url": "https://www.alreporter.com/2026/08/12/rhett-marques-wins-gop-nomination-in-redrawn-2nd-congressional-district/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL01086/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2AL03032",
+      "name": "Michael Rogers",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 3rd District, House Armed Services Committee chairman",
+      "background": "U.S. Representative since 2003 and chairman of the House Armed Services Committee. Won the May 19, 2026 Republican primary outright, no runoff.",
+      "priorities": [
+        "Cut taxes, signer of the Taxpayer Protection Pledge",
+        "Secure the border",
+        "Defend the pro-life movement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Held an August 2017 town hall focused on repealing the Affordable Care Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Signer of Americans for Tax Reform's Taxpayer Protection Pledge, voted for the Tax Cuts and Jobs Act of 2017 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        "safety": {
+          "label": "Voted for the Second Chance Act of 2007, funding reentry programs for the formerly incarcerated (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        "repro": {
+          "label": "100% National Right to Life rating, called overturning Roe 'the right decision to protect the innocent lives of unborn children' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        "democracy": {
+          "label": "One of 147 Republicans who voted to overturn 2020 election results and signed the Texas v. Pennsylvania amicus brief (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        }
+      },
+      "nullNotes": {
+        "cost": "Ballotpedia's issues page is blocked by robots.txt for this pass; checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "climate": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "education": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Mike Rogers (Alabama politician)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, tax law",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2AL03032/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL03199",
+      "name": "Victor Lee McInnis",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Lee County, AL (raised in Homewood)",
+      "now": "Retired Defense Intelligence Community officer and college instructor",
+      "background": "28-year career in the Defense Intelligence Community as an Arabic linguist and analyst after six years in the U.S. Army; later taught college and earned a Master's in History from Auburn in 2024. Entered the AL-3 race in September 2025 and won the Democratic nomination in 2026.",
+      "priorities": [
+        "Universal basic healthcare access",
+        "Make the ultra-rich and corporations pay their fair share",
+        "Free, quality public education for every child"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -2,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'No one should lack for basic healthcare coverage. People should not have to decide between buying food and buying prescriptions,' warns GOP cuts would strip coverage from 200,000-500,000 Alabamians (Ballotpedia)",
+          "url": "https://ballotpedia.org/Lee_McInnis"
+        },
+        "taxes": {
+          "label": "'The working and middle classes have been shouldering the burden of funding government programs for too long,' wants the 'ultra-rich and corporations' to 'pay their fair share' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Lee_McInnis"
+        },
+        "education": {
+          "label": "'Every child deserves a free, quality education,' opposes a 'two tier education system' based on income or location (Ballotpedia)",
+          "url": "https://ballotpedia.org/Lee_McInnis"
+        }
+      },
+      "nullNotes": {
+        "cost": "Ballotpedia quote frames tariffs as a price driver but states no price-cap or deregulation mechanism to score a direction (checked Aug 29, 2026)",
+        "housing": "checked Ballotpedia, only an indirect mention of farmland foreclosure risk from tariffs, no housing-policy stance (checked Aug 29, 2026)",
+        "immigration": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "repro": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "democracy": "Ballotpedia's DISCLOSE Act and Citizens United material is campaign-finance reform, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Lee_McInnis"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL03199/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL04098",
+      "name": "Robert B. Aderholt",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 4th District",
+      "background": "U.S. Representative since 1997, the longest-serving member of Alabama's delegation. Won the May 19, 2026 Republican primary outright, no runoff.",
+      "priorities": [
+        "Make the 2017 tax cuts permanent",
+        "Secure the border",
+        "Defend the pro-life movement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted for the Tax Cuts and Jobs Act of 2017, saying it would 'give back more money to Alabama taxpayers' since 'more than 80% of the people in the 4th District' would get a cut (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        },
+        "climate": {
+          "label": "'I am opposed to any attempt to impose greenhouse gas regulations under the Clean Air Act on the agricultural industry' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        },
+        "repro": {
+          "label": "At the 2010 March for Life urged colleagues to 'look for ways to curb and stop abortions,' called overturning Roe 'a watershed moment for life' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        },
+        "democracy": {
+          "label": "Voted to overturn 2020 election results and signed the Texas v. Pennsylvania amicus brief, maintaining that position after Jan 6 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        }
+      },
+      "nullNotes": {
+        "cost": "Ballotpedia's issues page is blocked by robots.txt for this pass; checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "health": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "education": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "safety": "Wikipedia's only crime-adjacent statement is about the 2016 Orlando terrorist attack, too tangential to score a general policing direction (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Robert Aderholt",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, tax law",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL04098/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL05228",
+      "name": "Amanda Noelle Pusczek",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Cullman, AL",
+      "now": "Registered nurse",
+      "background": "Registered nurse with more than a decade of experience including disaster response, based in Cullman. Part of Alabama Democrats' first full slate of congressional candidates since 2018; won the Democratic nomination for AL-4 in 2026.",
+      "priorities": [
+        "FTC enforcement against corporate price-gouging and a $15 minimum wage",
+        "Abolish qualified immunity and end the 1033 military-surplus police program",
+        "Codify the Women's Health Protection Act"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would grant the FTC 'permanent authority to investigate, penalize, and cap predatory price-gouging' in groceries and utilities, and raise the federal minimum wage to $15/hour with cost-of-living adjustments (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "health": {
+          "label": "Proposes a multibillion-dollar federal relief fund for rural hospitals and a direct federal Medicaid enrollment option bypassing state expansion refusals (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "housing": {
+          "label": "Proposes a HUD 'Rural Direct Capital Pipeline' grant program and federal authority to 'audit, heavily penalize, and place federal liens on corporate landlords' for rent-gouging (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "immigration": {
+          "label": "Proposes mandatory U-visa and T-visa certification processing by local law enforcement and workplace protections against immigration raids during labor disputes (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "climate": {
+          "label": "Proposes zero-tolerance federal PFAS/PFOS limits and mandates the TVA 'rapidly transition its generation portfolio toward localized utility-scale solar arrays' (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "education": {
+          "label": "Proposes a federal $60,000 minimum salary floor for public school teachers and 'dollar-for-dollar' funding penalties for states that use public funds for private-school vouchers (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "safety": {
+          "label": "'Co-sponsors and champions federal legislation to completely abolish the judicial doctrine of qualified immunity' and to terminate the DOD's 1033 surplus-military-gear program for police (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "repro": {
+          "label": "'Leads the fight to pass the Women's Health Protection Act into federal law' plus federal IVF protections and universal contraceptive coverage (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        "democracy": {
+          "label": "Backs mandatory two-week no-excuse early voting nationwide, automatic voter registration, and restoring the John Lewis Voting Rights Advancement Act (campaign site)",
+          "url": "https://www.amandaforalabama.com/policy"
+        }
+      },
+      "nullNotes": {
+        "taxes": "campaign site's tax-adjacent content is a Citizens United constitutional amendment and a corporate PAC ban, which is campaign-finance reform rather than a corporate/high-earner tax rate stance; checked campaign policy page (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign policy page",
+          "url": "https://www.amandaforalabama.com/policy"
+        },
+        {
+          "label": "Alabama Daily News: Democrats' full slate",
+          "url": "https://aldailynews.com/democrats-put-up-first-full-slate-of-candidates-for-us-congress-since-2018/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL05228/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2AL05102",
+      "name": "Dale Whitney Strong",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 5th District",
+      "background": "U.S. Representative since 2023, former Madison County Commission chairman and volunteer firefighter. Nominated outright at the May 19, 2026 primary.",
+      "priorities": [
+        "Border security",
+        "Recognize fetal personhood at conception",
+        "Secure the border"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, House roll call 23, Jan 22, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on the 2025 tax law, House roll call 190, Jul 3, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "In January 2025 cosponsored a bill recognizing fetal personhood beginning at conception (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dale_Strong"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Wikipedia notes he 'discussed his plans to reduce inflation' in a debate with no specifics given; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "health": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "climate": "Wikipedia's 'openness to bipartisan solutions on energy independence' names no direction; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "education": "Wikipedia mentions school-construction advocacy as county chairman with no federal policy stance; Ballotpedia inaccessible (checked Aug 29, 2026)",
+        "safety": "checked Wikipedia, nothing beyond immigration-related border-security language; Ballotpedia inaccessible (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Dale Strong",
+          "url": "https://en.wikipedia.org/wiki/Dale_Strong"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, tax law",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2AL05102/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL05244",
+      "name": "Andrew Rankin Guyton Sneed",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "North Alabama",
+      "now": "Congressional candidate; founder of the Take BAC Congress Coalition",
+      "background": "Democratic nominee for AL-5, founder of the 'Take BAC Congress' coalition of over 100 candidates focused on congressional reform. Won the June 16, 2026 Democratic runoff.",
+      "priorities": [
+        "Expand Medicaid and regulate for-profit insurers",
+        "Codify a pathway to citizenship and restore asylum protections",
+        "Congressional term limits and a ban on members trading stock"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'restore federal investment in energy efficiency' to cut utility bills and to 'fight to bring down everyday costs' (campaign site)",
+          "url": "https://www.sneedforcongress.com/affordability"
+        },
+        "health": {
+          "label": "'Expand Medicaid availability,' 'negotiate prescription drug costs,' and 'regulate for-profit insurance companies,' with a focus on keeping rural hospitals open (campaign site)",
+          "url": "https://www.sneedforcongress.com/healthcare"
+        },
+        "housing": {
+          "label": "Campaign site pledges to 'expand rental assistance,' 'increase affordable housing options,' and 'support first-time home buyers' (campaign site)",
+          "url": "https://www.sneedforcongress.com/affordability"
+        },
+        "immigration": {
+          "label": "Would 'codify legal frameworks' for long-resident undocumented immigrants, 'eliminate family separation,' 'eliminate mass detention centers,' and 'restore asylum protections' (campaign site)",
+          "url": "https://www.sneedforcongress.com/immigration"
+        },
+        "climate": {
+          "label": "Pledges to 'restore clean air and water protections' and pursue 'environmentally sound land development' (campaign site)",
+          "url": "https://www.sneedforcongress.com/environment"
+        }
+      },
+      "nullNotes": {
+        "taxes": "campaign labor page pledges to fight for collective bargaining and worker protections but states no corporate or high-earner tax rate position; checked affordability, labor pages (checked Aug 29, 2026)",
+        "education": "the education/opportunity page returned a 404 during this pass; checked other campaign pages, nothing on education found (checked Aug 29, 2026)",
+        "safety": "checked campaign site's healthcare, affordability, immigration, environment, labor and 'fix the house' pages, nothing on domestic crime/policing found (checked Aug 29, 2026)",
+        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
+        "democracy": "campaign site's 'Fix the House' page is congressional term limits, stock-trading bans, and judicial ethics, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.sneedforcongress.com/"
+        },
+        {
+          "label": "Alabama Political Reporter: Sneed on District 5 run",
+          "url": "https://www.alreporter.com/2025/12/29/andrew-sneed-talks-district-5-run-need-for-congressional-reform/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL05244/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4AL06098",
+      "name": "Gary Palmer",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "6",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 6th District",
+      "background": "U.S. Representative since 2015, former president of a conservative Alabama think tank. Won the Aug 11, 2026 special primary with about 87% over Case Dixon.",
+      "priorities": [
+        "Repeal the Affordable Care Act",
+        "Secure the border and deport undocumented immigrants",
+        "Make the 2017 tax cuts permanent"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Calls the Affordable Care Act 'a nightmare' and 'job-killing,' supports repeal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        "immigration": {
+          "label": "Opposes illegal immigration and supports deporting undocumented immigrants (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        "taxes": {
+          "label": "Voted for the Tax Cuts and Jobs Act of 2017, saying it would 'put more money in the pockets of the American people' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        "repro": {
+          "label": "On the overturning of Roe: 'we celebrate a decision by the Supreme Court that will save the lives of countless unborn Americans' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        "democracy": {
+          "label": "Voted to object to Arizona's and Pennsylvania's electoral votes and signed the Texas v. Pennsylvania amicus brief (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "education": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "safety": "Wikipedia's only crime-adjacent statement is about transgender bathroom access framed as a 'safety implication,' too tangential to score a general policing direction (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Gary Palmer",
+          "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, tax law",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AL06098/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL06184",
+      "name": "Maurice Mercer",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "6",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Pelham, AL",
+      "now": "Former union organizer",
+      "background": "Pelham resident and former union organizer who entered the AL-6 race in May 2026 and won the Aug 11, 2026 Democratic special primary with 64.2%.",
+      "priorities": [
+        "Expand access to affordable healthcare and rural providers",
+        "Comprehensive immigration reform with a pathway to citizenship",
+        "Independent redistricting commission"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": 0,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Supports 'expanding access to affordable healthcare, protecting rural healthcare providers, improving mental health services, and increasing transparency in prescription drug pricing' while 'preserving personal choice' (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        "immigration": {
+          "label": "Mixed: backs a 'fair and achievable pathway to legal status and citizenship' for long-resident immigrants while also supporting 'strong border security' (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        "education": {
+          "label": "Supports 'excellent public schools, expanded career and technical education, apprenticeships, workforce development programs' (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        "safety": {
+          "label": "Mixed: backs law enforcement, firefighters and first responders while also calling for 'transparency and accountability' to build community trust (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        "repro": {
+          "label": "'I believe every life has value and worth. While I support a woman's right to make her own healthcare decisions' (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign site pledges to 'fight for policies that lower costs, increase competition, strengthen supply chains' without specifying a price-cap or deregulation mechanism, checked campaign platform page (checked Aug 29, 2026)",
+        "housing": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
+        "taxes": "campaign platform page's only tax language is helping families 'keep more of what they earn,' with no corporate/high-earner stance; checked campaign platform page (checked Aug 29, 2026)",
+        "climate": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
+        "democracy": "campaign platform's independent-redistricting-commission pledge is about district-line fairness rather than voting access/rules, so it does not fit this axis as defined; nothing else found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        {
+          "label": "Alabama Reflector: Palmer, Mercer, Akin win nominations",
+          "url": "https://alabamareflector.com/2026/08/11/u-s-rep-gary-palmer-gets-gop-nod-in-alabama-6th-congressional-district/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL06184/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H0AL07086",
+      "name": "Terri A. Sewell",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "7",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "U.S. Representative for Alabama's 7th District",
+      "background": "U.S. Representative since 2011, Alabama's first Black congresswoman. Unopposed in the Aug 11, 2026 Democratic special primary.",
+      "priorities": [
+        "A $15 minimum wage",
+        "Expand Medicaid and lower prescription drug costs",
+        "Restore and expand the Voting Rights Act"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 0,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "A proponent of a $15 federal minimum wage; voted for the Paycheck Fairness Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "health": {
+          "label": "Voted for the ACA, supports Medicaid expansion, and sponsors bills lowering prescription drug costs and expanding rural hospital funding (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act in 2025, a shift from voting no on a similar measure in 2024 (Wikipedia); House roll call 23, Jan 22, 2025",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "climate": {
+          "label": "Mixed record: 'opposes offshore drilling' but also opposed letting the EPA regulate greenhouse gas emissions (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "education": {
+          "label": "Sponsored a 2019 bill granting HBCUs $70 million for capital improvements and educational support (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "repro": {
+          "label": "'Supports abortion rights,' called Alabama's Human Life Protection Act 'blatantly unconstitutional and extremist,' called Dobbs 'devastating' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        "democracy": {
+          "label": "Sponsored the Voting Rights Advancement Act in 2019 to restore federal oversight of discriminatory voting changes (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
+        "taxes": "supported extending tax cuts for low- and middle-income earners but Wikipedia notes she 'declined discussing' her stance on higher-income taxation, and her no vote on the 2025 tax law (roll 190) alone does not establish this axis per project rules (checked Aug 29, 2026)",
+        "safety": "checked Wikipedia, only a gun-violence mention, which is off-axis per project rules (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Terri Sewell",
+          "url": "https://en.wikipedia.org/wiki/Terri_Sewell"
+        },
+        {
+          "label": "House roll call 23, Laken Riley Act",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 102, SAVE Act",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0AL07086/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6AL07208",
+      "name": "Ammie Akin",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "7",
+      "state": "AL",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Birmingham, AL",
+      "now": "Educator and nonprofit co-founder",
+      "background": "Birmingham educator with 25 years' experience as a teacher, administrator and college professor; co-founder of the Hub in the Hills shared workspace nonprofit and board chair of Unless U, which supports adults with disabilities. Won her Republican special primary with over 70% on Aug 11, 2026.",
+      "priorities": [
+        "Fight wasteful Washington spending",
+        "Support law enforcement and first responders",
+        "Strengthen rural healthcare access"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Campaign priority of 'fighting wasteful Washington spending and demanding responsible, accountable use of taxpayer dollars' (1819 News)",
+          "url": "https://1819news.com/news/item/birminghams-ammie-akin-launches-congressional-campaign-to-challenge-democrat-incumbent-terri-sewell"
+        },
+        "safety": {
+          "label": "Pledges to support 'law enforcement, first responders, and the military with the resources they need to keep our communities safe' (1819 News)",
+          "url": "https://1819news.com/news/item/birminghams-ammie-akin-launches-congressional-campaign-to-challenge-democrat-incumbent-terri-sewell"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked her campaign launch coverage and a Yellowhammer News profile, nothing documented beyond general leadership rhetoric (checked Aug 29, 2026)",
+        "health": "her rural-healthcare-access language names no public-vs-private mechanism to score a direction; checked her campaign launch coverage (checked Aug 29, 2026)",
+        "housing": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
+        "immigration": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
+        "climate": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
+        "education": "her 'partnership between educators, parents, and the community' language names no specific policy direction despite her education background; checked campaign coverage (checked Aug 29, 2026)",
+        "repro": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
+        "democracy": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "1819 News: Akin launches congressional campaign",
+          "url": "https://1819news.com/news/item/birminghams-ammie-akin-launches-congressional-campaign-to-challenge-democrat-incumbent-terri-sewell"
+        },
+        {
+          "label": "Alabama Reflector: Akin wins GOP nomination",
+          "url": "https://alabamareflector.com/2026/08/11/ammie-akin-wins-republican-nomination-in-alabamas-7th-congressional-district/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AL07208/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

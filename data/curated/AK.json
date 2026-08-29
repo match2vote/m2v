@@ -80,7 +80,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 2,
         "democracy": 1
@@ -121,6 +121,10 @@
         "democracy": {
           "label": "Voted against advancing the Freedom to Vote: John R. Lewis Act; cloture on H.R. 5746 failed 49-51 (Senate roll call 9, Jan 2022)",
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00009.htm"
+        },
+        "education": {
+          "label": "Voted to confirm Betsy DeVos, saying 'education decisions are best left in the hands of state and local authorities, and that parental involvement is critical' (sullivan.senate.gov)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-votes-to-confirm-betsy-devos-for-secretary-of-education"
         }
       },
       "controversies": [
@@ -210,7 +214,8 @@
         }
       },
       "nullNotes": {
-        "taxes": "removed in QA: cited affordability page documents only targeted household tax cuts (no federal income tax under $92,000, no tax on Social Security) with no spending-cut agenda, which per calibration does not fit the axis; the 'raising taxes on the wealthiest' claim was not documented on the cited page"
+        "taxes": "removed in QA: cited affordability page documents only targeted household tax cuts (no federal income tax under $92,000, no tax on Social Security) with no spending-cut agenda, which per calibration does not fit the axis; the 'raising taxes on the wealthiest' claim was not documented on the cited page; re-checked Aug 28, 2026: her affordability plan proposes eliminating income taxes under $92,000, a targeted household cut that does not fit this axis per the calibration anchors; no position on raising or broadly cutting taxes documented (Alaska Beacon May 11)",
+        "democracy": "re-checked Aug 28, 2026: affordability campaign coverage and searches for voting rights positions or John Lewis VRA support surfaced nothing documented"
       },
       "controversies": [
         {

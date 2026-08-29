@@ -18,7 +18,7 @@
         "fec-H2IA02111",
         "fec-H6IA01213"
       ],
-      "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running, positions not researched yet.",
+      "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -35,12 +35,12 @@
       ]
     },
     "IA-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2IA03119",
         "fec-H6IA03268"
       ],
-      "statusNote": "Rep. Zach Nunn (R) faces state Sen. Sarah Trone Garriott (D), who won the June 2, 2026 Democratic primary in a district decided by fewer than four points in each of the last two elections. We know who's running, positions not researched yet.",
+      "statusNote": "Rep. Zach Nunn (R) faces state Sen. Sarah Trone Garriott (D), who won the June 2, 2026 Democratic primary in a district decided by fewer than four points in each of the last two elections. 7 of 10 axes filled as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -64,7 +64,7 @@
         "ia-house-2-stewart",
         "fec-H6IA02260"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Also on the ballot per the Secretary of State's list: Rick Stewart (Libertarian) and Dave Bushaw (no party). We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Also on the ballot per the Secretary of State's list: Rick Stewart (Libertarian) and Dave Bushaw (no party). We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -86,7 +86,7 @@
         "fec-H6IA04167",
         "fec-H6IA04217"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot, and no other candidate appears on the Secretary of State's list. We know who's running, positions not researched yet.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot, and no other candidate appears on the Secretary of State's list. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -246,7 +246,8 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "climate": "checked campaign platform (turek4iowa.com/platform) and Wikipedia, nothing documented; legislative-record search also empty",
-        "education": "cited Wikipedia article no longer documents any voucher or education-policy stance (checked Aug 28, 2026)"
+        "education": "cited Wikipedia article no longer documents any voucher or education-policy stance (checked Aug 28, 2026)",
+        "democracy": "searched Aug 28, 2026: Ballotpedia (no Candidate Connection survey any cycle), race coverage, and campaign materials surfaced no voting-rules or election-law position"
       }
     },
     {
@@ -256,22 +257,92 @@
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": true,
       "now": "U.S. House of Representatives (IA-01)",
       "background": "Mariannette Miller-Meeks is the incumbent U.S. Representative for Iowa's 1st District, an ophthalmologist and 24-year U.S. Army veteran who also served as director of the Iowa Department of Public Health and as a state senator. In Congress since 2021 (2nd District 2021-2023, 1st District since 2023), she won the June 2, 2026 Republican primary with 71.6% over David Pautsch with President Trump's endorsement.",
       "sources": [
         {
-          "label": "Iowa Capital Dispatch: primary result",
-          "url": "https://iowacapitaldispatch.com/2026/06/02/iowa-1st-district-bohannan-miller-meeks-to-face-off-in-november-ap-projects/"
-        },
-        {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Mariannette_Miller-Meeks"
+        },
+        {
+          "label": "House office issues pages",
+          "url": "https://millermeeks.house.gov/issues"
+        },
+        {
+          "label": "Iowa Starting Line: abortion position analysis",
+          "url": "https://iowastartingline.com/2024/10/04/mariannette-miller-meeks-abortion/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8IA02043/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-29",
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Cut taxes, spending, and regulation",
+        "Border security and immigration enforcement",
+        "Energy independence through all domestic sources"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Championed the 'Working Families Tax Cuts,' called 'the largest tax relief for working and middle-class Americans in U.S. history,' plus deregulation to cut costs (House office issues page)",
+          "url": "https://millermeeks.house.gov/issues/economy"
+        },
+        "health": {
+          "label": "Prices on the Wall Act requires providers to post prices; PBM reform via the DRUG Act; dismissed extending ACA subsidies as something that 'did nothing to lower the premiums' (House office, Iowa Capital Dispatch)",
+          "url": "https://millermeeks.house.gov/issues/health"
+        },
+        "housing": {
+          "label": "21st Century ROAD to Housing Act, which she championed, 'cuts red tape, builds more homes, lowers costs' via fewer regulatory barriers (House office press release)",
+          "url": "https://millermeeks.house.gov/media/press-releases/21st-century-road-housing-act-championed-miller-meeks-becomes-law"
+        },
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'American energy should remain in American hands': led effort to protect fracking, voted to expand LNG exports, opposed the EV mandate (House office energy page)",
+          "url": "https://millermeeks.house.gov/issues/energy"
+        },
+        "education": {
+          "label": "Cosponsored the Educational Choice for Children Act, '$10 billion in annual tax credits to incentivize education choice for K-12 students' (House office education page)",
+          "url": "https://millermeeks.house.gov/issues/education"
+        },
+        "safety": {
+          "label": "Touted the One Big Beautiful Bill's law-enforcement provisions at a campaign event: 'No tax on overtime is a raise for every police officer,' plus $750M for law enforcement training (WBBJ campaign coverage)",
+          "url": "https://www.wbbjtv.com/2026/07/17/rep-miller-meeks-touts-one-big-beautiful-bills-law-enforcement-provisions-pella-campaign-event/"
+        },
+        "repro": {
+          "label": "Supports a national 15-week abortion ban, praised Iowa's near-total ban, and cosponsored the no-exceptions Life at Conception Act in 2021 (Iowa Starting Line)",
+          "url": "https://iowastartingline.com/2024/10/04/mariannette-miller-meeks-abortion/"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {}
     },
     {
       "id": "fec-H2IA02111",
@@ -280,22 +351,82 @@
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "now": "Law professor, University of Iowa",
       "background": "Christina Bohannan is a University of Iowa law professor and former Iowa House member who worked as an environmental engineer before her legal career. She lost this seat to Miller-Meeks by roughly 800 votes in 2024 and won the June 2, 2026 Democratic primary with 81.5% over Travis Terrell for the rematch.",
       "sources": [
         {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Christina_Bohannan"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        {
           "label": "Iowa Capital Dispatch: primary result",
           "url": "https://iowacapitaldispatch.com/2026/06/02/iowa-1st-district-bohannan-miller-meeks-to-face-off-in-november-ap-projects/"
         },
         {
-          "label": "Ballotpedia profile",
-          "url": "https://ballotpedia.org/Christina_Bohannan"
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2IA02111/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-29",
+      "age": null,
+      "home": null,
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Iowans are struggling to make ends meet': plans to end tariffs and 'crack down on price gouging' (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "health": {
+          "label": "Supports letting Iowans buy into Medicare at any age while keeping private insurance options and capping insulin at $35/month; opposes single-payer (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "housing": {
+          "label": "Plans to prohibit hedge funds and private investors from 'purchasing family homes and artificially raising rents' while building and rehabilitating more housing (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "taxes": {
+          "label": "Calls tariffs 'one of the biggest tax increases in American history,' opposes 'billionaire tax giveaways,' and backs closing corporate loopholes (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "climate": {
+          "label": "Backs clean-energy expansion and water-quality investment for farmers hit by 'heat, drought, and extreme weather' (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "education": {
+          "label": "'Make Iowa number one in public education again' through reinvestment, opposing voucher programs that 'drain resources' (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "repro": {
+          "label": "'I will fight every day to put Roe v. Wade back into federal law' against Iowa's six-week ban (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        },
+        "democracy": {
+          "label": "Backs 'the Let America Vote Act to allow the 33% of Iowans who are independents to participate in primaries' (campaign priorities page)",
+          "url": "https://bohannanforcongress.com/priorities/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "checked campaign priorities page (checked Aug 29, 2026): no position stated there; a 2024 WVIK interview has her praising a bipartisan Senate border-security bill but does not address legal pathways, too dated and one-sided to score against the current axis",
+        "safety": "campaign priorities page lists 'the right to safe and healthy communities free from crime and pollution' as a value with no policy mechanism specified (checked Aug 29, 2026)"
+      }
     },
     {
       "id": "fec-H2IA03119",
@@ -304,22 +435,92 @@
       "office": "us-house",
       "district": "3",
       "state": "IA",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "now": "U.S. House of Representatives (IA-03)",
       "background": "Zach Nunn is the incumbent U.S. Representative for Iowa's 3rd District, a U.S. Air Force veteran and former cybersecurity official who served on the White House National Security Council and in the Office of the Director of National Intelligence. A former state legislator, he has held the seat since 2023 after winning races decided by fewer than four points.",
       "sources": [
         {
-          "label": "DNC statement on IA-03 primary result",
-          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+          "label": "House office issues pages",
+          "url": "https://nunn.house.gov/priorities/issues/"
         },
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Zach_Nunn"
+        },
+        {
+          "label": "DNC statement on IA-03 primary result",
+          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2IA03119/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-29",
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Cut taxes, regulation, and spending",
+        "Border security",
+        "Domestic energy including biofuels"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'I am a big proponent of finding ways to cut taxes, cut regulations, and cut government spending' (House office economy page)",
+          "url": "https://nunn.house.gov/priorities/issues/improving-economy/"
+        },
+        "education": {
+          "label": "'Educational success should not be dictated by zip code and there is no one-size-fits-all for education,' backing parental options when a child's needs aren't met and saying he 'support[s] parents having a strong say in their own child's education' (House office families and kids issues page)",
+          "url": "https://nunn.house.gov/priorities/issues/helping-families-kids/"
+        },
+        "health": {
+          "label": "Calls the ACA 'one of the most destructive health care plans out there' and backs HSA flexibility and price transparency, though he voted to extend enhanced subsidies through 2028 as a transition (Iowa Capital Dispatch)",
+          "url": "https://iowacapitaldispatch.com/2026/01/28/nunn-extend-enhanced-health-care-tax-credits-as-transition-to-repealing-aca/"
+        },
+        "housing": {
+          "label": "Championed a housing bill that 'removes outdated laws and restrictions' and 'prods local governments to relax permitting rules,' alongside limits on Wall Street home-buying (NRCC coverage)",
+          "url": "https://nrcc.org/2026/05/22/zach-nunn-fights-to-lower-housing-costs/"
+        },
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Champions Iowa's 'renewable fuels industry' and year-round E15 as 'homegrown energy' (House office release)",
+          "url": "https://nunn.house.gov/2026/05/20/nunn-introduces-resolution-recognizing-may-as-renewable-fuels-month-2/"
+        },
+        "safety": {
+          "label": "Authored a House resolution 'backing law enforcement,' opposing defund-the-police and sanctuary-city policies: 'it shouldn't be controversial to stand with the men and women who put their lives on the line' (House office release)",
+          "url": "https://nunn.house.gov/2026/05/13/house-passes-nunn-resolution-backing-law-enforcement-173-democrats-vote-no/"
+        },
+        "repro": {
+          "label": "'I am pro-life and believe life begins at conception,' with exceptions for rape, incest, fetal abnormality, and the mother's life (campaign site)",
+          "url": "https://zachnunn.com/zach-nunn-im-pro-life-and-i-support-protecting-the-life-of-the-mother-and-the-baby/"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {}
     },
     {
       "id": "fec-H6IA03268",
@@ -328,7 +529,7 @@
       "office": "us-house",
       "district": "3",
       "state": "IA",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "home": "Dallas County, IA",
@@ -341,15 +542,71 @@
       ],
       "sources": [
         {
-          "label": "DNC statement on IA-03 primary result",
-          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+          "label": "Campaign issues pages",
+          "url": "https://sarahforiowa.com/issues/"
         },
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Sarah_Trone_Garriott"
+        },
+        {
+          "label": "DNC statement on IA-03 primary result",
+          "url": "https://democrats.org/news/dnc-congratulates-sarah-trone-garriott-on-her-victory-in-the-democratic-primary-for-iowas-3rd-congressional-district/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA03268/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-08-29",
+      "age": null,
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": -1,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Plans on 'cracking down on corporate price gouging and ending the reckless tariff policy,' plus expanding the Child Tax Credit and EITC (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/making-life-more-affordable-for-all-of-us/"
+        },
+        "health": {
+          "label": "Would let Medicare negotiate drug prices, expand Medicare access, 'roll back the massive Medicaid cuts,' and extend ACA tax credits (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/health-care-thats-affordable-and-there-when-you-need-it/"
+        },
+        "immigration": {
+          "label": "Mixed: 'streamlines legal pathways, protects Dreamers' AND 'secures the border' with ICE 'accountable to the American people' (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/immigration-thats-smart-fair-and-reflects-our-values/"
+        },
+        "climate": {
+          "label": "Backs 'investments in clean energy like wind, solar, and biofuels which already power thousands of Iowa jobs' (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/protecting-iowas-land-water-and-clean-energy-future/"
+        },
+        "education": {
+          "label": "Would 'raise teacher pay, expand early childhood education,' and opposes 'diverting millions of taxpayer dollars to private school vouchers' (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/protect-great-public-schools-for-every-child-in-every-community/"
+        },
+        "safety": {
+          "label": "'Safety isn't just about enforcement, it's about prevention': backs community-based mental-health response teams and victim services alongside local law enforcement (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/public-safety-is-a-top-priority/"
+        },
+        "repro": {
+          "label": "Would 'restore nationwide protections for abortion access' and protect contraception, IVF, and prenatal care (campaign issues page)",
+          "url": "https://sarahforiowa.com/issue/reproductive-freedom-is-personal-and-non-negotiable/"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked full campaign issues list (12 pages) and Wikipedia; no dedicated housing page or policy mechanism found (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked Ballotpedia 2024 Candidate Connection survey, no housing content; legis.iowa.gov bill-sponsor search interface returned no usable results via fetch)",
+        "taxes": "her economy page pledges workforce/apprenticeship investment 'not by writing blank checks' but states no corporate/high-earner tax position; an Iowa Capital Dispatch China-tariff piece only characterizes an opponent's votes, not her own tax stance (checked Aug 29, 2026) (closer round, Aug 29, 2026: Ballotpedia 2024 Candidate Connection survey has her calling for 'tax policies that are fair' with no stated mechanism or target, too vague to fit the axis per guide's targeted-credit-is-null calibration; legis.iowa.gov bill search returned no usable results via fetch)",
+        "democracy": "her ethics page proposes non-partisan redistricting to end gerrymandering, which is a map-drawing reform and does not fit the registration/voter-ID axis; checked for a separate voting-access statement, none found (checked Aug 29, 2026) (closer round, Aug 29, 2026: Ballotpedia 2024 Candidate Connection survey has her backing a state-level direct referendum process, which is a ballot-initiative mechanism, not registration/mail-voting/voter-ID access, so it does not fit this axis either; legis.iowa.gov bill search returned no usable results via fetch)"
+      }
     },
     {
       "id": "fec-S6IA00181",
@@ -371,19 +628,68 @@
     {
       "id": "fec-H6IA01213",
       "name": "Michael Bridgford",
-      "party": "No Party",
+      "party": "Independent",
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
         {
+          "label": "Iowa Capital Dispatch op-ed by Bridgford",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/michael-bridgford-independents-in-congress-would-help-get-things-done/"
+        },
+        {
+          "label": "Iowa Public Radio: campaign profile",
+          "url": "https://www.iowapublicradio.org/political-news/2026-04-16/independent-candidate-michael-bridgford-1st-congressional-district"
+        },
+        {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IA01213/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "background": "Independent candidate who entered Iowa's 1st Congressional District race in April 2026, arguing that 'independents in Congress would help get things done'; has not held elected office.",
+      "priorities": [
+        "Post-partisan, independent representation",
+        "Health-care price transparency",
+        "Congressional term limits and stock-trading ban"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs 'price transparency and pharmacy benefit manager reform' to lower health costs (Iowa Capital Dispatch op-ed)",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/michael-bridgford-independents-in-congress-would-help-get-things-done/"
+        },
+        "immigration": {
+          "label": "Mixed: on border security 'the answer is in the middle,' rejecting both insufficient enforcement under Biden AND 'aggressive enforcement' that disrupts communities (Iowa Public Radio)",
+          "url": "https://www.iowapublicradio.org/political-news/2026-04-16/independent-candidate-michael-bridgford-1st-congressional-district"
+        }
+      },
+      "nullNotes": {
+        "cost": "op-ed attributes affordability to 'increases to the country's money supply and a lack of consistency in trade policies,' a diagnosis with no price-cap or deregulation mechanism stated (checked Aug 29, 2026)",
+        "housing": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "taxes": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "climate": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "education": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "safety": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "repro": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
+        "democracy": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview; he discusses term limits and banning congressional stock trading, which do not fit the voting-rules axis"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ia-house-2-stewart",
@@ -392,32 +698,449 @@
       "office": "us-house",
       "district": "2",
       "state": "IA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Iowa SOS: 2026 general election candidate list (Aug 19, 2026)",
+          "label": "Iowa Capital Dispatch profile",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/libertarian-wants-to-repeal-income-tax-welfare-programs-immigration-policy/"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/Rick_Stewart"
+        },
+        {
+          "label": "Iowa SOS: 2026 general election candidate list",
           "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "background": "Cedar Rapids businessman and perennial Libertarian candidate who previously sought the U.S. Senate in 2020 and 2022; survived a Republican-backed August 2026 court challenge to his ballot petition signatures.",
+      "priorities": [
+        "Replace the income tax with a land tax",
+        "End the Drug War",
+        "School choice: funding follows the child"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": 2,
+        "safety": -2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Proposes an auction system letting vetted immigrants bid for lifetime green cards and allowing visa purchases for non-criminals to visit (Iowa Capital Dispatch)",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/libertarian-wants-to-repeal-income-tax-welfare-programs-immigration-policy/"
+        },
+        "climate": {
+          "label": "Advocates a universal carbon tax with per-capita rebates, calling it necessary to cut emissions driving warming (Iowa Capital Dispatch)",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/libertarian-wants-to-repeal-income-tax-welfare-programs-immigration-policy/"
+        },
+        "education": {
+          "label": "'Let parents find the best teachers for their kids' by having 'taxpayers' money follow the child' across public or private schools (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Rick_Stewart"
+        },
+        "safety": {
+          "label": "Calls for ending the Drug War: 'threatening them with prison has no persuasive moral basis' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Rick_Stewart"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection; his universal-basic-income and land-tax proposals restructure the tax/welfare system rather than stating a price-cap or deregulation position",
+        "health": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection survey (2020, 2022), nothing documented",
+        "housing": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection survey, nothing documented",
+        "taxes": "wants to replace the income tax with a land tax, a restructuring proposal that does not map to raise-vs-cut on this axis (checked Aug 29, 2026)",
+        "repro": "checked Ballotpedia Candidate Connection survey and Iowa Capital Dispatch profile, nothing documented",
+        "democracy": "supports ranked-choice voting per his Candidate Connection survey, which is a ballot-counting reform rather than a registration/ID position on this axis (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6IA02260",
       "name": "Dave Bushaw",
-      "party": "No Party",
+      "party": "Independent",
       "office": "us-house",
       "district": "2",
       "state": "IA",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "researched",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.davebushaw.com/platform"
+        },
+        {
+          "label": "Iowa Capital Dispatch: campaign profile",
+          "url": "https://iowacapitaldispatch.com/2026/08/15/dave-bushaw-calls-for-building-political-independent-movement-in-iowa/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IA02260/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "background": "Independent candidate and labor unionist who entered Iowa's 2nd Congressional District race in November 2025, campaigning to build a political-independent movement and take on 'the elite ruling class.'",
+      "priorities": [
+        "Medicare for All",
+        "Break up Wall Street landlords",
+        "Independent political movement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "Proposes 'abolishing premiums, co-payments, and deductibles' through universal Medicare for All funded by payroll tax (campaign platform)",
+          "url": "https://www.davebushaw.com/platform"
+        },
+        "housing": {
+          "label": "Wants to break up private-equity landlords like Blackstone and reinstate a 'Glass-Steagall framework' separating commercial and investment banking (campaign platform)",
+          "url": "https://www.davebushaw.com/platform"
+        },
+        "immigration": {
+          "label": "Mixed: backs 'a legal pathway to citizenship' for undocumented workers 'rather than enforcement raids,' while also calling for stronger 'borders' with humane enforcement (campaign platform)",
+          "url": "https://www.davebushaw.com/platform"
+        },
+        "education": {
+          "label": "Calls for expanding 'early learning and headstart programs' in publicly funded schools (campaign platform)",
+          "url": "https://www.davebushaw.com/platform"
+        },
+        "democracy": {
+          "label": "Supports making 'Election Day a federal holiday' and creating national citizen ballot referendums (campaign platform)",
+          "url": "https://www.davebushaw.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented on price caps or deregulation",
+        "taxes": "platform calls for eliminating 'private taxes' from health-insurance premiums via universal healthcare funding, which is a healthcare-financing argument rather than a general tax-rate position (checked Aug 29, 2026)",
+        "climate": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented",
+        "safety": "platform's 'domestic defence' language is framed against overseas military spending, not domestic crime policy (checked Aug 29, 2026)",
+        "repro": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6IA02237",
+      "name": "Joe Mitchell",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "IA",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Former Iowa state representative (House District 84) who won the June 2, 2026 Republican primary for the open 2nd District seat, pledging to refuse corporate PAC money.",
+      "priorities": [
+        "Border security and immigration enforcement",
+        "Defending the right to life",
+        "Voter ID and election integrity"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Lower costs, increase transparency, and expand consumer choice while preserving key protections from the ACA' (campaign issues page)",
+          "url": "https://www.joemitchell.com/issues"
+        },
+        "immigration": {
+          "label": "'Securing our borders, deporting criminal illegal immigrants, and reforming our immigration laws' to put Americans first (campaign issues page)",
+          "url": "https://www.joemitchell.com/issues"
+        },
+        "taxes": {
+          "label": "Wants 'a tax system that rewards work, not punishes it' and campaigned on lowering taxes (campaign issues page; Iowa Capital Dispatch voter guide)",
+          "url": "https://www.joemitchell.com/issues"
+        },
+        "education": {
+          "label": "K-12 should build fundamentals 'while empowering parents' (campaign issues page)",
+          "url": "https://www.joemitchell.com/issues"
+        },
+        "repro": {
+          "label": "Lists 'defending the right to life' among his core priorities (Iowa Capital Dispatch voter guide)",
+          "url": "https://iowacapitaldispatch.com/voter-guides/contests/2026-primary-us-house-district-2-republican/"
+        },
+        "democracy": {
+          "label": "'I also support voter ID laws to ensure free and fair federal elections. Identification is widely accessible' (campaign issues page)",
+          "url": "https://www.joemitchell.com/issues"
+        }
+      },
+      "nullNotes": {
+        "cost": "issues page laments wage stagnation amid rising corporate profits but states no price-cap or deregulation mechanism (checked Aug 29, 2026)",
+        "housing": "issues page calls housing 'unattainable' with no policy mechanism stated (checked Aug 29, 2026)",
+        "climate": "checked campaign issues page and Iowa Capital Dispatch voter guide, no energy/climate position stated",
+        "safety": "checked campaign issues page and Iowa Capital Dispatch voter guide, nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.joemitchell.com/issues"
+        },
+        {
+          "label": "Iowa Capital Dispatch voter guide",
+          "url": "https://iowacapitaldispatch.com/voter-guides/contests/2026-primary-us-house-district-2-republican/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Joe_Mitchell_(Iowa)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA02237/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6IA02211",
+      "name": "Lindsay James",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "IA",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Iowa state representative for the Dubuque area and an ordained minister; won the June 2, 2026 Democratic primary for the open 2nd District seat.",
+      "priorities": [
+        "Lower healthcare costs, restore ACA protections",
+        "Protect public education funding",
+        "End DC corruption"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Says she'd 'roll back' the Affordable Care Act cuts made by Congress and pursue accountability and transparency on pharmaceutical costs (Iowa Capital Dispatch)",
+          "url": "https://iowacapitaldispatch.com/2026/08/20/rep-lindsay-james-says-shed-roll-back-obamacare-cuts-in-congress/"
+        },
+        "education": {
+          "label": "'Education is the ultimate equalizer in our country. The government should make sure it stays that way' (campaign issues page)",
+          "url": "https://www.lindsayforiowa.com/issues"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign issues page says Iowans are 'living paycheck to paycheck' with no price-cap, wage, or deregulation mechanism stated (checked Aug 29, 2026)",
+        "housing": "issues page names veterans' 'lack of affordable housing' as a problem with no policy mechanism stated (checked Aug 29, 2026)",
+        "immigration": "issues page says only 'Congress has clearly failed on both immigration reform, and gun safety reform,' no specific position stated (checked Aug 29, 2026)",
+        "taxes": "checked campaign issues page and Ballotpedia (no Candidate Connection survey), nothing documented",
+        "climate": "checked campaign issues page and Ballotpedia, nothing documented",
+        "safety": "a Townhall attack piece claims she 'voted to make it easier for violent repeat offenders to get bail' but cites no bill number or direct quote from her to verify (checked Aug 29, 2026); campaign issues page only says she wants 'common sense policies' with no mechanism",
+        "repro": "checked campaign issues page and Ballotpedia; EMILY's List and Reproductive Freedom for All endorsements exist but are third-party characterizations, not her own stated position (checked Aug 29, 2026)",
+        "democracy": "checked campaign issues page and Ballotpedia (no Candidate Connection survey), nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.lindsayforiowa.com/issues"
+        },
+        {
+          "label": "Iowa Capital Dispatch: healthcare position",
+          "url": "https://iowacapitaldispatch.com/2026/08/20/rep-lindsay-james-says-shed-roll-back-obamacare-cuts-in-congress/"
+        },
+        {
+          "label": "Iowa Capital Dispatch: primary result",
+          "url": "https://iowacapitaldispatch.com/2026/06/02/state-rep-lindsay-james-wins-district-2-democratic-primary-ap-projects/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA02211/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6IA04167",
+      "name": "Chris McGowan",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "IA",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "President and CEO of the Siouxland Chamber of Commerce in Sioux City; became the first Republican in the open 4th District race in June 2025 and won the June 2, 2026 primary.",
+      "priorities": [
+        "Secure the southern border",
+        "School choice",
+        "Pro-life values"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": 2,
+        "safety": 1,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Says the country 'must secure its southern border before addressing immigration comprehensively' and praised the Trump administration's border enforcement (KTIV coverage)",
+          "url": "https://www.ktiv.com/2026/08/11/republican-candidate-outlines-key-issues-november-election-approaches/"
+        },
+        "education": {
+          "label": "Backs Iowa's education savings account program and the federal scholarship tax credit: 'parents should have the ability to make those choices based on their children's individual needs' (KTIV coverage)",
+          "url": "https://www.ktiv.com/2026/08/11/republican-candidate-outlines-key-issues-november-election-approaches/"
+        },
+        "safety": {
+          "label": "Pledges to 'fight to stop the flow of fentanyl' and 'work to liberate those enslaved in human trafficking' (campaign vision page)",
+          "url": "https://www.mcgowanforiowa.com/vision"
+        },
+        "repro": {
+          "label": "'Defending life from conception to natural death' (campaign vision page)",
+          "url": "https://www.mcgowanforiowa.com/vision"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign vision page (economy/spending priorities are framed only as 'strong economy' and 'eliminating wasteful spending' with no price or wage mechanism) and KTIV interview, nothing more specific documented",
+        "health": "checked campaign site and KTIV/KIWA interviews, nothing documented",
+        "housing": "checked campaign site and KTIV/KIWA interviews, nothing documented",
+        "taxes": "his only tax mention is the education scholarship tax credit, a targeted credit with no broader tax-rate agenda stated, so it does not fit this axis (checked Aug 29, 2026)",
+        "climate": "checked campaign site and KTIV/KIWA interviews, nothing documented",
+        "democracy": "checked campaign site and KTIV/KIWA interviews, nothing documented"
+      },
+      "sources": [
+        {
+          "label": "KTIV: key issues interview",
+          "url": "https://www.ktiv.com/2026/08/11/republican-candidate-outlines-key-issues-november-election-approaches/"
+        },
+        {
+          "label": "Campaign vision page",
+          "url": "https://www.mcgowanforiowa.com/vision"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chris_McGowan"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA04167/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6IA04217",
+      "name": "Dave Dawson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "IA",
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Former Iowa state senator who won the June 2, 2026 Democratic primary for the open 4th District seat over two other Democrats.",
+      "priorities": [
+        "Lower healthcare costs, protect the ACA",
+        "Raise the minimum wage",
+        "Restore Voting Rights Act protections"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would raise the federal minimum wage from $7.25, expand the Child Tax Credit and affordable childcare, and 'crack down on corporate monopolies' (campaign site)",
+          "url": "https://davedawsonforiowa.com/"
+        },
+        "health": {
+          "label": "Backs letting Medicare negotiate drug prices, capping insulin costs, protecting the ACA, and a public option while protecting union coverage (campaign site)",
+          "url": "https://davedawsonforiowa.com/"
+        },
+        "taxes": {
+          "label": "Would 'lift the payroll tax cap for wealthy Americans' to protect Social Security (campaign site)",
+          "url": "https://davedawsonforiowa.com/"
+        },
+        "democracy": {
+          "label": "Would 'restore Voting Rights Act protections' (campaign site)",
+          "url": "https://davedawsonforiowa.com/"
+        }
+      },
+      "nullNotes": {
+        "housing": "campaign site lists 'affordable housing initiatives' under Rural Communities with no mechanism specified (checked Aug 29, 2026)",
+        "immigration": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
+        "climate": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
+        "education": "campaign site addresses rural broadband and roads but not K-12 school funding or choice (checked Aug 29, 2026)",
+        "safety": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
+        "repro": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://davedawsonforiowa.com/"
+        },
+        {
+          "label": "Iowa Capital Dispatch: primary result",
+          "url": "https://iowacapitaldispatch.com/2026/06/02/iowa-4th-district-former-state-rep-dave-dawson-wins-democratic-primary-ap-projects/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Dave_Dawson"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6IA04217/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

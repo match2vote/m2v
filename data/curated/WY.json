@@ -45,7 +45,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": null,
         "repro": 1,
         "democracy": 2
@@ -74,6 +74,10 @@
         "democracy": {
           "label": "Voted for the SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, 2025)",
           "url": "https://clerk.house.gov/Votes/2025102"
+        },
+        "education": {
+          "label": "Voted for H.R. 5, the Parental Bill of Rights Act: 'Parents have every right to know what their children are being taught' (hageman.house.gov)",
+          "url": "https://hageman.house.gov/media/press-releases/hageman-votes-transparency-and-parental-rights-education"
         }
       },
       "sources": [

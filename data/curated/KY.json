@@ -17,7 +17,7 @@
         "fec-H6KY01110",
         "fec-H6KY01169"
       ],
-      "statusNote": "Rep. James Comer (R) seeks re-election against Drew Williams (D), nominees set in the May 19, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Rep. James Comer (R) seeks re-election against Drew Williams (D), nominees set in the May 19, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky 2026 candidates by district (Election2026)",
@@ -36,7 +36,7 @@
         "fec-H6KY02068",
         "ky-house-2-loecken"
       ],
-      "statusNote": "Rep. Brett Guthrie (R) seeks re-election against Megan Wingfield (D), who won the May 19, 2026 Democratic primary over Hank Linderman, with independent Thomas A. Loecken also certified for the ballot. Positions are not researched yet.",
+      "statusNote": "Rep. Brett Guthrie (R) seeks re-election against Megan Wingfield (D), who won the May 19, 2026 Democratic primary over Hank Linderman, with independent Thomas A. Loecken also certified for the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky Secretary of State: 2026 General Election candidate filings, U.S. Representative",
@@ -58,7 +58,7 @@
         "fec-H2KY03206",
         "fec-H6KY03223"
       ],
-      "statusNote": "Rep. Morgan McGarvey (D) seeks a third term in this Louisville seat against Maria Teresa Rodriguez (R), who won the May 19, 2026 Republican primary over David Joseph Nichter. Positions are not researched yet.",
+      "statusNote": "Rep. Morgan McGarvey (D) seeks a third term in this Louisville seat against Maria Teresa Rodriguez (R), who won the May 19, 2026 Republican primary over David Joseph Nichter. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky Secretary of State: 2026 General Election candidate filings, U.S. Representative",
@@ -81,7 +81,7 @@
         "fec-H6KY04189",
         "fec-H6KY04205"
       ],
-      "statusNote": "Open-seat contest after Rep. Thomas Massie (R) lost the May 19, 2026 Republican primary to Trump-endorsed Ed Gallrein, 55% to 45%. Gallrein faces Melissa Claire Strange (D) and Libertarian Jeremy Todd. Positions are not researched yet.",
+      "statusNote": "Open-seat contest after Rep. Thomas Massie (R) lost the May 19, 2026 Republican primary to Trump-endorsed Ed Gallrein, 55% to 45%. Gallrein faces Melissa Claire Strange (D) and Libertarian Jeremy Todd. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky Secretary of State: 2026 General Election candidate filings, U.S. Representative",
@@ -105,7 +105,7 @@
         "ky-house-5-serrano",
         "ky-house-5-wein"
       ],
-      "statusNote": "Rep. Hal Rogers (R), the longest-serving member of the House, won the May 19, 2026 primary over Kevin Smith and faces Ned Pillersdorf (D), with independents Gerardo Serrano and Mikel Wein also on the ballot. Positions are not researched yet.",
+      "statusNote": "Rep. Hal Rogers (R), the longest-serving member of the House, won the May 19, 2026 primary over Kevin Smith and faces Ned Pillersdorf (D), with independents Gerardo Serrano and Mikel Wein also on the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky Secretary of State: 2026 General Election candidate filings, U.S. Representative",
@@ -129,7 +129,7 @@
         "fec-H6KY06234",
         "ky-house-6-lynch"
       ],
-      "statusNote": "Open seat: Rep. Andy Barr (R) is running for the U.S. Senate. Former state Sen. Ralph Alvarado (R) beat Ryan Dotson in the May 19, 2026 primary and Zach Dembo (D) beat Cherlynn Stevenson; independent Jay J Bowman and Kentucky Party nominee Pete Lynch are also on the ballot. Positions are not researched yet.",
+      "statusNote": "Open seat: Rep. Andy Barr (R) is running for the U.S. Senate. Former state Sen. Ralph Alvarado (R) beat Ryan Dotson in the May 19, 2026 primary and Zach Dembo (D) beat Cherlynn Stevenson; independent Jay J Bowman and Kentucky Party nominee Pete Lynch are also on the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Kentucky Secretary of State: 2026 General Election candidate filings, U.S. Representative",
@@ -267,7 +267,7 @@
         "education": -1,
         "safety": -1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -305,6 +305,10 @@
         "repro": {
           "label": "'Abortion is healthcare': restore abortion rights, repeal the Hyde Amendment, full coverage for abortion and contraception (campaign site)",
           "url": "https://charlesbooker.org/issues/"
+        },
+        "democracy": {
+          "label": "As a state representative sponsored House Bill 6 to automatically restore felon voting rights: 'Once you have completed your sentence... you should be able to have your voice heard again' (PBS NewsHour)",
+          "url": "https://www.pbs.org/newshour/politics/kentucky-lawmaker-promotes-measure-to-restore-felon-voting-rights"
         }
       },
       "sources": [
@@ -334,7 +338,7 @@
       "office": "us-house",
       "district": "2",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -346,7 +350,38 @@
           "label": "The Green Papers: Kentucky 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/KY"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for KY-02",
+      "background": "Independent candidate for Kentucky's 2nd Congressional District. No campaign website, news coverage, or Ballotpedia Candidate Connection survey found documenting his background or platform.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "health": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "housing": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "immigration": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "taxes": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "climate": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "education": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "safety": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "repro": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)",
+        "democracy": "No campaign website, news coverage, or Ballotpedia survey found with any policy statement; searched by name plus 'Kentucky independent congress 2026' (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ky-house-5-serrano",
@@ -355,7 +390,7 @@
       "office": "us-house",
       "district": "5",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -367,7 +402,45 @@
           "label": "The Green Papers: Kentucky 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/KY"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for KY-05",
+      "background": "Perennial independent candidate for Kentucky's 5th District (also ran in 2018, 2020, 2022, and for Kentucky House in 2014). Recent Ballotpedia Candidate Connection surveys not completed; the only stated positions on file date to his 2014 campaign.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "2014 campaign statement: government 'should act as an individual citizen, balancing their checkbook', voiced concern about debt levels (Ballotpedia, dated statement)",
+          "url": "https://ballotpedia.org/Gerardo_Serrano"
+        },
+        "repro": {
+          "label": "2014 campaign statement: 'Pro-Life. I believe that life begins at conception and that we should protect every life' (Ballotpedia, dated statement)",
+          "url": "https://ballotpedia.org/Gerardo_Serrano"
+        }
+      },
+      "nullNotes": {
+        "cost": "No 2026-cycle statement found; only a general fiscal-responsibility line from 2014 which fits taxes better than cost (checked Aug 29, 2026)",
+        "health": "No healthcare statement found, 2014 or 2026 (checked Aug 29, 2026)",
+        "housing": "No housing statement found (checked Aug 29, 2026)",
+        "immigration": "No immigration statement found (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found (checked Aug 29, 2026)",
+        "education": "No education statement found (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ky-house-5-wein",
@@ -376,7 +449,7 @@
       "office": "us-house",
       "district": "5",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -388,7 +461,38 @@
           "label": "The Green Papers: Kentucky 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/KY"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for KY-05",
+      "background": "Independent candidate for Kentucky's 5th Congressional District. Ballotpedia page could not be fetched (robots-blocked) and no campaign website or news coverage was found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "health": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "housing": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "immigration": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "taxes": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "climate": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "education": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "safety": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "repro": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "democracy": "Ballotpedia page repeatedly blocked (robots.txt error) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ky-house-6-lynch",
@@ -397,7 +501,7 @@
       "office": "us-house",
       "district": "6",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -409,7 +513,38 @@
           "label": "The Green Papers: Kentucky 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/KY"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for KY-06 (worklist/roster lists party as Kentucky Party; Ballotpedia lists him as Independent, an unreconciled discrepancy)",
+      "background": "Independent candidate for Kentucky's 6th Congressional District, running against fellow independent Jay Bowman and the Republican/Democratic nominees. No completed Ballotpedia Candidate Connection survey or campaign website found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "health": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "housing": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "immigration": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "taxes": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "climate": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "education": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "safety": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "repro": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)",
+        "democracy": "No campaign website, news coverage, or completed Ballotpedia survey found with any policy statement (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-S6KY00377",
@@ -435,24 +570,95 @@
       "office": "us-house",
       "district": "2",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "filed",
       "incumbent": true,
       "sources": [
         {
+          "label": "Campaign site: Meet Brett",
+          "url": "https://brettguthrie.com/meet-brett/"
+        },
+        {
+          "label": "Campaign site homepage",
+          "url": "https://brettguthrie.com/"
+        },
+        {
+          "label": "Clerk of the House roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 102 (SAVE Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8KY02031/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Bowling Green, KY",
+      "now": "U.S. Representative for KY-02; top Republican on Energy and Commerce's Health Subcommittee",
+      "background": "U.S. Representative for Kentucky's 2nd District since 2009. West Point graduate (1987), Artillery Officer in the 101st Airborne Division, and holds a Master's in Public and Private Management from Yale. Was VP of Trace Die Cast, a Bowling Green auto supply company, before Congress.",
+      "priorities": [
+        "Border security",
+        "Lower healthcare costs with less government control",
+        "Cutting taxes and reversing 'Bidenomics'"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "As top Republican on the Energy and Commerce Health Subcommittee, 'focuses on reducing healthcare costs and limiting government involvement in medical decisions' (campaign site)",
+          "url": "https://brettguthrie.com/meet-brett/"
+        },
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act (roll 23, Jan 22, 2025) and H.R. 22 SAVE Act (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax and reconciliation law (roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "Campaign site lists his stance simply as 'Pro-Life' among his core issues",
+          "url": "https://brettguthrie.com/"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act, proof-of-citizenship voter registration mandate (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign site and committee bio mention 'reducing healthcare costs' but no separate cost-of-living/price statement outside health; checked campaign homepage and House committee page (checked Aug 29, 2026)",
+        "housing": "No housing statement found on campaign site or House pages (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign site; House committee page focuses on health and broadband (checked Aug 29, 2026)",
+        "education": "No education statement found on campaign site or House pages (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found distinct from immigration and gun issues (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "fec-H6KY06234",
       "name": "Jay J Bowman",
-      "party": "Independent",
+      "party": "None",
       "office": "us-house",
       "district": "6",
       "state": "KY",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
@@ -460,7 +666,903 @@
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KY06234/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for KY-06",
+      "background": "Independent candidate for Kentucky's 6th Congressional District. The only Ballotpedia record found for a 'Jay Bowman' covers an unrelated 2024 presidential minor-party run; no KY-06-specific profile, campaign site, or news coverage located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "health": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "housing": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "immigration": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "taxes": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "climate": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "education": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "safety": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "repro": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)",
+        "democracy": "No KY-06-specific campaign website, news coverage, or Ballotpedia profile found; the only similarly-named Ballotpedia page covers an unrelated 2024 presidential candidate (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY01110",
+      "name": "James Comer",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 52,
+      "home": "Monroe County, KY (Tompkinsville)",
+      "now": "U.S. Representative for KY-01; Chair, House Oversight and Accountability Committee",
+      "background": "U.S. Representative for Kentucky's 1st District since 2016; Chair of the House Oversight and Accountability Committee since 2023. Previously served in the Kentucky House 2000-2012 and as Kentucky Agriculture Commissioner 2012-2016, where he championed hemp legalization. Co-owns farming operations in western Kentucky.",
+      "priorities": [
+        "Border security and immigration enforcement",
+        "Cutting taxes and regulation",
+        "Coal and domestic energy production"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'We must restore competition in the marketplace, expand access to high-quality care and end the one-size-fits-all approach' (House office healthcare page)",
+          "url": "https://comer.house.gov/healthcare"
+        },
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act, mandatory detention for undocumented immigrants accused of theft (roll 23, Jan 22, 2025); voted yes on H.R. 22 SAVE Act, proof of citizenship to register to vote (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax and reconciliation law (roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Called the Green New Deal 'short-sighted and reckless' and 'rooted in socialism', warning it would drive coal jobs to China and raise electric bills; touts coal as reliable baseload power (House office)",
+          "url": "https://comer.house.gov/2019/2/empty-promises-green-new-deal"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act, requiring documentary proof of citizenship to register to vote (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "Checked House office healthcare/energy pages and Green New Deal release for a direct price-control-vs-deregulation statement; only general market-competition language found, not specific enough to score (checked Aug 29, 2026)",
+        "housing": "Checked House office pages and press release search; no housing-specific policy statement found (checked Aug 29, 2026)",
+        "education": "House office education-and-labor page has only generic workforce-skills language, no school choice or public-investment statement (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found distinct from immigration and gun issues in House office press releases (checked Aug 29, 2026)",
+        "repro": "SBA Pro-Life America scorecard credits him with backing Planned Parenthood defunding in H.R. 1, but that is a third-party characterization, not his own statement or a citable bill-text provision; no first-person quote found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House office healthcare page",
+          "url": "https://comer.house.gov/healthcare"
+        },
+        {
+          "label": "House office: Empty Promises of the Green New Deal",
+          "url": "https://comer.house.gov/2019/2/empty-promises-green-new-deal"
+        },
+        {
+          "label": "Clerk of the House roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 102 (SAVE Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY01110/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY01169",
+      "name": "John Andrew Williams",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Dock builder and small-business owner; Democratic nominee for KY-01",
+      "background": "Also known as 'Drew' Williams, a working-class dock builder from western Kentucky who has worked at family businesses and helped revitalize the Tater Day festival in Benton. Running what local coverage called a 'hail mary' campaign against incumbent James Comer.",
+      "priorities": [
+        "Healthcare insurance reform",
+        "Housing affordability",
+        "Fair tax policy for working families"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site lists 'Prescription for Fairness: Fixing Drug Pricing' as an issue area but the page gives no specific policy direction (checked Aug 29, 2026)",
+        "health": "Campaign site lists 'Healthcare Insurance Reform' as an issue heading with no elaborated position; subpage not reachable (checked Aug 29, 2026)",
+        "housing": "Campaign site lists 'An American Home Promise' as an issue heading with no elaborated position (checked Aug 29, 2026)",
+        "immigration": "No campaign statement found; Kentucky Lantern voter guide entry has only biographical text, no issue answers (checked Aug 29, 2026)",
+        "taxes": "Campaign site lists 'Tax Policy for the Everyday American' as a heading with no specific direction stated (checked Aug 29, 2026)",
+        "climate": "No campaign statement found on energy or climate policy (checked Aug 29, 2026)",
+        "education": "No campaign statement found on education policy (checked Aug 29, 2026)",
+        "safety": "No campaign statement found on public safety/policing policy (checked Aug 29, 2026)",
+        "repro": "No campaign statement found on abortion policy (checked Aug 29, 2026)",
+        "democracy": "No campaign statement found on voting/elections policy; not a House incumbent so no roll-call record (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.williamsforky.com/"
+        },
+        {
+          "label": "Kentucky Lantern voter guide, KY-01 Dems",
+          "url": "https://kentuckylantern.com/voter-guides/contests/u-s-house-1st-district-dems/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY01169/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY02068",
+      "name": "Megan Wingfield",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Bowling Green, KY",
+      "now": "Mechanic, caregiver, and activist; Democratic nominee for KY-02",
+      "background": "Mechanic and caregiver from Bowling Green with a degree in Automotive Technology from Southcentral Kentucky Community and Technical College. Running as a grassroots, working-class Democratic candidate against incumbent Brett Guthrie.",
+      "priorities": [
+        "Universal, affordable healthcare and ending medical debt",
+        "Cracking down on corporate price gouging",
+        "Tax equity for corporations and the ultra-wealthy"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -2,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Reducing everyday costs for working families and cracking down on corporate price gouging' (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        "health": {
+          "label": "'Universal, affordable, and accessible healthcare' with 'an end to medical debt' and investment in rural healthcare (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        "housing": {
+          "label": "Supports 'expanded affordable housing programs' as part of her economic platform (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        "taxes": {
+          "label": "'Pushing for tax equity, where corporations and the ultra-wealthy pay their fair share' (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        "education": {
+          "label": "Backs 'universal Pre-K and affordable childcare' with increased funding for early childhood programs (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        "repro": {
+          "label": "Pledges to 'protect reproductive freedom and the right to choose' (campaign platform)",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        }
+      },
+      "nullNotes": {
+        "immigration": "Campaign platform and homepage do not address immigration policy (checked Aug 29, 2026)",
+        "climate": "Campaign platform and homepage do not address climate/energy policy (checked Aug 29, 2026)",
+        "safety": "Campaign platform and homepage do not address public safety/policing policy (checked Aug 29, 2026)",
+        "democracy": "Campaign platform and homepage do not address voting rights/election policy (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign platform page",
+          "url": "https://www.wingfieldforcongress.com/platform-values"
+        },
+        {
+          "label": "Campaign homepage",
+          "url": "https://www.wingfieldforcongress.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY02068/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2KY03206",
+      "name": "Morgan McGarvey",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 47,
+      "home": "Louisville, KY",
+      "now": "U.S. Representative for KY-03",
+      "background": "U.S. Representative for Kentucky's 3rd District (Louisville) since 2023. Previously served as Kentucky Senate Minority Leader. Attorney by training, born and raised in Louisville.",
+      "priorities": [
+        "Medicare for All and lowering health care costs",
+        "Codifying abortion rights",
+        "Climate action and clean energy jobs"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": null,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Supports raising the federal minimum wage to $15/hour and indexing it to inflation (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "health": {
+          "label": "'I believe health care is a basic human right', supports Medicare for All and letting Medicare negotiate drug prices (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "immigration": {
+          "label": "Supports 'a broad path to citizenship' for undocumented immigrants and opposes creating 'second class workers'; also voted no on S.5 Laken Riley Act (roll 23, Jan 22, 2025) (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "climate": {
+          "label": "'I am running to address the existential threat of climate change', backs federal clean energy standards and a coal-to-clean transition for rural co-ops (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "education": {
+          "label": "'Every kid should have the opportunity to go to a good public school'; backs universal pre-K and free community college (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "safety": {
+          "label": "Supports the George Floyd Justice in Policing Act and Kentucky's no-knock warrant ban, wants a federal equivalent (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "repro": {
+          "label": "'I will always fight for a woman's right to an abortion' and supports codifying Roe v. Wade (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        "democracy": {
+          "label": "Supports the John R. Lewis Voting Rights Advancement Act and expanding early/mail voting and automatic registration; voted no on H.R. 22 SAVE Act (roll 102, Apr 10, 2025) (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        }
+      },
+      "nullNotes": {
+        "housing": "Ballotpedia profile and House office press releases have no dedicated housing statement (checked Aug 29, 2026)",
+        "taxes": "Voted no on H.R. 1 (roll 190, Jul 3, 2025) but per guide a no vote alone doesn't establish the axis for Democrats; his tax-related statements found (Child Tax Credit, clean-energy incentives) are targeted household/energy credits, not a broader corporate/high-earner tax stance (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Morgan_McGarvey"
+        },
+        {
+          "label": "Clerk of the House roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 102 (SAVE Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2KY03206/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY03223",
+      "name": "Maria Teresa Rodriguez",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Louisville, KY",
+      "now": "Business owner and trauma nurse; Republican nominee for KY-03",
+      "background": "Business owner and trauma nurse in Louisville. Came to the United States at age 21 and became a naturalized citizen. Running against incumbent Morgan McGarvey.",
+      "priorities": [
+        "Legal immigration",
+        "Lower taxes",
+        "Safer Louisville streets"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Lists 'legal immigration' as a core campaign belief (campaign site)",
+          "url": "https://mariaforuscongress.com/"
+        },
+        "taxes": {
+          "label": "Campaign site lists 'Lower Taxes' as a top priority (campaign site)",
+          "url": "https://mariaforuscongress.com/"
+        },
+        "safety": {
+          "label": "Campaign priorities include 'Safer Louisville' and 'Safe Streets' (campaign site)",
+          "url": "https://mariaforuscongress.com/"
+        },
+        "repro": {
+          "label": "Campaign site lists 'Protecting the Unborn' among her top priorities (campaign site)",
+          "url": "https://mariaforuscongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign site lists generic 'Strong Economy' and 'Defending Capitalism' priorities but no specific price/regulation statement fitting this axis (checked Aug 29, 2026)",
+        "health": "No healthcare statement found on campaign homepage or Kentucky Lantern voter guide (checked Aug 29, 2026)",
+        "housing": "No housing statement found on campaign homepage or Kentucky Lantern voter guide (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
+        "education": "No education statement found on campaign homepage (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://mariaforuscongress.com/"
+        },
+        {
+          "label": "Kentucky Lantern voter guide, KY-03 GOP",
+          "url": "https://kentuckylantern.com/voter-guides/contests/u-s-house-3rd-district-gop/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY03223/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY04171",
+      "name": "Ed Gallrein",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "KY (fifth-generation farmer)",
+      "now": "Retired Navy SEAL officer and farmer; Republican nominee for KY-04",
+      "background": "Fifth-generation Kentucky farmer and retired Navy SEAL officer with 30 years of service, rising to Captain and serving on SEAL Team Six multiple times. Recipient of three Bronze Star Medals and two Presidential Unit Citations. Returned to farming and community service after his military career.",
+      "priorities": [
+        "Secure the border, fully fund ICE and Border Patrol",
+        "Cut taxes and reduce regulations",
+        "Stop reckless spending driving inflation"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'stop the reckless spending that has driven up inflation' (campaign site)",
+          "url": "https://edgallrein.com/"
+        },
+        "immigration": {
+          "label": "'Finish the wall, fully fund Border Patrol & ICE, secure the border once and for all' (campaign site)",
+          "url": "https://edgallrein.com/"
+        },
+        "taxes": {
+          "label": "Pledges to 'cut taxes, reduce regulations' (campaign site)",
+          "url": "https://edgallrein.com/"
+        },
+        "safety": {
+          "label": "Pledges to 'back the blue' and address border-related crime and drug trafficking (campaign site)",
+          "url": "https://edgallrein.com/"
+        },
+        "repro": {
+          "label": "Campaign site states 'Gallrein is Pro-Life!' (campaign site)",
+          "url": "https://edgallrein.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "No healthcare-system statement found on campaign homepage (checked Aug 29, 2026)",
+        "housing": "No housing statement found on campaign homepage (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
+        "education": "Campaign site pledges to 'eliminate DEI schemes, restore merit' but this is culture-war framing, not a school-choice-vs-public-investment statement fitting this axis (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://edgallrein.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ed_Gallrein"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY04171/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY04205",
+      "name": "Jeremy Ryan Todd",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "4",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Libertarian nominee for KY-04",
+      "background": "Libertarian Party nominee for Kentucky's 4th Congressional District. No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found documenting his platform.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "health": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "housing": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "immigration": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "taxes": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "climate": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "education": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "safety": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "repro": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)",
+        "democracy": "Ballotpedia page blocked/unreachable (robots) and no campaign website or news coverage found with any policy statement (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY04205/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY04189",
+      "name": "Melissa Claire Strange",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Democratic nominee for KY-04",
+      "background": "Democratic nominee for Kentucky's 4th Congressional District. Ballotpedia Candidate Connection survey completed but with limited biographical detail available.",
+      "priorities": [
+        "Quality public education",
+        "Fair, livable wages and affordable basic needs",
+        "Personal medical decisions free of government interference"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'All citizens should be able to afford basic needs such as food, clothing, shelter, healthcare, and education, and everyone deserves a fair, livable wage' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Melissa_Strange"
+        },
+        "education": {
+          "label": "Lists 'quality public education' as a campaign priority (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Melissa_Strange"
+        },
+        "repro": {
+          "label": "Supports 'the right of an individual to make personal medical decisions without government interference' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Melissa_Strange"
+        }
+      },
+      "nullNotes": {
+        "health": "Survey includes a similarly worded line, 'private health decisions should be made between patients and medical professionals, not by legislators', but it reads as a restatement of her bodily-autonomy/abortion position rather than a Medicare/ACA/insurance-structure stance, so it was not double-counted here (checked Aug 29, 2026)",
+        "housing": "No housing-specific statement found in survey (checked Aug 29, 2026)",
+        "immigration": "No immigration statement found in survey (checked Aug 29, 2026)",
+        "taxes": "No corporate/high-earner tax statement found in survey (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found in survey (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found in survey (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found in survey (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile (Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Melissa_Strange"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY04189/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H0KY05015",
+      "name": "Harold Dallas Rogers",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 88,
+      "home": "Barrier, KY (Somerset)",
+      "now": "U.S. Representative for KY-05, dean of the Kentucky delegation",
+      "background": "U.S. Representative for Kentucky's 5th District since 1981, the longest-serving member of Kentucky's congressional delegation. Attorney and former assistant U.S. attorney and commonwealth's attorney before Congress. Has not completed Ballotpedia's Candidate Connection survey in recent cycles.",
+      "priorities": [
+        "Domestic coal and energy production",
+        "Border security",
+        "Extending the 2025 tax cuts"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act (roll 23, Jan 22, 2025) and H.R. 22 SAVE Act (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax and reconciliation law (roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'A strong advocate in Congress for advancing our nation's domestic energy production, particularly safe and environmentally-responsible coal mining' (House office)",
+          "url": "https://halrogers.house.gov/issues"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R. 22 SAVE Act, proof-of-citizenship voter registration mandate (roll 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "House office issues page has only generic 'increase access to medical services' language, no price/regulation statement fitting this axis (checked Aug 29, 2026)",
+        "health": "House office healthcare language is generic ('promote overall health and well-being'), no ACA/Medicare/Medicaid direction stated (checked Aug 29, 2026)",
+        "housing": "No housing statement found on House office issues page (checked Aug 29, 2026)",
+        "education": "House office language ('top-notch educational and career training opportunities') doesn't state a public-investment-vs-choice direction (checked Aug 29, 2026)",
+        "safety": "House office 'public safety' language is about support for the military, not domestic policing/sentencing (checked Aug 29, 2026)",
+        "repro": "No abortion statement found on House office issues page or recent Ballotpedia coverage (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House office issues page",
+          "url": "https://halrogers.house.gov/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Hal_Rogers"
+        },
+        {
+          "label": "Clerk of the House roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 102 (SAVE Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Clerk of the House roll call 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0KY05015/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY05152",
+      "name": "Ned Pillersdorf",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Prestonsburg, KY",
+      "now": "Attorney; Democratic nominee for KY-05",
+      "background": "Prestonsburg attorney who has run an 'underdog/poverty volume law practice' for 44 years, known for representing thousands of Eastern Kentuckians who lost disability benefits after being represented by disgraced attorney Eric Conn. Married to former Kentucky Supreme Court Justice Janet Stumbo. Announced his campaign on July 4.",
+      "priorities": [
+        "Protecting Medicaid, Medicare, and food stamps from cuts",
+        "Opposing tax breaks for the wealthy",
+        "Funding public broadcasting and Job Corps"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": -2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Opposes 'slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities' (campaign site)",
+          "url": "https://nedforcongress.com/"
+        },
+        "taxes": {
+          "label": "Criticizes 'deficit busting tax break' proposals benefiting 'the billionaire class' (campaign site)",
+          "url": "https://nedforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "Campaign site addresses Medicaid/food stamps under healthcare, not a separate price/wage statement (checked Aug 29, 2026)",
+        "housing": "No housing statement found on campaign homepage (checked Aug 29, 2026)",
+        "immigration": "No immigration statement found on campaign homepage (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
+        "education": "No K-12 education statement found on campaign homepage beyond general Job Corps funding support (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found on campaign homepage (checked Aug 29, 2026)",
+        "repro": "No abortion statement found on campaign homepage or Kentucky Lantern voter guide (checked Aug 29, 2026)",
+        "democracy": "Campaign site advocates 'uncapping the House' (congressional apportionment), which doesn't fit this axis's voting-access/safeguards definition (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://nedforcongress.com/"
+        },
+        {
+          "label": "Kentucky Lantern voter guide, KY-05 Dems",
+          "url": "https://kentuckylantern.com/voter-guides/contests/u-s-house-5th-district-dems/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY05152/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY06192",
+      "name": "Ralph A Alvarado",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "6",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Winchester, KY (Clark County)",
+      "now": "Physician; Republican nominee for KY-06",
+      "background": "Physician with nearly three decades of medical practice in Central Kentucky. Kentucky's first Hispanic state legislator, elected to the state Senate in 2014, where he chaired the Health and Welfare Committee. Later served as Tennessee Commissioner of Health (2023-2025).",
+      "priorities": [
+        "Affordable healthcare with patient control",
+        "Cutting wasteful government spending driving inflation",
+        "Opposing higher taxes"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Aims to bring down costs for groceries, gas, and healthcare 'while eliminating wasteful government spending that drives inflation' (campaign site)",
+          "url": "https://www.alvaradoforcongress.com/"
+        },
+        "health": {
+          "label": "'Fight for affordable healthcare, lower costs, and practical solutions' with plans to 'give patients more control over their care' (campaign site)",
+          "url": "https://www.alvaradoforcongress.com/"
+        },
+        "taxes": {
+          "label": "Campaign site says he opposes 'higher taxes' associated with opponents' policies (campaign site)",
+          "url": "https://www.alvaradoforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "housing": "No housing statement found on campaign homepage (checked Aug 29, 2026)",
+        "immigration": "No immigration statement found on campaign homepage, despite his 2016 RNC speech referencing his family's legal immigration story (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
+        "education": "No education statement found on campaign homepage (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found on campaign homepage (checked Aug 29, 2026)",
+        "repro": "No abortion statement found on campaign homepage or Ballotpedia (not completed 2026 survey) (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.alvaradoforcongress.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ralph_Alvarado"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY06192/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6KY06184",
+      "name": "Zach Dembo",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "6",
+      "state": "KY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Lexington, KY",
+      "now": "Attorney; Democratic nominee for KY-06",
+      "background": "Ninth-generation Kentuckian with family roots in Shelby and Henry counties. Stanford graduate who taught eighth-grade English in the Mississippi Delta via Teach For America, then earned a University of Michigan law degree. Served as a Navy JAG officer, a DOJ Civil Rights Division prosecutor, a policy advisor to Kentucky's governor, and an Assistant U.S. Attorney in Lexington.",
+      "priorities": [
+        "Anti-corruption and government integrity",
+        "Ending trade wars/tariffs",
+        "Opposing Middle East military engagement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site says 'working families can't afford groceries' and 'the middle class is getting squeezed' but states no specific price-control-vs-deregulation direction (checked Aug 29, 2026)",
+        "health": "No healthcare statement found on campaign homepage (checked Aug 29, 2026)",
+        "housing": "No housing statement found on campaign homepage (checked Aug 29, 2026)",
+        "immigration": "No immigration statement found on campaign homepage (checked Aug 29, 2026)",
+        "taxes": "Campaign site calls tariffs 'just taxes on our businesses' as a trade-policy critique, not a corporate/high-earner tax-rate statement fitting this axis (checked Aug 29, 2026)",
+        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
+        "education": "No education statement found on campaign homepage (checked Aug 29, 2026)",
+        "safety": "No policing/sentencing statement found on campaign homepage (checked Aug 29, 2026)",
+        "repro": "No abortion statement found on campaign homepage or Ballotpedia (not completed 2026 survey) (checked Aug 29, 2026)",
+        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://zachdembo.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Zach_Dembo"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6KY06184/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

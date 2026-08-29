@@ -18,7 +18,7 @@
         "fec-H6NE02174",
         "ne-house-2-foreman"
       ],
-      "statusNote": "Open seat with Rep. Don Bacon (R) not running: Brinker Harding (R) faces Denise Powell (D) and Libertarian Eric Foreman, nominees set in the May 12, 2026 primary. Positions are not researched yet.",
+      "statusNote": "Open seat with Rep. Don Bacon (R) not running: Brinker Harding (R) faces Denise Powell (D) and Libertarian Eric Foreman, nominees set in the May 12, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Nebraska 2026 candidates by district (Election2026)",
@@ -37,7 +37,7 @@
         "fec-H6NE01143",
         "ne-house-1-sandman"
       ],
-      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and Libertarian Nik Sandman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Independent Austin Ahlman suspended his campaign on July 19 and is not on the ballot. Positions are not researched yet.",
+      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and Libertarian Nik Sandman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Independent Austin Ahlman suspended his campaign on July 19 and is not on the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -61,7 +61,7 @@
         "fec-H6NE03198",
         "ne-house-3-else"
       ],
-      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independent Mark Cohen, whose petition was certified Aug 12. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Macey Budke is a write-in candidate only. Positions are not researched yet.",
+      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independent Mark Cohen, whose petition was certified Aug 12. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Macey Budke is a write-in candidate only. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -88,7 +88,7 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
-      "background": "U.S. Senator since 2023 (appointed, then elected in a 2024 special); Governor of Nebraska 2015–2023; former TD Ameritrade executive.",
+      "background": "U.S. Senator since 2023 (appointed, then elected in a 2024 special); Governor of Nebraska 2015\u20132023; former TD Ameritrade executive.",
       "positions": {
         "cost": 2,
         "health": 1,
@@ -103,7 +103,7 @@
       },
       "positionSources": {
         "taxes": {
-          "label": "As governor: $408M property-tax relief, cut state spending growth 6.5%→0.6% (Ballotpedia)",
+          "label": "As governor: $408M property-tax relief, cut state spending growth 6.5%\u21920.6% (Ballotpedia)",
           "url": "https://ballotpedia.org/Pete_Ricketts"
         },
         "repro": {
@@ -237,7 +237,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NE",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -248,8 +248,43 @@
         {
           "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://foremantakebackourhouse.com/meet-eric"
         }
-      ]
+      ],
+      "now": "Libertarian nominee, Nebraska's 2nd District",
+      "age": null,
+      "home": null,
+      "background": "Libertarian nominee in Nebraska's 2nd District, running on individual liberty, limited government, and fiscal responsibility. Campaign website offers general philosophy without detailed issue mechanisms.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "health": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "housing": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "immigration": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "taxes": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "climate": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "education": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "safety": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "repro": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
+        "democracy": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ne-house-3-else",
@@ -258,7 +293,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NE",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -269,8 +304,54 @@
         {
           "label": "2026 United States House of Representatives elections in Nebraska (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska"
+        },
+        {
+          "label": "Ballotpedia profile (2022 campaign website archive)",
+          "url": "https://ballotpedia.org/David_Else_(Nebraska)"
         }
-      ]
+      ],
+      "now": "Legal Marijuana NOW nominee, Nebraska's 3rd District",
+      "age": null,
+      "home": null,
+      "background": "Legal Marijuana NOW Party nominee in Nebraska's 3rd District. Has not completed a Ballotpedia Candidate Connection survey in 2020, 2022, or 2024; the only documented statements are from his 2022 campaign website archived by Ballotpedia.",
+      "priorities": [
+        "Free healthcare for all",
+        "Raise the minimum wage",
+        "End endless war spending"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledged to 'RAISE MINIMUM WAGE' and fight for an economy that supports all Americans able to work (2022 campaign website, via Ballotpedia)",
+          "url": "https://ballotpedia.org/David_Else_(Nebraska)"
+        },
+        "health": {
+          "label": "Pledged to 'fight for free healthcare for all' (2022 campaign website, via Ballotpedia)",
+          "url": "https://ballotpedia.org/David_Else_(Nebraska)"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Ballotpedia (no Candidate Connection survey 2020/2022/2024), nothing documented (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "taxes": "checked Ballotpedia; his 2022 platform opposed farm subsidies, which is agriculture policy, not a general tax-rate or spending direction, so left null (checked 2026-08-29)",
+        "climate": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "democracy": "checked Ballotpedia, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "ne-house-3-budke",
@@ -334,7 +415,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NE",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -345,8 +426,547 @@
         {
           "label": "Nebraska Examiner: Ahlman suspends campaign",
           "url": "https://nebraskaexaminer.com/briefs/austin-ahlman-suspends-campaign-for-nebraskas-1st-district/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://picknikforcongress.com/"
+        },
+        {
+          "label": "Nebraska Voter Guide",
+          "url": "https://nebraskavoterguide.com/candidates/nik-sandman"
         }
-      ]
+      ],
+      "now": "Fifth-generation farmer; Libertarian nominee, NE-1",
+      "age": null,
+      "home": null,
+      "background": "Fifth-generation Nebraska farmer running as the Libertarian nominee against Rep. Mike Flood, blending Medicare for All with libertarian due-process and anti-corporate-welfare positions.",
+      "priorities": [
+        "Medicare for All with no premiums or deductibles",
+        "Lower taxes for working families, end corporate welfare",
+        "Constitutional due process protections"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'Lower Taxes, Less Waste': cut defense spending and corporate welfare so working families 'keep more of what they earn' (campaign website)",
+          "url": "https://picknikforcongress.com/"
+        },
+        "health": {
+          "label": "Backs 'Medicare For All, comprehensive coverage that follows you from job to job... No premiums. No deductibles. No bankruptcies,' including prescriptions, dental, vision, and mental health (campaign website)",
+          "url": "https://picknikforcongress.com/"
+        },
+        "taxes": {
+          "label": "Proposes reducing taxes on working families and eliminating 'corporate welfare' while balancing budgets through 'smart cuts' (campaign website)",
+          "url": "https://picknikforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "immigration": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "climate": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "education": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "safety": "campaign site emphasizes 'Constitutional Due Process' opposing warrantless searches and civil asset forfeiture, which is a due-process/civil-liberties position, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
+        "repro": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "democracy": "checked campaign website, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2NE01118",
+      "name": "Mike Flood",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "NE",
+      "incumbent": true,
+      "now": "U.S. Representative for Nebraska's 1st District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since a 2022 special election, previously Speaker of the Nebraska Legislature and a radio broadcaster. Was unopposed in the May 12, 2026 Republican primary.",
+      "priorities": [
+        "Border security and immigration enforcement",
+        "Pro-life record",
+        "Parental control over classroom content"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "Survey answer favoring parental control of classroom content: 'Our schools should not be places of ideological indoctrination' (Nebraska Voter Guide)",
+          "url": "https://nebraskavoterguide.com/candidates/mike-flood"
+        },
+        "repro": {
+          "label": "As Nebraska Speaker, sponsored and passed the nation's first Pain-Capable Unborn Child Protection Act; applauded Dobbs: 'Today, the Supreme Court has returned abortion-related policy decisions back to the states and the people, where they belong'; also voted for the Born-Alive Abortion Survivors Protection Act (campaign release and Nebraska Voter Guide)",
+          "url": "https://mikefloodfornebraska.com/release-mike-flood-applaudsnbspdobbs-decision/"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked flood.house.gov (issue pages return 404), Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
+        "health": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
+        "housing": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
+        "climate": "checked Wikipedia; brokered a 2011 compromise rerouting the Keystone XL pipeline as a state legislator, a routing compromise rather than a stated energy-source position, so left null (checked 2026-08-29)",
+        "safety": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2NE01118/"
+        },
+        {
+          "label": "Wikipedia: Mike Flood (politician)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Flood_(politician)"
+        },
+        {
+          "label": "Nebraska Voter Guide",
+          "url": "https://nebraskavoterguide.com/candidates/mike-flood"
+        },
+        {
+          "label": "Campaign release: Dobbs statement",
+          "url": "https://mikefloodfornebraska.com/release-mike-flood-applaudsnbspdobbs-decision/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE01143",
+      "name": "Christopher Backemeyer",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "NE",
+      "incumbent": false,
+      "now": "Former White House and Department of Energy staffer; 2026 Democratic nominee, NE-1",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Lincoln native and former Obama-era White House and Department of Energy staffer who has 'sat in the Situation Room as tough decisions were made.' Won the May 12, 2026 Democratic primary with 57% over Eric Moyer, and NE-1 has since been added to national Democrats' target-district list.",
+      "priorities": [
+        "Making healthcare affordable and accessible",
+        "Smart, fair immigration and a secure border",
+        "Lowering costs and reining in the national debt"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "health": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "housing": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "immigration": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "taxes": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "climate": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "education": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "safety": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "repro": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
+        "democracy": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE01143/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://backnebraska.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Christopher_Backemeyer"
+        },
+        {
+          "label": "Nebraska Examiner: fundraising brief",
+          "url": "https://nebraskaexaminer.com/briefs/democrat-chris-backemeyer-brings-in-six-figure-fundraising-haul-in-nebraskas-1st-district/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE02208",
+      "name": "Brinker Harding",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "NE",
+      "incumbent": false,
+      "now": "Omaha City Council Vice President; 2026 Republican nominee, NE-2",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Omaha City Council vice president and commercial real-estate broker running for the open seat left by retiring Rep. Don Bacon. Endorsed by Speaker Mike Johnson as the 'common sense' choice for NE-2.",
+      "priorities": [
+        "Take on Big Pharma and Big Insurance on drug pricing",
+        "Deport criminal illegal immigrants who commit violent crimes",
+        "Voter ID to ensure only citizens vote"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'take on Big Pharma and Big Insurance' over prescription drug pricing (campaign website)",
+          "url": "https://www.brinkerharding.com/vision"
+        },
+        "immigration": {
+          "label": "Would 'deport criminal illegal immigrants who commit violent crimes' (campaign website)",
+          "url": "https://www.brinkerharding.com/vision"
+        },
+        "climate": {
+          "label": "Would 'pass year-round E-15 to help lower gas prices and support Nebraska agriculture' (campaign website)",
+          "url": "https://www.brinkerharding.com/vision"
+        },
+        "democracy": {
+          "label": "Backs 'Voter ID to ensure only American citizens can vote' (campaign website)",
+          "url": "https://www.brinkerharding.com/vision"
+        }
+      },
+      "nullNotes": {
+        "health": "checked campaign website; 'make healthcare, including IVF, more accessible and affordable' is a general affordability goal without a public-versus-private mechanism, so left null (checked 2026-08-29)",
+        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "taxes": "checked campaign website, nothing documented beyond the general 'grow our economy, increase wages, keep inflation in check' goal, which has no specific tax mechanism (checked 2026-08-29)",
+        "education": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "safety": "campaign site proposes 'body cameras and identifiable uniforms for ICE agents,' an oversight/accountability measure, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
+        "repro": "checked campaign website; IVF-access support does not itself state an abortion-access position, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE02208/"
+        },
+        {
+          "label": "Campaign website, vision page",
+          "url": "https://www.brinkerharding.com/vision"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Brinker_Harding"
+        },
+        {
+          "label": "Nebraska Examiner: Speaker Johnson endorsement",
+          "url": "https://nebraskaexaminer.com/2026/07/18/us-house-speaker-mike-johnson-says-brinker-harding-is-common-sense-candidate-for-ne-02/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE02174",
+      "name": "Denise Powell",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "NE",
+      "incumbent": false,
+      "now": "Omaha mother and community organizer; 2026 Democratic nominee, NE-2",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Omaha mother and community organizer who won a razor-thin May 12, 2026 Democratic primary in Nebraska's competitive 'blue dot' 2nd District, campaigning on affordability, Medicaid, and public education.",
+      "priorities": [
+        "Protect Medicaid from cuts",
+        "Defend public education from the University of Nebraska to K-12 schools",
+        "Oppose tax breaks for billionaires"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Opposes 'dismantling Medicaid and making it harder for seniors to get the benefits they've earned' (campaign website)",
+          "url": "https://deniseforcongress.org/"
+        },
+        "taxes": {
+          "label": "Criticizes 'massive tax breaks for billionaires' (campaign website)",
+          "url": "https://deniseforcongress.org/"
+        },
+        "education": {
+          "label": "Opposes 'dismantling education, from the University of Nebraska to our public schools' (campaign website)",
+          "url": "https://deniseforcongress.org/"
+        },
+        "repro": {
+          "label": "Helped 'stop extremists from passing abortion bans in the state' and opposes 'ripping away women's rights' (campaign website)",
+          "url": "https://deniseforcongress.org/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign website; opposition to 'trade wars that are increasing our cost of living' criticizes tariff policy without naming a price or wage mechanism, so left null (checked 2026-08-29)",
+        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "immigration": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
+        "climate": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
+        "safety": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
+        "democracy": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE02174/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://deniseforcongress.org/"
+        },
+        {
+          "label": "Nebraska Examiner: NE-2 candidates paint each other as extreme",
+          "url": "https://nebraskaexaminer.com/2026/08/21/nebraska-2nd-district-candidates-try-to-paint-each-other-as-extreme/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE03115",
+      "name": "Adrian Smith",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "NE",
+      "incumbent": true,
+      "now": "U.S. Representative for Nebraska's 3rd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2007, a member of the House Ways and Means Committee. Won the May 12, 2026 Republican primary with 65% over David Huebner.",
+      "priorities": [
+        "Oppose the ACA and government-run health insurance",
+        "Cut federal spending and extend the 2017 tax cuts",
+        "Border security and immigration enforcement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Democrats broke America's health insurance system with Obamacare, driving massive increases in health insurance premiums and out-of-pocket expenses for hardworking families' (House office issues page)",
+          "url": "https://adriansmith.house.gov/issues/health-care"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no 2026 Candidate Connection survey) and adriansmith.house.gov, nothing documented beyond healthcare/tax positions scored elsewhere (checked 2026-08-29)",
+        "housing": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
+        "climate": "checked adriansmith.house.gov/issues/energy, which directs readers to contact the office and lists only column/press-release links on ethanol and the Renewable Fuel Standard with no stated clean-energy-versus-fossil-fuel position (checked 2026-08-29)",
+        "education": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia and Wikipedia; a 'Pain-Capable Unborn Child Protection Act' key vote is listed with no quoted statement of his own, so left null pending a citable quote (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE03115/"
+        },
+        {
+          "label": "House office issues page: healthcare",
+          "url": "https://adriansmith.house.gov/issues/health-care"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Adrian_Smith_(Nebraska)"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE03180",
+      "name": "Becky Lynn Stille",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "NE",
+      "incumbent": false,
+      "now": "2026 Democratic nominee, Nebraska's 3rd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Self-described 'moderate Democrat' running in Nebraska's most conservative congressional district, was unopposed for the Democratic nomination. Emphasizes bipartisanship and rural concerns like tariffs' effect on farmers.",
+      "priorities": [
+        "Secure the border",
+        "Protect women's private healthcare decisions",
+        "Support labor unions and farmers hurt by tariffs"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Lists 'securing the border' among her top campaign issues (Nebraska Examiner)",
+          "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        },
+        "repro": {
+          "label": "Supports a woman's 'right to make her own healthcare decisions privately with her own doctor' (Nebraska Examiner)",
+          "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Nebraska Examiner profile and beckystille2026.com; concern about Trump-era tariffs hurting farmers is an economic critique with no stated price or subsidy mechanism, so left null (checked 2026-08-29)",
+        "health": "checked Nebraska Examiner profile, nothing beyond the reproductive-rights quote scored under repro (checked 2026-08-29)",
+        "housing": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
+        "taxes": "checked Nebraska Examiner profile, nothing documented beyond the tariff concern which does not fit this axis (checked 2026-08-29)",
+        "climate": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
+        "education": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
+        "safety": "checked Nebraska Examiner profile; discusses 'upholding the Second Amendment' with an 'equally strong commitment to prevent violence,' which is a gun-rights framing excluded from this axis by rule, so left null (checked 2026-08-29)",
+        "democracy": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE03180/"
+        },
+        {
+          "label": "Nebraska Examiner: Stille profile",
+          "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6NE03198",
+      "name": "Mark Cohen",
+      "party": "NON-PARTY",
+      "office": "us-house",
+      "district": "3",
+      "state": "NE",
+      "incumbent": false,
+      "now": "Nonpartisan candidate, Nebraska's 3rd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Nonpartisan candidate whose petition to appear on the ballot was certified Aug 12, 2026, running against the two-party system. His exploratory-committee outreach found voters prioritize agriculture and rural healthcare over 'wedge issues,' but he has not published specific policy mechanisms.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "health": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "housing": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "immigration": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "taxes": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "climate": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "education": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "safety": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "repro": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
+        "democracy": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE03198/"
+        },
+        {
+          "label": "Campaign press page",
+          "url": "https://www.markfornebraska.org/press"
+        },
+        {
+          "label": "Nebraska Examiner: ballot certification",
+          "url": "https://nebraskaexaminer.com/briefs/nonpartisan-mark-cohen-certified-for-nebraskas-3rd-congressional-district-ballot/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

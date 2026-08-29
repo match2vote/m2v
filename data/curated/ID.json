@@ -24,7 +24,7 @@
         "fec-H6ID01318",
         "id-house-1-gomez"
       ],
-      "statusNote": "Rep. Russ Fulcher (R) seeks re-election against Kaylee Peterson (D), Constitution Party candidate Brendan Gomez and independent Sarah Zabel. Fulcher won the May 19, 2026 Republican primary with about 78% and Peterson won the Democratic primary with about 87%. Positions are not researched yet.",
+      "statusNote": "Rep. Russ Fulcher (R) seeks re-election against Kaylee Peterson (D), Constitution Party candidate Brendan Gomez and independent Sarah Zabel. Fulcher won the May 19, 2026 Republican primary with about 78% and Peterson won the Democratic primary with about 87%. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
@@ -50,7 +50,7 @@
         "id-house-2-sierra",
         "id-house-2-houser"
       ],
-      "statusNote": "Rep. Mike Simpson (R) seeks re-election against Elinor Gilbreath (D), Libertarian Will Johanson, Constitution Party candidate C. Sierra and independents Emre Houser and Tripp Hutchinson. Simpson won the May 19, 2026 Republican primary with about 63% and Gilbreath was effectively unopposed for the Democratic nomination after Julie Wiley withdrew and endorsed her. Positions are not researched yet.",
+      "statusNote": "Rep. Mike Simpson (R) seeks re-election against Elinor Gilbreath (D), Libertarian Will Johanson, Constitution Party candidate Sierra \"Idaho Lorax\" Carta and independents Emre Houser and Tripp Hutchinson. Simpson won the May 19, 2026 Republican primary with about 63% and Gilbreath was effectively unopposed for the Democratic nomination after Julie Wiley withdrew and endorsed her. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
       "sources": [
         {
           "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
@@ -229,7 +229,8 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "climate": "checked campaign policies page and Wikipedia, no clean-energy versus fossil position documented",
-        "safety": "campaign policies page documents only gun items (Second Amendment protections, opposition to federal firearm bans and registries, firearm suicide prevention), which are excluded from this axis by rule"
+        "safety": "campaign policies page documents only gun items (Second Amendment protections, opposition to federal firearm bans and registries, firearm suicide prevention), which are excluded from this axis by rule",
+        "democracy": "searched Aug 28, 2026: The Fulcrum race coverage and Ballotpedia contain no direct election-reform or voting-rules statement from him; KTVB profile is bot-blocked; as an independent ex-legislator a reform stance may exist, re-check with a new source type"
       }
     },
     {
@@ -341,7 +342,7 @@
         "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -2,
         "climate": null,
         "education": -2,
         "safety": null,
@@ -364,6 +365,10 @@
         "repro": {
           "label": "'Women have a fundamental right to bodily autonomy'; opposes Idaho's 'dangerous, coercive, and cruel' abortion laws (campaign issues)",
           "url": "https://www.terriforidaho.com/issues"
+        },
+        "taxes": {
+          "label": "Her day-one balanced budget 'will restore a lot of the revenue that was given away in tax cuts to the very wealthy and the corporations' (BYU-Idaho Radio)",
+          "url": "https://www.byui.edu/radio/local-news/democratic-candidate-terri-pickens-outlines-plan-for-budget-reform-ahead-of-primary"
         }
       },
       "sources": [
@@ -396,7 +401,7 @@
       "office": "us-house",
       "district": "1",
       "state": "ID",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -407,8 +412,47 @@
         {
           "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        },
+        {
+          "label": "Idaho Capital Sun: ID-1 candidates on healthcare costs (no response from Gomez)",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Brendan_Gomez"
         }
-      ]
+      ],
+      "now": "Constitution Party nominee, Idaho's 1st District",
+      "age": null,
+      "home": null,
+      "background": "Constitution Party nominee in Idaho's 1st District. Has not completed Ballotpedia's Candidate Connection survey in 2022, 2024, or 2026, and did not respond to a Idaho Capital Sun interview request for its healthcare-costs series.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "health": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "housing": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "taxes": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "climate": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)",
+        "democracy": "checked Ballotpedia (no Candidate Connection survey completed 2022/2024/2026), the Constitution Party of Idaho site (no substantive content beyond a 2024 candidate-list mention), and Idaho Capital Sun's healthcare-costs series (he did not respond to their interview request), nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "id-house-2-johanson",
@@ -417,7 +461,7 @@
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -428,17 +472,63 @@
         {
           "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        },
+        {
+          "label": "KIVI/Idaho News candidate survey, ID-2",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
         }
-      ]
+      ],
+      "now": "Libertarian nominee, Idaho's 2nd District",
+      "age": null,
+      "home": null,
+      "background": "Libertarian nominee in Idaho's 2nd District. Responded to a KIVI/local-news candidate survey with positions on spending, energy deregulation, and land management.",
+      "priorities": [
+        "Cut federal spending on warfare, corporate subsidies, and worker taxes",
+        "Abolish the Nuclear Regulatory Commission to spur commercial nuclear power",
+        "Return federal public lands to private owners"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Survey answer: would vote against 'increased spending on warfare,' corporate subsidies, and 'taxes on workers' (KIVI candidate survey)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        },
+        "climate": {
+          "label": "Would 'abolish the Nuclear Regulatory Commission' to enable commercial nuclear power development (KIVI candidate survey)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked KIVI candidate survey, nothing beyond the tax/spending answer scored under taxes (checked 2026-08-29)",
+        "health": "survey did not include a healthcare question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "housing": "checked KIVI candidate survey and Ballotpedia, nothing documented (checked 2026-08-29)",
+        "immigration": "survey did not include an immigration question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "education": "survey did not include an education question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "safety": "checked KIVI candidate survey and Ballotpedia, nothing documented (checked 2026-08-29)",
+        "repro": "survey did not include an abortion question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
+        "democracy": "survey did not include a voting-rules question; checked Ballotpedia, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "id-house-2-sierra",
-      "name": "C. Sierra",
+      "name": "Sierra \"Idaho Lorax\" Carta",
       "party": "Constitution",
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -449,8 +539,47 @@
         {
           "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        },
+        {
+          "label": "Idaho SOS Elections Database: candidate record",
+          "url": "https://canvass.sos.idaho.gov/eng/candidates/view/Sierra-Idaho-Lorax-Carta"
+        },
+        {
+          "label": "KIVI/Idaho News candidate survey, ID-2 (no response)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
         }
-      ]
+      ],
+      "now": "Constitution Party nominee, Idaho's 2nd District",
+      "age": null,
+      "home": null,
+      "background": "Constitution Party nominee (registered with the Idaho Secretary of State as Sierra 'Idaho Lorax' Carta) in Idaho's 2nd District. Did not respond to the KIVI candidate survey and has no Ballotpedia Candidate Connection entry.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "health": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "housing": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "immigration": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "taxes": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "climate": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "education": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "safety": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "repro": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "democracy": "checked the KIVI/Idaho News ID-2 candidate survey (no response recorded), Idaho SOS elections database (registration record only), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "id-house-2-houser",
@@ -459,7 +588,7 @@
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -470,8 +599,47 @@
         {
           "label": "2026 United States House of Representatives elections in Idaho (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Emre_Houser"
+        },
+        {
+          "label": "KIVI/Idaho News candidate survey, ID-2 (no response)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
         }
-      ]
+      ],
+      "now": "Independent candidate, Idaho's 2nd District",
+      "age": null,
+      "home": null,
+      "background": "Independent candidate in Idaho's 2nd District. Did not respond to the KIVI candidate survey and has no Ballotpedia Candidate Connection entry.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "health": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "housing": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "immigration": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "taxes": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "climate": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "education": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)",
+        "democracy": "checked Ballotpedia (no 2026 Candidate Connection survey completed), the KIVI/Idaho News ID-2 candidate survey (no response recorded), and general Idaho Capital Sun candidate roundups, nothing documented (checked 2026-08-29)"
+      },
+      "curatedAt": "2026-08-29"
     },
     {
       "id": "id-senate-fleming",
@@ -561,6 +729,459 @@
           "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
         }
       ]
+    },
+    {
+      "id": "fec-H8ID01124",
+      "name": "Russell Fulcher",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "ID",
+      "incumbent": true,
+      "now": "U.S. Representative for Idaho's 1st District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 2019, previously an Idaho state senator and 2014 gubernatorial candidate; small-business owner in real estate and insurance. Won the May 19, 2026 Republican primary with about 78%.",
+      "priorities": [
+        "Cut federal taxes and regulatory burden",
+        "Shift natural-resource management from federal to state control",
+        "Limit the federal role in education and healthcare"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'cut taxes the way I got a grocery tax credit, returning more than $600 million per year to Idaho's hardworking families' and to reduce 'federal tax and regulatory burdens' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Russ_Fulcher"
+        },
+        "health": {
+          "label": "Opposes eliminating the ACA outright, calling it a 'landmine' issue, and instead backs a 'voluntary parallel path' letting people choose private marketplace insurance directly (Idaho Capital Sun); also favors tax-free Health Savings Accounts and opposes Medicaid expansion in favor of 'personal responsibility' (Ballotpedia)",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Backs the Lower Energy Costs Act and moving to 'unleash responsibly our natural resources to create business and job opportunities,' shifting management 'from the federal government to the people [and] State of Idaho' (Ballotpedia)",
+          "url": "https://ballotpedia.org/Russ_Fulcher"
+        },
+        "education": {
+          "label": "Believes 'the federal government should limit its role in education' and backs 'public, private, charter, digital or home school' options with 'the success of the student' as the goal (Ballotpedia)",
+          "url": "https://ballotpedia.org/Russ_Fulcher"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Ballotpedia and Idaho Capital Sun healthcare-costs roundup, nothing documented (checked 2026-08-29)",
+        "safety": "checked Ballotpedia; voted for the Secure the Border Act of 2023 (scored under immigration) and opposes prolonged military engagement, no domestic policing/sentencing position documented (checked 2026-08-29)",
+        "repro": "checked Ballotpedia; page lists 'Supporting Life' as a campaign theme with no elaborated position, and a 2014 Idaho Chooses Life endorsement is not his own statement, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8ID01124/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Russ_Fulcher"
+        },
+        {
+          "label": "Idaho Capital Sun: ID-1 candidates on healthcare costs",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2ID01192",
+      "name": "Kaylee Jade Peterson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "ID",
+      "incumbent": false,
+      "now": "2026 Democratic nominee, Idaho's 1st District (third bid)",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Idaho Democrat making her third run for the 1st District seat, campaigning on affordability, single-payer healthcare, and public education funding. Won the May 19, 2026 Democratic primary with about 87%.",
+      "priorities": [
+        "Single-payer, Medicare-for-all style healthcare",
+        "Break up monopolies driving up housing and grocery prices",
+        "Fully federally fund public education, pre-K through higher ed"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": null,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'break up monopolies' that 'artificially inflate prices,' citing large investment firms owning 26% of single-family homes (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "health": {
+          "label": "'The government needs to step in... we're not also paying the taxes for healthcare and paying thousands of dollars a month,' backing 'a universal single-payer system' (Idaho Capital Sun); campaign site calls taking insurers 'completely out of the equation... the cheapest way forward'",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        },
+        "housing": {
+          "label": "Opposes corporate ownership of single-family homes and backs revising the tax code to favor local builders (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "immigration": {
+          "label": "Criticizes 'warrantless arrests, unconstitutional home searches' and 'keeping children in dangerous, unsafe facilities' in enforcement, while backing streamlined legal pathways (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "taxes": {
+          "label": "Would 'increase corporate tax rates, remove corporate tax breaks/subsidies' while offering middle-class relief (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "climate": {
+          "label": "Backs renewable energy 'to lower utility bills' and opposes fossil fuel subsidies (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "education": {
+          "label": "Supports 'fully federally funding public education from pre-K through higher education' and opposes diverting 'a single cent of taxpayer funds' to private education (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        "repro": {
+          "label": "Notes Idaho has 'lost 43% of our practicing OBGYNs' since Dobbs and says lawmakers should 'step out of the exam room and listen to women' (campaign issues page)",
+          "url": "https://kayleeforcongress.com/about/"
+        }
+      },
+      "nullNotes": {
+        "safety": "checked campaign issues page, no criminal-justice position documented (checked 2026-08-29)",
+        "democracy": "campaign issues page proposes banning congressional stock trading, term limits, and overturning Citizens United, which are anti-corruption measures, not the voting-access-versus-safeguards mechanism this axis tracks, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2ID01192/"
+        },
+        {
+          "label": "Campaign about/issues page",
+          "url": "https://kayleeforcongress.com/about/"
+        },
+        {
+          "label": "Idaho Capital Sun: ID-1 candidates on healthcare costs",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6ID01318",
+      "name": "Sarah Zabel",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "1",
+      "state": "ID",
+      "incumbent": false,
+      "now": "Retired U.S. Air Force Major General; independent candidate, Idaho's 1st District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Retired Air Force major general with 31 years of military service, running as an independent after leaving the Republican Party, which she said no longer stood for 'free markets, fiscal responsibility, limited government, a strong defense, and the rule of law.'",
+      "priorities": [
+        "Break up hospital and housing-market monopolies for fair competition",
+        "Debt reduction through both new revenue and spending cuts",
+        "Legal immigration pathways matched to economic need"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": 1,
+        "immigration": 0,
+        "taxes": 0,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Proposes breaking up hospital monopolies, expanding nurse-practitioner and physician-assistant roles, requiring cost transparency, and restoring the enhanced ACA premium tax credits that expired in 2025 (Idaho Capital Sun)",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        },
+        "housing": {
+          "label": "Would 'get rid of broad tariffs to lower construction and insurance costs, and build a sufficient workforce' to make housing affordable (campaign website)",
+          "url": "https://www.zabelforcongress.com/"
+        },
+        "immigration": {
+          "label": "Mixed: wants to 'match legal pathways to what our economy actually needs' while 'preventing the uncontrolled migration' (campaign website)",
+          "url": "https://www.zabelforcongress.com/"
+        },
+        "taxes": {
+          "label": "Mixed: calls to 'raise revenue and reduce expenditures' for debt control, explicitly rejecting 'one-sided' solutions (campaign website)",
+          "url": "https://www.zabelforcongress.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked campaign website; 'get the national debt under control and grow the economy' is a general goal with no specific price mechanism outside housing, so left null (checked 2026-08-29)",
+        "climate": "checked campaign website and Idaho Capital Sun coverage, nothing documented (checked 2026-08-29)",
+        "education": "checked campaign website and Idaho Capital Sun coverage, nothing documented (checked 2026-08-29)",
+        "safety": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "repro": "checked campaign website and Idaho Capital Sun coverage, nothing documented (checked 2026-08-29)",
+        "democracy": "checked campaign website and Idaho Capital Sun profile; she discusses restoring congressional oversight of executive/military power, which is not the voting-rules mechanism this axis tracks, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "Campaign website",
+          "url": "https://www.zabelforcongress.com/"
+        },
+        {
+          "label": "Idaho Capital Sun: ID-1 candidates on healthcare costs",
+          "url": "https://idahocapitalsun.com/2026/08/18/us-district-1-candidates-idahoans-face-high-healthcare-costs-heres-how-they-want-to-fix-it/"
+        },
+        {
+          "label": "Idaho Capital Sun: independent movement profile",
+          "url": "https://idahocapitalsun.com/2026/06/11/you-are-witnessing-an-independent-movement-in-idaho-politics/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H8ID02064",
+      "name": "Michael Simpson",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "incumbent": true,
+      "now": "U.S. Representative for Idaho's 2nd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "U.S. Representative since 1999, a dentist by training and former Speaker of the Idaho House. Won the May 19, 2026 Republican primary with about 63%.",
+      "priorities": [
+        "Repeal and replace the ACA",
+        "Nuclear power as a clean, low-carbon energy source",
+        "Pro-life record"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Voted for and presided over passage of the American Health Care Act of 2017 to repeal the ACA, 'questioning its constitutionality and effectiveness' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Simpson"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22, 2025 (House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 reconciliation tax law, Jul 3, 2025 (House roll call 190), and previously for the 2017 Tax Cuts and Jobs Act (Wikipedia)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'Climate change is a reality. It's not hard to figure out. Go look at your thermometer' (2019 Boise conference); an 'outspoken proponent of nuclear power' as a low-carbon source (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Simpson"
+        },
+        "repro": {
+          "label": "'Anti-abortion' with a zero NARAL rating and 100% National Right to Life Committee rating; opposes federal funding for abortion and embryonic stem cell research (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Simpson"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Wikipedia; his 2017 TCJA support is scored under taxes, no separate price/affordability mechanism documented (checked 2026-08-29)",
+        "housing": "checked Wikipedia, nothing documented (checked 2026-08-29)",
+        "education": "checked Wikipedia, nothing documented (checked 2026-08-29)",
+        "safety": "checked Wikipedia; the Newborn Screening Saves Lives Act and 2021 VAWA reauthorization vote concern health screening and domestic violence programs, not the policing/sentencing mechanism this axis tracks, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8ID02064/"
+        },
+        {
+          "label": "Wikipedia: Mike Simpson",
+          "url": "https://en.wikipedia.org/wiki/Mike_Simpson"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6ID02274",
+      "name": "Elinor Gilbreath",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "incumbent": false,
+      "now": "2026 Democratic nominee, Idaho's 2nd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Idaho Democrat who became the party's effective nominee after primary opponent Julie Wiley withdrew and endorsed her. Campaigns on affordability, drug-price transparency, and opposing corporate home-buying.",
+      "priorities": [
+        "Fight price gouging and ensure tax fairness for working families",
+        "Rural healthcare access and drug-price transparency",
+        "Keep Wall Street from buying up Idaho homes"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Supports efforts to 'fight price gouging in food and essential goods' and 'tax fairness so working families aren't paying proportionally more than the ultra-wealthy' (campaign website)",
+          "url": "https://ellieforidaho.com/"
+        },
+        "health": {
+          "label": "Would 'strengthen rural healthcare systems and increase provider access' and 'improve transparency in drug pricing'; people 'should not have to choose between groceries and prescriptions' (campaign website)",
+          "url": "https://ellieforidaho.com/"
+        },
+        "housing": {
+          "label": "Opposes letting 'Wall Street from buying up Idaho homes and driving up costs' (campaign website)",
+          "url": "https://ellieforidaho.com/"
+        },
+        "taxes": {
+          "label": "Calls for 'tax fairness so working families aren't paying proportionally more than the ultra-wealthy' (campaign website)",
+          "url": "https://ellieforidaho.com/"
+        },
+        "repro": {
+          "label": "Backs 'the right to privacy, including the right to make your own healthcare decisions' and to 'protect maternal health and family services' (campaign website)",
+          "url": "https://ellieforidaho.com/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "checked campaign website (ellieforidaho.com) and Ballotpedia (no 2026 Candidate Connection survey), nothing documented (checked 2026-08-29)",
+        "climate": "campaign site calls for 'responsible energy development' while keeping 'public lands public' and improving wildfire prevention, which does not state a clean-energy-versus-fossil direction, so left null (checked 2026-08-29)",
+        "education": "checked campaign website and Ballotpedia, nothing documented (checked 2026-08-29)",
+        "safety": "checked campaign website and Ballotpedia, nothing documented (checked 2026-08-29)",
+        "democracy": "campaign site calls to 'restore constitutional balance,' end congressional stock trading, and curb dark money, which are anti-corruption measures, not the voting-rules mechanism this axis tracks, so left null (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "Campaign website",
+          "url": "https://ellieforidaho.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Elinor_Gilbreath"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6ID02241",
+      "name": "Tripp Charles Hutchinson",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "ID",
+      "incumbent": false,
+      "now": "Independent candidate, Idaho's 2nd District",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Independent, grassroots-funded candidate in Idaho's 2nd District running against 'consolidation of power, public or private.' Responded to the KIVI candidate survey on cost of living, energy, land management, and agriculture.",
+      "priorities": [
+        "Raise the minimum wage and break up monopolies",
+        "Expand solar power and Idaho National Laboratory nuclear research",
+        "Keep federal public lands under federal management"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Survey answer: Congress should 'raise the minimum wage, bolster unions, expand parental leave... and break up monopolies' (KIVI candidate survey)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        },
+        "housing": {
+          "label": "Survey answer calls to 'create more housing' as part of his cost-of-living plank; campaign site adds he wants 'the mechanic or hard-working waitress' to again 'own a home and support a family' on one income (KIVI survey and campaign website)",
+          "url": "https://votefortripp.com/"
+        },
+        "climate": {
+          "label": "Would 'expand solar energy and fund Idaho National Laboratory nuclear research' (KIVI candidate survey)",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        }
+      },
+      "nullNotes": {
+        "health": "survey did not include a healthcare question; checked campaign website, nothing documented (checked 2026-08-29)",
+        "immigration": "survey did not include an immigration question; checked campaign website, nothing documented (checked 2026-08-29)",
+        "taxes": "checked KIVI candidate survey and campaign website, nothing beyond the cost-of-living answer scored under cost (checked 2026-08-29)",
+        "education": "survey did not include an education question; checked campaign website, nothing documented (checked 2026-08-29)",
+        "safety": "checked KIVI candidate survey and campaign website, nothing documented (checked 2026-08-29)",
+        "repro": "survey did not include an abortion question; checked campaign website, nothing documented (checked 2026-08-29)",
+        "democracy": "survey did not include a voting-rules question; checked campaign website, nothing documented (checked 2026-08-29)"
+      },
+      "sources": [
+        {
+          "label": "KIVI/Idaho News candidate survey, ID-2",
+          "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://votefortripp.com/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
     }
   ]
 }

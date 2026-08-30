@@ -1,7 +1,7 @@
 {
   "state": "AZ",
   "electionYear": 2026,
-  "syncedAt": "2026-07-21T12:11:42.724Z",
+  "syncedAt": "2026-08-30T11:57:48.881Z",
   "candidates": [
     {
       "id": "fec-H4AZ01194",
@@ -318,6 +318,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AZ01280/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4AZ01228",
+      "fecId": "H4AZ01228",
+      "name": "Marlene Galan-Woods",
+      "party": "Democrat",
+      "state": "AZ",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4AZ01228/"
         }
       ],
       "funding": null,

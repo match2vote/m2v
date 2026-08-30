@@ -1,7 +1,7 @@
 {
   "state": "TX",
   "electionYear": 2026,
-  "syncedAt": "2026-08-29T12:42:50.401Z",
+  "syncedAt": "2026-08-30T11:57:48.859Z",
   "candidates": [
     {
       "id": "fec-H6TX01337",
@@ -3780,38 +3780,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX30252",
-      "fecId": "H6TX30252",
-      "name": "Barbara Mallory Caraway",
-      "party": "Democrat",
-      "state": "TX",
-      "office": "us-house",
-      "district": "30",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX30252/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H0TX30073",
       "fecId": "H0TX30073",
       "name": "Barbara Mallory Caraway",
@@ -3838,6 +3806,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0TX30073/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX30252",
+      "fecId": "H6TX30252",
+      "name": "Barbara Mallory Caraway",
+      "party": "Democrat",
+      "state": "TX",
+      "office": "us-house",
+      "district": "30",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX30252/"
         }
       ],
       "funding": null,

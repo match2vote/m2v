@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-08-27T17:40:12.619Z",
+  "syncedAt": "2026-08-30T11:57:48.876Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -4126,6 +4126,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL24095/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H0FL17092",
+      "fecId": "H0FL17092",
+      "name": "Roderick D Vereen",
+      "party": "Democrat",
+      "state": "FL",
+      "office": "us-house",
+      "district": "24",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0FL17092/"
         }
       ],
       "funding": null,

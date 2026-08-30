@@ -15,6 +15,10 @@ import { strings } from '../strings';
 
 const S = strings.browse;
 
+const hasResearch = (c) =>
+  !!c && (c.tier === 'researched' || c.tier === 'curated') &&
+  Object.values(c.positions || {}).some((v) => v !== null && v !== undefined);
+
 const { space } = theme;
 
 export function StatePicker() {
@@ -106,7 +110,7 @@ export function Races({ stateCode }) {
               )}
               {r.coverage === 'names' && (
                 <Body soft style={{ fontSize: 12, marginTop: 4, fontStyle: 'italic' }}>
-                  {S.namesOnlyRowNote}
+                  {r.candidates.some(hasResearch) ? S.researchedRowNote : S.namesOnlyRowNote}
                 </Body>
               )}
             </Card>
@@ -197,10 +201,10 @@ export function Race({ raceId }) {
       {namesOnly && (
         <Card>
           <Body style={{ fontWeight: '700', fontSize: 14 }}>
-            {S.namesOnlyTitle}
+            {race.candidates.some(hasResearch) ? S.researchedTitle : S.namesOnlyTitle}
           </Body>
           <Body soft style={{ fontSize: 13, marginTop: 4 }}>
-            {S.namesOnlyBody}
+            {race.candidates.some(hasResearch) ? S.researchedBody : S.namesOnlyBody}
           </Body>
           {(race.meta?.sources || []).map((s) => (
             <Button key={s.url} kind="ghost" small label={`Source: ${s.label}`} onPress={() => Linking.openURL(s.url)} />
@@ -227,7 +231,7 @@ export function Race({ raceId }) {
                       {c.ballotStatus === 'nominee' ? S.nominee : c.incumbent ? S.incumbent : ''}
                     </H2>
                     <Body soft style={{ marginBottom: 6 }}>{c.party}</Body>
-                    {!namesOnly && <TierBadge tier={c.tier} />}
+                    {!namesOnly ? <TierBadge tier={c.tier} /> : hasResearch(c) ? <TierBadge tier="researched" /> : null}
                   </View>
                   {m && <MatchRing pct={m.pct} />}
                 </View>
@@ -272,6 +276,7 @@ export function Profile({ candidateId }) {
   const positions = candidate.positions || {};
   const posSources = candidate.positionSources || {};
   const isNamesOnly = race.coverage === 'names' || candidate.tier !== 'curated';
+  const showPositions = !isNamesOnly || hasResearch(candidate);
   const hasQuiz = !isNamesOnly && answers && Object.values(answers).some((v) => v !== null && v !== undefined);
   const match = hasQuiz ? computeMatch(answers, matters || {}, positions) : null;
 
@@ -296,7 +301,7 @@ export function Profile({ candidateId }) {
         {hasQuiz && <MatchRing pct={match.pct} size={76} />}
       </View>
       <View style={{ marginVertical: space(2) }}>
-        <TierBadge tier={isNamesOnly ? 'fec' : candidate.tier} />
+        <TierBadge tier={isNamesOnly ? (hasResearch(candidate) ? 'researched' : 'fec') : candidate.tier} />
       </View>
       <ScrollView style={{ flex: 1 }}>
         {candidate.quote ? (
@@ -335,7 +340,7 @@ export function Profile({ candidateId }) {
             })}
           </Card>
         ) : null}
-        {!isNamesOnly && Object.values(positions).filter((v) => v !== null && v !== undefined).length <= 3 ? (
+        {showPositions && Object.values(positions).filter((v) => v !== null && v !== undefined).length <= 3 ? (
           <Card>
             <Body soft style={{ fontSize: 13 }}>
               {S.fewPositions}
@@ -372,14 +377,14 @@ export function Profile({ candidateId }) {
         {isNamesOnly && (
           <Card>
             <Body style={{ fontWeight: '700', fontSize: 13.5 }}>
-              {S.profNamesOnlyTitle}
+              {hasResearch(candidate) ? S.profResearchedTitle : S.profNamesOnlyTitle}
             </Body>
             <Body soft style={{ fontSize: 13, marginTop: 4 }}>
-              {S.profNamesOnlyBody}
+              {hasResearch(candidate) ? S.profResearchedBody : S.profNamesOnlyBody}
             </Body>
           </Card>
         )}
-        {!isNamesOnly && ISSUES.map((issue) => {
+        {showPositions && ISSUES.map((issue) => {
           const val = positions[issue.key];
           const stated = val !== null && val !== undefined;
           const src = posSources[issue.key];

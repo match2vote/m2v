@@ -115,6 +115,7 @@ export function TierBadge({ tier }) {
   const { colors } = useTheme();
   const map = {
     curated: { label: S.tierCurated, color: colors.accent, bg: colors.accentSoft },
+    researched: { label: S.tierResearched, color: colors.accent, bg: colors.line },
     fec: { label: S.tierFec, color: colors.notStated, bg: colors.line },
     sample: { label: S.tierSample, color: colors.sample, bg: colors.line },
   };

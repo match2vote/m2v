@@ -71,7 +71,28 @@ function Root() {
   const quizUsable = quiz.done && realAnswers >= 3;
   const quizCtx = { answers: quizUsable ? quiz.answers : {}, matters: quiz.matters };
 
-  if (!onboarded) {
+  // Shareable read-only screens must render for people who have never opened
+  // the app: candidate and race deep links go out in emails to campaigns and
+  // congressional offices, and the onboarding gate below would otherwise
+  // swallow the route and show Welcome instead of the linked profile.
+  const deepLink = nav.route.name === 'candidate' || nav.route.name === 'race';
+
+  if (!onboarded && deepLink) {
+        return (
+                <QuizContext.Provider value={quizCtx}>
+                  <View style={{ flex: 1, backgroundColor: colors.bg }}>
+          <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
+              <ErrorBoundary>
+  {nav.route.name === 'race'
+                  ? <Race raceId={nav.route.id} />
+                  : <Profile candidateId={nav.route.id} />}
+                    </ErrorBoundary>
+                    </View>
+                    </QuizContext.Provider>
+                        );
+}
+
+if (!onboarded) {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />

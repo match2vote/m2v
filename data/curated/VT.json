@@ -7,7 +7,7 @@
       "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%. Also listed for the November ballot: June Goodband (Peace and Justice), Dean R. Roy (Freedom and Unity) and independent Brian Judd."
     },
     "VT-house-at-large": {
-      "status": "general",
+      "status": "names-only",
       "advancing": [
         "fec-H2VT01076",
         "fec-H6VT01085",
@@ -16,7 +16,7 @@
         "vt-house-seymour",
         "vt-house-walton"
       ],
-      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 76% over Mark Coester. Independents Phoenix Altair, Adam Ortiz, Suzanne Seymour and Ryan Walton are also listed for the November ballot. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them.",
+      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 76% over Mark Coester. Independents Phoenix Altair, Adam Ortiz, Suzanne Seymour and Ryan Walton are also listed for the November ballot. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 30, 2026 (second-check Aug 30, 2026 nulled Balint's taxes score, dropping overlap from 7 to 6).",
       "sources": [
         {
           "label": "Gerald Malloy wins Vermont Republican primary for U.S. House (Vermont Public)",
@@ -27,7 +27,7 @@
           "url": "https://vtdigger.org/2026/08/11/the-latest-results-from-vermonts-2026-primary-election/"
         }
       ],
-      "overlap": 7
+      "overlap": 6
     }
   },
   "candidates": [
@@ -210,7 +210,7 @@
       "district": "at-large",
       "state": "VT",
       "incumbent": true,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": 58,
       "home": "Brattleboro, VT",
@@ -226,7 +226,7 @@
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": -2,
+        "taxes": null,
         "climate": -2,
         "education": -1,
         "safety": -1,
@@ -245,10 +245,6 @@
         "immigration": {
           "label": "'supports comprehensive immigration reform as well as surging resources and increasing efficiencies to reduce processing wait times and alleviate hardships faced by refugees, asylum seekers and other immigrants'; the reform is unnamed and no bill is cited on the page (House office immigration issue page)",
           "url": "https://balint.house.gov/Issues/Issue/?IssueID=14914"
-        },
-        "taxes": {
-          "label": "Voted No on H.R. 1, titled 'One Big Beautiful Bill Act' on the roll call, on the motion to concur in the Senate amendment, July 3, 2025; it passed 218 to 214 (House roll call 190)",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         },
         "climate": {
           "label": "Backs 'the Green New Deal to fund green jobs, combat the climate crisis, and transition to clean energy' and says 'Congress must take decisive and bold action before it's too late' (House office climate issue page)",
@@ -272,7 +268,8 @@
         }
       },
       "nullNotes": {
-        "cost": "neither her campaign issues page nor her House office site has a cost of living, prices, wages, or taxes page; the House issues index lists only 14 topics and none of them is one of those. No price, wage floor, or market deregulation position was found there, on her about page, or in the 2026 race coverage checked. Her H.R. 1 votes are scored on taxes rather than counted twice here."
+        "cost": "neither her campaign issues page nor her House office site has a cost of living, prices, wages, or taxes page; the House issues index lists only 14 topics and none of them is one of those. No price, wage floor, or market deregulation position was found there, on her about page, or in the 2026 race coverage checked. Her H.R. 1 votes are scored on taxes rather than counted twice here.",
+        "taxes": "second-check Aug 30, 2026: taxes score rested solely on a bare Nay on H.R. 1 (roll190), which does not meet the calibration anchors for Democrats; checked balint.house.gov/issues, which lists no taxes or economy issue page; no separate statement found; nulled"
       },
       "sources": [
         {
@@ -302,7 +299,7 @@
       "district": "at-large",
       "state": "VT",
       "incumbent": false,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "age": 64,
       "home": "Weathersfield, VT",

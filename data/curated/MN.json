@@ -403,7 +403,7 @@
     "health": -1,
     "housing": -1,
     "immigration": -1,
-    "taxes": -1,
+    "taxes": null,
     "climate": -1,
     "education": -1,
     "safety": 1,
@@ -443,14 +443,13 @@
      "label": "Pledges to protect the reproductive rights codified in state law by the PRO Act (campaign health plan)",
      "url": "https://www.amyklobuchar.com/priorities/healthcare"
     },
-    "taxes": {
-     "label": "Voted against passage of the 2017 Tax Cuts and Jobs Act (H.R. 1), which passed 51-49 (Senate roll call 303, 2017)",
-     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00303.htm"
-    },
     "democracy": {
      "label": "Lead sponsor of the Freedom to Vote Act: automatic voter registration, two weeks of early voting, mail ballots for all voters, same-day registration (Senate office)",
      "url": "https://www.klobuchar.senate.gov/public/index.cfm/2023/7/klobuchar-colleagues-introduce-legislation-to-protect-the-freedom-to-vote-and-strengthen-our-democracy"
     }
+   },
+   "nullNotes": {
+    "taxes": "second-check Aug 30, 2026: cited page confirms only a bare Nay vote on the 2017 Tax Cuts and Jobs Act (Senate roll call 303); a bare no vote does not by itself establish the taxes axis per calibration guidance, and no independent tax-policy statement was found on klobuchar.senate.gov after repeated attempts; nulled, source removed"
    },
    "controversies": [
     {

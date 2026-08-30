@@ -3200,7 +3200,7 @@
         "health": -2,
         "housing": -2,
         "immigration": -1,
-        "taxes": -1,
+        "taxes": null,
         "climate": -2,
         "education": -1,
         "safety": null,
@@ -3224,10 +3224,6 @@
           "label": "Voted no on the Laken Riley Act, which requires ICE detention for certain charged noncitizens, on passage January 7, 2025 (House roll call 6)",
           "url": "https://clerk.house.gov/evs/2025/roll006.xml"
         },
-        "taxes": {
-          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, on July 3, 2025 (House roll call 190)",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
-        },
         "climate": {
           "label": "'Recognizes climate change for the existential threat that it is' and champions policies that reduce greenhouse gas emissions (official House site)",
           "url": "https://desaulnier.house.gov/issues/energy-and-environment"
@@ -3246,7 +3242,8 @@
         }
       },
       "nullNotes": {
-        "safety": "Checked his official House issues index, whose only public safety page is Gun Violence Prevention, plus Wikipedia, where the criminal justice material is a state bill requiring gun owners to report stolen weapons. The run book excludes gun stances from this axis, and nothing else places him on prevention versus enforcement."
+        "safety": "Checked his official House issues index, whose only public safety page is Gun Violence Prevention, plus Wikipedia, where the criminal justice material is a state bill requiring gun owners to report stolen weapons. The run book excludes gun stances from this axis, and nothing else places him on prevention versus enforcement.",
+        "taxes": "second-check Aug 30, 2026: the only cited support was a bare Nay on H.R. 1 (roll 190, Jul 3, 2025), which does not meet the calibration anchor for Democrats (a no vote alone does not establish the taxes axis); checked his House jobs-and-economy issues page and found wage/productivity and small-business language but no statement on taxes, so nulled for lack of a separate supporting statement."
       },
       "sources": [
         {

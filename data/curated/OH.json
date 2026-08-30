@@ -2475,25 +2475,17 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": -1,
+        "health": null,
         "housing": null,
         "immigration": 1,
         "taxes": null,
         "climate": null,
-        "education": -1,
+        "education": null,
         "safety": null,
         "repro": null,
         "democracy": -1
       },
       "positionSources": {
-        "health": {
-          "label": "Endorsement coverage credits her push for 'expanded access to health care' and health-policy framework (news coverage)",
-          "url": "https://emiliasykes.com"
-        },
-        "education": {
-          "label": "Places 'priority on early education' (news coverage via campaign site)",
-          "url": "https://emiliasykes.com"
-        },
         "immigration": {
           "label": "Voted Yea on S.5, the Laken Riley Act, Jan 22, 2025 (House Clerk roll call 23)",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
@@ -2505,9 +2497,11 @@
       },
       "nullNotes": {
         "cost": "checked emiliasykes.com homepage, not addressed (checked Aug 29, 2026)",
+        "health": "second-check Aug 30, 2026: emiliasykes.com only hosts a Beacon-Journal endorsement article characterizing her priorities; no direct statement from Sykes herself, so the endorsement-inference rule disqualifies it",
         "housing": "checked emiliasykes.com homepage, not addressed (checked Aug 29, 2026)",
         "taxes": "voted No on H.R. 1 (roll 190) which alone does not establish the axis for a Democrat; no separate statement found (checked Aug 29, 2026)",
         "climate": "checked emiliasykes.com homepage, not addressed (checked Aug 29, 2026)",
+        "education": "second-check Aug 30, 2026: emiliasykes.com only hosts a Beacon-Journal endorsement article characterizing her priorities; no direct statement from Sykes herself, so the endorsement-inference rule disqualifies it",
         "safety": "checked emiliasykes.com homepage, not addressed (checked Aug 29, 2026)",
         "repro": "checked emiliasykes.com homepage, not addressed (checked Aug 29, 2026)"
       },

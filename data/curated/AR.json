@@ -3,13 +3,13 @@
   "note": "Hand-curated, sourced entries. Both statewide races: US Senate (Cotton) and Governor (Sanders).",
   "races": {
     "AR-senate": {
-      "status": "general",
+      "status": "names-only",
       "advancing": [
         "fec-S4AR00103",
         "fec-S6AR00199",
         "fec-S6AR00223"
       ],
-      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton about 82%, Shoffner about 78%), no runoffs. Libertarian Jeffrey Wadlin is also on the November ballot."
+      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton about 82%, Shoffner about 78%), no runoffs. Libertarian Jeffrey Wadlin is also on the November ballot. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 30, 2026 (second-check)."
     },
     "AR-governor": {
       "status": "general",
@@ -101,7 +101,7 @@
       "party": "Republican",
       "office": "us-senate",
       "state": "AR",
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 49,
@@ -115,21 +115,17 @@
       ],
       "positions": {
         "cost": null,
-        "health": 2,
+        "health": null,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": 2,
-        "education": 1,
+        "climate": null,
+        "education": null,
         "safety": 2,
         "repro": 2,
         "democracy": 1
       },
       "positionSources": {
-        "health": {
-          "label": "'I will fight to repeal and replace ObamaCare with free-market reforms that empower patients and doctors' (Ballotpedia)",
-          "url": "https://ballotpedia.org/Tom_Cotton"
-        },
         "immigration": {
           "label": "Co-sponsored the RAISE Act to cut family-based immigration and cap refugees at 50,000; 'We cannot afford to grant illegal aliens amnesty or a so-called earned path to citizenship' (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Tom_Cotton"
@@ -137,14 +133,6 @@
         "taxes": {
           "label": "Championed the 2017 tax-cut bill; his individual-mandate repeal 'will pay for a lot more tax cuts for working families' (Senate office)",
           "url": "https://www.cotton.senate.gov/news/press-releases/cotton-statement-on-the-sfc-approval-of-tax-cut-bill"
-        },
-        "climate": {
-          "label": "'I view our fossil fuels as a valuable asset to be used, not an embarrassing liability'; backs policies that 'unleash our energy producers' (Ballotpedia)",
-          "url": "https://ballotpedia.org/Tom_Cotton"
-        },
-        "education": {
-          "label": "'Restore local control over our educational system' and empower parental choice (Ballotpedia)",
-          "url": "https://ballotpedia.org/Tom_Cotton"
         },
         "safety": {
           "label": "Wrote the 'Send in the Troops' op-ed on 2020 protests; opposed the First Step Act, saying the U.S. has an 'under-incarceration problem' (Wikipedia)",
@@ -176,7 +164,10 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "cost": "checked Ballotpedia, Wikipedia, and Senate press releases; primary-night pledge to 'lower costs for Arkansas families' has no documented mechanism, does not fit the axis",
-        "housing": "checked Ballotpedia, Wikipedia, and Senate press releases, nothing documented"
+        "housing": "checked Ballotpedia, Wikipedia, and Senate press releases, nothing documented",
+        "health": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the ACA-repeal quote; cotton.senate.gov/issues 404s; tomcotton.com/issues lists a healthcare heading with no reachable supporting text; nulled",
+        "climate": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the fossil-fuels quote; tomcotton.com/issues has no energy/climate heading at all; nulled",
+        "education": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the local-control-education quote; tomcotton.com/issues lists an education heading with no reachable supporting text; nulled"
       }
     },
     {
@@ -185,7 +176,7 @@
       "party": "Democrat",
       "office": "us-senate",
       "state": "AR",
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": 38,

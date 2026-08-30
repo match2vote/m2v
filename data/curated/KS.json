@@ -939,7 +939,7 @@
       "positions": {
         "cost": null,
         "health": -1,
-        "housing": -1,
+        "housing": null,
         "immigration": null,
         "taxes": -2,
         "climate": null,
@@ -953,10 +953,6 @@
           "label": "Supports 'protecting Medicare' as a way to boost rural hospitals (KCUR candidate guide)",
           "url": "https://www.kcur.org/politics-elections-and-government/2026-07-17/kansas-2nd-district-congress-primary-election-2026"
         },
-        "housing": {
-          "label": "Names 'rising grocery and housing costs' among the pressures on his southeast Kansas neighbors and prioritizes making housing more affordable (campaign site; KCUR candidate guide)",
-          "url": "https://doncooverforcongress.com/"
-        },
         "taxes": {
           "label": "'We have shifted the tax burden ... not on those people that have the most ability to pay. That's illogical, I think immoral, and I think it's stupid,' and opposes tax cuts favoring the wealthy and corporations (KCUR candidate guide)",
           "url": "https://www.kcur.org/politics-elections-and-government/2026-07-17/kansas-2nd-district-congress-primary-election-2026"
@@ -964,6 +960,7 @@
       },
       "nullNotes": {
         "cost": "campaign site and Kansas Reflector profile discuss farm economics generally but state no general price/wage mechanism distinct from the housing and tax citations already scored (checked Aug 29, 2026)",
+        "housing": "second-check Aug 30, 2026: campaign site names 'rising grocery and housing costs' as a pressure on his neighbors but contains no advocacy language or specific housing-policy stance; a bare mention of the problem does not meet the calibration bar for a scored position; nulled, source removed",
         "immigration": "checked campaign site, KCUR candidate guide, and Kansas Reflector/Raw Story profiles, nothing documented",
         "climate": "checked campaign site and KCUR candidate guide, nothing documented",
         "education": "checked campaign site and KCUR candidate guide, nothing documented",
@@ -1022,7 +1019,7 @@
       },
       "positionSources": {
         "cost": {
-          "label": "Opposes Trump's tariffs, saying they are 'raising costs and hurting Kansas farmers,' and touts recruiting Panasonic manufacturing to lower costs (Johnson County Post candidate guide)",
+          "label": "Opposes Trump's tariffs, saying they are 'raising costs and hurting Kansas farmers' (Johnson County Post candidate guide)",
           "url": "https://johnsoncountypost.com/2026/07/14/whos-running-for-kansas-3rd-congressional-district-meet-the-candidates-291129/"
         },
         "health": {

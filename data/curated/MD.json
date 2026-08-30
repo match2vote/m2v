@@ -25,12 +25,12 @@
    ]
   },
   "MD-house-3": {
-   "status": "general",
+   "status": "names-only",
    "advancing": [
     "fec-H4MD03156",
     "fec-H4MD03149"
    ],
-   "statusNote": "Rep. Sarah Elfreth (D) seeks re-election against Berney Flowers (R), who won a four-way Republican primary on June 23, 2026 with 49%.",
+   "statusNote": "Rep. Sarah Elfreth (D) seeks re-election against Berney Flowers (R), who won a four-way Republican primary on June 23, 2026 with 49%. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 30, 2026 (second-check dropped both candidates' housing scores as unsupported).",
    "sources": [
     {
      "label": "Maryland 2026 candidates by district (Election2026)",
@@ -850,7 +850,7 @@
    "state": "MD",
    "office": "us-house",
    "incumbent": true,
-   "tier": "curated",
+   "tier": "researched",
    "ballotStatus": "nominee",
    "age": null,
    "home": null,
@@ -864,7 +864,7 @@
    "positions": {
     "cost": null,
     "health": -1,
-    "housing": -1,
+    "housing": null,
     "immigration": -1,
     "taxes": null,
     "climate": -1,
@@ -877,10 +877,6 @@
     "health": {
      "label": "Signed a pledge to support legislation extending Inflation Reduction Act healthcare benefits beyond 2025 and supports protecting ACA subsidies (Wikipedia)",
      "url": "https://en.wikipedia.org/wiki/Sarah_Elfreth"
-    },
-    "housing": {
-     "label": "Touted delivering $2,000,000 to build low-income and workforce housing in Howard County and $1.3 billion nationally through the HOME Investment Partnerships Program in a 2025 appropriations package (press release)",
-     "url": "https://elfreth.house.gov/media/press-releases/elfreth-delivers-105-million-third-district-through-house-appropriations"
     },
     "immigration": {
      "label": "Voted no on the Laken Riley Act (S.5), and has opposed blocking private buildings from use as ICE detention centers while criticizing ICE facility conditions in Maryland, Jan 22, 2025, roll call 23 (Clerk, U.S. House)",
@@ -904,7 +900,8 @@
     }
    },
    "nullNotes": {
-    "cost": "checked Wikipedia, elfreth.house.gov issues hub and two 2025 press releases (appropriations, end-year review); only a 2023 state-senate gas-tax vote found, which does not clearly fit price/wage intervention vs deregulation (checked Aug 29, 2026)",
+    "cost": "checked Wikipedia, elfreth.house.gov issues hub and two 2025 press releases (appropriations, end-year review); only a 2023 state-senate gas-tax vote found, which does not clearly fit price/wage intervention vs deregulation (checked Aug 29, 2026); re-checked elfreth.house.gov/issues/economy Aug 30, 2026: only vague 'reduce barriers' framing, no scoreable position",
+    "housing": "second-check Aug 30, 2026: the cited press release is a routine appropriations/earmark announcement ($2M for Howard County housing) with no housing-policy advocacy language, matching the guide's null anchor for routine appropriations",
     "taxes": "checked Wikipedia, elfreth.house.gov press releases, and a web search for tax statements; only a narrow 2024 firearm-sales excise tax for the state trauma system was found, which does not reflect a broader tax agenda (checked Aug 29, 2026); her no vote on H.R.1 (roll 190) alone does not establish this axis per the guide",
     "education": "checked Wikipedia and elfreth.house.gov issues hub; only Board of Regents oversight legislation and opposition to Moms for Liberty school-board candidates found, which do not map to public investment vs school choice (checked Aug 29, 2026)"
    },
@@ -936,7 +933,7 @@
    "state": "MD",
    "office": "us-house",
    "incumbent": false,
-   "tier": "curated",
+   "tier": "researched",
    "ballotStatus": "nominee",
    "age": null,
    "home": null,
@@ -950,7 +947,7 @@
    "positions": {
     "cost": 1,
     "health": 2,
-    "housing": -1,
+    "housing": null,
     "immigration": 2,
     "taxes": 2,
     "climate": 2,
@@ -967,10 +964,6 @@
     "health": {
      "label": "Opposes government as the primary healthcare provider, favors 'patient-centered, market-driven reform', and would reform Medicaid into state block grants (iVoterGuide questionnaire)",
      "url": "https://ivoterguide.com/candidate/62321/race/27193/election/1410"
-    },
-    "housing": {
-     "label": "2022 Candidate Connection survey: would 'encourage home ownership, protect against predatory lending, support small businesses, diversify credit-building methods' (Ballotpedia)",
-     "url": "https://ballotpedia.org/Bernard_Flowers"
     },
     "immigration": {
      "label": "'It's time to defend our borders and protect American sovereignty', supports strong immigration enforcement (campaign site)",
@@ -1001,7 +994,9 @@
      "url": "https://marylandmatters.org/voter-guides/contests/3rd-district-republicans/"
     }
    },
-   "nullNotes": {},
+   "nullNotes": {
+    "housing": "second-check Aug 30, 2026: the cited Ballotpedia page's 2022 Candidate Connection survey does not contain this housing quote; it appears only on the 2024 campaign site per one AI read, but neither the current flowersformaryland.com homepage nor /issues contains it either, so it is unsupported"
+   },
    "sources": [
     {
      "label": "FEC filing",
@@ -1708,7 +1703,7 @@
    "positions": {
     "cost": -1,
     "health": -1,
-    "housing": -1,
+    "housing": null,
     "immigration": -1,
     "taxes": null,
     "climate": null,
@@ -1725,10 +1720,6 @@
     "health": {
      "label": "2020 campaign priority to 'Improve and Strengthen Obamacare' (Ballotpedia)",
      "url": "https://ballotpedia.org/Kweisi_Mfume"
-    },
-    "housing": {
-     "label": "'Proud to join Mayor Scott and City Housing Officials to announce a substantial investment from the American Rescue Plan into affordable housing development' in Baltimore (press release)",
-     "url": "https://mfume.house.gov/media/press-releases/permanent-supportive-housing-gets-american-rescue-plan-funded-boost-in-baltimore"
     },
     "immigration": {
      "label": "Voted no on the Laken Riley Act (S.5), Jan 22, 2025, roll call 23 (Clerk, U.S. House)",
@@ -1748,6 +1739,7 @@
     }
    },
    "nullNotes": {
+    "housing": "second-check Aug 30, 2026: the cited press release is a routine appropriations/announcement of an already-completed ARPA-funded investment, with no housing-policy advocacy language, matching the guide's null anchor for routine appropriations",
     "taxes": "checked mfume.house.gov issues/economy page, Ballotpedia (no 2026 Candidate Connection survey), and Wikipedia; no tax-code statement found (checked Aug 29, 2026)",
     "climate": "checked Wikipedia and Ballotpedia; only a vague 2020 slogan, 'Protect and Preserve Our Environment,' found, too general to score a direction (checked Aug 29, 2026)",
     "safety": "checked mfume.house.gov, Wikipedia, and Ballotpedia; only a vague 2020 slogan, 'Work to Build Safer Communities,' found, too general to score a direction (checked Aug 29, 2026)"

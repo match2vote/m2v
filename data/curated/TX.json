@@ -138,13 +138,13 @@
       "overlap": 8
     },
     "TX-house-7": {
-      "status": "general",
+      "status": "names-only",
       "advancing": [
         "fec-H8TX07140",
         "fec-H6TX07151",
         "tx-house-7-ngabo"
       ],
-      "statusNote": "Four term Democratic incumbent Lizzie Fletcher, who in 2018 became the first Democrat in more than 50 years and the first woman to hold this Houston seat, faces Republican Alexander Hale, who won the May 26, 2026 Republican runoff with 63.80 percent over Tina Cohen, and Green nominee Espoir Ngabo. Ballotpedia records the district as Solid Democratic or Safe Democratic across the major race raters after Fletcher won 61.3 percent in 2024.",
+      "statusNote": "Four term Democratic incumbent Lizzie Fletcher, who in 2018 became the first Democrat in more than 50 years and the first woman to hold this Houston seat, faces Republican Alexander Hale, who won the May 26, 2026 Republican runoff with 63.80 percent over Tina Cohen, and Green nominee Espoir Ngabo. Ballotpedia records the district as Solid Democratic or Safe Democratic across the major race raters after Fletcher won 61.3 percent in 2024. Positions researched and stored, race not scored, overlap 5 of 10 as of Aug 30, 2026.",
       "sources": [
         {
           "label": "2026 United States House of Representatives elections in Texas (Wikipedia)",
@@ -155,7 +155,7 @@
           "url": "https://election2026.net/texas-2026/"
         }
       ],
-      "overlap": 7
+      "overlap": 5
     },
     "TX-house-8": {
       "status": "names-only",
@@ -1281,7 +1281,7 @@
         "health": -1,
         "housing": 1,
         "immigration": 1,
-        "taxes": -1,
+        "taxes": null,
         "climate": 1,
         "education": -1,
         "safety": 1,
@@ -1305,10 +1305,6 @@
           "label": "Voted Yea on passage of S. 5, the Laken Riley Act, requiring federal detention of unauthorized immigrants charged with theft related crimes, January 22, 2025 (House Clerk roll call 23)",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
         },
-        "taxes": {
-          "label": "Voted Nay on the motion to concur in the Senate amendment to H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax law permanent, July 3, 2025 (House Clerk roll call 190)",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
-        },
         "climate": {
           "label": "Voted Yea on passage of H.R. 26, the Protecting American Energy Production Act, barring a federal moratorium on hydraulic fracturing, February 7, 2025 (House Clerk roll call 35)",
           "url": "https://clerk.house.gov/evs/2025/roll035.xml"
@@ -1327,7 +1323,8 @@
         }
       },
       "nullNotes": {
-        "repro": "campaign issues page Women's Rights section names equal opportunity, economic security and access to health care but never abortion, reproductive rights, Roe or contraception; his one recorded abortion vote in the 119th Congress, passage of H.R. 21 the Born-Alive Abortion Survivors Protection Act on January 23, 2025, House Clerk roll call 27, was answered Present, which documents no direction"
+        "repro": "campaign issues page Women's Rights section names equal opportunity, economic security and access to health care but never abortion, reproductive rights, Roe or contraception; his one recorded abortion vote in the 119th Congress, passage of H.R. 21 the Born-Alive Abortion Survivors Protection Act on January 23, 2025, House Clerk roll call 27, was answered Present, which documents no direction",
+        "taxes": "second-check Aug 30, 2026: roll190 Nay on H.R. 1 (OBBBA) confirmed by House Clerk, but a bare no vote alone does not establish the taxes axis for Democrats per calibration guidance and no independent tax statement was found; nulled"
       }
     },
     {
@@ -1441,7 +1438,7 @@
       "office": "us-house",
       "district": "7",
       "state": "TX",
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -3430,7 +3427,7 @@
       "state": "TX",
       "office": "us-house",
       "incumbent": true,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "home": "Houston, TX",
       "now": "U.S. House of Representatives (TX-07)",
@@ -3445,7 +3442,7 @@
         "health": -2,
         "housing": -1,
         "immigration": -2,
-        "taxes": -1,
+        "taxes": null,
         "climate": 0,
         "education": -1,
         "safety": 0,
@@ -3469,10 +3466,6 @@
           "label": "\"We need comprehensive immigration reform with a pathway to citizenship. It should be thoughtful, practical, and fair\", cosponsored and voted for the American Dream and Promise Act protecting DACA and TPS recipients, and says reform \"should not include building a wall\" or \"dehumanizing those who seek asylum at our borders\" (campaign immigration page)",
           "url": "https://www.lizziefletcher.com/immigration/"
         },
-        "taxes": {
-          "label": "Voted Nay on the motion to concur in H.R. 1, the One Big Beautiful Bill Act, which makes the 2017 individual rates permanent (House roll call 190, July 3, 2025)",
-          "url": "https://clerk.house.gov/Votes/2025190"
-        },
         "climate": {
           "label": "Documented both ways on the same page: \"Climate change represents a real and growing threat\" and \"we need the U.S. leading the way to an energy future that is safer, cleaner, and more efficient\", but also \"I am proud to represent the energy capital of the world\", \"domestic production of oil and natural gas is critical to our national security, our economy, and our energy future\", and she \"opposed efforts to ban fracking, to ban offshore drilling, and to curtail use of natural gas\" (campaign energy and environment page)",
           "url": "https://www.lizziefletcher.com/energy-environment/"
@@ -3494,7 +3487,9 @@
           "url": "https://www.lizziefletcher.com/voting-rights/"
         }
       },
-      "nullNotes": {},
+      "nullNotes": {
+        "taxes": "second-check Aug 30, 2026: Votes/2025190 Nay on H.R. 1 (OBBBA) confirmed by House Clerk, but a bare no vote alone does not establish the taxes axis for Democrats per calibration guidance and no independent tax statement was found; nulled"
+      },
       "sources": [
         {
           "label": "Campaign health care page",
@@ -3576,7 +3571,7 @@
       "state": "TX",
       "office": "us-house",
       "incumbent": false,
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "home": "Houston, TX",
       "now": "Energy and chemicals consultant at Alvarez and Marsal",
@@ -5586,7 +5581,7 @@
         "health": -1,
         "housing": null,
         "immigration": -2,
-        "taxes": -1,
+        "taxes": null,
         "climate": -1,
         "education": -1,
         "safety": -1,
@@ -5606,12 +5601,8 @@
           "label": "'ICE has become, under Donald Trump, an abusive and rogue agency that should be broken up and disbanded' and 'We have to disband ICE in this Congress. We have to freeze their hiring. We should give them no more money.' (official House press release)",
           "url": "https://castro.house.gov/media-center/press-releases/congressman-castro-on-ice-theyve-engaged-in-cold-blooded-murder"
         },
-        "taxes": {
-          "label": "Voted Nay on the motion to concur in the Senate amendment to H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax law permanent, on July 3, 2025 (House Clerk roll call 190)",
-          "url": "https://clerk.house.gov/Votes/2025190"
-        },
         "climate": {
-          "label": "Voted Nay on passage of H.R. 3616, the Reliable Power Act, on December 17, 2025 (House Clerk roll call 347); also voted Nay on H.R. 5184, the Affordable HOMES Act, which voided the 2022 Department of Energy manufactured housing energy conservation rule",
+          "label": "Voted Nay on passage of H.R. 3616, the Reliable Power Act, on December 17, 2025 (House Clerk roll call 347)",
           "url": "https://clerk.house.gov/Votes/2025347"
         },
         "education": {
@@ -5619,7 +5610,7 @@
           "url": "https://castro.house.gov/media-center/press-releases/castro-booker-reintroduce-bicameral-bill-to-expand-advanced-coursework-opportunities-for-underrepresented-students"
         },
         "safety": {
-          "label": "Voted Nay on passage of H.R. 6260, the Keeping Violent Offenders Off Our Streets Act, on May 14, 2026 (House Clerk roll call 169); voted Nay the same day on H.R. 5625, the Cashless Bail Reporting Act (roll call 171)",
+          "label": "Voted Nay on passage of H.R. 6260, the Keeping Violent Offenders Off Our Streets Act, on May 14, 2026 (House Clerk roll call 169)",
           "url": "https://clerk.house.gov/Votes/2026169"
         },
         "repro": {
@@ -5632,7 +5623,8 @@
         }
       },
       "nullNotes": {
-        "housing": "verify gate: the cited vote on H.R. 6644 passed 358 to 32, so a Yea documents no direction; also checked his official House issues pages, which are contact boilerplate, and his campaign site, which is a donation page"
+        "housing": "verify gate: the cited vote on H.R. 6644 passed 358 to 32, so a Yea documents no direction; also checked his official House issues pages, which are contact boilerplate, and his campaign site, which is a donation page",
+        "taxes": "second-check Aug 30, 2026: Votes/2025190 Nay on H.R. 1 (OBBBA) confirmed by House Clerk, but a bare no vote alone does not establish the taxes axis for Democrats per calibration guidance and no independent tax statement was found; nulled"
       },
       "sources": [
         {
@@ -6133,7 +6125,7 @@
           "url": "https://ballotpedia.org/Marquette_Greene-Scott"
         },
         "democracy": {
-          "label": "\"Passing the John Lewis Voting Rights Advancement Act would strengthen voting rights\", plus simplified registration, expanded early and mail voting, and independent redistricting (Ballotpedia Candidate Connection survey)",
+          "label": "\"Passing the John Lewis Voting Rights Advancement Act would strengthen voting rights by expanding and strengthening the government's ability to respond to voting discrimination\" (Ballotpedia Candidate Connection)",
           "url": "https://ballotpedia.org/Marquette_Greene-Scott"
         }
       },
@@ -7053,12 +7045,12 @@
         "health": -2,
         "housing": -1,
         "immigration": -2,
-        "taxes": -2,
+        "taxes": null,
         "climate": -2,
         "education": -2,
         "safety": null,
         "repro": -2,
-        "democracy": -2
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -7076,10 +7068,6 @@
         "immigration": {
           "label": "Voted Nay on passage of S. 5, the Laken Riley Act, January 22, 2025 (House Clerk roll call 23)",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-        },
-        "taxes": {
-          "label": "Voted Nay on passage of H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax law permanent, May 22, 2025 (House Clerk roll call 145)",
-          "url": "https://clerk.house.gov/evs/2025/roll145.xml"
         },
         "climate": {
           "label": "Voted Nay on H.J.Res. 88, congressional disapproval of the EPA waiver for California's Advanced Clean Cars II vehicle emission standards, May 1, 2025 (House Clerk roll call 114)",
@@ -7099,7 +7087,8 @@
         }
       },
       "nullNotes": {
-        "safety": "verify gate: the cited press release is about ending federal coercion of local police under 8 U.S.C. 1373, an immigration federalism measure, and contains nothing on police funding, sentencing, mental health, reentry or root causes; also checked her official issues pages and the 2025 roll call index"
+        "safety": "verify gate: the cited press release is about ending federal coercion of local police under 8 U.S.C. 1373, an immigration federalism measure, and contains nothing on police funding, sentencing, mental health, reentry or root causes; also checked her official issues pages and the 2025 roll call index",
+        "taxes": "second-check Aug 30, 2026: roll145 Nay on H.R. 1 (OBBBA) confirmed by House Clerk, but a bare no vote alone does not establish the taxes axis for Democrats per calibration guidance and no independent tax statement was found; nulled"
       },
       "sources": [
         {

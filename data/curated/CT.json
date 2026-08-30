@@ -29,12 +29,12 @@
       ]
     },
     "CT-house-2": {
-      "status": "general",
+      "status": "names-only",
       "advancing": [
         "fec-H2CT02112",
         "fec-H6CT02196"
       ],
-      "statusNote": "Rep. Joe Courtney (D) is the incumbent. George Austin (R) was nominated by acclamation at the May 15, 2026 Republican convention; no primary was held in either party. Both candidates researched on the same ten issues.",
+      "statusNote": "Rep. Joe Courtney (D) is the incumbent. George Austin (R) was nominated by acclamation at the May 15, 2026 Republican convention; no primary was held in either party. Both candidates researched on the same ten issues. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 30, 2026 (second-check Aug 30, 2026 nulled Courtney's taxes score, dropping overlap from 7 to 6).",
       "sources": [
         {
           "label": "CT Mirror, CT GOP convention, May 15, 2026",
@@ -52,7 +52,8 @@
           "label": "270toWin, 2026 Connecticut U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/connecticut"
         }
-      ]
+      ],
+      "overlap": 6
     },
     "CT-house-3": {
       "status": "general",
@@ -519,7 +520,7 @@
         "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": -1,
+        "taxes": null,
         "climate": -2,
         "education": -1,
         "safety": null,
@@ -542,10 +543,6 @@
         "immigration": {
           "label": "Voted Nay on passage of S.5, the Laken Riley Act, Jan. 22, 2025, roll call 23 (clerk.house.gov)",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-        },
-        "taxes": {
-          "label": "Voted No on concurring in the Senate amendment to H.R.1, the One Big Beautiful Bill Act, July 3, 2025, roll call 190, the Republican reconciliation bill extending the 2017 tax cuts (clerk.house.gov)",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         },
         "climate": {
           "label": "'A fully-refundable carbon fee would correct this market failure by shifting the cost to emitters'; 'the urgency to transition to clean energy has never been greater'; voted for the Inflation Reduction Act (himes.house.gov climate page)",
@@ -584,7 +581,8 @@
       ],
       "curatedAt": "2026-08-18",
       "nullNotes": {
-        "safety": "checked himes.house.gov issues index (only a gun violence prevention page, which does not count for this axis), 2024 press releases on police department grants and a reentry health grant (both routine grant announcements, which do not count under the calibration rule), CT Mirror 2024 debate coverage; no statement for or against enforcement versus prevention"
+        "safety": "checked himes.house.gov issues index (only a gun violence prevention page, which does not count for this axis), 2024 press releases on police department grants and a reentry health grant (both routine grant announcements, which do not count under the calibration rule), CT Mirror 2024 debate coverage; no statement for or against enforcement versus prevention",
+        "taxes": "second-check Aug 30, 2026: taxes score rested solely on a bare Nay on H.R. 1 (roll190), which does not meet the calibration anchors for Democrats; checked himes.house.gov/issues/economy-and-jobs/ and found only a generic 'tax reform for businesses and individuals with simplification and competitiveness' line, not specific enough to establish a raise/cut stance; nulled"
       }
     },
     {
@@ -690,7 +688,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CT",
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 73,
@@ -707,7 +705,7 @@
         "health": -1,
         "housing": 0,
         "immigration": 0,
-        "taxes": -1,
+        "taxes": null,
         "climate": -1,
         "education": -1,
         "safety": null,
@@ -730,10 +728,6 @@
         "immigration": {
           "label": "Voted for the Laken Riley Act detention bill ('it still left open the door for due process') but voted against H.R. 875 deportation bill and blasted DHS for dismissing 'due process as a requirement, which the 14th Amendment clearly creates for all persons' (CT Mirror)",
           "url": "https://ctmirror.org/2025/07/16/trump-immigration-policy-ct-lawmakers/"
-        },
-        "taxes": {
-          "label": "Voted No on final passage of H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent (218-214) (House Clerk roll call 190, July 3, 2025)",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         },
         "climate": {
           "label": "Fought Trump's stop-work order on the Revolution Wind offshore project, calling it 'a much-needed expansion of energy capacity' negotiated below current wind rates (Courtney press release, Aug 2025)",
@@ -772,7 +766,8 @@
       ],
       "curatedAt": "2026-08-18",
       "nullNotes": {
-        "safety": "checked courtney.house.gov Public Safety and Homeland Security issues page (only fire, road-safety and public-safety grant announcements plus gun votes, which do not map to this axis) and press release list; no prevention-versus-enforcement position documented"
+        "safety": "checked courtney.house.gov Public Safety and Homeland Security issues page (only fire, road-safety and public-safety grant announcements plus gun votes, which do not map to this axis) and press release list; no prevention-versus-enforcement position documented",
+        "taxes": "second-check Aug 30, 2026: taxes score rested solely on a bare Nay on H.R. 1 (roll190), which does not meet the calibration anchors for Democrats; checked courtney.house.gov press releases for a separate tax statement and found none (defense, health care, and student loan topics only); nulled"
       }
     },
     {
@@ -782,7 +777,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CT",
-      "tier": "curated",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": 38,

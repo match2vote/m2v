@@ -660,48 +660,39 @@
       "now": "Homeless Service Support Specialist and Program Analyst, Oregon Housing and Community Services",
       "background": "Pacific Green Party nominee who works as a homeless service support specialist and program analyst for Oregon Housing and Community Services, and as an art instructor for Schools Uniting Neighborhoods and Portland Parks and Recreation. Ran for the same seat in 2024, drawing about 1% of the vote.",
       "priorities": [
-        "Tax the rich to fund housing, education, and basic income for all",
-        "$30 an hour minimum wage and a 32-hour work week",
-        "An economy that centers care for people and the planet"
+        "Affordable social housing and tenant protections",
+        "Climate action and environmental preservation",
+        "Economic systems that benefit working and marginalized communities"
       ],
       "positions": {
-        "cost": -2,
+        "cost": null,
         "health": null,
         "housing": -2,
         "immigration": null,
-        "taxes": -2,
-        "climate": -2,
-        "education": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
         "safety": null,
         "repro": null,
         "democracy": null
       },
       "positionSources": {
-        "cost": {
-          "label": "'Power to the people! Union yes!...Full-employment. Move to a 32-hour, 4 day, full-time work week. $30/hour minimum wage' (Pacific Green Party candidate profile)",
-          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
-        },
         "housing": {
-          "label": "'Dismantle the war economy, tax the rich and invest in basic income for all, housing for all, education for all' (Pacific Green Party candidate profile)",
-          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
-        },
-        "taxes": {
-          "label": "'Tax the rich and invest in basic income for all, housing for all, education for all' (Pacific Green Party candidate profile)",
+          "label": "Primary campaign issues include 'addressing housing through affordable social housing and tenant protections' (Pacific Green Party candidate profile)",
           "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
         },
         "climate": {
-          "label": "Advocates community gardens, regenerative farming, and long-term ecological planning for 'an economy that centers care for people and care for the planet' (Pacific Green Party candidate profile)",
-          "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
-        },
-        "education": {
-          "label": "'Invest in...education for all' as part of her platform (Pacific Green Party candidate profile)",
+          "label": "Lists 'climate action with environmental preservation' among her primary issues and frames Green Party ecological wisdom as 'reciprocity over extraction' (Pacific Green Party candidate profile)",
           "url": "https://www.pacificgreens.org/meet_the_candidates_for_nomination_andrea_townsend"
         }
       },
       "nullNotes": {
+        "cost": "second-check Aug 30, 2026: the cited Pacific Green Party profile page no longer contains the quoted '32-hour work week / $30 minimum wage' language (page content has changed); current page has no specific cost-of-living mechanism, only a general 'economic systems benefiting working and marginalized communities' line, too vague to score",
         "health": "checked her Pacific Green Party profile and Ballotpedia (no Candidate Connection survey completed), nothing documented on healthcare specifically (checked Aug 29, 2026)",
         "immigration": "checked her Pacific Green Party profile and Ballotpedia, nothing documented; her platform addresses Israel/Palestine but not U.S. immigration policy (checked Aug 29, 2026)",
+        "taxes": "second-check Aug 30, 2026: the cited Pacific Green Party profile page no longer contains the quoted 'tax the rich' language (page content has changed); current page's policy list does not mention taxes",
         "safety": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)",
+        "education": "second-check Aug 30, 2026: the cited Pacific Green Party profile page no longer contains the quoted 'education for all' language (page content has changed); current page's policy list does not mention education",
         "repro": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)",
         "democracy": "checked her Pacific Green Party profile and Ballotpedia, nothing documented (checked Aug 29, 2026)"
       },
@@ -1214,7 +1205,7 @@
           "url": "https://maxinefororegon.com/issues/"
         },
         "housing": {
-          "label": "'Safe housing should be a fundamental right,' on a page titled 'Housing and Homelessness' (house.gov)",
+          "label": "On a page titled 'Housing and Homelessness,' says 'safe, abundant, affordable housing is the bedrock of healthy, thriving communities' (house.gov)",
           "url": "https://dexter.house.gov/issues/housing"
         },
         "immigration": {

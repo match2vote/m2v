@@ -247,10 +247,81 @@
       "office": "us-senate",
       "district": null,
       "state": "ME",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": 58,
+      "home": "Allagash, ME",
+      "now": "Logger; former Maine Senate President",
+      "background": "Fifth-generation logger from Allagash in Aroostook County who served 20 years in the Maine Legislature, including six years as Senate President from 2018 to 2024. Finished third in the 2026 Democratic primary for governor, then was chosen by the Maine Democratic Party on July 25, 2026 to replace Graham Platner as the Senate nominee after Platner withdrew July 10 amid controversy over past social media posts and a tattoo. A longtime labor and Bernie Sanders ally, he has drawn union endorsements, including the Association of Flight Attendants, and the League of Conservation Voters Action Fund's backing.",
+      "priorities": [
+        "Medicare for All and lower prescription drug costs",
+        "Tax billionaires and corporations, cut taxes for working people",
+        "Dismantle and abolish ICE"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": null,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "As a state senator campaigning for a minimum wage referendum: '$15,600 a year is what you get for a 40-hour workweek in Maine if you're working minimum wage, and that is not enough for anyone' (Maine Beacon)",
+          "url": "https://mainebeacon.com/watch-troy-jacksons-barnburner-on-the-minimum-wage/"
+        },
+        "health": {
+          "label": "Campaign priority: 'Pass Medicare for all and lower the cost of prescription drugs' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "immigration": {
+          "label": "Campaign priority: 'Dismantle and abolish ICE' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "taxes": {
+          "label": "Campaign priority: 'Tax the billionaires and make sure greedy corporations pay their fair share' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "climate": {
+          "label": "Pledged to 'fight for clean energy investments that lower costs, create union jobs here at home, and preserve Maine's natural resources for our kids and grandkids', earning a League of Conservation Voters Action Fund endorsement (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/news/league-of-conservation-voters-action-fund-endorses-troy-jackson-for-us-senate"
+        },
+        "education": {
+          "label": "Campaign bio: as Senate President he 'championed and passed universal school meals' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/about"
+        },
+        "repro": {
+          "label": "Campaign priority: 'Pass a federal right to abortion' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "democracy": {
+          "label": "Campaign priority: 'Protect the right to vote and organize for every American' (Jackson campaign)",
+          "url": "https://www.jacksonformaine.com/priorities"
+        }
+      },
+      "nullNotes": {
+        "housing": "Campaign priorities and about pages, Maine Public's Senate-nomination coverage, and Ballotpedia contain no housing-specific policy beyond a general reference to Mainers 'getting crushed by the cost of health care, housing, groceries and heat', which names a hardship rather than a stance on building, zoning, or tenant protections (checked Aug 31, 2026)",
+        "safety": "Campaign priorities, news pages, and available news coverage contain no policing or sentencing position; his legislative committee record (Agriculture, Labor, Energy) does not touch criminal justice (checked Aug 31, 2026)"
+      },
       "sources": [
+        {
+          "label": "Jackson campaign priorities page",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        {
+          "label": "Jackson campaign about page",
+          "url": "https://www.jacksonformaine.com/about"
+        },
+        {
+          "label": "Maine Public: Maine Democrats pick Troy Jackson to replace Graham Platner in Senate race",
+          "url": "https://www.mainepublic.org/2026-07-27/maine-democrats-pick-troy-jackson-to-replace-graham-platner-in-senate-race"
+        },
         {
           "label": "Maine SOS: 2026 post-primary withdrawals and replacement candidates",
           "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Post%20Primary%20Withdrawals%20%26%20Replacement%20Candidates%20FINAL.pdf"
@@ -259,7 +330,8 @@
           "label": "NPR: Maine Democrats pick Troy Jackson to replace Platner",
           "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race"
         }
-      ]
+      ],
+      "curatedAt": "2026-08-31"
     },
     {
       "id": "fec-H8ME01120",

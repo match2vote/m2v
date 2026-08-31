@@ -116,6 +116,8 @@ export const strings = {
     raceA11yVersus: ' versus ',
     raceA11y: ({ title, who, marked, pending }) => `Open ${title}, ${who}${marked ? ', marked on your ballot' : ', not marked yet'}${pending ? ', primary pending' : ''}`,
     namesOnly: 'Names only, positions not researched yet',
+    raceA11yResearched: 'positions researched and sourced, race not scored yet',
+    researchedNotScored: 'Researched, sourced positions. Not scored yet.',
     vs: ' vs ',
     primaryDate: ({ date }) => `PRIMARY ${date}`,
     primaryPending: 'PRIMARY PENDING',

@@ -14,6 +14,16 @@ import { strings } from '../strings';
 
 const S = strings.home;
 
+// A names-only race whose candidates carry sourced positions (tier
+// "researched") reads as researched, not as "not researched yet".
+const hasResearch = (c) =>
+  !!c && (c.tier === 'researched' || c.tier === 'curated') &&
+  Object.values(c.positions || {}).some((v) => v !== null && v !== undefined);
+const rowNote = (r) => {
+  if (r.coverage !== 'names') return r.candidates.map((c) => c.name).join(S.vs);
+  return r.candidates.some(hasResearch) ? S.researchedNotScored : S.namesOnly;
+};
+
 const { space } = theme;
 const ELECTION = new Date('2026-11-03T00:00:00');
 
@@ -196,7 +206,9 @@ export function Home() {
         )}
         {races.map((r) => {
           const isChosen = picks.some((p) => p.raceId === r.id);
-          const who = r.coverage === 'names' ? S.raceA11yNamesOnly : r.candidates.map((c) => c.name).join(S.raceA11yVersus);
+          const who = r.coverage === 'names'
+            ? (r.candidates.some(hasResearch) ? S.raceA11yResearched : S.raceA11yNamesOnly)
+            : r.candidates.map((c) => c.name).join(S.raceA11yVersus);
           return (
           <Pressable
             key={r.id}
@@ -213,7 +225,7 @@ export function Home() {
               <View style={{ flex: 1 }}>
                 <Body style={{ fontWeight: '700', fontSize: 15.5 }}>{r.title}</Body>
                 <Body soft style={{ fontSize: 12 }}>
-                  {r.coverage === 'names' ? S.namesOnly : r.candidates.map((c) => c.name).join(S.vs)}
+                  {rowNote(r)}
                 </Body>
               </View>
               {r.meta?.status === 'primary-pending' && (

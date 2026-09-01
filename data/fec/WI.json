@@ -1,7 +1,7 @@
 {
   "state": "WI",
   "electionYear": 2026,
-  "syncedAt": "2026-08-31T13:57:31.126Z",
+  "syncedAt": "2026-09-01T11:43:01.468Z",
   "candidates": [
     {
       "id": "fec-H6WI01267",
@@ -580,38 +580,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6WI06217",
-      "fecId": "H6WI06217",
-      "name": "Amanda H Bell",
-      "party": "Democrat",
-      "state": "WI",
-      "office": "us-house",
-      "district": "6",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6WI06217/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6WI06225",
       "fecId": "H6WI06225",
       "name": "Amanda H Bell",
@@ -638,6 +606,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WI06225/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6WI06217",
+      "fecId": "H6WI06217",
+      "name": "Amanda H Bell",
+      "party": "Democrat",
+      "state": "WI",
+      "office": "us-house",
+      "district": "6",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WI06217/"
         }
       ],
       "funding": null,

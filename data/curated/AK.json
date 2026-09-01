@@ -4,11 +4,12 @@
   "races": {
     "AK-senate": {
       "status": "general",
-      "statusNote": "Sen. Dan Sullivan (R) and Mary Peltola (D) advanced from the Aug 18 top-four primary to the November ranked choice general, along with Dan J. Sullivan of Petersburg (R). The fourth spot is still open: in the state's Aug 26 count update, David Leslie (D) led Gerald Heikes (R) by 43 votes, with absentee ballots accepted through Aug 28 and certification expected Aug 31.",
+      "statusNote": "Final field for the November ranked choice general, certified Aug 31: Mary Peltola (D, 49.5%), Sen. Dan Sullivan (R, 41.4%) and Dan J. Sullivan of Petersburg (R, 2.5%) advanced from the Aug 18 top-four primary. David Leslie (D) finished fourth but withdrew Aug 31, so fifth-place finisher Gerald Heikes (R, 1.1%) takes the fourth ballot spot.",
       "advancing": [
         "fec-S4AK00214",
         "fec-S6AK00276",
-        "fec-S6AK00326"
+        "fec-S6AK00326",
+        "ak-senate-heikes"
       ]
     },
     "AK-governor": {
@@ -319,6 +320,23 @@
         }
       ],
       "district": "at-large"
+    },
+    {
+      "id": "ak-senate-heikes",
+      "name": "Gerald Heikes",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "AK",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Alaska Beacon: certified primary results; Leslie withdraws, Heikes advances to the general ballot",
+          "url": "https://alaskabeacon.com/2026/08/31/petersburgs-dan-j-sullivan-stays-on-alaskas-u-s-senate-ballot-after-third-place-primary-finish/"
+        }
+      ]
     }
   ]
 }

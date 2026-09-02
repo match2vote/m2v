@@ -10,21 +10,26 @@
         "id-senate-fleming",
         "id-senate-loesby"
       ],
-      "statusNote": "Sen. Jim Risch (R) won the May 19 primary with about 67% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger."
+      "statusNote": "Sen. Jim Risch (R) won the May 19 primary with about 67% and seeks a fourth term. Democratic nominee David Roth withdrew July 28, leaving independent former state Rep. Todd Achilles as Risch's main challenger. Positions researched and sourced for Loesby (Libertarian) and Fleming (independent) as of Sep 2, 2026."
     },
     "ID-governor": {
       "status": "general",
-      "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers, and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%. Also on the November ballot: independent former Idaho Supreme Court Justice John Stegner, Libertarian Paul Sand and Constitution Party candidate Pro-Life."
+      "statusNote": "Gov. Brad Little (R) won the May 19 primary with about 59%, defeating seven GOP challengers, and seeks a third term against Boise attorney Terri Pickens (D), who won her primary with about 61%. Also on the November ballot: independent former Idaho Supreme Court Justice John Stegner, Libertarian Paul Sand and Constitution Party candidate Pro-Life. Positions researched and sourced for Stegner (independent), Sand (Libertarian), and Pro-Life (Constitution) as of Sep 2, 2026.",
+      "advancing": [
+        "id-gov-stegner",
+        "id-gov-sand",
+        "id-gov-prolife"
+      ]
     },
     "ID-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8ID01124",
         "fec-H2ID01192",
         "fec-H6ID01318",
         "id-house-1-gomez"
       ],
-      "statusNote": "Rep. Russ Fulcher (R) seeks re-election against Kaylee Peterson (D), Constitution Party candidate Brendan Gomez and independent Sarah Zabel. Fulcher won the May 19, 2026 Republican primary with about 78% and Peterson won the Democratic primary with about 87%. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Russ Fulcher (R) seeks re-election against Kaylee Peterson (D), Constitution Party candidate Brendan Gomez and independent Sarah Zabel. Fulcher won the May 19, 2026 Republican primary with about 78% and Peterson won the Democratic primary with about 87%.",
       "sources": [
         {
           "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
@@ -41,7 +46,7 @@
       ]
     },
     "ID-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8ID02064",
         "fec-H6ID02274",
@@ -50,7 +55,7 @@
         "id-house-2-sierra",
         "id-house-2-houser"
       ],
-      "statusNote": "Rep. Mike Simpson (R) seeks re-election against Elinor Gilbreath (D), Libertarian Will Johanson, Constitution Party candidate Sierra \"Idaho Lorax\" Carta and independents Emre Houser and Tripp Hutchinson. Simpson won the May 19, 2026 Republican primary with about 63% and Gilbreath was effectively unopposed for the Democratic nomination after Julie Wiley withdrew and endorsed her. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Mike Simpson (R) seeks re-election against Elinor Gilbreath (D), Libertarian Will Johanson, Constitution Party candidate Sierra \"Idaho Lorax\" Carta and independents Emre Houser and Tripp Hutchinson. Simpson won the May 19, 2026 Republican primary with about 63% and Gilbreath was effectively unopposed for the Democratic nomination after Julie Wiley withdrew and endorsed her.",
       "sources": [
         {
           "label": "Idaho's Republican federal incumbents fend off primary challengers (Idaho Capital Sun)",
@@ -401,7 +406,7 @@
       "office": "us-house",
       "district": "1",
       "state": "ID",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -461,7 +466,7 @@
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -528,7 +533,7 @@
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -588,7 +593,7 @@
       "office": "us-house",
       "district": "2",
       "state": "ID",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -648,15 +653,71 @@
       "office": "us-senate",
       "district": null,
       "state": "ID",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Idaho Capital Sun: who is running for Congress in 2026",
+          "label": "Ballotpedia: Natalie Fleming (Idaho)",
+          "url": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
+        },
+        {
+          "label": "Natalie Fleming campaign site",
+          "url": "https://nataliefleming.info/"
+        },
+        {
+          "label": "Idaho Capital Sun: Who's running to represent Idaho in Congress in 2026",
           "url": "https://idahocapitalsun.com/2026/02/27/whos-running-to-represent-idaho-in-congress-in-the-2026-election-incumbents-face-challengers/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Software developer; independent U.S. Senate candidate",
+      "background": "Fleming is an independent candidate for U.S. Senate from Idaho who works as a software developer. Born in Portland, Oregon, she is a member of The Church of Jesus Christ of Latter-day Saints and is a repeat candidate, having run for Idaho's 1st Congressional District in 2018, U.S. Senate in 2020 and as an independent again in 2026, and the Republican Senate primary in 2022. Her campaign centers on data privacy, opposing government and corporate surveillance, and protecting family homeownership from institutional buyers.",
+      "priorities": [
+        "Data privacy and technology bill of rights",
+        "Protect family homeownership from corporate/Wall Street buyers",
+        "Educational freedom and homeschooling options"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": 1,
+        "education": 1,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Ballotpedia Candidate Connection: advocates a 'Family-Focused Free Market Economy' opposing corporate consolidation in homeownership, and campaign site promotes 'Protecting Idaho homeownership from Wall Street' after equity firms began buying up American homes (Ballotpedia; Natalie Fleming campaign)",
+          "url": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
+        },
+        "climate": {
+          "label": "Ballotpedia Candidate Connection: rejects a 'CO2-centric' approach to climate policy, instead promoting 'Micro Climate management' through land management practices like no-till farming and strategic tree planting",
+          "url": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
+        },
+        "education": {
+          "label": "Ballotpedia Candidate Connection: proposes low-cost online lecture access and champions 'educational freedom' and homeschooling options",
+          "url": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
+        },
+        "repro": {
+          "label": "Ballotpedia Candidate Connection lists a 'pro-life stance' among her priorities, without further elaboration",
+          "url": "https://ballotpedia.org/Natalie_Fleming_(Idaho)"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-control or wage policy documented beyond a general 'fiscal responsibility & economic fairness' campaign-site label (checked Sep 2, 2026).",
+        "health": "No healthcare policy documented on campaign site or Ballotpedia survey (checked Sep 2, 2026).",
+        "immigration": "Campaign site lists only 'common-sense immigration reform' with no stated enforcement-first or pathway direction (checked Sep 2, 2026).",
+        "taxes": "No tax-rate policy documented; only general 'fiscal responsibility' language (checked Sep 2, 2026).",
+        "safety": "No public safety policy documented; other stated priorities (Second Amendment) are gun-related and excluded from this axis under the pass's hard source rules (checked Sep 2, 2026).",
+        "democracy": "Documented 'Data Privacy and Technology Bill of Rights' priority is about surveillance, not voting or election-access rules (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "id-senate-loesby",
@@ -665,15 +726,77 @@
       "office": "us-senate",
       "district": null,
       "state": "ID",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Matt Loesby campaign: Platform",
+          "url": "https://www.loesby.us/platform/"
+        },
+        {
+          "label": "Ballotpedia: Matt Loesby",
+          "url": "https://ballotpedia.org/Matt_Loesby"
+        },
+        {
           "label": "Idaho SOS: 2026 primary canvass report",
           "url": "https://archive.voteidaho.gov/results/2026/primary/canvass_report_2026_primary.pdf"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Chair of the Libertarian Party of Idaho; software engineer and video game developer",
+      "background": "Loesby chairs the Libertarian Party of Idaho and works as a software engineer and video game developer; he holds a bachelor's degree from Chapman University. He previously ran as the Libertarian candidate for Idaho's 1st Congressional District in 2024, winning about 2.1% of the general-election vote, and is now the party's 2026 U.S. Senate nominee.",
+      "priorities": [
+        "Abolish the federal income tax system's Death Tax and deregulate small business",
+        "End Government-Owned Education",
+        "Close the border, end birthright citizenship"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Blames Federal Reserve money creation for price increases ('In 2020, the Federal Reserve created over $6,000,000,000,000 out of thin air') and calls for ending the Fed and returning to sound money (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        },
+        "health": {
+          "label": "Opposes government-run healthcare and would abolish the VA in favor of 'direct payments to veterans, to spend on medical and psychiatric care as they see fit' (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        },
+        "immigration": {
+          "label": "Platform states 'Close the Border. End Birthright Citizenship' and that any uninvited immigrant 'should be deported to the country they most recently called home' (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        },
+        "taxes": {
+          "label": "Pledges to 'fight to abolish the Death Tax' and repeal regulations burdening entrepreneurs (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        },
+        "education": {
+          "label": "Platform calls to 'End Government-Owned Education' and supports parental control over children's education (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        },
+        "repro": {
+          "label": "States 'abortion is an act of homicide' while opposing federal mandates and favoring decentralization of the issue to states (Matt Loesby campaign, Platform)",
+          "url": "https://www.loesby.us/platform/"
+        }
+      },
+      "nullNotes": {
+        "housing": "No housing policy stated on platform page (checked Sep 2, 2026).",
+        "climate": "No climate or energy policy stated on platform page (checked Sep 2, 2026).",
+        "safety": "Platform calls to 'Shut Down the Spy Agencies' (FBI, CIA, DHS), which is about federal surveillance, not domestic policing or sentencing that the axis tracks (checked Sep 2, 2026).",
+        "democracy": "No voting or elections policy stated on platform page (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "id-gov-stegner",
@@ -682,15 +805,62 @@
       "office": "governor",
       "district": null,
       "state": "ID",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "East Idaho News: Independent John Stegner launches campaign for Idaho governor",
+          "url": "https://www.eastidahonews.com/2026/07/independent-john-stegner-launches-campaign-for-idaho-governor/"
+        },
+        {
+          "label": "Idaho Capital Sun: Idaho governor's race: Pickens, Stegner say they are in it to win it",
+          "url": "https://idahocapitalsun.com/2026/08/04/idaho-governors-race-pickens-stegner-say-they-are-in-it-to-win-it/"
+        },
+        {
+          "label": "John Stegner campaign site: Priorities",
+          "url": "https://www.stegnerforidaho.com/priorities"
+        },
+        {
           "label": "Idaho Capital Sun: November contenders are set",
           "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Retired Idaho Supreme Court Justice; independent governor candidate",
+      "background": "Stegner is a retired Idaho judge who served 25 years on the bench, starting as a district judge in Latah County in 1997 and serving on the Idaho Supreme Court from 2018 (appointed by Gov. Butch Otter) until retiring in 2023. He is running for governor as an independent on a message of restoring accountable, non-partisan leadership, saying neither major party 'has a lock on good ideas.' As of July 2026 he had outraised every other challenger to incumbent Gov. Brad Little.",
+      "priorities": [
+        "Accountable, non-partisan government",
+        "Healthcare access",
+        "Keeping opportunity and young families in Idaho"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No cost-of-living or price policy found on campaign site (stegnerforidaho.com) or in Idaho Capital Sun / East Idaho News coverage (checked Sep 2, 2026).",
+        "health": "Campaign site says 'access to healthcare is becoming harder to find' and cites workforce shortages, but names no public-expansion or private-market mechanism (checked Sep 2, 2026).",
+        "housing": "No housing policy found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "immigration": "No immigration policy found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "taxes": "No tax policy found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "climate": "No climate or energy policy found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "education": "Campaign site says families should be confident 'the next generation can build a future here' but states no public-investment or school-choice mechanism (checked Sep 2, 2026).",
+        "safety": "No public safety policy found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "repro": "No abortion position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "democracy": "No voting or elections policy found on campaign site or in press coverage (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "id-gov-sand",
@@ -699,10 +869,14 @@
       "office": "governor",
       "district": null,
       "state": "ID",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Idaho Press: Libertarian Paul Sand is running for Idaho governor",
+          "url": "https://www.idahopress.com/news/local/paul-sand-libertarian-idaho-governor-campaign-tax-plan/article_7020600b-ec07-4558-b0a7-77ef2e4c5dac.html"
+        },
         {
           "label": "Idaho SOS: 2026 primary canvass report",
           "url": "https://archive.voteidaho.gov/results/2026/primary/canvass_report_2026_primary.pdf"
@@ -711,7 +885,46 @@
           "label": "Idaho Capital Sun: November contenders are set",
           "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
         }
-      ]
+      ],
+      "age": 77,
+      "home": "White Bird",
+      "now": "Retired software engineer, antiques shop owner; Libertarian nominee for governor",
+      "background": "Sand is a 77-year-old retired computer software engineer from White Bird, Idaho who now runs Sandcastle Antiques. He served on the White Bird City Council from 2007 to 2017 and previously ran as the Libertarian candidate for governor in 2022. He is entirely self-funded and refuses campaign contributions, saying money should not substitute for addressing voter concerns directly.",
+      "priorities": [
+        "Eliminate income and sales taxes",
+        "Shift power from the state to counties",
+        "Keep public lands public but working (leasing, not privatizing)"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Advocates eliminating Idaho's income and sales taxes entirely, keeping only property taxes so 'taxing districts can set their own levies, approve their own levies and elect their representatives' (Idaho Press)",
+          "url": "https://www.idahopress.com/news/local/paul-sand-libertarian-idaho-governor-campaign-tax-plan/article_7020600b-ec07-4558-b0a7-77ef2e4c5dac.html"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-control or wage policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "health": "No healthcare position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "housing": "No housing policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "immigration": "No immigration position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "climate": "No climate or energy policy found; only public-lands leasing (mining/grazing) position located, which does not map to the climate axis (checked Sep 2, 2026).",
+        "education": "No education policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "safety": "No public safety policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "repro": "No abortion position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
+        "democracy": "No voting or elections policy found; only a proposal to shift most state functions to counties, which is a government-structure position, not a voting-rules position (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "id-gov-prolife",
@@ -720,15 +933,61 @@
       "office": "governor",
       "district": null,
       "state": "ID",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Wikipedia: Pro-Life (politician)",
+          "url": "https://en.wikipedia.org/wiki/Pro-Life_(politician)"
+        },
+        {
           "label": "Idaho Capital Sun: November contenders are set",
           "url": "https://idahocapitalsun.com/2026/05/28/round-2-idahos-general-election-is-set-here-are-novembers-contenders/"
         }
-      ]
+      ],
+      "age": 84,
+      "home": "Letha",
+      "now": "Perennial candidate; Constitution Party nominee for governor",
+      "background": "Pro-Life (born Marvin Thomas Richardson in 1941) legally changed his name in 2004 to reflect his political views. He is a longtime perennial candidate from Letha, Idaho who has run for Idaho governor, U.S. Senate, and U.S. House repeatedly since 2004, including as the Constitution Party's 2006 gubernatorial nominee and 2022 lieutenant gubernatorial nominee. He holds a BA from Brigham Young University and has worked as an accountant, coal miner, and organic strawberry farmer.",
+      "priorities": [
+        "Ban abortion, prosecute providers",
+        "Abolish public education",
+        "Non-interventionist foreign policy"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "education": {
+          "label": "Opposes public education outright, characterizing it as communist ideology (Wikipedia, citing his campaign statements)",
+          "url": "https://en.wikipedia.org/wiki/Pro-Life_(politician)"
+        },
+        "repro": {
+          "label": "Advocates classifying abortion as murder and prosecuting abortion-providing physicians with murder charges (Wikipedia, citing his campaign statements)",
+          "url": "https://en.wikipedia.org/wiki/Pro-Life_(politician)"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price or wage policy documented (checked Sep 2, 2026).",
+        "health": "No healthcare policy documented (checked Sep 2, 2026).",
+        "housing": "No housing policy documented (checked Sep 2, 2026).",
+        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
+        "taxes": "Documented position is opposition to the federal TARP bank bailout as fostering a 'fascist dictatorship run by the bankers,' which is not a state tax-rate position (checked Sep 2, 2026).",
+        "climate": "No climate or energy policy documented (checked Sep 2, 2026).",
+        "safety": "Only documented public-safety-adjacent position is arming school-volunteer groups after Sandy Hook, which is a gun policy excluded from this axis under the pass's hard source rules (checked Sep 2, 2026).",
+        "democracy": "No voting or elections policy documented; documented positions are on foreign policy and education (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H8ID01124",
@@ -739,7 +998,7 @@
       "state": "ID",
       "incumbent": true,
       "now": "U.S. Representative for Idaho's 1st District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -821,7 +1080,7 @@
       "state": "ID",
       "incumbent": false,
       "now": "2026 Democratic nominee, Idaho's 1st District (third bid)",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -906,7 +1165,7 @@
       "state": "ID",
       "incumbent": false,
       "now": "Retired U.S. Air Force Major General; independent candidate, Idaho's 1st District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -979,7 +1238,7 @@
       "state": "ID",
       "incumbent": true,
       "now": "U.S. Representative for Idaho's 2nd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1054,7 +1313,7 @@
       "state": "ID",
       "incumbent": false,
       "now": "2026 Democratic nominee, Idaho's 2nd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1126,7 +1385,7 @@
       "state": "ID",
       "incumbent": false,
       "now": "Independent candidate, Idaho's 2nd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

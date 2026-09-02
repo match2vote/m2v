@@ -29,12 +29,12 @@
       ]
     },
     "CT-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2CT02112",
         "fec-H6CT02196"
       ],
-      "statusNote": "Rep. Joe Courtney (D) is the incumbent. George Austin (R) was nominated by acclamation at the May 15, 2026 Republican convention; no primary was held in either party. Both candidates researched on the same ten issues. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 30, 2026 (second-check Aug 30, 2026 nulled Courtney's taxes score, dropping overlap from 7 to 6).",
+      "statusNote": "Rep. Joe Courtney (D) is the incumbent. George Austin (R) was nominated by acclamation at the May 15, 2026 Republican convention; no primary was held in either party. Both candidates researched on the same ten issues.",
       "sources": [
         {
           "label": "CT Mirror, CT GOP convention, May 15, 2026",
@@ -688,7 +688,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 73,
@@ -777,7 +777,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": 38,

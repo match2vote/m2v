@@ -4,7 +4,7 @@
   "races": {
     "FL-senate": {
       "status": "general",
-      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination.",
+      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination. No Party Affiliation candidate Neil J. Gillespie confirmed on the Nov 3, 2026 special-election general ballot per Ballotpedia; his existing curated id fec-S6FL00863 uses the corrected spelling \"Gillespie\" while the raw FEC roster (data/fec/FL.json) has it misspelled \"Gilespie\" (logged, not corrected in the FEC source).",
       "advancing": [
         "fec-S6FL00640",
         "fec-S6FL00830",
@@ -13,12 +13,11 @@
     },
     "FL-governor": {
       "status": "general",
-      "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries.",
+      "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries. Desmond Meade (NPA) withdrew from the race Aug 28, 2026 (WUSF); he should be dropped from the advancing list, not curated. Six of the seven remaining minor NPA/Libertarian candidates now have full curated entries (Datto is all-null, no fetchable source found).",
       "advancing": [
         "fl-gov-donalds",
         "fl-gov-jolly",
         "fl-gov-jewett",
-        "fl-gov-meade",
         "fl-gov-abrams",
         "fl-gov-burkett",
         "fl-gov-datto",
@@ -27,8 +26,8 @@
       ]
     },
     "FL-house-1": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Patronis (R) and Valimont (D) were each unopposed for their nominations, per WEAR-TV (\"Patronis wins Florida District 1 Primary, sets up rematch with Valimont\") and WJHG. Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Patronis (R) and Valimont (D) were each unopposed for their nominations, per WEAR-TV (\"Patronis wins Florida District 1 Primary, sets up rematch with Valimont\") and WJHG.",
       "advancing": [
         "fec-H6FL01390",
         "fec-H4FL01197"
@@ -42,16 +41,16 @@
       ]
     },
     "FL-house-11": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: Joe Strada won the GOP nomination after a machine recount (Florida Politics, 'With recount complete, Joe Strada advances to General Election in CD 11'); James Pericola won the Democratic primary with 46.4% (mynews13.com CD-11 Democratic primary results). Incumbent Daniel Webster did not seek re-election. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: Joe Strada won the GOP nomination after a machine recount (Florida Politics, 'With recount complete, Joe Strada advances to General Election in CD 11'); James Pericola won the Democratic primary with 46.4% (mynews13.com CD-11 Democratic primary results). Incumbent Daniel Webster did not seek re-election.",
       "advancing": [
         "fec-H6FL11332",
         "fec-H6FL11357"
       ]
     },
     "FL-house-12": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: incumbent Gus Bilirakis (R, running in redrawn CD 12) faces Kimberly Overman, who won the Democratic primary (WUSF, 'Democrat Kimberly Overman wins primary, setting up face-off against U.S. Rep. Gus Bilirakis'). Branden Scrivener qualified as a No Party Affiliation candidate (his campaign site brandenscrivenerfl.info). Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: incumbent Gus Bilirakis (R, running in redrawn CD 12) faces Kimberly Overman, who won the Democratic primary (WUSF, 'Democrat Kimberly Overman wins primary, setting up face-off against U.S. Rep. Gus Bilirakis'). Branden Scrivener qualified as a No Party Affiliation candidate (his campaign site brandenscrivenerfl.info).",
       "advancing": [
         "fec-H6FL09070",
         "fec-H6FL15200",
@@ -59,8 +58,8 @@
       ]
     },
     "FL-house-13": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: incumbent Anna Paulina Luna (R) ran unopposed; Leela Gray won the Democratic primary (Florida Politics, 'Leela Gray wins CD 13 Democratic Primary, advances to face Anna Paulina Luna'; WUSF confirms). Tony D'Arrigo qualified as an Independent (tonydarrigo.com). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: incumbent Anna Paulina Luna (R) ran unopposed; Leela Gray won the Democratic primary (Florida Politics, 'Leela Gray wins CD 13 Democratic Primary, advances to face Anna Paulina Luna'; WUSF confirms). Tony D'Arrigo qualified as an Independent (tonydarrigo.com).",
       "advancing": [
         "fec-H0FL13158",
         "fec-H6FL13312",
@@ -68,8 +67,8 @@
       ]
     },
     "FL-house-14": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: incumbent Kathy Castor (D) faces Mike Beltran, who won the Republican primary (WUSF, 'GOP Mike Beltran to face off against incumbent Kathy Castor in Florida's 14th Congressional District'). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: incumbent Kathy Castor (D) faces Mike Beltran, who won the Republican primary (WUSF, 'GOP Mike Beltran to face off against incumbent Kathy Castor in Florida's 14th Congressional District').",
       "advancing": [
         "fec-H6FL11126",
         "fec-H6FL14237"
@@ -83,8 +82,8 @@
       ]
     },
     "FL-house-16": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary, for the open seat left by retiring Rep. Vern Buchanan: Sydney Gruters won the Republican nomination and Kelly Kirschner the Democratic nomination; Mark Davis qualified as a No Party Affiliation candidate (WUSF, 'Manatee Primary Results 2026: Trump-endorsed Sydney Gruters wins GOP nod for Buchanan's seat'). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary, for the open seat left by retiring Rep. Vern Buchanan: Sydney Gruters won the Republican nomination and Kelly Kirschner the Democratic nomination; Mark Davis qualified as a No Party Affiliation candidate (WUSF, 'Manatee Primary Results 2026: Trump-endorsed Sydney Gruters wins GOP nod for Buchanan's seat').",
       "advancing": [
         "fec-H6FL16141",
         "fec-H6FL16158",
@@ -92,8 +91,8 @@
       ]
     },
     "FL-house-17": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: incumbent Greg Steube (R) faces Matt Montavon, who won the Democratic primary (WSLR+Fogartyville, 'Matt Montavon wins Congressional District 17 primary'). Michael Quirk qualified as a No Party Affiliation candidate. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: incumbent Greg Steube (R) faces Matt Montavon, who won the Democratic primary (WSLR+Fogartyville, 'Matt Montavon wins Congressional District 17 primary'). Michael Quirk qualified as a No Party Affiliation candidate.",
       "advancing": [
         "fec-H8FL17053",
         "fec-H4FL17060",
@@ -101,8 +100,8 @@
       ]
     },
     "FL-house-18": {
-      "status": "names-only",
-      "statusNote": "General field per Aug 18, 2026 primary: incumbent Scott Franklin (R) faces Curtis Gibson, unopposed Democratic nominee, and Deva Simmons, a No Party Affiliation candidate (confirmed via her Ballotpedia page and campaign site). Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field per Aug 18, 2026 primary: incumbent Scott Franklin (R) faces Curtis Gibson, unopposed Democratic nominee, and Deva Simmons, a No Party Affiliation candidate (confirmed via her Ballotpedia page and campaign site).",
       "advancing": [
         "fec-H0FL15104",
         "fec-H6FL18212",
@@ -110,24 +109,24 @@
       ]
     },
     "FL-house-19": {
-      "status": "names-only",
-      "statusNote": "Open-seat race after incumbent Byron Donalds left CD 19 to run for Florida governor. General field per Aug 18, 2026 primary: Jim Schwartzel won the Republican nomination and Victor Arias the Democratic nomination (WGCU, 'Schwartzel will vie against Arias in 19th'). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Open-seat race after incumbent Byron Donalds left CD 19 to run for Florida governor. General field per Aug 18, 2026 primary: Jim Schwartzel won the Republican nomination and Victor Arias the Democratic nomination (WGCU, 'Schwartzel will vie against Arias in 19th').",
       "advancing": [
         "fec-H6FL19137",
         "fec-H6FL19277"
       ]
     },
     "FL-house-2": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Austin Rogers defeated incumbent Neal Dunn for the Republican nomination; Amanda Marie Green won the Democratic nomination, per The Hill (\"Rick Scott ally wins GOP primary for open Dunn House seat\") and Florida Politics. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Austin Rogers defeated incumbent Neal Dunn for the Republican nomination; Amanda Marie Green won the Democratic nomination, per The Hill (\"Rick Scott ally wins GOP primary for open Dunn House seat\") and Florida Politics.",
       "advancing": [
         "fec-H6FL02331",
         "fec-H6FL02299"
       ]
     },
     "FL-house-20": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 20th Congressional District election, 2026 page: Debbie Wasserman Schultz (D, incumbent), Brent Andersen (R), Kedner Maxime (Independent). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 20th Congressional District election, 2026 page: Debbie Wasserman Schultz (D, incumbent), Brent Andersen (R), Kedner Maxime (Independent).",
       "advancing": [
         "fec-H4FL20023",
         "fec-H6FL20143",
@@ -135,8 +134,8 @@
       ]
     },
     "FL-house-21": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 21st Congressional District election, 2026 page: Brian Mast (R, incumbent), James Martin (D), Alexander Cooke (NPA). David Fabrikant filed as a write-in and does not appear on the printed general-election ballot under Florida law, so he was not researched. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 21st Congressional District election, 2026 page: Brian Mast (R, incumbent), James Martin (D), Alexander Cooke (NPA). David Fabrikant filed as a write-in and does not appear on the printed general-election ballot under Florida law, so he was not researched.",
       "advancing": [
         "fec-H6FL18097",
         "fec-H6FL21075",
@@ -144,24 +143,24 @@
       ]
     },
     "FL-house-22": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm: Pia Dandiya (D) vs. Casey Askar (R), confirmed as the Republican primary winner of Florida's newly drawn 22nd District by baynews9.com/AP (Aug 18, 2026); Dandiya's Democratic primary was uncontested per the FEC roster. Positions researched and stored, race not scored, overlap 4 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm: Pia Dandiya (D) vs. Casey Askar (R), confirmed as the Republican primary winner of Florida's newly drawn 22nd District by baynews9.com/AP (Aug 18, 2026); Dandiya's Democratic primary was uncontested per the FEC roster.",
       "advancing": [
         "fec-H6FL21059",
         "fec-H6FL22248"
       ]
     },
     "FL-house-23": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 23rd Congressional District election, 2026 page: Lois Frankel (D, incumbent) vs. Deborah Adeimy (R). Positions researched and stored, race not scored, overlap 3 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 23rd Congressional District election, 2026 page: Lois Frankel (D, incumbent) vs. Deborah Adeimy (R).",
       "advancing": [
         "fec-H2FL14053",
         "fec-H2FL21132"
       ]
     },
     "FL-house-24": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm: Oliver Gilbert (D, primary winner per WLRN/CBS Miami Aug 18, 2026 coverage), Te Brown (R, primary winner per NBC Miami), and no-party-affiliation candidate Andy Daro. Patricia Gonzalez filed as a write-in and does not appear on the printed general-election ballot under Florida law, so she was not researched. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm: Oliver Gilbert (D, primary winner per WLRN/CBS Miami Aug 18, 2026 coverage), Te Brown (R, primary winner per NBC Miami), and no-party-affiliation candidate Andy Daro. Patricia Gonzalez filed as a write-in and does not appear on the printed general-election ballot under Florida law, so she was not researched.",
       "advancing": [
         "fec-H6FL24095",
         "fec-H6FL14203",
@@ -169,8 +168,8 @@
       ]
     },
     "FL-house-25": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm: Jared Moskowitz (D, incumbent), Scott Singer (R, primary winner), and Libertarian nominee Peter Jassenoff, whose ballot access Florida Republicans unsuccessfully challenged in court. Michaelangelo Hamilton filed as a write-in and does not appear on the printed general-election ballot under Florida law, so he was not researched. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm: Jared Moskowitz (D, incumbent), Scott Singer (R, primary winner), and Libertarian nominee Peter Jassenoff, whose ballot access Florida Republicans unsuccessfully challenged in court. Michaelangelo Hamilton filed as a write-in and does not appear on the printed general-election ballot under Florida law, so he was not researched.",
       "advancing": [
         "fec-H2FL22171",
         "fec-H6FL23188",
@@ -178,8 +177,8 @@
       ]
     },
     "FL-house-26": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia: Mario Diaz-Balart (R, incumbent), Nicole Locklin (D), and no-party-affiliation candidate Deborah Ann Meidinger Hosey. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia: Mario Diaz-Balart (R, incumbent), Nicole Locklin (D), and no-party-affiliation candidate Deborah Ann Meidinger Hosey.",
       "advancing": [
         "fec-H2FL25018",
         "fec-H6FL26058",
@@ -187,16 +186,16 @@
       ]
     },
     "FL-house-27": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 27th Congressional District election, 2026 page: Maria Elvira Salazar (R, incumbent) vs. Eliott Rodriguez (D). Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 27th Congressional District election, 2026 page: Maria Elvira Salazar (R, incumbent) vs. Eliott Rodriguez (D).",
       "advancing": [
         "fec-H8FL27185",
         "fec-H6FL27098"
       ]
     },
     "FL-house-28": {
-      "status": "names-only",
-      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 28th Congressional District election, 2026 page: Carlos Gimenez (R, incumbent), Phil Ehr (D), and no-party-affiliation candidate Eddy Rojas. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Advancing field per politics1.com/fl.htm and Ballotpedia's Florida's 28th Congressional District election, 2026 page: Carlos Gimenez (R, incumbent), Phil Ehr (D), and no-party-affiliation candidate Eddy Rojas.",
       "advancing": [
         "fec-H0FL26036",
         "fec-H4FL28042",
@@ -204,8 +203,8 @@
       ]
     },
     "FL-house-3": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Cammack won the Republican nomination with about 85% of the vote and Harp won the Democratic nomination with about 45% in a multi-candidate field, per AP/Bay News 9. Mike Klein qualified as a no-party-affiliation candidate for the general ballot (no primary), confirmed via his active 2026 campaign site. Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Cammack won the Republican nomination with about 85% of the vote and Harp won the Democratic nomination with about 45% in a multi-candidate field, per AP/Bay News 9. Mike Klein qualified as a no-party-affiliation candidate for the general ballot (no primary), confirmed via his active 2026 campaign site.",
       "advancing": [
         "fec-H0FL03175",
         "fec-H6FL03099",
@@ -213,8 +212,8 @@
       ]
     },
     "FL-house-4": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Bean was unopposed for the Republican nomination; Holloway won the Democratic nomination with 57%, per Florida Politics (\"L.J. Holloway emerges from contentious CD 4 Primary\"). Minor-party candidate Mike Sell confirmed as a general-ballot qualifier via politics1.com's Florida roster; an independent candidate (Eugene Washington) listed on the FEC roster could not be confirmed as still qualified for the November ballot and was excluded pending confirmation. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Bean was unopposed for the Republican nomination; Holloway won the Democratic nomination with 57%, per Florida Politics (\"L.J. Holloway emerges from contentious CD 4 Primary\"). Minor-party candidate Mike Sell confirmed as a general-ballot qualifier via politics1.com's Florida roster; an independent candidate (Eugene Washington) listed on the FEC roster could not be confirmed as still qualified for the November ballot and was excluded pending confirmation.",
       "advancing": [
         "fec-H2FL04211",
         "fec-H6FL05193",
@@ -222,16 +221,16 @@
       ]
     },
     "FL-house-5": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Rutherford won renomination with 68%; Grage won the Democratic nomination with 65%, per a news4jax.com primary-results roundup. Positions researched and stored, race not scored, overlap 1 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Rutherford won renomination with 68%; Grage won the Democratic nomination with 65%, per a news4jax.com primary-results roundup.",
       "advancing": [
         "fec-H6FL04105",
         "fec-H6FL05250"
       ]
     },
     "FL-house-6": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Fine won renomination with 57% and Yonce won the Democratic nomination with 32% in a multi-candidate field, per a news4jax.com/Inside Elections roundup and Fox 35 Orlando. Michael Gist qualified as a no-party-affiliation candidate for the general ballot (no primary), confirmed via his 2026 campaign site and politics1.com. A Libertarian candidate (Andrew Parrott) surfaced only in connection with the 2025 special election and could not be confirmed as re-qualified for 2026, so was excluded pending confirmation. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Fine won renomination with 57% and Yonce won the Democratic nomination with 32% in a multi-candidate field, per a news4jax.com/Inside Elections roundup and Fox 35 Orlando. Michael Gist qualified as a no-party-affiliation candidate for the general ballot (no primary), confirmed via his 2026 campaign site and politics1.com. A Libertarian candidate (Andrew Parrott) surfaced only in connection with the 2025 special election and could not be confirmed as re-qualified for 2026, so was excluded pending confirmation.",
       "advancing": [
         "fec-H6FL06258",
         "fec-H6FL06340",
@@ -239,8 +238,8 @@
       ]
     },
     "FL-house-7": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Elijah defeated incumbent Cory Mills 47-34 for the Republican nomination; Dalton won the Democratic nomination, per Click Orlando and Florida Politics. Christopher Dennison confirmed as the Libertarian general-ballot qualifier via the FEC roster and politics1.com (no primary for minor parties). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Elijah defeated incumbent Cory Mills 47-34 for the Republican nomination; Dalton won the Democratic nomination, per Click Orlando and Florida Politics. Christopher Dennison confirmed as the Libertarian general-ballot qualifier via the FEC roster and politics1.com (no primary for minor parties).",
       "advancing": [
         "fec-H6FL07231",
         "fec-H6FL07215",
@@ -248,16 +247,16 @@
       ]
     },
     "FL-house-8": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Haridopolos was unopposed for renomination; Jenkins advances as the Democratic nominee per Inside Elections' 2026 Florida primary roundup, which reports she \"will face him in November\" (a second Democratic filer, Colby Shock, appears in the FEC roster but no source confirming a contested primary or its result could be found). Positions researched and stored, race not scored, overlap 2 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Haridopolos was unopposed for renomination; Jenkins advances as the Democratic nominee per Inside Elections' 2026 Florida primary roundup, which reports she \"will face him in November\" (a second Democratic filer, Colby Shock, appears in the FEC roster but no source confirming a contested primary or its result could be found).",
       "advancing": [
         "fec-H4FL08168",
         "fec-H6FL06399"
       ]
     },
     "FL-house-9": {
-      "status": "names-only",
-      "statusNote": "Aug 18, 2026 primary: Dan Green won a crowded, closely contested Republican primary over Ben Butler and five others; Soto was unopposed for the Democratic nomination, per Becker & Poliakoff's post-primary report and Florida Phoenix. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "Aug 18, 2026 primary: Dan Green won a crowded, closely contested Republican primary over Ben Butler and five others; Soto was unopposed for the Democratic nomination, per Becker & Poliakoff's post-primary report and Florida Phoenix.",
       "advancing": [
         "fec-H6FL09294",
         "fec-H6FL09179"
@@ -736,15 +735,54 @@
       "office": "us-senate",
       "district": null,
       "state": "FL",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "curated",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Ballotpedia profile, confirms Nov 3, 2026 general-election candidacy",
+          "url": "https://ballotpedia.org/Neil_Gillespie"
+        },
+        {
+          "label": "Neil J. Gillespie for U.S. Senate campaign blog",
+          "url": "https://neilgillespie4senate.blogspot.com/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6FL00863/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [],
+      "nullNotes": {
+        "cost": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "health": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "housing": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "immigration": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "taxes": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "climate": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "education": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "safety": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "repro": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)",
+        "democracy": "Campaign blog focuses entirely on judicial-reform/wiretapping-law grievances; no position on this axis found (checked Sep 2, 2026)"
+      },
+      "now": "No Party Affiliation candidate for U.S. Senate",
+      "background": "Gillespie is a No Party Affiliation candidate in the special election for the U.S. Senate seat vacated by Marco Rubio. His campaign centers on legal-system grievances rather than the standard issue set: he argues Florida's wiretapping law conflicts with federal law under the Supremacy Clause and frames his run around \"lawfare and lack of due process\" in state and federal courts.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-jewett",
@@ -753,7 +791,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -764,8 +802,66 @@
         {
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        },
+        {
+          "label": "Floridian Press: Scott Jewett announces 'Libertarian 2.0' bid for governor",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Low taxes and a free-market economy",
+        "Homeowners-insurance reform",
+        "End mandatory minimum sentences, reform cash bail, end private prisons"
+      ],
+      "nullNotes": {
+        "health": "Not addressed in available coverage (checked Sep 2, 2026)",
+        "housing": "Coverage discusses homeowners-insurance payout ratios (\"$43B in premiums, $7B paid out\"), which is insurance regulation, not a build/zoning or renter-protection stance fitting this axis (checked Sep 2, 2026)",
+        "repro": "Not addressed in available coverage; Libertarian Party of Florida profile page had no policy detail (checked Sep 2, 2026)",
+        "democracy": "Not addressed in available coverage (checked Sep 2, 2026)"
+      },
+      "now": "Libertarian Party candidate for Florida governor",
+      "background": "Jewett is the Libertarian Party's 2026 nominee for Florida governor, campaigning on what he calls \"Libertarian 2.0,\" a fusion of free-market principles with a stated role for social programs supporting vulnerable communities. His platform centers on lower taxes, homeowners-insurance reform, and criminal-justice reform.",
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 0,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": -2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Calls for \"a streamlined, efficient government... and a free-market economy that stimulates growth and innovation\" (Floridian Press)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        },
+        "immigration": {
+          "label": "Backs \"stringent enforcement\" alongside \"a streamlined and expanded work visa program\" (Floridian Press, both sides quoted)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        },
+        "taxes": {
+          "label": "\"Libertarian 2.0\" platform calls for \"low taxes\" alongside conservative fiscal policy (Floridian Press)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        },
+        "climate": {
+          "label": "Environmental policy \"emphasizes property rights\" rather than regulation (Floridian Press)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        },
+        "education": {
+          "label": "Backs \"school choice\" (Floridian Press)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        },
+        "safety": {
+          "label": "Criminal-justice platform: \"elimination of mandatory minimum sentences, reforming cash bail, and ending private prisons\" (Floridian Press)",
+          "url": "https://floridianpress.com/2025/11/scott-jewett-announces-libertarian-2-0-bid-for-florida-governor/"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-meade",
@@ -775,7 +871,7 @@
       "district": null,
       "state": "FL",
       "tier": "fec",
-      "ballotStatus": "nominee",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -795,7 +891,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -806,8 +902,69 @@
         {
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        },
+        {
+          "label": "Dean Abrams for Florida Governor: Issues",
+          "url": "https://www.deanabrams.com/issues"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Sarasota, FL",
+      "priorities": [
+        "Ban institutional investors from buying single-family homes and add renter protections",
+        "Close Florida's health-insurance coverage gap for the uninsured",
+        "Eliminate property taxes on homesteaded homes"
+      ],
+      "nullNotes": {
+        "safety": "Site lists gun-related stances (constitutional carry, red-flag reform) which do not map to this axis; no police-funding or prevention-program position found (checked Sep 2, 2026)",
+        "repro": "Site emphasizes material support (housing, childcare, health care) for pregnant women but does not state a position on abortion legality or access (checked Sep 2, 2026)",
+        "democracy": "Site calls for paper ballots and auditable voting systems, which addresses vote-counting method rather than registration/mail-voting access or ID rules (checked Sep 2, 2026)"
+      },
+      "now": "Independent candidate for governor; three-decade career in public and private infrastructure/systems work including post-9/11 NYC rebuilding",
+      "background": "Abrams has worked across public and private sectors for three decades, including on New York City's post-9/11 infrastructure rebuilding and Florida systems modernization, and has lived in Sarasota since the 1990s. He is running as a No Party Affiliation candidate campaigning against corporate influence, declining corporate PAC funding.",
+      "positions": {
+        "cost": 1,
+        "health": -1,
+        "housing": -2,
+        "immigration": -1,
+        "taxes": 2,
+        "climate": -1,
+        "education": 0,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Proposes suspending state gas taxes during price spikes and small-business deregulation with state-backed low-interest loans (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "health": {
+          "label": "Would address the coverage gap for roughly 800,000 uninsured Floridians via an agency waiver and supports the state's prescription-drug importation program (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "housing": {
+          "label": "Would ban institutional investors from buying single-family homes and require just-cause eviction and capped security deposits (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "immigration": {
+          "label": "Backs due process for detainees and \"a path for long-term, law-abiding residents, including those brought here as children\" (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "taxes": {
+          "label": "Defends Florida's ban on personal income tax, opposes federal income tax on wages, and would eliminate property taxes on homesteaded homes near median value (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "climate": {
+          "label": "Would protect net metering, distributed solar and battery storage while opposing new AI data centers (campaign site)",
+          "url": "https://www.deanabrams.com/issues"
+        },
+        "education": {
+          "label": "Mixes \"school choice and parental authority over curriculum\" with restoring vocational programs and teacher pay increases (campaign site, both sides quoted)",
+          "url": "https://www.deanabrams.com/issues"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-burkett",
@@ -816,7 +973,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -827,8 +984,66 @@
         {
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        },
+        {
+          "label": "Burkett for Governor campaign site",
+          "url": "https://burkettforgov.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Surfside, FL",
+      "priorities": [
+        "Eliminate property taxes for long-term homeowners and renters",
+        "Return health care control to physicians, not insurers or government",
+        "Codify abortion rights (\"My Body, My Choice\")"
+      ],
+      "nullNotes": {
+        "cost": "Site's tax/growth language is captured under taxes and housing; no separate general cost-of-living stance found (checked Sep 2, 2026)",
+        "climate": "Only a general \"clean water and air, hold polluters accountable\" line, not an energy-transition or energy-independence stance (checked Sep 2, 2026)",
+        "education": "Calls for \"high standards\" and retaining good teachers but no public-investment or school-choice position stated (checked Sep 2, 2026)",
+        "democracy": "No voting-access or election-administration position found on campaign site (checked Sep 2, 2026)"
+      },
+      "now": "Former Mayor of Surfside, FL (four terms, 2013-2023); real estate investor",
+      "background": "Burkett served four terms as Mayor of Surfside, a small Miami-Dade beach town, and led the town's response to the 2021 Champlain Towers South condo collapse. He entered the 2026 governor's race as a No Party Affiliation candidate emphasizing affordability, property-tax relief, and physician-led health care. He calls for eliminating property taxes for long-term homeowners and renters and returning medical decisions to doctors rather than insurers or government.",
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": -1,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Proposes returning control to physicians, standardized insurance plan categories, and state-backed loan funds for pre-existing conditions (campaign site)",
+          "url": "https://burkettforgov.com/"
+        },
+        "housing": {
+          "label": "Backs affordable housing built in lower-income areas via his \"Oasis Act\" gated-community proposal (campaign site)",
+          "url": "https://burkettforgov.com/"
+        },
+        "immigration": {
+          "label": "\"Legal immigration is good. Uncontrolled, unvetted, unregulated, illegal immigration is bad\" (campaign site)",
+          "url": "https://burkettforgov.com/"
+        },
+        "taxes": {
+          "label": "\"Slash and eventually eliminate property taxes\" via cumulative homestead exemption increases and cutting government spending 5-10% (campaign site)",
+          "url": "https://burkettforgov.com/"
+        },
+        "safety": {
+          "label": "Proposes giving first responders \"every tool\" needed and fair, competitive wages (campaign site)",
+          "url": "https://burkettforgov.com/"
+        },
+        "repro": {
+          "label": "\"Affirm and codify 'My Body, My Choice'\" (campaign site)",
+          "url": "https://burkettforgov.com/"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-datto",
@@ -837,7 +1052,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -849,7 +1064,38 @@
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Hialeah, FL",
+      "priorities": [],
+      "nullNotes": {
+        "cost": "No campaign website found; Facebook/Instagram posts introduce candidacy only, no policy detail (both robots-blocked to fetch directly) (checked Sep 2, 2026)",
+        "health": "Same as above; no fetchable source with issue content (checked Sep 2, 2026)",
+        "housing": "Same as above (checked Sep 2, 2026)",
+        "immigration": "Same as above (checked Sep 2, 2026)",
+        "taxes": "Same as above (checked Sep 2, 2026)",
+        "climate": "Same as above (checked Sep 2, 2026)",
+        "education": "Same as above (checked Sep 2, 2026)",
+        "safety": "Same as above (checked Sep 2, 2026)",
+        "repro": "Same as above (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia and campaign Facebook page both robots-blocked on fetch; no alternate source found (checked Sep 2, 2026)"
+      },
+      "now": "Neuroscientist; No Party Affiliation candidate for governor",
+      "background": "Datto describes himself as a neuroscientist and Hialeah resident running as a No Party Affiliation candidate for governor. His public presence is largely limited to social media posts introducing his candidacy; no campaign website with detailed issue positions was found.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-dimanche",
@@ -858,7 +1104,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -869,8 +1115,54 @@
         {
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        },
+        {
+          "label": "No MOE Corruption: Moe Dimanche for Governor of Florida",
+          "url": "https://nomoecorruption.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Abolish homeowners associations (HOAs)",
+        "End property taxes on homesteads",
+        "Incorporate Florida's remaining unincorporated areas"
+      ],
+      "nullNotes": {
+        "cost": "Site focuses on HOA/property-tax reform and municipal incorporation, no general cost-of-living stance found (checked Sep 2, 2026)",
+        "health": "Not addressed on campaign site (checked Sep 2, 2026)",
+        "housing": "HOA opposition is a homeowner-governance stance, not a build/zoning or renter-protection position that fits this axis; not scored (checked Sep 2, 2026)",
+        "climate": "Not addressed on campaign site (checked Sep 2, 2026)",
+        "education": "Only a passing mention of school-funding tradeoffs tied to property taxes, no distinct position (checked Sep 2, 2026)",
+        "safety": "Municipal-incorporation pitch cites faster 911 response but no police-funding or prevention-program stance (checked Sep 2, 2026)",
+        "repro": "Not addressed on campaign site (checked Sep 2, 2026)",
+        "democracy": "Not addressed on campaign site (checked Sep 2, 2026)"
+      },
+      "now": "Activist, artist and author; No Party Affiliation candidate for governor",
+      "background": "Dimanche is a first-generation Haitian-American born in Orlando who experienced childhood homelessness and later led the successful push to incorporate Pine Hills as a municipality. He is running for governor as a No Party Affiliation, anti-corruption candidate and has publicly opposed Gov. DeSantis's immigration-detention \"Alligator Alcatraz\" facility.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": -2,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Explicitly opposes DeSantis's \"Alligator Alcatraz\" detention plan, invoking Jim Crow history: \"WE DO NOT\" support it (campaign site)",
+          "url": "https://nomoecorruption.com/"
+        },
+        "taxes": {
+          "label": "Opposes property taxes on homesteads as infringing on ownership, while acknowledging states need alternative funding for schools/infrastructure (campaign site)",
+          "url": "https://nomoecorruption.com/"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fl-gov-russo",
@@ -879,7 +1171,7 @@
       "office": "governor",
       "district": null,
       "state": "FL",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -890,8 +1182,51 @@
         {
           "label": "WUSF: Donalds, Jolly to face off for governor",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/2026-primary-results-donalds-jolly-to-face-off-for-governor-as-floridas-statewide-races-are-set"
+        },
+        {
+          "label": "Frank Russo 2026 campaign site",
+          "url": "https://russo2026.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Property-insurance affordability and accountability",
+        "Address the affordable-housing crisis",
+        "\"Caring capitalism\": pro-business policy paired with community responsibility"
+      ],
+      "nullNotes": {
+        "cost": "Site describes a general \"Caring Capitalism\" philosophy (pro-business, pro-community) without a specific price-intervention or deregulation stance (checked Sep 2, 2026)",
+        "health": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "immigration": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "taxes": "Not addressed on campaign homepage beyond property-insurance reform, which is tracked as housing not taxes (checked Sep 2, 2026)",
+        "climate": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "education": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "safety": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "repro": "Not addressed on campaign homepage (checked Sep 2, 2026)",
+        "democracy": "Not addressed on campaign homepage (checked Sep 2, 2026)"
+      },
+      "now": "Insurance industry executive; independent (NPA) candidate for governor",
+      "background": "Russo is a Florida insurance executive running as a No Party Affiliation candidate on a \"Caring Capitalism\" platform, arguing businesses can be profitable without exploiting communities. He has made property-insurance affordability and housing costs his central campaign focus, drawing on his insurance-industry background, and has challenged the major-party nominees to a debate.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "\"Florida's beauty and opportunity mean little if people who live here can no longer afford to stay\"; lists affordable housing as an immediate public need (campaign site)",
+          "url": "https://russo2026.com/"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H6FL01390",
@@ -901,7 +1236,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -967,7 +1302,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1132,7 +1467,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1192,7 +1527,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1262,7 +1597,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1331,7 +1666,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1413,7 +1748,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1476,7 +1811,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1545,7 +1880,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1609,7 +1944,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1678,7 +2013,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1747,7 +2082,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1877,7 +2212,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1950,7 +2285,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2029,7 +2364,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2098,7 +2433,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2167,7 +2502,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2243,7 +2578,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2306,7 +2641,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2375,7 +2710,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2438,7 +2773,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2511,7 +2846,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2584,7 +2919,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2640,7 +2975,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2710,7 +3045,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2780,7 +3115,7 @@
       "office": "us-house",
       "district": "20",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2853,7 +3188,7 @@
       "office": "us-house",
       "district": "20",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2919,7 +3254,7 @@
       "office": "us-house",
       "district": "20",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2971,7 +3306,7 @@
       "office": "us-house",
       "district": "21",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3046,7 +3381,7 @@
       "office": "us-house",
       "district": "21",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3112,7 +3447,7 @@
       "office": "us-house",
       "district": "21",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3175,7 +3510,7 @@
       "office": "us-house",
       "district": "22",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3247,7 +3582,7 @@
       "office": "us-house",
       "district": "22",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3328,7 +3663,7 @@
       "office": "us-house",
       "district": "23",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3397,7 +3732,7 @@
       "office": "us-house",
       "district": "23",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3466,7 +3801,7 @@
       "office": "us-house",
       "district": "24",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3539,7 +3874,7 @@
       "office": "us-house",
       "district": "24",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3591,7 +3926,7 @@
       "office": "us-house",
       "district": "24",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3639,7 +3974,7 @@
       "office": "us-house",
       "district": "25",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3714,7 +4049,7 @@
       "office": "us-house",
       "district": "25",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3776,7 +4111,7 @@
       "office": "us-house",
       "district": "25",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3828,7 +4163,7 @@
       "office": "us-house",
       "district": "26",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3903,7 +4238,7 @@
       "office": "us-house",
       "district": "26",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -3978,7 +4313,7 @@
       "office": "us-house",
       "district": "26",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4030,7 +4365,7 @@
       "office": "us-house",
       "district": "27",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4096,7 +4431,7 @@
       "office": "us-house",
       "district": "27",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4162,7 +4497,7 @@
       "office": "us-house",
       "district": "28",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4227,7 +4562,7 @@
       "office": "us-house",
       "district": "28",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4302,7 +4637,7 @@
       "office": "us-house",
       "district": "28",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4354,7 +4689,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4426,7 +4761,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4502,7 +4837,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4575,7 +4910,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4644,7 +4979,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4723,7 +5058,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4775,7 +5110,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4844,7 +5179,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4916,7 +5251,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -4989,7 +5324,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5058,7 +5393,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5124,7 +5459,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5216,7 +5551,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5301,7 +5636,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5353,7 +5688,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5431,7 +5766,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5504,7 +5839,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -5563,7 +5898,7 @@
       "state": "FL",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

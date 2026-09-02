@@ -4,10 +4,15 @@
   "races": {
     "VT-governor": {
       "status": "general",
-      "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%. Also listed for the November ballot: June Goodband (Peace and Justice), Dean R. Roy (Freedom and Unity) and independent Brian Judd."
+      "statusNote": "Gov. Phil Scott (R) seeks a sixth two-year term. Economist Amanda Janoo won the Democratic primary Aug 11 with about 49% to Aly Richards's 46%. Also listed for the November ballot: June Goodband (Peace and Justice), Dean R. Roy (Freedom and Unity) and independent Brian Judd. All three (Judd, Roy, Goodband) confirmed on the Nov 3, 2026 general ballot per The Green Papers and Politics1 VT rosters; Roy, 14, qualified because Vermont sets no minimum age for governor (checked Sep 2, 2026).",
+      "advancing": [
+        "vt-gov-judd",
+        "vt-gov-roy",
+        "vt-gov-goodband"
+      ]
     },
     "VT-house-at-large": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2VT01076",
         "fec-H6VT01085",
@@ -16,7 +21,7 @@
         "vt-house-seymour",
         "vt-house-walton"
       ],
-      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 76% over Mark Coester. Independents Phoenix Altair, Adam Ortiz, Suzanne Seymour and Ryan Walton are also listed for the November ballot. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them. Positions researched and stored, race not scored, overlap 6 of 10 as of Aug 30, 2026 (second-check Aug 30, 2026 nulled Balint's taxes score, dropping overlap from 7 to 6).",
+      "statusNote": "Rep. Becca Balint (D) seeks re-election against Army veteran Gerald Malloy (R). Balint was unopposed in the August 11, 2026 Democratic primary and Malloy won the Republican primary with about 76% over Mark Coester. Independents Phoenix Altair, Adam Ortiz, Suzanne Seymour and Ryan Walton are also listed for the November ballot. Positions researched Aug 17, 2026. The two overlap on 7 of the 10 issues; cost of living, housing and voting rules are one-sided and carry no match weight for the candidate who lacks them. All four independents confirmed on the Nov 3, 2026 ballot per Politics1's Aug 31, 2026 Vermont roster and The Green Papers; Altair and Walton have no locatable campaign materials beyond that roster listing, so their entries are all-null with documented hunts (checked Sep 2, 2026).",
       "sources": [
         {
           "label": "Gerald Malloy wins Vermont Republican primary for U.S. House (Vermont Public)",
@@ -210,7 +215,7 @@
       "district": "at-large",
       "state": "VT",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": 58,
       "home": "Brattleboro, VT",
@@ -299,7 +304,7 @@
       "district": "at-large",
       "state": "VT",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": 64,
       "home": "Weathersfield, VT",
@@ -387,7 +392,7 @@
       "office": "governor",
       "district": null,
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -398,8 +403,67 @@
         {
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
+        },
+        {
+          "label": "June Goodband for Governor campaign site",
+          "url": "https://june4govvt.org/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Green Mountain Peace and Justice Party candidate for governor, running on a platform of living wages, cooperative housing, and universal healthcare.",
+      "background": "Goodband is a repeat gubernatorial candidate for the Green Mountain Peace and Justice Party, having also run in prior cycles. Her platform centers on requiring profitable businesses to pay living wages, progressive taxation to fund education, and alternatives to incarceration.",
+      "priorities": [
+        "Living wage requirement for profitable businesses",
+        "Universal healthcare",
+        "Progressive taxation to replace homestead taxes"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": 0,
+        "immigration": null,
+        "taxes": -2,
+        "climate": -1,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"High costs and low incomes are pushing people to the brink. It's time to require profitable businesses to pay a living wage\" (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        },
+        "health": {
+          "label": "Calls to \"implement Vermont's law to reduce costs, increase access, and improve outcomes\" through universal healthcare (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        },
+        "housing": {
+          "label": "Proposes cooperative housing, no-interest mortgages, and intentional communities for lower-income residents, alongside \"making modest housing easier to build,\" combining public support with deregulation (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        },
+        "taxes": {
+          "label": "Advocates \"progressive taxation instead of homestead taxes\" for education funding, with higher rates on wealthy individuals and seasonally vacant buildings (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        },
+        "climate": {
+          "label": "Opposes \"climate change that steals our future\" and calls for \"sustainable use of resources for the benefit of all\" (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        },
+        "safety": {
+          "label": "Proposes \"creative strategies that protect people, work better than prisons, and cost less,\" paired with expanded social support (june4govvt.org platform)",
+          "url": "https://june4govvt.org/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "not addressed on june4govvt.org (checked Sep 2, 2026)",
+        "education": "site ties education funding to progressive taxation but states no specific K-12 public-investment-vs-choice position (checked Sep 2, 2026)",
+        "repro": "not addressed on june4govvt.org (checked Sep 2, 2026)",
+        "democracy": "not addressed on june4govvt.org (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-gov-roy",
@@ -408,7 +472,7 @@
       "office": "governor",
       "district": null,
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -417,10 +481,44 @@
           "url": "https://www.thegreenpapers.com/G26/VT"
         },
         {
-          "label": "Politics1: VT 2026 candidates",
-          "url": "https://politics1.com/vt.htm"
+          "label": "Newsweek: Who is Dean Roy? How a 14-year-old ended up on Vermont's governor ballot",
+          "url": "https://www.newsweek.com/who-is-dean-roy-how-a-14-year-old-ended-up-on-vermonts-governor-ballot-11748750"
         }
-      ]
+      ],
+      "age": 14,
+      "home": "Stowe, VT",
+      "now": "14-year-old Stowe High School freshman running for governor under a party he formed, Freedom and Unity, after Vermont's lack of a minimum age requirement for the office let him qualify for the ballot.",
+      "background": "Roy was born and raised in Stowe and previously served as a legislative page at the Vermont Statehouse. He does not identify with either major party and has framed his campaign as symbolic, saying his goal is to \"start the movement, and get more young people to come in behind\" him rather than to win outright.",
+      "priorities": [
+        "Housing affordability"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "no specific policy stance found beyond naming housing as an issue (checked Sep 2, 2026)",
+        "health": "not addressed in available coverage (checked Sep 2, 2026)",
+        "housing": "called \"the biggest issue facing the state\" in Newsweek coverage but no policy direction (build more, protect renters, etc.) was stated (checked Sep 2, 2026)",
+        "immigration": "not addressed in available coverage (checked Sep 2, 2026)",
+        "taxes": "not addressed in available coverage (checked Sep 2, 2026)",
+        "climate": "not addressed in available coverage (checked Sep 2, 2026)",
+        "education": "not addressed in available coverage (checked Sep 2, 2026)",
+        "safety": "not addressed in available coverage (checked Sep 2, 2026)",
+        "repro": "not addressed in available coverage (checked Sep 2, 2026)",
+        "democracy": "not addressed in available coverage (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-gov-judd",
@@ -429,7 +527,7 @@
       "office": "governor",
       "district": null,
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -440,8 +538,48 @@
         {
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
+        },
+        {
+          "label": "The Vermont Political Observer: Dregs of the Ballot, Assemble!",
+          "url": "https://thevpo.org/2026/08/27/dregs-of-the-ballot-assemble/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Barre, VT",
+      "now": "Independent candidate for governor; ran unsuccessfully for Barre City Council (2021, as a Republican) and city council again in 2022.",
+      "background": "Judd is a Barre resident who lost a 2021 Barre City Council race and subsequently sued the city over alleged election irregularities. He has been described by local political coverage as positioned well to the right of incumbent Gov. Phil Scott. No campaign website or detailed policy platform for the 2026 governor's race was found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "democracy": {
+          "label": "A January 2021 tweet showed him urging Donald Trump to contest the 2020 election results (The Vermont Political Observer, Aug 27, 2026)",
+          "url": "https://thevpo.org/2026/08/27/dregs-of-the-ballot-assemble/"
+        }
+      },
+      "nullNotes": {
+        "cost": "no campaign website or 2026 platform statement found; Ballotpedia and The Vermont Political Observer note only his prior city council run (checked Sep 2, 2026)",
+        "health": "same as above (checked Sep 2, 2026)",
+        "housing": "same as above (checked Sep 2, 2026)",
+        "immigration": "same as above (checked Sep 2, 2026)",
+        "taxes": "same as above (checked Sep 2, 2026)",
+        "climate": "same as above (checked Sep 2, 2026)",
+        "education": "same as above (checked Sep 2, 2026)",
+        "safety": "same as above (checked Sep 2, 2026)",
+        "repro": "same as above (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-house-altair",
@@ -450,7 +588,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -462,7 +600,39 @@
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Vermont's at-large U.S. House seat; works as a photographer.",
+      "background": "Altair is listed by Politics1's Vermont 2026 roster as an independent candidate and photographer. No campaign website, news Q&A, or Ballotpedia Candidate Connection survey could be located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "no campaign website found via search or Politics1's linked sites; no Ballotpedia page or local news coverage located (checked Sep 2, 2026)",
+        "health": "same as above (checked Sep 2, 2026)",
+        "housing": "same as above (checked Sep 2, 2026)",
+        "immigration": "same as above (checked Sep 2, 2026)",
+        "taxes": "same as above (checked Sep 2, 2026)",
+        "climate": "same as above (checked Sep 2, 2026)",
+        "education": "same as above (checked Sep 2, 2026)",
+        "safety": "same as above (checked Sep 2, 2026)",
+        "repro": "same as above (checked Sep 2, 2026)",
+        "democracy": "same as above (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-house-ortiz",
@@ -471,7 +641,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -482,8 +652,44 @@
         {
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
+        },
+        {
+          "label": "Brattleboro Reformer: Adam Ortiz, candidate for U.S. House, discusses key issues",
+          "url": "https://www.reformer.com/local-news/adam-ortiz-candidate-for-u-s-house-discusses-key-issues/article_71e589ca-9613-11ef-bcde-e3bffb904baf.html"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Vermont's at-large U.S. House seat; window repairman and National Guard veteran, running for the seat again after a 2024 bid that drew 5.5% of the vote.",
+      "background": "Ortiz is a National Guard veteran and window-repair business owner who previously ran for the seat in 2024. In a Brattleboro Reformer candidate interview he discussed education, public safety, and infrastructure ideas, but did not state positions that map to this app's policy axes.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "health": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "housing": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "immigration": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "taxes": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "climate": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "education": "interview quote calls for teaching \"interest rates to math classes and credit scores to home economics,\" a curriculum-content idea that does not map to the public-schools-vs-choice axis (checked Sep 2, 2026)",
+        "safety": "interview quote calls for \"cross training with the FBI and other law enforcement agencies\" and having \"old guys train the next generation,\" too vague to place on an enforcement-vs-prevention axis (checked Sep 2, 2026)",
+        "repro": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)",
+        "democracy": "not addressed in his Brattleboro Reformer interview (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-house-seymour",
@@ -492,7 +698,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -503,8 +709,55 @@
         {
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
+        },
+        {
+          "label": "Suzanne Seymour for US Congress campaign site",
+          "url": "https://ruokvt.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Vermont's at-large U.S. House seat, running as \"Vermont's Independent Choice for Congress.\"",
+      "background": "Seymour is a businesswoman, massage therapist, and comedian per Politics1's roster. Her campaign site frames her as an outsider focused on wellness-oriented healthcare and cutting federal waste, under the slogan \"People matter more than politics.\"",
+      "priorities": [
+        "Preventive, choice-based healthcare",
+        "Reducing federal fraud, waste, and abuse",
+        "Federal investment in Vermont infrastructure"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "\"I support Americans being healthy and happy,\" favoring preventive care and \"people need options and choices\" over a \"disease-care model\" (ruokvt.com campaign site)",
+          "url": "https://ruokvt.com/"
+        },
+        "taxes": {
+          "label": "Pledges to \"take a stand against fraud and abuse of federal tax dollars to minimize the federal tax burden on working Vermonters\" (ruokvt.com campaign site)",
+          "url": "https://ruokvt.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "site references \"rising taxes, education costs, and everyday expenses\" as a problem but names no specific price or wage lever distinct from the taxes axis (checked Sep 2, 2026)",
+        "housing": "not addressed on ruokvt.com (checked Sep 2, 2026)",
+        "immigration": "not addressed on ruokvt.com (checked Sep 2, 2026)",
+        "climate": "not addressed on ruokvt.com (checked Sep 2, 2026)",
+        "education": "not addressed on ruokvt.com (checked Sep 2, 2026)",
+        "safety": "site calls for \"accountability from our justice and legal systems to ensure safety and prosperity,\" too vague to place on an enforcement-vs-prevention axis (checked Sep 2, 2026)",
+        "repro": "not addressed on ruokvt.com (checked Sep 2, 2026)",
+        "democracy": "site calls to \"get the Big $$ out of elections,\" a campaign-finance position that does not map to the voting-access-vs-safeguards axis (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "vt-house-walton",
@@ -513,7 +766,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "VT",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -525,7 +778,39 @@
           "label": "Politics1: VT 2026 candidates",
           "url": "https://politics1.com/vt.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Vermont's at-large U.S. House seat; businessman and software developer.",
+      "background": "Walton is listed by Politics1's Vermont 2026 roster as an independent candidate, businessman, and software developer. No campaign website, news Q&A, or Ballotpedia Candidate Connection survey could be located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "no campaign website found via search; no Ballotpedia page or local news coverage located (checked Sep 2, 2026)",
+        "health": "same as above (checked Sep 2, 2026)",
+        "housing": "same as above (checked Sep 2, 2026)",
+        "immigration": "same as above (checked Sep 2, 2026)",
+        "taxes": "same as above (checked Sep 2, 2026)",
+        "climate": "same as above (checked Sep 2, 2026)",
+        "education": "same as above (checked Sep 2, 2026)",
+        "safety": "same as above (checked Sep 2, 2026)",
+        "repro": "same as above (checked Sep 2, 2026)",
+        "democracy": "same as above (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     }
   ]
 }

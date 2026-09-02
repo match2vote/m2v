@@ -9,20 +9,20 @@
         "fec-S6KS00312",
         "ks-senate-graham"
       ],
-      "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4. Libertarian David Graham is also running for the November ballot."
+      "statusNote": "Sen. Roger Marshall (R) faces Rev. Adam Hamilton (D), pastor of the largest Methodist church in the U.S., nominated Aug 4. Libertarian David Graham is also running for the November ballot. Libertarian nominee David Graham now has a researched curated entry (5 of 10 axes sourced)."
     },
     "KS-governor": {
       "status": "general",
       "statusNote": "Open seat (Gov. Kelly term-limited): Senate President Ty Masterson (R) faces state Sen. Cindy Holscher (D). Both nominated Aug 4."
     },
     "KS-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0KS01123",
         "fec-H6KS01203",
         "ks-house-1-jacob"
       ],
-      "statusNote": "Rep. Tracey Mann (R) was renominated in the Aug 4, 2026 primary and faces Democrat Lauren Reinhold and Libertarian Steve Jacob. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Tracey Mann (R) was renominated in the Aug 4, 2026 primary and faces Democrat Lauren Reinhold and Libertarian Steve Jacob. We know who's running.",
       "sources": [
         {
           "label": "The Green Papers: Kansas 2026 general election candidates",
@@ -35,13 +35,13 @@
       ]
     },
     "KS-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4KS02164",
         "fec-H6KS02276",
         "ks-house-2-hauer"
       ],
-      "statusNote": "Rep. Derek Schmidt (R) was renominated in the Aug 4, 2026 primary and faces Democrat Don Coover and Libertarian John Hauer. We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Derek Schmidt (R) was renominated in the Aug 4, 2026 primary and faces Democrat Don Coover and Libertarian John Hauer. We know who's running.",
       "sources": [
         {
           "label": "The Green Papers: Kansas 2026 general election candidates",
@@ -54,13 +54,13 @@
       ]
     },
     "KS-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8KS03155",
         "fec-H6KS03308",
         "ks-house-3-hohe"
       ],
-      "statusNote": "Rep. Sharice Davids (D) was renominated in the Aug 4, 2026 primary and faces Republican Eric Jenkins and Libertarian Steve Hohe in this Kansas City area swing seat. We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Sharice Davids (D) was renominated in the Aug 4, 2026 primary and faces Republican Eric Jenkins and Libertarian Steve Hohe in this Kansas City area swing seat. We know who's running.",
       "sources": [
         {
           "label": "The Green Papers: Kansas 2026 general election candidates",
@@ -73,13 +73,13 @@
       ]
     },
     "KS-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8KS04112",
         "fec-H6KS04272",
         "ks-house-4-cranmer"
       ],
-      "statusNote": "Rep. Ron Estes (R) was renominated in the Aug 4, 2026 primary and faces Democrat Katy Tyndell and Libertarian Drew Cranmer. We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Ron Estes (R) was renominated in the Aug 4, 2026 primary and faces Democrat Katy Tyndell and Libertarian Drew Cranmer. We know who's running.",
       "sources": [
         {
           "label": "The Green Papers: Kansas 2026 general election candidates",
@@ -425,7 +425,7 @@
       "office": "us-house",
       "district": "1",
       "state": "KS",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -475,7 +475,7 @@
       "office": "us-house",
       "district": "2",
       "state": "KS",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -544,7 +544,7 @@
       "office": "us-house",
       "district": "3",
       "state": "KS",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -606,7 +606,7 @@
       "office": "us-house",
       "district": "4",
       "state": "KS",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -675,15 +675,75 @@
       "office": "us-senate",
       "district": null,
       "state": "KS",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Libertarian Party of Kansas: getting to know our statewide candidates",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        },
+        {
           "label": "Libertarian Party of Kansas: 2026 candidates",
           "url": "https://www.lpks.org/candidates"
+        },
+        {
+          "label": "KSN: David Graham, Libertarian for U.S. Senate",
+          "url": "https://www.ksn.com/news/your-local-election-hq/candidates/david-graham-libertarian-for-u-s-senate/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Libertarian nominee for U.S. Senate.",
+      "background": "An attorney from Overland Park who serves as Vice Chair of the Libertarian Party of Kansas. Campaigns on eliminating taxes, phasing out public education in favor of locally controlled independent schools, and criminal-justice reform, including opposition to police use of polygraphs and support for marijuana legalization.",
+      "priorities": [
+        "Eliminating taxes and shrinking government",
+        "Phasing out public education for local control",
+        "Criminal-justice reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": -1,
+        "repro": null,
+        "democracy": 1
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Supports \"eliminating all taxes\" and \"reducing the size and scope of government\" (Libertarian Party of Kansas: statewide candidates)",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        },
+        "health": {
+          "label": "Wants \"the government to stop interfering\" with healthcare and to \"leave it to the free market\" (Libertarian Party of Kansas: statewide candidates)",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        },
+        "education": {
+          "label": "Favors seeing public education \"phased out\" in favor of \"small, independent school districts which are locally controlled\" (Libertarian Party of Kansas: statewide candidates)",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        },
+        "safety": {
+          "label": "As an attorney has \"long advocated to stop the government's abusive use of lie detectors\" and supports marijuana legalization without a government-run regulatory industry (Libertarian Party of Kansas: statewide candidates)",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        },
+        "democracy": {
+          "label": "Favors a Kansas constitutional Citizenship Voting Requirement Amendment (Libertarian Party of Kansas: statewide candidates)",
+          "url": "https://www.lpks.org/blog/getting-to-know-our-statewide-candidates"
+        }
+      },
+      "nullNotes": {
+        "cost": "no cost-of-living/price statement distinct from the tax/government-size platform found (checked Sep 2, 2026)",
+        "housing": "no housing statement found on Libertarian Party of Kansas profile or in KKFI/KSN coverage (checked Sep 2, 2026)",
+        "immigration": "no immigration statement found on Libertarian Party of Kansas profile or in KKFI/KSN coverage (checked Sep 2, 2026)",
+        "climate": "no climate/energy statement found on Libertarian Party of Kansas profile or in KKFI/KSN coverage (checked Sep 2, 2026)",
+        "repro": "no abortion statement found on Libertarian Party of Kansas profile or in KKFI/KSN coverage (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "fec-H0KS01123",
@@ -693,7 +753,7 @@
       "district": "1",
       "state": "KS",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -776,7 +836,7 @@
       "district": "1",
       "state": "KS",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -845,7 +905,7 @@
       "district": "2",
       "state": "KS",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -926,7 +986,7 @@
       "district": "2",
       "state": "KS",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -996,7 +1056,7 @@
       "district": "3",
       "state": "KS",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1077,7 +1137,7 @@
       "district": "3",
       "state": "KS",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1159,7 +1219,7 @@
       "district": "4",
       "state": "KS",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1246,7 +1306,7 @@
       "district": "4",
       "state": "KS",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

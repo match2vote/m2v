@@ -10,20 +10,23 @@
         "fec-S6OH00429",
         "fec-S6OH00395"
       ],
-      "statusNote": "Special election: former Sen. Sherrod Brown (D) faces appointed Sen. Jon Husted (R) for the seat JD Vance vacated. Also on the November ballot: William Redpath (Libertarian) and independent Gregory Levy."
+      "statusNote": "Special election: former Sen. Sherrod Brown (D) faces appointed Sen. Jon Husted (R) for the seat JD Vance vacated. Also on the November ballot: William Redpath (Libertarian) and independent Gregory Levy. Added Independent Gregory Lee Levy and Libertarian William Redpath, matched to their existing FEC roster ids (fec-S6OH00395, fec-S6OH00429; the ids given in the assignment did not match these) per Ballotpedia News coverage confirming both on the Nov 3, 2026 special-election ballot alongside Husted and Brown."
     },
     "OH-governor": {
       "status": "general",
-      "statusNote": "Open seat (Gov. DeWine term-limited): Vivek Ramaswamy (R) faces Dr. Amy Acton (D). Don Kissick (Libertarian) is also on the November ballot."
+      "statusNote": "Open seat (Gov. DeWine term-limited): Vivek Ramaswamy (R) faces Dr. Amy Acton (D). Don Kissick (Libertarian) is also on the November ballot. Added Libertarian nominee Don Kissick per Politics1 and his campaign site, confirmed on the Nov 2026 ballot as of Sep 2, 2026.",
+      "advancing": [
+        "oh-gov-kissick"
+      ]
     },
     "OH-house-9": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH09031",
         "fec-H4OH09169",
         "oh-house-9-althaus"
       ],
-      "statusNote": "Rep. Marcy Kaptur (D), the longest-serving woman in congressional history, faces former state Rep. Derek Merrin (R) in a 2024 rematch in a Toledo-area district Trump carried by 11 points, plus Libertarian Matthew Althaus. Merrin won the May 5, 2026 GOP primary with 44.1%. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Marcy Kaptur (D), the longest-serving woman in congressional history, faces former state Rep. Derek Merrin (R) in a 2024 rematch in a Toledo-area district Trump carried by 11 points, plus Libertarian Matthew Althaus. Merrin won the May 5, 2026 GOP primary with 44.1%.",
       "sources": [
         {
           "label": "Erie County BOE Nov 3, 2026 candidate filings",
@@ -40,13 +43,13 @@
       ]
     },
     "OH-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH01194",
         "fec-H6OH01138",
         "oh-house-1-weise"
       ],
-      "statusNote": "Rep. Greg Landsman (D) won the May 5, 2026 primary with about 68% and faces Republican Eric Conroy and Libertarian Nathan Weise in this Cincinnati swing seat. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Greg Landsman (D) won the May 5, 2026 primary with about 68% and faces Republican Eric Conroy and Libertarian Nathan Weise in this Cincinnati swing seat.",
       "sources": [
         {
           "label": "Hamilton County BOE certified 2026 candidate profile",
@@ -63,12 +66,12 @@
       ]
     },
     "OH-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4OH02248",
         "oh-house-2-mazzuckelli"
       ],
-      "statusNote": "Rep. David Taylor (R) beat Bob Carr in the May 5, 2026 Republican primary and faces Democrat Jen Mazzuckelli, who beat Todd Wilson for her nomination. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. David Taylor (R) beat Bob Carr in the May 5, 2026 Republican primary and faces Democrat Jen Mazzuckelli, who beat Todd Wilson for her nomination.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -85,12 +88,12 @@
       ]
     },
     "OH-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH03125",
         "oh-house-3-dulaney"
       ],
-      "statusNote": "Rep. Joyce Beatty (D) faces Republican Cleophus Dulaney in this Columbus seat after the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Joyce Beatty (D) faces Republican Cleophus Dulaney in this Columbus seat after the May 5, 2026 primary.",
       "sources": [
         {
           "label": "10TV: Beatty and Dulaney to face off in OH-3",
@@ -107,13 +110,13 @@
       ]
     },
     "OH-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6OH04082",
         "fec-H6OH04181",
         "oh-house-4-tackett"
       ],
-      "statusNote": "Rep. Jim Jordan (R) faces Democrat Joshua Kolasinski and independent Tracey Tackett after the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Jim Jordan (R) faces Democrat Joshua Kolasinski and independent Tracey Tackett after the May 5, 2026 primary.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -130,13 +133,13 @@
       ]
     },
     "OH-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8OH05036",
         "fec-H6OH05154",
         "oh-house-5-veloff"
       ],
-      "statusNote": "Rep. Bob Latta (R) was unopposed for renomination and faces Democrat Brian Shaver, who won the May 5, 2026 primary with 28.7%, and Libertarian Michael Veloff. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Bob Latta (R) was unopposed for renomination and faces Democrat Brian Shaver, who won the May 5, 2026 primary with 28.7%, and Libertarian Michael Veloff.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -153,12 +156,12 @@
       ]
     },
     "OH-house-6": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4OH06165",
         "oh-house-6-kirtley"
       ],
-      "statusNote": "Rep. Michael Rulli (R) won the May 5, 2026 primary with about 78% and faces Democrat Elizabeth Kirtley, who beat five opponents. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Michael Rulli (R) won the May 5, 2026 primary with about 78% and faces Democrat Elizabeth Kirtley, who beat five opponents.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -175,12 +178,12 @@
       ]
     },
     "OH-house-7": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH16051",
         "fec-H6OH07168"
       ],
-      "statusNote": "Rep. Max Miller (R) faces Democrat Brian Poindexter, a union ironworker and Brook Park council member who won the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Max Miller (R) faces Democrat Brian Poindexter, a union ironworker and Brook Park council member who won the May 5, 2026 primary.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -197,12 +200,12 @@
       ]
     },
     "OH-house-8": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6OH08315",
         "oh-house-8-enoch"
       ],
-      "statusNote": "Rep. Warren Davidson (R) faces Democrat Vanessa Enoch after the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Warren Davidson (R) faces Democrat Vanessa Enoch after the May 5, 2026 primary.",
       "sources": [
         {
           "label": "Butler County BOE Nov 3, 2026 petition activity report",
@@ -219,13 +222,13 @@
       ]
     },
     "OH-house-10": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH03067",
         "fec-H6OH10121",
         "oh-house-10-mcmasters"
       ],
-      "statusNote": "Rep. Mike Turner (R) faces Democrat Kristina Knickerbocker and Libertarian Thomas McMasters after the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Mike Turner (R) faces Democrat Kristina Knickerbocker and Libertarian Thomas McMasters after the May 5, 2026 primary.",
       "sources": [
         {
           "label": "Butler County BOE Nov 3, 2026 petition activity report",
@@ -242,12 +245,12 @@
       ]
     },
     "OH-house-11": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH11169",
         "oh-house-11-kirchner"
       ],
-      "statusNote": "Rep. Shontel Brown (D) held off two primary challengers on May 5, 2026 and faces Republican Mike Kirchner, a retired consulting actuary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Shontel Brown (D) held off two primary challengers on May 5, 2026 and faces Republican Mike Kirchner, a retired consulting actuary.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -264,12 +267,12 @@
       ]
     },
     "OH-house-12": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8OH12180",
         "fec-H4OH12080"
       ],
-      "statusNote": "Rep. Troy Balderson (R) faces Democrat Jerrad Christian after the May 5, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Troy Balderson (R) faces Democrat Jerrad Christian after the May 5, 2026 primary.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -286,13 +289,13 @@
       ]
     },
     "OH-house-13": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH13264",
         "fec-H6OH13307",
         "fec-H6OH13273"
       ],
-      "statusNote": "Rep. Emilia Sykes (D) was unopposed for renomination and faces Republican Carey Coleman, a former radio host and meteorologist who won the May 5, 2026 primary with over 47% against four opponents, plus independent Sandeep Dixit. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Emilia Sykes (D) was unopposed for renomination and faces Republican Carey Coleman, a former radio host and meteorologist who won the May 5, 2026 primary with over 47% against four opponents, plus independent Sandeep Dixit.",
       "sources": [
         {
           "label": "Summit County BOE Nov 3, 2026 candidate filings",
@@ -313,12 +316,12 @@
       ]
     },
     "OH-house-14": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH14064",
         "fec-H6OH14248"
       ],
-      "statusNote": "Rep. Dave Joyce (R) beat former Trumbull County Commissioner Niki Frenchko 70% to 30% in the May 5, 2026 Republican primary and faces Democrat Maria Jukic, a Cleveland Clinic marketing executive who won her primary with about 51%. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Dave Joyce (R) beat former Trumbull County Commissioner Niki Frenchko 70% to 30% in the May 5, 2026 Republican primary and faces Democrat Maria Jukic, a Cleveland Clinic marketing executive who won her primary with about 51%.",
       "sources": [
         {
           "label": "Trumbull County BOE official May 5, 2026 primary results",
@@ -335,13 +338,13 @@
       ]
     },
     "OH-house-15": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OH15228",
         "fec-H6OH15112",
         "oh-house-15-barrington"
       ],
-      "statusNote": "Rep. Mike Carey (R) faces Democrat Don Leonard, who beat former state Rep. Adam Miller with about 52.8% in the May 5, 2026 primary, plus Libertarian Brennan Barrington. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Mike Carey (R) faces Democrat Don Leonard, who beat former state Rep. Adam Miller with about 52.8% in the May 5, 2026 primary, plus Libertarian Brennan Barrington.",
       "sources": [
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
@@ -663,7 +666,7 @@
       "office": "us-house",
       "district": "9",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "home": "Toledo, OH",
@@ -730,7 +733,7 @@
       "office": "us-house",
       "district": "9",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "home": "Monclova Township, OH",
@@ -831,7 +834,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -869,7 +872,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -933,7 +936,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -992,7 +995,7 @@
       "office": "us-house",
       "district": "6",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1043,7 +1046,7 @@
       "office": "us-house",
       "district": "8",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1090,7 +1093,7 @@
       "office": "us-house",
       "district": "9",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1128,7 +1131,7 @@
       "office": "us-house",
       "district": "10",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1166,7 +1169,7 @@
       "office": "us-house",
       "district": "11",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1213,7 +1216,7 @@
       "office": "us-house",
       "district": "15",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1251,19 +1254,64 @@
       "office": "governor",
       "district": null,
       "state": "OH",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Summit County Board of Elections: certified Nov 3, 2026 candidate list",
-          "url": "https://www.boe.ohio.gov/summit/c/upload/Election_CandidateList.pdf"
+          "label": "Don Kissick for Ohio campaign site",
+          "url": "https://donkissick.com"
         },
         {
-          "label": "Hamilton County Board of Elections: November 2026 candidate profile",
-          "url": "https://votehamiltoncountyohio.gov/wp-content/uploads/2026/08/November-2026-Candidate-Profile-1-3.pdf"
+          "label": "Politics1: Ohio 2026 candidates",
+          "url": "https://www.politics1.com/oh.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Ottawa, OH",
+      "now": "TV station control room operator",
+      "background": "Don Kissick moved to Ohio in 2007 and served six years in the U.S. Navy with two Middle East deployments. He was the Libertarian Party's 2024 U.S. Senate nominee and is the party's 2026 gubernatorial nominee, running with James Mills for lieutenant governor.",
+      "priorities": [
+        "End property tax, shift to local consumption taxes",
+        "Simplify small-business licensing and regulation",
+        "Lawful immigration path with fines instead of detention"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": -1,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Supports 'the end property tax amendment' in favor of 'local consumption based taxes,' citing efficiency from eliminating 'corporate welfare for the larger institutions' (campaign site)",
+          "url": "https://donkissick.com"
+        },
+        "cost": {
+          "label": "Wants to 'simplify licensing and regulation for small business' and foster a 'more collaborative small business ecosystem with incubators, venture capital studios' (campaign site)",
+          "url": "https://donkissick.com"
+        },
+        "immigration": {
+          "label": "Opposes ICE as 'an unaccountable federal enforcement agency' and calls for 'a straightforward and clear lawful path to citizenship' with 'escalating fines' rather than 'indefinite detention' (campaign site)",
+          "url": "https://donkissick.com"
+        }
+      },
+      "nullNotes": {
+        "health": "No healthcare statement found on campaign site (checked Sep 2, 2026)",
+        "housing": "No housing statement found on campaign site (checked Sep 2, 2026)",
+        "climate": "Site opposes new data centers over electricity and water consumption, but this is a land-use/utility concern, not a stated energy-transition or fossil-fuel position (checked Sep 2, 2026)",
+        "education": "No education statement found on campaign site (checked Sep 2, 2026)",
+        "safety": "No crime/policing statement found beyond immigration-enforcement views (checked Sep 2, 2026)",
+        "repro": "No abortion statement found on campaign site (checked Sep 2, 2026)",
+        "democracy": "No voting/elections statement found on campaign site (checked Sep 2, 2026)"
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "oh-house-1-weise",
@@ -1272,7 +1320,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1306,7 +1354,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1340,7 +1388,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1422,7 +1470,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1492,7 +1540,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1574,7 +1622,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1653,7 +1701,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1717,7 +1765,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1787,7 +1835,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1834,7 +1882,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1894,7 +1942,7 @@
       "office": "us-house",
       "district": "6",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1941,7 +1989,7 @@
       "office": "us-house",
       "district": "7",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2011,7 +2059,7 @@
       "office": "us-house",
       "district": "7",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2078,7 +2126,7 @@
       "office": "us-house",
       "district": "8",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2144,7 +2192,7 @@
       "office": "us-house",
       "district": "10",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2210,7 +2258,7 @@
       "office": "us-house",
       "district": "10",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2269,7 +2317,7 @@
       "office": "us-house",
       "district": "11",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2332,7 +2380,7 @@
       "office": "us-house",
       "district": "12",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2398,7 +2446,7 @@
       "office": "us-house",
       "district": "12",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2465,7 +2513,7 @@
       "office": "us-house",
       "district": "13",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2528,7 +2576,7 @@
       "office": "us-house",
       "district": "13",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2595,7 +2643,7 @@
       "office": "us-house",
       "district": "13",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2638,7 +2686,7 @@
       "office": "us-house",
       "district": "14",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2704,7 +2752,7 @@
       "office": "us-house",
       "district": "14",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2771,7 +2819,7 @@
       "office": "us-house",
       "district": "15",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2840,7 +2888,7 @@
       "office": "us-house",
       "district": "15",
       "state": "OH",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2902,6 +2950,134 @@
         }
       ],
       "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-S6OH00395",
+      "name": "Gregory Lee Levy",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "OH",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "Akron, OH",
+      "now": "Mover; community organizer",
+      "background": "Gregory Lee Levy grew up in the Joy Park housing projects in Akron, Ohio, one of six sons of a union electrician father and a nurse mother. An Army veteran, he founded the Paul Robeson Revolutionary Choir and currently works as a mover. He is running for U.S. Senate under Ohio's Independent ballot line while organizing on a Party for Socialism and Liberation (PSL) platform emphasizing anti-war and anti-corporate politics.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Campaign site and local coverage (Heights Observer, ABC6 blocked by proxy) describe general anti-corporate, anti-war rhetoric ('profit over people and planet') with no specific price, wage, or regulatory position stated (checked Sep 2, 2026)",
+        "health": "No healthcare statement found in available coverage (checked Sep 2, 2026)",
+        "housing": "No housing statement found (checked Sep 2, 2026)",
+        "immigration": "No immigration statement found (checked Sep 2, 2026)",
+        "taxes": "No tax-rate statement found (checked Sep 2, 2026)",
+        "climate": "Coverage notes concern about data centers driving up electric bills but no specific energy-transition or fossil-fuel position stated (checked Sep 2, 2026)",
+        "education": "No education statement found (checked Sep 2, 2026)",
+        "safety": "No crime/policing statement found (checked Sep 2, 2026)",
+        "repro": "No abortion statement found (checked Sep 2, 2026)",
+        "democracy": "No voting/elections statement found (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Heights Observer: UH's Greg Levy is on the ballot for U.S. Senate",
+          "url": "https://heightsobserver.org/articles/opinion/uhs-greg-levy-is-on-the-ballot-for-u-s-senate/"
+        },
+        {
+          "label": "Greg Levy for Senate campaign site (About)",
+          "url": "https://www.greg4senate.com/about"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OH00395/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-S6OH00429",
+      "name": "William Redpath",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "OH",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Financial analyst; Libertarian Party ballot-access activist",
+      "background": "William (Bill) Redpath is a longtime Libertarian Party activist who chaired the Libertarian National Committee from 2006 to 2010 and was inducted into the party's Hall of Liberty in 2016 alongside Ron Paul. He has run for office eight times, including U.S. Senate races in 2008 and 2022, and chairs the LP's Ballot Access Committee, having helped place the party's presidential ticket on every state ballot in 1992 and 1996.",
+      "priorities": [
+        "Lower taxes, reduced government spending",
+        "End tariffs and pursue unilateral free trade",
+        "Repeal federal laws against consensual crimes"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 2,
+        "immigration": null,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Calls for 'lower taxes' and 'reduced government spending,' plus ending 'all corporate welfare and farm subsidies' (campaign site)",
+          "url": "https://billredpath.com"
+        },
+        "education": {
+          "label": "Proposes eliminating the Department of Education (campaign site)",
+          "url": "https://billredpath.com"
+        },
+        "housing": {
+          "label": "Proposes eliminating the Department of Housing & Urban Development (campaign site)",
+          "url": "https://billredpath.com"
+        },
+        "cost": {
+          "label": "Advocates 'unilateral free trade' and wants to 'end all tariffs,' arguing 'US tariffs are mostly paid by the American people' (campaign site)",
+          "url": "https://billredpath.com"
+        },
+        "safety": {
+          "label": "Supports repealing 'all Federal laws regarding consensual crimes,' including drug prohibition, and letting 'states address this issue' (campaign site)",
+          "url": "https://billredpath.com"
+        }
+      },
+      "nullNotes": {
+        "health": "No healthcare-specific statement found beyond the HUD/Education elimination proposal, which does not address health coverage (checked Sep 2, 2026)",
+        "immigration": "No immigration statement found on campaign site (checked Sep 2, 2026)",
+        "climate": "No climate/energy statement found (checked Sep 2, 2026)",
+        "repro": "No abortion statement found on campaign site (checked Sep 2, 2026)",
+        "democracy": "No voting/elections statement found on campaign site (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Bill Redpath for Senate campaign site",
+          "url": "https://billredpath.com"
+        },
+        {
+          "label": "Ballotpedia News: Ohio Senate special election",
+          "url": "https://news.ballotpedia.org/2026/06/08/appointed-senator-and-former-senator-face-off-in-ohios-u-s-senate-special-election/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
     }
   ]
 }

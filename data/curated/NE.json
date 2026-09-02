@@ -9,16 +9,16 @@
         "fec-S4NE00207",
         "fec-S6NE00152"
       ],
-      "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition. Democrat Cindy Burbank won her primary but withdrew in July, and the state Democratic Party voted Aug 23 not to name a replacement, so no Democrat is on the ballot. Legal Marijuana NOW nominee Mike Marvin suspended his campaign and endorsed Osborn but remains on the ballot."
+      "statusNote": "Sen. Pete Ricketts (R) faces independent union leader Dan Osborn, who qualified for the November ballot by petition. Democrat Cindy Burbank won her primary but withdrew in July, and the state Democratic Party voted Aug 23 not to name a replacement, so no Democrat is on the ballot. Legal Marijuana NOW nominee Mike Marvin suspended his campaign and endorsed Osborn but remains on the ballot. Legal Marijuana NOW nominee Mike Marvin (fec-S6NE00152), confirmed to remain on the ballot after missing the withdrawal deadline, now has a partially sourced curated entry (health axis only)."
     },
     "NE-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6NE02208",
         "fec-H6NE02174",
         "ne-house-2-foreman"
       ],
-      "statusNote": "Open seat with Rep. Don Bacon (R) not running: Brinker Harding (R) faces Denise Powell (D) and Libertarian Eric Foreman, nominees set in the May 12, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Open seat with Rep. Don Bacon (R) not running: Brinker Harding (R) faces Denise Powell (D) and Libertarian Eric Foreman, nominees set in the May 12, 2026 primary.",
       "sources": [
         {
           "label": "Nebraska 2026 candidates by district (Election2026)",
@@ -31,13 +31,13 @@
       ]
     },
     "NE-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2NE01118",
         "fec-H6NE01143",
         "ne-house-1-sandman"
       ],
-      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and Libertarian Nik Sandman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Independent Austin Ahlman suspended his campaign on July 19 and is not on the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Mike Flood (R) seeks re-election against former diplomat Chris Backemeyer (D) and Libertarian Nik Sandman. Flood was unopposed in the May 12, 2026 Republican primary and Backemeyer won the Democratic primary with 57% over Eric Moyer. Independent Austin Ahlman suspended his campaign on July 19 and is not on the ballot.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -54,14 +54,14 @@
       ]
     },
     "NE-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6NE03115",
         "fec-H6NE03180",
         "fec-H6NE03198",
         "ne-house-3-else"
       ],
-      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independent Mark Cohen, whose petition was certified Aug 12. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Macey Budke is a write-in candidate only. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Adrian Smith (R) seeks re-election against Becky Stille (D), Legal Marijuana NOW candidate David Else and independent Mark Cohen, whose petition was certified Aug 12. Smith won the May 12, 2026 Republican primary with 65% over David Huebner and Stille was unopposed for the Democratic nomination. Macey Budke is a write-in candidate only.",
       "sources": [
         {
           "label": "Backemeyer to face Flood in NE-01; Smith advances in NE-03 (Nebraska Examiner)",
@@ -88,7 +88,7 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
-      "background": "U.S. Senator since 2023 (appointed, then elected in a 2024 special); Governor of Nebraska 2015\u20132023; former TD Ameritrade executive.",
+      "background": "U.S. Senator since 2023 (appointed, then elected in a 2024 special); Governor of Nebraska 2015–2023; former TD Ameritrade executive.",
       "positions": {
         "cost": 2,
         "health": 1,
@@ -103,7 +103,7 @@
       },
       "positionSources": {
         "taxes": {
-          "label": "As governor: $408M property-tax relief, cut state spending growth 6.5%\u21920.6% (Ballotpedia)",
+          "label": "As governor: $408M property-tax relief, cut state spending growth 6.5%→0.6% (Ballotpedia)",
           "url": "https://ballotpedia.org/Pete_Ricketts"
         },
         "repro": {
@@ -237,7 +237,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NE",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -293,7 +293,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NE",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -377,19 +377,68 @@
     {
       "id": "fec-S6NE00152",
       "name": "Mike Marvin",
-      "party": "Legal Marijuana NOW",
+      "party": "OTHER",
       "office": "us-senate",
       "district": null,
       "state": "NE",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "curated",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Mike Marvin for Senate campaign site",
+          "url": "https://marvinforsenate.com/platform"
+        },
+        {
+          "label": "Nebraska Examiner: Legal Marijuana NOW candidate will stay on fall ballot for Nebraska US Senate",
+          "url": "https://nebraskaexaminer.com/briefs/legal-marijuana-now-candidate-will-stay-on-fall-ballot-for-nebraska-us-senate/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6NE00152/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "fecId": "S6NE00152",
+      "now": "Legal Marijuana NOW Party nominee for U.S. Senate. Suspended active campaigning in August 2026 and endorsed independent Dan Osborn, but missed the withdrawal deadline and remains on the ballot; he has said he never intended to leave the race.",
+      "background": "Former Executive Director of NAPE/AFSCME, a Nebraska public-employees union, with a five-decade career in labor organizing from local chapters to the Legislature in Lincoln. A longtime Legal Marijuana NOW party member.",
+      "priorities": [
+        "Universal Medicare and Medicaid expansion",
+        "Redirecting military spending to schools and infrastructure",
+        "Campaign-finance and lobbying reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "States \"Medicare and Medicaid must be expanded, and eventually cover every single American,\" while private insurance \"has proven to be a disaster\" (marvinforsenate.com campaign platform page)",
+          "url": "https://marvinforsenate.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "no cost-of-living/price statement found on marvinforsenate.com platform page or in Nebraska Examiner/Nebraska Public Media coverage (checked Sep 2, 2026)",
+        "housing": "no housing statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
+        "immigration": "no immigration statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
+        "taxes": "platform page does not address taxes directly (checked Sep 2, 2026)",
+        "climate": "no climate/energy statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
+        "education": "platform mentions redirecting military spending toward \"our schools, or our infrastructure\" but with no specific education-policy commitment (public investment vs. choice) stated (checked Sep 2, 2026)",
+        "safety": "platform's criminal-justice content is a pledge to push for \"releasing the Epstein files,\" a transparency demand unrelated to the axis's prevention-versus-enforcement framing (checked Sep 2, 2026)",
+        "repro": "no abortion statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
+        "democracy": "platform opposes Citizens United and backs publicly funded elections, a campaign-finance stance that does not fit the axis's voting-access-versus-safeguards definition (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "fec-S6NE00145",
@@ -415,7 +464,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NE",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -491,7 +540,7 @@
       "state": "NE",
       "incumbent": true,
       "now": "U.S. Representative for Nebraska's 1st District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -571,7 +620,7 @@
       "state": "NE",
       "incumbent": false,
       "now": "Former White House and Department of Energy staffer; 2026 Democratic nominee, NE-1",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -635,7 +684,7 @@
       "state": "NE",
       "incumbent": false,
       "now": "Omaha City Council Vice President; 2026 Republican nominee, NE-2",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -712,7 +761,7 @@
       "state": "NE",
       "incumbent": false,
       "now": "Omaha mother and community organizer; 2026 Democratic nominee, NE-2",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -785,7 +834,7 @@
       "state": "NE",
       "incumbent": true,
       "now": "U.S. Representative for Nebraska's 3rd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -858,7 +907,7 @@
       "state": "NE",
       "incumbent": false,
       "now": "2026 Democratic nominee, Nebraska's 3rd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -921,7 +970,7 @@
       "state": "NE",
       "incumbent": false,
       "now": "Nonpartisan candidate, Nebraska's 3rd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

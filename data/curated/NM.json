@@ -15,12 +15,12 @@
       "statusNote": "Open seat (Gov. Lujan Grisham term-limited): former Interior Secretary Deb Haaland (D, 72% primary win) faces former Rio Rancho Mayor Gregg Hull (R, 47% in a three-way primary). Independent Ken Miyagishima was denied ballot access after falling short on signatures."
     },
     "NM-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2NM01144",
         "fec-H6NM01129"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Melanie Stansbury (Democrat), Didi Okpareke (Republican). Rep. Melanie Stansbury is the incumbent. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Melanie Stansbury (Democrat), Didi Okpareke (Republican). Rep. Melanie Stansbury is the incumbent. No minor party or independent candidate is listed in either full field source.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -37,12 +37,12 @@
       ]
     },
     "NM-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2NM02191",
         "fec-H6NM02127"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Gabe Vasquez (Democrat), Greg Cunningham (Republican). Rep. Gabe Vasquez is the incumbent. A Green Party candidate, Tom Wakely, was disqualified and is not on the ballot. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Gabe Vasquez (Democrat), Greg Cunningham (Republican). Rep. Gabe Vasquez is the incumbent. A Green Party candidate, Tom Wakely, was disqualified and is not on the ballot. No minor party or independent candidate is listed in either full field source.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -59,12 +59,12 @@
       ]
     },
     "NM-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0NM03102",
         "fec-H6NM03083"
       ],
-      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Teresa Leger Fernandez (Democrat), Martin Zamora (Republican). Rep. Teresa Leger Fernandez is the incumbent. No minor party or independent candidate is listed in either full field source. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from New Mexico's June 2, 2026 primary: Teresa Leger Fernandez (Democrat), Martin Zamora (Republican). Rep. Teresa Leger Fernandez is the incumbent. No minor party or independent candidate is listed in either full field source.",
       "sources": [
         {
           "label": "The Green Papers, New Mexico 2026 general election",
@@ -445,7 +445,7 @@
       "state": "NM",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -492,7 +492,7 @@
       "state": "NM",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -544,7 +544,7 @@
       "state": "NM",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -588,7 +588,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NM",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -673,7 +673,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NM",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -755,7 +755,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NM",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,

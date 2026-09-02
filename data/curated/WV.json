@@ -9,16 +9,16 @@
         "fec-S6WV00188",
         "wv-senate-wilson"
       ],
-      "statusNote": "Sen. Shelley Moore Capito (R) seeks a third term against Morgantown attorney Rachel Fetty Anderson (D). Capito won the May 12 Republican primary with 66.5%; Fetty Anderson won the Democratic primary with 33.2% of a five-way field. Constitution Party nominee S. Marshall Wilson is also on the November ballot."
+      "statusNote": "Sen. Shelley Moore Capito (R) seeks a third term against Morgantown attorney Rachel Fetty Anderson (D). Capito won the May 12 Republican primary with 66.5%; Fetty Anderson won the Democratic primary with 33.2% of a five-way field. Constitution Party nominee S. Marshall Wilson is also on the November ballot. Confirmed as 1 of 3 candidates on the Nov 3, 2026 WV Senate general ballot per Review-Online's Sep 2026 candidate-list coverage; note that WOWK-TV and Review-Online both label him a Constitution Party candidate while this app's entry carries party Independent (kept verbatim per existing data; logged as a discrepancy, checked Sep 2, 2026)."
     },
     "WV-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8WV03097",
         "fec-H6WV01160",
         "wv-house-1-rucker"
       ],
-      "statusNote": "Rep. Carol Miller (R) seeks re-election against Vince George (D) and independent Isaiah Rucker. Miller won the May 12, 2026 Republican primary with 72.1% and George won the Democratic primary with 53.0%. Positions are not researched yet.",
+      "statusNote": "Rep. Carol Miller (R) seeks re-election against Vince George (D) and independent Isaiah Rucker. Miller won the May 12, 2026 Republican primary with 72.1% and George won the Democratic primary with 53.0%.",
       "sources": [
         {
           "label": "West Virginia 2026 candidates by district (Election2026)",
@@ -35,13 +35,13 @@
       ]
     },
     "WV-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4WV02205",
         "fec-H6WV02150",
         "wv-house-2-whitcomb"
       ],
-      "statusNote": "Rep. Riley Moore (R) seeks re-election against Ace Parsi (D) and independent Christopher Whitcomb. Moore was unopposed in the May 12, 2026 Republican primary and Parsi won the Democratic primary with 39.8%. Positions are not researched yet.",
+      "statusNote": "Rep. Riley Moore (R) seeks re-election against Ace Parsi (D) and independent Christopher Whitcomb. Moore was unopposed in the May 12, 2026 Republican primary and Parsi won the Democratic primary with 39.8%.",
       "sources": [
         {
           "label": "West Virginia 2026 candidates by district (Election2026)",
@@ -225,7 +225,7 @@
       "office": "us-house",
       "district": "1",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -263,7 +263,7 @@
       "office": "us-house",
       "district": "2",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -301,15 +301,69 @@
       "office": "us-senate",
       "district": null,
       "state": "WV",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
           "label": "WV SOS general election candidate list (via Wikipedia summary)",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia"
+        },
+        {
+          "label": "Review-Online: Ballots set for Nov. 3 West Virginia election",
+          "url": "https://www.reviewonline.com/news/local-news/2026/09/ballots-set-for-nov-3-west-virginia-election/"
+        },
+        {
+          "label": "Wilson for US Senate campaign site",
+          "url": "https://www.wilsonwv.com/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Gerrardstown, WV",
+      "now": "Retired U.S. Army infantry officer and pastor running for U.S. Senate; former WV House of Delegates member.",
+      "background": "Wilson is a combat veteran who later trained pastors in the Peruvian Amazon and holds a master's degree in national security. He previously served as a West Virginia state Delegate and ran for governor in 2024 as the Constitution Party nominee. Multiple 2026 news reports (WOWK, Review-Online) identify him as running under the Constitution Party label for this Senate race, though the app's existing entry lists him as Independent; he is confirmed as one of three candidates on the November 3, 2026 general ballot.",
+      "priorities": [
+        "Cut regulations and energy costs",
+        "Balance the federal budget",
+        "Defend constitutional rights"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Will \"fight to unleash West Virginia's energy economy, cut regulations that strangle small businesses\" against \"runaway energy costs\" (wilsonwv.com campaign site)",
+          "url": "https://www.wilsonwv.com/"
+        },
+        "taxes": {
+          "label": "Pledges to \"vote against every budget that doesn't balance, oppose every spending bill that exceeds constitutional authority\" (wilsonwv.com campaign site)",
+          "url": "https://www.wilsonwv.com/"
+        },
+        "climate": {
+          "label": "Campaign promises to \"unleash\" the state energy economy for \"Lower costs. More jobs. Local control\" (wilsonwv.com campaign site)",
+          "url": "https://www.wilsonwv.com/"
+        }
+      },
+      "nullNotes": {
+        "health": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
+        "housing": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
+        "immigration": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
+        "education": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
+        "safety": "not addressed on wilsonwv.com beyond general constitutional-rights language (checked Sep 2, 2026)",
+        "repro": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
+        "democracy": "site says \"the Constitution is not a suggestion\" and pledges to defend the Bill of Rights, which is too general to indicate a stance on voting/registration rules specifically (checked Sep 2, 2026)"
+      },
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-S6WV00170",
@@ -335,7 +389,7 @@
       "office": "us-house",
       "district": "1",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -407,7 +461,7 @@
       "office": "us-house",
       "district": "1",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -450,7 +504,7 @@
       "office": "us-house",
       "district": "2",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -522,7 +576,7 @@
       "office": "us-house",
       "district": "2",
       "state": "WV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,

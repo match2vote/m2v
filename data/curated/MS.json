@@ -1,1166 +1,1241 @@
 {
- "state": "MS",
- "note": "Hand-curated, sourced entries. Editorial pick: rated Solid R, but curated for the Hyde-Smith vs Colom matchup.",
- "races": {
-  "MS-senate": {
-   "status": "general",
-   "advancing": [
-    "fec-S8MS00261",
-    "fec-S6MS00133",
-    "fec-S4MS00187"
-   ],
-   "statusNote": "Sen. Cindy Hyde-Smith (R) faces District Attorney Scott Colom (D); both won their March 10 primaries outright (Hyde-Smith 80.8%, Colom 73%), no runoffs needed. Attorney Ty Pinkins is also on the November ballot as an independent. Mississippi has not elected a Democrat to the U.S. Senate since 1982."
+  "state": "MS",
+  "note": "Hand-curated, sourced entries. Editorial pick: rated Solid R, but curated for the Hyde-Smith vs Colom matchup.",
+  "races": {
+    "MS-senate": {
+      "status": "general",
+      "advancing": [
+        "fec-S8MS00261",
+        "fec-S6MS00133",
+        "fec-S4MS00187"
+      ],
+      "statusNote": "Sen. Cindy Hyde-Smith (R) faces District Attorney Scott Colom (D); both won their March 10 primaries outright (Hyde-Smith 80.8%, Colom 73%), no runoffs needed. Attorney Ty Pinkins is also on the November ballot as an independent. Mississippi has not elected a Democrat to the U.S. Senate since 1982. Independent Ty Pinkins (fec-S4MS00187) has a strong sourced record via the Mississippi Free Press candidate questionnaire; 6 of 10 axes scored."
+    },
+    "MS-house-3": {
+      "status": "general",
+      "advancing": [
+        "fec-H8MS03125",
+        "fec-H6MS03228",
+        "ms-house-3-kiehle"
+      ],
+      "statusNote": "Rep. Michael Guest (R) seeks re-election against Michael Chiaradio (D) and Libertarian Erik Kiehle after the March 10, 2026 primary.",
+      "sources": [
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-4": {
+      "status": "general",
+      "advancing": [
+        "fec-H2MS04258",
+        "fec-H6MS04242",
+        "fec-H6MS04259"
+      ],
+      "statusNote": "Rep. Mike Ezell (R) seeks re-election against Jeffrey Hulum III (D) and independent Carl Boyanton after the March 10, 2026 primary.",
+      "sources": [
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-1": {
+      "status": "general",
+      "advancing": [
+        "fec-H6MS01131",
+        "fec-H6MS01313",
+        "ms-house-1-baucom"
+      ],
+      "statusNote": "Rep. Trent Kelly (R) seeks re-election against Cliff Johnson (D) and Libertarian Johnny Baucom. Kelly was unopposed for the Republican nomination in the March 10, 2026 primary and Johnson beat former state Rep. Kelvin Buck for the Democratic nomination, so no runoff was needed.",
+      "sources": [
+        {
+          "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+        }
+      ]
+    },
+    "MS-house-2": {
+      "status": "general",
+      "advancing": [
+        "fec-H4MS02068",
+        "fec-H2MS02203",
+        "ms-house-2-foster"
+      ],
+      "statusNote": "Rep. Bennie Thompson (D) seeks re-election against Ron Eller (R) and independent Bennie Foster. Thompson won the March 10, 2026 Democratic primary, and Eller edged Kevin Wilson 51.1% to 49% for the Republican nomination in a race called after the count was completed, avoiding a runoff.",
+      "sources": [
+        {
+          "label": "Ron Eller wins GOP nomination in Mississippi's 2nd Congressional District (WLBT)",
+          "url": "https://www.wlbt.com/2026/03/21/ron-eller-wins-gop-nomination-race-mississippis-2nd-congressional-district/"
+        },
+        {
+          "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "Mississippi's 2nd Congressional District election, 2026 (Ballotpedia)",
+          "url": "https://ballotpedia.org/Mississippi%27s_2nd_Congressional_District_election,_2026"
+        }
+      ]
+    }
   },
-  "MS-house-3": {
-   "status": "names-only",
-   "advancing": [
-    "fec-H8MS03125",
-    "fec-H6MS03228",
-    "ms-house-3-kiehle"
-   ],
-   "statusNote": "Rep. Michael Guest (R) seeks re-election against Michael Chiaradio (D) and Libertarian Erik Kiehle after the March 10, 2026 primary. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
-   "sources": [
+  "candidates": [
     {
-     "label": "Mississippi 2026 candidates by district (Election2026)",
-     "url": "https://election2026.net/mississippi-2026/"
+      "id": "fec-S8MS00261",
+      "name": "Cindy Hyde-Smith",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": 67,
+      "home": "Brookhaven, MS",
+      "now": "U.S. Senator from Mississippi",
+      "background": "U.S. Senator since April 2018; cattle farmer, former Mississippi Commissioner of Agriculture and Commerce (2012-2018) and state senator (2000-2012), first elected as a Democrat before switching parties in 2010. Won the March 10, 2026 Republican primary with 80.8% over physician Sarah Adlakha; endorsed by President Trump.",
+      "priorities": [
+        "Permanent extension of the 2017 tax cuts",
+        "Border security",
+        "Expanding Gulf offshore oil and gas production"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": 1,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Answers family cost pressures with more supply, not caps: 'stop finding every excuse in the book to shrink energy production'; cosponsored the Lease Now Act to force resumed lease sales (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/citing-rising-gas-prices-hyde-smith-says-miss-families-businesses-paying-price-failed-biden-energy"
+        },
+        "health": {
+          "label": "Calls the ACA 'anything but affordable' and 'unsupportable over the long term'; instead of extending subsidies, backs S.3386 directing funds to patients rather than insurance companies (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-appeals-legitimate-cooperation-fix-unaffordable-fraud-plagued-obamacare"
+        },
+        "housing": {
+          "label": "Backs the ROAD to Housing Act to 'increase housing supply, cut regulations' and get 'the government out of the way' with no new federal spending (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-supports-sweeping-affordable-housing-legislation"
+        },
+        "immigration": {
+          "label": "Voted to pass the Laken Riley Act, S. 5, requiring DHS detention of aliens charged with theft, passed 64-35 (Senate roll call 7, Jan 20, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
+        },
+        "taxes": {
+          "label": "Voted for the One Big Beautiful Bill Act making the 2017 tax cuts permanent, versus 'forcing a more than $4.0 trillion tax hike on everyone' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-statement-trumps-one-big-beautiful-bill-act-passage"
+        },
+        "climate": {
+          "label": "Cosponsored the Offshore Energy Security Act of 2025 to resume Gulf of Mexico oil and gas lease sales, 'unleashing American energy dominance' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-moves-resume-offshore-lease-sales-gulf-mexico"
+        },
+        "education": {
+          "label": "Cosponsored National School Choice Week resolutions: parents should be able to 'direct their children to schools that best suit their needs', including charter, private, online, and homeschool options (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/wicker-hyde-smith-back-national-school-choice-week-resolutions"
+        },
+        "safety": {
+          "label": "Cosponsors the Back the Blue Act, S.3366, creating new federal crimes with mandatory sentences and death-penalty eligibility for killing officers: targeting police 'should be met with the full force of the law' (Senate office)",
+          "url": "https://www.hydesmith.senate.gov/hyde-smith-renews-support-back-blue-act"
+        },
+        "repro": {
+          "label": "Defended OBBBA language 'prohibiting abortion providers from receiving Medicaid funds' on the Senate floor, raising a point of order against the amendment to strike it (Congressional Record via Senate office)",
+          "url": "https://www.hydesmith.senate.gov/one-big-beautiful-bill-act-resumed"
+        },
+        "democracy": {
+          "label": "Voted to sustain the objection to counting Arizona's 2020 electoral votes, one of 6 senators to do so, objection failed 6-93 (Senate roll call 1, Jan 6, 2021)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00001.htm"
+        }
+      },
+      "controversies": [
+        {
+          "label": "Her 2018 runoff remark 'if he invited me to a public hanging, I'd be in the front row' drew national criticism given Mississippi's lynching history; she called the criticism 'ridiculous' and did not apologize (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Cindy_Hyde-Smith"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S8MS00261/"
+        },
+        {
+          "label": "Mississippi Today: primary results",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        },
+        {
+          "label": "Wikipedia: Cindy Hyde-Smith",
+          "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
+        }
+      ],
+      "curatedAt": "2026-08-13"
     },
     {
-     "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
-     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
+      "id": "fec-S6MS00133",
+      "name": "Scott Colom",
+      "party": "Democrat",
+      "office": "us-senate",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 43,
+      "home": "Columbus, MS",
+      "now": "District Attorney, 16th Circuit Court District of Mississippi",
+      "background": "District attorney for Mississippi's 16th Circuit (Lowndes, Clay, Noxubee, and Oktibbeha counties) since 2016, elected at 32 by defeating a nearly 30-year incumbent, the first Black DA elected in a majority-white Mississippi district. Nominated by President Biden to a federal judgeship in 2022 but blocked when Hyde-Smith withheld her blue slip. Won the March 10, 2026 Democratic primary with 73%, calling himself 'a commonsense Democrat with Mississippi values.'",
+      "priorities": [
+        "Save Mississippi hospitals and reverse Medicaid cuts",
+        "Lower costs for families",
+        "Root out corruption in Washington"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": 0,
+        "taxes": -2,
+        "climate": null,
+        "education": -1,
+        "safety": 0,
+        "repro": null,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'We got to raise the minimum wage. We haven't raised it, it's $7.25'; frames the race around lowering costs for families (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "health": {
+          "label": "Medicaid expansion is 'a good deal for Mississippi'; says he would work to 'cancel the healthcare cuts' from the One Big Beautiful Bill (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "immigration": {
+          "label": "Mixed: supports a 'strong, secure border' but 'we also have to have due process' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "taxes": {
+          "label": "'We have to raise taxes 3 percent on people making more than $600,000 a year to pay for Mississippians to continue to have health insurance, and to save our hospitals' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2025/11/25/colom-champions-tax-increase-for-mississippians-to-continue-to-have-health-insurance/"
+        },
+        "education": {
+          "label": "Proposes teachers earning under $75,000 pay no federal income tax because Mississippi is 'losing too many teachers and cops' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        "safety": {
+          "label": "Mixed record: convictions in over 95% of jury trials including high-profile murders, AND freed a man held 11 years without trial and dropped murder charges built on discredited bite-mark evidence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scott_Colom"
+        },
+        "democracy": {
+          "label": "Mixed: open to voter ID if 'everybody needs to get access to a free ID very easily', while insisting polls stay 'available to people' (Magnolia Tribune)",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.scottcolom.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6MS00133/"
+        },
+        {
+          "label": "Magnolia Tribune: interview",
+          "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
+        },
+        {
+          "label": "Mississippi Today: primary results",
+          "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
+        }
+      ],
+      "curatedAt": "2026-08-13",
+      "nullNotes": {
+        "housing": "checked campaign site, the long Magnolia Tribune interview, Wikipedia, and Ballotpedia, nothing documented",
+        "climate": "checked campaign site, Magnolia Tribune interview, Wikipedia, and Ballotpedia; tariff and jobs comments do not state a clean-energy versus fossil position",
+        "repro": "checked Ballotpedia (Candidate Connection survey not completed), Wikipedia, campaign site, and Magnolia Tribune interview; no abortion position documented"
+      }
+    },
+    {
+      "id": "ms-house-3-kiehle",
+      "name": "Erik Kiehle",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "3",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Mississippi Free Press candidate questionnaire",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Erik_Kiehle"
+        },
+        {
+          "label": "Mississippi 2026 candidates by district (Election2026)",
+          "url": "https://election2026.net/mississippi-2026/"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 2,
+        "education": 2,
+        "safety": 2,
+        "repro": 0,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'The federal government should repeal the failed Obamacare law and repeal all other federal laws regarding health care,' leaving policy to the states (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "immigration": {
+          "label": "'ALL the illegals need to be sent home,' and would halt 'all asylum and refugee programs' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "climate": {
+          "label": "'Carbon dioxide is plant food'; opposes government policies limiting energy use, citing European economic decline after Russian sanctions (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "education": {
+          "label": "Proposes to 'Abolish the Department of Education' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "safety": {
+          "label": "'Foreign illegals who commit rape, attempted murder, and murder against Americans should be publicly hanged,' and backs denaturalizing immigrants convicted of crimes (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "repro": {
+          "label": "Mixed: defers abortion policy to the states post-Dobbs, opposing federal funding while saying he allows for personal choice (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        },
+        "democracy": {
+          "label": "Requires 'proof of citizenship' for voter registration and 'photo ID' to vote, and says 'voting should only be conducted in English' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Mississippi Free Press questionnaire and campaign social media, nothing documented beyond the tax-adjacent housing/immigration framing already scored elsewhere",
+        "housing": "questionnaire mentions immigration 'negatively distort[ing] the housing... systems,' which is an immigration-axis point rather than a housing-policy mechanism (checked Aug 29, 2026)",
+        "taxes": "checked Mississippi Free Press questionnaire and campaign social media, nothing documented"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "ms-house-2-foster",
+      "name": "Bennie Foster",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Mississippi Free Press candidate questionnaire",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        {
+          "label": "SuperTalk Mississippi: candidate profile",
+          "url": "https://www.supertalk.fm/mississippi-oilman-seeks-congressional-seat-held-by-democrat-bennie-thompson/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Bennie_Foster"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "background": "Independent businessman in the Delta oil and agriculture industry running against Rep. Bennie Thompson on rural infrastructure and workforce issues.",
+      "priorities": [
+        "Rural hospital access and mobile health units",
+        "Broadband and affordable housing",
+        "Workforce training toward a livable wage"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Wants 'ecosystems for trade and life-skills workforce training to provide young adults with viable careers and opportunities to earn a LIVABLE WAGE' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        "health": {
+          "label": "Backs federal grants and mobile health units to prevent rural hospital closures where 'travel distances are a major barrier' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        "housing": {
+          "label": "Names 'Broadband & Affordable Housing' among the district's top needs, calling housing instability a major area of need (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        "immigration": {
+          "label": "Mixed: supports border security while proposing ICE reforms including banning masks and requiring bodycams on field agents (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        "climate": {
+          "label": "Supports 'climate-proof infrastructure' and sustainable farming investment (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        },
+        "repro": {
+          "label": "Opposes elective abortion but supports exceptions for 'ectopic pregnancy, minor victims of sexual assault, or when the pregnancy is likely to result in harm or death of the mother' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
+        }
+      },
+      "nullNotes": {
+        "taxes": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
+        "education": "questionnaire's 'Mentorship as a National Policy' plank names a value with no school-funding or choice mechanism stated (checked Aug 29, 2026)",
+        "safety": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
+        "democracy": "questionnaire says 'your voice is your vote' with no registration or ID mechanism stated (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "ms-house-1-baucom",
+      "name": "Johnny Baucom",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "1",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Mississippi SOS: 2026 candidate qualifying list",
+          "url": "https://sos.ms.gov/content/CandidateQualifying/default.aspx"
+        },
+        {
+          "label": "CNHI wire: Johnson, Baucom hope to unseat Kelly",
+          "url": "https://www.clarkecountytrib.com/johnson-baucom-hope-unseat-heavily-favored-incumbent-kelly-mississippis-1st-congressional-district-6a9116d496abc"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "background": "Libertarian nominee for Mississippi's 1st Congressional District; no campaign website, questionnaire response, or interview was found despite repeated searches.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "health": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "housing": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "immigration": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "taxes": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "climate": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "education": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "safety": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "repro": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
+        "democracy": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MS04259",
+      "name": "Carl Boyanton",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "4",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://carl4congress.com/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Carl_Boyanton"
+        },
+        {
+          "label": "Politics1 Mississippi 2026 candidate list",
+          "url": "https://politics1.com/ms.htm"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "background": "Independent candidate for Mississippi's 4th Congressional District running on immigration enforcement, education reform, and reducing federal spending.",
+      "priorities": [
+        "Border security and immigration enforcement",
+        "Restoring excellence in education",
+        "Federal budget and spending reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "'Strong border security is non-negotiable': backs physical barriers, drones/sensors, prioritized deportation of illegal entrants, ending sanctuary policies, and English as the national language, while supporting streamlined legal pathways for qualified workers (campaign site)",
+          "url": "https://carl4congress.com/position-on-immigration/"
+        },
+        "repro": {
+          "label": "'Life begins at conception and must be protected ... it should be prohibited in all but the most exceptional circumstances,' with exceptions for maternal health, rape, or incest and deference to states post-Dobbs (campaign site)",
+          "url": "https://carl4congress.com/position-on-life-and-abortion/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign site lists 'Federal Budget' as a policy area but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
+        "health": "checked campaign site's policy-page list (Education, Student Debt, Political Reform, Federal Budget, Fraud/Waste/Abuse, Life & Abortion, Term Limits, Immigration); no healthcare page exists (checked Aug 29, 2026)",
+        "housing": "checked campaign site's policy-page list; no housing page exists (checked Aug 29, 2026)",
+        "taxes": "the 'Federal Budget' page did not return fetchable content beyond its topic label (checked Aug 29, 2026)",
+        "climate": "checked campaign site's policy-page list; no climate/energy page exists (checked Aug 29, 2026)",
+        "education": "site lists an education page ('Restoring Excellence in Education') but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
+        "safety": "checked campaign site's policy-page list; no crime/policing page exists distinct from the immigration-enforcement content already scored (checked Aug 29, 2026)",
+        "democracy": "site lists 'Term Limits' and 'The Two-Party Mirage' government-reform pages, which address congressional structure, not voting-registration/ID rules (checked Aug 29, 2026)"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MS04242",
+      "name": "Jeffrey Hulum III",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "MS",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        },
+        {
+          "label": "WLOX: primary win",
+          "url": "https://www.wlox.com/2026/03/11/jeffrey-hulum-ii-wins-democratic-primary-mississippis-4th-congressional-district/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jeffrey_Hulum_III"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS04242/"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "background": "Mississippi state representative who won the March 10, 2026 Democratic primary to challenge Rep. Mike Ezell.",
+      "priorities": [
+        "An economy for working people",
+        "Affordable healthcare access",
+        "Quality education regardless of ZIP code"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": 0,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'South Mississippi deserves an economy that works for working people, not just for corporations and the wealthy' (campaign issues page)",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        },
+        "health": {
+          "label": "'No family should go broke to see a doctor or afford life-saving medication' (campaign issues page)",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        },
+        "education": {
+          "label": "'Every child deserves a quality education, no matter their ZIP code' (campaign issues page)",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        },
+        "safety": {
+          "label": "Mixed: 'Our justice system should keep communities safe while ensuring fairness, accountability, and rehabilitation' (campaign issues page)",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "'Every citizen of Mississippi deserves the right and access to participate in the democratic process' (campaign issues page)",
+          "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
+        "immigration": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
+        "taxes": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
+        "climate": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
+        "repro": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented"
+      },
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MS01131",
+      "name": "John Trent Kelly",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "MS",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Cut taxes, regulation, and spending",
+        "Border security and immigration enforcement",
+        "Protect the unborn"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'The rules and regulations handed down from Washington increase costs for business owners and consumers ... Republican-led policies have made significant progress rolling back regulations' (House office economy page)",
+          "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14932"
+        },
+        "health": {
+          "label": "'Mississippians and all Americans need to be in charge of their healthcare decisions, not the federal government' (House office healthcare page)",
+          "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14935"
+        },
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "'I support an all-of-the-above energy strategy,' highlighting fracking's benefit to GDP, prices, and jobs (House office energy page)",
+          "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14933"
+        },
+        "repro": {
+          "label": "'I believe it is our duty as a nation to protect the lives of the unborn,' backing the Gestational Age Act and an amicus brief to reverse Roe (House office life page)",
+          "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14936"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked trentkelly.house.gov issues list (Defense/Veterans, Agriculture, Economy, Energy, Government Reform, Healthcare, Life, 2nd Amendment, Social Security/Medicare, no housing page) and news search, nothing documented",
+        "education": "checked trentkelly.house.gov issues list and news search for a voucher/public-school-funding statement, nothing found",
+        "safety": "checked trentkelly.house.gov issues list and news search for a domestic crime/policing statement, nothing beyond routine appropriations found"
+      },
+      "sources": [
+        {
+          "label": "House office issues pages",
+          "url": "https://trentkelly.house.gov/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Trent_Kelly"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS01131/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MS01313",
+      "name": "Cliff Johnson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "MS",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Civil rights attorney and former director of the MacArthur Justice Center's Mississippi office; won the March 10, 2026 Democratic primary to challenge Rep. Trent Kelly.",
+      "priorities": [
+        "Protect voting rights, fight corruption",
+        "Restore healthcare access for the poor",
+        "Reentry and substance-abuse funding over mass incarceration"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "'We strip health care from the poor to fund tax cuts for the wealthy' (Mississippi Free Press interview)",
+          "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
+        },
+        "taxes": {
+          "label": "Criticizes stripping healthcare 'to fund tax cuts for the wealthy,' implying opposition to those cuts (Mississippi Free Press interview)",
+          "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
+        },
+        "safety": {
+          "label": "'We lock up more of our people than any nation ... and refuse to fund reentry and substance abuse programs' (Mississippi Free Press interview)",
+          "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked MPB and Mississippi Free Press coverage; 'affordability' is named as a priority with no price/wage mechanism stated (checked Aug 29, 2026)",
+        "housing": "checked MPB and Mississippi Free Press coverage, nothing documented",
+        "immigration": "checked MPB and Mississippi Free Press coverage, nothing documented",
+        "climate": "checked MPB and Mississippi Free Press coverage, nothing documented",
+        "education": "checked MPB and Mississippi Free Press coverage, nothing documented",
+        "repro": "checked MPB and Mississippi Free Press coverage; a civil-rights-attorney background is noted but no direct abortion statement found",
+        "democracy": "fact-check flag verified Aug 29, 2026: neither cited mpbonline article nor the mississippifreepress profile contains any statement on voting rights/elections; Ballotpedia's 'Democracy Matters' passage addresses institutional/separation-of-powers concerns, not the voting-access axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Mississippi Free Press interview",
+          "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
+        },
+        {
+          "label": "Mississippi Public Broadcasting: campaign launch",
+          "url": "https://www.mpbonline.org/blogs/news/civil-rights-attorney-cliff-johnson-enters-congressional-race-as-democrats-eye-gains-in-mississippi/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Cliff_Johnson_(Mississippi)"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS01313/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H4MS02068",
+      "name": "Bennie G. Thompson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "MS",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Medicaid expansion and rural hospitals",
+        "Protect reproductive rights",
+        "Climate/disaster-resilience investment"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": -1,
+        "safety": null,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "'I am the only member of Mississippi's congressional delegation who supports Medicaid expansion,' also backing lower drug costs and protecting rural hospitals (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
+        },
+        "immigration": {
+          "label": "Voted no on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, which passed 264-134 without him (House roll call 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "climate": {
+          "label": "Says climate change is real and backs federal investment in 'disaster prevention, strengthening levees and infrastructure' and 'clean energy that create jobs' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
+        },
+        "education": {
+          "label": "Pledges legislation 'to strengthen education' through federal funding for public schools (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
+        },
+        "repro": {
+          "label": "'Women have the right to make their own decisions about their bodies and their health,' opposing political interference in reproductive choices (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
+        },
+        "democracy": {
+          "label": "Voted no on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, which passed 220-208 without him (House roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "questionnaire says families are 'feeling the pressure of rising costs' and calls to 'put people over politics,' with no specific price/wage/deregulation mechanism named (checked Aug 29, 2026)",
+        "housing": "checked Mississippi Free Press questionnaire and house.gov newsletter archive, nothing documented",
+        "taxes": "voted no on H.R.1 (roll call 190), which alone does not establish this axis for a Democrat per the House-incumbent sourcing rule; questionnaire does not address taxes separately (checked Aug 29, 2026)",
+        "safety": "questionnaire says 'public safety requires lawful enforcement, respect for civil rights, and consequences,' too balanced/generic to place on the prevention-vs-enforcement axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Mississippi Free Press candidate questionnaire",
+          "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
+        },
+        {
+          "label": "House office newsletter archive",
+          "url": "https://benniethompson.house.gov/media/newsletter-archive"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Bennie_Thompson"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4MS02068/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2MS02203",
+      "name": "Ron Eller",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "MS",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Delta farmer making his third bid for Mississippi's 2nd District; won the March 10, 2026 Republican primary and holds the state GOP's endorsement.",
+      "priorities": [
+        "Border security, merit-based immigration",
+        "School choice and charter schools",
+        "Voter ID and election security"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 1,
+        "education": 2,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Advocates 'reducing taxes and reducing regulation' to lower business costs within an 'America First free market system' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "immigration": {
+          "label": "Supports merit-based immigration and opposes birthright citizenship for children of undocumented parents (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "climate": {
+          "label": "Opposes restrictive environmental policy as 'a pie in the sky dream' that would hamstring the economy, while allowing eventual renewable adoption (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "education": {
+          "label": "Endorses school choice and charter schools: 'if a particular school is failing then those students and families should be allowed to opt out' (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "safety": {
+          "label": "Emphasizes personal responsibility and deference to police authority, with legal remedies available for misconduct (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "repro": {
+          "label": "Identifies as 'Pro-Life' but says 'abortion is a state issue and not a federal issue,' supporting Mississippi's 15-week rule (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        "democracy": {
+          "label": "'Photo ID (State/Government) issued is the gold standard' for voting, with signature matching and paper receipts for electronic votes (Mississippi Free Press questionnaire)",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        }
+      },
+      "nullNotes": {
+        "housing": "checked Mississippi Free Press questionnaire and campaign site (voteroneller.com), nothing documented",
+        "taxes": "questionnaire's 'reducing taxes and reducing regulation' line is scored on the cost axis; no separate tax-rate statement distinct from that framing was found (checked Aug 29, 2026)",
+        "health": "fact-check flag verified Aug 29, 2026: the questionnaire's student-loan-forgiveness-for-providers and UMMC-as-charity-system answers are a narrow workforce/access initiative with no stated public-vs-private philosophy, not a fit for the health axis (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Mississippi Free Press candidate questionnaire",
+          "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
+        },
+        {
+          "label": "Mississippi Free Press: 2024 interview",
+          "url": "https://www.mississippifreepress.org/ron-eller-2024-republican-candidate-for-mississippis-2nd-congressional-district-the-mfp-interview/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ron_Eller"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2MS02203/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H8MS03125",
+      "name": "Michael Patrick Guest",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "MS",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "democracy": {
+          "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "cost": "his campaign site's Issues page (michaelguest.ms/issues) returned a 404, and guest.house.gov's Issues page contains only office contact information with no topic pages; news search found nothing beyond routine appropriations (checked Aug 29, 2026)",
+        "health": "same dead-end as above: no fetchable issues page or campaign statement found (checked Aug 29, 2026)",
+        "housing": "same dead-end as above (checked Aug 29, 2026)",
+        "climate": "same dead-end as above (checked Aug 29, 2026)",
+        "education": "same dead-end as above (checked Aug 29, 2026)",
+        "safety": "same dead-end as above; he chairs House Homeland Security but that maps to the immigration axis already scored, not a distinct domestic-crime statement (checked Aug 29, 2026)",
+        "repro": "his SBA Pro-Life America scorecard exists but is a third-party aggregator, not his own statement; no fetchable campaign or House-office quote found (checked Aug 29, 2026)"
+      },
+      "sources": [
+        {
+          "label": "House office site",
+          "url": "https://guest.house.gov/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Michael_Guest"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8MS03125/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H6MS03228",
+      "name": "Michael Alexis Chiaradio",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "MS",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "background": "Felician University MBA graduate with rural business experience; won the Democratic nomination to challenge Rep. Michael Guest, casting himself as a pragmatic 'governing party' Democrat.",
+      "priorities": [
+        "Lower healthcare premiums, more providers",
+        "Expand USDA homebuilding programs",
+        "Balanced tax reform closing corporate loopholes"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": 0,
+        "taxes": -1,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Wants to expand 'safety net programs to offer universal childcare and food assistance' amid 'ballooning health care and food costs' (Mississippi Today profile)",
+          "url": "https://mississippitoday.org/2025/12/10/mississippi-midterm-campaign-democrats-chiaradio-guest/"
+        },
+        "health": {
+          "label": "'Every American should have access to high quality preventive and curative healthcare at a low cost,' proposing lower premiums and more healthcare-worker training (campaign issues page)",
+          "url": "https://michaelachiaradio.com/issues/"
+        },
+        "housing": {
+          "label": "'High housing costs have locked millions of Americans out of economic independence'; proposes expanding USDA homebuilding programs (campaign issues page)",
+          "url": "https://michaelachiaradio.com/issues/"
+        },
+        "immigration": {
+          "label": "Mixed: 'The United States can grow stronger through well-managed immigration' paired with 'robust border security' (campaign issues page)",
+          "url": "https://michaelachiaradio.com/issues/"
+        },
+        "taxes": {
+          "label": "Wants 'a balanced tax plan that combines moderate ordinary income taxes with a corporate tax system that limits loopholes' (campaign issues page)",
+          "url": "https://michaelachiaradio.com/issues/"
+        },
+        "safety": {
+          "label": "Supports 'building respect and trust between law enforcement and residents' through body-worn cameras and transparency (campaign issues page)",
+          "url": "https://michaelachiaradio.com/issues/"
+        }
+      },
+      "nullNotes": {
+        "climate": "checked campaign issues page and Mississippi Today profile, nothing documented",
+        "education": "checked campaign issues page and Mississippi Today profile, nothing documented",
+        "repro": "checked campaign issues page and Mississippi Today profile, nothing documented",
+        "democracy": "checked campaign issues page and Mississippi Today profile, nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://michaelachiaradio.com/issues/"
+        },
+        {
+          "label": "Mississippi Today profile",
+          "url": "https://mississippitoday.org/2025/12/10/mississippi-midterm-campaign-democrats-chiaradio-guest/"
+        },
+        {
+          "label": "Magnolia Tribune: campaign coverage",
+          "url": "https://magnoliatribune.com/2025/09/24/congressman-guest-draws-democrat-challenger-in-3rd-district-midterm-race/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6MS03228/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-H2MS04258",
+      "name": "Walter Michael Ezell",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "MS",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Secure the southern border",
+        "Protect the unborn",
+        "Support law enforcement"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025); also lists 'Secure Our Southern Border' among his top campaign priorities (roll call 23; campaign site)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Lists 'Support Our Law Enforcement' among his top priorities, drawing on his 42-plus years in law enforcement (campaign site)",
+          "url": "https://www.mikeezell.ms/"
+        },
+        "repro": {
+          "label": "Lists 'Protect Our Unborn Children' among his top campaign priorities (campaign site)",
+          "url": "https://www.mikeezell.ms/"
+        },
+        "democracy": {
+          "label": "'We have to show ID to get on an airplane ... if you want to purchase a firearm, you've got to show your ID. What is the difference in showing your ID for a federal election?' backing the SAVE Act (campaign site; House roll call 102, Apr 10, 2025)",
+          "url": "https://www.mikeezell.ms/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign site's six priorities (values, unborn, law enforcement, military/veterans, America/Mississippi first, border) do not include a cost-of-living or economic plank; no separate statement found (checked Aug 29, 2026)",
+        "health": "checked campaign site and house.gov, nothing documented",
+        "housing": "checked campaign site and house.gov; the site does discuss flood insurance/FEMA floodplain reform, which is disaster-infrastructure policy, not a general housing-affordability mechanism (checked Aug 29, 2026)",
+        "climate": "checked campaign site and house.gov, nothing documented",
+        "education": "checked campaign site and house.gov, nothing documented"
+      },
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://www.mikeezell.ms/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mike_Ezell"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2MS04258/"
+        }
+      ],
+      "curatedAt": "2026-08-29"
+    },
+    {
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Medicare for All",
+        "End partisan gerrymandering via independent redistricting commissions",
+        "Orderly, humane immigration reform"
+      ],
+      "nullNotes": {
+        "cost": "Emphasizes \"bread-and-butter\" jobs/wages messaging generally, no specific price-intervention or deregulation stance found (checked Sep 2, 2026)",
+        "housing": "Mentions past legal work fighting evictions during COVID but states no comprehensive housing-policy position (checked Sep 2, 2026)",
+        "taxes": "No specific tax-rate position found in questionnaire (checked Sep 2, 2026)",
+        "education": "No specific education-policy position found in questionnaire (checked Sep 2, 2026)"
+      },
+      "id": "fec-S4MS00187",
+      "name": "Ty Pinkins",
+      "party": "Independent",
+      "office": "us-senate",
+      "district": null,
+      "state": "MS",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "U.S. Army veteran (21 years, Bronze Star) and public-interest attorney",
+      "background": "Pinkins is a 21-year U.S. Army veteran, Bronze Star recipient, and public-interest attorney with an LL.M. in National Security Law from Georgetown who has done pro bono work in underserved Mississippi communities. He left the Democratic Party in 2026 to run as an independent against Sen. Cindy Hyde-Smith, citing the need to break both parties' grip on the Senate.",
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": -1,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Advocates for Medicare for All, citing research on $350 billion in potential annual savings from reduced bureaucracy (Mississippi Free Press candidate questionnaire)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "immigration": {
+          "label": "Backs \"an immigration system that is orderly, humane, and economically realistic,\" with modern ports of entry and efficient asylum processing, while opposing \"overly aggressive, opaque, and unaccountable\" enforcement (Mississippi Free Press)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "climate": {
+          "label": "Supports clean-energy job development and advanced manufacturing alongside flood-control and grid-hardening investment (Mississippi Free Press)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "safety": {
+          "label": "Emphasizes oversight of law enforcement and opposes \"political scapegoating\" (Mississippi Free Press)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "repro": {
+          "label": "\"I'm neither [pro-life nor pro-choice]. I'm pro-woman,\" opposes \"blanket abortion bans,\" backs decisions made \"by women and families, guided by their doctors\" (Mississippi Free Press)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "democracy": {
+          "label": "Calls for \"independent redistricting commissions to end partisan gerrymandering\" and election reforms protecting \"every eligible American's right to vote\"; has personally litigated gerrymandering cases against SOS and AG (Mississippi Free Press)",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Mississippi Free Press: US Senate Candidate Questionnaire, Ty Pinkins",
+          "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4MS00187/"
+        }
+      ],
+      "tier": "curated",
+      "curatedAt": "2026-09-02"
     }
-   ]
-  },
-  "MS-house-4": {
-   "status": "names-only",
-   "advancing": [
-    "fec-H2MS04258",
-    "fec-H6MS04242",
-    "fec-H6MS04259"
-   ],
-   "statusNote": "Rep. Mike Ezell (R) seeks re-election against Jeffrey Hulum III (D) and independent Carl Boyanton after the March 10, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
-   "sources": [
-    {
-     "label": "Mississippi 2026 candidates by district (Election2026)",
-     "url": "https://election2026.net/mississippi-2026/"
-    },
-    {
-     "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
-     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
-    }
-   ]
-  },
-  "MS-house-1": {
-   "status": "names-only",
-   "advancing": [
-    "fec-H6MS01131",
-    "fec-H6MS01313",
-    "ms-house-1-baucom"
-   ],
-   "statusNote": "Rep. Trent Kelly (R) seeks re-election against Cliff Johnson (D) and Libertarian Johnny Baucom. Kelly was unopposed for the Republican nomination in the March 10, 2026 primary and Johnson beat former state Rep. Kelvin Buck for the Democratic nomination, so no runoff was needed. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
-   "sources": [
-    {
-     "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
-     "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
-    },
-    {
-     "label": "2026 United States House of Representatives elections in Mississippi (Wikipedia)",
-     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi"
-    }
-   ]
-  },
-  "MS-house-2": {
-   "status": "names-only",
-   "advancing": [
-    "fec-H4MS02068",
-    "fec-H2MS02203",
-    "ms-house-2-foster"
-   ],
-   "statusNote": "Rep. Bennie Thompson (D) seeks re-election against Ron Eller (R) and independent Bennie Foster. Thompson won the March 10, 2026 Democratic primary, and Eller edged Kevin Wilson 51.1% to 49% for the Republican nomination in a race called after the count was completed, avoiding a runoff. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
-   "sources": [
-    {
-     "label": "Ron Eller wins GOP nomination in Mississippi's 2nd Congressional District (WLBT)",
-     "url": "https://www.wlbt.com/2026/03/21/ron-eller-wins-gop-nomination-race-mississippis-2nd-congressional-district/"
-    },
-    {
-     "label": "Mississippi elections: Who won US Senate, House primaries? (Mississippi Today)",
-     "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
-    },
-    {
-     "label": "Mississippi's 2nd Congressional District election, 2026 (Ballotpedia)",
-     "url": "https://ballotpedia.org/Mississippi%27s_2nd_Congressional_District_election,_2026"
-    }
-   ]
-  }
- },
- "candidates": [
-  {
-   "id": "fec-S8MS00261",
-   "name": "Cindy Hyde-Smith",
-   "party": "Republican",
-   "office": "us-senate",
-   "state": "MS",
-   "tier": "curated",
-   "ballotStatus": "nominee",
-   "incumbent": true,
-   "age": 67,
-   "home": "Brookhaven, MS",
-   "now": "U.S. Senator from Mississippi",
-   "background": "U.S. Senator since April 2018; cattle farmer, former Mississippi Commissioner of Agriculture and Commerce (2012-2018) and state senator (2000-2012), first elected as a Democrat before switching parties in 2010. Won the March 10, 2026 Republican primary with 80.8% over physician Sarah Adlakha; endorsed by President Trump.",
-   "priorities": [
-    "Permanent extension of the 2017 tax cuts",
-    "Border security",
-    "Expanding Gulf offshore oil and gas production"
-   ],
-   "positions": {
-    "cost": 1,
-    "health": 2,
-    "housing": 1,
-    "immigration": 2,
-    "taxes": 2,
-    "climate": 2,
-    "education": 1,
-    "safety": 2,
-    "repro": 2,
-    "democracy": 2
-   },
-   "positionSources": {
-    "cost": {
-     "label": "Answers family cost pressures with more supply, not caps: 'stop finding every excuse in the book to shrink energy production'; cosponsored the Lease Now Act to force resumed lease sales (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/citing-rising-gas-prices-hyde-smith-says-miss-families-businesses-paying-price-failed-biden-energy"
-    },
-    "health": {
-     "label": "Calls the ACA 'anything but affordable' and 'unsupportable over the long term'; instead of extending subsidies, backs S.3386 directing funds to patients rather than insurance companies (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/hyde-smith-appeals-legitimate-cooperation-fix-unaffordable-fraud-plagued-obamacare"
-    },
-    "housing": {
-     "label": "Backs the ROAD to Housing Act to 'increase housing supply, cut regulations' and get 'the government out of the way' with no new federal spending (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/hyde-smith-supports-sweeping-affordable-housing-legislation"
-    },
-    "immigration": {
-     "label": "Voted to pass the Laken Riley Act, S. 5, requiring DHS detention of aliens charged with theft, passed 64-35 (Senate roll call 7, Jan 20, 2025)",
-     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
-    },
-    "taxes": {
-     "label": "Voted for the One Big Beautiful Bill Act making the 2017 tax cuts permanent, versus 'forcing a more than $4.0 trillion tax hike on everyone' (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/hyde-smith-statement-trumps-one-big-beautiful-bill-act-passage"
-    },
-    "climate": {
-     "label": "Cosponsored the Offshore Energy Security Act of 2025 to resume Gulf of Mexico oil and gas lease sales, 'unleashing American energy dominance' (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/hyde-smith-moves-resume-offshore-lease-sales-gulf-mexico"
-    },
-    "education": {
-     "label": "Cosponsored National School Choice Week resolutions: parents should be able to 'direct their children to schools that best suit their needs', including charter, private, online, and homeschool options (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/wicker-hyde-smith-back-national-school-choice-week-resolutions"
-    },
-    "safety": {
-     "label": "Cosponsors the Back the Blue Act, S.3366, creating new federal crimes with mandatory sentences and death-penalty eligibility for killing officers: targeting police 'should be met with the full force of the law' (Senate office)",
-     "url": "https://www.hydesmith.senate.gov/hyde-smith-renews-support-back-blue-act"
-    },
-    "repro": {
-     "label": "Defended OBBBA language 'prohibiting abortion providers from receiving Medicaid funds' on the Senate floor, raising a point of order against the amendment to strike it (Congressional Record via Senate office)",
-     "url": "https://www.hydesmith.senate.gov/one-big-beautiful-bill-act-resumed"
-    },
-    "democracy": {
-     "label": "Voted to sustain the objection to counting Arizona's 2020 electoral votes, one of 6 senators to do so, objection failed 6-93 (Senate roll call 1, Jan 6, 2021)",
-     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00001.htm"
-    }
-   },
-   "controversies": [
-    {
-     "label": "Her 2018 runoff remark 'if he invited me to a public hanging, I'd be in the front row' drew national criticism given Mississippi's lynching history; she called the criticism 'ridiculous' and did not apologize (Wikipedia)",
-     "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
-    }
-   ],
-   "sources": [
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Cindy_Hyde-Smith"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/S8MS00261/"
-    },
-    {
-     "label": "Mississippi Today: primary results",
-     "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
-    },
-    {
-     "label": "Wikipedia: Cindy Hyde-Smith",
-     "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith"
-    }
-   ],
-   "curatedAt": "2026-08-13"
-  },
-  {
-   "id": "fec-S6MS00133",
-   "name": "Scott Colom",
-   "party": "Democrat",
-   "office": "us-senate",
-   "state": "MS",
-   "tier": "curated",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "age": 43,
-   "home": "Columbus, MS",
-   "now": "District Attorney, 16th Circuit Court District of Mississippi",
-   "background": "District attorney for Mississippi's 16th Circuit (Lowndes, Clay, Noxubee, and Oktibbeha counties) since 2016, elected at 32 by defeating a nearly 30-year incumbent, the first Black DA elected in a majority-white Mississippi district. Nominated by President Biden to a federal judgeship in 2022 but blocked when Hyde-Smith withheld her blue slip. Won the March 10, 2026 Democratic primary with 73%, calling himself 'a commonsense Democrat with Mississippi values.'",
-   "priorities": [
-    "Save Mississippi hospitals and reverse Medicaid cuts",
-    "Lower costs for families",
-    "Root out corruption in Washington"
-   ],
-   "positions": {
-    "cost": -1,
-    "health": -2,
-    "housing": null,
-    "immigration": 0,
-    "taxes": -2,
-    "climate": null,
-    "education": -1,
-    "safety": 0,
-    "repro": null,
-    "democracy": 0
-   },
-   "positionSources": {
-    "cost": {
-     "label": "'We got to raise the minimum wage. We haven't raised it, it's $7.25'; frames the race around lowering costs for families (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    },
-    "health": {
-     "label": "Medicaid expansion is 'a good deal for Mississippi'; says he would work to 'cancel the healthcare cuts' from the One Big Beautiful Bill (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    },
-    "immigration": {
-     "label": "Mixed: supports a 'strong, secure border' but 'we also have to have due process' (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    },
-    "taxes": {
-     "label": "'We have to raise taxes 3 percent on people making more than $600,000 a year to pay for Mississippians to continue to have health insurance, and to save our hospitals' (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2025/11/25/colom-champions-tax-increase-for-mississippians-to-continue-to-have-health-insurance/"
-    },
-    "education": {
-     "label": "Proposes teachers earning under $75,000 pay no federal income tax because Mississippi is 'losing too many teachers and cops' (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    },
-    "safety": {
-     "label": "Mixed record: convictions in over 95% of jury trials including high-profile murders, AND freed a man held 11 years without trial and dropped murder charges built on discredited bite-mark evidence (Wikipedia)",
-     "url": "https://en.wikipedia.org/wiki/Scott_Colom"
-    },
-    "democracy": {
-     "label": "Mixed: open to voter ID if 'everybody needs to get access to a free ID very easily', while insisting polls stay 'available to people' (Magnolia Tribune)",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    }
-   },
-   "sources": [
-    {
-     "label": "Campaign site",
-     "url": "https://www.scottcolom.com/"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/S6MS00133/"
-    },
-    {
-     "label": "Magnolia Tribune: interview",
-     "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/"
-    },
-    {
-     "label": "Mississippi Today: primary results",
-     "url": "https://mississippitoday.org/2026/03/10/mississippi-election-hyde-smith-thompson/"
-    }
-   ],
-   "curatedAt": "2026-08-13",
-   "nullNotes": {
-    "housing": "checked campaign site, the long Magnolia Tribune interview, Wikipedia, and Ballotpedia, nothing documented",
-    "climate": "checked campaign site, Magnolia Tribune interview, Wikipedia, and Ballotpedia; tariff and jobs comments do not state a clean-energy versus fossil position",
-    "repro": "checked Ballotpedia (Candidate Connection survey not completed), Wikipedia, campaign site, and Magnolia Tribune interview; no abortion position documented"
-   }
-  },
-  {
-   "id": "ms-house-3-kiehle",
-   "name": "Erik Kiehle",
-   "party": "Libertarian",
-   "office": "us-house",
-   "district": "3",
-   "state": "MS",
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "sources": [
-    {
-     "label": "Mississippi Free Press candidate questionnaire",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Erik_Kiehle"
-    },
-    {
-     "label": "Mississippi 2026 candidates by district (Election2026)",
-     "url": "https://election2026.net/mississippi-2026/"
-    }
-   ],
-   "age": null,
-   "home": null,
-   "positions": {
-    "cost": null,
-    "health": 2,
-    "housing": null,
-    "immigration": 2,
-    "taxes": null,
-    "climate": 2,
-    "education": 2,
-    "safety": 2,
-    "repro": 0,
-    "democracy": 2
-   },
-   "positionSources": {
-    "health": {
-     "label": "'The federal government should repeal the failed Obamacare law and repeal all other federal laws regarding health care,' leaving policy to the states (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "immigration": {
-     "label": "'ALL the illegals need to be sent home,' and would halt 'all asylum and refugee programs' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "climate": {
-     "label": "'Carbon dioxide is plant food'; opposes government policies limiting energy use, citing European economic decline after Russian sanctions (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "education": {
-     "label": "Proposes to 'Abolish the Department of Education' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "safety": {
-     "label": "'Foreign illegals who commit rape, attempted murder, and murder against Americans should be publicly hanged,' and backs denaturalizing immigrants convicted of crimes (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "repro": {
-     "label": "Mixed: defers abortion policy to the states post-Dobbs, opposing federal funding while saying he allows for personal choice (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    },
-    "democracy": {
-     "label": "Requires 'proof of citizenship' for voter registration and 'photo ID' to vote, and says 'voting should only be conducted in English' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-erik-kiehle-libertarian/"
-    }
-   },
-   "nullNotes": {
-    "cost": "checked Mississippi Free Press questionnaire and campaign social media, nothing documented beyond the tax-adjacent housing/immigration framing already scored elsewhere",
-    "housing": "questionnaire mentions immigration 'negatively distort[ing] the housing... systems,' which is an immigration-axis point rather than a housing-policy mechanism (checked Aug 29, 2026)",
-    "taxes": "checked Mississippi Free Press questionnaire and campaign social media, nothing documented"
-   },
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "ms-house-2-foster",
-   "name": "Bennie Foster",
-   "party": "Independent",
-   "office": "us-house",
-   "district": "2",
-   "state": "MS",
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "sources": [
-    {
-     "label": "Mississippi Free Press candidate questionnaire",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    {
-     "label": "SuperTalk Mississippi: candidate profile",
-     "url": "https://www.supertalk.fm/mississippi-oilman-seeks-congressional-seat-held-by-democrat-bennie-thompson/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Bennie_Foster"
-    }
-   ],
-   "age": null,
-   "home": null,
-   "background": "Independent businessman in the Delta oil and agriculture industry running against Rep. Bennie Thompson on rural infrastructure and workforce issues.",
-   "priorities": [
-    "Rural hospital access and mobile health units",
-    "Broadband and affordable housing",
-    "Workforce training toward a livable wage"
-   ],
-   "positions": {
-    "cost": -1,
-    "health": -1,
-    "housing": -1,
-    "immigration": 0,
-    "taxes": null,
-    "climate": -1,
-    "education": null,
-    "safety": null,
-    "repro": 1,
-    "democracy": null
-   },
-   "positionSources": {
-    "cost": {
-     "label": "Wants 'ecosystems for trade and life-skills workforce training to provide young adults with viable careers and opportunities to earn a LIVABLE WAGE' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    "health": {
-     "label": "Backs federal grants and mobile health units to prevent rural hospital closures where 'travel distances are a major barrier' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    "housing": {
-     "label": "Names 'Broadband & Affordable Housing' among the district's top needs, calling housing instability a major area of need (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    "immigration": {
-     "label": "Mixed: supports border security while proposing ICE reforms including banning masks and requiring bodycams on field agents (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    "climate": {
-     "label": "Supports 'climate-proof infrastructure' and sustainable farming investment (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    },
-    "repro": {
-     "label": "Opposes elective abortion but supports exceptions for 'ectopic pregnancy, minor victims of sexual assault, or when the pregnancy is likely to result in harm or death of the mother' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-foster-independent/"
-    }
-   },
-   "nullNotes": {
-    "taxes": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
-    "education": "questionnaire's 'Mentorship as a National Policy' plank names a value with no school-funding or choice mechanism stated (checked Aug 29, 2026)",
-    "safety": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
-    "democracy": "questionnaire says 'your voice is your vote' with no registration or ID mechanism stated (checked Aug 29, 2026)"
-   },
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "ms-house-1-baucom",
-   "name": "Johnny Baucom",
-   "party": "Libertarian",
-   "office": "us-house",
-   "district": "1",
-   "state": "MS",
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "sources": [
-    {
-     "label": "Mississippi SOS: 2026 candidate qualifying list",
-     "url": "https://sos.ms.gov/content/CandidateQualifying/default.aspx"
-    },
-    {
-     "label": "CNHI wire: Johnson, Baucom hope to unseat Kelly",
-     "url": "https://www.clarkecountytrib.com/johnson-baucom-hope-unseat-heavily-favored-incumbent-kelly-mississippis-1st-congressional-district-6a9116d496abc"
-    }
-   ],
-   "age": null,
-   "home": null,
-   "background": "Libertarian nominee for Mississippi's 1st Congressional District; no campaign website, questionnaire response, or interview was found despite repeated searches.",
-   "positions": {
-    "cost": null,
-    "health": null,
-    "housing": null,
-    "immigration": null,
-    "taxes": null,
-    "climate": null,
-    "education": null,
-    "safety": null,
-    "repro": null,
-    "democracy": null
-   },
-   "positionSources": {},
-   "nullNotes": {
-    "cost": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "health": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "housing": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "immigration": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "taxes": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "climate": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "education": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "safety": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "repro": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-    "democracy": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)"
-   },
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H6MS04259",
-   "name": "Carl Boyanton",
-   "party": "Independent",
-   "office": "us-house",
-   "district": "4",
-   "state": "MS",
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "sources": [
-    {
-     "label": "Campaign site",
-     "url": "https://carl4congress.com/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Carl_Boyanton"
-    },
-    {
-     "label": "Politics1 Mississippi 2026 candidate list",
-     "url": "https://politics1.com/ms.htm"
-    }
-   ],
-   "age": null,
-   "home": null,
-   "background": "Independent candidate for Mississippi's 4th Congressional District running on immigration enforcement, education reform, and reducing federal spending.",
-   "priorities": [
-    "Border security and immigration enforcement",
-    "Restoring excellence in education",
-    "Federal budget and spending reform"
-   ],
-   "positions": {
-    "cost": null,
-    "health": null,
-    "housing": null,
-    "immigration": 2,
-    "taxes": null,
-    "climate": null,
-    "education": null,
-    "safety": null,
-    "repro": 1,
-    "democracy": null
-   },
-   "positionSources": {
-    "immigration": {
-     "label": "'Strong border security is non-negotiable': backs physical barriers, drones/sensors, prioritized deportation of illegal entrants, ending sanctuary policies, and English as the national language, while supporting streamlined legal pathways for qualified workers (campaign site)",
-     "url": "https://carl4congress.com/position-on-immigration/"
-    },
-    "repro": {
-     "label": "'Life begins at conception and must be protected ... it should be prohibited in all but the most exceptional circumstances,' with exceptions for maternal health, rape, or incest and deference to states post-Dobbs (campaign site)",
-     "url": "https://carl4congress.com/position-on-life-and-abortion/"
-    }
-   },
-   "nullNotes": {
-    "cost": "campaign site lists 'Federal Budget' as a policy area but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
-    "health": "checked campaign site's policy-page list (Education, Student Debt, Political Reform, Federal Budget, Fraud/Waste/Abuse, Life & Abortion, Term Limits, Immigration); no healthcare page exists (checked Aug 29, 2026)",
-    "housing": "checked campaign site's policy-page list; no housing page exists (checked Aug 29, 2026)",
-    "taxes": "the 'Federal Budget' page did not return fetchable content beyond its topic label (checked Aug 29, 2026)",
-    "climate": "checked campaign site's policy-page list; no climate/energy page exists (checked Aug 29, 2026)",
-    "education": "site lists an education page ('Restoring Excellence in Education') but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
-    "safety": "checked campaign site's policy-page list; no crime/policing page exists distinct from the immigration-enforcement content already scored (checked Aug 29, 2026)",
-    "democracy": "site lists 'Term Limits' and 'The Two-Party Mirage' government-reform pages, which address congressional structure, not voting-registration/ID rules (checked Aug 29, 2026)"
-   },
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H6MS04242",
-   "name": "Jeffrey Hulum III",
-   "party": "Democrat",
-   "office": "us-house",
-   "district": "4",
-   "state": "MS",
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "incumbent": false,
-   "sources": [
-    {
-     "label": "Campaign issues page",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    },
-    {
-     "label": "WLOX: primary win",
-     "url": "https://www.wlox.com/2026/03/11/jeffrey-hulum-ii-wins-democratic-primary-mississippis-4th-congressional-district/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Jeffrey_Hulum_III"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H6MS04242/"
-    }
-   ],
-   "age": null,
-   "home": null,
-   "background": "Mississippi state representative who won the March 10, 2026 Democratic primary to challenge Rep. Mike Ezell.",
-   "priorities": [
-    "An economy for working people",
-    "Affordable healthcare access",
-    "Quality education regardless of ZIP code"
-   ],
-   "positions": {
-    "cost": -1,
-    "health": -1,
-    "housing": null,
-    "immigration": null,
-    "taxes": null,
-    "climate": null,
-    "education": -1,
-    "safety": 0,
-    "repro": null,
-    "democracy": -1
-   },
-   "positionSources": {
-    "cost": {
-     "label": "'South Mississippi deserves an economy that works for working people, not just for corporations and the wealthy' (campaign issues page)",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    },
-    "health": {
-     "label": "'No family should go broke to see a doctor or afford life-saving medication' (campaign issues page)",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    },
-    "education": {
-     "label": "'Every child deserves a quality education, no matter their ZIP code' (campaign issues page)",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    },
-    "safety": {
-     "label": "Mixed: 'Our justice system should keep communities safe while ensuring fairness, accountability, and rehabilitation' (campaign issues page)",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    },
-    "democracy": {
-     "label": "'Every citizen of Mississippi deserves the right and access to participate in the democratic process' (campaign issues page)",
-     "url": "https://www.jeffreyhulumiiiforcongress.com/issues"
-    }
-   },
-   "nullNotes": {
-    "housing": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-    "immigration": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-    "taxes": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-    "climate": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-    "repro": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented"
-   },
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H6MS01131",
-   "name": "John Trent Kelly",
-   "party": "Republican",
-   "office": "us-house",
-   "district": "1",
-   "state": "MS",
-   "incumbent": true,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "priorities": [
-    "Cut taxes, regulation, and spending",
-    "Border security and immigration enforcement",
-    "Protect the unborn"
-   ],
-   "positions": {
-    "cost": 2,
-    "health": 1,
-    "housing": null,
-    "immigration": 2,
-    "taxes": 2,
-    "climate": 1,
-    "education": null,
-    "safety": null,
-    "repro": 2,
-    "democracy": 2
-   },
-   "positionSources": {
-    "cost": {
-     "label": "'The rules and regulations handed down from Washington increase costs for business owners and consumers ... Republican-led policies have made significant progress rolling back regulations' (House office economy page)",
-     "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14932"
-    },
-    "health": {
-     "label": "'Mississippians and all Americans need to be in charge of their healthcare decisions, not the federal government' (House office healthcare page)",
-     "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14935"
-    },
-    "immigration": {
-     "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-    },
-    "taxes": {
-     "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll190.xml"
-    },
-    "climate": {
-     "label": "'I support an all-of-the-above energy strategy,' highlighting fracking's benefit to GDP, prices, and jobs (House office energy page)",
-     "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14933"
-    },
-    "repro": {
-     "label": "'I believe it is our duty as a nation to protect the lives of the unborn,' backing the Gestational Age Act and an amicus brief to reverse Roe (House office life page)",
-     "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14936"
-    },
-    "democracy": {
-     "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll102.xml"
-    }
-   },
-   "nullNotes": {
-    "housing": "checked trentkelly.house.gov issues list (Defense/Veterans, Agriculture, Economy, Energy, Government Reform, Healthcare, Life, 2nd Amendment, Social Security/Medicare, no housing page) and news search, nothing documented",
-    "education": "checked trentkelly.house.gov issues list and news search for a voucher/public-school-funding statement, nothing found",
-    "safety": "checked trentkelly.house.gov issues list and news search for a domestic crime/policing statement, nothing beyond routine appropriations found"
-   },
-   "sources": [
-    {
-     "label": "House office issues pages",
-     "url": "https://trentkelly.house.gov/issues"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Trent_Kelly"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H6MS01131/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H6MS01313",
-   "name": "Cliff Johnson",
-   "party": "Democrat",
-   "office": "us-house",
-   "district": "1",
-   "state": "MS",
-   "incumbent": false,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "background": "Civil rights attorney and former director of the MacArthur Justice Center's Mississippi office; won the March 10, 2026 Democratic primary to challenge Rep. Trent Kelly.",
-   "priorities": [
-    "Protect voting rights, fight corruption",
-    "Restore healthcare access for the poor",
-    "Reentry and substance-abuse funding over mass incarceration"
-   ],
-   "positions": {
-    "cost": null,
-    "health": -1,
-    "housing": null,
-    "immigration": null,
-    "taxes": -1,
-    "climate": null,
-    "education": null,
-    "safety": -1,
-    "repro": null,
-    "democracy": null
-   },
-   "positionSources": {
-    "health": {
-     "label": "'We strip health care from the poor to fund tax cuts for the wealthy' (Mississippi Free Press interview)",
-     "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
-    },
-    "taxes": {
-     "label": "Criticizes stripping healthcare 'to fund tax cuts for the wealthy,' implying opposition to those cuts (Mississippi Free Press interview)",
-     "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
-    },
-    "safety": {
-     "label": "'We lock up more of our people than any nation ... and refuse to fund reentry and substance abuse programs' (Mississippi Free Press interview)",
-     "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
-    }
-   },
-   "nullNotes": {
-    "cost": "checked MPB and Mississippi Free Press coverage; 'affordability' is named as a priority with no price/wage mechanism stated (checked Aug 29, 2026)",
-    "housing": "checked MPB and Mississippi Free Press coverage, nothing documented",
-    "immigration": "checked MPB and Mississippi Free Press coverage, nothing documented",
-    "climate": "checked MPB and Mississippi Free Press coverage, nothing documented",
-    "education": "checked MPB and Mississippi Free Press coverage, nothing documented",
-    "repro": "checked MPB and Mississippi Free Press coverage; a civil-rights-attorney background is noted but no direct abortion statement found",
-    "democracy": "fact-check flag verified Aug 29, 2026: neither cited mpbonline article nor the mississippifreepress profile contains any statement on voting rights/elections; Ballotpedia's 'Democracy Matters' passage addresses institutional/separation-of-powers concerns, not the voting-access axis (checked Aug 29, 2026)"
-   },
-   "sources": [
-    {
-     "label": "Mississippi Free Press interview",
-     "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
-    },
-    {
-     "label": "Mississippi Public Broadcasting: campaign launch",
-     "url": "https://www.mpbonline.org/blogs/news/civil-rights-attorney-cliff-johnson-enters-congressional-race-as-democrats-eye-gains-in-mississippi/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Cliff_Johnson_(Mississippi)"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H6MS01313/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H4MS02068",
-   "name": "Bennie G. Thompson",
-   "party": "Democrat",
-   "office": "us-house",
-   "district": "2",
-   "state": "MS",
-   "incumbent": true,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "priorities": [
-    "Medicaid expansion and rural hospitals",
-    "Protect reproductive rights",
-    "Climate/disaster-resilience investment"
-   ],
-   "positions": {
-    "cost": null,
-    "health": -2,
-    "housing": null,
-    "immigration": -1,
-    "taxes": null,
-    "climate": -1,
-    "education": -1,
-    "safety": null,
-    "repro": -2,
-    "democracy": -1
-   },
-   "positionSources": {
-    "health": {
-     "label": "'I am the only member of Mississippi's congressional delegation who supports Medicaid expansion,' also backing lower drug costs and protecting rural hospitals (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
-    },
-    "immigration": {
-     "label": "Voted no on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, which passed 264-134 without him (House roll call 23, Jan 22, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-    },
-    "climate": {
-     "label": "Says climate change is real and backs federal investment in 'disaster prevention, strengthening levees and infrastructure' and 'clean energy that create jobs' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
-    },
-    "education": {
-     "label": "Pledges legislation 'to strengthen education' through federal funding for public schools (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
-    },
-    "repro": {
-     "label": "'Women have the right to make their own decisions about their bodies and their health,' opposing political interference in reproductive choices (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
-    },
-    "democracy": {
-     "label": "Voted no on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, which passed 220-208 without him (House roll call 102, Apr 10, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll102.xml"
-    }
-   },
-   "nullNotes": {
-    "cost": "questionnaire says families are 'feeling the pressure of rising costs' and calls to 'put people over politics,' with no specific price/wage/deregulation mechanism named (checked Aug 29, 2026)",
-    "housing": "checked Mississippi Free Press questionnaire and house.gov newsletter archive, nothing documented",
-    "taxes": "voted no on H.R.1 (roll call 190), which alone does not establish this axis for a Democrat per the House-incumbent sourcing rule; questionnaire does not address taxes separately (checked Aug 29, 2026)",
-    "safety": "questionnaire says 'public safety requires lawful enforcement, respect for civil rights, and consequences,' too balanced/generic to place on the prevention-vs-enforcement axis (checked Aug 29, 2026)"
-   },
-   "sources": [
-    {
-     "label": "Mississippi Free Press candidate questionnaire",
-     "url": "https://www.mississippifreepress.org/us-house-candidate-questionnaire-bennie-thompson-democrat/"
-    },
-    {
-     "label": "House office newsletter archive",
-     "url": "https://benniethompson.house.gov/media/newsletter-archive"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Bennie_Thompson"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H4MS02068/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H2MS02203",
-   "name": "Ron Eller",
-   "party": "Republican",
-   "office": "us-house",
-   "district": "2",
-   "state": "MS",
-   "incumbent": false,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "background": "Delta farmer making his third bid for Mississippi's 2nd District; won the March 10, 2026 Republican primary and holds the state GOP's endorsement.",
-   "priorities": [
-    "Border security, merit-based immigration",
-    "School choice and charter schools",
-    "Voter ID and election security"
-   ],
-   "positions": {
-    "cost": 2,
-    "health": null,
-    "housing": null,
-    "immigration": 2,
-    "taxes": null,
-    "climate": 1,
-    "education": 2,
-    "safety": 1,
-    "repro": 1,
-    "democracy": 2
-   },
-   "positionSources": {
-    "cost": {
-     "label": "Advocates 'reducing taxes and reducing regulation' to lower business costs within an 'America First free market system' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "immigration": {
-     "label": "Supports merit-based immigration and opposes birthright citizenship for children of undocumented parents (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "climate": {
-     "label": "Opposes restrictive environmental policy as 'a pie in the sky dream' that would hamstring the economy, while allowing eventual renewable adoption (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "education": {
-     "label": "Endorses school choice and charter schools: 'if a particular school is failing then those students and families should be allowed to opt out' (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "safety": {
-     "label": "Emphasizes personal responsibility and deference to police authority, with legal remedies available for misconduct (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "repro": {
-     "label": "Identifies as 'Pro-Life' but says 'abortion is a state issue and not a federal issue,' supporting Mississippi's 15-week rule (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    "democracy": {
-     "label": "'Photo ID (State/Government) issued is the gold standard' for voting, with signature matching and paper receipts for electronic votes (Mississippi Free Press questionnaire)",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    }
-   },
-   "nullNotes": {
-    "housing": "checked Mississippi Free Press questionnaire and campaign site (voteroneller.com), nothing documented",
-    "taxes": "questionnaire's 'reducing taxes and reducing regulation' line is scored on the cost axis; no separate tax-rate statement distinct from that framing was found (checked Aug 29, 2026)",
-    "health": "fact-check flag verified Aug 29, 2026: the questionnaire's student-loan-forgiveness-for-providers and UMMC-as-charity-system answers are a narrow workforce/access initiative with no stated public-vs-private philosophy, not a fit for the health axis (checked Aug 29, 2026)"
-   },
-   "sources": [
-    {
-     "label": "Mississippi Free Press candidate questionnaire",
-     "url": "https://www.mississippifreepress.org/candidate-questionnaire-ron-eller-2nd-congressional-district-republican-primary/"
-    },
-    {
-     "label": "Mississippi Free Press: 2024 interview",
-     "url": "https://www.mississippifreepress.org/ron-eller-2024-republican-candidate-for-mississippis-2nd-congressional-district-the-mfp-interview/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Ron_Eller"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H2MS02203/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H8MS03125",
-   "name": "Michael Patrick Guest",
-   "party": "Republican",
-   "office": "us-house",
-   "district": "3",
-   "state": "MS",
-   "incumbent": true,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "positions": {
-    "cost": null,
-    "health": null,
-    "housing": null,
-    "immigration": 2,
-    "taxes": 2,
-    "climate": null,
-    "education": null,
-    "safety": null,
-    "repro": null,
-    "democracy": 2
-   },
-   "positionSources": {
-    "immigration": {
-     "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-    },
-    "taxes": {
-     "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll190.xml"
-    },
-    "democracy": {
-     "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll102.xml"
-    }
-   },
-   "nullNotes": {
-    "cost": "his campaign site's Issues page (michaelguest.ms/issues) returned a 404, and guest.house.gov's Issues page contains only office contact information with no topic pages; news search found nothing beyond routine appropriations (checked Aug 29, 2026)",
-    "health": "same dead-end as above: no fetchable issues page or campaign statement found (checked Aug 29, 2026)",
-    "housing": "same dead-end as above (checked Aug 29, 2026)",
-    "climate": "same dead-end as above (checked Aug 29, 2026)",
-    "education": "same dead-end as above (checked Aug 29, 2026)",
-    "safety": "same dead-end as above; he chairs House Homeland Security but that maps to the immigration axis already scored, not a distinct domestic-crime statement (checked Aug 29, 2026)",
-    "repro": "his SBA Pro-Life America scorecard exists but is a third-party aggregator, not his own statement; no fetchable campaign or House-office quote found (checked Aug 29, 2026)"
-   },
-   "sources": [
-    {
-     "label": "House office site",
-     "url": "https://guest.house.gov/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Michael_Guest"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H8MS03125/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H6MS03228",
-   "name": "Michael Alexis Chiaradio",
-   "party": "Democrat",
-   "office": "us-house",
-   "district": "3",
-   "state": "MS",
-   "incumbent": false,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "background": "Felician University MBA graduate with rural business experience; won the Democratic nomination to challenge Rep. Michael Guest, casting himself as a pragmatic 'governing party' Democrat.",
-   "priorities": [
-    "Lower healthcare premiums, more providers",
-    "Expand USDA homebuilding programs",
-    "Balanced tax reform closing corporate loopholes"
-   ],
-   "positions": {
-    "cost": -1,
-    "health": -1,
-    "housing": -1,
-    "immigration": 0,
-    "taxes": -1,
-    "climate": null,
-    "education": null,
-    "safety": -1,
-    "repro": null,
-    "democracy": null
-   },
-   "positionSources": {
-    "cost": {
-     "label": "Wants to expand 'safety net programs to offer universal childcare and food assistance' amid 'ballooning health care and food costs' (Mississippi Today profile)",
-     "url": "https://mississippitoday.org/2025/12/10/mississippi-midterm-campaign-democrats-chiaradio-guest/"
-    },
-    "health": {
-     "label": "'Every American should have access to high quality preventive and curative healthcare at a low cost,' proposing lower premiums and more healthcare-worker training (campaign issues page)",
-     "url": "https://michaelachiaradio.com/issues/"
-    },
-    "housing": {
-     "label": "'High housing costs have locked millions of Americans out of economic independence'; proposes expanding USDA homebuilding programs (campaign issues page)",
-     "url": "https://michaelachiaradio.com/issues/"
-    },
-    "immigration": {
-     "label": "Mixed: 'The United States can grow stronger through well-managed immigration' paired with 'robust border security' (campaign issues page)",
-     "url": "https://michaelachiaradio.com/issues/"
-    },
-    "taxes": {
-     "label": "Wants 'a balanced tax plan that combines moderate ordinary income taxes with a corporate tax system that limits loopholes' (campaign issues page)",
-     "url": "https://michaelachiaradio.com/issues/"
-    },
-    "safety": {
-     "label": "Supports 'building respect and trust between law enforcement and residents' through body-worn cameras and transparency (campaign issues page)",
-     "url": "https://michaelachiaradio.com/issues/"
-    }
-   },
-   "nullNotes": {
-    "climate": "checked campaign issues page and Mississippi Today profile, nothing documented",
-    "education": "checked campaign issues page and Mississippi Today profile, nothing documented",
-    "repro": "checked campaign issues page and Mississippi Today profile, nothing documented",
-    "democracy": "checked campaign issues page and Mississippi Today profile, nothing documented"
-   },
-   "sources": [
-    {
-     "label": "Campaign issues page",
-     "url": "https://michaelachiaradio.com/issues/"
-    },
-    {
-     "label": "Mississippi Today profile",
-     "url": "https://mississippitoday.org/2025/12/10/mississippi-midterm-campaign-democrats-chiaradio-guest/"
-    },
-    {
-     "label": "Magnolia Tribune: campaign coverage",
-     "url": "https://magnoliatribune.com/2025/09/24/congressman-guest-draws-democrat-challenger-in-3rd-district-midterm-race/"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H6MS03228/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  },
-  {
-   "id": "fec-H2MS04258",
-   "name": "Walter Michael Ezell",
-   "party": "Republican",
-   "office": "us-house",
-   "district": "4",
-   "state": "MS",
-   "incumbent": true,
-   "tier": "researched",
-   "ballotStatus": "nominee",
-   "age": null,
-   "home": null,
-   "priorities": [
-    "Secure the southern border",
-    "Protect the unborn",
-    "Support law enforcement"
-   ],
-   "positions": {
-    "cost": null,
-    "health": null,
-    "housing": null,
-    "immigration": 2,
-    "taxes": 2,
-    "climate": null,
-    "education": null,
-    "safety": 1,
-    "repro": 2,
-    "democracy": 2
-   },
-   "positionSources": {
-    "immigration": {
-     "label": "Voted yes on S.5 Laken Riley Act mandating DHS detention of aliens charged with theft, passed 264-134 (House roll call 23, Jan 22, 2025); also lists 'Secure Our Southern Border' among his top campaign priorities (roll call 23; campaign site)",
-     "url": "https://clerk.house.gov/evs/2025/roll023.xml"
-    },
-    "taxes": {
-     "label": "Voted yes on H.R.1, the One Big Beautiful Bill Act extending the 2017 tax cuts, passed 218-214 (House roll call 190, Jul 3, 2025)",
-     "url": "https://clerk.house.gov/evs/2025/roll190.xml"
-    },
-    "safety": {
-     "label": "Lists 'Support Our Law Enforcement' among his top priorities, drawing on his 42-plus years in law enforcement (campaign site)",
-     "url": "https://www.mikeezell.ms/"
-    },
-    "repro": {
-     "label": "Lists 'Protect Our Unborn Children' among his top campaign priorities (campaign site)",
-     "url": "https://www.mikeezell.ms/"
-    },
-    "democracy": {
-     "label": "'We have to show ID to get on an airplane ... if you want to purchase a firearm, you've got to show your ID. What is the difference in showing your ID for a federal election?' backing the SAVE Act (campaign site; House roll call 102, Apr 10, 2025)",
-     "url": "https://www.mikeezell.ms/"
-    }
-   },
-   "nullNotes": {
-    "cost": "campaign site's six priorities (values, unborn, law enforcement, military/veterans, America/Mississippi first, border) do not include a cost-of-living or economic plank; no separate statement found (checked Aug 29, 2026)",
-    "health": "checked campaign site and house.gov, nothing documented",
-    "housing": "checked campaign site and house.gov; the site does discuss flood insurance/FEMA floodplain reform, which is disaster-infrastructure policy, not a general housing-affordability mechanism (checked Aug 29, 2026)",
-    "climate": "checked campaign site and house.gov, nothing documented",
-    "education": "checked campaign site and house.gov, nothing documented"
-   },
-   "sources": [
-    {
-     "label": "Campaign site",
-     "url": "https://www.mikeezell.ms/"
-    },
-    {
-     "label": "Ballotpedia profile",
-     "url": "https://ballotpedia.org/Mike_Ezell"
-    },
-    {
-     "label": "FEC filing",
-     "url": "https://www.fec.gov/data/candidate/H2MS04258/"
-    }
-   ],
-   "curatedAt": "2026-08-29"
-  }
- ]
+  ]
 }

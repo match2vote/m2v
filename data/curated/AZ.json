@@ -4,16 +4,20 @@
   "races": {
     "AZ-governor": {
       "status": "general",
-      "statusNote": "Gov. Katie Hobbs (D) seeks re-election against Rep. Andy Biggs (R), who won the July 21 Republican primary with about 72%. Green Party nominee Risa Lombardo and No Labels nominee Teri Ann Hourihan won their parties' primaries and are also on the November ballot."
+      "statusNote": "Gov. Katie Hobbs (D) seeks re-election against Rep. Andy Biggs (R), who won the July 21 Republican primary with about 72%. Green Party nominee Risa Lombardo and No Labels nominee Teri Ann Hourihan won their parties' primaries and are also on the November ballot. Positions researched and sourced for Lombardo (Green) and Hourihan (No Labels) as of Sep 2, 2026.",
+      "advancing": [
+        "az-gov-lombardo",
+        "az-gov-hourihan"
+      ]
     },
     "AZ-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6AZ05190",
         "fec-H4AZ01194",
         "fec-H6AZ01488"
       ],
-      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Jay Feely (Republican, 49.6%), Amish Shah (Democrat, 39.4%). Open seat: no incumbent is on the November ballot. Monica Alponte won the Libertarian primary and is also on the ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Jay Feely (Republican, 49.6%), Amish Shah (Democrat, 39.4%). Open seat: no incumbent is on the November ballot. Monica Alponte won the Libertarian primary and is also on the ballot.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -38,12 +42,12 @@
       ]
     },
     "AZ-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2AZ01354",
         "fec-H4AZ02184"
       ],
-      "statusNote": "Rep. Eli Crane (R) faces former Navajo Nation President Jonathan Nez (D), who won the Democratic primary on July 21, 2026. Crane was the only Republican on the primary ballot. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Eli Crane (R) faces former Navajo Nation President Jonathan Nez (D), who won the Democratic primary on July 21, 2026. Crane was the only Republican on the primary ballot.",
       "sources": [
         {
           "label": "2026 US House elections in Arizona",
@@ -73,12 +77,12 @@
       ]
     },
     "AZ-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8AZ09040",
         "fec-H4AZ04115"
       ],
-      "statusNote": "Rep. Greg Stanton (D) faces Zuhdi Jasser (R), who was the only Republican on the July 21, 2026 primary ballot after other filers withdrew or were removed. Stanton beat Kai Newkirk 62% to 38% in the Democratic primary. A No Labels nominee (Tisha Benoit) is reported by KTAR but could not be confirmed on an official page and is not listed here yet. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Greg Stanton (D) faces Zuhdi Jasser (R), who was the only Republican on the July 21, 2026 primary ballot after other filers withdrew or were removed. Stanton beat Kai Newkirk 62% to 38% in the Democratic primary. A No Labels nominee (Tisha Benoit) is reported by KTAR but could not be confirmed on an official page and is not listed here yet.",
       "sources": [
         {
           "label": "Maricopa County 2026 Primary Election Final Official Results (canvass hosted by the Arizona Secretary of State)",
@@ -95,12 +99,12 @@
       ]
     },
     "AZ-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6AZ05265",
         "fec-H6AZ05240"
       ],
-      "statusNote": "General election field from Arizona's July 21, 2026 primary: Mark Lamb (Republican), Elizabeth Lee (Democrat). Open seat: no incumbent is on the November ballot. No other party filed in this district. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Arizona's July 21, 2026 primary: Mark Lamb (Republican), Elizabeth Lee (Democrat). Open seat: no incumbent is on the November ballot. No other party filed in this district.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -121,13 +125,13 @@
       ]
     },
     "AZ-house-6": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2AZ02360",
         "fec-H6AZ06099",
         "fec-H6AZ06214"
       ],
-      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Juan Ciscomani (Republican), JoAnna Mendoza (Democrat), both unopposed. Rep. Juan Ciscomani is the incumbent. Jereme Peters was the Libertarian candidate on the primary ballot and advances to November. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Juan Ciscomani (Republican), JoAnna Mendoza (Democrat), both unopposed. Rep. Juan Ciscomani is the incumbent. Jereme Peters was the Libertarian candidate on the primary ballot and advances to November.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -144,12 +148,12 @@
       ]
     },
     "AZ-house-7": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6AZ07121",
         "fec-H4AZ07134"
       ],
-      "statusNote": "General election field from Arizona's July 21, 2026 primary: Adelita Grijalva (Democrat), Daniel Butierez (Republican). Rep. Adelita Grijalva is the incumbent. No other party filed in this district. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Arizona's July 21, 2026 primary: Adelita Grijalva (Democrat), Daniel Butierez (Republican). Rep. Adelita Grijalva is the incumbent. No other party filed in this district.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -166,12 +170,12 @@
       ]
     },
     "AZ-house-8": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4AZ08108",
         "fec-H4AZ08082"
       ],
-      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Abraham Hamadeh (Republican), Bernadette Greene Placentia (Democrat). Rep. Abraham Hamadeh is the incumbent. Jessie Martines (Arizona Independent Party) also filed in this district and their November ballot status is not confirmed in any source available to us. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Arizona's July 21, 2026 primary: Abraham Hamadeh (Republican), Bernadette Greene Placentia (Democrat). Rep. Abraham Hamadeh is the incumbent. Jessie Martines (Arizona Independent Party) also filed in this district and their November ballot status is not confirmed in any source available to us.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -188,12 +192,12 @@
       ]
     },
     "AZ-house-9": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0AZ01259",
         "fec-H6AZ09085"
       ],
-      "statusNote": "General election field from Arizona's July 21, 2026 primary: Paul Gosar (Republican), Danielle Sterbinsky (Democrat). Rep. Paul Gosar is the incumbent. No other party filed in this district. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Arizona's July 21, 2026 primary: Paul Gosar (Republican), Danielle Sterbinsky (Democrat). Rep. Paul Gosar is the incumbent. No other party filed in this district.",
       "sources": [
         {
           "label": "Arizona Secretary of State, 2026 candidate nominations and petitions filed",
@@ -379,19 +383,65 @@
       "office": "governor",
       "district": null,
       "state": "AZ",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Pima County: 2026 primary candidate roster",
-          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
+          "label": "Arizona Mirror: She sold MAGA merch, now she's running for governor as a Green Party candidate",
+          "url": "https://azmirror.com/2026/04/15/risa-lombardo-sold-maga-merch-now-shes-running-for-governor-as-a-green-party-candidate/"
         },
         {
-          "label": "Politics1: AZ 2026 candidates",
-          "url": "https://politics1.com/az.htm"
+          "label": "Risa Lombardo campaign: Issues",
+          "url": "https://risalombardo.com/issues/"
+        },
+        {
+          "label": "Pima County: 2026 primary candidate roster",
+          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Green Party nominee for Arizona governor",
+      "background": "Lombardo is the Green Party nominee for Arizona governor. She was a registered Democrat from 2006 to 2016, then voted in Republican primaries and served as an elected Republican precinct committeeman before switching to Green Party registration in 2025. She previously ran a merchandise business selling pro-Trump and anti-Biden items. Arizona Mirror and Green Party officials have called her candidacy a sham meant to pull votes from Democrats, which she disputes, saying her positions align with Green Party principles.",
+      "priorities": [
+        "Environment and climate",
+        "Cost of living and living wage",
+        "Education, homelessness, and prison system reform"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": -2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign issues page: 'Falling wages and rising bills are hitting most of us, and the most vulnerable are hit the hardest... We demand a living wage and a real safety net' (Risa Lombardo campaign, Issues)",
+          "url": "https://risalombardo.com/issues/"
+        },
+        "climate": {
+          "label": "Campaign issues page: 'The human cost of climate change is too high. We need to get off fossil fuels and on to renewable energy' (Risa Lombardo campaign, Issues)",
+          "url": "https://risalombardo.com/issues/"
+        }
+      },
+      "nullNotes": {
+        "health": "No healthcare position on campaign issues page or in Arizona Mirror/KYMA coverage (checked Sep 2, 2026).",
+        "housing": "No housing position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "immigration": "No immigration position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "taxes": "No tax position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "education": "Arizona Mirror interview quotes her wanting 'meaningful changes' to education, homelessness, and the prison system but gives no specific direction toward public investment or school choice (checked Sep 2, 2026).",
+        "safety": "Issues page's 'Peace' plank addresses militarism, foreign wars, and weapons of mass destruction, not domestic public safety policy, so left null (checked Sep 2, 2026).",
+        "repro": "No abortion position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "democracy": "Issues page calls for public financing of elections, open debates, and 'more representative voting systems' but does not address voting access rules like registration or mail voting that the axis tracks (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "az-gov-hourihan",
@@ -400,19 +450,75 @@
       "office": "governor",
       "district": null,
       "state": "AZ",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Pima County: 2026 primary candidate roster",
-          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
+          "label": "Teri Ann Hourihan campaign site",
+          "url": "https://teriann4azgov.org/"
         },
         {
-          "label": "Politics1: AZ 2026 candidates",
-          "url": "https://politics1.com/az.htm"
+          "label": "KJZZ: Underdog candidate bests well-funded opponent in Arizona's first No Labels gubernatorial primary",
+          "url": "https://www.kjzz.org/politics/2026-07-24/underdog-candidate-bests-well-funded-opponent-in-arizonas-first-no-labels-gubernatorial-primary"
+        },
+        {
+          "label": "Arizona Capitol Times: No Labels' Hourihan names running mate",
+          "url": "https://azcapitoltimes.com/news/2026/08/06/no-labels-hourihan-names-running-mate/"
+        },
+        {
+          "label": "Pima County: 2026 primary candidate roster",
+          "url": "https://content.civicplus.com/api/assets/az-pimacounty/e3efef88-46d4-421c-817b-50200031aef3"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Phoenix",
+      "now": "No Labels Party nominee for Arizona governor; mental health counselor",
+      "background": "Hourihan is a Phoenix-based Licensed Professional Counselor with a Ph.D. who won Arizona's first No Labels Party gubernatorial primary in July 2026 despite being outspent by her opponent. She has described trying both Democratic and Republican registration before settling into an independent, No Labels approach, saying party politics felt like being pigeonholed. Her campaign rejects PAC, corporate, and AIPAC funding, and she named a running mate in August 2026 ahead of the general election.",
+      "priorities": [
+        "Water security and affordability",
+        "Keeping the school voucher program while improving public schools",
+        "Homelessness and cost of living"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": 1,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": 1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign site proposes 'stronger oversight of fuel pricing' and rebate programs for teachers, first responders and public servants to ease financial burdens (Teri Ann Hourihan campaign)",
+          "url": "https://teriann4azgov.org/"
+        },
+        "health": {
+          "label": "Campaign site calls for 'employer rebate and incentive programs' and more price transparency to make care affordable while supporting independent providers (Teri Ann Hourihan campaign)",
+          "url": "https://teriann4azgov.org/"
+        },
+        "housing": {
+          "label": "Campaign site proposes 'adaptive reuse of vacant buildings' for affordable housing (Teri Ann Hourihan campaign)",
+          "url": "https://teriann4azgov.org/"
+        },
+        "education": {
+          "label": "Said she differs from Gov. Hobbs by supporting 'keeping Arizona's expanded school voucher program in place while also looking for ways to improve the state's public school system' (KJZZ)",
+          "url": "https://www.kjzz.org/politics/2026-07-24/underdog-candidate-bests-well-funded-opponent-in-arizonas-first-no-labels-gubernatorial-primary"
+        }
+      },
+      "nullNotes": {
+        "immigration": "Campaign site says only that she supports 'ensuring an effective legal immigration process,' without stating enforcement-first or pathway direction (checked Sep 2, 2026).",
+        "taxes": "Fuel-price oversight and public-servant rebates are targeted relief measures, not a stated broader tax-rate position (checked Sep 2, 2026).",
+        "climate": "Campaign site discusses only water conservation and water security, not energy policy (checked Sep 2, 2026).",
+        "safety": "Only stated position is removing homeless encampments while providing shelters and resources, which is homelessness policy, not domestic crime enforcement or prevention policy (checked Sep 2, 2026).",
+        "repro": "No abortion position found on campaign site or in KJZZ/Arizona Capitol Times coverage (checked Sep 2, 2026).",
+        "democracy": "No voting or election-rules position found on campaign site or in press coverage (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H4AZ01194",
@@ -422,7 +528,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -498,7 +604,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -561,7 +667,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -634,7 +740,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -721,7 +827,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -886,7 +992,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -967,7 +1073,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1036,7 +1142,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1105,7 +1211,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1178,7 +1284,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1275,7 +1381,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1323,7 +1429,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1395,7 +1501,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1477,7 +1583,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1544,7 +1650,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1634,7 +1740,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1706,7 +1812,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1800,7 +1906,7 @@
       "state": "AZ",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

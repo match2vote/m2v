@@ -3,26 +3,29 @@
   "note": "Hand-curated, sourced entries. Both statewide races: US Senate (Cotton) and Governor (Sanders).",
   "races": {
     "AR-senate": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-S4AR00103",
         "fec-S6AR00199",
         "fec-S6AR00223"
       ],
-      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton about 82%, Shoffner about 78%), no runoffs. Libertarian Jeffrey Wadlin is also on the November ballot. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 30, 2026 (second-check)."
+      "statusNote": "Sen. Tom Cotton (R) faces sixth-generation farmer Hallie Shoffner (D). Both won their March 3 primaries outright (Cotton about 82%, Shoffner about 78%), no runoffs. Libertarian Jeffrey Wadlin is also on the November ballot. Jeffrey Wadlin (fec-S6AR00223) was already in the race's advancing array but had no entry at all; now has a full curated entry (1 of 10 axes scored, campaign site unreachable). NOTE: this race's status is currently \"names-only\" and its other candidates are tier \"researched\" (overlap 3/10, parked per the unsourced-pass guide); per hidden-pass-sep2.md this fragment's entry is tier curated as instructed, but adding a curated-tier candidate to a names-only race may trigger the app's race-flip display rule, flagged for the merge step to review."
     },
     "AR-governor": {
       "status": "general",
-      "statusNote": "Gov. Sarah Huckabee Sanders (R), unopposed in her primary, faces state Sen. Fred Love (D), who won the March 3 Democratic primary. Libertarian Colt Shelby is also on the November ballot."
+      "statusNote": "Gov. Sarah Huckabee Sanders (R), unopposed in her primary, faces state Sen. Fred Love (D), who won the March 3 Democratic primary. Libertarian Colt Shelby is also on the November ballot. Libertarian nominee Colt Shelby given a full curated entry (4 of 10 axes scored via Arkansas Times profile); race's advancing list currently has no ids set at all in data/curated/AR.json (only Sanders/Love/Shelby named in statusNote prose), flagged for whoever reconciles the full advancing array.",
+      "advancing": [
+        "ar-gov-shelby"
+      ]
     },
     "AR-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0AR01083",
         "fec-H6AR01155",
         "ar-house-1-parsons"
       ],
-      "statusNote": "Rep. Rick Crawford (R) seeks re-election against Terri Yarbrough Green (D) and Libertarian Steve Parsons after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Rick Crawford (R) seeks re-election against Terri Yarbrough Green (D) and Libertarian Steve Parsons after the March 3, 2026 primary.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -35,12 +38,12 @@
       ]
     },
     "AR-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4AR02141",
         "fec-H6AR02286"
       ],
-      "statusNote": "Rep. French Hill (R) seeks re-election against Chris Jones (D) after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. French Hill (R) seeks re-election against Chris Jones (D) after the March 3, 2026 primary.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -53,12 +56,12 @@
       ]
     },
     "AR-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4AR04048",
         "fec-H6AR04084"
       ],
-      "statusNote": "Rep. Bruce Westerman (R) seeks re-election against James Russell (D) after the March 3, 2026 primary. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Bruce Westerman (R) seeks re-election against James Russell (D) after the March 3, 2026 primary.",
       "sources": [
         {
           "label": "Arkansas 2026 candidates by district (Election2026)",
@@ -71,13 +74,13 @@
       ]
     },
     "AR-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0AR03055",
         "fec-H6AR03128",
         "ar-house-3-wilson"
       ],
-      "statusNote": "Rep. Steve Womack (R) seeks re-election against Robb Ryerse (D) and Libertarian Bobby Wilson. Womack was the only Republican to file, so his March 3, 2026 primary was canceled. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Steve Womack (R) seeks re-election against Robb Ryerse (D) and Libertarian Bobby Wilson. Womack was the only Republican to file, so his March 3, 2026 primary was canceled.",
       "sources": [
         {
           "label": "2026 United States House of Representatives elections in Arkansas (Wikipedia)",
@@ -101,7 +104,7 @@
       "party": "Republican",
       "office": "us-senate",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 49,
@@ -176,7 +179,7 @@
       "party": "Democrat",
       "office": "us-senate",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": 38,
@@ -417,7 +420,7 @@
       "office": "us-house",
       "district": "1",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -506,19 +509,67 @@
       "office": "governor",
       "district": null,
       "state": "AR",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Talk Business: Arkansas Libertarians nominate 2026 candidates",
-          "url": "https://talkbusiness.net/2026/02/arkansas-libertarians-nominate-candidates-for-2026/"
+          "label": "Arkansas Times: Colt following, could Libertarian Colt Shelby have the best shot against Sanders",
+          "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
         },
         {
-          "label": "Talk Business: poll, Gov. Sanders holds lead over two opponents",
-          "url": "https://talkbusiness.net/2026/08/poll-gov-sanders-holds-lead-over-two-opponents/"
+          "label": "Arkansas Democrat-Gazette: Colt Shelby, opponent of Franklin County prison, becomes gubernatorial nominee",
+          "url": "https://www.arkansasonline.com/news/2026/feb/23/colt-shelby-opponent-of-franklin-county-prison/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Cecil (Franklin County), AR",
+      "priorities": [
+        "Protect Medicaid from federal cuts",
+        "Make education-freedom accounts income-based",
+        "Oppose new prison construction near Franklin County, expand Calico Rock facility instead"
+      ],
+      "nullNotes": {
+        "cost": "No general cost-of-living position beyond the tax/Medicaid points already scored (checked Sep 2, 2026)",
+        "housing": "Not addressed in available coverage (checked Sep 2, 2026)",
+        "immigration": "Not addressed in available coverage (checked Sep 2, 2026)",
+        "climate": "Not addressed in available coverage (checked Sep 2, 2026)",
+        "repro": "Not addressed in available coverage; no campaign website found (checked Sep 2, 2026)",
+        "democracy": "Not addressed in available coverage (checked Sep 2, 2026)"
+      },
+      "now": "Franklin County resident; Libertarian nominee for governor",
+      "background": "Shelby is a Franklin County, Arkansas resident who first gained attention suing the state over the timeline of a special legislative election, and later sued to oppose a proposed 3,000-bed state prison near his home. He won the Libertarian Party of Arkansas's nomination for governor on Feb 22, 2026, running against Gov. Sarah Huckabee Sanders.",
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": 0,
+        "climate": null,
+        "education": -1,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Warns that future federal Medicaid cuts pose challenges \"upon which many people depend\" and calls for proactive planning (Arkansas Times)",
+          "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
+        },
+        "taxes": {
+          "label": "Supports tax cuts \"in principle\" but says lawmakers should \"focus more on lower middle class Arkansans\" rather than the corporate tax cuts recently passed (Arkansas Times, both sides quoted)",
+          "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
+        },
+        "education": {
+          "label": "Says the governor's educational freedom accounts \"should be more income based,\" arguing homeschooling families are \"receiving too much money\" (Arkansas Times)",
+          "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
+        },
+        "safety": {
+          "label": "Opposes building a new 3,000-bed state prison near his home, arguing already-appropriated funds should expand the existing Calico Rock facility instead (Arkansas Times; Arkansas Democrat-Gazette)",
+          "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ar-house-3-wilson",
@@ -527,7 +578,7 @@
       "office": "us-house",
       "district": "3",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -590,7 +641,7 @@
       "office": "us-house",
       "district": "1",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
@@ -666,7 +717,7 @@
       "office": "us-house",
       "district": "3",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
@@ -742,7 +793,7 @@
       "office": "us-house",
       "district": "4",
       "state": "AR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -827,7 +878,7 @@
       "state": "AR",
       "incumbent": true,
       "now": "U.S. Representative for Arkansas's 2nd District",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -906,7 +957,7 @@
       "state": "AR",
       "incumbent": false,
       "now": "Former teacher and 2022 Arkansas gubernatorial candidate",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -982,7 +1033,7 @@
       "state": "AR",
       "incumbent": true,
       "now": "U.S. Representative for Arkansas's 4th District; Chairman, House Natural Resources Committee",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1055,7 +1106,7 @@
       "state": "AR",
       "incumbent": false,
       "now": "Retired pathologist; 2026 Democratic nominee, AR-1",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1115,7 +1166,7 @@
       "state": "AR",
       "incumbent": false,
       "now": "Pastor and nonprofit leader; 2026 Democratic nominee, AR-3",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1169,6 +1220,64 @@
         }
       ],
       "curatedAt": "2026-08-29"
+    },
+    {
+      "age": null,
+      "home": "Bentonville, AR",
+      "priorities": [
+        "Lower costs and raise wages for Arkansas's middle class"
+      ],
+      "nullNotes": {
+        "health": "No campaign website reachable (jeffwadlin.com and lp.org profile both robots-blocked or content-free); Arkansas Times launch article does not address health care (checked Sep 2, 2026)",
+        "housing": "Same source gap as above (checked Sep 2, 2026)",
+        "immigration": "Same source gap as above (checked Sep 2, 2026)",
+        "taxes": "Same source gap as above (checked Sep 2, 2026)",
+        "climate": "Same source gap as above (checked Sep 2, 2026)",
+        "education": "Same source gap as above (checked Sep 2, 2026)",
+        "safety": "Same source gap as above (checked Sep 2, 2026)",
+        "repro": "Same source gap as above (checked Sep 2, 2026)",
+        "democracy": "Same source gap as above (checked Sep 2, 2026)"
+      },
+      "id": "fec-S6AR00223",
+      "name": "Jeffrey Francis Wadlin",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "AR",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Businessman and management consultant; Libertarian nominee for U.S. Senate",
+      "background": "Wadlin is a Bentonville businessman with a mechanical engineering degree from the University of Virginia and an MBA from Northwestern University, whose career includes roles at Caterpillar, Capital One, and Sam's Club before starting his own consulting business. He won the Libertarian Party of Arkansas's 2026 U.S. Senate nomination and describes himself as a centrist offering \"pragmatic solutions.\"",
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says Arkansas's middle class \"is being squeezed\" and calls for \"pragmatic, results driven reforms\" on cost and wages \"rather than government dependency programs\" (Arkansas Times)",
+          "url": "https://arktimes.com/arkansas-blog/2026/05/19/libertarian-u-s-senate-candidate-announces-campaign-kickoff"
+        }
+      },
+      "sources": [
+        {
+          "label": "Arkansas Times: Libertarian U.S. Senate candidate announces campaign kickoff",
+          "url": "https://arktimes.com/arkansas-blog/2026/05/19/libertarian-u-s-senate-candidate-announces-campaign-kickoff"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AR00223/"
+        }
+      ],
+      "tier": "curated",
+      "curatedAt": "2026-09-02"
     }
   ]
 }

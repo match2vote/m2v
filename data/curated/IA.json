@@ -9,16 +9,16 @@
         "fec-S6IA00298",
         "fec-S6IA00181"
       ],
-      "statusNote": "Open seat (Sen. Ernst retiring): Rep. Ashley Hinson (R) faces state Rep. Josh Turek (D), both nominated June 2. Libertarian Thomas Laehn is also on the November ballot."
+      "statusNote": "Open seat (Sen. Ernst retiring): Rep. Ashley Hinson (R) faces state Rep. Josh Turek (D), both nominated June 2. Libertarian Thomas Laehn is also on the November ballot. Confirmed Thomas Laehn qualified for the Nov 3, 2026 ballot (roughly 10,000 signatures submitted, unchallenged) per Radio Iowa; ballotStatus updated from filed to nominee."
     },
     "IA-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8IA02043",
         "fec-H2IA02111",
         "fec-H6IA01213"
       ],
-      "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "A 2024 rematch decided last time by about 800 votes: Rep. Mariannette Miller-Meeks (R) faces law professor Christina Bohannan (D). Both won their June 2, 2026 primaries (Miller-Meeks 71.6%, Bohannan 81.5%). We know who's running.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -57,14 +57,14 @@
       ]
     },
     "IA-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6IA02237",
         "fec-H6IA02211",
         "ia-house-2-stewart",
         "fec-H6IA02260"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Also on the ballot per the Secretary of State's list: Rick Stewart (Libertarian) and Dave Bushaw (no party). We know who's running. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Joe Mitchell (Republican), Lindsay James (Democrat). No incumbent is on the November ballot. Also on the ballot per the Secretary of State's list: Rick Stewart (Libertarian) and Dave Bushaw (no party). We know who's running.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -81,12 +81,12 @@
       ]
     },
     "IA-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6IA04167",
         "fec-H6IA04217"
       ],
-      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot, and no other candidate appears on the Secretary of State's list. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Iowa's June 2, 2026 primary: Chris McGowan (Republican), Dave Dawson (Democrat). No incumbent is on the November ballot, and no other candidate appears on the Secretary of State's list. We know who's running.",
       "sources": [
         {
           "label": "Wikipedia, 2026 United States House of Representatives elections in Iowa",
@@ -257,7 +257,7 @@
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "now": "U.S. House of Representatives (IA-01)",
@@ -351,7 +351,7 @@
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "now": "Law professor, University of Iowa",
@@ -615,15 +615,71 @@
       "office": "us-senate",
       "district": null,
       "state": "IA",
-      "tier": "fec",
-      "ballotStatus": "filed",
+      "tier": "curated",
+      "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
+        {
+          "label": "Laehn for Iowa campaign site, Issues page",
+          "url": "https://laehn4iowa.org/issues"
+        },
+        {
+          "label": "Radio Iowa: Laehn qualifies for Nov. ballot",
+          "url": "https://www.radioiowa.com/2026/06/10/iowa-libertarian-laehn-running-for-us-senate-qualifies-for-nov-ballot/"
+        },
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6IA00181/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Greene County Attorney; college professor",
+      "background": "Thomas Laehn is the elected Greene County Attorney and a college professor running as the Libertarian nominee for Iowa's open U.S. Senate seat (Joni Ernst is retiring). He submitted roughly 10,000 signatures, nearly triple the requirement, and his nominating paperwork went unchallenged, qualifying him for the November 2026 ballot. He frames his campaign around breaking the two-party system: 'Independents, disaffected Republicans, disaffected Democrats, we are the majority.'",
+      "priorities": [
+        "Secure the border while expanding legal immigration caps",
+        "Decriminalize marijuana",
+        "End PAC and super PAC influence in elections"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 0,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": -1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Mixed: 'I will fight for a secure border. I will also fight to raise or eliminate artificial caps on the number of people who can legally immigrate' (campaign site)",
+          "url": "https://laehn4iowa.org/issues"
+        },
+        "safety": {
+          "label": "Opposes marijuana prohibition, arguing 'the cost to taxpayers to investigate, prosecute, and incarcerate individuals for using marijuana far outweighs the benefits of these laws' (campaign site)",
+          "url": "https://laehn4iowa.org/issues"
+        },
+        "repro": {
+          "label": "Says 'Congress should have no role in the regulation of abortion' and would 'uphold the Supreme Court's decision in Dobbs' that abortion policy is reserved for the states (campaign site)",
+          "url": "https://laehn4iowa.org/issues"
+        },
+        "taxes": {
+          "label": "Pledges to 'vote against every funding measure that would result in an increase in our national debt' (campaign site)",
+          "url": "https://laehn4iowa.org/issues"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-regulation or wage statement found on campaign site (checked Sep 2, 2026)",
+        "health": "No healthcare statement found on campaign site (checked Sep 2, 2026)",
+        "housing": "No housing statement found on campaign site (checked Sep 2, 2026)",
+        "climate": "No climate/energy statement found on campaign site (checked Sep 2, 2026)",
+        "education": "No education statement found on campaign site (checked Sep 2, 2026)",
+        "democracy": "Supports ending PAC/super PAC influence, which is a campaign-finance stance, not a voting-access or election-administration position; no voting/elections statement found (checked Sep 2, 2026)"
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H6IA01213",
@@ -632,7 +688,7 @@
       "office": "us-house",
       "district": "1",
       "state": "IA",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
@@ -698,7 +754,7 @@
       "office": "us-house",
       "district": "2",
       "state": "IA",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -770,7 +826,7 @@
       "office": "us-house",
       "district": "2",
       "state": "IA",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -846,7 +902,7 @@
       "district": "2",
       "state": "IA",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -928,7 +984,7 @@
       "district": "2",
       "state": "IA",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -998,7 +1054,7 @@
       "district": "4",
       "state": "IA",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1074,7 +1130,7 @@
       "district": "4",
       "state": "IA",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

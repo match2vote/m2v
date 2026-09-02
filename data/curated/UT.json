@@ -3,14 +3,14 @@
   "note": "Hand-curated, sourced entries. Utah redistricted before 2026, so every sitting member is running in a renumbered district.",
   "races": {
     "UT-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8UT04053",
         "fec-H6UT01244",
         "ut-house-1-west",
         "ut-house-1-montgomery"
       ],
-      "statusNote": "Open seat under Utah's new map: former Rep. Ben McAdams (D) won the June 23, 2026 Democratic primary and faces Republican Riley Owen, Libertarian Jesse West and unaffiliated candidate Elias Montgomery. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Open seat under Utah's new map: former Rep. Ben McAdams (D) won the June 23, 2026 Democratic primary and faces Republican Riley Owen, Libertarian Jesse West and unaffiliated candidate Elias Montgomery.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -27,7 +27,7 @@
       ]
     },
     "UT-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0UT01205",
         "fec-H6UT01160",
@@ -35,7 +35,7 @@
         "ut-house-2-cottam",
         "fec-H6UT02531"
       ],
-      "statusNote": "Rep. Blake Moore (R), who represented the old 1st district, faces Democrat Peter Crosby, Independent American candidate Carlton Bowen, Libertarian Daniel Cottam and unaffiliated candidate Robert Moesinger after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Blake Moore (R), who represented the old 1st district, faces Democrat Peter Crosby, Independent American candidate Carlton Bowen, Libertarian Daniel Cottam and unaffiliated candidate Robert Moesinger after the June 23, 2026 primary.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -52,7 +52,7 @@
       ]
     },
     "UT-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4UT02296",
         "fec-H6UT03182",
@@ -61,7 +61,7 @@
         "ut-house-3-hooslyn",
         "ut-house-3-scott"
       ],
-      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidates Adonis Hooslyn and Ayden Scott after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Celeste Maloy (R), who represented the old 2nd district, faces Democrat Kent Udell, Constitution Party candidate Cassie Easley, Libertarian Mike Stoddard and unaffiliated candidates Adonis Hooslyn and Ayden Scott after the June 23, 2026 primary.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -78,14 +78,14 @@
       ]
     },
     "UT-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4UT03260",
         "fec-H6UT02424",
         "ut-house-4-wright",
         "fec-H6UT04024"
       ],
-      "statusNote": "Rep. Mike Kennedy (R), who represented the old 3rd district, is the incumbent running under Utah's new map. He faces Democrat Jonny Larsen, Libertarian Taylor Wright and unaffiliated candidate Steven Burt after the June 23, 2026 primary. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Mike Kennedy (R), who represented the old 3rd district, is the incumbent running under Utah's new map. He faces Democrat Jonny Larsen, Libertarian Taylor Wright and unaffiliated candidate Steven Burt after the June 23, 2026 primary.",
       "sources": [
         {
           "label": "The Green Papers: Utah 2026 general election candidates",
@@ -111,7 +111,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -163,7 +163,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -251,7 +251,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -307,7 +307,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -374,7 +374,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -426,7 +426,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -496,7 +496,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -564,7 +564,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -628,7 +628,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -676,7 +676,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "filed",
       "age": null,
       "home": null,
@@ -731,7 +731,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "filed",
       "age": null,
       "home": null,
@@ -785,7 +785,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -867,7 +867,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -931,7 +931,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1016,7 +1016,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1085,7 +1085,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1169,7 +1169,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1235,7 +1235,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1319,7 +1319,7 @@
       "state": "UT",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

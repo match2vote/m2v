@@ -13,13 +13,13 @@
       "statusNote": "Open seat: Sen. Steve Daines withdrew minutes before the March filing deadline and endorsed Kurt Alme (R), who won the June 2 primary with 76%. Alme faces Alani Bankhead (D, 44% primary winner), independent former UM president Seth Bodnar (qualified by petition with 21,284 verified signatures), and Libertarian Kyle Austin. Bankhead and Bodnar each refused drop-out pressure before the Aug 10 withdrawal deadline, locking in a four-way general."
     },
     "MT-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6MT01152",
         "fec-H6MT01137",
         "mt-house-1-sheedy"
       ],
-      "statusNote": "General election field from Montana's June 2, 2026 primary: Aaron Flint (Republican), Sam Forstag (Democrat). Open seat: Rep. Ryan Zinke is retiring and is not on the November ballot. Also on the November ballot: Nick Sheedy (Libertarian). An independent, Kimberly Persico, appears in one source only and is not listed here. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Aaron Flint (Republican), Sam Forstag (Democrat). Open seat: Rep. Ryan Zinke is retiring and is not on the November ballot. Also on the November ballot: Nick Sheedy (Libertarian). An independent, Kimberly Persico, appears in one source only and is not listed here.",
       "sources": [
         {
           "label": "The Green Papers, Montana 2026 general election",
@@ -36,14 +36,14 @@
       ]
     },
     "MT-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4MT02098",
         "fec-H6MT02150",
         "fec-H6MT02168",
         "mt-house-2-mccracken"
       ],
-      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat) and Libertarian nominee Patrick McCracken. Rep. Troy Downing is the incumbent. Independent Michael Eisenhauer's petition was still listed as pending by the Secretary of State on Aug 24. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Montana's June 2, 2026 primary: Troy Downing (Republican), Brian Miller (Democrat) and Libertarian nominee Patrick McCracken. Rep. Troy Downing is the incumbent. Independent Michael Eisenhauer's petition was still listed as pending by the Secretary of State on Aug 24.",
       "sources": [
         {
           "label": "The Green Papers, Montana 2026 general election",
@@ -415,7 +415,7 @@
       "office": "us-house",
       "district": "1",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -457,7 +457,7 @@
       "office": "us-house",
       "district": "2",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -495,7 +495,7 @@
       "office": "us-house",
       "district": "1",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -561,7 +561,7 @@
       "office": "us-house",
       "district": "1",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -627,7 +627,7 @@
       "office": "us-house",
       "district": "2",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -696,7 +696,7 @@
       "office": "us-house",
       "district": "2",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -743,7 +743,7 @@
       "office": "us-house",
       "district": "2",
       "state": "MT",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,

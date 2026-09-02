@@ -4,17 +4,20 @@
   "races": {
     "NV-governor": {
       "status": "general",
-      "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 63% over Washoe County Commissioner Alexis Hill. State Board of Education member Danielle Ford is running with no party affiliation. One of the most competitive governor races in the country."
+      "statusNote": "Gov. Joe Lombardo (R) seeks a second term against Attorney General Aaron Ford (D). In the June 9 primary Lombardo took 91% of the Republican vote; Ford won the Democratic race with 63% over Washoe County Commissioner Alexis Hill. State Board of Education member Danielle Ford is running with no party affiliation. One of the most competitive governor races in the country. Positions researched and sourced for Danielle Ford (no party affiliation) as of Sep 2, 2026.",
+      "advancing": [
+        "nv-gov-ford-danielle"
+      ]
     },
     "NV-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8NV03036",
         "fec-H6NV01331",
         "fec-H6NV01315",
         "nv-house-1-stjohn"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot with no party affiliation: Bobby Khan and Steven St John. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Dina Titus (Democrat), Carrie Buck (Republican). Rep. Dina Titus is the incumbent. Also on the November ballot with no party affiliation: Bobby Khan and Steven St John.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -31,13 +34,13 @@
       ]
     },
     "NV-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6NV02362",
         "fec-H4NV04108",
         "nv-house-2-chapman"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Teresa Benitez-Thompson (Democrat), David Flippo (Republican). No incumbent is on the November ballot. Also on the November ballot: Lynn Chapman (Independent American). Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Teresa Benitez-Thompson (Democrat), David Flippo (Republican). No incumbent is on the November ballot. Also on the November ballot: Lynn Chapman (Independent American).",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -54,13 +57,13 @@
       ]
     },
     "NV-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6NV04020",
         "fec-H4NV03225",
         "nv-house-3-kamerath"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Jon Kamerath (Independent American Party) is also on the November ballot. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Susie Lee (Democrat), Marty O'Donnell (Republican). Rep. Susie Lee is the incumbent. Jon Kamerath (Independent American Party) is also on the November ballot.",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -77,14 +80,14 @@
       ]
     },
     "NV-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2NV04011",
         "fec-H6NV04111",
         "nv-house-4-best",
         "nv-house-4-johnson"
       ],
-      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party). Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from Nevada's June 9, 2026 primary: Steven Horsford (Democrat), Cody Whipple (Republican). Rep. Steven Horsford is the incumbent. Also on the November ballot: Russell Best (Independent American), William Johnson (No Political Party).",
       "sources": [
         {
           "label": "The Green Papers, Nevada 2026 general election",
@@ -380,15 +383,66 @@
       "office": "governor",
       "district": null,
       "state": "NV",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
+          "label": "Danielle Ford for Governor: Platform",
+          "url": "https://daniellefornevada.com/platform"
+        },
+        {
+          "label": "Ballotpedia: Danielle Ford",
+          "url": "https://ballotpedia.org/Danielle_Ford"
+        },
+        {
+          "label": "Nevada Current: Candidate filing ends with a congressional throng, a smattering of perennials, and a couple Fords",
+          "url": "https://nevadacurrent.com/2026/03/16/candidate-filing-ends-with-a-congressional-throng-a-smattering-of-perennials-and-a-couple-fords/"
+        },
+        {
           "label": "The Nevada Independent: 2026 general election voter guide",
           "url": "https://thenevadaindependent.com/elections/2026/general"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Las Vegas",
+      "now": "Nevada State Board of Education member, District 3; no-party governor candidate",
+      "background": "Ford is a Las Vegas native and marketing strategist currently serving on the Nevada State Board of Education (District 3, since January 2025); she previously served on the Clark County School District Board of Trustees from 2019 to 2023. She is running for governor with no party affiliation, arguing government should serve people before parties, PACs, lobbyists, or national political agendas, and framing housing, healthcare, education, and cost of living as interconnected systems problems. She has not completed Ballotpedia's Candidate Connection survey for the race.",
+      "priorities": [
+        "Government accountability",
+        "Affordability (housing, healthcare, cost of living)",
+        "Education"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 0,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "safety": {
+          "label": "Campaign platform: 'Supporting police and supporting prevention are not opposites,' calling for accountability for serious harm alongside prevention, treatment and functioning mental health systems (Danielle Ford for Governor)",
+          "url": "https://daniellefornevada.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "Platform page discusses affordability broadly (housing, rent, utilities, wages, childcare) but names no specific price-control or deregulation mechanism (checked Sep 2, 2026).",
+        "health": "Platform page calls for 'stronger care systems' addressing access and mental health but does not state a public-expansion or private-market mechanism (checked Sep 2, 2026).",
+        "housing": "Platform page names housing as part of an affordability web but proposes no specific building, zoning, or renter-protection policy (checked Sep 2, 2026).",
+        "immigration": "No immigration position found on campaign site, Ballotpedia, or Nevada Current coverage (checked Sep 2, 2026).",
+        "taxes": "No tax position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "climate": "No climate or energy position found on campaign site or in press coverage (checked Sep 2, 2026).",
+        "education": "Platform page's education language ('respects educators,' 'gives families real options,' 'public dollars accountable') mixes public-school and choice-adjacent phrasing without committing to either pole (checked Sep 2, 2026).",
+        "repro": "No abortion position found on campaign site, Ballotpedia, or Nevada Current coverage (checked Sep 2, 2026).",
+        "democracy": "Platform's 'public money belongs to the public' language is about spending accountability and transparency, not voting or election rules (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H8NV03036",
@@ -397,7 +451,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -474,7 +528,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -540,7 +594,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "filed",
       "incumbent": false,
       "age": null,
@@ -604,7 +658,7 @@
       "office": "us-house",
       "district": "1",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -664,7 +718,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -731,7 +785,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -798,7 +852,7 @@
       "office": "us-house",
       "district": "2",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -850,7 +904,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -927,7 +981,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -994,7 +1048,7 @@
       "office": "us-house",
       "district": "3",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1046,7 +1100,7 @@
       "office": "us-house",
       "district": "4",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1123,7 +1177,7 @@
       "office": "us-house",
       "district": "4",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1189,7 +1243,7 @@
       "office": "us-house",
       "district": "4",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1241,7 +1295,7 @@
       "office": "us-house",
       "district": "4",
       "state": "NV",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,

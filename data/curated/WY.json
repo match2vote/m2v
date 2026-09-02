@@ -12,7 +12,7 @@
     },
     "WY-governor": {
       "status": "general",
-      "statusNote": "Open seat, Gov. Mark Gordon is not seeking a third term. State Sen. Eric Barlow (R) defeated Megan Degenfelder in the Aug 18 primary. Kenneth Casner (D) won the Democratic nomination. Rebecca Bextel of Jackson (Constitution Party) is also on the November ballot.",
+      "statusNote": "Open seat, Gov. Mark Gordon is not seeking a third term. State Sen. Eric Barlow (R) defeated Megan Degenfelder in the Aug 18 primary. Kenneth Casner (D) won the Democratic nomination. Rebecca Bextel of Jackson (Constitution Party) is also on the November ballot. Positions researched and sourced for Rebecca Bextel (Constitution) as of Sep 2, 2026.",
       "advancing": [
         "wy-gov-barlow",
         "wy-gov-casner",
@@ -20,7 +20,7 @@
       ]
     },
     "WY-house-at-large": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6WY00217",
         "fec-H6WY01173",
@@ -28,7 +28,7 @@
         "wy-house-johnson",
         "wy-house-workman"
       ],
-      "statusNote": "Secretary of State Chuck Gray (R) won a crowded nine-way August 18, 2026 Republican primary to succeed Harriet Hageman, who ran for Senate instead; Lisa Kinney won the Democratic primary; Constitution nominee Jeff Haggit, Libertarian nominee Shawn Johnson, and independent Daniel Workman also qualified for the November ballot (The Green Papers Wyoming 2026 general candidate roster; WyoFile). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Secretary of State Chuck Gray (R) won a crowded nine-way August 18, 2026 Republican primary to succeed Harriet Hageman, who ran for Senate instead; Lisa Kinney won the Democratic primary; Constitution nominee Jeff Haggit, Libertarian nominee Shawn Johnson, and independent Daniel Workman also qualified for the November ballot (The Green Papers Wyoming 2026 general candidate roster; WyoFile).",
       "sources": [
         {
           "label": "The Green Papers: Wyoming 2026 general election candidates",
@@ -416,19 +416,71 @@
       "office": "governor",
       "district": null,
       "state": "WY",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "WyoFile: Barlow wins GOP nomination; general field includes Bextel (Constitution, Jackson)",
-          "url": "https://wyofile.com/eric-barlow-wins-gop-nomination-for-wyoming-governor/"
+          "label": "Cowboy State Daily: CheckGate's Rebecca Bextel Running For Governor With Wyoming Constitution Party",
+          "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
         },
         {
-          "label": "Buckrail: Bextel announces Constitution Party campaign for governor",
-          "url": "https://buckrail.com/jacksons-rebecca-bextel-announces-campaign-for-governor/"
+          "label": "WyoFile: CheckGate's Rebecca Bextel launches 'insurance policy' bid for Wyoming governor",
+          "url": "https://wyofile.com/checkgates-rebecca-bextel-launches-insurance-policy-bid-for-wyoming-governor/"
+        },
+        {
+          "label": "Oil City News: Republican Barlow advances to face Democrat Casner, Constitution Party's Bextel for Wyoming governor",
+          "url": "https://oilcity.news/community/elections/2026/08/18/republican-barlow-advances-to-face-democrat-casner-constitution-partys-bextel-for-wyoming-governor/"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Jackson",
+      "now": "Teton County conservative activist and real estate business co-owner; Constitution Party nominee for governor",
+      "background": "Bextel is a Teton County activist originally from Alabama who lives in Jackson with her husband and four daughters and co-operates Mountain Business Center, a real-estate and registered-agent services firm. She was active in Republican Party politics as a precinct committeewoman, state committeewoman, and 2020/2024 RNC alternate delegate before an unsuccessful 2025 bid for state party chair and her resignation as Teton County GOP committeewoman. She drew statewide attention in the 2026 legislative session over 'Checkgate,' hand-delivering campaign checks to House members on the chamber floor; a House investigation found no bribery but admonished her conduct, and a criminal investigation remains open. She switched to the Constitution Party, saying it is 'not about abandoning conservative principles' but 'returning to them.'",
+      "priorities": [
+        "Limited government and constitutional fidelity",
+        "Energy dominance",
+        "Pro-life values and parental rights"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": 2,
+        "immigration": null,
+        "taxes": null,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "As a state legislator she championed House Bill 141, which 'sought to ban housing mitigation fees statewide' (it passed the House and died in the Senate) (Cowboy State Daily)",
+          "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
+        },
+        "climate": {
+          "label": "Governor platform lists 'energy dominance' as a core plank (Cowboy State Daily)",
+          "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
+        },
+        "education": {
+          "label": "Governor platform lists 'parental rights' as a core plank alongside limited government and pro-life values (Cowboy State Daily)",
+          "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
+        },
+        "repro": {
+          "label": "Governor platform explicitly lists 'pro-life values' as a core plank (Cowboy State Daily)",
+          "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-control or wage policy documented in WyoFile/Cowboy State Daily/County 17 coverage (checked Sep 2, 2026).",
+        "health": "No healthcare policy documented (checked Sep 2, 2026).",
+        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
+        "taxes": "'Limited government' is stated only as general framing, without a specific tax-rate proposal (checked Sep 2, 2026).",
+        "safety": "No domestic public safety policy documented (checked Sep 2, 2026).",
+        "democracy": "No voting or elections policy documented (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H6WY00217",
@@ -437,7 +489,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "WY",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -509,7 +561,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "WY",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -578,7 +630,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "WY",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -644,7 +696,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "WY",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -700,7 +752,7 @@
       "office": "us-house",
       "district": "at-large",
       "state": "WY",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "general",
       "incumbent": false,
       "age": null,

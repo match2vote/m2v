@@ -4,7 +4,7 @@
   "races": {
     "OK-governor": {
       "status": "general",
-      "statusNote": "Open seat, Gov. Stitt is term-limited. Former state Sen. Mike Mazzei defeated Attorney General Gentner Drummond by 2,020 votes out of more than 371,000 cast in the Aug 25 Republican runoff; Drummond conceded. House Minority Leader Cyndi Munson won the Democratic nomination June 16. Independents Jerry Griffin, Robert Brooks and Orlando Lynn Bush are also on the November ballot.",
+      "statusNote": "Open seat, Gov. Stitt is term-limited. Former state Sen. Mike Mazzei defeated Attorney General Gentner Drummond by 2,020 votes out of more than 371,000 cast in the Aug 25 Republican runoff; Drummond conceded. House Minority Leader Cyndi Munson won the Democratic nomination June 16. Independents Jerry Griffin, Robert Brooks and Orlando Lynn Bush are also on the November ballot. Independents Jerry Griffin, Robert Brooks and Orlando Lynn Bush are confirmed on the November general ballot per NonDoc's filing coverage and News9's general-election preview; no documented policy positions were found for any of the three after two search rounds each, so all three now carry full curated entries that are all-null with dated dead-end notes.",
       "advancing": [
         "ok-gov-mazzei",
         "ok-gov-munson",
@@ -15,7 +15,7 @@
     },
     "OK-senate": {
       "status": "general",
-      "statusNote": "Open seat: Sen. Markwayne Mullin resigned in March 2026 after his confirmation as Homeland Security secretary; appointed Sen. Alan Armstrong is not running. Rep. Kevin Hern won the June 16 Republican primary with 67.6% and no runoff. N'Kiyla Jasmine Thomas defeated Jim Priest with 61% in the Aug 25 Democratic runoff. Independents Ron Meinhardt and Curtis Stinnett and Libertarian Sevier White are also on the November ballot; none of the three has documented policy positions we could find, so they appear by name only.",
+      "statusNote": "Open seat: Sen. Markwayne Mullin resigned in March 2026 after his confirmation as Homeland Security secretary; appointed Sen. Alan Armstrong is not running. Rep. Kevin Hern won the June 16 Republican primary with 67.6% and no runoff. N'Kiyla Jasmine Thomas defeated Jim Priest with 61% in the Aug 25 Democratic runoff. Independents Ron Meinhardt and Curtis Stinnett and Libertarian Sevier White are also on the November ballot; none of the three has documented policy positions we could find, so they appear by name only. Ron Meinhardt's assigned id fec-S6OK00285 does not exist in the OK FEC roster; the matching FEC id is fec-S6OK04205 (already listed in this race's advancing array), used here instead. Independents Curtis Stinnett and Ron Meinhardt and Libertarian Sevier White are confirmed on the November general ballot per News9's general-election preview; Meinhardt now has a partially sourced curated entry, while Stinnett and White have full curated entries that are all-null with dated dead-end notes after two search rounds each.",
       "advancing": [
         "fec-S6OK04247",
         "fec-S6OK04163",
@@ -25,12 +25,12 @@
       ]
     },
     "OK-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6OK01235",
         "fec-H6OK01201"
       ],
-      "statusNote": "Open seat: Rep. Kevin Hern (R) is running for Senate instead of re-election. State Rep. Mark Tedford (R) is the Republican nominee after runoff opponent Jackson Lahmeyer withdrew June 17, 2026; Tulsa school board member John Croisant (D) won the Democratic primary outright June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; NonDoc). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Open seat: Rep. Kevin Hern (R) is running for Senate instead of re-election. State Rep. Mark Tedford (R) is the Republican nominee after runoff opponent Jackson Lahmeyer withdrew June 17, 2026; Tulsa school board member John Croisant (D) won the Democratic primary outright June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; NonDoc).",
       "sources": [
         {
           "label": "The Green Papers: Oklahoma 2026 general election candidates",
@@ -43,13 +43,13 @@
       ]
     },
     "OK-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OK02315",
         "ok-house2-wade",
         "ok-house2-hopkins"
       ],
-      "statusNote": "Incumbent Rep. Josh Brecheen (R) ran unopposed for renomination; Brandon Wade won the Democratic primary June 16, 2026; independent Ronnie Hopkins also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Incumbent Rep. Josh Brecheen (R) ran unopposed for renomination; Brandon Wade won the Democratic primary June 16, 2026; independent Ronnie Hopkins also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice).",
       "sources": [
         {
           "label": "The Green Papers: Oklahoma 2026 general election candidates",
@@ -62,12 +62,12 @@
       ]
     },
     "OK-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4OK06056",
         "ok-house3-byrd"
       ],
-      "statusNote": "Incumbent Rep. Frank Lucas (R) ran unopposed for renomination; Enid reporter Suzie Byrd won the Democratic primary June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Incumbent Rep. Frank Lucas (R) ran unopposed for renomination; Enid reporter Suzie Byrd won the Democratic primary June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice).",
       "sources": [
         {
           "label": "The Green Papers: Oklahoma 2026 general election candidates",
@@ -80,13 +80,13 @@
       ]
     },
     "OK-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OK04055",
         "fec-H6OK04155",
         "ok-house4-bonacci"
       ],
-      "statusNote": "Incumbent Rep. Tom Cole (R) ran unopposed for renomination; Mitchell Jacob won the Democratic primary June 16, 2026 with 54%; independent Rocco Bonacci also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; KOSU). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Incumbent Rep. Tom Cole (R) ran unopposed for renomination; Mitchell Jacob won the Democratic primary June 16, 2026 with 54%; independent Rocco Bonacci also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; KOSU).",
       "sources": [
         {
           "label": "The Green Papers: Oklahoma 2026 general election candidates",
@@ -99,14 +99,14 @@
       ]
     },
     "OK-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0OK05205",
         "fec-H6OK05293",
         "fec-H6OK05301",
         "ok-house5-nieves"
       ],
-      "statusNote": "Incumbent Rep. Stephanie Bice (R) ran unopposed for renomination; Jena Nelson won the Democratic primary June 16, 2026 with 57% over Trey Martin; independents Robert Henri and Austin Nieves also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; NonDoc). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "statusNote": "Incumbent Rep. Stephanie Bice (R) ran unopposed for renomination; Jena Nelson won the Democratic primary June 16, 2026 with 57% over Trey Martin; independents Robert Henri and Austin Nieves also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; NonDoc).",
       "sources": [
         {
           "label": "The Green Papers: Oklahoma 2026 general election candidates",
@@ -372,23 +372,55 @@
       "office": "governor",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Oklahoma State Election Board: 2026 candidate list book",
-          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
-        },
-        {
-          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
-          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
-        },
-        {
           "label": "NonDoc: 2026 filing period, statewide and federal candidates",
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        },
+        {
+          "label": "politics1.com: Oklahoma 2026 candidates",
+          "url": "https://politics1.com/ok.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Independent candidate for governor, one of 15 candidates who filed for the office during the April 2026 filing period.",
+      "background": "No legislative, executive, or prior campaign record was found for this candidate distinct from a same-named independent Tulsa Public Schools board member who is separately running for Oklahoma State Superintendent of Public Instruction in 2026; the two do not appear to be the same person based on office filed for, but no source discusses this Jerry Griffin's occupation or history. No campaign website, social media platform, or press interview was located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "health": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "housing": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "immigration": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "taxes": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "climate": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "education": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "safety": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "repro": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)",
+        "democracy": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found; searches return only a distinct Jerry Griffin running for state superintendent, and no material tied specifically to the gubernatorial filer was located (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "ok-gov-brooks",
@@ -397,23 +429,55 @@
       "office": "governor",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Oklahoma State Election Board: 2026 candidate list book",
-          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
-        },
-        {
-          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
-          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
-        },
-        {
           "label": "NonDoc: 2026 filing period, statewide and federal candidates",
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        },
+        {
+          "label": "politics1.com: Oklahoma 2026 candidates",
+          "url": "https://politics1.com/ok.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Independent candidate for governor, one of 15 candidates who filed for the office during the April 2026 filing period.",
+      "background": "A farmer per Politics1's candidate directory. Runs a campaign site at votewethepeople.com, which could not be fetched (robots.txt disallowed/connection timeout on two attempts), and has posted at least one campaign video to Facebook, which is also not fetchable for policy content.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "health": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "housing": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "immigration": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "taxes": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "climate": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "education": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "safety": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "repro": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)",
+        "democracy": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; campaign site votewethepeople.com could not be fetched (robots-blocked/timeout) and no news interview with policy content was found (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "ok-gov-bush",
@@ -422,23 +486,55 @@
       "office": "governor",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Oklahoma State Election Board: 2026 candidate list book",
-          "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf"
-        },
-        {
-          "label": "Oklahoma State Election Board: 2026 candidate withdrawals",
-          "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information/2026-candidate-withdrawals.html"
-        },
-        {
           "label": "NonDoc: 2026 filing period, statewide and federal candidates",
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        },
+        {
+          "label": "politics1.com: Oklahoma 2026 candidates",
+          "url": "https://politics1.com/ok.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Independent candidate for governor, one of 15 candidates who filed for the office during the April 2026 filing period.",
+      "background": "No occupation, prior campaign history, or legislative record was found in any fetched source. Politics1's candidate directory lists no background field for him, and no campaign website or social media presence was located.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "health": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "housing": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "immigration": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "taxes": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "climate": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "education": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "safety": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "repro": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "democracy": "filed as an independent candidate for governor (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, social media page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "fec-S6OK04247",
@@ -632,15 +728,55 @@
       "office": "us-senate",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
           "label": "NonDoc: 2026 filing period, statewide and federal candidates",
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        },
+        {
+          "label": "politics1.com: Oklahoma 2026 candidates",
+          "url": "https://politics1.com/ok.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Independent candidate for U.S. Senate.",
+      "background": "A pharmacist per Politics1's candidate directory. Maintains a Facebook campaign page but no dedicated campaign website was located, and no news interview or Q&A with policy content was found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "health": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "housing": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "immigration": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "taxes": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "climate": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "education": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "safety": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "repro": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)",
+        "democracy": "filed as an independent candidate for U.S. Senate (confirmed on the Nov 3, 2026 general ballot per NonDoc's filing coverage and News9's general-election candidate list); has not completed Ballotpedia's Candidate Connection survey; no campaign website, issues page, or news interview with policy content was found in two search rounds (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "ok-senate-white",
@@ -649,15 +785,55 @@
       "office": "us-senate",
       "district": null,
       "state": "OK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "NonDoc: 2026 filing period, statewide and federal candidates",
-          "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
+          "label": "Libertarian Party (national): Oklahoma 2026 filed candidates",
+          "url": "https://x.com/LPNational/status/2040403125069091233"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        },
+        {
+          "label": "politics1.com: Oklahoma 2026 candidates",
+          "url": "https://politics1.com/ok.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Libertarian nominee for U.S. Senate.",
+      "background": "A retired teacher and frequent candidate per Politics1's candidate directory, who previously ran for Oklahoma's 4th Congressional District in 2016. No campaign website was located and no 2026-specific interview or Q&A with policy content was found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "health": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "housing": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "immigration": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "taxes": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "climate": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "education": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "safety": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "repro": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)",
+        "democracy": "confirmed as the Libertarian nominee on the Nov 3, 2026 general ballot per the state Libertarian Party's 2026 filing announcement and News9's general-election candidate list; has not completed Ballotpedia's Candidate Connection survey for 2026 (the site's archived profile covers only his 2016 U.S. House campaign); no campaign website or news interview with 2026 policy content was found in two search rounds (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "fec-H6OK01235",
@@ -666,7 +842,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -742,7 +918,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -813,7 +989,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -902,7 +1078,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -974,7 +1150,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "general",
       "incumbent": false,
       "age": null,
@@ -1030,7 +1206,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1110,7 +1286,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1173,7 +1349,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1259,7 +1435,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1335,7 +1511,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "general",
       "incumbent": false,
       "age": null,
@@ -1389,7 +1565,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1469,7 +1645,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1523,7 +1699,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "general",
       "incumbent": false,
       "age": null,
@@ -1579,7 +1755,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OK",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "general",
       "incumbent": false,
       "age": null,
@@ -1625,6 +1801,75 @@
         "repro": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
         "democracy": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)"
       }
+    },
+    {
+      "id": "fec-S6OK04205",
+      "name": "Ron Meinhardt",
+      "party": "Independent",
+      "state": "OK",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "fecId": "S6OK04205",
+      "now": "Independent candidate for U.S. Senate; a registered nurse who describes himself as currently a Republican Party member but is running as an independent.",
+      "background": "A registered nurse with what his campaign describes as decades of healthcare research and implementation experience. Says his campaign was motivated in part by his family's experience with child-protection issues. Campaigns at running4ok.com on patient-centered healthcare reform and energy affordability.",
+      "priorities": [
+        "Patient-centered healthcare reform",
+        "Domestic energy affordability",
+        "Border security paired with a legislative immigration fix"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 0,
+        "taxes": null,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Supports \"law and order\" enforcement of existing immigration law while explicitly opposing both \"open-border policies\" and \"unrealistic 'deport them all' slogans,\" calling instead for border security paired with a congressional legislative fix (running4ok.com campaign site)",
+          "url": "https://www.running4ok.com/"
+        },
+        "climate": {
+          "label": "Frames \"affordable domestic energy\" as essential to family budgets, grocery costs, and jobs (running4ok.com campaign site)",
+          "url": "https://www.running4ok.com/"
+        }
+      },
+      "nullNotes": {
+        "cost": "no price/cost-of-living statement distinct from the energy-affordability framing found (checked Sep 2, 2026)",
+        "health": "campaign site says reform \"should serve patients, nurses, providers, small businesses, and families, not giant corporate systems\" while separately citing \"health freedom\" and alternative-medicine choice; this combines an anti-corporate-consolidation framing with an individual-choice framing that does not clearly sit on either pole of the axis (checked Sep 2, 2026)",
+        "housing": "site references \"affordable homes\" as a goal for younger Oklahomans with no specific policy mechanism stated (checked Sep 2, 2026)",
+        "taxes": "no tax-rate statement found on running4ok.com or in Ballotpedia/press coverage (checked Sep 2, 2026)",
+        "education": "no education statement found on running4ok.com or in Ballotpedia/press coverage (checked Sep 2, 2026)",
+        "safety": "no criminal-justice/policing statement found on running4ok.com or in Ballotpedia/press coverage (checked Sep 2, 2026)",
+        "repro": "no abortion statement found on running4ok.com or in Ballotpedia/press coverage (checked Sep 2, 2026)",
+        "democracy": "no voting/elections statement found on running4ok.com or in Ballotpedia/press coverage (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ron Meinhardt for U.S. Senate campaign site",
+          "url": "https://www.running4ok.com/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6OK04205/"
+        },
+        {
+          "label": "News9: What's on the Oklahoma general election ballot, 2026 preview",
+          "url": "https://www.news9.com/oklahoma-politics/general-election-preview-november-2026"
+        }
+      ],
+      "funding": null
     }
   ]
 }

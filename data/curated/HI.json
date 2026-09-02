@@ -7,14 +7,14 @@
       "statusNote": "Gov. Josh Green (D) won the Aug 8 Democratic primary with 82% and faces contractor Gary Cordery (R), who won the Republican primary with 67%."
     },
     "HI-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2HI02128",
         "hi-house-1-lam",
         "hi-house-1-conley",
         "hi-house-1-berning"
       ],
-      "statusNote": "Rep. Ed Case (D) was renominated in the Aug 8, 2026 primary and faces Republican Adriel Lam, Green candidate Jordan Conley and nonpartisan candidate Nathan Berning. We know who's running, positions not researched yet. Positions for all four candidates are researched and stored (tier researched) but the race is not scored: only housing has documented positions from every candidate, far below the app's comparability floor of 7 shared issues (checked Aug 28, 2026).",
+      "statusNote": "Rep. Ed Case (D) was renominated in the Aug 8, 2026 primary and faces Republican Adriel Lam, Green candidate Jordan Conley and nonpartisan candidate Nathan Berning.",
       "sources": [
         {
           "label": "The Green Papers: Hawaii 2026 general election candidates",
@@ -27,12 +27,12 @@
       ]
     },
     "HI-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2HI02581",
         "fec-H6HI02426"
       ],
-      "statusNote": "Rep. Jill Tokuda (D) was renominated in the Aug 8, 2026 primary with 83% and faces state Senate minority leader Brenton Awa (R). Positions for both nominees are researched and sourced (stored at tier researched), but the race is not scored: only 5 of the 10 issues have documented positions from both candidates, below the app's comparability floor of 7. Overlap logged Aug 28, 2026.",
+      "statusNote": "Rep. Jill Tokuda (D) was renominated in the Aug 8, 2026 primary with 83% and faces state Senate minority leader Brenton Awa (R).",
       "sources": [
         {
           "label": "The Green Papers: Hawaii 2026 general election candidates",
@@ -221,7 +221,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -291,7 +291,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -364,7 +364,7 @@
       "office": "us-house",
       "district": "1",
       "state": "HI",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -456,7 +456,7 @@
       "state": "HI",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -541,7 +541,7 @@
       "state": "HI",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": "Ka'a'awa",
@@ -624,7 +624,7 @@
       "state": "HI",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

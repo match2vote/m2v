@@ -4,10 +4,17 @@
   "races": {
     "CO-governor": {
       "status": "general",
-      "statusNote": "Open seat: AG Phil Weiser (D), who beat Sen. Michael Bennet in the primary, faces ministry founder Victor Marx (R), who won by 2,515 votes in what appears to be the closest Republican governor primary in state history."
+      "statusNote": "Open seat: AG Phil Weiser (D), who beat Sen. Michael Bennet in the primary, faces ministry founder Victor Marx (R), who won by 2,515 votes in what appears to be the closest Republican governor primary in state history. Minor-party and unaffiliated candidates Eric Mulder (Libertarian), Erik Underwood (Approval Voting Party), Greg Lopez (Unaffiliated, a former U.S. Representative), Jeff Peckman (Unity Party) and Stephen Hamilton (American Constitution Party) are certified on the November general ballot per the Colorado Secretary of State and now have researched entries.",
+      "advancing": [
+        "co-gov-mulder",
+        "co-gov-underwood",
+        "co-gov-lopez",
+        "co-gov-peckman",
+        "co-gov-hamilton"
+      ]
     },
     "CO-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6CO01273",
         "co-house-1-peterson",
@@ -15,7 +22,7 @@
         "co-house-1-milton",
         "co-house-1-blau"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Melat Kiros (Democrat), Christy Peterson (Republican). No incumbent is on the November ballot. Also certified for November: Chad Humphrey (Libertarian), Critter Milton (Unity Party) and unaffiliated candidate Shimon Blau. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Melat Kiros (Democrat), Christy Peterson (Republican). No incumbent is on the November ballot. Also certified for November: Chad Humphrey (Libertarian), Critter Milton (Unity Party) and unaffiliated candidate Shimon Blau. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -36,13 +43,13 @@
       ]
     },
     "CO-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CO02160",
         "co-house-2-dennison",
         "co-house-2-kent"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Joe Neguse (Democrat), Kelley Dennison (Republican). Rep. Joe Neguse is the incumbent. Gaylon Kent (Libertarian) is also certified for November. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Joe Neguse (Democrat), Kelley Dennison (Republican). Rep. Joe Neguse is the incumbent. Gaylon Kent (Libertarian) is also certified for November. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -59,14 +66,14 @@
       ]
     },
     "CO-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4CO03357",
         "fec-H6CO03253",
         "co-house-3-robertson",
         "co-house-3-brown"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Jeff Hurd (Republican), Dwayne Romero (Democrat). Rep. Jeff Hurd is the incumbent. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Jeff Hurd (Republican), Dwayne Romero (Democrat). Rep. Jeff Hurd is the incumbent. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -83,13 +90,13 @@
       ]
     },
     "CO-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0CO03165",
         "fec-H6CO04202",
         "co-house-4-mangeris"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Lauren Boebert (Republican), Eileen Laubacher (Democrat). Rep. Lauren Boebert is the incumbent. Douglas Mangeris (Libertarian) is also certified for November. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Lauren Boebert (Republican), Eileen Laubacher (Democrat). Rep. Lauren Boebert is the incumbent. Douglas Mangeris (Libertarian) is also certified for November. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -110,14 +117,14 @@
       ]
     },
     "CO-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6CO05142",
         "fec-H6CO05324",
         "co-house-5-elworth",
         "co-house-5-mitchell"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Jeff Crank (Republican), Jessica Killin (Democrat). Rep. Jeff Crank is the incumbent. Also certified for November: Mark Elworth (Libertarian) and Christopher Mitchell (American Constitution Party). We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Jeff Crank (Republican), Jessica Killin (Democrat). Rep. Jeff Crank is the incumbent. Also certified for November: Mark Elworth (Libertarian) and Christopher Mitchell (American Constitution Party). We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -134,7 +141,7 @@
       ]
     },
     "CO-house-6": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CO06229",
         "co-house-6-clark",
@@ -142,7 +149,7 @@
         "co-house-6-mcmahon",
         "co-house-6-ryan"
       ],
-      "statusNote": "Rep. Jason Crow (D) is the incumbent. The Republican nominee is Jason Clark; Mel Tewahade, who filed for the June 30, 2026 primary, withdrew and is not on the ballot. Also certified for November by the Secretary of State: Patty McMahon (Libertarian), Meredith Ryan (Unity Party) and unaffiliated candidate Samir Witta. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Jason Crow (D) is the incumbent. The Republican nominee is Jason Clark; Mel Tewahade, who filed for the June 30, 2026 primary, withdrew and is not on the ballot. Also certified for November by the Secretary of State: Patty McMahon (Libertarian), Meredith Ryan (Unity Party) and unaffiliated candidate Samir Witta. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -159,7 +166,7 @@
       ]
     },
     "CO-house-7": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8CO07045",
         "fec-H6CO07122",
@@ -168,7 +175,7 @@
         "co-house-7-clark",
         "co-house-7-krzeczkowski"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Brittany Pettersen (Democrat), Tim Bennett (Republican). Rep. Brittany Pettersen is the incumbent. Also certified for November: Dan Sallis (Libertarian), Susan Hall (Unity Party), Lawrence Kyle Clark (American Constitution Party) and unaffiliated candidate Joe Krzeczkowski. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Brittany Pettersen (Democrat), Tim Bennett (Republican). Rep. Brittany Pettersen is the incumbent. Also certified for November: Dan Sallis (Libertarian), Susan Hall (Unity Party), Lawrence Kyle Clark (American Constitution Party) and unaffiliated candidate Joe Krzeczkowski. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -189,13 +196,13 @@
       ]
     },
     "CO-house-8": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4CO08034",
         "fec-H6CO08013",
         "co-house-8-wood"
       ],
-      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Gabe Evans (Republican), Manny Rutinel (Democrat). Rep. Gabe Evans is the incumbent. We know who's running. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Major party nominees from Colorado's June 30, 2026 primary: Gabe Evans (Republican), Manny Rutinel (Democrat). Rep. Gabe Evans is the incumbent. We know who's running.",
       "sources": [
         {
           "label": "Colorado Secretary of State, 2026 official primary election candidate list",
@@ -212,8 +219,8 @@
       ]
     },
     "CO-senate": {
-      "status": "names-only",
-      "statusNote": "General field established from Colorado Public Radio's June 30, 2026 primary results, the Colorado Sun's Aug 26, 2026 third-party candidate coverage, and politics1.com/co.htm: Sen. John Hickenlooper (D, incumbent) beat Julie Gonzales 57-43 in the Democratic primary; state Sen. Mark Baisley won the Republican nomination. Four minor-party candidates also qualified: Chris Baum (Approval Voting Party), Bob Chew (Forward Party), Blake Huber (Libertarian), and Adam Withrow (Unity Party). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "status": "general",
+      "statusNote": "General field established from Colorado Public Radio's June 30, 2026 primary results, the Colorado Sun's Aug 26, 2026 third-party candidate coverage, and politics1.com/co.htm: Sen. John Hickenlooper (D, incumbent) beat Julie Gonzales 57-43 in the Democratic primary; state Sen. Mark Baisley won the Republican nomination. Four minor-party candidates also qualified: Chris Baum (Approval Voting Party), Bob Chew (Forward Party), Blake Huber (Libertarian), and Adam Withrow (Unity Party).",
       "advancing": [
         "fec-S0CO00575",
         "fec-S6CO00507",
@@ -418,7 +425,7 @@
       "office": "us-house",
       "district": "1",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -490,7 +497,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -538,7 +545,7 @@
       "office": "us-house",
       "district": "6",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -597,7 +604,7 @@
       "office": "us-house",
       "district": "6",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -656,7 +663,7 @@
       "office": "us-house",
       "district": "6",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -704,7 +711,7 @@
       "office": "us-house",
       "district": "6",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -772,15 +779,74 @@
       "office": "governor",
       "district": null,
       "state": "CO",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Colorado SOS: certified 2026 general election candidates",
-          "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html"
+          "label": "Ballotpedia: Stephen Hamilton",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "American Constitution Party nominee for governor.",
+      "background": "A truck driver from Ironton, Ohio, who identifies as Pentecostal. Ran for Colorado state Senate in 2024 under the same party line. Campaigns on cutting taxes across Colorado counties, ending sanctuary-city policy, and restricting voting to natural-born citizens.",
+      "priorities": [
+        "Cutting taxes across all counties",
+        "Ending sanctuary-city policy",
+        "Restricting elections to citizens"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": 0,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Wants to \"drop taxes through all counties of Colorado,\" including eliminating additional levies on items like milk, and calls for \"term limits on the politicianers\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        "housing": {
+          "label": "Proposes to \"reduce homeless and put homeless veterans in homes\" by eliminating certain federal programs, pairing a housing-placement goal with a federal-program cut (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        "immigration": {
+          "label": "Criticizes Denver's sanctuary-city policies as a failure to prioritize Americans and calls for deportations to proceed (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        "safety": {
+          "label": "Proposes enhanced child-protection laws, describing current measures as inadequate (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        "repro": {
+          "label": "Frames abortion as violating women's role as creators and opposes the practice (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        },
+        "democracy": {
+          "label": "Advocates same-day voting results, eliminating ballot drop-off systems, and restricting voting to \"natural-born American citizens\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Stephen_Hamilton"
+        }
+      },
+      "nullNotes": {
+        "cost": "no separate cost-of-living/price statement distinct from the tax platform found (checked Sep 2, 2026)",
+        "health": "no healthcare statement found on Ballotpedia profile or in press coverage (checked Sep 2, 2026)",
+        "climate": "no climate/energy statement found on Ballotpedia profile or in press coverage (checked Sep 2, 2026)",
+        "education": "platform calls for returning federal school programs to state control and adding founding-fathers history to curricula, a federalism/curriculum stance that does not fit the public-investment-vs-choice axis as defined (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "co-gov-mulder",
@@ -789,15 +855,69 @@
       "office": "governor",
       "district": null,
       "state": "CO",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Colorado SOS: certified 2026 general election candidates",
-          "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html"
+          "label": "Mulder for Governor: Issues",
+          "url": "https://www.mulderforgovernor.org/priorities"
+        },
+        {
+          "label": "Colorado Sun: third-party candidates in the 2026 governor's race",
+          "url": "https://coloradosun.com/2026/08/26/third-party-candidates-colorado-2026/"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Libertarian nominee for governor, running with Wayne Harlos for lieutenant governor.",
+      "background": "Graphic designer, Libertarian Party activist, and Army veteran who has run for office before. Campaigning on affordability and shrinking the state's reach into local communities. Highlights nuclear power expansion and opposing expanded police surveillance as signature issues.",
+      "priorities": [
+        "Local control over taxation",
+        "Nuclear energy expansion",
+        "Limiting government surveillance"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": 1,
+        "education": null,
+        "safety": -1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Proposes letting economically distressed Colorado communities opt out of the 2.9% state sales tax and set their own local rate, saying \"local priorities require local funding, and the fewer dollars the state can extract from them, the better\" (Mulder for Governor: Issues)",
+          "url": "https://www.mulderforgovernor.org/priorities"
+        },
+        "climate": {
+          "label": "Calls nuclear power \"essential\" for affordable electricity, pushing to clear regulatory pathways for small modular reactors before 2033 (Mulder for Governor: Issues)",
+          "url": "https://www.mulderforgovernor.org/priorities"
+        },
+        "safety": {
+          "label": "Opposes expanded Flock camera surveillance on Fourth Amendment grounds, saying \"we can pursue criminals without treating every Coloradan as a suspect\" (Mulder for Governor: Issues)",
+          "url": "https://www.mulderforgovernor.org/priorities"
+        }
+      },
+      "nullNotes": {
+        "cost": "no cost-of-living/price statement found on campaign site issues page or in Colorado Sun/politics1 coverage (checked Sep 2, 2026)",
+        "health": "no healthcare page or statement found on campaign site or in press coverage (checked Sep 2, 2026)",
+        "housing": "no housing statement found on campaign site or in press coverage (checked Sep 2, 2026)",
+        "immigration": "no immigration statement found on campaign site or in press coverage (checked Sep 2, 2026)",
+        "education": "site mentions communities could use local tax revenue to hire teachers but with no specific choice/public-investment commitment stated (checked Sep 2, 2026)",
+        "repro": "no abortion statement found on campaign site or in press coverage (checked Sep 2, 2026)",
+        "democracy": "no voting/elections statement found on campaign site or in press coverage (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "co-gov-peckman",
@@ -806,15 +926,66 @@
       "office": "governor",
       "district": null,
       "state": "CO",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Colorado SOS: certified 2026 general election candidates",
-          "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html"
+          "label": "Colorado Public Radio: 2026 primary voter guide, Jeff Peckman",
+          "url": "https://www.cpr.org/2026/05/29/vg-2026-primary-election-colorado-governor-jeff-peckman/"
+        },
+        {
+          "label": "Jeff Peckman campaign site",
+          "url": "https://jeffpeckman.com/"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Unity Party nominee for governor, running with T.J. Cole for lieutenant governor.",
+      "background": "Previously the main backer of a failed 2010 Denver ballot initiative that would have created a citizen commission on extraterrestrial affairs, and was a state House candidate in 2004. Frames his 2026 platform around a personal philosophy he calls \"coherence,\" detailed in his book RAISE the ZONE and a campaign \"Solutions Blueprint.\"",
+      "priorities": [
+        "\"Coherence\"-based governance",
+        "Reducing migration pressure through technology exports",
+        "Vehicle emissions goals without new mandates"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": -2,
+        "taxes": null,
+        "climate": 0,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Called ICE actions under the Trump administration \"domestic terrorism\" and proposed exporting \"coherence\" technologies to developing nations to ease migration pressure (Colorado Public Radio 2026 primary voter guide)",
+          "url": "https://www.cpr.org/2026/05/29/vg-2026-primary-election-colorado-governor-jeff-peckman/"
+        },
+        "climate": {
+          "label": "Commits to statewide vehicle-emissions goals that \"exceed both EPA and Colorado standards, but without new regulations, more EVs, or tax-funded incentives,\" pairing an aggressive target with an explicit rejection of the usual regulatory and subsidy tools (Colorado Public Radio 2026 primary voter guide)",
+          "url": "https://www.cpr.org/2026/05/29/vg-2026-primary-election-colorado-governor-jeff-peckman/"
+        }
+      },
+      "nullNotes": {
+        "cost": "CPR profile references eliminating \"incoherent investment incentives\" tied to high drug prices but without a specific, quotable direction on price intervention versus deregulation (checked Sep 2, 2026)",
+        "health": "no healthcare-specific statement distinct from the vague pharmaceutical-pricing reference found on CPR profile, jeffpeckman.com, or KRDO/KKTV coverage (checked Sep 2, 2026)",
+        "housing": "no housing statement found in any fetched source (checked Sep 2, 2026)",
+        "taxes": "no tax-rate statement found in any fetched source (checked Sep 2, 2026)",
+        "education": "jeffpeckman.com references improving education through \"coherence technology\" and student brainwave coherence, which does not fit either pole of the axis (checked Sep 2, 2026)",
+        "safety": "no criminal-justice/policing statement found in any fetched source (checked Sep 2, 2026)",
+        "repro": "no abortion statement found in any fetched source (checked Sep 2, 2026)",
+        "democracy": "jeffpeckman.com frames current conditions as \"chaotic and incoherent\" but with no specific voting-access or safeguards proposal quoted (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "co-gov-underwood",
@@ -823,15 +994,75 @@
       "office": "governor",
       "district": null,
       "state": "CO",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Colorado SOS: certified 2026 general election candidates",
-          "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html"
+          "label": "Erik Underwood for Governor campaign site",
+          "url": "https://erikunderwood.com"
+        },
+        {
+          "label": "Colorado Politics: Erik Underwood sees issues in the governor's race beyond left and right",
+          "url": "https://www.coloradopolitics.com/news/erik-underwood-sees-issues-in-the-colorado-governor-s-race/article_5459c329-cf05-5f0a-9543-28f8e1a03ec4.html"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Approval Voting Party candidate for governor; tech entrepreneur who previously ran for U.S. Senate (2016) and Congress (2007) as a Republican before running for governor as a Democrat in 2018 and now under the Approval Voting Party line.",
+      "background": "Grew up in York, Pennsylvania, the oldest of six children raised by a single mother, and was mentored by a local businessman starting at age seven. Built and sold a website/app business to AT&T before moving to Colorado in 2012. Frames his campaign around bridging left and right, saying he wants to \"see both sides.\"",
+      "priorities": [
+        "Universal health care plan for Colorado",
+        "Affordable home loans and housing",
+        "Free college and trade school"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "health": {
+          "label": "States \"I have a plan for universal health care in Colorado, mental health, and unhoused Coloradans\" (erikunderwood.com campaign site)",
+          "url": "https://erikunderwood.com"
+        },
+        "housing": {
+          "label": "Proposes \"affordable home loans with max 2,500 down\" to make Colorado homes affordable again (erikunderwood.com campaign site)",
+          "url": "https://erikunderwood.com"
+        },
+        "taxes": {
+          "label": "States opposition to TABOR's tax and spending restrictions (erikunderwood.com campaign site)",
+          "url": "https://erikunderwood.com"
+        },
+        "education": {
+          "label": "Campaigns on \"Free College & Trade School,\" framed as a response to federal Department of Education cuts (erikunderwood.com campaign site)",
+          "url": "https://erikunderwood.com"
+        },
+        "democracy": {
+          "label": "Site lists a youth-voting proposal to allow 16-year-olds to vote (erikunderwood.com campaign site)",
+          "url": "https://erikunderwood.com"
+        }
+      },
+      "nullNotes": {
+        "cost": "site lists a grocery-price initiative headline but no specific cost/price policy quote found (checked Sep 2, 2026)",
+        "immigration": "site references \"ICE accountability\" under a Justice & Human Rights heading with no quoted specific policy statement; Colorado Politics profile has no immigration statement (checked Sep 2, 2026)",
+        "climate": "site references keeping Colorado's beauty and a water policy but with no specific energy/climate commitment quoted (checked Sep 2, 2026)",
+        "safety": "site references youth-violence and prison-reform headings with no quoted specific statement (checked Sep 2, 2026)",
+        "repro": "no abortion statement found on campaign site or in Colorado Politics/Midterm Project coverage (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "co-gov-lopez",
@@ -840,15 +1071,75 @@
       "office": "governor",
       "district": null,
       "state": "CO",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Colorado SOS: certified 2026 general election candidates",
-          "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html"
+          "label": "Ballotpedia: Greg Lopez",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
+        },
+        {
+          "label": "Colorado Sun: third-party candidates in the 2026 governor's race",
+          "url": "https://coloradosun.com/2026/08/26/third-party-candidates-colorado-2026/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "curatedAt": "2026-09-02",
+      "now": "Unaffiliated candidate for governor. Served as the U.S. Representative for Colorado's 4th Congressional District from July 2024 to January 2025, filling the vacancy between Ken Buck and Lauren Boebert; did not run in the 2026 Republican primary and instead launched an unaffiliated general-election bid.",
+      "background": "Air Force veteran who served four years before working as a small business owner. Directed the Colorado office of the U.S. Small Business Administration and served as mayor of Parker, Colorado, before his brief 2024 stint in Congress. Previously ran for governor in 2018 and 2022.",
+      "priorities": [
+        "Smaller government through TABOR",
+        "Free-market healthcare",
+        "School choice, all of the above"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": null,
+        "education": 2,
+        "safety": null,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Campaign platform backs \"less spending and smaller government through TABOR\" and \"less regulation\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        "health": {
+          "label": "Advocates for \"affordable free-market healthcare\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        "education": {
+          "label": "Supports an \"all-of-the-above approach: vouchers, charters, trade learning, new online learning tech, and union alternatives for better teacher pay\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        "immigration": {
+          "label": "Platform supports \"enforcing our laws and protecting our borders\" and opposes sanctuary cities (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        "repro": {
+          "label": "States \"I am pro-life\" (Ballotpedia candidate profile)",
+          "url": "https://ballotpedia.org/Greg_Lopez"
+        }
+      },
+      "nullNotes": {
+        "cost": "no separate cost-of-living/price statement distinct from the tax/spending platform found (checked Sep 2, 2026)",
+        "housing": "no housing statement found on Ballotpedia profile, greglopez.co, or in press coverage (checked Sep 2, 2026)",
+        "climate": "platform cites \"renewable and reliable energy\" and general conservation goals without committing to either an aggressive clean-energy transition or an all-of-the-above/fossil-expansion position, so it does not fit either pole of the axis (checked Sep 2, 2026)",
+        "safety": "no criminal-justice/policing statement found beyond a 2nd Amendment mention, which per the guide's hard source rules does not map to the safety axis (checked Sep 2, 2026)",
+        "democracy": "no voting/elections statement found on Ballotpedia profile or in press coverage (checked Sep 2, 2026)"
+      },
+      "funding": null
     },
     {
       "id": "co-house-1-humphrey",
@@ -857,7 +1148,7 @@
       "office": "us-house",
       "district": "1",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -913,7 +1204,7 @@
       "office": "us-house",
       "district": "1",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -975,7 +1266,7 @@
       "office": "us-house",
       "district": "1",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1023,7 +1314,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1085,7 +1376,7 @@
       "office": "us-house",
       "district": "3",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1133,7 +1424,7 @@
       "office": "us-house",
       "district": "3",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1181,7 +1472,7 @@
       "office": "us-house",
       "district": "4",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1229,7 +1520,7 @@
       "office": "us-house",
       "district": "5",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1285,7 +1576,7 @@
       "office": "us-house",
       "district": "5",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1333,7 +1624,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1381,7 +1672,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1429,7 +1720,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1477,7 +1768,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1542,7 +1833,7 @@
       "office": "us-house",
       "district": "8",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1590,7 +1881,7 @@
       "office": "us-house",
       "district": "1",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1657,7 +1948,7 @@
       "office": "us-house",
       "district": "2",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1727,7 +2018,7 @@
       "office": "us-house",
       "district": "3",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1804,7 +2095,7 @@
       "office": "us-house",
       "district": "3",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1879,7 +2170,7 @@
       "office": "us-house",
       "district": "4",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1971,7 +2262,7 @@
       "office": "us-house",
       "district": "4",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2046,7 +2337,7 @@
       "office": "us-house",
       "district": "5",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2127,7 +2418,7 @@
       "office": "us-house",
       "district": "5",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2196,7 +2487,7 @@
       "office": "us-house",
       "district": "6",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2266,7 +2557,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2333,7 +2624,7 @@
       "office": "us-house",
       "district": "7",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2392,7 +2683,7 @@
       "office": "us-house",
       "district": "8",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -2475,7 +2766,7 @@
       "office": "us-house",
       "district": "8",
       "state": "CO",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -2533,7 +2824,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2620,7 +2911,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": "Woodland Park, CO",
@@ -2710,7 +3001,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2775,7 +3066,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2832,7 +3123,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2896,7 +3187,7 @@
       "office": "us-senate",
       "district": null,
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,

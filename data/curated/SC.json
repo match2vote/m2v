@@ -4,7 +4,7 @@
   "races": {
     "SC-senate": {
       "status": "general",
-      "statusNote": "Special election for the seat of Sen. Lindsey Graham, who died July 11. Appointed Sen. Darline Graham defeated Rep. Ralph Norman 53 to 47 in the Aug 25 Republican runoff and is the GOP nominee. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee. Kasie Whitener (Libertarian) and Mark Hackett (Constitution Party) are also on the November ballot.",
+      "statusNote": "Special election for the seat of Sen. Lindsey Graham, who died July 11. Appointed Sen. Darline Graham defeated Rep. Ralph Norman 53 to 47 in the Aug 25 Republican runoff and is the GOP nominee. Pediatrician Annie Andrews, who won the June 9 Democratic primary with 61.5%, is the Democratic nominee. Kasie Whitener (Libertarian) and Mark Hackett (Constitution Party) are also on the November ballot. Libertarian Kasie Whitener (fec-S6SC04247) confirmed on the Nov 2026 general ballot per WRDW/Live5 coverage of the 4-candidate field; her curated entry keeps the existing fec- id rather than creating a new sc-senate- id. Constitution Party nominee Mark Hackett has no fetchable policy content, all-null entry.",
       "advancing": [
         "fec-S6SC04437",
         "fec-S6SC04239",
@@ -14,16 +14,20 @@
     },
     "SC-governor": {
       "status": "general",
-      "statusNote": "Open seat (Gov. McMaster term-limited): Attorney General Alan Wilson (R) won the June 23 runoff with 68.6% over Lt. Gov. Pamela Evette and faces state Rep. Jermaine Johnson (D), who won the June 9 primary with 59.7%. Walid Hakim (Green) and Michael Addison (United Citizens) are also listed for the November ballot."
+      "statusNote": "Open seat (Gov. McMaster term-limited): Attorney General Alan Wilson (R) won the June 23 runoff with 68.6% over Lt. Gov. Pamela Evette and faces state Rep. Jermaine Johnson (D), who won the June 9 primary with 59.7%. Walid Hakim (Green) and Michael Addison (United Citizens) are also listed for the November ballot. Green nominee Walid Hakim and United Citizens Party nominee Michael Addison added with full curated entries; Hakim's detailed platform page yielded 8 of 10 scored axes, Addison's site had no usable policy content.",
+      "advancing": [
+        "sc-gov-addison",
+        "sc-gov-hakim"
+      ]
     },
     "SC-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6SC01334",
         "fec-H6SC01359",
         "fec-H6SC01342"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian). No incumbent is on the November ballot. A certified write-in candidate, Clayton Cuteri, is not a ballot-listed candidate. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jenny Costa Honeycutt (Republican), Nancy Lacore (Democrat), Bill Reeside (Libertarian). No incumbent is on the November ballot. A certified write-in candidate, Clayton Cuteri, is not a ballot-listed candidate.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -44,13 +48,13 @@
       ]
     },
     "SC-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2SC02059",
         "fec-H6SC02159",
         "sc-house-2-smith"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon El-Khalifa (Democrat) and Dayna Smith, who is listed on the Workers Party and United Citizens lines (South Carolina allows one candidate to carry more than one party line). Rep. Joe Wilson is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Joe Wilson (Republican), Zyon El-Khalifa (Democrat) and Dayna Smith, who is listed on the Workers Party and United Citizens lines (South Carolina allows one candidate to carry more than one party line). Rep. Joe Wilson is the incumbent.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -67,13 +71,13 @@
       ]
     },
     "SC-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4SC01313",
         "fec-H6SC03090",
         "sc-house-3-corriea"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Sheri Biggs (Republican), Eunice Lehmacher (Democrat), Brian Corriea (Libertarian). Rep. Sheri Biggs is the incumbent. Positions researched and stored, race not scored, overlap 1 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Sheri Biggs (Republican), Eunice Lehmacher (Democrat), Brian Corriea (Libertarian). Rep. Sheri Biggs is the incumbent.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -94,13 +98,13 @@
       ]
     },
     "SC-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H8SC04250",
         "fec-H6SC04171",
         "sc-house-4-ethridge"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: William Timmons (Republican), Courtney McClain (Democrat), Jessica Ethridge (Libertarian). Rep. William Timmons is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: William Timmons (Republican), Courtney McClain (Democrat), Jessica Ethridge (Libertarian). Rep. William Timmons is the incumbent.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -121,13 +125,13 @@
       ]
     },
     "SC-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H6SC05202",
         "fec-H6SC05228",
         "sc-house-5-kaplan"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Wes Climer (Republican), Mallory Dittmer (Democrat), Andy Kaplan (Forward Party). No incumbent is on the November ballot. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Wes Climer (Republican), Mallory Dittmer (Democrat), Andy Kaplan (Forward Party). No incumbent is on the November ballot.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -144,13 +148,13 @@
       ]
     },
     "SC-house-6": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2SC02042",
         "sc-house-6-peterson",
         "sc-house-6-oddo"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jim Clyburn (Democrat), John Peterson (Republican), Joe Oddo (Alliance Party). Rep. Jim Clyburn is the incumbent. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Jim Clyburn (Democrat), John Peterson (Republican), Joe Oddo (Alliance Party). Rep. Jim Clyburn is the incumbent.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -167,12 +171,12 @@
       ]
     },
     "SC-house-7": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2SC07280",
         "fec-H6SC07034"
       ],
-      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Russell Fry (Republican), John Vincent (Democrat). Rep. Russell Fry is the incumbent. A certified write in candidate, Carter Gibson-Grossmann, is not a ballot listed candidate. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+      "statusNote": "General election field from South Carolina's June 9, 2026 primary and June 23 runoff: Russell Fry (Republican), John Vincent (Democrat). Rep. Russell Fry is the incumbent. A certified write in candidate, Carter Gibson-Grossmann, is not a ballot listed candidate.",
       "sources": [
         {
           "label": "Politics1, South Carolina 2026 candidates",
@@ -653,7 +657,7 @@
       "office": "us-house",
       "district": "3",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -719,7 +723,7 @@
       "office": "us-house",
       "district": "4",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -791,7 +795,7 @@
       "office": "us-house",
       "district": "5",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -872,7 +876,7 @@
       "office": "us-house",
       "district": "6",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -941,7 +945,7 @@
       "office": "us-house",
       "district": "6",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1013,19 +1017,46 @@
       "office": "us-senate",
       "district": null,
       "state": "SC",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Politics1: South Carolina 2026 candidates",
-          "url": "https://politics1.com/sc.htm"
-        },
-        {
-          "label": "The Green Papers: South Carolina 2026",
-          "url": "https://www.thegreenpapers.com/G26/SC"
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mark_Hackett"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [],
+      "nullNotes": {
+        "cost": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "health": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "housing": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "immigration": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "taxes": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "climate": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "education": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "safety": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "repro": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)",
+        "democracy": "No campaign website found; Ballotpedia confirms no Candidate Connection survey completed in 2020, 2024, or since (checked Sep 2, 2026)"
+      },
+      "now": "Constitution Party candidate for U.S. Senate",
+      "background": "Hackett is the Constitution Party's 2026 U.S. Senate candidate in South Carolina. He previously ran for U.S. House in SC-4 in 2024 (2.8% of the vote) and SC-6 in 2020 (0.9%). No campaign website or issue platform was found; Ballotpedia notes he has never completed its Candidate Connection survey.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "sc-gov-hakim",
@@ -1034,19 +1065,79 @@
       "office": "governor",
       "district": null,
       "state": "SC",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Politics1: South Carolina 2026 candidates",
-          "url": "https://politics1.com/sc.htm"
+          "label": "Walid N. Hakim For Governor: Platform",
+          "url": "https://www.walidnhakim.com/Platform.html"
         },
         {
-          "label": "The Green Papers: South Carolina 2026",
-          "url": "https://www.thegreenpapers.com/G26/SC"
+          "label": "GPUS Elections Database: Walid Hakim Runs for Governor, 2026",
+          "url": "https://www.gpelections.org/races/walid-hakim-runs-for-governor-2026/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [
+        "State-run public health insurance option (\"Carolina Insurance Company\")",
+        "State housing bank and a 12-unit cap on residential property ownership",
+        "Full support for abortion access"
+      ],
+      "nullNotes": {
+        "taxes": "Platform's \"tax-inclusive pricing\" requirement is a consumer-disclosure rule tracked under cost, not a raise/cut position on corporate or personal tax rates; no separate tax stance found (checked Sep 2, 2026)",
+        "democracy": "Platform page (100 Year Plan, Education, Law & Order, Land Reform sections) has no voting-access or election-administration content (checked Sep 2, 2026)"
+      },
+      "now": "Green Party nominee for South Carolina governor",
+      "background": "Hakim is the South Carolina Green Party's 2026 nominee for governor, running on a detailed \"100 Year Plan\" platform covering housing, health care, education, criminal-justice and climate policy. He frames his run as offering an alternative in a state dominated by one party, emphasizing grassroots democracy, social justice, and environmental sustainability.",
+      "positions": {
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": null,
+        "climate": -2,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Carolina Bank\" nonprofit state bank pledges \"no evictions, no repossessions, no NSF fees,\" plus mandatory tax-inclusive pricing disclosure (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "health": {
+          "label": "\"Carolina Insurance Company\" state plan: \"$100/month for individuals; $200/month for families\" with \"no co-pays, no deductibles, no denials\" (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "housing": {
+          "label": "State housing bank plus \"sustainable villages\" and a 12-property ownership cap to end \"residential property hoarding\" (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "immigration": {
+          "label": "Rejects ICE cooperation and backs strong \"LGBTQ+, Minority, and Immigrant Rights\" enforcement (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "climate": {
+          "label": "\"100 Year Plan\" for sustainable infrastructure, forest preservation, and \"solar powered, no cost public buses\" (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "education": {
+          "label": "Year-round schools, tuition-free college for critical professions, and free breakfast/lunch for all students (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "safety": {
+          "label": "Would deploy \"SLED-certified social workers alongside local police\" for mental-health calls and a \"Keep Them Home Bill\" for reentry job training (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        },
+        "repro": {
+          "label": "\"Full support for a woman's right to choose, including access to abortion\" (campaign platform page)",
+          "url": "https://www.walidnhakim.com/Platform.html"
+        }
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "sc-gov-addison",
@@ -1055,19 +1146,50 @@
       "office": "governor",
       "district": null,
       "state": "SC",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Politics1: South Carolina 2026 candidates",
-          "url": "https://politics1.com/sc.htm"
+          "label": "Addison For SC campaign site",
+          "url": "https://www.addisonforsc.com/"
         },
         {
-          "label": "The Green Papers: South Carolina 2026",
-          "url": "https://www.thegreenpapers.com/G26/SC"
+          "label": "WBTV: South Carolina 2026 governor race, who officially filed to run",
+          "url": "https://www.wbtv.com/2026/03/30/south-carolina-2026-governor-race-see-who-officially-filed-run/"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "priorities": [],
+      "nullNotes": {
+        "cost": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "health": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "housing": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "immigration": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "taxes": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "climate": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "education": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "safety": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "repro": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)",
+        "democracy": "Campaign site's policy pages are unpopulated template text (\"I'm a paragraph, click here to edit\"); Ballotpedia confirms no Candidate Connection survey completed; no alternate source found (checked Sep 2, 2026)"
+      },
+      "now": "United Citizens Party candidate for governor",
+      "background": "Addison is running for governor on South Carolina's United Citizens Party line. His campaign site highlights work as a Medical Director who \"provided care and diagnosis to over 15,000 patients in South Carolina\" and as a community organizer with R.A.C.E. providing foreclosure prevention, job training, and homelessness relief. No detailed issue platform was found; the site's policy sections remain unpublished template placeholders.",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H2SC02059",
@@ -1076,7 +1198,7 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "sources": [
@@ -1155,7 +1277,7 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1234,7 +1356,7 @@
       "office": "us-house",
       "district": "2",
       "state": "SC",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
@@ -1283,7 +1405,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1356,7 +1478,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1429,7 +1551,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1505,7 +1627,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1590,7 +1712,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1663,7 +1785,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1745,7 +1867,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1812,7 +1934,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1893,7 +2015,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -1966,7 +2088,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2039,7 +2161,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": true,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2124,7 +2246,7 @@
       "state": "SC",
       "office": "us-house",
       "incumbent": false,
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "age": null,
       "home": null,
@@ -2178,6 +2300,76 @@
         }
       ],
       "curatedAt": "2026-08-29"
+    },
+    {
+      "age": null,
+      "home": null,
+      "priorities": [
+        "Cut federal spending 5% per department per year",
+        "Ranked-choice voting",
+        "Voter ID requirements, including the SAVE Act"
+      ],
+      "nullNotes": {
+        "housing": "Not addressed in campaign materials found (checked Sep 2, 2026)",
+        "immigration": "Not addressed in campaign materials found (checked Sep 2, 2026)",
+        "taxes": "Fiscal messaging focuses on spending cuts (tracked under cost); no specific tax-rate position found (checked Sep 2, 2026)",
+        "climate": "Not addressed in campaign materials found (checked Sep 2, 2026)",
+        "education": "Not addressed in campaign materials found (checked Sep 2, 2026)",
+        "safety": "Not addressed in campaign materials found (checked Sep 2, 2026)",
+        "repro": "Not addressed in campaign materials found (checked Sep 2, 2026)"
+      },
+      "id": "fec-S6SC04247",
+      "name": "Kasie Whitener",
+      "party": "Libertarian",
+      "office": "us-senate",
+      "district": null,
+      "state": "SC",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "now": "Clinical Assistant Professor of entrepreneurship, USC Darla Moore School of Business; writer and radio host",
+      "background": "Whitener is a Clinical Assistant Professor at the University of South Carolina's Darla Moore School of Business, teaching entrepreneurship and strategic management, and also works as a writer, business owner, and radio host. She is running as the Libertarian nominee for U.S. Senate on a platform of fiscal restraint and reduced federal spending.",
+      "positions": {
+        "cost": 2,
+        "health": 1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 0
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Wants to \"end protectionist policies and laws, and get government out of the way,\" and proposes cutting federal spending 5% per department per year (campaign site, Ballotpedia)",
+          "url": "https://kasiesouthcarolina.com/"
+        },
+        "health": {
+          "label": "Would trim Social Security, Medicare and Medicaid spending as part of her debt-reduction plan (Live 5 News candidate profile)",
+          "url": "https://www.live5news.com/2026/07/17/we-palmetto-meet-candidate-kasie-whitener-us-senate/"
+        },
+        "democracy": {
+          "label": "Supports voter ID requirements including the SAVE Act (Live 5 News) but also backs ranked-choice voting, saying it \"ensures that candidates appeal to a broader spectrum of voters\" (Ballotpedia), both quoted as a mixed position",
+          "url": "https://www.live5news.com/2026/07/17/we-palmetto-meet-candidate-kasie-whitener-us-senate/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Kasie Whitener for SC campaign site",
+          "url": "https://kasiesouthcarolina.com/"
+        },
+        {
+          "label": "Live 5 News: We The Palmetto, Meet the Candidate Kasie Whitener",
+          "url": "https://www.live5news.com/2026/07/17/we-palmetto-meet-candidate-kasie-whitener-us-senate/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Kasie_Whitener"
+        }
+      ],
+      "tier": "curated",
+      "curatedAt": "2026-09-02"
     }
   ]
 }

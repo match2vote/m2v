@@ -10,19 +10,22 @@
         "or-senate-dye",
         "or-senate-henry"
       ],
-      "statusNote": "Sen. Jeff Merkley (D) seeks a fourth term against state Sen. David Brock Smith (R); both nominated in the May 19 primary. Gary Dye (Libertarian) and Chris Henry (Progressive) are also listed for the November ballot."
+      "statusNote": "Sen. Jeff Merkley (D) seeks a fourth term against state Sen. David Brock Smith (R); both nominated in the May 19 primary. Gary Dye (Libertarian) and Chris Henry (Progressive) are also listed for the November ballot. Positions researched and sourced for Henry (Progressive) and Dye (Libertarian) as of Sep 2, 2026."
     },
     "OR-governor": {
       "status": "general",
-      "statusNote": "Gov. Tina Kotek (D) seeks a second term in a rematch of 2022 against former House Republican leader Christine Drazan (R); both nominated May 19. Brett Smith (Pacific Green) is also listed for the November ballot."
+      "statusNote": "Gov. Tina Kotek (D) seeks a second term in a rematch of 2022 against former House Republican leader Christine Drazan (R); both nominated May 19. Brett Smith (Pacific Green) is also listed for the November ballot. Positions researched and sourced for Brett Smith (Pacific Green) as of Sep 2, 2026.",
+      "advancing": [
+        "or-gov-smith"
+      ]
     },
     "OR-house-1": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OR01133",
         "fec-H6OR01308"
       ],
-      "statusNote": "Rep. Suzanne Bonamici (D) was renominated in the May 19, 2026 primary and faces Republican Barbara Kahl. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Suzanne Bonamici (D) was renominated in the May 19, 2026 primary and faces Republican Barbara Kahl.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -39,12 +42,12 @@
       ]
     },
     "OR-house-2": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H0OR02127",
         "fec-H6OR02322"
       ],
-      "statusNote": "Rep. Cliff Bentz (R) was renominated in the May 19, 2026 primary and faces Democrat Chris Beck, a former state representative who also carries the Independent Party of Oregon line. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Cliff Bentz (R) was renominated in the May 19, 2026 primary and faces Democrat Chris Beck, a former state representative who also carries the Independent Party of Oregon line.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -61,12 +64,12 @@
       ]
     },
     "OR-house-3": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4OR03192",
         "or-house-3-ayles"
       ],
-      "statusNote": "Rep. Maxine Dexter (D) was renominated in the May 19, 2026 primary and faces Republican Loran Ayles in this Portland seat. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026 (Ayles has no findable public positions).",
+      "statusNote": "Rep. Maxine Dexter (D) was renominated in the May 19, 2026 primary and faces Republican Loran Ayles in this Portland seat.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -83,13 +86,13 @@
       ]
     },
     "OR-house-4": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OR04095",
         "fec-H6OR04260",
         "or-house-4-filip"
       ],
-      "statusNote": "Rep. Val Hoyle (D) was renominated in the May 19, 2026 primary and faces Republican Monique DeSpain, the 2024 nominee, plus Pacific Green candidate Justin Filip. Positions researched and stored, race not scored, overlap 3 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Val Hoyle (D) was renominated in the May 19, 2026 primary and faces Republican Monique DeSpain, the 2024 nominee, plus Pacific Green candidate Justin Filip.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -106,12 +109,12 @@
       ]
     },
     "OR-house-6": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H2OR06066",
         "fec-H2OR01240"
       ],
-      "statusNote": "Rep. Andrea Salinas (D), who also carries the Independent Party of Oregon line, was renominated in the May 19, 2026 primary and faces Republican David Russ, a former Dundee mayor. Positions researched and stored, race not scored, overlap 2 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Andrea Salinas (D), who also carries the Independent Party of Oregon line, was renominated in the May 19, 2026 primary and faces Republican David Russ, a former Dundee mayor.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -128,13 +131,13 @@
       ]
     },
     "OR-house-5": {
-      "status": "names-only",
+      "status": "general",
       "advancing": [
         "fec-H4OR05304",
         "fec-H6OR05242",
         "or-house-5-townsend"
       ],
-      "statusNote": "Rep. Janelle Bynum (D) was renominated in the May 19, 2026 primary with about 84 percent and faces Deschutes County Commissioner Patti Adair (R), who beat Jonathan Lockwood with about 57 percent and also carries the Libertarian line, plus Pacific Green candidate Andrea Thorn Townsend. Positions researched and stored, race not scored, overlap 0 of 10 as of Aug 29, 2026.",
+      "statusNote": "Rep. Janelle Bynum (D) was renominated in the May 19, 2026 primary with about 84 percent and faces Deschutes County Commissioner Patti Adair (R), who beat Jonathan Lockwood with about 57 percent and also carries the Libertarian line, plus Pacific Green candidate Andrea Thorn Townsend.",
       "sources": [
         {
           "label": "The Green Papers: Oregon 2026 general election candidates",
@@ -503,7 +506,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -558,7 +561,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -652,7 +655,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -719,19 +722,64 @@
       "office": "us-senate",
       "district": null,
       "state": "OR",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "The Green Papers: OR 2026",
-          "url": "https://www.thegreenpapers.com/G26/OR"
+          "label": "Ballotpedia: Gary Dye",
+          "url": "https://ballotpedia.org/Gary_Dye"
         },
         {
-          "label": "Politics1: OR 2026 candidates",
-          "url": "https://politics1.com/or.htm"
+          "label": "The Green Papers: OR 2026",
+          "url": "https://www.thegreenpapers.com/G26/OR"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Engineering consultant; Libertarian nominee for U.S. Senate",
+      "background": "Dye is an engineering consultant and chemical/process engineer who worked in oil refineries, including four years in Saudi Arabia, and in natural gas utilities; he was terminated from NW Natural Gas after whistleblowing on billing practices. Born in Portland, he holds degrees from Oregon State University, UC Irvine, and an MBA from Pepperdine. He has run for Oregon U.S. Senate before and is the Libertarian nominee in 2026.",
+      "priorities": [
+        "Replace taxation with a universal transaction tax plus UBI",
+        "Close the border, privatize citizenship for sponsored workers",
+        "12-year congressional term limits and 10%-per-year spending cuts"
+      ],
+      "positions": {
+        "cost": 0,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Ballotpedia Candidate Connection: pairs a universal basic income (direct subsidy) with eliminating entitlement programs and cutting government spending '10%/year until deficit is eliminated,' a documented mixed position",
+          "url": "https://ballotpedia.org/Gary_Dye"
+        },
+        "immigration": {
+          "label": "Ballotpedia Candidate Connection: proposes privatizing citizenship so 'Corporations could purchase citizenships for their needed workers... Eliminate all other forms of immigration (close the border)'",
+          "url": "https://ballotpedia.org/Gary_Dye"
+        },
+        "taxes": {
+          "label": "Ballotpedia Candidate Connection: proposes replacing all federal taxation with 'a universal transaction tax with a constant rate' and cutting government spending '10%/year until deficit is eliminated'",
+          "url": "https://ballotpedia.org/Gary_Dye"
+        }
+      },
+      "nullNotes": {
+        "health": "No healthcare-specific policy documented beyond a general call to eliminate entitlement programs, already used for the cost axis (checked Sep 2, 2026).",
+        "housing": "No housing policy documented (checked Sep 2, 2026).",
+        "climate": "No climate or energy policy documented (checked Sep 2, 2026).",
+        "education": "No education-specific policy documented beyond a general call to eliminate federal departments (checked Sep 2, 2026).",
+        "safety": "No domestic public safety policy documented; documented positions are on foreign policy (troop withdrawal, embassy closures) which do not map to this axis (checked Sep 2, 2026).",
+        "repro": "No abortion position documented (checked Sep 2, 2026).",
+        "democracy": "Documented '12-year federal term limits' proposal is a government-structure position, not the axis's voting-access question, so left null (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "or-senate-henry",
@@ -740,19 +788,58 @@
       "office": "us-senate",
       "district": null,
       "state": "OR",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "The Green Papers: OR 2026",
-          "url": "https://www.thegreenpapers.com/G26/OR"
+          "label": "Ballotpedia: Chris Henry (Oregon)",
+          "url": "https://ballotpedia.org/Chris_Henry_(Oregon)"
         },
         {
-          "label": "Politics1: OR 2026 candidates",
-          "url": "https://politics1.com/or.htm"
+          "label": "The Green Papers: OR 2026",
+          "url": "https://www.thegreenpapers.com/G26/OR"
         }
-      ]
+      ],
+      "age": null,
+      "home": null,
+      "now": "Union truck driver and aircraft mechanic; Oregon Progressive Party nominee for U.S. Senate",
+      "background": "Henry (also known as Kit Henry) has worked as a union truck driver and aircraft mechanic, graduating from the UAW Trade School in 1985, and has served on the board of Honest Elections Oregon focused on campaign finance reform. He is a longtime Progressive Party candidate with numerous prior statewide runs, including U.S. Senate (2022), Oregon Treasurer (2020, 2016), governor (2018, 2014), and attorney general (2012), plus local Portland-area races in 2024.",
+      "priorities": [
+        "Divest from the 'war economy,' invest in a green economy",
+        "Government transparency and accountability",
+        "Campaign finance reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": -2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "climate": {
+          "label": "Ballotpedia Candidate Connection (2024): calls for divesting 'from the polluting war economy and investing in a green peace economy'",
+          "url": "https://ballotpedia.org/Chris_Henry_(Oregon)"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-control or wage policy documented in his most recent (2024) Candidate Connection survey; he did not complete a survey for 2020 or 2022 (checked Sep 2, 2026).",
+        "health": "No healthcare policy documented (checked Sep 2, 2026).",
+        "housing": "No housing policy documented (checked Sep 2, 2026).",
+        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
+        "taxes": "No tax policy documented (checked Sep 2, 2026).",
+        "education": "No education policy documented (checked Sep 2, 2026).",
+        "safety": "No domestic public safety policy documented (checked Sep 2, 2026).",
+        "repro": "No abortion position documented (checked Sep 2, 2026).",
+        "democracy": "Survey emphasizes 'accountability to the ordinary people... rather than corporations and special interests' and campaign finance transparency, which is a corruption/accountability position, not the axis's voting-access question, so left null (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "or-gov-smith",
@@ -761,19 +848,62 @@
       "office": "governor",
       "district": null,
       "state": "OR",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "The Green Papers: OR 2026",
-          "url": "https://www.thegreenpapers.com/G26/OR"
+          "label": "OPB: Could a third-party candidate shake up the Oregon governor's race?",
+          "url": "https://www.opb.org/article/2026/07/23/oregon-governor-race-third-party-candidate-brett-smith/"
         },
         {
-          "label": "Politics1: OR 2026 candidates",
-          "url": "https://politics1.com/or.htm"
+          "label": "OPB: Kotek snags final minor-party nomination, likely cementing a three-way race for Oregon governor",
+          "url": "https://www.opb.org/article/2026/08/21/kotek-drazan-smith-minor-parties-three-way-race-oregon-governor/"
+        },
+        {
+          "label": "The Green Papers: OR 2026",
+          "url": "https://www.thegreenpapers.com/G26/OR"
         }
-      ]
+      ],
+      "age": 44,
+      "home": "Molalla",
+      "now": "Former welder and mill worker; Pacific Green nominee for governor",
+      "background": "Smith is a 44-year-old Molalla, Oregon resident who previously worked as a welder, mill worker, and maintenance person. He ran for Oregon's 5th Congressional District as an Independent Party nominee in 2024, winning nearly 5% of the vote, and won the Pacific Green Party's 2026 gubernatorial nomination over three other candidates after finding the Libertarian Party 'uninspiring.' He has been open that his candidacy could act as a spoiler in the three-way race between Gov. Tina Kotek and Republican Christine Drazan.",
+      "priorities": [
+        "Universal healthcare",
+        "Anti-war, anti-corruption politics",
+        "Voting system reform"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Supports the Green Party's universal healthcare position, saying 'We have the resources. There is absolutely no reason to not have healthcare' (OPB)",
+          "url": "https://www.opb.org/article/2026/07/23/oregon-governor-race-third-party-candidate-brett-smith/"
+        }
+      },
+      "nullNotes": {
+        "cost": "No price-control or wage policy documented in OPB/IJPR coverage or Ballotpedia (checked Sep 2, 2026).",
+        "housing": "No housing policy documented (checked Sep 2, 2026).",
+        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
+        "taxes": "No tax policy documented (checked Sep 2, 2026).",
+        "climate": "OPB coverage quotes only general sustainability language ('We have failed our youth... taken their future and squandered it') with no specific energy policy (checked Sep 2, 2026).",
+        "education": "No education policy documented (checked Sep 2, 2026).",
+        "safety": "No domestic public safety policy documented (checked Sep 2, 2026).",
+        "repro": "No abortion position documented (checked Sep 2, 2026).",
+        "democracy": "Favors ranked-choice or STAR voting reform per OPB, which is a voting-method change, not the axis's registration/mail-voting-access question, so left null (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "fec-H6OR01308",
@@ -782,7 +912,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -852,7 +982,7 @@
       "office": "us-house",
       "district": "6",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -919,7 +1049,7 @@
       "office": "us-house",
       "district": "1",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1008,7 +1138,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": 72,
@@ -1091,7 +1221,7 @@
       "office": "us-house",
       "district": "2",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1171,7 +1301,7 @@
       "office": "us-house",
       "district": "3",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1260,7 +1390,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1340,7 +1470,7 @@
       "office": "us-house",
       "district": "4",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1425,7 +1555,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,
@@ -1511,7 +1641,7 @@
       "office": "us-house",
       "district": "5",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
@@ -1579,7 +1709,7 @@
       "office": "us-house",
       "district": "6",
       "state": "OR",
-      "tier": "researched",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": true,
       "age": null,

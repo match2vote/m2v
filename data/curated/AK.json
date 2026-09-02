@@ -4,7 +4,7 @@
   "races": {
     "AK-senate": {
       "status": "general",
-      "statusNote": "Final field for the November ranked choice general, certified Aug 31: Mary Peltola (D, 49.5%), Sen. Dan Sullivan (R, 41.4%) and Dan J. Sullivan of Petersburg (R, 2.5%) advanced from the Aug 18 top-four primary. David Leslie (D) finished fourth but withdrew Aug 31, so fifth-place finisher Gerald Heikes (R, 1.1%) takes the fourth ballot spot.",
+      "statusNote": "Final field for the November ranked choice general, certified Aug 31: Mary Peltola (D, 49.5%), Sen. Dan Sullivan (R, 41.4%) and Dan J. Sullivan of Petersburg (R, 2.5%) advanced from the Aug 18 top-four primary. David Leslie (D) finished fourth but withdrew Aug 31, so fifth-place finisher Gerald Heikes (R, 1.1%) takes the fourth ballot spot. Full researched entries added Sep 2, 2026 for the two candidates who were on the certified ballot with no positions on file: Gerald Heikes (repro scored, rest documented null) and Daniel J Sullivan of Petersburg (3 axes scored, rest documented null; not the incumbent senator).",
       "advancing": [
         "fec-S4AK00214",
         "fec-S6AK00276",
@@ -13,12 +13,13 @@
       ]
     },
     "AK-governor": {
-      "status": "names-only",
-      "statusNote": "Open seat: Gov. Mike Dunleavy is term-limited and cannot seek a third consecutive term. In the Aug 18 top-four primary, Jonathan Kreiss-Tomkins (D), who represented Sitka and Southeast Alaska in the Legislature for a decade, and former Anchorage state Sen. Tom Begich (D) lead with about 22% and 20%. Conservative activist and business owner Bernadette Wilson (R) holds third at about 10%. The fourth spot is not settled: former Anchorage Mayor Dave Bronson (R) leads a tight pack, with certification expected Aug 31. The November general uses ranked choice voting. Positions are not researched yet.",
+      "status": "general",
+      "statusNote": "Open seat: Gov. Mike Dunleavy is term-limited and cannot seek a third consecutive term. In the Aug 18 top-four primary, Jonathan Kreiss-Tomkins (D), who represented Sitka and Southeast Alaska in the Legislature for a decade, and former Anchorage state Sen. Tom Begich (D) lead with about 22% and 20%. Conservative activist and business owner Bernadette Wilson (R) holds third at about 10%. The fourth spot is not settled: former Anchorage Mayor Dave Bronson (R) leads a tight pack, with certification expected Aug 31. The November general uses ranked choice voting. Certified fourth-spot correction, Sep 2 2026: Tom Begich (D), who finished second in the Aug 18 primary, officially withdrew Aug 31; the app's advancing list should have him REMOVED (fragment format cannot remove ids). That promoted Bernadette Wilson to second and Dave Bronson to third. The fourth slot was Treg Taylor's until Lt. Gov. Nancy Dahlstrom disqualified him Aug 31 for incomplete financial disclosures; his running mate Candice English took his spot on the ticket with Jodi Taylor (Treg's wife) as her new running mate. As of Sep 1, Alaska's News Source still described English's ticket status as pending compliance review of Jodi Taylor's disclosure, with a possible further shuffle to sixth- or seventh-place finishers if she is also disqualified. Certified final four for the November ranked-choice general as of Sep 2, 2026: Jonathan Kreiss-Tomkins (D, 22.5%), Bernadette Wilson (R, 10.1%), Dave Bronson (R, 8.1%), Candice English (R, pending).",
       "advancing": [
         "ak-gov-kreiss-tomkins",
-        "ak-gov-begich",
-        "ak-gov-wilson"
+        "ak-gov-wilson",
+        "ak-gov-bronson",
+        "ak-gov-english"
       ],
       "sources": [
         {
@@ -36,12 +37,13 @@
       ]
     },
     "AK-house-at-large": {
-      "status": "names-only",
-      "statusNote": "Rep. Nick Begich III (R) and independent Bill Hill, a commercial fisherman and retired educator, advanced from the Aug 18 top-four primary. Democrat Eric Hafner also advanced after third-place finisher Matt Schultz (D) withdrew; Hafner is serving a federal prison sentence until 2036, has no clear ties to Alaska, and legal challenges to his candidacy are expected. The final spot is not settled, with certification expected Aug 31. The November general uses ranked choice voting. Positions are not researched yet.",
+      "status": "general",
+      "statusNote": "Rep. Nick Begich III (R) and independent Bill Hill, a commercial fisherman and retired educator, advanced from the Aug 18 top-four primary. Democrat Eric Hafner also advanced after third-place finisher Matt Schultz (D) withdrew; Hafner is serving a federal prison sentence until 2036, has no clear ties to Alaska, and legal challenges to his candidacy are expected. The final spot is not settled, with certification expected Aug 31. The November general uses ranked choice voting. Certified final four for the November ranked-choice general, Sep 2 2026: Rep. Nick Begich III (R, about 45%), Bill Hill (I, about 33%), Eric Hafner (D, about 4%, advanced when third-place Matt Schultz withdrew), and Jim McDermott (L, 1.2%, eighth-place finisher who advanced after a cascade of four withdrawals following Schultz's exit). Source: Alaska Beacon, Aug 31 and Sep 1, 2026 (fetched).",
       "advancing": [
         "fec-H2AK01083",
         "fec-H6AK01092",
-        "ak-house-al-hafner"
+        "ak-house-al-hafner",
+        "ak-house-al-mcdermott"
       ],
       "sources": [
         {
@@ -250,19 +252,80 @@
       "party": "Democrat",
       "office": "governor",
       "state": "AK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
         {
-          "label": "Alaska Public Media: governor primary results, Aug 18",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+          "label": "JKT for Alaska: Issues & Priorities",
+          "url": "https://www.jktforak.com/platform"
         },
         {
-          "label": "Alaska Public Media: updated ballot count, Aug 26",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+          "label": "KRBD: Kreiss-Tomkins talks education funding, fisheries and the ferry system, May 18 2026",
+          "url": "https://www.krbd.org/2026/05/18/jonathan-kreiss-tomkins-talks-education-funding-fisheries-and-reviving-the-ferry-system-in-ketchikan-campaign-stop/"
+        },
+        {
+          "label": "Alaska Beacon: last-day shakeup in governor's race, Aug 31 2026",
+          "url": "https://alaskabeacon.com/2026/08/31/last-day-shakeup-in-alaskas-race-for-governor-puts-disqualified-candidates-wife-on-the-ballot/"
         }
-      ]
+      ],
+      "age": 37,
+      "home": "Sitka, AK",
+      "now": "Democratic candidate for governor; former state legislator",
+      "background": "Represented Sitka and Southeast Alaska in the state Legislature for a decade before leaving office. Finished first in the Aug 18 top four primary with 22.5 percent of the vote. Running on public education funding, lowering energy and housing costs, and requiring oil and gas producers to pay corporate income tax.",
+      "priorities": [
+        "Fully fund public schools and pay teachers fairly",
+        "Lower the cost of energy and housing",
+        "Require all oil and gas producers to pay Alaska corporate income tax"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": 1,
+        "immigration": null,
+        "taxes": -1,
+        "climate": 1,
+        "education": -1,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Platform supports Medicaid expansion, partnering with tribal health organizations, and telehealth to cut costs (JKT for Alaska platform)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "housing": {
+          "label": "Wants to 'bring down the cost of housing by cutting red tape' and unlock state land for building, paired with state financing partners (JKT for Alaska platform)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "taxes": {
+          "label": "Says 'all Alaska oil and gas producers should contribute to the Alaska budget by paying corporate income tax,' and flags a Hilcorp loophole costing the state $150 to $200 million a year (JKT platform; KRBD)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "climate": {
+          "label": "Platform backs 'development of all energy sources, renewables, hydro, and natural gas, to lower utility bills' (JKT for Alaska platform)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "education": {
+          "label": "Calls education his top priority, wants to 'fully fund our schools and reverse the decline of public education' and pay teachers fairly (JKT for Alaska platform; KRBD interview)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "safety": {
+          "label": "Platform pledges to 'support our first responders by funding and equipping our police, fire, and emergency medical personnel' (JKT for Alaska platform)",
+          "url": "https://www.jktforak.com/platform"
+        },
+        "repro": {
+          "label": "Platform vows to 'defend Alaska women's right to choose' and ensure access to contraception (JKT for Alaska platform)",
+          "url": "https://www.jktforak.com/platform"
+        }
+      },
+      "nullNotes": {
+        "cost": "Platform speaks generally of lowering energy and housing costs (both scored separately) but states no direct cost of living mechanism of its own; checked jktforak.com/platform and KRBD/KYUK campaign coverage (checked Sep 2, 2026).",
+        "immigration": "No campaign statement found on immigration; checked jktforak.com/platform, Alaska Public Media and ADN coverage of his campaign (checked Sep 2, 2026).",
+        "democracy": "Platform opposes corporate political spending and backs contribution limits, which is campaign finance rather than voting access or election administration, so it does not map to this axis; no voter ID, registration, or mail voting statement found (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ak-gov-begich",
@@ -271,7 +334,7 @@
       "office": "governor",
       "state": "AK",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "withdrawn",
       "incumbent": false,
       "sources": [
         {
@@ -290,19 +353,77 @@
       "party": "Republican",
       "office": "governor",
       "state": "AK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
         {
-          "label": "Alaska Public Media: governor primary results, Aug 18",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-08-18/kreiss-tomkins-begich-wilson-and-bronson-lead-in-early-governor-primary-results"
+          "label": "Bernadette for Governor: On the Issues",
+          "url": "https://bernadetteforgovernor.com/on-the-issues/"
         },
         {
-          "label": "Alaska Public Media: updated ballot count, Aug 26",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-08-26/primary-standings-largely-unchanged-as-alaska-elections-officials-update-ballot-count"
+          "label": "Alaska's News Source: On the record Q&A with Bernadette Wilson, Aug 3 2026",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
+        },
+        {
+          "label": "Alaska Public Media: Wilson says she's frustrated Alaska is 'stagnant,' Aug 14 2026",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-14/republican-governor-candidate-bernadette-wilson-says-shes-frustrated-alaska-is-stagnant"
         }
-      ]
+      ],
+      "age": null,
+      "home": "Anchorage, AK",
+      "now": "Republican candidate for governor; owner of Denali Disposal",
+      "background": "Anchorage businesswoman who owns Denali Disposal, a garbage-hauling company, and has worked as a conservative radio host and with groups including Americans for Prosperity and the Alaska Policy Forum. A member of the Naknek tribe of Aleut descent; her great-uncle was Gov. Wally Hickel. Finished second in the Aug 18 primary with about 10 percent of the vote, campaigning on education choice, a statutory Permanent Fund Dividend, and opposition to new taxes.",
+      "priorities": [
+        "Education savings accounts and 'No More Lines' school choice",
+        "Pay the full statutory Permanent Fund Dividend",
+        "No new taxes; cut spending through efficiency audits, not resource taxation"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 1,
+        "housing": 1,
+        "immigration": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Frames Alaska as 'stagnant' and wants growth from 'innovation and technology' and permitting reform rather than more spending or new taxes (Alaska Public Media, Aug 14 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-14/republican-governor-candidate-bernadette-wilson-says-shes-frustrated-alaska-is-stagnant"
+        },
+        "health": {
+          "label": "Would repeal certificate of need laws and let mental health licenses transfer between states (Alaska's News Source Q&A, Aug 3 2026)",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
+        },
+        "housing": {
+          "label": "Points to 'a lot of regulations, a lot of permitting issues' blocking housing projects from moving forward (Alaska's News Source Q&A, Aug 3 2026)",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
+        },
+        "taxes": {
+          "label": "Says 'I absolutely don't support new taxes' and argues Alaska 'has a spending problem,' not a revenue problem (Alaska's News Source Q&A, Aug 3 2026)",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
+        },
+        "climate": {
+          "label": "Backs Alaska LNG and other resource development, arguing the state has made 'zero' from 40 years of gasline talk instead of building it (Alaska's News Source Q&A, Aug 3 2026)",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
+        },
+        "education": {
+          "label": "Campaign site backs Education Savings Accounts, Backpack Funding and 'No More Lines' open enrollment, saying 'it's time to end discrimination and income-based inequality in education' (Bernadette for Governor, On the Issues)",
+          "url": "https://bernadetteforgovernor.com/on-the-issues/"
+        }
+      },
+      "nullNotes": {
+        "immigration": "No campaign statement found on immigration; checked bernadetteforgovernor.com/on-the-issues, Alaska's News Source Q&A and Alaska Public Media profile (checked Sep 2, 2026).",
+        "safety": "Said 'Anchorage doesn't have a homeless problem, we have a drug and psychiatric problem' but did not state a specific enforcement or prevention policy; checked the same Q&A for a follow-up and found none (checked Sep 2, 2026).",
+        "repro": "Not completed Ballotpedia's Candidate Connection survey and no abortion statement found in her campaign site or the two candidate Q&As checked (checked Sep 2, 2026).",
+        "democracy": "On the record opposing ranked choice voting and named as a sponsor of a repeal effort, but that is a ballot-structure position, not the axis's voter ID/registration/mail-voting framing, so it is not scored here (Alaska's News Source Q&A, checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ak-house-al-hafner",
@@ -310,16 +431,51 @@
       "party": "Democrat",
       "office": "us-house",
       "state": "AK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "filed",
       "incumbent": false,
       "sources": [
         {
-          "label": "Alaska Public Media: Hafner advances after Schultz withdrawal, Aug 27",
+          "label": "Alaska Public Media: a federal prisoner with no clear ties to Alaska advances, Aug 27 2026",
           "url": "https://alaskapublic.org/news/politics/elections/2026-08-27/a-federal-prisoner-with-no-clear-ties-to-alaska-advances-in-primary-for-the-states-u-s-house-seat"
+        },
+        {
+          "label": "Alaska Beacon: two of the final candidates don't live in Alaska and one is in prison, Aug 31 2026",
+          "url": "https://alaskabeacon.com/2026/08/31/in-alaskas-u-s-house-race-two-of-the-final-candidates-dont-live-in-alaska-and-one-is-in-prison/"
         }
       ],
-      "district": "at-large"
+      "district": "at-large",
+      "age": null,
+      "home": null,
+      "now": "Federal inmate; Democratic candidate for U.S. House",
+      "background": "Serving a federal prison sentence in New York after pleading guilty in 2022 to making threats against police officers, judges and others, with a release date in 2036. Has no apparent ties to Alaska; his candidate filing listed a Box Elder, South Dakota, mailing address and a New York phone number shared with his mother. Finished fourth in the Aug 18 primary with about 4 percent of the vote after third-place finisher Matt Schultz withdrew. This is his second run for the seat; he also made the general-election ballot in 2024 over a Democratic Party challenge. A state judge has ruled he can remain a candidate despite being unable to serve if elected while imprisoned, and his 2026 advancement is expected to draw a new legal challenge because the U.S. Constitution requires House members to reside in the state they represent.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No campaign platform exists; he is incarcerated with no apparent Alaska campaign infrastructure. Checked Alaska Public Media, Alaska Beacon, Vice and Newsweek coverage of his 2024 and 2026 candidacies for any stated positions (checked Sep 2, 2026).",
+        "health": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "housing": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "immigration": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "taxes": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "climate": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "education": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "safety": "Same hunt as above, no statement found (checked Sep 2, 2026); note his own 2022 guilty plea was for making threats, not a policy position.",
+        "repro": "Same hunt as above, no statement found (checked Sep 2, 2026).",
+        "democracy": "Same hunt as above, no statement found (checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ak-senate-heikes",
@@ -328,15 +484,478 @@
       "office": "us-senate",
       "district": null,
       "state": "AK",
-      "tier": "fec",
+      "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
       "sources": [
         {
-          "label": "Alaska Beacon: certified primary results; Leslie withdraws, Heikes advances to the general ballot",
+          "label": "Alaska Beacon: certified primary results, Leslie withdraws, Heikes advances, Aug 31 2026",
+          "url": "https://alaskabeacon.com/2026/08/31/petersburgs-dan-j-sullivan-stays-on-alaskas-u-s-senate-ballot-after-third-place-primary-finish/"
+        },
+        {
+          "label": "Anchorage Daily News: attacks on relatively unknown GOP candidate, Aug 11 2024",
+          "url": "https://www.adn.com/politics/2024/08/11/attacks-on-relatively-unknown-gop-candidate-for-alaskas-us-house-seat-could-shape-primary-results/"
+        },
+        {
+          "label": "Alaska Public Media: super PACs try to game Alaska's open primary, Aug 14 2026",
+          "url": "https://alaskapublic.org/news/politics/2026-08-14/super-pacs-try-to-game-alaskas-open-primary-for-u-s-senate-by-elevating-political-unknowns"
+        }
+      ],
+      "age": null,
+      "home": "Palmer, AK",
+      "now": "Minister at an Anchorage church; perennial candidate",
+      "background": "A minister at an Anchorage church who describes himself as a 'constitutional Christian conservative' and says he first ran for office (governor, in 2006) because he felt called by God to do so. A repeat candidate for governor, U.S. Senate and U.S. House going back two decades, typically drawing a few hundred to a few thousand votes. Took the fourth and final general-election spot when fourth-place finisher David Leslie withdrew Aug 31, 2026, promoting Heikes up from fifth place (1.1 percent of the primary vote). A conservative-aligned super PAC, Right for Alaska, spent to promote him during the primary as more conservative than Sen. Dan Sullivan.",
+      "priorities": [
+        "Nationwide ban on abortion, including in cases of rape and incest",
+        "Stay in the race through the general election regardless of long odds"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "repro": {
+          "label": "Said there should 'absolutely' be a nationwide abortion ban, including in cases of rape and incest, and stayed in a past race specifically after a rival supported rape/incest exceptions (Anchorage Daily News, Aug 11 2024; the-downballot.com)",
+          "url": "https://www.adn.com/politics/2024/08/11/attacks-on-relatively-unknown-gop-candidate-for-alaskas-us-house-seat-could-shape-primary-results/"
+        }
+      },
+      "nullNotes": {
+        "cost": "No economic platform found; he has not responded to press outreach and has no active campaign website found. Checked Ballotpedia, BallotReady, the Midterm Project, OppIntell and Alaska Public Media's Aug 14, 2026 coverage of super PAC spending in his favor (checked Sep 2, 2026).",
+        "health": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "housing": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "immigration": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "taxes": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "climate": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "education": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "safety": "No statement found; same hunt as cost (checked Sep 2, 2026).",
+        "democracy": "On ranked choice voting he said 'I don't rank anybody. It's a one-shot deal,' which is opposition to Alaska's RCV ballot format, not the axis's voter ID/registration/mail-voting framing, so it is not scored here (the-downballot.com, checked Sep 2, 2026)."
+      },
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "ak-gov-bronson",
+      "name": "Dave Bronson",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AK",
+      "tier": "curated",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "age": null,
+      "home": "Anchorage, AK",
+      "now": "Republican candidate for governor; former Anchorage mayor",
+      "background": "Former Anchorage mayor (2021 to 2024) and retired commercial pilot who served 24 years in the U.S. Air Force, Air Force Reserve and Alaska Air National Guard, reaching lieutenant colonel. Finished third in the Aug 18 primary with about 8 percent of the vote, then took the third ranked-choice general slot when second-place finisher Tom Begich withdrew Aug 31. Campaigning on resource development, a completed Alaska gas line, and higher Permanent Fund investment returns.",
+      "priorities": [
+        "Build the Alaska LNG gas line for cheap, plentiful natural gas",
+        "Raise Permanent Fund investment returns",
+        "Oppose new taxes on the oil and gas industry"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": -1,
+        "safety": 2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Opposes new oil industry taxes, saying 'changing the rules of the game and the tax structure midway through' scares off investment; as mayor pledged no sales tax and no inflated property assessments (Alaska Beacon, Aug 27 2026; Ballotpedia 2021 mayoral positions)",
+          "url": "https://alaskabeacon.com/2026/08/27/alaska-gubernatorial-candidates-highlight-contrasting-philosophies-on-oil-and-gas/"
+        },
+        "climate": {
+          "label": "Says 'we need this gas line ... so we can get to that spur ... and get them on plentiful, cheap natural gas,' and blames 'personal animosities in Juneau' for blocking the project (Alaska Public Media interview; Alaska Beacon, Aug 27 2026)",
+          "url": "https://alaskabeacon.com/2026/08/27/alaska-gubernatorial-candidates-highlight-contrasting-philosophies-on-oil-and-gas/"
+        },
+        "education": {
+          "label": "Says Alaska will get 'in the top 10' in outcomes 'by funding reading coaches' in public schools (Alaska Public Media interview, Aug 10 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race"
+        },
+        "safety": {
+          "label": "As mayor, prioritized increasing police officers and pledged to 'intensify police presence in areas most impacted by increased crime,' opposing efforts to defund police (Ballotpedia, 2021 mayoral platform)",
+          "url": "https://ballotpedia.org/David_Bronson"
+        }
+      },
+      "nullNotes": {
+        "cost": "Cited cost of living as 'a key concern for keeping Alaska attractive' but named no specific mechanism; checked Alaska Public Media's Aug 10 and Jan 21 interviews and davebronson.com (checked Sep 2, 2026).",
+        "health": "No healthcare policy statement found for the 2026 campaign; checked davebronson.com, Alaska Public Media and KRBD interviews (checked Sep 2, 2026).",
+        "housing": "As mayor he opposed using hotels as homeless shelters and favored faith-based and treatment approaches, which is homelessness services policy rather than the building/zoning framing of this axis; no zoning or housing-supply statement found for the 2026 campaign (checked Sep 2, 2026).",
+        "immigration": "No campaign statement found; checked davebronson.com and multiple 2026 campaign interviews (checked Sep 2, 2026).",
+        "repro": "No 2026 campaign statement found on abortion; he has not completed Ballotpedia's Candidate Connection survey for 2021, 2024 or 2026 (checked Sep 2, 2026).",
+        "democracy": "No voting or elections statement found; checked davebronson.com and campaign interviews (checked Sep 2, 2026)."
+      },
+      "sources": [
+        {
+          "label": "Alaska Beacon: gubernatorial candidates on oil and gas, Aug 27 2026",
+          "url": "https://alaskabeacon.com/2026/08/27/alaska-gubernatorial-candidates-highlight-contrasting-philosophies-on-oil-and-gas/"
+        },
+        {
+          "label": "Alaska Public Media: Bronson says tough term as mayor gives him an edge, Aug 10 2026",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race"
+        },
+        {
+          "label": "Ballotpedia: David Bronson",
+          "url": "https://ballotpedia.org/David_Bronson"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "ak-gov-english",
+      "name": "Candice English",
+      "party": "Republican",
+      "office": "governor",
+      "state": "AK",
+      "tier": "curated",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "age": null,
+      "home": "Anchorage, AK",
+      "now": "Republican candidate for governor; founder of Northern Solutions",
+      "background": "Anchorage businesswoman and polio survivor who founded Northern Solutions, a machine shop with locations in Anchorage and Deadhorse, after a 20-year career with ARCO Alaska on the North Slope. Originally joined the ticket in June 2026 as former Attorney General Treg Taylor's running mate for lieutenant governor and kept a low profile through the primary. Became the fourth general-election candidate on Aug 31 after Lt. Gov. Nancy Dahlstrom disqualified Taylor for incomplete financial disclosures; English replaced him at the top of the ticket with Taylor's wife, Jodi Taylor, as her running mate. As of Sep 1, 2026, her place on the ballot was reported as still pending final compliance review of Jodi Taylor's own financial disclosure.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "No policy statement found; her only public quote frames government efficiency generally ('Juneau politicians have spent too much time making excuses ... we need to waste less, produce more'), not a specific cost of living position. Checked Alaska's News Source, Alaska Beacon and ADN coverage of her elevation to the ticket (checked Sep 2, 2026).",
+        "health": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "housing": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "immigration": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "taxes": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "climate": "No statement found beyond her North Slope oil industry career; no policy position stated. Checked Alaska's News Source, Alaska Beacon and ADN (checked Sep 2, 2026).",
+        "education": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "safety": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "repro": "No statement found; checked the same coverage (checked Sep 2, 2026).",
+        "democracy": "No statement found; checked the same coverage (checked Sep 2, 2026). A Sep 1 2026 Alaska's News Source report and a Sep 1 dermotcole.com item both describe her as unlikely to run an active campaign, which is consistent with the lack of any issued platform."
+      },
+      "sources": [
+        {
+          "label": "Alaska's News Source: former AG names manufacturing leader as running mate, Jun 2 2026",
+          "url": "https://www.alaskasnewssource.com/2026/06/02/election-2026-former-ag-names-manufacturing-leader-running-mate-crowded-governors-race/"
+        },
+        {
+          "label": "Alaska Beacon: last-day shakeup puts disqualified candidate's wife on the ballot, Aug 31 2026",
+          "url": "https://alaskabeacon.com/2026/08/31/last-day-shakeup-in-alaskas-race-for-governor-puts-disqualified-candidates-wife-on-the-ballot/"
+        },
+        {
+          "label": "Alaska's News Source: final candidates in governor's race still unclear after 11th-hour scrambles, Sep 1 2026",
+          "url": "https://www.alaskasnewssource.com/2026/09/01/2026-election-final-candidates-governors-race-still-unclear-after-11th-hour-scrambles-get-ballot/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-H2AK01083",
+      "name": "Nicholas III Begich",
+      "party": "Republican",
+      "state": "AK",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": true,
+      "tier": "curated",
+      "ballotStatus": "filed",
+      "age": 48,
+      "home": "Chugiak, Anchorage, AK",
+      "now": "U.S. Representative for Alaska (at-large)",
+      "background": "First-term Republican, elected in 2024 after an unsuccessful 2022 bid. Founded FarShore Partners, a software company, and served on the board of the conservative Alaska Policy Forum before Congress. Finished first in the Aug 18 primary with about 45 percent of the vote.",
+      "priorities": [
+        "Make the Permanent Fund Dividend exempt from federal income tax",
+        "Expand Alaska oil, gas and mineral development",
+        "Cut federal regulations that raise housing and energy costs"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": 2,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Touts 'eliminating federal taxes on tips and overtime pay' and a 'no-tax-on-Social-Security provision' as relief for working Alaskans and seniors (Begich press release, House annual address)",
+          "url": "https://begich.house.gov/media/press-releases/congressman-begich-highlights-new-standard-alaska-annual-address-legislature"
+        },
+        "housing": {
+          "label": "Press release on the Affordable Homes Act frames housing costs as a deregulation problem: it 'removes duplicative authority that allowed multiple federal agencies to impose conflicting energy standards on manufactured housing,' arguing 'lower energy costs mean lower construction costs ... and more homes that Alaskans can actually afford' (Begich press release)",
+          "url": "https://begich.house.gov/media/press-releases/congressman-begich-votes-pass-affordable-homes-act-lower-housing-costs-alaska"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (House Clerk roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted yes on H.R. 1, the 2025 tax law, Jul 3 2025 (House Clerk roll call 190); also introduced H.R. 7760 to make the PFD federally tax-free",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Calls Alaska's energy resources 'a true cornerstone of American prosperity and a valuable tool for national security' and celebrated the Pikka oil project's first production, while also co-sponsoring bipartisan water-power innovation legislation (Begich issues page and op-eds)",
+          "url": "https://begich.house.gov/issues/energy"
+        },
+        "repro": {
+          "label": "Said he would support 'a federal ban on abortion after about the 12th week of pregnancy,' calling himself 'pro-life' and opposed to federal abortion funding, while also saying abortion is 'a state issue' (Alaska Beacon, Sep 11 2024)",
+          "url": "https://alaskabeacon.com/2024/09/11/in-alaskas-u-s-house-race-begich-supports-nationwide-abortion-limit-peltola-and-howe-oppose/"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10 2025 (House Clerk roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "nullNotes": {
+        "health": "Office's Health issues page only discusses rural access generally ('there are often many challenges that limit access to quality healthcare in rural parts of the United States') without a public-role or private-role policy direction; checked begich.house.gov/issues/health (checked Sep 2, 2026).",
+        "education": "Office's Education issues page contains no policy statement, only a student art-contest item; checked begich.house.gov/issues/education (checked Sep 2, 2026).",
+        "safety": "No public safety or crime policy statement found; checked begich.house.gov/issues and recent press releases (checked Sep 2, 2026)."
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2AK01083/"
+        },
+        {
+          "label": "Begich for Alaska: issues",
+          "url": "https://begich.house.gov/issues"
+        },
+        {
+          "label": "Alaska Beacon: Begich supports nationwide abortion limit, Sep 11 2024",
+          "url": "https://alaskabeacon.com/2024/09/11/in-alaskas-u-s-house-race-begich-supports-nationwide-abortion-limit-peltola-and-howe-oppose/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-H6AK01092",
+      "name": "Bill Hill",
+      "party": "Independent",
+      "state": "AK",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "filed",
+      "age": null,
+      "home": "Naknek, AK",
+      "now": "Independent candidate for U.S. House; retired schools superintendent",
+      "background": "Dena'ina Athabascan who grew up in Kokhanok on Iliamna Lake and later moved to Naknek. Worked as a public school teacher in Juneau and as a commercial fisherman in Bristol Bay before becoming superintendent of the Bristol Bay School District, where he was named Alaska Superintendent of the Year in 2023. Finished second in the Aug 18 primary with about 33 percent of the vote.",
+      "priorities": [
+        "Extend ACA tax credits and expand Medicaid coverage",
+        "Make billionaires and big corporations pay a fairer tax share",
+        "Bring down grocery, gas and child care costs"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": null,
+        "immigration": null,
+        "taxes": -2,
+        "climate": 0,
+        "education": -1,
+        "safety": 1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Platform calls for 'more caps on prescription drug prices' alongside opposing tariffs that raise grocery and gas prices (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "health": {
+          "label": "Would 'support expanding Medicaid coverage and extending federal healthcare subsidies,' and told KYUK he would vote to 'extend the ACA tax credits and lower the cost of premiums to Alaska' (Bill Hill for Alaskans platform; Alaska Beacon)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "taxes": {
+          "label": "Wants to 'make billionaires and big corporations pay their share,' saying 'my neighbors in Naknek are paying a higher tax rate than our country's biggest corporations' (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "climate": {
+          "label": "Platform explicitly backs both sides: an 'all of the above approach' that includes 'getting the most out of our oil and natural gas' and restoring tax credits 'to bring online new renewable projects' (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "education": {
+          "label": "Would 'champion investments in community schools, and protect local control' along with expanding vocational and apprenticeship funding (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "safety": {
+          "label": "Calls public safety 'the number one job of government,' pledging support for first responders including 'free cancer screenings for firefighters' (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        "repro": {
+          "label": "Says 'the government has no business being in our doctor's office. I will strongly defend a woman's right to make her own healthcare decisions' (Bill Hill for Alaskans platform)",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        }
+      },
+      "nullNotes": {
+        "housing": "Platform says he would 'fight to bring new housing and energy projects to Alaska to bring those costs down,' which does not clearly indicate a public-building versus deregulation direction; checked billhillforalaskans.com/bills-platform and Alaska Beacon/KYUK coverage (checked Sep 2, 2026).",
+        "immigration": "No immigration statement found; checked billhillforalaskans.com and Alaska Beacon, ADN, KYUK campaign coverage (checked Sep 2, 2026).",
+        "democracy": "Platform calls for overturning Citizens United and limiting billionaire influence on elections, which is campaign finance rather than the axis's voting access/registration framing, so it is not scored here; no voter ID or mail-voting statement found (checked Sep 2, 2026)."
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6AK01092/"
+        },
+        {
+          "label": "Bill Hill for Alaskans: Bill's Platform",
+          "url": "https://billhillforalaskans.com/bills-platform/"
+        },
+        {
+          "label": "Alaska Beacon: commercial fisherman and former superintendent will run for U.S. House, Jan 21 2026",
+          "url": "https://alaskabeacon.com/2026/01/21/commercial-fisherman-and-former-schools-superintendent-will-run-for-u-s-house-as-independent/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "ak-house-al-mcdermott",
+      "name": "Jim McDermott",
+      "party": "Libertarian",
+      "office": "us-house",
+      "state": "AK",
+      "district": "at-large",
+      "tier": "curated",
+      "ballotStatus": "filed",
+      "incumbent": false,
+      "age": null,
+      "home": "Fairbanks, AK",
+      "now": "Libertarian candidate for U.S. House; school tutor at Fort Wainwright",
+      "background": "Former noncommissioned officer in the U.S. Air Force who settled in Anchorage after his last tour, then moved to Fairbanks in 2006; now works as a school tutor at Fort Wainwright. Finished eighth in the Aug 18 primary with 1.2 percent of the vote (1,951 votes), then advanced to the fourth and final general-election spot after a cascade of withdrawals by four higher finishers, including Matt Schultz and three others. This is his second run for the seat; he received 7.6 percent in the 2014 general election.",
+      "priorities": [
+        "Fewer regulations on small and large businesses",
+        "Personal liberty as the core organizing principle of his campaign",
+        "Congressional term limits"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "Only stated economic view is general deregulation: 'I would look for more independence for people ... less laws that are in place that hinder small businesses, hinder big businesses,' which does not specify a cost of living mechanism; checked Alaska Beacon's Sep 1, 2026 profile and jamesmcdermott.org (checked Sep 2, 2026).",
+        "health": "No statement found; checked jamesmcdermott.org and Alaska Beacon profile (checked Sep 2, 2026).",
+        "housing": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "immigration": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "taxes": "No statement found beyond general small-government philosophy, not specific to taxation; checked the same sources (checked Sep 2, 2026).",
+        "climate": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "education": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "safety": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "repro": "No statement found; checked the same sources (checked Sep 2, 2026).",
+        "democracy": "Favors congressional term limits and is 'noncommittal' about caucusing with either party, but stated no voting-access or election-administration position; checked jamesmcdermott.org and Alaska Beacon profile (checked Sep 2, 2026)."
+      },
+      "sources": [
+        {
+          "label": "Alaska Beacon: Jim McDermott, a Libertarian from Fairbanks, makes top four, Sep 1 2026",
+          "url": "https://alaskabeacon.com/2026/09/01/jim-mcdermott-a-libertarian-from-fairbanks-makes-top-four-for-alaskas-u-s-house-race/"
+        },
+        {
+          "label": "Jim McDermott for U.S. House campaign site",
+          "url": "https://jamesmcdermott.org/"
+        }
+      ],
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-S6AK00326",
+      "name": "Daniel J Sullivan",
+      "party": "Republican",
+      "office": "us-senate",
+      "state": "AK",
+      "district": null,
+      "incumbent": false,
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Petersburg, AK",
+      "now": "Retired U.S. Forest Service employee; Republican candidate for U.S. Senate",
+      "background": "A retired U.S. Forest Service employee of 15 years living in Petersburg, not related to and not to be confused with incumbent Sen. Dan Sullivan. Formerly a member of the Alaska Independence Party before joining the Republican Party after the AIP dissolved. Finished third in the Aug 18 primary with 2.5 percent of the vote, drawing pressure to withdraw so his similar name would not confuse voters, but chose to stay on the ballot for the November general.",
+      "priorities": [
+        "Lower Alaska's cost of living",
+        "Improve access to healthcare",
+        "Expand affordable housing"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "taxes": {
+          "label": "Says he was raised to 'keep taxes low and support law and order,' calling those 'traditional beliefs' and describing himself as business-oriented Republican (Alaska Public Media, Aug 3 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies"
+        },
+        "safety": {
+          "label": "Cites 'support law and order' as one of the traditional family values guiding his campaign (Alaska Public Media, Aug 3 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies"
+        },
+        "democracy": {
+          "label": "Supports 'Alaska's ranked choice and open primary system' and says 'I have yet to see where widespread voter fraud is a problem,' opposing fraud-based restrictions on the current system (Alaska Public Media, Aug 3 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies"
+        }
+      },
+      "nullNotes": {
+        "cost": "Named cost of living as a concern he has 'seen' living in Petersburg but offered no specific mechanism or proposal; checked the Alaska Public Media profile that is his only substantial 2026 press coverage (checked Sep 2, 2026).",
+        "health": "Named improving healthcare access as important but gave no specific policy direction; same source, no other coverage found (checked Sep 2, 2026).",
+        "housing": "Listed affordable housing as a concern with no specific policy direction; same source, no other coverage found (checked Sep 2, 2026).",
+        "immigration": "No statement found; checked the Alaska Public Media profile and searched for a campaign website, found none (checked Sep 2, 2026).",
+        "climate": "No statement found; same hunt as immigration (checked Sep 2, 2026).",
+        "education": "No statement found; same hunt as immigration (checked Sep 2, 2026).",
+        "repro": "No statement found; same hunt as immigration (checked Sep 2, 2026)."
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6AK00326/"
+        },
+        {
+          "label": "Alaska Public Media: Petersburg's Dan J. Sullivan will be on the ballot, what are his policies, Aug 3 2026",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies"
+        },
+        {
+          "label": "Alaska Beacon: Petersburg's Dan J. Sullivan stays on the ballot, Aug 31 2026",
           "url": "https://alaskabeacon.com/2026/08/31/petersburgs-dan-j-sullivan-stays-on-alaskas-u-s-senate-ballot-after-third-place-primary-finish/"
         }
-      ]
+      ],
+      "curatedAt": "2026-09-02"
     }
   ]
 }

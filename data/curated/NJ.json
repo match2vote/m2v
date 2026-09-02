@@ -536,16 +536,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists no campaign URL for this candidate for 2026; still no fetchable policy source",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists only an Instagram handle (@njray856), not a fetchable policy source; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -686,12 +686,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: welzerforcongress.org lists only labeled priorities (fossil fuels, single payer, affordable housing) already scored elsewhere, no cost-of-living statement",
-        "immigration": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
-        "taxes": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
-        "education": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
-        "safety": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
-        "repro": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "cost": "re-checked Sep 2, 2026: welzerforcongress.org homepage fetched fully, no cost-of-living statement beyond already-scored items",
+        "immigration": "re-checked Sep 2, 2026: welzerforcongress.org homepage fetched fully, not addressed; /about page fetch was rate-limited (429) on retry",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
         "democracy": "re-checked Sep 2, 2026: campaign-finance-reform framing only, not a voting-access-vs-safeguards statement"
       },
       "curatedAt": "2026-08-29"
@@ -746,14 +746,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: no cost-of-living policy statement found",
-        "housing": "Not addressed; page content was largely unreadable metadata/base64 image data across two fetch attempts (checked Aug 29, 2026)",
-        "immigration": "re-checked Sep 2, 2026: no immigration statement found",
-        "taxes": "re-checked Sep 2, 2026: no tax statement found",
-        "education": "re-checked Sep 2, 2026: no education statement found",
+        "cost": "re-checked Sep 2, 2026: adamruedafornj5.com fetch again returned only meta-description tags, no readable body policy text",
+        "housing": "re-checked Sep 2, 2026: same limitation persists",
+        "immigration": "re-checked Sep 2, 2026: same limitation persists",
+        "taxes": "re-checked Sep 2, 2026: same limitation persists",
+        "education": "re-checked Sep 2, 2026: same limitation persists",
         "safety": "re-checked Sep 2, 2026: platform's gun-storage/mental-health-evaluation language is a gun stance, which per the guide does not map to the safety axis",
-        "repro": "re-checked Sep 2, 2026: no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: supports ranked-choice voting and open primaries, which per established precedent in this dataset (see nj-senate-fernandez) does not map to the voting-access-vs-safeguards axis"
+        "repro": "re-checked Sep 2, 2026: same limitation persists",
+        "democracy": "re-checked Sep 2, 2026: same limitation persists"
       },
       "curatedAt": "2026-08-29"
     },
@@ -828,15 +828,15 @@
         }
       },
       "nullNotes": {
-        "cost": "No specific cost-of-living statement found; general \"economic freedom\" and \"reducing the bloated government\" themes are too vague to score a direction (checked Aug 29, 2026)",
-        "health": "re-checked Sep 2, 2026: Ballotpedia survey on file is from her 2024 NJ-7 race and does not address health policy",
-        "housing": "re-checked Sep 2, 2026: same 2024 survey limitation, no housing content",
-        "taxes": "re-checked Sep 2, 2026: same 2024 survey limitation, no tax content",
-        "climate": "re-checked Sep 2, 2026: same 2024 survey limitation, no climate content",
-        "education": "re-checked Sep 2, 2026: same 2024 survey limitation, no education content",
-        "safety": "re-checked Sep 2, 2026: same 2024 survey limitation, no safety content",
-        "repro": "re-checked Sep 2, 2026: same 2024 survey limitation, no abortion content",
-        "democracy": "re-checked Sep 2, 2026: same 2024 survey limitation; surveillance/Patriot Act answers are civil-liberties, not voting-access-vs-safeguards content"
+        "cost": "re-checked Sep 2, 2026: not listed in politics1.com/nj.htm 2026 directory at all; only the stale 2024 Ballotpedia survey remains available; still unfindable for 2026",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -900,16 +900,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia page fetch was robots-blocked; politics1.com/nj.htm lists him with no campaign URL; still no fetchable source",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists no contact information at all for this candidate; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -948,16 +948,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "health": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "housing": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "immigration": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "taxes": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "climate": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "education": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "safety": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "repro": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "democracy": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists only an Instagram handle (@ariforcongress), not fetchable; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1004,16 +1004,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "health": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "immigration": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "taxes": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "climate": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "education": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "safety": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "repro": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "democracy": "The Militant (SWP newspaper) referenced a general \"SWP 2026 candidates\" article but no profile or quoted platform for Honts specifically was found in the issue fetched; Ballotpedia's page for him covers only his 2025 Lieutenant Governor run with no completed Candidate Connection survey (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: located themilitant.com/2026/08/21/swp-2026-candidates-point-working-class-road-forward/ but the fetch was proxy rate-limited (429); did not obtain content this round, worth retrying next round",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1052,16 +1052,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "health": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "housing": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "immigration": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "taxes": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "climate": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "education": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "safety": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "repro": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "democracy": "No campaign website found; politics1 lists only a LinkedIn profile, which is not fetchable as a policy source (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists only a LinkedIn profile, not fetchable as a policy source; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1125,16 +1125,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia fetch was robots-blocked again; no other fetchable source found",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia robots-blocked again; politics1.com/nj.htm lists only an Instagram handle, not fetchable; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1193,13 +1193,13 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: campaign site's public-safety, jobs, and anti-corruption sections do not address health policy",
-        "housing": "re-checked Sep 2, 2026: only general 'mortgage, property taxes and medical bills' quality-of-life language, no separate housing policy",
-        "immigration": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "climate": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "education": "re-checked Sep 2, 2026: 'back to basics' language still does not specify a public-schools-vs-choice direction",
-        "repro": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "democracy": "re-checked Sep 2, 2026: anti-corruption language does not state a voting-rules position"
+        "health": "re-checked Sep 2, 2026: Ballotpedia page fetched successfully this round; only praise for 'healthcare professionals tirelessly caring for the sick,' no policy position",
+        "housing": "re-checked Sep 2, 2026: Ballotpedia page states he supports helping seniors 'keep the home they build or have lived in for their whole lives,' a property-tax-relief-for-seniors framing that does not cleanly fit the build-supply-vs-public-housing axis",
+        "immigration": "re-checked Sep 2, 2026: Ballotpedia page fetched, not addressed",
+        "climate": "re-checked Sep 2, 2026: Ballotpedia page fetched, not addressed",
+        "education": "re-checked Sep 2, 2026: Ballotpedia page fetched; states students 'are not where they should be academically' and emphasizes school safety, an academic-rigor/safety framing that does not indicate a public-investment-vs-choice direction",
+        "repro": "re-checked Sep 2, 2026: Ballotpedia page fetched, not addressed",
+        "democracy": "re-checked Sep 2, 2026: Ballotpedia page fetched, not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1238,16 +1238,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: hopefortomorrownj.org's robots.txt fetch failed again (DNS error); no other profile found",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: hopefortomorrownj.org DNS failure persists; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1317,16 +1317,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: winstonforcongress.com root now loads but states only a 'zero-donor campaign' funding pledge, no policy content",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: campaign's sole substantive issue remains 'getting money out of politics,' campaign-finance reform rather than voting-access-vs-safeguards"
+        "cost": "re-checked Sep 2, 2026: winstonforcongress.com root still states only a 'zero-donor campaign' funding pledge, no policy content",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: campaign's sole substantive issue remains getting money out of politics, campaign-finance reform rather than voting rules"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1390,12 +1390,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: andresjinete.org lists rent control, universal healthcare, and student debt relief (all already scored elsewhere), no immigration content",
-        "taxes": "re-checked Sep 2, 2026: no tax content on campaign site",
-        "climate": "re-checked Sep 2, 2026: no climate content on campaign site",
-        "safety": "re-checked Sep 2, 2026: no safety content on campaign site",
-        "repro": "re-checked Sep 2, 2026: no abortion content on campaign site",
-        "democracy": "re-checked Sep 2, 2026: no voting-rules content on campaign site"
+        "immigration": "re-checked Sep 2, 2026: andresjinete.org fetch was proxy rate-limited (429) this round; not re-obtained",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1451,14 +1451,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: veronicaforsenate.com states profits 'reach record highs, our pockets have been drained' but names no price cap, subsidy, wage, or deregulation policy; Ballotpedia survey ties all issues to campaign finance reform",
-        "housing": "re-checked Sep 2, 2026: veronicaforsenate.com references wanting to 'own a home' as a life aspiration only, no zoning/building or renter-protection policy stated",
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia survey again ties immigration to campaign finance ('all can be tied to campaign finance and the power of money in our Congress') with no enforcement-vs-pathway stance",
-        "climate": "re-checked Sep 2, 2026: survey lists environment as a committee interest only, no clean-transition-vs-energy-independence direction",
-        "education": "re-checked Sep 2, 2026: veronicaforsenate.com references wanting to 'educate our children' as an aspiration only, no public-schools-vs-choice policy stated",
-        "safety": "re-checked Sep 2, 2026: no public-safety statement found beyond the already-noted gun-safety mention",
-        "repro": "re-checked Sep 2, 2026: no abortion statement found on campaign site or survey",
-        "democracy": "re-checked Sep 2, 2026: survey confirms ranked-choice-voting and term-limits focus, still campaign-finance/structural reform rather than a voting-access-vs-safeguards stance"
+        "cost": "re-checked Sep 2, 2026: no new source found beyond already-exhausted campaign site and survey",
+        "housing": "re-checked Sep 2, 2026: no new source found",
+        "immigration": "re-checked Sep 2, 2026: no new source found",
+        "climate": "re-checked Sep 2, 2026: no new source found",
+        "education": "re-checked Sep 2, 2026: no new source found",
+        "safety": "re-checked Sep 2, 2026: no new source found",
+        "repro": "re-checked Sep 2, 2026: no new source found",
+        "democracy": "re-checked Sep 2, 2026: no new source found"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -1737,15 +1737,15 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign domain did not resolve on this attempt; no policy-specific statement found elsewhere beyond the general affordability language already noted",
-        "health": "re-checked Sep 2, 2026: no alternate source found",
-        "housing": "re-checked Sep 2, 2026: no alternate source found",
-        "immigration": "re-checked Sep 2, 2026: no alternate source found",
-        "taxes": "re-checked Sep 2, 2026: no alternate source found",
-        "climate": "re-checked Sep 2, 2026: no alternate source found",
-        "safety": "re-checked Sep 2, 2026: no alternate source found",
-        "repro": "re-checked Sep 2, 2026: no alternate source found",
-        "democracy": "re-checked Sep 2, 2026: no alternate source found"
+        "cost": "re-checked Sep 2, 2026: site states 'life in New Jersey has become unaffordable' and 'young people cannot afford to buy a home' but names no specific price-cap or deregulation mechanism, too vague",
+        "health": "re-checked Sep 2, 2026: healthcare listed only as a priority-area label with no policy detail",
+        "housing": "re-checked Sep 2, 2026: affordability language does not specify a housing supply or protection mechanism",
+        "immigration": "re-checked Sep 2, 2026: no immigration statement found",
+        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found",
+        "climate": "re-checked Sep 2, 2026: no climate/energy statement found",
+        "safety": "re-checked Sep 2, 2026: site states only 'communities feel less safe,' no enforcement-vs-prevention direction stated",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: no voting/elections statement found"
       },
       "sources": [
         {
@@ -1873,7 +1873,7 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: mullockforcongress.com root now loads three broad phrases (affordable healthcare, good-paying jobs, brighter future) with no specific policy direction on any axis",
+        "cost": "re-checked Sep 2, 2026: mullockforcongress.com root still loads only three broad phrases (affordable healthcare, good-paying jobs, brighter future), no policy mechanism",
         "health": "re-checked Sep 2, 2026: same limitation",
         "housing": "re-checked Sep 2, 2026: same limitation",
         "immigration": "re-checked Sep 2, 2026: same limitation",
@@ -2036,11 +2036,11 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia survey's affordability language duplicates the already-scored cost axis and states no separate housing policy",
-        "climate": "re-checked Sep 2, 2026: not addressed in Ballotpedia survey or campaign materials found",
-        "education": "re-checked Sep 2, 2026: 'expanding access to quality education' restated with no public-investment-vs-choice direction",
-        "repro": "re-checked Sep 2, 2026: no survey response found on abortion",
-        "democracy": "re-checked Sep 2, 2026: survey confirms congressional term limits as his reform focus, still not a voting-access-vs-safeguards position"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia robots-blocked on this attempt; no campaign website found beyond a LinkedIn profile per politics1.com/nj.htm",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {
@@ -2075,7 +2075,7 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 1,
         "taxes": 2,
@@ -2109,13 +2109,16 @@
         "safety": {
           "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: house.gov issues navigation and search turned up no cost-of-living statement",
-        "health": "re-checked Sep 2, 2026: no Medicare/health-system statement found",
-        "housing": "re-checked Sep 2, 2026: no housing policy statement found",
-        "education": "re-checked Sep 2, 2026: same navigation-only limitation as prior check"
+        "cost": "re-checked Sep 2, 2026: chrissmith.house.gov/issues confirmed to have only 3 issue categories total (Environment, Human Rights, Veterans); no cost-of-living statement exists on the site",
+        "housing": "re-checked Sep 2, 2026: same as above, no housing category or statement",
+        "education": "re-checked Sep 2, 2026: same as above, no education category or statement"
       },
       "sources": [
         {
@@ -2162,16 +2165,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: peace4shore.com robots.txt fetch was rate-limited on retry; no alternate source found",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: peace4shore.com listed on politics1.com/nj.htm; not separately re-fetched this round given repeated rate-limiting on prior attempts",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -2296,16 +2299,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: kirraneforcongress.com returns a 404 on the root domain now; no other profile found",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 2, 2026: kirraneforcongress.com listed on politics1.com/nj.htm but root domain still returns 404 per prior round; still unfindable",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -2609,14 +2612,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign site still states only general inflation/cost-of-living framing with no policy direction",
-        "housing": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "immigration": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "taxes": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "education": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "cost": "re-checked Sep 2, 2026: Ballotpedia robots-blocked this round; no campaign website URL listed on politics1.com/nj.htm",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
         "safety": "Site addresses weapons/gun policy, which per the guide does not map to the safety axis; no other public-safety statement found (checked Aug 29, 2026)",
-        "repro": "A Substack post references the anniversary of the Dobbs decision but states no specific policy position (checked Aug 29, 2026)",
-        "democracy": "re-checked Sep 2, 2026: 'protect the rights and freedoms guaranteed by the Constitution' language still does not specify a voting-rules position"
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {
@@ -2650,7 +2653,7 @@
       "background": "U.S. Representative for New Jersey's 8th District since 2023; formerly a Hudson County commissioner. Unopposed by a Republican in the general.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
         "housing": null,
         "immigration": -1,
@@ -2685,13 +2688,16 @@
         "safety": {
           "label": "Voted no on H.R.27, the HALT Fentanyl Act (clerk.house.gov roll 33, Feb 6, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "cost": {
+          "label": "\"An original co-sponsor of the Raise the Wage Act, which will provide for increases to the Federal minimum wage\" (menendez.house.gov/issues/working-families)",
+          "url": "https://menendez.house.gov/issues/working-families"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: house.gov issues page is a navigation index with no stated position",
-        "housing": "re-checked Sep 2, 2026: same navigation-only limitation",
-        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190), which does not establish the taxes axis alone for a Democrat; no separate statement found",
-        "education": "re-checked Sep 2, 2026: not listed among issue headings found"
+        "housing": "re-checked Sep 2, 2026: menendez.house.gov has no housing issue category; not addressed",
+        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found on any of the six house.gov issue pages; voted No on H.R.1 (roll 190), which does not establish the taxes axis alone for a Democrat",
+        "education": "re-checked Sep 2, 2026: menendez.house.gov has no education issue category; not addressed"
       },
       "sources": [
         {
@@ -2899,7 +2905,7 @@
       ],
       "positions": {
         "cost": -2,
-        "health": null,
+        "health": -2,
         "housing": null,
         "immigration": -2,
         "taxes": null,
@@ -2917,16 +2923,19 @@
         "immigration": {
           "label": "Campaign site features a prominent video calling to \"Abolish ICE\" (campaign site)",
           "url": "https://www.analiliafornj.com"
+        },
+        "health": {
+          "label": "\"Health care is a human right, not a privilege reserved for those who can afford it,\" opposing GOP Medicaid cuts and calling to safeguard Medicaid and the 340B drug discount program (mejia.house.gov press release with Rep. Dingell)",
+          "url": "https://mejia.house.gov/media/press-releases/rep-mejia-and-rep-dingell-sound-alarm-on-gop-medicaid-cuts-threatening-healthcare-access-for-millions"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: mejia.house.gov issues page is a navigation index with no stated position; no 119th Congress roll-call record found under her name for the rollbook votes, consistent with her having taken office after those early-2025 votes",
-        "housing": "re-checked Sep 2, 2026: same navigation-only limitation",
-        "taxes": "re-checked Sep 2, 2026: same navigation-only limitation",
-        "climate": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
-        "education": "re-checked Sep 2, 2026: same navigation-only limitation",
-        "safety": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
-        "repro": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
+        "housing": "re-checked Sep 2, 2026: mejia.house.gov/issues/energy and other subpages are placeholder pages with no content; a 100-days press release mentions co-sponsoring bills to 'lower housing and energy costs' but only as one item in an 85-bill list with no specific housing mechanism named, too vague to score per the one-sentence-one-axis rule",
+        "taxes": "re-checked Sep 2, 2026: same 100-days press release mentions 'enact tax fairness' in the same undifferentiated bill list, too vague to score",
+        "climate": "re-checked Sep 2, 2026: mejia.house.gov/issues/energy subpage fetched, placeholder with no content; she was sworn in April 20, 2026, after all rollbook climate votes",
+        "education": "re-checked Sep 2, 2026: mejia.house.gov/issues/education subpage fetched, placeholder with no content; 100-days release mentions co-sponsoring the College for All Act, which addresses college affordability rather than the K-12 public-schools-vs-choice axis, does not fit",
+        "safety": "re-checked Sep 2, 2026: 14th Amendment Task Force and detention-center oversight content is about due process/immigration detention conditions, not domestic crime/policing; does not fit this axis",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on mejia.house.gov or in press releases checked",
         "democracy": "Criticizes \"blue no matter who\" politics and calls for \"unbought leadership,\" but this is about corruption/party establishment rather than voting rules; does not score (checked Aug 29, 2026)"
       },
       "sources": [
@@ -3055,7 +3064,7 @@
         "climate": null,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -3074,15 +3083,18 @@
         "education": {
           "label": "Asserts \"every child deserves a great public education\" rather than depending on private tutoring (campaign site)",
           "url": "https://hamawyfornj.com"
+        },
+        "repro": {
+          "label": "Priorities page pledges to work toward \"codifying the right to abortion in federal law\" (hamawyfornj.com/priorities)",
+          "url": "https://hamawyfornj.com/priorities"
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: hamawyfornj.com still ties housing costs jointly with groceries/utilities in one general affordability sentence, no separate housing policy per the one-sentence-one-axis rule",
-        "taxes": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "climate": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "safety": "re-checked Sep 2, 2026: 'corruption and abuse of power' language is about government ethics, not policing/prevention",
-        "repro": "re-checked Sep 2, 2026: not addressed on campaign site",
-        "democracy": "re-checked Sep 2, 2026: same anti-corruption language does not state a voting-rules position"
+        "housing": "re-checked Sep 2, 2026: homepage still ties housing costs jointly with groceries/utilities in one general affordability sentence, no distinct housing policy",
+        "taxes": "re-checked Sep 2, 2026: 'Economic Justice' is listed as a priority heading on hamawyfornj.com/priorities but not elaborated in fetched content, no tax-rate statement",
+        "climate": "re-checked Sep 2, 2026: 'Climate Change' is listed as a priority heading but not elaborated in fetched content",
+        "safety": "re-checked Sep 2, 2026: no public-safety/crime statement found",
+        "democracy": "re-checked Sep 2, 2026: 'Fighting Corruption & Fixing Democracy' is listed as a priority heading but not elaborated in fetched content, no voting-rules statement"
       },
       "sources": [
         {
@@ -3158,10 +3170,10 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: /issues now shows four sections (Economy/Affordability, Healthcare, Education, Public Safety) and none address housing beyond the already-noted prison-reform housing assistance",
-        "democracy": "re-checked Sep 2, 2026: /issues has no voting-rules content",
-        "immigration": "re-checked Sep 2, 2026: confirmed again that /issues has no immigration section",
-        "repro": "re-checked Sep 2, 2026: confirmed again that /issues has no abortion/family-planning content"
+        "housing": "re-checked Sep 2, 2026: mele4america.com/issues fetched fully (Economy/Affordability, Healthcare, Education, Public Safety sections), no housing section",
+        "democracy": "re-checked Sep 2, 2026: mele4america.com/issues fetched fully, no voting-rules content",
+        "immigration": "re-checked Sep 2, 2026: mele4america.com/issues fetched fully, no immigration section",
+        "repro": "re-checked Sep 2, 2026: mele4america.com/issues fetched fully, no abortion content"
       },
       "sources": [
         {

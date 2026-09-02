@@ -509,16 +509,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable (robots error); no additional coverage found beyond the Newsweek piece",
-        "health": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "housing": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; still only the Newsweek 'biggest issue' framing with no policy direction",
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "taxes": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "education": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found",
-        "democracy": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable; no additional coverage found"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable (robots error) again, no additional coverage found beyond the Newsweek 'biggest issue' framing piece",
+        "health": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "housing": "re-checked Sep 2, 2026: same access issue, still only the Newsweek framing with no policy direction",
+        "immigration": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "taxes": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "climate": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "education": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "safety": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "repro": "re-checked Sep 2, 2026: same access issue, no additional coverage found",
+        "democracy": "re-checked Sep 2, 2026: same access issue, no additional coverage found"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -571,15 +571,15 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: the only fetchable Brian Judd Ballotpedia page is for a different Brian Judd, a 2022 Vermont House candidate, not this 2026 governor candidate; no campaign site or platform statement found for this candidate",
-        "health": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "housing": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "immigration": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "taxes": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "climate": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "education": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "safety": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found",
-        "repro": "re-checked Sep 2, 2026: same namesake mismatch on Ballotpedia; no source found"
+        "cost": "re-checked Sep 2, 2026: politics1.com/vt.htm confirms he is not listed as a US House candidate (correctly a governor candidate) with no campaign website given; the only fetchable Brian Judd Ballotpedia page remains the 2022 VT House namesake, not this candidate",
+        "health": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "housing": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "immigration": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "taxes": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "climate": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "education": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "safety": "re-checked Sep 2, 2026: same namesake mismatch, no source found",
+        "repro": "re-checked Sep 2, 2026: same namesake mismatch, no source found"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -623,16 +623,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable (robots error); no campaign site or coverage found",
-        "health": "re-checked Sep 2, 2026: same as above, no source found",
-        "housing": "re-checked Sep 2, 2026: same as above, no source found",
-        "immigration": "re-checked Sep 2, 2026: same as above, no source found",
-        "taxes": "re-checked Sep 2, 2026: same as above, no source found",
-        "climate": "re-checked Sep 2, 2026: same as above, no source found",
-        "education": "re-checked Sep 2, 2026: same as above, no source found",
-        "safety": "re-checked Sep 2, 2026: same as above, no source found",
-        "repro": "re-checked Sep 2, 2026: same as above, no source found",
-        "democracy": "re-checked Sep 2, 2026: same as above, no source found"
+        "cost": "re-checked Sep 2, 2026: found new campaign site via politics1.com/vt.htm, phoenixaltairforcongress.com, but it returned a 403 error on two attempts (immediate and after a 20s wait), unreachable",
+        "health": "re-checked Sep 2, 2026: same 403-blocked site",
+        "housing": "re-checked Sep 2, 2026: same 403-blocked site",
+        "immigration": "re-checked Sep 2, 2026: same 403-blocked site",
+        "taxes": "re-checked Sep 2, 2026: same 403-blocked site",
+        "climate": "re-checked Sep 2, 2026: same 403-blocked site",
+        "education": "re-checked Sep 2, 2026: same 403-blocked site",
+        "safety": "re-checked Sep 2, 2026: same 403-blocked site",
+        "repro": "re-checked Sep 2, 2026: same 403-blocked site",
+        "democracy": "re-checked Sep 2, 2026: same 403-blocked site"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -687,13 +687,13 @@
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: 2024 Ballotpedia Candidate Connection survey says bring the cost of living down, wants versus needs, with no price, wage, or deregulation mechanism stated",
         "health": "re-checked Sep 2, 2026: 2024 Ballotpedia Candidate Connection survey says mental health is health, dental, hygiene, sleep, personal-wellness advice rather than a public-vs-private healthcare system position",
-        "immigration": "re-checked Sep 2, 2026: not addressed in the Ballotpedia Candidate Connection survey or the Brattleboro Reformer interview",
-        "taxes": "re-checked Sep 2, 2026: not addressed in the Ballotpedia Candidate Connection survey or the Brattleboro Reformer interview",
+        "immigration": "re-checked Sep 2, 2026: fetched ballotpedia.org/Adam_Ortiz survey fully, topics covered are philosophy, conflict resolution, education, environment, health, rural development, housing, infrastructure, veterans, government spending; not addressed",
+        "taxes": "re-checked Sep 2, 2026: same full survey re-fetch, not addressed",
         "climate": "re-checked Sep 2, 2026: 2024 Ballotpedia Candidate Connection survey says everything is connected to the environment, every day is green up day, too general to place on the axis",
         "education": "re-checked Sep 2, 2026: 2024 Ballotpedia Candidate Connection survey calls education not one size fits all and pushes trade schools as an option, curriculum/track content that does not map to the public-investment-vs-choice axis, consistent with the Brattleboro Reformer interview note",
         "safety": "interview quote calls for \"cross training with the FBI and other law enforcement agencies\" and having \"old guys train the next generation,\" too vague to place on an enforcement-vs-prevention axis (checked Sep 2, 2026)",
-        "repro": "re-checked Sep 2, 2026: not addressed in the Ballotpedia Candidate Connection survey or the Brattleboro Reformer interview",
-        "democracy": "re-checked Sep 2, 2026: not addressed in the Ballotpedia Candidate Connection survey or the Brattleboro Reformer interview"
+        "repro": "re-checked Sep 2, 2026: same full survey re-fetch, not addressed",
+        "democracy": "re-checked Sep 2, 2026: survey quotes 'the voter's decide not a select self appointed few' and 'it's up to the voter's to decide,' a direct-democracy/anti-elite framing about who decides, not a stated position on voting access rules (registration, mail voting) versus safeguards (voter ID), too vague to place on this axis"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -754,13 +754,13 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: ruokvt.com/issues names rising taxes, education costs, and everyday expenses as a problem but no distinct price or wage lever from the taxes axis",
-        "housing": "re-checked Sep 2, 2026: checked ruokvt.com/issues, still not addressed",
-        "immigration": "re-checked Sep 2, 2026: checked ruokvt.com/issues, still not addressed",
-        "climate": "re-checked Sep 2, 2026: checked ruokvt.com/issues, still not addressed",
+        "cost": "re-checked Sep 2, 2026: ruokvt.com/issues re-fetched, rising taxes/education costs/everyday expenses named as a problem but no distinct price or wage mechanism stated",
+        "housing": "re-checked Sep 2, 2026: ruokvt.com/issues re-fetched, still not addressed",
+        "immigration": "re-checked Sep 2, 2026: ruokvt.com/issues re-fetched, still not addressed",
+        "climate": "re-checked Sep 2, 2026: ruokvt.com/issues re-fetched, still not addressed",
         "education": "re-checked Sep 2, 2026: ruokvt.com/issues ties school budget pressure to healthcare costs (controlling health care costs can help reduce school budget pressure), a health-cost link rather than a public-investment-vs-choice statement",
         "safety": "re-checked Sep 2, 2026: site still only calls for accountability from our justice and legal systems to ensure safety and prosperity, too vague to place on the axis",
-        "repro": "re-checked Sep 2, 2026: checked ruokvt.com/issues, still not addressed",
+        "repro": "re-checked Sep 2, 2026: ruokvt.com/issues re-fetched, still not addressed",
         "democracy": "site calls to \"get the Big $$ out of elections,\" a campaign-finance position that does not map to the voting-access-vs-safeguards axis (checked Sep 2, 2026)"
       },
       "funding": null,
@@ -805,16 +805,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia direct fetch unavailable (robots error); tried VTDigger and Seven Days roundup URL guesses (404s); no campaign site or coverage found",
-        "health": "re-checked Sep 2, 2026: same as above, no source found",
-        "housing": "re-checked Sep 2, 2026: same as above, no source found",
-        "immigration": "re-checked Sep 2, 2026: same as above, no source found",
-        "taxes": "re-checked Sep 2, 2026: same as above, no source found",
-        "climate": "re-checked Sep 2, 2026: same as above, no source found",
-        "education": "re-checked Sep 2, 2026: same as above, no source found",
-        "safety": "re-checked Sep 2, 2026: same as above, no source found",
-        "repro": "re-checked Sep 2, 2026: same as above, no source found",
-        "democracy": "re-checked Sep 2, 2026: same as above, no source found"
+        "cost": "re-checked Sep 2, 2026: found new campaign site via politics1.com/vt.htm, waltonforvermont.com; site is philosophical (Vermont-independence framing) with no cost-of-living policy stated; /issues 404s",
+        "health": "re-checked Sep 2, 2026: same new site, no healthcare statement",
+        "housing": "re-checked Sep 2, 2026: same new site describes 'the practical work of restoring buildings, creating homes, managing properties and confronting Vermont's housing shortage from the ground' as a campaign activity/project, not a stated public-vs-market housing policy direction",
+        "immigration": "re-checked Sep 2, 2026: same new site, no immigration statement",
+        "taxes": "re-checked Sep 2, 2026: same new site, no tax statement",
+        "climate": "re-checked Sep 2, 2026: same new site, no climate/energy statement",
+        "education": "re-checked Sep 2, 2026: same new site, no education statement",
+        "safety": "re-checked Sep 2, 2026: same new site, no public safety statement",
+        "repro": "re-checked Sep 2, 2026: same new site, no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: same new site, no voting/elections statement"
       },
       "funding": null,
       "curatedAt": "2026-09-02"

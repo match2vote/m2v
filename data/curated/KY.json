@@ -370,16 +370,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "health": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "housing": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "taxes": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "education": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found",
-        "democracy": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no other statement found"
+        "cost": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "health": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "housing": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "immigration": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "taxes": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "climate": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "education": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "safety": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "repro": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found",
+        "democracy": "re-checked Sep 2, 2026: thomasloecken.com does not resolve (DNS failure); only Facebook presence per politics1.com/ky.htm, robots-blocked; Ballotpedia robots-disallowed; no statement found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -431,14 +431,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content (different race), not usable for 2026",
-        "health": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "housing": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "immigration": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "climate": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "education": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "safety": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable",
-        "democracy": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; Ballotpedia only has 2014 KY state-house content, not usable"
+        "cost": "re-checked Sep 2, 2026: facebook.com/Serrano4Congress robots-blocked; serrano4congress.com resolves but is an anti-incumbent (Hal Rogers) attack page whose authorship as Serrano's official platform is not confirmed, not used as a source",
+        "health": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship healthcare content",
+        "housing": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship housing content",
+        "immigration": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship immigration content",
+        "climate": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship climate content",
+        "education": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship education content",
+        "safety": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship safety content",
+        "democracy": "re-checked Sep 2, 2026: same page checked, no confirmed-authorship voting/elections content"
       },
       "curatedAt": "2026-08-29"
     },
@@ -695,7 +695,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 1,
         "repro": 1,
@@ -725,13 +725,16 @@
         "safety": {
           "label": "Voted aye on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "climate": {
+          "label": "Voted yea on H.J.Res. 89, disapproving California's EPA waiver for its Omnibus low-NOx vehicle-emissions rule, after being recorded Not Voting on the identical H.J.Res. 88 (clerk.house.gov roll 112, Apr 30, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll112.xml"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: brettguthrie.com homepage and /issues checked, only 'Stop Bidenomics' slogan, no price/regulation mechanism",
-        "housing": "re-checked Sep 2, 2026: brettguthrie.com homepage and /issues checked, no housing statement found",
-        "climate": "re-checked Sep 2, 2026: House roll 114 (H.J.Res.88, CA EV waiver disapproval, clerk.house.gov roll 114) shows Guthrie Not Voting, so the roll does not establish this axis; no separate statement found on brettguthrie.com",
-        "education": "re-checked Sep 2, 2026: brettguthrie.com homepage and /issues checked, no education statement found"
+        "cost": "re-checked Sep 2, 2026: brettguthrie.com and guthrie.house.gov/issues re-checked; Jobs and the Economy/Fiscal Responsibility sections listed but no summary content reachable, no price/regulation mechanism found",
+        "housing": "re-checked Sep 2, 2026: guthrie.house.gov/issues re-checked (10-item nav: Agriculture, Fiscal Responsibility, Fort Knox, Health Care, Jobs and the Economy, National Security, Senior Citizens, Technology, Transportation, Veterans); no housing category exists",
+        "education": "re-checked Sep 2, 2026: guthrie.house.gov/issues re-checked; no education category exists in the site's 10-item issues nav"
       },
       "curatedAt": "2026-08-29"
     },
@@ -783,13 +786,13 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: bowman2026.com/issues only has a generic 'a full-time working citizen should have the means to purchase a home' aspiration, no price/regulation mechanism",
-        "housing": "re-checked Sep 2, 2026: bowman2026.com/issues housing mention is limited to veterans' transition assistance, not a general housing policy",
-        "taxes": "re-checked Sep 2, 2026: the 'Zero-One-Hundred Tax Plan' page (bowman2026.com/zero-one-hundredtaxplan) describes exempting the first $100,000 then a flat rate above it, but gives no detail on whether this raises or cuts the burden on corporations/high earners, not scoreable",
-        "education": "re-checked Sep 2, 2026: bowman2026.com/issues says only to 'give states and local school districts more autonomy,' a local-control point that does not state a public-investment-vs-choice mechanism",
-        "safety": "re-checked Sep 2, 2026: bowman2026.com/issues checked, no policing/sentencing statement found",
-        "repro": "re-checked Sep 2, 2026: bowman2026.com/issues checked, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: bowman2026.com/issues only addresses campaign-finance/PAC transparency, which does not fit the voting-access/safeguards definition"
+        "cost": "re-checked Sep 2, 2026: bowman2026.com/zero-one-hundredtaxplan fetched directly; plan makes 'the first $100,000 tax-free, then a flat rate above that,' a tax-restructuring proposal that does not cleanly map to either cost-axis pole",
+        "housing": "re-checked Sep 2, 2026: bowman2026.com/housing returns 404; no housing page exists on the site",
+        "taxes": "re-checked Sep 2, 2026: the Zero-One-Hundred flat-tax plan restructures brackets rather than clearly raising or cutting overall revenue, does not fit the raise-vs-cut axis as defined",
+        "education": "re-checked Sep 2, 2026: bowman2026.com/issues re-checked; still only 'give states and local school districts more autonomy,' a local-control point not a funding-vs-choice mechanism",
+        "safety": "re-checked Sep 2, 2026: bowman2026.com/issues re-checked; no crime/public-safety content",
+        "repro": "re-checked Sep 2, 2026: bowman2026.com/issues re-checked; no abortion content",
+        "democracy": "re-checked Sep 2, 2026: bowman2026.com/issues re-checked; only campaign-finance/PAC transparency content, not voting-access rules"
       },
       "curatedAt": "2026-08-29"
     },
@@ -920,16 +923,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "health": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "housing": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "immigration": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "taxes": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "climate": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "education": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "safety": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "repro": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, no statement reachable",
-        "democracy": "re-checked Sep 2, 2026: williamsforky.com homepage checked, /policies robots-blocked, not a House incumbent so no roll-call record, no statement reachable"
+        "cost": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "health": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "housing": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "immigration": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "taxes": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "climate": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "education": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "safety": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "repro": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
+        "democracy": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked"
       },
       "sources": [
         {
@@ -1005,10 +1008,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked, no other source found",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked, no other source found",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked, no other source found",
-        "democracy": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked, no other source found"
+        "immigration": "re-checked Sep 2, 2026: found new site wingfieldforcongress.com (via meganwingfieldforcongress.com redirect); homepage covers Healthcare, Economic Justice, Community Service only, no immigration content; /platform and /issues both 404",
+        "climate": "re-checked Sep 2, 2026: wingfieldforcongress.com homepage checked; no climate/energy content",
+        "safety": "re-checked Sep 2, 2026: wingfieldforcongress.com homepage checked; no crime/public-safety content",
+        "democracy": "re-checked Sep 2, 2026: wingfieldforcongress.com homepage checked; no voting/elections content"
       },
       "sources": [
         {
@@ -1169,12 +1172,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: mariaforuscongress.com homepage and /issues checked, only generic 'Strong Economy'/'Defending Capitalism' slogans, no price/regulation mechanism",
-        "health": "re-checked Sep 2, 2026: mariaforuscongress.com homepage and /issues checked, no healthcare statement found",
-        "housing": "re-checked Sep 2, 2026: mariaforuscongress.com homepage and /issues checked, no housing statement found",
-        "climate": "re-checked Sep 2, 2026: mariaforuscongress.com homepage and /issues checked, no energy/climate statement found",
-        "education": "re-checked Sep 2, 2026: mariaforuscongress.com homepage and /issues checked, no education statement found",
-        "democracy": "re-checked Sep 2, 2026: mariaforuscongress.com news-section title mentions 'Streamline the process of voting' but the linked page gives no actual policy text, not usable"
+        "cost": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full (Safe Streets, Strong Economy/Defending Capitalism, Lower Taxes, Legal Immigration, Protecting the Unborn, Protecting Women's Sports, Freedom, Free Enterprise); no consumer-price mechanism stated",
+        "health": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full; no healthcare content",
+        "housing": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full; no housing content",
+        "climate": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full; no climate/energy content",
+        "education": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full; no education content",
+        "democracy": "re-checked Sep 2, 2026: mariaforuscongress.com re-read in full; only the 'Safe Streets' section (already scored under safety) found, no distinct voting-rules content"
       },
       "sources": [
         {
@@ -1246,11 +1249,11 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: edgallrein.com checked, no healthcare statement found",
-        "housing": "re-checked Sep 2, 2026: edgallrein.com checked, no housing statement found",
-        "climate": "re-checked Sep 2, 2026: edgallrein.com checked, no energy/climate statement found",
-        "education": "re-checked Sep 2, 2026: edgallrein.com 'End the Woke Agenda' section still only has DEI/merit rhetoric, no public-versus-choice mechanism",
-        "democracy": "re-checked Sep 2, 2026: edgallrein.com checked, no voting/elections statement found"
+        "health": "re-checked Sep 2, 2026: edgallrein.com homepage re-read in full (nav: Meet Ed, Join Team Gallrein, Priorities, Media, Store, Donate); no healthcare content; /priorities and /issues both 404",
+        "housing": "re-checked Sep 2, 2026: edgallrein.com homepage re-read in full; no housing content",
+        "climate": "re-checked Sep 2, 2026: edgallrein.com homepage re-read in full; no climate/energy content",
+        "education": "re-checked Sep 2, 2026: edgallrein.com homepage re-read in full; 'End the Woke Agenda' still only DEI/merit rhetoric, no public-funding-vs-choice mechanism",
+        "democracy": "re-checked Sep 2, 2026: edgallrein.com homepage re-read in full; no voting/elections content"
       },
       "sources": [
         {
@@ -1284,29 +1287,48 @@
       "background": "Libertarian Party nominee for Kentucky's 4th Congressional District. No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found documenting his platform.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 2,
+        "health": 1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 0,
+        "taxes": 2,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": 1,
+        "democracy": 2
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Calls affordability his 'TOP PRIORITY,' naming housing, healthcare, childcare, gas, and grocery costs as 'all out of control' and pledging reduced government spending and small-business support over 'more socialism' (campaign site, jeremy-todd.com/issue-4)",
+          "url": "https://jeremy-todd.com/issue-4"
+        },
+        "health": {
+          "label": "Blames government regulation for keeping 'cures for devastating diseases' restricted 'beneath layers of government regulation' (campaign site, jeremy-todd.com/issue-5)",
+          "url": "https://jeremy-todd.com/issue-5"
+        },
+        "immigration": {
+          "label": "Mixed: supports 'a clear, fair process' for legal immigration while stating 'I do not support open borders' and calling for 'secure and clearly enforced borders' (campaign site, jeremy-todd.com/issue-9)",
+          "url": "https://jeremy-todd.com/issue-9"
+        },
+        "taxes": {
+          "label": "Calls for a 'dramatic reduction in taxation across the board,' pledging to 'cut and ultimately eliminate income taxes' (campaign site, jeremy-todd.com/issue-10)",
+          "url": "https://jeremy-todd.com/issue-10"
+        },
+        "repro": {
+          "label": "As a 'pro-life Libertarian,' opposes federal funding for abortion providers like Planned Parenthood while calling for 'returning the question of abortion policy to the states' (campaign site, jeremy-todd.com/issue-8)",
+          "url": "https://jeremy-todd.com/issue-8"
+        },
+        "democracy": {
+          "label": "'I support the SAVE Act because I believe American elections should be decided only by American citizens' (campaign site, jeremy-todd.com/issue-7)",
+          "url": "https://jeremy-todd.com/issue-7"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "health": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "housing": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "immigration": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "taxes": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "climate": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "education": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "safety": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "repro": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either",
-        "democracy": "re-checked Sep 2, 2026: jeremy-todd.com homepage and /issues checked, no policy content reachable in either"
+        "housing": "re-checked Sep 2, 2026: jeremy-todd.com's full 10-page issues section fetched (national defense, guns, free speech, affordability, free trade, AIPAC/campaign finance, SAVE Act, abortion, immigration, taxation); no housing page exists",
+        "climate": "re-checked Sep 2, 2026: same full 10-page issues sweep; no climate/energy page exists",
+        "education": "re-checked Sep 2, 2026: same full 10-page issues sweep; no education page exists",
+        "safety": "re-checked Sep 2, 2026: same full 10-page issues sweep; gun-rights page (issue-2) frames public safety only via Second Amendment, not scorable per safety-axis rules; no distinct policing/prevention page exists"
       },
       "sources": [
         {
@@ -1362,13 +1384,13 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: strangeforky.com/issues Healthcare section only says 'every Kentuckian deserves access to affordable, high-quality care,' too generic to fit a public-versus-private mechanism",
-        "housing": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no immigration statement found",
-        "taxes": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no corporate/high-earner tax statement found",
-        "climate": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no energy/climate statement found",
-        "safety": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no policing/sentencing statement found",
-        "democracy": "re-checked Sep 2, 2026: strangeforky.com/issues checked, no voting/elections statement found"
+        "health": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full (Home, About Us, Donate, Contact, Issues, Campaign Events, Volunteering nav); homepage itself has no new health content beyond the already-scored /issues quote",
+        "housing": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no housing content",
+        "immigration": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no immigration content",
+        "taxes": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no tax content",
+        "climate": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no climate content",
+        "safety": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no crime/public-safety content",
+        "democracy": "re-checked Sep 2, 2026: strangeforky.com homepage re-read in full; no voting/elections content"
       },
       "sources": [
         {
@@ -1522,13 +1544,13 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: nedforcongress.com checked, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: nedforcongress.com checked, no immigration statement found",
-        "climate": "re-checked Sep 2, 2026: nedforcongress.com checked, no energy/climate statement found",
-        "education": "re-checked Sep 2, 2026: nedforcongress.com checked, only prior Job Corps funding mention, no K-12 mechanism",
-        "safety": "re-checked Sep 2, 2026: nedforcongress.com checked, no policing/sentencing statement found",
-        "repro": "re-checked Sep 2, 2026: nedforcongress.com checked, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: nedforcongress.com checked, only 'uncapping the House' apportionment language, does not fit voting-access/safeguards definition"
+        "housing": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full (Press Releases, Media Coverage, Donate nav; content on Medicaid/Medicare/food stamps/utility assistance/public broadcasting/Job Corps/cancer research/billionaire tax breaks/House-uncapping); no housing content",
+        "immigration": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; no immigration content",
+        "climate": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; no climate/energy content",
+        "education": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; only the prior Job Corps funding mention, no K-12 mechanism",
+        "safety": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; no crime/public-safety content",
+        "repro": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; no abortion content",
+        "democracy": "re-checked Sep 2, 2026: nedforcongress.com homepage re-read in full; only 'uncapping the House' apportionment language, does not fit the voting-access axis"
       },
       "sources": [
         {
@@ -1592,13 +1614,13 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no immigration statement found",
-        "climate": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no energy/climate statement found",
-        "education": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no education statement found",
-        "safety": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no policing/sentencing statement found",
-        "repro": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: alvaradoforcongress.com checked, no voting/elections statement found"
+        "housing": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; site nav is only Media and Donate, no housing content",
+        "immigration": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no immigration content",
+        "climate": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no climate/energy content",
+        "education": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no education content",
+        "safety": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no crime/public-safety content",
+        "repro": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no abortion content",
+        "democracy": "re-checked Sep 2, 2026: alvaradoforcongress.com homepage re-read in full; no voting/elections content"
       },
       "sources": [
         {

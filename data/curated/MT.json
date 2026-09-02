@@ -265,7 +265,7 @@
         "taxes": null,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": -1,
         "democracy": null
       },
@@ -289,6 +289,10 @@
         "repro": {
           "label": "Supports abortion rights, per NPR's profile of the race (NPR)",
           "url": "https://www.npr.org/2026/08/09/nx-s1-5922215/montanas-democratic-candidate-is-facing-pressure-to-drop-out-by-the-deadline"
+        },
+        "safety": {
+          "label": "Platform's 'Invest in American Competitiveness and Security' pillar says 'Montana deserves a senator who will protect our borders, support our law enforcement officers, and defend our military assets' (sethformontana.com/Platform)",
+          "url": "https://www.sethformontana.com/Platform"
         }
       },
       "controversies": [
@@ -317,11 +321,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched sethformontana.com/issues directly; page lists four bare platform headings (Montana Way of Life, Individual Liberty, Safety Security and Rule of Law, Reform Our Broken Politics) with no expanded cost-of-living text",
-        "taxes": "re-checked Sep 2, 2026: fetched sethformontana.com/issues directly, no tax-rate policy stated beyond the headings",
-        "education": "re-checked Sep 2, 2026: fetched sethformontana.com/issues directly, no education policy stated beyond the headings",
-        "safety": "re-checked Sep 2, 2026: fetched sethformontana.com/issues directly, the 'Safety, Security, and the Rule of Law' heading has no expanded policy text",
-        "democracy": "re-checked Sep 2, 2026: fetched sethformontana.com/issues directly, the 'Reform Our Broken Politics' heading has no expanded policy text"
+        "cost": "re-checked Sep 2, 2026: fetched sethformontana.com/Platform directly (page content differs from the /issues anchor links, three pillars: Montana Way of Life, American Competitiveness and Security, Reform Agenda), no price or wage mechanism stated",
+        "taxes": "re-checked Sep 2, 2026: same Platform page fetch, no tax-rate policy stated",
+        "education": "re-checked Sep 2, 2026: same Platform page fetch, an 'Education' subsection header exists under Pillar One but has no detailed content",
+        "democracy": "re-checked Sep 2, 2026: same Platform page fetch; Reform Agenda section quotes verbatim ('end gerrymandering with mandatory nonpartisan redistricting,' 'protect local control of elections with accountability, not partisanship,' 'term limits, age limits, that protect voters and democracy') are redistricting/term-limits/structural-reform content, not a voting-access-vs-safeguards statement, consistent with the guide's exclusion of similar language for other candidates"
       }
     },
     {
@@ -401,11 +404,11 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: fetched kyleaustinmt.com and kyleaustinmt.com/platform directly, no border or legal-immigration policy stated",
-        "climate": "re-checked Sep 2, 2026: fetched kyleaustinmt.com and kyleaustinmt.com/platform directly, no climate or energy policy stated",
-        "education": "re-checked Sep 2, 2026: fetched kyleaustinmt.com and kyleaustinmt.com/platform directly, no education policy stated",
-        "safety": "re-checked Sep 2, 2026: fetched kyleaustinmt.com and kyleaustinmt.com/platform directly, no domestic public-safety policy stated",
-        "repro": "re-checked Sep 2, 2026: fetched kyleaustinmt.com and kyleaustinmt.com/platform directly, no abortion policy stated"
+        "immigration": "re-checked Sep 2, 2026: kyleaustinmt.com and /platform re-fetched, ballotpedia.org/Kyle_Austin robots-blocked, no border or legal-immigration policy stated",
+        "climate": "re-checked Sep 2, 2026: same sites, no climate or energy policy stated",
+        "education": "re-checked Sep 2, 2026: same sites, no education policy stated",
+        "safety": "re-checked Sep 2, 2026: same sites, no domestic public-safety policy stated",
+        "repro": "re-checked Sep 2, 2026: same sites, no abortion policy stated"
       }
     },
     {
@@ -446,7 +449,17 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "all": "hunted politics1.com/mt.htm (Facebook page only, no campaign website); Ballotpedia not separately checked given no site to cross-reference; no statements found for Libertarian Nick Sheedy (checked Aug 29, 2026)"
+        "all": "hunted politics1.com/mt.htm (Facebook page only, no campaign website); Ballotpedia not separately checked given no site to cross-reference; no statements found for Libertarian Nick Sheedy (checked Aug 29, 2026)",
+        "cost": "checked Sep 2, 2026: politics1.com/mt.htm confirms only a Facebook page (facebook.com/nickolas.sheedy) is listed, not fetchable; no campaign website found",
+        "health": "checked Sep 2, 2026: same Facebook-only limitation",
+        "housing": "checked Sep 2, 2026: same Facebook-only limitation",
+        "immigration": "checked Sep 2, 2026: same Facebook-only limitation",
+        "taxes": "checked Sep 2, 2026: same Facebook-only limitation",
+        "climate": "checked Sep 2, 2026: same Facebook-only limitation",
+        "education": "checked Sep 2, 2026: same Facebook-only limitation",
+        "safety": "checked Sep 2, 2026: same Facebook-only limitation",
+        "repro": "checked Sep 2, 2026: same Facebook-only limitation",
+        "democracy": "checked Sep 2, 2026: same Facebook-only limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -484,7 +497,17 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "all": "checked mccrackenformontana.com homepage (topic menu only: Housing Inflation, Healthcare costs, Fertilizer, Glyphosate, Mental Health, no fetched policy text) and /housing-inflation (404); no scorable statements captured for Libertarian Patrick McCracken (checked Aug 29, 2026)"
+        "all": "checked mccrackenformontana.com homepage (topic menu only: Housing Inflation, Healthcare costs, Fertilizer, Glyphosate, Mental Health, no fetched policy text) and /housing-inflation (404); no scorable statements captured for Libertarian Patrick McCracken (checked Aug 29, 2026)",
+        "cost": "checked Sep 2, 2026: found working campaign site via politics1.com/mt.htm (mccrackenformontana.com); homepage lists topic headings including Housing Inflation, Healthcare costs, and Mental Health Solutions, but no href URLs are exposed in the fetched content and a guessed subpage URL (/housing-inflation) returned a 429 error twice; no policy text reachable this round",
+        "health": "checked Sep 2, 2026: same site, Healthcare costs and Mental Health Solutions headings exist but their pages were not reachable (see cost note)",
+        "housing": "checked Sep 2, 2026: same site, Housing Inflation heading exists but page not reachable (see cost note)",
+        "immigration": "checked Sep 2, 2026: same site, no immigration heading found",
+        "taxes": "checked Sep 2, 2026: same site, no tax-rate heading found",
+        "climate": "checked Sep 2, 2026: same site, no climate/energy heading found",
+        "education": "checked Sep 2, 2026: same site, no education heading found",
+        "safety": "checked Sep 2, 2026: same site, no public-safety heading found",
+        "repro": "checked Sep 2, 2026: same site, no abortion heading found",
+        "democracy": "checked Sep 2, 2026: same site, no voting/elections heading found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -534,12 +557,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly, no distinct price-control or wage mechanism beyond the housing and tax items already scored",
-        "health": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly, no healthcare policy stated",
-        "immigration": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly, no separate legal-immigration mechanism beyond the border-security language already scored under safety",
-        "education": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly, no education policy stated",
-        "repro": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly, no abortion policy stated",
-        "democracy": "re-checked Sep 2, 2026: fetched flintformontana.com/issues directly; only a 'no budget, no pay' and congressional-stock-trading-ban item, an anti-corruption position that does not fit the voting-rules axis"
+        "cost": "re-checked Sep 2, 2026: fetched flintformontana.com/issues fresh, five headings confirmed (Making Montana Affordable Again, Jobs, Public Access to Public Lands, Politicians Getting Rich Off the Backs of Taxpayers, Healthy Resilient Forests); cost content blames 'catastrophic inflation of the Biden Administration created by years of overspending and bad policies,' diagnostic only, no distinct price-control or wage mechanism",
+        "health": "re-checked Sep 2, 2026: same five-heading page, no healthcare content found",
+        "immigration": "re-checked Sep 2, 2026: same five-heading page, no immigration content found beyond border-security language already scored",
+        "education": "re-checked Sep 2, 2026: same five-heading page, no education content found",
+        "repro": "re-checked Sep 2, 2026: same five-heading page, no abortion content found",
+        "democracy": "re-checked Sep 2, 2026: same five-heading page; 'no budget, no pay' and congressional stock-trading ban are anti-corruption/fiscal content, not a voting-rules statement"
       },
       "sources": [
         {
@@ -732,7 +755,7 @@
         "cost": null,
         "health": -2,
         "housing": null,
-        "immigration": null,
+        "immigration": -2,
         "taxes": null,
         "climate": null,
         "education": null,
@@ -748,18 +771,21 @@
         "repro": {
           "label": "Says 'I am going to always come down on the side of trusting women and guaranteeing their right to bodily autonomy' (miller4congress.com)",
           "url": "https://www.miller4congress.com/copy-of-address-the-afforability-crisis"
+        },
+        "immigration": {
+          "label": "Blog post 'It's time to end the War on Immigrants Now!' says 'I have been speaking out against the war on immigrants and the threat that it poses to our personal liberties from day one' (miller4congress.com)",
+          "url": "https://www.miller4congress.com/post/it-s-time-to-end-the-war-on-immigrants-now"
         }
       },
       "nullNotes": {
         "all": "checked miller4congress.com homepage (navigation only) and /issues (404); no scorable statements captured for Brian Miller (checked Aug 29, 2026)",
         "cost": "re-checked Sep 2, 2026: site lists an 'Affordability & Income Inequality' issue heading but its actual linked page contains only the abortion content scored under repro, no cost-of-living text found",
-        "housing": "re-checked Sep 2, 2026: no housing-specific page or text found among the site's issue links",
-        "immigration": "re-checked Sep 2, 2026: site lists a '21st Century Immigration Reform' heading but its link points to the homepage and to a public-lands page, no immigration text found",
-        "taxes": "re-checked Sep 2, 2026: no tax-rate policy found among the site's issue links",
-        "climate": "re-checked Sep 2, 2026: site lists a 'Dealing with Climate Change' heading but its linked page contains only campaign-finance-reform content, no climate text found",
-        "education": "re-checked Sep 2, 2026: no education policy found among the site's issue links",
-        "safety": "re-checked Sep 2, 2026: no domestic public-safety policy found among the site's issue links",
-        "democracy": "re-checked Sep 2, 2026: site lists 'Campaign Finance Reform' as an issue heading, an anti-corruption topic that does not fit the voting-rules axis; no separate voting-access position found"
+        "housing": "re-checked Sep 2, 2026: miller4congress.com re-fetched across homepage, /copy-of-main-page-1 (labeled Issues), /copy-of-other-issues, and /blog, no housing content found; the site's issue-link titles point to unrelated pages as previously noted",
+        "taxes": "re-checked Sep 2, 2026: same fresh multi-page fetch, no tax-rate policy found; a blog post titled 'President Trump's tariffs - Taxation without Representation' addresses tariffs, which the rollbook excludes from this axis",
+        "climate": "re-checked Sep 2, 2026: same fresh multi-page fetch; a 'Dealing with Climate Change' link title exists but its underlying content remains unreachable (points to campaign-finance content per prior check)",
+        "education": "re-checked Sep 2, 2026: same fresh multi-page fetch, no education policy found",
+        "safety": "re-checked Sep 2, 2026: same fresh multi-page fetch, no domestic public-safety policy found",
+        "democracy": "re-checked Sep 2, 2026: same fresh multi-page fetch; 'Campaign Finance Reform' link title is anti-corruption, not a voting-rules statement"
       },
       "sources": [
         {

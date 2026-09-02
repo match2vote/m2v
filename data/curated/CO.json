@@ -472,11 +472,11 @@
         }
       },
       "nullNotes": {
-        "cost": "Platform blames cost-of-living increases on immigration but names no distinct price/regulatory mechanism (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign homepage or platform page (checked Aug 29, 2026)",
-        "housing": "Housing costs discussed only as a downstream effect of immigration, no housing policy stated (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "Site references 'protecting free speech' but states no position on voting access or election rules (checked Aug 29, 2026); Ballotpedia page fetch blocked by robots.txt after two attempts"
+        "cost": "re-checked Sep 2, 2026: christyforamerica.us/platform fetched fresh (site currently displays a hacked-page notice), states only a general pledge to address every angle to reduce everyday costs, no specific mechanism",
+        "health": "re-checked Sep 2, 2026: christyforamerica.us/platform has no healthcare section",
+        "housing": "re-checked Sep 2, 2026: platform page ties housing costs to immigration and sanctuary-policy framing, no housing-supply or renter-protection mechanism",
+        "repro": "re-checked Sep 2, 2026: platform's Protect the Kids Colorado plank concerns gender-related medical procedures for minors, not abortion access, so it does not fit the repro axis",
+        "democracy": "re-checked Sep 2, 2026: platform page has no voting-access or election-administration content"
       },
       "sources": [
         {
@@ -841,10 +841,10 @@
         }
       },
       "nullNotes": {
-        "cost": "no separate cost-of-living/price statement distinct from the tax platform found (checked Sep 2, 2026)",
-        "health": "no healthcare statement found on Ballotpedia profile or in press coverage (checked Sep 2, 2026)",
-        "climate": "no climate/energy statement found on Ballotpedia profile or in press coverage (checked Sep 2, 2026)",
-        "education": "platform calls for returning federal school programs to state control and adding founding-fathers history to curricula, a federalism/curriculum stance that does not fit the public-investment-vs-choice axis as defined (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: full Ballotpedia Candidate Connection survey text confirms only tax-cut language (milk tax, county taxes, recreational-vehicle double taxation), duplicating the taxes axis with no distinct cost-of-living mechanism",
+        "health": "re-checked Sep 2, 2026: full Candidate Connection survey text has no healthcare statement",
+        "climate": "re-checked Sep 2, 2026: full Candidate Connection survey text has no climate or energy statement",
+        "education": "re-checked Sep 2, 2026: survey calls for teaching founding-fathers history and returning federal school programs to state control, a federalism and curriculum position that does not fit the public-investment vs choice axis"
       },
       "funding": null
     },
@@ -1022,14 +1022,14 @@
         "Free college and trade school"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": -1,
         "immigration": null,
         "taxes": -1,
-        "climate": null,
+        "climate": -2,
         "education": -2,
-        "safety": null,
+        "safety": 0,
         "repro": null,
         "democracy": -1
       },
@@ -1053,14 +1053,23 @@
         "democracy": {
           "label": "Site lists a youth-voting proposal to allow 16-year-olds to vote (erikunderwood.com campaign site)",
           "url": "https://erikunderwood.com"
+        },
+        "cost": {
+          "label": "Proposes opening state-operated grocery stores selling staples 'at-cost' pricing with produce 25-35% below Walmart/King Soopers prices (erikunderwood.com Lower Grocery Prices)",
+          "url": "https://erikunderwood.com/services/lower-grocery-prices/"
+        },
+        "climate": {
+          "label": "Environmental plan would halt oil and gas drilling near Aurora's reservoir, set a 2,000-foot setback from wells near drinking water, and transition to renewables with Just Transition funding (erikunderwood.com Environmental Policy)",
+          "url": "https://erikunderwood.com/environmental-policy"
+        },
+        "safety": {
+          "label": "Youth violence plan: this is not a problem we can arrest our way out of, it is also not a problem we can hug our way out of, pairing mentorship and restorative justice with accountability measures (erikunderwood.com Youth Violence Policy)",
+          "url": "https://erikunderwood.com/services/youth-violence-policy/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia page confirms the 2020 Candidate Connection survey was not completed and states no cost-of-living position",
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia page confirms the 2020 Candidate Connection survey was not completed and states no immigration position",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia page confirms the 2020 Candidate Connection survey was not completed and states no climate/energy position",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia page confirms the 2020 Candidate Connection survey was not completed and states no public safety position",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia page confirms the 2020 Candidate Connection survey was not completed and states no abortion position"
+        "immigration": "re-checked Sep 2, 2026: erikunderwood.com Justice and Human Rights page pledges to hold ICE agents accountable for constitutional violations in Colorado but frames this as rule-of-law and agent accountability, not a pathways vs enforcement immigration position, so it does not fit the axis",
+        "repro": "re-checked Sep 2, 2026: fetched erikunderwood.com issues page fresh, abortion and reproductive rights are not among the roughly 25 listed policy issues"
       },
       "funding": null
     },
@@ -1101,12 +1110,12 @@
       "positions": {
         "cost": null,
         "health": 1,
-        "housing": null,
+        "housing": 2,
         "immigration": 1,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": 2,
-        "safety": null,
+        "safety": 2,
         "repro": 1,
         "democracy": null
       },
@@ -1130,14 +1139,23 @@
         "repro": {
           "label": "States \"I am pro-life\" (Ballotpedia candidate profile)",
           "url": "https://ballotpedia.org/Greg_Lopez"
+        },
+        "housing": {
+          "label": "Would build 25,000 starter homes and blames rising land costs, government fees, excessive regulations, permitting delays, and costly mandates for high prices (greglopez.co Issues)",
+          "url": "https://www.greglopez.co/issues"
+        },
+        "climate": {
+          "label": "Backs an all-of-the-above energy strategy that supports innovation, affordability, reliability, and job creation (greglopez.co Issues)",
+          "url": "https://www.greglopez.co/issues"
+        },
+        "safety": {
+          "label": "Pledges to work to restore qualified immunity to all law enforcement officers (greglopez.co Issues)",
+          "url": "https://www.greglopez.co/issues"
         }
       },
       "nullNotes": {
-        "cost": "no separate cost-of-living/price statement distinct from the tax/spending platform found (checked Sep 2, 2026)",
-        "housing": "re-checked Sep 2, 2026: Ballotpedia page confirms no Candidate Connection survey completed and quotes no housing statement from his 2024 site",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia quotes his 2024 site as citing 'renewable and reliable energy, smart growth, a clean and secure water supply, and forests free from fires,' a mixed both-and framing that commits to neither an aggressive clean-energy transition nor an energy-independence/all-of-the-above pole",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia quotes his 2024 site as saying only 'enforcing our laws and protecting our borders,' which reads as border/immigration framing rather than a prevention-vs-enforcement-funding safety statement",
-        "democracy": "re-checked Sep 2, 2026: Ballotpedia page has no Candidate Connection survey and quotes no voting/elections statement"
+        "cost": "re-checked Sep 2, 2026: greglopez.co/issues fresh fetch states only the goal to make life affordable again, no distinct price or regulatory mechanism beyond the housing-specific deregulation already scored",
+        "democracy": "re-checked Sep 2, 2026: greglopez.co/issues fresh fetch has no voting-access or election-administration content"
       },
       "funding": null
     },
@@ -2167,10 +2185,10 @@
         }
       },
       "nullNotes": {
-        "taxes": "Only a targeted Family Tax Credit expansion mentioned, no broader tax agenda stated (does not fit axis per guide calibration) (checked Aug 29, 2026)",
-        "education": "re-checked Sep 2, 2026: romeroforcolorado.com/issues/ and the Colorado Sun CD-3 primary issue guide do not address K-12 education funding or school choice",
-        "safety": "re-checked Sep 2, 2026: romeroforcolorado.com/issues/ and the Colorado Sun CD-3 primary issue guide do not address public safety or criminal justice",
-        "democracy": "Site calls for banning stock trading by officials, ending dark money, and term limits, which are government-ethics reforms, not voting-access/election-administration positions that fit this axis (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: romeroforcolorado.com and the Durango Herald CD-3 issue comparison confirm only the targeted Family Tax Credit proposal, no broader tax-rate agenda",
+        "education": "re-checked Sep 2, 2026: romeroforcolorado.com news and issues pages do not address K-12 education funding or school choice",
+        "safety": "re-checked Sep 2, 2026: romeroforcolorado.com news and issues pages do not address public safety or criminal justice",
+        "democracy": "re-checked Sep 2, 2026: Durango Herald CD-3 comparison confirms his platform (banning congressional insider trading, closing the lobbying revolving door, reducing dark money) is government-ethics reform, not a voting-access position"
       },
       "sources": [
         {
@@ -2568,10 +2586,10 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: house.gov and campaign pages mention an Affordable Housing & Family Resource Fair event but state no housing policy position",
-        "taxes": "re-checked Sep 2, 2026: house.gov Lower Costs page criticizes GOP tax cuts for corporations and the wealthy but states no affirmative tax-rate position of his own",
-        "education": "re-checked Sep 2, 2026: no education issue page found on house.gov or jasoncrow.org (campaign site lists only Meet/Values/Endorsements/Events/Store, no policy pages)",
-        "safety": "House.gov describes 'common-sense gun safety laws,' but gun policy does not map to this safety axis per guide rule (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: crow.house.gov/issues Lower Costs for Coloradans section names housing only in a list with health care, groceries, and energy, no distinct housing mechanism stated",
+        "taxes": "re-checked Sep 2, 2026: crow.house.gov/issues names no tax-rate position; his no vote on the 2025 tax law (roll 190) alone does not establish the axis for a Democrat per project rule",
+        "education": "re-checked Sep 2, 2026: crow.house.gov/issues and the media/press-releases page list national security, veterans, and government-reopening topics; no education section or statement found",
+        "safety": "re-checked Sep 2, 2026: house.gov gun-violence-prevention language does not map to this axis per guide rule; no separate enforcement vs prevention statement found"
       },
       "sources": [
         {
@@ -3297,10 +3315,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: senatorwithrow.com homepage and /about page do not address immigration policy",
-        "taxes": "platform opposes congressional stock trading and favors stronger IRS enforcement of owed taxes, plus employer tax credits over broad tax increases; too mixed/narrow to fit the raise-vs-cut axis (checked Sep 2, 2026)",
-        "education": "only mentions opposing amphetamine prescriptions for children as an alternative to unspecified education-based solutions, no schools policy stated (checked Sep 2, 2026)",
-        "democracy": "calls for abolishing the Electoral College, proportional representation, and real-time ballot auditability; these are structural reforms that do not map to the easier-voting vs. stricter-safeguards axis (checked Sep 2, 2026)"
+        "immigration": "re-checked Sep 2, 2026: senatorwithrow.com/platform fetched fresh, immigration not addressed",
+        "taxes": "re-checked Sep 2, 2026: platform page confirms only an employer tax-credit proposal and IRS-enforcement position, no broader tax-rate agenda",
+        "education": "re-checked Sep 2, 2026: platform page has no schools or education content",
+        "democracy": "re-checked Sep 2, 2026: platform page confirms Electoral College abolition, proportional representation, and real-time ballot auditability, structural reforms that do not map to the voting-access-ease axis"
       },
       "sources": [
         {

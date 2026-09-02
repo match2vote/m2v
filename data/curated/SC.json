@@ -251,10 +251,10 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms no 2026 Candidate Connection survey filed; campaign issues page still does not address cost of living distinctly",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: campaign materials contain only gun-violence items, which do not map to this axis"
+        "cost": "re-checked Sep 2, 2026: drannieandrews.com/issues fetched in full, no cost-of-living mechanism stated; Ballotpedia confirms no 2026 survey",
+        "housing": "re-checked Sep 2, 2026: same, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same, not addressed",
+        "safety": "re-checked Sep 2, 2026: same, only 'support the cops and firefighters who live paycheck to paycheck' and gun-violence-prevention content, no enforcement-vs-prevention mechanism"
       },
       "sources": [
         {
@@ -313,14 +313,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia page for this name robots-blocked on retry; still no issues page on campaign site; as a recently appointed senator, the 2025 House/Senate rolls in the rollbook predate her Senate service and do not apply",
-        "health": "re-checked Sep 2, 2026: same access limitation",
-        "housing": "re-checked Sep 2, 2026: same access limitation",
-        "immigration": "re-checked Sep 2, 2026: same access limitation",
-        "taxes": "re-checked Sep 2, 2026: same access limitation",
-        "climate": "re-checked Sep 2, 2026: same access limitation",
-        "education": "re-checked Sep 2, 2026: same access limitation",
-        "safety": "re-checked Sep 2, 2026: same access limitation"
+        "cost": "re-checked Sep 2, 2026: real campaign URL darlinegrahamsc.com (redirects to darlinegraham.com) found and fetched in full, only biography/service-record/endorsement content, no policy positions on any of the 8 hunted axes",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -706,13 +706,13 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia now fetchable, contains only election results and candidate data, no Candidate Connection survey answers on housing",
-        "immigration": "re-checked Sep 2, 2026: same as above, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same as above, not addressed",
-        "climate": "re-checked Sep 2, 2026: same as above, not addressed",
-        "safety": "re-checked Sep 2, 2026: same as above, not addressed",
-        "repro": "re-checked Sep 2, 2026: same as above, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same as above, not addressed"
+        "housing": "re-checked Sep 2, 2026: brianforliberty.com rate-limited (429) on retry this session",
+        "immigration": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -780,11 +780,11 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia page (now fetchable) covers business growth, education, criminal justice reform, the death penalty, community safety, health care, and cannabis decriminalization, but not housing; she has not completed the 2026 Candidate Connection survey",
-        "immigration": "re-checked Sep 2, 2026: same page does not address immigration",
-        "taxes": "re-checked Sep 2, 2026: same page does not address taxes",
-        "climate": "re-checked Sep 2, 2026: same page does not address climate",
-        "democracy": "re-checked Sep 2, 2026: same page does not address voting/elections"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia page (business growth, education, criminal justice, death penalty, community topics) re-checked, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, not addressed",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -902,7 +902,7 @@
         "cost": 2,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": null,
         "education": null,
@@ -926,15 +926,18 @@
         "democracy": {
           "label": "Supports 'voter ID and keep mail-in voting to a minimum' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
+        },
+        "immigration": {
+          "label": "I believe in policies that support our military, police force, first responders and border patrol agents that help make our country safe and secure (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)"
         }
       },
       "nullNotes": {
-        "health": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "housing": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "immigration": "checked campaign home page and Ballotpedia survey; only a general note backing 'border patrol' officers, no specific policy (checked Aug 29, 2026)",
-        "climate": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "education": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "repro": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: Ballotpedia survey re-checked in full, not addressed",
+        "housing": "re-checked Sep 2, 2026: same, not addressed",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "education": "re-checked Sep 2, 2026: same, not addressed",
+        "repro": "re-checked Sep 2, 2026: same, not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -980,16 +983,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: entire platform remains a pledge to vote per constituent polling rather than stake out personal positions, structurally not scoreable",
-        "health": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "housing": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "immigration": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "taxes": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "climate": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "education": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "safety": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "repro": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated",
-        "democracy": "re-checked Sep 2, 2026: same delegate-model platform, no specific policy stated"
+        "cost": "re-checked Sep 2, 2026: bettercandidates.org fetched in full, confirms delegate-model platform (vote per constituent will) with no personal policy positions stated on any axis",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1030,16 +1033,16 @@
       "home": null,
       "priorities": [],
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia now fetchable, confirms Hackett did not complete the 2024 or 2020 Candidate Connection survey; no endorsements or campaign statements found",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms no 2024/2020 survey and no other stated positions found",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "now": "Constitution Party candidate for U.S. Senate",
       "background": "Hackett is the Constitution Party's 2026 U.S. Senate candidate in South Carolina. He previously ran for U.S. House in SC-4 in 2024 (2.8% of the vote) and SC-6 in 2020 (0.9%). No campaign website or issue platform was found; Ballotpedia notes he has never completed its Candidate Connection survey.",
@@ -1163,16 +1166,16 @@
       "home": null,
       "priorities": [],
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms Addison has not completed the 2024, 2022, or 2020 Candidate Connection survey; campaign site pages remain unpopulated template text",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked again on retry, no other campaign presence found",
+        "health": "re-checked Sep 2, 2026: same access limitation",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "immigration": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "now": "United Citizens Party candidate for governor",
       "background": "Addison is running for governor on South Carolina's United Citizens Party line. His campaign site highlights work as a Medical Director who \"provided care and diagnosis to over 15,000 patients in South Carolina\" and as a community organizer with R.A.C.E. providing foreclosure prevention, job training, and homelessness relief. No detailed issue platform was found; the site's policy sections remain unpublished template placeholders.",
@@ -1348,10 +1351,10 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: a WFXG local-news profile and a Daily Kos CBC roundup piece were found but returned a repeated 429 rate-limit error and contained no direct policy quotes respectively; campaign platform page still not addressed",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 2, 2026: khalifaforcongress.com now fully robots-disallowed (all paths blocked)",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1390,16 +1393,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia page still robots-blocked on retry; no fetchable campaign site found",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked again on retry, only campaign presence is an unfetchable Facebook page",
+        "health": "re-checked Sep 2, 2026: same access limitation",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "immigration": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1453,12 +1456,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign platform page, only general 'lower costs' language with no mechanism (checked Aug 29, 2026)",
-        "health": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
-        "housing": "checked campaign platform page, mentioned only as a family cost pressure with no policy (checked Aug 29, 2026)",
-        "climate": "checked campaign platform page, only vague 'conserving natural resources' language (checked Aug 29, 2026)",
-        "education": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
-        "democracy": "checked campaign platform page; Ballotpedia page robots-blocked twice (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: jennycostahoneycutt.com/platform fetched in full, only 'champion policies to lower costs' slogan with no distinct mechanism",
+        "health": "re-checked Sep 2, 2026: same page, only bundled with cost-of-living slogan, not addressed separately",
+        "housing": "re-checked Sep 2, 2026: same, only bundled with cost-of-living slogan, no mechanism",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "education": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {
@@ -1526,12 +1529,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign priorities page, only general affordability language with no mechanism (checked Aug 29, 2026)",
-        "housing": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked on retry (previously campaign priorities page mentioned only ending building-material tariffs)",
-        "taxes": "checked campaign priorities page; only a targeted active-duty-military tax credit is mentioned, does not fit the broader axis (checked Aug 29, 2026)",
-        "education": "checked campaign priorities page, not addressed (checked Aug 29, 2026)",
-        "safety": "checked campaign priorities page; only ICE body-camera/due-process oversight, which is immigration enforcement, not the safety axis (checked Aug 29, 2026)",
-        "democracy": "checked campaign priorities page; only a congressional stock-trading ban, does not fit the voting/election-rules axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: nancylacore.com robots-blocked (rate limited 429) on every retry this session",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "sources": [
         {
@@ -1603,11 +1606,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked on retry; campaign home page still not addressing this",
-        "housing": "re-checked Sep 2, 2026: same access limitation",
-        "taxes": "checked campaign home page and Ballotpedia Candidate Connection survey (deficit/military-spending focus, no specific tax position) (checked Aug 29, 2026)",
-        "climate": "re-checked Sep 2, 2026: same access limitation",
-        "democracy": "re-checked Sep 2, 2026: same access limitation"
+        "cost": "re-checked Sep 2, 2026: reesideforcongress.com and /priorities both fetched in full, not addressed",
+        "housing": "re-checked Sep 2, 2026: same, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, not addressed",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, only Article I congressional-power-restoration content (repealing tariff/war authorities), does not fit voting-access-vs-safeguards axis"
       },
       "sources": [
         {
@@ -1760,12 +1763,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign home page and Ballotpedia survey, no cost-of-living mechanism stated (checked Aug 29, 2026)",
-        "immigration": "checked campaign home page and Ballotpedia survey; only a general 'build a bigger table' unity message, no specific policy (checked Aug 29, 2026)",
-        "taxes": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "education": "checked Ballotpedia survey; her answer is about freedom to read/no book bans, which does not fit the public-schools-vs-choice axis (checked Aug 29, 2026)",
-        "safety": "checked campaign home page and Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "democracy": "checked campaign home page and Ballotpedia survey; general 'right to vote is foundation of all rights' language with no specific policy (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no new source found beyond prior campaign homepage and Ballotpedia checks",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same, freedom-to-read/no-book-bans framing does not fit the public-schools-vs-choice axis",
+        "safety": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -1885,7 +1888,7 @@
         "Expand healthcare access"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
         "housing": -1,
         "immigration": null,
@@ -1904,17 +1907,20 @@
         "housing": {
           "label": "'Upstate First Agenda' pledges 'building affordable homes' (campaign home page)",
           "url": "https://www.mcclainforsc.com/"
+        },
+        "cost": {
+          "label": "Bringing down the cost of living by expanding access to quality healthcare, building affordable homes, managing our rapid growth, investing in small businesses (McClain for SC issues page)",
+          "url": "https://www.mcclainforsc.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "checked campaign home and issues pages; only slogan-level 'bring down the cost of living' headline with no mechanism (checked Aug 29, 2026)",
-        "immigration": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
-        "taxes": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
-        "climate": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
-        "education": "checked campaign home and issues pages; only slogan-level 'Stronger Schools for Every Student' headline with no mechanism (checked Aug 29, 2026)",
-        "safety": "checked campaign home and issues pages; only slogan-level 'Taking Action for Safer Communities' headline with no mechanism (checked Aug 29, 2026)",
-        "repro": "checked campaign home and issues pages, not addressed (checked Aug 29, 2026)",
-        "democracy": "checked campaign home and issues, /voting subpages; only slogan-level 'Protecting the Power of Every Vote' headline with no mechanism (checked Aug 29, 2026)"
+        "immigration": "re-checked Sep 2, 2026: issues page fetched in full, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, not addressed",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "education": "re-checked Sep 2, 2026: same, only a 'Stronger Schools for Every Student' slogan heading with no mechanism",
+        "safety": "re-checked Sep 2, 2026: same, only a 'Taking Action for Safer Communities' slogan heading with no mechanism",
+        "repro": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, only a 'Protecting the Power of Every Vote' slogan heading with no mechanism"
       },
       "sources": [
         {
@@ -2063,12 +2069,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign home and pillars pages, not addressed as a distinct issue (checked Aug 29, 2026)",
-        "health": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)",
-        "housing": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)",
-        "climate": "checked campaign pillars page; only a generic 'America First agenda on... energy' reference with no specific policy (checked Aug 29, 2026)",
-        "safety": "checked campaign pillars page; only border-related crime language, which is immigration not domestic safety (checked Aug 29, 2026)",
-        "democracy": "checked campaign home and pillars pages, not addressed (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: wesclimer.com homepage fetched, no policy detail beyond general messaging; /pillars page rate-limited (429) on retry",
+        "health": "re-checked Sep 2, 2026: same access limitation",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "sources": [
         {
@@ -2295,13 +2301,13 @@
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia survey; only vague 'job creation' and 'cutting red tape for small businesses' language with no clear cost-of-living mechanism (checked Aug 29, 2026)",
-        "health": "checked Ballotpedia survey; only a general 'make healthcare more affordable' slogan with no mechanism (checked Aug 29, 2026)",
-        "housing": "checked Ballotpedia survey; only a targeted veterans-housing-program expansion, does not fit the broader housing axis (checked Aug 29, 2026)",
-        "climate": "checked Ballotpedia survey; only disaster-preparedness/FEMA funding content, does not fit the climate-transition-vs-energy-independence axis (checked Aug 29, 2026)",
-        "education": "checked Ballotpedia survey; only veterans job-training benefits, does not fit the K-12 public-schools-vs-choice axis (checked Aug 29, 2026)",
-        "safety": "checked Ballotpedia survey, not addressed (checked Aug 29, 2026)",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia page robots-blocked on retry; campaign site (vincent4congress.org) remains robots-blocked",
+        "cost": "re-checked Sep 2, 2026: vincent4congress.org robots-disallowed (page too large / all paths blocked) on retry, Ballotpedia previously exhausted",
+        "health": "re-checked Sep 2, 2026: same access limitation",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
         "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "sources": [
@@ -2325,13 +2331,13 @@
         "Voter ID requirements, including the SAVE Act"
       ],
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey covers fiscal responsibility (already reflected in her cost score), government oversight, and campaign-finance/election-integrity reform, but not housing",
-        "immigration": "re-checked Sep 2, 2026: same survey does not address immigration",
-        "taxes": "re-checked Sep 2, 2026: fiscal messaging is about a 5%-per-department spending cut (tracked under cost), no distinct tax-rate position stated",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia survey does not address climate",
-        "education": "re-checked Sep 2, 2026: Ballotpedia survey does not address education despite her background as an educator",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia survey does not address public safety",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia survey does not address abortion"
+        "housing": "re-checked Sep 2, 2026: kasiesouthcarolina.com homepage fetched, only-budget-amendment/national-debt line found, /on-the-issues page 404s",
+        "immigration": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same, balanced-budget/debt-reduction language does not state a tax-rate position",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation"
       },
       "id": "fec-S6SC04247",
       "name": "Kasie Whitener",

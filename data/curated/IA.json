@@ -672,12 +672,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no price-regulation or wage statement found; the /issues subpage exists but a follow-up fetch was rate limited (429), try again next pass",
-        "health": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no healthcare statement found; /issues subpage not yet fetchable",
-        "housing": "re-checked Sep 2, 2026: laehn4iowa.org homepage, property-rights/eminent-domain language (opposing private companies seizing property for commercial purposes) does not map to the public-building-versus-deregulation axis",
-        "climate": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no climate/energy statement found",
-        "education": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no education statement found",
-        "democracy": "Supports ending PAC/super PAC influence, which is a campaign-finance stance, not a voting-access or election-administration position; no voting/elections statement found (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: laehn4iowa.org/issues (now fetchable) covers eminent domain, wasteful wars, balance of powers, national debt, border security, abortion federalism, and marijuana decriminalization; still no cost-of-living statement found",
+        "health": "re-checked Sep 2, 2026: same source, no healthcare statement found",
+        "housing": "re-checked Sep 2, 2026: same source, property-rights/eminent-domain language (opposing seizure for private/corporate projects) does not state a build-versus-protect housing mechanism",
+        "climate": "re-checked Sep 2, 2026: same source, no climate/energy statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found",
+        "democracy": "re-checked Sep 2, 2026: 'restoring political power to the people' and ending eminent domain abuse are governance/property themes, not a voting-access or election-administration position; no vote-rules statement found"
       },
       "curatedAt": "2026-09-02"
     },
@@ -736,14 +736,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: bridgfordforiowa.com homepage says he will work to lower costs and bring fiscal sanity to Washington to tackle inflation, housing, and healthcare, still no specific price-cap or deregulation mechanism",
-        "housing": "re-checked Sep 2, 2026: bridgfordforiowa.com, housing referenced only within the cost-of-living plank, no distinct mechanism",
-        "taxes": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, 'Establishing Fiscal Responsibility' still states no explicit tax-rate mechanism",
-        "climate": "re-checked Sep 2, 2026: bridgfordforiowa.com homepage names support for permanent year-round E15 ethanol blend under a Put Iowa Producers First plank, an agricultural fuel-standard position, not a broader clean-energy-versus-fossil-fuel stance, so not scored",
-        "education": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, 'Reversing Iowa's Education Backslide' still states no public-versus-choice mechanism",
-        "safety": "re-checked Sep 2, 2026: bridgfordforiowa.com, still not addressed",
-        "repro": "re-checked Sep 2, 2026: bridgfordforiowa.com, still not addressed",
-        "democracy": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, term limits, congressional stock-trading ban, and campaign finance reform are governance-reform planks that do not map to the registration/voting-rules axis"
+        "cost": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, still names lowering costs and fiscal sanity with no cap-versus-deregulate mechanism",
+        "housing": "re-checked Sep 2, 2026: same source, housing referenced only within the cost-of-living plank, no distinct mechanism",
+        "taxes": "re-checked Sep 2, 2026: same source, 'Establishing Fiscal Responsibility' still states no explicit tax-rate mechanism",
+        "climate": "re-checked Sep 2, 2026: same source, support for permanent year-round E15 ethanol under a Put-Iowa-Producers-First frame does not state a clean-transition or fossil-fuel-expansion position",
+        "education": "re-checked Sep 2, 2026: same source, 'Reversing Iowa's Education Backslide' still states no public-versus-choice mechanism",
+        "safety": "re-checked Sep 2, 2026: same source, still not addressed",
+        "repro": "re-checked Sep 2, 2026: same source, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: same source, term limits, congressional stock-trading ban, and campaign finance reform are governance themes, not a voting-rules mechanism"
       },
       "curatedAt": "2026-08-29"
     },
@@ -810,12 +810,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection; his universal-basic-income and land-tax proposals restructure the tax/welfare system rather than stating a price-cap or deregulation position",
-        "health": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection survey (2020, 2022), nothing documented",
-        "housing": "checked Iowa Capital Dispatch profile and Ballotpedia Candidate Connection survey, nothing documented",
-        "taxes": "wants to replace the income tax with a land tax, a restructuring proposal that does not map to raise-vs-cut on this axis (checked Aug 29, 2026)",
-        "repro": "checked Ballotpedia Candidate Connection survey and Iowa Capital Dispatch profile, nothing documented",
-        "democracy": "supports ranked-choice voting per his Candidate Connection survey, which is a ballot-counting reform rather than a registration/ID position on this axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: rickstewart.com (correct current domain found) homepage and /issues are introductory only; his universal-basic-income and land-tax proposals restructure the tax system rather than fitting a cap-versus-deregulate cost mechanism; direct subpage guesses (/housing, /healthcare, /abortion) are robots-disallowed",
+        "health": "re-checked Sep 2, 2026: same access limits as cost, nothing documented",
+        "housing": "re-checked Sep 2, 2026: same access limits as cost, nothing documented",
+        "taxes": "re-checked Sep 2, 2026: rickstewart.com quote 'I want a tax system that gives us a reason to be joyful when we pay our taxes' plus his land-tax-for-income-tax proposal is a restructuring stance that does not map to raise-vs-cut on this axis",
+        "repro": "re-checked Sep 2, 2026: same access limits as cost, nothing documented",
+        "democracy": "re-checked Sep 2, 2026: supports ranked-choice voting per his Candidate Connection survey, a ballot-counting reform rather than a registration/ID position, still not scored"
       },
       "curatedAt": "2026-08-29"
     },
@@ -886,11 +886,11 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented on price caps or deregulation",
-        "taxes": "platform calls for eliminating 'private taxes' from health-insurance premiums via universal healthcare funding, which is a healthcare-financing argument rather than a general tax-rate position (checked Aug 29, 2026)",
-        "climate": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented",
-        "safety": "platform's 'domestic defence' language is framed against overseas military spending, not domestic crime policy (checked Aug 29, 2026)",
-        "repro": "checked campaign platform and Iowa Capital Dispatch profile, nothing documented"
+        "cost": "re-checked Sep 2, 2026: davebushaw.com/platform (correct domain, prior notes used a wrong URL) names rising home prices and paycheck-to-paycheck struggles with no cap-versus-deregulate mechanism",
+        "taxes": "re-checked Sep 2, 2026: same source, platform calls for eliminating 'private taxes' (premiums, copays, deductibles) via a payroll tax funding universal healthcare, a healthcare-financing mechanism not a general tax-rate position",
+        "climate": "re-checked Sep 2, 2026: same source, data-center/utility-cost concerns are framed as state regulatory-rights issues, not a climate/energy-transition statement",
+        "safety": "re-checked Sep 2, 2026: same source, addresses railroad safety, firearm safety education (excluded per the guide), and border security (immigration), no crime/policing prevention-versus-enforcement statement",
+        "repro": "re-checked Sep 2, 2026: same source, still not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1023,14 +1023,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: lindsayforiowa.com homepage lists 'Bring Down the Cost of Living for Working Iowans' as a heading with no mechanism stated",
-        "housing": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed beyond a general heading",
-        "immigration": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
-        "taxes": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
-        "climate": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
-        "safety": "re-checked Sep 2, 2026: lindsayforiowa.com homepage lists 'Keep Our Communities Safe' as a heading with no mechanism stated",
-        "repro": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed beyond third-party endorsements",
-        "democracy": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed"
+        "cost": "re-checked Sep 2, 2026: lindsayforiowa.com/issues lists 'Bring Down the Cost of Living for Working Iowans' as a heading with no mechanism stated",
+        "housing": "re-checked Sep 2, 2026: same source, still not addressed beyond the general heading",
+        "immigration": "re-checked Sep 2, 2026: same source now shows 'Congress has clearly failed on both immigration reform, and gun safety reform,' naming the issue with no directional mechanism",
+        "taxes": "re-checked Sep 2, 2026: same source, still not addressed",
+        "climate": "re-checked Sep 2, 2026: same source, still not addressed",
+        "safety": "re-checked Sep 2, 2026: same source lists 'community safety' as a heading with no mechanism stated",
+        "repro": "re-checked Sep 2, 2026: same source, still not addressed beyond third-party endorsements",
+        "democracy": "re-checked Sep 2, 2026: same source, still not addressed"
       },
       "sources": [
         {
@@ -1101,12 +1101,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, top priorities list strong economy and eliminating wasteful spending with no price-cap or deregulation mechanism stated",
-        "health": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
-        "housing": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
-        "taxes": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed beyond the already-scored education scholarship tax credit",
-        "climate": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
-        "democracy": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed"
+        "cost": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage (/issues 404's), top priorities list a strong economy and eliminating wasteful spending with no price-cap mechanism",
+        "health": "re-checked Sep 2, 2026: same source, still not addressed",
+        "housing": "re-checked Sep 2, 2026: same source, still not addressed",
+        "taxes": "re-checked Sep 2, 2026: same source, still not addressed beyond the already-scored education scholarship tax credit",
+        "climate": "re-checked Sep 2, 2026: same source, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: same source, still not addressed"
       },
       "sources": [
         {
@@ -1177,12 +1177,12 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed beyond a general 'affordable housing initiatives' heading",
-        "immigration": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed",
-        "climate": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed",
-        "education": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage mentions strengthening the GI Bill for veterans' education and job training, which is a veterans-benefits statement, not a K-12 public-schools-versus-choice mechanism, so not scored",
-        "safety": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage notes his background as a prosecutor who argued a case to safeguard children's rights; occupation/biography is not itself a stated policy position on prevention versus enforcement, so not scored",
-        "repro": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed"
+        "housing": "re-checked Sep 2, 2026: davedawsonforiowa.com/issues says he'll 'make housing more affordable' as part of rural community investment, still no build-versus-protect mechanism",
+        "immigration": "re-checked Sep 2, 2026: same source, still not addressed",
+        "climate": "re-checked Sep 2, 2026: same source, still not addressed",
+        "education": "re-checked Sep 2, 2026: same source, only a veterans' GI Bill education/job-training mention, which is veterans policy not the public-schools-versus-choice axis",
+        "safety": "re-checked Sep 2, 2026: same source describes his nearly two decades working alongside law enforcement and first responders, a biographical background fact not a stated policy mechanism",
+        "repro": "re-checked Sep 2, 2026: same source, still not addressed"
       },
       "sources": [
         {

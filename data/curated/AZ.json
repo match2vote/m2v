@@ -583,9 +583,9 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched amishforarizona.com/issues fresh, only mechanism named is rolling back tariffs, no cap or deregulation mechanism stated",
+        "cost": "re-checked Sep 2, 2026: amishforarizona.com/issues fresh fetch, the only mechanism named is ending tariffs; per rollbook guidance tariffs are a third kind of intervention not captured cleanly by either cost pole",
         "housing": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address housing",
-        "immigration": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address immigration",
+        "immigration": "re-checked Sep 2, 2026: amishforarizona.com/issues Public Safety section mentions stopping the flow of fentanyl across the border but this is framed as a drug-trafficking safety measure, not a distinct immigration policy statement",
         "taxes": "re-checked Sep 2, 2026: issues page only cites past state-legislature middle-class tax cuts from his State House record, no broader federal tax agenda stated",
         "climate": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address climate or energy policy"
       },
@@ -719,9 +719,9 @@
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: fetched jayfeelyforcongress.com/issues fresh, cost of living line ('bring the cost of living down') still states no mechanism",
-        "health": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address healthcare",
+        "health": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues fetched fresh in full, health care is entirely absent from the seven stated priorities",
         "housing": "re-checked Sep 2, 2026: housing line ('that dream has slipped further out of reach') states no policy mechanism",
-        "education": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address education",
+        "education": "re-checked Sep 2, 2026: the only education-adjacent line is a border-security-section mention of federal mandates hurting schools, not a distinct education policy",
         "repro": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address abortion",
         "democracy": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address voting or elections"
       },
@@ -884,12 +884,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not state a cost-of-living mechanism",
-        "health": "re-checked Sep 2, 2026: 'Healthcare that Serves the People' remains a section header with no policy specifics",
-        "housing": "re-checked Sep 2, 2026: 'Lower Housing and Utility Costs' remains a section header with no policy specifics",
-        "taxes": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not address tax policy",
-        "climate": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not address climate or energy",
-        "safety": "re-checked Sep 2, 2026: 'Fight Crime and Protect Arizona' remains a section header with no policy specifics"
+        "cost": "re-checked Sep 2, 2026: jonathannezforaz.com/issues page confirmed as headers-only (JavaScript-rendered), no body text retrievable by fetch",
+        "health": "re-checked Sep 2, 2026: same JavaScript-rendering limitation, Healthcare that Serves the People remains a header only",
+        "housing": "re-checked Sep 2, 2026: same limitation, Lower Housing and Utility Costs remains a header only",
+        "taxes": "re-checked Sep 2, 2026: same limitation, no tax content retrievable",
+        "climate": "re-checked Sep 2, 2026: same limitation, no climate content retrievable",
+        "safety": "re-checked Sep 2, 2026: same limitation, Fight Crime and Protect Arizona remains a header only"
       },
       "sources": [
         {
@@ -1019,13 +1019,13 @@
         "Reproductive rights"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
-        "housing": null,
+        "housing": 0,
         "immigration": 1,
         "taxes": null,
         "climate": -2,
-        "education": null,
+        "education": -1,
         "safety": 1,
         "repro": -2,
         "democracy": -2
@@ -1054,13 +1054,22 @@
         "safety": {
           "label": "Voted yes on H.R.4922, the D.C. CRIMES Act reinstating mandatory-minimum sentences for D.C. youth offenders (clerk.house.gov roll 270, Sept 16, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll270.xml"
+        },
+        "cost": {
+          "label": "Affordability agenda calls to increase the minimum wage and ensure workers have a seat at the table (gregstanton.com Affordability Agenda)",
+          "url": "https://gregstanton.com/affordability/"
+        },
+        "housing": {
+          "label": "Housing plan would cut red tape and update permitting and zoning to build four million homes while also expanding Low-Income Housing Tax Credits for affordable housing (gregstanton.com Affordability Agenda)",
+          "url": "https://gregstanton.com/affordability/"
+        },
+        "education": {
+          "label": "Affordability agenda promises expanded access to tax cuts and universal pre-K (gregstanton.com Affordability Agenda)",
+          "url": "https://gregstanton.com/affordability/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched stantonforarizona.com (redirects to gregstanton.com) and gregstanton.com/issues fresh, 'Lowering Costs' is a heading only with no mechanism stated",
-        "housing": "re-checked Sep 2, 2026: gregstanton.com and gregstanton.com/issues do not address housing",
-        "taxes": "re-checked Sep 2, 2026: no separate tax statement found on gregstanton.com; vote No on H.R.1 (roll 190) alone does not establish the axis for a Democrat per guide rule",
-        "education": "re-checked Sep 2, 2026: 'Strengthening Education' remains a heading only on gregstanton.com/issues with no policy specifics"
+        "taxes": "re-checked Sep 2, 2026: gregstanton.com/affordability/ ties tax cuts only to a bundled expanded access to tax cuts and universal pre-K family benefit with no broader corporate or high-earner tax agenda; his no vote on the 2025 tax law (roll 190) alone does not establish the axis for a Democrat per project rule"
       },
       "sources": [
         {
@@ -1136,12 +1145,12 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: campaign redirects to z4az.com; healthcare quote ('put the health and freedoms of Americans first') names no public-vs-private-role mechanism",
-        "housing": "re-checked Sep 2, 2026: housing quote on z4az.com ('curb foreign investors pricing out families... afford a home') is about foreign investment, not zoning/building/public-housing policy",
-        "climate": "re-checked Sep 2, 2026: z4az.com does not address climate or energy policy",
-        "safety": "re-checked Sep 2, 2026: z4az.com does not address public safety/policing beyond a general 'national security' heading",
-        "repro": "re-checked Sep 2, 2026: z4az.com does not address abortion",
-        "democracy": "re-checked Sep 2, 2026: z4az.com does not address voting or elections"
+        "health": "re-checked Sep 2, 2026: z4az.com homepage fetched fresh, only says he prioritizes the health and freedoms of Americans and wants to end subsidies on ailments, no public-vs-private mechanism stated",
+        "housing": "re-checked Sep 2, 2026: z4az.com homepage ties housing only to a general freedom to work, build, and keep more of what you earn line, no specific mechanism; z4az.com/my-plan 404s",
+        "climate": "re-checked Sep 2, 2026: z4az.com homepage does not address climate or energy policy",
+        "safety": "re-checked Sep 2, 2026: z4az.com homepage keeping our neighborhoods and communities safe line names no enforcement vs prevention direction and is paired with border-security language",
+        "repro": "re-checked Sep 2, 2026: z4az.com homepage does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: z4az.com homepage does not address voting or elections beyond interview-title metadata already dismissed"
       },
       "sources": [
         {
@@ -1210,10 +1219,10 @@
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: homepage and issues page still only say cost of living is hard, with no policy mechanism",
-        "housing": "re-checked Sep 2, 2026: issues page says 'Working families shouldn't have to fight this hard just to survive' with no housing policy mechanism",
-        "taxes": "re-checked Sep 2, 2026: no tax policy found on homepage or issues page",
-        "climate": "re-checked Sep 2, 2026: issues page addresses drought/water only ('Arizona's future depends on protecting our water'), not energy policy",
-        "safety": "re-checked Sep 2, 2026: no public safety/policing content found on homepage or issues page"
+        "housing": "re-checked Sep 2, 2026: nurselee4az.com/issues Affordable Housing section is a personal poverty narrative with no stated housing-supply or renter-protection mechanism",
+        "taxes": "re-checked Sep 2, 2026: nurselee4az.com/issues does not address tax policy",
+        "climate": "re-checked Sep 2, 2026: nurselee4az.com/issues Water Security section addresses drought and water protection only, not energy policy",
+        "safety": "re-checked Sep 2, 2026: nurselee4az.com/issues Gun Violence Prevention section does not map to this axis per guide rule; no other public-safety statement found"
       },
       "sources": [
         {
@@ -1277,12 +1286,12 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address healthcare",
-        "housing": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address housing",
-        "climate": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address climate or energy",
-        "education": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address education",
-        "repro": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address abortion",
-        "democracy": "re-checked Sep 2, 2026: 'election integrity' appears only as a theme in interview titles and metadata on marklamb.us; no specific voting policy stated; marklamb.us/issues fetched, same result"
+        "health": "re-checked Sep 2, 2026: marklamb.us fetched fresh, does not address healthcare; Ballotpedia confirms he did not complete a Candidate Connection survey",
+        "housing": "re-checked Sep 2, 2026: marklamb.us does not address housing",
+        "climate": "re-checked Sep 2, 2026: marklamb.us does not address climate or energy",
+        "education": "re-checked Sep 2, 2026: marklamb.us does not address education",
+        "repro": "re-checked Sep 2, 2026: marklamb.us does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: election integrity appears only in interview titles and metadata, no specific voting policy stated"
       },
       "sources": [
         {
@@ -1499,11 +1508,11 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: fetched joannamendoza.com fresh, her eight issue sections (cost of living, economy, healthcare, immigration/border security, environment, oversight/accountability, veterans, national security) still do not include housing",
-        "taxes": "re-checked Sep 2, 2026: her eight issue sections do not include a dedicated tax policy section",
-        "education": "re-checked Sep 2, 2026: her eight issue sections do not include education",
-        "repro": "re-checked Sep 2, 2026: her eight issue sections do not include abortion",
-        "democracy": "re-checked Sep 2, 2026: 'Restoring Trust and Accountability in Government' section still offers only a general mission statement with no specific voting/election policy"
+        "housing": "re-checked Sep 2, 2026: joannamendoza.com homepage and issues subpage repeat the same generic cost-of-food-gas-housing-childcare line, no distinct housing mechanism",
+        "taxes": "re-checked Sep 2, 2026: joannamendoza.com eight issue sections do not include a dedicated tax policy section",
+        "education": "re-checked Sep 2, 2026: joannamendoza.com eight issue sections do not include education",
+        "repro": "re-checked Sep 2, 2026: joannamendoza.com eight issue sections do not include abortion",
+        "democracy": "re-checked Sep 2, 2026: Restoring Trust and Accountability in Government section still offers only a general fix broken systems in DC mission statement with no specific voting-access position"
       },
       "sources": [
         {
@@ -1810,11 +1819,11 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: priorities page line 'expand access to affordable housing and responsible homeownership' still states a goal with no build/zoning/public-housing mechanism",
+        "housing": "re-checked Sep 2, 2026: bgp4az.com/priorities line expand access to affordable housing and responsible homeownership still states a goal with no mechanism",
         "taxes": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address tax policy",
-        "climate": "re-checked Sep 2, 2026: priorities page line 'support responsible energy innovation that creates American jobs' does not indicate either an aggressive-transition or all-of-the-above direction",
-        "safety": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address public safety/policing beyond the vehicle-inspection/drug-trafficking mention already noted",
-        "democracy": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address voting or elections beyond the term-limits mention already noted"
+        "climate": "re-checked Sep 2, 2026: bgp4az.com/priorities lines support responsible energy innovation and invest in conservation and infrastructure do not indicate either an aggressive clean-energy or all-of-the-above direction",
+        "safety": "re-checked Sep 2, 2026: bgp4az.com/priorities crack down on drug trafficking, human trafficking, and organized crime line sits under the Secure Borders, Fair Immigration heading, so it reads as a border-enforcement statement rather than a domestic policing/prevention position",
+        "democracy": "re-checked Sep 2, 2026: bgp4az.com/priorities term-limits pledge remains government-ethics framing, not a voting-access position"
       },
       "sources": [
         {

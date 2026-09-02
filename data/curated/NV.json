@@ -502,10 +502,10 @@
         }
       },
       "nullNotes": {
-        "cost": "house.gov issues page and a linked jobs/wages subpage (which 404'd) name no specific cost mechanism (re-checked Sep 2, 2026)",
-        "housing": "Not addressed on house.gov issues page or Ballotpedia, which has no 2026 Candidate Connection survey (re-checked Sep 2, 2026)",
-        "taxes": "Her no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rules; house.gov issues page names no separate tax position (re-checked Sep 2, 2026)",
-        "education": "Not addressed on house.gov issues page or Ballotpedia (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: titus.house.gov/issues issues-home page and /issues/economy 404; no specific cost mechanism found this pass",
+        "housing": "re-checked Sep 2, 2026: titus.house.gov/issues issues-home page lists Creating Jobs, Boosting Wages, and Investing in Infrastructure as a header only, with no housing content reachable",
+        "taxes": "re-checked Sep 2, 2026: her no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rule; house.gov issues page names no affirmative tax-rate position",
+        "education": "re-checked Sep 2, 2026: titus.house.gov/issues does not list an education section"
       },
       "sources": [
         {
@@ -550,10 +550,10 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": -1,
         "democracy": null
@@ -570,16 +570,22 @@
         "repro": {
           "label": "As a state senator supported a 2023 bill protecting out-of-state abortion seekers, breaking with her party (Nevada Independent)",
           "url": "https://thenevadaindependent.com/article/carrie-buck-gop-state-senator-launches-congressional-bid-challenging-dina-titus"
+        },
+        "immigration": {
+          "label": "Pledges to secure the border in Congress (carriebuckforcongress.com About)",
+          "url": "https://carriebuckforcongress.com/about"
+        },
+        "education": {
+          "label": "Pledges to protect parents' rights in Congress (carriebuckforcongress.com About)",
+          "url": "https://carriebuckforcongress.com/about"
         }
       },
       "nullNotes": {
-        "cost": "checked Nevada Independent launch article, nothing beyond the general tax message (checked Aug 29, 2026)",
-        "health": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
-        "housing": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
-        "immigration": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
-        "climate": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)",
-        "education": "her career as a charter-school foundation president is background, not a stated federal education policy position; checked Nevada Independent launch article (checked Aug 29, 2026)",
-        "democracy": "checked Nevada Independent launch article, nothing documented (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: carriebuckforcongress.com About page fetched fresh in full, only says families face record inflation and pledges to hold Washington accountable for every taxpayer dollar, no specific price or regulatory mechanism",
+        "health": "re-checked Sep 2, 2026: carriebuckforcongress.com About page has no healthcare statement",
+        "housing": "re-checked Sep 2, 2026: carriebuckforcongress.com About page has no housing statement",
+        "climate": "re-checked Sep 2, 2026: carriebuckforcongress.com About page has no climate or energy statement",
+        "democracy": "re-checked Sep 2, 2026: carriebuckforcongress.com About page has no voting or elections statement"
       },
       "sources": [
         {
@@ -631,15 +637,15 @@
         }
       },
       "nullNotes": {
-        "cost": "An issues subpage attempt this pass 404'd; homepage still names no price-cap or deregulation mechanism (re-checked Sep 2, 2026)",
-        "health": "Same as above (re-checked Sep 2, 2026)",
-        "housing": "Same as above (re-checked Sep 2, 2026)",
-        "immigration": "Same as above (re-checked Sep 2, 2026)",
-        "taxes": "Homepage still names only the zero-taxes-on-veteran-income and zero-taxes-on-gambling-winnings targeted exemptions, no broader tax agenda (re-checked Sep 2, 2026)",
-        "climate": "Same as above (re-checked Sep 2, 2026)",
-        "education": "Same as above (re-checked Sep 2, 2026)",
-        "repro": "Same as above (re-checked Sep 2, 2026)",
-        "democracy": "Same as above (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: bobbykhanforcongress.com/issues now 404s outright; no price-cap or deregulation mechanism found on homepage",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: homepage still names only zero-taxes-on-veteran-income and zero-taxes-on-gambling-winnings targeted exemptions, no broader tax agenda",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -695,15 +701,15 @@
         }
       },
       "nullNotes": {
-        "cost": "An issues subpage attempt this pass 404'd; homepage still names groceries, housing, prescriptions, and basic needs with no price-cap or deregulation mechanism (re-checked Sep 2, 2026)",
-        "housing": "Same as above (re-checked Sep 2, 2026)",
-        "immigration": "Issues subpage 404'd, nothing found on homepage (re-checked Sep 2, 2026)",
-        "taxes": "Same as above (re-checked Sep 2, 2026)",
-        "climate": "Same as above (re-checked Sep 2, 2026)",
-        "education": "Same as above (re-checked Sep 2, 2026)",
-        "safety": "Homepage still lists safety only as a voter-survey topic with no stated position (re-checked Sep 2, 2026)",
-        "repro": "Same as above (re-checked Sep 2, 2026)",
-        "democracy": "Same as above (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: chaplainstevenstjohnforcongress.com/issues now 404s outright; homepage groceries/housing/prescriptions/basic-needs list still names no price-cap or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: /issues subpage 404s, nothing on homepage",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: homepage still lists safety only as a voter-survey topic with no stated position",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -759,14 +765,14 @@
         }
       },
       "nullNotes": {
-        "health": "Homepage's general campaign-goals sentence bundles health care into an affordability message with no distinct mechanism; a linked policy subpage could not be fetched this pass (rate-limited) (re-checked Sep 2, 2026)",
-        "housing": "Same bundled affordability sentence, no distinct housing mechanism (re-checked Sep 2, 2026)",
-        "taxes": "Not addressed on homepage; policy subpage unreachable this pass (rate-limited) (re-checked Sep 2, 2026)",
-        "climate": "Same as above (re-checked Sep 2, 2026)",
-        "education": "Same as above (re-checked Sep 2, 2026)",
-        "safety": "Homepage's safer communities names no enforcement-vs-prevention direction (re-checked Sep 2, 2026)",
-        "repro": "Same as above (re-checked Sep 2, 2026)",
-        "democracy": "Same as above (re-checked Sep 2, 2026)"
+        "health": "re-checked Sep 2, 2026: her prior campaign domain teresabenitezthompson.com now 302-redirects to an expired-domain landing page (Porkbun parking page) with no policy content; no working campaign site found this pass",
+        "housing": "re-checked Sep 2, 2026: same domain-expiration issue, no working campaign site found",
+        "taxes": "re-checked Sep 2, 2026: same domain-expiration issue",
+        "climate": "re-checked Sep 2, 2026: same domain-expiration issue",
+        "education": "re-checked Sep 2, 2026: same domain-expiration issue",
+        "safety": "re-checked Sep 2, 2026: same domain-expiration issue",
+        "repro": "re-checked Sep 2, 2026: same domain-expiration issue",
+        "democracy": "re-checked Sep 2, 2026: same domain-expiration issue; Ballotpedia carries only a 2020 Candidate Connection non-completion note and an unrelated 2011 legislative scorecard"
       },
       "sources": [
         {
@@ -895,16 +901,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; her opencampaign.com issue-positions page is blocked by robots.txt, no other source found (checked Aug 29, 2026)",
-        "health": "same as above (checked Aug 29, 2026)",
-        "housing": "same as above (checked Aug 29, 2026)",
-        "immigration": "same as above (checked Aug 29, 2026)",
-        "taxes": "same as above (checked Aug 29, 2026)",
-        "climate": "same as above (checked Aug 29, 2026)",
-        "education": "same as above (checked Aug 29, 2026)",
-        "safety": "same as above (checked Aug 29, 2026)",
-        "repro": "same as above (checked Aug 29, 2026)",
-        "democracy": "same as above (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms Lynn Chapman has not completed the 2026 Candidate Connection survey; opencampaign.com issue-positions page still robots-blocked",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -1049,13 +1055,13 @@
         }
       },
       "nullNotes": {
-        "cost": "Priorities subpage adds only reckless spending general fiscal-discipline language, still no cost-of-living-specific mechanism (re-checked Sep 2, 2026)",
-        "health": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "housing": "Priorities subpage mentions housing only as a debt-crisis side effect, no stated housing policy (re-checked Sep 2, 2026)",
-        "taxes": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "climate": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "education": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "repro": "Not addressed on campaign site (re-checked Sep 2, 2026)",
+        "cost": "re-checked Sep 2, 2026: martyforcongress.vote/priorities fetched fresh in full, Opportunity section ties affordability only to a nostalgic one-good-job-was-enough framing, no price-cap or deregulation mechanism",
+        "health": "re-checked Sep 2, 2026: martyforcongress.vote/priorities does not address healthcare",
+        "housing": "re-checked Sep 2, 2026: Spending and Debt section mentions housing only via mortgage rates as a side effect of federal deficits, no stated housing policy",
+        "taxes": "re-checked Sep 2, 2026: martyforcongress.vote/priorities does not address tax policy",
+        "climate": "re-checked Sep 2, 2026: martyforcongress.vote/priorities does not address climate or environmental issues",
+        "education": "re-checked Sep 2, 2026: martyforcongress.vote/priorities does not address education policy",
+        "repro": "re-checked Sep 2, 2026: martyforcongress.vote/priorities does not address abortion or reproductive rights",
         "democracy": "Not addressed on campaign site (re-checked Sep 2, 2026)"
       },
       "sources": [
@@ -1184,10 +1190,10 @@
         }
       },
       "nullNotes": {
-        "cost": "house.gov issues page names no current cost-of-living mechanism beyond a Medicaid-cuts objection already covered under health; the only cost-specific language found was from a stale circa-2018 campaign page and was not used (re-checked Sep 2, 2026)",
-        "housing": "house.gov issues page does not detail a current housing mechanism; his praise for the 21st Century ROAD to Housing Act bundles zoning deregulation with funding increases and is the project's own housing-0 calibration case, not a clean directional signal (re-checked Sep 2, 2026)",
-        "taxes": "His no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rules; house.gov issues page names no separate tax position (re-checked Sep 2, 2026)",
-        "education": "house.gov issues page does not detail a current education mechanism; only a stale circa-2018 campaign statement found and was not used (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: horsford.house.gov/issues/economy and press-releases fetched fresh, statements (Nevadans didn't create this crisis and shouldn't have to pay for it, working people need relief not another campaign stop) name no specific price-cap or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: his July 10, 2026 press release on the 21st Century ROAD to Housing Act (affordable housing won, largest federal housing package passed in decades) praises passage without stating a direction; the rollbook flags this bill as not diagnostic for the housing axis since it bundles zoning deregulation with public housing funding and passed nearly unanimously (358-32)",
+        "taxes": "re-checked Sep 2, 2026: his no vote on the 2025 tax law (roll 190) alone does not establish this axis for a Democrat per project rule; house.gov issues/economy page names no affirmative tax-rate position",
+        "education": "re-checked Sep 2, 2026: horsford.house.gov/issues lists no education section; only a stale circa-2018 campaign statement was found and was not used"
       },
       "sources": [
         {
@@ -1255,13 +1261,13 @@
         }
       },
       "nullNotes": {
-        "cost": "Issues page's make housing, healthcare, groceries, and energy more affordable names no specific price-cap or deregulation mechanism (re-checked Sep 2, 2026)",
-        "housing": "Bundled into the same generic affordability line as cost, no distinct housing mechanism (re-checked Sep 2, 2026)",
-        "taxes": "Issues page's eliminate taxes on tips is a targeted exemption with no broader tax agenda, per project calibration (re-checked Sep 2, 2026)",
-        "climate": "Not addressed on issues page (re-checked Sep 2, 2026)",
-        "safety": "Issues page lists public safety only as a priority label with no enforcement-vs-prevention direction (re-checked Sep 2, 2026)",
-        "repro": "Not addressed on issues page (re-checked Sep 2, 2026)",
-        "democracy": "Issues page's stand up to political party boss power grabs is anti-partisanship rhetoric, not a voting-access position (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: codyk4congress.com/issues Lower Everyday Costs heading (make housing, healthcare, groceries, and energy more affordable) states no specific price-cap or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: same bundled affordability line as cost, no distinct housing mechanism",
+        "taxes": "re-checked Sep 2, 2026: No Tax on Tips heading is a targeted exemption with no broader tax agenda per project calibration",
+        "climate": "re-checked Sep 2, 2026: codyk4congress.com/issues does not address climate or energy in a dedicated section",
+        "safety": "re-checked Sep 2, 2026: codyk4congress.com/issues does not list a public-safety section",
+        "repro": "re-checked Sep 2, 2026: codyk4congress.com/issues does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: Serve the Public Interest heading (stand up to political party boss power grabs) remains anti-partisanship rhetoric, not a voting-access position"
       },
       "sources": [
         {
@@ -1304,16 +1310,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Ballotpedia states he did not complete the 2024 or 2026 Candidate Connection survey and no campaign site or news coverage of 2026 positions was found (checked Aug 29, 2026)",
-        "health": "same as above (checked Aug 29, 2026)",
-        "housing": "same as above (checked Aug 29, 2026)",
-        "immigration": "same as above (checked Aug 29, 2026)",
-        "taxes": "same as above (checked Aug 29, 2026)",
-        "climate": "same as above (checked Aug 29, 2026)",
-        "education": "same as above (checked Aug 29, 2026)",
-        "safety": "same as above (checked Aug 29, 2026)",
-        "repro": "same as above (checked Aug 29, 2026)",
-        "democracy": "same as above (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms Russell Best did not complete Ballotpedia's 2024 Candidate Connection survey and no 2026 survey exists either; no campaign site or 2026 news coverage found",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {

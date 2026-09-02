@@ -272,11 +272,11 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: governorlarryrhoden.com homepage and /issues (404) checked, no distinct cost/pricing mechanism beyond property tax relief already scored under taxes",
-        "housing": "re-checked Sep 2, 2026: campaign site homepage checked (still no dedicated issues page beyond the homepage), Ballotpedia bio reviewed again, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: same site and Ballotpedia review, no immigration statement found; southdakotasearchlight.com search returned 403 errors on both attempts",
-        "climate": "re-checked Sep 2, 2026: same site and Ballotpedia review, his eminent-domain ban on CO2 pipelines is still framed as landowner rights, not an energy-transition stance",
-        "democracy": "re-checked Sep 2, 2026: Ballotpedia confirms he signed 20 election-related bills March 25, 2025, but southdakotasearchlight.com returned 403 on both search attempts, so the bills' content (easier voting vs stricter rules) remains undocumented in a fetchable source"
+        "cost": "re-checked Sep 2, 2026: governorlarryrhoden.com homepage fetched in full, the 'Issues Affecting South Dakotans' section is placeholder template text, no substantive cost/pricing content; southdakotasearchlight.com still unreachable",
+        "housing": "re-checked Sep 2, 2026: same placeholder-template finding on homepage",
+        "immigration": "re-checked Sep 2, 2026: same placeholder-template finding on homepage; governor.sd.gov/news failed with a redirect loop",
+        "climate": "re-checked Sep 2, 2026: same placeholder-template finding on homepage",
+        "democracy": "re-checked Sep 2, 2026: same placeholder-template finding on homepage; governor.sd.gov/news failed with a redirect loop, so his signing of 20 election bills could not be independently re-sourced this round"
       }
     },
     {
@@ -350,11 +350,11 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: campaign homepage and /about-3 issues page checked (rural development, education, affordable housing, healthcare, economy, transparency sections), no immigration content found",
-        "climate": "re-checked Sep 2, 2026: same issues page review, no energy/climate content found",
-        "safety": "re-checked Sep 2, 2026: same issues page review, no crime/policing content found",
-        "repro": "re-checked Sep 2, 2026: same issues page review, no abortion content found",
-        "democracy": "re-checked Sep 2, 2026: same issues page review, no voting/elections content found; southdakotasearchlight.com search returned 403"
+        "immigration": "re-checked Sep 2, 2026: danahlers.com/about-3 (the actual Issues page) fetched in full, covers only rural development, education, housing, healthcare, the economy, and government transparency, no immigration content",
+        "climate": "re-checked Sep 2, 2026: same full issues-page fetch, no climate/energy content",
+        "safety": "re-checked Sep 2, 2026: same full issues-page fetch, no crime/public-safety content",
+        "repro": "re-checked Sep 2, 2026: same full issues-page fetch, no abortion content",
+        "democracy": "re-checked Sep 2, 2026: Transparency & Accountability section quoted in full ('open, honest, and accountable... clean out waste... restore trust'), a general anti-corruption framing with no voting-access or election-administration content; southdakotasearchlight.com still unreachable"
       }
     },
     {
@@ -415,10 +415,10 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: martyjackley.com/issues page reviewed, covers only Crime & Public Safety, Border & Immigration, Agriculture, Second Amendment, and Support for the Trump Agenda, no healthcare content; Ballotpedia confirms he has not completed the 2026 Candidate Connection survey; southdakotasearchlight.com search returned 403",
-        "housing": "re-checked Sep 2, 2026: same issues page review, no housing content found",
-        "climate": "re-checked Sep 2, 2026: same issues page review, no energy/climate content found",
-        "education": "re-checked Sep 2, 2026: same issues page review, no education content found"
+        "health": "re-checked Sep 2, 2026: martyjackley.com/issues fetched in full again, the page covers only Crime & Public Safety, Border & Immigration, Agriculture, Second Amendment, and the Trump agenda, no healthcare content",
+        "housing": "re-checked Sep 2, 2026: same finding, no housing content",
+        "climate": "re-checked Sep 2, 2026: same finding, no climate/energy content",
+        "education": "re-checked Sep 2, 2026: same finding, no education content"
       },
       "sources": [
         {

@@ -153,12 +153,12 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: Ballotpedia bio repeats generic 'strengthen Social Security and Medicare for our senior citizens' language with no public-role-vs-competition mechanism stated, consistent with prior check",
-        "housing": "re-checked Sep 2, 2026: not addressed",
-        "education": "re-checked Sep 2, 2026: not addressed beyond the already-noted vague priority",
-        "safety": "re-checked Sep 2, 2026: not addressed",
-        "repro": "re-checked Sep 2, 2026: not addressed",
-        "democracy": "re-checked Sep 2, 2026: government-reform language (term limits, 'government serves the people') is structural reform, not a voting-access-vs-safeguards statement"
+        "health": "re-checked Sep 2, 2026: campaign site actually redirects to mckayforussenate.com (a different domain than mckayforsenate.com previously checked, found via WebFetch redirect); Right Direction issues page found, healthcare mentioned only as 'a collapsing healthcare system' challenge with no clear public-vs-private direction, Social Security/Medicare section focuses on cutting waste/fraud not healthcare structure",
+        "housing": "re-checked Sep 2, 2026: same new-domain Right Direction page, housing listed only as a named 'challenge' with no policy mechanism stated",
+        "education": "re-checked Sep 2, 2026: same new-domain Right Direction page, not addressed beyond the already-noted vague priority",
+        "safety": "re-checked Sep 2, 2026: same new-domain Right Direction page, not addressed",
+        "repro": "re-checked Sep 2, 2026: same new-domain Right Direction page, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same new-domain Right Direction page, government-reform language remains structural (Constitution/Bill of Rights framing), not a voting-access-vs-safeguards position"
       },
       "sources": [
         {
@@ -574,14 +574,14 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign now resolves at blockforgovernor.com (new domain since prior check); homepage and /issues (404) state only general government-accountability and infrastructure-waste themes, no cost-of-living policy",
-        "health": "re-checked Sep 2, 2026: same limitation on the new domain",
-        "housing": "re-checked Sep 2, 2026: same limitation on the new domain",
-        "immigration": "re-checked Sep 2, 2026: same limitation on the new domain",
-        "climate": "re-checked Sep 2, 2026: homepage references an unopened 'Why is your RI Energy Bill so High?' video with no transcript text available; no stated policy",
-        "education": "re-checked Sep 2, 2026: same limitation on the new domain",
-        "safety": "re-checked Sep 2, 2026: same limitation on the new domain",
-        "repro": "re-checked Sep 2, 2026: same limitation on the new domain"
+        "cost": "re-checked Sep 2, 2026: blockforgovernor.com already re-checked this round per prior note (new domain, homepage and /issues 404, same limitation), not re-fetched again per the guide's rule against re-fetching an already-empty URL this pass",
+        "health": "re-checked Sep 2, 2026: same limitation as above",
+        "housing": "re-checked Sep 2, 2026: same limitation as above",
+        "immigration": "re-checked Sep 2, 2026: same limitation as above",
+        "climate": "re-checked Sep 2, 2026: same limitation, homepage's unopened 'Why is your RI Energy Bill so High?' video still has no transcript text available",
+        "education": "re-checked Sep 2, 2026: same limitation as above",
+        "safety": "re-checked Sep 2, 2026: same limitation as above",
+        "repro": "re-checked Sep 2, 2026: same limitation as above"
       },
       "sources": [
         {

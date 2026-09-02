@@ -414,12 +414,12 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile; economic-hub development plans do not fit the axis",
-        "immigration": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
-        "taxes": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
-        "climate": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
-        "repro": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile, nothing documented",
-        "democracy": "checked campaign site, Wikipedia, Arkansas Advocate, and Axios profile; his bill separating the MLK holiday from Robert E. Lee's name does not fit the axis"
+        "cost": "re-checked Sep 2, 2026: fredlove.com/issues economic development section (fresh URL, redirected from fredloveforarkansas.com) pledges regional economic hubs, infrastructure, workforce training and affordable housing expansion, no price/wage/deregulation mechanism",
+        "immigration": "re-checked Sep 2, 2026: fredlove.com/issues fetched fresh, no immigration content",
+        "taxes": "re-checked Sep 2, 2026: fredlove.com/issues fetched fresh, no tax rate content",
+        "climate": "re-checked Sep 2, 2026: fredlove.com/issues fetched fresh, no climate/energy content",
+        "repro": "re-checked Sep 2, 2026: fredlove.com/issues fetched fresh, no abortion content",
+        "democracy": "re-checked Sep 2, 2026: fredlove.com/issues fetched fresh, no voting/elections content"
       }
     },
     {
@@ -463,7 +463,7 @@
         "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 0,
         "taxes": null,
         "climate": null,
         "education": null,
@@ -475,18 +475,21 @@
         "cost": {
           "label": "Platform goal 'CUT INFLATION = Affordability' pursued through 'regulation cuts, Federal Reserve reform, and tariff policy' (campaign website)",
           "url": "https://www.steve-parsons.com/"
+        },
+        "immigration": {
+          "label": "Immigration platform mixes 'Congress should greatly expand visas for lesser-skilled workers' and eliminating the 3/10-year re-entry bar with prosecuting immigrants who commit crimes and reserving welfare to citizens, a mixed pathways-and-enforcement libertarian stance (steve-parsons.com/immigration).",
+          "url": "https://www.steve-parsons.com/immigration"
         }
       },
       "nullNotes": {
-        "health": "campaign site under construction, no health policy content beyond page title (checked 2026-08-29)",
-        "housing": "checked campaign site, nothing documented (checked 2026-08-29)",
-        "immigration": "campaign site lists 'Immigration Reform' as a topic heading with no elaborated position (checked 2026-08-29)",
-        "taxes": "site states opposition to 'government intrusion into business operations' generally but no specific tax-rate or spending position (checked 2026-08-29)",
-        "climate": "checked campaign site, nothing documented (checked 2026-08-29)",
-        "education": "checked campaign site, nothing documented (checked 2026-08-29)",
-        "safety": "site lists 'Incarceration, Substance Abuse and Mental Health Reform' as a topic heading with no elaborated position (checked 2026-08-29)",
-        "repro": "checked campaign site, nothing documented (checked 2026-08-29)",
-        "democracy": "checked campaign site, nothing documented (checked 2026-08-29)"
+        "health": "re-checked Sep 2, 2026: steve-parsons.com homepage fetched fresh (new domain from politics1.com roster), still only a page title for health, no elaborated content",
+        "housing": "re-checked Sep 2, 2026: fresh homepage fetch, nothing documented",
+        "taxes": "re-checked Sep 2, 2026: fresh homepage fetch, only general opposition to 'government intrusion into business operations,' no tax-rate position",
+        "climate": "re-checked Sep 2, 2026: fresh homepage fetch, nothing documented",
+        "education": "re-checked Sep 2, 2026: fresh homepage fetch, nothing documented",
+        "safety": "re-checked Sep 2, 2026: steve-parsons.com/incarceration page exists (topic: incarceration, substance abuse and mental health reform) but returned 429 on three separate attempts today, could not be fetched",
+        "repro": "re-checked Sep 2, 2026: fresh homepage fetch, nothing documented",
+        "democracy": "re-checked Sep 2, 2026: fresh homepage fetch, nothing documented"
       },
       "curatedAt": "2026-08-29"
     },
@@ -539,17 +542,16 @@
         "Oppose new prison construction near Franklin County, expand Calico Rock facility instead"
       ],
       "nullNotes": {
-        "cost": "No general cost-of-living position beyond the tax/Medicaid points already scored (checked Sep 2, 2026)",
-        "housing": "Not addressed in available coverage (checked Sep 2, 2026)",
-        "immigration": "Not addressed in available coverage (checked Sep 2, 2026)",
-        "climate": "Not addressed in available coverage (checked Sep 2, 2026)",
-        "repro": "Not addressed in available coverage; no campaign website found (checked Sep 2, 2026)",
-        "democracy": "Not addressed in available coverage (checked Sep 2, 2026)"
+        "housing": "re-checked Sep 2, 2026: colt4arkansas.org homepage, /platform and /voter-qa fetched fresh, no housing content",
+        "immigration": "re-checked Sep 2, 2026: same fresh pages, no immigration content",
+        "climate": "re-checked Sep 2, 2026: /platform energy content is a ratepayer-cost framing around industrial data centers (scored on cost instead), no clean-energy-transition or fossil-fuel-expansion statement",
+        "repro": "re-checked Sep 2, 2026: homepage lists 'women's health' as a concern Arkansans raised with no platform statement, /platform and /voter-qa have no abortion content",
+        "democracy": "re-checked Sep 2, 2026: colt4arkansas.org homepage, /platform and /voter-qa fetched fresh, no voting/elections content"
       },
       "now": "Franklin County resident; Libertarian nominee for governor",
       "background": "Shelby is a Franklin County, Arkansas resident who first gained attention suing the state over the timeline of a special legislative election, and later sued to oppose a proposed 3,000-bed state prison near his home. He won the Libertarian Party of Arkansas's nomination for governor on Feb 22, 2026, running against Gov. Sarah Huckabee Sanders.",
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": null,
@@ -576,6 +578,10 @@
         "safety": {
           "label": "Opposes building a new 3,000-bed state prison near his home, arguing already-appropriated funds should expand the existing Calico Rock facility instead (Arkansas Times; Arkansas Democrat-Gazette)",
           "url": "https://arktimes.com/arkansas-blog/2026/08/14/colt-following-could-libertarian-candidate-colt-shelby-have-the-best-shot-against-gov-sarah-sanders"
+        },
+        "cost": {
+          "label": "Proposes an 'Arkansas Ratepayer and Water Protection framework' so 'Arkansas ratepayers, not out-of-state corporations, should come first' and requires large industrial energy operations like data centers to 'pay their fair share of grid upgrades' (colt4arkansas.org/platform).",
+          "url": "https://www.colt4arkansas.org/platform"
         }
       },
       "curatedAt": "2026-09-02"
@@ -633,13 +639,13 @@
       },
       "nullNotes": {
         "cost": "checked Ballotpedia; 'hard money policies' address monetary policy/inflation broadly, not a price-intervention-versus-deregulation mechanism, so left off this axis (checked 2026-08-29)",
-        "health": "checked Ballotpedia, only a cannabis-legalization comment which is out of scope for this axis (checked 2026-08-29)",
-        "housing": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "immigration": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "education": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "repro": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "democracy": "checked Ballotpedia; supports blockchain voting technology and two-year House terms, which are procedural/structural, not the easier-voting-versus-stricter-safeguards mechanism this axis tracks, so left null (checked 2026-08-29)"
+        "health": "re-checked Sep 2, 2026: bobbyforcongress.mydurable.com (fresh URL from politics1.com) and Ballotpedia Candidate Connection survey fetched fresh, no health content beyond prior cannabis-legalization mention",
+        "housing": "re-checked Sep 2, 2026: same fresh sources, nothing documented",
+        "immigration": "re-checked Sep 2, 2026: same fresh sources, nothing documented",
+        "education": "re-checked Sep 2, 2026: same fresh sources, nothing documented",
+        "safety": "re-checked Sep 2, 2026: same fresh sources, nothing documented",
+        "repro": "re-checked Sep 2, 2026: same fresh sources, nothing documented",
+        "democracy": "re-checked Sep 2, 2026: Ballotpedia survey re-read in full, still only blockchain voting technology and two-year House terms, procedural/structural not the easier-voting-versus-stricter-safeguards axis"
       },
       "curatedAt": "2026-08-29"
     },
@@ -883,10 +889,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: campaign issues page (russellforar.com/on-the-issues) still has no immigration content",
-        "safety": "re-checked Sep 2, 2026: campaign issues page still has no public safety/policing content",
-        "repro": "re-checked Sep 2, 2026: campaign issues page mentions bodily autonomy within a general equal-rights list, states no specific abortion policy",
-        "democracy": "re-checked Sep 2, 2026: campaign issues page still has no voting-access or election-safeguards content"
+        "immigration": "re-checked Sep 2, 2026: russellforar.com/on-the-issues (fetched fresh) covers restoring trust in government, economic fairness, healthcare, education, equal rights, housing, environment, still no immigration content",
+        "safety": "re-checked Sep 2, 2026: same fresh fetch of russellforar.com/on-the-issues, no policing or crime content",
+        "repro": "re-checked Sep 2, 2026: fresh fetch confirms only 'the right to bodily autonomy for everyone' under equal rights, no specific abortion policy",
+        "democracy": "re-checked Sep 2, 2026: fresh fetch finds only 'listen to the people, not hide from them' and 'everyone's voice is heard,' generic accountability language with no registration, mail voting, or voter ID content; Ballotpedia candidate connection page robots-blocked on retry"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1029,11 +1035,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Arkansas Advocate primary-challenger coverage quotes him on making life more affordable generally but with no specific price/affordability mechanism, 2026 Ballotpedia Candidate Connection survey still not completed",
-        "immigration": "re-checked Sep 2, 2026: no statement found in Arkansas Advocate coverage or Ballotpedia",
-        "taxes": "re-checked Sep 2, 2026: campaign material commits only to general fiscal responsibility with no rate or spending direction",
+        "cost": "re-checked Sep 2, 2026: chrisjonesforcongress.com/affordability/ (fresh URL) names rising costs as a problem with goals to increase housing, expand healthcare, invest in education, but no price/wage/deregulation mechanism",
+        "immigration": "re-checked Sep 2, 2026: chrisjonesforcongress.com/opportunity/ (fresh URL) covers rural development, small business, workforce, broadband, no immigration content",
+        "taxes": "re-checked Sep 2, 2026: chrisjonesforcongress.com/accountability/ (fresh URL) covers ethics, campaign finance reform, government transparency, no tax rate content",
         "safety": "re-checked Sep 2, 2026: only a call for measured, productive discussion on gun violence while protecting gun rights, excluded from this axis per project rules",
-        "repro": "re-checked Sep 2, 2026: no statement found in Arkansas Advocate coverage or Ballotpedia"
+        "repro": "re-checked Sep 2, 2026: chrisjonesforcongress.com homepage mentions maternal health, addiction recovery and food security as part of healthy communities, no abortion-specific statement"
       },
       "sources": [
         {
@@ -1076,9 +1082,9 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1102,14 +1108,20 @@
         "health": {
           "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "climate": {
+          "label": "Criticized a ban on oil and gas production in more than 600 million acres of federal waters and calls for an all-of-the-above energy approach (westerman.house.gov Natural Resources issues page).",
+          "url": "https://westerman.house.gov/issues/natural-resources"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: weekly column Inflation Is Not a High Class Problem criticizes prior administration policy but states no specific price/deregulation mechanism of his own",
-        "housing": "re-checked Sep 2, 2026: no westerman.house.gov statement on housing found, the only housing floor vote he took part in (H.R.6644, roll 224) is the rollbook's own rejected 358-32 non-diagnostic case",
-        "climate": "checked Ballotpedia and Wikipedia; his forestry record (Trillion Trees Act, Fix Our Forests Act) and 4% lifetime League of Conservation Voters score concern forest/wildfire management, not a documented energy-source stance, so it is not scored on this axis (checked 2026-08-29)",
-        "education": "re-checked Sep 2, 2026: education-and-opportunity issues page has only a general column title with no policy stance, directs constituents to contact the office",
-        "safety": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: westerman.house.gov jobs-and-economic-growth page criticizes federal debt/spending and EV charger funding generally, no price/deregulation mechanism stated distinct from the tax law already scored",
+        "housing": "re-checked Sep 2, 2026: no westerman.house.gov statement on housing found; only housing floor vote is the rollbook's own rejected non-diagnostic H.R.6644",
+        "education": "re-checked Sep 2, 2026: westerman.house.gov education-and-opportunity page is still a placeholder directing constituents to contact the office"
       },
       "sources": [
         {
@@ -1147,7 +1159,7 @@
         "Healthy democracy with real choices in leadership"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": null,
         "housing": null,
         "immigration": null,
@@ -1158,18 +1170,22 @@
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Platform pledge: 'Raising the minimum wage so work actually pays' under her Thriving Communities economic plan (terrigreenforarkansas.com).",
+          "url": "https://www.terrigreenforarkansas.com/"
+        }
+      },
       "nullNotes": {
-        "cost": "Talk Business coverage quotes her on rising gas (35%) and diesel (50%) prices hurting families, but names no specific price-control or deregulation mechanism, so it does not fit the axis (checked 2026-08-29)",
-        "health": "checked Ballotpedia (no 2026 Candidate Connection survey completed) and Talk Business coverage, nothing documented despite her medical background (checked 2026-08-29)",
-        "housing": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "immigration": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "taxes": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "climate": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "education": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "repro": "checked Ballotpedia and Talk Business coverage, nothing documented (checked 2026-08-29)",
-        "democracy": "Talk Business quotes her calling for 'checks or balances on the executive branch' and 'real choices in leadership,' which addresses executive accountability generally, not the voting-access-versus-safeguards mechanism this axis tracks, so it is left null (checked 2026-08-29)"
+        "health": "re-checked Sep 2, 2026: terrigreenforarkansas.com (fresh URL, redirected from terrigreen26.com) states 'accessible, affordable healthcare so getting sick does not mean going broke,' an affordability framing with no public-versus-private mechanism stated",
+        "housing": "re-checked Sep 2, 2026: fresh site fetch, no housing content",
+        "immigration": "re-checked Sep 2, 2026: fresh site fetch, no immigration content",
+        "taxes": "re-checked Sep 2, 2026: fresh site fetch, no tax rate content",
+        "climate": "re-checked Sep 2, 2026: fresh site fetch states only 'utilities that support both our environmental integrity and our communities needs,' too generic to fix a direction",
+        "education": "re-checked Sep 2, 2026: fresh site fetch states only 'excellent public schools' as an infrastructure item, no funding-versus-choice mechanism",
+        "safety": "re-checked Sep 2, 2026: fresh site fetch, no policing or crime content",
+        "repro": "re-checked Sep 2, 2026: fresh site fetch states 'women don't have to travel hours for maternity care,' a maternal health access line, not an abortion-specific statement",
+        "democracy": "re-checked Sep 2, 2026: fresh site fetch states only 'free, fair, transparent elections where every vote counts' and an anti-dark-money 'Honest Democracy' plank, too generic to fix a registration/mail-voting-versus-voter-ID direction"
       },
       "sources": [
         {
@@ -1220,16 +1236,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Newsweek quotes him saying voters are 'really nervous about the cost of living' citing food, healthcare, and housing prices and that 'nothing has been done to bring down the cost of living,' but he names no specific mechanism (cap, subsidy, deregulation), so it does not fit the axis (checked 2026-08-29)",
-        "health": "checked campaign site (robbforcongress.com meet-Robb and 3rd-district pages, no detailed platform), Ballotpedia (no 2026 Candidate Connection survey), and iVoterGuide (did not respond to questionnaire), nothing documented (checked 2026-08-29)",
-        "housing": "same sources checked, nothing documented beyond the general cost-of-living quote above (checked 2026-08-29)",
-        "immigration": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "taxes": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "climate": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "education": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "safety": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "repro": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)",
-        "democracy": "checked campaign site, Ballotpedia, and iVoterGuide, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: robbforcongress.com/issues returns 404, home and meet-Robb pages fetched previously still the only source; Newsweek cost-of-living quote is a diagnosis not a mechanism",
+        "health": "re-checked Sep 2, 2026: robbforcongress.com/issues 404, no new source found",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -1258,15 +1274,15 @@
         "Lower costs and raise wages for Arkansas's middle class"
       ],
       "nullNotes": {
-        "health": "No campaign website reachable (jeffwadlin.com and lp.org profile both robots-blocked or content-free); Arkansas Times launch article does not address health care (checked Sep 2, 2026)",
-        "housing": "Same source gap as above (checked Sep 2, 2026)",
-        "immigration": "Same source gap as above (checked Sep 2, 2026)",
-        "taxes": "Same source gap as above (checked Sep 2, 2026)",
-        "climate": "Same source gap as above (checked Sep 2, 2026)",
-        "education": "Same source gap as above (checked Sep 2, 2026)",
-        "safety": "Same source gap as above (checked Sep 2, 2026)",
-        "repro": "Same source gap as above (checked Sep 2, 2026)",
-        "democracy": "Same source gap as above (checked Sep 2, 2026)"
+        "health": "re-checked Sep 2, 2026: jeffwadlin.com homepage (fresh URL from politics1.com roster) has only general anti-partisan messaging, no health content; /issues robots-blocked",
+        "housing": "re-checked Sep 2, 2026: same source gap",
+        "immigration": "re-checked Sep 2, 2026: same source gap",
+        "taxes": "re-checked Sep 2, 2026: same source gap",
+        "climate": "re-checked Sep 2, 2026: same source gap",
+        "education": "re-checked Sep 2, 2026: same source gap",
+        "safety": "re-checked Sep 2, 2026: same source gap",
+        "repro": "re-checked Sep 2, 2026: same source gap",
+        "democracy": "re-checked Sep 2, 2026: same source gap"
       },
       "id": "fec-S6AR00223",
       "name": "Jeffrey Francis Wadlin",

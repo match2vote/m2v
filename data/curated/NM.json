@@ -222,12 +222,12 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: fetched larrymarker.com fresh, site covers only energy independence, border security, and agriculture; healthcare not addressed",
-        "housing": "re-checked Sep 2, 2026: larrymarker.com does not address housing",
-        "taxes": "re-checked Sep 2, 2026: larrymarker.com does not address tax policy",
-        "education": "re-checked Sep 2, 2026: the only education line ('protect the education funding families rely on') sits under the energy-independence page and is framed as a beneficiary of energy revenue, not a public-schools-vs-choice policy stance",
-        "repro": "re-checked Sep 2, 2026: larrymarker.com does not address abortion",
-        "democracy": "re-checked Sep 2, 2026: larrymarker.com does not address voting or elections"
+        "health": "re-checked Sep 2, 2026: larrymarker.com re-fetched, Ballotpedia confirms no completed Candidate Connection survey for any cycle, nothing new found",
+        "housing": "re-checked Sep 2, 2026: larrymarker.com re-fetched, still not addressed",
+        "taxes": "re-checked Sep 2, 2026: larrymarker.com re-fetched, still not addressed",
+        "education": "re-checked Sep 2, 2026: larrymarker.com re-fetched, still only the energy-independence-page tax-funding aside, no standalone position",
+        "repro": "re-checked Sep 2, 2026: larrymarker.com re-fetched, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: larrymarker.com re-fetched, still not addressed"
       },
       "controversies": [
         {
@@ -470,7 +470,17 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "all": "checked didiforcongress.com (healthcare and economy passages are affordability and jobs rhetoric with no scorable mechanism), Ballotpedia (no Candidate Connection survey), and news coverage of her nomination; no scorable position on any axis documented (Aug 28, 2026)"
+        "all": "checked didiforcongress.com (healthcare and economy passages are affordability and jobs rhetoric with no scorable mechanism), Ballotpedia (no Candidate Connection survey), and news coverage of her nomination; no scorable position on any axis documented (Aug 28, 2026)",
+        "cost": "checked Sep 2, 2026: didiforcongress.com homepage found ('fight for New Mexico's businesses and workers, advocating at every turn to bring federal investments and programs') but names no price, wage, or deregulation mechanism; /issues and /priorities subpages 404",
+        "health": "checked Sep 2, 2026: didiforcongress.com homepage says only 'create healthcare that is affordable and accessible for every New Mexico family, protecting quality of care, lowering costs,' generic bipartisan language with no public-vs-private direction stated",
+        "housing": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "immigration": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "taxes": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "climate": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "education": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "safety": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "repro": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed",
+        "democracy": "checked Sep 2, 2026: didiforcongress.com homepage, not addressed"
       },
       "sources": [
         {
@@ -522,7 +532,16 @@
         }
       },
       "nullNotes": {
-        "all-others": "campaign site is biographical with no issue pages yet (checked Aug 28, 2026); NM Political Report launch coverage adds jobs and education-accountability lines too vague to score; Trump-endorsed battleground race, re-check as the campaign publishes a platform"
+        "all-others": "campaign site is biographical with no issue pages yet (checked Aug 28, 2026); NM Political Report launch coverage adds jobs and education-accountability lines too vague to score; Trump-endorsed battleground race, re-check as the campaign publishes a platform",
+        "cost": "checked Sep 2, 2026: cunninghamfornm.com homepage fetched fresh via politics1.com link, contains only background (Marine, retired police officer, business owner) and general 'commonsense solutions' messaging, no policy specifics",
+        "health": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "housing": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "immigration": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "taxes": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "climate": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "education": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "repro": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed",
+        "democracy": "checked Sep 2, 2026: cunninghamfornm.com homepage, not addressed"
       },
       "sources": [
         {
@@ -567,7 +586,17 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "all": "nmlegis.gov: fetched Legislator profile (SponCode=HZAMO, confirms House District 63, farmer, Ranking Member House Agriculture/Acequias/Water Resources, Member House Government Elections & Indian Affairs since 2019) and attempted Legislation_List, Members/Legislation, Members/Sponsored_Legislation and a billtrack50/legiscan cross-reference for his bill sponsorships; all returned only search-form templates, 404s, or unrelated results (JS-driven site not scrapeable via WebFetch). No individual bill text or floor vote was retrievable this pass (checked Aug 29, 2026)."
+        "all": "nmlegis.gov: fetched Legislator profile (SponCode=HZAMO, confirms House District 63, farmer, Ranking Member House Agriculture/Acequias/Water Resources, Member House Government Elections & Indian Affairs since 2019) and attempted Legislation_List, Members/Legislation, Members/Sponsored_Legislation and a billtrack50/legiscan cross-reference for his bill sponsorships; all returned only search-form templates, 404s, or unrelated results (JS-driven site not scrapeable via WebFetch). No individual bill text or floor vote was retrievable this pass (checked Aug 29, 2026).",
+        "cost": "checked Sep 2, 2026: politics1.com/nm.htm lists only a Facebook page (facebook.com/martinzamora4nm) for this candidate, not fetchable; no separate campaign website found",
+        "health": "checked Sep 2, 2026: same Facebook-only limitation",
+        "housing": "checked Sep 2, 2026: same Facebook-only limitation",
+        "immigration": "checked Sep 2, 2026: same Facebook-only limitation",
+        "taxes": "checked Sep 2, 2026: same Facebook-only limitation",
+        "climate": "checked Sep 2, 2026: same Facebook-only limitation",
+        "education": "checked Sep 2, 2026: same Facebook-only limitation",
+        "safety": "checked Sep 2, 2026: same Facebook-only limitation",
+        "repro": "checked Sep 2, 2026: same Facebook-only limitation",
+        "democracy": "checked Sep 2, 2026: same Facebook-only limitation"
       },
       "sources": [
         {
@@ -768,9 +797,9 @@
         "Education opportunity"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": -2,
         "immigration": -1,
         "taxes": null,
         "climate": -1,
@@ -803,13 +832,19 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "cost": {
+          "label": "Says she 'also support(s) the Raise the Wage Act to make sure wages keep up with rising costs of living' (Rep. Leger Fernandez House website)",
+          "url": "https://fernandez.house.gov/Issues/Issue/?IssueID=14891"
+        },
+        "housing": {
+          "label": "Touts having introduced her 'Home of Your Own Act, which would create a new homeownership assistance program that would provide one-time, $30,000 grants to eligible first-time homebuyers nationwide' (Rep. Leger Fernandez House website)",
+          "url": "https://fernandez.house.gov/Issues/Issue/?IssueID=14891"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched teresaforall.com/issues fresh, cost of living not addressed",
-        "housing": "re-checked Sep 2, 2026: teresaforall.com/issues does not address housing; 'helped families afford a home of their own' is biographical, not a policy mechanism",
-        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190) which alone does not establish the axis for a Democrat per guide rule; no separate tax statement found on teresaforall.com/issues",
-        "safety": "re-checked Sep 2, 2026: voted no on H.R.4922, the D.C. CRIMES Act (clerk.house.gov roll 270, Sept 16, 2025); per rollbook this no vote reflects a home-rule/federalism objection for most Democratic no-voters, not a documented prevention-vs-enforcement position, so it does not establish the axis alone; no separate statement found on teresaforall.com/issues"
+        "taxes": "re-checked Sep 2, 2026: fetched fernandez.house.gov/issues, no Housing or standalone tax-rate issue category exists on the site (Broadband, Democracy, Economic Prosperity, Education, Farmers, Gender Equity, Health Care, Immigration, Native Americans, Our Planet, Seniors, Veterans); Economic Prosperity page covers wages, Child Tax Credit administration, homeownership grants, and union protections but no corporate/high-earner tax-rate statement",
+        "safety": "re-checked Sep 2, 2026: fernandez.house.gov press releases show only a July 10, 2026 joint NM-delegation release criticizing DEA/prosecutors for 'knowingly allowed hundreds of thousands of fentanyl pills to flood the streets of Albuquerque,' an oversight/accountability complaint about federal drug interdiction, not a stated prevention-vs-enforcement domestic policing or sentencing position; no dedicated safety issue page on the site"
       },
       "sources": [
         {

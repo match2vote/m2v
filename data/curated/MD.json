@@ -374,7 +374,7 @@
         "immigration": null,
         "taxes": null,
         "climate": -2,
-        "education": null,
+        "education": -2,
         "safety": -1,
         "repro": null,
         "democracy": null
@@ -395,15 +395,18 @@
         "safety": {
           "label": "'Too many people are locked up, too many people can't afford to live here, too many people are left behind' (campaign site)",
           "url": "https://www.gogreen2026.com/campaign-plan"
+        },
+        "education": {
+          "label": "\"Build out and fully fund our public education system so it truly works for all\" (gogreen2026.com/platform)",
+          "url": "https://www.gogreen2026.com/platform"
         }
       },
       "nullNotes": {
-        "cost": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "immigration": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "taxes": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "repro": "checked campaign priorities, campaign plan, and why-we-are-running pages, Ballotpedia (no Candidate Connection survey), Maryland Matters and Riptide Report coverage; nothing documented",
-        "democracy": "removed in QA: cited priorities page documents 'create a robust and deep multiparty democracy' but no position on voting access (registration, mail, early voting, or ID), and the corporate/PAC money claim was not found on the cited page",
-        "education": "campaign priorities page now shows 'Coming soon!' placeholders and contains no education content; no supporting archive snapshot (checked Aug 28, 2026)"
+        "cost": "re-checked Sep 2, 2026: gogreen2026.com/platform fetched (new page beyond the already-checked priorities page); no cost-of-living statement found",
+        "immigration": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "repro": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same page fetched; 'create a robust and deep multiparty democracy' language reconfirmed, still does not state a voting-access-vs-safeguards position (previously removed in QA for the same reason)"
       },
       "sources": [
         {
@@ -453,16 +456,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "health": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "housing": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "immigration": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "taxes": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "climate": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "education": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "safety": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "repro": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented",
-        "democracy": "checked Working Class Party of Maryland site, Ballotpedia (no Candidate Connection survey), Maryland Matters third-party coverage, and Working Class Fight campaign flyer; nothing documented; re-checked Aug 28, 2026: fetched the WCP-MD site (her candidate statement covers jobs, caregiving costs, retirement, and the war, but prescribes no policy on this axis) and Maryland Matters July 11 profile (quotes are two-party critique only); still nothing documented"
+        "cost": "re-checked Sep 2, 2026: sites.google.com/view/wcp-md fetched; content discusses low wages, unaffordable childcare/eldercare, and delayed retirement as problems but names no specific price-cap, wage, or subsidy policy proposal",
+        "health": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "housing": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "climate": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "education": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "safety": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "repro": "re-checked Sep 2, 2026: same page fetched, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same page fetched, not addressed"
       },
       "sources": [
         {
@@ -817,10 +820,10 @@
         }
       },
       "nullNotes": {
-        "health": "checked davewallace.us (about and home pages), wallaceforamerica.com (homepage blank on fetch, /issues 404), Ballotpedia (no Candidate Connection survey), and iVoterGuide (all questions marked did not answer); only a 2024-site quote about Social Security 401k choice and mask/vaccine choice found, which does not fit this axis (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked davewallace.us Our Beliefs, Our Mission, Our Goal pages and full homepage LIFE/LIBERTY issue list including Fentanyl Epidemic and Protect Medical Freedom sections, no public-vs-private health coverage content beyond the already-noted 401k/vaccine items; tried justfacts.votesmart.org, 403 blocked; ballotpedia.org robots-blocked on retry)",
-        "housing": "checked davewallace.us, wallaceforamerica.com, Ballotpedia, and iVoterGuide; no housing content found (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked davewallace.us Our Beliefs, Our Mission, Our Goal pages and full homepage LIFE/LIBERTY issue list, no housing content; tried justfacts.votesmart.org, 403 blocked; ballotpedia.org robots-blocked on retry; guessed Baltimore Banner MD-2 candidate profile URL, 404)",
-        "education": "checked davewallace.us, wallaceforamerica.com, Ballotpedia, and iVoterGuide; only 'skilled trades, manufacturing, and vocational education' found, which does not map cleanly to public-investment vs school-choice (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked davewallace.us Our Beliefs, Our Mission, Our Goal pages and full homepage LIFE/LIBERTY issue list, no additional education content; tried justfacts.votesmart.org, 403 blocked; ballotpedia.org robots-blocked on retry)",
-        "repro": "checked davewallace.us, wallaceforamerica.com, Ballotpedia, and iVoterGuide; no abortion content found (checked Aug 29, 2026) (closer round, Aug 29, 2026: checked davewallace.us Our Beliefs, Our Mission, Our Goal pages and full homepage LIFE/LIBERTY issue list, no abortion/reproductive content; tried justfacts.votesmart.org, 403 blocked; ballotpedia.org robots-blocked on retry)"
+        "health": "re-checked Sep 2, 2026: davewallace.us/issues now 404s; wallaceforamerica.com previously blank/404; no new source found",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -862,7 +865,7 @@
         "Expand voter access and oppose the SAVE Act"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -1,
@@ -897,13 +900,16 @@
         "democracy": {
           "label": "Introduced the 'Student and Military Voter Empowerment Act' requiring higher-education institutions to provide voting information and military voter registration access (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Sarah_Elfreth"
+        },
+        "cost": {
+          "label": "Joined Reps. Mfume and Olszewski in formally requesting the Maryland Public Service Commission \"rescind\" BGE utility rate increases and \"halt\" further hikes, citing seniors and lower-income Marylanders who cannot afford higher bills (elfreth.house.gov press release)",
+          "url": "https://elfreth.house.gov/media/press-releases/elfreth-mfume-and-olszewski-formally-request-public-service-commission"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: elfreth.house.gov Economy page cites reducing child care costs and student loan burden but not a broader cost-of-living/price statement",
-        "housing": "second-check Aug 30, 2026: the cited press release is a routine appropriations/earmark announcement ($2M for Howard County housing) with no housing-policy advocacy language, matching the guide's null anchor for routine appropriations",
-        "taxes": "checked Wikipedia, elfreth.house.gov press releases, and a web search for tax statements; only a narrow 2024 firearm-sales excise tax for the state trauma system was found, which does not reflect a broader tax agenda (checked Aug 29, 2026); her no vote on H.R.1 (roll 190) alone does not establish this axis per the guide",
-        "education": "re-checked Sep 2, 2026: elfreth.house.gov Education page states only generic accessible and affordable education language, too generic to indicate a public-schools-vs-choice direction"
+        "housing": "re-checked Sep 2, 2026: elfreth.house.gov/issues confirmed to have no dedicated Housing category among its 9 issue areas; not addressed",
+        "taxes": "re-checked Sep 2, 2026: no new tax-rate statement found on house.gov issue pages",
+        "education": "re-checked Sep 2, 2026: elfreth.house.gov/issue/education fetched, only a generic placeholder descriptor, no substantive policy text"
       },
       "sources": [
         {
@@ -1044,7 +1050,7 @@
         "cost": null,
         "health": -2,
         "housing": -1,
-        "immigration": null,
+        "immigration": -2,
         "taxes": null,
         "climate": -2,
         "education": null,
@@ -1076,13 +1082,16 @@
         "housing": {
           "label": "Says he has supported increased access to affordable housing through programs that repaired 72,600 homes, helped 18,800 new homeowners, and assisted 105,253 families with housing counseling (ivey.house.gov Issues page)",
           "url": "https://ivey.house.gov/issues"
+        },
+        "immigration": {
+          "label": "\"I am dedicated to ensuring that all immigrants have the opportunity to pursue the American dream,\" with a dedicated \"Know Your Rights\" page on immigration enforcement (ivey.house.gov/issues)",
+          "url": "https://ivey.house.gov/issues"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: ivey.house.gov issues page states no specific cost-of-living statement",
-        "immigration": "checked Wikipedia; no specific immigration policy statement found beyond his no vote on the Laken Riley Act, which the guide credits toward this axis for a no vote as -1, but no additional documented page confirmed the vote text itself for him specifically (checked Aug 29, 2026)",
-        "taxes": "re-checked Sep 2, 2026: no tax policy statement found on ivey.house.gov issues page",
-        "education": "re-checked Sep 2, 2026: H.R.1 criticism says the bill makes education less affordable, but this is general affordability framing tied to opposing the bill, not a public-schools-vs-choice statement, nothing scored"
+        "cost": "re-checked Sep 2, 2026: ivey.house.gov/issue/economy-labor page 404s; issues landing page has no cost-of-living statement",
+        "taxes": "re-checked Sep 2, 2026: same as above, no tax-rate statement found",
+        "education": "re-checked Sep 2, 2026: education listed as an issue category but no substantive content found on the page"
       },
       "sources": [
         {
@@ -1197,30 +1206,42 @@
         "cost": null,
         "health": -2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": -2,
+        "taxes": -2,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": -1,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
           "label": "Bio states he has 'produced thousands of news releases on issues ranging from defending Medicare-for-All to the environment to reparations to war' (campaign site, About page)",
           "url": "https://samhusseini.com/about/"
+        },
+        "taxes": {
+          "label": "Supports taxing \"oligarchs... more, more properly\" and eliminating corporate \"personhood\" (samhusseini.com/issues)",
+          "url": "https://samhusseini.com/issues"
+        },
+        "immigration": {
+          "label": "Opposes current immigration enforcement as \"human rights violations, institutionalizing illegitimate detention and surveillance,\" advocates abolishing ICE and addressing root causes (samhusseini.com/issues)",
+          "url": "https://samhusseini.com/issues"
+        },
+        "safety": {
+          "label": "Calls to \"escalate funding of police powers against corporate crime, which does more damage\" than street crime, deprioritizing conventional street-crime enforcement (samhusseini.com/issues)",
+          "url": "https://samhusseini.com/issues"
+        },
+        "democracy": {
+          "label": "Platform includes \"a Right to Vote, publicly owned open-source voting, a National Elections Commission and eliminate barriers for third parties,\" plus public campaign funding (samhusseini.com/issues)",
+          "url": "https://samhusseini.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "checked samhusseini.com (home and about pages), his Substack launch post and an interviews post (429 error on second visit), Black Agenda Report profile and radio segment, and a JNS article; content is almost entirely foreign policy/Israel focused, no cost-of-living statement found (checked Aug 29, 2026)",
-        "housing": "same sources as cost; no housing statement found (checked Aug 29, 2026)",
-        "immigration": "same sources as cost; no immigration statement found (checked Aug 29, 2026)",
-        "taxes": "same sources as cost; no tax statement found (checked Aug 29, 2026)",
-        "climate": "same sources as cost; About page references 'the environment' as a topic he has written on but states no specific policy (checked Aug 29, 2026)",
-        "education": "same sources as cost; no education statement found (checked Aug 29, 2026)",
-        "safety": "same sources as cost; no criminal-justice or policing statement found (checked Aug 29, 2026)",
-        "repro": "same sources as cost; no abortion statement found (checked Aug 29, 2026)",
-        "democracy": "same sources as cost; no voting-rules statement found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: samhusseini.com/issues fetched fully; content diagnoses 'oligarchs' profiting from 'higher prices' but names no specific price-cap, subsidy, or deregulation mechanism, too vague for this axis",
+        "housing": "re-checked Sep 2, 2026: samhusseini.com/issues fetched fully, no housing statement found",
+        "climate": "re-checked Sep 2, 2026: samhusseini.com/issues fetched fully, no dedicated climate section (About page still only references 'the environment' as a topic)",
+        "education": "re-checked Sep 2, 2026: samhusseini.com/issues fetched fully, no education statement found",
+        "repro": "re-checked Sep 2, 2026: samhusseini.com/issues fetched fully, no abortion statement found"
       },
       "sources": [
         {
@@ -1300,10 +1321,10 @@
         }
       },
       "nullNotes": {
-        "taxes": "checked Wikipedia and his sponsored-bill list; only narrow military-retirement income tax subtraction bills found (HB0761, HB0857), which are targeted credits that do not fit this axis per the guide (checked Aug 29, 2026)",
-        "education": "checked Wikipedia and campaign site issues page (JS-rendered, no static policy text extracted); only the Phone-Free Schools Act found, which does not map to public investment vs school choice (checked Aug 29, 2026)",
-        "repro": "checked Wikipedia, campaign site, and a web search; no abortion or reproductive-rights statement or bill found (checked Aug 29, 2026)",
-        "democracy": "checked Wikipedia; only a Citizens United repeal position found, which is campaign finance rather than voting access or election rules (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: adrianboafo.com found (his congressional campaign site, distinct from the state-legislator Ballotpedia bio) with a dedicated 'Affordability' issue category, but content is Wix-rendered and not present in the fetched HTML; category confirmed to exist for a future round to try again",
+        "education": "re-checked Sep 2, 2026: same site has a dedicated 'Education' issue category but content not present in fetched HTML (404 on direct subpage guess)",
+        "repro": "re-checked Sep 2, 2026: same site has no dedicated reproductive-rights category listed among its 15 issue areas",
+        "democracy": "re-checked Sep 2, 2026: same site has a 'Democracy & Civil Rights' category but content not present in fetched HTML"
       },
       "sources": [
         {
@@ -1379,11 +1400,11 @@
         }
       },
       "nullNotes": {
-        "cost": "checked the 2022 iVoterGuide questionnaire, Ballotpedia, and a web search; no separate cost-of-living/price statement beyond the tax and healthcare answers found (checked Aug 29, 2026)",
-        "housing": "checked the 2022 iVoterGuide questionnaire, Ballotpedia, and a web search for zoning/permitting statements; nothing found (checked Aug 29, 2026)",
-        "education": "checked the 2022 iVoterGuide questionnaire and Ballotpedia; only a biographical answer about his own qualifications found, no schools policy (checked Aug 29, 2026)",
-        "safety": "checked the 2022 iVoterGuide questionnaire and Ballotpedia; no policing/criminal-justice question or statement found (checked Aug 29, 2026)",
-        "democracy": "checked the 2022 iVoterGuide questionnaire and Ballotpedia; no voting-rules or election-administration statement found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/md.htm lists only an X/Twitter profile link, not a fetchable policy source; still unfindable beyond the 2022 iVoterGuide",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -1819,14 +1840,14 @@
         }
       },
       "nullNotes": {
-        "cost": "checked scottcollier.org (robots-blocked), Ballotpedia (robots.txt fetch failures on repeated tries), 2024 Baltimore Sun voter guide, and a 2022 iVoterGuide questionnaire (candidate did not answer); no statement found (checked Aug 29, 2026)",
-        "health": "same sources as cost; no statement found (checked Aug 29, 2026)",
-        "housing": "same sources as cost; no statement found (checked Aug 29, 2026)",
-        "immigration": "same sources as cost; only a vague reference to 'growing economic and illegal immigration problems' found, no specific policy position (checked Aug 29, 2026)",
-        "taxes": "same sources as cost; 2022 iVoterGuide shows the tax-code question unanswered (checked Aug 29, 2026)",
-        "climate": "same sources as cost; 2022 iVoterGuide shows fracking/regulation questions unanswered (checked Aug 29, 2026)",
-        "education": "same sources as cost; no statement found (checked Aug 29, 2026)",
-        "democracy": "same sources as cost; 2022 iVoterGuide shows the voter ID question unanswered (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: scottcollier.org now fetchable (was robots-blocked in round 1) but content is community-service biography only, no policy positions on any of the ten axes",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {

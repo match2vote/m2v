@@ -173,8 +173,8 @@
         "immigration": 0,
         "taxes": -1,
         "climate": null,
-        "education": null,
-        "safety": null,
+        "education": -2,
+        "safety": 1,
         "repro": 0,
         "democracy": -1
       },
@@ -202,6 +202,14 @@
         "democracy": {
           "label": "Calls the SAVE Act proof-of-citizenship voting bill 'unconstitutional': 'Essentially, it's going to be a poll tax' (Breitbart)",
           "url": "https://www.breitbart.com/politics/2026/07/30/independent-nebraska-senate-candidate-dan-osborn-calls-save-america-act-unconstitutional-a-poll-tax/"
+        },
+        "education": {
+          "label": "Platform says 'strong and well-funded public schools are the backbone of the American education system,' backing teacher training, rural school transportation, full school lunch funding, and complete IDEA funding (osbornforsenate.com/platform)",
+          "url": "https://osbornforsenate.com/platform"
+        },
+        "safety": {
+          "label": "Says 'the foremost responsibility of every elected official is the safety and security of our communities,' pledging to ensure 'law enforcement and first responders have the necessary resources' (osbornforsenate.com/platform)",
+          "url": "https://osbornforsenate.com/platform"
         }
       },
       "sources": [
@@ -220,10 +228,8 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia notes Osborn has not completed the 2026 Candidate Connection survey, osbornforsenate.com blocked by robots.txt, no housing statement found",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia has no climate/energy statement",
-        "education": "re-checked Sep 2, 2026: Ballotpedia has no education statement",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia has no public-safety statement"
+        "housing": "re-checked Sep 2, 2026: fetched osbornforsenate.com/platform directly, all 21 section headings enumerated (tax burden, immigration, Social Security, firefighter safety, right to repair, VA claims, military spending, farms, healthcare private equity, public schools, cannabis, campaign finance, Moderna pricing, work hours, rail safety, term limits, voting choices); no housing section found",
+        "climate": "re-checked Sep 2, 2026: same full platform page fetch, no climate or energy section found"
       },
       "incumbent": false,
       "age": 51,
@@ -273,16 +279,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "health": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "housing": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "immigration": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "taxes": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "climate": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "education": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "safety": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "repro": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)",
-        "democracy": "checked campaign website (foremantakebackourhouse.com); site states goals of 'lowering the cost of living' and 'individual liberty, limited government, fiscal responsibility' without a specific price, tax, or program mechanism for any of the 10 axes, so left null (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms same domain (foremantakebackourhouse.com), no alternate site found, only 'lowering the cost of living' and 'individual liberty, limited government' tagline-level content",
+        "health": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "housing": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "immigration": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "taxes": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "climate": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "education": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "safety": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "repro": "re-checked Sep 2, 2026: same site, same tagline-only limitation",
+        "democracy": "re-checked Sep 2, 2026: same site, same tagline-only limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -342,14 +348,14 @@
         }
       },
       "nullNotes": {
-        "housing": "checked Ballotpedia (no Candidate Connection survey 2020/2022/2024), nothing documented (checked 2026-08-29)",
-        "immigration": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "taxes": "checked Ballotpedia; his 2022 platform opposed farm subsidies, which is agriculture policy, not a general tax-rate or spending direction, so left null (checked 2026-08-29)",
-        "climate": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "education": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "repro": "checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "democracy": "checked Ballotpedia, nothing documented (checked 2026-08-29)"
+        "housing": "re-checked Sep 2, 2026: found a working campaign site via politics1.com/ne.htm (dave-else-for-congress.square.site) not previously tried, but it is a JavaScript-rendered Squarespace site returning only HTML metadata, no policy text extractable",
+        "immigration": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "taxes": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "climate": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "education": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "safety": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "repro": "re-checked Sep 2, 2026: same JS-rendering limitation",
+        "democracy": "re-checked Sep 2, 2026: same JS-rendering limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -428,15 +434,15 @@
         }
       },
       "nullNotes": {
-        "cost": "no cost-of-living/price statement found on marvinforsenate.com platform page or in Nebraska Examiner/Nebraska Public Media coverage (checked Sep 2, 2026)",
-        "housing": "no housing statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
-        "immigration": "no immigration statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
-        "taxes": "platform page does not address taxes directly (checked Sep 2, 2026)",
-        "climate": "no climate/energy statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
-        "education": "platform mentions redirecting military spending toward \"our schools, or our infrastructure\" but with no specific education-policy commitment (public investment vs. choice) stated (checked Sep 2, 2026)",
-        "safety": "platform's criminal-justice content is a pledge to push for \"releasing the Epstein files,\" a transparency demand unrelated to the axis's prevention-versus-enforcement framing (checked Sep 2, 2026)",
-        "repro": "no abortion statement found on marvinforsenate.com platform page or in press coverage (checked Sep 2, 2026)",
-        "democracy": "platform opposes Citizens United and backs publicly funded elections, a campaign-finance stance that does not fit the axis's voting-access-versus-safeguards definition (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms same domain (marvinforsenate.com, listed as withdrawn but on the ballot), no alternate site found",
+        "housing": "re-checked Sep 2, 2026: same site, no new content",
+        "immigration": "re-checked Sep 2, 2026: same site, no new content",
+        "taxes": "re-checked Sep 2, 2026: same site, no new content",
+        "climate": "re-checked Sep 2, 2026: same site, no new content",
+        "education": "re-checked Sep 2, 2026: same site, redirecting military spending toward schools remains too vague",
+        "safety": "re-checked Sep 2, 2026: same site, 'releasing the Epstein files' remains a transparency demand, not a safety position",
+        "repro": "re-checked Sep 2, 2026: same site, no new content",
+        "democracy": "re-checked Sep 2, 2026: same site, Citizens United opposition remains campaign-finance, not voting-access"
       },
       "funding": null
     },
@@ -521,13 +527,13 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: picknikforcongress.com has no housing statement",
-        "immigration": "re-checked Sep 2, 2026: picknikforcongress.com has no immigration statement",
-        "climate": "re-checked Sep 2, 2026: picknikforcongress.com has no climate/energy statement",
-        "education": "re-checked Sep 2, 2026: picknikforcongress.com has no education statement",
+        "housing": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms same domain (picknikforcongress.com), no alternate site found, no housing statement",
+        "immigration": "re-checked Sep 2, 2026: same site, no immigration statement",
+        "climate": "re-checked Sep 2, 2026: same site, no climate/energy statement",
+        "education": "re-checked Sep 2, 2026: same site, no education statement",
         "safety": "campaign site emphasizes 'Constitutional Due Process' opposing warrantless searches and civil asset forfeiture, which is a due-process/civil-liberties position, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
-        "repro": "re-checked Sep 2, 2026: picknikforcongress.com has no abortion statement",
-        "democracy": "re-checked Sep 2, 2026: picknikforcongress.com has no voting/elections statement"
+        "repro": "re-checked Sep 2, 2026: same site, no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: same site, no voting/elections statement"
       },
       "curatedAt": "2026-08-29"
     },
@@ -667,12 +673,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: 'roll back tariffs' and 'expand the Child Tax Credit' proposals do not fit the cost axis (tariffs are a third kind of intervention, CTC is a targeted household credit), nothing scored",
-        "climate": "re-checked Sep 2, 2026: no climate/energy statement found on backnebraska.com priorities or news pages",
-        "education": "re-checked Sep 2, 2026: no education statement found on backnebraska.com priorities or news pages",
-        "safety": "re-checked Sep 2, 2026: no public-safety statement found on backnebraska.com priorities or news pages",
-        "repro": "re-checked Sep 2, 2026: no abortion statement found on backnebraska.com priorities or news pages",
-        "democracy": "re-checked Sep 2, 2026: no voting/elections statement found on backnebraska.com priorities or news pages"
+        "cost": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms same domain (backnebraska.com), no alternate site found; 'roll back tariffs' and 'expand the Child Tax Credit' still do not fit the cost axis",
+        "climate": "re-checked Sep 2, 2026: same site, no climate/energy statement found",
+        "education": "re-checked Sep 2, 2026: same site, no education statement found",
+        "safety": "re-checked Sep 2, 2026: same site, no public-safety statement found",
+        "repro": "re-checked Sep 2, 2026: same site, no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: same site, no voting/elections statement found"
       },
       "sources": [
         {
@@ -745,11 +751,11 @@
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: brinkerharding.com/vision repeats the IVF-affordability line already assessed as too general for a public-vs-private direction",
-        "housing": "re-checked Sep 2, 2026: brinkerharding.com/vision has no housing statement",
-        "taxes": "re-checked Sep 2, 2026: brinkerharding.com/vision has no tax statement",
-        "education": "re-checked Sep 2, 2026: brinkerharding.com/vision has no education statement",
+        "housing": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms same domain (brinkerharding.com), no alternate site found, no housing statement on /vision",
+        "taxes": "re-checked Sep 2, 2026: same site, no tax statement",
+        "education": "re-checked Sep 2, 2026: same site, no education statement",
         "safety": "campaign site proposes 'body cameras and identifiable uniforms for ICE agents,' an oversight/accountability measure, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
-        "repro": "re-checked Sep 2, 2026: brinkerharding.com/vision addresses only IVF accessibility, no broader abortion-policy statement"
+        "repro": "re-checked Sep 2, 2026: same site, IVF-affordability line remains too general for a broader abortion-policy statement"
       },
       "sources": [
         {
@@ -992,11 +998,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: beckystille2026.com/issues has no cost-of-living statement",
-        "housing": "re-checked Sep 2, 2026: beckystille2026.com/issues has no housing statement",
-        "taxes": "re-checked Sep 2, 2026: beckystille2026.com/issues has no tax statement",
-        "climate": "re-checked Sep 2, 2026: beckystille2026.com/issues has no climate/energy statement",
-        "democracy": "re-checked Sep 2, 2026: page criticizes 'shadow money and rampant disinformation' letting 'politicians choose voters instead of the other way around,' a redistricting/campaign-finance framing that does not fit the voting-access-versus-election-security axis"
+        "cost": "re-checked Sep 2, 2026: beckystille2026.com and /issues re-fetched, no cost-of-living statement found",
+        "housing": "re-checked Sep 2, 2026: same re-fetch, no housing statement found",
+        "taxes": "re-checked Sep 2, 2026: same re-fetch, no tax statement found",
+        "climate": "re-checked Sep 2, 2026: same re-fetch, no climate/energy statement found",
+        "democracy": "re-checked Sep 2, 2026: same re-fetch, page criticizes 'shadow money and rampant disinformation' letting 'politicians choose voters,' a campaign-finance and redistricting framing, not a voting-access-vs-safeguards statement"
       },
       "sources": [
         {
@@ -1039,16 +1045,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "health": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "housing": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "immigration": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "taxes": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "climate": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "education": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "safety": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "repro": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)",
-        "democracy": "checked markfornebraska.org press page (rejects the two-party system, cites voter priorities on 'agriculture and rural healthcare' with no specific mechanism), Nebraska Examiner and Nebraska Public Media ballot-certification briefs, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/ne.htm confirms no campaign website listed for Mark Cohen, markfornebraska.org press page remains the only source, no new content beyond voter-priorities framing",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {

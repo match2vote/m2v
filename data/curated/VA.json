@@ -382,12 +382,12 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: Cville Tomorrow primary Q&A covered only data centers, immigration/labor, Valley Link/property rights, and congress/executive power, no healthcare content; Ballotpedia confirms he has not completed the 2026 Candidate Connection survey",
-        "housing": "re-checked Sep 2, 2026: same Cville Tomorrow Q&A checked, no housing content; Ballotpedia survey not completed",
-        "education": "re-checked Sep 2, 2026: same Cville Tomorrow Q&A checked, no education content; Ballotpedia survey not completed",
-        "safety": "re-checked Sep 2, 2026: same Cville Tomorrow Q&A checked, no public-safety content; Ballotpedia survey not completed",
-        "repro": "re-checked Sep 2, 2026: same Cville Tomorrow Q&A checked, no abortion content; Ballotpedia survey not completed",
-        "democracy": "re-checked Sep 2, 2026: same Cville Tomorrow Q&A checked, no voting/elections content; Ballotpedia survey not completed"
+        "health": "re-checked Sep 2, 2026: bertforsenate.com fetched, page returned only metadata/header content, no policy text loaded",
+        "housing": "re-checked Sep 2, 2026: same access limitation",
+        "education": "re-checked Sep 2, 2026: same access limitation",
+        "safety": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
       "sources": [
         {
@@ -452,15 +452,15 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: full campaign homepage fetched (0% federal income tax pledge, congressional pay donation, military drawdown, family law, technology/data centers, civil rights), no general cost-of-living content beyond the tax-elimination pledge already scored under taxes",
-        "health": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "housing": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "immigration": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "climate": "re-checked Sep 2, 2026: same homepage fetch, only data-center/tech-privacy content, not an energy-source position",
-        "education": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "safety": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "repro": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same homepage fetch, not addressed"
+        "cost": "re-checked Sep 2, 2026: Facebook-only campaign presence, full homepage fetch previously confirmed 0% federal income tax pledge is his only cost-adjacent content (already scored)",
+        "health": "re-checked Sep 2, 2026: same, not addressed",
+        "housing": "re-checked Sep 2, 2026: same, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same, not addressed",
+        "climate": "re-checked Sep 2, 2026: same, only data-center/tech-privacy content, not an energy-source position",
+        "education": "re-checked Sep 2, 2026: same, not addressed",
+        "safety": "re-checked Sep 2, 2026: same, not addressed",
+        "repro": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -502,16 +502,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: /issues subpage fetched directly, confirmed metadata-only (slogan 'Justice for Every Community. Opportunity for Every Family', bio as economist/poet/human rights advocate), Ballotpedia robots-blocked again",
-        "health": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "housing": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "immigration": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "taxes": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "climate": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "education": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "safety": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "repro": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content",
-        "democracy": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only, no policy content"
+        "cost": "re-checked Sep 2, 2026: /issues subpage confirmed metadata-only again, no policy content loaded",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "curatedAt": "2026-08-29"
     },
@@ -570,11 +570,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey checked in full, the only cost-adjacent line (reduce energy costs by ending wind/solar subsidies) was scored under climate to avoid double counting, no separate general cost-of-living mechanism stated",
-        "health": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey's healthcare answer is narrowly about ending SSRI prescriptions for children, a medical-practice regulation stance that does not map to the public-vs-private insurance axis",
-        "housing": "re-checked Sep 2, 2026: campaign site /issues subpage 404s; homepage previously checked lists only general organizational principles with no housing content; Ballotpedia survey does not address housing",
-        "safety": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey checked in full, no public-safety/policing content found",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey checked in full, no abortion/reproductive-rights content found"
+        "cost": "re-checked Sep 2, 2026: shellyarnoldi.com homepage fetched, no Ballotpedia-survey-level detail available in this fetch, only reduce-energy-costs line already scored",
+        "health": "re-checked Sep 2, 2026: same, survey's healthcare answer narrowly about ending SSRI prescriptions for children, already scored",
+        "housing": "re-checked Sep 2, 2026: same, /issues subpage still 404s, homepage lists only general organizational principles",
+        "safety": "re-checked Sep 2, 2026: same, not addressed",
+        "repro": "re-checked Sep 2, 2026: same, not addressed"
       },
       "curatedAt": "2026-08-29"
     },
@@ -812,10 +812,10 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: full campaign homepage fetched directly (anti-corruption/term-limits, healthcare, utility costs, public safety/fentanyl, taxes), no housing content found",
-        "immigration": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "education": "re-checked Sep 2, 2026: same homepage fetch, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same homepage fetch, only anti-corruption/term-limits/stock-trading content, which is government-ethics reform not voting access, does not fit this axis"
+        "housing": "re-checked Sep 2, 2026: no new source found beyond prior full homepage fetch",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same, anti-corruption/term-limits/stock-trading content is government-ethics reform, not voting-access"
       },
       "sources": [
         {
@@ -968,11 +968,11 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: full /issues page fetched (veterans, healthcare, economy/jobs, environment, education, reproductive rights, guns), no housing content found",
-        "immigration": "re-checked Sep 2, 2026: same /issues page fetch, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same /issues page fetch, only the narrow Gold Star families 2017 Tax Bill correction already noted, no broader tax agenda",
+        "housing": "re-checked Sep 2, 2026: elaineforcongress.com/issues fetched in full, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, only narrow Gold Star families 2017 Tax Bill correction already noted, no broader tax agenda",
         "safety": "re-checked Sep 2, 2026: same /issues page fetch, only gun-policy content (background checks, red flag laws), excluded from this axis per guide",
-        "democracy": "re-checked Sep 2, 2026: same /issues page fetch; Ballotpedia confirms she has not completed the 2026 Candidate Connection survey; no voting/elections content found"
+        "democracy": "re-checked Sep 2, 2026: same, not addressed; Ballotpedia confirms no 2026 survey"
       },
       "sources": [
         {
@@ -1114,12 +1114,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign issues page fetched in full, the only cost-adjacent line (lower energy cost) was scored under climate to avoid double counting, no separate general cost-of-living mechanism stated",
-        "health": "re-checked Sep 2, 2026: campaign issues page says only that prescriptions and healthcare should be accessible without forcing choices between medical and basic needs, too vague to place on the public-vs-private axis",
-        "housing": "re-checked Sep 2, 2026: campaign issues page says only 'support affordable housing options' with no build/zoning or deregulation mechanism stated",
-        "immigration": "re-checked Sep 2, 2026: campaign issues page calls to increase the number of immigration judges and fix the green card process, process-efficiency language that could support either enforcement or legal pathways, too ambiguous to score",
-        "repro": "re-checked Sep 2, 2026: campaign issues page fetched in full, no abortion/reproductive-rights content found",
-        "democracy": "re-checked Sep 2, 2026: campaign issues page fetched in full, no voting/elections content found"
+        "cost": "re-checked Sep 2, 2026: no new source found beyond prior full issues-page fetch",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same, 'support affordable housing options' with no build/zoning mechanism",
+        "immigration": "re-checked Sep 2, 2026: same, process-efficiency content (more judges, fix green card process), not an enforcement-vs-pathways stance",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -1187,11 +1187,11 @@
         }
       },
       "nullNotes": {
-        "housing": "campaign site calls for 'increased housing... at affordable rates' without specifying a public-build or deregulation mechanism (checked Aug 29, 2026)",
-        "education": "campaign site calls for investing 'equally in vocational training and academic education,' which does not address the public-schools-versus-choice axis (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
-        "repro": "campaign site says 'increase family planning, reduce abortion, expand adoption,' a position that does not clearly map to either guaranteeing or restricting abortion access (checked Aug 29, 2026)",
-        "democracy": "campaign site calls to end gerrymandering and reverse Citizens United, which are redistricting/campaign-finance positions that do not fit this voting-access axis (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: stevewoll.com/issues fetched in full, still only 'increased housing at affordable rates' with no build/zoning mechanism",
+        "education": "re-checked Sep 2, 2026: same, 'invest equally in vocational training and academic education' does not address public-schools-vs-choice",
+        "safety": "re-checked Sep 2, 2026: same, no public-safety/policing statement found",
+        "repro": "re-checked Sep 2, 2026: same, 'increase family planning, reduce abortion, expand adoption' does not clearly map to guaranteeing-access vs restricting",
+        "democracy": "re-checked Sep 2, 2026: same, end-gerrymandering/reverse-Citizens-United content is redistricting/campaign-finance, not voting-access"
       },
       "sources": [
         {
@@ -1337,12 +1337,12 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: /priorities page fetched in full, only the prior 'until every family can afford housing' line found, page explicitly says specific issue pages are coming soon",
-        "immigration": "re-checked Sep 2, 2026: same /priorities page fetch, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same /priorities page fetch, not addressed",
-        "climate": "re-checked Sep 2, 2026: same /priorities page fetch, not addressed",
-        "repro": "re-checked Sep 2, 2026: same /priorities page fetch, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same /priorities page fetch, only the dark-money/insider-trading campaign-finance line already noted, does not fit the voting-access axis"
+        "housing": "re-checked Sep 2, 2026: tomperriellova.com/priorities rate-limited (429) on retry this session",
+        "immigration": "re-checked Sep 2, 2026: same access limitation",
+        "taxes": "re-checked Sep 2, 2026: same access limitation",
+        "climate": "re-checked Sep 2, 2026: same access limitation",
+        "repro": "re-checked Sep 2, 2026: same access limitation",
+        "democracy": "re-checked Sep 2, 2026: same access limitation, prior fetch found only dark-money/insider-trading campaign-finance content"
       },
       "sources": [
         {
@@ -1660,10 +1660,10 @@
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: full /issues/ page fetched (energy, agriculture, families/workers, housing, taxes, immigration/fentanyl, veterans, law enforcement, girls in sports, 2nd Amendment, manufacturing, government accountability), only a Lyme-disease public-health item found, not a public-vs-private insurance or coverage statement",
-        "education": "re-checked Sep 2, 2026: same full /issues/ page fetch, no education content found",
-        "repro": "re-checked Sep 2, 2026: same full /issues/ page fetch, no abortion/reproductive-rights content found",
-        "democracy": "re-checked Sep 2, 2026: same full /issues/ page fetch, only a government-accountability/oversight item, not a voting-access statement"
+        "health": "re-checked Sep 2, 2026: no new source found beyond prior full /issues/ page fetch",
+        "education": "re-checked Sep 2, 2026: same, no education content found",
+        "repro": "re-checked Sep 2, 2026: same, no abortion content found",
+        "democracy": "re-checked Sep 2, 2026: same, only government-accountability/oversight content, not voting-access"
       },
       "sources": [
         {
@@ -1703,7 +1703,7 @@
         "immigration": -2,
         "taxes": null,
         "climate": -2,
-        "education": null,
+        "education": -2,
         "safety": -1,
         "repro": -1,
         "democracy": null
@@ -1732,13 +1732,16 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "education": {
+          "label": "Vigorously opposed these illegal attacks on America's education system with legislation, my votes, and in person, defending IDEA special-education funding, Title I support for low-income schools, and the Office of Civil Rights (Friends of Don Beyer education issues page)",
+          "url": "https://friendsofdonbeyer.com/issues/education"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: no general cost-of-living statement found beyond healthcare/housing specifics already scored",
-        "taxes": "re-checked Sep 2, 2026: voted no on H.R.1 (roll 190), but per rollbook rule a bare Democratic no does not by itself establish the taxes axis; site notes only Ways and Means committee membership with no quoted position",
-        "education": "re-checked Sep 2, 2026: campaign site 'Education' priority page still returns no elaborated position text",
-        "democracy": "no voting/elections statement found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: /issues page fetched in full, no general cost-of-living statement found beyond already-scored healthcare/housing specifics",
+        "taxes": "re-checked Sep 2, 2026: per rollbook rule a Democratic no vote on H.R.1 (roll 190) alone does not establish the taxes axis, no separate tax statement found",
+        "democracy": "re-checked Sep 2, 2026: /issues page fetched in full, no voting/elections subpage listed, not addressed"
       },
       "sources": [
         {
@@ -1789,16 +1792,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: /issues subpage fetched directly, confirmed metadata-only (slogan 'Government that works. Politics that doesn't get in the way.'), no policy content",
-        "health": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "housing": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "immigration": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "taxes": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "climate": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "education": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "safety": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "repro": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only",
-        "democracy": "re-checked Sep 2, 2026: same /issues subpage fetch, metadata-only"
+        "cost": "re-checked Sep 2, 2026: /issues subpage confirmed metadata-only again, no policy content loaded",
+        "health": "re-checked Sep 2, 2026: same",
+        "housing": "re-checked Sep 2, 2026: same",
+        "immigration": "re-checked Sep 2, 2026: same",
+        "taxes": "re-checked Sep 2, 2026: same",
+        "climate": "re-checked Sep 2, 2026: same",
+        "education": "re-checked Sep 2, 2026: same",
+        "safety": "re-checked Sep 2, 2026: same",
+        "repro": "re-checked Sep 2, 2026: same",
+        "democracy": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -1854,13 +1857,13 @@
         }
       },
       "nullNotes": {
-        "cost": "the only cost-related item found ('Lowering Energy Cost') was scored under the climate/energy axis to avoid double-counting the same statement (checked Aug 29, 2026)",
-        "housing": "re-checked Sep 2, 2026: Ballotpedia checked, only a 2023 school-board Candidate Connection survey exists (a different, prior race), addresses only teacher evaluation, no housing content; /issues subpage on campaign site 404s",
-        "immigration": "re-checked Sep 2, 2026: same Ballotpedia check, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same Ballotpedia check, not addressed",
-        "education": "re-checked Sep 2, 2026: 2023 school-board survey addresses only teacher-success measurement, not the public-schools-vs-choice funding axis, too tangential to score",
-        "repro": "re-checked Sep 2, 2026: same Ballotpedia check, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same Ballotpedia check, not addressed"
+        "cost": "re-checked Sep 2, 2026: sabioforcongress.com fetched, five legislative-pillar headings found (Energy, Jobs, Small Business, Safe Communities, Health Freedom) but 'Lowering Energy Cost' line already scored under climate; no distinct cost text",
+        "housing": "re-checked Sep 2, 2026: same, not addressed",
+        "immigration": "re-checked Sep 2, 2026: same, Safe Communities & Secure America subpage 404s, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, not addressed",
+        "education": "re-checked Sep 2, 2026: same, only a 2023 school-board survey exists, addresses teacher-success measurement not the funding-vs-choice axis",
+        "repro": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {
@@ -2006,12 +2009,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "no immigration statement found on campaign homepage; full issues page not retrieved (checked Aug 29, 2026)",
-        "taxes": "no tax statement found on campaign homepage (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign homepage (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign homepage (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign homepage (checked Aug 29, 2026)",
-        "democracy": "no voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+        "immigration": "re-checked Sep 2, 2026: joyforva.com and /copy-of-priorities page both fetched in full, not addressed",
+        "taxes": "re-checked Sep 2, 2026: same, only cost-of-living/price-gouging content, no tax-rate position",
+        "climate": "re-checked Sep 2, 2026: same, not addressed",
+        "safety": "re-checked Sep 2, 2026: same, only Second Amendment content, excluded from this axis per guide rule 3",
+        "repro": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, only redistricting-adjacent complaint, not a voting-access mechanism"
       },
       "sources": [
         {
@@ -2161,11 +2164,11 @@
         }
       },
       "nullNotes": {
-        "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
-        "housing": "campaign site references a housing blog post with 'three policies' but no specific position text retrieved (checked Aug 29, 2026)",
-        "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
-        "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: beckwithforcongress.com and /key-issues page both fetched, eight policy-pillar headings listed (economic vitality, fiscal responsibility, community safety, Second Amendment, energy, education, veterans) with no healthcare content",
+        "housing": "re-checked Sep 2, 2026: same, housing blog post referenced but detailed text not retrievable this round",
+        "immigration": "re-checked Sep 2, 2026: same, not addressed",
+        "repro": "re-checked Sep 2, 2026: same, not addressed",
+        "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {

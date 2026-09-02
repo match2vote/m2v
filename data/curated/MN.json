@@ -581,7 +581,7 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": 2,
         "housing": null,
         "immigration": 0,
         "taxes": null,
@@ -599,15 +599,18 @@
         "immigration": {
           "label": "Mixed: backs 'a faster and more efficient legal path to citizenship for visa-holding immigrants,' while also 'enforcing existing immigration laws' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Tyler_Bass"
+        },
+        "health": {
+          "label": "As a former licensed Minnesota health insurance agent, proposes 'fully underwritten policies, real group-style coverage, pay for your own risk, not someone else's,' favoring market-based solutions over government programs (Tyler Bass for Congress homepage)",
+          "url": "https://bassforcongress.com/"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey reviewed again, the only additional content beyond the drug-pricing point already scored under cost is on economy/jobs (prioritize US-citizen hiring) and food/nutrition policy, nothing maps to the health axis",
-        "housing": "re-checked Sep 2, 2026: same survey review, no housing statement found",
-        "taxes": "re-checked Sep 2, 2026: same survey review, no tax-rate statement found",
-        "climate": "re-checked Sep 2, 2026: same survey review, no climate/energy statement found",
-        "education": "re-checked Sep 2, 2026: same survey review, no education statement found",
-        "safety": "re-checked Sep 2, 2026: same survey review, only a government-fraud-prevention answer found, does not map to the crime/policing safety axis",
+        "housing": "re-checked Sep 2, 2026: site frames housing costs only through opposing federal involvement in local property-tax policy, a federalism argument rather than a zoning/building or renter-protection stance, does not cleanly fit the axis",
+        "taxes": "re-checked Sep 2, 2026: same federalism framing ('get Washington's hand out of your local tax bill'), about jurisdiction not tax level, does not cleanly fit the axis",
+        "climate": "re-checked Sep 2, 2026: homepage fetched in full, no climate/energy content found",
+        "education": "re-checked Sep 2, 2026: homepage fetched in full, no education content found",
+        "safety": "re-checked Sep 2, 2026: homepage frames crime only through immigration enforcement and gun rights, neither of which maps to the safety axis per the guide",
         "repro": "re-checked Sep 2, 2026: same survey review, no abortion statement found",
         "democracy": "re-checked Sep 2, 2026: same survey review, no voting/elections statement found"
       },
@@ -655,16 +658,16 @@
         "democracy": null
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: jacksonforcongress.us/platform and /library both return a 'too many redirects' server error on every fetch attempt, site remains effectively unreachable beyond the homepage's generic 'constitutional rights and accountability' messaging",
-        "health": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "housing": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "immigration": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "taxes": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "climate": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "education": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "safety": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "repro": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages",
-        "democracy": "re-checked Sep 2, 2026: same redirect-loop failure on platform/library pages"
+        "cost": "re-checked Sep 2, 2026: jacksonforcongress.us platform/library pages still fail with a too-many-redirects server error",
+        "health": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "housing": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "immigration": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "taxes": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "climate": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "education": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "safety": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "repro": "re-checked Sep 2, 2026: same redirect-loop failure",
+        "democracy": "re-checked Sep 2, 2026: same redirect-loop failure"
       },
       "sources": [
         {
@@ -708,7 +711,7 @@
         "Stable public school funding"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": 0,
         "immigration": null,
@@ -739,14 +742,17 @@
         "repro": {
           "label": "Lists 'reproductive care' as part of the healthcare access she supports funding (campaign site)",
           "url": "https://www.marisasimonetti.com/"
+        },
+        "cost": {
+          "label": "Proposes 'low-interest home improvement loans that reduce utility bills, especially for low-income homeowners' (Marisa Simonetti for Senate homepage)",
+          "url": "https://marisasimonetti.com/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: marisasimonetti.com only offers a housing-affordability blog and a 'cutting red tape for entrepreneurs while holding large corporations accountable' line, still too diffuse to score",
-        "immigration": "re-checked Sep 2, 2026: full site nav checked (housing, food, tourism, real-estate team pages), no immigration content found anywhere on the site",
-        "taxes": "re-checked Sep 2, 2026: found a blog post titled 'Property Taxes in Minnesota 2026: Why They're Rising and What Homeowners Can Do' but it is informational content about property-tax relief programs, not a stated position on raising or cutting taxes broadly, so still null",
-        "safety": "re-checked Sep 2, 2026: full site nav checked, no crime/policing statement found",
-        "democracy": "re-checked Sep 2, 2026: no voting/elections statement found beyond her justice-system reform work on individual constitutional violations, which does not map to the voting-access axis"
+        "immigration": "re-checked Sep 2, 2026: full site nav checked again, no immigration content found anywhere",
+        "taxes": "re-checked Sep 2, 2026: only the previously found property-tax blog post about rising property taxes, not a rate position",
+        "safety": "re-checked Sep 2, 2026: only generic cybersecurity/veterans language under National Security, no crime/policing content",
+        "democracy": "re-checked Sep 2, 2026: site has a general 'Voting Information' polling-location resource and a 'We the People vs. The System' tagline, but no specific voting-access or election-administration position"
       },
       "curatedAt": "2026-09-02"
     },
@@ -802,13 +808,13 @@
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: Ballotpedia page reviewed again, her documented positions are limited to foreign policy noninterventionism, ending the Fed, general deregulation ('Deregulate. Deregulate. Deregulate.'), and VA privatization; no housing statement",
-        "immigration": "re-checked Sep 2, 2026: same Ballotpedia review, no immigration statement found",
-        "climate": "re-checked Sep 2, 2026: same Ballotpedia review, no climate/energy statement found",
-        "education": "re-checked Sep 2, 2026: same Ballotpedia review, no education statement found",
-        "safety": "re-checked Sep 2, 2026: same Ballotpedia review, no crime/policing statement found",
-        "repro": "re-checked Sep 2, 2026: same Ballotpedia review, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: same Ballotpedia review, no voting/elections statement found"
+        "housing": "re-checked Sep 2, 2026: campaign site fetched directly again, only foreign-policy noninterventionism, deregulation-generally, VA privatization, and 'taxation is theft' found, no housing-specific content",
+        "immigration": "re-checked Sep 2, 2026: same site review, no immigration content",
+        "climate": "re-checked Sep 2, 2026: same site review, no climate content",
+        "education": "re-checked Sep 2, 2026: same site review, no education content",
+        "safety": "re-checked Sep 2, 2026: same site review, no crime/policing content",
+        "repro": "re-checked Sep 2, 2026: same site review, no abortion content",
+        "democracy": "re-checked Sep 2, 2026: same site review, no voting/elections content"
       },
       "curatedAt": "2026-09-02"
     },
@@ -847,9 +853,9 @@
         "housing": null,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -2,
         "education": null,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": null
       },
@@ -865,16 +871,22 @@
         "immigration": {
           "label": "Opposes 'federal immigration operations in the state' (Green Party of Minnesota candidates page)",
           "url": "https://mngreens.nationbuilder.com/our_candidates_electeds"
+        },
+        "climate": {
+          "label": "'We have a world to save! We cannot afford to put off the many climate change mitigation and preparation' needed, and opposes new hyperscale data centers over environmental impact (Steven Young for Governor campaign site)",
+          "url": "https://steveformngov.info/"
+        },
+        "safety": {
+          "label": "Frames public safety around a 'Sanctuary State' approach and addressing 'law enforcement overreaches' through truth-and-reconciliation efforts (Steven Young for Governor campaign site)",
+          "url": "https://steveformngov.info/"
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: gpmn.org/2026-candidates and gpmn.org/candidates are robots-disallowed (DNS/robots fetch failure), no alternate Green Party candidate page found; still no housing statement",
-        "taxes": "re-checked Sep 2, 2026: same Green Party site blocked, no tax-rate statement found",
-        "climate": "re-checked Sep 2, 2026: same Green Party site blocked; prior finding stands, only general 'strong protections for the natural environment' language, no energy-transition mechanism",
-        "education": "re-checked Sep 2, 2026: same Green Party site blocked, no education statement found",
-        "safety": "re-checked Sep 2, 2026: same Green Party site blocked, no crime/policing statement found",
-        "repro": "re-checked Sep 2, 2026: same Green Party site blocked, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: same Green Party site blocked, no voting/elections statement found"
+        "housing": "re-checked Sep 2, 2026: gpmn.org remains robots-disallowed/unreachable; new site steveformngov.info fetched directly, no housing content found",
+        "taxes": "re-checked Sep 2, 2026: steveformngov.info fetched directly, no tax-policy content found",
+        "education": "re-checked Sep 2, 2026: steveformngov.info fetched directly, no education content found",
+        "repro": "re-checked Sep 2, 2026: steveformngov.info fetched directly, no abortion content found (only that the Lt. Gov running mate is a midwife, not a campaign position)",
+        "democracy": "re-checked Sep 2, 2026: steveformngov.info fetched directly, only a vague '30,000 Constitutional Observers' reference and general government-accountability language, no voting-access or election-administration position"
       },
       "curatedAt": "2026-09-02"
     },
@@ -928,12 +940,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: priorities page (cost, corruption, rural investment) has no immigration content",
-        "climate": "re-checked Sep 2, 2026: priorities page has no dedicated energy/climate section, data centers mentioned only in passing with no stated position",
-        "education": "re-checked Sep 2, 2026: only 'investing in clean water, special education, and medical research and ag innovation' found, a generic investment list with no public-schools-vs-choice mechanism, does not fit the axis",
-        "safety": "re-checked Sep 2, 2026: priorities page has no crime/policing content",
-        "repro": "re-checked Sep 2, 2026: priorities page has no abortion content",
-        "democracy": "re-checked Sep 2, 2026: only 'support term limits and a ban on pardons for family and donors' and a stock-trading ban found, anti-corruption/ethics reform, does not map to the voting-access axis"
+        "immigration": "re-checked Sep 2, 2026: priorities page fetched in full again, no immigration content",
+        "climate": "re-checked Sep 2, 2026: priorities page fetched in full again, data-center moratorium mentioned only in passing, no dedicated energy/climate stance",
+        "education": "re-checked Sep 2, 2026: only a biographical 'as a math teacher' aside, no education policy platform",
+        "safety": "re-checked Sep 2, 2026: priorities page fetched in full again, no crime/policing content",
+        "repro": "re-checked Sep 2, 2026: priorities page fetched in full again, no abortion content",
+        "democracy": "re-checked Sep 2, 2026: priorities page fetched in full again, only anti-corruption content (balanced budget, term limits, stock-trading ban), not voting access"
       },
       "sources": [
         {
@@ -977,7 +989,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 1,
         "democracy": 2
@@ -1010,12 +1022,15 @@
         "repro": {
           "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "education": {
+          "label": "'These are your children, not the government's'; says 'education decisions are made at the state and local level, not dictated by a one-size-fits-all federal bureaucracy' and backs 'restoring control to states and local communities' (Brad Finstad house.gov education issues page)",
+          "url": "https://finstad.house.gov/issues/education"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before finstadforcongress.com issues content could be checked this round, prior Aug 29 dead end stands",
-        "housing": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before finstadforcongress.com could be checked this round, prior Aug 29 dead end stands",
-        "education": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before finstadforcongress.com could be checked this round, prior Aug 29 dead end stands"
+        "cost": "re-checked Sep 2, 2026: economy issues page blames 'reckless spending and failed economic policies' for inflation but states no specific policy mechanism of his own, does not cleanly fit the axis",
+        "housing": "re-checked Sep 2, 2026: economy issues page fetched in full, no housing content found"
       },
       "sources": [
         {
@@ -1087,12 +1102,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: ericprattmn.com Pratt Playbook section only has four generic priority headers with no dedicated issue pages found in fetched content",
-        "health": "re-checked Sep 2, 2026: same site check, no healthcare content found",
-        "housing": "re-checked Sep 2, 2026: same site check, no housing content found",
-        "climate": "re-checked Sep 2, 2026: same site check, no energy/climate content found",
-        "education": "re-checked Sep 2, 2026: same site check, no education content found",
-        "safety": "re-checked Sep 2, 2026: found 'supports law enforcement, first responders and policies that keep families safe,' but this is generic boilerplate support with no enforcement-vs-prevention mechanism, does not clear the bar for a score"
+        "cost": "re-checked Sep 2, 2026: homepage fetched in full again, only generic 'lowering costs' and 'restoring stability' language, no specific mechanism",
+        "health": "re-checked Sep 2, 2026: homepage fetched in full again, no healthcare content",
+        "housing": "re-checked Sep 2, 2026: homepage fetched in full again, no housing content",
+        "climate": "re-checked Sep 2, 2026: homepage fetched in full again, no climate content",
+        "education": "re-checked Sep 2, 2026: only a biographical note that his mother taught in Shakopee, no policy platform",
+        "safety": "re-checked Sep 2, 2026: still only the generic 'supports law enforcement... keep families safe' boilerplate with no specific policy"
       },
       "sources": [
         {
@@ -1164,11 +1179,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: key-issues page has a 'Fighting for Lower Prices' header but the text underneath is generic aspirational language ('prices are affordable, opportunities are accessible') with no stated mechanism, still too diffuse to score",
-        "housing": "re-checked Sep 2, 2026: key-issues page has no dedicated housing section",
-        "climate": "re-checked Sep 2, 2026: only 'Fighting to Regulate AI and Data Centers' found, about aquifer/farmland impact of data centers, not a clean-energy-transition or fossil-fuel position, does not fit the axis",
-        "education": "re-checked Sep 2, 2026: key-issues page has no dedicated education section",
-        "democracy": "re-checked Sep 2, 2026: only 'Fighting for Anti-Corruption Policies' (ending Citizens United and dark money) found, campaign-finance reform, does not map to the voting-access axis"
+        "cost": "re-checked Sep 2, 2026: key-issues page 'Fighting for Lower Prices' header still only generic aspirational language, no specific price mechanism",
+        "housing": "re-checked Sep 2, 2026: key-issues page and homepage checked, no housing section found",
+        "climate": "re-checked Sep 2, 2026: only the AI/data-center aquifer-impact item, not a general clean-energy position",
+        "education": "re-checked Sep 2, 2026: key-issues page and homepage checked, no education section found",
+        "democracy": "re-checked Sep 2, 2026: only 'ending Citizens United and dark money' anti-corruption language, not a voting-access position"
       },
       "sources": [
         {
@@ -1289,12 +1304,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -2,
         "housing": null,
         "immigration": -1,
         "taxes": null,
         "climate": -1,
-        "education": null,
+        "education": -2,
         "safety": -1,
         "repro": -1,
         "democracy": -1
@@ -1319,14 +1334,20 @@
         "safety": {
           "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "health": {
+          "label": "'I am a cosponsor of the Medicare for All Act' and proposed a constitutional amendment enshrining a fundamental right to health care (Betty McCollum house.gov healthcare issues page)",
+          "url": "https://mccollum.house.gov/issues/health-care"
+        },
+        "education": {
+          "label": "'Good public schools are the foundation of a strong democracy'; calls for 'robust federal funding to support equal educational opportunities in high-poverty schools' and reducing college tuition (Betty McCollum house.gov education issues page)",
+          "url": "https://mccollum.house.gov/issues/education"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: house.gov economy-jobs page found, only general language ('lower the costs of everything from health care to energy') with no specific price/wage mechanism, plus a clear anti-tariff statement that does not fit the cost axis as defined (tariffs are not one of the axis's two poles)",
-        "health": "re-checked Sep 2, 2026: no separate healthcare statement found beyond the general economy language above; her no vote on H.R.1 (roll 190) does not establish the health axis alone per the rollbook rule",
-        "housing": "re-checked Sep 2, 2026: house.gov economy-jobs page checked, no housing-specific content found",
-        "taxes": "re-checked Sep 2, 2026: no vote recorded favoring H.R.1 (roll 190, voted no), a no vote alone does not establish the taxes axis per the rollbook rule, no separate statement found",
-        "education": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before her education issues subpage could be checked this round"
+        "cost": "re-checked Sep 2, 2026: economy-jobs issues page only has the general 'lower the costs of everything from health care to energy' line, no specific mechanism",
+        "housing": "re-checked Sep 2, 2026: economy-jobs issues page has no housing-specific content",
+        "taxes": "re-checked Sep 2, 2026: economy-jobs issues page has no tax-rate content; her no vote on H.R.1 (roll 190) does not establish the axis alone per the rollbook rule"
       },
       "sources": [
         {
@@ -1394,11 +1415,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: wikstromforcongress.com Solutions page is a 7-point government-fraud plan with no cost/pricing content beyond the general 'put more money in your pocket' affordability line already scored",
-        "housing": "re-checked Sep 2, 2026: same Solutions page review, no housing content found",
-        "immigration": "re-checked Sep 2, 2026: same Solutions page review, no immigration content found",
-        "safety": "re-checked Sep 2, 2026: same Solutions page review, no crime/policing content found",
-        "repro": "re-checked Sep 2, 2026: same Solutions page review, no abortion content found",
+        "cost": "re-checked Sep 2, 2026: /about page fetched directly, only biography and critique of Betty McCollum, no cost content",
+        "housing": "re-checked Sep 2, 2026: same /about page, no housing content",
+        "immigration": "re-checked Sep 2, 2026: same /about page, no immigration content",
+        "safety": "re-checked Sep 2, 2026: same /about page, no crime/policing content",
+        "repro": "re-checked Sep 2, 2026: same /about page, no abortion content",
         "democracy": "re-checked Sep 2, 2026: site mentions he personally 'challenged a fraudulent DFL candidate' and 'stopped election fraud' in a 2024 House District 40B matter, but this is a personal anecdote about one contested race, not a stated voting-access-versus-restriction policy position"
       },
       "sources": [
@@ -1705,11 +1726,11 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: issues page checked, no dedicated cost-of-living content found",
-        "housing": "re-checked Sep 2, 2026: same issues page, no housing content found",
+        "cost": "re-checked Sep 2, 2026: issues page fetched directly again, lists 14-15 issue headers but the cost-of-living, housing, education, and safety topics are not among the built-out sections yet ('this page will continue to grow')",
+        "housing": "re-checked Sep 2, 2026: same finding",
         "climate": "re-checked Sep 2, 2026: found 'Climate change is real, and we as a nation need to acknowledge our outsized role in contributing to global warming,' but this only acknowledges the problem with no stated clean-energy-transition or fossil-fuel mechanism, insufficient to score",
-        "education": "re-checked Sep 2, 2026: same issues page, no education content found",
-        "safety": "re-checked Sep 2, 2026: same issues page, no crime/policing content found",
+        "education": "re-checked Sep 2, 2026: same finding",
+        "safety": "re-checked Sep 2, 2026: same finding",
         "democracy": "re-checked Sep 2, 2026: voting rights mentioned only in the site's meta description with no substantive issues-page section, insufficient to score"
       },
       "sources": [
@@ -1868,10 +1889,10 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: full priorities page list checked, cost of living not covered as its own priority beyond the housing/healthcare/education/agriculture pages already reviewed",
-        "immigration": "re-checked Sep 2, 2026: full priorities page list checked (14 priority pages), immigration is not one of them",
-        "taxes": "re-checked Sep 2, 2026: the 'Fighting Fraud & Waste in Government' priority page is about spending oversight and fraud prevention, not a tax-rate position, does not fit the taxes axis",
-        "safety": "re-checked Sep 2, 2026: the 'With Liberty and Justice for All' priority page addresses civil-rights/equal-protection themes only, no crime/policing/enforcement content found"
+        "cost": "re-checked Sep 2, 2026: priorities page fetched directly again, 'lowering costs' referenced only generically, no dedicated cost priority page",
+        "immigration": "re-checked Sep 2, 2026: priorities page fetched directly again, immigration not among the listed priorities",
+        "taxes": "re-checked Sep 2, 2026: the 'Fighting Fraud & Waste in Government' priority remains about spending oversight, not a tax-rate position",
+        "safety": "re-checked Sep 2, 2026: priorities page fetched directly again, no crime/policing priority found"
       },
       "sources": [
         {
@@ -1915,7 +1936,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
-        "education": null,
+        "education": -1,
         "safety": 1,
         "repro": 1,
         "democracy": 2
@@ -1948,12 +1969,15 @@
         "repro": {
           "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "education": {
+          "label": "Op-ed states 'the federal government is not meeting its funding obligation to Minnesota's students who need special education services' and co-introduced bipartisan amendments to increase IDEA state grants (Pete Stauber house.gov education issues page)",
+          "url": "https://stauber.house.gov/issues/education"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before stauber.house.gov issues page could be checked this round, prior Aug 29 dead end stands",
-        "housing": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before stauber.house.gov could be checked this round, prior Aug 29 dead end stands",
-        "education": "re-checked Sep 2, 2026: WebFetch proxy rate-limited before stauber.house.gov could be checked this round, prior Aug 29 dead end stands"
+        "cost": "re-checked Sep 2, 2026: economy issues page fetched, the only inflation content is a bill adding CBO inflation forecasts to Social Security reports, not a direct cost/price policy",
+        "housing": "re-checked Sep 2, 2026: economy issues page fetched in full, no housing content found"
       },
       "sources": [
         {
@@ -1991,8 +2015,8 @@
         "Invest in safe neighborhoods, strong schools, and local infrastructure"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -2,
         "housing": null,
         "immigration": 1,
         "taxes": null,
@@ -2003,14 +2027,12 @@
         "democracy": null
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: priorities page reviewed, affordability section only names health care, housing, energy, and everyday life as goals with no specific mechanism, still too diffuse",
-        "health": "re-checked Sep 2, 2026: same priorities page, healthcare section covers rural access and affordability generally, no public-vs-private-role mechanism stated",
-        "housing": "re-checked Sep 2, 2026: same priorities page, no distinct housing mechanism beyond the affordability list",
-        "taxes": "re-checked Sep 2, 2026: found opposition to tax breaks on overtime and to corporate tax avoidance in the affordability section, but no general tax-rate position stated, does not clear the bar",
-        "climate": "re-checked Sep 2, 2026: mining section discusses clean-energy grid development and renewable jobs indirectly but has no direct climate/energy-transition statement",
-        "education": "re-checked Sep 2, 2026: mentions special-education and early-childhood funding only in passing, no dedicated education section",
-        "safety": "re-checked Sep 2, 2026: no crime/policing content found; immigration section references human trafficking and Missing and Murdered Indigenous Women, not a general safety position",
-        "democracy": "re-checked Sep 2, 2026: no voting/elections section found on the priorities page"
+        "housing": "re-checked Sep 2, 2026: priorities page mentions housing only as a rising-cost item, no distinct policy mechanism",
+        "taxes": "re-checked Sep 2, 2026: only a brief CEO-bonus reference, no general tax-rate position",
+        "climate": "re-checked Sep 2, 2026: /environment subpage returned 404; priorities page limits climate content to clean-energy job creation in passing",
+        "education": "re-checked Sep 2, 2026: priorities page mentions infrastructure investment only, no education-specific platform",
+        "safety": "re-checked Sep 2, 2026: priorities page only references human trafficking/MMIWC, not general crime/policing",
+        "democracy": "re-checked Sep 2, 2026: priorities page has no voting/elections content"
       },
       "sources": [
         {
@@ -2031,6 +2053,14 @@
         "repro": {
           "label": "'Healthcare decisions should be made between patients and their providers, not by judges and politicians' (Trina Swanson for Congress campaign site)",
           "url": "https://trinaforcongress.com/priorities/"
+        },
+        "cost": {
+          "label": "Priorities page emphasizes enforcing antitrust laws, investing in new industries, and 'livable wages' over overtime dependency (Trina Swanson for Congress priorities)",
+          "url": "https://trinaforcongress.com/priorities"
+        },
+        "health": {
+          "label": "'Affordable and accessible healthcare should not depend on your job, your ZIP code, or your age,' backing universal healthcare and prescription price controls (Trina Swanson for Congress priorities)",
+          "url": "https://trinaforcongress.com/priorities"
         }
       }
     }

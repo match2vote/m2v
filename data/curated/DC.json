@@ -50,12 +50,12 @@
       "positions": {
         "cost": -1,
         "health": null,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
         "taxes": null,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": 0,
         "repro": null,
         "democracy": -1
       },
@@ -79,6 +79,14 @@
         "democracy": {
           "label": "Calls DC statehood, two senators and a voting House member 'how we save democracy' when 'they are trying to steal votes, when they are trying to suppress the votes' (WJLA)",
           "url": "https://wjla.com/news/elections/robert-white-primary-win-projected-history-delegate-dc-washington-council-member-history-brooke-pinto-statehood-independent-congress-holmes-norton-housing-groceries-childcare-elections"
+        },
+        "housing": {
+          "label": "His 'D.C. Forward Economic Plan aims to bring federal resources into the city to make housing more affordable' (joinrobertwhite.com)",
+          "url": "https://www.joinrobertwhite.com"
+        },
+        "safety": {
+          "label": "Says he 'believes in balancing accountability with prevention,' investing in youth programs 'that prevent crime before it starts, while making sure there are meaningful consequences for serious offenses' (joinrobertwhite.com)",
+          "url": "https://www.joinrobertwhite.com"
         }
       },
       "controversies": [
@@ -107,11 +115,9 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org/Robert_White_(District_of_Columbia_politician) robots-blocked, robertwhitedc.com fetch rate-limited on repeated attempts, no source reachable this pass",
-        "taxes": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia robots-blocked, campaign site rate-limited, no source reachable this pass",
-        "repro": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia robots-blocked, campaign site rate-limited, no source reachable this pass",
-        "housing": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia robots-blocked, campaign site rate-limited, no source reachable this pass",
-        "safety": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia robots-blocked, campaign site rate-limited, no source reachable this pass"
+        "health": "re-checked Sep 2, 2026: found correct campaign site via politics1.com/dc.htm (joinrobertwhite.com; the previously tried robertwhitedc.com is an unrelated chiropractor's site, a namesake mismatch); no healthcare-specific policy text found beyond a generic 'accessible healthcare' laundry-list mention",
+        "taxes": "re-checked Sep 2, 2026: joinrobertwhite.com checked in full, no corporate/high-earner tax-rate content found",
+        "repro": "re-checked Sep 2, 2026: joinrobertwhite.com checked in full, no abortion statement found"
       }
     },
     {
@@ -174,13 +180,13 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org/Denise_Rosado confirms no completed Candidate Connection survey, still only downtown-revitalization/AI-hub framing with no price mechanism",
-        "health": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia confirms no completed Candidate Connection survey, nothing documented",
-        "immigration": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia confirms no completed Candidate Connection survey, nothing documented",
+        "cost": "re-checked Sep 2, 2026: politics1.com/dc.htm lists only her Instagram (instagram.com/rosadoforcongress/) as a campaign link, not fetchable; Ballotpedia confirms no completed Candidate Connection survey",
+        "health": "re-checked Sep 2, 2026: same Instagram-only limitation",
+        "immigration": "re-checked Sep 2, 2026: same Instagram-only limitation",
         "taxes": "her signature 'No Taxation Without Representation' plan (exempt DC residents from federal income tax like Puerto Rico and Guam) is a representation protest, not a raise-versus-cut position, so it does not fit this axis",
-        "climate": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia confirms no completed Candidate Connection survey, nothing documented",
-        "education": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia confirms no completed Candidate Connection survey, homepage 'better outcomes for our schools' still has no public-versus-choice mechanism",
-        "repro": "re-checked Sep 2, 2026: fresh round attempted, Ballotpedia confirms no completed Candidate Connection survey, nothing documented"
+        "climate": "re-checked Sep 2, 2026: same Instagram-only limitation",
+        "education": "re-checked Sep 2, 2026: same Instagram-only limitation, homepage 'better outcomes' language still too generic",
+        "repro": "re-checked Sep 2, 2026: same Instagram-only limitation"
       }
     },
     {
@@ -243,13 +249,13 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked; the only cost-adjacent line ('no one should have to pay more than 30% of their income, plus utilities, in housing') is a housing-burden standard, not a general cost-of-living mechanism, and housing is already sourced separately",
-        "health": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked, no healthcare position stated",
-        "immigration": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked, no immigration position stated",
+        "cost": "re-checked Sep 2, 2026: politics1.com/dc.htm lists only his Twitter/X (twitter.com/guerillartist) as a campaign link, not fetchable; Ballotpedia Candidate Connection survey re-checked, no new price/wage mechanism beyond the previously noted DC-tax-fairness line",
+        "health": "re-checked Sep 2, 2026: same Twitter-only limitation, Ballotpedia survey has no healthcare position stated",
+        "immigration": "re-checked Sep 2, 2026: same Twitter-only limitation, Ballotpedia survey has no immigration position stated",
         "taxes": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked; his 'DC should not pay federal income taxes absent statehood' stance is representation-based tax resistance, still does not fit the raise-versus-cut corporate/high-earner axis",
-        "climate": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked, no climate/energy position stated",
-        "education": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked; he lists 'Health, Housing, Education and Public Safety' as priority areas with no education mechanism stated",
-        "repro": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey re-checked, no abortion position stated"
+        "climate": "re-checked Sep 2, 2026: same Twitter-only limitation, Ballotpedia survey has no climate/energy position stated",
+        "education": "re-checked Sep 2, 2026: same Twitter-only limitation, Ballotpedia survey lists 'Health, Housing, Education and Public Safety' as priorities with no education-specific direction",
+        "repro": "re-checked Sep 2, 2026: same Twitter-only limitation, Ballotpedia survey has no abortion position stated"
       }
     },
     {
@@ -285,16 +291,16 @@
       "curatedAt": "2026-08-13",
       "nullNotes": {
         "all": "all 10 axes null: web searches and the DCBOE candidate list turned up no campaign site, platform, or press coverage documenting any policy position; re-checked Aug 28, 2026: not mentioned in the City Cast DC delegate voter guide (did not answer its questionnaire), absent from Ballotpedia's race page and from August general-election coverage of the race; still nothing documented",
-        "cost": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org/David_Solana robots-blocked, no campaign site or news coverage found",
-        "health": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "housing": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "immigration": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "taxes": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "climate": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "education": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "safety": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "repro": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found",
-        "democracy": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no campaign site or news coverage found"
+        "cost": "re-checked Sep 2, 2026: politics1.com/dc.htm confirms no campaign website listed for David Solana among the Delegate candidates, ballotpedia.org/David_Solana robots-blocked, no source found",
+        "health": "re-checked Sep 2, 2026: same absence, no source found",
+        "housing": "re-checked Sep 2, 2026: same absence, no source found",
+        "immigration": "re-checked Sep 2, 2026: same absence, no source found",
+        "taxes": "re-checked Sep 2, 2026: same absence, no source found",
+        "climate": "re-checked Sep 2, 2026: same absence, no source found",
+        "education": "re-checked Sep 2, 2026: same absence, no source found",
+        "safety": "re-checked Sep 2, 2026: same absence, no source found",
+        "repro": "re-checked Sep 2, 2026: same absence, no source found",
+        "democracy": "re-checked Sep 2, 2026: same absence, no source found"
       }
     },
     {
@@ -437,14 +443,14 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org/Robert_Gross_(District_of_Columbia) robots-blocked, dcnewsnow.com search and dcist.com direct guess both failed, no campaign site found",
-        "health": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "immigration": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "taxes": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "education": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "safety": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "repro": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found",
-        "democracy": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found; Statehood Green Party membership still not a personal, fetched statement"
+        "cost": "re-checked Sep 2, 2026: found working campaign site via politics1.com/dc.htm (grossformayor.com) but the fetch hit a sustained WebFetch proxy rate limit (429) across multiple retries and multiple unrelated domains this round, could not be read; worth a future retry",
+        "health": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "immigration": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "taxes": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "education": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "safety": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "repro": "re-checked Sep 2, 2026: same rate-limit blocker",
+        "democracy": "re-checked Sep 2, 2026: same rate-limit blocker; Statehood Green Party membership alone still not usable per the sourcing rules"
       }
     },
     {
@@ -466,7 +472,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": -1,
         "immigration": -1,
         "taxes": null,
@@ -488,6 +494,10 @@
         "safety": {
           "label": "Mixed: supports law enforcement 'while ensuring accountability and transparency' and wants to repair 'strained community-police relationships' (DC News Now via AOL)",
           "url": "https://www.aol.com/articles/meet-2026-mayoral-candidates-rhonda-150029000.html"
+        },
+        "health": {
+          "label": "Pledges to 'work to reverse the challenges across DC's healthcare systems to assure access to comprehensive care models' and invest in preventative practices (rhondahamilton4dc.com)",
+          "url": "https://rhondahamilton4dc.com"
         }
       },
       "sources": [
@@ -506,13 +516,12 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org/Rhonda_Hamilton robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, no campaign site found, still no price-intervention versus deregulation position documented",
-        "health": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, no new source found beyond the prior behavioral-health-integration mention which does not map to the public-versus-private axis",
-        "taxes": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, still undocumented",
-        "climate": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, still undocumented",
-        "education": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, still no public-versus-choice mechanism documented",
-        "repro": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, still undocumented",
-        "democracy": "re-checked Sep 2, 2026: fresh round attempted, ballotpedia.org robots-blocked, washingtoninformer.com and dcnewsnow.com searches returned nothing, still no voting-access or statehood position documented"
+        "cost": "re-checked Sep 2, 2026: found working campaign site via politics1.com/dc.htm (rhondahamilton4dc.com); site covers housing stability, healthcare, public safety, budget transparency, small business, and youth investment, but no cost-of-living/price statement",
+        "taxes": "re-checked Sep 2, 2026: same fresh site fetch, budget-reform language ('engage stakeholders in budget discussions... responsible fund allocation') is process language, not a tax-rate direction",
+        "climate": "re-checked Sep 2, 2026: same fresh site fetch, no climate/energy statement found",
+        "education": "re-checked Sep 2, 2026: same fresh site fetch, youth-investment language mentions 'access to quality education' generically with no public-funding-vs-choice direction; dedicated education-policy subpage not yet reached due to a WebFetch rate limit this round",
+        "repro": "re-checked Sep 2, 2026: same fresh site fetch, no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: same fresh site fetch, 'bridge divides around democracy, social stability' is a unity/civic-cohesion mention, not a voting-access-vs-safeguards statement"
       }
     }
   ]

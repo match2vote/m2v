@@ -132,16 +132,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site (jessewest2026.com) remains JavaScript-rendered with no fetchable text; a Ballotpedia retry this pass was rate-limited before completing (re-checked Sep 2, 2026)",
-        "health": "Same as above (re-checked Sep 2, 2026)",
-        "housing": "Same as above (re-checked Sep 2, 2026)",
-        "immigration": "Same as above (re-checked Sep 2, 2026)",
-        "taxes": "Same as above (re-checked Sep 2, 2026)",
-        "climate": "Same as above (re-checked Sep 2, 2026)",
-        "education": "Same as above (re-checked Sep 2, 2026)",
-        "safety": "Same as above (re-checked Sep 2, 2026)",
-        "repro": "Same as above (re-checked Sep 2, 2026)",
-        "democracy": "Same as above (re-checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: jessewest2026.com remains JavaScript-rendered with no fetchable policy text; Ballotpedia confirms Jesse West has not completed a Candidate Connection survey",
+        "health": "re-checked Sep 2, 2026: same as above",
+        "housing": "re-checked Sep 2, 2026: same as above",
+        "immigration": "re-checked Sep 2, 2026: same as above",
+        "taxes": "re-checked Sep 2, 2026: same as above",
+        "climate": "re-checked Sep 2, 2026: same as above",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {
@@ -542,11 +542,11 @@
         }
       },
       "nullNotes": {
-        "climate": "Campaign site's Core 4 platform (affordability, healthcare, jobs/AI, corruption) does not address climate (re-checked Sep 2, 2026)",
-        "education": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "safety": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "repro": "Not addressed on campaign site (re-checked Sep 2, 2026)",
-        "democracy": "Site mentions opposing mandatory online ID verification and First Amendment rights generally, not a voting-access position (re-checked Sep 2, 2026)"
+        "climate": "re-checked Sep 2, 2026: hooslynforhouse.com Core Policies subpage fetched fresh, platform is limited to Affordability, Healthcare, Jobs and AI, and Corruption; climate not addressed",
+        "education": "re-checked Sep 2, 2026: same as above, education not addressed",
+        "safety": "re-checked Sep 2, 2026: same as above, public safety not addressed",
+        "repro": "re-checked Sep 2, 2026: same as above, abortion not addressed",
+        "democracy": "re-checked Sep 2, 2026: same as above; site mentions opposing mandatory online ID verification, a First Amendment/tech-regulation position, not a voting-access position"
       },
       "sources": [
         {
@@ -1391,12 +1391,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "Not addressed on campaign homepage; a linked commitment subpage could not be fetched this pass (rate-limited) (re-checked Sep 2, 2026)",
-        "climate": "Not addressed on campaign homepage (re-checked Sep 2, 2026)",
-        "education": "Not addressed on campaign homepage (re-checked Sep 2, 2026)",
-        "safety": "Not addressed on campaign homepage (re-checked Sep 2, 2026)",
-        "repro": "Not addressed on campaign homepage (re-checked Sep 2, 2026)",
-        "democracy": "Not addressed on campaign homepage (re-checked Sep 2, 2026)"
+        "immigration": "re-checked Sep 2, 2026: jonnyutah4congress.com/commitments redirect now resolves and fetches, but the page content is a JavaScript app shell with meta-keywords only (immigration reform listed as a keyword, no stated policy); homepage still focuses on healthcare, housing, and cost of living",
+        "climate": "re-checked Sep 2, 2026: same JavaScript-rendering limitation on /commitments and /the-commitment",
+        "education": "re-checked Sep 2, 2026: same as above",
+        "safety": "re-checked Sep 2, 2026: same as above",
+        "repro": "re-checked Sep 2, 2026: same as above",
+        "democracy": "re-checked Sep 2, 2026: same as above"
       },
       "sources": [
         {

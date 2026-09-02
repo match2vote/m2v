@@ -418,10 +418,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: bernadetteforgovernor.com/on-the-issues page addresses only Education (Educational Savings Accounts) and the Permanent Fund Dividend, no immigration statement found",
+        "immigration": "re-checked Sep 2, 2026: bernadetteforgovernor.com/on-the-issues re-fetched, Ballotpedia confirms no completed 2026 Candidate Connection survey, alaskabeacon.com search 403-blocked, nothing new found",
         "safety": "re-checked Sep 2, 2026: same page scope, no policing or sentencing statement beyond the previously logged homelessness quote",
-        "repro": "re-checked Sep 2, 2026: same page scope, no abortion statement found; still no completed Ballotpedia Candidate Connection survey",
-        "democracy": "re-checked Sep 2, 2026: same page scope, no voting or elections statement found beyond the previously logged ranked-choice-voting repeal position, which is a ballot-structure position not this axis"
+        "repro": "re-checked Sep 2, 2026: same page scope, no abortion statement found; Ballotpedia confirms no survey",
+        "democracy": "re-checked Sep 2, 2026: same page scope, no new voting or elections statement found beyond the previously logged ranked-choice-voting repeal position"
       },
       "curatedAt": "2026-09-02"
     },
@@ -464,16 +464,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign platform exists; he is incarcerated with no apparent Alaska campaign infrastructure. Checked Alaska Public Media, Alaska Beacon, Vice and Newsweek coverage of his 2024 and 2026 candidacies for any stated positions (checked Sep 2, 2026).",
-        "health": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "housing": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "immigration": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "taxes": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "climate": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "education": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "safety": "Same hunt as above, no statement found (checked Sep 2, 2026); note his own 2022 guilty plea was for making threats, not a policy position.",
-        "repro": "Same hunt as above, no statement found (checked Sep 2, 2026).",
-        "democracy": "Same hunt as above, no statement found (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: politics1.com/ak.htm confirms no campaign website listed for Eric Hafner (incarcerated, no Alaska campaign infrastructure), nothing new found",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "curatedAt": "2026-09-02"
     },
@@ -528,15 +528,15 @@
         }
       },
       "nullNotes": {
-        "cost": "No economic platform found; he has not responded to press outreach and has no active campaign website found. Checked Ballotpedia, BallotReady, the Midterm Project, OppIntell and Alaska Public Media's Aug 14, 2026 coverage of super PAC spending in his favor (checked Sep 2, 2026).",
-        "health": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "housing": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "immigration": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "taxes": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "climate": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "education": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "safety": "No statement found; same hunt as cost (checked Sep 2, 2026).",
-        "democracy": "On ranked choice voting he said 'I don't rank anybody. It's a one-shot deal,' which is opposition to Alaska's RCV ballot format, not the axis's voter ID/registration/mail-voting framing, so it is not scored here (the-downballot.com, checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: politics1.com/ak.htm confirms no campaign website listed for Jerry/Gerald Heikes, no economic platform found",
+        "health": "re-checked Sep 2, 2026: same no-website limitation",
+        "housing": "re-checked Sep 2, 2026: same no-website limitation",
+        "immigration": "re-checked Sep 2, 2026: same no-website limitation",
+        "taxes": "re-checked Sep 2, 2026: same no-website limitation",
+        "climate": "re-checked Sep 2, 2026: same no-website limitation",
+        "education": "re-checked Sep 2, 2026: same no-website limitation",
+        "safety": "re-checked Sep 2, 2026: same no-website limitation",
+        "democracy": "re-checked Sep 2, 2026: same no-website limitation beyond the previously logged RCV opposition quote"
       },
       "curatedAt": "2026-09-02"
     },
@@ -561,7 +561,7 @@
       "positions": {
         "cost": null,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": null,
         "taxes": 2,
         "climate": 2,
@@ -586,15 +586,18 @@
         "safety": {
           "label": "As mayor, prioritized increasing police officers and pledged to 'intensify police presence in areas most impacted by increased crime,' opposing efforts to defund police (Ballotpedia, 2021 mayoral platform)",
           "url": "https://ballotpedia.org/David_Bronson"
+        },
+        "housing": {
+          "label": "Policy platform pledges to 'secure control of Alaska's land and put it to work for families, ensuring housing is attainable and communities can grow' (davebronson.com policies page)",
+          "url": "https://www.davebronson.com/policies"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: davebronson.com homepage states 'too many Alaskans are leaving due to unaffordable housing, failing school systems, and skyrocketing costs' but names no price-control or deregulation mechanism, not scorable",
+        "cost": "re-checked Sep 2, 2026: davebronson.com/policies lists document titles (Zero-Based Budgeting, Stabilized Revenue Budgeting) without full text reachable; homepage cost-of-living line remains diagnostic only",
         "health": "re-checked Sep 2, 2026: same homepage, no healthcare policy statement found",
-        "housing": "re-checked Sep 2, 2026: same homepage, housing named only as a cost-of-living problem with no build/zoning or subsidy mechanism stated",
-        "immigration": "re-checked Sep 2, 2026: same homepage, no immigration statement found",
-        "repro": "re-checked Sep 2, 2026: same homepage, no abortion statement found; still no completed Ballotpedia Candidate Connection survey",
-        "democracy": "re-checked Sep 2, 2026: same homepage, no voting or elections statement found"
+        "immigration": "re-checked Sep 2, 2026: davebronson.com homepage and /policies checked, no immigration statement found",
+        "repro": "re-checked Sep 2, 2026: davebronson.com homepage and /policies checked, no abortion statement found; still no completed Ballotpedia Candidate Connection survey",
+        "democracy": "re-checked Sep 2, 2026: site links a document 'Alaska Election Reform: Restoring Trust and Security' at davebronson.com/s/Alaska-Election-Reform-Restoring-Trust-and-Security.pdf but the PDF returned a 429 error on three attempts (with 75-80s waits) and could not be read"
       },
       "sources": [
         {
@@ -640,16 +643,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No policy statement found; her only public quote frames government efficiency generally ('Juneau politicians have spent too much time making excuses ... we need to waste less, produce more'), not a specific cost of living position. Checked Alaska's News Source, Alaska Beacon and ADN coverage of her elevation to the ticket (checked Sep 2, 2026).",
-        "health": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "housing": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "immigration": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "taxes": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "climate": "No statement found beyond her North Slope oil industry career; no policy position stated. Checked Alaska's News Source, Alaska Beacon and ADN (checked Sep 2, 2026).",
-        "education": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "safety": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "repro": "No statement found; checked the same coverage (checked Sep 2, 2026).",
-        "democracy": "No statement found; checked the same coverage (checked Sep 2, 2026). A Sep 1 2026 Alaska's News Source report and a Sep 1 dermotcole.com item both describe her as unlikely to run an active campaign, which is consistent with the lack of any issued platform."
+        "cost": "re-checked Sep 2, 2026: politics1.com/ak.htm lists tregforak.com as her campaign site, but that domain is actually Treg Taylor's gubernatorial campaign, a mismatched link, not usable; no other campaign site found",
+        "health": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "housing": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "immigration": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "taxes": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "climate": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "education": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "safety": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "repro": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
+        "democracy": "re-checked Sep 2, 2026: same mismatched-link issue, no source found"
       },
       "sources": [
         {
@@ -854,26 +857,33 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "immigration": {
+          "label": "Says he believes 'we ought to allow for a more free flow of immigration (work-visa) for those who can find work & contribute to our society' (mcdermott4congress4alaska.com)",
+          "url": "https://www.mcdermott4congress4alaska.com/"
+        },
+        "safety": {
+          "label": "Says 'let's help law breakers through rehabilitation programs, and not allow the worst of the worst to prey over other inmates' (mcdermott4congress4alaska.com)",
+          "url": "https://www.mcdermott4congress4alaska.com/"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: jamesmcdermott.org states opposition to Canada tariffs as 'a direct tax on Alaska consumers', but per the rollbook tariff resolutions do not cleanly map to the cost axis, not scored",
-        "health": "re-checked Sep 2, 2026: same site, no healthcare statement found",
-        "housing": "re-checked Sep 2, 2026: same site, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: same site, no immigration statement found",
-        "taxes": "re-checked Sep 2, 2026: same tariff quote is framed as opposing a specific tariff, not a general tax-rate position, not scored",
-        "climate": "re-checked Sep 2, 2026: same site, no climate or energy statement found",
-        "education": "re-checked Sep 2, 2026: same site, no education statement found",
-        "safety": "re-checked Sep 2, 2026: same site, no policing or sentencing statement found",
-        "repro": "re-checked Sep 2, 2026: same site, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: same site, term limits and civil-liberties (Patriot Act, NDAA) statements do not map to voting-access or election-administration, not scored"
+        "health": "re-checked Sep 2, 2026: fetched mcdermott4congress4alaska.com (a different domain than jamesmcdermott.org, found via politics1.com), no healthcare statement found",
+        "housing": "re-checked Sep 2, 2026: same new-domain fetch, no housing statement found",
+        "taxes": "re-checked Sep 2, 2026: same new-domain fetch, no general tax-rate statement; only opposition to foreign aid spending and 'DC cronyism'",
+        "climate": "re-checked Sep 2, 2026: same new-domain fetch, no climate or energy statement found",
+        "education": "re-checked Sep 2, 2026: same new-domain fetch, no direct education policy stated beyond his educator background",
+        "repro": "re-checked Sep 2, 2026: same new-domain fetch, no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: same new-domain fetch, no voting or elections statement found"
       },
       "sources": [
         {
@@ -909,7 +919,7 @@
       "positions": {
         "cost": null,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 1,
         "climate": 2,
@@ -942,13 +952,16 @@
         "repro": {
           "label": "Voted yes on cloture for S.6, the Born-Alive Abortion Survivors Protection Act (senate.gov roll vote 11, Jan 22, 2025)",
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00011.htm"
+        },
+        "housing": {
+          "label": "Welcomed Senate passage of the 21st Century ROAD to Housing Act as 'streamlining burdensome federal red tape' and 'increasing homeownership opportunities for Americans' (sullivan.senate.gov press release, Jun 23, 2026)",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-welcomes-senate-passage-of-21st-century-road-to-housing-act-including-provisions-for-alaska-june"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: sullivan.senate.gov press release (Aug 7, 2026) announces $10M in federal energy-cost-relief funding for low-income Alaskans, but it is a targeted appropriation credit-claim rather than a stated general price or wage policy, not scorable per the guide's earmark rule",
-        "health": "re-checked Sep 2, 2026: Ballotpedia quote calling affordable healthcare 'extremely important' states no public-vs-private direction, sullivan.senate.gov homepage has no elaborated healthcare statement",
-        "housing": "re-checked Sep 2, 2026: sullivan.senate.gov homepage and issues page (410 error) have no housing statement",
-        "education": "re-checked Sep 2, 2026: sullivan.senate.gov homepage has no K-12 education statement"
+        "health": "re-checked Sep 2, 2026: sullivan.senate.gov press-release search for 'Medicaid' and 'health care' returned no healthcare-policy releases; site's issues page 410s",
+        "education": "re-checked Sep 2, 2026: sullivan.senate.gov press-release search for 'education' returned no K-12 education releases"
       },
       "sources": [
         {

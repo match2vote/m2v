@@ -487,29 +487,48 @@
       "background": "Criminal justice reform nonprofit executive and advocate for incarcerated and formerly incarcerated women and girls, per the Wikipedia 2026 Massachusetts gubernatorial election page.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
+        "cost": -2,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
         "taxes": null,
-        "climate": null,
-        "education": null,
+        "climate": -2,
+        "education": -2,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Platform proposes a '$25 Living Wage' and 'Universal Childcare,' saying 'for working people and families, it has never been harder to afford the basics' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        },
+        "health": {
+          "label": "Commits to 'Medicare for All in Massachusetts,' saying 'healthcare bills push families deeper into debt' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        },
+        "housing": {
+          "label": "Platform section 'Affordable Housing & Rent Stabilization' says 'rent keeps going up' and people are 'being priced out of the communities they've called home' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        },
+        "immigration": {
+          "label": "Platform's 'Defending Our Neighbors' section pledges to 'end State Cooperation with ICE & Protect Immigrant Families,' saying 'Massachusetts should not have contracts with ICE' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        },
+        "climate": {
+          "label": "Platform calls for a 'Rapid, Just Transition to 100% Clean Energy' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        },
+        "education": {
+          "label": "Platform pledges 'Equity in K-12 Education' and to 'Make UMass Free For All' (ajforma.com platform)",
+          "url": "https://www.ajforma.com/platform"
+        }
+      },
       "nullNotes": {
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "cost": "re-checked Sep 2, 2026: Ballotpedia still shows no completed 2026 Candidate Connection survey; page now also identifies her party affiliation as Democratic rather than Independent, worth a data check outside this pass's scope; no campaign website resolved",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation"
+        "repro": "checked Sep 2, 2026: same platform page fetch, no abortion statement found",
+        "taxes": "checked Sep 2, 2026: found working campaign site via politics1.com/ma.htm (ajforma.com), full platform page fetched, no corporate/high-earner tax-rate statement found",
+        "safety": "checked Sep 2, 2026: same platform page fetch, no policing/sentencing statement found",
+        "democracy": "checked Sep 2, 2026: voter-information page is civic how-to-vote guidance (deadlines, ID requirements, registration) not her own stated position on voting-access rules; no advocacy statement found"
       },
       "sources": [
         {
@@ -549,16 +568,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "cost": "re-checked Sep 2, 2026: Ballotpedia confirms no completed Candidate Connection survey and no campaign website listed; still no fetchable policy source",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation"
+        "repro": "re-checked Sep 2, 2026: same absence, no source found",
+        "taxes": "re-checked Sep 2, 2026: same absence, no source found",
+        "education": "re-checked Sep 2, 2026: same absence, no source found",
+        "safety": "re-checked Sep 2, 2026: same absence, no source found",
+        "democracy": "re-checked Sep 2, 2026: same absence, no source found",
+        "immigration": "re-checked Sep 2, 2026: same absence, no source found",
+        "cost": "re-checked Sep 2, 2026: politics1.com/ma.htm fetched fresh, this candidate does not appear in the directory at all; Ballotpedia confirms no completed Candidate Connection survey and no campaign website listed",
+        "housing": "re-checked Sep 2, 2026: same absence, no source found",
+        "health": "re-checked Sep 2, 2026: same absence, no source found",
+        "climate": "re-checked Sep 2, 2026: same absence, no source found"
       },
       "sources": [
         {
@@ -680,7 +699,7 @@
         "immigration": null,
         "taxes": -1,
         "climate": -1,
-        "education": null,
+        "education": 0,
         "safety": null,
         "repro": null,
         "democracy": null
@@ -697,16 +716,19 @@
         "climate": {
           "label": "\"I will work to uphold and strengthen America's commitment to public lands, environmental resilience, and climate-conscious policy\" (votemgd.com platform)",
           "url": "https://votemgd.com/"
+        },
+        "education": {
+          "label": "Platform says education 'must ensure it is accessible to all' and emphasizes 'investing in public schools, supporting private institutions, and expanding workforce development programs' (votemgd.com/issues)",
+          "url": "https://www.votemgd.com/issues/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: votemgd.com states 'affordability, health care access, government reform' as priorities with no specific price/wage/deregulation lever",
-        "housing": "re-checked Sep 2, 2026: not addressed on votemgd.com",
-        "immigration": "re-checked Sep 2, 2026: not addressed on votemgd.com",
-        "education": "re-checked Sep 2, 2026: platform still frames 'affordable education and workforce development' as college/workforce affordability, not a public-schools-vs-choice statement",
-        "safety": "re-checked Sep 2, 2026: not addressed on votemgd.com",
-        "repro": "re-checked Sep 2, 2026: not addressed on votemgd.com",
-        "democracy": "re-checked Sep 2, 2026: government-reform language ('no elected official should be allowed to personally profit from the legislation they influence,' insider-trading ban) is anti-corruption/ethics reform, not a voting-access-vs-safeguards position"
+        "cost": "re-checked Sep 2, 2026: votemgd.com/issues re-fetched, 'affordability' and 'American Dream' language remains generic with no specific price/wage/deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: votemgd.com/issues re-fetched, still not addressed",
+        "immigration": "re-checked Sep 2, 2026: votemgd.com/issues re-fetched; Budget/Debt section mentions 'modernized immigration policies' as a growth strategy with no pathway-vs-enforcement direction stated",
+        "safety": "re-checked Sep 2, 2026: votemgd.com/issues re-fetched, still not addressed",
+        "repro": "re-checked Sep 2, 2026: votemgd.com/issues re-fetched, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: votemgd.com re-fetched; 'campaign finance laws that ensure every voter has an equal voice, not just those with the deepest pockets' is campaign-finance reform, not a voting-access-vs-safeguards statement"
       },
       "sources": [
         {

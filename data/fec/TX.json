@@ -1,7 +1,7 @@
 {
   "state": "TX",
   "electionYear": 2026,
-  "syncedAt": "2026-09-01T11:43:01.448Z",
+  "syncedAt": "2026-09-02T11:23:42.915Z",
   "candidates": [
     {
       "id": "fec-H6TX01337",
@@ -420,38 +420,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6TX17135",
-      "fecId": "H6TX17135",
-      "name": "Robert Brown",
-      "party": "Republican",
-      "state": "TX",
-      "office": "us-house",
-      "district": "10",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6TX17135/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6TX17127",
       "fecId": "H6TX17127",
       "name": "Robert Brown",
@@ -478,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX17127/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TX17135",
+      "fecId": "H6TX17135",
+      "name": "Robert Brown",
+      "party": "Republican",
+      "state": "TX",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TX17135/"
         }
       ],
       "funding": null,

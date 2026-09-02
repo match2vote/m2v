@@ -1,7 +1,7 @@
 {
   "state": "ME",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T16:14:49.182Z",
+  "syncedAt": "2026-09-02T11:23:42.943Z",
   "candidates": [
     {
       "id": "fec-H8ME01120",
@@ -734,6 +734,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6ME00282/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6ME00456",
+      "fecId": "S6ME00456",
+      "name": "Shenna Bellows",
+      "party": "Democrat",
+      "state": "ME",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6ME00456/"
         }
       ],
       "funding": null,

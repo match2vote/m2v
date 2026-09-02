@@ -439,30 +439,36 @@
         "cost": null,
         "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "health": {
           "label": "'Healthcare should empower you, not control you. I believe in your rights to retain the ultimate control over your body, your medical decisions, and the healthcare of your children' (campaign site)",
           "url": "https://www.marysilvaforcongress.com/"
+        },
+        "immigration": {
+          "label": "Campaign issues page headline 'Secure Borders and High-Level Clearances' calls to fortify border security and overhaul high-level security clearance procedures to combat foreign espionage (Mary Silva for Congress)",
+          "url": "https://www.marysilvaforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "Calls to require voter ID to guarantee secure, transparent, and trustworthy elections (Mary Silva for Congress)",
+          "url": "https://www.marysilvaforcongress.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "Site says she opposes policies that 'enrich the few' and wants people to 'reap the rewards they have earned', but does not specify a price-control-vs-deregulation mechanism, too vague to score (checked Aug 29, 2026)",
-        "housing": "Housing is mentioned only within the same vague cost-of-living passage, no specific housing policy stated (checked Aug 29, 2026)",
-        "immigration": "No immigration statement found on campaign homepage (checked Aug 29, 2026)",
-        "taxes": "No tax statement found on campaign homepage (checked Aug 29, 2026)",
-        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
-        "education": "No education statement found on campaign homepage (checked Aug 29, 2026)",
-        "safety": "No policing/sentencing statement found on campaign homepage (checked Aug 29, 2026)",
-        "repro": "No abortion-specific statement found; the healthcare quote about 'control over your body' is framed as a general healthcare-autonomy statement, not an explicit abortion position, so it was not scored on this axis (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: issues page covers tech jobs, defense spending, and fiscal accountability generally, no price or wage mechanism stated",
+        "housing": "re-checked Sep 2, 2026: no housing statement on campaign issues page",
+        "taxes": "re-checked Sep 2, 2026: fiscal accountability mentioned generally with no tax-rate direction stated",
+        "climate": "re-checked Sep 2, 2026: no energy or climate statement on campaign issues page",
+        "education": "re-checked Sep 2, 2026: no education statement on campaign issues page",
+        "safety": "re-checked Sep 2, 2026: page discusses dismantling warrantless mass surveillance, a privacy and civil liberties issue that does not map to the policing or sentencing axis",
+        "repro": "re-checked Sep 2, 2026: healthcare quote about protecting individuals' medical decisions without government mandates is generic bodily-autonomy or vaccine-mandate language, not abortion-specific, left null"
       },
       "curatedAt": "2026-08-29"
     },
@@ -512,16 +518,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "health": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "housing": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "immigration": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "taxes": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "climate": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "education": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "safety": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "repro": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)",
-        "democracy": "Campaign site homepage and /issues page contain only generic taglines ('common sense, fiscal responsibility, accountable public safety'), no elaborated policy statement on this axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site (fellerforcongress.com) contains only a fiscal responsibility tagline, no elaborated policy statement",
+        "health": "re-checked Sep 2, 2026: same tagline-only content, no healthcare statement",
+        "housing": "re-checked Sep 2, 2026: same tagline-only content, no housing statement",
+        "immigration": "re-checked Sep 2, 2026: same tagline-only content, no immigration statement",
+        "taxes": "re-checked Sep 2, 2026: same tagline-only content, no tax statement",
+        "climate": "re-checked Sep 2, 2026: same tagline-only content, no climate statement",
+        "education": "re-checked Sep 2, 2026: same tagline-only content, no education statement",
+        "safety": "re-checked Sep 2, 2026: same tagline-only content beyond generic 'accountable public safety', no specific enforcement or prevention direction",
+        "repro": "re-checked Sep 2, 2026: same tagline-only content, no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: same tagline-only content, no voting or elections statement"
       },
       "curatedAt": "2026-08-29"
     },
@@ -570,16 +576,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No general price/wage statement found (checked Aug 29, 2026)",
-        "health": "Statement about the Insurance Commissioner's duty to protect residents and seek 'insurance for patients... and the health and happiness of everyone' is a generic mission statement from a past Insurance Commissioner run, not a specific ACA/Medicare/Medicaid direction (checked Aug 29, 2026)",
-        "housing": "No housing statement found (checked Aug 29, 2026)",
-        "immigration": "No immigration statement found (checked Aug 29, 2026)",
-        "taxes": "No tax-rate statement found (checked Aug 29, 2026)",
-        "climate": "No energy/climate statement found (checked Aug 29, 2026)",
-        "education": "No education statement found (checked Aug 29, 2026)",
-        "safety": "No policing/sentencing statement found (checked Aug 29, 2026)",
-        "repro": "No abortion statement found (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia and politics1.com confirm no campaign website exists for Chung, only a generic Insurance Commissioner duty quote is documented and it is too generic to place on any axis",
+        "health": "re-checked Sep 2, 2026: same Insurance Commissioner duty quote already deemed too generic to place on this axis",
+        "housing": "re-checked Sep 2, 2026: no source found",
+        "immigration": "re-checked Sep 2, 2026: no source found",
+        "taxes": "re-checked Sep 2, 2026: no source found",
+        "climate": "re-checked Sep 2, 2026: no source found",
+        "education": "re-checked Sep 2, 2026: no source found",
+        "safety": "re-checked Sep 2, 2026: no source found",
+        "repro": "re-checked Sep 2, 2026: no source found",
+        "democracy": "re-checked Sep 2, 2026: no source found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -800,16 +806,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "health": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "housing": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "immigration": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "taxes": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "climate": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "education": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "safety": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "repro": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)",
-        "democracy": "Ballotpedia profile robots-blocked on repeated attempts; campaign sites (mckinneyforcongress.com, amandaforcongress.com) returned no readable policy content (likely JS-rendered); Wikipedia entry has campaign-finance and endorsement detail but no stated positions (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: tried mckinneyforwashington.com (robots or rate blocked), mckinneyforcongress.com and amandaforcongress.com (previously unreachable), Ballotpedia profile robots-blocked on repeated attempts",
+        "health": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "housing": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "immigration": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "taxes": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "climate": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "education": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "safety": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "repro": "re-checked Sep 2, 2026: same hunt as cost, no source reachable",
+        "democracy": "re-checked Sep 2, 2026: same hunt as cost, no source reachable"
       },
       "sources": [
         {
@@ -873,12 +879,12 @@
         }
       },
       "nullNotes": {
-        "housing": "Housing mentioned only within the general cost-of-living passage, no distinct housing policy stated (checked Aug 29, 2026)",
-        "climate": "No energy/climate statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "education": "No education statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "safety": "No policing/sentencing statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "repro": "No abortion statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found on Ballotpedia profile (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey confirmed to cover only affordability and economic fairness, healthcare and rural hospitals, immigration reform, tax reform, ethics reform, and veterans affairs, housing not addressed",
+        "climate": "re-checked Sep 2, 2026: same survey scope, climate or energy not addressed",
+        "education": "re-checked Sep 2, 2026: same survey scope, education not addressed",
+        "safety": "re-checked Sep 2, 2026: same survey scope, policing or sentencing not addressed",
+        "repro": "re-checked Sep 2, 2026: same survey scope, abortion not addressed",
+        "democracy": "re-checked Sep 2, 2026: same survey scope, voting or elections not addressed"
       },
       "sources": [
         {
@@ -912,15 +918,15 @@
         "Border security"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
-        "education": null,
-        "safety": null,
-        "repro": null,
+        "education": 1,
+        "safety": 1,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -939,15 +945,30 @@
         "democracy": {
           "label": "Voted yes on H.R. 22 SAVE Act, proof-of-citizenship voter registration mandate (roll 102, Apr 10, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "cost": {
+          "label": "Supports policies to reduce inflation and curb reckless government spending, which he says is driving up prices and increasing the national debt (Rep. Michael Baumgartner, house.gov Issues)",
+          "url": "https://baumgartner.house.gov/issues"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "Supports local control of education and empowering parents to have choice and options in their children's schools (Rep. Michael Baumgartner, house.gov Issues)",
+          "url": "https://baumgartner.house.gov/issues"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "No general price/wage statement found distinct from the tax/spending quote (checked Aug 29, 2026)",
-        "health": "No healthcare-system statement found on Ballotpedia profile; campaign site (baumgartnerforwa.com) unreachable (DNS error) (checked Aug 29, 2026)",
-        "housing": "No housing statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "education": "Statement to 'improve public schools' and reduce college tuition costs is too generic to place on the public-investment-vs-choice axis, doesn't mention vouchers, charters, or specific public spending mechanisms (checked Aug 29, 2026)",
-        "safety": "No policing/sentencing statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "repro": "No abortion statement found on Ballotpedia profile (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: checked house.gov Issues page, house.gov/issues/community-development (404), and Spokesman-Review coverage tag page, no housing-specific statement found"
       },
       "sources": [
         {
@@ -1031,10 +1052,10 @@
         }
       },
       "nullNotes": {
-        "cost": "The housing-prices sentence covers cost of living generally but was scored under housing per the one-sentence-one-axis rule; no separate general price/wage statement found (checked Aug 29, 2026)",
-        "immigration": "Expressed interest in the House Immigration Subcommittee but stated no specific policy position (Ballotpedia survey) (checked Aug 29, 2026)",
-        "safety": "Survey discusses gun violence and suicide rates, which per the guide's rule do not map to this axis; no separate policing/sentencing statement found (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found in survey (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia survey states families in Eastern Washington are struggling with housing and food insecurity but names no specific price or wage mechanism, not scorable",
+        "immigration": "re-checked Sep 2, 2026: no immigration statement found on Ballotpedia survey",
+        "safety": "re-checked Sep 2, 2026: Ballotpedia survey discusses gun violence and firearm suicide rates, which per the guide do not map to this axis, no separate policing or sentencing statement found",
+        "democracy": "re-checked Sep 2, 2026: Ballotpedia survey statement on term limits is about her own tenure, not voting access or election administration, not scorable"
       },
       "sources": [
         {
@@ -1165,16 +1186,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "health": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "housing": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "immigration": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "taxes": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "climate": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "education": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "safety": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "repro": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)",
-        "democracy": "Campaign site (foxforwa.com) homepage has only a generic tagline, no elaborated policy statement; Ballotpedia survey not completed (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: foxforwa.com homepage and /issues page contain only a generic tagline ('Fighting for Washington's working families, a champion for opportunity, small business, and American values'), no policy statement found",
+        "health": "re-checked Sep 2, 2026: same tagline-only content, no healthcare statement",
+        "housing": "re-checked Sep 2, 2026: same tagline-only content, no housing statement",
+        "immigration": "re-checked Sep 2, 2026: same tagline-only content, no immigration statement",
+        "taxes": "re-checked Sep 2, 2026: same tagline-only content, no tax statement",
+        "climate": "re-checked Sep 2, 2026: same tagline-only content, no climate statement",
+        "education": "re-checked Sep 2, 2026: same tagline-only content, no education statement",
+        "safety": "re-checked Sep 2, 2026: same tagline-only content, no safety statement",
+        "repro": "re-checked Sep 2, 2026: same tagline-only content, no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: same tagline-only content, no voting or elections statement"
       },
       "sources": [
         {
@@ -1324,13 +1345,13 @@
         }
       },
       "nullNotes": {
-        "cost": "No general price/wage statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "health": "No healthcare statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "housing": "No housing statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "taxes": "No tax-rate statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "climate": "No energy/climate statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "repro": "No abortion statement found on Ballotpedia profile (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found on Ballotpedia profile (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: shethforcongress.com homepage covers healthcare and education workforce shortages only as problem descriptions with no policy direction stated, no cost mechanism found",
+        "health": "re-checked Sep 2, 2026: healthcare mentioned only as a shortage problem (limited doctors and nurses), no public or private direction stated",
+        "housing": "re-checked Sep 2, 2026: no housing statement found on campaign homepage",
+        "taxes": "re-checked Sep 2, 2026: no tax statement found on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: no energy or climate statement found on campaign homepage",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: no voting or elections statement found on campaign homepage"
       },
       "sources": [
         {
@@ -1468,15 +1489,15 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign site lists 'Lower Cost of Living' as a headline priority with no specific mechanism stated (checked Aug 29, 2026)",
-        "health": "No healthcare statement found on campaign homepage (checked Aug 29, 2026)",
-        "housing": "No housing statement found on campaign homepage (checked Aug 29, 2026)",
-        "immigration": "Campaign site lists 'Smart & Secure Immigration' as a headline priority with no specific policy detail (checked Aug 29, 2026)",
-        "taxes": "No tax-rate statement found on campaign homepage (checked Aug 29, 2026)",
-        "climate": "No energy/climate statement found on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Campaign site lists 'Safe Communities' as a headline priority with no specific policy detail (checked Aug 29, 2026)",
-        "repro": "No abortion statement found on campaign homepage or Ballotpedia (survey not completed) (checked Aug 29, 2026)",
-        "democracy": "No voting/elections statement found on campaign homepage (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign homepage (melineforcongress.com) focuses on American Dream and small business messaging, headline 'Lower Cost of Living' priority has no specific mechanism stated",
+        "health": "re-checked Sep 2, 2026: no healthcare statement found on campaign homepage",
+        "housing": "re-checked Sep 2, 2026: no housing statement found on campaign homepage",
+        "immigration": "re-checked Sep 2, 2026: headline 'Smart and Secure Immigration' priority has no specific policy detail stated",
+        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: no energy or climate statement found on campaign homepage",
+        "safety": "re-checked Sep 2, 2026: headline 'Safe Communities' priority has no specific enforcement or prevention detail stated",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: no voting or elections statement found on campaign homepage"
       },
       "sources": [
         {
@@ -1606,25 +1627,32 @@
         "health": null,
         "housing": null,
         "immigration": null,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": 0,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "taxes": {
+          "label": "'Taxes and regulations keep piling up' (Doug Basler for Congress campaign site)",
+          "url": "https://www.dougbasler.com"
+        },
+        "safety": {
+          "label": "'We can show compassion to people in crisis while still holding people accountable for crime, addiction-fueled disorder, and policies that make neighborhoods less safe' (Doug Basler for Congress campaign site)",
+          "url": "https://www.dougbasler.com"
+        }
+      },
       "nullNotes": {
-        "cost": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "health": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "housing": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "immigration": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "taxes": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "climate": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "education": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "safety": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "repro": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)",
-        "democracy": "No campaign website (domain did not resolve), Ballotpedia profile robots-blocked on repeated attempts, and no news coverage found with any policy statement (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site states housing costs and groceries are too expensive but names no price-control or deregulation mechanism, not scorable",
+        "health": "re-checked Sep 2, 2026: no healthcare statement found on campaign homepage",
+        "housing": "re-checked Sep 2, 2026: site states housing costs are too high and people should be able to buy a home, but states no build/zoning or subsidy mechanism, not scorable",
+        "immigration": "re-checked Sep 2, 2026: no immigration statement found on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: no energy or climate statement found on campaign homepage",
+        "education": "re-checked Sep 2, 2026: no education statement found on campaign homepage",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: no voting or elections statement found on campaign homepage"
       },
       "sources": [
         {

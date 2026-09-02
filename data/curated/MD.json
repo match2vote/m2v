@@ -900,10 +900,10 @@
         }
       },
       "nullNotes": {
-        "cost": "checked Wikipedia, elfreth.house.gov issues hub and two 2025 press releases (appropriations, end-year review); only a 2023 state-senate gas-tax vote found, which does not clearly fit price/wage intervention vs deregulation (checked Aug 29, 2026); re-checked elfreth.house.gov/issues/economy Aug 30, 2026: only vague 'reduce barriers' framing, no scoreable position",
+        "cost": "re-checked Sep 2, 2026: elfreth.house.gov Economy page cites reducing child care costs and student loan burden but not a broader cost-of-living/price statement",
         "housing": "second-check Aug 30, 2026: the cited press release is a routine appropriations/earmark announcement ($2M for Howard County housing) with no housing-policy advocacy language, matching the guide's null anchor for routine appropriations",
         "taxes": "checked Wikipedia, elfreth.house.gov press releases, and a web search for tax statements; only a narrow 2024 firearm-sales excise tax for the state trauma system was found, which does not reflect a broader tax agenda (checked Aug 29, 2026); her no vote on H.R.1 (roll 190) alone does not establish this axis per the guide",
-        "education": "checked Wikipedia and elfreth.house.gov issues hub; only Board of Regents oversight legislation and opposition to Moms for Liberty school-board candidates found, which do not map to public investment vs school choice (checked Aug 29, 2026)"
+        "education": "re-checked Sep 2, 2026: elfreth.house.gov Education page states only generic accessible and affordable education language, too generic to indicate a public-schools-vs-choice direction"
       },
       "sources": [
         {
@@ -1043,7 +1043,7 @@
       "positions": {
         "cost": null,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": null,
         "taxes": null,
         "climate": -2,
@@ -1072,14 +1072,17 @@
         "democracy": {
           "label": "Criticized a Supreme Court ruling and called for passage of the John Lewis Voting Rights Act in response (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Glenn_Ivey"
+        },
+        "housing": {
+          "label": "Says he has supported increased access to affordable housing through programs that repaired 72,600 homes, helped 18,800 new homeowners, and assisted 105,253 families with housing counseling (ivey.house.gov Issues page)",
+          "url": "https://ivey.house.gov/issues"
         }
       },
       "nullNotes": {
-        "cost": "checked Wikipedia; only a vague reference to 'cost of living, the economy' as a general concern found, no specific policy (checked Aug 29, 2026)",
-        "housing": "checked Wikipedia and ivey.house.gov coverage in search results; no housing policy statements found (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: ivey.house.gov issues page states no specific cost-of-living statement",
         "immigration": "checked Wikipedia; no specific immigration policy statement found beyond his no vote on the Laken Riley Act, which the guide credits toward this axis for a no vote as -1, but no additional documented page confirmed the vote text itself for him specifically (checked Aug 29, 2026)",
-        "taxes": "checked Wikipedia; no tax policy statement found (checked Aug 29, 2026)",
-        "education": "checked Wikipedia; no education policy statement found (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: no tax policy statement found on ivey.house.gov issues page",
+        "education": "re-checked Sep 2, 2026: H.R.1 criticism says the bill makes education less affordable, but this is general affordability framing tied to opposing the bill, not a public-schools-vs-choice statement, nothing scored"
       },
       "sources": [
         {
@@ -1706,9 +1709,9 @@
         "housing": null,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -2,
         "education": -1,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -1
       },
@@ -1736,13 +1739,19 @@
         "democracy": {
           "label": "Voted no on the SAVE Act (H.R.22) requiring documentary proof of citizenship to register to vote, Apr 10, 2025, roll call 102 (Clerk, U.S. House)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted no on H.J.Res. 88, opposing disapproval of California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "housing": "second-check Aug 30, 2026: the cited press release is a routine appropriations/announcement of an already-completed ARPA-funded investment, with no housing-policy advocacy language, matching the guide's null anchor for routine appropriations",
-        "taxes": "checked mfume.house.gov issues/economy page, Ballotpedia (no 2026 Candidate Connection survey), and Wikipedia; no tax-code statement found (checked Aug 29, 2026)",
-        "climate": "checked Wikipedia and Ballotpedia; only a vague 2020 slogan, 'Protect and Preserve Our Environment,' found, too general to score a direction (checked Aug 29, 2026)",
-        "safety": "checked mfume.house.gov, Wikipedia, and Ballotpedia; only a vague 2020 slogan, 'Work to Build Safer Communities,' found, too general to score a direction (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: mfume.house.gov Economy issues page has no housing statement",
+        "taxes": "re-checked Sep 2, 2026: mfume.house.gov Economy issues page covers rail workers, federal funding, COVID relief, and minimum wage, no tax-code statement found"
       },
       "sources": [
         {

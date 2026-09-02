@@ -220,10 +220,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "housing": "checked osbornforsenate.com homepage and healthcare plan (plans index page unreachable) and Ballotpedia (no Candidate Connection survey), nothing documented",
-        "climate": "checked osbornforsenate.com and Ballotpedia, nothing documented; roll-call/record search also empty",
-        "education": "checked osbornforsenate.com and Ballotpedia, nothing documented; roll-call/record search also empty",
-        "safety": "checked osbornforsenate.com and Ballotpedia, nothing documented; roll-call/record search also empty"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia notes Osborn has not completed the 2026 Candidate Connection survey, osbornforsenate.com blocked by robots.txt, no housing statement found",
+        "climate": "re-checked Sep 2, 2026: Ballotpedia has no climate/energy statement",
+        "education": "re-checked Sep 2, 2026: Ballotpedia has no education statement",
+        "safety": "re-checked Sep 2, 2026: Ballotpedia has no public-safety statement"
       },
       "incumbent": false,
       "age": 51,
@@ -521,13 +521,13 @@
         }
       },
       "nullNotes": {
-        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "immigration": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "climate": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "education": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "housing": "re-checked Sep 2, 2026: picknikforcongress.com has no housing statement",
+        "immigration": "re-checked Sep 2, 2026: picknikforcongress.com has no immigration statement",
+        "climate": "re-checked Sep 2, 2026: picknikforcongress.com has no climate/energy statement",
+        "education": "re-checked Sep 2, 2026: picknikforcongress.com has no education statement",
         "safety": "campaign site emphasizes 'Constitutional Due Process' opposing warrantless searches and civil asset forfeiture, which is a due-process/civil-liberties position, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
-        "repro": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "democracy": "checked campaign website, nothing documented (checked 2026-08-29)"
+        "repro": "re-checked Sep 2, 2026: picknikforcongress.com has no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: picknikforcongress.com has no voting/elections statement"
       },
       "curatedAt": "2026-08-29"
     },
@@ -552,13 +552,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": null,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -582,14 +582,20 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked flood.house.gov (issue pages return 404), Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
-        "health": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
-        "housing": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)",
-        "climate": "checked Wikipedia; brokered a 2011 compromise rerouting the Keystone XL pipeline as a state legislator, a routing compromise rather than a stated energy-source position, so left null (checked 2026-08-29)",
-        "safety": "checked flood.house.gov, Wikipedia, and Nebraska Voter Guide, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: mikefloodfornebraska.com issues page blames 'the radical, socialist agenda' for driving up prices but states no direction of his own on price controls versus deregulation, too generic to score",
+        "housing": "re-checked Sep 2, 2026: mikefloodfornebraska.com issues page has no housing statement",
+        "climate": "checked Wikipedia; brokered a 2011 compromise rerouting the Keystone XL pipeline as a state legislator, a routing compromise rather than a stated energy-source position, so left null (checked 2026-08-29)"
       },
       "sources": [
         {
@@ -632,28 +638,41 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "health": -2,
+        "housing": 1,
+        "immigration": 0,
+        "taxes": -1,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "health": {
+          "label": "Platform would 'enact a true public option to guarantee universal coverage,' 'restore Medicaid funding and protect rural hospitals,' and 'lower the Medicare eligibility age to 60' (Backemeyer for Nebraska issues page)",
+          "url": "https://backnebraska.com/making-healthcare-affordable-accessible/"
+        },
+        "taxes": {
+          "label": "Platform calls to 'rebalance the tax code so that billionaires and corporations pay their fair share' (Backemeyer for Nebraska issues page)",
+          "url": "https://backnebraska.com/lowering-costs-restoring-the-middle-class/"
+        },
+        "housing": {
+          "label": "Platform would 'cut red tape that delays housing projects and puts families in houses instead of investment firms' (Backemeyer for Nebraska issues page)",
+          "url": "https://backnebraska.com/lowering-costs-restoring-the-middle-class/"
+        },
+        "immigration": {
+          "label": "Platform would 'pass comprehensive immigration reform that creates a genuine pathway to citizenship and keeps families together' while also promising to 'ensure strong security at the southern border while enforcing immigration laws' (Backemeyer for Nebraska issues page)",
+          "url": "https://backnebraska.com/smart-fair-immigration-and-a-secure-border/"
+        }
+      },
       "nullNotes": {
-        "cost": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "health": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "housing": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "immigration": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "taxes": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "climate": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "education": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "safety": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "repro": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)",
-        "democracy": "checked campaign site backnebraska.com (priorities page returns 404, homepage lists only unelaborated priority headings), Ballotpedia, and Nebraska Examiner fundraising coverage; priority labels like 'Making Healthcare Affordable' and 'Smart, Fair Immigration' name topics but no specific mechanism or direction, so left null (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: 'roll back tariffs' and 'expand the Child Tax Credit' proposals do not fit the cost axis (tariffs are a third kind of intervention, CTC is a targeted household credit), nothing scored",
+        "climate": "re-checked Sep 2, 2026: no climate/energy statement found on backnebraska.com priorities or news pages",
+        "education": "re-checked Sep 2, 2026: no education statement found on backnebraska.com priorities or news pages",
+        "safety": "re-checked Sep 2, 2026: no public-safety statement found on backnebraska.com priorities or news pages",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on backnebraska.com priorities or news pages",
+        "democracy": "re-checked Sep 2, 2026: no voting/elections statement found on backnebraska.com priorities or news pages"
       },
       "sources": [
         {
@@ -725,12 +744,12 @@
         }
       },
       "nullNotes": {
-        "health": "checked campaign website; 'make healthcare, including IVF, more accessible and affordable' is a general affordability goal without a public-versus-private mechanism, so left null (checked 2026-08-29)",
-        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "taxes": "checked campaign website, nothing documented beyond the general 'grow our economy, increase wages, keep inflation in check' goal, which has no specific tax mechanism (checked 2026-08-29)",
-        "education": "checked campaign website, nothing documented (checked 2026-08-29)",
+        "health": "re-checked Sep 2, 2026: brinkerharding.com/vision repeats the IVF-affordability line already assessed as too general for a public-vs-private direction",
+        "housing": "re-checked Sep 2, 2026: brinkerharding.com/vision has no housing statement",
+        "taxes": "re-checked Sep 2, 2026: brinkerharding.com/vision has no tax statement",
+        "education": "re-checked Sep 2, 2026: brinkerharding.com/vision has no education statement",
         "safety": "campaign site proposes 'body cameras and identifiable uniforms for ICE agents,' an oversight/accountability measure, not the prevention-versus-enforcement-funding mechanism this axis tracks, so left null (checked 2026-08-29)",
-        "repro": "checked campaign website; IVF-access support does not itself state an abortion-access position, so left null (checked 2026-08-29)"
+        "repro": "re-checked Sep 2, 2026: brinkerharding.com/vision addresses only IVF accessibility, no broader abortion-policy statement"
       },
       "sources": [
         {
@@ -774,12 +793,12 @@
       "positions": {
         "cost": null,
         "health": -1,
-        "housing": null,
-        "immigration": null,
+        "housing": -1,
+        "immigration": -1,
         "taxes": -1,
-        "climate": null,
+        "climate": -1,
         "education": -2,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": null
       },
@@ -799,15 +818,27 @@
         "repro": {
           "label": "Helped 'stop extremists from passing abortion bans in the state' and opposes 'ripping away women's rights' (campaign website)",
           "url": "https://deniseforcongress.org/"
+        },
+        "housing": {
+          "label": "Priorities page calls to 'build more high-quality, affordable housing that is attainable for first-time homebuyers and middle-class families' (Denise for Congress priorities page)",
+          "url": "https://deniseforcongress.org/priorities/"
+        },
+        "immigration": {
+          "label": "Priorities page backs a 'fair path to citizenship for long term immigrants' and 'legal avenues for workers needed to fill Nebraska's essential roles' (Denise for Congress priorities page)",
+          "url": "https://deniseforcongress.org/priorities/"
+        },
+        "climate": {
+          "label": "Priorities page would 'expand clean energy production to bring down costs in the short term while protecting our environment' (Denise for Congress priorities page)",
+          "url": "https://deniseforcongress.org/priorities/"
+        },
+        "safety": {
+          "label": "Priorities page would 'fully fund our police departments, providing access to training and mental health support for our officers' (Denise for Congress priorities page)",
+          "url": "https://deniseforcongress.org/priorities/"
         }
       },
       "nullNotes": {
-        "cost": "checked campaign website; opposition to 'trade wars that are increasing our cost of living' criticizes tariff policy without naming a price or wage mechanism, so left null (checked 2026-08-29)",
-        "housing": "checked campaign website, nothing documented (checked 2026-08-29)",
-        "immigration": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
-        "climate": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
-        "safety": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)",
-        "democracy": "checked campaign website and Nebraska Examiner NE-2 coverage, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: priorities page criticizes 'trade wars that are increasing our cost of living,' a tariff critique without a stated price-mechanism direction, nothing scored",
+        "democracy": "re-checked Sep 2, 2026: priorities page proposes banning Congressional stock trading, a lobbying ban, and overturning Citizens United, all campaign-finance/ethics reforms that do not fit the voting-access-versus-election-security axis"
       },
       "sources": [
         {
@@ -850,10 +881,10 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -872,15 +903,24 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia (no 2026 Candidate Connection survey) and adriansmith.house.gov, nothing documented beyond healthcare/tax positions scored elsewhere (checked 2026-08-29)",
-        "housing": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
-        "climate": "checked adriansmith.house.gov/issues/energy, which directs readers to contact the office and lists only column/press-release links on ethanol and the Renewable Fuel Standard with no stated clean-energy-versus-fossil-fuel position (checked 2026-08-29)",
-        "education": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia and adriansmith.house.gov, nothing documented (checked 2026-08-29)",
-        "repro": "checked Ballotpedia and Wikipedia; a 'Pain-Capable Unborn Child Protection Act' key vote is listed with no quoted statement of his own, so left null pending a citable quote (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: joinadrian.com issues page has no cost-of-living statement distinct from the tax-reform section",
+        "housing": "re-checked Sep 2, 2026: joinadrian.com issues page has no housing statement",
+        "education": "re-checked Sep 2, 2026: joinadrian.com issues page has no education statement"
       },
       "sources": [
         {
@@ -919,13 +959,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": 1,
         "taxes": null,
         "climate": null,
-        "education": null,
-        "safety": null,
+        "education": -1,
+        "safety": 1,
         "repro": -1,
         "democracy": null
       },
@@ -937,17 +977,26 @@
         "repro": {
           "label": "Supports a woman's 'right to make her own healthcare decisions privately with her own doctor' (Nebraska Examiner)",
           "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        },
+        "health": {
+          "label": "Says she 'will advocate for improved health care for all Americans' since 'many patients still cannot access this care due to lack of insurance' (Becky Stille for Congress issues page)",
+          "url": "https://www.beckystille2026.com/issues"
+        },
+        "education": {
+          "label": "Says 'public education is a core feature of a prosperous and cohesive society' and every person should be 'given an equal opportunity' through it (Becky Stille for Congress issues page)",
+          "url": "https://www.beckystille2026.com/issues"
+        },
+        "safety": {
+          "label": "Says law enforcement officers 'are committed to safeguarding our neighborhoods, schools and businesses' and 'equipping them with necessary support, training, and resources is vital' (Becky Stille for Congress issues page)",
+          "url": "https://www.beckystille2026.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "checked Nebraska Examiner profile and beckystille2026.com; concern about Trump-era tariffs hurting farmers is an economic critique with no stated price or subsidy mechanism, so left null (checked 2026-08-29)",
-        "health": "checked Nebraska Examiner profile, nothing beyond the reproductive-rights quote scored under repro (checked 2026-08-29)",
-        "housing": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
-        "taxes": "checked Nebraska Examiner profile, nothing documented beyond the tariff concern which does not fit this axis (checked 2026-08-29)",
-        "climate": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
-        "education": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)",
-        "safety": "checked Nebraska Examiner profile; discusses 'upholding the Second Amendment' with an 'equally strong commitment to prevent violence,' which is a gun-rights framing excluded from this axis by rule, so left null (checked 2026-08-29)",
-        "democracy": "checked Nebraska Examiner profile, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: beckystille2026.com/issues has no cost-of-living statement",
+        "housing": "re-checked Sep 2, 2026: beckystille2026.com/issues has no housing statement",
+        "taxes": "re-checked Sep 2, 2026: beckystille2026.com/issues has no tax statement",
+        "climate": "re-checked Sep 2, 2026: beckystille2026.com/issues has no climate/energy statement",
+        "democracy": "re-checked Sep 2, 2026: page criticizes 'shadow money and rampant disinformation' letting 'politicians choose voters instead of the other way around,' a redistricting/campaign-finance framing that does not fit the voting-access-versus-election-security axis"
       },
       "sources": [
         {

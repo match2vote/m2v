@@ -672,11 +672,11 @@
         }
       },
       "nullNotes": {
-        "cost": "No price-regulation or wage statement found on campaign site (checked Sep 2, 2026)",
-        "health": "No healthcare statement found on campaign site (checked Sep 2, 2026)",
-        "housing": "No housing statement found on campaign site (checked Sep 2, 2026)",
-        "climate": "No climate/energy statement found on campaign site (checked Sep 2, 2026)",
-        "education": "No education statement found on campaign site (checked Sep 2, 2026)",
+        "cost": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no price-regulation or wage statement found; the /issues subpage exists but a follow-up fetch was rate limited (429), try again next pass",
+        "health": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no healthcare statement found; /issues subpage not yet fetchable",
+        "housing": "re-checked Sep 2, 2026: laehn4iowa.org homepage, property-rights/eminent-domain language (opposing private companies seizing property for commercial purposes) does not map to the public-building-versus-deregulation axis",
+        "climate": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no climate/energy statement found",
+        "education": "re-checked Sep 2, 2026: laehn4iowa.org homepage, no education statement found",
         "democracy": "Supports ending PAC/super PAC influence, which is a campaign-finance stance, not a voting-access or election-administration position; no voting/elections statement found (checked Sep 2, 2026)"
       },
       "curatedAt": "2026-09-02"
@@ -736,14 +736,14 @@
         }
       },
       "nullNotes": {
-        "cost": "op-ed attributes affordability to 'increases to the country's money supply and a lack of consistency in trade policies,' a diagnosis with no price-cap or deregulation mechanism stated (checked Aug 29, 2026)",
-        "housing": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "taxes": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "climate": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "education": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "safety": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "repro": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview, nothing documented",
-        "democracy": "checked Iowa Capital Dispatch op-ed and Iowa Public Radio interview; he discusses term limits and banning congressional stock trading, which do not fit the voting-rules axis"
+        "cost": "re-checked Sep 2, 2026: bridgfordforiowa.com homepage says he will work to lower costs and bring fiscal sanity to Washington to tackle inflation, housing, and healthcare, still no specific price-cap or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: bridgfordforiowa.com, housing referenced only within the cost-of-living plank, no distinct mechanism",
+        "taxes": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, 'Establishing Fiscal Responsibility' still states no explicit tax-rate mechanism",
+        "climate": "re-checked Sep 2, 2026: bridgfordforiowa.com homepage names support for permanent year-round E15 ethanol blend under a Put Iowa Producers First plank, an agricultural fuel-standard position, not a broader clean-energy-versus-fossil-fuel stance, so not scored",
+        "education": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, 'Reversing Iowa's Education Backslide' still states no public-versus-choice mechanism",
+        "safety": "re-checked Sep 2, 2026: bridgfordforiowa.com, still not addressed",
+        "repro": "re-checked Sep 2, 2026: bridgfordforiowa.com, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: bridgfordforiowa.com/Issues, term limits, congressional stock-trading ban, and campaign finance reform are governance-reform planks that do not map to the registration/voting-rules axis"
       },
       "curatedAt": "2026-08-29"
     },
@@ -915,10 +915,10 @@
       "positions": {
         "cost": null,
         "health": 1,
-        "housing": null,
+        "housing": 2,
         "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": 1,
         "safety": null,
         "repro": 2,
@@ -948,13 +948,19 @@
         "democracy": {
           "label": "'I also support voter ID laws to ensure free and fair federal elections. Identification is widely accessible' (campaign issues page)",
           "url": "https://www.joemitchell.com/issues"
+        },
+        "housing": {
+          "label": "Campaign site says deregulating the homebuilding industry will allow more builders to build more homes at a much lower cost (joemitchell.com)",
+          "url": "https://joemitchell.com"
+        },
+        "climate": {
+          "label": "Campaign site says the country should use every tool at its disposal including natural gas, oil, nuclear, clean coal, hydro, solar, and wind power to lower costs and strengthen American energy independence (joemitchell.com)",
+          "url": "https://joemitchell.com"
         }
       },
       "nullNotes": {
-        "cost": "issues page laments wage stagnation amid rising corporate profits but states no price-cap or deregulation mechanism (checked Aug 29, 2026)",
-        "housing": "issues page calls housing 'unattainable' with no policy mechanism stated (checked Aug 29, 2026)",
-        "climate": "checked campaign issues page and Iowa Capital Dispatch voter guide, no energy/climate position stated",
-        "safety": "checked campaign issues page and Iowa Capital Dispatch voter guide, nothing documented"
+        "cost": "re-checked Sep 2, 2026: joemitchell.com pledges to keep prices low via keeping jobs in America and antitrust enforcement, a trade/jobs mechanism that does not cleanly fit the price-cap-versus-deregulation axis, so not scored",
+        "safety": "re-checked Sep 2, 2026: joemitchell.com says 'we need to support and fund the police while working for practical reform,' too brief and ambiguous to cleanly score as either a pure enforcement or pure prevention position"
       },
       "sources": [
         {
@@ -1017,14 +1023,14 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign issues page says Iowans are 'living paycheck to paycheck' with no price-cap, wage, or deregulation mechanism stated (checked Aug 29, 2026)",
-        "housing": "issues page names veterans' 'lack of affordable housing' as a problem with no policy mechanism stated (checked Aug 29, 2026)",
-        "immigration": "issues page says only 'Congress has clearly failed on both immigration reform, and gun safety reform,' no specific position stated (checked Aug 29, 2026)",
-        "taxes": "checked campaign issues page and Ballotpedia (no Candidate Connection survey), nothing documented",
-        "climate": "checked campaign issues page and Ballotpedia, nothing documented",
-        "safety": "a Townhall attack piece claims she 'voted to make it easier for violent repeat offenders to get bail' but cites no bill number or direct quote from her to verify (checked Aug 29, 2026); campaign issues page only says she wants 'common sense policies' with no mechanism",
-        "repro": "checked campaign issues page and Ballotpedia; EMILY's List and Reproductive Freedom for All endorsements exist but are third-party characterizations, not her own stated position (checked Aug 29, 2026)",
-        "democracy": "checked campaign issues page and Ballotpedia (no Candidate Connection survey), nothing documented"
+        "cost": "re-checked Sep 2, 2026: lindsayforiowa.com homepage lists 'Bring Down the Cost of Living for Working Iowans' as a heading with no mechanism stated",
+        "housing": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed beyond a general heading",
+        "immigration": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
+        "taxes": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
+        "climate": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed",
+        "safety": "re-checked Sep 2, 2026: lindsayforiowa.com homepage lists 'Keep Our Communities Safe' as a heading with no mechanism stated",
+        "repro": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed beyond third-party endorsements",
+        "democracy": "re-checked Sep 2, 2026: lindsayforiowa.com homepage, still not addressed"
       },
       "sources": [
         {
@@ -1095,12 +1101,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign vision page (economy/spending priorities are framed only as 'strong economy' and 'eliminating wasteful spending' with no price or wage mechanism) and KTIV interview, nothing more specific documented",
-        "health": "checked campaign site and KTIV/KIWA interviews, nothing documented",
-        "housing": "checked campaign site and KTIV/KIWA interviews, nothing documented",
-        "taxes": "his only tax mention is the education scholarship tax credit, a targeted credit with no broader tax-rate agenda stated, so it does not fit this axis (checked Aug 29, 2026)",
-        "climate": "checked campaign site and KTIV/KIWA interviews, nothing documented",
-        "democracy": "checked campaign site and KTIV/KIWA interviews, nothing documented"
+        "cost": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, top priorities list strong economy and eliminating wasteful spending with no price-cap or deregulation mechanism stated",
+        "health": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
+        "housing": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
+        "taxes": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed beyond the already-scored education scholarship tax credit",
+        "climate": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed",
+        "democracy": "re-checked Sep 2, 2026: mcgowanforiowa.com homepage, still not addressed"
       },
       "sources": [
         {
@@ -1171,12 +1177,12 @@
         }
       },
       "nullNotes": {
-        "housing": "campaign site lists 'affordable housing initiatives' under Rural Communities with no mechanism specified (checked Aug 29, 2026)",
-        "immigration": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
-        "climate": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
-        "education": "campaign site addresses rural broadband and roads but not K-12 school funding or choice (checked Aug 29, 2026)",
-        "safety": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented",
-        "repro": "checked campaign site and Iowa Public Radio/Iowa Capital Dispatch primary coverage, nothing documented"
+        "housing": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed beyond a general 'affordable housing initiatives' heading",
+        "immigration": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed",
+        "climate": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed",
+        "education": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage mentions strengthening the GI Bill for veterans' education and job training, which is a veterans-benefits statement, not a K-12 public-schools-versus-choice mechanism, so not scored",
+        "safety": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage notes his background as a prosecutor who argued a case to safeguard children's rights; occupation/biography is not itself a stated policy position on prevention versus enforcement, so not scored",
+        "repro": "re-checked Sep 2, 2026: davedawsonforiowa.com homepage, still not addressed"
       },
       "sources": [
         {

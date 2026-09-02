@@ -500,13 +500,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 1,
         "democracy": 1
       },
@@ -526,15 +526,24 @@
         "democracy": {
           "label": "Lists 'Securing Our Election' as a campaign priority, without further elaboration; did not vote (Not Voting) on the SAVE Act, roll 102, Apr 10, 2025 (campaign site)",
           "url": "https://www.bobondermo.com/"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "Campaign site lists 'Ending Disastrous Biden Economic Policies' as a heading with no specific mechanism elaborated (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign homepage (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site still only has slogan-level 'Ending Disastrous Biden Economic Policies' language with no mechanism",
+        "housing": "re-checked Sep 2, 2026: no house.gov or campaign statement on housing found",
+        "education": "re-checked Sep 2, 2026: no house.gov or campaign statement on education found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -952,7 +961,7 @@
       "positions": {
         "cost": null,
         "health": 2,
-        "housing": null,
+        "housing": 2,
         "immigration": -2,
         "taxes": 2,
         "climate": null,
@@ -985,13 +994,16 @@
         "repro": {
           "label": "'Abortion Kills Children,' with links to 'How to Stop Abortion' (campaign site)",
           "url": "http://www.kevincraig.us/"
+        },
+        "housing": {
+          "label": "Calls to abolish the Department of Housing and Urban Development, critical of HUD Smart Growth policies and Fannie Mae as a New Deal era program (kevincraig.us HUD issues page)",
+          "url": "https://kevincraig.us/HUD.htm"
         }
       },
       "nullNotes": {
-        "cost": "Attributes cost-of-living complaints to Federal Reserve monetary policy without a specific price-mechanism position stated (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Lists 'Global Warming Will Kill Us All!' as a voter concern without stating his own position (checked Aug 29, 2026)",
-        "democracy": "Site emphasizes voting 'for principle' over party loyalty, a message about voter behavior rather than a registration/mail-voting/ID policy (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: attributes cost-of-living complaints to Federal Reserve monetary policy, no specific price mechanism stated",
+        "climate": "re-checked Sep 2, 2026: lists global warming as a voter concern topic without stating his own position",
+        "democracy": "re-checked Sep 2, 2026: site emphasizes voting for principle over party loyalty, a message about voter behavior rather than a registration/mail-voting/ID policy"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1085,7 +1097,7 @@
         "taxes": null,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -1113,13 +1125,16 @@
         "democracy": {
           "label": "Voted Nay on the SAVE Act (H.R. 22) proof-of-citizenship voting bill, roll 102, Apr 10, 2025; also 'committed to removing unnecessarily restrictive barriers that stand between voters and the ballot box' (Ballotpedia campaign text)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "safety": {
+          "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "Not explicitly addressed on campaign site content quoted by Ballotpedia (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site content quoted by Ballotpedia (checked Aug 29, 2026)",
-        "taxes": "No statement found beyond a No vote on the 2025 tax law (roll 190), which alone does not establish the axis for a Democrat per guide (checked Aug 29, 2026)",
-        "safety": "Site addresses only gun safety ('responsible gun owner ... common sense gun safety laws'), which per this project's rules does not map to the safety axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no campaign issues page or house.gov statement with a specific price/affordability mechanism found",
+        "housing": "re-checked Sep 2, 2026: no campaign issues page or house.gov statement on housing found",
+        "taxes": "re-checked Sep 2, 2026: only the no vote on roll 190 (H.R.1) exists, which alone does not establish the axis for a Democrat per guide; no separate statement found"
       },
       "sources": [
         {
@@ -1305,12 +1320,12 @@
         "health": -1,
         "housing": null,
         "immigration": null,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -1328,15 +1343,24 @@
         "education": {
           "label": "'All students deserve a quality education and support from pre-k to secondary schooling. Our system is overwhelmed by a lack of resources' (campaign site)",
           "url": "https://bethanymannforcongress.com/"
+        },
+        "taxes": {
+          "label": "We need to make sure that the corporations who live here pay their fair share in taxes (ABC17 News third district candidate interview, Jul 24, 2026)",
+          "url": "https://abc17news.com/voter-guide-2026/2026/07/24/missouri-third-congressional-district-candidate-interview-bethany-mann"
+        },
+        "repro": {
+          "label": "Abortion is healthcare. Access to healthcare saves lives. Equitable access to healthcare is a human right, backs the Women's Health Protection Act and Medicare For All (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Bethany_Mann"
+        },
+        "democracy": {
+          "label": "Everyone eligible to vote should have the ability to register to vote, to cast a ballot and to have that ballot properly recorded, we must remove barriers and roadblocks in voting rights, supports expanding polls, mail-in, and dropbox options (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Bethany_Mann"
         }
       },
       "nullNotes": {
-        "housing": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Site mentions first responders being 'overwhelmed with short staff and unbearably long hours' but states no funding/enforcement-approach position (checked Aug 29, 2026)",
-        "repro": "'Reproductive Rights' is listed as a platform-issue heading but the page provides no specific quote or stance (checked Aug 29, 2026)",
-        "democracy": "Site references 'attacks on our elections' in a broader complaint about data centers and representatives, with no specific voting-access or safeguards policy stated; 'Voting Rights' listed as a separate heading with no detail (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: no statement found in ABC17 interview or Ballotpedia Candidate Connection survey",
+        "immigration": "re-checked Sep 2, 2026: Ballotpedia survey attributes migration to climate change, war, and disasters as root causes but states no pathway/enforcement mechanism of her own, does not fit the axis",
+        "safety": "re-checked Sep 2, 2026: no statement found in ABC17 interview or Ballotpedia Candidate Connection survey"
       },
       "sources": [
         {
@@ -1371,11 +1395,11 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
+        "health": 1,
+        "housing": 2,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": 2,
         "repro": 2,
@@ -1405,13 +1429,22 @@
         "democracy": {
           "label": "Voted Yea on the SAVE Act (H.R. 22) proof-of-citizenship voting bill, roll 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "housing": {
+          "label": "The best way to bring down housing costs is to increase supply, cut through red tape, co-chaired the bipartisan housing affordability package to expand homeownership, lower costs, and increase supply (alford.house.gov press release)",
+          "url": "https://alford.house.gov/news/documentsingle.aspx?DocumentID=1611"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed on campaign site beyond the tax/economic-growth language scored under taxes (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: only the tax/economic-growth language already scored under taxes, no distinct price mechanism found"
       },
       "sources": [
         {
@@ -1511,13 +1544,13 @@
       "positions": {
         "cost": null,
         "health": null,
-        "housing": null,
+        "housing": -2,
         "immigration": -1,
-        "taxes": null,
-        "climate": null,
+        "taxes": -2,
+        "climate": -2,
         "education": -1,
-        "safety": null,
-        "repro": null,
+        "safety": -1,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -1532,16 +1565,31 @@
         "democracy": {
           "label": "Voted Nay on the SAVE Act (H.R. 22) proof-of-citizenship voting bill, roll 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted no on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate, defending the clean-vehicle rule (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "housing": {
+          "label": "As Financial Services Housing Subcommittee member his stated goal is to ensure constituents have access to quality and affordable housing, championed the Green Impact Zone for affordable housing and calls for keeping USDA and HUD housing programs well-funded (cleaver.house.gov issues page)",
+          "url": "https://cleaver.house.gov/issues/housing"
+        },
+        "taxes": {
+          "label": "Criticized the Republican budget bill's $4.5 trillion in tax cuts that overwhelmingly benefit the wealthy, noting the top 0.1 percent would receive an average $314,000 tax cut per year (cleaver.house.gov statement on vote against Republican budget bill)",
+          "url": "https://cleaver.house.gov/media-center/press-releases/congressman-cleaver-votes-against-republican-budget-bill-would-gut"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed on campaign homepage beyond generic 'economic development and job creation' language with no specific mechanism (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "taxes": "No statement found beyond a No vote on the 2025 tax law (roll 190), which alone does not establish the axis for a Democrat per guide (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign homepage (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no house.gov statement with a distinct price/affordability mechanism beyond generic economic development language",
+        "health": "re-checked Sep 2, 2026: CHARTS Act press release proposes targeted EHR grant funding for long-term care, a narrow investment that does not state a broader public-vs-private role position, does not fit the axis cleanly"
       },
       "sources": [
         {
@@ -1698,10 +1746,10 @@
         "housing": -1,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -2,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -1724,14 +1772,20 @@
         "education": {
           "label": "'Every family should have access to high-quality, universal pre-kindergarten to give children a strong start' (campaign site)",
           "url": "https://votesmead.com"
+        },
+        "climate": {
+          "label": "Climate change is real, and Missouri is already feeling it, whether you believe in climate change or not the reality on the ground calls for a smarter approach, backs the Grain Belt Express for stable, low-cost power (votesmead.com issues page)",
+          "url": "https://votesmead.com/issues/"
+        },
+        "repro": {
+          "label": "Missourians deserve sovereignty over their own bodies, plain and simple, opposes politicians working to overturn the clear will of the people on abortion (votesmead.com issues page)",
+          "url": "https://votesmead.com/issues/"
         }
       },
       "nullNotes": {
-        "taxes": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "democracy": "Site calls for a constitutional amendment clarifying that 'money is not equivalent to free speech,' a campaign-finance position that does not map to this axis's voting-access/safeguards scope (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: criticizes billionaire tax breaks and calls for investing in people but states no specific rate or spending mechanism",
+        "safety": "re-checked Sep 2, 2026: platform only addresses gun violence (background checks, safe storage), which does not map to this axis per project rules",
+        "democracy": "re-checked Sep 2, 2026: only criticizes opponent's role in Jan 6, states no voting-access or safeguards policy of his own"
       },
       "sources": [
         {
@@ -1767,13 +1821,13 @@
       "positions": {
         "cost": null,
         "health": 1,
-        "housing": null,
+        "housing": 2,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -1792,15 +1846,27 @@
         "democracy": {
           "label": "Voted Yea on the SAVE Act (H.R. 22) proof-of-citizenship voting bill, roll 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "housing": {
+          "label": "Housing affordability will not be restored by trapping Americans in permanent rent or distorting markets, it will be restored by unleashing American builders and dismantling the regulatory cartel, federal building code and energy standard regulations add tens of thousands of dollars to construction costs (burlison.house.gov press release)",
+          "url": "https://burlison.house.gov/media/press-releases/burlison-opens-hearing-saving-american-dream-through-housing-affordability"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed on campaign site beyond the spending-cut language scored under taxes (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign site beyond Second Amendment content, which is out of scope for this axis (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no house.gov statement with a distinct price mechanism beyond the spending-cut language already scored under taxes",
+        "education": "re-checked Sep 2, 2026: no house.gov or campaign statement on education found"
       },
       "sources": [
         {
@@ -1895,13 +1961,13 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 1,
         "democracy": 2
       },
@@ -1929,13 +1995,19 @@
         "democracy": {
           "label": "Voted Yea on the SAVE Act (H.R. 22) proof-of-citizenship voting bill, roll 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "health": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign homepage (checked Aug 29, 2026)",
-        "safety": "Site criticizes Democrats for 'allowing BLM rioters to burn Minnesota communities' but this is rhetorical criticism of a past event, not a stated funding or enforcement policy (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: no house.gov statement on housing found",
+        "education": "re-checked Sep 2, 2026: no house.gov statement on education found"
       },
       "sources": [
         {

@@ -422,10 +422,10 @@
         }
       },
       "nullNotes": {
-        "taxes": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
-        "education": "questionnaire's 'Mentorship as a National Policy' plank names a value with no school-funding or choice mechanism stated (checked Aug 29, 2026)",
-        "safety": "checked Mississippi Free Press questionnaire and SuperTalk profile, nothing documented",
-        "democracy": "questionnaire says 'your voice is your vote' with no registration or ID mechanism stated (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: re-read Mississippi Free Press questionnaire in full, covers economic empowerment/workforce, broadband/housing, immigration/ICE, reproductive healthcare, healthcare access, AI regulation, climate, foreign aid; taxes still not addressed",
+        "education": "re-checked Sep 2, 2026: questionnaire's Mentorship as a National Policy plank still names a value with no school-funding or choice mechanism stated",
+        "safety": "re-checked Sep 2, 2026: re-read questionnaire in full, public safety/policing still not addressed",
+        "democracy": "re-checked Sep 2, 2026: re-read questionnaire in full, voting rights/elections still not addressed beyond your voice is your vote with no registration or ID mechanism"
       },
       "curatedAt": "2026-08-29"
     },
@@ -466,16 +466,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "health": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "housing": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "immigration": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "taxes": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "climate": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "education": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "safety": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "repro": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)",
-        "democracy": "checked Mississippi SOS candidate list, statewide news roundups of the MS-1 race (Clarke County Tribune/CNHI wire piece, Ballotpedia), and general search; no campaign site, questionnaire response, or interview found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia page fetch blocked (robots error); no campaign site, questionnaire, or news coverage found beyond the prior CNHI wire piece and SOS listing",
+        "health": "re-checked Sep 2, 2026: same as above, no source found",
+        "housing": "re-checked Sep 2, 2026: same as above, no source found",
+        "immigration": "re-checked Sep 2, 2026: same as above, no source found",
+        "taxes": "re-checked Sep 2, 2026: same as above, no source found",
+        "climate": "re-checked Sep 2, 2026: same as above, no source found",
+        "education": "re-checked Sep 2, 2026: same as above, no source found",
+        "safety": "re-checked Sep 2, 2026: same as above, no source found",
+        "repro": "re-checked Sep 2, 2026: same as above, no source found",
+        "democracy": "re-checked Sep 2, 2026: same as above, no source found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -516,9 +516,9 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": null,
         "repro": 1,
         "democracy": null
@@ -531,17 +531,23 @@
         "repro": {
           "label": "'Life begins at conception and must be protected ... it should be prohibited in all but the most exceptional circumstances,' with exceptions for maternal health, rape, or incest and deference to states post-Dobbs (campaign site)",
           "url": "https://carl4congress.com/position-on-life-and-abortion/"
+        },
+        "taxes": {
+          "label": "Campaign site: blames the $38.5 trillion national debt on Congress's inability to control spending rather than a lack of revenue, proposing zero-based budgeting and a balanced budget amendment (Carl Boyanton for Congress)",
+          "url": "https://carl4congress.com/position-on-federal-budget/"
+        },
+        "education": {
+          "label": "Campaign site: schools should prioritize proven basics over divisive ideologies, pledging to empower parents, teachers, and local communities to reclaim education from federal overreach (Carl Boyanton for Congress)",
+          "url": "https://carl4congress.com/excellence-in-education/"
         }
       },
       "nullNotes": {
-        "cost": "campaign site lists 'Federal Budget' as a policy area but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
-        "health": "checked campaign site's policy-page list (Education, Student Debt, Political Reform, Federal Budget, Fraud/Waste/Abuse, Life & Abortion, Term Limits, Immigration); no healthcare page exists (checked Aug 29, 2026)",
-        "housing": "checked campaign site's policy-page list; no housing page exists (checked Aug 29, 2026)",
-        "taxes": "the 'Federal Budget' page did not return fetchable content beyond its topic label (checked Aug 29, 2026)",
-        "climate": "checked campaign site's policy-page list; no climate/energy page exists (checked Aug 29, 2026)",
-        "education": "site lists an education page ('Restoring Excellence in Education') but the linked detail page did not return fetchable content beyond the topic label (checked Aug 29, 2026)",
-        "safety": "checked campaign site's policy-page list; no crime/policing page exists distinct from the immigration-enforcement content already scored (checked Aug 29, 2026)",
-        "democracy": "site lists 'Term Limits' and 'The Two-Party Mirage' government-reform pages, which address congressional structure, not voting-registration/ID rules (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: the Federal Budget page is now fetchable but addresses the national debt and spending discipline, not consumer prices or wages, so it does not establish the cost axis",
+        "health": "re-checked Sep 2, 2026: checked full policy-page list again (Education, Student Debt, Political Reform, Federal Budget, Fraud/Waste/Abuse, Life & Abortion, Term Limits, Immigration), still no healthcare page",
+        "housing": "re-checked Sep 2, 2026: still no housing page among the site's policy pages",
+        "climate": "re-checked Sep 2, 2026: still no climate/energy page among the site's policy pages",
+        "safety": "re-checked Sep 2, 2026: still no dedicated crime/policing page distinct from the immigration-enforcement content already scored",
+        "democracy": "re-checked Sep 2, 2026: Term Limits and The Two-Party Mirage pages address congressional structure and term limits, not voting-registration or ID rules"
       },
       "curatedAt": "2026-08-29"
     },
@@ -616,11 +622,11 @@
         }
       },
       "nullNotes": {
-        "housing": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-        "immigration": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-        "taxes": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-        "climate": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented",
-        "repro": "checked campaign issues page and WLOX campaign-launch coverage, nothing documented"
+        "housing": "re-checked Sep 2, 2026: campaign issues page's six planks (The Economy, Quality Education, Affordable Healthcare, Criminal Justice Reform, Social Justice, National Security) contain no housing plank",
+        "immigration": "re-checked Sep 2, 2026: same six-plank issues page, no immigration plank",
+        "taxes": "re-checked Sep 2, 2026: same six-plank issues page, no tax plank",
+        "climate": "re-checked Sep 2, 2026: same six-plank issues page, no climate plank",
+        "repro": "re-checked Sep 2, 2026: same six-plank issues page, no abortion or reproductive-rights plank"
       },
       "curatedAt": "2026-08-29"
     },
@@ -729,7 +735,7 @@
         "immigration": null,
         "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": null,
         "democracy": null
@@ -746,16 +752,19 @@
         "safety": {
           "label": "'We lock up more of our people than any nation ... and refuse to fund reentry and substance abuse programs' (Mississippi Free Press interview)",
           "url": "https://www.mississippifreepress.org/democrat-cliff-johnson-vows-to-fight-for-vulnerable-mississippians-in-run-for-congress-against-trent-kelly/"
+        },
+        "education": {
+          "label": "Candidate Connection survey: high quality local public schools are key to personal success and community economic development, our schools lack the support they need to thrive (Ballotpedia)",
+          "url": "https://ballotpedia.org/Cliff_Johnson_(Mississippi)"
         }
       },
       "nullNotes": {
-        "cost": "checked MPB and Mississippi Free Press coverage; 'affordability' is named as a priority with no price/wage mechanism stated (checked Aug 29, 2026)",
-        "housing": "checked MPB and Mississippi Free Press coverage, nothing documented",
-        "immigration": "checked MPB and Mississippi Free Press coverage, nothing documented",
-        "climate": "checked MPB and Mississippi Free Press coverage, nothing documented",
-        "education": "checked MPB and Mississippi Free Press coverage, nothing documented",
-        "repro": "checked MPB and Mississippi Free Press coverage; a civil-rights-attorney background is noted but no direct abortion statement found",
-        "democracy": "fact-check flag verified Aug 29, 2026: neither cited mpbonline article nor the mississippifreepress profile contains any statement on voting rights/elections; Ballotpedia's 'Democracy Matters' passage addresses institutional/separation-of-powers concerns, not the voting-access axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Candidate Connection survey says out-of-control prices and stagnant wages are devastating working Mississippians, citing groceries, housing, childcare, health care, and utilities, but names no price-cap, subsidy, minimum-wage, or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: same survey answer lists housing among rising costs with no distinct housing-policy mechanism stated",
+        "immigration": "re-checked Sep 2, 2026: checked Ballotpedia Candidate Connection survey and prior MPB/Mississippi Free Press coverage, nothing documented",
+        "climate": "re-checked Sep 2, 2026: checked Ballotpedia Candidate Connection survey and prior coverage, nothing documented",
+        "repro": "re-checked Sep 2, 2026: checked Ballotpedia Candidate Connection survey and prior coverage, still no direct abortion statement despite his civil-rights-attorney background",
+        "democracy": "re-checked Sep 2, 2026: checked Ballotpedia Candidate Connection survey, still no voting-rights or elections statement"
       },
       "sources": [
         {
@@ -802,7 +811,7 @@
         "taxes": null,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": -2,
         "democracy": -1
       },
@@ -830,13 +839,16 @@
         "democracy": {
           "label": "Voted no on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, which passed 220-208 without him (House roll call 102, Apr 10, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "safety": {
+          "label": "Voted nay on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "questionnaire says families are 'feeling the pressure of rising costs' and calls to 'put people over politics,' with no specific price/wage/deregulation mechanism named (checked Aug 29, 2026)",
-        "housing": "checked Mississippi Free Press questionnaire and house.gov newsletter archive, nothing documented",
-        "taxes": "voted no on H.R.1 (roll call 190), which alone does not establish this axis for a Democrat per the House-incumbent sourcing rule; questionnaire does not address taxes separately (checked Aug 29, 2026)",
-        "safety": "questionnaire says 'public safety requires lawful enforcement, respect for civil rights, and consequences,' too balanced/generic to place on the prevention-vs-enforcement axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Mississippi Free Press questionnaire says families are feeling the pressure of rising costs and cites Medicaid expansion returning federal tax dollars, but states no price-cap, subsidy, minimum-wage, or deregulation mechanism",
+        "housing": "re-checked Sep 2, 2026: checked Mississippi Free Press questionnaire again in full, still not addressed",
+        "taxes": "re-checked Sep 2, 2026: voted no on H.R.1 (roll 190), which alone does not establish this axis for a Democrat; questionnaire still does not address taxes separately"
       },
       "sources": [
         {
@@ -957,14 +969,14 @@
       "home": null,
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -979,16 +991,25 @@
         "democracy": {
           "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "his campaign site's Issues page (michaelguest.ms/issues) returned a 404, and guest.house.gov's Issues page contains only office contact information with no topic pages; news search found nothing beyond routine appropriations (checked Aug 29, 2026)",
-        "health": "same dead-end as above: no fetchable issues page or campaign statement found (checked Aug 29, 2026)",
-        "housing": "same dead-end as above (checked Aug 29, 2026)",
-        "climate": "same dead-end as above (checked Aug 29, 2026)",
-        "education": "same dead-end as above (checked Aug 29, 2026)",
-        "safety": "same dead-end as above; he chairs House Homeland Security but that maps to the immigration axis already scored, not a distinct domestic-crime statement (checked Aug 29, 2026)",
-        "repro": "his SBA Pro-Life America scorecard exists but is a third-party aggregator, not his own statement; no fetchable campaign or House-office quote found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: guest.house.gov/issues is a placeholder page listing only office contact links, no policy content; campaign site issues page still unreachable",
+        "housing": "re-checked Sep 2, 2026: same dead end, guest.house.gov/issues has no policy content",
+        "education": "re-checked Sep 2, 2026: same dead end, guest.house.gov/issues has no policy content",
+        "safety": "same dead-end as above; he chairs House Homeland Security but that maps to the immigration axis already scored, not a distinct domestic-crime statement (checked Aug 29, 2026)"
       },
       "sources": [
         {
@@ -1063,10 +1084,10 @@
         }
       },
       "nullNotes": {
-        "climate": "checked campaign issues page and Mississippi Today profile, nothing documented",
-        "education": "checked campaign issues page and Mississippi Today profile, nothing documented",
-        "repro": "checked campaign issues page and Mississippi Today profile, nothing documented",
-        "democracy": "checked campaign issues page and Mississippi Today profile, nothing documented"
+        "climate": "re-checked Sep 2, 2026: campaign issues page's Modernize the Energy Grid plank is about grid resilience, transmission infrastructure, and cybersecurity, not a clean-energy-transition-vs-energy-independence position",
+        "education": "re-checked Sep 2, 2026: checked full issues page topic list (12 planks: Investing in Our People, Improving American Healthcare, The New American Expansion, Free the Small Farmer, Modernize the Energy Grid, International Trade, Immigration Reform, America's Tax System, Peace Through Collaboration with China, Rebuilding Trust in Government, Ending Homelessness in America, Criminal Justice Reform), no dedicated education section exists",
+        "repro": "re-checked Sep 2, 2026: checked full issues page topic list, no abortion or reproductive rights section exists",
+        "democracy": "re-checked Sep 2, 2026: Rebuilding Trust in Government plank addresses judicial independence, Federal Reserve independence, and congressional review of emergency powers, a separation-of-powers position that does not map to the voting-access-vs-safeguards axis"
       },
       "sources": [
         {
@@ -1107,11 +1128,11 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 1,
         "repro": 2,
@@ -1137,14 +1158,20 @@
         "democracy": {
           "label": "'We have to show ID to get on an airplane ... if you want to purchase a firearm, you've got to show your ID. What is the difference in showing your ID for a federal election?' backing the SAVE Act (campaign site; House roll call 102, Apr 10, 2025)",
           "url": "https://www.mikeezell.ms/"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign site's six priorities (values, unborn, law enforcement, military/veterans, America/Mississippi first, border) do not include a cost-of-living or economic plank; no separate statement found (checked Aug 29, 2026)",
-        "health": "checked campaign site and house.gov, nothing documented",
-        "housing": "checked campaign site and house.gov; the site does discuss flood insurance/FEMA floodplain reform, which is disaster-infrastructure policy, not a general housing-affordability mechanism (checked Aug 29, 2026)",
-        "climate": "checked campaign site and house.gov, nothing documented",
-        "education": "checked campaign site and house.gov, nothing documented"
+        "cost": "re-checked Sep 2, 2026: checked mikeezell.ms homepage and all six issue subpages again, only a generic Biden's crippling inflation line with no mechanism, consistent with the prior check",
+        "housing": "re-checked Sep 2, 2026: site's six issue pages remain unchanged (values, unborn, law enforcement, veterans, America/Mississippi first, border); flood insurance content remains disaster-infrastructure policy, not general housing",
+        "education": "re-checked Sep 2, 2026: confirmed no education page exists among the site's six issue subpages"
       },
       "sources": [
         {
@@ -1171,10 +1198,8 @@
         "Orderly, humane immigration reform"
       ],
       "nullNotes": {
-        "cost": "Emphasizes \"bread-and-butter\" jobs/wages messaging generally, no specific price-intervention or deregulation stance found (checked Sep 2, 2026)",
-        "housing": "Mentions past legal work fighting evictions during COVID but states no comprehensive housing-policy position (checked Sep 2, 2026)",
-        "taxes": "No specific tax-rate position found in questionnaire (checked Sep 2, 2026)",
-        "education": "No specific education-policy position found in questionnaire (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site's housing page also names cutting middle class taxes but states no specific price-cap, subsidy, minimum-wage, or deregulation mechanism for the cost axis",
+        "taxes": "re-checked Sep 2, 2026: campaign site's housing page mentions cutting taxes for middle class families, a targeted household tax credit with no broader corporate, high-earner, or across-the-board agenda stated, which per the calibration guide does not fit this axis"
       },
       "id": "fec-S4MS00187",
       "name": "Ty Pinkins",
@@ -1189,11 +1214,11 @@
       "positions": {
         "cost": null,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
         "taxes": null,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": -2,
         "democracy": -2
@@ -1222,6 +1247,14 @@
         "democracy": {
           "label": "Calls for \"independent redistricting commissions to end partisan gerrymandering\" and election reforms protecting \"every eligible American's right to vote\"; has personally litigated gerrymandering cases against SOS and AG (Mississippi Free Press)",
           "url": "https://www.mississippifreepress.org/us-senate-candidate-questionnaire-ty-pinkins-independent/"
+        },
+        "housing": {
+          "label": "Campaign site: ensuring affordable housing that provides safety and essential comforts to Mississippians, plus increasing federal funding for affordable housing (Ty Pinkins for Senate)",
+          "url": "https://www.typinkins.com/issues-1/housing"
+        },
+        "education": {
+          "label": "Candidate Connection survey: will commit to making needed investments in education, including literacy programs, career and technical education, and addressing the teacher shortage (Ballotpedia)",
+          "url": "https://ballotpedia.org/Ty_Pinkins"
         }
       },
       "sources": [

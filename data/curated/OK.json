@@ -284,10 +284,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "health": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no healthcare stance documented; record search also empty (no roll calls from his 2004-2016 Senate service surfaced in fetched sources)",
-        "housing": "his 'no Oklahoman should be taxed out of their home' plank is senior and veteran property tax relief, not a build-versus-protect housing stance; checked campaign site, KOSU, Ballotpedia; record search also empty",
-        "climate": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no energy or climate stance documented; record search also empty (Wikipedia and Ballotpedia list no energy votes from his Senate service)",
-        "democracy": "checked campaign issues page, KOSU launch coverage, Ballotpedia, News9 candidate guide; no election-law stance documented; record search also empty (his individual vote on Oklahoma's 2009 voter ID referral could not be documented in any fetched source)"
+        "health": "re-checked Sep 2, 2026: mikeforok.com has no health care statement",
+        "housing": "re-checked Sep 2, 2026: mikeforok.com states 'Property taxes are forcing families, retirees, and small business owners to make impossible choices' as part of a plan for 'responsibly eliminating the property tax,' this is a taxes-domain plank (already sourced) not a build-versus-protect housing stance, nothing scored",
+        "climate": "re-checked Sep 2, 2026: mikeforok.com has no climate/energy statement",
+        "democracy": "re-checked Sep 2, 2026: mikeforok.com has no voting/elections statement"
       }
     },
     {
@@ -358,11 +358,11 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "her affordability record is the grocery-tax repeal she championed plus unspecified healthcare cost reductions; targeted tax relief without an intervene-or-deregulate mechanism does not fit this axis (checked campaign priorities, KOSU profile, News9 guide); record search also empty",
-        "housing": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty (her 2026 State of the State response agrees 'we need better access to affordable housing' but states no build-or-protect mechanism)",
-        "taxes": "supports 'targeted tax relief for working families' and expanded credits rather than broad cuts or raising taxes on corporations; per calibration, targeted household tax cuts do not fit the axis (News9, campaign priorities); record search also empty (she debated against the 2025 income tax cut while calling for targeted relief protecting the revenue base, still off-axis)",
-        "climate": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty",
-        "democracy": "checked campaign priorities page, KOSU profile, News9 candidate guide; nothing documented; record search also empty (her State of the State response comment on ballot measures is incidental)"
+        "cost": "re-checked Sep 2, 2026: cyndimunson.com issues page lists tax relief and lowering healthcare costs as priorities, neither is a general cost-of-living/price statement distinct from health and taxes, nothing scored",
+        "housing": "re-checked Sep 2, 2026: cyndimunson.com issues page has no housing statement",
+        "taxes": "re-checked Sep 2, 2026: cyndimunson.com issues page repeats 'tax relief for working families' framing already assessed as targeted credits, not a broad direction",
+        "climate": "re-checked Sep 2, 2026: cyndimunson.com issues page has no climate/energy statement",
+        "democracy": "re-checked Sep 2, 2026: cyndimunson.com issues page has no voting/elections statement"
       }
     },
     {
@@ -904,11 +904,11 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "health": "checked campaign website, Ballotpedia (no completed Candidate Connection survey), and a Tulsa Flyer Q&A recap; no stated health care position found (checked Sep 2, 2026)",
-        "housing": "campaign site references a 'Homeowner Bill of Rights for Oklahoma families' with no policy detail; not specific enough to score (checked Sep 2, 2026)",
-        "education": "checked campaign website and news coverage; no stated education position found (checked Sep 2, 2026)",
-        "safety": "checked campaign website and news coverage; no non-immigration public-safety statement found (checked Sep 2, 2026)",
-        "democracy": "checked campaign website, Ballotpedia, and Tulsa Flyer; no voting/elections statement found (checked Sep 2, 2026)"
+        "health": "re-checked Sep 2, 2026: tedfordforcongress.com issues page and Ballotpedia (no completed Candidate Connection survey) have no health care statement",
+        "housing": "re-checked Sep 2, 2026: full survey of tedfordforcongress.com issues page content (immigration enforcement, lower costs, government waste, economic rebuilding, conservative values) has no housing statement",
+        "education": "re-checked Sep 2, 2026: tedfordforcongress.com issues page has no education statement",
+        "safety": "re-checked Sep 2, 2026: tedfordforcongress.com issues page addresses only Second Amendment rights under its 'Defend Faith, Family, and Freedom' section, no non-gun public-safety statement",
+        "democracy": "re-checked Sep 2, 2026: tedfordforcongress.com issues page and Ballotpedia have no voting/elections statement"
       }
     },
     {
@@ -934,9 +934,9 @@
         "cost": null,
         "health": null,
         "housing": -1,
-        "immigration": null,
+        "immigration": 0,
         "taxes": null,
-        "climate": null,
+        "climate": 0,
         "education": -2,
         "safety": null,
         "repro": null,
@@ -950,6 +950,14 @@
         "education": {
           "label": "Wants to 'improve the Department of Education for the United States, not get rid of it,' contrasting with Oklahoma's ranking '49th in education' (Public Radio Tulsa)",
           "url": "https://www.publicradiotulsa.org/local-regional/2025-02-13/tps-board-member-to-run-for-congress-warns-against-spreading-oklahomas-education-policies"
+        },
+        "immigration": {
+          "label": "Site states both 'people who are actively breaking the law should be held accountable' at a secure border and that 'long-term residents who pay taxes, contribute to their communities, and have built their lives here should have a real, accessible path to citizenship' (Croisant for Congress issues page)",
+          "url": "https://www.croisantforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Says 'we need to invest in every type of energy to have a diversified, sustainable, and strong energy economy' while also wanting 'a shifted focus onto environmentally friendly energy' (Croisant for Congress issues page)",
+          "url": "https://www.croisantforcongress.com/issues"
         }
       },
       "sources": [
@@ -974,11 +982,9 @@
       "nullNotes": {
         "cost": "checked campaign website and Black Wall St Times coverage; 'fight to lower costs' is too generic to fix a direction (checked Sep 2, 2026)",
         "health": "checked campaign website and town hall coverage; 'no family should have to choose between paying their bills and getting the care they need' and 'healthcare access' as a priority are too generic to fix a direction (checked Sep 2, 2026)",
-        "immigration": "checked campaign website, Ballotpedia Candidate Connection, and news coverage; no stated position found (checked Sep 2, 2026)",
-        "taxes": "checked campaign website and Candidate Connection survey; no stated position found (checked Sep 2, 2026)",
-        "climate": "checked campaign website and Candidate Connection survey; no stated position found (checked Sep 2, 2026)",
+        "taxes": "re-checked Sep 2, 2026: issues page mentions opposing corporate tax breaks favoring large corporations over small businesses but states no rate or broader direction",
         "safety": "campaign site mentions 'keeping illegal guns off our streets' (a gun stance, excluded from this axis per rule) and vaguely 'protecting both public safety and individual rights'; no clear prevention-vs-enforcement direction (checked Sep 2, 2026)",
-        "repro": "checked campaign website, Ballotpedia Candidate Connection, and news coverage; no stated position found (checked Sep 2, 2026)",
+        "repro": "re-checked Sep 2, 2026: no abortion statement on croisantforcongress.com/issues",
         "democracy": "Candidate Connection survey pledges personal term limits (3 terms) and general government accountability; does not address voting access or election-security rules, so does not fit this axis (checked Sep 2, 2026)"
       }
     },
@@ -1093,9 +1099,9 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -2,
         "safety": null,
@@ -1122,6 +1128,14 @@
         "repro": {
           "label": "Pledges to 'protect women's health care choices' (NonDoc primary preview quoting his Facebook page)",
           "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"
+        },
+        "taxes": {
+          "label": "Campaign platform calls to 'reform the tax system so the wealthy and large corporations pay their fair share,' proposing a corporate rate 'between 21% and 28%' (Brandon Wade for Congress policies page)",
+          "url": "https://brandon4congress.com/policies"
+        },
+        "housing": {
+          "label": "American Dream Act plank would 'allocate $20 billion for permanent supportive housing and services' (Brandon Wade for Congress site)",
+          "url": "https://brandon4congress.com/american-dream-act"
         }
       },
       "sources": [
@@ -1136,11 +1150,9 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "housing": "campaign issues page mentions support for 'housing, nutrition assistance, veterans' services' for vulnerable communities during shutdowns with no detailed housing policy; too generic to score (checked Sep 2, 2026)",
-        "taxes": "campaign issues page references keeping 'tax dollars' in public schools but states no broader tax policy (checked Sep 2, 2026)",
-        "climate": "checked campaign issues page and Ballotpedia; no stated climate or energy position found (checked Sep 2, 2026)",
-        "safety": "campaign issues page references protecting 'public safety' during government shutdowns with no specific policy; too generic to score (checked Sep 2, 2026)",
-        "democracy": "checked campaign issues page and Ballotpedia; no voting/elections position found (checked Sep 2, 2026)"
+        "climate": "re-checked Sep 2, 2026: brandon4congress.com policies page has no climate/energy statement",
+        "safety": "re-checked Sep 2, 2026: brandon4congress.com policies page has no non-gun public-safety statement",
+        "democracy": "re-checked Sep 2, 2026: brandon4congress.com policies page has no voting/elections statement"
       }
     },
     {
@@ -1220,13 +1232,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1250,6 +1262,14 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "sources": [
@@ -1272,11 +1292,9 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked Ballotpedia, frankdlucas.com, and lucas.house.gov posts; no stated cost-of-living position found (checked Sep 2, 2026)",
-        "health": "checked Ballotpedia and frankdlucas.com; no stated health care position found (checked Sep 2, 2026)",
-        "housing": "checked Ballotpedia and frankdlucas.com; no stated housing position found (checked Sep 2, 2026)",
-        "education": "checked Ballotpedia and frankdlucas.com; no stated education position found (checked Sep 2, 2026)",
-        "safety": "checked Ballotpedia and lucas.house.gov; no stated public-safety/policing position found (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: frankdlucas.com issues page has no cost-of-living statement",
+        "housing": "re-checked Sep 2, 2026: frankdlucas.com issues page has no housing statement",
+        "education": "re-checked Sep 2, 2026: frankdlucas.com issues page has no education statement"
       }
     },
     {
@@ -1332,14 +1350,14 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked Oklahoma Voice voter guide, NonDoc, and GoodParty.org profile; no stated cost-of-living position found (checked Sep 2, 2026)",
-        "immigration": "NonDoc quotes her Facebook page promoting 'immigration reform' with no direction specified; too vague to fix a sign (checked Sep 2, 2026)",
-        "taxes": "checked Oklahoma Voice voter guide and NonDoc; no stated tax position found (checked Sep 2, 2026)",
-        "climate": "checked Oklahoma Voice voter guide and NonDoc; no stated climate/energy position found (checked Sep 2, 2026)",
-        "education": "NonDoc quotes her Facebook page promoting 'education reform' with no direction specified; too vague to fix a sign (checked Sep 2, 2026)",
+        "cost": "re-checked Sep 2, 2026: no additional source found beyond prior Oklahoma Voice/NonDoc/GoodParty.org checks",
+        "immigration": "re-checked Sep 2, 2026: no additional source found beyond the prior vague 'immigration reform' Facebook mention",
+        "taxes": "re-checked Sep 2, 2026: no additional source found",
+        "climate": "re-checked Sep 2, 2026: no additional source found",
+        "education": "re-checked Sep 2, 2026: no additional source found beyond the prior vague 'education reform' Facebook mention",
         "safety": "Oklahoma Voice voter guide notes she 'will not vote to increase defense spending,' which is a military-spending stance, not a domestic policing/prevention stance, so it does not fit this axis (checked Sep 2, 2026)",
-        "repro": "checked Oklahoma Voice voter guide, NonDoc, and GoodParty.org profile; no stated abortion position found (checked Sep 2, 2026)",
-        "democracy": "checked Oklahoma Voice voter guide and NonDoc; no voting/elections position found (checked Sep 2, 2026)"
+        "repro": "re-checked Sep 2, 2026: no additional source found",
+        "democracy": "re-checked Sep 2, 2026: no additional source found"
       }
     },
     {
@@ -1452,8 +1470,8 @@
         "health": -1,
         "housing": null,
         "immigration": -2,
-        "taxes": null,
-        "climate": null,
+        "taxes": 1,
+        "climate": -1,
         "education": -2,
         "safety": -2,
         "repro": null,
@@ -1479,6 +1497,14 @@
         "safety": {
           "label": "Aims to 'reduce the rate of incarceration in Oklahoma' and 'focus on rehabilitation, not just punishment' (Ballotpedia Candidate Connection)",
           "url": "https://ballotpedia.org/Mitchell_Jacob"
+        },
+        "climate": {
+          "label": "Says 'we can shutter coal plants, keep gas plants in reserve, and increase our reliance on wind energy without sacrificing reliability' (Mitchell Jacob for Congress issues page)",
+          "url": "https://mitchelljacob.com/issues"
+        },
+        "taxes": {
+          "label": "Candidate Connection survey proposes exempting new small businesses from corporate taxes and supports 'lowering individual taxes' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Mitchell_Jacob"
         }
       },
       "sources": [
@@ -1497,11 +1523,9 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "housing": "campaign website lists shelter as a basic need alongside wages and health care with no detailed housing policy; too generic to score (checked Sep 2, 2026)",
-        "taxes": "Candidate Connection survey proposes exempting new small businesses from corporate taxes for five years or under $500,000 revenue, and 'lowering individual taxes'; a narrow small-business carve-out plus general individual cuts does not fit a clear raise-on-corporations-vs-cut-across-the-board read (checked Sep 2, 2026)",
-        "climate": "checked campaign website and Ballotpedia Candidate Connection; no stated climate/energy position found (checked Sep 2, 2026)",
-        "repro": "checked campaign website and Ballotpedia Candidate Connection; no stated abortion position found (checked Sep 2, 2026)",
-        "democracy": "Candidate Connection survey urges supporters to register to vote, a GOTV appeal rather than a stance on voting-access or election-security rules; does not fit this axis (checked Sep 2, 2026)"
+        "housing": "re-checked Sep 2, 2026: mitchelljacob.com issues page mentions only 'home ownership grants for returning veterans,' too narrow to fix a build-versus-protect direction",
+        "repro": "re-checked Sep 2, 2026: no abortion statement on mitchelljacob.com or Ballotpedia",
+        "democracy": "re-checked Sep 2, 2026: only a personal term-limits pledge found, does not address voting access or election rules"
       }
     },
     {
@@ -1583,9 +1607,9 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1609,6 +1633,14 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "sources": [
@@ -1631,11 +1663,9 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked Ballotpedia and bice.house.gov issues page; only a general 2020 mention of prescription-drug costs (folded into health above), no broader cost-of-living position found (checked Sep 2, 2026)",
-        "housing": "checked Ballotpedia and bice.house.gov issues page; no stated housing position found (checked Sep 2, 2026)",
-        "climate": "bice.house.gov lists an 'Energy and Environment' issues section with no detailed statement, and a 2020 mention of infrastructure investment; not specific enough to fix a direction (checked Sep 2, 2026)",
-        "education": "campaign material backs 'funding for vocational schools and training programs' and 'Oklahoma's Promise,' plus 'local control' language on bice.house.gov; workforce/local-control framing does not map cleanly to the public-investment-vs-choice axis (checked Sep 2, 2026)",
-        "safety": "checked Ballotpedia and bice.house.gov issues page; no stated domestic public-safety/policing position found (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia notes Bice has not completed the 2026 Candidate Connection survey, no updated cost statement found",
+        "housing": "re-checked Sep 2, 2026: no housing statement found on Ballotpedia or bice.house.gov",
+        "education": "re-checked Sep 2, 2026: Ballotpedia's only quote is a 2020 statement on post-secondary credentials and career-tech, workforce framing that does not map to the public-schools-vs-choice axis"
       }
     },
     {

@@ -222,12 +222,12 @@
         }
       },
       "nullNotes": {
-        "health": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
-        "housing": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
-        "taxes": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile, and NM Political Report profile, nothing documented",
-        "education": "checked campaign site (education mentioned only as a beneficiary of energy revenue), Ballotpedia, and news profiles, nothing documented",
-        "repro": "checked campaign site, Ballotpedia, Santa Fe New Mexican profile (asked but answer not printed), and NM Political Report profile, nothing documented",
-        "democracy": "checked campaign site, Ballotpedia, and NM Political Report profile (documents association with 2020 election conspiracy events but no policy statement by Marker), nothing scoreable"
+        "health": "re-checked Sep 2, 2026: fetched larrymarker.com fresh, site covers only energy independence, border security, and agriculture; healthcare not addressed",
+        "housing": "re-checked Sep 2, 2026: larrymarker.com does not address housing",
+        "taxes": "re-checked Sep 2, 2026: larrymarker.com does not address tax policy",
+        "education": "re-checked Sep 2, 2026: the only education line ('protect the education funding families rely on') sits under the energy-independence page and is framed as a beneficiary of energy revenue, not a public-schools-vs-choice policy stance",
+        "repro": "re-checked Sep 2, 2026: larrymarker.com does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: larrymarker.com does not address voting or elections"
       },
       "controversies": [
         {
@@ -776,7 +776,7 @@
         "climate": -1,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -799,14 +799,17 @@
         "democracy": {
           "label": "Voted Nay on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked teresaforall.com/issues, not addressed (checked Aug 29, 2026)",
-        "housing": "checked teresaforall.com/issues, not addressed (checked Aug 29, 2026)",
-        "taxes": "voted No on H.R. 1 (roll 190) which alone does not establish the axis for a Democrat; no separate tax statement found (checked Aug 29, 2026)",
-        "safety": "issues page frames public safety only via gun violence, which the guide excludes from this axis (checked Aug 29, 2026)",
-        "repro": "checked teresaforall.com/issues, not addressed in fetched content (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched teresaforall.com/issues fresh, cost of living not addressed",
+        "housing": "re-checked Sep 2, 2026: teresaforall.com/issues does not address housing; 'helped families afford a home of their own' is biographical, not a policy mechanism",
+        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190) which alone does not establish the axis for a Democrat per guide rule; no separate tax statement found on teresaforall.com/issues",
+        "safety": "re-checked Sep 2, 2026: voted no on H.R.4922, the D.C. CRIMES Act (clerk.house.gov roll 270, Sept 16, 2025); per rollbook this no vote reflects a home-rule/federalism objection for most Democratic no-voters, not a documented prevention-vs-enforcement position, so it does not establish the axis alone; no separate statement found on teresaforall.com/issues"
       },
       "sources": [
         {

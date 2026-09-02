@@ -362,11 +362,11 @@
         }
       },
       "nullNotes": {
-        "health": "no documented position found on campaign site (checked Aug 29, 2026)",
-        "housing": "no documented position found on campaign site (checked Aug 29, 2026)",
-        "education": "no documented position found on campaign site (checked Aug 29, 2026)",
-        "repro": "no documented position found on campaign site (checked Aug 29, 2026)",
-        "democracy": "no documented position found on campaign site (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: tonyaforcongress.com homepage covers fiscal policy (abolish IRS/Fair Tax), business deregulation, Second Amendment, government accountability, no healthcare statement",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found",
+        "repro": "re-checked Sep 2, 2026: same source, no abortion/reproductive-rights statement found",
+        "democracy": "re-checked Sep 2, 2026: same source, no voting/elections statement found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -499,10 +499,10 @@
         }
       },
       "nullNotes": {
-        "cost": "statements found were about federal debt/spending (used for taxes axis), no separate consumer-price position (checked Aug 29, 2026)",
-        "housing": "no housing statement found on Ballotpedia or campaign site (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found; page covers crypto policy instead (checked Aug 29, 2026)",
-        "democracy": "no voting/elections statement found on Ballotpedia or campaign site; not in the 119th Congress so no relevant roll-call vote (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: gomarlin.com/issues covers economy/inflation, border security, education, government transparency, abortion, guns, healthcare, medical freedom, law enforcement, informed consent, tech; economy plank is about the tax system not a consumer-price mechanism",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "climate": "re-checked Sep 2, 2026: same source, no climate/energy statement found",
+        "democracy": "re-checked Sep 2, 2026: same source, no voting/elections statement found; not in the 119th Congress so no relevant roll-call vote"
       },
       "curatedAt": "2026-08-29"
     },
@@ -531,9 +531,9 @@
         "housing": null,
         "immigration": null,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -1
       },
@@ -549,16 +549,22 @@
         "democracy": {
           "label": "Voted no on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate, breaking from most of his own caucus (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign issues page says only he is 'committed to finding bipartisan solutions to lower the cost of living' with no specific mechanism (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign issues page (checked Aug 29, 2026)",
-        "immigration": "not voting on the Laken Riley Act (roll 23); campaign issues page language ('secure, secure and humane') mixes both frames without a clear stance (checked Aug 29, 2026)",
-        "taxes": "voted no on H.R. 1 (roll 190, Jul 3 2025) but that alone does not establish the axis for a Democrat; no independent tax statement found (checked Aug 29, 2026)",
-        "climate": "campaign issues page mixes clean-energy investment with 'energy independence' framing in one sentence, not a clear stance (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign issues page (checked Aug 29, 2026)",
-        "safety": "no public-safety statement found on campaign issues page (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: mrvan.house.gov and mrvanforcongress.com issues pages state only he is 'committed to finding bipartisan solutions to lower the cost of living' with no specific mechanism; a new insulin/Medicare Part D price-cap statement found is healthcare-specific (health axis, already sourced), not a general cost-of-living mechanism",
+        "housing": "re-checked Sep 2, 2026: no housing statement found on house.gov or campaign issues pages",
+        "immigration": "re-checked Sep 2, 2026: not voting on the Laken Riley Act (roll 23); no independent statement found beyond mixed 'secure, secure and humane' language",
+        "taxes": "re-checked Sep 2, 2026: voted no on H.R.1 (roll 190) but a Democrat's no vote alone does not establish the taxes axis; no independent statement found",
+        "education": "re-checked Sep 2, 2026: house.gov lists him as 'active supporter of public schools, teachers, and students' and a former Education and Workforce Committee member, but this is generic supportive language with no specific funding-mechanism or choice-vs-public statement"
       },
       "sources": [
         {
@@ -653,14 +659,14 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
         "safety": 1,
-        "repro": null,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -683,14 +689,20 @@
         "democracy": {
           "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign site homepage has no specific cost-of-living mechanism beyond general 'fiscal responsibility' language (checked Aug 29, 2026)",
-        "health": "no healthcare statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign site or Ballotpedia (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: rudyforindiana.com homepage states general 'limited government, fiscal responsibility, deregulation' philosophy with no specific consumer-price mechanism named",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found"
       },
       "sources": [
         {
@@ -763,11 +775,11 @@
       },
       "nullNotes": {
         "housing": "campaign site mentions housing costs only as a hardship example, no specific housing policy (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found; Ballotpedia notes no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "safety": "no public-safety statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "democracy": "no voting/elections statement found on campaign site or Ballotpedia (checked Aug 29, 2026)"
+        "climate": "re-checked Sep 2, 2026: decioforcongress.com homepage covers cost of living, AI data centers, healthcare, immigration, no distinct climate/energy statement",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found",
+        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found",
+        "repro": "re-checked Sep 2, 2026: same source, no abortion/reproductive-rights statement found",
+        "democracy": "re-checked Sep 2, 2026: same source, no voting/elections statement found"
       },
       "sources": [
         {
@@ -835,12 +847,12 @@
         }
       },
       "nullNotes": {
-        "health": "campaign site lists a healthcare policy page but no specific position text was retrievable (checked Aug 29, 2026)",
-        "housing": "campaign site lists housing among priorities with no specific policy text retrievable (checked Aug 29, 2026)",
-        "immigration": "no immigration statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
+        "health": "re-checked Sep 2, 2026: kellythompsonforcongress.com homepage lists healthcare as a top priority heading with no detailed position; /healthcare subpage 404'd",
+        "housing": "re-checked Sep 2, 2026: 'Housing in the Heartland' listed as a priority heading with no detailed position; /housing subpage 404'd",
+        "immigration": "re-checked Sep 2, 2026: no immigration statement found on homepage",
         "taxes": "'better tax structure' language used for the cost axis per the one-sentence-one-axis rule; no separate raise-vs-cut tax statement found (checked Aug 29, 2026)",
-        "education": "campaign site lists an education/childcare policy page but no specific position text was retrievable (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found; only mentions past jail-ministry volunteering (checked Aug 29, 2026)"
+        "education": "re-checked Sep 2, 2026: 'Education and Childcare' listed as a priority heading with no detailed position",
+        "safety": "re-checked Sep 2, 2026: no public-safety statement found on homepage"
       },
       "sources": [
         {
@@ -879,14 +891,14 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -901,16 +913,28 @@
         "democracy": {
           "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign site (electjimbaird.com) now redirects to an unrelated organization's site; no other cost statement found (checked Aug 29, 2026)",
-        "health": "no healthcare statement found; Ballotpedia has no completed Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "no housing statement found (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found (checked Aug 29, 2026)",
-        "education": "no education statement found (checked Aug 29, 2026)",
-        "safety": "no public-safety statement found (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site (electjimbaird.com) still redirects to an unrelated organization's site; no other cost statement found",
+        "housing": "re-checked Sep 2, 2026: same limitation, no housing statement found",
+        "education": "re-checked Sep 2, 2026: same limitation, no education statement found"
       },
       "sources": [
         {
@@ -978,12 +1002,12 @@
         }
       },
       "nullNotes": {
-        "cost": "no separate cost-of-living statement beyond housing/healthcare specifics already scored on those axes (checked Aug 29, 2026)",
-        "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign site (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
-        "democracy": "campaign site proposes uncapping House seats, which is about apportionment rather than voting access and does not fit this axis (checked Aug 29, 2026)",
-        "repro": "fact-check flag verified Aug 29, 2026: checked drewcox.org homepage in full, /platform (404), and /issues (404); no abortion or reproductive-rights content found."
+        "cost": "re-checked Sep 2, 2026: drewcox.org homepage covers campaign finance reform, workers' rights, healthcare, veterans headings only, no cost-of-living statement beyond what is already scored on housing/healthcare axes",
+        "immigration": "re-checked Sep 2, 2026: same source, no immigration statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found",
+        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found",
+        "democracy": "re-checked Sep 2, 2026: campaign site's House-seat-uncapping proposal is about apportionment, not voting access, and still does not fit this axis",
+        "repro": "re-checked Sep 2, 2026: fact-check flag re-verified Sep 2, 2026: drewcox.org homepage, /platform, and /issues still show no abortion or reproductive-rights statement"
       },
       "sources": [
         {
@@ -1017,14 +1041,14 @@
         "Border security and legal-immigration reform"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1052,13 +1076,22 @@
         "repro": {
           "label": "Supports protecting 'the sanctity of all human life' (campaign site)",
           "url": "https://www.spartzforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Backs limiting executive-branch regulatory power to support free enterprise, under a 'Business Regulations' plank (spartzforcongress.com/issues)",
+          "url": "https://www.spartzforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign issues page has no separate consumer cost-of-living statement (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign issues page (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign issues page (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign issues page (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: spartzforcongress.com/issues covers Constitution, spending/debt, immigration, defense, healthcare, education, transparency, regulations, term limits, no housing statement"
       },
       "sources": [
         {
@@ -1175,11 +1208,11 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 1,
         "repro": 1,
@@ -1205,14 +1238,20 @@
         "repro": {
           "label": "Campaign site issue pillar 'protect the unborn' (campaign site)",
           "url": "https://teamshreve.com/"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign site lists a 'Make Life Affordable' issue heading with no elaborated mechanism (checked Aug 29, 2026)",
-        "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign site (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: shreveforcongress.com/issues 'Government Spending & Inflation' plank promises a balanced budget and reduced spending with no consumer-price mechanism named",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found"
       },
       "sources": [
         {
@@ -1276,12 +1315,12 @@
         }
       },
       "nullNotes": {
-        "cost": "no cost-of-living statement beyond a general 'Support Working Families' heading (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
-        "immigration": "no immigration statement found on campaign site (checked Aug 29, 2026)",
-        "taxes": "no tax statement found on campaign site (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
-        "democracy": "no voting/elections statement found on campaign site (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: wirth4congress.com homepage lists 'Support Working Families,' 'Strengthen Public Education,' 'Improve Access to Affordable Healthcare,' and 'Protect Our Environment' as priority headings with no detailed text; no cost-of-living statement",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "immigration": "re-checked Sep 2, 2026: same source, no immigration statement found",
+        "taxes": "re-checked Sep 2, 2026: same source, no tax statement found",
+        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found",
+        "democracy": "re-checked Sep 2, 2026: same source, no voting/elections statement found",
         "repro": "fact-check flag verified Aug 29, 2026: checked wirth4congress.com homepage, /priorities (404), and /reproductive-freedom (404); no reproductive-freedom or abortion content found."
       },
       "sources": [
@@ -1405,13 +1444,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1431,15 +1470,24 @@
         "repro": {
           "label": "Says he is 'PRO-LIFE' and cites work on 'the most protective Pro-Life legislation in the nation since Roe v. Wade was overturned' (Ballotpedia, citing campaign material)",
           "url": "https://ballotpedia.org/Mark_Messmer"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "no cost-of-living statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "health": "no healthcare statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "education": "no education statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "safety": "no general public-safety/policing statement found beyond the immigration-related enforcement material already scored on that axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: markmessmer.com/issues covers pro-life, cryptocurrency, Israel, border security, no cost-of-living statement",
+        "housing": "re-checked Sep 2, 2026: same source, no housing statement found",
+        "education": "re-checked Sep 2, 2026: same source, no education statement found"
       },
       "sources": [
         {
@@ -1515,10 +1563,10 @@
         }
       },
       "nullNotes": {
-        "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
-        "democracy": "campaign site calls for overturning Citizens United, banning congressional stock trading, and term limits, which are ethics/campaign-finance positions that do not fit this voting-access axis (checked Aug 29, 2026)",
-        "taxes": "fact-check flag verified Aug 29, 2026: checked maryallenforcongress.com/priorities, /issues (404), /platform (404); only incidental mention is 'tax cuts for billionaires' inside the Public Education funding section, not a standalone tax-policy position."
+        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found",
+        "repro": "re-checked Sep 2, 2026: same source, no abortion/reproductive-rights statement found",
+        "democracy": "re-checked Sep 2, 2026: campaign site calls for overturning Citizens United, banning congressional stock trading, and term limits, which are ethics/campaign-finance reforms, not voting-access rules, and still do not fit this axis",
+        "taxes": "re-checked Sep 2, 2026: fact-check flag re-verified Sep 2, 2026: maryallenforcongress.com homepage shows only 'economic development' and 'local solutions' language, no raise-vs-cut tax statement"
       },
       "sources": [
         {
@@ -1552,12 +1600,12 @@
         "Parental control of education"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 2,
         "safety": 2,
         "repro": 2,
@@ -1587,13 +1635,22 @@
         "democracy": {
           "label": "Voted yes on H.R. 22, the SAVE Act proof-of-citizenship voting bill, Apr 10 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "cost": {
+          "label": "Job Creation plank promotes getting 'government out of the way' for small businesses, supporting tax cuts and free markets (erinhouchin.com/issues)",
+          "url": "https://www.erinhouchin.com/issues"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
-        "cost": "no cost-of-living statement found beyond general tax/spending language already scored on the taxes axis (checked Aug 29, 2026)",
-        "health": "no healthcare statement found on campaign site (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign site (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: erinhouchin.com/issues covers border security, Israel, government spending, abortion, conservative values, parental rights, veterans, law and order, job creation, Second Amendment, no housing statement"
       },
       "sources": [
         {
@@ -1661,12 +1718,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "campaign site says only he wants 'an immigration system that works and respects the dignity of work,' too vague to place on either side (checked Aug 29, 2026)",
-        "taxes": "'fair taxes' is mentioned only alongside wages with no specific raise-vs-cut mechanism, scored under cost instead (checked Aug 29, 2026)",
-        "climate": "no climate/energy statement found on campaign site (checked Aug 29, 2026)",
-        "safety": "no public-safety/policing statement found on campaign site (checked Aug 29, 2026)",
-        "repro": "no abortion/reproductive-rights statement found on campaign site (checked Aug 29, 2026)",
-        "democracy": "campaign site references a 'Democracy' policy page but no specific position text was retrievable (checked Aug 29, 2026)"
+        "immigration": "re-checked Sep 2, 2026: bradmeyer.org homepage still says only he wants 'an immigration system that works and respects the dignity of work,' too vague to place on either side",
+        "taxes": "re-checked Sep 2, 2026: 'fighting for higher wages and fair taxes' bundles wages and taxes in one sentence, per the one-sentence-one-axis rule this stays scored under cost (already sourced), no separate tax-specific statement",
+        "climate": "re-checked Sep 2, 2026: 'Environment' listed as a navigation heading only, no stated position",
+        "safety": "re-checked Sep 2, 2026: no public-safety/policing statement found",
+        "repro": "re-checked Sep 2, 2026: no abortion/reproductive-rights statement found",
+        "democracy": "re-checked Sep 2, 2026: 'Democracy' listed as a navigation heading only, no stated position text retrievable"
       },
       "sources": [
         {

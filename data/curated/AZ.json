@@ -432,14 +432,14 @@
         }
       },
       "nullNotes": {
-        "health": "No healthcare position on campaign issues page or in Arizona Mirror/KYMA coverage (checked Sep 2, 2026).",
-        "housing": "No housing position found on campaign site or in press coverage (checked Sep 2, 2026).",
-        "immigration": "No immigration position found on campaign site or in press coverage (checked Sep 2, 2026).",
-        "taxes": "No tax position found on campaign site or in press coverage (checked Sep 2, 2026).",
-        "education": "Arizona Mirror interview quotes her wanting 'meaningful changes' to education, homelessness, and the prison system but gives no specific direction toward public investment or school choice (checked Sep 2, 2026).",
-        "safety": "Issues page's 'Peace' plank addresses militarism, foreign wars, and weapons of mass destruction, not domestic public safety policy, so left null (checked Sep 2, 2026).",
-        "repro": "No abortion position found on campaign site or in press coverage (checked Sep 2, 2026).",
-        "democracy": "Issues page calls for public financing of elections, open debates, and 'more representative voting systems' but does not address voting access rules like registration or mail voting that the axis tracks (checked Sep 2, 2026)."
+        "health": "re-checked Sep 2, 2026: fetched risalombardo.com/issues/ fresh and Ballotpedia (no Candidate Connection survey completed), healthcare not addressed",
+        "housing": "re-checked Sep 2, 2026: fetched risalombardo.com/issues/ fresh, housing not addressed",
+        "immigration": "re-checked Sep 2, 2026: fetched risalombardo.com/issues/ fresh, immigration not addressed",
+        "taxes": "re-checked Sep 2, 2026: fetched risalombardo.com/issues/ fresh, tax policy not addressed",
+        "education": "re-checked Sep 2, 2026: issues page still gives no specific policy direction beyond wanting 'meaningful changes' to education; Ballotpedia has no Candidate Connection survey",
+        "safety": "re-checked Sep 2, 2026: issues page's public-safety-adjacent language is the Peace plank on demilitarization and eliminating weapons of mass destruction, not domestic policing/crime policy",
+        "repro": "re-checked Sep 2, 2026: fetched risalombardo.com/issues/ fresh and Ballotpedia (no Candidate Connection survey), abortion not addressed",
+        "democracy": "re-checked Sep 2, 2026: issues page still only calls for public financing of elections, open debates, and 'more representative voting systems,' none of which states a position on voter ID or expanded voting access"
       },
       "curatedAt": "2026-09-02"
     },
@@ -485,11 +485,11 @@
         "health": 1,
         "housing": -1,
         "immigration": null,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": 1,
-        "safety": null,
-        "repro": null,
+        "safety": 0,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -508,15 +508,24 @@
         "education": {
           "label": "Said she differs from Gov. Hobbs by supporting 'keeping Arizona's expanded school voucher program in place while also looking for ways to improve the state's public school system' (KJZZ)",
           "url": "https://www.kjzz.org/politics/2026-07-24/underdog-candidate-bests-well-funded-opponent-in-arizonas-first-no-labels-gubernatorial-primary"
+        },
+        "taxes": {
+          "label": "Tax page says 'Tax increases should be a last resort, not a solution to poor financial management' and calls for reducing the tax burden on Arizona families, homeowners, retirees, and small businesses (teriann4azgov.org).",
+          "url": "https://teriann4azgov.org/az-taxes"
+        },
+        "repro": {
+          "label": "Abortion page pledges to preserve Arizona's current abortion laws, saying she 'will not seek to overturn the abortion laws that Arizonans have approved at the ballot box' (teriann4azgov.org).",
+          "url": "https://teriann4azgov.org/abortion-law-1"
+        },
+        "safety": {
+          "label": "Courts and prisons page says minors 'should be held accountable' and backs prosecuting some as adults, while also stating 'accountability and rehabilitation can work together' through expanded job training, substance abuse treatment, mental health services, and reentry programs (teriann4azgov.org).",
+          "url": "https://teriann4azgov.org/courts-prisons"
         }
       },
       "nullNotes": {
-        "immigration": "Campaign site says only that she supports 'ensuring an effective legal immigration process,' without stating enforcement-first or pathway direction (checked Sep 2, 2026).",
-        "taxes": "Fuel-price oversight and public-servant rebates are targeted relief measures, not a stated broader tax-rate position (checked Sep 2, 2026).",
-        "climate": "Campaign site discusses only water conservation and water security, not energy policy (checked Sep 2, 2026).",
-        "safety": "Only stated position is removing homeless encampments while providing shelters and resources, which is homelessness policy, not domestic crime enforcement or prevention policy (checked Sep 2, 2026).",
-        "repro": "No abortion position found on campaign site or in KJZZ/Arizona Capitol Times coverage (checked Sep 2, 2026).",
-        "democracy": "No voting or election-rules position found on campaign site or in press coverage (checked Sep 2, 2026)."
+        "immigration": "re-checked Sep 2, 2026: immigration-border-security page still only says 'ensuring an effective legal immigration process' with no enforcement-first or pathway direction stated",
+        "climate": "re-checked Sep 2, 2026: no climate/energy issues page found among listed subpages, site addresses only water security",
+        "democracy": "re-checked Sep 2, 2026: no dedicated voting/elections subpage found among listed issue links; tried teriann4azgov.org/election-integrity guess, page returned a 429 rate limit"
       },
       "curatedAt": "2026-09-02"
     },
@@ -574,11 +583,11 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign issues page mentions rolling back tariffs for affordability but names no cap/deregulation mechanism; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "Campaign issues page only references past work to make housing \"more affordable\" with no specific policy direction; Ballotpedia checked, nothing further (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "taxes": "Campaign page only cites past state-legislature middle-class tax cuts with no broader agenda stated, does not meet axis threshold; Ballotpedia checked (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched amishforarizona.com/issues fresh, only mechanism named is rolling back tariffs, no cap or deregulation mechanism stated",
+        "housing": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address housing",
+        "immigration": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address immigration",
+        "taxes": "re-checked Sep 2, 2026: issues page only cites past state-legislature middle-class tax cuts from his State House record, no broader federal tax agenda stated",
+        "climate": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address climate or energy policy"
       },
       "sources": [
         {
@@ -638,14 +647,14 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign homepage has no dedicated issues/platform page covering this axis; nothing found on Ballotpedia (checked Aug 29, 2026)",
-        "health": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "housing": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "climate": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "education": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "safety": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "repro": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)",
-        "democracy": "No campaign site or Ballotpedia coverage found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched monicaalponteaz.com fresh, no dedicated issue subpages exist; platform covers only foreign policy/non-interventionism, abolishing the IRS and Fed reform, border security, Second Amendment, free speech, and HOA governance",
+        "health": "re-checked Sep 2, 2026: monicaalponteaz.com does not address healthcare",
+        "housing": "re-checked Sep 2, 2026: monicaalponteaz.com does not address housing",
+        "climate": "re-checked Sep 2, 2026: monicaalponteaz.com does not address climate or energy",
+        "education": "re-checked Sep 2, 2026: monicaalponteaz.com does not address education",
+        "safety": "re-checked Sep 2, 2026: monicaalponteaz.com does not address public safety/policing",
+        "repro": "re-checked Sep 2, 2026: monicaalponteaz.com does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: monicaalponteaz.com does not address voting or elections"
       },
       "sources": [
         {
@@ -709,12 +718,12 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign issues page only says he'll \"bring the cost of living down\" with no stated mechanism; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "housing": "Campaign page references the \"American Dream\" of homeownership with no policy specifics; Ballotpedia checked (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign issues page; Ballotpedia Candidate Connection survey not completed (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched jayfeelyforcongress.com/issues fresh, cost of living line ('bring the cost of living down') still states no mechanism",
+        "health": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address healthcare",
+        "housing": "re-checked Sep 2, 2026: housing line ('that dream has slipped further out of reach') states no policy mechanism",
+        "education": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address education",
+        "repro": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues does not address voting or elections"
       },
       "sources": [
         {
@@ -753,13 +762,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -787,13 +796,19 @@
         "democracy": {
           "label": "Voted yes on H.R. 22 SAVE Act proof-of-citizenship voting bill (roll 102, Apr 10, 2025) (clerk.house.gov)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yea on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "Campaign issues page only says he is working to \"lower costs\" with no stated mechanism beyond the tax-cut mention already scored under taxes (checked Aug 29, 2026)",
-        "health": "Campaign page mentions healthcare access for veterans generally and opposition to vaccine/mask mandates, neither of which establishes the public-vs-private-role axis; Ballotpedia checked, no Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched eliforarizona.com/issues/ and crane.house.gov/issues fresh, Economy section still only says cut taxes/lower costs/defend jobs with no specific cap or deregulation mechanism beyond the already-scored taxes mention",
+        "housing": "re-checked Sep 2, 2026: fetched eliforarizona.com/issues/ and crane.house.gov/issues fresh, neither addresses housing policy"
       },
       "sources": [
         {
@@ -869,12 +884,12 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign cites fighting inflation and lowering costs on groceries/housing/childcare generically with no specific price-control or deregulation mechanism named; Ballotpedia has no 2026 Candidate Connection survey (checked Aug 29, 2026)",
-        "health": "Campaign lists \"Healthcare that Serves the People\" as a pillar with no policy specifics; Ballotpedia checked (checked Aug 29, 2026)",
-        "housing": "Campaign lists \"Lower Housing and Utility Costs\" as a priority label with no stated policy mechanism (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "climate": "Campaign mentions \"Protect Water Security\" with no specific climate/energy policy; Ballotpedia checked (checked Aug 29, 2026)",
-        "safety": "Campaign lists \"Fight Crime and Protect Arizona\" as a priority label with no policy specifics; Ballotpedia checked (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not state a cost-of-living mechanism",
+        "health": "re-checked Sep 2, 2026: 'Healthcare that Serves the People' remains a section header with no policy specifics",
+        "housing": "re-checked Sep 2, 2026: 'Lower Housing and Utility Costs' remains a section header with no policy specifics",
+        "taxes": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not address tax policy",
+        "climate": "re-checked Sep 2, 2026: jonathannezforaz.com/issues does not address climate or energy",
+        "safety": "re-checked Sep 2, 2026: 'Fight Crime and Protect Arizona' remains a section header with no policy specifics"
       },
       "sources": [
         {
@@ -1009,9 +1024,9 @@
         "housing": null,
         "immigration": 1,
         "taxes": null,
-        "climate": null,
+        "climate": -2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -2
       },
@@ -1031,15 +1046,21 @@
         "democracy": {
           "label": "Voted for the John Lewis Voting Rights Advancement Act and the For the People Act; voted no on the SAVE Act (roll 102, Apr 10, 2025) (Stanton campaign; clerk.house.gov)",
           "url": "https://www.stantonforarizona.com/democracy"
+        },
+        "climate": {
+          "label": "Voted no on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.4922, the D.C. CRIMES Act reinstating mandatory-minimum sentences for D.C. youth offenders (clerk.house.gov roll 270, Sept 16, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll270.xml"
         }
       },
       "nullNotes": {
-        "cost": "Economy page only vaguely references CHIPS Act supply-chain effects on consumer costs, no direct cap/deregulation mechanism (checked Aug 29, 2026)",
-        "housing": "Not addressed on any campaign issues sub-page found (water, economy-jobs, democracy, drug-prices, immigration, equality, abortion); Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
-        "taxes": "No vote 190 (H.R. 1) alone does not establish the axis for a Democrat per guide rule; no separate tax statement found on campaign site or Ballotpedia (checked Aug 29, 2026)",
-        "climate": "No dedicated climate/energy issues page found on campaign site; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
-        "education": "Not addressed on any campaign issues sub-page found; Ballotpedia checked (checked Aug 29, 2026)",
-        "safety": "\"Equality\" issue page exists but is a distinct topic from policing/safety; no dedicated safety page found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched stantonforarizona.com (redirects to gregstanton.com) and gregstanton.com/issues fresh, 'Lowering Costs' is a heading only with no mechanism stated",
+        "housing": "re-checked Sep 2, 2026: gregstanton.com and gregstanton.com/issues do not address housing",
+        "taxes": "re-checked Sep 2, 2026: no separate tax statement found on gregstanton.com; vote No on H.R.1 (roll 190) alone does not establish the axis for a Democrat per guide rule",
+        "education": "re-checked Sep 2, 2026: 'Strengthening Education' remains a heading only on gregstanton.com/issues with no policy specifics"
       },
       "sources": [
         {
@@ -1115,12 +1136,12 @@
         }
       },
       "nullNotes": {
-        "health": "Campaign homepage only offers a vague pledge to \"put health and freedoms first\" with no policy mechanism; issues sub-page returned a 404 (checked Aug 29, 2026)",
-        "housing": "Campaign homepage only says he wants \"the next generation to afford a home\" with no policy mechanism stated (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage; issues sub-page returned a 404 (checked Aug 29, 2026)",
-        "safety": "Campaign homepage lists \"keeping our neighborhoods safe\" as a priority label with no policy specifics (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign homepage; issues sub-page returned a 404 (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign homepage; issues sub-page returned a 404 (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: campaign redirects to z4az.com; healthcare quote ('put the health and freedoms of Americans first') names no public-vs-private-role mechanism",
+        "housing": "re-checked Sep 2, 2026: housing quote on z4az.com ('curb foreign investors pricing out families... afford a home') is about foreign investment, not zoning/building/public-housing policy",
+        "climate": "re-checked Sep 2, 2026: z4az.com does not address climate or energy policy",
+        "safety": "re-checked Sep 2, 2026: z4az.com does not address public safety/policing beyond a general 'national security' heading",
+        "repro": "re-checked Sep 2, 2026: z4az.com does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: z4az.com does not address voting or elections"
       },
       "sources": [
         {
@@ -1162,7 +1183,7 @@
         "climate": null,
         "education": -2,
         "safety": null,
-        "repro": null,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -1181,15 +1202,18 @@
         "democracy": {
           "label": "\"Every voice deserves to be heard\" through elections that are \"free and fair\" (Lee campaign)",
           "url": "https://nurselee4az.com/issues"
+        },
+        "repro": {
+          "label": "Issues page lists 'Reproductive freedom & fertility care access' as a stated policy priority (nurselee4az.com/issues).",
+          "url": "https://www.nurselee4az.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "Campaign issues page only says \"it's hard to afford much of anything\" with no stated policy mechanism; no Ballotpedia page found for this candidate (checked Aug 29, 2026)",
-        "housing": "Campaign issues page describes personal hardship with rent but states no housing policy mechanism (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign issues page; no Ballotpedia page found for this candidate (checked Aug 29, 2026)",
-        "climate": "Campaign issues page addresses water scarcity, not energy/climate policy specifically (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign issues page; no Ballotpedia page found for this candidate (checked Aug 29, 2026)",
-        "repro": "Campaign issues page discusses her own path to motherhood via adoption and IVF but states no position on abortion access specifically (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: homepage and issues page still only say cost of living is hard, with no policy mechanism",
+        "housing": "re-checked Sep 2, 2026: issues page says 'Working families shouldn't have to fight this hard just to survive' with no housing policy mechanism",
+        "taxes": "re-checked Sep 2, 2026: no tax policy found on homepage or issues page",
+        "climate": "re-checked Sep 2, 2026: issues page addresses drought/water only ('Arizona's future depends on protecting our water'), not energy policy",
+        "safety": "re-checked Sep 2, 2026: no public safety/policing content found on homepage or issues page"
       },
       "sources": [
         {
@@ -1253,12 +1277,12 @@
         }
       },
       "nullNotes": {
-        "health": "Not addressed on campaign issues page; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign issues page or Ballotpedia (checked Aug 29, 2026)",
-        "democracy": "Campaign site mentions \"election integrity\" only in general terms with no specific policy stated; Ballotpedia has no Candidate Connection survey (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address healthcare",
+        "housing": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address housing",
+        "climate": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address climate or energy",
+        "education": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address education",
+        "repro": "re-checked Sep 2, 2026: marklamb.us and marklamb.us/about do not address abortion",
+        "democracy": "re-checked Sep 2, 2026: 'election integrity' appears only as a theme in interview titles and metadata on marklamb.us; no specific voting policy stated; marklamb.us/issues fetched, same result"
       },
       "sources": [
         {
@@ -1402,16 +1426,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign website found on politics1.com AZ listing; Ballotpedia page robots-blocked on two attempts (checked Aug 29, 2026)",
-        "health": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "housing": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "immigration": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "taxes": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "climate": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "education": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "safety": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "repro": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)",
-        "democracy": "Same as above: no findable campaign site, Ballotpedia robots-blocked (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no campaign website found on politics1.com AZ listing (confirmed again); Ballotpedia page robots-blocked on two more attempts",
+        "health": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "housing": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "immigration": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "taxes": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "climate": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "education": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "safety": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "repro": "re-checked Sep 2, 2026: same as cost, no findable source",
+        "democracy": "re-checked Sep 2, 2026: same as cost, no findable source"
       },
       "sources": [
         {
@@ -1475,11 +1499,11 @@
         }
       },
       "nullNotes": {
-        "housing": "Housing is not listed among her eight campaign issue topics and no dedicated page was found (checked Aug 29, 2026)",
-        "taxes": "Cost-of-living page discusses Child Tax Credit modernization but states no broader tax-rate agenda; no dedicated taxes page found (checked Aug 29, 2026)",
-        "education": "Not listed among her eight campaign issue topics; no dedicated page found (checked Aug 29, 2026)",
-        "repro": "Not listed among her eight campaign issue topics; no dedicated page found (checked Aug 29, 2026)",
-        "democracy": "\"Restoring Trust and Accountability in Government\" page only offers a general mission statement with no specific voting/election policy (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: fetched joannamendoza.com fresh, her eight issue sections (cost of living, economy, healthcare, immigration/border security, environment, oversight/accountability, veterans, national security) still do not include housing",
+        "taxes": "re-checked Sep 2, 2026: her eight issue sections do not include a dedicated tax policy section",
+        "education": "re-checked Sep 2, 2026: her eight issue sections do not include education",
+        "repro": "re-checked Sep 2, 2026: her eight issue sections do not include abortion",
+        "democracy": "re-checked Sep 2, 2026: 'Restoring Trust and Accountability in Government' section still offers only a general mission statement with no specific voting/election policy"
       },
       "sources": [
         {
@@ -1617,14 +1641,14 @@
         }
       },
       "nullNotes": {
-        "cost": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "housing": "Policy page links a \"conservative approach\" to homelessness \"rooted in compassion and accountability\" with no stated mechanism (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign homepage or policy landing page; no Ballotpedia page found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched butierezforcongress.com/policy/ fresh, page addresses only border security, tax simplification for small business, and mining/economic development; cost of living not addressed",
+        "health": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address healthcare",
+        "housing": "re-checked Sep 2, 2026: 'conservative approach' to homelessness 'rooted in compassion and accountability' still states no policy mechanism",
+        "climate": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address climate or energy",
+        "education": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address education",
+        "safety": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address public safety/policing",
+        "repro": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: butierezforcongress.com/policy/ does not address voting or elections"
       },
       "sources": [
         {
@@ -1786,11 +1810,11 @@
         }
       },
       "nullNotes": {
-        "housing": "Campaign issues page only frames housing as a general right to \"be secure, to have a home\" with no stated policy mechanism; no Ballotpedia page found (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign issues page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign issues page; no Ballotpedia page found (checked Aug 29, 2026)",
-        "safety": "Campaign issues page proposes mandatory vehicle inspections against drug trafficking plus addiction treatment, which doesn't cleanly fit either pole of this axis; no Ballotpedia page found (checked Aug 29, 2026)",
-        "democracy": "Campaign issues page proposes congressional term limits, which is about incumbency rather than voting/election rules covered by this axis; no Ballotpedia page found (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: priorities page line 'expand access to affordable housing and responsible homeownership' still states a goal with no build/zoning/public-housing mechanism",
+        "taxes": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address tax policy",
+        "climate": "re-checked Sep 2, 2026: priorities page line 'support responsible energy innovation that creates American jobs' does not indicate either an aggressive-transition or all-of-the-above direction",
+        "safety": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address public safety/policing beyond the vehicle-inspection/drug-trafficking mention already noted",
+        "democracy": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address voting or elections beyond the term-limits mention already noted"
       },
       "sources": [
         {
@@ -1944,13 +1968,13 @@
         }
       },
       "nullNotes": {
-        "cost": "Campaign homepage only says \"working full-time should mean getting ahead, not barely surviving\" with no stated policy mechanism; issues page returned a 404 (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign homepage; issues page returned a 404, no Ballotpedia page found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: sterbinskyforcongress.com cost-of-living quote ('working full-time should mean getting ahead, not barely surviving') still states no mechanism",
+        "immigration": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address immigration among her five issue sections",
+        "taxes": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address tax policy",
+        "climate": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address climate or energy",
+        "safety": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address public safety/policing",
+        "repro": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address abortion",
+        "democracy": "re-checked Sep 2, 2026: sterbinskyforcongress.com does not address voting or elections"
       },
       "sources": [
         {

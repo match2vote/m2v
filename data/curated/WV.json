@@ -211,11 +211,11 @@
       ],
       "curatedAt": "2026-08-14",
       "nullNotes": {
-        "cost": "campaign issues page speaks generally about labor being 'fairly rewarded' and protecting industries providing basic needs; no price, wage or deregulation mechanism documented",
-        "housing": "checked campaign issues page and Ballotpedia profile, nothing documented",
-        "immigration": "checked campaign issues page and Ballotpedia profile, nothing documented",
-        "safety": "checked campaign issues page and Ballotpedia profile, nothing documented",
-        "democracy": "searched Aug 28, 2026: campaign site, Vote-USA profile index, and race coverage contain no voting-rules or election-law position"
+        "cost": "re-checked Sep 2, 2026: fettyandersonforsenate.com/issues has 23 issue sections; the Economy section still only says labor should be 'fairly rewarded,' no price, wage, or regulation mechanism stated",
+        "housing": "re-checked Sep 2, 2026: fettyandersonforsenate.com/issues has no housing/rent section among its 23 topics",
+        "immigration": "re-checked Sep 2, 2026: fettyandersonforsenate.com/issues has no immigration/border section among its 23 topics",
+        "safety": "re-checked Sep 2, 2026: fettyandersonforsenate.com/issues has no public safety/policing section among its 23 topics",
+        "democracy": "re-checked Sep 2, 2026: fettyandersonforsenate.com/issues has no voting/elections section among its 23 topics"
       }
     },
     {
@@ -252,7 +252,17 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "all": "hunted politics1.com/wv.htm (not listed among WV-1 candidates in fetched content); no campaign site or statements found for independent Isaiah Rucker (checked Aug 29, 2026)"
+        "all": "hunted politics1.com/wv.htm (not listed among WV-1 candidates in fetched content); no campaign site or statements found for independent Isaiah Rucker (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "health": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "housing": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "immigration": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "taxes": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "climate": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "education": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "safety": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "repro": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found",
+        "democracy": "re-checked Sep 2, 2026: not listed on politics1.com/wv.htm, Ballotpedia confirms no completed Candidate Connection survey, no campaign site found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -284,13 +294,27 @@
         "taxes": null,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": -2,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "safety": {
+          "label": "Campaign site frames criminal justice reform: 'the system shouldn't destroy lives, it should help rebuild them' (groundup2026.com).",
+          "url": "https://groundup2026.com"
+        }
+      },
       "nullNotes": {
-        "all": "hunted politics1.com/wv.htm (not listed among WV-2 candidates in fetched content); no campaign site or statements found for independent Christopher Whitcomb (checked Aug 29, 2026)"
+        "all": "hunted politics1.com/wv.htm (not listed among WV-2 candidates in fetched content); no campaign site or statements found for independent Christopher Whitcomb (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: groundup2026.com checked, no price/regulation mechanism found",
+        "health": "re-checked Sep 2, 2026: groundup2026.com only addresses addiction/mental-health treatment access, not a public-versus-private healthcare-system mechanism",
+        "housing": "re-checked Sep 2, 2026: groundup2026.com checked, no housing statement found",
+        "immigration": "re-checked Sep 2, 2026: groundup2026.com checked, no immigration statement found",
+        "taxes": "re-checked Sep 2, 2026: groundup2026.com checked, no tax statement found",
+        "climate": "re-checked Sep 2, 2026: groundup2026.com describes a coal-country jobs transition (skilled trades, clean-energy apprenticeships, mine-land repurposing) that reads as worker-transition assistance rather than a clean-energy-versus-fossil-fuel policy stance, not scoreable",
+        "education": "re-checked Sep 2, 2026: groundup2026.com checked, no education statement found",
+        "repro": "re-checked Sep 2, 2026: groundup2026.com checked, no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: groundup2026.com checked, no voting/elections statement found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -354,13 +378,13 @@
         }
       },
       "nullNotes": {
-        "health": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
-        "housing": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
-        "immigration": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
-        "education": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
-        "safety": "not addressed on wilsonwv.com beyond general constitutional-rights language (checked Sep 2, 2026)",
-        "repro": "not addressed on wilsonwv.com (checked Sep 2, 2026)",
-        "democracy": "site says \"the Constitution is not a suggestion\" and pledges to defend the Bill of Rights, which is too general to indicate a stance on voting/registration rules specifically (checked Sep 2, 2026)"
+        "health": "re-checked Sep 2, 2026: wilsonwv.com Issues page covers only Economy, Government Spending & Debt, and Constitutional Rights; no healthcare statement found",
+        "housing": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no housing statement",
+        "immigration": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no immigration statement",
+        "education": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no education statement",
+        "safety": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no policing/sentencing statement beyond general constitutional-rights language",
+        "repro": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no abortion statement",
+        "democracy": "re-checked Sep 2, 2026: wilsonwv.com Issues page has no voting/elections statement; 'the Constitution is not a suggestion' framing is too general to place on this axis"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -399,13 +423,13 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -429,14 +453,20 @@
         "democracy": {
           "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted aye on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "'lower costs' after blaming 'Biden's disastrous inflation' names the problem with no distinct cap-versus-deregulate mechanism beyond the taxes quote (checked Aug 29, 2026)",
-        "health": "checked electcarolmiller.com homepage, not addressed (checked Aug 29, 2026)",
-        "housing": "checked electcarolmiller.com homepage, not addressed (checked Aug 29, 2026)",
-        "education": "'Funding Education & Creating Jobs' heading has no public-versus-choice mechanism text fetched (checked Aug 29, 2026)",
-        "safety": "only a 2nd Amendment plank, which the guide excludes from the safety axis (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: electcarolmiller.com/issues was robots-blocked/rate-limited on repeated attempts, no statement reachable this pass",
+        "housing": "re-checked Sep 2, 2026: electcarolmiller.com/issues was robots-blocked/rate-limited on repeated attempts, no statement reachable this pass",
+        "education": "re-checked Sep 2, 2026: electcarolmiller.com/issues was robots-blocked/rate-limited on repeated attempts, no statement reachable this pass"
       },
       "sources": [
         {
@@ -470,20 +500,43 @@
       "background": "Vince George, a retired public policy analyst, is the Democratic nominee against Rep. Carol Miller in West Virginia's 1st District, winning the May 12, 2026 primary with 53.0%.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": 0,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Campaign issues page pledges 'doubling the minimum wage to reflect real cost-of-living needs' (vincegeorgeforcongress.com).",
+          "url": "https://vincegeorgeforcongress.com"
+        },
+        "health": {
+          "label": "Campaign issues page calls for 'expanding affordable healthcare access, including a Medicare-for-All option' (vincegeorgeforcongress.com).",
+          "url": "https://vincegeorgeforcongress.com"
+        },
+        "immigration": {
+          "label": "Campaign says 'immigration enforcement is important. But ICE is violating people's rights, engaging in federal overreach, and encroaching on West Virginia's local communities' (vincegeorgeforcongress.com/issues).",
+          "url": "https://vincegeorgeforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "Campaign is 'passionate about getting folks registered to vote, expanding voter turnout, and helping voters make informed decisions' (vincegeorgeforcongress.com/issues).",
+          "url": "https://vincegeorgeforcongress.com/issues"
+        }
+      },
       "nullNotes": {
-        "all": "hunted politics1.com/wv.htm (listed with 'Retired Public Policy Analyst' descriptor, no campaign website given); no statements found for Vince George (checked Aug 29, 2026)"
+        "all": "hunted politics1.com/wv.htm (listed with 'Retired Public Policy Analyst' descriptor, no campaign website given); no statements found for Vince George (checked Aug 29, 2026)",
+        "housing": "re-checked Sep 2, 2026: vincegeorgeforcongress.com and /issues checked, no housing statement found",
+        "taxes": "re-checked Sep 2, 2026: vincegeorgeforcongress.com and /issues checked, no corporate/high-earner tax statement found",
+        "climate": "re-checked Sep 2, 2026: vincegeorgeforcongress.com/issues says he 'believes in a free market that allows renewable energy to expand in West Virginia if that's what businesses want to do,' a market-neutrality framing that does not cleanly fit either pole of this axis",
+        "education": "re-checked Sep 2, 2026: vincegeorgeforcongress.com and /issues checked, only a passing textbook-funding mention tied to military spending, no public-versus-choice mechanism",
+        "safety": "re-checked Sep 2, 2026: vincegeorgeforcongress.com and /issues checked, no policing/sentencing statement found",
+        "repro": "re-checked Sep 2, 2026: vincegeorgeforcongress.com and /issues checked, no abortion statement found"
       },
       "sources": [
         {
@@ -514,13 +567,13 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 2,
         "climate": 2,
         "education": 2,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -544,14 +597,23 @@
         "democracy": {
           "label": "Voted Yea on H.R. 22, the SAVE Act, Apr 10, 2025 (House Clerk roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "taxes": {
+          "label": "Voted aye on H.R.1, the 2025 tax reconciliation law making the 2017 tax cuts permanent (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted aye on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
-        "health": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
-        "housing": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
-        "taxes": "checked mooreforwv.com homepage and /issues, not addressed (checked Aug 29, 2026)",
-        "safety": "checked available sources for this pass, nothing documented (Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: mooreforwv.com homepage and /issues checked, no price/regulation mechanism found",
+        "housing": "re-checked Sep 2, 2026: mooreforwv.com homepage and /issues checked, no housing statement found"
       },
       "sources": [
         {

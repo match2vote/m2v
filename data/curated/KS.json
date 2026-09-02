@@ -412,10 +412,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "taxes": "checked campaign issues page and Christian Post platform coverage; no position on tax rates or spending documented; legislative-record search also empty",
-        "education": "checked campaign issues page and Christian Post platform coverage, nothing documented; legislative-record search also empty",
-        "safety": "checked campaign issues page and Christian Post platform coverage, nothing documented; legislative-record search also empty",
-        "democracy": "searched Aug 28, 2026: race coverage (Kansas Reflector, KCUR, national profiles) contains no voting-rules or election-law position"
+        "taxes": "re-checked Sep 2, 2026: hamiltonforkansas.com/issues/ proposes targeted tax credits for first-time home buyers, firefighters, police officers, and teachers, no broader raise-vs-cut tax agenda stated (does not fit axis per guide calibration)",
+        "education": "re-checked Sep 2, 2026: KWCH coverage of his Wichita high school tour has him praising the school system and flagging that federal special education funds are not reaching schools, but states no funding-vs-choice policy position",
+        "safety": "re-checked Sep 2, 2026: hamiltonforkansas.com/issues/ and Kansas Reflector/KCUR coverage do not address criminal justice or public safety",
+        "democracy": "re-checked Sep 2, 2026: hamiltonforkansas.com/issues/ and Kansas Reflector/KCUR coverage do not address voting or election rules"
       }
     },
     {
@@ -916,14 +916,14 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": null,
         "safety": 1,
-        "repro": null,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -950,13 +950,19 @@
         "democracy": {
           "label": "Voted yes on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, passed 220-208 (House roll call 102, Apr 10, 2025); as a candidate for governor in 2022 he also challenged the 2020 election results (House roll call 102; KCUR candidate guide)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted Aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "Voted Yea on H.R. 21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "health": "House office health page only covers an interstate-licensing bill (SHARE Act) addressing workforce shortages, too narrow to establish a public-vs-private stance (checked Aug 29, 2026)",
-        "housing": "checked schmidt.house.gov issues list (no housing page) and news search, nothing documented",
-        "education": "House office education page covers only service-academy nominations and a WWII history program, no funding or school-choice position (checked Aug 29, 2026)",
-        "repro": "as Kansas attorney general he issued abortion-related opinions and statements around the 2022 Dobbs decision, but a fetch of the identified news release returned a dead link and no other fetchable 2025-2026 statement was found (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: schmidt.house.gov has no housing issue page, no separate statement found",
+        "education": "re-checked Sep 2, 2026: schmidt.house.gov education page still covers only service-academy nominations and a WWII history program, no funding or school-choice position"
       },
       "sources": [
         {
@@ -1071,7 +1077,7 @@
         "housing": null,
         "immigration": 1,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": -1,
         "repro": -2,
@@ -1101,12 +1107,15 @@
         "democracy": {
           "label": "Voted no on H.R.22 SAVE Act requiring documentary proof of citizenship to register to vote, which failed to gain her support, passed 220-208 without her (House roll call 102, Apr 10, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted Yea on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
         "housing": "checked KCUR and Johnson County Post candidate guides and davids.house.gov, nothing documented",
         "taxes": "voted no on H.R.1 (roll call 190), which alone does not establish this axis for a Democrat per the House-incumbent sourcing rule; no separate tax-rate statement found (checked Aug 29, 2026)",
-        "climate": "a house.gov news post is timestamped discussing 'climate change's effects on the 3rd District' but the fetched page contains no transcript or quote of her actual remarks (checked Aug 29, 2026)",
         "education": "guide mentions her advocacy for 'access to trade schools,' a postsecondary/vocational topic that does not fit the K-12 public-funding-vs-choice axis (checked Aug 29, 2026)"
       },
       "sources": [
@@ -1186,10 +1195,10 @@
         }
       },
       "nullNotes": {
-        "housing": "checked KCUR and Johnson County Post candidate guides, nothing documented",
-        "education": "checked KCUR and Johnson County Post candidate guides, nothing documented",
-        "repro": "checked KCUR and Johnson County Post candidate guides, nothing documented",
-        "democracy": "checked KCUR and Johnson County Post candidate guides, nothing documented"
+        "housing": "re-checked Sep 2, 2026: ivoterguide.com questionnaire shows 'Did not answer' for the housing question",
+        "education": "re-checked Sep 2, 2026: ivoterguide.com questionnaire shows 'Did not answer' for the education question",
+        "repro": "re-checked Sep 2, 2026: ivoterguide.com questionnaire shows 'Did not answer' for the abortion question",
+        "democracy": "re-checked Sep 2, 2026: ivoterguide.com questionnaire shows 'Did not answer' for the voting/election-rules question"
       },
       "sources": [
         {
@@ -1355,10 +1364,10 @@
         }
       },
       "nullNotes": {
-        "housing": "checked campaign issues page and KMUW voter guide, nothing documented",
+        "housing": "re-checked Sep 2, 2026: katyforkansas.com/issues/ and Kansas Reflector profile do not address housing policy",
         "taxes": "campaign issues page pledges to 'find common ground with anyone willing to lower taxes on working Kansans,' a targeted middle-class framing with no broader corporate/high-earner tax position stated, so it does not fit this axis (checked Aug 29, 2026)",
         "education": "campaign issues page says every child 'deserves access to a high-quality education that prepares them for whatever path they choose,' too vague to place on the public-funding-vs-choice axis (checked Aug 29, 2026)",
-        "safety": "checked campaign issues page and KMUW voter guide, nothing documented"
+        "safety": "re-checked Sep 2, 2026: katyforkansas.com/issues/ and Kansas Reflector profile do not address public safety or criminal justice"
       },
       "sources": [
         {

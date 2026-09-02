@@ -300,13 +300,13 @@
         }
       },
       "nullNotes": {
-        "cost": "checked campaign site, voter guide Q&A and Ballotpedia (no Candidate Connection survey filed), nothing documented",
-        "housing": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
-        "immigration": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
-        "taxes": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
-        "climate": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented",
-        "safety": "campaign 'SAFE COMMUNITIES' and 'tough fair justice' phrases are too vague to score a direction; checked campaign site and Ballotpedia",
-        "repro": "checked campaign site, voter guide Q&A and Ballotpedia, nothing documented"
+        "cost": "re-checked Sep 2, 2026: homepage's only economic language is generic 'economic opportunity is vital,' no price-cap or subsidy mechanism stated",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "immigration": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "taxes": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "safety": "re-checked Sep 2, 2026: homepage's 'fight for justice... fair courts and a clean government' language remains too vague to score a direction",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign homepage"
       },
       "sources": [
         {
@@ -565,8 +565,8 @@
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
-        "education": null,
-        "safety": null,
+        "education": 1,
+        "safety": 2,
         "repro": 2,
         "democracy": 2
       },
@@ -594,13 +594,19 @@
         "democracy": {
           "label": "Voted against certifying Arizona's and Pennsylvania's 2020 electoral votes (Ballotpedia)",
           "url": "https://ballotpedia.org/Jerry_Carl"
+        },
+        "safety": {
+          "label": "Campaign site says 'defunding the police and other soft-on-crime policies have led to higher crime rates' and pledges to 'always support cops over criminals' as 'a strong supporter of law enforcement' (Jerry Carl for Congress campaign site)",
+          "url": "https://jerrycarlforcongress.com/issues"
+        },
+        "education": {
+          "label": "Campaign site says 'parents should be in charge of their children's education' and opposes what he calls 'woke ideology' in the classroom, naming parental control (Jerry Carl for Congress campaign site)",
+          "url": "https://jerrycarlforcongress.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia issues summary, the only cost-adjacent quote is about healthcare-premium competition (scored under health), no separate price/inflation stance found (checked Aug 29, 2026)",
-        "housing": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
-        "education": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked Ballotpedia issues summary, only immigration-adjacent language found, no general crime/policing stance (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: /issues page's only cost-adjacent language is a Balanced Budget Amendment/anti-wasteful-spending pledge, a fiscal-process position with no consumer price-cap or deregulation mechanism stated",
+        "housing": "re-checked Sep 2, 2026: not addressed on /issues page"
       },
       "sources": [
         {
@@ -656,14 +662,14 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign site names gas, healthcare premiums, rent and groceries as pressures and cites the Iran war and tariffs as causes, but states no price-cap or deregulation mechanism to score a direction, checked campaign site (checked Aug 29, 2026)",
-        "housing": "checked campaign site, nothing beyond the general cost-of-living mention (checked Aug 29, 2026)",
-        "taxes": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "climate": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "education": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked campaign site, nothing documented beyond ICE conduct, which is scored under immigration (checked Aug 29, 2026)",
-        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "democracy": "campaign site's 'checks & balances' language is about congressional accountability and PAC money, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign homepage repeats the same gas/healthcare/rent/grocery cost complaint tied to the Iran war and tariffs, still no proposed price mechanism",
+        "housing": "re-checked Sep 2, 2026: not addressed beyond the general cost-of-living mention",
+        "taxes": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "education": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "safety": "re-checked Sep 2, 2026: not addressed on campaign homepage beyond ICE conduct, scored under immigration",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: homepage's 'checks and balances' language remains about congressional accountability and PAC money, not voting/election rules"
       },
       "sources": [
         {
@@ -706,9 +712,9 @@
         "housing": null,
         "immigration": 2,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": -1,
-        "safety": null,
+        "safety": 1,
         "repro": -1,
         "democracy": -1
       },
@@ -736,13 +742,19 @@
         "democracy": {
           "label": "Voted no on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
         "housing": "Ballotpedia issues summary mentions housing only as a rising cost, no distinct housing-policy stance found (checked Aug 29, 2026)",
-        "taxes": "Ballotpedia's 'targeted tax incentives for small businesses' is a narrow proposal with no broader corporate/high-earner tax agenda stated, and her no vote on the HR 1 tax law (roll 190, Jul 3 2025) alone does not establish a Democrat's position per project rules; nothing else found (checked Aug 29, 2026)",
-        "climate": "checked Ballotpedia issues summary, nothing documented (checked Aug 29, 2026)",
-        "safety": "Ballotpedia mentions gun violence (off-axis) and 'police and community relations' without a clear enforcement-vs-prevention direction (checked Aug 29, 2026)"
+        "taxes": "Ballotpedia's 'targeted tax incentives for small businesses' is a narrow proposal with no broader corporate/high-earner tax agenda stated, and her no vote on the HR 1 tax law (roll 190, Jul 3 2025) alone does not establish a Democrat's position per project rules; nothing else found (checked Aug 29, 2026)"
       },
       "sources": [
         {
@@ -818,11 +830,11 @@
         }
       },
       "nullNotes": {
-        "health": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "housing": "campaign site's 'families deserve better when trying to afford a home' names no specific policy mechanism, checked campaign site (checked Aug 29, 2026)",
-        "climate": "campaign site's energy-adjacent content is about cryptocurrency and a central bank digital currency, not power generation or emissions, checked campaign site (checked Aug 29, 2026)",
+        "health": "re-checked Sep 2, 2026: campaign site and /issues page do not address healthcare",
+        "housing": "re-checked Sep 2, 2026: /issues page repeats 'when trying to afford a home' tied only to tax cuts and eliminating wasteful spending, still no specific housing mechanism",
+        "climate": "re-checked Sep 2, 2026: /issues page's energy-adjacent content remains about cryptocurrency/central bank digital currency and rural broadband, not power generation or emissions",
         "safety": "campaign site ties 'keeping our streets safe' specifically to illegal immigration enforcement (scored under immigration), no separate domestic crime/policing stance found (checked Aug 29, 2026)",
-        "democracy": "checked campaign site, nothing documented (checked Aug 29, 2026)"
+        "democracy": "re-checked Sep 2, 2026: /issues page does not address voting/elections rules"
       },
       "sources": [
         {
@@ -865,7 +877,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": -1,
         "repro": 2,
@@ -895,13 +907,16 @@
         "democracy": {
           "label": "One of 147 Republicans who voted to overturn 2020 election results and signed the Texas v. Pennsylvania amicus brief (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Alabama_politician)"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia's issues page is blocked by robots.txt for this pass; checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "climate": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "education": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign homepage's only relevant language is a general pledge to 'grow our economy,' no specific price mechanism",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign homepage; /issues sub-page 404s",
+        "education": "re-checked Sep 2, 2026: not addressed on campaign homepage; /issues sub-page 404s"
       },
       "sources": [
         {
@@ -973,13 +988,13 @@
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia quote frames tariffs as a price driver but states no price-cap or deregulation mechanism to score a direction (checked Aug 29, 2026)",
-        "housing": "checked Ballotpedia, only an indirect mention of farmland foreclosure risk from tariffs, no housing-policy stance (checked Aug 29, 2026)",
-        "immigration": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "climate": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "repro": "checked Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "democracy": "Ballotpedia's DISCLOSE Act and Citizens United material is campaign-finance reform, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: homepage frames rising costs around Republican policy for the wealthy and low wages but names no specific price-cap or subsidy mechanism",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "immigration": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "climate": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "safety": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: not addressed on campaign homepage"
       },
       "sources": [
         {
@@ -1014,13 +1029,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1044,14 +1059,20 @@
         "democracy": {
           "label": "Voted to overturn 2020 election results and signed the Texas v. Pennsylvania amicus brief, maintaining that position after Jan 6 (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Robert_Aderholt"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia's issues page is blocked by robots.txt for this pass; checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "health": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "education": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "safety": "Wikipedia's only crime-adjacent statement is about the 2016 Orlando terrorist attack, too tangential to score a general policing direction (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign site's cost-adjacent language ('expand America's energy exploration... to reduce energy prices') is climate/energy-axis content, not a general consumer cost mechanism; separately, 'low taxes, reduced regulation' framed around job growth, not prices",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign homepage or /issues page",
+        "education": "re-checked Sep 2, 2026: /issues page's only education-adjacent item is a $2M technical-education-center earmark, vocational funding not a public-funding-vs-choice policy stance"
       },
       "sources": [
         {
@@ -1186,13 +1207,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1212,15 +1233,24 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act proof-of-citizenship bill, House roll call 102, Apr 10, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "Wikipedia notes he 'discussed his plans to reduce inflation' in a debate with no specifics given; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "health": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "housing": "checked Wikipedia, nothing documented; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "climate": "Wikipedia's 'openness to bipartisan solutions on energy independence' names no direction; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "education": "Wikipedia mentions school-construction advocacy as county chairman with no federal policy stance; Ballotpedia inaccessible (checked Aug 29, 2026)",
-        "safety": "checked Wikipedia, nothing beyond immigration-related border-security language; Ballotpedia inaccessible (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign /issues page's only relevant language is 'raising taxes is not an option, the American people are taxed enough' plus a wasteful-spending pledge, taxes-axis content already scored, no separate consumer-price mechanism",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign /issues page",
+        "education": "re-checked Sep 2, 2026: /issues page's only education-adjacent language ('what our children are taught in school') is generic curriculum culture-war framing, too tangential to score a public-funding-vs-choice direction"
       },
       "sources": [
         {
@@ -1300,11 +1330,11 @@
         }
       },
       "nullNotes": {
-        "taxes": "campaign labor page pledges to fight for collective bargaining and worker protections but states no corporate or high-earner tax rate position; checked affordability, labor pages (checked Aug 29, 2026)",
-        "education": "the education/opportunity page returned a 404 during this pass; checked other campaign pages, nothing on education found (checked Aug 29, 2026)",
-        "safety": "checked campaign site's healthcare, affordability, immigration, environment, labor and 'fix the house' pages, nothing on domestic crime/policing found (checked Aug 29, 2026)",
-        "repro": "checked campaign site, nothing documented (checked Aug 29, 2026)",
-        "democracy": "campaign site's 'Fix the House' page is congressional term limits, stock-trading bans, and judicial ethics, not voting/election rules, so it does not fit this axis; nothing else found (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: labor page still pledges to fight for collective bargaining and worker protections with no corporate/high-earner tax rate position stated",
+        "education": "re-checked Sep 2, 2026: /education URL still 404s; homepage confirms an 'Education | Opportunity' nav item exists but its content is inaccessible this pass",
+        "safety": "re-checked Sep 2, 2026: homepage nav (Healthcare, Immigration, Affordability, Labor, Education, Environment, Energy, Fix the House) still has no dedicated domestic crime/policing page",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign homepage",
+        "democracy": "re-checked Sep 2, 2026: 'Fix the House' page remains about congressional term limits, stock-trading bans and judicial ethics, not voting/election rules"
       },
       "sources": [
         {
@@ -1347,9 +1377,9 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1373,14 +1403,20 @@
         "democracy": {
           "label": "Voted to object to Arizona's and Pennsylvania's electoral votes and signed the Texas v. Pennsylvania amicus brief (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Gary_Palmer"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "housing": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "climate": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "education": "checked Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "safety": "Wikipedia's only crime-adjacent statement is about transgender bathroom access framed as a 'safety implication,' too tangential to score a general policing direction (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: /issues page's language ('focused on... combatting inflation to reduce the cost of living') names no specific price-cap or deregulation mechanism; separately, 'America's vast energy resources should be responsibly developed to lower costs' is climate/energy-axis content",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign homepage or /issues page",
+        "education": "re-checked Sep 2, 2026: not addressed on campaign homepage or /issues page"
       },
       "sources": [
         {
@@ -1460,11 +1496,11 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign site pledges to 'fight for policies that lower costs, increase competition, strengthen supply chains' without specifying a price-cap or deregulation mechanism, checked campaign platform page (checked Aug 29, 2026)",
-        "housing": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
-        "taxes": "campaign platform page's only tax language is helping families 'keep more of what they earn,' with no corporate/high-earner stance; checked campaign platform page (checked Aug 29, 2026)",
-        "climate": "checked campaign platform page, not addressed (checked Aug 29, 2026)",
-        "democracy": "campaign platform's independent-redistricting-commission pledge is about district-line fairness rather than voting access/rules, so it does not fit this axis as defined; nothing else found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: /platform page repeats the same 'lower costs, increase competition, strengthen supply chains' pledge already found insufficient, still no price-cap mechanism",
+        "housing": "re-checked Sep 2, 2026: not addressed on /platform page",
+        "taxes": "re-checked Sep 2, 2026: not addressed on /platform page beyond the prior 'keep more of what they earn' language",
+        "climate": "re-checked Sep 2, 2026: not addressed on /platform page",
+        "democracy": "re-checked Sep 2, 2026: /platform page repeats the same independent-redistricting-commission pledge already found to be about district-line fairness, not voting access/rules"
       },
       "sources": [
         {
@@ -1610,14 +1646,14 @@
         }
       },
       "nullNotes": {
-        "cost": "checked her campaign launch coverage and a Yellowhammer News profile, nothing documented beyond general leadership rhetoric (checked Aug 29, 2026)",
-        "health": "her rural-healthcare-access language names no public-vs-private mechanism to score a direction; checked her campaign launch coverage (checked Aug 29, 2026)",
-        "housing": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
-        "immigration": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
-        "climate": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
-        "education": "her 'partnership between educators, parents, and the community' language names no specific policy direction despite her education background; checked campaign coverage (checked Aug 29, 2026)",
-        "repro": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)",
-        "democracy": "checked campaign launch coverage and Yellowhammer News profile, nothing documented (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: no campaign website found via politics1.com listing; Ballotpedia direct URL is robots-blocked this pass",
+        "health": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "housing": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "immigration": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "climate": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "education": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "repro": "re-checked Sep 2, 2026: same, no accessible source found this pass",
+        "democracy": "re-checked Sep 2, 2026: same, no accessible source found this pass"
       },
       "sources": [
         {

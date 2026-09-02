@@ -122,8 +122,8 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
-        "education": null,
+        "climate": 2,
+        "education": 2,
         "safety": 2,
         "repro": 2,
         "democracy": 1
@@ -148,6 +148,14 @@
         "democracy": {
           "label": "At a March 2021 press conference on election security with Sen. Boozman, blasted 'legislation backed by Democrats to nationalize U.S. elections and enact radical changes to our voting system' (Boozman-Cotton release)",
           "url": "https://www.boozman.senate.gov/public/index.cfm/2021/3/boozman-cotton-blast"
+        },
+        "climate": {
+          "label": "Voted yea on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (senate.gov roll vote 277, May 22, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00277.htm"
+        },
+        "education": {
+          "label": "Parents, not politicians and bureaucrats, know what is best for their children, advocates for home schooling, charter schools, and private and religious schools (cotton.senate.gov National School Choice Week statement)",
+          "url": "https://www.cotton.senate.gov/news/press-releases/cotton-recognizes-national-school-choice-week"
         }
       },
       "sources": [
@@ -166,11 +174,9 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "checked Ballotpedia, Wikipedia, and Senate press releases; primary-night pledge to 'lower costs for Arkansas families' has no documented mechanism, does not fit the axis",
-        "housing": "checked Ballotpedia, Wikipedia, and Senate press releases, nothing documented",
-        "health": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the ACA-repeal quote; cotton.senate.gov/issues 404s; tomcotton.com/issues lists a healthcare heading with no reachable supporting text; nulled",
-        "climate": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the fossil-fuels quote; tomcotton.com/issues has no energy/climate heading at all; nulled",
-        "education": "second-check Aug 30, 2026: ballotpedia.org/Tom_Cotton no longer contains the local-control-education quote; tomcotton.com/issues lists an education heading with no reachable supporting text; nulled"
+        "cost": "re-checked Sep 2, 2026: primary-night pledge to lower costs for Arkansas families still has no documented mechanism",
+        "housing": "re-checked Sep 2, 2026: no cotton.senate.gov or campaign statement found",
+        "health": "re-checked Sep 2, 2026: no cotton.senate.gov or campaign statement found"
       }
     },
     {
@@ -195,7 +201,7 @@
         "cost": -2,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -1,
         "climate": null,
         "education": -1,
@@ -227,6 +233,10 @@
         "repro": {
           "label": "Declines the pro-choice label but warns 'restrictive laws can keep women from having access to life-saving surgery' (Arkadelphian)",
           "url": "https://arkadelphian.com/2025/07/15/loss-of-family-farm-leads-shoffner-to-challenge-sen-cotton/"
+        },
+        "immigration": {
+          "label": "Everyone believes we should have immigration reform, but this isn't it, wants Democrats and Republicans to come to the table and work out a real solution, criticized ICE enforcement actions as further dividing the nation (Arkansas Advocate immigration issue spotlight, Feb 26, 2026)",
+          "url": "https://arkansasadvocate.com/2026/02/26/issue-spotlight-where-arkansas-u-s-senate-candidates-stand-on-immigration-policy"
         }
       },
       "sources": [
@@ -249,10 +259,9 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "housing": "campaign platform lists housing only as a cost to lower, no build/zoning/renter mechanism documented",
-        "immigration": "checked campaign platform, Ballotpedia, and Arkadelphian profile, nothing documented; an Arkansas Times immigration spotlight exists but could not be fetched",
-        "climate": "platform mentions 'conservation, sustainable farming' only as agriculture practice, no energy or emissions position documented",
-        "democracy": "checked campaign platform, Ballotpedia, and Arkadelphian profile, nothing documented"
+        "housing": "re-checked Sep 2, 2026: campaign priorities page mentions housing only in passing (living near where people work) within economic development context, no build/zoning/renter mechanism stated",
+        "climate": "re-checked Sep 2, 2026: campaign priorities page has no climate or energy statement beyond the conservation/sustainable-farming line already noted",
+        "democracy": "re-checked Sep 2, 2026: no statement found on campaign site or in coverage reviewed"
       }
     },
     {
@@ -669,13 +678,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -699,14 +708,20 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yea on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Wikipedia and crawford.house.gov (issues page has no detail content), nothing documented (checked 2026-08-29)",
-        "health": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
-        "housing": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
-        "education": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)",
-        "safety": "checked Wikipedia and crawford.house.gov, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: crawford.house.gov issues page still has no detail content on price/affordability mechanism",
+        "housing": "re-checked Sep 2, 2026: no crawford.house.gov statement on housing found",
+        "education": "re-checked Sep 2, 2026: no crawford.house.gov statement on education found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -745,13 +760,13 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -775,14 +790,20 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "safety": {
+          "label": "Voted yea on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia and House office issues page; 'balanced budget' and 'reduce spending' language maps to the taxes axis, no distinct price/affordability mechanism documented (checked 2026-08-29)",
-        "health": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
-        "housing": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
-        "education": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia and House office issues page, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: balanced-budget and spending-reduction language still maps to taxes, no distinct price mechanism found",
+        "housing": "re-checked Sep 2, 2026: HUD Secretary Turner visit press release only commits to ensuring taxpayer dollars are used effectively and responsibly, a routine appropriations line that does not state a deregulation or funding-direction position",
+        "education": "re-checked Sep 2, 2026: no womack.house.gov statement on education found"
       },
       "curatedAt": "2026-08-29"
     },
@@ -862,10 +883,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "checked campaign issues page (russellforar.com/on-the-issues) and Arkansas Advocate primary-challengers coverage, nothing documented (checked 2026-08-29)",
-        "safety": "checked campaign issues page and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)",
-        "repro": "campaign issues page mentions 'bodily autonomy' within a general equal-rights list but states no specific abortion policy (checked 2026-08-29)",
-        "democracy": "checked campaign issues page and Arkansas Advocate coverage; 'listen to the people' and 'follow the Constitution' language has no specific voting-rules position (checked 2026-08-29)"
+        "immigration": "re-checked Sep 2, 2026: campaign issues page (russellforar.com/on-the-issues) still has no immigration content",
+        "safety": "re-checked Sep 2, 2026: campaign issues page still has no public safety/policing content",
+        "repro": "re-checked Sep 2, 2026: campaign issues page mentions bodily autonomy within a general equal-rights list, states no specific abortion policy",
+        "democracy": "re-checked Sep 2, 2026: campaign issues page still has no voting-access or election-safeguards content"
       },
       "curatedAt": "2026-08-29"
     },
@@ -891,12 +912,12 @@
       "positions": {
         "cost": null,
         "health": 2,
-        "housing": null,
+        "housing": 2,
         "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -924,13 +945,19 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, requiring documentary proof of citizenship to register to vote, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "safety": {
+          "label": "Voted yea on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "housing": {
+          "label": "His housing bill cuts red tape, increases housing supply, and makes homeownership more attainable for families, reduces regulatory barriers to new home construction and modernizes local zoning rules (hill.house.gov release on landmark housing bill)",
+          "url": "https://hill.house.gov/news/documentsingle.aspx?DocumentID=10258"
         }
       },
       "nullNotes": {
-        "cost": "checked hill.house.gov issues page (landing only, no detail) and Ballotpedia campaign themes; no distinct price/affordability mechanism documented (checked 2026-08-29)",
-        "housing": "checked hill.house.gov, Ballotpedia, and Wikipedia; as House Financial Services chairman no specific housing-finance position was documented in fetched sources (checked 2026-08-29)",
-        "education": "checked hill.house.gov and Ballotpedia campaign themes (2014-era, healthcare/jobs/spending only); nothing documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: hill.house.gov issues page still has no distinct price/affordability mechanism beyond the housing bill scored separately",
+        "education": "re-checked Sep 2, 2026: no hill.house.gov statement on education found"
       },
       "sources": [
         {
@@ -1002,11 +1029,11 @@
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia and Arkansas Advocate primary-challengers coverage, no specific price or affordability mechanism documented beyond fiscal-responsibility language that does not fit the axis (checked 2026-08-29)",
-        "immigration": "checked Ballotpedia and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)",
-        "taxes": "campaign material commits only to general 'fiscal responsibility' with no rate or spending direction documented (checked 2026-08-29)",
-        "safety": "checked Ballotpedia; only a call for 'measured, productive discussion' on gun violence while protecting gun rights, which is excluded from this axis by rule (checked 2026-08-29)",
-        "repro": "checked Ballotpedia and Arkansas Advocate coverage, nothing documented (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: Arkansas Advocate primary-challenger coverage quotes him on making life more affordable generally but with no specific price/affordability mechanism, 2026 Ballotpedia Candidate Connection survey still not completed",
+        "immigration": "re-checked Sep 2, 2026: no statement found in Arkansas Advocate coverage or Ballotpedia",
+        "taxes": "re-checked Sep 2, 2026: campaign material commits only to general fiscal responsibility with no rate or spending direction",
+        "safety": "re-checked Sep 2, 2026: only a call for measured, productive discussion on gun violence while protecting gun rights, excluded from this axis per project rules",
+        "repro": "re-checked Sep 2, 2026: no statement found in Arkansas Advocate coverage or Ballotpedia"
       },
       "sources": [
         {
@@ -1045,7 +1072,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
@@ -1071,14 +1098,17 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Ballotpedia, Wikipedia, and House Natural Resources Committee news listing (no article text available), nothing documented (checked 2026-08-29)",
-        "health": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)",
-        "housing": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)",
+        "cost": "re-checked Sep 2, 2026: weekly column Inflation Is Not a High Class Problem criticizes prior administration policy but states no specific price/deregulation mechanism of his own",
+        "housing": "re-checked Sep 2, 2026: no westerman.house.gov statement on housing found, the only housing floor vote he took part in (H.R.6644, roll 224) is the rollbook's own rejected 358-32 non-diagnostic case",
         "climate": "checked Ballotpedia and Wikipedia; his forestry record (Trillion Trees Act, Fix Our Forests Act) and 4% lifetime League of Conservation Voters score concern forest/wildfire management, not a documented energy-source stance, so it is not scored on this axis (checked 2026-08-29)",
-        "education": "checked Ballotpedia; only a comment that some students 'have to go out of state to find a good job' tied to economic-growth philosophy, no scoreable funding-versus-choice position (checked 2026-08-29)",
+        "education": "re-checked Sep 2, 2026: education-and-opportunity issues page has only a general column title with no policy stance, directs constituents to contact the office",
         "safety": "checked Ballotpedia and Wikipedia, nothing documented (checked 2026-08-29)"
       },
       "sources": [

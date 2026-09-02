@@ -418,10 +418,10 @@
         }
       },
       "nullNotes": {
-        "immigration": "No campaign statement found on immigration; checked bernadetteforgovernor.com/on-the-issues, Alaska's News Source Q&A and Alaska Public Media profile (checked Sep 2, 2026).",
-        "safety": "Said 'Anchorage doesn't have a homeless problem, we have a drug and psychiatric problem' but did not state a specific enforcement or prevention policy; checked the same Q&A for a follow-up and found none (checked Sep 2, 2026).",
-        "repro": "Not completed Ballotpedia's Candidate Connection survey and no abortion statement found in her campaign site or the two candidate Q&As checked (checked Sep 2, 2026).",
-        "democracy": "On the record opposing ranked choice voting and named as a sponsor of a repeal effort, but that is a ballot-structure position, not the axis's voter ID/registration/mail-voting framing, so it is not scored here (Alaska's News Source Q&A, checked Sep 2, 2026)."
+        "immigration": "re-checked Sep 2, 2026: bernadetteforgovernor.com/on-the-issues page addresses only Education (Educational Savings Accounts) and the Permanent Fund Dividend, no immigration statement found",
+        "safety": "re-checked Sep 2, 2026: same page scope, no policing or sentencing statement beyond the previously logged homelessness quote",
+        "repro": "re-checked Sep 2, 2026: same page scope, no abortion statement found; still no completed Ballotpedia Candidate Connection survey",
+        "democracy": "re-checked Sep 2, 2026: same page scope, no voting or elections statement found beyond the previously logged ranked-choice-voting repeal position, which is a ballot-structure position not this axis"
       },
       "curatedAt": "2026-09-02"
     },
@@ -589,12 +589,12 @@
         }
       },
       "nullNotes": {
-        "cost": "Cited cost of living as 'a key concern for keeping Alaska attractive' but named no specific mechanism; checked Alaska Public Media's Aug 10 and Jan 21 interviews and davebronson.com (checked Sep 2, 2026).",
-        "health": "No healthcare policy statement found for the 2026 campaign; checked davebronson.com, Alaska Public Media and KRBD interviews (checked Sep 2, 2026).",
-        "housing": "As mayor he opposed using hotels as homeless shelters and favored faith-based and treatment approaches, which is homelessness services policy rather than the building/zoning framing of this axis; no zoning or housing-supply statement found for the 2026 campaign (checked Sep 2, 2026).",
-        "immigration": "No campaign statement found; checked davebronson.com and multiple 2026 campaign interviews (checked Sep 2, 2026).",
-        "repro": "No 2026 campaign statement found on abortion; he has not completed Ballotpedia's Candidate Connection survey for 2021, 2024 or 2026 (checked Sep 2, 2026).",
-        "democracy": "No voting or elections statement found; checked davebronson.com and campaign interviews (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: davebronson.com homepage states 'too many Alaskans are leaving due to unaffordable housing, failing school systems, and skyrocketing costs' but names no price-control or deregulation mechanism, not scorable",
+        "health": "re-checked Sep 2, 2026: same homepage, no healthcare policy statement found",
+        "housing": "re-checked Sep 2, 2026: same homepage, housing named only as a cost-of-living problem with no build/zoning or subsidy mechanism stated",
+        "immigration": "re-checked Sep 2, 2026: same homepage, no immigration statement found",
+        "repro": "re-checked Sep 2, 2026: same homepage, no abortion statement found; still no completed Ballotpedia Candidate Connection survey",
+        "democracy": "re-checked Sep 2, 2026: same homepage, no voting or elections statement found"
       },
       "sources": [
         {
@@ -864,16 +864,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Only stated economic view is general deregulation: 'I would look for more independence for people ... less laws that are in place that hinder small businesses, hinder big businesses,' which does not specify a cost of living mechanism; checked Alaska Beacon's Sep 1, 2026 profile and jamesmcdermott.org (checked Sep 2, 2026).",
-        "health": "No statement found; checked jamesmcdermott.org and Alaska Beacon profile (checked Sep 2, 2026).",
-        "housing": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "immigration": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "taxes": "No statement found beyond general small-government philosophy, not specific to taxation; checked the same sources (checked Sep 2, 2026).",
-        "climate": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "education": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "safety": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "repro": "No statement found; checked the same sources (checked Sep 2, 2026).",
-        "democracy": "Favors congressional term limits and is 'noncommittal' about caucusing with either party, but stated no voting-access or election-administration position; checked jamesmcdermott.org and Alaska Beacon profile (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: jamesmcdermott.org states opposition to Canada tariffs as 'a direct tax on Alaska consumers', but per the rollbook tariff resolutions do not cleanly map to the cost axis, not scored",
+        "health": "re-checked Sep 2, 2026: same site, no healthcare statement found",
+        "housing": "re-checked Sep 2, 2026: same site, no housing statement found",
+        "immigration": "re-checked Sep 2, 2026: same site, no immigration statement found",
+        "taxes": "re-checked Sep 2, 2026: same tariff quote is framed as opposing a specific tariff, not a general tax-rate position, not scored",
+        "climate": "re-checked Sep 2, 2026: same site, no climate or energy statement found",
+        "education": "re-checked Sep 2, 2026: same site, no education statement found",
+        "safety": "re-checked Sep 2, 2026: same site, no policing or sentencing statement found",
+        "repro": "re-checked Sep 2, 2026: same site, no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: same site, term limits and civil-liberties (Patriot Act, NDAA) statements do not map to voting-access or election-administration, not scored"
       },
       "sources": [
         {
@@ -910,12 +910,12 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 1,
-        "repro": null,
+        "repro": 1,
         "democracy": -1
       },
       "positionSources": {
@@ -930,16 +930,25 @@
         "democracy": {
           "label": "Supports 'Alaska's ranked choice and open primary system' and says 'I have yet to see where widespread voter fraud is a problem,' opposing fraud-based restrictions on the current system (Alaska Public Media, Aug 3 2026)",
           "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies"
+        },
+        "immigration": {
+          "label": "Voted yes on final passage of S.5, the Laken Riley Act, requiring DHS to take into custody aliens charged with theft-related offenses (senate.gov roll call vote 119th Congress 1st session, vote 7, Jan 20, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (senate.gov roll vote 277, May 22, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00277.htm"
+        },
+        "repro": {
+          "label": "Voted yes on cloture for S.6, the Born-Alive Abortion Survivors Protection Act (senate.gov roll vote 11, Jan 22, 2025)",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00011.htm"
         }
       },
       "nullNotes": {
-        "cost": "Named cost of living as a concern he has 'seen' living in Petersburg but offered no specific mechanism or proposal; checked the Alaska Public Media profile that is his only substantial 2026 press coverage (checked Sep 2, 2026).",
-        "health": "Named improving healthcare access as important but gave no specific policy direction; same source, no other coverage found (checked Sep 2, 2026).",
-        "housing": "Listed affordable housing as a concern with no specific policy direction; same source, no other coverage found (checked Sep 2, 2026).",
-        "immigration": "No statement found; checked the Alaska Public Media profile and searched for a campaign website, found none (checked Sep 2, 2026).",
-        "climate": "No statement found; same hunt as immigration (checked Sep 2, 2026).",
-        "education": "No statement found; same hunt as immigration (checked Sep 2, 2026).",
-        "repro": "No statement found; same hunt as immigration (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: sullivan.senate.gov press release (Aug 7, 2026) announces $10M in federal energy-cost-relief funding for low-income Alaskans, but it is a targeted appropriation credit-claim rather than a stated general price or wage policy, not scorable per the guide's earmark rule",
+        "health": "re-checked Sep 2, 2026: Ballotpedia quote calling affordable healthcare 'extremely important' states no public-vs-private direction, sullivan.senate.gov homepage has no elaborated healthcare statement",
+        "housing": "re-checked Sep 2, 2026: sullivan.senate.gov homepage and issues page (410 error) have no housing statement",
+        "education": "re-checked Sep 2, 2026: sullivan.senate.gov homepage has no K-12 education statement"
       },
       "sources": [
         {

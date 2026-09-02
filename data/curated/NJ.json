@@ -536,16 +536,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "health": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "housing": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "immigration": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "taxes": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "climate": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "education": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "safety": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "repro": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)",
-        "democracy": "No campaign website found; politics1 lists only an Instagram account, which is not fetchable as a policy source (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: politics1.com/nj.htm lists no campaign URL for this candidate for 2026; still no fetchable policy source",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -686,13 +686,13 @@
         }
       },
       "nullNotes": {
-        "cost": "Not addressed with a specific statement beyond general platform values (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "Lists \"campaign-finance reform\" as a key issue, which addresses corruption/money in politics rather than the axis's voting-access-vs-safeguards definition; does not score (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: welzerforcongress.org lists only labeled priorities (fossil fuels, single payer, affordable housing) already scored elsewhere, no cost-of-living statement",
+        "immigration": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "taxes": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "education": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "safety": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "repro": "re-checked Sep 2, 2026: not addressed on welzerforcongress.org",
+        "democracy": "re-checked Sep 2, 2026: campaign-finance-reform framing only, not a voting-access-vs-safeguards statement"
       },
       "curatedAt": "2026-08-29"
     },
@@ -729,7 +729,7 @@
         "housing": null,
         "immigration": null,
         "taxes": null,
-        "climate": null,
+        "climate": -2,
         "education": null,
         "safety": null,
         "repro": null,
@@ -739,18 +739,21 @@
         "health": {
           "label": "Campaign site meta-description lists \"Medicare for All\" among his core values (campaign site)",
           "url": "https://adamruedafornj5.com"
+        },
+        "climate": {
+          "label": "Co-founded greenparty2.0, an 'Earth-first, health-first' party, and cites concern about 'chemicals and pollution we are releasing into the air, our waters, spraying on our crops' while advocating divesting from fossil fuels (Ballotpedia profile).",
+          "url": "https://ballotpedia.org/Adam_Rueda"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed beyond general \"Pro-Earth, Pro-Health\" value labels with no policy detail (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: no cost-of-living policy statement found",
         "housing": "Not addressed; page content was largely unreadable metadata/base64 image data across two fetch attempts (checked Aug 29, 2026)",
-        "immigration": "Same access limitation (checked Aug 29, 2026)",
-        "taxes": "Same access limitation (checked Aug 29, 2026)",
-        "climate": "\"Pro-Earth\" listed as a value with no specific energy-policy direction stated (checked Aug 29, 2026)",
-        "education": "Same access limitation (checked Aug 29, 2026)",
-        "safety": "Same access limitation (checked Aug 29, 2026)",
-        "repro": "Same access limitation (checked Aug 29, 2026)",
-        "democracy": "Same access limitation (checked Aug 29, 2026)"
+        "immigration": "re-checked Sep 2, 2026: no immigration statement found",
+        "taxes": "re-checked Sep 2, 2026: no tax statement found",
+        "education": "re-checked Sep 2, 2026: no education statement found",
+        "safety": "re-checked Sep 2, 2026: platform's gun-storage/mental-health-evaluation language is a gun stance, which per the guide does not map to the safety axis",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found",
+        "democracy": "re-checked Sep 2, 2026: supports ranked-choice voting and open primaries, which per established precedent in this dataset (see nj-senate-fernandez) does not map to the voting-access-vs-safeguards axis"
       },
       "curatedAt": "2026-08-29"
     },
@@ -826,14 +829,14 @@
       },
       "nullNotes": {
         "cost": "No specific cost-of-living statement found; general \"economic freedom\" and \"reducing the bloated government\" themes are too vague to score a direction (checked Aug 29, 2026)",
-        "health": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "housing": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "taxes": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "climate": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "education": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "safety": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "repro": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "democracy": "Not addressed in the source fetched (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: Ballotpedia survey on file is from her 2024 NJ-7 race and does not address health policy",
+        "housing": "re-checked Sep 2, 2026: same 2024 survey limitation, no housing content",
+        "taxes": "re-checked Sep 2, 2026: same 2024 survey limitation, no tax content",
+        "climate": "re-checked Sep 2, 2026: same 2024 survey limitation, no climate content",
+        "education": "re-checked Sep 2, 2026: same 2024 survey limitation, no education content",
+        "safety": "re-checked Sep 2, 2026: same 2024 survey limitation, no safety content",
+        "repro": "re-checked Sep 2, 2026: same 2024 survey limitation, no abortion content",
+        "democracy": "re-checked Sep 2, 2026: same 2024 survey limitation; surveillance/Patriot Act answers are civil-liberties, not voting-access-vs-safeguards content"
       },
       "curatedAt": "2026-08-29"
     },
@@ -897,16 +900,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "health": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "housing": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "immigration": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "taxes": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "climate": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "education": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "safety": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "repro": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)",
-        "democracy": "No campaign website, social account, or news coverage found; politics1 lists no URL for this candidate (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia page fetch was robots-blocked; politics1.com/nj.htm lists him with no campaign URL; still no fetchable source",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1122,16 +1125,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "health": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "housing": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "immigration": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "taxes": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "climate": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "education": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "safety": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "repro": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)",
-        "democracy": "Ballotpedia pages (both a general and a disambiguated URL) were robots-blocked on repeated tries; politics1 lists only an Instagram account for her New Jersey run. Despite her public activism, no specific quote from a fetched page documents a position on this axis, so it stays null per the guide's sourcing rule (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Ballotpedia fetch was robots-blocked again; no other fetchable source found",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1190,13 +1193,13 @@
         }
       },
       "nullNotes": {
-        "health": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "housing": "Only mentions helping seniors keep homes they built, a narrow senior-specific note rather than a general housing position; does not score (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "education": "\"Back to basics\" and \"school safety\" language does not specify a public-schools-vs-choice direction (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign issues page (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: campaign site's public-safety, jobs, and anti-corruption sections do not address health policy",
+        "housing": "re-checked Sep 2, 2026: only general 'mortgage, property taxes and medical bills' quality-of-life language, no separate housing policy",
+        "immigration": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "climate": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "education": "re-checked Sep 2, 2026: 'back to basics' language still does not specify a public-schools-vs-choice direction",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "democracy": "re-checked Sep 2, 2026: anti-corruption language does not state a voting-rules position"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1235,16 +1238,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "health": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "housing": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "immigration": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "taxes": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "climate": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "education": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "safety": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "repro": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)",
-        "democracy": "Campaign site hopefortomorrownj.org returned a 503 server error on two separate fetch attempts (root and root retry); no other profile found within budget (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: hopefortomorrownj.org's robots.txt fetch failed again (DNS error); no other profile found",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1314,16 +1317,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "Campaign's sole issue is \"getting money out of politics\" (campaign-finance reform), which addresses corruption rather than the axis's voting-access-vs-safeguards definition; does not score (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: winstonforcongress.com root now loads but states only a 'zero-donor campaign' funding pledge, no policy content",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: campaign's sole substantive issue remains 'getting money out of politics,' campaign-finance reform rather than voting-access-vs-safeguards"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1387,12 +1390,12 @@
         }
       },
       "nullNotes": {
-        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign site (checked Aug 29, 2026)"
+        "immigration": "re-checked Sep 2, 2026: andresjinete.org lists rent control, universal healthcare, and student debt relief (all already scored elsewhere), no immigration content",
+        "taxes": "re-checked Sep 2, 2026: no tax content on campaign site",
+        "climate": "re-checked Sep 2, 2026: no climate content on campaign site",
+        "safety": "re-checked Sep 2, 2026: no safety content on campaign site",
+        "repro": "re-checked Sep 2, 2026: no abortion content on campaign site",
+        "democracy": "re-checked Sep 2, 2026: no voting-rules content on campaign site"
       },
       "curatedAt": "2026-08-29"
     },
@@ -1448,14 +1451,14 @@
         }
       },
       "nullNotes": {
-        "cost": "survey describes Americans living \"paycheck to paycheck\" and criticizes big-donor influence but names no specific price or wage intervention (checked Sep 2, 2026)",
-        "housing": "not addressed in her Ballotpedia Candidate Connection survey or prior campaign coverage (checked Sep 2, 2026)",
-        "immigration": "listed as a priority topic on her survey but no specific stance given (checked Sep 2, 2026)",
-        "climate": "listed as a priority topic on her survey but no specific stance given (checked Sep 2, 2026)",
-        "education": "not addressed in her Ballotpedia Candidate Connection survey (checked Sep 2, 2026)",
-        "safety": "survey mentions gun safety as an issue area with no detailed position (checked Sep 2, 2026)",
-        "repro": "not addressed in her Ballotpedia Candidate Connection survey (checked Sep 2, 2026)",
-        "democracy": "survey emphasizes campaign finance reform, ranked choice voting, and congressional term limits, none of which map to the voting-access-vs-safeguards axis (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: veronicaforsenate.com states profits 'reach record highs, our pockets have been drained' but names no price cap, subsidy, wage, or deregulation policy; Ballotpedia survey ties all issues to campaign finance reform",
+        "housing": "re-checked Sep 2, 2026: veronicaforsenate.com references wanting to 'own a home' as a life aspiration only, no zoning/building or renter-protection policy stated",
+        "immigration": "re-checked Sep 2, 2026: Ballotpedia survey again ties immigration to campaign finance ('all can be tied to campaign finance and the power of money in our Congress') with no enforcement-vs-pathway stance",
+        "climate": "re-checked Sep 2, 2026: survey lists environment as a committee interest only, no clean-transition-vs-energy-independence direction",
+        "education": "re-checked Sep 2, 2026: veronicaforsenate.com references wanting to 'educate our children' as an aspiration only, no public-schools-vs-choice policy stated",
+        "safety": "re-checked Sep 2, 2026: no public-safety statement found beyond the already-noted gun-safety mention",
+        "repro": "re-checked Sep 2, 2026: no abortion statement found on campaign site or survey",
+        "democracy": "re-checked Sep 2, 2026: survey confirms ranked-choice-voting and term-limits focus, still campaign-finance/structural reform rather than a voting-access-vs-safeguards stance"
       },
       "funding": null,
       "curatedAt": "2026-09-02"
@@ -1644,15 +1647,15 @@
       "background": "U.S. Representative for New Jersey's 1st District since 2014; a former electrician and IBEW local president before Congress.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": null,
         "housing": null,
         "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -1,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -1663,17 +1666,26 @@
         "education": {
           "label": "In a 2011 interview backed \"increasing school funding\" as part of his affordability/education focus (Ballotpedia campaign themes, dated)",
           "url": "https://ballotpedia.org/Donald_Norcross"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "cost": {
+          "label": "Touted that under his bill Medicare will gain the power to negotiate directly with drug companies, and said drug companies charging Americans exponentially more than patients abroad is unacceptable (Norcross press release, norcross.house.gov).",
+          "url": "https://norcross.house.gov/media-center/press-releases/norcross-votes-lower-cost-prescription-drugs"
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia's documented campaign themes for him are from 2011-2016 with no specific current cost-of-living position quoted; house.gov issues page was navigation-only (checked Aug 29, 2026)",
-        "health": "No stated position found on Ballotpedia or house.gov (checked Aug 29, 2026)",
-        "housing": "No stated position found (checked Aug 29, 2026)",
-        "taxes": "Voted Not Voting on H.R.1 (roll 190); no separate tax statement found (checked Aug 29, 2026)",
-        "climate": "No stated position found (checked Aug 29, 2026)",
-        "safety": "No stated position found (checked Aug 29, 2026)",
-        "repro": "No stated position found (checked Aug 29, 2026)",
-        "democracy": "Voted Not Voting on the SAVE Act (roll 102); no separate statement found (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190), which per the guide does not establish the health axis alone for a Democrat; no separate Medicare/Medicaid statement found",
+        "housing": "re-checked Sep 2, 2026: norcross.house.gov/housing is HUD homebuyer-assistance FAQ content only, no stated policy position",
+        "taxes": "re-checked Sep 2, 2026: statement on H.R.1 focuses on preserving the SALT deduction and general 'tax reform,' which per the guide's calibration is a targeted deduction, not a broader raise-or-cut-taxes position",
+        "climate": "re-checked Sep 2, 2026: Not Voting on H.J.Res. 88 (roll 114); no separate climate statement found",
+        "democracy": "re-checked Sep 2, 2026: Not Voting on the SAVE Act (roll 102); no separate statement found"
       },
       "sources": [
         {
@@ -1725,15 +1737,15 @@
         }
       },
       "nullNotes": {
-        "cost": "Says \"life in New Jersey has become unaffordable and unfair\" and \"costs keep rising\" but states no specific policy direction to score (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign site (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign domain did not resolve on this attempt; no policy-specific statement found elsewhere beyond the general affordability language already noted",
+        "health": "re-checked Sep 2, 2026: no alternate source found",
+        "housing": "re-checked Sep 2, 2026: no alternate source found",
+        "immigration": "re-checked Sep 2, 2026: no alternate source found",
+        "taxes": "re-checked Sep 2, 2026: no alternate source found",
+        "climate": "re-checked Sep 2, 2026: no alternate source found",
+        "safety": "re-checked Sep 2, 2026: no alternate source found",
+        "repro": "re-checked Sep 2, 2026: no alternate source found",
+        "democracy": "re-checked Sep 2, 2026: no alternate source found"
       },
       "sources": [
         {
@@ -1767,15 +1779,15 @@
       "background": "U.S. Representative for New Jersey's 2nd District since 2019, having switched from Democrat to Republican that year; a dentist by profession.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": 1,
         "housing": null,
         "immigration": 0,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 1,
         "democracy": 0
       },
       "positionSources": {
@@ -1794,15 +1806,27 @@
         "democracy": {
           "label": "Mixed: supports the Voting Rights Amendment Act restoring Shelby County protections, calling voting \"universal and inalienable\" (Ballotpedia), yet voted Yea on the SAVE Act (roll 102)",
           "url": "https://ballotpedia.org/Jeff_Van_Drew"
+        },
+        "cost": {
+          "label": "Sponsored H.R.3375, the Fair Prescription Drug Prices for Americans Act, requiring that US retail drug prices 'may not exceed the average retail list price for the drug or biological product among certain nations' (govinfo.gov, H.R.3375 introduced text).",
+          "url": "https://www.govinfo.gov/app/details/BILLS-119hr3375ih"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "No specific cost-of-living statement found beyond general healthcare/tax framing (checked Aug 29, 2026)",
-        "housing": "Not addressed on sources fetched (checked Aug 29, 2026)",
-        "climate": "Notes authoring legislation against offshore drilling in NJ, a local/environmental stance that does not clearly map to either the clean-transition or energy-independence pole (checked Aug 29, 2026)",
-        "education": "Criticizes \"skyrocketing\" student-loan costs but states no schools policy (checked Aug 29, 2026)",
-        "safety": "Not addressed on sources fetched (checked Aug 29, 2026)",
-        "repro": "Not addressed on sources fetched (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: no housing-specific policy statement found beyond Atlantic City Housing Authority oversight requests, which are oversight actions rather than a public-building-vs-deregulation position",
+        "education": "re-checked Sep 2, 2026: no schools policy statement found beyond the already-scored student-loan-cost criticism"
       },
       "sources": [
         {
@@ -1849,16 +1873,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "health": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "housing": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "immigration": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "taxes": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "climate": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "education": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "safety": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "repro": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "democracy": "Campaign site (mullockforcongress.com, both /issues and root) returned only page metadata (\"affordable healthcare, good-paying jobs, a brighter future\") with no elaborated policy text found within budget (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: mullockforcongress.com root now loads three broad phrases (affordable healthcare, good-paying jobs, brighter future) with no specific policy direction on any axis",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {
@@ -1903,7 +1927,7 @@
         "taxes": null,
         "climate": -1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -2
       },
@@ -1931,13 +1955,16 @@
         "democracy": {
           "label": "Supports the John Lewis Voting Rights Act and an Election Day federal holiday (Ballotpedia)",
           "url": "https://ballotpedia.org/Herb_Conaway"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "housing": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "taxes": "Supports expanding the Child Tax Credit and SALT deduction, which per the guide's calibration reads as a targeted household credit rather than a broader tax-the-rich-or-cut-taxes-broadly agenda, so it does not score this axis; voted No on H.R.1 but a Democrat's no vote alone does not establish the axis (checked Aug 29, 2026)",
-        "education": "Sponsored a manufacturing-career-pathways bill, which is workforce policy rather than a public-schools-vs-choice statement; too tangential to score (checked Aug 29, 2026)",
-        "safety": "Not addressed in the sources fetched (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: conaway.house.gov issues pages are navigation indexes with no stated position",
+        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190), which does not establish the taxes axis alone for a Democrat; no separate tax statement found beyond the already-scored Child Tax Credit/SALT language",
+        "education": "re-checked Sep 2, 2026: conaway.house.gov/issues/education says only 'please contact our office,' no stated position"
       },
       "sources": [
         {
@@ -2009,11 +2036,11 @@
         }
       },
       "nullNotes": {
-        "housing": "Housing costs are cited only as part of the general affordability critique with no separate zoning/building or renter-protection position stated (checked Aug 29, 2026)",
-        "climate": "Not addressed in the source fetched (checked Aug 29, 2026)",
-        "education": "\"Expanding access to quality education\" is stated without a public-investment-vs-choice direction (checked Aug 29, 2026)",
-        "repro": "No survey response recorded (checked Aug 29, 2026)",
-        "democracy": "Supports congressional term limits, which is a different kind of democracy reform than the axis's voting-access-vs-safeguards definition; does not score (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia survey's affordability language duplicates the already-scored cost axis and states no separate housing policy",
+        "climate": "re-checked Sep 2, 2026: not addressed in Ballotpedia survey or campaign materials found",
+        "education": "re-checked Sep 2, 2026: 'expanding access to quality education' restated with no public-investment-vs-choice direction",
+        "repro": "re-checked Sep 2, 2026: no survey response found on abortion",
+        "democracy": "re-checked Sep 2, 2026: survey confirms congressional term limits as his reform focus, still not a voting-access-vs-safeguards position"
       },
       "sources": [
         {
@@ -2052,10 +2079,10 @@
         "housing": null,
         "immigration": 1,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 2,
         "democracy": 1
       },
       "positionSources": {
@@ -2070,16 +2097,25 @@
         "democracy": {
           "label": "Voted Yea on the SAVE Act (roll 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "At the 2026 March for Life said 'the injustice of abortion need not be forever,' called for restricting the abortion pill mifepristone, protecting pregnancy resource centers, and praised the Mexico City Policy restricting foreign aid for abortion (chrissmith.house.gov, March for Life remarks).",
+          "url": "https://chrissmith.house.gov/news/documentsingle.aspx?DocumentID=415266"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "house.gov issues page is a navigation index with no stated position; Ballotpedia was robots-blocked (checked Aug 29, 2026)",
-        "health": "Same limitation (checked Aug 29, 2026)",
-        "housing": "Same limitation (checked Aug 29, 2026)",
-        "climate": "Only a general \"obligation to ensure a healthy environment\" statement, with no clean-transition-vs-energy-independence direction (checked Aug 29, 2026)",
-        "education": "Same limitation as cost/health above (checked Aug 29, 2026)",
-        "safety": "Same limitation (checked Aug 29, 2026)",
-        "repro": "Same limitation; Ballotpedia access failed both attempts (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: house.gov issues navigation and search turned up no cost-of-living statement",
+        "health": "re-checked Sep 2, 2026: no Medicare/health-system statement found",
+        "housing": "re-checked Sep 2, 2026: no housing policy statement found",
+        "education": "re-checked Sep 2, 2026: same navigation-only limitation as prior check"
       },
       "sources": [
         {
@@ -2126,16 +2162,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "health": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "housing": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "immigration": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "taxes": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "climate": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "education": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "safety": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "repro": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)",
-        "democracy": "Campaign site (peace4shore.com) root and /policy pages returned only navigation/loading placeholders (\"Loading priorities...\") across three fetch attempts, with no elaborated policy text found within budget (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: peace4shore.com robots.txt fetch was rate-limited on retry; no alternate source found",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {
@@ -2169,15 +2205,15 @@
       "background": "U.S. Representative for New Jersey's 5th District since 2017; co-chair of the bipartisan Problem Solvers Caucus.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
-        "housing": null,
+        "housing": -1,
         "immigration": 1,
         "taxes": 1,
         "climate": null,
         "education": null,
         "safety": -1,
-        "repro": null,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -2196,15 +2232,24 @@
         "democracy": {
           "label": "Voted Nay on the SAVE Act (roll 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "housing": {
+          "label": "Co-leads the Housing for Heroes Act to 'expand eligibility for HUD-owned homes at a 50% discount nationwide' for first responders and essential workers (gottheimer.house.gov release).",
+          "url": "https://gottheimer.house.gov/posts/release-gottheimer-co-leads-bipartisan-bills-to-make-housing-more-affordable-for-jersey-families-and-first-responders"
+        },
+        "cost": {
+          "label": "Released a 'Lower Costs Plan for Jersey' built on property-tax and income-tax cuts and streamlined approvals, pledging a 'One-Stop-Shop for every project' and to 'put a shot clock on the approval process' (josh4jersey.com).",
+          "url": "https://josh4jersey.com/gottheimer-releases-lower-costs-plan-for-jersey-to-tackle-rising-costs/"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia campaign themes focus on jobs/business retention rather than a distinct consumer cost-of-living statement (checked Aug 29, 2026)",
-        "health": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "housing": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "climate": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "education": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "repro": "Not addressed in the sources fetched (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: not addressed in sources fetched",
+        "climate": "re-checked Sep 2, 2026: Not Voting on H.J.Res. 88 (roll 114); no separate climate statement found",
+        "education": "re-checked Sep 2, 2026: not addressed in sources fetched"
       },
       "sources": [
         {
@@ -2251,16 +2296,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "health": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "housing": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "immigration": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "taxes": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "climate": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "education": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "safety": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "repro": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)",
-        "democracy": "Campaign site kirraneforcongress.com returned a 404 on /issues and was robots-blocked at the root on retry; no other profile found within budget (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: kirraneforcongress.com returns a 404 on the root domain now; no other profile found",
+        "health": "re-checked Sep 2, 2026: same limitation",
+        "housing": "re-checked Sep 2, 2026: same limitation",
+        "immigration": "re-checked Sep 2, 2026: same limitation",
+        "taxes": "re-checked Sep 2, 2026: same limitation",
+        "climate": "re-checked Sep 2, 2026: same limitation",
+        "education": "re-checked Sep 2, 2026: same limitation",
+        "safety": "re-checked Sep 2, 2026: same limitation",
+        "repro": "re-checked Sep 2, 2026: same limitation",
+        "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
         {
@@ -2302,8 +2347,8 @@
         "climate": -1,
         "education": -1,
         "safety": -1,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -2333,12 +2378,19 @@
         "education": {
           "label": "Believes schools need \"adequate resources and compensation\" and emphasizes retaining \"highly trained and talented teaching professionals\" (house.gov)",
           "url": "https://pallone.house.gov/issues"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "democracy": {
+          "label": "Voted no on H.R.22, the SAVE Act requiring documentary proof of citizenship to register to vote (clerk.house.gov roll 102, Apr 10, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
         }
       },
       "nullNotes": {
-        "housing": "Not addressed on house.gov issues page (checked Aug 29, 2026)",
-        "repro": "Not addressed on house.gov issues page (checked Aug 29, 2026)",
-        "democracy": "Voted Not Voting on the SAVE Act (roll 102); no separate statement found (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: not addressed on house.gov issues page",
+        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190), which does not establish the taxes axis alone for a Democrat; no separate tax statement found"
       },
       "sources": [
         {
@@ -2455,14 +2507,14 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 1,
         "democracy": 1
       },
       "positionSources": {
@@ -2477,16 +2529,28 @@
         "democracy": {
           "label": "Voted Yea on the SAVE Act (roll 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "Voted yes on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly $911B over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed with a specific statement beyond general \"Health\" heading (checked Aug 29, 2026)",
-        "health": "\"Health\" listed as an issue-area heading with no substantive position stated (checked Aug 29, 2026)",
-        "housing": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "climate": "\"Energy and Environment\" listed as a heading with no substantive position stated (checked Aug 29, 2026)",
-        "education": "\"Education\" listed as a heading with no substantive position stated (checked Aug 29, 2026)",
-        "safety": "Not addressed in the sources fetched (checked Aug 29, 2026)",
-        "repro": "Not addressed in the sources fetched (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: campaign issues page lists only a 'Health' heading with no cost-of-living statement",
+        "housing": "re-checked Sep 2, 2026: not addressed in sources fetched",
+        "education": "re-checked Sep 2, 2026: 'Education' listed as a heading with no substantive position stated"
       },
       "sources": [
         {
@@ -2545,14 +2609,14 @@
         }
       },
       "nullNotes": {
-        "cost": "Only a general statement about \"navigating inflation and the rising cost of living\" with no policy direction stated (checked Aug 29, 2026)",
-        "housing": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "immigration": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "education": "Not addressed on campaign site (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: campaign site still states only general inflation/cost-of-living framing with no policy direction",
+        "housing": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "immigration": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "taxes": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "education": "re-checked Sep 2, 2026: not addressed on campaign site",
         "safety": "Site addresses weapons/gun policy, which per the guide does not map to the safety axis; no other public-safety statement found (checked Aug 29, 2026)",
         "repro": "A Substack post references the anniversary of the Dobbs decision but states no specific policy position (checked Aug 29, 2026)",
-        "democracy": "General \"protect the rights and freedoms guaranteed by the Constitution\" language does not specify a voting-rules position (checked Aug 29, 2026)"
+        "democracy": "re-checked Sep 2, 2026: 'protect the rights and freedoms guaranteed by the Constitution' language still does not specify a voting-rules position"
       },
       "sources": [
         {
@@ -2587,14 +2651,14 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": -1,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -2605,17 +2669,29 @@
         "democracy": {
           "label": "Voted Nay on the SAVE Act (roll 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Says 'we should be building on landmark legislation like the ACA which took critical steps to lower costs, expand coverage for underinsured and uninsured populations' (menendez.house.gov/issues/healthcare).",
+          "url": "https://menendez.house.gov/issues/healthcare"
+        },
+        "climate": {
+          "label": "Voted no on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "safety": {
+          "label": "Voted no on H.R.27, the HALT Fentanyl Act (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "house.gov issues page is a navigation index (Healthcare, Immigration, Working Families, Climate, etc. listed as headings) with no position text found within budget (checked Aug 29, 2026)",
-        "health": "Same limitation (checked Aug 29, 2026)",
-        "housing": "Same limitation (checked Aug 29, 2026)",
-        "taxes": "Voted No on H.R.1 but a Democrat's no vote alone does not establish the taxes axis; no separate statement found (checked Aug 29, 2026)",
-        "climate": "Same navigation-only limitation (checked Aug 29, 2026)",
-        "education": "Not listed among the issue headings found (checked Aug 29, 2026)",
-        "safety": "Not listed among the issue headings found (checked Aug 29, 2026)",
-        "repro": "Not listed among the issue headings found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: house.gov issues page is a navigation index with no stated position",
+        "housing": "re-checked Sep 2, 2026: same navigation-only limitation",
+        "taxes": "re-checked Sep 2, 2026: voted No on H.R.1 (roll 190), which does not establish the taxes axis alone for a Democrat; no separate statement found",
+        "education": "re-checked Sep 2, 2026: not listed among issue headings found"
       },
       "sources": [
         {
@@ -2649,15 +2725,15 @@
       "background": "U.S. Representative for New Jersey's 9th District since 2025; previously a longtime New Jersey state senator representing Passaic County.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -1,
         "housing": null,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -1,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -2672,16 +2748,31 @@
         "democracy": {
           "label": "Voted Nay on the SAVE Act (roll 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "cost": {
+          "label": "Backed the Energy Bills Relief Act, which 'would expand access to low-cost power and fund home heating and cooling assistance' (pou.house.gov newsletter).",
+          "url": "https://pou.house.gov/media/newsletters/2600-year-thats-whats-left"
+        },
+        "health": {
+          "label": "Offered an amendment requiring '12 months of continuous coverage of full benefits for pregnant and postpartum individuals under Medicaid and CHIP,' saying Republican opposition 'is unconscionable to me' (pou.house.gov press release).",
+          "url": "https://pou.house.gov/media/press-releases/congresswoman-pou-offers-amendment-protect-medicaid-harsh-cuts"
+        },
+        "climate": {
+          "label": "Voted no on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "Ballotpedia's documented themes describe a general 2008 economic-recovery role with no specific consumer cost-of-living statement (checked Aug 29, 2026)",
-        "health": "No stated position found on Ballotpedia or house.gov (navigation-only) (checked Aug 29, 2026)",
-        "housing": "No stated position found (checked Aug 29, 2026)",
-        "taxes": "Chaired a property-tax-reform committee as a state senator, but per the guide's calibration this reads as targeted relief rather than a broader raise-or-cut-taxes agenda; voted No on H.R.1 but a Democrat's no vote alone does not establish the axis (checked Aug 29, 2026)",
-        "climate": "Backed funding for parks and urban environmental health as a state senator, which does not clearly map to the clean-energy-transition-vs-oil-and-gas axis (checked Aug 29, 2026)",
-        "safety": "No stated position found (checked Aug 29, 2026)",
-        "repro": "No stated position found (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: not addressed in sources fetched",
+        "taxes": "Chaired a property-tax-reform committee as a state senator, but per the guide's calibration this reads as targeted relief rather than a broader raise-or-cut-taxes agenda; voted No on H.R.1 but a Democrat's no vote alone does not establish the axis (checked Aug 29, 2026)"
       },
       "sources": [
         {
@@ -2829,13 +2920,13 @@
         }
       },
       "nullNotes": {
-        "health": "Not addressed on the campaign homepage; a linked Issues page returned a 404 (checked Aug 29, 2026)",
-        "housing": "Same limitation as health (checked Aug 29, 2026)",
-        "taxes": "Same limitation as health (checked Aug 29, 2026)",
-        "climate": "Same limitation as health (checked Aug 29, 2026)",
-        "education": "Same limitation as health (checked Aug 29, 2026)",
-        "safety": "Same limitation as health (checked Aug 29, 2026)",
-        "repro": "Same limitation as health (checked Aug 29, 2026)",
+        "health": "re-checked Sep 2, 2026: mejia.house.gov issues page is a navigation index with no stated position; no 119th Congress roll-call record found under her name for the rollbook votes, consistent with her having taken office after those early-2025 votes",
+        "housing": "re-checked Sep 2, 2026: same navigation-only limitation",
+        "taxes": "re-checked Sep 2, 2026: same navigation-only limitation",
+        "climate": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
+        "education": "re-checked Sep 2, 2026: same navigation-only limitation",
+        "safety": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
+        "repro": "re-checked Sep 2, 2026: same navigation-only limitation; no roll-call record found under her name",
         "democracy": "Criticizes \"blue no matter who\" politics and calls for \"unbought leadership,\" but this is about corruption/party establishment rather than voting rules; does not score (checked Aug 29, 2026)"
       },
       "sources": [
@@ -2986,12 +3077,12 @@
         }
       },
       "nullNotes": {
-        "housing": "Housing costs mentioned only jointly with groceries/utilities in one sentence, scored under cost per one-sentence-one-axis rule; no separate position found (checked Aug 29, 2026)",
-        "taxes": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "climate": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "safety": "Only \"stand up to corruption and abuse of power\" language, which is about government ethics rather than policing/prevention; does not score (checked Aug 29, 2026)",
-        "repro": "Not addressed on campaign site (checked Aug 29, 2026)",
-        "democracy": "\"Government works for you\" and anti-corruption language does not state a voting-rules position (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: hamawyfornj.com still ties housing costs jointly with groceries/utilities in one general affordability sentence, no separate housing policy per the one-sentence-one-axis rule",
+        "taxes": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "climate": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "safety": "re-checked Sep 2, 2026: 'corruption and abuse of power' language is about government ethics, not policing/prevention",
+        "repro": "re-checked Sep 2, 2026: not addressed on campaign site",
+        "democracy": "re-checked Sep 2, 2026: same anti-corruption language does not state a voting-rules position"
       },
       "sources": [
         {
@@ -3029,8 +3120,8 @@
         "Oppose federal funding for abortion"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 2,
+        "health": 2,
         "housing": null,
         "immigration": null,
         "taxes": 1,
@@ -3056,15 +3147,21 @@
         "safety": {
           "label": "Pledges 'full support' for law enforcement and to 'oppose any effort to defund or weaken the police,' while ensuring officers get needed tools and training (campaign site)",
           "url": "https://mele4america.com/issues"
+        },
+        "cost": {
+          "label": "Platform's Economy and Affordability section says 'I will oppose bloated spending packages and unnecessary bureaucratic expansions that fuel inflation,' pairing tax cuts, energy independence, and reduced regulation (mele4america.com/issues).",
+          "url": "https://mele4america.com/issues"
+        },
+        "health": {
+          "label": "Says 'healthcare should be affordable, accessible, and centered on patients and doctors, not dictated by Washington,' backing Health Savings Accounts and interstate insurance sales (mele4america.com/issues).",
+          "url": "https://mele4america.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "health": "Not addressed on campaign issues page beyond the abortion-funding statement, which is scored under repro (checked Aug 29, 2026)",
-        "housing": "Only prison-reform housing-assistance language for former inmates, not a general housing position (checked Aug 29, 2026)",
-        "democracy": "Not addressed on campaign issues page (checked Aug 29, 2026)",
-        "immigration": "fact-check flag verified Aug 29, 2026: mele4america.com/issues currently shows four platform sections (Economy/Affordability, Healthcare, Education, Public Safety) with no immigration/border-wall content; the previously cited border-wall and Stay in Mexico language is not present on the live page (checked Aug 29, 2026)",
-        "repro": "fact-check flag verified Aug 29, 2026: mele4america.com/issues has no abortion/family-planning-funding content; the previously cited quote is not present on the live page (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: /issues now shows four sections (Economy/Affordability, Healthcare, Education, Public Safety) and none address housing beyond the already-noted prison-reform housing assistance",
+        "democracy": "re-checked Sep 2, 2026: /issues has no voting-rules content",
+        "immigration": "re-checked Sep 2, 2026: confirmed again that /issues has no immigration section",
+        "repro": "re-checked Sep 2, 2026: confirmed again that /issues has no abortion/family-planning content"
       },
       "sources": [
         {

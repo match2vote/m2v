@@ -343,7 +343,7 @@
         "An economy for everyday Idahoans, not billionaires"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -1,
@@ -374,6 +374,10 @@
         "taxes": {
           "label": "Her day-one balanced budget 'will restore a lot of the revenue that was given away in tax cuts to the very wealthy and the corporations' (BYU-Idaho Radio)",
           "url": "https://www.byui.edu/radio/local-news/democratic-candidate-terri-pickens-outlines-plan-for-budget-reform-ahead-of-primary"
+        },
+        "cost": {
+          "label": "Says fair treatment of employees and paying a living wage is critical (terriforidaho.com)",
+          "url": "https://terriforidaho.com/issues/"
         }
       },
       "sources": [
@@ -392,11 +396,10 @@
       ],
       "curatedAt": "2026-08-13",
       "nullNotes": {
-        "cost": "checked campaign issues page, Ballotpedia, and primary coverage; economic language is scored under taxes, no distinct price or cost-of-living mechanism documented",
-        "housing": "checked campaign issues page and Ballotpedia, nothing documented",
-        "climate": "campaign issues page covers public lands access and anti-privatization, which does not map to the clean-energy versus fossil axis",
-        "safety": "only a line about violent criminals entering the country illegally, which is scored nowhere; no policing or sentencing platform documented",
-        "democracy": "checked campaign issues page and Ballotpedia, nothing documented"
+        "housing": "re-checked Sep 2, 2026: fetched terriforidaho.com/issues/ directly, no housing policy stated",
+        "climate": "re-checked Sep 2, 2026: fetched terriforidaho.com/issues/ directly, no climate or energy policy stated",
+        "safety": "re-checked Sep 2, 2026: only related statement is that violent criminals should be stopped from entering and deported, which is immigration enforcement, not a domestic policing or sentencing position",
+        "democracy": "re-checked Sep 2, 2026: fetched terriforidaho.com/issues/ directly, no voting or elections policy stated"
       }
     },
     {
@@ -496,7 +499,7 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": 1,
         "education": null,
@@ -512,17 +515,20 @@
         "climate": {
           "label": "Would 'abolish the Nuclear Regulatory Commission' to enable commercial nuclear power development (KIVI candidate survey)",
           "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        },
+        "immigration": {
+          "label": "Says 'Close the border' (johansonforidaho.com)",
+          "url": "https://www.johansonforidaho.com/the-issues"
         }
       },
       "nullNotes": {
         "cost": "checked KIVI candidate survey, nothing beyond the tax/spending answer scored under taxes (checked 2026-08-29)",
-        "health": "survey did not include a healthcare question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "housing": "checked KIVI candidate survey and Ballotpedia, nothing documented (checked 2026-08-29)",
-        "immigration": "survey did not include an immigration question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "education": "survey did not include an education question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "safety": "checked KIVI candidate survey and Ballotpedia, nothing documented (checked 2026-08-29)",
-        "repro": "survey did not include an abortion question; checked Ballotpedia, nothing documented (checked 2026-08-29)",
-        "democracy": "survey did not include a voting-rules question; checked Ballotpedia, nothing documented (checked 2026-08-29)"
+        "health": "re-checked Sep 2, 2026: fetched johansonforidaho.com/the-issues directly, no healthcare policy stated",
+        "housing": "re-checked Sep 2, 2026: fetched johansonforidaho.com/the-issues directly, no housing policy stated",
+        "education": "re-checked Sep 2, 2026: fetched johansonforidaho.com/the-issues directly, no education policy stated",
+        "safety": "re-checked Sep 2, 2026: fetched johansonforidaho.com/the-issues directly, no public-safety policy stated",
+        "repro": "re-checked Sep 2, 2026: page says 'Abortion? Not my axe to grind,' an explicit non-position rather than a documented mixed or directional stance",
+        "democracy": "re-checked Sep 2, 2026: fetched johansonforidaho.com/the-issues directly, no voting or elections policy stated"
       },
       "curatedAt": "2026-08-29"
     },
@@ -760,7 +766,7 @@
         "taxes": 2,
         "climate": null,
         "education": 2,
-        "safety": null,
+        "safety": 2,
         "repro": 2,
         "democracy": null
       },
@@ -788,13 +794,16 @@
         "repro": {
           "label": "States 'abortion is an act of homicide' while opposing federal mandates and favoring decentralization of the issue to states (Matt Loesby campaign, Platform)",
           "url": "https://www.loesby.us/platform/"
+        },
+        "safety": {
+          "label": "Platform says people camping in public areas not designated for that purpose should be detained and offered a trip to rehab, a shelter willing to take them, or a trip to a city that will tolerate them (loesby.us/platform)",
+          "url": "http://loesby.us/platform"
         }
       },
       "nullNotes": {
-        "housing": "No housing policy stated on platform page (checked Sep 2, 2026).",
-        "climate": "No climate or energy policy stated on platform page (checked Sep 2, 2026).",
-        "safety": "Platform calls to 'Shut Down the Spy Agencies' (FBI, CIA, DHS), which is about federal surveillance, not domestic policing or sentencing that the axis tracks (checked Sep 2, 2026).",
-        "democracy": "No voting or elections policy stated on platform page (checked Sep 2, 2026)."
+        "housing": "re-checked Sep 2, 2026: fetched loesby.us/platform directly, no housing policy stated",
+        "climate": "re-checked Sep 2, 2026: fetched loesby.us/platform directly, no climate or energy policy stated",
+        "democracy": "re-checked Sep 2, 2026: fetched loesby.us/platform directly, no voting or elections policy stated"
       },
       "curatedAt": "2026-09-02"
     },
@@ -899,30 +908,36 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": 2,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": null
       },
       "positionSources": {
         "taxes": {
           "label": "Advocates eliminating Idaho's income and sales taxes entirely, keeping only property taxes so 'taxing districts can set their own levies, approve their own levies and elect their representatives' (Idaho Press)",
           "url": "https://www.idahopress.com/news/local/paul-sand-libertarian-idaho-governor-campaign-tax-plan/article_7020600b-ec07-4558-b0a7-77ef2e4c5dac.html"
+        },
+        "immigration": {
+          "label": "Says he is against open borders and that all illegal immigrants need to be sent home, and opposes public benefits for any immigrant, legal or not (paulsand.org)",
+          "url": "https://paulsand.org"
+        },
+        "repro": {
+          "label": "Says abortion, except to save the life of the mother, should be illegal, calling the unborn from conception biologically unique individuals with a right to life (paulsand.org)",
+          "url": "https://paulsand.org"
         }
       },
       "nullNotes": {
-        "cost": "No price-control or wage policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "health": "No healthcare position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "housing": "No housing policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "immigration": "No immigration position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "climate": "No climate or energy policy found; only public-lands leasing (mining/grazing) position located, which does not map to the climate axis (checked Sep 2, 2026).",
-        "education": "No education policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "safety": "No public safety policy found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "repro": "No abortion position found in Idaho Press profile or elsewhere (checked Sep 2, 2026).",
-        "democracy": "No voting or elections policy found; only a proposal to shift most state functions to counties, which is a government-structure position, not a voting-rules position (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: fetched paulsand.org root page directly, no price-control or wage policy stated",
+        "health": "re-checked Sep 2, 2026: fetched paulsand.org root page directly, no healthcare position stated",
+        "housing": "re-checked Sep 2, 2026: site states opposition to state policies that bring more businesses and people into Idaho and opposition to public-lands privatization, which are growth/land stances, not a public-building-versus-deregulation housing position",
+        "climate": "re-checked Sep 2, 2026: fetched paulsand.org root page directly, no climate or energy policy stated beyond the previously noted public-lands leasing view",
+        "education": "re-checked Sep 2, 2026: fetched paulsand.org root page directly, no education policy stated",
+        "safety": "re-checked Sep 2, 2026: fetched paulsand.org root page directly, no domestic public-safety or policing policy stated",
+        "democracy": "re-checked Sep 2, 2026: site proposes shifting most state functions to counties, a government-structure position with no voting or elections-rule content"
       },
       "curatedAt": "2026-09-02"
     },
@@ -959,11 +974,11 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 2,
         "climate": null,
         "education": 2,
-        "safety": null,
+        "safety": -1,
         "repro": 2,
         "democracy": null
       },
@@ -975,17 +990,26 @@
         "repro": {
           "label": "Advocates classifying abortion as murder and prosecuting abortion-providing physicians with murder charges (Wikipedia, citing his campaign statements)",
           "url": "https://en.wikipedia.org/wiki/Pro-Life_(politician)"
+        },
+        "taxes": {
+          "label": "Platform says to start with eliminating sales tax, then on to income taxes, then property tax (prolife-idaho.com)",
+          "url": "http://prolife-idaho.com/"
+        },
+        "immigration": {
+          "label": "Says he will not allow any administration to bring illegal aliens into Idaho and would push the legislature to make this a permanent ban, also stopping federal placement of refugees (prolife-idaho.com)",
+          "url": "http://prolife-idaho.com/"
+        },
+        "safety": {
+          "label": "Says for-profit prisons are slow to recommend parole and quick to find infractions, and pledges a governor who would always be investigating such abuse (prolife-idaho.com)",
+          "url": "http://prolife-idaho.com/"
         }
       },
       "nullNotes": {
-        "cost": "No price or wage policy documented (checked Sep 2, 2026).",
-        "health": "No healthcare policy documented (checked Sep 2, 2026).",
-        "housing": "No housing policy documented (checked Sep 2, 2026).",
-        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
-        "taxes": "Documented position is opposition to the federal TARP bank bailout as fostering a 'fascist dictatorship run by the bankers,' which is not a state tax-rate position (checked Sep 2, 2026).",
-        "climate": "No climate or energy policy documented (checked Sep 2, 2026).",
-        "safety": "Only documented public-safety-adjacent position is arming school-volunteer groups after Sandy Hook, which is a gun policy excluded from this axis under the pass's hard source rules (checked Sep 2, 2026).",
-        "democracy": "No voting or elections policy documented; documented positions are on foreign policy and education (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: fetched prolife-idaho.com directly, no price-control or wage policy stated",
+        "health": "re-checked Sep 2, 2026: only documented health-adjacent position is opposition to vaccine mandates ('no mask, vaccine, or other health mandates'), which does not map to the public-versus-private healthcare-role axis",
+        "housing": "re-checked Sep 2, 2026: the only sentence on the site containing 'housing' concerns jails housing prisoners from other jurisdictions, not a housing-market position",
+        "climate": "re-checked Sep 2, 2026: fetched prolife-idaho.com directly, no climate or energy policy stated",
+        "democracy": "re-checked Sep 2, 2026: site opposes open-primary ranked-choice voting and supports 50%-threshold runoff primaries, which is a primary-system-structure position, not a voting-access/registration-rules position fitting this axis"
       },
       "curatedAt": "2026-09-02"
     },
@@ -1256,7 +1280,7 @@
         "taxes": 2,
         "climate": -1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1284,13 +1308,16 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act, H.R. 22, Apr 10, 2025 (House roll call 102)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked Wikipedia; his 2017 TCJA support is scored under taxes, no separate price/affordability mechanism documented (checked 2026-08-29)",
-        "housing": "checked Wikipedia, nothing documented (checked 2026-08-29)",
-        "education": "checked Wikipedia, nothing documented (checked 2026-08-29)",
-        "safety": "checked Wikipedia; the Newborn Screening Saves Lives Act and 2021 VAWA reauthorization vote concern health screening and domestic violence programs, not the policing/sentencing mechanism this axis tracks, so left null (checked 2026-08-29)"
+        "cost": "re-checked Sep 2, 2026: checked Wikipedia, nothing documented beyond the TCJA vote already scored under taxes",
+        "housing": "re-checked Sep 2, 2026: checked Wikipedia, nothing documented",
+        "education": "re-checked Sep 2, 2026: checked Wikipedia, nothing documented"
       },
       "sources": [
         {
@@ -1358,11 +1385,11 @@
         }
       },
       "nullNotes": {
-        "immigration": "checked campaign website (ellieforidaho.com) and Ballotpedia (no 2026 Candidate Connection survey), nothing documented (checked 2026-08-29)",
-        "climate": "campaign site calls for 'responsible energy development' while keeping 'public lands public' and improving wildfire prevention, which does not state a clean-energy-versus-fossil direction, so left null (checked 2026-08-29)",
-        "education": "checked campaign website and Ballotpedia, nothing documented (checked 2026-08-29)",
-        "safety": "checked campaign website and Ballotpedia, nothing documented (checked 2026-08-29)",
-        "democracy": "campaign site calls to 'restore constitutional balance,' end congressional stock trading, and curb dark money, which are anti-corruption measures, not the voting-rules mechanism this axis tracks, so left null (checked 2026-08-29)"
+        "immigration": "re-checked Sep 2, 2026: fetched ellieforidaho.com/policies/ directly; the site lists a 'Border and Immigration: Closed Border, Order and Humanity' heading with no expanded text stating a legal-pathways-versus-enforcement direction",
+        "climate": "re-checked Sep 2, 2026: fetched ellieforidaho.com/policies/ directly, still only public-lands/wildfire language that does not state a clean-energy-versus-fossil position",
+        "education": "re-checked Sep 2, 2026: fetched ellieforidaho.com/policies/ directly, no education policy stated beyond a section heading with no text",
+        "safety": "re-checked Sep 2, 2026: fetched ellieforidaho.com/policies/ directly, no public-safety policy stated",
+        "democracy": "re-checked Sep 2, 2026: fetched ellieforidaho.com/policies/ directly; anti-corruption items (end stock trading, ban dark money) documented but do not fit the voting-rules axis"
       },
       "sources": [
         {
@@ -1397,10 +1424,10 @@
       ],
       "positions": {
         "cost": -2,
-        "health": null,
+        "health": -1,
         "housing": -1,
         "immigration": null,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": null,
         "safety": null,
@@ -1419,16 +1446,22 @@
         "climate": {
           "label": "Would 'expand solar energy and fund Idaho National Laboratory nuclear research' (KIVI candidate survey)",
           "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-house-of-representatives-district-2"
+        },
+        "health": {
+          "label": "Lists Medicare Drug Negotiation as a platform commitment (votefortripp.com)",
+          "url": "https://votefortripp.com/platform/"
+        },
+        "taxes": {
+          "label": "Lists a Minimum Tax for Billionaires as a platform commitment (votefortripp.com)",
+          "url": "https://votefortripp.com/platform/"
         }
       },
       "nullNotes": {
-        "health": "survey did not include a healthcare question; checked campaign website, nothing documented (checked 2026-08-29)",
-        "immigration": "survey did not include an immigration question; checked campaign website, nothing documented (checked 2026-08-29)",
-        "taxes": "checked KIVI candidate survey and campaign website, nothing beyond the cost-of-living answer scored under cost (checked 2026-08-29)",
-        "education": "survey did not include an education question; checked campaign website, nothing documented (checked 2026-08-29)",
-        "safety": "checked KIVI candidate survey and campaign website, nothing documented (checked 2026-08-29)",
-        "repro": "survey did not include an abortion question; checked campaign website, nothing documented (checked 2026-08-29)",
-        "democracy": "survey did not include a voting-rules question; checked campaign website, nothing documented (checked 2026-08-29)"
+        "immigration": "re-checked Sep 2, 2026: fetched votefortripp.com/platform/ directly, no immigration policy stated; page notes 'Full platform in the works, stay tuned'",
+        "education": "re-checked Sep 2, 2026: fetched votefortripp.com/platform/ directly, no education policy stated",
+        "safety": "re-checked Sep 2, 2026: fetched votefortripp.com/platform/ directly, no public-safety policy stated",
+        "repro": "re-checked Sep 2, 2026: fetched votefortripp.com/platform/ directly, no abortion policy stated",
+        "democracy": "re-checked Sep 2, 2026: platform lists term limits, ending gerrymandering, overturning Citizens United, and banning corporate PACs, which are anti-corruption/structural-reform items, not voting-access rules fitting this axis"
       },
       "sources": [
         {

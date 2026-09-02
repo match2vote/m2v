@@ -604,12 +604,12 @@
         }
       },
       "nullNotes": {
-        "cost": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented beyond a general anti-corporate-money framing (checked Aug 29, 2026)",
+        "cost": "re-checked Sep 2, 2026: no 2026 Candidate Connection survey completed; campaign site content addresses military spending and Palestine, housing and homelessness, federal lands, and high-speed rail, no general price or wage mechanism stated",
         "health": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
-        "taxes": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
-        "education": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)",
-        "democracy": "checked the OPB interview and Pacific Green Party candidate profile, nothing documented (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: same campaign site scope, taxes not addressed",
+        "education": "re-checked Sep 2, 2026: same campaign site scope, education not addressed",
+        "safety": "re-checked Sep 2, 2026: same campaign site scope, policing or sentencing not addressed",
+        "democracy": "re-checked Sep 2, 2026: same campaign site scope, voting or elections not addressed"
       },
       "sources": [
         {
@@ -750,7 +750,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": null,
         "repro": null,
@@ -768,16 +768,19 @@
         "taxes": {
           "label": "Ballotpedia Candidate Connection: proposes replacing all federal taxation with 'a universal transaction tax with a constant rate' and cutting government spending '10%/year until deficit is eliminated'",
           "url": "https://ballotpedia.org/Gary_Dye"
+        },
+        "climate": {
+          "label": "Says people who deny 'the climate-warming narrative' are being misled because 'their science depends on cherry-picking of the data, misleading information, disinformation, and outright lies' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Gary_Dye"
         }
       },
       "nullNotes": {
-        "health": "No healthcare-specific policy documented beyond a general call to eliminate entitlement programs, already used for the cost axis (checked Sep 2, 2026).",
-        "housing": "No housing policy documented (checked Sep 2, 2026).",
-        "climate": "No climate or energy policy documented (checked Sep 2, 2026).",
-        "education": "No education-specific policy documented beyond a general call to eliminate federal departments (checked Sep 2, 2026).",
-        "safety": "No domestic public safety policy documented; documented positions are on foreign policy (troop withdrawal, embassy closures) which do not map to this axis (checked Sep 2, 2026).",
-        "repro": "No abortion position documented (checked Sep 2, 2026).",
-        "democracy": "Documented '12-year federal term limits' proposal is a government-structure position, not the axis's voting-access question, so left null (checked Sep 2, 2026)."
+        "health": "re-checked Sep 2, 2026: no healthcare-specific policy beyond the general entitlement-elimination call already used for cost",
+        "housing": "re-checked Sep 2, 2026: no housing policy documented in Ballotpedia survey",
+        "education": "re-checked Sep 2, 2026: survey mentions serving on a school district citizens budget committee as biography, states no school-choice-vs-public-funding position",
+        "safety": "re-checked Sep 2, 2026: survey addresses only foreign policy and troop withdrawal on the military, no domestic policing or sentencing statement",
+        "repro": "re-checked Sep 2, 2026: no abortion position documented in Ballotpedia survey",
+        "democracy": "re-checked Sep 2, 2026: survey statement about being true to his word and fighting corruption is a general integrity statement, not a voting-access or election-administration position"
       },
       "curatedAt": "2026-09-02"
     },
@@ -951,13 +954,13 @@
         }
       },
       "nullNotes": {
-        "cost": "checked drkahlforcongress.com/about, drkahloregon.com/about, and the Capital Chronicle's 2026 primary voter guide (she gave 'No response' to every question); only vague 'costs keep going up' framing found, no mechanism (checked Aug 29, 2026)",
-        "health": "checked both campaign bio pages and the Capital Chronicle voter guide; only 'rural clinic closures, prescription costs' listed as a topic with no stated direction (checked Aug 29, 2026)",
-        "housing": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)",
-        "immigration": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, which recorded 'No response' from her on immigration enforcement (checked Aug 29, 2026)",
-        "taxes": "checked both campaign bio pages; found only legislative testimony opposing Oregon HB 4143 on constitutional grounds, not a federal tax position (checked Aug 29, 2026)",
-        "repro": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)",
-        "democracy": "checked both campaign bio pages, Ballotpedia, and the Capital Chronicle voter guide, nothing documented (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: drkahlforcongress.com/issues page is a community issue-reporting form with only broad category labels (Healthcare Access, Education), no elaborated cost policy",
+        "health": "re-checked Sep 2, 2026: same issue-reporting form, no elaborated healthcare policy beyond the category label",
+        "housing": "re-checked Sep 2, 2026: same issue-reporting form, housing not addressed",
+        "immigration": "re-checked Sep 2, 2026: same issue-reporting form, immigration not addressed",
+        "taxes": "re-checked Sep 2, 2026: same issue-reporting form, taxes not addressed",
+        "repro": "re-checked Sep 2, 2026: same issue-reporting form, abortion not addressed",
+        "democracy": "re-checked Sep 2, 2026: same issue-reporting form, voting or elections not addressed"
       },
       "sources": [
         {
@@ -1158,7 +1161,7 @@
         "taxes": 2,
         "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": 2,
         "democracy": 2
       },
@@ -1186,13 +1189,16 @@
         "democracy": {
           "label": "Voted against certifying Pennsylvania's 2020 presidential electors, citing constitutional concerns (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Cliff_Bentz"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked house.gov issues (energy, health), a KTVZ primary-win interview, and Wikipedia; no cost-of-living mechanism beyond the healthcare and energy pricing already scored on other axes (checked Aug 29, 2026)",
-        "housing": "checked house.gov issues, KTVZ, and Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "education": "checked house.gov issues and Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked house.gov and KTVZ; he defends Portland against 'lawless city' characterizations and discusses National Guard deployment but stakes out no clear enforcement-versus-prevention position (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: house.gov Economy issue page and Ballotpedia contain no price or wage mechanism statement beyond press-release links",
+        "housing": "re-checked Sep 2, 2026: house.gov issues and Ballotpedia contain no housing statement",
+        "education": "re-checked Sep 2, 2026: house.gov Education issue page and Ballotpedia contain no school-choice-vs-public-funding statement, page lists only press release titles"
       },
       "sources": [
         {
@@ -1268,11 +1274,11 @@
         }
       },
       "nullNotes": {
-        "taxes": "checked campaign site (district2issues and homepage) and Ballotpedia; only a passing mention of 'vacation home tax adjustments' with no detail, and the Capital Chronicle voter guide records 'No response' from Beck (checked Aug 29, 2026)",
-        "climate": "checked campaign site and Ballotpedia, nothing documented; Capital Chronicle voter guide records 'No response' (checked Aug 29, 2026)",
-        "education": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)",
-        "repro": "checked campaign site and Ballotpedia, nothing documented (checked Aug 29, 2026)"
+        "taxes": "re-checked Sep 2, 2026: chrisbeckforcongress.com/issues was rate-limited or unreachable on repeated tries; Ballotpedia confirms no 2026 Candidate Connection survey completed",
+        "climate": "re-checked Sep 2, 2026: same access issue, no source reached",
+        "education": "re-checked Sep 2, 2026: same access issue, no source reached",
+        "safety": "re-checked Sep 2, 2026: same access issue, no source reached",
+        "repro": "re-checked Sep 2, 2026: same access issue, no source reached"
       },
       "sources": [
         {
@@ -1403,15 +1409,15 @@
         "Defend democracy through voter turnout"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": null,
         "housing": -1,
         "immigration": -1,
         "taxes": -1,
         "climate": -1,
-        "education": null,
-        "safety": null,
-        "repro": null,
+        "education": -2,
+        "safety": 1,
+        "repro": -1,
         "democracy": -1
       },
       "positionSources": {
@@ -1434,14 +1440,26 @@
         "democracy": {
           "label": "Voted no on the SAVE Act, H.R. 22, Apr 10 2025 (House roll call 102); re-election launch says 'the most powerful tool we have to defend democracy is your vote'",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "cost": {
+          "label": "As Majority Leader she increased the minimum wage and secured paid sick leave, and pledges to 'take on oil companies to lower gas prices' and 'stand up to big pharma to bring down drug costs' (Ballotpedia profile of Val Hoyle)",
+          "url": "https://ballotpedia.org/Val_Hoyle"
+        },
+        "education": {
+          "label": "As Majority Leader of the Oregon House she 'led Democrats in the House to pass the largest K12 budget in Oregon history, increasing education funding by over $1 billion' (Ballotpedia profile of Val Hoyle)",
+          "url": "https://ballotpedia.org/Val_Hoyle"
+        },
+        "safety": {
+          "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "repro": {
+          "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll027.xml"
         }
       },
       "nullNotes": {
-        "cost": "checked house.gov issues (housing) and her re-election launch statement; only vague framing that opponents 'are driving up costs, undermining working families,' no specific mechanism (checked Aug 29, 2026)",
-        "health": "house.gov health issue page returned a 410 error on repeated tries; checked her re-election launch statement and Wikipedia, nothing documented (checked Aug 29, 2026)",
-        "education": "house.gov education issue page returned a 410 error on repeated tries; checked her re-election launch statement, nothing documented (checked Aug 29, 2026)",
-        "safety": "checked house.gov issues list and her re-election launch statement, no safety/crime page or statement found (checked Aug 29, 2026)",
-        "repro": "checked house.gov issues list and her re-election launch statement, nothing documented (checked Aug 29, 2026)"
+        "health": "re-checked Sep 2, 2026: house.gov Health issue page still returns a 410 error, no 2026 statement found on the healthcare system's public-vs-private role"
       },
       "sources": [
         {

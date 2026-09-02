@@ -182,12 +182,12 @@
       ],
       "curatedAt": "2026-08-14",
       "nullNotes": {
-        "cost": "checked WyoFile election guide questionnaire and Cowboy State Daily announcement; his pricing items are healthcare-specific and scored there",
-        "housing": "checked WyoFile election guide questionnaire and Cowboy State Daily announcement, nothing documented",
-        "taxes": "checked WyoFile election guide questionnaire and Cowboy State Daily announcement, nothing documented",
+        "cost": "re-checked Sep 2, 2026: fetched byrdforsenate.com directly, no distinct price or wage policy beyond the healthcare-pricing item already scored under health",
+        "housing": "re-checked Sep 2, 2026: fetched byrdforsenate.com directly, no housing policy stated",
+        "taxes": "re-checked Sep 2, 2026: fetched byrdforsenate.com directly, no tax-rate policy stated",
         "education": "workforce-development ideas documented, but no K-12 funding versus school-choice stance",
-        "safety": "checked WyoFile election guide questionnaire and Cowboy State Daily announcement, nothing documented",
-        "repro": "checked WyoFile election guide questionnaire and Cowboy State Daily announcement, nothing documented",
+        "safety": "re-checked Sep 2, 2026: fetched byrdforsenate.com directly, no domestic public-safety policy stated",
+        "repro": "re-checked Sep 2, 2026: fetched byrdforsenate.com directly, no abortion policy stated",
         "democracy": "town-hall accessibility pledge documented, but no voting-rules position"
       }
     },
@@ -342,11 +342,11 @@
       ],
       "curatedAt": "2026-08-22",
       "nullNotes": {
-        "cost": "checked WyoFile election guide, WyoFile record piece, the Aug 2026 WyoFile policy comparison and barlowforwyo.com/positions; budget stances scored under taxes, no consumer-price mechanism documented",
-        "health": "delivery goals only: healthcare strike team, rural hospitals, telehealth (WyoFile guide and campaign site), plus a yes to a state perpetuity fund for Rural Health Transformation money (WyoFile Aug 2026 comparison); no public-versus-private insurance mechanism documented, so it does not fit the axis",
-        "housing": "campaign site says only 'exploring partnerships to address housing'; WyoFile guide and record piece have nothing scorable",
-        "immigration": "checked WyoFile guide, record piece, Aug 2026 policy comparison and barlowforwyo.com/positions, nothing documented",
-        "democracy": "checked WyoFile guide, record piece, campaign positions page and crossover-voting coverage; no named Barlow vote or stated voting-rules position found (wyoleg.gov roll calls are not fetchable from this session)"
+        "cost": "re-checked Sep 2, 2026: fetched barlowforwyo.com homepage and /healthcare page directly, no price-control, wage, or fuel-cost mechanism stated",
+        "health": "re-checked Sep 2, 2026: fetched barlowforwyo.com/healthcare directly; page only pledges to 'prioritize healthcare from day one' via a Healthcare Strike Team, no Medicaid or public-versus-private mechanism stated",
+        "housing": "re-checked Sep 2, 2026: campaign site still says only 'exploring partnerships to address housing,' no mechanism stated",
+        "immigration": "re-checked Sep 2, 2026: fetched barlowforwyo.com/setting-the-record-straight directly; page rebuts claims about a past legislative vote on immigration benefits but does not state his own current position",
+        "democracy": "re-checked Sep 2, 2026: fetched barlowforwyo.com/setting-the-record-straight directly, page addresses vote-record claims on other topics, no voting-rules or election-law position stated"
       }
     },
     {
@@ -399,14 +399,14 @@
       ],
       "curatedAt": "2026-08-14",
       "nullNotes": {
-        "cost": "checked Wyoming Public Media profile and WyoFile election guide (he did not respond to the questionnaire), nothing documented",
-        "health": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "housing": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "immigration": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "climate": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "safety": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "repro": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented",
-        "democracy": "checked Wyoming Public Media profile and WyoFile election guide, nothing documented"
+        "cost": "re-checked Sep 2, 2026: no new source found beyond the Wyoming Public Media profile and WyoFile guide already checked; no campaign website found",
+        "health": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "housing": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "immigration": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "climate": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "safety": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "repro": "re-checked Sep 2, 2026: no new source found, no campaign website found",
+        "democracy": "re-checked Sep 2, 2026: no new source found, no campaign website found"
       }
     },
     {
@@ -446,8 +446,8 @@
         "cost": null,
         "health": null,
         "housing": 2,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 1,
         "climate": 2,
         "education": 2,
         "safety": null,
@@ -470,15 +470,21 @@
         "repro": {
           "label": "Governor platform explicitly lists 'pro-life values' as a core plank (Cowboy State Daily)",
           "url": "https://cowboystatedaily.com/2026/05/13/checkgates-rebecca-bextel-running-for-governor-on-c/"
+        },
+        "taxes": {
+          "label": "Promises 'meaningful, permanent property-tax reform that protects homeowners,' limits on excessive assessment increases, and a responsible fuel-tax reduction (rebeccaforwyoming.com)",
+          "url": "https://www.rebeccaforwyoming.com/issues"
+        },
+        "immigration": {
+          "label": "Would withdraw Wyoming from the federal refugee resettlement program, end policies letting illegal immigrants obtain Wyoming driver's licenses, and ensure Wyoming 'will never become a sanctuary state' (rebeccaforwyoming.com)",
+          "url": "https://www.rebeccaforwyoming.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "No price-control or wage policy documented in WyoFile/Cowboy State Daily/County 17 coverage (checked Sep 2, 2026).",
-        "health": "No healthcare policy documented (checked Sep 2, 2026).",
-        "immigration": "No immigration policy documented (checked Sep 2, 2026).",
-        "taxes": "'Limited government' is stated only as general framing, without a specific tax-rate proposal (checked Sep 2, 2026).",
-        "safety": "No domestic public safety policy documented (checked Sep 2, 2026).",
-        "democracy": "No voting or elections policy documented (checked Sep 2, 2026)."
+        "cost": "re-checked Sep 2, 2026: fetched rebeccaforwyoming.com/issues and /first-100-days directly; fuel-tax and property-tax content found is scored under taxes, no separate price-control or wage mechanism stated",
+        "health": "re-checked Sep 2, 2026: fetched rebeccaforwyoming.com/issues and /first-100-days directly, no healthcare policy stated",
+        "safety": "re-checked Sep 2, 2026: fetched rebeccaforwyoming.com/first-100-days directly; sanctuary-state, ICE-cooperation, and E-Verify content found is immigration enforcement, already scored under immigration, not a domestic policing/sentencing position",
+        "democracy": "re-checked Sep 2, 2026: fetched rebeccaforwyoming.com/issues directly, no voting or elections policy stated"
       },
       "curatedAt": "2026-09-02"
     },
@@ -547,11 +553,11 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "housing": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated housing position found (checked Sep 2, 2026)",
-        "taxes": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated broad tax-policy position found (checked Sep 2, 2026)",
-        "education": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated education position found (checked Sep 2, 2026)",
+        "housing": "re-checked Sep 2, 2026: fetched chuckforwyoming.com directly; the site is JavaScript-rendered and returns only metadata (three themes: Energy, Affordability, Election Integrity) with no fetchable policy text, and Ballotpedia was robots-blocked on this check",
+        "taxes": "re-checked Sep 2, 2026: same access limits as housing, no tax-rate text fetchable",
+        "education": "re-checked Sep 2, 2026: same access limits as housing, no education text fetchable",
         "safety": "WyoFile guide notes he cites undocumented immigrants driving as a traffic-safety concern; this is an immigration-enforcement point, not a domestic policing/prevention statement, so it does not fit this axis (checked Sep 2, 2026)",
-        "repro": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated abortion position found (checked Sep 2, 2026)"
+        "repro": "re-checked Sep 2, 2026: same access limits as housing, no abortion text fetchable"
       }
     },
     {
@@ -615,12 +621,12 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked WyoFile 2026 Election Guide profile; her 'eliminating income tax for those earning under $100,000 and reducing FICA' proposal is a tax-policy item, not a prices/markets stance, so it does not fit this axis (checked Sep 2, 2026)",
-        "taxes": "WyoFile guide quotes her plan to eliminate income tax for earners under $100,000 and reduce FICA; a targeted middle/low-income tax cut framed as fairness rather than a broad raise-on-the-wealthy or cut-across-the-board agenda, too specific to fix a clean sign on this axis (checked Sep 2, 2026)",
-        "climate": "WyoFile guide covers her opposition to federal land sales (HR 718, Public Lands in Public Hands Act), a land-disposal stance rather than an energy-mix or emissions position, so it does not fit this axis (checked Sep 2, 2026)",
-        "safety": "checked WyoFile 2026 Election Guide profile; no stated domestic public-safety/policing position found (checked Sep 2, 2026)",
-        "repro": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated abortion position found (checked Sep 2, 2026)",
-        "democracy": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated voting/elections position found (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly; opposition to foreign beef imports is agricultural trade policy, not a price-control or wage mechanism",
+        "taxes": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly, no tax-rate policy beyond the income-tax-elimination proposal already scored",
+        "climate": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly, still only public-lands language already scored, no energy-source position",
+        "safety": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly, no domestic public-safety position found",
+        "repro": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly, no abortion position found",
+        "democracy": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly; found only 'elections are to be managed by the STATES not the Federal Government,' a federalism/jurisdiction statement, not a stated direction on registration or voting-access rules"
       }
     },
     {
@@ -680,13 +686,13 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked Ballotpedia summary of his campaign website; no stated cost-of-living position found (checked Sep 2, 2026)",
-        "housing": "checked Ballotpedia summary of his campaign website; no stated housing position found (checked Sep 2, 2026)",
-        "climate": "checked Ballotpedia summary of his campaign website; a general call to strengthen the 'electrical grid' is infrastructure language with no energy-mix or emissions position, too vague to score (checked Sep 2, 2026)",
-        "education": "checked Ballotpedia summary of his campaign website; no stated education position found (checked Sep 2, 2026)",
-        "safety": "checked Ballotpedia summary of his campaign website; no stated domestic public-safety/policing position found (checked Sep 2, 2026)",
-        "repro": "checked Ballotpedia summary of his campaign website; no stated abortion position found (checked Sep 2, 2026)",
-        "democracy": "campaign material calls generally for candidates who 'will not waver from their sworn duty to uphold Constitutional law,' with no specific voting-access or election-security proposal; too vague to fix a sign (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no cost-of-living position found",
+        "housing": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no housing position found",
+        "climate": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly; only an electrical-grid infrastructure-security line found, still no energy-source position",
+        "education": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no education position found",
+        "safety": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no domestic public-safety position found",
+        "repro": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no abortion position found",
+        "democracy": "re-checked Sep 2, 2026: fetched haggitforhouse.com homepage and /news directly, no voting or elections position found beyond general constitutional-fidelity language"
       }
     },
     {
@@ -733,16 +739,16 @@
       ],
       "curatedAt": "2026-09-02",
       "nullNotes": {
-        "cost": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "health": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "housing": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "immigration": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "taxes": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "climate": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "education": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "safety": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "repro": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
-        "democracy": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)"
+        "cost": "re-checked Sep 2, 2026: fetched ballotpedia.org/Shawn_Johnson directly; page shows campaign themes 'Wyoming State Budget, Criminal Justice Reform, Firearms' but the 2020 Candidate Connection survey text itself is not extractable from the fetched page",
+        "health": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "housing": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "immigration": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "taxes": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "climate": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "education": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "safety": "re-checked Sep 2, 2026: same access limit as cost; the 'Criminal Justice Reform' theme label is visible but its underlying survey text is not extractable, so no direction can be scored",
+        "repro": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable",
+        "democracy": "re-checked Sep 2, 2026: same access limit as cost, no survey text extractable"
       }
     },
     {

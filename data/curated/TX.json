@@ -1639,7 +1639,7 @@
         "climate": null,
         "education": -1,
         "safety": -1,
-        "repro": null,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -1662,14 +1662,17 @@
         "safety": {
           "label": "Names 'criminal justice reform, mental health' among the policy areas she is passionate about (Ballotpedia TX-25 2026 election page, Candidate Connection responses)",
           "url": "https://ballotpedia.org/Texas%27_25th_Congressional_District_election,_2026"
+        },
+        "repro": {
+          "label": "I will protect reproductive care, no family should delay care or go into debt just to stay healthy (Ballotpedia Candidate Connection survey).",
+          "url": "https://ballotpedia.org/Dione_Sims"
         }
       },
       "nullNotes": {
-        "housing": "Her campaign site at dionesimsforcongress.com is client rendered and returns only meta tags to a fetcher on the home page, /issues, /about, its sitemap and its llms.txt, so no issues text is retrievable; her Ballotpedia profile and the Ballotpedia election page list 'housing stability' as a priority word with no stance attached; no fetchable local news coverage of the race surfaced at Texas Metro News, Dallas Weekly or KERA.",
-        "taxes": "No tax plank in her Ballotpedia Candidate Connection answers or on the Ballotpedia election page; her campaign site issues page could not be loaded because the site serves a client rendered shell; she has never held office so there is no legislative record; no fetchable local news coverage of the race surfaced.",
-        "climate": "No energy or climate statement anywhere in her Ballotpedia profile or Candidate Connection answers, and none on the Ballotpedia election page; her campaign site issues page could not be loaded because the site serves a client rendered shell; no legislative record and no fetchable local news coverage.",
-        "repro": "Her Ballotpedia Candidate Connection answers go no further than a pledge to 'defend fundamental civil rights for everyone, without exceptions', which does not name abortion; nothing on the Ballotpedia election page addresses it; her campaign site issues page could not be loaded because the site serves a client rendered shell; no legislative record.",
-        "democracy": "dionesimsforcongress.com home page carries only general campaign messaging (\"make freedom livable\") with no issues subpage found and no voting access or election administration position, Ballotpedia has no elections position (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: Ballotpedia Candidate Connection survey names housing only inside a general values list, 'I care deeply about housing stability, fair wages, retirement security,' no build/deregulate mechanism stated, her campaign site dionesimsforcongress.com remains client-rendered and unreadable to a fetcher",
+        "taxes": "re-checked Sep 2, 2026: no tax rate or tax base item in her Ballotpedia Candidate Connection survey answers",
+        "climate": "re-checked Sep 2, 2026: no energy or climate item in her Ballotpedia Candidate Connection survey answers",
+        "democracy": "re-checked Sep 2, 2026: her Constitutional Rights survey answer bundles 'I will protect voting rights, equal protection, free speech, and due process' into one general civil-rights sentence with no specific voting-access or election-administration mechanism named, too generic to place on the axis"
       },
       "curatedAt": "2026-08-17"
     },
@@ -2935,7 +2938,7 @@
         }
       },
       "nullNotes": {
-        "immigration": "second targeted round, August 2026, found nothing new: pearcefortexas.com still carries only Home, Endorsements and Live Stream, and its /issues path returns a shell with no policy text, the Ballotpedia Candidate Connection survey still does not address immigration, Branch still records \"As of January 22, 2026, Jason Pearce's website did not contain information on this issue\" for immigration, BallotReady lists no immigration plank, site searches at KETR and KXII in the Sherman and Denison market return no coverage of him, Vote411 has not yet published a November 2026 Texas guide, and battlegroundvote.com asserts a stance with no citation so it is not usable (closer round, Aug 29, 2026: tried votesmart.org candidate page, a JS loading shell with no content; iVoterGuide search and a direct URL guess, no profile found; Texas Tribune candidate directory guess, 404; web.archive.org snapshots of the campaign site, blocked by network policy; nothing new found)",
+        "immigration": "re-checked Sep 2, 2026: a quote attributed to 'Jason Pearce' on battlegroundvote.com ('to take the handcuffs off law enforcement, they will go home, they will self-deport,' Fox News, July 29, 2010, re: authoring Senate Bill 1070) is a data error on that site, the 2010 SB1070/self-deportation author and Fox News guest was AZ state senator Russell Pearce, not this Texas Democratic candidate; not used as a source, flagging for the data team",
         "climate": "second targeted round, August 2026: his only energy item remains grid reliability, \"Fix the power grid, invest in resilient infrastructure, and lower energy costs through smart modernization\" on BallotReady and \"Supports fixing the power grid and investing in resilient infrastructure\" on Branch, neither of which states a position on the clean energy transition or on fossil fuel production, rechecked the Ballotpedia Candidate Connection survey and the campaign site /issues shell and endorsements page, searched KETR and KXII, and Vote411 has not yet published a November 2026 Texas guide (closer round, Aug 29, 2026: tried votesmart.org candidate page, a JS loading shell with no content; iVoterGuide search and a direct URL guess, no profile found; Texas Tribune candidate directory guess, 404; web.archive.org snapshots of the campaign site, blocked by network policy; nothing new found)",
         "safety": "second targeted round, August 2026: his only public safety item is still gun policy, universal background checks, waiting periods and free safety training, which does not map to this axis, no policing, sentencing, reentry or mental health item appears on BallotReady, on Branch, in the Ballotpedia Candidate Connection survey, or on the campaign site, and KETR and KXII site searches return no coverage, Vote411 has not yet published a November 2026 Texas guide (closer round, Aug 29, 2026: tried votesmart.org candidate page, a JS loading shell with no content; iVoterGuide search and a direct URL guess, no profile found; Texas Tribune candidate directory guess, 404; web.archive.org snapshots of the campaign site, blocked by network policy; nothing new found)",
         "repro": "second targeted round, August 2026: no abortion or reproductive rights plank on BallotReady or Branch, the Ballotpedia Candidate Connection survey still does not address it, the campaign site /issues path is an empty shell and the endorsements page lists no reproductive rights group with a statement, KETR and KXII site searches return no coverage, Vote411 has not yet published a November 2026 Texas guide, and attempted searches of the Herald Democrat, Greenville Herald Banner, Texarkana Gazette and Paris News sites were blocked by robots rules or rate limits (closer round, Aug 29, 2026: tried votesmart.org candidate page, a JS loading shell with no content; iVoterGuide search and a direct URL guess, no profile found; Texas Tribune candidate directory guess, 404; web.archive.org snapshots of the campaign site, blocked by network policy; nothing new found)"
@@ -4892,11 +4895,11 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign site home page and its legacy issue pages have no cost-of-living or prices item, her Ballotpedia Candidate Connection answers frame deregulation as job creation rather than lowering prices, no Vote Smart Political Courage Test on file, and Texas Tribune, Spectrum News, The Texan and Fox News runoff coverage carry no affordability position",
-        "health": "campaign site has no health care page, Ballotpedia Candidate Connection answers cover no health care topic, no Vote Smart test on file, no health statement in Texas Tribune, Spectrum News, The Texan or Fox News coverage, and she has never held legislative office so there is no voting record",
-        "housing": "campaign site has no housing or zoning page, Ballotpedia Candidate Connection answers do not mention housing, no Vote Smart test on file, and none of the Texas Tribune, Spectrum News, The Texan or Fox News race coverage reports a housing position",
-        "education": "campaign site has no education page, Ballotpedia Candidate Connection answers mention school policy only through transgender participation in women's sports, which is not on this axis, no Vote Smart test on file, and no education position in Texas Tribune, Spectrum News, The Texan or Fox News coverage",
-        "taxes": "campaign site (alexandramealer.com) home, about and crime pages have no tax policy statement, campaign focuses on Houston Ship Channel and petrochemical industry without a tax stance, Ballotpedia page blocked, no Candidate Connection survey found (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: alexandramealer.com and Ballotpedia both confirmed she still has not completed the 2026 Candidate Connection survey, no cost-of-living item found",
+        "health": "re-checked Sep 2, 2026: same, Ballotpedia survey not completed",
+        "housing": "re-checked Sep 2, 2026: same, Ballotpedia survey not completed",
+        "education": "re-checked Sep 2, 2026: same, Ballotpedia survey not completed",
+        "taxes": "re-checked Sep 2, 2026: same, Ballotpedia survey not completed"
       },
       "sources": [
         {
@@ -6059,10 +6062,10 @@
         }
       },
       "nullNotes": {
-        "health": "Ballotpedia biography, 2026 Candidate Connection survey responses and campaign website theme summary contain nothing on healthcare, Medicare or Medicaid; his own site at trevernehls.com carries a Fort Bend County Judge platform with no health item; he has never held federal or state legislative office so there is no roll-call record",
-        "housing": "Ballotpedia 2026 survey responses and campaign website themes cover borders, inflation, energy, education, law enforcement and infrastructure only, with no housing item; trevernehls.com has no housing plank; no legislative record to check",
-        "repro": "Ballotpedia page has no mention of abortion or reproductive rights anywhere, including the 2026 survey responses; trevernehls.com does not address it; no legislative record to check",
-        "democracy": "Ballotpedia page has no mention of elections, voting or election integrity anywhere, including the 2026 survey responses; trevernehls.com does not address it; no legislative record to check"
+        "health": "re-checked Sep 2, 2026: trevernehlsforcongress.com/issues/ and Ballotpedia Candidate Connection survey fetched directly, no health care plank in either, survey covers only border security, inflation/economy, energy independence, and general priorities",
+        "housing": "re-checked Sep 2, 2026: campaign issues page frames housing only inside the general affordability line 'lower costs for groceries, gas, housing, and everyday necessities,' no distinct housing policy",
+        "repro": "re-checked Sep 2, 2026: no abortion plank on trevernehlsforcongress.com/issues/ or in Ballotpedia Candidate Connection survey",
+        "democracy": "re-checked Sep 2, 2026: no voting or elections plank on trevernehlsforcongress.com/issues/ or in Ballotpedia Candidate Connection survey"
       },
       "sources": [
         {
@@ -6518,12 +6521,12 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign site sitemap lists only home, about, issues, contact, contest and endorsements pages, and the issues page carries placeholder template text with no policy; KERA reports campaign promises 'to improve affordability and curb inflation' but states no direction on price intervention versus deregulation; Ballotpedia 2026 Candidate Connection survey unanswered; no legislative record, he has held no office",
+        "cost": "re-checked Sep 2, 2026: Community Impact Q&A quotes him wanting to 'roll back Trump's tariffs to ease inflation,' but tariff policy is a distinct third form of intervention that does not map cleanly to the cap-prices-vs-deregulate axis (same logic as the rollbook's rejected tariff-vote entry), not scored",
         "immigration": "campaign homepage lists 'immigration reform' with no further detail and the site has no issues content beyond that line; Ballotpedia 2026 Candidate Connection survey unanswered; KERA primary coverage does not address immigration; no legislative record",
-        "taxes": "campaign homepage has one economic-fairness line about billionaires but names no tax policy; site issues page is placeholder text; Ballotpedia 2026 Candidate Connection survey unanswered; KERA primary coverage does not address taxes; no legislative record",
-        "climate": "no climate or energy item on the campaign homepage or about page, the site has no other content pages; Ballotpedia 2026 Candidate Connection survey unanswered; KERA primary coverage does not address climate or energy; Texas Tribune, Fort Worth Report and Dallas Observer searches returned nothing on this candidate; no legislative record",
+        "taxes": "re-checked Sep 2, 2026: Community Impact Q&A quotes 'tax relief for households under $400,000 and stronger IRS enforcement,' a targeted household tax credit with no broader corporate/high-earner rate position, matches the guide's null calibration for targeted credits",
+        "climate": "re-checked Sep 2, 2026: Community Impact Q&A, Fort Worth Report, and Lone Star Left profile fetched, none address climate or energy",
         "safety": "no crime, policing or criminal-justice item on the campaign homepage or about page; Ballotpedia 2026 Candidate Connection survey unanswered; KERA primary coverage does not address public safety; VOTE411 Texas guide not yet published for this race; no legislative record",
-        "democracy": "burgeforcongress.com home and about pages link only to a polling-place lookup tool with no stated position on voter registration, mail or early voting, or voter ID, KERA News profile and Ballotpedia have no elections position (checked Aug 29, 2026)"
+        "democracy": "re-checked Sep 2, 2026: Lone Star Left Q&A quotes him on DC statehood/Puerto Rico self-determination ('a majority of the patriotic Americans in DC desire full representation... Statehood'), which is about federal representation, not voting-access or election-administration, does not fit this axis"
       },
       "sources": [
         {
@@ -6975,8 +6978,8 @@
         "health": null,
         "housing": null,
         "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "taxes": -1,
+        "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -2,
@@ -6990,17 +6993,23 @@
         "repro": {
           "label": "Campaign theme \"Standing up for reproductive rights: ensuring the government doesn't get between women and their doctors\" (Ballotpedia candidate page)",
           "url": "https://ballotpedia.org/Tanya_Lloyd"
+        },
+        "taxes": {
+          "label": "The current tax code is a rigged game where the ultra-wealthy use high-priced lobbyists to shift their tax burden onto the backs of working Texans (Lone Star Left, in her own words).",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
+        },
+        "climate": {
+          "label": "Texas should lead the way in the global energy transition to secure our economic future, backing an all of the above strategy for solar, wind, hydrogen, and geothermal jobs (Lone Star Left, in her own words).",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
         }
       },
       "nullNotes": {
-        "cost": "her campaign priorities page has an Economy item, but it promises only to \"champion strengthening the economic well-being of the working class and middle class families of TX-27, including much-needed infrastructure investments from Bastrop to Nueces County\", with no price, subsidy, wage or deregulation content, so it does not fit this axis; her Ballotpedia Candidate Connection answers repeat the same general language and she holds no office with a voting record",
-        "housing": "no housing item in the five entries on her campaign Top 5 Policy Priorities page, none in her campaign About biography, none in her Ballotpedia Candidate Connection survey answers, and she holds no office with a voting record",
-        "immigration": "no immigration item in her campaign Top 5 Policy Priorities page or campaign About biography, none in her Ballotpedia Candidate Connection survey answers, and a search of the Victoria Advocate site returned no coverage of her",
-        "taxes": "no tax item in her campaign Top 5 Policy Priorities page or Ballotpedia Candidate Connection survey answers, no legislative record, and Texas Tribune and Victoria Advocate site searches returned nothing on her",
-        "climate": "no energy or climate item among the five entries on her campaign Top 5 Policy Priorities page, none in her campaign About biography, none in her Ballotpedia Candidate Connection survey answers, and no legislative record",
-        "safety": "no crime, policing or criminal justice item on her campaign priorities page, in her campaign About biography, or in her Ballotpedia Candidate Connection survey answers",
-        "democracy": "her campaign priorities page has a Democracy heading but its full text is \"Our country is in a dark and dangerous place right now and Tanya will champion strengthening our democracy\", with no voting rules, registration or ballot access content, which the method treats as incidental; her Ballotpedia survey answer likewise cites only \"the political division threatening our democracy\"",
-        "health": "tanyafortx27.com priorities page raises rural hospital access and closures as a problem but does not propose expanding Medicare/Medicaid or a market based alternative, Ballotpedia has no health position (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: Lone Star Left Q&A only offers the general line 'any Texan working a full-time job can actually afford to live in the community where they work,' no price cap, subsidy, or deregulation mechanism named",
+        "housing": "re-checked Sep 2, 2026: no housing item in her campaign Top 5 Policy Priorities page, campaign About biography, Ballotpedia, or the Lone Star Left Q&A",
+        "immigration": "re-checked Sep 2, 2026: Lone Star Left Q&A gives 'we need a border that is both secure and humane, moving away from reactive chaos toward an orderly, rule-based system,' too hedged and non-specific to place on either pole",
+        "safety": "re-checked Sep 2, 2026: no crime, policing or sentencing item on her campaign priorities page, About biography, Ballotpedia survey, or the Lone Star Left Q&A",
+        "democracy": "re-checked Sep 2, 2026: her campaign priorities page Democracy heading and the Lone Star Left Q&A both stay at general alarm about the state of the country, no voting-access or election-administration mechanism named",
+        "health": "re-checked Sep 2, 2026: Lone Star Left Q&A only offers 'every American deserves the security of knowing a medical emergency won't lead to bankruptcy,' does not state expanding Medicare/Medicaid versus a private/competition approach"
       },
       "sources": [
         {
@@ -7556,10 +7565,10 @@
         }
       },
       "nullNotes": {
-        "cost": "campaign priorities page has no cost of living mechanism on this axis: the only line is the aspiration that 'Texas families deserve lower costs and economic opportunity', tied to China trade and manufacturing rather than to price intervention or deregulation; Ballotpedia campaign themes add nothing further; no legislative record, he has never held office (closer round, Aug 29, 2026: fetched the live campaign site jaceforcongress.com and its priorities page in full, confirming eleven section headings with no housing content and no health-coverage or distinct policing content; the Ballotpedia survey Economic Growth answer, cut taxes, unleash energy, end wasteful spending, and demand fair trade, and the Cutting Runaway Spending section both restate the same inflation-from-spending sentence already cited for the taxes axis, so neither is a distinct sentence available for cost per the one-sentence-one-axis rule; iVoterGuide direct URL guess 404; nothing new found)",
+        "cost": "re-checked Sep 2, 2026: jaceforcongress.com/priorities fetched directly, closest line is 'gluttonous spending and the inflation it causes hurts middle and working class families' under a spending-cuts heading, does not name a price-cap/subsidy or deregulation mechanism aimed at consumer costs",
         "health": "campaign priorities section 'Making America Healthy Again' covers food additives, school fitness standards and medical freedom against vaccine mandates, none of which speak to the public versus private role in coverage; Ballotpedia campaign themes repeat the same material; no Medicaid, Medicare or ACA statement found on the campaign site or Ballotpedia; no legislative record (closer round, Aug 29, 2026: fetched the live campaign site jaceforcongress.com and its priorities page in full, confirming eleven section headings with no housing content and no health-coverage or distinct policing content; the Ballotpedia survey Economic Growth answer, cut taxes, unleash energy, end wasteful spending, and demand fair trade, and the Cutting Runaway Spending section both restate the same inflation-from-spending sentence already cited for the taxes axis, so neither is a distinct sentence available for cost per the one-sentence-one-axis rule; iVoterGuide direct URL guess 404; nothing new found)",
-        "housing": "no housing, rent or homebuilding item on the campaign priorities page, about page, media kit or endorsements page; Ballotpedia campaign themes explicitly have nothing on housing, rent or home prices; no legislative record (closer round, Aug 29, 2026: fetched the live campaign site jaceforcongress.com and its priorities page in full, confirming eleven section headings with no housing content and no health-coverage or distinct policing content; the Ballotpedia survey Economic Growth answer, cut taxes, unleash energy, end wasteful spending, and demand fair trade, and the Cutting Runaway Spending section both restate the same inflation-from-spending sentence already cited for the taxes axis, so neither is a distinct sentence available for cost per the one-sentence-one-axis rule; iVoterGuide direct URL guess 404; nothing new found)",
-        "safety": "verify gate: the only enforcement sentence on the cited page is the National Guard and ICE line already scored on the immigration axis, and rule 3c forbids one sentence scoring two axes; also checked his campaign priorities page and his about page, no separate crime, policing or sentencing item found (closer round, Aug 29, 2026: fetched the live campaign site jaceforcongress.com and its priorities page in full, confirming eleven section headings with no housing content and no health-coverage or distinct policing content; the Ballotpedia survey Economic Growth answer, cut taxes, unleash energy, end wasteful spending, and demand fair trade, and the Cutting Runaway Spending section both restate the same inflation-from-spending sentence already cited for the taxes axis, so neither is a distinct sentence available for cost per the one-sentence-one-axis rule; iVoterGuide direct URL guess 404; nothing new found)"
+        "housing": "re-checked Sep 2, 2026: jaceforcongress.com/priorities has no housing item among its eleven priority headings",
+        "safety": "re-checked Sep 2, 2026: verify gate reconfirmed, the only enforcement sentence is the National Guard/ICE line already scored on immigration, no separate policing or sentencing item"
       },
       "sources": [
         {
@@ -8815,10 +8824,10 @@
         "health": -1,
         "housing": null,
         "immigration": -2,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": -2,
         "repro": -2,
         "democracy": -2
       },
@@ -8842,14 +8851,26 @@
         "democracy": {
           "label": "\"The right to vote is the foundation for every other freedom...I'll keep fighting back, defending voting rights, standing up to power\" (Ballotpedia 2025 Candidate Connection survey)",
           "url": "https://ballotpedia.org/Christian_Menefee"
+        },
+        "taxes": {
+          "label": "He'll also work to fix the tax code so that billionaires and large corporations pay their fair share, and we can finally afford a country that works for everyone, not just the people at the top (Christian Menefee for Congress).",
+          "url": "https://christianmenefee.com/issue/affordability-and-the-american-dream/"
+        },
+        "education": {
+          "label": "He'll fight to fully fund public education, raise teacher pay, and expand Pell Grants so every student can afford college or career training, and he'll champion universal pre-K (Christian Menefee for Congress).",
+          "url": "https://christianmenefee.com/issue/protecting-and-strengthening-public-education/"
+        },
+        "safety": {
+          "label": "Real public safety means investing in mental health care, substance abuse treatment, and protections for survivors of domestic violence, not just tougher sentences (Christian Menefee for Congress).",
+          "url": "https://christianmenefee.com/issue/criminal-justice-reform/"
+        },
+        "climate": {
+          "label": "He'll work to stop Trump's efforts to dismantle the EPA and defend progress made through the Inflation Reduction Act (Christian Menefee for Congress).",
+          "url": "https://christianmenefee.com/issue/fighting-for-clean-air-water/"
         }
       },
       "nullNotes": {
-        "housing": "Candidate Connection survey names housing among costs that are out of reach and pledges to bring investment, with no stated mechanism of build public housing, protect renters, or cut zoning and permits, does not fit either pole of this axis (checked Aug 29, 2026)",
-        "taxes": "Candidate Connection survey and house.gov economy issue page press releases have no corporate or high earner tax position and no across the board cut position (checked Aug 29, 2026)",
-        "climate": "house.gov environment issue page has only an EPA contamination oversight press release about Fifth Ward and Kashmere Gardens, a local environmental justice matter, with no energy or climate transition position, no such position in the Candidate Connection survey (checked Aug 29, 2026)",
-        "education": "house.gov education issue page covers only chronic absenteeism funding and doubling the Pell Grant, neither of which addresses K-12 public school funding versus choice, no education item in the Candidate Connection survey (checked Aug 29, 2026)",
-        "safety": "no public safety or policing position found on house.gov issue pages or in the Candidate Connection survey (checked Aug 29, 2026)"
+        "housing": "re-checked Sep 2, 2026: campaign site's Reinvesting in Our Neighborhoods page only pledges to 'encourage home building and rehabilitation' with no direction on public/affordable housing versus deregulation, menefee.house.gov Economy page and christianmenefee.com issues index have no dedicated housing plank; note Menefee was sworn into the 119th Congress in Feb 2026 (special election) so he is absent from every 2025 rollbook roll call (190, 114, 33, 270), confirmed by fetching all four rolls directly and finding no entry for him"
       },
       "age": null,
       "home": "Houston, TX",
@@ -8883,11 +8904,11 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 1,
         "repro": 2,
@@ -8913,14 +8934,20 @@
         "democracy": {
           "label": "Voted yes on the SAVE Act (H.R. 22) requiring documentary proof of citizenship to register to vote (House roll call 102, Apr 10, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that cut federal Medicaid spending roughly 911 billion dollars over 10 years via nationwide work requirements (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Voted yes on H.J.Res. 88, disapproving California's EPA waiver for its EV/clean-car sales mandate (clerk.house.gov roll 114, May 1, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll114.xml"
         }
       },
       "nullNotes": {
-        "cost": "campaign site (nathanielmoran.com) has no issues page addressing prices or cost of living, moran.house.gov has no cost-of-living issues page, Ballotpedia biography has no cost position, no 2026 Candidate Connection survey on file (checked Aug 29, 2026)",
-        "health": "moran.house.gov press releases include a Medicare Advantage spending transparency bill with no stated position on expanding or shrinking public versus private coverage, no dedicated healthcare issues page found on campaign or house sites, Ballotpedia has no health position, no Candidate Connection survey (checked Aug 29, 2026)",
-        "housing": "no housing or zoning issues page found on nathanielmoran.com or moran.house.gov, Ballotpedia biography has no housing position, no Candidate Connection survey (checked Aug 29, 2026)",
-        "climate": "no climate or energy issues page found on nathanielmoran.com or moran.house.gov, Ballotpedia biography has no climate position, no Candidate Connection survey (checked Aug 29, 2026)",
-        "education": "no education issues page found on nathanielmoran.com or moran.house.gov, Ballotpedia biography has no education position, no Candidate Connection survey (checked Aug 29, 2026)"
+        "cost": "re-checked Sep 2, 2026: moran.house.gov has no cost-of-living issues page, WebSearch on his 2026 statements surfaced only unrelated Sen. Jerry Moran of Kansas and general JEC/budget committee items, nothing from Rep. Nathaniel Moran specifically",
+        "housing": "re-checked Sep 2, 2026: WebSearch on housing/zoning statements surfaced only unrelated Sen. Jerry Moran of Kansas housing bills, nothing from Rep. Nathaniel Moran, no housing issues page on moran.house.gov",
+        "education": "re-checked Sep 2, 2026: moran.house.gov/issues/issue/?IssueID=73 fetched directly, page is a stub reading only 'For more information concerning work and views related to Education, please contact our office,' related news items are about a community college summit and child abuse prevention, no stance on school choice vs public funding"
       },
       "sources": [
         {

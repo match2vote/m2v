@@ -231,6 +231,22 @@
           "url": "https://tnfirefly.com/results/august-2026-primary"
         }
       ]
+    },
+    "TN-senate": {
+      "status": "names-only",
+      "statusNote": "General field established from WPLN's Aug 6, 2026 primary live blog, Smarter.Vote's 2026 TN Senate race page, and politics1.com/tn.htm: Sen. Bill Hagerty (R, incumbent) was unopposed in the Republican primary. Marquita Bradshaw won the Democratic primary over four other Democrats, none of whom raised more than $10,000. Eight independents also qualified for the general ballot via petition: Tharon Chandler, Andrew Gerena, Jeremy Dean Hearn, Robert Jones, James Macon III, Yoshi Matthews, David Sutman Jr., and Catherine \"Barcy\" Whitson, confirmed as 10 total candidates by Tennessee Firefly's election tracker. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "advancing": [
+        "fec-S0TN00169",
+        "tn-senate-bradshaw",
+        "tn-senate-chandler",
+        "tn-senate-gerena",
+        "tn-senate-hearn",
+        "tn-senate-jones",
+        "tn-senate-macon",
+        "tn-senate-matthews",
+        "fec-S6TN00398",
+        "tn-senate-whitson"
+      ]
     }
   },
   "candidates": [
@@ -3179,6 +3195,622 @@
       "nullNotes": {
         "all": "Ballotpedia (which lists him for TN-6, not TN-7) has not completed a 2026 Candidate Connection survey; no campaign website is listed on politics1.com; no policy positions found on any axis (checked Aug 29, 2026)"
       }
+    },
+    {
+      "id": "fec-S0TN00169",
+      "fecId": "S0TN00169",
+      "name": "Bill Hagerty",
+      "party": "Republican",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Senator from Tennessee since 2021, seeking a second term; unopposed in the 2026 Republican primary.",
+      "background": "Former U.S. Ambassador to Japan (2017-2019) and private equity investor before his 2020 Senate election.",
+      "priorities": [
+        "Extending the 2025 tax law",
+        "Border enforcement",
+        "Opposing federal election takeover"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "\"Return health care to patient choice in free market,\" opposes expanding the ACA (ontheissues.org compilation, Dec 2019)",
+          "url": "https://www.ontheissues.org/Senate/Bill_Hagerty.htm"
+        },
+        "immigration": {
+          "label": "\"Opposes amnesty, DACA, and sanctuary cities,\" backs pro-border-security measures (ontheissues.org compilation, Dec 2019 / Sep 2020)",
+          "url": "https://www.ontheissues.org/Senate/Bill_Hagerty.htm"
+        },
+        "taxes": {
+          "label": "Praised Senate passage of the 2025 reconciliation tax law: \"prevent the largest tax increase that Americans have ever seen\" (Hagerty senate.gov, Jun 30, 2025)",
+          "url": "https://www.hagerty.senate.gov/press-releases/2025/06/30/icymi-hagerty-joins-balance-of-power-on-bloombergtv-to-discuss-senate-passage-of-one-big-beautiful-bill/"
+        },
+        "climate": {
+          "label": "\"Fight socialist fracking bans, repeal fuel standards,\" opposes prioritizing green energy (ontheissues.org compilation, Dec 2019)",
+          "url": "https://www.ontheissues.org/Senate/Bill_Hagerty.htm"
+        },
+        "education": {
+          "label": "\"Shift education spending to block grants to states,\" strongly favors school vouchers (ontheissues.org compilation, Dec 2019)",
+          "url": "https://www.ontheissues.org/Senate/Bill_Hagerty.htm"
+        },
+        "safety": {
+          "label": "\"Uphold the rule of law; stop ANTIFA,\" supports the death penalty for human trafficking (ontheissues.org compilation, Jul 2020)",
+          "url": "https://www.ontheissues.org/Senate/Bill_Hagerty.htm"
+        },
+        "repro": {
+          "label": "Statement on Dobbs: \"we have a moral duty to protect unborn children who cannot protect themselves\" (Hagerty senate.gov, Jun 24, 2022)",
+          "url": "https://www.hagerty.senate.gov/press-releases/2022/06/24/hagerty-statement-on-u-s-supreme-courts-decision-properly-returning-abortion-authority-to-the-american-people/"
+        },
+        "democracy": {
+          "label": "Introduced the PROTECT Electoral College Act to bar unsolicited mail ballots/harvesting and opposed H.R. 1 as an effort to \"federalize elections\" (Hagerty senate.gov, Mar 2, 2021)",
+          "url": "https://www.hagerty.senate.gov/press-releases/2021/03/02/hagerty-rubio-cramer-introduce-bill-to-strengthen-election-integrity/"
+        }
+      },
+      "nullNotes": {
+        "cost": "multiple senate.gov statements on inflation (2021-2022) criticize Biden-era price increases but propose no specific remedy tied to the cost axis (checked Sep 2, 2026)",
+        "housing": "no press release or campaign statement on housing supply, zoning, or renters found (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0TN00169/"
+        },
+        {
+          "label": "WPLN: Tennessee primary live blog, Aug 6, 2026",
+          "url": "https://wpln.org/post/tennessee-elections-2026-live-blog/"
+        },
+        {
+          "label": "Senator Bill Hagerty press releases",
+          "url": "https://www.hagerty.senate.gov/press-releases/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-bradshaw",
+      "name": "Marquita Bradshaw",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Memphis, TN",
+      "now": "Environmental justice organizer and 2026 Democratic Senate nominee; previously the 2020 Democratic nominee against Hagerty.",
+      "background": "Memphis-based environmental justice advocate with Sierra Club and Memphis Community Against Pollution roots; ran unsuccessfully against Hagerty in 2020.",
+      "priorities": [
+        "Affordable health care regardless of income or preexisting conditions",
+        "Well-funded public schools and teacher pay",
+        "Clean energy and pollution reduction"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Expanding access to good-paying jobs, supporting small businesses, ensuring fair wages\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        },
+        "health": {
+          "label": "\"Every Tennessean deserves access to affordable, high-quality healthcare, regardless of income, ZIP code, employment status, or preexisting conditions\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        },
+        "housing": {
+          "label": "\"Every Tennessean deserves a safe, stable, and affordable place to call home\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        },
+        "immigration": {
+          "label": "Supports DACA and a pathway to citizenship for undocumented immigrants; rated \"anti-border security\" on Ballotpedia's 2020 Candidate Connection survey (ontheissues.org, Aug/Sep 2020)",
+          "url": "https://ontheissues.org/senate/Marquita_Bradshaw.htm"
+        },
+        "taxes": {
+          "label": "\"Undo tax cuts\" and supports higher taxes on wealthy individuals per 2020 Candidate Connection survey (ontheissues.org, Sep 2020)",
+          "url": "https://ontheissues.org/senate/Marquita_Bradshaw.htm"
+        },
+        "climate": {
+          "label": "\"Every student deserves a well-funded public school, and every teacher deserves competitive pay, strong resources, and respect\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        },
+        "education": {
+          "label": "\"Bold action means advancing clean energy, reducing pollution, creating sustainable jobs\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        },
+        "safety": {
+          "label": "Backs \"restorative justice and overhaul of the justice system\"; rated \"defund the police\" and \"let ex-cons apply freely\" on the 2020 Candidate Connection survey (ontheissues.org, Aug/Sep 2020)",
+          "url": "https://ontheissues.org/senate/Marquita_Bradshaw.htm"
+        },
+        "repro": {
+          "label": "Rated \"pro-Planned Parenthood\" supporting unrestricted abortion rights on the 2020 Candidate Connection survey (ontheissues.org, Sep 2020)",
+          "url": "https://ontheissues.org/senate/Marquita_Bradshaw.htm"
+        },
+        "democracy": {
+          "label": "\"Every eligible Tennessean should have equal access to the ballot and a meaningful voice in government\" (marquitabradshaw.com priorities page)",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        }
+      },
+      "nullNotes": {},
+      "sources": [
+        {
+          "label": "Nashville Banner: Marquita Bradshaw wins TN Democratic Senate primary",
+          "url": "https://nashvillebanner.com/2026/08/06/marquita-bradshaw-bill-hagerty-tennessee-senate-rematch/"
+        },
+        {
+          "label": "Marquita Bradshaw for U.S. Senate: priorities",
+          "url": "https://www.marquitabradshaw.com/priorities"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-chandler",
+      "name": "Tharon Chandler",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Economics major and small-farm advocate running on removing profit motive from health care and campaign finance reform.",
+      "priorities": [
+        "Removing profit motive from health care",
+        "Universal basic income and housing security",
+        "Campaign finance reform and term limits"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -1,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Opposes agribusiness price gouging and backs fair markets for small farmers (Ballotpedia 2026 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Tharon_Chandler"
+        },
+        "health": {
+          "label": "\"We must get the $ profit motive out of the healthcare system if we intend to have any happiness and longevity\" (Ballotpedia 2026 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Tharon_Chandler"
+        },
+        "housing": {
+          "label": "Supports universal basic income and calls adequate housing a fundamental need (Ballotpedia 2026 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Tharon_Chandler"
+        },
+        "climate": {
+          "label": "\"We could invest in more solar energy but not nuclear\" (Ballotpedia 2026 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Tharon_Chandler"
+        }
+      },
+      "nullNotes": {
+        "immigration": "not addressed in his Ballotpedia Candidate Connection survey answers (checked Sep 2, 2026)",
+        "taxes": "survey answers discuss prosecuting tax evasion and insider trading, not the raise-vs-cut tax axis (checked Sep 2, 2026)",
+        "education": "not addressed in his Ballotpedia Candidate Connection survey answers (checked Sep 2, 2026)",
+        "safety": "not addressed beyond opposition to war/military-industrial complex, which is not a domestic policing/prevention statement (checked Sep 2, 2026)",
+        "repro": "not addressed in his Ballotpedia Candidate Connection survey answers (checked Sep 2, 2026)",
+        "democracy": "survey emphasizes campaign finance reform and term limits, which do not map to the ballot-access-ease vs. stricter-safeguards axis (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Tharon Chandler",
+          "url": "https://ballotpedia.org/Tharon_Chandler"
+        },
+        {
+          "label": "Smarter.Vote: 2026 TN U.S. Senate election",
+          "url": "https://smarter.vote/races/tn-senate-2026/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-gerena",
+      "name": "Andrew Gerena",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found via politics1.com or direct URL guesses (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Andrew Gerena",
+          "url": "https://ballotpedia.org/Andrew_Gerena"
+        },
+        {
+          "label": "Smarter.Vote: 2026 TN U.S. Senate election",
+          "url": "https://smarter.vote/races/tn-senate-2026/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-hearn",
+      "name": "Jeremy Dean Hearn",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms his 2026 candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Jeremy Hearn",
+          "url": "https://ballotpedia.org/Jeremy_Hearn"
+        },
+        {
+          "label": "politics1.com: Tennessee 2026 candidates",
+          "url": "https://politics1.com/tn.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-jones",
+      "name": "Robert Jones",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information confirmed; a localcandidates.org profile exists under this name but could not be fetched to confirm it is the same Tennessee Senate candidate.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "repro": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "health": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "climate": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "cost": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "housing": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)",
+        "education": "Ballotpedia's disambiguation page lists a Robert L. Jones (Tennessee) but the specific candidate page returned robots.txt errors on repeated attempts; a localcandidates.org positions page for a Robert Jones returned a 403 error; listed as a confirmed general-election candidate by politics1.com and Smarter.Vote but no scoreable position located (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "politics1.com: Tennessee 2026 candidates",
+          "url": "https://politics1.com/tn.htm"
+        },
+        {
+          "label": "Smarter.Vote: 2026 TN U.S. Senate election",
+          "url": "https://smarter.vote/races/tn-senate-2026/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-macon",
+      "name": "James Macon III",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: James Macon III",
+          "url": "https://ballotpedia.org/James_Macon_III"
+        },
+        {
+          "label": "politics1.com: Tennessee 2026 candidates",
+          "url": "https://politics1.com/tn.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-matthews",
+      "name": "Yoshi Matthews",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Yoshi Matthews",
+          "url": "https://ballotpedia.org/Yoshi_Matthews"
+        },
+        {
+          "label": "politics1.com: Tennessee 2026 candidates",
+          "url": "https://politics1.com/tn.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-S6TN00398",
+      "fecId": "S6TN00398",
+      "name": "David Jr Sutman",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms his 2026 independent candidacy but states he has not completed the Candidate Connection survey; no campaign website found beyond the FEC filing (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6TN00398/"
+        },
+        {
+          "label": "Ballotpedia: David Sutman Jr.",
+          "url": "https://ballotpedia.org/David_Sutman_Jr."
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "tn-senate-whitson",
+      "name": "Catherine \"Barcy\" Whitson",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Independent petition candidate for U.S. Senate.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "safety": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "repro": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "health": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "climate": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "cost": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "housing": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)",
+        "education": "Ballotpedia confirms her 2026 independent candidacy but states she has not completed the Candidate Connection survey; no campaign website found and no FEC filing exists under this name (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia: Catherine Whitson",
+          "url": "https://ballotpedia.org/Catherine_Whitson"
+        },
+        {
+          "label": "politics1.com: Tennessee 2026 candidates",
+          "url": "https://politics1.com/tn.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     }
   ]
 }

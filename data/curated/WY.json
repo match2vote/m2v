@@ -18,6 +18,27 @@
         "wy-gov-casner",
         "wy-gov-bextel"
       ]
+    },
+    "WY-house-at-large": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6WY00217",
+        "fec-H6WY01173",
+        "wy-house-haggit",
+        "wy-house-johnson",
+        "wy-house-workman"
+      ],
+      "statusNote": "Secretary of State Chuck Gray (R) won a crowded nine-way August 18, 2026 Republican primary to succeed Harriet Hageman, who ran for Senate instead; Lisa Kinney won the Democratic primary; Constitution nominee Jeff Haggit, Libertarian nominee Shawn Johnson, and independent Daniel Workman also qualified for the November ballot (The Green Papers Wyoming 2026 general candidate roster; WyoFile). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Wyoming 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/WY"
+        },
+        {
+          "label": "WyoFile: Gray edges out Friess and Christensen for US House",
+          "url": "https://wyofile.com/gray-edges-out-friess-and-christensen-in-tight-crowded-race-for-us-house/"
+        }
+      ]
     }
   },
   "candidates": [
@@ -408,6 +429,323 @@
           "url": "https://buckrail.com/jacksons-rebecca-bextel-announces-campaign-for-governor/"
         }
       ]
+    },
+    {
+      "id": "fec-H6WY00217",
+      "name": "Chuck Gray",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "WY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Wyoming Secretary of State since 2023 and former state representative, won the crowded August 18, 2026 Republican primary to succeed Harriet Hageman (who ran for Senate instead).",
+      "priorities": [
+        "Wyoming's energy economy",
+        "Election integrity",
+        "Illegal immigration enforcement"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": null,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Advocates reducing 'inflation through reductions in the debt and deficit' and rolling back federal regulations to lower living costs (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        "health": {
+          "label": "Calls the Affordable Care Act 'one of the worst things to happen to our country,' backs selling 'insurance across state lines' and price-disclosure requirements (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        "immigration": {
+          "label": "'I 100% support President Trump's approach to stopping illegal immigration,' backing completion of the border wall and a sanctuary-city ban (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        "climate": {
+          "label": "Describes himself as 'a fierce defender of Wyoming's energy economy' committed to protecting coal, oil, gas and soda ash, and rolling back environmental regulations (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        "democracy": {
+          "label": "As Secretary of State, led Wyoming to become 'the first state in the nation to require proof of U.S. citizenship to register to vote' and banned ranked-choice voting (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WY00217/"
+        },
+        {
+          "label": "WyoFile 2026 Election Guide profile",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "housing": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated housing position found (checked Sep 2, 2026)",
+        "taxes": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated broad tax-policy position found (checked Sep 2, 2026)",
+        "education": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated education position found (checked Sep 2, 2026)",
+        "safety": "WyoFile guide notes he cites undocumented immigrants driving as a traffic-safety concern; this is an immigration-enforcement point, not a domestic policing/prevention statement, so it does not fit this axis (checked Sep 2, 2026)",
+        "repro": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated abortion position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H6WY01173",
+      "name": "Lisa Kinney",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "WY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Former Wyoming state senator and attorney, first Wyoming Democrat to announce a run for the seat; won the August 18, 2026 Democratic primary.",
+      "priorities": [
+        "Affordable health care",
+        "Protecting public lands",
+        "Immigration reform with Dreamer protections"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": -1,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs restoring ACA subsidies and forming 'a bigger pool' of Western states to cut premiums, plus 'affordable health care, reduced cost of prescription drugs, and accessibility for all' (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        },
+        "housing": {
+          "label": "Proposes federal land transfers to cities for housing development via 'federal documents to transfer lands to the city' rather than selling public land wholesale (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        },
+        "immigration": {
+          "label": "'Congress needs to write laws to include some immigrants, and exclude the dangerous ones,' with protections for DACA recipients and Dreamers (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        },
+        "education": {
+          "label": "Supports reinstating 'the Department of Education for some services,' particularly on tribal lands (WyoFile 2026 Election Guide)",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6WY01173/"
+        },
+        {
+          "label": "WyoFile 2026 Election Guide profile",
+          "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked WyoFile 2026 Election Guide profile; her 'eliminating income tax for those earning under $100,000 and reducing FICA' proposal is a tax-policy item, not a prices/markets stance, so it does not fit this axis (checked Sep 2, 2026)",
+        "taxes": "WyoFile guide quotes her plan to eliminate income tax for earners under $100,000 and reduce FICA; a targeted middle/low-income tax cut framed as fairness rather than a broad raise-on-the-wealthy or cut-across-the-board agenda, too specific to fix a clean sign on this axis (checked Sep 2, 2026)",
+        "climate": "WyoFile guide covers her opposition to federal land sales (HR 718, Public Lands in Public Hands Act), a land-disposal stance rather than an energy-mix or emissions position, so it does not fit this axis (checked Sep 2, 2026)",
+        "safety": "checked WyoFile 2026 Election Guide profile; no stated domestic public-safety/policing position found (checked Sep 2, 2026)",
+        "repro": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated abortion position found (checked Sep 2, 2026)",
+        "democracy": "checked WyoFile 2026 Election Guide profile and Ballotpedia; no stated voting/elections position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "wy-house-haggit",
+      "name": "Jeff Haggit",
+      "party": "Constitution",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "WY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Wyoming Constitution Party chairman and instrument technician, the party's nominee (also ran in 2020 and 2024).",
+      "priorities": [
+        "Constitutional government",
+        "National sovereignty",
+        "Agricultural producer protections"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "2024 campaign material emphasizes protecting 'personal medical freedoms' (Ballotpedia summary of campaign website)",
+          "url": "https://ballotpedia.org/Jeff_Haggit"
+        },
+        "immigration": {
+          "label": "2024 campaign material lists 'securing borders' among national-sovereignty priorities (Ballotpedia summary of campaign website)",
+          "url": "https://ballotpedia.org/Jeff_Haggit"
+        },
+        "taxes": {
+          "label": "2024 campaign material calls for shielding agricultural producers from 'predatory taxation and onerous oversight' (Ballotpedia summary of campaign website)",
+          "url": "https://ballotpedia.org/Jeff_Haggit"
+        }
+      },
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jeff_Haggit"
+        },
+        {
+          "label": "The Green Papers: Wyoming 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/WY"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia summary of his campaign website; no stated cost-of-living position found (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia summary of his campaign website; no stated housing position found (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia summary of his campaign website; a general call to strengthen the 'electrical grid' is infrastructure language with no energy-mix or emissions position, too vague to score (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia summary of his campaign website; no stated education position found (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia summary of his campaign website; no stated domestic public-safety/policing position found (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia summary of his campaign website; no stated abortion position found (checked Sep 2, 2026)",
+        "democracy": "campaign material calls generally for candidates who 'will not waver from their sworn duty to uphold Constitutional law,' with no specific voting-access or election-security proposal; too vague to fix a sign (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "wy-house-johnson",
+      "name": "Shawn Johnson",
+      "party": "Libertarian",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "WY",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Former Casper vice mayor, Army medic, and family law/criminal defense attorney; the Libertarian Party's nominee.",
+      "priorities": [
+        "Wyoming state budget",
+        "Criminal justice reform",
+        "Limited government"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Shawn_Johnson"
+        },
+        {
+          "label": "Cowboy State Daily: why a Libertarian could win Wyoming's House seat",
+          "url": "https://cowboystatedaily.com/2026/06/01/why-its-possible-for-a-libertarian-to-win-wyomings-u-s-house-seat/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked Ballotpedia (points to an unexcerpted 2020 Candidate Connection survey), Cowboy State Daily, and Wyoming Tribune Eagle coverage of his nomination; his named platform planks (state budget, criminal justice reform, firearms) and convention-speech language about 'individual freedom, limited government' were not specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "wy-house-workman",
+      "name": "Daniel Verl Workman",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "at-large",
+      "state": "WY",
+      "tier": "researched",
+      "ballotStatus": "general",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Independent candidate qualified for Wyoming's at-large House general election ballot.",
+      "priorities": [
+        "Not documented"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "The Green Papers: Wyoming 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/WY"
+        },
+        {
+          "label": "Politics1: Wyoming 2026 candidates",
+          "url": "https://politics1.com/wy.htm"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked Ballotpedia, The Green Papers, WyoFile's election guide, and Politics1's Wyoming page; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)"
+      }
     }
   ]
 }

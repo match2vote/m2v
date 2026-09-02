@@ -210,6 +210,18 @@
           "url": "https://www.270towin.com/2026-house-election/states/colorado"
         }
       ]
+    },
+    "CO-senate": {
+      "status": "names-only",
+      "statusNote": "General field established from Colorado Public Radio's June 30, 2026 primary results, the Colorado Sun's Aug 26, 2026 third-party candidate coverage, and politics1.com/co.htm: Sen. John Hickenlooper (D, incumbent) beat Julie Gonzales 57-43 in the Democratic primary; state Sen. Mark Baisley won the Republican nomination. Four minor-party candidates also qualified: Chris Baum (Approval Voting Party), Bob Chew (Forward Party), Blake Huber (Libertarian), and Adam Withrow (Unity Party). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "advancing": [
+        "fec-S0CO00575",
+        "fec-S6CO00507",
+        "fec-S6CO00549",
+        "co-senate-baum",
+        "co-senate-huber",
+        "co-senate-withrow"
+      ]
     }
   },
   "candidates": [
@@ -2511,6 +2523,446 @@
         }
       ],
       "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "fec-S0CO00575",
+      "fecId": "S0CO00575",
+      "name": "John W. Hickenlooper",
+      "party": "Democrat",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": true,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "U.S. Senator from Colorado, seeking a second term; won the June 30, 2026 Democratic primary over state Sen. Julie Gonzales 57 to 43.",
+      "background": "Former Colorado governor (2011-2019) and Denver mayor; elected to the U.S. Senate in 2020. Focuses on energy, health care costs, and Colorado infrastructure funding.",
+      "priorities": [
+        "Lowering health care and prescription drug costs",
+        "Protecting Medicaid and the ACA",
+        "Housing affordability and supply"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": 2,
+        "housing": 0,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -2,
+        "education": null,
+        "safety": null,
+        "repro": -2,
+        "democracy": -2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Reintroduced bill extending Medicare's inflation rebate penalties to commercial insurance: \"Our bill will deliver those same savings to Americans with private insurance\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-colleagues-introduce-bill-to-lower-drug-costs-hold-big-pharma-accountable-for-price-hikes"
+        },
+        "health": {
+          "label": "Voted against the 2025 reconciliation bill over Medicaid/ACA cuts: warned of \"17 million Americans losing health insurance by 2034\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-votes-against-republicans-budget-bill-that-strips-health-care-from-americans-closes-rural-hospitals-explodes-national-deficit/"
+        },
+        "housing": {
+          "label": "Championed the ROAD to Housing Act, which cuts federal building red tape while also restricting large investor purchases of single-family homes: \"Let's build more homes... and ultimately lower the cost of housing\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-celebrates-senate-passage-of-most-consequential-housing-bill-in-decades/"
+        },
+        "immigration": {
+          "label": "Voted against the unamended Laken Riley Act, citing indefinite detention of children without due process (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-votes-against-unamended-laken-riley-act/"
+        },
+        "taxes": {
+          "label": "Opposed the 2025 reconciliation tax law as \"lavish tax cuts for the wealthiest Americans\" that would \"increase our national debt by more than $3.3 TRILLION\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-votes-against-republicans-budget-bill-that-strips-health-care-from-americans-closes-rural-hospitals-explodes-national-deficit/"
+        },
+        "climate": {
+          "label": "Celebrated Senate passage of a major clean-energy investment package: \"We'll reduce carbon emissions 40 percent by the end of the decade\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-senate-approve-biggest-climate-rescue-investment-in-human-history/"
+        },
+        "repro": {
+          "label": "Co-sponsored the Women's Health Protection Act to codify Roe v. Wade: \"women have the freedom to make their own health choices\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-bennet-reintroduce-bill-to-codify-roe-v-wade"
+        },
+        "democracy": {
+          "label": "Co-sponsored a bill to protect vote-by-mail, citing Colorado's 99.99% count accuracy: opposes the president's \"attempts to rig the election and attack our right to vote\" (Hickenlooper senate.gov)",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-bennet-padilla-colleagues-introduce-bill-to-protect-vote-by-mail-from-trumps-attacks/"
+        }
+      },
+      "nullNotes": {
+        "education": "no dedicated K-12/higher-ed press release or bill found on hickenlooper.senate.gov beyond a joint letter on stalled federal education funds, which does not state a position (checked Sep 2, 2026)",
+        "safety": "no press release framing crime/policing enforcement vs. prevention found; police-collective-bargaining bill is a labor-rights measure, not a safety-axis statement (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S0CO00575/"
+        },
+        {
+          "label": "CPR: Hickenlooper defeats Gonzales in Democratic primary",
+          "url": "https://www.cpr.org/2026/06/30/colorado-us-senate-primary-election-2026-results/"
+        },
+        {
+          "label": "Senator John Hickenlooper press releases",
+          "url": "https://www.hickenlooper.senate.gov/press_releases/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-S6CO00507",
+      "fecId": "S6CO00507",
+      "name": "Mark Baisley",
+      "party": "Republican",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": "Woodland Park, CO",
+      "now": "Colorado state senator representing Douglas/Teller/Park counties; won the Republican U.S. Senate nomination after abandoning a gubernatorial primary bid.",
+      "background": "Engineer and businessman; former state representative and current state senator known for sponsoring immigration-enforcement and energy-industry legislation in the Colorado legislature.",
+      "priorities": [
+        "Cutting federal taxes and regulation",
+        "Energy dominance",
+        "Local police cooperation with ICE"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": 2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign issues page: will \"cut federal taxes, roll back job-killing regulations, restore American energy dominance\" (baisleyforsenate.com)",
+          "url": "https://baisleyforsenate.com/issues/"
+        },
+        "health": {
+          "label": "\"Healthcare decisions should be made by patients and doctors, not Washington bureaucrats\"; pledges to expand HSAs and association health plans (baisleyforsenate.com)",
+          "url": "https://baisleyforsenate.com/issues/"
+        },
+        "immigration": {
+          "label": "Sponsored SB25-047 letting Colorado police coordinate with ICE: \"it's time we allow them to protect us in this very reasonable way\" (Colorado Newsline)",
+          "url": "https://coloradonewsline.com/briefs/bill-colorado-police-coordinate-with-ice-killed/"
+        },
+        "taxes": {
+          "label": "Campaign issues page pledges to \"cut federal taxes\" as part of his economic agenda (baisleyforsenate.com)",
+          "url": "https://baisleyforsenate.com/issues/"
+        },
+        "climate": {
+          "label": "Campaign issues page: prioritizes \"American materials and workers\" and restoring \"American energy dominance\" (baisleyforsenate.com)",
+          "url": "https://baisleyforsenate.com/issues/"
+        },
+        "education": {
+          "label": "\"Train kids for real jobs, not woke lectures,\" backing school-choice vouchers (ontheissues.org, Mar 2026)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Baisley.htm"
+        },
+        "safety": {
+          "label": "\"Crime festers under soft policies\"; opposed restricting solitary confinement in local jails (ontheissues.org, Mar 2026 / Apr 2021)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Baisley.htm"
+        },
+        "repro": {
+          "label": "\"Consistently voted against strengthening abortion protection\" as a state senator (ontheissues.org, Dec 2025)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Baisley.htm"
+        },
+        "democracy": {
+          "label": "\"Require proof of U.S. citizenship to register to vote\" (ontheissues.org, Mar 2025)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Baisley.htm"
+        }
+      },
+      "nullNotes": {
+        "housing": "not addressed on his campaign issues page or in ontheissues.org compilation; Ballotpedia notes he has not completed the 2026 Candidate Connection survey (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6CO00507/"
+        },
+        {
+          "label": "Baisley for Senate: issues page",
+          "url": "https://baisleyforsenate.com/issues/"
+        },
+        {
+          "label": "Mark Baisley on the Issues (ontheissues.org)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Baisley.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "fec-S6CO00549",
+      "fecId": "S6CO00549",
+      "name": "Robert Chew",
+      "party": "FWD",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Forward Party nominee for U.S. Senate; retired Navy submarine officer, engineer and businessman self-funding much of his campaign.",
+      "background": "Career naval officer and later engineer/businessman; running as a fiscally focused, anti-partisan alternative centered on the national debt.",
+      "priorities": [
+        "Reducing the national debt and shoring up Social Security",
+        "Cross-party problem solving",
+        "Government efficiency"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -1,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Says total U.S. health spending runs roughly double other Western nations and criticizes hospitals profiting more than manufacturers from drug distribution; open to Medicare-for-All-style models that prevent catastrophic debt if \"people have to be willing to pay for it\" (IVN.us interview)",
+          "url": "https://ivn.us/bob-chew-wants-to-make-colorados-senate-race-about-the-problems-both-parties-duck/"
+        }
+      },
+      "nullNotes": {
+        "cost": "campaign framing is about the $1.8 trillion federal deficit generally, not consumer prices; no specific price/wage position found (checked Sep 2, 2026)",
+        "housing": "ties affordability to lower federal borrowing costs/mortgage rates rather than any zoning, building, or renter-protection policy; does not fit either pole of the housing axis (checked Sep 2, 2026)",
+        "immigration": "not addressed in his campaign materials, Colorado Forward Party pages, or coverage fetched (checked Sep 2, 2026)",
+        "taxes": "not addressed beyond general debt-reduction framing (checked Sep 2, 2026)",
+        "climate": "not addressed; his environmental interest described only as personal (outdoorsman) not policy (checked Sep 2, 2026)",
+        "education": "not addressed beyond calling the education system \"broken\" with no policy proposal (checked Sep 2, 2026)",
+        "safety": "not addressed in materials fetched (checked Sep 2, 2026)",
+        "repro": "not addressed in materials fetched (checked Sep 2, 2026)",
+        "democracy": "not addressed in materials fetched (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6CO00549/"
+        },
+        {
+          "label": "Colorado Forward Party: Bob Chew for U.S. Senate",
+          "url": "https://www.coloradoforwardparty.com/bob_chew_us_senate"
+        },
+        {
+          "label": "IVN.us: Bob Chew Wants to Make Colorado's Senate Race About the Problems Both Parties Duck",
+          "url": "https://ivn.us/bob-chew-wants-to-make-colorados-senate-race-about-the-problems-both-parties-duck/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "co-senate-baum",
+      "name": "Chris Baum",
+      "party": "Approval Voting Party",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Approval Voting Party nominee for U.S. Senate; previously ran for Colorado House District 34 on the same ballot line.",
+      "background": "Self-described \"free market, limited government advocate\" and election-reform activist campaigning primarily to promote approval voting.",
+      "priorities": [
+        "Approval/ranked voting reform",
+        "Reducing two-party dominance",
+        "Free-market limited government"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "democracy": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "health": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "climate": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "cost": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "education": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "repro": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "housing": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "safety": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "taxes": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)",
+        "immigration": "no FEC filing found (no fec- id); Ballotpedia notes he has not completed the 2026 Candidate Connection survey and his campaign platform is limited to a general \"free market, limited government\" self-description, which per the source rules is not scoreable without a specific issue statement; no dedicated 2026 Senate campaign site located (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Approval Voting Party: Chris Baum bio",
+          "url": "https://www.approvalvotingparty.com/chris-baum-approval-voting-party-candidate-for-colorado-house-district-34/"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "co-senate-huber",
+      "name": "Blake Huber",
+      "party": "Libertarian",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Libertarian Party of Colorado nominee for U.S. Senate.",
+      "background": "Libertarian Party activist nominated at the party's 2026 state convention.",
+      "priorities": [
+        "Approval/satisfaction voting reform",
+        "Reducing regulatory burden on small business",
+        "Immigration reform to ease legal entry"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Advocates \"regulation reform that reduces unnecessary burdens on small businesses\" (Libertarian Party of Colorado candidate flyer)",
+          "url": "https://lpcolorado.org//wp-content/uploads/sites/26/2026/03/Huber-US-Senate.pdf"
+        },
+        "immigration": {
+          "label": "Supports \"rational immigration reform that makes it easier for good people to contribute\" (Libertarian Party of Colorado candidate flyer)",
+          "url": "https://lpcolorado.org//wp-content/uploads/sites/26/2026/03/Huber-US-Senate.pdf"
+        }
+      },
+      "nullNotes": {
+        "health": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "housing": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "taxes": "not addressed beyond general regulatory-reform framing (checked Sep 2, 2026)",
+        "climate": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "education": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "safety": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "repro": "not addressed in the party candidate flyer fetched (checked Sep 2, 2026)",
+        "democracy": "flyer highlights his advocacy for approval/satisfaction voting, an electoral-method reform that does not map to the ballot-access-ease vs. stricter-safeguards axis (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Libertarian Party of Colorado: Blake Huber for U.S. Senate",
+          "url": "https://lpcolorado.org//wp-content/uploads/sites/26/2026/03/Huber-US-Senate.pdf"
+        },
+        {
+          "label": "politics1.com: Colorado 2026 candidates",
+          "url": "https://politics1.com/co.htm"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
+    },
+    {
+      "id": "co-senate-withrow",
+      "name": "Adam Withrow",
+      "party": "Unity Party",
+      "state": "CO",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "age": null,
+      "home": null,
+      "now": "Unity Party of America nominee for U.S. Senate; former detention officer running on reducing donor influence in politics.",
+      "background": "Worked as a detention officer; campaigning on campaign-finance and structural election reform alongside economic and health policy proposals.",
+      "priorities": [
+        "Reducing donor influence in politics",
+        "Raising the minimum wage with inflation",
+        "Clean-energy investment"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": 1,
+        "immigration": null,
+        "taxes": null,
+        "climate": -2,
+        "education": null,
+        "safety": -2,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Supports raising the federal minimum wage pegged to inflation and tax credits for employers who raise wages: \"Let's raise people up to be able to pay them!\" (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        "health": {
+          "label": "Wants midwife services covered by Medicaid and private insurance to expand access (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        "housing": {
+          "label": "\"We don't need more housing projects, we need more homeowners!\" (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        "climate": {
+          "label": "Calls oil drilling \"19th century technology\" and wants to \"turn roofs into power plants\" with expanded solar incentives (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        "safety": {
+          "label": "Former detention officer who emphasizes mental health as crime prevention and calls current mental-health services underfunded (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        "repro": {
+          "label": "States support for \"reproductive healthcare choice,\" discussed mainly through expanding midwifery access (senatorwithrow.com platform)",
+          "url": "https://www.senatorwithrow.com/platform"
+        }
+      },
+      "nullNotes": {
+        "immigration": "not addressed on the platform page fetched (checked Sep 2, 2026)",
+        "taxes": "platform opposes congressional stock trading and favors stronger IRS enforcement of owed taxes, plus employer tax credits over broad tax increases; too mixed/narrow to fit the raise-vs-cut axis (checked Sep 2, 2026)",
+        "education": "only mentions opposing amphetamine prescriptions for children as an alternative to unspecified education-based solutions, no schools policy stated (checked Sep 2, 2026)",
+        "democracy": "calls for abolishing the Electoral College, proportional representation, and real-time ballot auditability; these are structural reforms that do not map to the easier-voting vs. stricter-safeguards axis (checked Sep 2, 2026)"
+      },
+      "sources": [
+        {
+          "label": "Adam Withrow for Senate: platform",
+          "url": "https://www.senatorwithrow.com/platform"
+        },
+        {
+          "label": "Colorado Sun: third-party candidates 2026",
+          "url": "https://coloradosun.com/2026/08/26/third-party-candidates-colorado-2026/"
+        }
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     }
   ]
 }

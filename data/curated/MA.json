@@ -13,8 +13,8 @@
       ]
     },
     "MA-governor": {
-      "status": "general",
-      "statusNote": "Gov. Maura Healey (D) is seeking a second term and had no primary opponent. Michael Minogue, an Army veteran and former Abiomed CEO, won the Sep 1 Republican primary 76 to 24 over Brian Shortsleeve. Independents Andrea James and Muhammed Kokonezis-Hanino have also filed for the November ballot.",
+      "status": "names-only",
+      "statusNote": "Gov. Maura Healey (D) is seeking a second term and had no primary opponent. Michael Minogue, an Army veteran and former Abiomed CEO, won the Sep 1 Republican primary 76 to 24 over Brian Shortsleeve. Independents Andrea James and Muhammed Kokonezis-Hanino have also filed for the November ballot. Field confirmed by CommonWealth Beacon's Sep 1, 2026 primary coverage and the Wikipedia 2026 Massachusetts gubernatorial election page. Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026 (Healey and Minogue overlap on 6 axes; the two independents have no documented positions).",
       "advancing": [
         "ma-gov-healey",
         "ma-gov-minogue",
@@ -312,19 +312,81 @@
       "office": "governor",
       "district": null,
       "state": "MA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": "Governor of Massachusetts since 2023, seeking a second term; ran unopposed in the Democratic primary.",
+      "background": "Former Massachusetts Attorney General (2015-2023); first elected governor in 2022 with Lt. Gov. Kim Driscoll as running mate.",
+      "priorities": [
+        "Lowering housing and child care costs",
+        "Expanding clean energy deployment",
+        "Expanding abortion access"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": 0,
+        "immigration": null,
+        "taxes": 1,
+        "climate": -2,
+        "education": -2,
+        "safety": -1,
+        "repro": -2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Proposed a child tax credit that would give \"more than 700,000 families... $600 per child\" to help with costs (Ballotpedia, 2022 campaign)",
+          "url": "https://ballotpedia.org/Maura_Healey"
+        },
+        "housing": {
+          "label": "2026 platform commits to \"dramatically increasing production, preserving existing housing stock\" through zoning reform and state land use, a mix of building more and protecting existing affordability (Ballotpedia)",
+          "url": "https://ballotpedia.org/Maura_Healey"
+        },
+        "taxes": {
+          "label": "Signed a tax relief package cutting capital gains taxes and raising the estate tax threshold alongside a middle-class child tax credit (Feb-Oct 2023) (Wikipedia: Maura Healey)",
+          "url": "https://en.wikipedia.org/wiki/Maura_Healey"
+        },
+        "climate": {
+          "label": "Signed an executive order creating a cabinet-level Office of Climate Innovation and Resilience (Jan 2023) and a bill accelerating clean-energy deployment (Dec 2024) (Wikipedia: Maura Healey)",
+          "url": "https://en.wikipedia.org/wiki/Maura_Healey"
+        },
+        "education": {
+          "label": "Proposed and funded the MassReconnect free community college program for residents 25+ (Mar 2023, funded in the 2024 budget) (Wikipedia: Maura Healey)",
+          "url": "https://en.wikipedia.org/wiki/Maura_Healey"
+        },
+        "safety": {
+          "label": "Advocates ending mandatory minimum sentences for nonviolent drug offenders in favor of treatment over incarceration (Wikipedia: Maura Healey)",
+          "url": "https://en.wikipedia.org/wiki/Maura_Healey"
+        },
+        "repro": {
+          "label": "Platform focuses on \"expanding access to abortion services\" regardless of location, employment, or income (Ballotpedia)",
+          "url": "https://ballotpedia.org/Maura_Healey"
+        }
+      },
+      "nullNotes": {
+        "health": "no specific health-care policy statement found beyond her general record as former Attorney General on consumer/ratepayer protection, which does not fit the axis (checked Sep 2, 2026)",
+        "immigration": "her 2023 migrant shelter state of emergency and 7,500-family shelter cap are a humanitarian-capacity response, not a federal-style pathways vs. enforcement statement; does not fit the axis (checked Sep 2, 2026)",
+        "democracy": "no voting-access or election-rules statement found in sources fetched (checked Sep 2, 2026)"
+      },
       "sources": [
         {
-          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
-          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+          "label": "Wikipedia: Maura Healey",
+          "url": "https://en.wikipedia.org/wiki/Maura_Healey"
         },
         {
-          "label": "WAMC: Minogue wins the Sep 1 GOP primary 76 to 24, faces Healey",
-          "url": "https://www.wamc.org/news/2026-09-01/minogue-bests-shortsleeve-in-mass-gop-gubernatorial-primary-will-face-healey"
+          "label": "Ballotpedia: Maura Healey",
+          "url": "https://ballotpedia.org/Maura_Healey"
+        },
+        {
+          "label": "CommonWealth Beacon: Minogue wins GOP primary, setting stage for matchup with Healey",
+          "url": "https://commonwealthbeacon.org/politics/minogue-wins-gop-primary-for-governor-setting-stage-for-matchup-with-healey/"
         }
-      ]
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ma-gov-minogue",
@@ -333,19 +395,81 @@
       "office": "governor",
       "district": null,
       "state": "MA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Republican nominee for governor; won the Sep 1, 2026 primary over Brian Shortsleeve 76 to 24.",
+      "background": "Former CEO of medical device maker Abiomed; Army veteran and political newcomer who won the state GOP convention endorsement in April 2026 with 70.4 percent.",
+      "priorities": [
+        "Cutting state taxes and spending",
+        "Ending sanctuary policies",
+        "School choice"
+      ],
+      "positions": {
+        "cost": 2,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
+        "safety": 1,
+        "repro": 1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "\"Mike will cut taxes and spending by eliminating waste, fraud, and abuse,\" pledges to repeal the MBTA Communities Act and Net Zero Mandate (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "immigration": {
+          "label": "\"Massachusetts will not be a sanctuary state,\" opposes free shelter/services for undocumented immigrants (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "taxes": {
+          "label": "Pledges to cut taxes through waste elimination and spending reductions (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "climate": {
+          "label": "Pledges to repeal the state's Net Zero Mandate as an unfunded climate mandate (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "education": {
+          "label": "Proposes a K-12 Federal Scholarship Tax Credit giving parents school choice (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "safety": {
+          "label": "Supports ending sanctuary policies and ensuring \"safety in our schools and sports\" (minogueforma.com)",
+          "url": "https://www.minogueforma.com/"
+        },
+        "repro": {
+          "label": "Reported to carry a \"pro-life Republican message\" as part of his campaign (CommonWealth Beacon, Sep 1, 2026)",
+          "url": "https://commonwealthbeacon.org/politics/minogue-wins-gop-primary-for-governor-setting-stage-for-matchup-with-healey/"
+        }
+      },
+      "nullNotes": {
+        "health": "not addressed on his campaign homepage or in CommonWealth Beacon coverage fetched (checked Sep 2, 2026)",
+        "housing": "not addressed in materials fetched, beyond opposing the MBTA Communities Act (a transit-adjacent zoning law) as an unfunded mandate rather than a housing-supply position (checked Sep 2, 2026)",
+        "democracy": "not addressed in materials fetched (checked Sep 2, 2026)"
+      },
       "sources": [
         {
-          "label": "WAMC: Minogue wins the Sep 1 GOP primary 76 to 24, faces Healey",
-          "url": "https://www.wamc.org/news/2026-09-01/minogue-bests-shortsleeve-in-mass-gop-gubernatorial-primary-will-face-healey"
+          "label": "Minogue for Massachusetts: campaign site",
+          "url": "https://www.minogueforma.com/"
         },
         {
-          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
-          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+          "label": "CommonWealth Beacon: Minogue wins GOP primary for governor, setting stage for matchup with Healey",
+          "url": "https://commonwealthbeacon.org/politics/minogue-wins-gop-primary-for-governor-setting-stage-for-matchup-with-healey/"
+        },
+        {
+          "label": "CommonWealth Beacon: Former medical device exec Minogue joins governor's race",
+          "url": "https://commonwealthbeacon.org/politics/former-medical-device-exec-minogue-joins-governors-race/"
         }
-      ]
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ma-gov-james",
@@ -354,15 +478,47 @@
       "office": "governor",
       "district": null,
       "state": "MA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for governor; filed paperwork in January 2026.",
+      "background": "Criminal justice reform nonprofit executive and advocate for incarcerated and formerly incarcerated women and girls, per the Wikipedia 2026 Massachusetts gubernatorial election page.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "repro": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "taxes": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "education": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "safety": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "democracy": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "immigration": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "cost": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "housing": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "health": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)",
+        "climate": "Ballotpedia states she has not completed the 2026 Candidate Connection survey; no campaign website resolved under likely domain names; a Wikipedia page under her name returned a different, unrelated person (a transgender-rights activist), a name collision; her nonprofit's site could not be fetched (rate limited); no scoreable policy statement located (checked Sep 2, 2026)"
+      },
       "sources": [
         {
           "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
           "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
         }
-      ]
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     },
     {
       "id": "ma-gov-kokonezis",
@@ -371,15 +527,47 @@
       "office": "governor",
       "district": null,
       "state": "MA",
-      "tier": "fec",
+      "tier": "researched",
       "ballotStatus": "nominee",
       "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for governor.",
+      "background": "Little public biographical information found.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "repro": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "taxes": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "education": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "safety": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "democracy": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "immigration": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "cost": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "housing": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "health": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)",
+        "climate": "no Ballotpedia individual page, campaign website, or news coverage with policy statements located; confirmed only as a listed independent candidate on the Wikipedia 2026 Massachusetts gubernatorial election page (checked Sep 2, 2026)"
+      },
       "sources": [
         {
           "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
           "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
         }
-      ]
+      ],
+      "funding": null,
+      "curatedAt": "2026-09-02"
     }
   ]
 }

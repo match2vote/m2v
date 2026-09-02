@@ -23,6 +23,100 @@
         "ok-senate-stinnett",
         "ok-senate-white"
       ]
+    },
+    "OK-house-1": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H6OK01235",
+        "fec-H6OK01201"
+      ],
+      "statusNote": "Open seat: Rep. Kevin Hern (R) is running for Senate instead of re-election. State Rep. Mark Tedford (R) is the Republican nominee after runoff opponent Jackson Lahmeyer withdrew June 17, 2026; Tulsa school board member John Croisant (D) won the Democratic primary outright June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; NonDoc). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        },
+        {
+          "label": "NonDoc: Lahmeyer drops out, Trump flips endorsement to Tedford",
+          "url": "https://nondoc.com/2026/06/17/cd-1-jackson-lahmeyer-drops-out-day-after-primary-trump-flips-endorsement/"
+        }
+      ]
+    },
+    "OK-house-2": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2OK02315",
+        "ok-house2-wade",
+        "ok-house2-hopkins"
+      ],
+      "statusNote": "Incumbent Rep. Josh Brecheen (R) ran unopposed for renomination; Brandon Wade won the Democratic primary June 16, 2026; independent Ronnie Hopkins also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        },
+        {
+          "label": "KOSU: full list of Oklahoma's congressional candidates",
+          "url": "https://www.kosu.org/oklahoma-congressional-races-2026"
+        }
+      ]
+    },
+    "OK-house-3": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H4OK06056",
+        "ok-house3-byrd"
+      ],
+      "statusNote": "Incumbent Rep. Frank Lucas (R) ran unopposed for renomination; Enid reporter Suzie Byrd won the Democratic primary June 16, 2026 (The Green Papers Oklahoma 2026 general candidate roster; Oklahoma Voice). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        },
+        {
+          "label": "Oklahoma Voice: OK-3 Democratic primary voter guide",
+          "url": "https://oklahomavoice.com/voter-guides/contests/u-s-representative-district-3-democrat/"
+        }
+      ]
+    },
+    "OK-house-4": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H2OK04055",
+        "fec-H6OK04155",
+        "ok-house4-bonacci"
+      ],
+      "statusNote": "Incumbent Rep. Tom Cole (R) ran unopposed for renomination; Mitchell Jacob won the Democratic primary June 16, 2026 with 54%; independent Rocco Bonacci also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; KOSU). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        },
+        {
+          "label": "KOSU: 2026 Oklahoma primary results",
+          "url": "https://www.kosu.org/2026-oklahoma-primary-election-results"
+        }
+      ]
+    },
+    "OK-house-5": {
+      "status": "names-only",
+      "advancing": [
+        "fec-H0OK05205",
+        "fec-H6OK05293",
+        "fec-H6OK05301",
+        "ok-house5-nieves"
+      ],
+      "statusNote": "Incumbent Rep. Stephanie Bice (R) ran unopposed for renomination; Jena Nelson won the Democratic primary June 16, 2026 with 57% over Trey Martin; independents Robert Henri and Austin Nieves also qualified for the November ballot (The Green Papers Oklahoma 2026 general candidate roster; NonDoc). Positions researched and stored, race not scored, overlap 0 of 10 as of Sep 2, 2026.",
+      "sources": [
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        },
+        {
+          "label": "NonDoc: Nelson beats Martin in CD 5, incumbents sweep",
+          "url": "https://nondoc.com/2026/06/17/jena-nelson-wins-cd-5-dems-nomination-incumbents-sweep-oklahoma-congressional-primaries/"
+        }
+      ]
     }
   },
   "candidates": [
@@ -564,6 +658,973 @@
           "url": "https://nondoc.com/2026/04/03/statewide-federal-races-15-file-for-governor-oklahoma-auditor-wins-by-default/"
         }
       ]
+    },
+    {
+      "id": "fec-H6OK01235",
+      "name": "Mark Tedford",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "1",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Oklahoma state representative from Tulsa first elected in 2018, now running for the open OK-1 seat after Rep. Kevin Hern launched a 2026 Senate bid. Won a multi-candidate June 16 Republican primary; runoff opponent Jackson Lahmeyer withdrew the next day and endorsed him, and President Trump shifted his endorsement to Tedford, clearing the August 25 runoff.",
+      "priorities": [
+        "Reducing inflation and government spending",
+        "Energy independence",
+        "Strict immigration enforcement"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 1,
+        "taxes": 2,
+        "climate": 1,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Campaign pledges to 'reduce inflationary spending' and 'lower energy and regulatory costs' (campaign website)",
+          "url": "https://www.tedfordforcongress.com/"
+        },
+        "immigration": {
+          "label": "Campaign backs 'strict enforcement of immigration laws' and deportation of criminal aliens, but in a June 2026 Q&A he 'disagreed that birthright citizenship should be overturned' (campaign website; Tulsa Flyer)",
+          "url": "https://www.tedfordforcongress.com/"
+        },
+        "taxes": {
+          "label": "Vows to 'cut taxes and increase take-home pay,' citing his role passing 'the largest tax cut in Oklahoma history' as a state legislator (campaign website)",
+          "url": "https://www.tedfordforcongress.com/"
+        },
+        "climate": {
+          "label": "Campaign priority to 'unleash American energy production' and 'reduce dependence on foreign resources'; a June 2026 Q&A lists 'achieving energy independence' among his top priorities (campaign website; Tulsa Flyer)",
+          "url": "https://www.tedfordforcongress.com/"
+        },
+        "repro": {
+          "label": "Campaign commits to 'protect the unborn' under a 'Faith, Family, and Freedom' platform plank (campaign website)",
+          "url": "https://www.tedfordforcongress.com/"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OK01235/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://www.tedfordforcongress.com/"
+        },
+        {
+          "label": "Tulsa Flyer: Tedford outdoes Trump endorsement",
+          "url": "https://tulsaflyer.org/2026/06/09/government/post/mark-tedford-us-house-race/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "health": "checked campaign website, Ballotpedia (no completed Candidate Connection survey), and a Tulsa Flyer Q&A recap; no stated health care position found (checked Sep 2, 2026)",
+        "housing": "campaign site references a 'Homeowner Bill of Rights for Oklahoma families' with no policy detail; not specific enough to score (checked Sep 2, 2026)",
+        "education": "checked campaign website and news coverage; no stated education position found (checked Sep 2, 2026)",
+        "safety": "checked campaign website and news coverage; no non-immigration public-safety statement found (checked Sep 2, 2026)",
+        "democracy": "checked campaign website, Ballotpedia, and Tulsa Flyer; no voting/elections statement found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H6OK01201",
+      "name": "John Thomas Croisant",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "1",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Tulsa Public Schools board member who won the Democratic nomination for the open OK-1 seat outright in the June 16, 2026 primary.",
+      "priorities": [
+        "Public education funding",
+        "Health care affordability",
+        "Government accountability"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "housing": {
+          "label": "Candidate Connection survey says 'rising costs of healthcare, housing, childcare and other essentials are skyrocketing' and supports 'access to affordable...housing' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/John_T._Croisant"
+        },
+        "education": {
+          "label": "Wants to 'improve the Department of Education for the United States, not get rid of it,' contrasting with Oklahoma's ranking '49th in education' (Public Radio Tulsa)",
+          "url": "https://www.publicradiotulsa.org/local-regional/2025-02-13/tps-board-member-to-run-for-congress-warns-against-spreading-oklahomas-education-policies"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OK01201/"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection",
+          "url": "https://ballotpedia.org/John_T._Croisant"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://www.croisantforcongress.com/"
+        },
+        {
+          "label": "Public Radio Tulsa profile",
+          "url": "https://www.publicradiotulsa.org/local-regional/2025-02-13/tps-board-member-to-run-for-congress-warns-against-spreading-oklahomas-education-policies"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked campaign website and Black Wall St Times coverage; 'fight to lower costs' is too generic to fix a direction (checked Sep 2, 2026)",
+        "health": "checked campaign website and town hall coverage; 'no family should have to choose between paying their bills and getting the care they need' and 'healthcare access' as a priority are too generic to fix a direction (checked Sep 2, 2026)",
+        "immigration": "checked campaign website, Ballotpedia Candidate Connection, and news coverage; no stated position found (checked Sep 2, 2026)",
+        "taxes": "checked campaign website and Candidate Connection survey; no stated position found (checked Sep 2, 2026)",
+        "climate": "checked campaign website and Candidate Connection survey; no stated position found (checked Sep 2, 2026)",
+        "safety": "campaign site mentions 'keeping illegal guns off our streets' (a gun stance, excluded from this axis per rule) and vaguely 'protecting both public safety and individual rights'; no clear prevention-vs-enforcement direction (checked Sep 2, 2026)",
+        "repro": "checked campaign website, Ballotpedia Candidate Connection, and news coverage; no stated position found (checked Sep 2, 2026)",
+        "democracy": "Candidate Connection survey pledges personal term limits (3 terms) and general government accountability; does not address voting access or election-security rules, so does not fit this axis (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H2OK02315",
+      "name": "Josh Brecheen",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "2",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Incumbent since 2023, ran unopposed for renomination in the June 16, 2026 Republican primary.",
+      "priorities": [
+        "Cutting government spending",
+        "Border enforcement",
+        "Backing law enforcement"
+      ],
+      "positions": {
+        "cost": 1,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
+        "education": 2,
+        "safety": 2,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "cost": {
+          "label": "'The inflation crisis in America is the direct result of the Democrats' interference in the economy,' calling for less government spending as the remedy (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (U.S. House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted aye on H.R.1, the 2025 tax law, July 3 2025 (U.S. House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Campaign website lists his vote for the 'Lower Energy Costs Act,' an all-of-the-above domestic energy production bill, among his key legislative priorities (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        "education": {
+          "label": "'The education of children in America is a parental responsibility' and 'there should be no federal role in education' (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        "safety": {
+          "label": "'The left's foolish and misguided efforts to defund the police have resulted in skyrocketing crime rates... we must back the blue' (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        "repro": {
+          "label": "'Life begins at conception. All Americans, born and pre-born...deserve the protection afforded them by the Constitution'; holds a 100% rating from Oklahomans for Life (campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OK02315/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Josh_Brecheen"
+        },
+        {
+          "label": "House Clerk roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House Clerk roll call 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "health": "checked Ballotpedia profile and brecheen.house.gov issues pages; no stated health care position found (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia profile and brecheen.house.gov; no stated housing position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "ok-house2-wade",
+      "name": "Brandon Wade",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "2",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Democratic nominee for OK-2, won the party's June 16, 2026 primary.",
+      "priorities": [
+        "Raising the minimum wage",
+        "Fully funding public schools",
+        "Immigration system reform"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": null,
+        "immigration": -1,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": null,
+        "repro": -1,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Blames 'the level of corporate greed in this country' for rising costs and calls for an immediate minimum wage increase to $16/hour with yearly raises (campaign issues page)",
+          "url": "https://brandon4congress.com/ok-cd2-issues/"
+        },
+        "health": {
+          "label": "Pledges to 'strengthen Social Security and Medicare' (campaign issues page)",
+          "url": "https://brandon4congress.com/ok-cd2-issues/"
+        },
+        "immigration": {
+          "label": "Calls the immigration system 'busted' and proposes 'immigration centers in every state' with more judges, border patrol, social workers and attorneys to speed citizenship processing rather than lean on enforcement alone (campaign issues page)",
+          "url": "https://brandon4congress.com/ok-cd2-issues/"
+        },
+        "education": {
+          "label": "'We must keep our tax dollars where it belongs, our public schools! If our public schools fail our rural communities will go with them' (campaign issues page)",
+          "url": "https://brandon4congress.com/ok-cd2-issues/"
+        },
+        "repro": {
+          "label": "Pledges to 'protect women's health care choices' (NonDoc primary preview quoting his Facebook page)",
+          "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Campaign issues page",
+          "url": "https://brandon4congress.com/ok-cd2-issues/"
+        },
+        {
+          "label": "NonDoc: Democratic primary cheat sheet",
+          "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "housing": "campaign issues page mentions support for 'housing, nutrition assistance, veterans' services' for vulnerable communities during shutdowns with no detailed housing policy; too generic to score (checked Sep 2, 2026)",
+        "taxes": "campaign issues page references keeping 'tax dollars' in public schools but states no broader tax policy (checked Sep 2, 2026)",
+        "climate": "checked campaign issues page and Ballotpedia; no stated climate or energy position found (checked Sep 2, 2026)",
+        "safety": "campaign issues page references protecting 'public safety' during government shutdowns with no specific policy; too generic to score (checked Sep 2, 2026)",
+        "democracy": "checked campaign issues page and Ballotpedia; no voting/elections position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "ok-house2-hopkins",
+      "name": "Ronnie Hopkins",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "2",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "general",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Independent candidate qualified for the OK-2 general election ballot.",
+      "priorities": [
+        "Social Security reform",
+        "Cutting foreign aid",
+        "Limited government"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Campaign website",
+          "url": "https://hopkinsforcongress.wixsite.com/ronnie-hopkins-for-c/about-5"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Ronnie_Hopkins"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked campaign website (hopkinsforcongress.wixsite.com), Ballotpedia, CAIR Oklahoma candidate page, and Vote Smart; only general 'freedom/liberty' rhetoric, a pledge to make Social Security 'a real trust fund,' and support for 'cutting foreign aid' were found, none specific enough to fix a direction on any of the 10 axes (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H4OK06056",
+      "name": "Frank D. Lucas",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "3",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Incumbent since 1994, ran unopposed for renomination in the June 16, 2026 Republican primary.",
+      "priorities": [
+        "Agriculture policy",
+        "Opposing federal climate regulation",
+        "Border security"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (U.S. House roll call 23)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted aye on H.R.1, the 2025 tax law, July 3 2025 (U.S. House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "On the SEC's climate disclosure rule: 'No industry is insulated from this. The energy sector will be seriously harmed...I think very clearly the climate rule will hit U.S. farmers and ranchers' (Oklahoma Energy Today)",
+          "url": "https://www.okenergytoday.com/2024/04/lucas-and-other-republicans-jump-on-sec-leaders-for-climate-disclosure-rule/"
+        },
+        "repro": {
+          "label": "'Safeguarding the right to life has always been one of my highest priorities as a Congressman,' and cosponsored the Born-Alive Abortion Survivors Protection Act (lucas.house.gov)",
+          "url": "https://lucas.house.gov/posts/lucas-stands-up-for-pro-life-agenda-3"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4OK06056/"
+        },
+        {
+          "label": "lucas.house.gov",
+          "url": "https://lucas.house.gov/"
+        },
+        {
+          "label": "House Clerk roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House Clerk roll call 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia, frankdlucas.com, and lucas.house.gov posts; no stated cost-of-living position found (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia and frankdlucas.com; no stated health care position found (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia and frankdlucas.com; no stated housing position found (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia and frankdlucas.com; no stated education position found (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia and lucas.house.gov; no stated public-safety/policing position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "ok-house3-byrd",
+      "name": "Suzie Byrd",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "3",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Enid newspaper reporter who won the Democratic nomination for OK-3, running what she calls a 'Purple Campaign' aimed at bipartisan appeal.",
+      "priorities": [
+        "Universal health care",
+        "Affordable housing",
+        "Bipartisan outreach"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Supports 'universal health care' (Oklahoma Voice primary voter guide; NonDoc primary preview)",
+          "url": "https://oklahomavoice.com/voter-guides/contests/u-s-representative-district-3-democrat/"
+        },
+        "housing": {
+          "label": "Prioritizes 'affordable housing' (NonDoc primary preview quoting her campaign Facebook page)",
+          "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"
+        }
+      },
+      "sources": [
+        {
+          "label": "Oklahoma Voice: OK-3 Democratic primary voter guide",
+          "url": "https://oklahomavoice.com/voter-guides/contests/u-s-representative-district-3-democrat/"
+        },
+        {
+          "label": "NonDoc: Democratic primary cheat sheet",
+          "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Oklahoma Voice voter guide, NonDoc, and GoodParty.org profile; no stated cost-of-living position found (checked Sep 2, 2026)",
+        "immigration": "NonDoc quotes her Facebook page promoting 'immigration reform' with no direction specified; too vague to fix a sign (checked Sep 2, 2026)",
+        "taxes": "checked Oklahoma Voice voter guide and NonDoc; no stated tax position found (checked Sep 2, 2026)",
+        "climate": "checked Oklahoma Voice voter guide and NonDoc; no stated climate/energy position found (checked Sep 2, 2026)",
+        "education": "NonDoc quotes her Facebook page promoting 'education reform' with no direction specified; too vague to fix a sign (checked Sep 2, 2026)",
+        "safety": "Oklahoma Voice voter guide notes she 'will not vote to increase defense spending,' which is a military-spending stance, not a domestic policing/prevention stance, so it does not fit this axis (checked Sep 2, 2026)",
+        "repro": "checked Oklahoma Voice voter guide, NonDoc, and GoodParty.org profile; no stated abortion position found (checked Sep 2, 2026)",
+        "democracy": "checked Oklahoma Voice voter guide and NonDoc; no voting/elections position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H2OK04055",
+      "name": "Tom Cole",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "4",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Incumbent since 2003 and House Appropriations Committee chairman, ran unopposed for renomination in the June 16, 2026 Republican primary.",
+      "priorities": [
+        "Opposing the Affordable Care Act",
+        "All-of-the-above energy strategy",
+        "Border security"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 2,
+        "education": 1,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "'Obamacare failed to live up to its many promises, particularly those related to affordability of and access to care' (cole.house.gov issues page)",
+          "url": "https://cole.house.gov/issues"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (U.S. House roll call 23); issues page says 'securing our borders and stopping the flood of illegal immigrants must be a top priority'",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted aye on H.R.1, the 2025 tax law, July 3 2025 (U.S. House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "Advocates 'an all-of-the-above energy strategy that encourages domestic production, reduces our dependency on foreign oil and explores alternative energy solutions' (cole.house.gov issues page)",
+          "url": "https://cole.house.gov/issues"
+        },
+        "education": {
+          "label": "As a former educator, says 'parents and teachers have the tools and resources necessary to provide the best possible educational opportunities for our children' (cole.house.gov issues page)",
+          "url": "https://cole.house.gov/issues"
+        },
+        "repro": {
+          "label": "'I will always come down firmly on the side of protecting and saving the lives of unborn children' and 'vehemently oppose...efforts to repeal the Hyde Amendment' (cole.house.gov weekly column)",
+          "url": "https://cole.house.gov/media-center/weekly-columns/we-must-protect-life"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2OK04055/"
+        },
+        {
+          "label": "cole.house.gov issues page",
+          "url": "https://cole.house.gov/issues"
+        },
+        {
+          "label": "House Clerk roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House Clerk roll call 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked cole.house.gov issues page and Ballotpedia; no stated cost-of-living position found (checked Sep 2, 2026)",
+        "housing": "checked cole.house.gov issues page and Ballotpedia; no stated housing position found (checked Sep 2, 2026)",
+        "safety": "checked cole.house.gov issues page and Ballotpedia; no stated domestic public-safety/policing position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H6OK04155",
+      "name": "Mitchell Leigh Jacob",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "4",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Democratic nominee for OK-4, won the June 16, 2026 primary with 54% of the vote.",
+      "priorities": [
+        "Living wages",
+        "Public school funding",
+        "Criminal justice reform"
+      ],
+      "positions": {
+        "cost": -2,
+        "health": -1,
+        "housing": null,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": -2,
+        "safety": -2,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Says he never voted for 'rising prices, stagnant wages' and 'you should not have to work three jobs to get by' (campaign website)",
+          "url": "https://www.mitchelljacob.com/"
+        },
+        "health": {
+          "label": "'Healthcare is a human right' (campaign website)",
+          "url": "https://www.mitchelljacob.com/"
+        },
+        "immigration": {
+          "label": "Opposes '$100 billion to immigration enforcement, building inhumane camps,' calling instead for 'solutions, not fear; capacity, not more law enforcement' (campaign website)",
+          "url": "https://www.mitchelljacob.com/"
+        },
+        "education": {
+          "label": "Calls education 'the single most pressing issue facing Oklahoma today' and pledges to 'repeal' the Parental Choice Tax Credit Act to stop the 'systematic dismantling of Oklahoma public schools' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Mitchell_Jacob"
+        },
+        "safety": {
+          "label": "Aims to 'reduce the rate of incarceration in Oklahoma' and 'focus on rehabilitation, not just punishment' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Mitchell_Jacob"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OK04155/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://www.mitchelljacob.com/"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection",
+          "url": "https://ballotpedia.org/Mitchell_Jacob"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "housing": "campaign website lists shelter as a basic need alongside wages and health care with no detailed housing policy; too generic to score (checked Sep 2, 2026)",
+        "taxes": "Candidate Connection survey proposes exempting new small businesses from corporate taxes for five years or under $500,000 revenue, and 'lowering individual taxes'; a narrow small-business carve-out plus general individual cuts does not fit a clear raise-on-corporations-vs-cut-across-the-board read (checked Sep 2, 2026)",
+        "climate": "checked campaign website and Ballotpedia Candidate Connection; no stated climate/energy position found (checked Sep 2, 2026)",
+        "repro": "checked campaign website and Ballotpedia Candidate Connection; no stated abortion position found (checked Sep 2, 2026)",
+        "democracy": "Candidate Connection survey urges supporters to register to vote, a GOTV appeal rather than a stance on voting-access or election-security rules; does not fit this axis (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "ok-house4-bonacci",
+      "name": "Rocco Bonacci",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "4",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "general",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Independent candidate qualified for the OK-4 general election ballot.",
+      "priorities": [
+        "Not documented"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Rocco_Bonacci"
+        },
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and Politics1; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H0OK05205",
+      "name": "Stephanie Bice",
+      "party": "Republican",
+      "office": "us-house",
+      "district": "5",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Incumbent since 2021, ran unopposed for renomination in the June 16, 2026 Republican primary.",
+      "priorities": [
+        "Opposing Medicare for All",
+        "Border security",
+        "Vocational education"
+      ],
+      "positions": {
+        "cost": null,
+        "health": 1,
+        "housing": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": 2,
+        "democracy": 2
+      },
+      "positionSources": {
+        "health": {
+          "label": "Backs 'patient-centered health care with the choice Americans want' and 'protecting coverage for Americans with pre-existing conditions,' while opposing Democrats' 'Medicare For All bill that will increase taxes by 93 trillion dollars nationwide' (2020 campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Stephanie_Bice"
+        },
+        "immigration": {
+          "label": "Voted yes on the Laken Riley Act, S.5, Jan 22 2025 (U.S. House roll call 23); campaign site calls for 'strong border protections, with a wall, additional border agents and technology'",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        "taxes": {
+          "label": "Voted aye on H.R.1, the 2025 tax law, July 3 2025 (U.S. House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "repro": {
+          "label": "Pledges to 'fight to defend the rights of the unborn and uphold the sanctity of life' and supported 'pro-life policies' in the state senate (2020 campaign website via Ballotpedia)",
+          "url": "https://ballotpedia.org/Stephanie_Bice"
+        },
+        "democracy": {
+          "label": "Voted yes on the SAVE Act, H.R.22, Apr 10 2025 (U.S. House roll call 102)",
+          "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        }
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H0OK05205/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Stephanie_Bice"
+        },
+        {
+          "label": "House Clerk roll call 23 (Laken Riley Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House Clerk roll call 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia and bice.house.gov issues page; only a general 2020 mention of prescription-drug costs (folded into health above), no broader cost-of-living position found (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia and bice.house.gov issues page; no stated housing position found (checked Sep 2, 2026)",
+        "climate": "bice.house.gov lists an 'Energy and Environment' issues section with no detailed statement, and a 2020 mention of infrastructure investment; not specific enough to fix a direction (checked Sep 2, 2026)",
+        "education": "campaign material backs 'funding for vocational schools and training programs' and 'Oklahoma's Promise,' plus 'local control' language on bice.house.gov; workforce/local-control framing does not map cleanly to the public-investment-vs-choice axis (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia and bice.house.gov issues page; no stated domestic public-safety/policing position found (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H6OK05293",
+      "name": "Jena Nelson",
+      "party": "Democrat",
+      "office": "us-house",
+      "district": "5",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Former teacher and 2022 Democratic nominee for Oklahoma Superintendent of Public Instruction, won the OK-5 Democratic primary June 16, 2026 with 57% over Trey Martin.",
+      "priorities": [
+        "Not documented"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Jena_Nelson"
+        },
+        {
+          "label": "NonDoc: Nelson beats Martin in CD 5",
+          "url": "https://nondoc.com/2026/06/17/jena-nelson-wins-cd-5-dems-nomination-incumbents-sweep-oklahoma-congressional-primaries/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked Ballotpedia (no completed Candidate Connection survey), Oklahoma Voice, NonDoc, and a search for a campaign website; no issue statements found for the 2026 congressional run on any of the 10 axes (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "fec-H6OK05301",
+      "name": "Robert Patrick Henri",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "5",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "general",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Independent candidate who entered the OK-5 general election race running on a government-reform platform.",
+      "priorities": [
+        "Congressional term limits",
+        "Banning congressional stock trading",
+        "Independent redistricting commissions"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Campaign website",
+          "url": "https://projectduecourse.org/"
+        },
+        {
+          "label": "Gaylord News: independent enters CD5 race",
+          "url": "https://gaylordnews.net/9872/news/politics/unopposed-bice-awaits-winner-of-5th-district-primary-as-independent-enters-race/"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "health": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "housing": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "immigration": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "taxes": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "climate": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "education": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "safety": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "repro": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)",
+        "democracy": "checked campaign website (projectduecourse.org) and Ballotpedia; his platform is exclusively structural government reform (term limits, a stock-trading ban, Supreme Court ethics, independent redistricting commissions); none of it states a position on cost of living, health care, housing, immigration, taxes, climate, education, safety, abortion, or voting-access/election-security rules (checked Sep 2, 2026)"
+      }
+    },
+    {
+      "id": "ok-house5-nieves",
+      "name": "Austin Rudyard Nieves",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "5",
+      "state": "OK",
+      "tier": "researched",
+      "ballotStatus": "general",
+      "incumbent": false,
+      "age": null,
+      "home": null,
+      "now": null,
+      "background": "Independent candidate qualified for the OK-5 general election ballot.",
+      "priorities": [
+        "Not documented"
+      ],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "sources": [
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Austin_Nieves"
+        },
+        {
+          "label": "The Green Papers: Oklahoma 2026 general election candidates",
+          "url": "https://www.thegreenpapers.com/G26/OK"
+        }
+      ],
+      "curatedAt": "2026-09-02",
+      "nullNotes": {
+        "cost": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "health": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "housing": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "immigration": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "taxes": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "climate": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "education": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "safety": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "repro": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)",
+        "democracy": "checked Ballotpedia (no completed Candidate Connection survey, and Ballotpedia notes he previously did not appear on a 2024 general ballot despite filing), Oklahoma Voice, NonDoc, and The Green Papers; no campaign website or issue statements found for any of the 10 axes (checked Sep 2, 2026)"
+      }
     }
   ]
 }

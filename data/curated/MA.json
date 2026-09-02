@@ -3,13 +3,13 @@
   "note": "Hand-curated, sourced entries. Democratic primary contested (Markey vs. Moulton); primary Sept 1, 2026.",
   "races": {
     "MA-senate": {
-      "status": "primary-pending",
-      "statusNote": "Primary is September 1, 2026, so nominees are not final. Sen. Ed Markey faces Rep. Seth Moulton in the Democratic primary; John Deaton is the only Republican on the primary ballot.",
-      "primaryDate": "SEP 1",
+      "status": "general",
+      "statusNote": "Sen. Ed Markey won the Sep 1 Democratic primary with 76% over Rep. Seth Moulton, who conceded. John Deaton, the only Republican on the primary ballot, is the GOP nominee. Joseph Tache (Party for Socialism and Liberation) and independent Morgan Dawicki have also filed for the November ballot.",
       "advancing": [
         "fec-S4MA00028",
         "fec-S6MA00304",
-        "fec-S6MA00296"
+        "fec-S6MA00288",
+        "fec-S6MA00262"
       ]
     }
   },
@@ -21,7 +21,7 @@
       "office": "us-senate",
       "state": "MA",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": true,
       "age": 80,
       "home": "Malden, MA",
@@ -119,7 +119,7 @@
       "office": "us-senate",
       "state": "MA",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "age": 47,
       "home": "Salem, MA",
@@ -217,7 +217,7 @@
       "office": "us-senate",
       "state": "MA",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 59,
       "home": "Bolton, MA",

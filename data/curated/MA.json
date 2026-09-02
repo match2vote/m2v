@@ -11,6 +11,16 @@
         "fec-S6MA00288",
         "fec-S6MA00262"
       ]
+    },
+    "MA-governor": {
+      "status": "general",
+      "statusNote": "Gov. Maura Healey (D) is seeking a second term and had no primary opponent. Michael Minogue, an Army veteran and former Abiomed CEO, won the Sep 1 Republican primary 76 to 24 over Brian Shortsleeve. Independents Andrea James and Muhammed Kokonezis-Hanino have also filed for the November ballot.",
+      "advancing": [
+        "ma-gov-healey",
+        "ma-gov-minogue",
+        "ma-gov-james",
+        "ma-gov-kokonezis"
+      ]
     }
   },
   "candidates": [
@@ -294,6 +304,82 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ma-gov-healey",
+      "name": "Maura Healey",
+      "party": "Democrat",
+      "office": "governor",
+      "district": null,
+      "state": "MA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": true,
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
+          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+        },
+        {
+          "label": "WAMC: Minogue wins the Sep 1 GOP primary 76 to 24, faces Healey",
+          "url": "https://www.wamc.org/news/2026-09-01/minogue-bests-shortsleeve-in-mass-gop-gubernatorial-primary-will-face-healey"
+        }
+      ]
+    },
+    {
+      "id": "ma-gov-minogue",
+      "name": "Michael Minogue",
+      "party": "Republican",
+      "office": "governor",
+      "district": null,
+      "state": "MA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "WAMC: Minogue wins the Sep 1 GOP primary 76 to 24, faces Healey",
+          "url": "https://www.wamc.org/news/2026-09-01/minogue-bests-shortsleeve-in-mass-gop-gubernatorial-primary-will-face-healey"
+        },
+        {
+          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
+          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+        }
+      ]
+    },
+    {
+      "id": "ma-gov-james",
+      "name": "Andrea James",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "MA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
+          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+        }
+      ]
+    },
+    {
+      "id": "ma-gov-kokonezis",
+      "name": "Muhammed Kokonezis-Hanino",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "MA",
+      "tier": "fec",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Massachusetts gubernatorial election, general field",
+          "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election"
+        }
+      ]
     }
   ]
 }

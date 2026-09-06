@@ -1,7 +1,7 @@
 {
   "state": "DE",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.473Z",
+  "syncedAt": "2026-09-06T11:01:48.790Z",
   "candidates": [
     {
       "id": "fec-H4DE00078",
@@ -30,6 +30,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4DE00078/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6DE01121",
+      "fecId": "H6DE01121",
+      "name": "Joseph Dr. Joe Ph.D. Arminio",
+      "party": "Republican",
+      "state": "DE",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6DE01121/"
         }
       ],
       "funding": null,

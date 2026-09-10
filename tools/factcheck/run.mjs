@@ -10,7 +10,7 @@
 //   node run.mjs check --states VT,CT --key ...         # just some states
 //   node run.mjs check --dry-run                        # no API key needed: collect + fetch + URL health only
 //   node run.mjs report                                 # rebuild CSV/HTML from results so far
-// Options: --model gemini-2.5-flash | gemini-2.5-flash-lite   (default gemini-2.5-flash)
+// Options: --model NAME       (default: auto-detected from ListModels; retired models rotate out mid-run)
 //          --rpm 8            requests per minute (stay under your tier's limit)
 //          --max-calls 240    stop after N Gemini calls this run (free daily quota)
 //          --limit N          only first N URL groups (for testing)
@@ -37,6 +37,8 @@ const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 // free inside GitHub Actions with `permissions: models: read`). Auto-picks Gemini when a key is set.
 let ENGINE = flag('engine', KEY ? 'gemini' : (GH_TOKEN ? 'github' : 'gemini'));
 let MODEL = flag('model', ENGINE === 'github' ? 'openai/gpt-4o-mini' : '');
+// Remaining Gemini candidates after the one in MODEL; used when a model is retired mid-run (HTTP 404).
+let MODEL_POOL = [];
 
 // Ask the Gemini API which models this key can use and pick the best general Flash model.
 // Keeps the bot working as Google renames/retires models.
@@ -212,13 +214,41 @@ For each claim answer:
 
 Respond with ONLY a JSON array, one object per claim in order, each: {"claim":1,"label_check":"...","score_check":"...","verdict":"...","note":"..."}`;
 }
+const VERDICTS = new Set(['TRUE', 'MOSTLY_TRUE', 'FALSE', 'CANNOT_JUDGE']);
+function normalizeVerdict(o, idx) {
+  if (!o || typeof o !== 'object') return null;
+  const get = (...ks) => { for (const k of ks) { const hit = Object.keys(o).find(x => x.toLowerCase().replace(/[\s-]/g, '_') === k); if (hit !== undefined) return o[hit]; } return undefined; };
+  let verdict = String(get('verdict', 'overall', 'result') ?? '').trim().toUpperCase().replace(/[\s-]+/g, '_');
+  if (verdict === 'MOSTLY TRUE' || verdict === 'PARTLY_TRUE' || verdict === 'PARTIALLY_TRUE') verdict = 'MOSTLY_TRUE';
+  if (verdict === 'UNKNOWN' || verdict === 'UNCLEAR' || verdict === 'CANNOT_DETERMINE' || verdict === 'INSUFFICIENT') verdict = 'CANNOT_JUDGE';
+  const label_check = String(get('label_check', 'label') ?? '').trim().toLowerCase();
+  const score_check = String(get('score_check', 'score') ?? '').trim().toLowerCase();
+  if (!VERDICTS.has(verdict)) {
+    // Derive from the two checks when the model skipped or mangled the verdict field.
+    if (label_check === 'supported' && score_check === 'consistent') verdict = 'TRUE';
+    else if (label_check === 'not_on_page' || score_check === 'wrong_direction') verdict = 'FALSE';
+    else if (label_check === 'partial' || score_check === 'too_strong') verdict = 'MOSTLY_TRUE';
+    else if (label_check || score_check) verdict = 'CANNOT_JUDGE';
+    else return null;
+  }
+  const claimRaw = get('claim', 'claim_number', 'id', 'index');
+  const claim = Number.isFinite(Number(claimRaw)) ? Number(claimRaw) : idx + 1;
+  return { claim, verdict, label_check, score_check, note: String(get('note', 'reason', 'explanation') ?? '').slice(0, 300) };
+}
 function parseVerdicts(text) {
-  const m = text.match(/\[[\s\S]*\]/);
-  if (m) { try { return JSON.parse(m[0]); } catch {} }
-  // salvage: model wrapped in fences or output was truncated mid-array; take every complete object
-  const objs = [...text.matchAll(/\{[^{}]*\}/g)].map(x => { try { return JSON.parse(x[0]); } catch { return null; } }).filter(Boolean);
-  if (objs.length) return objs;
-  throw new Error('No JSON in model reply: ' + text.slice(0, 150));
+  // Models wrap JSON in ```json fences or add prose around it; strip fences first, then find the array.
+  const clean = String(text || '').replace(/```(?:json|JSON)?/g, '').trim();
+  let arr = null;
+  const m = clean.match(/\[[\s\S]*\]/);
+  if (m) { try { const j = JSON.parse(m[0]); if (Array.isArray(j)) arr = j; } catch {} }
+  if (!arr) {
+    // salvage: output truncated mid-array, or objects listed without brackets; take every complete object
+    arr = [...clean.matchAll(/\{[^{}]*\}/g)].map(x => { try { return JSON.parse(x[0]); } catch { return null; } }).filter(Boolean);
+  }
+  if (!arr.length) { try { const j = JSON.parse(clean); if (j && typeof j === 'object') arr = Array.isArray(j.results) ? j.results : [j]; } catch {} }
+  const out = arr.map(normalizeVerdict).filter(Boolean);
+  if (!out.length) throw new Error('No JSON in model reply: ' + clean.slice(0, 150));
+  return out;
 }
 async function askGitHubModels(group, page) {
   const content = buildPrompt(group, page) + '\n\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '');
@@ -250,15 +280,19 @@ async function askGitHubModels(group, page) {
   }
   throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }
+// Adaptive pacing: every 429/503 stretches the gap between calls for the rest of the run
+// (up to 4x the configured RPM gap). A flood of retries is what got the project flagged once.
+let slowdown = 1;
 async function askGemini(group, page) {
   if (ENGINE === 'github') return askGitHubModels(group, page);
   const parts = [{ text: buildPrompt(group, page) }];
   if (page.kind === 'pdf') parts.push({ inline_data: { mime_type: 'application/pdf', data: page.b64 } });
   else parts.push({ text: '\n----- SOURCE PAGE TEXT (extracted from ' + group[0].url + ') -----\n' + (page.text || '') });
-  const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 16000 } };
+  const body = { contents: [{ parts }], generationConfig: { temperature: 0.1, maxOutputTokens: 16000, responseMimeType: 'application/json' } };
   let lastStatus = 0;
-  for (let attempt = 1; attempt <= 5; attempt++) {
+  for (let attempt = 1; attempt <= 6; attempt++) {
     await throttle();
+    if (slowdown > 1) await new Promise(r => setTimeout(r, Math.ceil(60000 / RPM) * (slowdown - 1)));
     let res;
     try {
       res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`,
@@ -268,19 +302,31 @@ async function askGemini(group, page) {
       await new Promise(r => setTimeout(r, 8000 * attempt));
       continue;
     }
+    if (res.status === 404 && MODEL_POOL.length) {
+      // Model retired mid-run ("no longer available"); move to the next probed candidate and try again.
+      await res.text();
+      const next = MODEL_POOL.shift();
+      console.log(`\n  Model ${MODEL} returned 404; switching to ${next}`);
+      MODEL = next;
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) {
       lastStatus = res.status;
       const txt = await res.text();
-      if (/RESOURCE_EXHAUSTED|quota/i.test(txt)) lastStatus = 429;
+      if (/RESOURCE_EXHAUSTED|quota/i.test(txt) && !/per.?minute|rate/i.test(txt)) lastStatus = 429;
+      slowdown = Math.min(4, slowdown + 0.5);
       const m = txt.match(/"retryDelay"\s*:\s*"(\d+)s"/);
-      const wait = m ? (Number(m[1]) + 2) * 1000 : Math.min(90000, 5000 * attempt * attempt);
+      const wait = m ? (Number(m[1]) + 2) * 1000 : Math.min(180000, 10000 * attempt * attempt);
       process.stdout.write(`  [${res.status}, retry in ${Math.round(wait / 1000)}s]`);
       await new Promise(r => setTimeout(r, wait));
       continue;
     }
     if (!res.ok) throw new Error('Gemini HTTP ' + res.status + ': ' + (await res.text()).slice(0, 300));
     const j = await res.json();
-    return parseVerdicts(j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '');
+    const finish = j.candidates?.[0]?.finishReason;
+    const text = j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
+    if (!text && finish) throw new Error('Gemini returned no text (finishReason ' + finish + ')');
+    return parseVerdicts(text);
   }
   throw new Error(lastStatus === 429 ? 'quota exhausted after retries; rerun later, it will resume.' : 'exhausted retries (last HTTP ' + lastStatus + '); claim will be retried next run.');
 }
@@ -339,7 +385,9 @@ async function main() {
     if (ENGINE === 'github') MODEL = 'openai/gpt-4o-mini';
     else if (DRY) MODEL = '(dry run)';
     else {
-      MODEL = await probeGeminiModel(await resolveGeminiModel());
+      const cands = await resolveGeminiModel();
+      MODEL = await probeGeminiModel(cands);
+      MODEL_POOL = MODEL ? cands.slice(cands.indexOf(MODEL) + 1) : [];
       if (!MODEL && GH_TOKEN) { console.log('No Gemini model answered; falling back to GitHub Models.'); ENGINE = 'github'; MODEL = 'openai/gpt-4o-mini'; }
       else if (!MODEL) { console.error('No Gemini model answered the probe. Try again later.'); process.exit(1); }
     }
@@ -391,7 +439,7 @@ async function main() {
       const verdicts = await askGemini(group, page);
       calls++;
       record(group.map((c, idx) => {
-        const v = verdicts.find(x => x.claim === idx + 1) || verdicts[idx] || {};
+        const v = verdicts.find(x => Number(x.claim) === idx + 1) || verdicts[idx] || {};
         return { key: keyOf(c), ...c, verdict: v.verdict || 'API_ERROR', label_check: v.label_check || '', score_check: v.score_check || '', note: v.note || 'No verdict returned' };
       }));
       console.log('→ ' + verdicts.map(v => v.verdict).join(', '));

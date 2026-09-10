@@ -7,6 +7,9 @@
 # When it finishes, the report (CSV + HTML) is downloadable under the run's Artifacts.
 # Progress is cached between runs, so if the free daily quota runs out,
 # just run it again the next day and it resumes.
+# PACING (Sep 10, 2026): the Gemini project was suspended once for automated-abuse
+# signals after multi-hour high-volume passes. Nightly runs are capped at 400 calls
+# at 5 requests per minute, and the bot slows itself further on 429/503. Keep it that way.
 
 name: Fact-check candidate data
 
@@ -24,7 +27,7 @@ on:
         default: "2000"
       rpm:
         description: "Requests per minute"
-        default: "8"
+        default: "5"
   # Runs nightly until the pass is complete (resumes from checkpoint; near-zero API calls once done):
   schedule:
     - cron: "30 6 * * *"
@@ -64,8 +67,8 @@ jobs:
           node tools/factcheck/run.mjs check \
             --states "${{ github.event.inputs.states || 'ALL' }}" \
             $MODEL_ARGS \
-            --max-calls "${{ github.event.inputs.max_calls || '240' }}" \
-            --rpm "${{ github.event.inputs.rpm || '8' }}"
+            --max-calls "${{ github.event.inputs.max_calls || '400' }}" \
+            --rpm "${{ github.event.inputs.rpm || '5' }}"
 
       - name: Save progress
         if: always()

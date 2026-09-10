@@ -246,6 +246,8 @@ export function Home() {
         <View style={{ marginTop: space(4) }}>
           {[
             [S.aboutLink, () => nav.go({ name: 'about' })],
+            [S.privacyLink, () => Linking.openURL('https://app.match2vote.org/privacy/').catch(() => {})],
+            [S.termsLink, () => nav.go({ name: 'terms' })],
             [S.contactLink, () => Linking.openURL('mailto:match2vote@gmail.com?subject=M2V%20error%20report').catch(() => {})],
           ].map(([label, fn]) => (
             <Pressable key={label} onPress={fn} accessibilityRole="button" accessibilityLabel={label} style={{ paddingVertical: space(3), minHeight: 44, justifyContent: 'center', borderTopWidth: 1, borderTopColor: colors.line }}>

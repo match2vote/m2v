@@ -5,6 +5,8 @@ import { Screen, H1, H2, Body, Card, Button } from '../ui';
 import { theme, useTheme } from '../theme';
 import { getCoverage, statesPhrase } from '../ballot';
 import { strings } from '../strings';
+import { useNav } from '../nav';
+import { canRate, openStoreListing } from '../rate';
 
 const S = strings.about;
 
@@ -13,6 +15,7 @@ const CONTACT = 'match2vote@gmail.com';
 
 export function About() {
   const { colors, mode, setMode } = useTheme();
+  const nav = useNav();
   const cov = getCoverage();
   const P = (props) => <Body style={{ marginBottom: space(3), fontSize: 14 }} {...props} />;
   return (
@@ -71,17 +74,34 @@ export function About() {
           </View>
         </Card>
 
+        <Card>
+          <H2>{S.legalTitle}</H2>
+          <Body style={{ fontSize: 14, marginBottom: space(2) }}>{S.legalBody}</Body>
+          <Button
+            kind="ghost"
+            label={S.privacy}
+            onPress={() => Linking.openURL('https://app.match2vote.org/privacy/').catch(() => {})}
+          />
+          <Button
+            kind="ghost"
+            label={S.terms}
+            onPress={() => nav.go({ name: 'terms' })}
+          />
+        </Card>
+
+        {canRate && (
+          <Card>
+            <H2>{S.rateTitle}</H2>
+            <Body style={{ fontSize: 14, marginBottom: space(2) }}>{S.rateBody}</Body>
+            <Button kind="ghost" label={S.rate} onPress={openStoreListing} />
+          </Card>
+        )}
+
         <Button
           kind="ghost"
           small
           label={S.github}
           onPress={() => Linking.openURL('https://github.com/match2vote/m2v')}
-        />
-        <Button
-          kind="ghost"
-          small
-          label={S.privacy}
-          onPress={() => Linking.openURL('https://app.match2vote.org/privacy/')}
         />
         <Body soft style={{ fontSize: 12, textAlign: 'center', marginTop: space(3) }}>
           {S.nonpartisan}

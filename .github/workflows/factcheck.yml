@@ -7,9 +7,13 @@
 # When it finishes, the report (CSV + HTML) is downloadable under the run's Artifacts.
 # Progress is cached between runs, so if the free daily quota runs out,
 # just run it again the next day and it resumes.
-# PACING (Sep 10, 2026): the Gemini project was suspended once for automated-abuse
-# signals after multi-hour high-volume passes. Nightly runs are capped at 400 calls
-# at 5 requests per minute, and the bot slows itself further on 429/503. Keep it that way.
+# ENGINE (Sep 10, 2026): the Gemini project was suspended on Sep 7 for automated-abuse
+# signals after multi-hour high-volume passes, and the whole match2vote@gmail.com
+# account (which owns the Play Console) was disabled the same day; both were
+# reinstated on appeal. Scheduled runs therefore use GitHub Models only and never
+# send the Gemini key. Gemini is opt-in per run (engine=gemini on a manual run).
+# Runs are capped at 400 calls at 5 requests per minute either way, and the bot
+# slows itself further on 429/503. Keep it that way.
 
 name: Fact-check candidate data
 
@@ -19,8 +23,11 @@ on:
       states:
         description: "States to check (e.g. VT,CT) or ALL"
         default: "ALL"
+      engine:
+        description: "github (GitHub Models, touches no Google account) or gemini (uses the GEMINI_API_KEY secret on the match2vote Google Cloud project)"
+        default: "github"
       model:
-        description: "Model (default: auto — Gemini if a GEMINI_API_KEY secret exists, else GitHub Models gpt-4o-mini)"
+        description: "Model (default: auto — picked for the chosen engine)"
         default: "auto"
       max_calls:
         description: "Max model calls this run"
@@ -58,13 +65,16 @@ jobs:
 
       - name: Run fact-check
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ENGINE: ${{ github.event.inputs.engine || 'github' }}
+          GEMINI_KEY_IF_OPTED_IN: ${{ (github.event.inputs.engine == 'gemini') && secrets.GEMINI_API_KEY || '' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           MODEL="${{ github.event.inputs.model || 'auto' }}"
           MODEL_ARGS=""
           if [ "$MODEL" != "auto" ]; then MODEL_ARGS="--model $MODEL"; fi
+          if [ "$ENGINE" = "gemini" ]; then export GEMINI_API_KEY="$GEMINI_KEY_IF_OPTED_IN"; fi
           node tools/factcheck/run.mjs check \
+            --engine "$ENGINE" \
             --states "${{ github.event.inputs.states || 'ALL' }}" \
             $MODEL_ARGS \
             --max-calls "${{ github.event.inputs.max_calls || '400' }}" \

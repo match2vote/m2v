@@ -64,6 +64,8 @@ jobs:
           mkdir -p _site/privacy && cp docs/launch/privacy.html _site/privacy/index.html
           # Old privacy URL (github.io/m2v/privacy/) still resolves after the redirect
           mkdir -p _site/m2v/privacy && cp docs/launch/privacy.html _site/m2v/privacy/index.html
+          # Terms of use at /terms (linked from the app beside the privacy policy)
+          mkdir -p _site/terms && cp docs/launch/terms.html _site/terms/index.html
           # Custom domain. Pages reads this file on branch deploys; the setting
           # in the repo's Pages page covers artifact deploys. Keep both in sync.
           echo "app.match2vote.org" > _site/CNAME

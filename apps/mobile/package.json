@@ -1,6 +1,6 @@
 {
   "name": "m2v-mobile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "@m2v/core": "*",
@@ -8,6 +8,7 @@
     "expo": "~57.0.4",
     "expo-sharing": "~57.0.3",
     "expo-status-bar": "~57.0.0",
+    "expo-store-review": "~57.0.2",
     "react": "19.2.3",
     "react-dom": "^19.2.3",
     "react-native": "0.86.0",

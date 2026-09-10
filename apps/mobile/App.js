@@ -11,6 +11,7 @@ import { QuizContext } from './src/quizContext';
 import { StatePicker, Races, Race, Profile } from './src/screens/Browse';
 import { OfficialBallot } from './src/screens/OfficialBallot';
 import { About } from './src/screens/About';
+import { Terms } from './src/screens/Terms';
 import { Home } from './src/screens/Home';
 import { HowTo } from './src/screens/HowTo';
 import { WhatYouVoteFor } from './src/screens/WhatYouVoteFor';
@@ -21,6 +22,7 @@ import { shareResultCard } from './src/share';
 import { DistrictLine } from './src/DistrictLine';
 import { ErrorBoundary } from './src/ErrorBoundary';
 import { strings } from './src/strings';
+import { maybeAskForReview } from './src/rate';
 
 const SW = strings.welcome;
 const SQ = strings.quiz;
@@ -138,6 +140,7 @@ if (!onboarded) {
             <Matches quiz={quiz} setQuiz={setQuizPersist} onPicksChanged={(n) => setBallotCount(n)} />
           )}
           {r.name === 'about' && <About />}
+          {r.name === 'terms' && <Terms />}
         </ErrorBoundary>
         </View>
         <TabBar
@@ -368,6 +371,15 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
 
   const answered = Object.keys(quiz.answers).length;
   const realAnswered = Object.values(quiz.answers).filter((v) => v !== null && v !== undefined).length;
+
+  // One-time Play in-app review request, a few seconds after the user first
+  // sees real results. Never on launch; rate.js makes sure it never repeats.
+  const showingResults = quiz.done && realAnswered >= 3 && !!stateCode;
+  useEffect(() => {
+    if (!showingResults) return;
+    const t = setTimeout(maybeAskForReview, 2500);
+    return () => clearTimeout(t);
+  }, [showingResults]);
 
   // Not started
   if (!quiz.done && answered === 0) {

@@ -3,23 +3,11 @@
   "note": "Hand-curated, sourced entries. Primary not yet held (Sept 8), frontrunners curated, not marked nominees.",
   "races": {
     "NH-senate": {
-      "status": "primary-pending",
-      "statusNote": "Open seat (Sen. Shaheen retiring). The primary is September 8. Chris Pappas (D) and John E. Sununu (R) lead their fields in UNH polling, but nominees aren't final.",
-      "primaryDate": "SEP 8",
+      "status": "general",
+      "statusNote": "Open seat, Sen. Jeanne Shaheen is retiring. Rep. Chris Pappas won the Sep 8 Democratic primary with 62% over Karishma Manzur. Former Sen. John E. Sununu won the Republican primary with 70% over former Sen. Scott Brown.",
       "advancing": [
         "fec-S6NH00141",
-        "fec-S6NH00208",
-        "fec-S6NH00182",
-        "fec-S6NH00166",
-        "nh-senate-jarvis",
-        "nh-senate-saal",
-        "nh-senate-vail",
-        "nh-senate-alciere",
-        "nh-senate-danley",
-        "nh-senate-martin",
-        "nh-senate-maxwell",
-        "nh-senate-mcmenamon",
-        "nh-senate-smith"
+        "fec-S6NH00208"
       ]
     }
   },
@@ -31,7 +19,7 @@
       "office": "us-senate",
       "state": "NH",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "background": "U.S. Representative for NH-01 since 2019; family runs Manchester's Puritan Backroom restaurant. Leading the September 2026 Democratic primary field.",
       "positions": {
         "cost": -1,
@@ -106,7 +94,7 @@
       "office": "us-senate",
       "state": "NH",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "background": "U.S. Senator 2003–2009 and Representative 1997–2003, seeking his old seat; son of Gov. John H. Sununu and brother of Gov. Chris Sununu. Endorsed by President Trump. 2026 campaign theme: 'lower the temperature' in Washington.",
       "positions": {
         "cost": 1,
@@ -208,7 +196,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -229,7 +217,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -250,7 +238,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -271,7 +259,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -292,7 +280,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -313,7 +301,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -334,7 +322,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -355,7 +343,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -376,7 +364,7 @@
       "district": null,
       "state": "NH",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {

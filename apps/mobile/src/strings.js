@@ -122,6 +122,8 @@ export const strings = {
     primaryDate: ({ date }) => `PRIMARY ${date}`,
     primaryPending: 'PRIMARY PENDING',
     aboutLink: 'How matching works & coverage',
+    privacyLink: 'Privacy policy',
+    termsLink: 'Terms of use',
     contactLink: 'Contact / report an error',
     linkArrow: ({ label }) => `${label}  ›`,
     footer: 'M2V is nonpartisan. Every scored position sourced. Never matched by party.',
@@ -413,7 +415,13 @@ export const strings = {
     modeLight: 'Light',
     modeDark: 'Dark',
     github: 'Open-source code & data (GitHub)',
+    legalTitle: 'Privacy & terms',
+    legalBody: 'M2V has no accounts and collects no personal data. Your quiz answers and ballot choices stay on your device. The privacy policy and the terms of use say exactly what the app does and does not do.',
     privacy: 'Privacy policy',
+    terms: 'Terms of use',
+    rateTitle: 'Rate M2V',
+    rateBody: 'A rating on Google Play helps other voters find a guide that matches on issues, not party. Ratings never change anything about how the app works.',
+    rate: 'Rate M2V on Google Play',
     nonpartisan: 'M2V is nonpartisan. It favors no party and no candidate.',
     org: 'Match2Vote is an independent, nonpartisan voter guide developed and published by Kiki Taylor, an independent developer based in Connecticut. It is not affiliated with any government agency, election office, party, or campaign.',
   },
@@ -528,6 +536,63 @@ export const strings = {
     copied: 'Copied',
     copyFailed: 'Could not copy here',
     pasteNote: ({ contact }) => `You can paste this into an email to ${contact}. Nothing is sent unless you send it.`,
+  },
+
+  exit: {
+    title: 'Leave M2V?',
+    body: 'Your quiz progress and ballot picks are saved on this device.',
+    stay: 'Stay',
+    leave: 'Leave',
+  },
+
+  terms: {
+    title: 'Terms of use',
+    effective: 'Effective September 10, 2026',
+    back: 'Home',
+    privacyLink: 'Read the privacy policy',
+    contact: 'Questions: match2vote@gmail.com',
+    sections: [
+      {
+        heading: '1. What M2V is',
+        body: 'Match2Vote (M2V) is a free, nonpartisan voter guide. It shows candidates in covered November 2026 races, the positions they have publicly taken, with a source for each, and how those positions line up with your own answers to a short quiz. It is an information tool. It is not a ballot, a voter-registration service, or an official election resource.',
+      },
+      {
+        heading: '2. No accounts, no personal data',
+        body: 'M2V has no accounts and no sign-in. It does not ask for your name, email address, phone number, precise location, or contacts. Your quiz answers, the issues you mark as mattering most, the candidates you mark on your sample ballot, and your display preferences are stored only on your device. Deleting the app deletes all of it. The privacy policy describes the two network requests the app can make.',
+      },
+      {
+        heading: '3. Independence',
+        body: 'M2V is developed and published by Kiki Taylor, an independent developer based in Connecticut. It is not affiliated with, endorsed by, funded by, or acting for any government agency, election office, political party, campaign, or political committee. It favors no party and no candidate. Party labels appear for identification only and play no role in how matches are scored.',
+      },
+      {
+        heading: '4. Information, not advice',
+        body: 'Match percentages are a comparison between your quiz answers and positions we have documented from public sources. They are not a recommendation, an endorsement, or a prediction of how a candidate will act in office. Where we have no source for a position, it stays "Not stated" and is left out of the math. You are responsible for your own voting decisions.',
+      },
+      {
+        heading: '5. Accuracy and corrections',
+        body: 'We work to keep candidate rosters and positions accurate and current, and every scored position links to its source. Candidates, ballots, and positions change, and errors are possible. Deadlines, rules, and candidate lists shown in the app are summaries; your state or local election office is the final authority. If something looks wrong, tell us at match2vote@gmail.com and we will review it against the record.',
+      },
+      {
+        heading: '6. Sample ballot and sharing',
+        body: 'The ballot inside M2V is a planning tool for your own use. It is not an official ballot and cannot be submitted anywhere. If you use the share or export features, the image is created on your device and goes only where you choose to send it.',
+      },
+      {
+        heading: '7. Acceptable use',
+        body: 'You may use M2V for personal, non-commercial purposes. You may not misrepresent M2V content as an official election communication or as an endorsement by M2V, and you may not use the app or its data to deceive voters. The code and data are published on GitHub under their own open-source licenses, which govern any reuse.',
+      },
+      {
+        heading: '8. No warranty and limitation of liability',
+        body: 'M2V is provided "as is" and "as available," without warranties of any kind, to the extent permitted by law. We do not guarantee that the app will be uninterrupted or error-free or that any information in it is complete or current. To the fullest extent permitted by law, the developer is not liable for any loss or damage arising from your use of, or reliance on, the app or its content.',
+      },
+      {
+        heading: '9. Changes to the app and these terms',
+        body: 'Coverage grows through Election Day, and the app and these terms may change. When the terms change, the effective date at the top of this page changes with them. Continuing to use the app after a change means you accept the updated terms.',
+      },
+      {
+        heading: '10. Contact and governing law',
+        body: 'Questions about these terms go to match2vote@gmail.com. These terms are governed by the laws of the State of Connecticut, United States, without regard to conflict-of-law rules.',
+      },
+    ],
   },
 };
 

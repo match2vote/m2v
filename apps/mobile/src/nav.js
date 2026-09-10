@@ -1,8 +1,13 @@
 // Tiny cross-platform router. On web it syncs real URLs (browser back/forward,
 // shareable deep links); on native it's plain state with a back stack.
-// Routes: /ballot /races /races/:state /race/:id /candidate/:id /matches /about /quiz /state /district
+// Routes: /ballot /races /races/:state /race/:id /candidate/:id /matches /about /terms /quiz /state /district
+//
+// Android hardware/gesture back: walks the in-app stack first, then returns
+// to Home, and only from Home asks before leaving. Quiz progress and ballot
+// picks are persisted as they change, so an accidental exit loses nothing.
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
-import { Platform } from 'react-native';
+import { Platform, BackHandler, Alert } from 'react-native';
+import { strings } from './strings';
 
 // Served from the root of app.match2vote.org. Old links still carry the
 // /m2v prefix from the github.io days, so pathToRoute tolerates it.
@@ -24,6 +29,7 @@ function routeToPath(r) {
     case 'matches': return '/matches';
     case 'quiz': return '/quiz';
     case 'about': return '/about';
+    case 'terms': return '/terms';
     default: return '/';
   }
 }
@@ -45,6 +51,7 @@ export function pathToRoute(pathname) {
   if (seg[0] === 'matches') return { name: 'matches' };
   if (seg[0] === 'quiz') return { name: 'quiz' };
   if (seg[0] === 'about') return { name: 'about' };
+  if (seg[0] === 'terms') return { name: 'terms' };
   return { name: 'home' };
 }
 
@@ -89,6 +96,24 @@ export function NavProvider({ children }) {
     return { route, go, back };
   }, [route, stack, isWeb]);
 
+  // Android back button. Registered on every route change so the handler
+  // always sees the current route and stack. Returning true tells Android
+  // the event is handled; the app never closes silently.
+  useEffect(() => {
+    if (Platform.OS !== 'android') return;
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (stack.length > 0) { value.back({ name: 'home' }); return true; }
+      if (route.name !== 'home') { value.go({ name: 'home' }, { replace: true }); return true; }
+      const E = strings.exit;
+      Alert.alert(E.title, E.body, [
+        { text: E.stay, style: 'cancel' },
+        { text: E.leave, style: 'destructive', onPress: () => BackHandler.exitApp() },
+      ], { cancelable: true });
+      return true;
+    });
+    return () => sub.remove();
+  }, [value, route, stack]);
+
   return <NavCtx.Provider value={value}>{children}</NavCtx.Provider>;
 }
 
@@ -99,7 +124,7 @@ export function useNav() {
 // Which tab a route belongs to (for highlighting the tab bar).
 export function tabOf(route) {
   switch (route.name) {
-    case 'home': case 'about': case 'state': case 'district': return 'home';
+    case 'home': case 'about': case 'terms': case 'state': case 'district': return 'home';
     case 'howto': case 'roles': return 'howto';
     case 'ballot': return 'ballot';
     case 'matches': case 'quiz': return 'matches';

@@ -13,6 +13,16 @@ import { ISSUE_KEYS } from './issues.js';
 const SCALE_MAX_DIFF = 4; // distance between -2 and +2
 const MATTERS_WEIGHT = 2;
 const DEFAULT_WEIGHT = 1;
+// Research floor (kiki, Sep 11 2026): a candidate is scored only when at least
+// this many of the ten issues carry a sourced position. Below the floor the
+// profile still shows whatever is documented, but no percentage is computed,
+// because a match built on one or two positions is noise dressed as a number.
+export const MIN_STATED_POSITIONS = 7;
+
+/** Number of the ten issues on which a candidate has a stated (-2..2) position. */
+export function statedCount(candidatePositions) {
+  return ISSUE_KEYS.filter((k) => isStated(candidatePositions?.[k])).length;
+}
 
 export function isStated(v) {
   return v === -2 || v === -1 || v === 0 || v === 1 || v === 2;
@@ -22,8 +32,10 @@ export function isStated(v) {
  * @param {Object} userAnswers   {issueKey: -2..2|null}
  * @param {Object} userMatters   {issueKey: boolean} — "this matters to me"
  * @param {Object} candidatePositions {issueKey: -2..2|null}
- * @returns {{ pct: number|null, sharedIssues: number, perIssue: Array }}
- *   pct is null when there are no shared issues (rendered as "Not enough info").
+ * @returns {{ pct: number|null, sharedIssues: number, statedIssues: number, underResearched: boolean, perIssue: Array }}
+ *   pct is null when there are no shared issues (rendered as "Not enough info")
+ *   or when the candidate has fewer than MIN_STATED_POSITIONS sourced positions
+ *   (underResearched: true; rendered as "still being researched").
  */
 export function computeMatch(userAnswers, userMatters, candidatePositions) {
   let weightSum = 0;
@@ -54,8 +66,10 @@ export function computeMatch(userAnswers, userMatters, candidatePositions) {
   }
 
   const sharedIssues = perIssue.filter((p) => p.shared).length;
-  const pct = weightSum > 0 ? Math.round((100 * scoreSum) / weightSum) : null;
-  return { pct, sharedIssues, perIssue };
+  const statedIssues = perIssue.filter((p) => p.candidate !== null).length;
+  const underResearched = statedIssues < MIN_STATED_POSITIONS;
+  const pct = !underResearched && weightSum > 0 ? Math.round((100 * scoreSum) / weightSum) : null;
+  return { pct, sharedIssues, statedIssues, underResearched, perIssue };
 }
 
 /**

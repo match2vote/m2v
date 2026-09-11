@@ -1314,14 +1314,14 @@
         "Reproductive rights"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": -2,
         "education": -1,
-        "safety": null,
+        "safety": 0,
         "repro": -2,
         "democracy": -2
       },
@@ -1349,6 +1349,18 @@
         "democracy": {
           "label": "Backs \"automatic universal voter registration for all eligible citizens upon turning 18\" and strengthening the Voting Rights Act (Ballotpedia).",
           "url": "https://ballotpedia.org/Gay_Valimont"
+        },
+        "cost": {
+          "label": "Campaign issues page: \"Gay will hold corporations accountable for 'shrinkflation'\" and price gouging, and backs \"federal legislation to cut insurance rates by at least 25%\" (Gay Valimont for Congress).",
+          "url": "https://www.gayforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "Backs \"border security through better technology and more judges\" while insisting Dreamers and refugees be \"treated humanely\" and \"creating a clear, legal path to citizenship\" (Gay Valimont for Congress).",
+          "url": "https://www.gayforcongress.com/issues"
+        },
+        "safety": {
+          "label": "Mixed: \"supports funding for both law enforcement and community programs that prevent crime,\" plus federal funding for opioid \"prevention, treatment, and mental health services\" (Gay Valimont for Congress).",
+          "url": "https://www.gayforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -1365,9 +1377,13 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Gay_Valimont"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.gayforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2FL10259",
@@ -2271,7 +2287,7 @@
       "positions": {
         "cost": 1,
         "health": null,
-        "housing": null,
+        "housing": -1,
         "immigration": 2,
         "taxes": 1,
         "climate": null,
@@ -2296,11 +2312,14 @@
         "democracy": {
           "label": "Will 'fight for Democracy and stand with President Trump to ensure our elections are secure' (grutersforcongress.com)",
           "url": "https://grutersforcongress.com/"
+        },
+        "housing": {
+          "label": "Backs restricting institutional buyers: 'One of the things I support the most is preventing these huge investors from coming in and buying these starter homes,' and will 'curb overdevelopment' (WSLR, Aug 10, 2026)",
+          "url": "https://wslr.org/district-16-congressional-race-sydney-gruters/"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: ballotpedia.org/Sydney_Gruters confirms she has not completed the 2026 Candidate Connection survey.",
-        "housing": "re-checked Sep 2, 2026: same, no survey.",
         "climate": "re-checked Sep 2, 2026: same, no survey.",
         "education": "re-checked Sep 2, 2026: same, no survey.",
         "safety": "re-checked Sep 2, 2026: same, no survey.",
@@ -2318,9 +2337,13 @@
         {
           "label": "Campaign site",
           "url": "https://grutersforcongress.com/"
+        },
+        {
+          "label": "WSLR candidate profile",
+          "url": "https://wslr.org/district-16-congressional-race-sydney-gruters/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL16158",
@@ -2345,7 +2368,7 @@
         "cost": -2,
         "health": -2,
         "housing": -2,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -2,
         "climate": -2,
         "education": -1,
@@ -2377,10 +2400,13 @@
         "education": {
           "label": "Will 'restore the workforce opportunities' lost, supporting 'nursing, teacher preparation, veterans' education, workforce training, apprenticeships' (kellykirschner.com)",
           "url": "https://kellykirschner.com/"
+        },
+        "immigration": {
+          "label": "Says ICE spending of '$80 billion' could be saved by a national employer-verification crackdown on developers, and that the CBO says the economy needs '1.2 to 1.5 million new immigrants per year' (WSLR, Jul 11, 2026)",
+          "url": "https://wslr.org/district-16-congressional-race-kelly-kirschner/"
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: campaign homepage's seven priorities do not include immigration; no statement found.",
         "safety": "re-checked Sep 2, 2026: campaign homepage's seven priorities do not include public safety/crime; no statement found.",
         "repro": "re-checked Sep 2, 2026: campaign homepage's seven priorities do not include abortion; no statement found.",
         "democracy": "re-checked Sep 2, 2026: campaign homepage's seven priorities do not include voting/elections; no statement found."
@@ -2397,9 +2423,13 @@
         {
           "label": "Campaign site",
           "url": "https://kellykirschner.com/"
+        },
+        {
+          "label": "WSLR candidate interview",
+          "url": "https://wslr.org/district-16-congressional-race-kelly-kirschner/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL06365",
@@ -3209,7 +3239,7 @@
         "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -1,
         "safety": 1,
@@ -3240,12 +3270,15 @@
         "health": {
           "label": "Warned ACA customers in her district face a 72% premium increase and an average $490 budget hole, and called for extending healthcare tax credits, saying the cost of living is already too high and families need relief (Rep. Debbie Wasserman Schultz, house.gov).",
           "url": "https://wassermanschultz.house.gov/news/documentsingle.aspx?DocumentID=3421"
+        },
+        "taxes": {
+          "label": "Voted No on the motion to concur in the Senate amendment to H.R.1, the One Big Beautiful Bill Act making the 2017 tax cuts permanent, Jul 3, 2025 (clerk.house.gov roll 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: wassermanschultz.house.gov and its issues navigation (Women, Environment, Israel, Breast Cancer, Gun Violence, Health Care) name no cost-of-living mechanism; a debbieforcongress.com guess did not resolve (DNS failure).",
         "housing": "re-checked Sep 2, 2026: same house.gov navigation has no dedicated housing page reachable this pass.",
-        "taxes": "re-checked Sep 2, 2026: same house.gov navigation has no tax-rate statement.",
         "climate": "re-checked Sep 2, 2026: confirmed Not Voting on H.J.Res. 88, the EV-mandate waiver disapproval (clerk.house.gov roll114.xml), matching the prior finding; still no separate energy-policy statement located."
       },
       "sources": [
@@ -3260,9 +3293,13 @@
         {
           "label": "Ballotpedia district race page",
           "url": "https://ballotpedia.org/Florida%27s_20th_Congressional_District_election,_2026"
+        },
+        {
+          "label": "House roll call 190 (2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL20143",
@@ -3840,16 +3877,16 @@
         "Parental rights in education"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
-        "housing": null,
+        "housing": -1,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": -1,
         "education": 2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "health": {
@@ -3867,15 +3904,27 @@
         "education": {
           "label": "Ballotpedia Candidate Connection: backs parental rights and specific Florida education bills (HB 5, HB 233, SB 1108)",
           "url": "https://ballotpedia.org/Deborah_Adeimy"
+        },
+        "cost": {
+          "label": "Campaign issues page: 'inflation is taxation without legislation, and only governments can create inflation,' and 'Americans know how to spend their earned income better than Government' (debadeimy4congress.com)",
+          "url": "https://debadeimy4congress.com/issues/"
+        },
+        "housing": {
+          "label": "Campaign issues page says Florida is 'being abused by some outside developers, distorting markets and economically pushing residents out,' calls for applying SEC and FINRA investment criteria to private-equity home buying, and says 'Home ownership is an American Dream and must be protected' (debadeimy4congress.com)",
+          "url": "https://debadeimy4congress.com/issues/"
+        },
+        "climate": {
+          "label": "Palm Beach Post editorial board noted her 'acknowledgement that global warming and sea level rise are realities' and that she is 'supportive of exploring alternative energy sources' (Palm Beach Post via Yahoo News, 2022)",
+          "url": "https://news.yahoo.com/palm-beach-post-editorial-board-174222675.html?fr=sycsrp_catchall"
+        },
+        "democracy": {
+          "label": "Palm Beach Post editorial board noted her proposal for 'using Social Security numbers for voter IDs' (Palm Beach Post via Yahoo News, 2022)",
+          "url": "https://news.yahoo.com/palm-beach-post-editorial-board-174222675.html?fr=sycsrp_catchall"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: ballotpedia.org/Deborah_Adeimy's 2022 Candidate Connection survey covers immigration, taxes, and U.S. leadership/military but not cost of living.",
-        "housing": "re-checked Sep 2, 2026: same 2022 survey, no housing statement.",
-        "climate": "re-checked Sep 2, 2026: same 2022 survey, no climate statement.",
         "safety": "re-checked Sep 2, 2026: same 2022 survey, no crime/safety statement.",
-        "repro": "re-checked Sep 2, 2026: same 2022 survey, no abortion statement.",
-        "democracy": "No documented position found in her Ballotpedia Candidate Connection survey (checked Sep 2, 2026)"
+        "repro": "re-checked Sep 2, 2026: same 2022 survey, no abortion statement."
       },
       "sources": [
         {
@@ -3885,9 +3934,17 @@
         {
           "label": "Ballotpedia Candidate Connection",
           "url": "https://ballotpedia.org/Deborah_Adeimy"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://debadeimy4congress.com/issues/"
+        },
+        {
+          "label": "Palm Beach Post endorsement editorial (2022)",
+          "url": "https://news.yahoo.com/palm-beach-post-editorial-board-174222675.html?fr=sycsrp_catchall"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL24095",
@@ -3913,7 +3970,7 @@
         "health": -2,
         "housing": -2,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -2,
         "safety": null,
@@ -3936,11 +3993,14 @@
         "education": {
           "label": "Campaign site lists \"Universal Childcare & Pre-K\" as a stated initiative (olivergilbert.vote)",
           "url": "https://olivergilbert.vote/"
+        },
+        "taxes": {
+          "label": "Campaign issues page: families 'shouldn't have to carry the same tax burden as billionaires' and 'The IRS should be spending more time auditing the ultra-wealthy than scrutinizing an Uber driver's gas deduction' (olivergilbert.vote/issues)",
+          "url": "https://olivergilbert.vote/issues/"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: olivergilbert.vote homepage's affordability section covers healthcare, transit, and small-business language without a specific price mechanism.",
-        "taxes": "re-checked Sep 2, 2026: same homepage's Eliminate Income Taxes for Working Families pledge remains a targeted household credit, not a broad taxes-axis position.",
         "climate": "re-checked Sep 2, 2026: same homepage, no climate/energy section.",
         "safety": "re-checked Sep 2, 2026: same homepage, no dedicated safety/law-enforcement section.",
         "repro": "re-checked Sep 2, 2026: same homepage, no abortion/reproductive-rights section.",
@@ -3958,9 +4018,13 @@
         {
           "label": "WLRN primary coverage",
           "url": "https://www.wlrn.org/government-politics/2026-08-18/oliver-gilbert-prevails-in-crowded-7-way-democratic-primary-to-succeed-rep-frederica-wilson"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://olivergilbert.vote/issues/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL14203",
@@ -4706,7 +4770,7 @@
         "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -2,
         "climate": -2,
         "education": -1,
@@ -4738,11 +4802,14 @@
         "repro": {
           "label": "Campaign site: supports \"restoring women's reproductive [rights]\" by \"eliminating government\" restrictions",
           "url": "https://ballotpedia.org/Phil_Ehr"
+        },
+        "immigration": {
+          "label": "Campaign site: 'Protect law-abiding immigrant families, Improve training and accountability for border personnel, a path to permanent residency for families stuck in legal limbo and target criminals and traffickers' (ehrforcongress.us)",
+          "url": "https://ehrforcongress.us/"
         }
       },
       "nullNotes": {
         "housing": "re-checked Sep 2, 2026: ballotpedia.org/Phil_Ehr confirms he has not completed the 2026 Candidate Connection survey (only a 2018 survey exists, already noted).",
-        "immigration": "re-checked Sep 2, 2026: same, no 2026 survey.",
         "safety": "re-checked Sep 2, 2026: same, no 2026 survey.",
         "democracy": "re-checked Sep 2, 2026: same, no 2026 survey."
       },
@@ -4754,9 +4821,13 @@
         {
           "label": "Ballotpedia bio",
           "url": "https://ballotpedia.org/Phil_Ehr"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://ehrforcongress.us/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fl-house28-rojas",
@@ -5143,7 +5214,7 @@
         "climate": -1,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": -1
       },
       "positionSources": {
@@ -5170,6 +5241,10 @@
         "democracy": {
           "label": "Platform: \"Protecting voting rights ensures every eligible citizen can vote freely, securely, and without barriers so our democracy truly represents the will of the people.\"",
           "url": "https://www.hollowayforcongress.com/platform"
+        },
+        "repro": {
+          "label": "States \"universal access to reproductive healthcare, including essential services such as birth control, prenatal care, and safe, legal abortion is imperative\" (Ballotpedia).",
+          "url": "https://ballotpedia.org/L.J._Holloway"
         }
       },
       "nullNotes": {
@@ -5190,9 +5265,13 @@
         {
           "label": "L.J. Holloway emerges from contentious CD 4 Primary (Florida Politics)",
           "url": "https://floridapolitics.com/archives/814476-cd4-dem-result-2026/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/L.J._Holloway"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL04246",
@@ -5344,7 +5423,7 @@
         "Public education funding"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": -1,
         "immigration": 0,
@@ -5352,7 +5431,7 @@
         "climate": -1,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": -1
       },
       "positionSources": {
@@ -5379,6 +5458,14 @@
         "immigration": {
           "label": "Site pledges to \"ensure America's borders are secure through smart, efficient enforcement\" while \"maintaining a fair and humane immigration system that respects due process\" (Rachel Grage for Congress)",
           "url": "https://www.rachelgrage.com"
+        },
+        "cost": {
+          "label": "Site pledges to \"keep healthcare premiums and prescription costs affordable, maintain federal cost-sharing supports, and stabilize home insurance\" (Rachel Grage for Congress).",
+          "url": "https://www.rachelgrage.com"
+        },
+        "repro": {
+          "label": "Campaign issues statement quoted by Florida Choice Tracker: \"Ensuring women have access to their private healthcare choices. Support Amendment 4!\" (Florida Choice Tracker).",
+          "url": "https://choicetracker.org/fl/people/rachel-grage/284950528"
         }
       },
       "nullNotes": {
@@ -5395,9 +5482,17 @@
         {
           "label": "Ballotpedia Candidate Connection",
           "url": "https://ballotpedia.org/Rachel_Grage"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.rachelgrage.com"
+        },
+        {
+          "label": "Florida Choice Tracker",
+          "url": "https://choicetracker.org/fl/people/rachel-grage/284950528"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL06258",
@@ -5420,12 +5515,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
-        "education": null,
+        "climate": 2,
+        "education": 2,
         "safety": 2,
         "repro": null,
         "democracy": 2
@@ -5446,6 +5541,18 @@
         "safety": {
           "label": "Issues page lists empowering law enforcement, deporting criminals, deploying National Guard to assist police, and his JAIL Act letting crime victims sue judges who release repeat offenders on bail.",
           "url": "https://fine.house.gov/issues/issue/?IssueID=14967"
+        },
+        "health": {
+          "label": "Voted aye on H.R.1, the 2025 reconciliation law that added Medicaid work requirements and cut projected Medicaid spending (clerk.house.gov roll 190, Jul 3, 2025).",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "climate": {
+          "label": "House energy page: \"unleashing domestic oil, gas, coal, and renewable production,\" calls Biden policy the \"Green New Scam\" and vows to stand with producers, \"not the climate alarmists and bureaucrats\" (fine.house.gov).",
+          "url": "https://fine.house.gov/issues/issue/?IssueID=10177"
+        },
+        "education": {
+          "label": "House education page: \"Families, not Washington, should decide the best path for their children, whether public, private, charter, or homeschool,\" and \"Federal bureaucrats shouldn't dictate how our kids are taught\" (fine.house.gov).",
+          "url": "https://fine.house.gov/issues/issue/?IssueID=73"
         }
       },
       "nullNotes": {
@@ -5468,9 +5575,17 @@
         {
           "label": "house.gov crime issue page",
           "url": "https://fine.house.gov/issues/issue/?IssueID=14967"
+        },
+        {
+          "label": "house.gov energy issue page",
+          "url": "https://fine.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "label": "house.gov education issue page",
+          "url": "https://fine.house.gov/issues/issue/?IssueID=73"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL06340",
@@ -5941,8 +6056,8 @@
         "taxes": null,
         "climate": null,
         "education": -1,
-        "safety": null,
-        "repro": null,
+        "safety": 0,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -5961,6 +6076,14 @@
         "education": {
           "label": "Questionnaire lists \"supporting strong public schools\" as a top priority.",
           "url": "https://thespacecoastrocket.com/2026-candidate-questionnaire-jennifer-jenkins-u-s-congress-fl-district-8/"
+        },
+        "safety": {
+          "label": "Mixed: \"has always stood with law enforcement,\" wants first responders to have \"stable funding,\" and backs \"evidence-based public safety strategies that reduce violence and recidivism\" (Jenkins for Florida priorities page).",
+          "url": "https://jenkinsforfl.com/priorities/"
+        },
+        "repro": {
+          "label": "Senate launch: names her daughter's \"right to reproductive freedom\" among what she is running to protect (Florida Politics, Sep 2025).",
+          "url": "https://floridapolitics.com/archives/755380-jennifer-jenkins-formally-launches-u-s-senate-campaign-against-ashley-moody/"
         }
       },
       "nullNotes": {
@@ -5983,9 +6106,17 @@
         {
           "label": "2026 Florida Primary Results (Inside Elections)",
           "url": "https://insideelections.com/2026-florida-primary-results/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://jenkinsforfl.com/priorities/"
+        },
+        {
+          "label": "Senate launch coverage (Florida Politics)",
+          "url": "https://floridapolitics.com/archives/755380-jennifer-jenkins-formally-launches-u-s-senate-campaign-against-ashley-moody/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL09294",

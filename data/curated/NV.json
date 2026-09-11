@@ -464,11 +464,11 @@
         "Comprehensive immigration reform"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": null,
         "immigration": 0,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": 1,
@@ -499,6 +499,14 @@
         "safety": {
           "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "cost": {
+          "label": "Co-sponsored the Raise the Wage Act to lift the minimum wage to $15 per hour: 'No one should work full time and still live in poverty' (titus.house.gov issues page)",
+          "url": "https://titus.house.gov/Issues/Issue/?IssueID=14893"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -523,9 +531,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8NV03036/"
+        },
+        {
+          "label": "titus.house.gov: jobs and wages issue page",
+          "url": "https://titus.house.gov/Issues/Issue/?IssueID=14893"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NV01331",
@@ -1152,11 +1168,11 @@
         "Member of the House Pro-Choice Caucus"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": -1,
         "climate": 2,
         "education": null,
         "safety": 1,
@@ -1187,6 +1203,14 @@
         "safety": {
           "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "cost": {
+          "label": "His TIPS Act would eliminate the $2.13 federal tipped subminimum wage, unchanged since 1991, while exempting tips from federal income tax up to a $112,500 cap (horsford.house.gov)",
+          "url": "https://horsford.house.gov/issues/tipped-income-protection-and-support-tips-act"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -1211,9 +1235,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2NV04011/"
+        },
+        {
+          "label": "horsford.house.gov: TIPS Act page",
+          "url": "https://horsford.house.gov/issues/tipped-income-protection-and-support-tips-act"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NV04111",

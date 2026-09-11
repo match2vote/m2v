@@ -2504,6 +2504,10 @@
         {
           "label": "Campaign site: James Hooper for Congress",
           "url": "https://jameshooperforcongress.com"
+        },
+        {
+          "label": "Ballotpedia: James Hooper",
+          "url": "https://ballotpedia.org/James_Hooper"
         }
       ],
       "background": "Wayne County Republican Party chairman and former missionary with Samaritan's Purse and the Billy Graham Evangelistic Association; Republican nominee for Michigan's 12th Congressional District.",
@@ -2517,7 +2521,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": 2,
         "safety": null,
         "repro": 2,
@@ -2543,6 +2547,10 @@
         "taxes": {
           "label": "Frames tax policy around 'keeping MORE of your hard-earned dollars in your pocket' (James Hooper for Congress issues page)",
           "url": "https://jameshooperforcongress.com/issues"
+        },
+        "climate": {
+          "label": "'We will unbridle American Energy once again,' listing 'American Energy Independence' among his top priorities (Ballotpedia 2022 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/James_Hooper"
         }
       },
       "nullNotes": {
@@ -2552,7 +2560,7 @@
         "safety": "re-checked Sep 2, 2026: issues page fetched in full, only 2nd Amendment and immigration/border content, no general crime/policing section",
         "democracy": "re-checked Sep 2, 2026: issues page fetched in full, no voting/elections content found"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "mi-house-12-sosnowski",
@@ -3515,10 +3523,10 @@
         "immigration": null,
         "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -3536,6 +3544,18 @@
         "taxes": {
           "label": "'Make the ultrawealthy pay their fair share' (Callie for Congress platform page)",
           "url": "https://www.callieforcongress.com/platform"
+        },
+        "education": {
+          "label": "'We need to fully fund our public education system and trade schools so that teachers have the support they need,' including 'access to early childhood education and affordable childcare' (Ballotpedia campaign text)",
+          "url": "https://ballotpedia.org/Callie_Barr"
+        },
+        "repro": {
+          "label": "Wants to 'return national abortion law to where it stood prior to the Supreme Court overturning Roe v. Wade' and criticized Bergman for co-sponsoring a fetal heartbeat bill with criminal penalties for physicians (Mining Gazette, Nov 2, 2024)",
+          "url": "https://www.mininggazette.com/news/2024/11/two-candidates-for-washington/"
+        },
+        "democracy": {
+          "label": "'Our democracy is under assault,' faulting Bergman because 'he didn't want to investigate January 6th or certify our votes' (Glen Arbor Sun, Oct 18, 2024)",
+          "url": "https://glenarborsun.com/congressional-candidate-callie-barr-district-1-maverick/"
         }
       },
       "nullNotes": {
@@ -3558,9 +3578,21 @@
         {
           "label": "Callie for Congress: Platform",
           "url": "https://www.callieforcongress.com/platform"
+        },
+        {
+          "label": "Ballotpedia: Callie Barr",
+          "url": "https://ballotpedia.org/Callie_Barr"
+        },
+        {
+          "label": "Mining Gazette: Two candidates for Washington, Nov 2024",
+          "url": "https://www.mininggazette.com/news/2024/11/two-candidates-for-washington/"
+        },
+        {
+          "label": "Glen Arbor Sun: Callie Barr profile, Oct 2024",
+          "url": "https://glenarborsun.com/congressional-candidate-callie-barr-district-1-maverick/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4MI04126",
@@ -3800,7 +3832,7 @@
         "Border security"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
         "housing": null,
         "immigration": 2,
@@ -3831,6 +3863,10 @@
         "immigration": {
           "label": "Calls to 'secure the border and enforce immigration laws,' 'stop illegal immigration and human exploitation,' and 'remove dangerous criminals who enter the country illegally' (Terri DeBoer for Congress)",
           "url": "https://www.terrideboer.com/"
+        },
+        "cost": {
+          "label": "'Cut taxes and reduce government spending to fight inflation' and 'oppose costly energy mandates that increase utility bills for families' (Terri DeBoer for Congress)",
+          "url": "https://www.terrideboer.com/"
         }
       },
       "nullNotes": {
@@ -3850,7 +3886,7 @@
           "url": "https://www.terrideboer.com/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0MI02094",
@@ -4476,13 +4512,13 @@
         "cost": -2,
         "health": -2,
         "housing": 0,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": -1,
         "education": -1,
         "safety": 0,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "climate": {
@@ -4508,6 +4544,14 @@
         "housing": {
           "label": "Mixes deregulation ('cut unnecessary red tape, permitting delays, and regulatory capture') with public incentives ('expand tax incentives that help build affordable housing') (Christina Hines Substack, housing plan)",
           "url": "https://christinahinesforcongress.substack.com/p/the-american-dream-is-frozen"
+        },
+        "immigration": {
+          "label": "'I will push back against Department of Homeland Security policies that destabilize families or target communities unfairly' (Christina Hines for Congress campaign site)",
+          "url": "https://christinahinesforcongress.com"
+        },
+        "democracy": {
+          "label": "Warns that 'with the Voting Rights Act dismantled by the conservative Supreme Court, Republican legislatures across the South are drawing maps designed to dilute Black voting power,' contrasting 'states where politicians are rigging maps to avoid accountability' (Christina Hines Substack, May 21, 2026)",
+          "url": "https://christinahinesforcongress.substack.com/p/the-fall-of-the-voting-rights-act"
         }
       },
       "nullNotes": {
@@ -4524,9 +4568,13 @@
         {
           "label": "Campaign site: Christina Hines for Congress",
           "url": "https://christinahinesforcongress.com"
+        },
+        {
+          "label": "Christina Hines Substack: Voting Rights Act post, May 2026",
+          "url": "https://christinahinesforcongress.substack.com/p/the-fall-of-the-voting-rights-act"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MI10359",

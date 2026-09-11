@@ -804,7 +804,7 @@
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": null,
         "repro": 2,
@@ -830,6 +830,10 @@
         "repro": {
           "label": "'I voted for the strongest pro-life law in our country' as a state representative and pledges to defund Planned Parenthood (campaign site)",
           "url": "https://www.rhettforalabama.com/"
+        },
+        "climate": {
+          "label": "\"I'm running to keep fighting to unleash American energy, lower costs for hardworking families, strengthen our national security and restore the United States as the world's leading energy producer\" (Alabama Political Reporter, Jul 8, 2026).",
+          "url": "https://www.alreporter.com/2026/07/08/rhett-marques-endorsed-by-electric-cooperatives-of-alabama-pac/"
         }
       },
       "nullNotes": {
@@ -851,9 +855,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AL01086/"
+        },
+        {
+          "label": "Alabama Political Reporter: electric co-op PAC endorsement",
+          "url": "https://www.alreporter.com/2026/07/08/rhett-marques-endorsed-by-electric-cooperatives-of-alabama-pac/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2AL03032",
@@ -1303,12 +1311,12 @@
         "health": -2,
         "housing": -1,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": -2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -1334,6 +1342,14 @@
         "education": {
           "label": "Pledges to 'oppose the CHOOSE Act and all voucher schemes' and close the teacher pay gap through a public-private partnership, arguing 'we cannot build a #1 economy on a #43 education system' (campaign site, sneedforcongress.com/ed-op)",
           "url": "https://www.sneedforcongress.com/ed-op"
+        },
+        "taxes": {
+          "label": "Ballotpedia campaign themes: supports changing \"the tax code to insure the wealthy pay their fair share\" (Ballotpedia).",
+          "url": "https://ballotpedia.org/Andrew_Sneed"
+        },
+        "democracy": {
+          "label": "Backs \"Same Day Voter registration. Universal mail in voting. And potentially either a federal holiday for Election Day...or more widespread multi-day voting,\" plus repealing Citizens United (Ballotpedia).",
+          "url": "https://ballotpedia.org/Andrew_Sneed"
         }
       },
       "nullNotes": {
@@ -1354,9 +1370,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AL05244/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Andrew_Sneed"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4AL06098",
@@ -1468,7 +1488,7 @@
         "Independent redistricting commission"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": 0,
@@ -1477,7 +1497,7 @@
         "education": -1,
         "safety": 0,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1498,6 +1518,14 @@
         },
         "repro": {
           "label": "'I believe every life has value and worth. While I support a woman's right to make her own healthcare decisions' (campaign site)",
+          "url": "https://www.mauricemercer.com/platform"
+        },
+        "cost": {
+          "label": "Said \"$7.25 is not a livable wage\" and supports raising the minimum wage (Alabama Reflector, Jul 27, 2026); platform also pledges to \"lower costs, increase competition, strengthen supply chains\" (mauricemercer.com/platform).",
+          "url": "https://alabamareflector.com/2026/07/27/four-democrats-vie-for-central-alabama-congressional-seat-in-special-primary-election/"
+        },
+        "democracy": {
+          "label": "\"I support creating an independent redistricting commission so that voters choose their elected officials and not politicians choosing their voters\"; says fair maps \"strengthen our democracy\" (campaign platform page).",
           "url": "https://www.mauricemercer.com/platform"
         }
       },
@@ -1520,9 +1548,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AL06184/"
+        },
+        {
+          "label": "Alabama Reflector: AL-6 Democratic primary field",
+          "url": "https://alabamareflector.com/2026/07/27/four-democrats-vie-for-central-alabama-congressional-seat-in-special-primary-election/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0AL07086",

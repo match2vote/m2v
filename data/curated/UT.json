@@ -1040,7 +1040,7 @@
         "Banning congressional stock trading"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": -1,
         "immigration": null,
@@ -1067,6 +1067,10 @@
         "climate": {
           "label": "Would protect \"public lands, restoring the Great Salt Lake, and standing up for communities against corporate developments\" (Crosby campaign)",
           "url": "https://www.petercrosbyforcongress.org"
+        },
+        "cost": {
+          "label": "Affordability plan calls for \"fighting for a living wage\" and raising incomes for average Utahns, plus ending \"an illegal tariff regime\" that raises costs (Crosby for Congress policies page)",
+          "url": "https://petercrosbyforcongress.org/policies"
         }
       },
       "nullNotes": {
@@ -1087,7 +1091,7 @@
           "url": "https://www.fec.gov/data/candidate/H6UT01160/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4UT02296",

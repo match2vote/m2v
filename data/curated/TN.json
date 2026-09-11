@@ -2896,10 +2896,10 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 2,
         "climate": 1,
         "education": 2,
         "safety": null,
@@ -2926,6 +2926,14 @@
         "repro": {
           "label": "\"Every life is a gift from God and must be protected\"; pledges to \"fight back against the far left's radical abortion agenda\" (campaign issues page)",
           "url": "https://www.mattfortn.com/issues"
+        },
+        "health": {
+          "label": "Says \"market-driven solutions and reducing federal bureaucracy\" are the way to improve health care access, backs lowering drug prices through market competition and state-level Medicaid reforms for efficiency (Wikipedia, 2025 special election coverage)",
+          "url": "https://en.wikipedia.org/wiki/Matt_Van_Epps"
+        },
+        "taxes": {
+          "label": "Self-described \"fiscal hawk\" who supported the One Big Beautiful Bill Act extending the 2017 Tax Cuts and Jobs Act cuts, and calls for shrinking the federal workforce and broad deregulation (Wikipedia, 2025 special election coverage)",
+          "url": "https://en.wikipedia.org/wiki/Matt_Van_Epps"
         }
       },
       "sources": [
@@ -2936,9 +2944,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN07161/"
+        },
+        {
+          "label": "Wikipedia: Matt Van Epps",
+          "url": "https://en.wikipedia.org/wiki/Matt_Van_Epps"
         }
       ],
-      "curatedAt": "2026-08-29",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: vanepps.house.gov/media/press-releases pages 1-2 checked for 2026 releases; none address healthcare",
         "housing": "re-checked Sep 2, 2026: vanepps.house.gov press releases checked; none address housing",
@@ -3282,7 +3294,7 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": null,
         "safety": 2,
@@ -3305,6 +3317,10 @@
         "safety": {
           "label": "\"Dangerous criminals belong behind bars, not back on our streets,\" backing long sentences for violent offenders and stronger support for law enforcement (campaign homepage)",
           "url": "https://brenttaylorforcongress.com"
+        },
+        "taxes": {
+          "label": "Campaign bio: \"never voted for a tax increase\" as a state senator and \"demanded accountability for our tax dollars\"; issues page repeatedly calls for \"cutting reckless federal spending\" (Taylor campaign about page)",
+          "url": "https://brenttaylorforcongress.com/about/"
         }
       },
       "sources": [
@@ -3319,9 +3335,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN09464/"
+        },
+        {
+          "label": "Campaign about page",
+          "url": "https://brenttaylorforcongress.com/about/"
         }
       ],
-      "curatedAt": "2026-08-29",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: brenttaylorforcongress.com homepage re-checked; nav confirms an Issues page but homepage itself has no healthcare content beyond what's already scored",
         "housing": "re-checked Sep 2, 2026: brenttaylorforcongress.com homepage re-checked; no housing content",

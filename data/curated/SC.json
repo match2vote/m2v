@@ -213,10 +213,10 @@
         "Protecting voting rights and cleaning up Washington"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -1,
         "climate": -2,
         "education": -1,
@@ -248,6 +248,14 @@
         "democracy": {
           "label": "Backs Voting Rights Act reauthorization, the Freedom to Vote Act, automatic voter registration and expanded early voting (campaign site)",
           "url": "https://www.drannieandrews.com/issues"
+        },
+        "cost": {
+          "label": "Pledges to 'Raise wages and strengthen workers' rights' after watching 'prices climb on everything from milk to eggs to bananas' (campaign economy issue page)",
+          "url": "https://drannieandrews.com/issue/an-economy-that-works-for-working-people/"
+        },
+        "immigration": {
+          "label": "'We can have secure borders and still treat people with dignity': strengthen border security plus 'a fair path to citizenship for people who work hard and follow the rules,' keep families together, ensure due process (campaign immigration issue page)",
+          "url": "https://drannieandrews.com/issue/immigration-security-with-dignity/"
         }
       },
       "nullNotes": {
@@ -268,9 +276,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6SC04239/"
+        },
+        {
+          "label": "Campaign economy issue page",
+          "url": "https://drannieandrews.com/issue/an-economy-that-works-for-working-people/"
+        },
+        {
+          "label": "Campaign immigration issue page",
+          "url": "https://drannieandrews.com/issue/immigration-security-with-dignity/"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-S6SC04437",
@@ -1313,7 +1329,7 @@
         "Increase teacher pay"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -1,
@@ -1348,6 +1364,10 @@
         "repro": {
           "label": "Backs 'protecting access to reproductive healthcare, including contraception' (campaign platform page)",
           "url": "https://www.khalifaforcongress.com/platform"
+        },
+        "cost": {
+          "label": "Would 'Implement a minimum wage increase so that full-time workers can achieve financial stability' and enforce 'equal pay for equal work' (campaign platform page)",
+          "url": "https://www.khalifaforcongress.com/platform"
         }
       },
       "nullNotes": {
@@ -1356,7 +1376,7 @@
         "taxes": "re-checked Sep 2, 2026: same access limitation",
         "democracy": "re-checked Sep 2, 2026: same access limitation"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "sc-house-2-smith",
@@ -1426,7 +1446,7 @@
         "Protecting the unborn"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
@@ -1453,6 +1473,10 @@
         "repro": {
           "label": "Says 'every life is precious and deserving of protection' and calls herself 'a steadfast advocate for the unborn' (campaign platform page)",
           "url": "https://www.jennycostahoneycutt.com/platform"
+        },
+        "cost": {
+          "label": "On affordability: 'We need to cut the red tape that allows us to address this issue, but we also have to make practical solutions like addressing the capital gains taxes' (Live 5 News GOP runoff debate, June 18, 2026)",
+          "url": "https://www.live5news.com/2026/06/18/councilwoman-jenny-costa-honeycutt-state-rep-mark-smith-face-off-gop-1st-district-runoff-debate/"
         }
       },
       "nullNotes": {
@@ -1475,9 +1499,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC01334/"
+        },
+        {
+          "label": "Live 5 News GOP runoff debate",
+          "url": "https://www.live5news.com/2026/06/18/councilwoman-jenny-costa-honeycutt-state-rep-mark-smith-face-off-gop-1st-district-runoff-debate/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6SC01359",
@@ -1499,16 +1527,16 @@
         "Clean energy and coastal protection"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": 0,
         "taxes": null,
         "climate": -1,
         "education": null,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1526,6 +1554,18 @@
         "repro": {
           "label": "Will 'work to guarantee women's reproductive freedom in law,' including family planning resources (campaign priorities page)",
           "url": "https://www.nancylacore.com/priorities"
+        },
+        "cost": {
+          "label": "Would 'Ban corporate landlords from using algorithmic pricing software' and 'Crack down on landlords hiding surprise fees in leases,' and eliminate tariffs 'that are raising costs for SC families' (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        "housing": {
+          "label": "Backs banning algorithmic rent-setting, the HELPER Act for first responders and teachers, more multifamily housing through federal infrastructure funding, and down-payment tax credits (campaign priorities page)",
+          "url": "https://www.nancylacore.com/priorities"
+        },
+        "democracy": {
+          "label": "Called redistricting reform the 'minimum' needed and said she 'would look to shore up the Voting Rights Act' (ABC News 4 SC-01 Democratic debate recap, May 20, 2026)",
+          "url": "https://abcnews4.com/news/local/debate-recap-sc-01-democrats-gather-to-discuss-economic-concerns-gerrymandering-in-charleston"
         }
       },
       "nullNotes": {
@@ -1548,9 +1588,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC01359/"
+        },
+        {
+          "label": "ABC News 4 SC-01 Democratic debate recap",
+          "url": "https://abcnews4.com/news/local/debate-recap-sc-01-democrats-gather-to-discuss-economic-concerns-gerrymandering-in-charleston"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6SC01342",
@@ -1736,13 +1780,13 @@
         "cost": null,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -1759,6 +1803,18 @@
         },
         "repro": {
           "label": "Backs 'a state ballot initiative to insure women's rights to have an abortion... voters, and not the state government, should decide' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Eunice_Lehmacher"
+        },
+        "immigration": {
+          "label": "Would 'Stop mass deportation of law-abiding undocumented immigrants,' raise legal immigration caps unchanged since 1990, add asylum judges, and create a legal-status pathway for long-term residents, paired with enforcement at official ports of entry (campaign immigration page)",
+          "url": "https://www.euniceforsc.com/immigration-reform"
+        },
+        "democracy": {
+          "label": "Backs automatic voter registration at 18, no-excuse absentee voting, weekend early voting days, the John Lewis Voting Rights Advancement Act and independent redistricting (campaign Protect the Vote page)",
+          "url": "https://www.euniceforsc.com/protect-the-vote"
+        },
+        "education": {
+          "label": "'Local and state governments can help (e.g. providing funding for public schools)' and children 'should have the freedom to learn and access the books they want to read' (Ballotpedia 2024 Candidate Connection survey)",
           "url": "https://ballotpedia.org/Eunice_Lehmacher"
         }
       },
@@ -1782,9 +1838,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC03090/"
+        },
+        {
+          "label": "Campaign immigration page",
+          "url": "https://www.euniceforsc.com/immigration-reform"
+        },
+        {
+          "label": "Campaign Protect the Vote page",
+          "url": "https://www.euniceforsc.com/protect-the-vote"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8SC04250",
@@ -2040,15 +2104,15 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 2,
         "education": 2,
-        "safety": null,
+        "safety": 1,
         "repro": 1,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "immigration": {
@@ -2066,6 +2130,22 @@
         "repro": {
           "label": "Platform pillar 'Real Family Values' states he is 'pro-life, pro-parent, and pro-freedom' (campaign pillars page)",
           "url": "https://wesclimer.com/pillars/"
+        },
+        "health": {
+          "label": "Sponsored S.290 to repeal certificate-of-need laws: 'This is a system, a process, that injures patients and supports fat profit margins for hospitals and it has to go' (Palmetto Promise Institute, April 2021)",
+          "url": "https://palmettopromise.org/one-sc-senator-stands-up-to-hospital-lobby-to-repeal-competitors-veto/"
+        },
+        "climate": {
+          "label": "'Nuclear, natural gas, and to a lesser extent coal and hydro are essential for sufficient and reliable base load generation'; says environmental regulations cost jobs and undermine energy independence (iVoterGuide state Senate candidate survey)",
+          "url": "https://ivoterguide.com/candidate/49310/race/21236/election/1229"
+        },
+        "safety": {
+          "label": "'Strongly Disagree' with redirecting funds from police to community programs (iVoterGuide state Senate candidate survey)",
+          "url": "https://ivoterguide.com/candidate/49310/race/21236/election/1229"
+        },
+        "democracy": {
+          "label": "'Strongly Disagree' with allowing people to vote without photo identification (iVoterGuide state Senate candidate survey)",
+          "url": "https://ivoterguide.com/candidate/49310/race/21236/election/1229"
         }
       },
       "nullNotes": {
@@ -2088,9 +2168,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC05202/"
+        },
+        {
+          "label": "Palmetto Promise Institute on CON repeal",
+          "url": "https://palmettopromise.org/one-sc-senator-stands-up-to-hospital-lobby-to-repeal-competitors-veto/"
+        },
+        {
+          "label": "iVoterGuide state Senate survey",
+          "url": "https://ivoterguide.com/candidate/49310/race/21236/election/1229"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2SC02042",

@@ -737,12 +737,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 0,
         "housing": 1,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 1,
         "democracy": 2
@@ -771,6 +771,18 @@
         "housing": {
           "label": "Introduced the Accelerating Home Building Act, a federal grant program for pattern-book zoning to streamline approvals and speed home building (Accelerating Home Building Act press release, fitzpatrick.house.gov, Nov 2025)",
           "url": "https://fitzpatrick.house.gov/2025/11/fitzpatrick-introduces-bipartisan-bill-to-lower-housing-costs-and-expand-homeownership"
+        },
+        "taxes": {
+          "label": "Voted Yea on House passage of H.R. 1, the One Big Beautiful Bill Act permanently extending the 2017 tax cuts (clerk.house.gov roll 145, May 22, 2025); he later voted No on the final Senate version over Medicaid, saying he backed provisions to 'permanently extend middle class tax cuts'",
+          "url": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        "health": {
+          "label": "Mixed: voted Yea on the House H.R. 1 with its Medicaid work requirements (roll 145, May 22, 2025), then No on final passage (roll 190, July 3, 2025) because 'the Senate's amendments to Medicaid... altered the analysis for our PA-1 community' and 'fell short of our standard' (Bucks County Herald, July 2025)",
+          "url": "https://www.buckscountyherald.com/news/fitzpatrick-votes-no-but-u-s-house-sends-one-big-beautiful-bill-to-trumps-desk/article_9a62d77c-d236-4b02-95a1-31b28dc66b38.html"
+        },
+        "education": {
+          "label": "Voted Aye on H.R. 5, the Parents Bill of Rights Act expanding parental control over school curricula and records (clerk.house.gov roll 161, Mar 24, 2023)",
+          "url": "https://clerk.house.gov/evs/2023/roll161.xml"
         }
       },
       "nullNotes": {
@@ -795,9 +807,17 @@
         {
           "label": "Roll call 190 (H.R. 1)",
           "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Roll call 145 (H.R. 1 House passage)",
+          "url": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "label": "Bucks County Herald on H.R. 1 vote",
+          "url": "https://www.buckscountyherald.com/news/fitzpatrick-votes-no-but-u-s-house-sends-one-big-beautiful-bill-to-trumps-desk/article_9a62d77c-d236-4b02-95a1-31b28dc66b38.html"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6PA01181",
@@ -828,7 +848,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -850,6 +870,10 @@
         "climate": {
           "label": "Supports 'expanding clean energy, modernizing the electric grid' and criticizes cuts to solar tax credits (campaign priorities page)",
           "url": "https://bobharvieforcongress.com/priorities/"
+        },
+        "democracy": {
+          "label": "Priority 9 is 'Ban Partisan Gerrymandering': 'Politicians shouldn't get to pick their voters, voters should pick their politicians,' alongside a corporate PAC ban and a lobbying ban for ex-members (campaign priorities page)",
+          "url": "https://bobharvieforcongress.com/priorities/"
         }
       },
       "nullNotes": {
@@ -869,7 +893,7 @@
           "url": "https://bobharvieforcongress.com"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4PA13199",
@@ -1181,12 +1205,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": -1,
         "democracy": -1
@@ -1211,6 +1235,18 @@
         "safety": {
           "label": "Voted no on H.R.27, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R. 1, the One Big Beautiful Bill Act making the 2017 tax cuts permanent while cutting Medicaid (clerk.house.gov roll 190, July 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "Voted No on H.R. 5, the Parents Bill of Rights Act expanding parental control over school curricula (clerk.house.gov roll 161, Mar 24, 2023)",
+          "url": "https://clerk.house.gov/evs/2023/roll161.xml"
+        },
+        "health": {
+          "label": "'Every American deserves access to quality, affordable healthcare'; has 'taken steps to safeguard the Affordable Care Act and has co-sponsored legislation to protect its guarantees' and backs 'encouraging generic drug competition' to cut drug costs (scanlon.house.gov healthcare issue page)",
+          "url": "https://scanlon.house.gov/Issues/Issue/?IssueID=14980"
         }
       },
       "nullNotes": {
@@ -1236,9 +1272,17 @@
         {
           "label": "Roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Roll call 190 (H.R. 1 final passage)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Roll call 161 (Parents Bill of Rights)",
+          "url": "https://clerk.house.gov/evs/2023/roll161.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6PA05216",
@@ -2002,16 +2046,16 @@
         "Opposing tax cuts for billionaires"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": -1,
         "immigration": 1,
         "taxes": -2,
-        "climate": null,
+        "climate": 0,
         "education": -1,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -2037,6 +2081,22 @@
         "education": {
           "label": "Says she will be a champion for educators and that teachers, ESPs, meal servers and bus drivers deserve the pay and respect they deserve (janellestelson.com/priorities campaign page)",
           "url": "https://www.janellestelson.com/priorities/"
+        },
+        "cost": {
+          "label": "'The minimum wage of $7.25 in Pennsylvania is outrageous. It's lower than any surrounding state, including West Virginia'; also attacks Perry's support for 'tariff-taxes that raise prices' costing households 'over $2,300' (campaign priorities page)",
+          "url": "https://www.janellestelson.com/priorities/"
+        },
+        "climate": {
+          "label": "Mixed: 'I believe the scientists' on climate and backs wind and solar to 'lower energy costs,' but says 'We need an all-of-the-above energy policy' (Guides.vote PA-10 voters guide, 2026)",
+          "url": "https://guides.vote/guide/2026-pennsylvania-pa-10-us-house-voters-guide/"
+        },
+        "safety": {
+          "label": "'As the daughter of a State Trooper, I will always support treating law enforcement with respect'; supports giving officers 'money and resources' to 'do their job safely,' while insisting federal agents including ICE wear badges and no masks (Guides.vote PA-10 voters guide, 2026)",
+          "url": "https://guides.vote/guide/2026-pennsylvania-pa-10-us-house-voters-guide/"
+        },
+        "democracy": {
+          "label": "Opposes the SAVE Act's proof-of-citizenship registration requirement and backs a federal voting rights bill: 'I hope to work... to strengthen... voting rights' (Guides.vote PA-10 voters guide, 2026)",
+          "url": "https://guides.vote/guide/2026-pennsylvania-pa-10-us-house-voters-guide/"
         }
       },
       "nullNotes": {
@@ -2049,9 +2109,17 @@
         {
           "label": "Campaign homepage",
           "url": "https://janellestelson.com"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.janellestelson.com/priorities/"
+        },
+        {
+          "label": "Guides.vote PA-10 guide",
+          "url": "https://guides.vote/guide/2026-pennsylvania-pa-10-us-house-voters-guide/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6PA16320",
@@ -2486,13 +2554,13 @@
         "Reproductive freedom"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
-        "education": null,
+        "education": -2,
         "safety": null,
         "repro": -2,
         "democracy": -1
@@ -2517,6 +2585,22 @@
         "democracy": {
           "label": "\"I will do everything in my power to protect your right to vote,\" opposing efforts to \"delete the valid electoral votes\" (bethfarnhamforcongress.com/our-precious-democracy)",
           "url": "https://bethfarnhamforcongress.com/our-precious-democracy/"
+        },
+        "cost": {
+          "label": "Pledges to 'substantially increase the federal minimum wage,' calling the $7.25 rate frozen since 2009 'not a living wage,' and to 'end union-busting ability of large corporations' (campaign affordability page, Nov 2025)",
+          "url": "https://bethfarnhamforcongress.com/2025/11/05/affordability/"
+        },
+        "housing": {
+          "label": "Pledges to 'increase the availability of affordable housing' and to expand 'property tax/rent rebates and double funding caps for housing affordability' (campaign affordability page, Nov 2025)",
+          "url": "https://bethfarnhamforcongress.com/2025/11/05/affordability/"
+        },
+        "taxes": {
+          "label": "Would 'sharply reduce tax cuts for the ultra-wealthy,' arguing current policy gives 'tax breaks for billionaires' while ordinary Americans struggle (campaign affordability page, Nov 2025)",
+          "url": "https://bethfarnhamforcongress.com/2025/11/05/affordability/"
+        },
+        "education": {
+          "label": "'Public education is a foundation of our country's greatness'; Congress must ensure 'federal tax dollars even out state or local iniquities of poorly resourced regions, and that no tax dollars fund private or parochial schools through vouchers or any other mechanism' (campaign public education page)",
+          "url": "https://bethfarnhamforcongress.com/2023/12/17/public-education/"
         }
       },
       "nullNotes": {
@@ -2530,9 +2614,17 @@
         {
           "label": "Campaign homepage",
           "url": "https://bethfarnhamforcongress.com"
+        },
+        {
+          "label": "Campaign affordability page",
+          "url": "https://bethfarnhamforcongress.com/2025/11/05/affordability/"
+        },
+        {
+          "label": "Campaign public education page",
+          "url": "https://bethfarnhamforcongress.com/2023/12/17/public-education/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8PA18199",
@@ -3038,13 +3130,13 @@
         "Smartphones-in-schools policy research"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
-        "education": null,
+        "education": -1,
         "safety": 1,
         "repro": -1,
         "democracy": -1
@@ -3073,6 +3165,18 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R. 1, the One Big Beautiful Bill Act making the 2017 tax cuts permanent while cutting Medicaid (clerk.house.gov roll 190, July 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "Voted No on H.R. 5, the Parents Bill of Rights Act expanding parental control over school curricula (clerk.house.gov roll 161, Mar 24, 2023)",
+          "url": "https://clerk.house.gov/evs/2023/roll161.xml"
+        },
+        "cost": {
+          "label": "Introduced the Cost-of-Living Emergency Act with Sen. Kelly creating a DOJ-FTC price gouging task force, a White House Cost-of-Living Emergency Office, and Defense Production Act use for supply bottlenecks: 'This country is in a cost of living emergency' (deluzio.house.gov press release, Mar 27, 2026)",
+          "url": "https://deluzio.house.gov/media/press-releases/deluzio-kelly-introduce-bill-address-cost-living-emergency-america"
         }
       },
       "nullNotes": {
@@ -3097,9 +3201,17 @@
         {
           "label": "Roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Roll call 190 (H.R. 1 final passage)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Cost-of-Living Emergency Act release",
+          "url": "https://deluzio.house.gov/media/press-releases/deluzio-kelly-introduce-bill-address-cost-living-emergency-america"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6PA17203",
@@ -3125,7 +3237,7 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 2,
         "education": null,
         "safety": 2,
@@ -3152,6 +3264,10 @@
         "democracy": {
           "label": "Campaign site pledges to \"Enforce voter ID laws for all elections\" and \"Protect the ballot box\" (tonyguyforcongress.com/issues)",
           "url": "https://tonyguyforcongress.com/issues/"
+        },
+        "taxes": {
+          "label": "'Get government off our backs and out of our pockets' and 'Stop the Washington spending spree that led to the highest inflation in history': 'If everyday American's live on a budget, so can those in Congress' (tonyguyforcongress.com/issues)",
+          "url": "https://tonyguyforcongress.com/issues/"
         }
       },
       "nullNotes": {
@@ -3165,9 +3281,13 @@
         {
           "label": "Campaign homepage",
           "url": "https://tonyguyforcongress.com"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://tonyguyforcongress.com/issues/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

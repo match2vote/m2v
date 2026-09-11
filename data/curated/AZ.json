@@ -552,7 +552,7 @@
         "cost": null,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -1,
@@ -580,12 +580,15 @@
         "democracy": {
           "label": "Will \"protect democratic institutions\" and work to end \"partisan gerrymandering\" (Shah campaign)",
           "url": "https://www.amishforarizona.com/issues"
+        },
+        "immigration": {
+          "label": "At a June 2026 CD1 forum said curtailing current ICE practices is necessary: \"We do need to enforce the immigration laws, but this is not how we do it,\" calling for a \"humane, orderly, and fair\" system (Arizona Mirror, Jun 23, 2026)",
+          "url": "https://azmirror.com/2026/06/23/democrats-in-cd1-agree-trump-is-the-problem-but-differ-on-how-to-take-him-on/"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: amishforarizona.com/issues fresh fetch, the only mechanism named is ending tariffs; per rollbook guidance tariffs are a third kind of intervention not captured cleanly by either cost pole",
         "housing": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address housing",
-        "immigration": "re-checked Sep 2, 2026: amishforarizona.com/issues Public Safety section mentions stopping the flow of fentanyl across the border but this is framed as a drug-trafficking safety measure, not a distinct immigration policy statement",
         "taxes": "re-checked Sep 2, 2026: issues page only cites past state-legislature middle-class tax cuts from his State House record, no broader federal tax agenda stated",
         "climate": "re-checked Sep 2, 2026: amishforarizona.com/issues does not address climate or energy policy"
       },
@@ -601,9 +604,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AZ01194/"
+        },
+        {
+          "label": "Arizona Mirror: CD1 Democratic forum (Jun 2026)",
+          "url": "https://azmirror.com/2026/06/23/democrats-in-cd1-agree-trump-is-the-problem-but-differ-on-how-to-take-him-on/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6AZ01488",
@@ -688,7 +695,7 @@
         "Energy independence"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
@@ -715,10 +722,13 @@
         "safety": {
           "label": "\"Fully backing our police, Border Patrol and ICE agents\" (Feely campaign)",
           "url": "https://www.jayfeelyforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Blames \"skyrocketing inflation, reckless spending\" and will \"fight to slash red tape, expand Trump-era tax cuts, unleash domestic manufacturing, and drive down inflation\" (Feely campaign)",
+          "url": "https://www.jayfeelyforcongress.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: fetched jayfeelyforcongress.com/issues fresh, cost of living line ('bring the cost of living down') still states no mechanism",
         "health": "re-checked Sep 2, 2026: jayfeelyforcongress.com/issues fetched fresh in full, health care is entirely absent from the seven stated priorities",
         "housing": "re-checked Sep 2, 2026: housing line ('that dream has slipped further out of reach') states no policy mechanism",
         "education": "re-checked Sep 2, 2026: the only education-adjacent line is a border-security-section mention of federal mandates hurting schools, not a distinct education policy",
@@ -739,7 +749,7 @@
           "url": "https://www.fec.gov/data/candidate/H6AZ05190/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2AZ01354",
@@ -855,11 +865,11 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": -2,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -1,
         "safety": null,
         "repro": -2,
@@ -881,14 +891,20 @@
         "democracy": {
           "label": "Campaign priorities include \"Protect Voting Rights\" and \"Tackling Corruption\" (Nez campaign)",
           "url": "https://www.jonathannezforaz.com/issues"
+        },
+        "health": {
+          "label": "Warrior Up Agenda pledges to \"expand access to affordable healthcare, protect coverage for people with pre-existing conditions, lower out-of-pocket and prescription-drug costs, protect rural hospitals\" (Nez campaign agenda as quoted by Smarter.vote, 2026)",
+          "url": "https://smarter.vote/races/az-house-02-2026/jonathan-nez/"
+        },
+        "climate": {
+          "label": "\"Arizonans are at the forefront of climate change. Drought, wildfires, and rising temperatures worsen every year\"; committed to \"securing Arizona's water future\" (Ballotpedia, 2024 campaign statement)",
+          "url": "https://ballotpedia.org/Jonathan_Nez"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: jonathannezforaz.com/issues page confirmed as headers-only (JavaScript-rendered), no body text retrievable by fetch",
-        "health": "re-checked Sep 2, 2026: same JavaScript-rendering limitation, Healthcare that Serves the People remains a header only",
         "housing": "re-checked Sep 2, 2026: same limitation, Lower Housing and Utility Costs remains a header only",
         "taxes": "re-checked Sep 2, 2026: same limitation, no tax content retrievable",
-        "climate": "re-checked Sep 2, 2026: same limitation, no climate content retrievable",
         "safety": "re-checked Sep 2, 2026: same limitation, Fight Crime and Protect Arizona remains a header only"
       },
       "sources": [
@@ -903,9 +919,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AZ02184/"
+        },
+        {
+          "label": "Smarter.vote: Jonathan Nez AZ-02",
+          "url": "https://smarter.vote/races/az-house-02-2026/jonathan-nez/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4AZ03109",
@@ -1116,15 +1136,15 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 1,
         "taxes": 2,
         "climate": null,
         "education": 2,
-        "safety": null,
+        "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -1142,15 +1162,24 @@
         "education": {
           "label": "Supports \"educational freedom\" and \"funding students, not systems\" (Jasser campaign)",
           "url": "https://z4az.com"
+        },
+        "health": {
+          "label": "Says government overreach during COVID-19 \"harmed personal freedoms and public health\" and wants to address root causes like obesity and mental health through private-sector collaboration (2024 campaign platform via Branch.vote)",
+          "url": "https://www.branch.vote/races/2024-arizona-primary-election-az-state-us-representative-az-congressional-4-r/candidates/zuhdi-jasser"
+        },
+        "safety": {
+          "label": "\"Criminal behavior is ignored in major cities\" while the \"border remains open to drugs and cartel traffickers\" (2024 campaign platform via Branch.vote)",
+          "url": "https://www.branch.vote/races/2024-arizona-primary-election-az-state-us-representative-az-congressional-4-r/candidates/zuhdi-jasser"
+        },
+        "democracy": {
+          "label": "Backs \"strong election security\" and opposes \"federal interference in state and local election administration,\" saying elections are \"vulnerable to manipulation by media and last-minute rule changes\" (2024 campaign platform via Branch.vote)",
+          "url": "https://www.branch.vote/races/2024-arizona-primary-election-az-state-us-representative-az-congressional-4-r/candidates/zuhdi-jasser"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: z4az.com homepage fetched fresh, only says he prioritizes the health and freedoms of Americans and wants to end subsidies on ailments, no public-vs-private mechanism stated",
         "housing": "re-checked Sep 2, 2026: z4az.com homepage ties housing only to a general freedom to work, build, and keep more of what you earn line, no specific mechanism; z4az.com/my-plan 404s",
         "climate": "re-checked Sep 2, 2026: z4az.com homepage does not address climate or energy policy",
-        "safety": "re-checked Sep 2, 2026: z4az.com homepage keeping our neighborhoods and communities safe line names no enforcement vs prevention direction and is paired with border-security language",
-        "repro": "re-checked Sep 2, 2026: z4az.com homepage does not address abortion",
-        "democracy": "re-checked Sep 2, 2026: z4az.com homepage does not address voting or elections beyond interview-title metadata already dismissed"
+        "repro": "re-checked Sep 2, 2026: z4az.com homepage does not address abortion"
       },
       "sources": [
         {
@@ -1160,9 +1189,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AZ04115/"
+        },
+        {
+          "label": "Branch.vote: Zuhdi Jasser 2024 platform",
+          "url": "https://www.branch.vote/races/2024-arizona-primary-election-az-state-us-representative-az-congressional-4-r/candidates/zuhdi-jasser"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6AZ05240",
@@ -1186,10 +1219,10 @@
       "positions": {
         "cost": null,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
-        "climate": null,
+        "taxes": -2,
+        "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -1,
@@ -1215,13 +1248,22 @@
         "repro": {
           "label": "Issues page lists 'Reproductive freedom & fertility care access' as a stated policy priority (nurselee4az.com/issues).",
           "url": "https://www.nurselee4az.com/issues"
+        },
+        "housing": {
+          "label": "Blames \"corporations and private equity firms buying up homes, inflating prices and treating shelter like a commodity\" and vows to \"curb corporate control of real estate\" (Ballotpedia Candidate Connection, 2025)",
+          "url": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
+        },
+        "taxes": {
+          "label": "\"I would fight for a tax structure that asks the ultra-wealthy and powerful corporations to pay their fair share\" (Ballotpedia Candidate Connection, 2025)",
+          "url": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
+        },
+        "climate": {
+          "label": "Names \"investing in a clean energy future\" as a priority for federal revenue (Ballotpedia Candidate Connection, 2025)",
+          "url": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: homepage and issues page still only say cost of living is hard, with no policy mechanism",
-        "housing": "re-checked Sep 2, 2026: nurselee4az.com/issues Affordable Housing section is a personal poverty narrative with no stated housing-supply or renter-protection mechanism",
-        "taxes": "re-checked Sep 2, 2026: nurselee4az.com/issues does not address tax policy",
-        "climate": "re-checked Sep 2, 2026: nurselee4az.com/issues Water Security section addresses drought and water protection only, not energy policy",
         "safety": "re-checked Sep 2, 2026: nurselee4az.com/issues Gun Violence Prevention section does not map to this axis per guide rule; no other public-safety statement found"
       },
       "sources": [
@@ -1232,9 +1274,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AZ05240/"
+        },
+        {
+          "label": "Ballotpedia: Elizabeth Lee",
+          "url": "https://ballotpedia.org/Elizabeth_Lee_(Arizona)"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6AZ05265",
@@ -1262,10 +1308,10 @@
         "immigration": 2,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 2,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
@@ -1283,15 +1329,24 @@
         "safety": {
           "label": "\"Support law enforcement\"; background of \"eight years protecting Arizona communities, confronting cartels, fighting human trafficking\" as sheriff (Lamb campaign)",
           "url": "https://marklamb.us/issues"
+        },
+        "repro": {
+          "label": "\"Ensure that every life is protected from conception onward\" (OnTheIssues, 2024 Senate campaign, Jun 2024)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Lamb.htm"
+        },
+        "democracy": {
+          "label": "\"Protect our elections with staunch Voter ID laws\" (OnTheIssues, 2024 Senate campaign, Jun 2024)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Lamb.htm"
+        },
+        "education": {
+          "label": "\"Woke ideologies run rampant and indoctrinate our youth,\" a parental-control framing of schools (OnTheIssues, 2024 Senate campaign, Jun 2024)",
+          "url": "https://www.ontheissues.org/Senate/Mark_Lamb.htm"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: marklamb.us fetched fresh, does not address healthcare; Ballotpedia confirms he did not complete a Candidate Connection survey",
         "housing": "re-checked Sep 2, 2026: marklamb.us does not address housing",
-        "climate": "re-checked Sep 2, 2026: marklamb.us does not address climate or energy",
-        "education": "re-checked Sep 2, 2026: marklamb.us does not address education",
-        "repro": "re-checked Sep 2, 2026: marklamb.us does not address abortion",
-        "democracy": "re-checked Sep 2, 2026: election integrity appears only in interview titles and metadata, no specific voting policy stated"
+        "climate": "re-checked Sep 2, 2026: marklamb.us does not address climate or energy"
       },
       "sources": [
         {
@@ -1305,9 +1360,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AZ05265/"
+        },
+        {
+          "label": "OnTheIssues: Mark Lamb",
+          "url": "https://www.ontheissues.org/Senate/Mark_Lamb.htm"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2AZ02360",
@@ -1789,12 +1848,12 @@
         "health": -2,
         "housing": null,
         "immigration": 0,
-        "taxes": null,
+        "taxes": -2,
         "climate": null,
         "education": -2,
-        "safety": null,
+        "safety": 0,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -1816,14 +1875,23 @@
         "repro": {
           "label": "Would \"restore and protect women's rights to make their own healthcare decisions\" (Greene-Placentia campaign)",
           "url": "https://bgp4az.com/issues"
+        },
+        "taxes": {
+          "label": "\"The tax breaks for billionaires needs to end, and we need to start paying down our debt without cutting essential social services\" (Ballotpedia Candidate Connection, 2025)",
+          "url": "https://ballotpedia.org/Bernadette_Greene_Placentia"
+        },
+        "safety": {
+          "label": "Mixed: wants to \"increase support for Law Enforcement via better pay, better training, better equipment and better access to mental health care while eliminating those that have no business carrying a badge\"; 2024 survey called for \"Police Reform\" with \"increased screening\" (Ballotpedia Candidate Connection, 2024 and 2025)",
+          "url": "https://ballotpedia.org/Bernadette_Greene_Placentia"
+        },
+        "democracy": {
+          "label": "Pledges to \"Restore, Protect & Defend ... Voting Rights\" (Ballotpedia Candidate Connection, 2024)",
+          "url": "https://ballotpedia.org/Bernadette_Greene_Placentia"
         }
       },
       "nullNotes": {
         "housing": "re-checked Sep 2, 2026: bgp4az.com/priorities line expand access to affordable housing and responsible homeownership still states a goal with no mechanism",
-        "taxes": "re-checked Sep 2, 2026: bgp4az.com/priorities does not address tax policy",
-        "climate": "re-checked Sep 2, 2026: bgp4az.com/priorities lines support responsible energy innovation and invest in conservation and infrastructure do not indicate either an aggressive clean-energy or all-of-the-above direction",
-        "safety": "re-checked Sep 2, 2026: bgp4az.com/priorities crack down on drug trafficking, human trafficking, and organized crime line sits under the Secure Borders, Fair Immigration heading, so it reads as a border-enforcement statement rather than a domestic policing/prevention position",
-        "democracy": "re-checked Sep 2, 2026: bgp4az.com/priorities term-limits pledge remains government-ethics framing, not a voting-access position"
+        "climate": "re-checked Sep 2, 2026: bgp4az.com/priorities lines support responsible energy innovation and invest in conservation and infrastructure do not indicate either an aggressive clean-energy or all-of-the-above direction"
       },
       "sources": [
         {
@@ -1833,9 +1901,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AZ08082/"
+        },
+        {
+          "label": "Ballotpedia: Bernadette Greene Placentia",
+          "url": "https://ballotpedia.org/Bernadette_Greene_Placentia"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0AZ01259",

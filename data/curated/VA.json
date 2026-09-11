@@ -361,7 +361,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
@@ -379,6 +379,10 @@
         "climate": {
           "label": "Criticizes energy-production restrictions; supports American energy production; localities should decide on data centers (Charlottesville Tomorrow)",
           "url": "https://www.cvilletomorrow.org/qa-with-virginias-three-republican-primary-candidates-for-u-s-senate/"
+        },
+        "democracy": {
+          "label": "'Election integrity could be job one and should be job one,' naming proof of citizenship to vote as a key priority (WSET, Sep 2026)",
+          "url": "https://wset.com/news/local/senate-candidates-share-their-key-campaign-points-at-buena-vista-labor-fest-mark-warner-bert-mizusawa-senate-september-2026"
         }
       },
       "nullNotes": {
@@ -401,9 +405,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S8VA00321/"
+        },
+        {
+          "label": "WSET: Buena Vista Labor Fest",
+          "url": "https://wset.com/news/local/senate-candidates-share-their-key-campaign-points-at-buena-vista-labor-fest-mark-warner-bert-mizusawa-senate-september-2026"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "va-house-4-murray",
@@ -777,13 +785,13 @@
         "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -1,
         "climate": -1,
         "education": null,
         "safety": 1,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -809,6 +817,14 @@
         "repro": {
           "label": "Was 'one of the first prosecutors in the country to defend the right for Virginia women to have the freedom to access abortion care' after Dobbs (campaign site)",
           "url": "https://shannontaylorva.com/"
+        },
+        "immigration": {
+          "label": "'Every individual who is on this land of the United States gets the protections of the Constitution... Due process is to be respected' before action is taken; says the immigration system 'is broken' (VPM interview, Jun 2025)",
+          "url": "https://www.vpm.org/elections/2025-06-06/interview-shannon-taylor-attorney-general-jones-miyares-reproductive-rights-immigration"
+        },
+        "democracy": {
+          "label": "Pledged to defend Virginia's automatic restoration of voting rights amendment against challenges once passed (VPM interview, Jun 2025)",
+          "url": "https://www.vpm.org/elections/2025-06-06/interview-shannon-taylor-attorney-general-jones-miyares-reproductive-rights-immigration"
         }
       },
       "nullNotes": {
@@ -825,9 +841,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA01299/"
+        },
+        {
+          "label": "VPM interview, Jun 2025",
+          "url": "https://www.vpm.org/elections/2025-06-06/interview-shannon-taylor-attorney-general-jones-miyares-reproductive-rights-immigration"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2VA02064",
@@ -937,13 +957,13 @@
         "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 0,
+        "taxes": -1,
         "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -965,6 +985,18 @@
         "repro": {
           "label": "'A woman's right to choose should be made between a woman, her health care provider, and her faith,' and advocates enshrining reproductive protections (campaign issues page)",
           "url": "https://elaineforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "Backs efforts 'to deter illegal immigration and strengthen border security, while also providing a pathway to citizenship for those who follow our nation's laws' (campaign issues page)",
+          "url": "https://elaineforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Voted yes on the 2022 Inflation Reduction Act with its 15 percent corporate minimum tax, and campaigns against 'tax cuts to billionaires' (Ballotpedia key votes; campaign issues page)",
+          "url": "https://ballotpedia.org/Elaine_Luria"
+        },
+        "democracy": {
+          "label": "Voted yes on the 2021 For the People Act (automatic registration, expanded early and mail voting) and still lists the bill in her anti-corruption agenda (Ballotpedia key votes; campaign issues page)",
+          "url": "https://ballotpedia.org/Elaine_Luria"
         }
       },
       "nullNotes": {
@@ -982,9 +1014,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA02198/"
+        },
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Elaine_Luria"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6VA01117",
@@ -1084,10 +1120,10 @@
       "background": "Republican nominee challenging Rep. Bobby Scott in Virginia's 3rd District.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
-        "immigration": null,
+        "housing": -1,
+        "immigration": 0,
         "taxes": 2,
         "climate": 1,
         "education": -1,
@@ -1111,6 +1147,18 @@
         "safety": {
           "label": "Campaign issues page calls to hold judges and prosecutors accountable for releasing violent repeat offenders and to increase and fully fund law enforcement (Edwin Rivera for Congress)",
           "url": "https://edwinriveraforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Will 'oppose the over taxation and unaffordability policies,' 'eliminate regulations' on small business contracting, and lower energy costs with an all-of-the-above platform (campaign issues page)",
+          "url": "https://edwinriveraforcongress.com/issues"
+        },
+        "housing": {
+          "label": "Affordability and homeownership plank: 'Support Affordable housing options' (campaign issues page)",
+          "url": "https://edwinriveraforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "Immigration plank pairs processing capacity with legal pathways: 'Increase the number of Immigration Judges. Fix green card process' (campaign issues page)",
+          "url": "https://edwinriveraforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -1131,7 +1179,7 @@
           "url": "https://www.fec.gov/data/candidate/H6VA03121/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6VA03139",
@@ -1309,14 +1357,14 @@
       "positions": {
         "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": 0,
         "immigration": null,
         "taxes": null,
-        "climate": null,
+        "climate": -2,
         "education": -1,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -1334,6 +1382,22 @@
         "safety": {
           "label": "Cites past investment in 'law enforcement units in the district' and support for the rule of law (campaign site)",
           "url": "https://www.tomperriello.com/priorities"
+        },
+        "climate": {
+          "label": "Voted for the 2009 American Clean Energy and Security Act cap-and-trade bill, framing it as a national security imperative: 'If I lose my seat... I could live with that' (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Perriello"
+        },
+        "repro": {
+          "label": "Calls abortion a 'fundamental right' that should be accessible to all women, and called his 2009 Stupak amendment vote the 'worst vote of his career' (Wikipedia, 2017 stance)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Perriello"
+        },
+        "housing": {
+          "label": "Housing plan pairs expanding supply and 'streamlining regulatory obstacles' with cracking down on 'corporate practices that inflate prices' (campaign housing page)",
+          "url": "https://www.tomperriello.com/housing"
+        },
+        "democracy": {
+          "label": "'When politicians make it harder to vote, they aren't securing elections. They're protecting themselves from the will of the people'; pledges to resist restrictions on voting access (campaign voting rights page)",
+          "url": "https://www.tomperriello.com/voting-rights"
         }
       },
       "nullNotes": {
@@ -1356,9 +1420,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA05217/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tom_Perriello"
+        },
+        {
+          "label": "Campaign site: housing",
+          "url": "https://www.tomperriello.com/housing"
+        },
+        {
+          "label": "Campaign site: voting rights",
+          "url": "https://www.tomperriello.com/voting-rights"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8VA06104",
@@ -1628,7 +1704,7 @@
         "immigration": 2,
         "taxes": 1,
         "climate": 1,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -1657,6 +1733,10 @@
         "safety": {
           "label": "'I stand with law enforcement and believe they deserve the resources, training, and respect they need' (campaign site)",
           "url": "https://www.dougforvirginia.com/issues/"
+        },
+        "education": {
+          "label": "Keeping the American Dream in reach 'means protecting parental rights, promoting skilled trades,' plus 'Protecting Girls in Sports and Spaces' (campaign issues page)",
+          "url": "https://www.dougforvirginia.com/issues/"
         }
       },
       "nullNotes": {
@@ -1675,7 +1755,7 @@
           "url": "https://www.fec.gov/data/candidate/H6VA07205/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4VA08224",
@@ -2131,14 +2211,14 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
-        "housing": null,
+        "health": 2,
+        "housing": 1,
         "immigration": null,
         "taxes": 1,
         "climate": 1,
         "education": 1,
         "safety": 1,
-        "repro": null,
+        "repro": 1,
         "democracy": null
       },
       "positionSources": {
@@ -2161,6 +2241,18 @@
         "safety": {
           "label": "'Staunch supporter of law enforcement,' believing 'well-resourced law enforcement agencies make safer communities' (campaign site)",
           "url": "https://www.beckwithforcongress.com"
+        },
+        "health": {
+          "label": "Backs expanded Health Savings Accounts with catastrophic coverage and price transparency, opposes federal insurer subsidies: 'competition, not a government backstop, is what keeps prices in check' (campaign health page)",
+          "url": "https://www.beckwithforcongress.com/health-communities"
+        },
+        "repro": {
+          "label": "Describes himself as 'pro-life' and supports crisis pregnancy centers offering 'free medical care, counseling, and resources to women facing an unplanned pregnancy' (campaign health page)",
+          "url": "https://www.beckwithforcongress.com/health-communities"
+        },
+        "housing": {
+          "label": "Housing plan relies on market and tax levers: a 5 percent flat tax under $200,000, portable mortgages to 'unlock supply from downsizers,' and capital gains indexing (campaign blog)",
+          "url": "https://www.beckwithforcongress.com/blog/unlocking-the-housing-market-in-va-10"
         }
       },
       "nullNotes": {
@@ -2178,9 +2270,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2VA10273/"
+        },
+        {
+          "label": "Campaign site: health",
+          "url": "https://www.beckwithforcongress.com/health-communities"
+        },
+        {
+          "label": "Campaign blog: housing",
+          "url": "https://www.beckwithforcongress.com/blog/unlocking-the-housing-market-in-va-10"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6VA11066",

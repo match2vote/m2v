@@ -505,7 +505,7 @@
         "housing": null,
         "immigration": 0,
         "taxes": null,
-        "climate": null,
+        "climate": 0,
         "education": null,
         "safety": null,
         "repro": null,
@@ -527,6 +527,10 @@
         "democracy": {
           "label": "Campaign is 'passionate about getting folks registered to vote, expanding voter turnout, and helping voters make informed decisions' (vincegeorgeforcongress.com/issues).",
           "url": "https://vincegeorgeforcongress.com/issues"
+        },
+        "climate": {
+          "label": "Mixed: \"I'm pro-worker and pro-miner\" and backs a \"free market that allows renewable energy to expand in West Virginia if that's what businesses want,\" while vowing to \"hold powerful coal companies accountable\" for polluting drinking water (Vince George for Congress issues page)",
+          "url": "https://vincegeorgeforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -546,9 +550,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WV01160/"
+        },
+        {
+          "label": "Vince George for Congress: Issues",
+          "url": "https://vincegeorgeforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4WV02205",

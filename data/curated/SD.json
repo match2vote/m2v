@@ -226,13 +226,13 @@
         "cost": null,
         "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": 1,
         "safety": 1,
         "repro": 2,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "health": {
@@ -254,6 +254,18 @@
         "repro": {
           "label": "Signed HB 1274 letting the attorney general prosecute abortion pill trafficking, plus fetal development curriculum mandates: 'South Dakota is the most pro-life state in America' (Live Action)",
           "url": "https://www.liveaction.org/news/south-dakota-governor-bills-protect-next-generation"
+        },
+        "immigration": {
+          "label": "Touts that he 'banned sanctuary cities and signed ICE agreements with Highway Patrol and Department of Corrections' (campaign accomplishments page)",
+          "url": "https://governorlarryrhoden.com/accomplishments"
+        },
+        "climate": {
+          "label": "In his 2025 State of the State said he opposes federal 'extremist environmental policies' while calling for 'fair and predictable regulations' for business (South Dakota Searchlight via Yahoo)",
+          "url": "https://www.yahoo.com/news/rhoden-commits-prison-school-choice-222436951.html"
+        },
+        "democracy": {
+          "label": "Joined governors' letter backing the SAVE America Act's proof of citizenship rule, saying elections must be 'decided by, and only by, American citizens' (KOTA, Mar 19, 2026)",
+          "url": "https://www.kotatv.com/2026/03/19/gov-rhoden-ag-jackley-push-us-senate-pass-save-america-act/"
         }
       },
       "sources": [
@@ -268,9 +280,21 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Larry_Rhoden"
+        },
+        {
+          "label": "Campaign accomplishments page",
+          "url": "https://governorlarryrhoden.com/accomplishments"
+        },
+        {
+          "label": "South Dakota Searchlight via Yahoo: 2025 State of the State",
+          "url": "https://www.yahoo.com/news/rhoden-commits-prison-school-choice-222436951.html"
+        },
+        {
+          "label": "KOTA: SAVE America Act letter",
+          "url": "https://www.kotatv.com/2026/03/19/gov-rhoden-ag-jackley-push-us-senate-pass-save-america-act/"
         }
       ],
-      "curatedAt": "2026-08-13",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: governorlarryrhoden.com homepage fetched in full, the 'Issues Affecting South Dakotans' section is placeholder template text, no substantive cost/pricing content; southdakotasearchlight.com still unreachable",
         "housing": "re-checked Sep 2, 2026: same placeholder-template finding on homepage",

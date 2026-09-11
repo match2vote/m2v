@@ -689,16 +689,20 @@
         {
           "label": "Campaign site",
           "url": "https://marcykaptur.com"
+        },
+        {
+          "label": "House Clerk roll 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29",
+      "curatedAt": "2026-09-11",
       "age": 80,
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": -2,
         "immigration": 1,
-        "taxes": null,
+        "taxes": -1,
         "climate": 2,
         "education": null,
         "safety": 1,
@@ -729,6 +733,14 @@
         "housing": {
           "label": "Introduced the Restoring Communities Left Behind Act to invest in disinvested communities and backs weatherization and rehabilitation of older housing stock, saying 'a one-size-fits all approach to housing will not work' (Marcy Kaptur campaign site)",
           "url": "https://www.marcykaptur.com/issues"
+        },
+        "health": {
+          "label": "Campaign site says she has 'fought to protect Social Security and Medicare from cuts and privatization' and to 'lower the costs of healthcare, prescription drugs'; voted No on H.R.1, the One Big Beautiful Bill Act and its Medicaid cuts (Marcy Kaptur campaign site; clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://www.marcykaptur.com/issues"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R.1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent while cutting Medicaid (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -768,12 +780,16 @@
         {
           "label": "Campaign site",
           "url": "https://www.derekmerrin.com"
+        },
+        {
+          "label": "Ohio Legislature: H.B. 598 record",
+          "url": "https://www.legislature.ohio.gov/legislation/134/hb598"
         }
       ],
-      "curatedAt": "2026-08-29",
+      "curatedAt": "2026-09-11",
       "age": 40,
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": 1,
         "immigration": 2,
@@ -781,7 +797,7 @@
         "climate": null,
         "education": 1,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": 2
       },
       "positionSources": {
@@ -808,6 +824,14 @@
         "immigration": {
           "label": "Says 'the reckless open-border policies of Marcy Kaptur and the Biden administration have allowed mass illegal immigration' and supports 'sending the military to secure the border to stop drug cartels and human trafficking' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Derek_Merrin"
+        },
+        "cost": {
+          "label": "Blames 'Biden/Kaptur economic policies' for 'inflation, outrageous costs at the grocery store' and answers with 'a constitutional amendment to require a balanced budget; America should only spend within our means' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Derek_Merrin"
+        },
+        "repro": {
+          "label": "Listed as a cosponsor of Ohio H.B. 598 (134th G.A.), the 'Human Life Protection Act' to 'prohibit abortions' with no rape or incest exceptions (Ohio Legislature bill record)",
+          "url": "https://www.legislature.ohio.gov/legislation/134/hb598"
         }
       },
       "nullNotes": {
@@ -912,12 +936,16 @@
         {
           "label": "Columbus Chamber 2026 Ohio general election candidates",
           "url": "https://columbus.org/solutions/government-relations/vote-with-us/2026-ohio-general-election/"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://www.votedulaney.org/issues"
         }
       ],
       "positions": {
         "cost": null,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": null,
         "taxes": -1,
         "climate": -1,
@@ -942,6 +970,10 @@
         "democracy": {
           "label": "Supports 'strong protections for voting rights, secure and accessible elections, and fair maps' (campaign site)",
           "url": "https://www.votedulaney.org"
+        },
+        "housing": {
+          "label": "Issues page names the 'Affordable Housing Crisis: the city is facing a significant, worsening shortage of affordable housing' and 'gentrification of housing in my district', pairing it with property tax relief and home improvement grants (campaign site issues page)",
+          "url": "https://www.votedulaney.org/issues"
         }
       },
       "nullNotes": {
@@ -952,7 +984,7 @@
         "safety": "re-checked Sep 2, 2026: votedulaney.org/issues, 'better relationship with our police force' is too ambiguous between enforcement and prevention",
         "repro": "re-checked Sep 2, 2026: votedulaney.org/issues and Ballotpedia list abortion as a theme with no detailed position"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "oh-house-4-tackett",
@@ -1583,7 +1615,7 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 2,
         "education": 1,
         "safety": 2,
@@ -1610,6 +1642,10 @@
         "climate": {
           "label": "Says energy independence and American manufacturing must be priorities and backs policies that expand domestic energy production and reduce regulations for reliable, affordable energy (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Eric_Conroy"
+        },
+        "taxes": {
+          "label": "Says he is running to 'fight for lower taxes' and told Ballotpedia 'out-of-control federal spending has driven inflation', backing 'responsible budgeting and reduced federal waste' (Ohio Capital Journal candidate profile, Mar 17, 2026)",
+          "url": "https://ohiocapitaljournal.com/2026/03/17/meet-the-republican-candidates-running-in-ohios-1st-congressional-district-primary/"
         }
       },
       "nullNotes": {
@@ -1631,9 +1667,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH01138/"
+        },
+        {
+          "label": "Ohio Capital Journal: OH-1 GOP candidate profiles",
+          "url": "https://ohiocapitaljournal.com/2026/03/17/meet-the-republican-candidates-running-in-ohios-1st-congressional-district-primary/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4OH02248",
@@ -2805,11 +2845,11 @@
       "background": "Emilia Sykes has represented the Akron-based 13th District since 2023; previously Ohio House minority leader. Unopposed for renomination in the May 5, 2026 primary.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -1,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": 1,
@@ -2836,6 +2876,18 @@
         "repro": {
           "label": "Voted nay on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "cost": {
+          "label": "Says Ohioans 'shouldn't be struggling to pay for gas, groceries, housing' and pledges to cap medication costs like insulin and expand the Earned Income Tax Credit (Ballotpedia profile)",
+          "url": "https://ballotpedia.org/Emilia_Sykes"
+        },
+        "health": {
+          "label": "'All northeast Ohioans deserve access to quality, affordable healthcare and prescription drugs', pledging to cap medication costs like insulin; voted No on H.R.1 and its Medicaid cuts (Ballotpedia profile; clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://ballotpedia.org/Emilia_Sykes"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R.1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent while cutting Medicaid (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -2857,9 +2909,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2OH13264/"
+        },
+        {
+          "label": "House Clerk roll 190 (H.R.1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6OH13307",
@@ -2881,10 +2937,10 @@
         "Parental voice in education"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": 2,
         "education": 1,
@@ -2908,6 +2964,14 @@
         "climate": {
           "label": "Campaign site says he will fight to unleash American energy production to bring down fuel and utility costs (careycoleman.com/issues)",
           "url": "https://careycoleman.com/issues"
+        },
+        "cost": {
+          "label": "Says families are 'being crushed by rising prices' and would lower costs by reining in federal spending, ending wasteful programs, unleashing energy production and reducing supply chain bottlenecks (careycoleman.com/issues)",
+          "url": "https://careycoleman.com/issues"
+        },
+        "immigration": {
+          "label": "Law and Order plank calls for border security to stop illegal drugs and cracking down on fentanyl trafficking, alongside a pledge to 'secure our borders' (careycoleman.com/issues)",
+          "url": "https://careycoleman.com/issues"
         }
       },
       "nullNotes": {
@@ -2930,9 +2994,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH13307/"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://careycoleman.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6OH13273",
@@ -3092,7 +3160,7 @@
         "Tax fairness for working people"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": null,
         "immigration": -2,
@@ -3101,7 +3169,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -3119,6 +3187,14 @@
         "climate": {
           "label": "Campaign site describes a responsible all-of-the-above energy strategy that aggressively expands clean energy while managing the transition away from fossil fuels (mariajukicforcongress.com/environment)",
           "url": "https://www.mariajukicforcongress.com/environment-climate-change-protecting-whats-ours/"
+        },
+        "cost": {
+          "label": "Would 'create jobs, support unions, and increase the minimum wage' and 'restore Medicaid and SNAP' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Maria_Jukic"
+        },
+        "democracy": {
+          "label": "'Important issues for our democracy are campaign finance reform, overturning Citizens United, and voting rights' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Maria_Jukic"
         }
       },
       "nullNotes": {
@@ -3143,7 +3219,7 @@
           "url": "https://www.fec.gov/data/candidate/H6OH14248/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2OH15228",
@@ -3246,13 +3322,13 @@
         "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -3270,6 +3346,18 @@
         "education": {
           "label": "Campaign site commits to public schools, saying Ohio's safety nets and public schools get gutted (donforohio.com)",
           "url": "https://donforohio.com"
+        },
+        "immigration": {
+          "label": "Faults Trump and Vance for 'attacking immigrants and blaming them for our economic troubles' and Carey for 'support for expanded ICE funding', while his values page pairs 'Respect immigrants' with 'Secure the border' (Columbus Dispatch via AOL, 2026)",
+          "url": "https://www.aol.com/news/two-dems-vie-chance-rep-202906316.html"
+        },
+        "repro": {
+          "label": "Attacks Mike Carey's support for 'a nationwide abortion ban' as proof he 'doesn't care about the people of Central Ohio' (Columbus Dispatch via AOL, 2026)",
+          "url": "https://www.aol.com/news/two-dems-vie-chance-rep-202906316.html"
+        },
+        "democracy": {
+          "label": "Lists 'burdensome voter ID laws' among the Carey-backed policies he opposes (Columbus Dispatch via AOL, 2026)",
+          "url": "https://www.aol.com/news/two-dems-vie-chance-rep-202906316.html"
         }
       },
       "nullNotes": {
@@ -3292,9 +3380,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH15112/"
+        },
+        {
+          "label": "Columbus Dispatch (via AOL): OH-15 Democratic primary",
+          "url": "https://www.aol.com/news/two-dems-vie-chance-rep-202906316.html"
+        },
+        {
+          "label": "Campaign site values page",
+          "url": "https://donforohio.com/values"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-S6OH00395",

@@ -1072,14 +1072,14 @@
         "Flatten the tax code and reduce business costs"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 1,
         "taxes": 1,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": 2,
         "democracy": 1
       },
@@ -1099,6 +1099,22 @@
         "democracy": {
           "label": "Advocates for voter ID requirements, citing election integrity concerns (Ballotpedia, from an earlier state senate campaign; no newer statement found)",
           "url": "https://ballotpedia.org/Eric_Pratt"
+        },
+        "safety": {
+          "label": "Campaign \"Pratt Playbook\" pledges he \"supports law enforcement, first responders and policies that keep families safe\" and that \"laws should be enforced fairly, responsibly and consistently from our neighborhoods to the U.S. Border\" (ericprattmn.com, 2026)",
+          "url": "https://www.ericprattmn.com/"
+        },
+        "climate": {
+          "label": "Backed \"an 'all-of-the-above' approach to clean energy\" in the Senate GOP Vision 2020 agenda he helped announce (Minnesota Senate Republicans, Jan 13, 2020)",
+          "url": "https://www.mnsenaterepublicans.com/senator-pratt-2020-vision-agenda-released/"
+        },
+        "cost": {
+          "label": "Affordability slate he backed caps property tax growth, cuts license tab fees and ends state tax on tips and overtime: \"Minnesotans are tired of getting nickel-and-dimed at every turn\" (Minnesota Senate Republicans, Mar 10, 2026)",
+          "url": "https://www.mnsenaterepublicans.com/pratt-supports-commonsense-measures-to-make-life-affordable-for-minnesota-families/"
+        },
+        "education": {
+          "label": "Backed Senate GOP \"Students First\" plan to let schools drop unfunded state mandates and add parental notification and transparency requirements: school funding is \"all tied up in unfunded mandates\" (Minnesota Senate Republicans, Apr 7, 2025)",
+          "url": "https://www.mnsenaterepublicans.com/pratt-supports-efforts-to-refocus-education-funding-and-priorities-on-putting-students-first/"
         }
       },
       "nullNotes": {
@@ -1121,9 +1137,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MN02263/"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.ericprattmn.com/"
+        },
+        {
+          "label": "Minnesota Senate Republicans: Pratt press releases",
+          "url": "https://www.mnsenaterepublicans.com/pratt-supports-commonsense-measures-to-make-life-affordable-for-minnesota-families/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MN02230",
@@ -1385,16 +1409,16 @@
         "Unleash American energy production"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 1,
         "immigration": null,
         "taxes": 2,
         "climate": 2,
         "education": 2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "health": {
@@ -1412,6 +1436,18 @@
         "education": {
           "label": "'Fix the Education System: prepare our children to succeed by focusing on academics, not political agendas' (campaign site)",
           "url": "https://www.wikstromforcongress.com/"
+        },
+        "cost": {
+          "label": "\"Put more money in your pocket\": expand tax cuts, \"Unleash American Production\" by \"reducing regulation\", and \"Cut Red Tape\" with a one-in, two-out rule for regulations (wikstromforcongress.com, 2026)",
+          "url": "https://www.wikstromforcongress.com/"
+        },
+        "housing": {
+          "label": "Plan to \"increase American energy, food and housing supply by reducing regulation\" (wikstromforcongress.com, 2026)",
+          "url": "https://www.wikstromforcongress.com/"
+        },
+        "democracy": {
+          "label": "Filed a legal challenge to Minnesota's Election Day \"vouching\" registration: \"The vouching system is an open invitation to fraud. One person can vouch for eight voters with no documentation required\" (campaign press release, Jun 6, 2026)",
+          "url": "https://5aecfdce-d3db-41e2-91ea-12d99b9baff3.filesusr.com/ugd/3891d2_958c4e6347af46e99eb16186f279ffb0.pdf"
         }
       },
       "nullNotes": {
@@ -1430,9 +1466,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MN04293/"
+        },
+        {
+          "label": "Campaign press release: vouching lawsuit (PDF)",
+          "url": "https://5aecfdce-d3db-41e2-91ea-12d99b9baff3.filesusr.com/ugd/3891d2_958c4e6347af46e99eb16186f279ffb0.pdf"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8MN05239",

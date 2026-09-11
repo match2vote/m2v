@@ -387,7 +387,7 @@
         "taxes": 2,
         "climate": 2,
         "education": 2,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": null
       },
@@ -415,6 +415,10 @@
         "education": {
           "label": "Campaign site backs Education Savings Accounts, Backpack Funding and 'No More Lines' open enrollment, saying 'it's time to end discrimination and income-based inequality in education' (Bernadette for Governor, On the Issues)",
           "url": "https://bernadetteforgovernor.com/on-the-issues/"
+        },
+        "safety": {
+          "label": "\"Anchorage doesn't have a homeless problem ... We have a drug and psychiatric problem\": her fix is repealing certificate-of-need laws, letting mental health licenses transfer between states and expanding mental health facilities and providers, while tying state public safety money to measurable crime reductions (Alaska's News Source Q&A, Aug 3 2026)",
+          "url": "https://www.alaskasnewssource.com/2026/08/03/record-qa-with-bernadette-wilson/"
         }
       },
       "nullNotes": {
@@ -423,7 +427,7 @@
         "repro": "re-checked Sep 2, 2026: same page scope, no abortion statement found; Ballotpedia confirms no survey",
         "democracy": "re-checked Sep 2, 2026: same page scope, no new voting or elections statement found beyond the previously logged ranked-choice-voting repeal position"
       },
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ak-house-al-hafner",
@@ -559,7 +563,7 @@
         "Oppose new taxes on the oil and gas industry"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": 1,
         "immigration": null,
@@ -568,7 +572,7 @@
         "education": -1,
         "safety": 2,
         "repro": null,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "taxes": {
@@ -590,6 +594,14 @@
         "housing": {
           "label": "Policy platform pledges to 'secure control of Alaska's land and put it to work for families, ensuring housing is attainable and communities can grow' (davebronson.com policies page)",
           "url": "https://www.davebronson.com/policies"
+        },
+        "democracy": {
+          "label": "Campaign election reform paper: \"In-person voting should require a government-issued photo ID,\" \"absentee ballots should require a notarized signature,\" \"ballots must be received by Election Day,\" and end automatic registration because registering \"should be a deliberate act\" (Bronson for Governor, Alaska Election Reform paper, 2026)",
+          "url": "https://static1.squarespace.com/static/68def31ea843886c5ba2599d/t/699b403534951f1920a40ca1/1771782197494/Alaska+Election+Reform-+Restoring+Trust+and+Security.pdf"
+        },
+        "cost": {
+          "label": "Answers high heating bills with supply and a friendlier investment climate: the gas line to bring \"plentiful, cheap natural gas\" and fixing \"a very unhealthy investment environment right now due to the Legislature ... being hostile\" (Alaska Public Media, Aug 10 2026)",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race"
         }
       },
       "nullNotes": {
@@ -611,9 +623,13 @@
         {
           "label": "Ballotpedia: David Bronson",
           "url": "https://ballotpedia.org/David_Bronson"
+        },
+        {
+          "label": "Bronson campaign: Alaska Election Reform paper (PDF)",
+          "url": "https://static1.squarespace.com/static/68def31ea843886c5ba2599d/t/699b403534951f1920a40ca1/1771782197494/Alaska+Election+Reform-+Restoring+Trust+and+Security.pdf"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ak-gov-english",

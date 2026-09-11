@@ -1014,16 +1014,16 @@
         "Equitably raising revenue from those who most benefit"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -2,
         "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1049,6 +1049,18 @@
         "repro": {
           "label": "'Will fight to codify our basic human rights' on reproductive healthcare and opposes 'a total nationwide abortion ban' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Carmela_Conroy"
+        },
+        "cost": {
+          "label": "Would \"pass an inflation-indexed federal minimum wage law with paid time off and paid sick leave\" and \"end the tariff chaos\" to cut consumer prices (Conroy for Congress priorities page)",
+          "url": "https://conroy4congress.com/priorities/"
+        },
+        "immigration": {
+          "label": "Would \"defund construction and operation of detention centers as fast as humanely possible\" and hold DHS accountable for border security (Conroy for Congress priorities page)",
+          "url": "https://conroy4congress.com/priorities/"
+        },
+        "democracy": {
+          "label": "Candidate Connection survey lists \"ensuring access to the ballot\" among her core commitments (Ballotpedia, 2026)",
+          "url": "https://ballotpedia.org/Carmela_Conroy"
         }
       },
       "nullNotes": {
@@ -1065,9 +1077,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4WA05168/"
+        },
+        {
+          "label": "Conroy for Congress: Priorities",
+          "url": "https://conroy4congress.com/priorities/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4WA06117",

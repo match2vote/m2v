@@ -959,6 +959,10 @@
         {
           "label": "Politics1 Illinois 2026 candidate list",
           "url": "https://politics1.com/il.htm"
+        },
+        {
+          "label": "WTTW 2026 primary voter guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/tommy-hanson"
         }
       ],
       "age": null,
@@ -972,7 +976,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 1,
         "taxes": 1,
@@ -1002,6 +1006,10 @@
         "repro": {
           "label": "States \"I am pro-life and believe that every person deserves the opportunity to pursue life, liberty and happiness\" (campaign site)",
           "url": "https://votetommyhanson.com/issues"
+        },
+        "health": {
+          "label": "Would address health costs \"through insurance companies competing across state lines, like auto insurance, and not one size fits all\" (WTTW 2026 primary voter guide)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/tommy-hanson"
         }
       },
       "nullNotes": {
@@ -1011,7 +1019,7 @@
         "education": "re-checked Sep 2, 2026: same source, no education statement found beyond youth-engagement-through-schools language in a crime-prevention context",
         "democracy": "re-checked Sep 2, 2026: same source, no voting/elections statement found"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "il-house-9-elleson",
@@ -1278,15 +1286,15 @@
         "Community-based public safety"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
-        "housing": null,
+        "housing": -1,
         "immigration": 1,
         "taxes": 1,
         "climate": null,
         "education": 2,
         "safety": 0,
-        "repro": null,
+        "repro": 1,
         "democracy": null
       },
       "positionSources": {
@@ -1308,6 +1316,18 @@
         },
         "health": {
           "label": "Centers healthcare policy on patients over bureaucracy with Medicaid integrity reforms and hospital accountability (christianmaxwellforcongress.com/issues)",
+          "url": "https://christianmaxwellforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Says families are \"squeezed by inflation, property taxes, utility costs, and government waste\" and answers with lower tax burdens and spending accountability rather than price controls (campaign issues page)",
+          "url": "https://christianmaxwellforcongress.com/issues"
+        },
+        "housing": {
+          "label": "Backs \"anti-displacement\" policy, first-time buyer support and using \"HUD, FHA, and federal mortgage programs\" to expand homeownership for working families (campaign issues page)",
+          "url": "https://christianmaxwellforcongress.com/issues"
+        },
+        "repro": {
+          "label": "Lists \"pro-life and pro-mother support\" and says policy \"should protect life,\" with conscience protections and federal support for mothers, no explicit ban proposal (campaign issues page)",
           "url": "https://christianmaxwellforcongress.com/issues"
         }
       },
@@ -1332,7 +1352,7 @@
           "url": "https://www.fec.gov/data/candidate/H6IL01191/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL02355",
@@ -1497,13 +1517,13 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 1,
         "taxes": 1,
         "climate": null,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": -2,
         "democracy": -1
       },
@@ -1531,6 +1551,14 @@
         "democracy": {
           "label": "Champions \"safe and accessible voting\" and \"transparent policymaking,\" wanting government \"centered on the electorate, not political elites\" (campaign site)",
           "url": "http://libertyangel.us"
+        },
+        "health": {
+          "label": "Would \"uphold Social Security and Medicare obligations\" while backing \"medical freedom,\" patient choice, price transparency and lower drug costs \"through competition\" (campaign policy page)",
+          "url": "https://www.libertyangel.us/policy"
+        },
+        "safety": {
+          "label": "Calls for \"strong, accountable policing\" and federal support for combating violent crime, drugs and trafficking, alongside \"community safety initiatives tailored to local needs\" (campaign policy page)",
+          "url": "https://www.libertyangel.us/policy"
         }
       },
       "nullNotes": {
@@ -1551,9 +1579,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL03163/"
+        },
+        {
+          "label": "Campaign policy page",
+          "url": "https://www.libertyangel.us/policy"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL04153",
@@ -1968,14 +2000,14 @@
         "Voting-rights protections"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": -1
       },
@@ -1994,6 +2026,18 @@
         },
         "democracy": {
           "label": "Supports \"enshrining the sacred right to vote\" (campaign site)",
+          "url": "https://lashawnkford.com/issues"
+        },
+        "cost": {
+          "label": "Would fight inflation by enforcing antitrust law against \"corporate price gouging,\" expanding the Child Tax Credit and EITC, and passing the Raise the Wage Act to lift the federal minimum wage (Chicago Sun-Times questionnaire, 2026)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/la-shawn-k-ford-illinois-primary-7th-congressional-district"
+        },
+        "immigration": {
+          "label": "\"Deeply concerned\" about ICE's Operation Midway Blitz, saying enforcement \"must be lawful, targeted, and accountable,\" and backs the Protecting Sensitive Locations Act and federal law enforcement oversight bills (Chicago Sun-Times questionnaire, 2026)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/la-shawn-k-ford-illinois-primary-7th-congressional-district"
+        },
+        "safety": {
+          "label": "Believes in \"helping ex-offenders re-enter society\" and lists restorative justice among his priorities (campaign site)",
           "url": "https://lashawnkford.com/issues"
         }
       },
@@ -2017,9 +2061,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL07354/"
+        },
+        {
+          "label": "Chicago Sun-Times 2026 questionnaire",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/la-shawn-k-ford-illinois-primary-7th-congressional-district"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2IL08203",
@@ -2103,7 +2151,7 @@
       "background": "Democratic nominee in the open Illinois 8th District (Rep. Raja Krishnamoorthi is running for Senate); previously represented Illinois' 8th District in Congress from 2005 to 2011.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -2,
@@ -2138,6 +2186,10 @@
         "democracy": {
           "label": "Pledges to 'protect and expand voting rights, including early and mail-in voting' (Melissa Bean campaign site)",
           "url": "https://www.melissabeanforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Affordability plan leans on federal support: \"restoring Affordable Care Act tax credits,\" restoring community college and IRA funding, and \"full funding of the CHIPS and Infrastructure bills,\" while ending \"non-strategic tariffs\" that act as \"a tax on U.S. consumers\" (Chicago Sun-Times questionnaire, 2026)",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/melissa-l-bean-illinois-primary-8th-congressional-district"
         }
       },
       "nullNotes": {
@@ -2162,9 +2214,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL08329/"
+        },
+        {
+          "label": "Chicago Sun-Times 2026 questionnaire",
+          "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/melissa-l-bean-illinois-primary-8th-congressional-district"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL08311",
@@ -2187,7 +2243,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 1,
@@ -2221,6 +2277,10 @@
         "safety": {
           "label": "Calls for equipping law enforcement with \"advanced training, modern equipment, and technology\" (campaign site)",
           "url": "https://www.votejenniferdavis.com/issues"
+        },
+        "health": {
+          "label": "Says \"Congress must prioritize market-driven reforms to increase competition and transparency, such as allowing insurance purchases across state lines, expanding health savings accounts, and reducing unnecessary regulations\" (WTTW 2026 primary voter guide)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/jennifer-davis"
         }
       },
       "nullNotes": {
@@ -2241,9 +2301,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL08311/"
+        },
+        {
+          "label": "WTTW 2026 primary voter guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/jennifer-davis"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL09228",
@@ -2848,15 +2912,15 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 2,
         "climate": 1,
         "education": 1,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -2878,6 +2942,22 @@
         "safety": {
           "label": "Pledges to \"stand with law enforcement officers\" against \"violent crime\" and \"human trafficking\" (campaign site)",
           "url": "https://www.wilsonforcongress.com/issues"
+        },
+        "health": {
+          "label": "\"It is not the federal government's role to take care of every issue that affects our lives\"; wants \"the states themselves step up to the plate\" on health care, and told iVoterGuide Medicaid and Medicare should remain but \"no other taxpayer-funded programs are necessary\" (Illinois Public Media, 2026)",
+          "url": "https://ipmnewsroom.org/gop-congressional-candidate-jeff-wilson-on-tariffs-energy-production-and-healthcare/"
+        },
+        "taxes": {
+          "label": "Strongly disagrees that higher earners should pay more: \"Taxes are out of control. I support the reduction of taxes. Less taxes equals more prosperity for American citizens\" (iVoterGuide 2026 survey)",
+          "url": "https://ivoterguide.com/candidate/89061/race/23786/election/1346?culture=en-us"
+        },
+        "repro": {
+          "label": "Calls abortion \"a States Rights issue\" and supports Dobbs, and strongly agrees the Comstock Act ban on mailing anything \"intended for producing abortion\" should be enforced (iVoterGuide 2026 survey)",
+          "url": "https://ivoterguide.com/candidate/89061/race/23786/election/1346?culture=en-us"
+        },
+        "democracy": {
+          "label": "Strongly disagrees that people should be able to vote without photo ID (iVoterGuide 2026 survey)",
+          "url": "https://ivoterguide.com/candidate/89061/race/23786/election/1346?culture=en-us"
         }
       },
       "nullNotes": {
@@ -2899,9 +2979,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL13154/"
+        },
+        {
+          "label": "iVoterGuide 2026 survey",
+          "url": "https://ivoterguide.com/candidate/89061/race/23786/election/1346?culture=en-us"
+        },
+        {
+          "label": "Illinois Public Media interview",
+          "url": "https://ipmnewsroom.org/gop-congressional-candidate-jeff-wilson-on-tariffs-energy-production-and-healthcare/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8IL14174",
@@ -3172,7 +3260,7 @@
         "climate": null,
         "education": -2,
         "safety": null,
-        "repro": null,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -3191,6 +3279,10 @@
         "education": {
           "label": "Will 'fight to fully fund our public schools and increase teacher pay so we can recruit and retain the educators our students deserve' (Jennifer Ann Todd campaign site)",
           "url": "https://jentodd2026.us/issues"
+        },
+        "repro": {
+          "label": "Says she disagrees with Rep. Mary Miller \"especially [on] transgender individuals and abortion rights,\" calling Miller's stance \"taking us all backwards,\" and her platform backs \"the freedom to make personal healthcare decisions without government interference\" (campaign news post, Journal-Courier profile, 2025)",
+          "url": "https://www.jentodd2026.us/news/jennifer-todd-aims-to-challenge-rep-mary-miller-for-congressional-seat-in-2026"
         }
       },
       "nullNotes": {
@@ -3213,9 +3305,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL15092/"
+        },
+        {
+          "label": "Campaign news post (Journal-Courier profile)",
+          "url": "https://www.jentodd2026.us/news/jennifer-todd-aims-to-challenge-rep-mary-miller-for-congressional-seat-in-2026"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL18088",

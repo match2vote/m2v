@@ -352,7 +352,7 @@
         "education": -2,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -378,6 +378,10 @@
         "cost": {
           "label": "Says fair treatment of employees and paying a living wage is critical (terriforidaho.com)",
           "url": "https://terriforidaho.com/issues/"
+        },
+        "democracy": {
+          "label": "Urged Idaho senators to vote NO on the SAVE Act proof-of-citizenship bill, warning \"the law could stop millions of Americans from voting,\" especially young people, people of color and married women whose names changed (Terri for Idaho blog, Feb 17, 2026)",
+          "url": "https://www.terriforidaho.com/terrisblog/please-contact-us-sens-risch-and-crapo-to-tell-them-to-vote-no-on-the-save-act"
         }
       },
       "sources": [
@@ -392,9 +396,13 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Terri_Pickens"
+        },
+        {
+          "label": "Pickens blog: SAVE Act",
+          "url": "https://www.terriforidaho.com/terrisblog/please-contact-us-sens-risch-and-crapo-to-tell-them-to-vote-no-on-the-save-act"
         }
       ],
-      "curatedAt": "2026-08-13",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "housing": "re-checked Sep 2, 2026: terriforidaho.com/issues/ re-fetched, /priorities guessed URL 404s, no housing policy stated",
         "climate": "re-checked Sep 2, 2026: same re-fetch, no climate or energy policy stated",

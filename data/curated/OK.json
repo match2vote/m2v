@@ -228,11 +228,11 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": 0,
         "safety": 2,
         "repro": 2,
@@ -262,6 +262,14 @@
         "repro": {
           "label": "'Life begins at conception'; opposes abortion in all circumstances (campaign issues)",
           "url": "https://mikeforok.com/the-issues/"
+        },
+        "health": {
+          "label": "Opposes Medicaid expansion, saying \"the state can't afford it,\" while also opposing privatized Medicaid managed care (\"It's been a failure everywhere it's been tried\") and vowing not to renew insurer contracts (KOSU candidate profile, 2026)",
+          "url": "https://www.kosu.org/mike-mazzei-oklahoma-2026-gubernatorial-election"
+        },
+        "climate": {
+          "label": "Touts that as a state senator \"I killed the $1.5 billion giveaway to the wind power companies\" and says Oklahoma must \"stop losing companies like Devon Energy to the state of Texas\" (News 9, May 29, 2026)",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/candidate-mike-mazzei-vision-oklahoma-governors-race"
         }
       },
       "sources": [
@@ -280,9 +288,17 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Mike_Mazzei"
+        },
+        {
+          "label": "KOSU: candidate profile",
+          "url": "https://www.kosu.org/mike-mazzei-oklahoma-2026-gubernatorial-election"
+        },
+        {
+          "label": "News 9: Mazzei outlines vision",
+          "url": "https://www.news9.com/oklahoma-governors-race-2026/candidate-mike-mazzei-vision-oklahoma-governors-race"
         }
       ],
-      "curatedAt": "2026-08-13",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: mikeforok.com/the-issues/ and /the-plan/ fetched fresh, still no health care content (page covers property tax elimination, foreign land ownership, education, jobs, accountability, right to life)",
         "housing": "re-checked Sep 2, 2026: mikeforok.com/the-issues/ frames the topic entirely as property-tax elimination for homeowners/seniors/veterans, not a housing-supply or renter-protection statement",
@@ -309,16 +325,16 @@
         "Let voters repeal the abortion ban"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
-        "climate": null,
+        "taxes": -1,
+        "climate": 1,
         "education": -2,
         "safety": -2,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -340,6 +356,26 @@
         "repro": {
           "label": "Would 'send the repeal of the abortion ban to a vote of the people' (campaign priorities)",
           "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "cost": {
+          "label": "Pledges to \"raise the minimum wage for all Oklahomans,\" has \"continually authored legislation to raise the minimum wage,\" and says she has \"stood up to corporations, like Wal-Mart, that are instituting dynamic pricing\" on groceries (Munson campaign priorities page)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "housing": {
+          "label": "\"Supports incentives for the building of affordable housing in urban and rural Oklahoma\" and will \"stand up to insurance companies to lower home insurance costs\" (Munson campaign priorities page)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "taxes": {
+          "label": "\"Opposed to further income tax cuts that benefit the wealthiest, while giving little back to everyday Oklahomans,\" would \"end corporate giveaways to large out of state corporations\" and expand the EITC and sales tax relief credit (Munson campaign priorities page)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "climate": {
+          "label": "Backs an \"all of the above approach\" to energy, meaning \"she will support oil, natural gas, and renewable energy production\" while protecting landowner rights (Munson campaign priorities page)",
+          "url": "https://www.cyndimunson.com/Priorities"
+        },
+        "democracy": {
+          "label": "As House Democratic Leader urged a veto of SB 1027, which capped initiative-petition signatures from urban counties: Oklahomans \"know it works to silence their efforts to engage in direct democracy\" (Oklahoma House Democrats release, May 7, 2025)",
+          "url": "https://www.okhouse.gov/posts/news-20250507_3"
         }
       },
       "sources": [
@@ -354,9 +390,13 @@
         {
           "label": "KOSU: candidate profile",
           "url": "https://www.kosu.org/cyndi-munson-oklahoma-2026-gubernatorial-election"
+        },
+        {
+          "label": "OK House Democrats: SB 1027 statement",
+          "url": "https://www.okhouse.gov/posts/news-20250507_3"
         }
       ],
-      "curatedAt": "2026-08-13",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: cyndimunson.com/issues/ (fresh subpage) still only 'Lower Healthcare Costs for Oklahomans,' a health-cost framing already assessed as not a general cost mechanism",
         "housing": "re-checked Sep 2, 2026: cyndimunson.com/issues/ fetched fresh, no housing content",
@@ -861,8 +901,8 @@
         "immigration": 1,
         "taxes": 2,
         "climate": 1,
-        "education": null,
-        "safety": null,
+        "education": -1,
+        "safety": 1,
         "repro": 2,
         "democracy": null
       },
@@ -886,6 +926,14 @@
         "repro": {
           "label": "Campaign commits to 'protect the unborn' under a 'Faith, Family, and Freedom' platform plank (campaign website)",
           "url": "https://www.tedfordforcongress.com/"
+        },
+        "education": {
+          "label": "Campaign launch coverage: \"Improving public education is a priority. Tedford advocates for increased funding for schools, better teacher support, and expanded access to vocational training\"; earlier pushed higher teacher pay because \"current wages were not competitive in the Oklahoma jobs market\" (The Ten District, 2025; Wikipedia)",
+          "url": "https://www.thetendistrict.com/jenks/mark-tedford-s-bold-move-launching-his-congressional-campaign-for-oklahoma-s-first-district"
+        },
+        "safety": {
+          "label": "\"Strengthening law enforcement and community programs to reduce crime is part of his plan to keep neighborhoods safe\" (The Ten District campaign launch coverage, 2025)",
+          "url": "https://www.thetendistrict.com/jenks/mark-tedford-s-bold-move-launching-his-congressional-campaign-for-oklahoma-s-first-district"
         }
       },
       "sources": [
@@ -900,9 +948,17 @@
         {
           "label": "Tulsa Flyer: Tedford outdoes Trump endorsement",
           "url": "https://tulsaflyer.org/2026/06/09/government/post/mark-tedford-us-house-race/"
+        },
+        {
+          "label": "The Ten District: campaign launch",
+          "url": "https://www.thetendistrict.com/jenks/mark-tedford-s-bold-move-launching-his-congressional-campaign-for-oklahoma-s-first-district"
+        },
+        {
+          "label": "Wikipedia: Mark Tedford",
+          "url": "https://en.wikipedia.org/wiki/Mark_Tedford"
         }
       ],
-      "curatedAt": "2026-09-02",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: tedfordforcongress.com homepage fetched fresh (single-page site, /issues 404s), no health content",
         "housing": "re-checked Sep 2, 2026: same fresh fetch, no housing content beyond already-scored items",
@@ -932,15 +988,15 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -2,
         "housing": -1,
         "immigration": 0,
-        "taxes": null,
+        "taxes": -1,
         "climate": 0,
         "education": -2,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "safety": -1,
+        "repro": -1,
+        "democracy": -1
       },
       "positionSources": {
         "housing": {
@@ -958,6 +1014,26 @@
         "climate": {
           "label": "Says 'we need to invest in every type of energy to have a diversified, sustainable, and strong energy economy' while also wanting 'a shifted focus onto environmentally friendly energy' (Croisant for Congress issues page)",
           "url": "https://www.croisantforcongress.com/issues"
+        },
+        "health": {
+          "label": "\"Health care should be universal for everyone\"; faults Hern for opposing Medicaid expansion and ACA subsidies, and his issues page backs \"Medicaid expansion, ACA subsidies, or a broader universal coverage model\" (Black Wall Street Times town hall, Jan 21, 2026)",
+          "url": "https://theblackwallsttimes.com/2026/01/21/croisant-takes-on-kevin-herns-record-in-first-black-wall-street-times-town-hall/"
+        },
+        "taxes": {
+          "label": "Called the 2025 GOP megabill \"a reckless transfer of wealth to the richest Americans at the expense of the rest of us\" that will \"hurt the poor, squeeze the middle class\" (Black Wall Street Times, Jul 3, 2025)",
+          "url": "https://theblackwallsttimes.com/2025/07/03/john-croisant-slams-kevin-hern-for-backing-trumps-mega-bill/"
+        },
+        "safety": {
+          "label": "Endorsed law enforcement accountability and praised Tulsa's mental health crisis response model: \"If you have a mental health crisis, you should not end up dead\" (Black Wall Street Times town hall, Jan 21, 2026)",
+          "url": "https://theblackwallsttimes.com/2026/01/21/croisant-takes-on-kevin-herns-record-in-first-black-wall-street-times-town-hall/"
+        },
+        "repro": {
+          "label": "Says \"restrictive state abortion laws\" are contributing to Black maternal mortality and Oklahoma is \"losing doctors\" as a result (Black Wall Street Times town hall, Jan 21, 2026)",
+          "url": "https://theblackwallsttimes.com/2026/01/21/croisant-takes-on-kevin-herns-record-in-first-black-wall-street-times-town-hall/"
+        },
+        "democracy": {
+          "label": "\"We need laws at the federal level to protect voting rights\"; also backs open primaries and overturning Citizens United (Black Wall Street Times town hall, Jan 21, 2026)",
+          "url": "https://theblackwallsttimes.com/2026/01/21/croisant-takes-on-kevin-herns-record-in-first-black-wall-street-times-town-hall/"
         }
       },
       "sources": [
@@ -976,9 +1052,17 @@
         {
           "label": "Public Radio Tulsa profile",
           "url": "https://www.publicradiotulsa.org/local-regional/2025-02-13/tps-board-member-to-run-for-congress-warns-against-spreading-oklahomas-education-policies"
+        },
+        {
+          "label": "Black Wall Street Times: town hall",
+          "url": "https://theblackwallsttimes.com/2026/01/21/croisant-takes-on-kevin-herns-record-in-first-black-wall-street-times-town-hall/"
+        },
+        {
+          "label": "Black Wall Street Times: megabill statement",
+          "url": "https://theblackwallsttimes.com/2025/07/03/john-croisant-slams-kevin-hern-for-backing-trumps-mega-bill/"
         }
       ],
-      "curatedAt": "2026-09-02",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: croisantforcongress.com homepage fetched fresh, only 'fight to lower the costs' with no mechanism",
         "health": "re-checked Sep 2, 2026: croisantforcongress.com homepage and /issues fetched fresh, no health content",
@@ -1692,7 +1776,7 @@
         "immigration": 0,
         "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -2,
         "safety": null,
         "repro": null,
         "democracy": null
@@ -1717,6 +1801,10 @@
         "taxes": {
           "label": "Opposes Trump's 2025 tax law as 'an unprecedented tax break for the richest of the rich' that adds '$2.4 trillion to the deficit' (jenanelson.com/issues/).",
           "url": "https://jenanelson.com/issues/"
+        },
+        "education": {
+          "label": "\"Does not support school vouchers, as she believes they directly take funding away from rural schools,\" wants to \"increase funding for Oklahoma public schools, increase teacher pay\" and a counselor in every school; in 2026 told NonDoc \"invest in your teachers\" and defended the federal Department of Education (OU Daily, 2022; NonDoc, Jun 4, 2026)",
+          "url": "https://www.oudaily.com/news/ryan-walters-jena-nelson-face-off-to-be-oklahomas-next-superintendent-of-public-instruction/article_4f7ea5de-5df7-11ed-816a-f72fc0584f07.html"
         }
       },
       "sources": [
@@ -1727,9 +1815,17 @@
         {
           "label": "NonDoc: Nelson beats Martin in CD 5",
           "url": "https://nondoc.com/2026/06/17/jena-nelson-wins-cd-5-dems-nomination-incumbents-sweep-oklahoma-congressional-primaries/"
+        },
+        {
+          "label": "OU Daily: 2022 superintendent race",
+          "url": "https://www.oudaily.com/news/ryan-walters-jena-nelson-face-off-to-be-oklahomas-next-superintendent-of-public-instruction/article_4f7ea5de-5df7-11ed-816a-f72fc0584f07.html"
+        },
+        {
+          "label": "NonDoc: CD 5 Democratic primary",
+          "url": "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/"
         }
       ],
-      "curatedAt": "2026-09-02",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "climate": "checked Sep 2, 2026: jenanelson.com/issues/ (newly discovered campaign site via politics1.com roster) has no climate/energy content",
         "education": "checked Sep 2, 2026: jenanelson.com/issues/ has no education content",

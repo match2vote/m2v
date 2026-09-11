@@ -1153,7 +1153,7 @@
         "immigration": null,
         "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": null,
         "democracy": -2
@@ -1174,6 +1174,10 @@
         "democracy": {
           "label": "Would 'restore Voting Rights Act protections' (campaign site)",
           "url": "https://davedawsonforiowa.com/"
+        },
+        "education": {
+          "label": "Describes himself as an \"advocate for Head Start, family development programs, and fair wages\" (Dawson campaign about page)",
+          "url": "https://davedawsonforiowa.com/about"
         }
       },
       "nullNotes": {
@@ -1200,9 +1204,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IA04217/"
+        },
+        {
+          "label": "Campaign about page",
+          "url": "https://davedawsonforiowa.com/about"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

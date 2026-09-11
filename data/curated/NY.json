@@ -1553,7 +1553,7 @@
         "immigration": 2,
         "taxes": 2,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": null,
         "democracy": 2
@@ -1578,6 +1578,10 @@
         "democracy": {
           "label": "Backs the SAVE Act and voter ID requirements, and has active litigation against the NYC Board of Elections to 'close voter registration loopholes' (campaign site)",
           "url": "https://jmw4congress.com/"
+        },
+        "education": {
+          "label": "Platform calls for 'no multi-gender sexuality ideology in early education' and protecting 'women's sports & private spaces,' a parental-control curriculum stance (campaign site)",
+          "url": "https://jmw4congress.com/"
         }
       },
       "nullNotes": {
@@ -1597,7 +1601,7 @@
           "url": "https://www.politics1.com/ny.htm"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ny-house-15-sapaskis",
@@ -2200,15 +2204,15 @@
         "Back the Blue policing support"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": null,
         "safety": 2,
-        "repro": null,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -2227,6 +2231,18 @@
         "safety": {
           "label": "'100% Back The Blue' during the 'defund police' movement (campaign site)",
           "url": "https://www.mikelipetriforcongress.com/"
+        },
+        "cost": {
+          "label": "'Affordability starts with letting Americans keep more of what they earn,' building off the Trump tax cuts, lifting the SALT cap and ending taxes on tips, overtime and Social Security (campaign site)",
+          "url": "https://www.mikelipetriforcongress.com/"
+        },
+        "climate": {
+          "label": "'We need to become more energy independent. When we lower energy costs, the costs of goods and doing business comes down across the board' (Patch candidate profile, 2024)",
+          "url": "https://patch.com/new-york/glencove/candidate-profile-mike-lipetri-3rd-congressional-district"
+        },
+        "repro": {
+          "label": "'I support women's rights. I am 100% opposed to a national ban and I trust women' (Patch candidate profile, 2024)",
+          "url": "https://patch.com/new-york/glencove/candidate-profile-mike-lipetri-3rd-congressional-district"
         }
       },
       "nullNotes": {
@@ -2245,9 +2261,13 @@
         {
           "label": "Mike LiPetri for Congress",
           "url": "https://www.mikelipetriforcongress.com/"
+        },
+        {
+          "label": "Patch candidate profile, 2024",
+          "url": "https://patch.com/new-york/glencove/candidate-profile-mike-lipetri-3rd-congressional-district"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NY04244",
@@ -2973,12 +2993,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": -1,
         "taxes": 1,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": 1,
         "repro": -1,
         "democracy": -1
@@ -3007,6 +3027,14 @@
         "safety": {
           "label": "Voted yea on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "health": {
+          "label": "Voted no on H.R.1, the One Big Beautiful Bill Act, whose Medicaid work requirements and funding changes were projected to remove millions from coverage (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "On Trump's order to dismantle the Department of Education: 'I adamantly oppose this negligent action. Abolishing a federal agency requires an Act of Congress' (latimer.house.gov)",
+          "url": "https://latimer.house.gov/issues/education"
         }
       },
       "nullNotes": {
@@ -3027,9 +3055,17 @@
         {
           "label": "House roll call 23, Laken Riley Act",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Rep. Latimer, Education issue page",
+          "url": "https://latimer.house.gov/issues/education"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NY17162",
@@ -3699,11 +3735,11 @@
         "Expanding voting access"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": -1,
@@ -3734,6 +3770,14 @@
         "safety": {
           "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "taxes": {
+          "label": "Voted no on H.R.1, the One Big Beautiful Bill Act making the 2017 TCJA tax cuts permanent while cutting Medicaid and SNAP spending (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "cost": {
+          "label": "Cites 'a hike in the minimum wage,' equal pay and paid leave as solutions for middle-class families struggling to make ends meet (tonko.house.gov)",
+          "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15244"
         }
       },
       "nullNotes": {
@@ -3754,9 +3798,17 @@
         {
           "label": "House roll call 23, Laken Riley Act",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Rep. Tonko, Strengthening the Middle Class",
+          "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15244"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY20225",
@@ -4094,13 +4146,13 @@
         "Backing law enforcement"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": 2,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": 2,
-        "education": null,
+        "education": 1,
         "safety": 2,
         "repro": null,
         "democracy": null
@@ -4125,6 +4177,18 @@
         "safety": {
           "label": "'Unapologetically backs the blue,' supporting law enforcement funding/training and opposing cashless bail (campaign site)",
           "url": "https://kaileebuller.com/"
+        },
+        "cost": {
+          "label": "Would 'restore affordability' by 'repealing those costly climate mandates' and expanding child care and dependent care tax credits (campaign site)",
+          "url": "https://kaileebuller.com/"
+        },
+        "immigration": {
+          "label": "'Those folks who came here illegally and are criminals have to go, 100%,' backs securing the border and opposes 'blanket amnesty,' while seeking a bipartisan fix for long-term undocumented workers and the H-2A visa program (WRVO Campbell Conversations, Jun 27, 2026)",
+          "url": "https://www.wrvo.org/show/campbell-conversations-0/2026-06-27/kailee-buller-on-the-campbell-conversations"
+        },
+        "education": {
+          "label": "Favors 'investing in outcomes' over more spending, 'curriculum transparency for parents' and expanded vocational training, noting New York 'spends more per student than almost any state' with below-average scores (campaign site)",
+          "url": "https://kaileebuller.com/"
         }
       },
       "nullNotes": {
@@ -4142,9 +4206,13 @@
         {
           "label": "Kailee Buller for Congress",
           "url": "https://kaileebuller.com/"
+        },
+        {
+          "label": "WRVO Campbell Conversations, Jun 27, 2026",
+          "url": "https://www.wrvo.org/show/campbell-conversations-0/2026-06-27/kailee-buller-on-the-campbell-conversations"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NY23228",
@@ -4496,7 +4564,7 @@
         "immigration": -1,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": -1,
         "democracy": null
@@ -4521,6 +4589,10 @@
         "repro": {
           "label": "Described as 'a defender of a woman's right to choose,' opposing the incumbent's anti-abortion stance (campaign site)",
           "url": "https://ellmanforcongress.com/issues"
+        },
+        "education": {
+          "label": "Wants to extend public school education down to age 2 as part of making family life more affordable (WRVO, Jun 22, 2026)",
+          "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
         }
       },
       "nullNotes": {
@@ -4538,9 +4610,13 @@
         {
           "label": "Ellman for Congress, Issues",
           "url": "https://ellmanforcongress.com/issues"
+        },
+        {
+          "label": "WRVO, Meet the Democrats in NY-24, Jun 22, 2026",
+          "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8NY25105",
@@ -4778,13 +4854,13 @@
         "Healthcare-market competition and price transparency"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": 1,
         "housing": 2,
         "immigration": null,
         "taxes": 2,
-        "climate": null,
-        "education": null,
+        "climate": 2,
+        "education": 2,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -4804,6 +4880,18 @@
         },
         "safety": {
           "label": "Would 'champion and support our law enforcement officers and first responders' (campaign site)",
+          "url": "https://carolinefornewyork.com/priorities"
+        },
+        "cost": {
+          "label": "Would 'lower the cost of living through increasing energy production,' cut federal income tax on W-2 wages and balance the budget to 'help cure inflation' (campaign site)",
+          "url": "https://carolinefornewyork.com/priorities"
+        },
+        "climate": {
+          "label": "Promotes 'an all-energy-options-on-the-table approach and common-sense, strategic deregulation' to cut energy costs (campaign site)",
+          "url": "https://carolinefornewyork.com/priorities"
+        },
+        "education": {
+          "label": "'Empower parents with school choice and greater curriculum transparency' (campaign site)",
           "url": "https://carolinefornewyork.com/priorities"
         }
       },
@@ -4825,7 +4913,7 @@
           "url": "https://carolinefornewyork.com/priorities"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY12313",
@@ -5158,9 +5246,9 @@
       "positions": {
         "cost": null,
         "health": -2,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": -1,
@@ -5191,6 +5279,14 @@
         "safety": {
           "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "taxes": {
+          "label": "Voted no on H.R.1, the One Big Beautiful Bill Act making the 2017 TCJA tax cuts permanent while cutting Medicaid and SNAP spending (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "housing": {
+          "label": "Reintroduced the 'Basement Bill' to fund grants converting basements into safe apartments for 'low-to-moderate income earners' and pressed FHFA to restore Fannie and Freddie support for Special Purpose Credit Programs for homebuyers (meeks.house.gov)",
+          "url": "https://meeks.house.gov/issues/housing"
         }
       },
       "nullNotes": {
@@ -5215,9 +5311,17 @@
         {
           "label": "House roll call 102, SAVE Act",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Rep. Meeks, Housing issue page",
+          "url": "https://meeks.house.gov/issues/housing"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY07214",
@@ -5239,15 +5343,15 @@
         "Abolish ICE"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": -2,
         "immigration": -2,
         "taxes": -1,
         "climate": -2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": -1,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -5270,6 +5374,18 @@
         "climate": {
           "label": "Platform calls to \"freeze electricity rates, hold corporations accountable, and invest in a rapid transition to an affordable, clean, and reliable energy system\" (clairevaldezforcongress.com/issues)",
           "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Calls for 'universal rent control,' 'freezing electricity rates,' a 32-hour work week with no pay cut and a guaranteed 'job with a living wage' (campaign site)",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "repro": {
+          "label": "Answered 'Yes' to supporting 'the unrestricted right to reproductive care and abortion' (Jim Owles Liberal Democratic Club questionnaire, 2026)",
+          "url": "https://jimowles.org/news/candidate-answers-to-joldc-claire-valdez-for-us-congress-ny-07-2026"
+        },
+        "safety": {
+          "label": "Opposes the death penalty, would outlaw solitary confinement, and commits to visiting incarcerated constituents and working toward release of rehabilitated people (Jim Owles Liberal Democratic Club questionnaire, 2026)",
+          "url": "https://jimowles.org/news/candidate-answers-to-joldc-claire-valdez-for-us-congress-ny-07-2026"
         }
       },
       "nullNotes": {
@@ -5287,9 +5403,13 @@
         {
           "label": "Claire Valdez for Congress, Issues",
           "url": "https://clairevaldezforcongress.com/issues"
+        },
+        {
+          "label": "Jim Owles Liberal Democratic Club questionnaire, 2026",
+          "url": "https://jimowles.org/news/candidate-answers-to-joldc-claire-valdez-for-us-congress-ny-07-2026"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NY10092",
@@ -5467,10 +5587,10 @@
         "health": -2,
         "housing": -2,
         "immigration": -2,
-        "taxes": null,
-        "climate": null,
+        "taxes": -1,
+        "climate": -2,
         "education": -2,
-        "safety": null,
+        "safety": -2,
         "repro": -1,
         "democracy": null
       },
@@ -5498,6 +5618,18 @@
         "repro": {
           "label": "Medicare for All platform explicitly lists 'reproductive care' among covered services (campaign site)",
           "url": "https://darializaforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Criticizes 'individuals like Elon Musk and Jeff Bezos continuing to hoard wealth and not invest and pay their taxes' (NY Editorial Board interview)",
+          "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
+        },
+        "climate": {
+          "label": "Backs 'a Green New Deal for Public Housing' creating 300,000 union jobs and fully decarbonizing NYCHA, equal to 'taking over 400,000 cars off the street' (NY Editorial Board interview)",
+          "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
+        },
+        "safety": {
+          "label": "'We have to think about how do we create a society where people feel so safe that they don't need to pick up the phone and call the police' (NY Editorial Board interview)",
+          "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
         }
       },
       "nullNotes": {
@@ -5514,9 +5646,13 @@
         {
           "label": "Darializa for Congress, Issues",
           "url": "https://darializaforcongress.com/issues"
+        },
+        {
+          "label": "NY Editorial Board interview",
+          "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0NY15160",
@@ -5538,10 +5674,10 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": 0,
         "immigration": 2,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": 1,
@@ -5568,6 +5704,18 @@
         "safety": {
           "label": "Voted yes on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025)",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "taxes": {
+          "label": "Voted no on H.R.1, the One Big Beautiful Bill Act making the 2017 TCJA tax cuts permanent while cutting Medicaid and SNAP spending (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "health": {
+          "label": "Voted no on H.R.1, the One Big Beautiful Bill Act, whose Medicaid work requirements and funding changes were projected to remove millions from coverage (clerk.house.gov roll 190, Jul 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "housing": {
+          "label": "Authored ROAD to Housing Act provisions that cut red tape ('We're cutting red tape so families can get bigger, more affordable apartments') alongside public housing oversight and a Section 8 savings pilot, and separately proposed making housing vouchers a federal entitlement (ritchietorres.house.gov, Jul 13, 2026)",
+          "url": "https://ritchietorres.house.gov/posts/rep-torres-on-the-21st-century-road-to-housing-act-becoming-law"
         }
       },
       "nullNotes": {
@@ -5589,9 +5737,21 @@
         {
           "label": "House roll call 102, SAVE Act",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House roll call 190, One Big Beautiful Bill Act",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        {
+          "label": "Rep. Torres on ROAD to Housing Act",
+          "url": "https://ritchietorres.house.gov/posts/rep-torres-on-the-21st-century-road-to-housing-act-becoming-law"
+        },
+        {
+          "label": "Rep. Torres, Ending Homelessness Act release",
+          "url": "https://ritchietorres.house.gov/posts/rep-torres-housing-advocates-announce-new-federal-legislation-to-combat-homelessness"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY15167",

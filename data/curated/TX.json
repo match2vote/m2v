@@ -1368,18 +1368,18 @@
           "url": "https://www.thetexasvoice.com/flores-faceoff-cd-34-candidates-rumble-at-forum/"
         }
       ],
-      "curatedAt": "2026-08-17",
+      "curatedAt": "2026-09-11",
       "priorities": [
         "Secure the border and dismantle the cartels",
         "Support law enforcement and veterans",
         "Lower the cost of living and defend South Texas water resources"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
+        "housing": -1,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": null,
         "safety": 1,
@@ -1402,6 +1402,18 @@
         "democracy": {
           "label": "Press release attacking Gonzalez for opposing the SAVE Act proof of citizenship requirement: \"When you vote to weaken safeguards around our elections, you weaken trust in the entire system\", February 12, 2026",
           "url": "https://www.ericflores.com/_files/ugd/514376_144ea2c58cba497091c95c15bcdc6cd4.pdf"
+        },
+        "cost": {
+          "label": "'Lower the Cost of Living' priority: 'I'll oppose reckless federal spending that fuels inflation, fight to cut the red tape driving up costs' (campaign priorities page)",
+          "url": "https://www.ericflores.com/priorities"
+        },
+        "housing": {
+          "label": "'Lower the Cost of Living' priority pledges to 'support affordable housing solutions that keep pace with our growing communities' (campaign priorities page)",
+          "url": "https://www.ericflores.com/priorities"
+        },
+        "taxes": {
+          "label": "Attacks the incumbent because 'Vicente Gonzalez voted against real tax relief for working families' and 'wants to tax seniors' benefits', paired with a pledge to 'oppose reckless federal spending' (campaign priorities page)",
+          "url": "https://www.ericflores.com/priorities"
         }
       },
       "nullNotes": {
@@ -1633,14 +1645,14 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": -2,
         "taxes": null,
         "climate": null,
         "education": -1,
         "safety": -1,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -1666,6 +1678,14 @@
         "repro": {
           "label": "I will protect reproductive care, no family should delay care or go into debt just to stay healthy (Ballotpedia Candidate Connection survey).",
           "url": "https://ballotpedia.org/Dione_Sims"
+        },
+        "housing": {
+          "label": "'I will lower everyday costs by taking on corporate price gouging, expanding affordable housing, and reducing health care and prescription drug costs', and 'I care deeply about housing stability' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Dione_Sims"
+        },
+        "democracy": {
+          "label": "'I will protect voting rights, equal protection, free speech, and due process' and 'protect an independent judiciary and fair, nonpartisan elections' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Dione_Sims"
         }
       },
       "nullNotes": {
@@ -1674,7 +1694,7 @@
         "climate": "re-checked Sep 2, 2026: same metadata-only fetch",
         "democracy": "re-checked Sep 2, 2026: same metadata-only fetch"
       },
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "tx-house-34-royal",
@@ -2458,7 +2478,7 @@
         "education": -2,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -2484,6 +2504,10 @@
         "repro": {
           "label": "Campaign priority: ensure that women have the right to make their own healthcare decisions (campaign site)",
           "url": "https://shaunfinnieforcongress.com/"
+        },
+        "democracy": {
+          "label": "In an interview writeup he 'rejects the logic of voter suppression outright' and argues 'democracies function best when participation expands, not contracts' (Egberto Willies interview writeup, 2026)",
+          "url": "https://egberto.substack.com/p/texas-cd2-democrat-shaun-finnie-takes"
         }
       },
       "nullNotes": {
@@ -2522,7 +2546,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX02251/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2TX00064",
@@ -2903,7 +2927,7 @@
         "cost": -2,
         "health": -2,
         "housing": -2,
-        "immigration": null,
+        "immigration": -2,
         "taxes": -1,
         "climate": null,
         "education": -1,
@@ -2935,6 +2959,10 @@
         "democracy": {
           "label": "Ballotpedia Candidate Connection survey: eliminate the electoral college, make voting day a federal holiday, expand voting locations and provide free transportation to the polls (Ballotpedia)",
           "url": "https://ballotpedia.org/Jason_Pearce"
+        },
+        "immigration": {
+          "label": "'We need to unmask and defund and abolish ICE, bring them all before Congress,' and he backs better routes to citizenship for immigrants (KERA News Collin County primary guide, Feb 10 2026)",
+          "url": "https://www.keranews.org/news/2026-02-10/collin-county-primary-elections-2026"
         }
       },
       "nullNotes": {
@@ -2967,9 +2995,13 @@
         {
           "label": "Ballotpedia TX-04 2026 election page",
           "url": "https://ballotpedia.org/Texas%27_4th_Congressional_District_election,_2026"
+        },
+        {
+          "label": "KERA News Collin County primary voter guide, February 10 2026",
+          "url": "https://www.keranews.org/news/2026-02-10/collin-county-primary-elections-2026"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8TX05144",
@@ -3800,7 +3832,7 @@
         "housing": -1,
         "immigration": null,
         "taxes": -2,
-        "climate": null,
+        "climate": -1,
         "education": -1,
         "safety": null,
         "repro": -1,
@@ -3830,6 +3862,10 @@
         "repro": {
           "label": "Reproductive rights listed as one of the four pillars of her campaign, alongside affordable healthcare, living wages and education (Egberto Willies candidate profile)",
           "url": "https://egberto.substack.com/p/texas-district-8-democratic-candidate"
+        },
+        "climate": {
+          "label": "Would 'continue to invest in alternative energy to create jobs throughout our district' as part of her economic relief plan (Community Impact candidate Q and A, Oct 2022)",
+          "url": "https://communityimpact.com/houston/tomball-magnolia/government/2022/10/07/qa-get-to-know-the-candidates-running-for-us-rep-district-8/"
         }
       },
       "nullNotes": {
@@ -3872,7 +3908,7 @@
           "url": "https://laurajonesforcongress.com/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX10221",
@@ -4865,7 +4901,7 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": null,
         "safety": 2,
@@ -4892,6 +4928,10 @@
         "democracy": {
           "label": "'Elections should be EASY TO VOTE, AND HARD TO CHEAT'; calls for election integrity legislation 'with real teeth' (campaign site)",
           "url": "https://alexandramealer.com/"
+        },
+        "taxes": {
+          "label": "Signed the Americans for Tax Reform Taxpayer Protection Pledge, committing to 'oppose and vote against income tax hikes' (Americans for Tax Reform, Jan 23 2026)",
+          "url": "https://atr.org/alexandra-mealer-makes-no-new-taxes-promise-to-texas-voters-in-us-congress/"
         }
       },
       "nullNotes": {
@@ -4937,9 +4977,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX09140/"
+        },
+        {
+          "label": "Americans for Tax Reform pledge announcement, January 23 2026",
+          "url": "https://atr.org/alexandra-mealer-makes-no-new-taxes-promise-to-texas-voters-in-us-congress/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX09231",
@@ -4969,7 +5013,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -4987,6 +5031,10 @@
         "climate": {
           "label": "Wants stronger enforcement against industrial polluters in east Harris County and campaigns for 'cleaner air and healthier neighborhoods' (Houston Defender Network)",
           "url": "https://defendernetwork.com/people/dn-news-profiles/black-hispanic-environmental-justice-houston/"
+        },
+        "democracy": {
+          "label": "Attacks the 2025 mid-decade gerrymander of her district: 'They redrew this district to silence the East End,' and urges every eligible resident to vote in November (Democracy Docket, 2026)",
+          "url": "https://democracydocket.com/news-alerts/ice-killed-a-man-in-houston-and-residents-want-answers-but-trumps-gerrymander-may-take-away-their-voice-in-congress/"
         }
       },
       "nullNotes": {
@@ -5055,7 +5103,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX09231/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0TX15124",
@@ -5727,11 +5775,11 @@
         "local economic growth and job creation"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": -1,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": 0,
         "safety": 2,
@@ -5758,6 +5806,14 @@
         "safety": {
           "label": "'Backed by the San Antonio Police Officers Association, we fiercely support law enforcement and advocate for safer streets,' a campaign pillar of 'protection by defending our critical infrastructure and firmly backing law enforcement,' and a proposed Protect Law Enforcement Agencies Act to ensure police 'have the resources, support, and protections necessary to keep our communities safe' (campaign site and legislation page)",
           "url": "https://drbaezforcongress.com/"
+        },
+        "cost": {
+          "label": "On inflation he would 'Reject broad fiscal expansions like $2,000 tariff rebate checks, which echo COVID-era stimulus that drove inflation', and fix health costs by 'fixing ACA without massive subsidies' (San Antonio Report candidate questionnaire, 2026)",
+          "url": "https://sanantonioreport.org/profile/edgardo-baez-2026-candidate-for-texas-20th-congressional-district/"
+        },
+        "taxes": {
+          "label": "Would 'Target a deficit of 3% of GDP or less by 2030 through spending cuts and revenue measures' and curb 'growth in entitlements without tax hikes' via means-testing or higher retirement ages (San Antonio Report candidate questionnaire, 2026)",
+          "url": "https://sanantonioreport.org/profile/edgardo-baez-2026-candidate-for-texas-20th-congressional-district/"
         }
       },
       "nullNotes": {
@@ -5817,7 +5873,7 @@
           "url": "https://www.vote411.org/texas"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX21301",
@@ -5937,11 +5993,11 @@
         "government oversight and reform"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": 0,
-        "taxes": null,
+        "taxes": -2,
         "climate": null,
         "education": -1,
         "safety": null,
@@ -5968,6 +6024,18 @@
         "democracy": {
           "label": "'Every Texan deserves an equal voice in the democratic process. We need to expand voting rights and get the corrupting influence of money out of politics' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Kristin_Hook"
+        },
+        "cost": {
+          "label": "'To rein in inflation, we must lower the cost of living for people' by 'allowing Medicare to negotiate drug prices, and cracking down on corporate price gouging and monopolies', plus 'raising the federal minimum wage' (San Antonio Report candidate questionnaire, 2026)",
+          "url": "https://sanantonioreport.org/profile/kristin-hook-2026-candidate-for-texas-21st-congressional-district/"
+        },
+        "housing": {
+          "label": "'I will fight to lower the cost of housing' and that means 'building more affordable housing' (San Antonio Report candidate questionnaire, 2026)",
+          "url": "https://sanantonioreport.org/profile/kristin-hook-2026-candidate-for-texas-21st-congressional-district/"
+        },
+        "taxes": {
+          "label": "'I support raising the federal minimum wage, unrigging our tax code so the wealthy pay their fair share, and strengthening Medicare, Medicaid, and Social Security' (San Antonio Report candidate questionnaire, 2026)",
+          "url": "https://sanantonioreport.org/profile/kristin-hook-2026-candidate-for-texas-21st-congressional-district/"
         }
       },
       "nullNotes": {
@@ -6003,7 +6071,7 @@
           "url": "https://www.fec.gov/data/candidate/H4TX21108/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX22283",
@@ -6107,9 +6175,9 @@
         "housing": null,
         "immigration": -1,
         "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "climate": -1,
+        "education": -2,
+        "safety": 1,
         "repro": -2,
         "democracy": -2
       },
@@ -6133,6 +6201,18 @@
         "democracy": {
           "label": "\"Passing the John Lewis Voting Rights Advancement Act would strengthen voting rights by expanding and strengthening the government's ability to respond to voting discrimination\" (Ballotpedia Candidate Connection)",
           "url": "https://ballotpedia.org/Marquette_Greene-Scott"
+        },
+        "climate": {
+          "label": "Agreed that 'Man-made climate change is a global threat and requires urgent political action', while adding 'we need to use various energy sources to meet demand and not rely on one' (iVoterGuide candidate survey, 2024 general)",
+          "url": "https://ivoterguide.com/candidate/82299/race/6580/election/1214?culture=en-us"
+        },
+        "education": {
+          "label": "'I do not believe in school choice. I believe it takes money away from public schools. Low income families cannot afford to send their children to private schools' (iVoterGuide candidate survey, 2024 general)",
+          "url": "https://ivoterguide.com/candidate/82299/race/6580/election/1214?culture=en-us"
+        },
+        "safety": {
+          "label": "Answered 'Disagree' to redirecting funds from police to community programs (iVoterGuide candidate survey, 2024 general)",
+          "url": "https://ivoterguide.com/candidate/82299/race/6580/election/1214?culture=en-us"
         }
       },
       "nullNotes": {
@@ -6158,9 +6238,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4TX22197/"
+        },
+        {
+          "label": "iVoterGuide candidate survey, 2024",
+          "url": "https://ivoterguide.com/candidate/82299/race/6580/election/1214?culture=en-us"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4TX23120",
@@ -6491,16 +6575,16 @@
         "Restoring abortion rights"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": -1,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -6518,6 +6602,22 @@
         "housing": {
           "label": "Lists affordable housing among his top campaign priorities, alongside restoring checks and balances and Medicare for All (campaign home page)",
           "url": "https://www.burgeforcongress.com/home"
+        },
+        "cost": {
+          "label": "Issues page 'A future we can afford': 'No Texan should have to choose between paying rent, filling up their tank, or putting food on the table', pledging to 'Vote to raise the federal minimum wage' (campaign issues page)",
+          "url": "https://www.burgeforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "'A Fair, Humane Immigration System': 'Secure the border with smart technology and well-trained personnel, not political stunts', 'Expand and streamline legal pathways for workers and families' and 'Protect Dreamers and keep families together' (campaign issues page)",
+          "url": "https://www.burgeforcongress.com/issues"
+        },
+        "climate": {
+          "label": "'Green Energy Jobs and Environmental Protections': 'Invest in alternative energy sources to ensure clean American Produced energy' and 'Hold AI companies accountable for environmental damage' (campaign issues page)",
+          "url": "https://www.burgeforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "'Government Reform & Defending our Democracy': 'Pass the John Lewis Voting Rights Act' and 'End Citizens United to get big money out of elections' (campaign issues page)",
+          "url": "https://www.burgeforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -6554,7 +6654,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX24172/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2TX33040",
@@ -6773,7 +6873,7 @@
         "education": -2,
         "safety": 0,
         "repro": null,
-        "democracy": null
+        "democracy": 0
       },
       "positionSources": {
         "cost": {
@@ -6798,6 +6898,10 @@
         },
         "safety": {
           "label": "Mixed: 'strengthening public safety through community policing' with de-escalation and crisis intervention training (campaign site)",
+          "url": "https://shookforcongress2026.com/"
+        },
+        "democracy": {
+          "label": "Documented mixed: Government Accountability & Democracy plank pledges to 'Defend voting rights while upholding election integrity and the rule of law' (campaign site)",
           "url": "https://shookforcongress2026.com/"
         }
       },
@@ -6833,7 +6937,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX26144/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8TX27049",
@@ -6974,10 +7078,10 @@
         "Women's healthcare"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -2,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": -1,
         "climate": -1,
         "education": -2,
@@ -7000,6 +7104,18 @@
         },
         "climate": {
           "label": "Texas should lead the way in the global energy transition to secure our economic future, backing an all of the above strategy for solar, wind, hydrogen, and geothermal jobs (Lone Star Left, in her own words).",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
+        },
+        "cost": {
+          "label": "'I support raising the minimum wage (and indexing it to inflation) to ensure that any Texan working a full-time job can actually afford to live in the community where they work', opposing 'subsidizing the poverty wages of billion-dollar corporations with our tax dollars' (Lone Star Left, in her own words)",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
+        },
+        "health": {
+          "label": "'Every American deserves the security of knowing a medical emergency won't lead to bankruptcy, which is why I support moving toward a universal system like Medicare for All' (Lone Star Left, in her own words)",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
+        },
+        "immigration": {
+          "label": "'We need a border that is both secure and humane, moving away from reactive chaos toward an orderly, rule-based system', backing 'streamlining legal pathways for the workers our Texas economy desperately needs' while ensuring enforcement 'does not trample on basic constitutional rights' (Lone Star Left, in her own words)",
           "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
         }
       },
@@ -7031,9 +7147,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4TX27089/"
+        },
+        {
+          "label": "Lone Star Left, Meet the Candidates: Tanya Lloyd",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8TX29052",
@@ -7527,14 +7647,14 @@
         "election integrity"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": 1,
-        "safety": null,
+        "safety": 2,
         "repro": 2,
         "democracy": 1
       },
@@ -7562,6 +7682,14 @@
         "democracy": {
           "label": "Biography: in 2024 he 'volunteered to deploy to inner-city Detroit as an attorney to combat voter fraud' in the presidential election (campaign site about page)",
           "url": "https://www.jaceforcongress.com/about"
+        },
+        "cost": {
+          "label": "'Cutting Runaway Spending' plank: 'Gluttonous spending and the inflation it causes hurts middle and working class families', framing inflation as a product of federal spending to be cut (campaign priorities page)",
+          "url": "https://www.jaceforcongress.com/priorities"
+        },
+        "safety": {
+          "label": "'President Trump's bold and decisive action to close the border and deploy the National Guard to crime-ridden cities has saved countless American lives' (campaign priorities page)",
+          "url": "https://www.jaceforcongress.com/priorities"
         }
       },
       "nullNotes": {
@@ -7596,7 +7724,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX32225/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX32217",
@@ -8116,8 +8244,8 @@
         "veterans' benefits"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -2,
         "housing": null,
         "immigration": -2,
         "taxes": -2,
@@ -8151,6 +8279,14 @@
         "democracy": {
           "label": "'The SAVE Act would block an estimated 39 million Americans from voting... Requiring a Real ID before you can vote is a poll tax by another name' (hart4congress.com).",
           "url": "https://hart4congress.com"
+        },
+        "cost": {
+          "label": "Cost of living plank: working families 'are being squeezed from every direction', with the answer 'Raise the minimum wage. Tax billionaires.' (hart4congress.com)",
+          "url": "https://hart4congress.com"
+        },
+        "health": {
+          "label": "'Healthcare should be affordable and accessible to all Texans', 'Create a healthcare system that doesn't hold people hostage to insurance company profits. Every American deserves healthcare that isn't tied to a paycheck or a premium', and she attacks Babin's vote that 'cut Medicaid' (hart4congress.com)",
+          "url": "https://hart4congress.com"
         }
       },
       "nullNotes": {
@@ -8177,7 +8313,7 @@
           "url": "https://www.fec.gov/data/candidate/H4TX14111/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2TX35144",
@@ -8404,16 +8540,16 @@
         "Parental control of schools"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": 1,
         "safety": null,
         "repro": 2,
-        "democracy": null
+        "democracy": 2
       },
       "positionSources": {
         "immigration": {
@@ -8431,6 +8567,22 @@
         "repro": {
           "label": "Issues section, Protect Life: \"Life begins at conception. No compromise.\" (Jon Bonck for Congress)",
           "url": "https://www.jonbonck.com/#Issues"
+        },
+        "cost": {
+          "label": "'Working families don't need relief funded by bigger government or higher taxes on anyone', backing 'Zero-based budgeting so agencies must justify every dollar they spend, every year' (iVoterGuide survey, May 2026 runoff)",
+          "url": "https://ivoterguide.com/candidate/89450/race/28749/election/1433?culture=en-us"
+        },
+        "health": {
+          "label": "Chose the survey option 'Taxpayer funded health care should be abolished in all forms, and Medicaid and Medicare should be defunded' (iVoterGuide survey, May 2026 runoff)",
+          "url": "https://ivoterguide.com/candidate/89450/race/28749/election/1433?culture=en-us"
+        },
+        "climate": {
+          "label": "Named 'Oil and Gas, and Nuclear' as the most reliable energy sources to supply growing electricity demand (iVoterGuide survey, May 2026 runoff)",
+          "url": "https://ivoterguide.com/candidate/89450/race/28749/election/1433?culture=en-us"
+        },
+        "democracy": {
+          "label": "'Strongly Disagree' with the statement 'People should be able to vote without photo identification' (iVoterGuide survey, May 2026 runoff)",
+          "url": "https://ivoterguide.com/candidate/89450/race/28749/election/1433?culture=en-us"
         }
       },
       "nullNotes": {
@@ -8471,7 +8623,7 @@
           "url": "https://www.fec.gov/data/candidate/H6TX02244/"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4TX38011",
@@ -9263,7 +9415,7 @@
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": null,
         "safety": null,
@@ -9286,6 +9438,10 @@
         "immigration": {
           "label": "Favors streamlining legal immigration, saying legal pathways to become American citizens should be expanded, and supports protecting those fleeing persecution (campaign Immigration and the Border issue page)",
           "url": "https://rableforwesttexas.com"
+        },
+        "taxes": {
+          "label": "Would 'end all sweetheart deals' for data center projects: 'All of these companies must pay their full and fair share of taxes on the land, electricity, and water that they use' (campaign issues page)",
+          "url": "https://www.rableforwesttexas.com/issues"
         }
       },
       "nullNotes": {
@@ -9308,9 +9464,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX19198/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.rableforwesttexas.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX19206",

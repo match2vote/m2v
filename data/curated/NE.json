@@ -643,7 +643,7 @@
         "Lowering costs and reining in the national debt"
       ],
       "positions": {
-        "cost": null,
+        "cost": 0,
         "health": -2,
         "housing": 1,
         "immigration": 0,
@@ -670,6 +670,10 @@
         "immigration": {
           "label": "Platform would 'pass comprehensive immigration reform that creates a genuine pathway to citizenship and keeps families together' while also promising to 'ensure strong security at the southern border while enforcing immigration laws' (Backemeyer for Nebraska issues page)",
           "url": "https://backnebraska.com/smart-fair-immigration-and-a-secure-border/"
+        },
+        "cost": {
+          "label": "Mixed: would 'roll back tariffs that are hurting Nebraska's farmers and driving up costs for producers and consumers' (market-side relief) while also pledging to 'expand the Child Tax Credit to put more money back in families' pockets' (direct support) (Backemeyer for Nebraska issues page)",
+          "url": "https://backnebraska.com/lowering-costs-restoring-the-middle-class/"
         }
       },
       "nullNotes": {
@@ -696,9 +700,13 @@
         {
           "label": "Nebraska Examiner: fundraising brief",
           "url": "https://nebraskaexaminer.com/briefs/democrat-chris-backemeyer-brings-in-six-figure-fundraising-haul-in-nebraskas-1st-district/"
+        },
+        {
+          "label": "Campaign issues page: lowering costs",
+          "url": "https://backnebraska.com/lowering-costs-restoring-the-middle-class/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NE02208",
@@ -721,10 +729,10 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": 2,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": null,
         "safety": null,
@@ -747,6 +755,18 @@
         "democracy": {
           "label": "Backs 'Voter ID to ensure only American citizens can vote' (campaign website)",
           "url": "https://www.brinkerharding.com/vision"
+        },
+        "health": {
+          "label": "Would 'protect critical programs like Social Security, Medicaid, and Medicare' and 'guarantee Americans pay the same low prices for prescription drugs as other developed countries' (campaign website, vision page)",
+          "url": "https://www.brinkerharding.com/vision"
+        },
+        "housing": {
+          "label": "Proposes cutting housing-cost regulations, saying 'government regulation accounts for nearly a third' of the cost of an Omaha home (Nebraska Examiner 2026 primary voter guide)",
+          "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-2/"
+        },
+        "taxes": {
+          "label": "Lists keeping taxes low among his affordability priorities and blames Biden-era spending that 'drove inflation to 9.1%' (Nebraska Examiner 2026 primary voter guide)",
+          "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-2/"
         }
       },
       "nullNotes": {
@@ -773,9 +793,13 @@
         {
           "label": "Nebraska Examiner: Speaker Johnson endorsement",
           "url": "https://nebraskaexaminer.com/2026/07/18/us-house-speaker-mike-johnson-says-brinker-harding-is-common-sense-candidate-for-ne-02/"
+        },
+        {
+          "label": "Nebraska Examiner: 2026 primary voter guide, NE-2",
+          "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-2/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NE02174",
@@ -964,16 +988,16 @@
         "Support labor unions and farmers hurt by tariffs"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -1,
         "safety": 1,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "immigration": {
@@ -995,6 +1019,18 @@
         "safety": {
           "label": "Says law enforcement officers 'are committed to safeguarding our neighborhoods, schools and businesses' and 'equipping them with necessary support, training, and resources is vital' (Becky Stille for Congress issues page)",
           "url": "https://www.beckystille2026.com/issues"
+        },
+        "cost": {
+          "label": "Names 'livable wages' among her top issues alongside health care reform and tariffs, citing 'the rising costs of living: groceries, fuel for our vehicles and heating our homes and lifesaving medications' (Nebraska Examiner 2026 primary voter guide)",
+          "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-3/"
+        },
+        "taxes": {
+          "label": "Says Trump's 2025 'budget and tax bill that passed earlier this summer will hurt friends and family members' (Nebraska Examiner, Sep 29, 2025)",
+          "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        },
+        "democracy": {
+          "label": "'I will fight to secure our democracy. The presence of shadow money and rampant disinformation have resulted in politicians choosing voters instead of the other way around' (Becky Stille for Congress issues page)",
+          "url": "https://www.beckystille2026.com/issues"
         }
       },
       "nullNotes": {
@@ -1012,9 +1048,17 @@
         {
           "label": "Nebraska Examiner: Stille profile",
           "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.beckystille2026.com/issues"
+        },
+        {
+          "label": "Nebraska Examiner: 2026 primary voter guide, NE-3",
+          "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-3/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NE03198",

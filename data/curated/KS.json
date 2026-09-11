@@ -1332,7 +1332,7 @@
         "immigration": 0,
         "taxes": null,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": -2,
         "democracy": -2
@@ -1361,6 +1361,10 @@
         "democracy": {
           "label": "Supports 'restoring protections of the Voting Rights Act' and ending 'partisan gerrymandering' (KMUW voter guide)",
           "url": "https://www.kmuw.org/2026-07-20/voter-guide-u-s-congressional-4th-district-candidates-for-the-august-primary-election"
+        },
+        "education": {
+          "label": "Pledges to \"support strong public schools, expand career and technical education\" and \"ensure students, teachers, and parents have the resources they need\" (katyforkansas.com issues page, 2026)",
+          "url": "https://katyforkansas.com/issues/"
         }
       },
       "nullNotes": {
@@ -1387,7 +1391,7 @@
           "url": "https://www.fec.gov/data/candidate/H6KS04272/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

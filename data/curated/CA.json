@@ -1438,9 +1438,9 @@
         "Smaller government, lower taxes"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
-        "housing": null,
+        "housing": -1,
         "immigration": 2,
         "taxes": 1,
         "climate": 2,
@@ -1469,6 +1469,14 @@
         "safety": {
           "label": "Platform pillar of unwavering support for law enforcement (campaign site)",
           "url": "https://verlatoforcongress.com"
+        },
+        "cost": {
+          "label": "Prices 'are soaring' because of 'record inflation unleashed by a multi-trillion-dollar spending spree'; answer is fighting reckless spending, cutting taxes, and ending 'burdensome regulations that stifle growth' (Ballotpedia campaign themes; campaign issues page)",
+          "url": "https://ballotpedia.org/April_Verlato"
+        },
+        "housing": {
+          "label": "Helped create the San Gabriel Valley Regional Housing Trust Fund to address homelessness, favoring 'quicker access to funding with local oversight' plus more mental health and substance abuse treatment facilities (Ballotpedia campaign themes; campaign issues page)",
+          "url": "https://ballotpedia.org/April_Verlato"
         }
       },
       "nullNotes": {
@@ -1492,7 +1500,7 @@
           "url": "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-33-vargas",
@@ -1515,14 +1523,14 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": null,
         "education": 2,
         "safety": 1,
-        "repro": null,
+        "repro": 2,
         "democracy": 1
       },
       "positionSources": {
@@ -1541,6 +1549,18 @@
         "democracy": {
           "label": "Committed to fighting for Election Integrity so elections are conducted in a way that restores trust (campaign site platform section)",
           "url": "https://www.stephanievargas4congress.com"
+        },
+        "health": {
+          "label": "Says 'Medicaid and Medicare should remain available, but no other taxpayer-funded programs are necessary' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90608/race/25594/election/1385"
+        },
+        "immigration": {
+          "label": "Supports 'legal, orderly' merit-based immigration for those who 'pass strict security vetting' and opposes sanctuary cities because they 'undermine the rule of law' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90608/race/25594/election/1385"
+        },
+        "repro": {
+          "label": "Asked when abortion should be permitted: 'Never. Even if the mother's life is in danger, the baby should be delivered'; supports enforcing the Comstock Act (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90608/race/25594/election/1385"
         }
       },
       "nullNotes": {
@@ -1559,9 +1579,13 @@
         {
           "label": "California Secretary of State, certified Statement of Vote, June 2, 2026 primary, U.S. Representative",
           "url": "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf"
+        },
+        {
+          "label": "iVoterGuide profile",
+          "url": "https://ivoterguide.com/candidate/90608/race/25594/election/1385"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-37-mota",
@@ -1654,15 +1678,15 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": 1,
         "climate": null,
         "education": 2,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
@@ -1684,6 +1708,18 @@
         "safety": {
           "label": "Wants a justice system that does not incentivize or reward criminal behavior, with offenders held accountable and crime victims advocated for (campaign homepage)",
           "url": "https://casasforcongress.com"
+        },
+        "health": {
+          "label": "Calls Medicaid and Medicare 'crucial' but opposes universal healthcare as 'not sustainable' and wants audits to eliminate fraud (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/78417/race/25599/election/1385"
+        },
+        "repro": {
+          "label": "Says 'life begins at conception', strongly supports legal protection for the unborn and strongly agrees the Comstock Act should be enforced (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/78417/race/25599/election/1385"
+        },
+        "democracy": {
+          "label": "Strongly disagrees with voting without photo ID, saying 'the idea that no identification is required is inviting massive voter fraud' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/78417/race/25599/election/1385"
         }
       },
       "nullNotes": {
@@ -1709,9 +1745,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "iVoterGuide profile",
+          "url": "https://ivoterguide.com/candidate/78417/race/25599/election/1385"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-39-manos",
@@ -2313,7 +2353,7 @@
         "Path to citizenship and end mass deportations"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": 0,
         "immigration": -2,
@@ -2321,7 +2361,7 @@
         "climate": -2,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -2348,6 +2388,14 @@
         "education": {
           "label": "Platform includes universal free childcare, a federally backed vocational/trade program with unions, and expanded STEM curriculum (Ballotpedia summary of campaign platform)",
           "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        },
+        "cost": {
+          "label": "Plan 'goes after corporate price-gouging, lowers everyday costs': cracking down on price gouging, strengthening antitrust enforcement, plus a $10,000 Middle-Class Tax Credit (Ballotpedia campaign themes)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
+        },
+        "repro": {
+          "label": "'Ensure Medicare covers abortion care, contraception, IVF, and fertility services so families, not politicians or insurers, can make their own decisions' (Ballotpedia campaign themes)",
+          "url": "https://ballotpedia.org/Eric_Jones_(California)"
         }
       },
       "nullNotes": {
@@ -2370,7 +2418,7 @@
           "url": "https://ballotpedia.org/Eric_Jones_(California)"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CA04152",
@@ -3153,8 +3201,8 @@
         "climate": 1,
         "education": null,
         "safety": 0,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 2
       },
       "positionSources": {
         "health": {
@@ -3176,6 +3224,14 @@
         "safety": {
           "label": "Mixed: platform lists both 'Mental Health Initiatives' and 'Support for Local Law Enforcement' under his Crime priorities (campaign site)",
           "url": "https://www.johnmcbrideforcongress.com"
+        },
+        "repro": {
+          "label": "Served on the Stockton Pregnancy Help Center board 'to help women choose to keep their babies'; 'there must be greater options than taking a life of a baby through abortion' (Lodi News-Sentinel primary profile, 2026)",
+          "url": "https://www.lodinews.com/news/article_fee3ec5c-c400-429a-9820-53fa18d73970.html"
+        },
+        "democracy": {
+          "label": "'Voter ID needs to required in all elections. Same-day voting with only requested mail-in ballots insures election integrity' (Lodi News-Sentinel primary profile, 2026)",
+          "url": "https://www.lodinews.com/news/article_fee3ec5c-c400-429a-9820-53fa18d73970.html"
         }
       },
       "nullNotes": {
@@ -3193,9 +3249,13 @@
         {
           "label": "Campaign site",
           "url": "https://www.johnmcbrideforcongress.com"
+        },
+        {
+          "label": "Lodi News-Sentinel, CA-9 primary profile",
+          "url": "https://www.lodinews.com/news/article_fee3ec5c-c400-429a-9820-53fa18d73970.html"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0CA10073",
@@ -3677,15 +3737,15 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
+        "health": -1,
         "housing": 0,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 0,
         "climate": 1,
         "education": 1,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -3711,6 +3771,22 @@
         "housing": {
           "label": "Plans to reduce federal regulations that drive up housing costs while also pledging to limit corporate housing speculation that prices families out of the market (bobsmithforcongress.com)",
           "url": "https://bobsmithforcongress.com/issues"
+        },
+        "health": {
+          "label": "Picks public option: 'Healthcare insurance funded by the government should be available for all who want it, along with private healthcare options' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90453/race/25585/election/1385"
+        },
+        "taxes": {
+          "label": "Agrees 'people who can afford to pay more taxes should do so' and that 'wealthy individuals shouldn't be able to use complex loopholes', yet strongly agrees federal spending must be cut to address the debt (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90453/race/25585/election/1385"
+        },
+        "repro": {
+          "label": "Opposes a federal abortion ban and Comstock Act enforcement, says California voters have decided and women and doctors should decide, but opposes taxpayer funding for elective abortion (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90453/race/25585/election/1385"
+        },
+        "democracy": {
+          "label": "'Requiring identification to vote is a reasonable step to protect election integrity', with IDs made 'free and easy to obtain so no eligible voter is excluded' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/90453/race/25585/election/1385"
         }
       },
       "nullNotes": {
@@ -3727,9 +3803,13 @@
         {
           "label": "Campaign site",
           "url": "https://bobsmithforcongress.com"
+        },
+        {
+          "label": "iVoterGuide survey",
+          "url": "https://ivoterguide.com/candidate/90453/race/25585/election/1385"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA52163",
@@ -4128,11 +4208,11 @@
         "Election integrity via the SAVE Act"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": 1,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": 1,
         "safety": 2,
@@ -4163,6 +4243,14 @@
         "safety": {
           "label": "As a Nevada County supervisor voted to fund sheriff communications and mobile technology and district attorney and probation grants, and will fight to expand federal grants for rural deputy hiring, retention, vehicles, and body cameras (robbtucker.com)",
           "url": "https://robbtucker.com/platform"
+        },
+        "cost": {
+          "label": "Backs a Balanced Budget Amendment to 'curb rampant inflation and national debt' and mandatory small-business impact assessments to cut federal paperwork burdens (robbtucker.com platform)",
+          "url": "https://robbtucker.com/platform"
+        },
+        "taxes": {
+          "label": "Government 'should live within its means' like families and employers: supports a Balanced Budget Amendment and spending restraint, no tax increases proposed (robbtucker.com platform)",
+          "url": "https://robbtucker.com/platform"
         }
       },
       "nullNotes": {
@@ -4185,7 +4273,7 @@
           "url": "https://ballotpedia.org/Robb_Tucker"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA29141",
@@ -4204,12 +4292,12 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": -1,
         "democracy": -1
@@ -4234,6 +4322,22 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "housing": {
+          "label": "Touts securing $3 billion in 2023-2024 state housing and homelessness expenditures and establishing the California Interagency Council on Homelessness (campaign site, accomplishments page)",
+          "url": "https://www.luzforcongress.com/new-page"
+        },
+        "education": {
+          "label": "Led the legislation that made California the first state with a statewide Universal Meals Program of free school lunches, and authored bills to identify and serve homeless K-12 students (campaign site, accomplishments page)",
+          "url": "https://www.luzforcongress.com/new-page"
+        },
+        "health": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which cut Medicaid spending and added work requirements, Jul 3 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, Jul 3 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -4255,9 +4359,17 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "Campaign site: accomplishments",
+          "url": "https://www.luzforcongress.com/new-page"
+        },
+        {
+          "label": "House roll call 190 (One Big Beautiful Bill Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CA29100",
@@ -4570,11 +4682,11 @@
         "Veterans benefits"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -1,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": -1,
@@ -4601,6 +4713,18 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "health": {
+          "label": "Voted against the Republican Medicaid cuts in the 'One Big Ugly Bill' that would force 'an estimated 17 million Americans to lose their health care coverage', and introduced the Medicare Dental, Vision, and Hearing Benefit Act to expand Medicare coverage (sherman.house.gov, seniors page)",
+          "url": "https://sherman.house.gov/issues/seniors"
+        },
+        "taxes": {
+          "label": "Backs Social Security 2100, which requires that 'millionaires and billionaires pay the same Social Security taxes as everyone else' without raising taxes on those earning under $400,000 (sherman.house.gov, seniors page)",
+          "url": "https://sherman.house.gov/issues/seniors"
+        },
+        "cost": {
+          "label": "Touts the Inflation Reduction Act's $35 insulin copay cap and Medicare's authority to negotiate drug prices directly with manufacturers as wins for seniors (sherman.house.gov, seniors page)",
+          "url": "https://sherman.house.gov/issues/seniors"
         }
       },
       "nullNotes": {
@@ -4626,9 +4750,13 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "sherman.house.gov: Fighting for Seniors",
+          "url": "https://sherman.house.gov/issues/seniors"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA32137",
@@ -4651,15 +4779,15 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": 2,
         "taxes": 2,
         "climate": 2,
         "education": 1,
         "safety": 2,
-        "repro": null,
-        "democracy": null
+        "repro": 0,
+        "democracy": 1
       },
       "positionSources": {
         "climate": {
@@ -4681,6 +4809,18 @@
         "immigration": {
           "label": "Says to keep the border closed, deport those here illegally, and govern by existing immigration law (campaign issues page)",
           "url": "https://www.larrythompsonforcongress.com/issues"
+        },
+        "health": {
+          "label": "Says 'healthcare insurance funded by the government should be available for all who want it, along with private healthcare options' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/51687/race/25593/election/1385"
+        },
+        "democracy": {
+          "label": "Disagrees that 'people should be able to vote without photo identification' (iVoterGuide survey, 2026)",
+          "url": "https://ivoterguide.com/candidate/51687/race/25593/election/1385"
+        },
+        "repro": {
+          "label": "Mixed: strongly agrees 'human life deserves legal protection from conception' and that the Comstock Act should be enforced (iVoterGuide survey, 2026), but says 'I also do not believe in a federal law banning a woman's right to choose' and that abortion is 'not an issue for the national government anymore' (campaign issues page)",
+          "url": "https://ivoterguide.com/candidate/51687/race/25593/election/1385"
         }
       },
       "nullNotes": {
@@ -4698,9 +4838,13 @@
         {
           "label": "Campaign site: issues",
           "url": "https://www.larrythompsonforcongress.com/issues"
+        },
+        {
+          "label": "iVoterGuide profile",
+          "url": "https://ivoterguide.com/candidate/51687/race/25593/election/1385"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2CA31125",
@@ -5529,9 +5673,9 @@
         "health": -2,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
-        "education": null,
+        "education": -1,
         "safety": 1,
         "repro": -1,
         "democracy": -1
@@ -5560,6 +5704,14 @@
         "health": {
           "label": "Says everyone should have access to quality and affordable health care, has consistently supported funding for California's public health care system and safety net hospitals, and opposes efforts to repeal the ACA (torres.house.gov)",
           "url": "https://torres.house.gov/issue/health-care"
+        },
+        "education": {
+          "label": "Says 'throughout my career, I have pushed for investments in all levels of education', supports year-round Pell grants and legislation to lower student loan debt (torres.house.gov, education page)",
+          "url": "https://torres.house.gov/issue/education-and-student-loans"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, Jul 3 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -5584,9 +5736,17 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "torres.house.gov: Education and Student Loans",
+          "url": "https://torres.house.gov/issue/education-and-student-loans"
+        },
+        {
+          "label": "House roll call 190 (One Big Beautiful Bill Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0CA35146",
@@ -5609,11 +5769,11 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 2,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
-        "climate": null,
+        "taxes": 1,
+        "climate": 1,
         "education": 2,
         "safety": 2,
         "repro": 2,
@@ -5643,6 +5803,18 @@
         "democracy": {
           "label": "Supports same-day voting for American citizens only with valid government-issued photo ID on hand-counted paper ballots (campaign issues page)",
           "url": "https://www.cargileforcongress.com/issues-1"
+        },
+        "health": {
+          "label": "Says 'the biggest roadblock to a robust healthcare system is government intrusion. It should be a free market' (Ballotpedia Candidate Connection, 2022)",
+          "url": "https://ballotpedia.org/Mike_Cargile"
+        },
+        "taxes": {
+          "label": "Campaign theme: 'Lower the tax burden and eliminate burdensome government regulation' to stimulate growth (Ballotpedia, 2024 campaign themes)",
+          "url": "https://ballotpedia.org/Mike_Cargile"
+        },
+        "climate": {
+          "label": "Criticizes electric vehicle mandates and mainstream renewable solutions, calling nuclear power 'the greatest, cleanest, most reliable source of electricity' (Ballotpedia, 2024 campaign themes)",
+          "url": "https://ballotpedia.org/Mike_Cargile"
         }
       },
       "nullNotes": {
@@ -5659,9 +5831,13 @@
         {
           "label": "Campaign site: issues",
           "url": "https://www.cargileforcongress.com/issues-1"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mike_Cargile"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA33119",
@@ -5680,10 +5856,10 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": -2,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": null,
         "safety": -1,
@@ -5710,6 +5886,18 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "health": {
+          "label": "Voted no on the Trump budget bill, saying it 'cuts approximately $1 trillion from Medicaid', $500 billion from Medicare, and 'will kick 17 million Americans off their health care' (lieu.house.gov press release, Jul 3 2025)",
+          "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-voted-no-trump-bill-cut-medicare-and-medicaid"
+        },
+        "taxes": {
+          "label": "Says the Republican budget bill exists 'to give tax breaks to billionaires' while creating 'a $4.5 trillion hole in the federal deficit', and voted no (lieu.house.gov press release, Jul 3 2025)",
+          "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-voted-no-trump-bill-cut-medicare-and-medicaid"
+        },
+        "housing": {
+          "label": "Introduced the Housing for All Act with Sen. Padilla to fund the National Housing Trust Fund, HOME, Housing Choice Vouchers, project-based rental assistance, eviction protection grants and hotel conversions to supportive housing (lieu.house.gov press release, Feb 25 2022)",
+          "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-sen-padilla-and-rep-carbajal-introduce-legislation-address"
         }
       },
       "nullNotes": {
@@ -5731,9 +5919,17 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "lieu.house.gov: statement on voting no on the Trump budget bill",
+          "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-voted-no-trump-bill-cut-medicare-and-medicaid"
+        },
+        {
+          "label": "lieu.house.gov: Housing for All Act press release",
+          "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-sen-padilla-and-rep-carbajal-introduce-legislation-address"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA36208",
@@ -6236,13 +6432,13 @@
         "Count only citizens for House apportionment"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 0,
         "taxes": 2,
         "climate": 1,
-        "education": null,
+        "education": 1,
         "safety": null,
         "repro": null,
         "democracy": 2
@@ -6262,6 +6458,14 @@
         },
         "democracy": {
           "label": "Proposes to 'count only U.S. citizens for purposes of apportioning House seats' and reserve census-derived federal funding for citizens (campaign issues page)",
+          "url": "https://shanelewisforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Tax reform to 'put an average of $3,400 more back in their pockets each year' to 'manage rising state and local costs', 'lower energy costs', and 'reduce excessive regulations' for farmers (campaign issues page)",
+          "url": "https://shanelewisforcongress.com/issues"
+        },
+        "education": {
+          "label": "Parent and Student Empowerment Act: 'gives families more say by tying a portion of education funding directly to students'; also would tie federal funding to measurable progress on state standards (campaign issues page; BenitoLink Q&A, 2026)",
           "url": "https://shanelewisforcongress.com/issues"
         }
       },
@@ -6283,7 +6487,7 @@
           "url": "https://shanelewisforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA38139",
@@ -6747,11 +6951,11 @@
         "housing": 1,
         "immigration": -1,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -6769,6 +6973,14 @@
         "taxes": {
           "label": "Would 'end the high taxes on gas' (campaign site)",
           "url": "https://peterverbica.com"
+        },
+        "climate": {
+          "label": "Would reform energy policies that 'unnecessarily increase gasoline prices' and protect homeowners' ability to choose natural gas appliances over all-electric mandates; 25-point plan seeks EPA waivers for broader gasoline availability while also expanding EV charging (PR Newswire debate challenge, 2026)",
+          "url": "http://www.prnewswire.com/news-releases/verbica-challenges-panetta-to-a-televised-debate-on-the-issues-302811327.html"
+        },
+        "democracy": {
+          "label": "Attacks Panetta's record of 'voting against voter ID' as a debate issue, positioning himself in favor of ID requirements (PR Newswire debate challenge, 2026)",
+          "url": "http://www.prnewswire.com/news-releases/verbica-challenges-panetta-to-a-televised-debate-on-the-issues-302811327.html"
         }
       },
       "nullNotes": {
@@ -6787,9 +6999,13 @@
         {
           "label": "Campaign site",
           "url": "https://peterverbica.com"
+        },
+        {
+          "label": "PR Newswire, Verbica debate challenge to Panetta",
+          "url": "http://www.prnewswire.com/news-releases/verbica-challenges-panetta-to-a-televised-debate-on-the-issues-302811327.html"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA20181",
@@ -7042,10 +7258,10 @@
       ],
       "positions": {
         "cost": 2,
-        "health": null,
-        "housing": null,
+        "health": 1,
+        "housing": 1,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": 1,
         "safety": 2,
@@ -7068,6 +7284,18 @@
         "safety": {
           "label": "Would 'back the blue, support first responders, and end soft-on-crime policies that put families at risk' (campaign site)",
           "url": "https://kirkland2026.com"
+        },
+        "health": {
+          "label": "'Housing, food, gas, and healthcare are brutally expensive because of decades of over-regulation': make healthcare affordable by ending over-regulation, part of an 'affordable abundance' platform (campaign site)",
+          "url": "https://kirkland2026.com"
+        },
+        "housing": {
+          "label": "'Make housing, food, gas, and healthcare affordable by ending over-regulation and mismanagement' (campaign site)",
+          "url": "https://kirkland2026.com"
+        },
+        "taxes": {
+          "label": "'Americans pay enough in taxes'; government needs to 'use tax dollars for maximum effect' (Ballotpedia Candidate Connection, 2024 CA-20 run)",
+          "url": "https://ballotpedia.org/Kyle_Kirkland"
         }
       },
       "nullNotes": {
@@ -7086,9 +7314,13 @@
         {
           "label": "Campaign site",
           "url": "https://kirkland2026.com"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Kyle_Kirkland"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2CA20094",
@@ -7578,7 +7810,7 @@
         "health": -1,
         "housing": -1,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": -1,
         "safety": null,
@@ -7609,6 +7841,10 @@
         "immigration": {
           "label": "Proposes creating pathways to legal status for long-term residents, protecting workers from exploitation, and keeping families together (tessaforca.com)",
           "url": "https://tessaforca.com/issues/humane-immigration-policy"
+        },
+        "taxes": {
+          "label": "'We must do away with the Social Security Tax cap' because 'the working and middle class are disproportionately propping up the Social Security system'; benefits should not be cut nor retirement age raised (Desert Trumpet candidate questionnaire, 2026)",
+          "url": "https://www.deserttrumpet.org/p/california-district-23-and-district"
         }
       },
       "nullNotes": {
@@ -7625,9 +7861,13 @@
         {
           "label": "Campaign site",
           "url": "https://tessaforca.com"
+        },
+        {
+          "label": "Desert Trumpet, CA-23 primary questionnaire",
+          "url": "https://www.deserttrumpet.org/p/california-district-23-and-district"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA24303",
@@ -7730,13 +7970,13 @@
         "Protect Medicare and Social Security"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": -1,
         "democracy": -1
@@ -7765,6 +8005,22 @@
         "repro": {
           "label": "Voted no on H.R.21, the Born-Alive Abortion Survivors Protection Act (clerk.house.gov roll 27, Jan 23, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll027.xml"
+        },
+        "cost": {
+          "label": "Championed Build Back Better, which 'finally allows Medicare to negotiate lower drug costs for seniors, caps the cost of insulin to $35 a month' (ruiz.house.gov press release, Nov 19, 2021)",
+          "url": "https://ruiz.house.gov/media-center/press-releases/house-passes-landmark-build-back-better-act-cut-costs-families-boost"
+        },
+        "housing": {
+          "label": "Touted Build Back Better's '$161 billion investment in rehabilitating and constructing affordable housing units' and more Housing Choice Vouchers (ruiz.house.gov press release, Nov 19, 2021)",
+          "url": "https://ruiz.house.gov/media-center/press-releases/house-passes-landmark-build-back-better-act-cut-costs-families-boost"
+        },
+        "taxes": {
+          "label": "Voted No on H.R. 1, the One Big Beautiful Bill Act making the 2017 tax cuts permanent (roll call 190, July 3, 2025); backed Build Back Better 'paid for by ensuring big corporations, millionaires, and billionaires pay their fair share' (clerk.house.gov)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "Praised Build Back Better's '$390 billion in child care and universal preschool so that families do not pay more than seven percent of their income on child care' (ruiz.house.gov press release, Nov 19, 2021)",
+          "url": "https://ruiz.house.gov/media-center/press-releases/house-passes-landmark-build-back-better-act-cut-costs-families-boost"
         }
       },
       "nullNotes": {
@@ -7785,9 +8041,17 @@
         {
           "label": "clerk.house.gov roll calls 23 and 102, 2025",
           "url": "https://clerk.house.gov/evs/2025/roll023.xml"
+        },
+        {
+          "label": "ruiz.house.gov, Build Back Better press release",
+          "url": "https://ruiz.house.gov/media-center/press-releases/house-passes-landmark-build-back-better-act-cut-costs-families-boost"
+        },
+        {
+          "label": "clerk.house.gov roll call 190, 2025",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA25219",
@@ -8447,9 +8711,9 @@
         "Secure the border"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
-        "housing": null,
+        "housing": 1,
         "immigration": 2,
         "taxes": 1,
         "climate": null,
@@ -8478,6 +8742,14 @@
         "immigration": {
           "label": "Says we need to secure our border so we can develop a consistent immigration policy (campaign issues page)",
           "url": "https://www.davidpan4congress.com/issues"
+        },
+        "cost": {
+          "label": "Says 'rising prices for housing, food, and gas are making life difficult for working families. Reducing the size and reach of government will put money back in the hands of families and create jobs' (Ballotpedia, 2024 campaign themes)",
+          "url": "https://ballotpedia.org/David_Pan"
+        },
+        "housing": {
+          "label": "Argues 'rent control undermines this process by creating two classes of people' and that housing subsidies worsen affordability by reducing market-rate supply (campaign blog, 'A New Declaration', Jul 4 2026)",
+          "url": "https://www.davidpan4congress.com/blog/a-new-declaration"
         }
       },
       "nullNotes": {
@@ -8495,9 +8767,17 @@
         {
           "label": "Campaign site: issues",
           "url": "https://www.davidpan4congress.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/David_Pan"
+        },
+        {
+          "label": "Campaign blog: A New Declaration",
+          "url": "https://www.davidpan4congress.com/blog/a-new-declaration"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA47085",
@@ -8610,13 +8890,13 @@
         "cost": null,
         "health": null,
         "housing": 2,
-        "immigration": null,
+        "immigration": 1,
         "taxes": null,
         "climate": 2,
         "education": 1,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 1
       },
       "positionSources": {
         "housing": {
@@ -8634,6 +8914,18 @@
         "safety": {
           "label": "From her 2022 gubernatorial campaign (Ballotpedia): pledged to spearhead initiatives to retain and hire police officers and support pay increases; no distinct 2026 statement found",
           "url": "https://ballotpedia.org/Jenny_Rae_Le_Roux"
+        },
+        "repro": {
+          "label": "Says 'I unequivocally uphold the sanctity of human life. Abortion should only be considered as an option if the life of the mother is in imminent danger' (iVoterGuide survey, 2022 governor race)",
+          "url": "https://ivoterguide.com/candidate/58867/race/15066/election/894?culture=en-us"
+        },
+        "democracy": {
+          "label": "Strongly disagrees with allowing people to vote without photo identification (iVoterGuide survey, 2022 governor race)",
+          "url": "https://ivoterguide.com/candidate/58867/race/15066/election/894?culture=en-us"
+        },
+        "immigration": {
+          "label": "Strongly agrees the U.S. should physically secure the southern border (iVoterGuide survey, 2022 governor race)",
+          "url": "https://ivoterguide.com/candidate/58867/race/15066/election/894?culture=en-us"
         }
       },
       "nullNotes": {
@@ -8656,9 +8948,13 @@
         {
           "label": "Ballotpedia profile (2022 gubernatorial campaign material)",
           "url": "https://ballotpedia.org/Jenny_Rae_Le_Roux"
+        },
+        {
+          "label": "iVoterGuide profile (2022 governor survey)",
+          "url": "https://ivoterguide.com/candidate/58867/race/15066/election/894?culture=en-us"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA49128",
@@ -8967,9 +9263,9 @@
       "positions": {
         "cost": null,
         "health": -1,
-        "housing": null,
+        "housing": 0,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -1,
         "education": null,
         "safety": 1,
@@ -9000,6 +9296,14 @@
         "health": {
           "label": "Says the country should aspire to a system in which health insurance coverage is universal and calls for strengthening the ACA rather than abolishing it (scottpeters.com)",
           "url": "https://scottpeters.com/issues/health-care"
+        },
+        "housing": {
+          "label": "Mixed: co-founded the bipartisan YIMBY Caucus for 'pro-housing growth policies that lower costs' and authored the Build More Housing Near Transit Act, while also securing $1.25 billion for the HOME affordable housing program (scottpeters.house.gov press release, Nov 21 2024)",
+          "url": "https://scottpeters.house.gov/press-releases/reps-peters-garcia-and-others-launch-bipartisan-congressional-yimby-caucus"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent, Jul 3 2025 (House roll call 190)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -9024,9 +9328,17 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "scottpeters.house.gov: YIMBY Caucus launch",
+          "url": "https://scottpeters.house.gov/press-releases/reps-peters-garcia-and-others-launch-bipartisan-congressional-yimby-caucus"
+        },
+        {
+          "label": "House roll call 190 (One Big Beautiful Bill Act)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CA49074",

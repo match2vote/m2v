@@ -1289,7 +1289,7 @@
         "immigration": -1,
         "taxes": null,
         "climate": -1,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": null,
         "democracy": null
@@ -1318,6 +1318,10 @@
         "safety": {
           "label": "Co-sponsored HB1309 establishing a commission to review racial disparities in Maryland's criminal justice system (Maryland General Assembly bill list)",
           "url": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/boafo01"
+        },
+        "education": {
+          "label": "As a delegate sponsored HB1329 \"Education - Public School Construction - Funding\" and HB1205 \"Education - Minimum Wage for Education Support Professionals\", investing in public schools and school staff pay (Maryland General Assembly, 2026 session)",
+          "url": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/boafo01"
         }
       },
       "nullNotes": {
@@ -1344,7 +1348,7 @@
           "url": "https://elections.maryland.gov/elections/2026/primary_results/gen_results_2026_4_5.html"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "md-house-5-chaffee",
@@ -1366,7 +1370,7 @@
         "Legal immigration only and secure borders"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
         "housing": null,
         "immigration": 2,
@@ -1397,6 +1401,10 @@
         "repro": {
           "label": "Would allow abortion if 'a woman raped or going to die because of complications' but 'strongly opposes federal funding for abortion providers' (2022 iVoterGuide questionnaire)",
           "url": "https://ivoterguide.com/candidate/21056/race/4862/election/539"
+        },
+        "cost": {
+          "label": "Asked what role government should play in the economy: \"None I do not like when they pick winners and losers\"; wants to \"lower taxes every year\" and have government only \"give incentives to encourage businesses to invest\" (iVoterGuide questionnaire, 2022)",
+          "url": "https://ivoterguide.com/candidate/21056/race/4862/election/539"
         }
       },
       "nullNotes": {
@@ -1420,7 +1428,7 @@
           "url": "https://elections.maryland.gov/elections/2026/primary_results/gen_results_2026_4_5.html"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4MD06340",

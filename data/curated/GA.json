@@ -1159,7 +1159,7 @@
         "health": null,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
         "education": null,
         "safety": 1,
@@ -1182,6 +1182,10 @@
         "repro": {
           "label": "Pledges to 'Fight for the Unborn' (campaign site)",
           "url": "https://www.votemattday.com"
+        },
+        "taxes": {
+          "label": "Pledges to 'Not Increase Tax Marginal Income Tax Rates for Individuals or Businesses' and 'not reduce or eliminate Tax Deductions,' while promising to 'Balance the Federal Budget' in his first term (Vote Matt Day, re-election pledges)",
+          "url": "https://www.votemattday.com/matt-s-pledges"
         }
       },
       "nullNotes": {
@@ -1200,9 +1204,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA01182/"
+        },
+        {
+          "label": "Vote Matt Day: Re-Election Pledges",
+          "url": "https://www.votemattday.com/matt-s-pledges"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4GA03126",
@@ -1558,11 +1566,11 @@
         "Election reform"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
         "immigration": 1,
-        "taxes": null,
+        "taxes": -1,
         "climate": -2,
         "education": -1,
         "safety": -1,
@@ -1593,6 +1601,22 @@
         "education": {
           "label": "Her priorities include making sure the education system works for all students and ensuring our teachers have the resources they need to help grow the next generation (mcbath.house.gov issues page)",
           "url": "https://mcbath.house.gov/issues"
+        },
+        "cost": {
+          "label": "New Dems affordability agenda she unveiled would 'expand access to prescription price caps' and target 'the five care costs that are too high' (health care, housing, energy, family care, groceries); earlier co-led the $35 insulin cap for seniors (mcbath.house.gov press release, Feb 11, 2026)",
+          "url": "https://mcbath.house.gov/2026/2/mcbath-new-dems-unveil-affordability-agenda-to-address-the-cost-of-living-crisis"
+        },
+        "health": {
+          "label": "'Partnered with Sen. Warnock to pass a law that caps the cost of insulin at $35 a month for our seniors' and continues 'to lead the fight to expand access to affordable health care, protect those with pre-existing conditions, and lower the cost of prescription drugs' (mcbath.house.gov health care issues page)",
+          "url": "https://mcbath.house.gov/issues/health-care"
+        },
+        "housing": {
+          "label": "Mixed: agenda would 'cut red tape and update permitting and zoning to build four million homes in the next decade' while also proposing to 'increase Low-Income Housing Tax Credit allocations' (mcbath.house.gov press release, Feb 11, 2026)",
+          "url": "https://mcbath.house.gov/2026/2/mcbath-new-dems-unveil-affordability-agenda-to-address-the-cost-of-living-crisis"
+        },
+        "taxes": {
+          "label": "Voted No on final passage of H.R. 1, the One Big Beautiful Bill Act, which made the 2017 tax cuts permanent (clerk.house.gov roll 190, July 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       },
       "nullNotes": {
@@ -1613,9 +1637,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H8GA06393/"
+        },
+        {
+          "label": "mcbath.house.gov: Affordability agenda release, Feb 2026",
+          "url": "https://mcbath.house.gov/2026/2/mcbath-new-dems-unveil-affordability-agenda-to-address-the-cost-of-living-crisis"
+        },
+        {
+          "label": "mcbath.house.gov: Health Care",
+          "url": "https://mcbath.house.gov/issues/health-care"
+        },
+        {
+          "label": "Clerk of the House: Roll 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6GA06181",
@@ -2277,14 +2313,14 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": null,
         "taxes": -2,
         "climate": -1,
         "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -2310,6 +2346,14 @@
         "education": {
           "label": "Campaign site says he 'supports strong public schools, career and technical education, apprenticeship programs, workforce training, and affordable pathways to higher education' (Chris Harden for Congress campaign site)",
           "url": "https://www.electharden.com/"
+        },
+        "housing": {
+          "label": "Among his infrastructure investment priorities, 'Chris will work to increase the supply of housing that younger Georgians need to build their lives and that older Georgians need to retire with security and dignity' (Chris Harden for Congress campaign site)",
+          "url": "https://www.electharden.com/"
+        },
+        "democracy": {
+          "label": "'Politicians should not choose their voters. Voters should choose their representatives,' backing independent redistricting commissions, and pledges no corporate PAC money because 'Washington should answer to voters, not corporate PACs' (Chris Harden for Congress campaign site)",
+          "url": "https://www.electharden.com/"
         }
       },
       "nullNotes": {
@@ -2328,7 +2372,7 @@
           "url": "https://www.fec.gov/data/candidate/H6GA11116/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0GA14048",
@@ -2699,9 +2743,9 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": 1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -2,
         "safety": 1,
@@ -2732,6 +2776,14 @@
         "education": {
           "label": "The federal government has failed to honor its 1975 pledge to fund 40% of disability education, currently providing only 13%; only 22% of pre-school aged children who qualify for Head Start can participate; supports expanding Workforce Pell Grants and Open Textbooks (Shawn for Georgia education issues page)",
           "url": "https://www.shawnforgeorgia.com/on-the-issues/education/"
+        },
+        "housing": {
+          "label": "Would curb Wall Street home buying by stripping 'federal tax incentives (interest and depreciation) from corporate entities,' block Fannie and Freddie financing for corporate buyers, and expand the USDA Rural Development housing loan program (Shawn for Georgia affordability page)",
+          "url": "https://www.shawnforgeorgia.com/on-the-issues/affordability/"
+        },
+        "taxes": {
+          "label": "Would scrap 'the payroll tax cap' so millionaires and billionaires 'continue to pay into the system throughout the year' and impose a temporary tax of up to 50% on oil company 'war windfall' profits, though he also backs suspending the federal gas excise tax (Shawn for Georgia affordability page)",
+          "url": "https://www.shawnforgeorgia.com/on-the-issues/affordability/"
         }
       },
       "nullNotes": {
@@ -2752,9 +2804,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4GA14057/"
+        },
+        {
+          "label": "Shawn for Georgia: Cost of Living",
+          "url": "https://www.shawnforgeorgia.com/on-the-issues/affordability/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

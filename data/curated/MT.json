@@ -527,10 +527,10 @@
       "background": "Aaron Flint, a radio host, won the June 2, 2026 Republican primary for Montana's open 1st District seat (Rep. Ryan Zinke is retiring); endorsed by President Trump.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
         "housing": 0,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 2,
         "climate": 2,
         "education": null,
@@ -554,6 +554,14 @@
         "housing": {
           "label": "Platform calls to ban Wall Street from buying single-family homes and back the HELPER Act's federally backed mortgages for first responders, while also promising to make it easier to build homes and businesses in Montana (flintformontana.com)",
           "url": "https://flintformontana.com/issues"
+        },
+        "cost": {
+          "label": "\"Making Montana Affordable Again\" plan blames \"catastrophic inflation of the Biden Administration created by years of overspending\" and answers with cutting taxes, reducing regulations and unleashing domestic production (Flint for Montana issues page)",
+          "url": "https://flintformontana.com/issues"
+        },
+        "immigration": {
+          "label": "Opposes those who would \"re-open the borders for illegal aliens and deadly drugs\" (Flint for Montana about page)",
+          "url": "https://flintformontana.com/about/"
         }
       },
       "nullNotes": {
@@ -576,9 +584,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MT01152/"
+        },
+        {
+          "label": "Flint for Montana: Issues",
+          "url": "https://flintformontana.com/issues"
+        },
+        {
+          "label": "Flint for Montana: About",
+          "url": "https://flintformontana.com/about/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MT01137",

@@ -286,7 +286,7 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": null,
         "taxes": 1,
@@ -316,6 +316,10 @@
         "education": {
           "label": "Co-sponsored the 2024 $6,000 education savings account bill but voted no on final passage after 31 amendments (WyoFile)",
           "url": "https://wyofile.com/senate-approves-private-school-voucher-program/"
+        },
+        "health": {
+          "label": "As House Speaker backed Medicaid expansion in 2021: \"I voted no multiple times on this same issue ... and I'm going to vote yes this time, because I haven't seen any other solution\"; in 2026 said yes to a state-funded rural health sustainability fund and wants to \"expand behavioral health capacity\" (Wyoming Tribune Eagle, Mar 2021; WyoFile 2026)",
+          "url": "https://www.wyomingnews.com/news/local_news/medicaid-expansion-bill-gains-initial-approval-from-wyoming-house-of-representatives/article_ab3bca21-3db5-5ca0-9750-aa47ced7cc10.html"
         }
       },
       "sources": [
@@ -338,9 +342,13 @@
         {
           "label": "WyoFile: where the GOP candidates diverge on policy",
           "url": "https://wyofile.com/heres-where-the-republican-candidates-for-wyoming-governor-diverge-on-policy/"
+        },
+        {
+          "label": "Wyoming Tribune Eagle: Medicaid expansion bill gains House approval",
+          "url": "https://www.wyomingnews.com/news/local_news/medicaid-expansion-bill-gains-initial-approval-from-wyoming-house-of-representatives/article_ab3bca21-3db5-5ca0-9750-aa47ced7cc10.html"
         }
       ],
-      "curatedAt": "2026-08-22",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: barlowforwyo.com re-fetched (same domain, no alternate found), no new price/wage/fuel-cost mechanism stated",
         "health": "re-checked Sep 2, 2026: barlowforwyo.com/healthcare re-fetched, still only the 'prioritize healthcare from day one' pledge with no expanded direction",
@@ -512,11 +520,11 @@
         "health": 2,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 2,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": 1,
         "democracy": 2
       },
       "positionSources": {
@@ -539,6 +547,14 @@
         "democracy": {
           "label": "As Secretary of State, led Wyoming to become 'the first state in the nation to require proof of U.S. citizenship to register to vote' and banned ranked-choice voting (WyoFile 2026 Election Guide)",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        "taxes": {
+          "label": "\"I'll never support tax or fee hikes\" and \"I go to work everyday to take power away from government,\" paired with calls for \"reductions in the debt and deficit\" (Ballotpedia, 2022 campaign site; WyoFile 2026 guide)",
+          "url": "https://ballotpedia.org/Chuck_Gray_(Wyoming)"
+        },
+        "repro": {
+          "label": "Sponsored HB 182 (2017), enacted, requiring physicians to give fetal information and offer an ultrasound and heartbeat before a non-emergency abortion (Ballotpedia)",
+          "url": "https://ballotpedia.org/Chuck_Gray_(Wyoming)"
         }
       },
       "sources": [
@@ -549,9 +565,13 @@
         {
           "label": "WyoFile 2026 Election Guide profile",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Chuck_Gray_(Wyoming)"
         }
       ],
-      "curatedAt": "2026-09-02",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "housing": "re-checked Sep 2, 2026: chuckforwyoming.com remains JavaScript-rendered with only metadata fetchable; ballotpedia.org/Chuck_Gray robots-blocked (HTTP 202 on robots.txt), no source found",
         "taxes": "re-checked Sep 2, 2026: same access limits",
@@ -580,16 +600,16 @@
         "Immigration reform with Dreamer protections"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": -1,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -607,6 +627,18 @@
         "education": {
           "label": "Supports reinstating 'the Department of Education for some services,' particularly on tribal lands (WyoFile 2026 Election Guide)",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        },
+        "cost": {
+          "label": "\"Removing tariffs and increasing international trade will be the first step to lowering the cost of living,\" plus eliminating income tax under $100,000 (Kinney campaign FAQ)",
+          "url": "https://lisakinneyforcongress.com/people-ask-and-lisa-listens/"
+        },
+        "taxes": {
+          "label": "\"Taxing the wealthy is another way to improve services to everyone while lowering taxes for those making less than $100,000\" (Kinney campaign FAQ)",
+          "url": "https://lisakinneyforcongress.com/people-ask-and-lisa-listens/"
+        },
+        "democracy": {
+          "label": "Wants to strengthen constitutional rights \"by reaffirming the Voting Rights Act, putting some teeth in Civil Rights laws\" (Kinney campaign FAQ)",
+          "url": "https://lisakinneyforcongress.com/people-ask-and-lisa-listens/"
         }
       },
       "sources": [
@@ -617,9 +649,13 @@
         {
           "label": "WyoFile 2026 Election Guide profile",
           "url": "https://projects.wyofile.com/election-guide-2026/candidates/kinney-lisa/"
+        },
+        {
+          "label": "Kinney campaign FAQ: People ask and Lisa listens",
+          "url": "https://lisakinneyforcongress.com/people-ask-and-lisa-listens/"
         }
       ],
-      "curatedAt": "2026-09-02",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: fetched lisakinneyforcongress.com directly; opposition to foreign beef imports is agricultural trade policy, not a price-control or wage mechanism",
         "taxes": "re-checked Sep 2, 2026: lisakinneyforcongress.com re-fetched (homepage, /public-lands/), no tax-rate policy beyond the already-scored income-tax-elimination proposal",

@@ -200,8 +200,8 @@
         "climate": 2,
         "education": null,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -219,6 +219,14 @@
         "safety": {
           "label": "'The first duty of government is to keep its citizens safe': opposes 'policies that shield violent offenders' and backs 'Border Patrol and local law enforcement' (campaign site)",
           "url": "https://larrymarker.com/"
+        },
+        "repro": {
+          "label": "Filed lawsuits against the governor arguing New Mexico \"statutes do not exist that allow abortion\" and challenging late-term abortion policy, listed on his own campaign site (Larry Marker Legal Matters page)",
+          "url": "https://larrymarker.com/legal-matters"
+        },
+        "democracy": {
+          "label": "Sued the Secretary of State over election equipment compliance and authority over referendums, litigation he presents as evidence that \"checks and balances...are compromised\" (Larry Marker Legal Matters page)",
+          "url": "https://larrymarker.com/legal-matters"
         }
       },
       "nullNotes": {
@@ -251,9 +259,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6NM01186/"
+        },
+        {
+          "label": "Larry Marker: Legal Matters",
+          "url": "https://larrymarker.com/legal-matters"
         }
       ],
-      "curatedAt": "2026-08-13"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "nm-gov-haaland",

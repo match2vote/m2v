@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { ISSUES, rankCandidates } from '@m2v/core';
+import { ISSUES, rankCandidates, MIN_STATED_POSITIONS } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing, TabBar } from './src/ui';
 import { theme, ThemeProvider, useTheme } from './src/theme';
 import { NavProvider, useNav, tabOf } from './src/nav';
@@ -489,12 +489,12 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
                 {SM.denominatorNote({ n: realAnswered })}
               </Body>
             )}
-            {rows.map(({ candidate, pct, sharedIssues }) => {
+            {rows.map(({ candidate, pct, sharedIssues, statedIssues, underResearched }) => {
               const isMarked = picks.some((p) => p.raceId === race.id && p.candidateId === candidate.id);
               return (
                 <View key={candidate.id} style={{ marginBottom: space(3) }}>
                   <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                    <MatchRing pct={pct} size={64} />
+                    <MatchRing pct={pct} size={64} statedIssues={statedIssues} underResearched={underResearched} minStated={MIN_STATED_POSITIONS} />
                     <View style={{ flex: 1, marginLeft: space(3) }}>
                       <Pressable
                         onPress={() => nav.go({ name: 'candidate', id: candidate.id })}
@@ -513,7 +513,7 @@ function Matches({ quiz, setQuiz, onPicksChanged }) {
                       <Body style={{ fontSize: 12.5, fontWeight: '700' }}>
                         {pct !== null
                           ? SM.pctLine({ pct, shared: sharedIssues, total: realAnswered })
-                          : SM.notEnough}
+                          : underResearched ? SM.researching({ n: statedIssues, min: MIN_STATED_POSITIONS }) : SM.notEnough}
                       </Body>
                     </View>
                   </View>

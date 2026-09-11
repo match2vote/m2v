@@ -1,7 +1,7 @@
 // Browse screens v2, nav-driven, back affordance everywhere, curated-only.
 import React, { useState, useEffect, useContext } from 'react';
 import { ScrollView, View, Text, Pressable, Linking, StyleSheet } from 'react-native';
-import { ISSUES, stanceLabel, computeMatch } from '@m2v/core';
+import { ISSUES, stanceLabel, computeMatch, statedCount, MIN_STATED_POSITIONS } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, TierBadge, MatchRing, BackBar } from '../ui';
 import { theme, useTheme } from '../theme';
 import { STATE_NAMES, getRaces, getCoverage, coverageSentence, findRaceById, findCandidateById, REDRAWN_2026, statesPhrase } from '../ballot';
@@ -215,7 +215,7 @@ export function Race({ raceId }) {
         {race.candidates.map((c) => {
           const m = hasQuiz && !namesOnly ? computeMatch(answers, matters, c.positions || {}) : null;
           const status = c.ballotStatus === 'nominee' ? S.candA11yNominee : c.incumbent ? S.candA11yIncumbent : '';
-          const matchText = m ? (m.pct === null ? S.candA11yNotScored : S.candA11yPct({ pct: m.pct })) : '';
+          const matchText = m ? (m.underResearched ? S.candA11yResearching({ n: m.statedIssues }) : m.pct === null ? S.candA11yNotScored : S.candA11yPct({ pct: m.pct })) : '';
           return (
             <Pressable
               key={c.id}
@@ -231,9 +231,9 @@ export function Race({ raceId }) {
                       {c.ballotStatus === 'nominee' ? S.nominee : c.incumbent ? S.incumbent : ''}
                     </H2>
                     <Body soft style={{ marginBottom: 6 }}>{c.party}</Body>
-                    {!namesOnly ? <TierBadge tier={c.tier} /> : hasResearch(c) ? <TierBadge tier="researched" /> : null}
+                    {!namesOnly ? <TierBadge tier={c.tier === 'curated' && statedCount(c.positions) === 0 ? 'fec' : c.tier} /> : hasResearch(c) ? <TierBadge tier="researched" /> : null}
                   </View>
-                  {m && <MatchRing pct={m.pct} />}
+                  {m && <MatchRing pct={m.pct} statedIssues={m.statedIssues} underResearched={m.underResearched} minStated={MIN_STATED_POSITIONS} />}
                 </View>
               </Card>
             </Pressable>
@@ -298,11 +298,16 @@ export function Profile({ candidateId }) {
             {candidate.ballotStatus === 'nominee' ? S.profNominee : candidate.incumbent ? S.profIncumbent : ''}
           </Body>
         </View>
-        {hasQuiz && <MatchRing pct={match.pct} size={76} />}
+        {hasQuiz && <MatchRing pct={match.pct} size={76} statedIssues={match.statedIssues} underResearched={match.underResearched} minStated={MIN_STATED_POSITIONS} />}
       </View>
       <View style={{ marginVertical: space(2) }}>
-        <TierBadge tier={isNamesOnly ? (hasResearch(candidate) ? 'researched' : 'fec') : candidate.tier} />
+        <TierBadge tier={isNamesOnly ? (hasResearch(candidate) ? 'researched' : 'fec') : statedCount(positions) === 0 ? 'fec' : candidate.tier} />
       </View>
+      {hasQuiz && match.underResearched && (
+        <Body soft style={{ fontSize: 12.5, marginBottom: space(2) }}>
+          {S.researching({ n: match.statedIssues, min: MIN_STATED_POSITIONS })}
+        </Body>
+      )}
       <ScrollView style={{ flex: 1 }}>
         {candidate.quote ? (
           <Body style={{ fontFamily: 'Georgia', fontStyle: 'italic', fontSize: 17, lineHeight: 25, color: colors.accent, marginBottom: space(3) }}>

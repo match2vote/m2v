@@ -65,8 +65,8 @@ export function OfficialBallot() {
 
   // The user's own quiz result per race: match % for researched candidates,
   // and the top-match star. Star rules: quiz completed (3+ real answers), AND
-  // the race has 2+ researched candidates (starring the only researched person
-  // would mislead), AND the top result has a real percentage, AND the top
+  // the race has 2+ SCORED candidates (starring the only scored person would
+  // mislead; candidates under the research floor do not count), AND the top
   // candidate was scored on at least as many issues as anyone else in the race.
   // That last rule is the denominator guard: a 9-of-10-issue 71% must not
   // outrank a 10-of-10-issue 58% into a star, thin data never wins the star.
@@ -82,7 +82,7 @@ export function OfficialBallot() {
       quizResults[race.id] = {
         byId,
         starId:
-          researched.length >= 2 && top && top.pct !== null && top.sharedIssues >= maxShared
+          scored.length >= 2 && top && top.pct !== null && top.sharedIssues >= maxShared
             ? top.candidate.id
             : null,
       };

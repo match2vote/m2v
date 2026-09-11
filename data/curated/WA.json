@@ -1487,14 +1487,14 @@
         "Safe communities"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": -1,
+        "immigration": 1,
+        "taxes": 1,
         "climate": null,
         "education": 2,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -1502,6 +1502,26 @@
         "education": {
           "label": "Supports 'parental rights with parents playing a meaningful role in education' (campaign site)",
           "url": "https://melineforcongress.com/"
+        },
+        "cost": {
+          "label": "'When Washington overspends and overregulates, families pay the price. Lowering the cost of living starts with restoring fiscal responsibility in Congress' (Meline for Congress, Vision and Priorities page)",
+          "url": "https://www.melineforcongress.com/priorities"
+        },
+        "housing": {
+          "label": "'I support measures that prevent large institutional investors from crowding out families in the single-family housing market and pricing out first-time buyers', a restriction on investor purchases rather than a build-more agenda (Meline for Congress, Vision and Priorities page)",
+          "url": "https://www.melineforcongress.com/priorities"
+        },
+        "immigration": {
+          "label": "'We need a secure border so we can stop trafficking and cartel activity and enforce immigration law consistently', while noting farms 'depend on a stable and legal workforce' (Meline for Congress, Vision and Priorities page)",
+          "url": "https://www.melineforcongress.com/priorities"
+        },
+        "taxes": {
+          "label": "'I will support responsible federal budgeting, oppose reckless spending that fuels inflation': a spending-restraint agenda with no tax-increase proposals (Meline for Congress, Vision and Priorities page)",
+          "url": "https://www.melineforcongress.com/priorities"
+        },
+        "safety": {
+          "label": "'Public safety starts with supporting well-trained and properly funded law enforcement. Officers need the tools, training, and backing to do their jobs effectively', citing 'repeat offenders cycling through the system' (Meline for Congress, Vision and Priorities page)",
+          "url": "https://www.melineforcongress.com/priorities"
         }
       },
       "nullNotes": {
@@ -1527,9 +1547,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WA08167/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.melineforcongress.com/priorities"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6WA09025",
@@ -1639,16 +1663,16 @@
       "background": "Republican nominee for Washington's 9th District. No campaign website found (baslerforcongress.com did not resolve), Ballotpedia profile repeatedly robots-blocked, and no news coverage found documenting his platform.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
-        "immigration": null,
+        "housing": -1,
+        "immigration": 2,
         "taxes": 1,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": 0,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "taxes": {
@@ -1658,6 +1682,26 @@
         "safety": {
           "label": "'We can show compassion to people in crisis while still holding people accountable for crime, addiction-fueled disorder, and policies that make neighborhoods less safe' (Doug Basler for Congress campaign site)",
           "url": "https://www.dougbasler.com"
+        },
+        "cost": {
+          "label": "'Affordability is now a crisis. Families are being squeezed by higher gas prices, energy costs, groceries, housing, insurance, and taxes', blaming state taxes and the Climate Commitment Act for driving up costs (Doug Basler for Congress, About page)",
+          "url": "https://www.dougbasler.com/about/"
+        },
+        "climate": {
+          "label": "Opposes Washington's Climate Commitment Act as 'driving up the cost of energy while doing little to directly improve the environment' (Doug Basler for Congress, About page); 2022 campaign pledged to 'responsibly open every domestic resource' and 'bring down energy costs for all of us' (Ballotpedia)",
+          "url": "https://www.dougbasler.com/about/"
+        },
+        "immigration": {
+          "label": "'I will fight to secure our borders, finish the wall and insure that only legal immigrants are admitted' (2022 campaign statement, Ballotpedia)",
+          "url": "https://ballotpedia.org/Doug_Basler"
+        },
+        "democracy": {
+          "label": "'I'm committed to seeing our voting system improved and secured so that every legal vote is counted' (2022 campaign statement, Ballotpedia)",
+          "url": "https://ballotpedia.org/Doug_Basler"
+        },
+        "housing": {
+          "label": "'I will work to end non-judicial foreclosure and to once again make home ownership affordable, safe and common', a homeowner-protection measure rather than a build-more agenda (2016 campaign statement, Ballotpedia)",
+          "url": "https://ballotpedia.org/Doug_Basler"
         }
       },
       "nullNotes": {
@@ -1674,9 +1718,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4WA09061/"
+        },
+        {
+          "label": "Campaign site About page",
+          "url": "https://www.dougbasler.com/about/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Doug_Basler"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0WA10034",

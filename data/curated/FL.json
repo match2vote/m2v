@@ -1555,7 +1555,7 @@
         "Ending gerrymandering and defending democracy"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": -1,
         "immigration": null,
@@ -1578,10 +1578,13 @@
         "democracy": {
           "label": "Campaign site pledges to 'fight to end gerrymandering, pass the John Lewis Voting Rights Act, and defend our democracy' (jamespericola.com)",
           "url": "https://jamespericola.com/"
+        },
+        "cost": {
+          "label": "Campaign site backs direct federal action on prices: \"let Medicare negotiate lower prescription drug costs for seniors\" and federal funding to \"lower property insurance costs\" (jamespericola.com).",
+          "url": "https://jamespericola.com/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: ballotpedia.org/James_Pericola was unreachable this pass (robots.txt fetch failed repeatedly).",
         "immigration": "re-checked Sep 2, 2026: same access issue.",
         "taxes": "re-checked Sep 2, 2026: same access issue.",
         "climate": "re-checked Sep 2, 2026: same access issue.",
@@ -1603,7 +1606,7 @@
           "url": "https://jamespericola.com/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL09070",
@@ -2141,32 +2144,53 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 2,
         "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "education": 2,
+        "safety": 1,
+        "repro": 1,
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
           "label": "'I believe in limited government and want to ensure that government creates conditions where private enterprise, individuals, and families can thrive' (2018 Ballotpedia Candidate Connection survey, ballotpedia.org/Mike_Beltran)",
           "url": "https://ballotpedia.org/Mike_Beltran"
+        },
+        "health": {
+          "label": "Platform touts having \"broke up healthcare bureaucracies that blocked new clinics from opening and expanded telehealth access,\" a deregulation-and-competition approach to lowering costs (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "immigration": {
+          "label": "\"We need to finish the wall, deport the criminals and fraudsters, and restore law and order at our southern border,\" standing with President Trump on immigration (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "taxes": {
+          "label": "\"Cut the wasteful spending that drives prices up and keep your money in your pocket,\" citing his votes for tax holidays and \"the largest tax cut in Florida history\" (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "education": {
+          "label": "\"Parents know what is best for their children\"; platform says he championed school choice giving families freedom to select their schools (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "safety": {
+          "label": "\"Mike stands firmly behind law enforcement\" and opposes efforts to \"defund, undermine, or politicize\" police and first responders (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "repro": {
+          "label": "\"States, not Washington bureaucrats, judges, or politicians, should set their own policies that include exceptions for rape, incest, and the life of the mother,\" a states-decide position that accepts abortion limits (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
+        },
+        "democracy": {
+          "label": "Pledges to \"Pass the SAVE America Act to ensure only American citizens vote,\" with photo ID requirements and removal of noncitizens from voter rolls (beltranforcongress.com platform).",
+          "url": "https://www.beltranforcongress.com/platform"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: ballotpedia.org/Mike_Beltran shows only a 2018 Candidate Connection survey (transportation infrastructure priority, a limited-government philosophy quote, and a favorite-book answer); no health statement.",
         "housing": "re-checked Sep 2, 2026: same 2018 survey, no housing statement.",
-        "immigration": "re-checked Sep 2, 2026: same 2018 survey, no immigration statement.",
-        "taxes": "re-checked Sep 2, 2026: same 2018 survey, no tax statement.",
-        "climate": "re-checked Sep 2, 2026: same 2018 survey, no climate statement.",
-        "education": "re-checked Sep 2, 2026: same 2018 survey, no education statement.",
-        "safety": "re-checked Sep 2, 2026: same 2018 survey, no safety statement.",
-        "repro": "re-checked Sep 2, 2026: same 2018 survey, no abortion statement.",
-        "democracy": "re-checked Sep 2, 2026: same 2018 survey, no democracy statement."
+        "climate": "re-checked Sep 2, 2026: same 2018 survey, no climate statement."
       },
       "sources": [
         {
@@ -2180,9 +2204,13 @@
         {
           "label": "Primary result",
           "url": "https://www.wusf.org/politics-issues/2026-08-18/hillsborough-primary-results-2026-mike-beltran-wins-republican-nomination-florida-congressional-district-14"
+        },
+        {
+          "label": "Campaign platform",
+          "url": "https://www.beltranforcongress.com/platform"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2FL15241",
@@ -3101,7 +3129,7 @@
         "immigration": 2,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": 2,
         "democracy": null
@@ -3118,6 +3146,10 @@
         "safety": {
           "label": "Platform backs law enforcement, the military, and child-safety legislation against \"online predators and digital exploitation\" (rogersforflorida.com).",
           "url": "https://rogersforflorida.com/issues/"
+        },
+        "education": {
+          "label": "Parental-control framing: \"He will not stand by and allow radical ideologies to brainwash our kids\" and opposes \"all policies that undermine families or push inappropriate agendas on our children\" (rogersforflorida.com issues).",
+          "url": "https://rogersforflorida.com/issues/"
         }
       },
       "nullNotes": {
@@ -3126,7 +3158,6 @@
         "housing": "re-checked Sep 2, 2026: same access issue.",
         "taxes": "re-checked Sep 2, 2026: same access issue.",
         "climate": "re-checked Sep 2, 2026: same access issue.",
-        "education": "re-checked Sep 2, 2026: same access issue.",
         "democracy": "re-checked Sep 2, 2026: same access issue."
       },
       "sources": [
@@ -3143,7 +3174,7 @@
           "url": "https://thehill.com/homenews/campaign/6024512-rogers-wins-florida-house-primary/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL02299",
@@ -3166,15 +3197,15 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": -1,
         "housing": -1,
         "immigration": null,
         "taxes": -2,
-        "climate": null,
-        "education": null,
+        "climate": -1,
+        "education": -1,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -3188,16 +3219,28 @@
         "taxes": {
           "label": "States \"Billionaires must pay their fair share\" and wants to close loopholes letting them avoid taxes by borrowing against assets (amgforcongress.com).",
           "url": "https://www.amgforcongress.com/top-priorities"
+        },
+        "health": {
+          "label": "Pledges to \"expand access to affordable healthcare that provides a basic standard of care to ALL Americans, protect and strengthen Medicare and Medicaid, reverse cuts that gutted rural healthcare\" (amgforcongress.com top priorities).",
+          "url": "https://www.amgforcongress.com/top-priorities"
+        },
+        "climate": {
+          "label": "Opposes \"offshore drilling off Florida's coasts\" and the \"unchecked expansion of massive data centers\" straining water and energy, pledging to protect North Florida waters and public lands from pollution (amgforcongress.com top priorities).",
+          "url": "https://www.amgforcongress.com/top-priorities"
+        },
+        "education": {
+          "label": "Will \"fight for strong federal investments in public schools, teachers, and education professionals, including expanding access to Head Start and early childhood education\" (amgforcongress.com top priorities).",
+          "url": "https://www.amgforcongress.com/top-priorities"
+        },
+        "democracy": {
+          "label": "Pledges to \"restore and strengthen federal voting-rights protections, protect access to vote-by-mail and early voting, support making Election Day a federal holiday, and oppose partisan and racial gerrymandering\" (amgforcongress.com top priorities).",
+          "url": "https://www.amgforcongress.com/top-priorities"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: ballotpedia.org/Amanda_Green_(Florida) confirms she has not completed the 2026 Candidate Connection survey.",
         "immigration": "re-checked Sep 2, 2026: same, no survey.",
-        "climate": "re-checked Sep 2, 2026: same, no survey.",
-        "education": "re-checked Sep 2, 2026: same, no survey.",
         "safety": "re-checked Sep 2, 2026: same, no survey.",
-        "repro": "re-checked Sep 2, 2026: same, no survey.",
-        "democracy": "re-checked Sep 2, 2026: same, no survey."
+        "repro": "re-checked Sep 2, 2026: same, no survey."
       },
       "sources": [
         {
@@ -3213,7 +3256,7 @@
           "url": "https://floridapolitics.com/archives/814725-amanda-marie-green-wins-democratic-nomination-in-cd-2/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4FL20023",
@@ -3324,8 +3367,8 @@
         "cost": 1,
         "health": null,
         "housing": 1,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 0,
+        "taxes": -1,
         "climate": null,
         "education": null,
         "safety": 0,
@@ -3344,12 +3387,18 @@
         "safety": {
           "label": "Campaign site quotes both \"support full funding for local law enforcement\" and \"addressing the root causes of crime\" (brentandersenfl.com)",
           "url": "https://brentandersenfl.com/issues"
+        },
+        "immigration": {
+          "label": "Mixed: urges the White House to grant Deferred Enforced Departure so Venezuelan TPS holders in Broward who \"followed the rules, passed background checks, paid taxes\" are not removed, while insisting any DED \"exclude criminals, gang members\" and campaigning on securing the border (brentandersenfl.com, May 2026).",
+          "url": "https://brentandersenfl.com/andersen-calls-on-white-house-to-grant-deferred-enforced-departure-for-venezuelan-families-in-broward-as-october-2-deadline-approaches/"
+        },
+        "taxes": {
+          "label": "Sun Sentinel endorsement notes he is \"more realistic than most Republican candidates\" on the Social Security and Medicare fiscal cliff, saying \"it might be necessary to increase the ceiling on income subject to Social Security withholding\" (Sun Sentinel via brentandersenfl.com, 2026).",
+          "url": "https://brentandersenfl.com/sun-sentinel-endorses-brent-andersen-in-fl-20-gop-primary-for-congress/"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: ballotpedia.org/Brent_Andersen was unreachable this pass (robots.txt fetch failed).",
-        "immigration": "re-checked Sep 2, 2026: same access issue.",
-        "taxes": "re-checked Sep 2, 2026: same access issue.",
         "climate": "re-checked Sep 2, 2026: same access issue.",
         "education": "re-checked Sep 2, 2026: same access issue.",
         "repro": "re-checked Sep 2, 2026: same access issue.",
@@ -3363,9 +3412,17 @@
         {
           "label": "Campaign site",
           "url": "https://brentandersenfl.com/issues"
+        },
+        {
+          "label": "Venezuelan DED statement",
+          "url": "https://brentandersenfl.com/andersen-calls-on-white-house-to-grant-deferred-enforced-departure-for-venezuelan-families-in-broward-as-october-2-deadline-approaches/"
+        },
+        {
+          "label": "Sun Sentinel endorsement",
+          "url": "https://brentandersenfl.com/sun-sentinel-endorses-brent-andersen-in-fl-20-gop-primary-for-congress/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL20119",
@@ -4226,11 +4283,11 @@
         "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": 2,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -4242,15 +4299,21 @@
         "cost": {
           "label": "CBS Miami: advocates cutting regulations and reducing tax burdens on affordability",
           "url": "https://www.cbsnews.com/miami/news/florida-congressional-district-25-primary-candidates-2026/"
+        },
+        "immigration": {
+          "label": "Priorities page backs \"President Trump's efforts to secure the border and turn back the failed Biden policies\" (scottsingerusa.com priorities).",
+          "url": "https://www.scottsingerusa.com/priorities"
+        },
+        "safety": {
+          "label": "\"Public safety is the first function of government and deserves our strong support\"; pledges to stand with law enforcement and pursue \"greater enforcement of existing laws\" against criminals (scottsingerusa.com priorities).",
+          "url": "https://www.scottsingerusa.com/priorities"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: scottsingerusa.com's stated positions (improved public safety, stronger schools, low taxes, more green space, high-paying jobs, increased transparency) are slogans with no specific mechanism on health, housing, immigration, climate, education, safety, repro, or democracy.",
         "housing": "re-checked Sep 2, 2026: same site, no specific mechanism.",
-        "immigration": "re-checked Sep 2, 2026: same site, no statement.",
         "climate": "re-checked Sep 2, 2026: same site, only more green space slogan, no energy/climate policy.",
         "education": "re-checked Sep 2, 2026: same site, only stronger schools slogan, no public-vs-choice mechanism.",
-        "safety": "re-checked Sep 2, 2026: same site, only improved public safety slogan, no prevention-vs-enforcement mechanism.",
         "repro": "re-checked Sep 2, 2026: same site, no statement.",
         "democracy": "re-checked Sep 2, 2026: same site, no statement."
       },
@@ -4262,9 +4325,13 @@
         {
           "label": "Campaign site",
           "url": "https://www.scottsingerusa.com/"
+        },
+        {
+          "label": "Priorities page",
+          "url": "https://www.scottsingerusa.com/priorities"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL25068",
@@ -4625,15 +4692,15 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": -1,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
-        "climate": null,
+        "taxes": -1,
+        "climate": -1,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -4647,16 +4714,28 @@
         "immigration": {
           "label": "Campaign site: opposes \"the politics of cruelty toward immigrants\" (eliottrodriguez.com)",
           "url": "https://eliottrodriguez.com/"
+        },
+        "health": {
+          "label": "Would \"Allow Americans between 55 and 64 to buy into Medicare voluntarily,\" protect Medicaid and ACA coverage, and \"Lower prescription-drug costs\" (eliottrodriguez.com issues).",
+          "url": "https://eliottrodriguez.com/issues"
+        },
+        "taxes": {
+          "label": "Wants \"wealthy individuals and large corporations to pay their fair share\" and would \"Ask the wealthiest Americans to contribute more of their income so Social Security remains strong\" (eliottrodriguez.com issues).",
+          "url": "https://eliottrodriguez.com/issues"
+        },
+        "climate": {
+          "label": "Pledges to \"Expand cleaner energy while protecting affordability, reliability, and good-paying American jobs\" plus Everglades restoration and resilient infrastructure (eliottrodriguez.com issues).",
+          "url": "https://eliottrodriguez.com/issues"
+        },
+        "democracy": {
+          "label": "Will \"Defend free and fair elections, voting rights, an independent judiciary, and the peaceful transfer of power\" (eliottrodriguez.com issues).",
+          "url": "https://eliottrodriguez.com/issues"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: eliottrodriguez.com lists Defending Social Security and Medicare as a priority header with no expansion-vs-privatization mechanism.",
-        "taxes": "re-checked Sep 2, 2026: same site, no tax-rate statement.",
-        "climate": "re-checked Sep 2, 2026: same site's Protecting our environment header names no energy-source mechanism.",
         "education": "re-checked Sep 2, 2026: same site's Investing in education header names no public-vs-choice mechanism.",
         "safety": "re-checked Sep 2, 2026: same site, no crime/safety statement.",
-        "repro": "re-checked Sep 2, 2026: same site, no abortion statement.",
-        "democracy": "re-checked Sep 2, 2026: same site's only democracy-adjacent line is our democracy is under real stress as candidacy motivation, naming no voting-access mechanism."
+        "repro": "re-checked Sep 2, 2026: same site, no abortion statement."
       },
       "sources": [
         {
@@ -4666,9 +4745,13 @@
         {
           "label": "Campaign site",
           "url": "https://eliottrodriguez.com/"
+        },
+        {
+          "label": "Issues page",
+          "url": "https://eliottrodriguez.com/issues"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0FL26036",

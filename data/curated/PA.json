@@ -1437,21 +1437,41 @@
         "Supporting veterans and working families"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": 0,
-        "housing": null,
-        "immigration": null,
+        "housing": -1,
+        "immigration": 1,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": 1,
+        "democracy": 1
       },
       "positionSources": {
         "health": {
           "label": "\"Young Americans Healthcare Plan\" preserves Medicare (\"does not compete with Medicare or redirect resources away from seniors\") and keeps adults' \"private insurance options and employer-based plans,\" while creating a new universal coverage program for children, young adults, and expectant mothers by consolidating Medicaid dollars and breaking up \"Big Health Insurance\" (voteyoung.com/fix-healthcare)",
           "url": "https://www.voteyoung.com/fix-healthcare"
+        },
+        "cost": {
+          "label": "\"Young Americans Fresh Start Program\" would roll back the 2005 bankruptcy law changes and restore pre-2005 protections so student loan, credit card, and medical debts can be discharged, saying \"lenders must bear their fair share of responsibility,\" while rejecting taxpayer-funded bailouts (voteyoung.com/fix-consumer-debt)",
+          "url": "https://www.voteyoung.com/fix-consumer-debt"
+        },
+        "housing": {
+          "label": "Housing plan offers \"0% interest loans for starter homes up to the local median home price,\" financed by directing Federal Reserve quantitative easing to homebuyers so \"every mortgage payment goes to principal,\" under the banner \"Fix What's Broken, Not Raise Taxes\"; no zoning or permitting deregulation (voteyoung.com/fix-housing)",
+          "url": "https://www.voteyoung.com/fix-housing"
+        },
+        "immigration": {
+          "label": "\"Washington should do the work only Washington can do: the border, the cartels, human trafficking, and serious criminal offenders,\" while local police should stay focused on local public safety rather than federal immigration enforcement (voteyoung.com, The Open Chair)",
+          "url": "https://www.voteyoung.com/copy-of-openchair"
+        },
+        "repro": {
+          "label": "\"My position is the current TRICARE rule: coverage when the life of the mother is at risk, and in cases of rape or incest,\" adding he \"will not vote for a national ban\" and that \"people of good faith disagree here\" (voteyoung.com, The Open Chair)",
+          "url": "https://www.voteyoung.com/copy-of-openchair"
+        },
+        "democracy": {
+          "label": "\"Only American citizens should vote in American elections. That is the law\"; supports voter ID with public transparency: \"We should not make it hard to vote. We should make it hard to cheat\" (voteyoung.com, The Open Chair)",
+          "url": "https://www.voteyoung.com/copy-of-openchair"
         }
       },
       "nullNotes": {
@@ -1469,9 +1489,21 @@
         {
           "label": "Campaign homepage",
           "url": "https://voteyoung.com"
+        },
+        {
+          "label": "Campaign housing plan",
+          "url": "https://www.voteyoung.com/fix-housing"
+        },
+        {
+          "label": "Campaign personal debt plan",
+          "url": "https://www.voteyoung.com/fix-consumer-debt"
+        },
+        {
+          "label": "Campaign 'The Open Chair' Q&A page",
+          "url": "https://www.voteyoung.com/copy-of-openchair"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8PA15195",
@@ -1757,12 +1789,12 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": 1,
         "immigration": null,
         "taxes": null,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": 0,
         "repro": null,
         "democracy": null
       },
@@ -1774,6 +1806,14 @@
         "health": {
           "label": "Pledges to \"reform the insurance system so that when people pay for insurance, they can expect to be protected\" and restrict \"healthcare industry middlemen from denying care and medications prescribed by doctors\" (paigeforpa.com/priorities)",
           "url": "https://paigeforpa.com/priorities/"
+        },
+        "housing": {
+          "label": "As Scranton mayor she \"fought for more homes, more small businesses, more restaurants, and more parks\" and \"streamlined the city's permitting process, slashed permit fees\" to get building moving (paigeforpa.com/meet-paige-cognetti)",
+          "url": "https://paigeforpa.com/meet-paige-cognetti/"
+        },
+        "safety": {
+          "label": "Mixed record as mayor: Scranton's police budget grew from $25.1 million (2020) to $30.8 million (2026), with five added officers, 51 new vehicles and $4 million in body cameras and equipment, alongside community violence intervention partnerships; \"The stats show that violent crime is trending down in Scranton. Those are the facts\" (WVIA, Aug 11 2026)",
+          "url": "https://www.wvia.org/news/local/2026-08-11/republicans-blast-cognetti-on-violent-crime-in-scranton-but-analysis-shows-decline"
         }
       },
       "nullNotes": {
@@ -1790,9 +1830,17 @@
         {
           "label": "Campaign homepage",
           "url": "https://paigeforpa.com"
+        },
+        {
+          "label": "Campaign biography page",
+          "url": "https://paigeforpa.com/meet-paige-cognetti/"
+        },
+        {
+          "label": "WVIA on Scranton crime record",
+          "url": "https://www.wvia.org/news/local/2026-08-11/republicans-blast-cognetti-on-violent-crime-in-scranton-but-analysis-shows-decline"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8PA10147",
@@ -2402,11 +2450,11 @@
         "Energy independence"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 1,
+        "taxes": 1,
         "climate": 1,
         "education": 2,
         "safety": 0,
@@ -2425,6 +2473,18 @@
         "safety": {
           "label": "Mixed: after losing his son to violent crime, backs 'supporting law enforcement... and making sure repeat violent offenders are held accountable' AND 'investing in crime prevention' (campaign site)",
           "url": "https://jameshayesforpa.com/policy-vision"
+        },
+        "cost": {
+          "label": "\"I've seen how overregulation has crushed local businesses and sent jobs elsewhere\"; his economic fix is regulatory relief for small business and workers rather than price controls (campaign policy-vision page)",
+          "url": "https://jameshayesforpa.com/policy-vision"
+        },
+        "taxes": {
+          "label": "\"It's time to rein in wasteful government spending. I'll fight for transparency, balance the books\"; describes himself as \"opposed to excess government spending\" with no call for higher taxes (campaign policy-vision page)",
+          "url": "https://jameshayesforpa.com/policy-vision"
+        },
+        "immigration": {
+          "label": "\"We see the damage that illegal immigration brings in crime, which comes from having an open, unvetted border\" (TribLive, Oct 25 2024)",
+          "url": "https://community.triblive.com/news/3658548"
         }
       },
       "nullNotes": {
@@ -2444,9 +2504,13 @@
         {
           "label": "Campaign policy-vision page",
           "url": "https://jameshayesforpa.com/policy-vision"
+        },
+        {
+          "label": "TribLive PA-12 candidate comparison",
+          "url": "https://community.triblive.com/news/3658548"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8PA13125",
@@ -2748,7 +2812,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -2758,6 +2822,10 @@
         "health": {
           "label": "Wants to make 'healthcare affordable and accessible for every American by lowering costs and ending medical debt' (campaign homepage)",
           "url": "https://www.bradstockforcongress.com"
+        },
+        "democracy": {
+          "label": "Priority \"Restore Constitutional Norms & Rule of Law\": \"when leaders trample constitutional norms, our democracy itself is at risk,\" calling for leaders who \"defend judicial independence, enforce anti-corruption laws\"; institutional democracy defense, no specific voting-rules plank (bradstockforcongress.com/issues)",
+          "url": "https://www.bradstockforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -2774,9 +2842,13 @@
         {
           "label": "Campaign homepage",
           "url": "https://www.bradstockforcongress.com"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.bradstockforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8PA05071",

@@ -1253,16 +1253,16 @@
         "Housing affordability"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": -1,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
         "education": null,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1272,6 +1272,30 @@
         "housing": {
           "label": "Wants families able to 'keep a roof over their heads without being buried in debt' (campaign site)",
           "url": "https://www.wellmanformo.com"
+        },
+        "cost": {
+          "label": "'We need to finally bring down drug prices by standing up to the big corporations that put profits ahead of patients'; pledges to 'put working families first by lowering costs' (Wellman for Missouri policy page)",
+          "url": "https://www.wellmanformo.com/policy"
+        },
+        "immigration": {
+          "label": "'America needs an immigration system that focuses on fairness, dignity, and opportunity'; 'It is reasonable to expect a secure border, but our current system is broken, costly, and keeps hardworking people from contributing to our communities and economy' (Wellman for Missouri policy page)",
+          "url": "https://www.wellmanformo.com/policy"
+        },
+        "repro": {
+          "label": "Campaign's Roe anniversary statement: 'Our rights to privacy and autonomy over our medical decisions recognized under Roe were ripped away' and 'The government took our fundamental freedoms, and mothers are paying the price' (Wellman press center, Jan 22, 2026)",
+          "url": "https://www.wellmanformo.com/press-center"
+        },
+        "democracy": {
+          "label": "Backed the referendum petition to 'Halt GOP Gerrymander': 'The signature campaign alone proves that Missourians are not just getting mad, they are getting organized' (Wellman press center, Dec 9, 2025)",
+          "url": "https://www.wellmanformo.com/press-center"
+        },
+        "taxes": {
+          "label": "Opposes the 2025 GOP bill that would 'permanently extend the tax rates Trump signed into law in 2017' and 'Cuts $1.3 trillion in food assistance and health coverage while giving the wealthy that exact amount in tax breaks' (On Democracy with FPWellman, Substack, Jul 1, 2025)",
+          "url": "https://fpwellman.substack.com/p/the-new-gilded-age-and-the-big-ugly"
+        },
+        "climate": {
+          "label": "Attacks the 2025 GOP bill because it 'Puts 2 million clean energy jobs at risk' and 'Increases energy bills by hundreds of dollars across the country' while adding a coal tax incentive (On Democracy with FPWellman, Substack, Jul 1, 2025)",
+          "url": "https://fpwellman.substack.com/p/the-new-gilded-age-and-the-big-ugly"
         }
       },
       "nullNotes": {
@@ -1292,9 +1316,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO02343/"
+        },
+        {
+          "label": "Campaign policy page",
+          "url": "https://www.wellmanformo.com/policy"
+        },
+        {
+          "label": "Campaign press center",
+          "url": "https://www.wellmanformo.com/press-center"
+        },
+        {
+          "label": "Wellman Substack, Jul 1, 2025",
+          "url": "https://fpwellman.substack.com/p/the-new-gilded-age-and-the-big-ugly"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2MO03167",
@@ -1482,21 +1518,53 @@
         "Safer communities"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
         "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -1
       },
       "positionSources": {
         "education": {
           "label": "Supports 'investments in the skilled trades' and 'public education' (campaign site)",
           "url": "https://jordanjherrera.com"
+        },
+        "cost": {
+          "label": "Supports 'A national cap on annual rent increases', would 'Cap costs on essential medications where markets fail' and use Bayh-Dole 'march-in rights' against drug price gouging (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "health": {
+          "label": "'Healthcare is a right'; 'Long-term goal is Medicare for All', with a 'true public option within the ACA framework' and expanding Medicare to dental, vision and hearing as the practical path (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "housing": {
+          "label": "Mixed: wants to 'build more homes and bring costs down through supply and competition' via a National Housing Emergency and ADU incentives, but also a national rent-increase cap, a Middle-Income Housing Tax Credit and limits on investor bulk purchases (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "immigration": {
+          "label": "Supports 'clear, earned citizenship pathways' for long-term residents, 'Permanent DACA recipient legal status', H-2A and H-2B visa expansion, and rejects 'mass deportation without due process' while backing port-of-entry security (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "taxes": {
+          "label": "Would 'Close corporate tax loopholes and ensure fair contribution at top' and 'Reduce wasteful federal spending'; notes the Trump tax bill 'returned $450 billion to the top 5%, 1%, and corporations' (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "climate": {
+          "label": "Backs 'Clean energy technology domestic manufacturing expansion', 'Solar, wind, and advanced energy systems investment' and next-generation nuclear, plus taxing large data centers on energy and water use (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "repro": {
+          "label": "'Herrera will defend safe abortion and contraception access'; 'I don't want the federal government telling me what I can do with my body, and women don't deserve that either' (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
+        },
+        "democracy": {
+          "label": "'Strongly opposes the SAVE Act': 'It is a show your papers system that solves a problem that does not exist'; 'That is not election security. That is voter suppression' (Jordan J. Herrera issues page)",
+          "url": "https://jordanjherrera.com/issues"
         }
       },
       "nullNotes": {
@@ -1518,9 +1586,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO05254/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://jordanjherrera.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4MO05234",
@@ -1627,15 +1699,15 @@
         "Cut wasteful spending"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
         "housing": null,
         "immigration": 1,
         "taxes": 1,
         "climate": 1,
-        "education": null,
+        "education": 1,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": null
       },
       "positionSources": {
@@ -1650,6 +1722,18 @@
         "climate": {
           "label": "Seeks to 'restore energy independence' (campaign site)",
           "url": "http://rickbrattin.com"
+        },
+        "repro": {
+          "label": "'Rick is 100% pro-life with a consistent record to prove it'; backed extended waiting periods and parental notification and pledges to defund Planned Parenthood in Congress (Rick Brattin for Congress issues page)",
+          "url": "https://rickbrattin.com/issues/"
+        },
+        "cost": {
+          "label": "Backs the Trump agenda to 'bring down costs and get our economy roaring again' by 'cutting taxes, slashing regulations, and unleashing American energy' (Rick Brattin for Congress issues page)",
+          "url": "https://rickbrattin.com/issues/"
+        },
+        "education": {
+          "label": "As state Senate Education Committee chair sponsored bills ensuring 'parents have the right to oversee how their children are educated' and removing explicit materials from school libraries (Rick Brattin for Congress issues page)",
+          "url": "https://rickbrattin.com/issues/"
         }
       },
       "nullNotes": {
@@ -1669,9 +1753,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2MO04199/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://rickbrattin.com/issues/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MO06310",

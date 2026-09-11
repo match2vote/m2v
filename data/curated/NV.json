@@ -760,15 +760,15 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
-        "housing": null,
+        "health": -1,
+        "housing": -1,
         "immigration": -1,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -778,6 +778,26 @@
         "immigration": {
           "label": "Calls for 'a reformed immigration system that works, not federal agents pulling families apart' (campaign site)",
           "url": "https://electteresa.com/"
+        },
+        "health": {
+          "label": "'Healthcare should be as accessible and inexpensive as possible': pledges 'defending the Affordable Care Act, ensuring Medicaid covers mental and behavioral health issues' (campaign policy page)",
+          "url": "https://electteresa.com/policy/"
+        },
+        "housing": {
+          "label": "Plans to 'build workforce housing that everyday Nevadans can afford' by restoring federal dollars and 'strong regulations' (campaign policy page)",
+          "url": "https://electteresa.com/policy/"
+        },
+        "repro": {
+          "label": "Pledges 'protecting reproductive freedom through federal legislation' and touts ending out-of-pocket costs for contraception in Nevada (campaign policy page)",
+          "url": "https://electteresa.com/policy/"
+        },
+        "democracy": {
+          "label": "Backs 'automatic voter registration, same-day registration, redistricting reform, and campaign finance disclosure' via the For the People Act and opposes 'the SAVE Act and every other effort to institute onerous barriers to voter registration' (campaign policy page)",
+          "url": "https://electteresa.com/policy/"
+        },
+        "education": {
+          "label": "Points to her legislative 'efforts to boost funding for schools' and her push for the 2016 ballot initiative funding school infrastructure (Nevada Independent, 2025)",
+          "url": "https://thenevadaindependent.com/article/former-dem-assembly-leader-teresa-benitez-thompson-to-run-for-congress"
         }
       },
       "nullNotes": {
@@ -802,9 +822,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NV02362/"
+        },
+        {
+          "label": "Campaign policy page",
+          "url": "https://electteresa.com/policy/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4NV04108",
@@ -1049,11 +1073,11 @@
         "Support small business growth"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": 1,
@@ -1068,6 +1092,14 @@
         "safety": {
           "label": "Campaign messaging of 'safe communities and strong borders' (campaign site)",
           "url": "https://martyodonnellnevadacongress.com/"
+        },
+        "cost": {
+          "label": "'Inflation, fueled by excessive spending, erodes purchasing power, making essentials like food, energy and housing less affordable': prescribes spending restraint, saying government should not 'make their life harder' (campaign priorities page)",
+          "url": "https://martyforcongress.vote/priorities"
+        },
+        "taxes": {
+          "label": "Stated priorities are to 'secure the border, cut spending and reduce the size of the federal government'; priorities page calls for deciding 'which spending is critical, which can be delayed, and which can be cut' toward a balanced budget (Nevada Independent, 2025; campaign priorities page)",
+          "url": "https://martyforcongress.vote/priorities"
         }
       },
       "nullNotes": {
@@ -1092,9 +1124,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4NV03225/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://martyforcongress.vote/priorities"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "nv-house-3-kamerath",
@@ -1267,14 +1303,14 @@
         "Strengthen the border"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": -1,
         "housing": null,
         "immigration": 1,
-        "taxes": null,
-        "climate": null,
+        "taxes": 1,
+        "climate": 1,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -1290,6 +1326,22 @@
         "education": {
           "label": "Campaign priority of 'ensuring parental control in education' (Nevada Current)",
           "url": "https://nevadacurrent.com/2026/05/19/three-republicans-vie-for-chance-to-beat-horsford-in-cd4/"
+        },
+        "cost": {
+          "label": "'Lower taxes, lighter regulation, and domestic energy production keep costs down'; backs 'a free-market economy' and 'market-first economic policies' over 'government-mandated inflation' (campaign statement, Aug 5, 2026)",
+          "url": "https://codyk4congress.com/2026/08/05/statement-cody-k-whipple-reacts-to-president-trumps-las-vegas-visit/"
+        },
+        "taxes": {
+          "label": "Calls for 'lower taxes' and 'keeping taxes off tips, overtime pay, and senior benefits' while attacking 'reckless spending driven by Washington' (campaign statement, Aug 5, 2026)",
+          "url": "https://codyk4congress.com/2026/08/05/statement-cody-k-whipple-reacts-to-president-trumps-las-vegas-visit/"
+        },
+        "climate": {
+          "label": "Lists 'energy independence' as a core campaign focus and says 'domestic energy production' keeps costs down (campaign statement, Aug 5, 2026)",
+          "url": "https://codyk4congress.com/2026/08/05/statement-cody-k-whipple-reacts-to-president-trumps-las-vegas-visit/"
+        },
+        "safety": {
+          "label": "'I strongly reject the dangerous, radical agenda...to defund our police'; pledges law enforcement 'the resources they need' and 'holding criminals accountable' (campaign press release, Aug 26, 2026)",
+          "url": "https://codyk4congress.com/2026/08/26/nye-county-law-enforcement-association-endorses-cody-k-whipple-for-congress/"
         }
       },
       "nullNotes": {
@@ -1309,9 +1361,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NV04111/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://codyk4congress.com/issues/"
+        },
+        {
+          "label": "Campaign statement on Trump Las Vegas visit",
+          "url": "https://codyk4congress.com/2026/08/05/statement-cody-k-whipple-reacts-to-president-trumps-las-vegas-visit/"
+        },
+        {
+          "label": "Campaign press release: Nye County Law Enforcement Association endorsement",
+          "url": "https://codyk4congress.com/2026/08/26/nye-county-law-enforcement-association-endorses-cody-k-whipple-for-congress/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "nv-house-4-best",

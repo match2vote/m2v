@@ -1359,15 +1359,15 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": null,
         "taxes": null,
         "climate": null,
         "education": -1,
-        "safety": null,
+        "safety": 0,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -1381,6 +1381,18 @@
         "repro": {
           "label": "Supports 'the right of an individual to make personal medical decisions without government interference' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Melissa_Strange"
+        },
+        "health": {
+          "label": "'Protect and expand Medicare, Medicaid, and Social Security. Every Kentuckian deserves access to high quality and affordable healthcare'; also 'Protect The Children's Health Insurance Program' and 'Lower prescription drug costs' (Strange for KY issues page)",
+          "url": "https://strangeforky.com/issues/"
+        },
+        "democracy": {
+          "label": "Calls for 'Automatic Voter Registration' and to 'pass the John Lewis Voting Rights Act', plus 'Ban gerrymandering' (Strange for KY issues page)",
+          "url": "https://strangeforky.com/issues/"
+        },
+        "safety": {
+          "label": "Mixed: would 'Fight the drug crisis through increased border security, expanded access to treatment and rehab, and better job opportunities. It needs to be easier to find help getting sober than it is to find a dealer' (Strange for KY issues page)",
+          "url": "https://strangeforky.com/issues/"
         }
       },
       "nullNotes": {
@@ -1400,9 +1412,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KY04189/"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://strangeforky.com/issues/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0KY05015",
@@ -1591,13 +1607,13 @@
         "cost": 1,
         "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 2,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 2
       },
       "positionSources": {
         "cost": {
@@ -1611,6 +1627,22 @@
         "taxes": {
           "label": "Campaign site says he opposes 'higher taxes' associated with opponents' policies (campaign site)",
           "url": "https://www.alvaradoforcongress.com/"
+        },
+        "repro": {
+          "label": "As a state senator voted YEA on March 14, 2019 (32-5) on HB 148, 'AN ACT relating to abortion', Kentucky's law banning abortion if Roe were overturned (Kentucky LRC vote history)",
+          "url": "https://apps.legislature.ky.gov/record/19rs/hb148/vote_history.pdf"
+        },
+        "education": {
+          "label": "Voted YEA on HB 563, 'AN ACT relating to school choice' (education opportunity accounts), on March 16, 2021 (21-15) and March 29, 2021 (23-14) (Kentucky LRC vote history)",
+          "url": "https://apps.legislature.ky.gov/record/21rs/hb563/vote_history.pdf"
+        },
+        "democracy": {
+          "label": "Voted YEA on SB 2, 'AN ACT relating to voter identification', on all four Senate votes in 2020 including the April 14, 2020 veto override, 27-6 (Kentucky LRC vote history)",
+          "url": "https://apps.legislature.ky.gov/record/20rs/sb2/vote_history.pdf"
+        },
+        "immigration": {
+          "label": "Voted YEA on Feb 4, 2020 (28-10) on SB 1, 'AN ACT relating to federal immigration cooperation', the 2020 bill on state and local cooperation with federal immigration enforcement (Kentucky LRC vote history)",
+          "url": "https://apps.legislature.ky.gov/record/20rs/sb1/vote_history.pdf"
         }
       },
       "nullNotes": {
@@ -1634,9 +1666,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KY06192/"
+        },
+        {
+          "label": "KY LRC vote history, HB 148 (2019)",
+          "url": "https://apps.legislature.ky.gov/record/19rs/hb148/vote_history.pdf"
+        },
+        {
+          "label": "KY LRC vote history, HB 563 (2021)",
+          "url": "https://apps.legislature.ky.gov/record/21rs/hb563/vote_history.pdf"
+        },
+        {
+          "label": "KY LRC vote history, SB 2 (2020)",
+          "url": "https://apps.legislature.ky.gov/record/20rs/sb2/vote_history.pdf"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6KY06184",

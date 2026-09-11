@@ -1829,13 +1829,13 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": 0,
         "repro": 2,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "safety": {
@@ -1845,17 +1845,23 @@
         "repro": {
           "label": "Says 'the Supreme Court made the correct decision' on Dobbs, calling abortion 'a state's rights issue' because 'life starts at conception' (Baltimore Sun voter guide)",
           "url": "https://www.baltimoresun.com/2024/04/11/scott-collier/"
+        },
+        "immigration": {
+          "label": "Cites 'growing economic & illegal immigration problems' and names 'border security' as a priority in his voter guide answers (Baltimore Sun voter guide, Apr 2024)",
+          "url": "https://www.baltimoresun.com/2024/04/11/scott-collier/"
+        },
+        "democracy": {
+          "label": "Asked whether he would accept certified election results, answered 'After watching the 2020 election results, do you seriously expect me to believe the Manufactured Media and Democratic Communist Jackass Party of America's insane narratives?', declining to commit and voicing distrust of election outcomes (Baltimore Sun voter guide, Apr 2024)",
+          "url": "https://www.baltimoresun.com/2024/04/11/scott-collier/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: scottcollier.org now fetchable (was robots-blocked in round 1) but content is community-service biography only, no policy positions on any of the ten axes",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'",
+        "health": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'",
+        "housing": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'",
+        "taxes": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'",
+        "climate": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'",
+        "education": "re-checked Sep 11, 2026: Baltimore Sun 2024 guide re-read in full, he skipped these questions; ballotpedia.org/Scott_Collier_(Maryland) and scottcollier.org robots-blocked, 2022 iVoterGuide all 'Did not answer'"
       },
       "sources": [
         {
@@ -1871,7 +1877,7 @@
           "url": "https://ivoterguide.com/candidate/52628/race/2057/election/892"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MD08457",

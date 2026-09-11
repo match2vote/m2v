@@ -1073,13 +1073,17 @@
         {
           "label": "WOSU: challengers set in 5th, 6th and 13th districts",
           "url": "https://www.wosu.org/2026-05-05/2026-ohio-primary-challengers-set-in-5th-6th-and-13th-congressional-districts"
+        },
+        {
+          "label": "Elizabeth Kirtley campaign issues page",
+          "url": "https://www.elizabethforus.com/issues"
         }
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -2,
         "housing": null,
-        "immigration": null,
+        "immigration": -2,
         "taxes": null,
         "climate": null,
         "education": null,
@@ -1091,6 +1095,14 @@
         "repro": {
           "label": "'Life, Liberty, and the Pursuit of Happiness includes a Woman's Right to Choose'; also backs codifying Roe v. Wade (campaign site)",
           "url": "https://www.elizabethforus.com/issues"
+        },
+        "immigration": {
+          "label": "Issues page headline \"Abolish Ice\": \"Due Process is a right; not a privilege\"; WOSU lists \"abolishing immigration and customs enforcement\" among her priorities (elizabethforus.com/issues; WOSU, May 5, 2026)",
+          "url": "https://www.elizabethforus.com/issues"
+        },
+        "health": {
+          "label": "WOSU reports that, per her campaign website, her priorities include \"universal healthcare\" alongside abolishing ICE and codifying abortion rights (WOSU, May 5, 2026)",
+          "url": "https://www.wosu.org/2026-05-05/2026-ohio-primary-challengers-set-in-5th-6th-and-13th-congressional-districts"
         }
       },
       "nullNotes": {
@@ -1104,7 +1116,7 @@
         "safety": "re-checked Sep 2, 2026: elizabethforus.com/issues, still not addressed",
         "democracy": "re-checked Sep 2, 2026: 'every American gets one vote, cannot be bought or sold' is too ambiguous between easier-voting and stricter-safeguards framing to score"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "oh-house-8-enoch",
@@ -1124,16 +1136,28 @@
         {
           "label": "iVoterGuide Ohio Nov 3, 2026 guide",
           "url": "https://ivoterguide.com/voter-guide/eleck/1452"
+        },
+        {
+          "label": "Enoch for Congress: Homes and communities issue page",
+          "url": "https://enochforcongress.com/issue/homes-and-communities-as-foundations-for-wellbeing/"
+        },
+        {
+          "label": "Enoch for Congress: Investing in health issue page",
+          "url": "https://enochforcongress.com/issue/reducing-rising-healthcare-costs/"
+        },
+        {
+          "label": "Enoch for Congress: A secure and prosperous future issue page",
+          "url": "https://enochforcongress.com/issue/a-secure-and-prosperous-future/"
         }
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -1,
+        "health": -1,
+        "housing": 0,
         "immigration": null,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": -1,
         "safety": null,
         "repro": -2,
         "democracy": null
@@ -1142,6 +1166,22 @@
         "repro": {
           "label": "'I will fight every day for a woman's right to safe, accessible, and affordable reproductive care' (enochforcongress.com campaign blog)",
           "url": "https://enochforcongress.com/2024/08/01/i-will-fight-every-day-for-a-womans-right-to-safe-accessible-and-affordable-reproductive-care/"
+        },
+        "housing": {
+          "label": "Mixed: would fix housing costs by \"rewriting land-use rules\" (zoning reform) while also \"investing in mixed-income developments\" and \"ensuring that teachers, nurses and firefighters can live near their workplaces\" (enochforcongress.com, Homes and communities)",
+          "url": "https://enochforcongress.com/issue/homes-and-communities-as-foundations-for-wellbeing/"
+        },
+        "health": {
+          "label": "Would \"empower Medicare and Medicaid to negotiate drug prices,\" \"cap out-of-pocket costs,\" and \"fund community clinics and invest in preventive care\" (enochforcongress.com, Investing in health)",
+          "url": "https://enochforcongress.com/issue/reducing-rising-healthcare-costs/"
+        },
+        "cost": {
+          "label": "Says \"costs are rising faster than wages\" and proposes \"raising the minimum wage,\" \"negotiating prescription-drug prices,\" and \"investing in education and child care\" (enochforcongress.com, A secure and prosperous future)",
+          "url": "https://enochforcongress.com/issue/a-secure-and-prosperous-future/"
+        },
+        "education": {
+          "label": "Calls for \"investing in education and child care\" and \"investing in apprenticeship and training programs\" plus \"expanding child care and transportation options\" (enochforcongress.com, A secure and prosperous future; Reimagining work)",
+          "url": "https://enochforcongress.com/issue/a-secure-and-prosperous-future/"
         }
       },
       "nullNotes": {
@@ -1155,7 +1195,7 @@
         "safety": "re-checked Sep 2, 2026: enochforcongress.com blog and homepage, still not addressed",
         "democracy": "re-checked Sep 2, 2026: enochforcongress.com blog and homepage, still not addressed"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "oh-house-9-althaus",
@@ -1941,10 +1981,10 @@
         "End for-profit incarceration"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": -2,
@@ -1963,6 +2003,14 @@
         },
         "safety": {
           "label": "Backs 'Ending For-Profit Incarceration' and treating 'addiction as health issue instead of moral failure' (campaign site)",
+          "url": "https://www.joshuaforohio.com"
+        },
+        "cost": {
+          "label": "Economic plank: \"Full-time work deserves economic stability\" and \"Prioritize workers over shareholders\"; says everyone \"deserves to live a life where housing, gas, healthcare, education, and food are affordable\" and objects to data centers \"trying to leave their energy and water costs to Ohioans\" (joshuaforohio.com)",
+          "url": "https://www.joshuaforohio.com"
+        },
+        "immigration": {
+          "label": "Legislative goal: \"Oversight & Transparency in Immigration Enforcement,\" paired with \"Ensure everyone is protected by The Bill of Rights\" (joshuaforohio.com)",
           "url": "https://www.joshuaforohio.com"
         }
       },
@@ -1989,7 +2037,7 @@
           "url": "https://www.fec.gov/data/candidate/H6OH04181/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8OH05036",
@@ -2315,7 +2363,7 @@
         "health": -1,
         "housing": null,
         "immigration": null,
-        "taxes": null,
+        "taxes": -1,
         "climate": null,
         "education": null,
         "safety": null,
@@ -2330,6 +2378,10 @@
         "health": {
           "label": "'Healthcare shouldn't disappear because a job does. The system is confusing by design, and working families pay the price' (campaign site)",
           "url": "https://poindexterforcongress.com"
+        },
+        "taxes": {
+          "label": "\"When tax cuts are debated in Washington, they seem to flow easily to the wealthiest and most powerful. When subsidies are discussed, large corporations are first in line\"; rejects the idea that \"if corporations do well, everyone else will benefit\" (poindexterforcongress.com, The Economy and Cost of Living)",
+          "url": "https://poindexterforcongress.com/the-economy-and-cost-of-living/"
         }
       },
       "nullNotes": {
@@ -2354,9 +2406,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH07168/"
+        },
+        {
+          "label": "Poindexter for Congress: The Economy and Cost of Living",
+          "url": "https://poindexterforcongress.com/the-economy-and-cost-of-living/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6OH08315",
@@ -2533,21 +2589,45 @@
         "Support veterans and military families"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -1,
+        "health": -2,
+        "housing": -1,
         "immigration": null,
         "taxes": 1,
         "climate": null,
         "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "safety": 0,
+        "repro": -1,
+        "democracy": -1
       },
       "positionSources": {
         "taxes": {
           "label": "Campaign site says she will cut taxes and help small businesses (kristinaknickerbocker.com)",
           "url": "https://kristinaknickerbocker.com"
+        },
+        "health": {
+          "label": "\"I believe healthcare is a right, and I will work toward Universal Coverage\"; would \"support a public option to lower premiums and expand care\" and \"protect Medicaid, Medicare, CHIP, and the Affordable Care Act\" (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
+        },
+        "repro": {
+          "label": "Pledges to \"defend reproductive healthcare\" as part of her health care plank (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
+        },
+        "cost": {
+          "label": "Affordability plan: \"build more affordable housing, cap childcare costs,\" \"repeal harmful tariffs that raise prices,\" and \"lower energy bills by making big corporations, not Ohio families, pay for data center infrastructure\" (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
+        },
+        "housing": {
+          "label": "Would \"build more affordable housing\" as part of her Make Life Affordable Again plank (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
+        },
+        "safety": {
+          "label": "Mixed: \"I'll invest in law enforcement, fire departments, and prevention strategies that strengthen safety while building trust in our communities\" (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
+        },
+        "democracy": {
+          "label": "Fix Washington plank includes a pledge to \"protect voting rights\" alongside banning congressional stock trading and term limits (kristinaknickerbocker.com/my-priorities)",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
         }
       },
       "nullNotes": {
@@ -2573,9 +2653,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OH10121/"
+        },
+        {
+          "label": "Kristina Knickerbocker campaign priorities page",
+          "url": "https://kristinaknickerbocker.com/my-priorities/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2OH11169",

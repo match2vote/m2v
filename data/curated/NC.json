@@ -706,12 +706,12 @@
         "End abortion except to preserve maternal life"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": 1,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": null,
         "repro": 2,
@@ -729,6 +729,18 @@
         "repro": {
           "label": "\"Protect Innocent Human Life, from Conception until Natural Death. End Abortion for birth control purposes, and regulate it to spare as many lives as possible\" (Ballotpedia Candidate Connection)",
           "url": "https://ballotpedia.org/Eugene_Douglass"
+        },
+        "climate": {
+          "label": "On energy he writes \"I will vote to license the reactors we already know how to build,\" backs \"firm power, including nuclear,\" and attacks Ross for opposing \"natural gas, clean fossil fuels, clean coal, fracking, and new oil and coal leases,\" citing Massachusetts as a green-only cautionary tale of \"high rates, tight gas, shuttered nuclear\" (Gene Douglass Substack, The Real Cost of Blue Governance, 2026)",
+          "url": "https://efdouglass.substack.com/p/the-real-cost-of-blue-governance"
+        },
+        "cost": {
+          "label": "Argues costs come down through red-state style deregulation: \"energy rules, tax structure, housing supply, and the size of the welfare office show up in what a family pays,\" and \"The charts are the argument\" comparing blue-state 25-cent electricity and higher rents to red states (Gene Douglass Substack, The Real Cost of Blue Governance, 2026)",
+          "url": "https://efdouglass.substack.com/p/the-real-cost-of-blue-governance"
+        },
+        "immigration": {
+          "label": "\"Illegal immigration undercuts wages for people who are here legally, including Hispanic farm and construction workers\"; distinguishes legal seasonal work from systems that \"reward lawbreaking and dependency\" and objects to undocumented immigrants being placed ahead of legal residents on Wake County housing waiting lists (Gene Douglass Substack, Coffee With Hispanics interview, 2026)",
+          "url": "https://efdouglass.substack.com/p/coffee-with-hispanics-gilbert-pagan"
         }
       },
       "nullNotes": {
@@ -744,9 +756,17 @@
         {
           "label": "Ballotpedia: Eugene Douglass",
           "url": "https://ballotpedia.org/Eugene_Douglass"
+        },
+        {
+          "label": "Gene Douglass Substack: The Real Cost of Blue Governance",
+          "url": "https://efdouglass.substack.com/p/the-real-cost-of-blue-governance"
+        },
+        {
+          "label": "Gene Douglass Substack: Coffee With Hispanics interview",
+          "url": "https://efdouglass.substack.com/p/coffee-with-hispanics-gilbert-pagan"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "nc-house-2-laszacs",
@@ -1155,13 +1175,13 @@
         "cost": null,
         "health": 2,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": null,
-        "climate": null,
-        "education": null,
+        "climate": 1,
+        "education": 2,
         "safety": 2,
         "repro": 2,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "safety": {
@@ -1175,6 +1195,22 @@
         "repro": {
           "label": "'Abortion is never medically necessary,' and supported legislation banning abortion at 12 weeks with limited exceptions (Cardinal Pine candidate comparison)",
           "url": "https://cardinalpine.com/news/jamie-ager-and-jennifer-balkcom-meet-the-us-house-candidates-in-nc-11/"
+        },
+        "immigration": {
+          "label": "Voted Aye on the Nov. 19, 2024 override of Gov. Cooper's veto of HB 10, \"Require ICE Cooperation & Budget Adjustments,\" which requires jail administrators to hold prisoners subject to an ICE detainer and administrative warrant; override passed 72-44 (NC General Assembly roll call H-802, Nov. 19, 2024)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/802"
+        },
+        "education": {
+          "label": "The same HB 10 veto-override vote (Aye, Nov. 19, 2024) appropriated \"$248,000,000\" nonrecurring plus \"$215,460,000 in additional recurring funds\" to the Opportunity Scholarship private-school voucher program and raised its permanent baseline to \"$825,000,000\" (NC General Assembly roll call H-802; HB 10 ratified text)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/802"
+        },
+        "democracy": {
+          "label": "Voted Aye on the Oct. 10, 2023 override of the veto of SB 747, \"Elections Law Changes,\" which tightened absentee-ballot deadlines and voter registration procedures; override passed 72-44 (NC General Assembly roll call H-596, Oct. 10, 2023)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/596"
+        },
+        "climate": {
+          "label": "Voted Aye on the July 29, 2025 override of the veto of SB 266, \"The Power Bill Reduction Act,\" which eliminates the interim \"seventy percent (70%) reduction in emissions\" by 2030 target for utilities and lets them recover financing costs on new baseload plants outside normal rate cases; override passed 74-46 (NC General Assembly roll call H-586, July 29, 2025)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/586"
         }
       },
       "nullNotes": {
@@ -1202,9 +1238,17 @@
         {
           "label": "Ballotpedia: Jennifer Balkcom",
           "url": "https://ballotpedia.org/Jennifer_Balkcom"
+        },
+        {
+          "label": "NC General Assembly roll call H-802 (HB 10 veto override, 2024)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/802"
+        },
+        {
+          "label": "NC General Assembly roll call H-596 (SB 747 veto override, 2023)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/596"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "nc-house-11-groo",
@@ -1443,15 +1487,15 @@
         "Support seniors and veterans"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -2,
         "safety": 0,
-        "repro": null,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
@@ -1466,6 +1510,22 @@
         "safety": {
           "label": "Addressing crime through prevention and community engagement is essential. We must also support law enforcement with the training and resources they need (Raymond Smith Jr. for Congress issues page)",
           "url": "https://www.raymondesmithjr.com/issues"
+        },
+        "cost": {
+          "label": "\"The cost of living has gotten out of control while politicians in DC focus on lining the pockets of their billionaire donors\"; pledges \"lowering the cost of necessities and raising the standard of living for all North Carolinians\" (raymondsmithfornc.com/platform)",
+          "url": "https://raymondsmithfornc.com/platform"
+        },
+        "climate": {
+          "label": "Named climate change a \"greatest challenge\" requiring \"sustainable development and job creation, especially in underserved communities\" in his 2024 Candidate Connection survey, and his platform calls for \"major investments in floodwater resilience and prevention\" for Eastern NC (Ballotpedia Candidate Connection, 2024)",
+          "url": "https://ballotpedia.org/Raymond_Smith_Jr."
+        },
+        "repro": {
+          "label": "As a state representative voted No on the June 5, 2019 House attempt to override Gov. Cooper's veto of S359, the \"Born-Alive Abortion Survivors Protection Act,\" an abortion restriction bill; override failed 67-53 (NC General Assembly roll call H-472, June 5, 2019)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2019/H/472"
+        },
+        "immigration": {
+          "label": "As a state representative voted No on Aug. 20, 2019 concurrence for H370, \"Require Cooperation with ICE Detainers,\" which would have forced sheriffs to honor ICE detainers (NC General Assembly roll call H-766, Aug. 20, 2019)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2019/H/766"
         }
       },
       "nullNotes": {
@@ -1481,9 +1541,25 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NC03229/"
+        },
+        {
+          "label": "Raymond Smith campaign platform",
+          "url": "https://raymondsmithfornc.com/platform"
+        },
+        {
+          "label": "Ballotpedia: Raymond Smith Jr.",
+          "url": "https://ballotpedia.org/Raymond_Smith_Jr."
+        },
+        {
+          "label": "NC General Assembly roll call H-472 (S359 veto override, 2019)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2019/H/472"
+        },
+        {
+          "label": "NC General Assembly roll call H-766 (H370 ICE detainers, 2019)",
+          "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2019/H/766"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0NC02125",
@@ -2062,14 +2138,14 @@
         "Community safety"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": 0,
         "taxes": null,
         "climate": null,
         "education": -1,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": null
       },
@@ -2080,6 +2156,22 @@
         },
         "education": {
           "label": "\"Great communities must have great schools,\" supporting \"public education & opportunities for youth through mentorship\" (electcyriljefferson.com)",
+          "url": "https://www.electcyriljefferson.com"
+        },
+        "cost": {
+          "label": "Cost-of-living plan: \"expanding SNAP benefits, and cracking down on corporate price gouging to lower grocery costs,\" \"Advocating for a living wage,\" \"protecting renters from skyrocketing rents and evictions,\" and \"Capping out-of-pocket expenses\" in health care (cyrilforcongress.com press release, Sep. 24, 2025)",
+          "url": "https://www.cyrilforcongress.com/news/cyril-jefferson-calls-for-bold-action-on-soaring-cost-of-living"
+        },
+        "health": {
+          "label": "Would \"protect Medicaid and Medicare, lower drug costs, and expand mental-health care\" (issues page) and proposes \"expanding public insurance options\" and \"Capping out-of-pocket expenses\" (cyrilforcongress.com issues page; Sep. 24, 2025 press release)",
+          "url": "https://www.cyrilforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "Mixed: \"supports immigration reform and securing the border with smart, bipartisan measures\" (cyrilforcongress.com issues page)",
+          "url": "https://www.cyrilforcongress.com/issues"
+        },
+        "safety": {
+          "label": "His public-safety pillar stresses community engagement, \"culturally-sensitive methods to de-escalate issues,\" and root causes: \"areas of concentrated poverty also have higher rates of crime\"; congressional site adds \"smart, accountable public safety investments\" (electcyriljefferson.com; cyrilforcongress.com issues page)",
           "url": "https://www.electcyriljefferson.com"
         }
       },
@@ -2097,9 +2189,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NC06164/"
+        },
+        {
+          "label": "Cyril Jefferson press release on cost of living (Sep. 2025)",
+          "url": "https://www.cyrilforcongress.com/news/cyril-jefferson-calls-for-bold-action-on-soaring-cost-of-living"
+        },
+        {
+          "label": "Cyril Jefferson for Congress issues page",
+          "url": "https://www.cyrilforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NC07096",
@@ -2541,12 +2641,12 @@
         "Reject corporate PAC and lobbyist money"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": 0,
+        "taxes": -2,
+        "climate": -1,
         "education": -2,
         "safety": null,
         "repro": -1,
@@ -2564,6 +2664,22 @@
         "education": {
           "label": "\"Raise teacher pay, cut student debt, and keep politics out of the classroom\" (ojedafornc.com)",
           "url": "https://ojedafornc.com"
+        },
+        "cost": {
+          "label": "\"Nobody working full-time should live in poverty. Raising the federal minimum wage will give families stability\"; also backs repealing right-to-work laws and \"Cracking down on union-busting CEOs\" (ojedafornc.com, Standing Up for Working Families)",
+          "url": "https://ojedafornc.com/standing-up-for-working-families/"
+        },
+        "immigration": {
+          "label": "Mixed: \"Enforce the law, secure the border, respect the Constitution,\" would \"Crack down on cartels\" but replace ICE with \"an accountable and lawful immigration enforcement system\" and create \"Lawful Pathways\" for asylum seekers and families, with \"a process\" for the undocumented (ojedafornc.com, Fixing Immigration)",
+          "url": "https://ojedafornc.com/immigration/"
+        },
+        "climate": {
+          "label": "\"Create good paying union jobs in the green energy sector,\" \"Build resilience infrastructure to protect communities from the climate crisis,\" \"Crack down on corporate pollution,\" and \"Make the polluters pay for the cleanup\" of PFAS (ojedafornc.com, Protecting the Environment)",
+          "url": "https://ojedafornc.com/environment/"
+        },
+        "taxes": {
+          "label": "\"I will make the billionaire class pay their fair share, close tax loopholes, and ensure the program is fully funded\"; \"I will demand the wealthy pay their share to secure Social Security for the future\" (ojedafornc.com, Saving Social Security)",
+          "url": "https://ojedafornc.com/saving-social-security-2/"
         }
       },
       "nullNotes": {
@@ -2579,9 +2695,25 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NC09218/"
+        },
+        {
+          "label": "Ojeda for NC: Standing Up for Working Families",
+          "url": "https://ojedafornc.com/standing-up-for-working-families/"
+        },
+        {
+          "label": "Ojeda for NC: Fixing Immigration",
+          "url": "https://ojedafornc.com/immigration/"
+        },
+        {
+          "label": "Ojeda for NC: Protecting the Environment",
+          "url": "https://ojedafornc.com/environment/"
+        },
+        {
+          "label": "Ojeda for NC: Saving Social Security",
+          "url": "https://ojedafornc.com/saving-social-security-2/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2NC13243",

@@ -2597,13 +2597,13 @@
         "Pro-life"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": -1,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 2,
         "safety": null,
         "repro": 1,
         "democracy": null
@@ -2615,6 +2615,18 @@
         },
         "immigration": {
           "label": "Advocated improving the H-2A agricultural worker program to provide \"legal and reliable avenues\" for farm labor \"more efficiently and at a lower cost\" (Williamson Herald).",
+          "url": "https://www.williamsonherald.com/news/local_news/charlie-hatcher-aims-to-bring-common-sense-to-washington/article_aa36a755-93a9-4ce6-90c4-8b42e7d23686.html"
+        },
+        "cost": {
+          "label": "\"The American dream is almost unattainable with this level of inflation\"; his answer is \"balancing the federal budget, getting a handle on the federal government\" and reducing regulations (Williamson Herald)",
+          "url": "https://www.williamsonherald.com/news/local_news/charlie-hatcher-aims-to-bring-common-sense-to-washington/article_aa36a755-93a9-4ce6-90c4-8b42e7d23686.html"
+        },
+        "taxes": {
+          "label": "On the nearly $40 trillion debt: \"That's not something I want my grandkids, my great-grandkids, to have to pay back\"; priority is \"balancing the federal budget\" through less government (Williamson Herald)",
+          "url": "https://www.williamsonherald.com/news/local_news/charlie-hatcher-aims-to-bring-common-sense-to-washington/article_aa36a755-93a9-4ce6-90c4-8b42e7d23686.html"
+        },
+        "education": {
+          "label": "Supports \"dismantling the U.S. Department of Education and returning education decisions to state and local governments\" because \"the closer the government is to the people, the more efficient and better it is\" (Williamson Herald)",
           "url": "https://www.williamsonherald.com/news/local_news/charlie-hatcher-aims-to-bring-common-sense-to-washington/article_aa36a755-93a9-4ce6-90c4-8b42e7d23686.html"
         }
       },
@@ -2634,9 +2646,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN05405/"
+        },
+        {
+          "label": "Williamson Herald",
+          "url": "https://www.williamsonherald.com/news/local_news/charlie-hatcher-aims-to-bring-common-sense-to-washington/article_aa36a755-93a9-4ce6-90c4-8b42e7d23686.html"
         }
       ],
-      "curatedAt": "2026-08-29",
+      "curatedAt": "2026-09-11",
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: charliehatcherforcongress.com (does not resolve) and hatcherforcongress.com (host error) both unreachable; no alternate source found beyond the already-checked Williamson Herald profile",
         "health": "re-checked Sep 2, 2026: same as above, no alternate source found",

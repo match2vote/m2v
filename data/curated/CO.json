@@ -1923,13 +1923,13 @@
         "cost": null,
         "health": -2,
         "housing": -1,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": -2,
+        "taxes": -2,
+        "climate": -2,
         "education": null,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1939,6 +1939,26 @@
         "housing": {
           "label": "'Housing First' platform, pledges 'an affordable Denver' and to codify housing as a basic need (campaign site)",
           "url": "https://www.kirosforco.com"
+        },
+        "immigration": {
+          "label": "'Abolish ICE' is a headline priority; describes the agency as 'operating as a terror apparatus targeting immigrant families, asylum seekers, and long-rooted community members' (kirosforco.com priorities)",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "taxes": {
+          "label": "Lists 'TAX THE RICH' as a campaign priority and rejects corporate PAC money (kirosforco.com priorities)",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "climate": {
+          "label": "Lists 'CLIMATE + GREEN NEW DEAL' as a campaign priority; Ballotpedia survey cites 'existential crises we face with climate change' (kirosforco.com priorities)",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "repro": {
+          "label": "Names 'REPRODUCTIVE JUSTICE' as a campaign priority; no further detail given on the page (kirosforco.com priorities)",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "democracy": {
+          "label": "Candidate Connection survey: 'Strengthen our democracy by expanding voting rights, consolidating our elections into one day, and shortening the election cycle' (Ballotpedia, 2026)",
+          "url": "https://ballotpedia.org/Melat_Kiros"
         }
       },
       "nullNotes": {
@@ -1963,9 +1983,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6CO01273/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.kirosforco.com/priorities-2"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CO02160",
@@ -2749,12 +2773,12 @@
         "Restoring 'law and order'"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
+        "cost": 1,
+        "health": 1,
+        "housing": 1,
+        "immigration": 1,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": 1,
         "safety": 2,
         "repro": null,
@@ -2768,6 +2792,26 @@
         "safety": {
           "label": "Pledges to 'fight to restore law and order to our communities' and 'protect the most vulnerable' (campaign homepage)",
           "url": "https://timbennettforcongress.com"
+        },
+        "cost": {
+          "label": "'The cost of living isn't a political talking point, it's daily life'; platform answers affordability with responsible spending, affordable energy and 'sensible regulation' so Washington stops making it worse (timbennettforcongress.com platform)",
+          "url": "https://timbennettforcongress.com/platform"
+        },
+        "health": {
+          "label": "'Protecting Medicare for our seniors and preserving Medicaid for those who are truly vulnerable feels like a sacred promise'; backs price transparency, competition and rural providers while resisting 'full federal takeover' (timbennettforcongress.com platform)",
+          "url": "https://timbennettforcongress.com/platform"
+        },
+        "housing": {
+          "label": "'Owning a home shouldn't feel out of reach for the next generation'; proposes reducing inflation, encouraging responsible growth and removing barriers that drive up housing costs (timbennettforcongress.com platform)",
+          "url": "https://timbennettforcongress.com/platform"
+        },
+        "immigration": {
+          "label": "'Securing our borders isn't about turning our backs, it is about creating a system that truly works'; pairs border security and employment verification with orderly legal pathways (timbennettforcongress.com platform)",
+          "url": "https://timbennettforcongress.com/platform"
+        },
+        "climate": {
+          "label": "Energy Independence plank: 'Expanding our nation's energy production, from reliable oil and natural gas to safe nuclear, hydro, geothermal, and practical renewables', favoring abundance over 'rigid mandates' (timbennettforcongress.com platform)",
+          "url": "https://timbennettforcongress.com/platform"
         }
       },
       "nullNotes": {
@@ -2784,9 +2828,13 @@
         {
           "label": "Campaign homepage",
           "url": "https://timbennettforcongress.com"
+        },
+        {
+          "label": "Campaign platform page",
+          "url": "https://timbennettforcongress.com/platform"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CO08034",
@@ -2897,21 +2945,41 @@
         "Stopping ICE actions against local communities"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
         "immigration": -2,
-        "taxes": null,
+        "taxes": -2,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
         "immigration": {
           "label": "Campaign pledges to 'stop ICE from terrorizing our communities' (campaign site)",
           "url": "https://www.mannyforcolorado.com"
+        },
+        "cost": {
+          "label": "Pledges to 'cap the cost of insulin at $35 a month for every American' and expand Medicare drug price negotiation to bring down everyday costs (mannyforcolorado.com issues)",
+          "url": "https://www.mannyforcolorado.com/issues"
+        },
+        "health": {
+          "label": "'We need to expand Medicare's power to negotiate lower prices for prescription drugs just like the VA does for our veterans' (mannyforcolorado.com issues)",
+          "url": "https://www.mannyforcolorado.com/issues"
+        },
+        "housing": {
+          "label": "'Affordable housing should not be treated as just a commodity but rather as a common good that every Coloradan should be able to afford' (mannyforcolorado.com issues)",
+          "url": "https://www.mannyforcolorado.com/issues"
+        },
+        "taxes": {
+          "label": "'Make billionaires pay what they owe in taxes, and close tax loopholes for corporations', alongside expanded tax credits for working parents (mannyforcolorado.com issues)",
+          "url": "https://www.mannyforcolorado.com/issues"
+        },
+        "repro": {
+          "label": "'When it comes to abortion, the government needs to respect Americans' freedom to make our own decisions about our own families without interference from politicians or anyone else' (mannyforcolorado.com issues)",
+          "url": "https://www.mannyforcolorado.com/issues"
         }
       },
       "nullNotes": {
@@ -2929,9 +2997,13 @@
         {
           "label": "Campaign homepage",
           "url": "https://www.mannyforcolorado.com"
+        },
+        {
+          "label": "Campaign issues page",
+          "url": "https://www.mannyforcolorado.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-S0CO00575",

@@ -768,12 +768,12 @@
       "background": "Brian Miller is the Democratic nominee against Rep. Troy Downing in Montana's 2nd District, winning the June 2, 2026 primary.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": null,
         "immigration": -2,
-        "taxes": null,
-        "climate": null,
+        "taxes": -2,
+        "climate": -1,
         "education": null,
         "safety": null,
         "repro": -2,
@@ -791,17 +791,25 @@
         "immigration": {
           "label": "Blog post 'It's time to end the War on Immigrants Now!' says 'I have been speaking out against the war on immigrants and the threat that it poses to our personal liberties from day one' (miller4congress.com)",
           "url": "https://www.miller4congress.com/post/it-s-time-to-end-the-war-on-immigrants-now"
+        },
+        "climate": {
+          "label": "Climate page: 'sustained released of carbon from our fossil fuel energy systems is causing the climate to change,' so 'we plan for this contingency,' meaning 'cutting down fossil fuel usage in a reasonable manner when we can and replacing it' with lower-carbon sources (miller4congress.com)",
+          "url": "https://www.miller4congress.com/copy-of-defend-the-right-to-unionize"
+        },
+        "cost": {
+          "label": "Affordability page: 'I want to see mandatory wage hikes for large corporate employers such as Walmart, Amazon, and others' plus 'wage subsidies for smaller employers' and more support for organizing workers (miller4congress.com)",
+          "url": "https://www.miller4congress.com/copy-of-universal-healthcare-for-all"
+        },
+        "taxes": {
+          "label": "Calls trickle-down economics 'a massive lie spread by corporate interests' and would fund wage subsidies 'by getting more revenue from corporations and wealthy people' (miller4congress.com affordability page)",
+          "url": "https://www.miller4congress.com/copy-of-universal-healthcare-for-all"
         }
       },
       "nullNotes": {
-        "all": "checked miller4congress.com homepage (navigation only) and /issues (404); no scorable statements captured for Brian Miller (checked Aug 29, 2026)",
-        "cost": "re-checked Sep 2, 2026: site lists an 'Affordability & Income Inequality' issue heading but its actual linked page contains only the abortion content scored under repro, no cost-of-living text found",
-        "housing": "re-checked Sep 2, 2026: miller4congress.com re-fetched across homepage, /copy-of-main-page-1 (labeled Issues), /copy-of-other-issues, and /blog, no housing content found; the site's issue-link titles point to unrelated pages as previously noted",
-        "taxes": "re-checked Sep 2, 2026: same fresh multi-page fetch, no tax-rate policy found; a blog post titled 'President Trump's tariffs - Taxation without Representation' addresses tariffs, which the rollbook excludes from this axis",
-        "climate": "re-checked Sep 2, 2026: same fresh multi-page fetch; a 'Dealing with Climate Change' link title exists but its underlying content remains unreachable (points to campaign-finance content per prior check)",
-        "education": "re-checked Sep 2, 2026: same fresh multi-page fetch, no education policy found",
-        "safety": "re-checked Sep 2, 2026: same fresh multi-page fetch, no domestic public-safety policy found",
-        "democracy": "re-checked Sep 2, 2026: same fresh multi-page fetch; 'Campaign Finance Reform' link title is anti-corruption, not a voting-rules statement"
+        "housing": "re-checked Sep 11, 2026: miller4congress.com issue index (30 topic links, slugs offset from titles), climate, affordability, campaign-finance and constitution pages, full /blog index (18 posts) and ballotpedia.org/Brian_Miller_(Montana) (no survey) fetched; no statement on this axis",
+        "education": "re-checked Sep 11, 2026: miller4congress.com issue index (30 topic links, slugs offset from titles), climate, affordability, campaign-finance and constitution pages, full /blog index (18 posts) and ballotpedia.org/Brian_Miller_(Montana) (no survey) fetched; no statement on this axis",
+        "safety": "re-checked Sep 11, 2026: miller4congress.com issue index (30 topic links, slugs offset from titles), climate, affordability, campaign-finance and constitution pages, full /blog index (18 posts) and ballotpedia.org/Brian_Miller_(Montana) (no survey) fetched; no statement on this axis",
+        "democracy": "re-checked Sep 11, 2026: miller4congress.com issue index (30 topic links, slugs offset from titles), climate, affordability, campaign-finance and constitution pages, full /blog index (18 posts) and ballotpedia.org/Brian_Miller_(Montana) (no survey) fetched; no statement on this axis"
       },
       "sources": [
         {
@@ -817,7 +825,7 @@
           "url": "https://www.fec.gov/data/candidate/H6MT02150/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MT02168",

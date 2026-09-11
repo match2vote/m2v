@@ -1911,13 +1911,13 @@
       "background": "Republican nominee challenging Rep. Don Beyer in Virginia's 8th District.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 0,
         "health": 1,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": null,
         "climate": 1,
-        "education": null,
+        "education": 0,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -1934,6 +1934,18 @@
         "safety": {
           "label": "Proposes a 'Safe Communities & Secure America Act' (campaign site)",
           "url": "https://sabioforcongress.com"
+        },
+        "immigration": {
+          "label": "Pledges to 'secure the border while restoring lawful and orderly immigration processes' as part of his Safe and Secured America plan (Sabio campaign)",
+          "url": "https://sabioforcongress.com/safe-and-secured-america-1"
+        },
+        "cost": {
+          "label": "Mixed: would 'streamline unnecessary regulations hurting small business growth' because 'affordable energy lowers costs', yet also wants to 'ensure major energy consumers contribute directly to generation capacity instead of passing costs onto ratepayers' (Sabio campaign)",
+          "url": "https://sabioforcongress.com/small-business-first"
+        },
+        "education": {
+          "label": "Mixed, from his 2023 Fairfax school board survey: 'Schools should concentrate on education and leave teaching family values to the parents' and 'protecting parents' rights is a priority', while pledging to 'raise the pay for teachers to a competitive market level and add an addition 5 percent' (Ballotpedia Candidate Connection, 2023)",
+          "url": "https://ballotpedia.org/Tony_Sabio"
         }
       },
       "nullNotes": {
@@ -1953,9 +1965,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA08252/"
+        },
+        {
+          "label": "Sabio campaign: Safe and Secured America",
+          "url": "https://sabioforcongress.com/safe-and-secured-america-1"
+        },
+        {
+          "label": "Sabio campaign: Small Business First",
+          "url": "https://sabioforcongress.com/small-business-first"
+        },
+        {
+          "label": "Ballotpedia: Tony Sabio",
+          "url": "https://ballotpedia.org/Tony_Sabio"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0VA09055",

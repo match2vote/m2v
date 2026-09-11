@@ -1001,15 +1001,15 @@
         "End DC corruption"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": 1,
+        "immigration": -1,
+        "taxes": -1,
         "climate": null,
         "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -1020,16 +1020,31 @@
         "education": {
           "label": "'Education is the ultimate equalizer in our country. The government should make sure it stays that way' (campaign issues page)",
           "url": "https://www.lindsayforiowa.com/issues"
+        },
+        "repro": {
+          "label": "At the May 2026 Democratic primary debate said she would do 'everything we can to fight to restore Roe v. Wade' and backed removing abortion restrictions (Iowa Capital Dispatch, May 13, 2026)",
+          "url": "https://iowacapitaldispatch.com/2026/05/13/iowa-2nd-district-democratic-candidates-debate-healthcare-immigration/"
+        },
+        "immigration": {
+          "label": "Says Congress has 'failed to deliver' a 'meaningful pathway to citizenship,' which she supports, while pledging the border would be secured; separately says 'I support reforming ICE' because how it has operated 'is deeply disturbing' (Iowa Capital Dispatch debate coverage, May 13, 2026; CBS2 Iowa Beyond the Podium, May 28, 2026)",
+          "url": "https://iowacapitaldispatch.com/2026/05/13/iowa-2nd-district-democratic-candidates-debate-healthcare-immigration/"
+        },
+        "taxes": {
+          "label": "'Companies should not be allowed to take massive tax breaks, abandon the workers who built their success, and then ship those jobs overseas without consequences' (Iowa Starting Line)",
+          "url": "https://iowastartingline.com/news/politics/video/lindsay-james-corporations-shouldnt-get-tax-breaks-after-abandoning-american-workers/"
+        },
+        "cost": {
+          "label": "As a state legislator co-authored a bipartisan bill to cap insulin prices, asking 'Where are the people who are fighting for my constituents who are struggling to afford insulin and rent?' (Iowa Starting Line)",
+          "url": "https://iowastartingline.com/news/politics/lindsay-james-ashley-hinson-congress/"
+        },
+        "housing": {
+          "label": "'We need permitting reform when it comes to our ability to build more houses' (CBS2 Iowa Beyond the Podium, May 28, 2026)",
+          "url": "https://cbs2iowa.com/news/beyond-the-podium/beyond-the-podium-2nd-congressional-district-candidate-lindsay-james"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: lindsayforiowa.com/issues lists 'Bring Down the Cost of Living for Working Iowans' as a heading with no mechanism stated",
-        "housing": "re-checked Sep 2, 2026: same source, still not addressed beyond the general heading",
-        "immigration": "re-checked Sep 2, 2026: same source now shows 'Congress has clearly failed on both immigration reform, and gun safety reform,' naming the issue with no directional mechanism",
-        "taxes": "re-checked Sep 2, 2026: same source, still not addressed",
         "climate": "re-checked Sep 2, 2026: same source, still not addressed",
         "safety": "re-checked Sep 2, 2026: same source lists 'community safety' as a heading with no mechanism stated",
-        "repro": "re-checked Sep 2, 2026: same source, still not addressed beyond third-party endorsements",
         "democracy": "re-checked Sep 2, 2026: same source, still not addressed"
       },
       "sources": [
@@ -1048,9 +1063,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IA02211/"
+        },
+        {
+          "label": "Iowa Capital Dispatch: primary debate coverage",
+          "url": "https://iowacapitaldispatch.com/2026/05/13/iowa-2nd-district-democratic-candidates-debate-healthcare-immigration/"
+        },
+        {
+          "label": "CBS2 Iowa: Beyond the Podium interview",
+          "url": "https://cbs2iowa.com/news/beyond-the-podium/beyond-the-podium-2nd-congressional-district-candidate-lindsay-james"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IA04167",

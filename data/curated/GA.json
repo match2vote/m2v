@@ -918,15 +918,15 @@
         "Voting rights"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
-        "housing": null,
+        "housing": -1,
         "immigration": null,
         "taxes": -1,
-        "climate": null,
-        "education": null,
+        "climate": -1,
+        "education": -2,
         "safety": null,
-        "repro": null,
+        "repro": -1,
         "democracy": -2
       },
       "positionSources": {
@@ -941,16 +941,31 @@
         "health": {
           "label": "Campaign site names 'accessible, affordable healthcare and Medicaid expansion' for seniors, veterans, rural families and working people under a dedicated Healthcare for All section (Amanda Hollowell for Congress campaign site)",
           "url": "https://www.amandaforga.com"
+        },
+        "cost": {
+          "label": "Pledges to 'fight to raise wages, expand affordable housing, and ensure federal resources flow directly into Southeast Georgia' so 'every worker deserves a fair chance to build stability' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Amanda_Hollowell"
+        },
+        "housing": {
+          "label": "Wants to 'expand affordable housing' and 'investments that prioritize housing' because families 'are being priced out by rising housing costs' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Amanda_Hollowell"
+        },
+        "education": {
+          "label": "Will 'fight to fully fund public schools, support teachers, expand universal pre-K, and strengthen apprenticeships' (Ballotpedia Candidate Connection)",
+          "url": "https://ballotpedia.org/Amanda_Hollowell"
+        },
+        "climate": {
+          "label": "Will 'champion federal investment in flood protection, resilient infrastructure, and clean energy job creation' and 'protect communities most impacted by pollution and climate change' (campaign site issues page)",
+          "url": "https://www.amandaforga.com/issues"
+        },
+        "repro": {
+          "label": "Will 'defend LGBTQ+ rights, fight for reproductive freedom, and oppose extremist attacks on personal privacy, public health, and identity' (campaign site issues page)",
+          "url": "https://www.amandaforga.com/issues"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: amandaforga.com fetched again, higher wages/affordable housing/economic investment goals with no price-cap or subsidy mechanism",
-        "housing": "re-checked Sep 2, 2026: same, no zoning/deregulation or public-investment mechanism stated",
         "immigration": "re-checked Sep 2, 2026: same, not addressed",
-        "climate": "re-checked Sep 2, 2026: same, climate-resilience framing with no clean-energy-transition mechanism",
-        "education": "re-checked Sep 2, 2026: same, only generic public-education mention, no specific mechanism",
-        "safety": "re-checked Sep 2, 2026: same, not addressed",
-        "repro": "re-checked Sep 2, 2026: same, not addressed"
+        "safety": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {
@@ -964,9 +979,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA01158/"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://www.amandaforga.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6GA01109",
@@ -1674,12 +1693,12 @@
       ],
       "positions": {
         "cost": -1,
-        "health": null,
+        "health": 0,
         "housing": 1,
         "immigration": null,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 0,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -1696,14 +1715,23 @@
         "safety": {
           "label": "Wants to 'fund law enforcement properly, fix the federal side of the pretrial release problem, and appoint judges who read the law as written' (campaign site)",
           "url": "https://kevinmartinforcongress.com"
+        },
+        "health": {
+          "label": "Mixed: would 'make federal payment reflect what low-volume community care actually costs' (more public payment) while also 'enforce antitrust against the regional medical monopolies' and 'break up the insurer-doctor-pharmacy arrangement' (competition) (campaign site issues page)",
+          "url": "https://kevinmartinforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Spending-restraint platform: 'We cannot continue with an open pocketbook policy and continuing to stroke checks for special programs that are not needed,' end earmarks, audit every program; no tax-rate proposal (campaign site budget page)",
+          "url": "https://kevinmartinforcongress.com/issues/budget"
+        },
+        "education": {
+          "label": "Mixed: campaign site says 'Send the money back without the strings' and 'Shrink the federal education bureaucracy' (local control), while his Ballotpedia survey calls for 'better support and wages for ... Teachers' (campaign site schools page; Ballotpedia Candidate Connection)",
+          "url": "https://kevinmartinforcongress.com/issues/schools"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: /issues page fetched, only repeats drug-pricing quote already scored under cost",
         "immigration": "re-checked Sep 2, 2026: same, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same, budget-through-regular-order line found but is a spending-process statement, not a tax-rate position",
         "climate": "re-checked Sep 2, 2026: same, not addressed",
-        "education": "re-checked Sep 2, 2026: same, repeats already-scored 'send education money back to Georgia' quote",
         "repro": "re-checked Sep 2, 2026: same, not addressed",
         "democracy": "re-checked Sep 2, 2026: same, not addressed"
       },
@@ -1715,9 +1743,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA06181/"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://kevinmartinforcongress.com/issues"
+        },
+        {
+          "label": "Campaign site budget page",
+          "url": "https://kevinmartinforcongress.com/issues/budget"
+        },
+        {
+          "label": "Ballotpedia: Kevin Martin (Georgia)",
+          "url": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0GA07273",
@@ -1827,16 +1867,16 @@
         "Affordability for working families"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
-        "housing": null,
+        "housing": -2,
         "immigration": 1,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -1846,17 +1886,26 @@
         "immigration": {
           "label": "'We need a secure border and a system that actually works. Right now we have neither' (campaign site)",
           "url": "https://www.kozyckiforcongress.com"
+        },
+        "cost": {
+          "label": "Would 'Raise the Minimum Wage and Index It to Inflation' from $7.25, reinstate the expanded 'Child Tax Credit That Cut Child Poverty in Half,' and pursue 'Restoring Fairness' against corporate price increases (campaign site issues page)",
+          "url": "https://www.kozyckiforcongress.com/issues.html"
+        },
+        "housing": {
+          "label": "'Build More Affordable Housing' through federal grants and direct investment, 'Protect Renters from Large Landlords' by curbing bulk purchases of starter homes (campaign site issues page)",
+          "url": "https://www.kozyckiforcongress.com/issues.html"
+        },
+        "democracy": {
+          "label": "At the Cherokee County debate he expressed 'confidence in the state's Republican-run election apparatus while acknowledging the deeper fear is voter suppression and apathy, not fraud' (Kozycki campaign Substack debate recap, Sep 2026)",
+          "url": "https://tonykozycki.substack.com/p/cardboard-rich-comes-to-cherokee"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: kozyckiforcongress.com and /issues.html both fetched in full, 'Affordability' topic heading exists but detailed text not retrievable this round",
-        "housing": "re-checked Sep 2, 2026: same, 'Housing' topic heading exists but detailed text not retrievable this round",
         "taxes": "re-checked Sep 2, 2026: same, no dedicated tax content found",
         "climate": "re-checked Sep 2, 2026: same, not addressed",
         "education": "re-checked Sep 2, 2026: same, not addressed",
         "safety": "re-checked Sep 2, 2026: same, not addressed",
-        "repro": "re-checked Sep 2, 2026: same, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same, not addressed"
+        "repro": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {
@@ -1866,9 +1915,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA07221/"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://www.kozyckiforcongress.com/issues.html"
+        },
+        {
+          "label": "Kozycki Substack, Cherokee County debate recap",
+          "url": "https://tonykozycki.substack.com/p/cardboard-rich-comes-to-cherokee"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0GA08099",
@@ -2394,7 +2451,7 @@
         "Proof-of-citizenship voting, secure elections"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 1,
         "housing": null,
         "immigration": null,
@@ -2417,10 +2474,13 @@
         "democracy": {
           "label": "Would 'require proof of citizenship to vote, secure our election infrastructure, and demand full transparency in how ballots are cast and counted' (campaign site)",
           "url": "https://www.cowanforcongress.com/issues.html"
+        },
+        "cost": {
+          "label": "Would 'get real results on affordability by delivering meaningful tax relief for families and small businesses' and 'strengthening domestic industries' (campaign site)",
+          "url": "https://www.cowanforcongress.com/issues.html"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: cowanforcongress.com and /issues.html both fetched, five issue headings (Healthcare, Economy, Elections, Constitutional Freedoms, Government Reform) with no detailed cost text retrievable",
         "housing": "re-checked Sep 2, 2026: same, not addressed",
         "immigration": "re-checked Sep 2, 2026: same, not addressed",
         "climate": "re-checked Sep 2, 2026: same, not addressed",
@@ -2438,7 +2498,7 @@
           "url": "https://www.fec.gov/data/candidate/H0GA14048/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2GA12121",
@@ -2622,30 +2682,48 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -2,
+        "safety": -1,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "repro": {
           "label": "'Standing up to Republican attacks on facts, public health, and reproductive freedom' (campaign site)",
           "url": "https://jasmine4ga.com"
+        },
+        "taxes": {
+          "label": "Agenda plank: 'Billionaires and Corporations Should Pay Their Fair Share' under 'Build an Economy That Works for All of US' (campaign site agenda)",
+          "url": "https://www.jasmine4ga.com/agenda"
+        },
+        "immigration": {
+          "label": "Agenda plank 'Stop Unconstitutional ICE Raids'; after the Hyundai plant raid: 'They were not criminals ... I am calling on Congress to ... pass legislation that will protect our workers and immigrants' (campaign site agenda; campaign press release, Sep 7, 2025)",
+          "url": "https://www.jasmine4ga.com/news/9-7-25pressrelease"
+        },
+        "climate": {
+          "label": "Agenda plank: 'Stop Environmental Racism and Protect Our Climate' (campaign site agenda)",
+          "url": "https://www.jasmine4ga.com/agenda"
+        },
+        "education": {
+          "label": "Agenda 'fully funds our schools, and protects them from political attacks': 'Lower the Price of Childcare and Pre-K for All,' 'Increase K-12 Funding,' 'Safeguard our HBCUs' (campaign site agenda)",
+          "url": "https://www.jasmine4ga.com/agenda"
+        },
+        "safety": {
+          "label": "Agenda lists 'Criminal Justice Reform' under 'Build Safer Communities We Want to See' (campaign site agenda)",
+          "url": "https://www.jasmine4ga.com/agenda"
+        },
+        "democracy": {
+          "label": "Agenda 'Protect our Democracy' planks: 'Protect the Right to Vote,' 'End Partisan Gerrymandering,' 'Demand Real Campaign Finance Reform' (campaign site agenda)",
+          "url": "https://www.jasmine4ga.com/agenda"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: no new source found beyond prior homepage checks",
         "health": "re-checked Sep 2, 2026: same, only generic 'protect healthcare' language",
-        "housing": "re-checked Sep 2, 2026: same",
-        "immigration": "re-checked Sep 2, 2026: same",
-        "taxes": "re-checked Sep 2, 2026: same",
-        "climate": "re-checked Sep 2, 2026: same",
-        "education": "re-checked Sep 2, 2026: same",
-        "safety": "re-checked Sep 2, 2026: same",
-        "democracy": "re-checked Sep 2, 2026: same, only generic 'threats to democracy' rhetoric with no voting-access mechanism"
+        "housing": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -2655,9 +2733,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6GA13070/"
+        },
+        {
+          "label": "Campaign site agenda page",
+          "url": "https://www.jasmine4ga.com/agenda"
+        },
+        {
+          "label": "Campaign press release on Hyundai ICE raid, Sep 7, 2025",
+          "url": "https://www.jasmine4ga.com/news/9-7-25pressrelease"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0GA14030",
@@ -2682,12 +2768,12 @@
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": 1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 1
       },
       "positionSources": {
         "immigration": {
@@ -2697,17 +2783,26 @@
         "safety": {
           "label": "Emphasizes holding 'criminals accountable' and worked with law enforcement to 'end the scourge of fentanyl in NW Georgia' (campaign site)",
           "url": "https://clayfullerforgeorgia.com"
+        },
+        "repro": {
+          "label": "Co-sponsor of 'H.R. 722 - Life at Conception Act' and 'H.R. 4964 - Child Interstate Abortion Notification Act' (Rep. Fuller press release, legislative portfolio, Jun 4, 2026)",
+          "url": "https://fuller.house.gov/media/press-releases/a-look-into-congressman-fuller-s-legislative-portfolio"
+        },
+        "democracy": {
+          "label": "Co-sponsor of H.J.Res. 152, a constitutional amendment 'to ensure that only citizens are eligible to vote in Federal elections' (Rep. Fuller press release, legislative portfolio, Jun 4, 2026)",
+          "url": "https://fuller.house.gov/media/press-releases/a-look-into-congressman-fuller-s-legislative-portfolio"
+        },
+        "taxes": {
+          "label": "Co-sponsor of 'H.R. 8415 - Small Business Tax Cut Act' (Rep. Fuller press release, legislative portfolio, Jun 4, 2026)",
+          "url": "https://fuller.house.gov/media/press-releases/a-look-into-congressman-fuller-s-legislative-portfolio"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: clayfullerforgeorgia.com fetched, only 'America First Economy' manufacturing-jobs heading, no consumer-price mechanism",
         "health": "re-checked Sep 2, 2026: same, not addressed",
         "housing": "re-checked Sep 2, 2026: same, not addressed",
-        "taxes": "re-checked Sep 2, 2026: same, not addressed",
         "climate": "re-checked Sep 2, 2026: same, not addressed",
-        "education": "re-checked Sep 2, 2026: same, not addressed",
-        "repro": "re-checked Sep 2, 2026: same, not addressed",
-        "democracy": "re-checked Sep 2, 2026: same, not addressed"
+        "education": "re-checked Sep 2, 2026: same, not addressed"
       },
       "sources": [
         {
@@ -2717,9 +2812,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0GA14030/"
+        },
+        {
+          "label": "Rep. Fuller press release: legislative portfolio",
+          "url": "https://fuller.house.gov/media/press-releases/a-look-into-congressman-fuller-s-legislative-portfolio"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4GA14057",

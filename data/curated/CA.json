@@ -1371,14 +1371,14 @@
         "Lower artificially high energy prices"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
-        "housing": null,
+        "housing": 0,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 1,
         "climate": 1,
-        "education": null,
-        "safety": null,
+        "education": 2,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -1390,6 +1390,26 @@
         "climate": {
           "label": "Opposes policies 'keeping energy and home prices artificially high' (campaign site)",
           "url": "https://souleforcongress.com"
+        },
+        "cost": {
+          "label": "Would 'make energy more affordable by removing restrictions on drilling for oil and building refineries' and lower food costs by reforming the Endangered Species Act to cut farm water costs (campaign issues page)",
+          "url": "https://souleforcongress.com/issues"
+        },
+        "housing": {
+          "label": "Mixed: would reduce housing costs by 'Banning large financial institutions from buying single-family homes' (intervention) while 'shielding [Baby Boomers] from capital gains tax' so they sell (market incentive) (campaign issues page)",
+          "url": "https://souleforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Would 'End waste, fraud and abuse,' citing a bill to 'DEFUND the High-Speed Rail Project after California spent $15 Billion in Federal Funds' (campaign issues page)",
+          "url": "https://souleforcongress.com/issues"
+        },
+        "education": {
+          "label": "Would 'protect parental rights and enable parents to send their children to their school of choice' and tie federal funding to basic-skills curriculum (campaign issues page)",
+          "url": "https://souleforcongress.com/issues"
+        },
+        "safety": {
+          "label": "'People need to feel safe in their neighborhoods. Current laws need to be enforced' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Peter_Soule"
         }
       },
       "nullNotes": {
@@ -1414,9 +1434,17 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign site: issues",
+          "url": "https://souleforcongress.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Peter_Soule"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-28-verlato",
@@ -1607,16 +1635,16 @@
         "Housing is a right, not a commodity"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -2,
         "housing": -2,
         "immigration": -2,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "taxes": -2,
+        "climate": -2,
+        "education": -2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -1630,6 +1658,26 @@
         "immigration": {
           "label": "Calls for dismantling ICE, ending for-profit detention, and allowing undocumented persons to integrate as full participants in American life (campaign issues page)",
           "url": "https://www.motaforcongress.com/issues/immigration-reform"
+        },
+        "cost": {
+          "label": "Would 'Support Raise the Wage Act' and 'Expand the Earned Income Tax Credit' for Americans who 'live paycheck to paycheck' (campaign Economic Security page)",
+          "url": "https://www.motaforcongress.com/issues/expand-social-security"
+        },
+        "taxes": {
+          "label": "Pledges to 'Raise Corporate Tax Rates' and fund Social Security expansion (campaign Economic Security page)",
+          "url": "https://www.motaforcongress.com/issues/expand-social-security"
+        },
+        "climate": {
+          "label": "Would 'Promote the Green New Deal' and 'Address environmental racism' (campaign Environmental Justice page)",
+          "url": "https://www.motaforcongress.com/issues/EnvironmentalJustice"
+        },
+        "education": {
+          "label": "'Education is a right'; would 'Oppose all school vouchers,' co-sponsor the IDEA Full Funding Act and strengthen Title I (campaign Education Reform page)",
+          "url": "https://www.motaforcongress.com/issues/issue-2"
+        },
+        "democracy": {
+          "label": "Would champion the For the People Act, co-sponsor the Ranked Choice Voting Act, lower the voting age and overturn Citizens United (campaign Democracy Reform page)",
+          "url": "https://www.motaforcongress.com/issues/DemocracyReform"
         }
       },
       "nullNotes": {
@@ -1653,9 +1701,17 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign site: democracy reform",
+          "url": "https://www.motaforcongress.com/issues/DemocracyReform"
+        },
+        {
+          "label": "Campaign site: economic security",
+          "url": "https://www.motaforcongress.com/issues/expand-social-security"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-38-casas",
@@ -1829,13 +1885,13 @@
         "Reduce red tape for local employers"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": 1,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 1,
+        "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 2,
         "safety": 2,
         "repro": null,
         "democracy": null
@@ -1848,6 +1904,22 @@
         "safety": {
           "label": "Supports law enforcement, first responders, secure borders, and policies focused on public safety (campaign priorities page)",
           "url": "http://www.electmitchclemmons.com"
+        },
+        "cost": {
+          "label": "'Inflation and taxes are out of control, especially here in the golden state'; wants relief for working people and opposes policies that 'cause further inflation' (Ballotpedia Candidate Connection survey, 2022)",
+          "url": "https://ballotpedia.org/Mitch_Clemmons"
+        },
+        "immigration": {
+          "label": "Lists 'secure borders' alongside law enforcement and first responders as a public safety priority (campaign priorities page)",
+          "url": "http://www.electmitchclemmons.com"
+        },
+        "taxes": {
+          "label": "'It's time to elect common sense conservatives who will fight against the move toward a growing big government,' blaming Democrats for tax increases (Ballotpedia Candidate Connection survey, 2022)",
+          "url": "https://ballotpedia.org/Mitch_Clemmons"
+        },
+        "education": {
+          "label": "Supports 'school choice, as parents should be able to choose to send their students to a school that will provide the best education possible' (Ballotpedia Candidate Connection survey, 2022)",
+          "url": "https://ballotpedia.org/Mitch_Clemmons"
         }
       },
       "nullNotes": {
@@ -1872,9 +1944,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Mitch_Clemmons"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-43-morales",
@@ -1950,9 +2026,9 @@
       "positions": {
         "cost": -2,
         "health": -1,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": null,
@@ -1967,6 +2043,18 @@
         "health": {
           "label": "Pledges to lower prescription drug costs, protect coverage for pre-existing conditions, and hold insurance companies accountable (campaign homepage 'Healthcare That Works for Patients' section)",
           "url": "https://cohenforcongressca50.com"
+        },
+        "housing": {
+          "label": "Would cut 'federal red tape that blocks new home construction' and remove 'regulatory barriers that keep housing supply artificially low,' while also 'cracking down on corporate price manipulation' (campaign announcement, Mar 12, 2026)",
+          "url": "https://cohenforcongressca50.com/veteran-san-diego-journalist-steve-cohen-announces-campaign-for-congress-in-ca-50/"
+        },
+        "immigration": {
+          "label": "'Supporting strong, effective border enforcement' because 'public safety starts with knowing who is entering our country,' while 'treating people with dignity' (campaign announcement, Mar 12, 2026)",
+          "url": "https://cohenforcongressca50.com/veteran-san-diego-journalist-steve-cohen-announces-campaign-for-congress-in-ca-50/"
+        },
+        "taxes": {
+          "label": "'Demanding a balanced federal budget and opposing reckless spending that saddles our children and grandchildren with debt' (campaign announcement, Mar 12, 2026)",
+          "url": "https://cohenforcongressca50.com/veteran-san-diego-journalist-steve-cohen-announces-campaign-for-congress-in-ca-50/"
         }
       },
       "nullNotes": {
@@ -1995,9 +2083,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign announcement, Mar 12, 2026",
+          "url": "https://cohenforcongressca50.com/veteran-san-diego-journalist-steve-cohen-announces-campaign-for-congress-in-ca-50/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-51-cabrera",
@@ -3048,16 +3140,16 @@
         "Government spending accountability"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 2,
         "climate": 1,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "climate": {
@@ -3067,6 +3159,26 @@
         "education": {
           "label": "Lists 'Education and School Choice' as a named issue page (campaign site)",
           "url": "https://rudyforuscongress.com"
+        },
+        "cost": {
+          "label": "Blames rising prices on government spending: 'Democrats in Washington want to print money... What they are creating is a pathway for hyperinflation,' and says 'Congress needs to get control of its spending' (campaign site, Accountability in Government Spending page)",
+          "url": "https://rudyforuscongress.com/index.php/issues/accountability-in-government-spending/"
+        },
+        "taxes": {
+          "label": "'I would work to reduce taxes across the board' and lists 'Reducing Inflation' via spending control as a priority (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "immigration": {
+          "label": "Lists 'Securing our border and enforcing current immigration laws' as a stated priority (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "safety": {
+          "label": "Backs 'Restoring faith and support in our Judicial system and First Responders and Law Enforcement' as a public safety plank (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Rudy_Recile"
+        },
+        "democracy": {
+          "label": "'We need to ensure election integrity so that there is transparency throughout the entire voting process,' calling for verification of voter rolls, voting machines, mail-in voting and ballot harvesting (campaign site, Politics page)",
+          "url": "https://rudyforuscongress.com/index.php/issues/politics/"
         }
       },
       "nullNotes": {
@@ -3087,9 +3199,21 @@
         {
           "label": "Campaign site",
           "url": "https://rudyforuscongress.com"
+        },
+        {
+          "label": "Campaign site: government spending",
+          "url": "https://rudyforuscongress.com/index.php/issues/accountability-in-government-spending/"
+        },
+        {
+          "label": "Campaign site: politics and election integrity",
+          "url": "https://rudyforuscongress.com/index.php/issues/politics/"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Rudy_Recile"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CA10126",
@@ -3580,7 +3704,7 @@
         "Fight soft-on-crime policies"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
@@ -3603,6 +3727,10 @@
         "safety": {
           "label": "Would 'fight soft-on-crime policies like early prisoner release and reduced sentences for repeat offenders' (campaign site)",
           "url": "https://kevinlincolnforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Notes 'groceries cost more, gas prices are up, rent keeps climbing' and answers with a plan to 'cut wasteful government spending, lower taxes, and put more money back in the pockets' of families (campaign issues page)",
+          "url": "https://kevinlincolnforcongress.com/issues"
         }
       },
       "nullNotes": {
@@ -3624,7 +3752,7 @@
           "url": "https://kevinlincolnforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA12055",
@@ -5119,15 +5247,15 @@
         "Fight for working families"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -2,
         "housing": -1,
         "immigration": -1,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "taxes": -1,
+        "climate": -2,
+        "education": -1,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
       "positionSources": {
@@ -5138,6 +5266,30 @@
         "immigration": {
           "label": "Pledges to 'protect immigrant communities' (campaign site)",
           "url": "https://www.conniechansf.com"
+        },
+        "cost": {
+          "label": "Says 'the affordability crisis is driven by both skyrocketing costs and shrinking opportunities,' supports raising the minimum wage and opposes Trump tariffs as harmful to working families (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Connie_Chan"
+        },
+        "health": {
+          "label": "Backs 'Medicare for All which guarantees that every American has a right to health care,' plus protecting the ACA, expanding Medicaid and drug price negotiation (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Connie_Chan"
+        },
+        "taxes": {
+          "label": "Says smart programs 'have been undermined or eliminated to pay for tax giveaways for billionaires' and calls for reforming 'a broken tax and budget system' (campaign issues page)",
+          "url": "https://www.conniechansf.com/issues"
+        },
+        "climate": {
+          "label": "Supports a 'Green New Deal to invest in clean energy' that 'moves us away from fossil fuels'; her first bill as Supervisor banned oil extraction in San Francisco (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Connie_Chan"
+        },
+        "education": {
+          "label": "Would 'fully fund all federal mandates on public schools' and supports tuition-free public higher education (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Connie_Chan"
+        },
+        "repro": {
+          "label": "Supports the 'full range of reproductive health care including abortion and affordable contraception' and opposes insurance restrictions on reproductive care (Ballotpedia, citing campaign platform)",
+          "url": "https://ballotpedia.org/Connie_Chan"
         }
       },
       "nullNotes": {
@@ -5158,9 +5310,17 @@
         {
           "label": "Campaign site",
           "url": "https://www.conniechansf.com"
+        },
+        {
+          "label": "Campaign site: issues",
+          "url": "https://www.conniechansf.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile",
+          "url": "https://ballotpedia.org/Connie_Chan"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8CA11116",
@@ -5951,9 +6111,9 @@
         "Tax breaks for homebuying and entrepreneurship"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": 2,
-        "housing": null,
+        "housing": 2,
         "immigration": 1,
         "taxes": 1,
         "climate": null,
@@ -5974,6 +6134,14 @@
         "immigration": {
           "label": "Wants a fair immigration system with strong borders and thorough vetting, and native-born citizens getting the first shot at jobs (campaign solutions page)",
           "url": "https://www.voteforhouston.com/solutions"
+        },
+        "cost": {
+          "label": "'The cost of living is hindering your aspirations, but abundance through innovation zones and extensive building can change that,' paired with removing regulations and the REINS Act to 'cut unnecessary rules and regulations' (campaign Why page)",
+          "url": "https://www.voteforhouston.com/why"
+        },
+        "housing": {
+          "label": "Answers housing costs with 'abundance through... extensive building' and removing regulations that restrict development (campaign Why page)",
+          "url": "https://www.voteforhouston.com/why"
         }
       },
       "nullNotes": {
@@ -5993,9 +6161,13 @@
         {
           "label": "Campaign site: solutions",
           "url": "https://www.voteforhouston.com/solutions"
+        },
+        {
+          "label": "Campaign site: why",
+          "url": "https://www.voteforhouston.com/why"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2CA14162",
@@ -7109,21 +7281,33 @@
         "Give the Central Valley a stronger voice in Congress"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -1,
         "housing": null,
-        "immigration": null,
+        "immigration": -1,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": -1,
         "democracy": null
       },
       "positionSources": {
         "health": {
           "label": "'Real people shouldn't lose their Medi-Cal because a bill passed in the middle of the night. Sandra will fight to protect and expand coverage for every Californian' (campaign site)",
           "url": "https://www.electsandravanscotter.com/"
+        },
+        "cost": {
+          "label": "On beef prices, calls for 'real competition enforcement against the packing monopolies' and drought support for ranchers, and pledges 'I will fight every tariff implemented by Executive Order' (campaign Substack, Aug 23, 2026)",
+          "url": "https://sandravanscotter4cd20.substack.com/p/the-300000-metric-ton-question"
+        },
+        "immigration": {
+          "label": "Supports a pathway to legal status for undocumented workers and says border security and human dignity are compatible (campaign issues page)",
+          "url": "https://www.electsandravanscotter.com/issues"
+        },
+        "repro": {
+          "label": "Treats abortion as a right that needs real access: 'A right with no floor is a permission slip,' pledging to 'stop treating access as a footnote to the right' (campaign Substack, Aug 16, 2026)",
+          "url": "https://sandravanscotter4cd20.substack.com/p/a-right-you-cannot-reach"
         }
       },
       "nullNotes": {
@@ -7145,9 +7329,21 @@
         {
           "label": "Campaign site",
           "url": "https://www.electsandravanscotter.com/"
+        },
+        {
+          "label": "Campaign site: issues",
+          "url": "https://www.electsandravanscotter.com/issues"
+        },
+        {
+          "label": "Campaign Substack: A Right You Cannot Reach",
+          "url": "https://sandravanscotter4cd20.substack.com/p/a-right-you-cannot-reach"
+        },
+        {
+          "label": "Campaign Substack: The 300,000 Metric Ton Question",
+          "url": "https://sandravanscotter4cd20.substack.com/p/the-300000-metric-ton-question"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA20082",
@@ -7424,13 +7620,13 @@
         "Address data-center power and environmental impact"
       ],
       "positions": {
-        "cost": null,
+        "cost": -2,
         "health": -1,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -2,
         "climate": -1,
-        "education": null,
+        "education": -2,
         "safety": null,
         "repro": null,
         "democracy": null
@@ -7443,6 +7639,26 @@
         "climate": {
           "label": "'Calls for a moratorium on new data centers' over their environmental and power impact (campaign site)",
           "url": "https://www.villegasforcongress.com"
+        },
+        "cost": {
+          "label": "'I will fight to cap the price of medical procedures and prescription drugs across the board to an affordable rate in line with other major countries' (campaign healthcare issue page)",
+          "url": "https://www.villegasforcongress.com/issues/immigration"
+        },
+        "housing": {
+          "label": "Would 'Build affordable housing' through 'an ambitious federal program' and 'Stop corporations buying up our homes' by ending corporate ownership of single-family homes (campaign housing issue page)",
+          "url": "https://www.villegasforcongress.com/issues/housing"
+        },
+        "immigration": {
+          "label": "Opposes 'blanket detention and deportation' and backs 'a path to citizenship so our undocumented neighbors, friends and coworkers aren't forced to live in the shadows' (campaign immigration issue page)",
+          "url": "https://www.villegasforcongress.com/issues/immigration-1"
+        },
+        "taxes": {
+          "label": "'Three people own more wealth than the bottom half of our entire country, yet they're the ones getting tax cuts'; calls for taxing the top 1% while giving relief to working families (campaign jobs and economy page)",
+          "url": "https://www.villegasforcongress.com/issues/jobs-the-economy"
+        },
+        "education": {
+          "label": "Would make 'public colleges - career, technical and community - tuition free,' raise teacher and staff pay, cut class sizes, and prioritize education over tax cuts for the wealthy (campaign education page)",
+          "url": "https://www.villegasforcongress.com/issues/education-training"
         }
       },
       "nullNotes": {
@@ -7463,9 +7679,25 @@
         {
           "label": "Campaign site",
           "url": "https://www.villegasforcongress.com"
+        },
+        {
+          "label": "Campaign site: housing",
+          "url": "https://www.villegasforcongress.com/issues/housing"
+        },
+        {
+          "label": "Campaign site: immigration",
+          "url": "https://www.villegasforcongress.com/issues/immigration-1"
+        },
+        {
+          "label": "Campaign site: jobs and the economy",
+          "url": "https://www.villegasforcongress.com/issues/jobs-the-economy"
+        },
+        {
+          "label": "Campaign site: education and training",
+          "url": "https://www.villegasforcongress.com/issues/education-training"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2CA39078",
@@ -7661,7 +7893,7 @@
         "immigration": 2,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 2,
         "repro": null,
         "democracy": null
@@ -7678,6 +7910,10 @@
         "safety": {
           "label": "Pledges to fully support law enforcement and the military (campaign homepage)",
           "url": "https://www.burley4congress.com"
+        },
+        "education": {
+          "label": "As a school board member 'has stood for parental rights, academic excellence, and fiscal responsibility' (campaign bio page)",
+          "url": "https://www.burley4congress.com/bio"
         }
       },
       "nullNotes": {
@@ -7697,9 +7933,13 @@
         {
           "label": "Campaign site",
           "url": "https://www.burley4congress.com"
+        },
+        {
+          "label": "Campaign site: bio",
+          "url": "https://www.burley4congress.com/bio"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0CA08135",
@@ -8132,7 +8372,7 @@
         "taxes": null,
         "climate": -1,
         "education": -1,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -8148,6 +8388,10 @@
         "education": {
           "label": "'California should be a leader in public education,' with a commitment to school funding (Ballotpedia, 2016 campaign themes)",
           "url": "https://ballotpedia.org/Jacqui_Irwin"
+        },
+        "safety": {
+          "label": "Authored AB 1779, signed by the Governor, under the headline 'Restoring Prosecutors Ability to End Organized Retail Theft Rings' (Assembly office press releases)",
+          "url": "https://a42.asmdc.org/press-releases"
         }
       },
       "nullNotes": {
@@ -8171,9 +8415,13 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Jacqui_Irwin"
+        },
+        {
+          "label": "Assembly office press releases",
+          "url": "https://a42.asmdc.org/press-releases"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA26241",
@@ -8422,12 +8670,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": 0,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": 1,
         "repro": null,
         "democracy": null
@@ -8440,6 +8688,14 @@
         "immigration": {
           "label": "Priorities page calls for both secure borders and fair legal pathways, explicitly balancing enforcement and pathway language (campaign priorities page)",
           "url": "https://www.angelforcongress.com/priorities"
+        },
+        "health": {
+          "label": "Cites federal funding cuts and 47,222 district residents at risk of losing coverage, and would 'Expand access to care' and 'Lower out-of-pocket costs' (campaign priorities page)",
+          "url": "https://www.angelforcongress.com/priorities"
+        },
+        "education": {
+          "label": "Says she is 'committed to strengthening our community through fiscal responsibility, public safety, healthcare reform, and educational freedom' (campaign about page)",
+          "url": "https://www.angelforcongress.com/about"
         }
       },
       "nullNotes": {
@@ -8460,9 +8716,13 @@
         {
           "label": "Campaign site: priorities",
           "url": "https://www.angelforcongress.com/priorities"
+        },
+        {
+          "label": "Campaign site: about",
+          "url": "https://www.angelforcongress.com/about"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA45170",
@@ -8642,12 +8902,12 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": -1,
+        "taxes": -1,
         "climate": 2,
-        "education": null,
+        "education": -1,
         "safety": -1,
         "repro": null,
         "democracy": -1
@@ -8664,6 +8924,22 @@
         "safety": {
           "label": "Voted no on H.R.27/S.331, the HALT Fentanyl Act permanently classifying fentanyl analogues as Schedule I with mandatory minimums (clerk.house.gov roll 33, Feb 6, 2025).",
           "url": "https://clerk.house.gov/evs/2025/roll033.xml"
+        },
+        "health": {
+          "label": "'Ensuring everyone has access to affordable and quality healthcare' is a top priority; opposed ACA repeal and cuts to Medicaid and Medicare (House office issues page)",
+          "url": "https://correa.house.gov/about/issues"
+        },
+        "immigration": {
+          "label": "'Congressman Correa supports DREAMers and understands the importance of protecting new Americans,' advocating comprehensive immigration reform (House office issues page)",
+          "url": "https://correa.house.gov/about/issues"
+        },
+        "taxes": {
+          "label": "Voted no on H.R. 1, the One Big Beautiful Bill Act making the 2017 tax cuts permanent alongside spending cuts (House roll call 190, July 3, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
+        },
+        "education": {
+          "label": "'Education is a fundamental part of that future'; fought for legislation increasing college resources (House office issues page)",
+          "url": "https://correa.house.gov/about/issues"
         }
       },
       "nullNotes": {
@@ -8687,9 +8963,17 @@
         {
           "label": "House roll call 102 (SAVE Act)",
           "url": "https://clerk.house.gov/evs/2025/roll102.xml"
+        },
+        {
+          "label": "House office issues page",
+          "url": "https://correa.house.gov/about/issues"
+        },
+        {
+          "label": "House roll call 190 (H.R. 1)",
+          "url": "https://clerk.house.gov/evs/2025/roll190.xml"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4CA46137",
@@ -8976,12 +9260,12 @@
         "Restore public safety, support law enforcement"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
-        "housing": null,
+        "housing": 0,
         "immigration": 1,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": null,
         "safety": 2,
         "repro": null,
@@ -8999,6 +9283,18 @@
         "safety": {
           "label": "Emphasizes restoring public safety by supporting law enforcement and holding officials accountable (Ballotpedia, citing campaign platform)",
           "url": "https://ballotpedia.org/Jim_Desmond"
+        },
+        "cost": {
+          "label": "Would make life 'more affordable by lowering taxes, reducing overregulation, and curbing out-of-control costs' (campaign cost of living page)",
+          "url": "https://www.desmondforcongress.com/cost-of-living"
+        },
+        "housing": {
+          "label": "Mixed: 'Firm time limits on the permitting process so housing gets built faster' (market) alongside 'restrictions on investors purchasing three or more homes' and 'Expanding down-payment assistance' (public action) (campaign 5-step homeownership plan, Jan 21, 2026)",
+          "url": "https://www.desmondforcongress.com/latest-news/my-5-step-plan-to-make-homeownership-attainable-again"
+        },
+        "climate": {
+          "label": "Backs 'balanced, common-sense climate policies' with 'responsible use of fossil fuels,' nuclear expansion, and 'energy choice rather than mandates' (campaign energy page)",
+          "url": "https://www.desmondforcongress.com/energy"
         }
       },
       "nullNotes": {
@@ -9022,9 +9318,21 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Jim_Desmond"
+        },
+        {
+          "label": "Campaign site: cost of living",
+          "url": "https://www.desmondforcongress.com/cost-of-living"
+        },
+        {
+          "label": "Campaign site: energy",
+          "url": "https://www.desmondforcongress.com/energy"
+        },
+        {
+          "label": "Campaign site: homeownership plan",
+          "url": "https://www.desmondforcongress.com/latest-news/my-5-step-plan-to-make-homeownership-attainable-again"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6CA48310",

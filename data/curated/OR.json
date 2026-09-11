@@ -930,9 +930,9 @@
       "positions": {
         "cost": null,
         "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": 1,
+        "immigration": 0,
+        "taxes": 1,
         "climate": 1,
         "education": 2,
         "safety": 1,
@@ -951,6 +951,18 @@
         "safety": {
           "label": "Public Safety priority: 'Law enforcement funding, community policing, emergency response' (campaign site)",
           "url": "https://www.drkahlforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "'Protect taxpayers from higher burdens until government proves it can manage current funds responsibly'; 'Before asking families and small businesses for more, leaders should account for the money they already control' (Taxpayer Accountability page, pro-Kahl site drkahloregon.com)",
+          "url": "https://drkahloregon.com/issues/taxpayer-accountability/"
+        },
+        "housing": {
+          "label": "Contrasts her approach of 'faster permits, financing and construction' to expand housing supply against price controls or government ownership (pro-Kahl site drkahloregon.com, Aug 2026)",
+          "url": "https://drkahloregon.com/socialism-bonamici-dr-kahl-oregon/"
+        },
+        "immigration": {
+          "label": "Mixed: 'If immigration is broken, use immigration resources to fix it,' pairing citizenship services and reducing 'lawful processing backlogs' with enforcement 'focused on serious criminals, security threats, trafficking and smuggling, with due process' (pro-Kahl site drkahloregon.com, Aug 2026)",
+          "url": "https://drkahloregon.com/socialism-bonamici-dr-kahl-oregon/"
         }
       },
       "nullNotes": {
@@ -974,9 +986,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OR01308/"
+        },
+        {
+          "label": "Taxpayer Accountability page (drkahloregon.com)",
+          "url": "https://drkahloregon.com/issues/taxpayer-accountability/"
+        },
+        {
+          "label": "Bonamici vs. Kahl post (drkahloregon.com)",
+          "url": "https://drkahloregon.com/socialism-bonamici-dr-kahl-oregon/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2OR01240",
@@ -998,14 +1018,14 @@
         "End IRS enforcement targeting 1099 workers and subsidies for large corporations"
       ],
       "positions": {
-        "cost": null,
+        "cost": 0,
         "health": null,
         "housing": null,
         "immigration": 2,
         "taxes": 1,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -1017,6 +1037,22 @@
         "taxes": {
           "label": "Backs 'eliminating subsidies favoring large corporations' and 'stopping IRS enforcement targeting 1099 workers' (campaign site)",
           "url": "https://www.russisforus.com/"
+        },
+        "cost": {
+          "label": "Mixed: promises to 'lower everyday costs' by reducing 'unnecessary government burdens' and federal regulations, yet proposes a 'Minimum Employment Act' mandating multi-state employers keep at least 80% of workers full time (campaign FAQ and proposed bills pages)",
+          "url": "https://russisforus.com/proposed-bills"
+        },
+        "climate": {
+          "label": "'Return to Energy Independence = Lower costs of food, hard goods, construction, heating, cooling and transportation' (campaign What If page)",
+          "url": "https://russisforus.com/what-if/"
+        },
+        "education": {
+          "label": "Platform plank: 'End Federal Control of our Local Schools, Utilities, Businesses and Infrastructure' (campaign site)",
+          "url": "https://www.russisforus.com/"
+        },
+        "safety": {
+          "label": "Proposes requiring federal prosecutors to take about 98% of cases brought by law enforcement to trial to 'stop communist prosecutors in their tracks' (campaign proposed bills page)",
+          "url": "https://russisforus.com/proposed-bills"
         }
       },
       "nullNotes": {
@@ -1041,9 +1077,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2OR01240/"
+        },
+        {
+          "label": "Campaign proposed bills page",
+          "url": "https://russisforus.com/proposed-bills"
+        },
+        {
+          "label": "Campaign What If page",
+          "url": "https://russisforus.com/what-if/"
+        },
+        {
+          "label": "Campaign FAQ",
+          "url": "https://russisforus.com/faqs"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2OR01133",
@@ -1676,21 +1724,45 @@
         "Community safety and fiscal responsibility"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": 2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 0
       },
       "positionSources": {
         "health": {
           "label": "Wrote '#repeal Obamacare. Now. Now. Now.' and promoted the One Big Beautiful Bill Act's roughly $1 trillion in Medicaid reductions on her social media (American Journal News)",
           "url": "https://americanjournalnews.com/republican-patti-adair-endorsed-cutting-medicaid-repealing-obamacare/"
+        },
+        "cost": {
+          "label": "Pledges to 'beat inflation for good by reducing wasteful spending' and making tax cuts permanent (Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
+        },
+        "immigration": {
+          "label": "'I support securing the border and enforcing the law'; 'Securing the border and removing drug traffickers from our country is not political; it is a public safety imperative,' backing deportation of violent criminals here illegally (Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
+        },
+        "taxes": {
+          "label": "'I will make those tax cuts permanent,' attacking Bynum for voting 'against eliminating taxes on social security, tips and overtime' and for 'the largest tax increase in American history' (Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
+        },
+        "climate": {
+          "label": "'I believe in an all-of-the-above energy strategy that lowers costs, reduces emissions, and keeps Oregon's economy strong,' opposing 'radical policies' that 'drive up energy costs' (Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
+        },
+        "safety": {
+          "label": "'Fully support law enforcement to keep our communities safe' and 'Delivered new judgeships to keep criminals off the streets'; 'I stand with law enforcement' (campaign priorities page; Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://www.pattiforcongress.com/priorities"
+        },
+        "democracy": {
+          "label": "Mixed: 'it must be hard to cheat but easy to vote,' supporting Oregon's mail voting while backing citizenship verification safeguards (Oregon Capital Chronicle 2026 primary voter guide)",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
         }
       },
       "nullNotes": {
@@ -1720,9 +1792,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OR05242/"
+        },
+        {
+          "label": "Oregon Capital Chronicle 2026 primary voter guide",
+          "url": "https://oregoncapitalchronicle.com/voter-guides/contests/2026-republican-primary-u-s-house-district-5/"
+        },
+        {
+          "label": "Campaign priorities page",
+          "url": "https://www.pattiforcongress.com/priorities"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2OR06066",

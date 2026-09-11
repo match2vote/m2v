@@ -1360,7 +1360,7 @@
         "housing": 1,
         "immigration": null,
         "taxes": 2,
-        "climate": null,
+        "climate": 1,
         "education": null,
         "safety": null,
         "repro": null,
@@ -1378,12 +1378,15 @@
         "housing": {
           "label": "\"Property ownership should not be punished by the government with high taxes or onerous regulations\" (joelazumah.com)",
           "url": "https://www.joelazumah.com"
+        },
+        "climate": {
+          "label": "Calls for 'a major infrastructure campaign to rebuild roads, rail, pipelines, and new nuclear power plants,' an expand-supply energy stance (campaign site, Issues)",
+          "url": "https://joelazumah.com/issues"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: no healthcare statement found on joelazumah.com",
         "immigration": "re-checked Sep 2, 2026: no immigration statement found",
-        "climate": "re-checked Sep 2, 2026: no climate/energy statement found",
         "education": "re-checked Sep 2, 2026: no education statement found",
         "safety": "re-checked Sep 2, 2026: site says only 'we want our communities to be safe,' too vague to indicate an enforcement-vs-prevention direction",
         "repro": "re-checked Sep 2, 2026: no abortion statement found",
@@ -1399,7 +1402,7 @@
           "url": "https://www.politics1.com/ny.htm"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ny-house-10-moore",
@@ -2930,7 +2933,7 @@
         "health": null,
         "housing": 0,
         "immigration": 0,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": 0,
@@ -2949,12 +2952,15 @@
         "safety": {
           "label": "Mixed: 'I'm pro-police but uncompromising on accountability,' citing his role removing a corrupt officer (campaign site)",
           "url": "https://votefordiamant.com/diamants-plan-for-ny-14"
+        },
+        "taxes": {
+          "label": "Homepage platform plank: 'Lower your taxes' (campaign site)",
+          "url": "https://votefordiamant.com/"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: votefordiamant.com homepage fetched, only rhetorical questions about grocery/rent/healthcare/childcare costs, no stated policy direction",
         "health": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, 'fight for affordable, accessible healthcare, real solutions not bandaids' still has no public-vs-private policy direction",
-        "taxes": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no tax-rate statement found",
         "climate": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, only a 'local green jobs' transit mention, does not fit this axis",
         "education": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no education statement found",
         "repro": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no abortion statement found",
@@ -2968,9 +2974,13 @@
         {
           "label": "Vote for Diamant, Plan for NY-14",
           "url": "https://votefordiamant.com/diamants-plan-for-ny-14"
+        },
+        {
+          "label": "Vote for Diamant, home",
+          "url": "https://votefordiamant.com/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4NY16087",
@@ -3425,31 +3435,46 @@
       "positions": {
         "cost": 1,
         "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
           "label": "Would address 'taxes, energy costs, everyday expenses, and healthcare costs to ensure more' income stays with families and businesses (campaign site)",
           "url": "https://winwithjackie.com/"
+        },
+        "education": {
+          "label": "Praised the federal K-12 scholarship tax credit: 'We should be empowering parents and students with more options, not fewer' while also supporting 'strong public schools' (campaign press release, May 11, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-praises-educational-choice-may-2026"
+        },
+        "democracy": {
+          "label": "Frames voter ID as 'protecting confidence in American elections' and attacks Ryan for claiming 'voter identification is unacceptable' (campaign press release, Jul 24, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-pat-ryan-profits-from-identity-verification-abroad-but-opposes-voter-id-at-home"
+        },
+        "immigration": {
+          "label": "Opposes siting an ICE facility in Newburgh without local input but says when Albany 'blocks the use of existing, professional, well-run local facilities, like our county jails' for immigration enforcement, federal alternatives follow; Albany 'made it more chaotic' (campaign press release, Jul 6, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-opposes-ice-facility-newburgh"
+        },
+        "taxes": {
+          "label": "Opposed a proposed Ulster County income-tax surcharge: 'Once government creates a new tax, it rarely stops with the people it first claims to target'; wants officials to 'live within their means' (campaign press release, May 23, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-blasts-ulster-county-income-tax-surcharge-may-2026"
+        },
+        "housing": {
+          "label": "Running on 'cutting red tape behind rising housing costs' to make 'the Hudson Valley a place people can afford to stay' (campaign op-ed, May 18, 2026)",
+          "url": "https://winwithjackie.com/press/icymi-why-im-running-for-congress-ny18"
         }
       },
       "nullNotes": {
         "health": "re-checked Sep 2, 2026: winwithjackie.com fetched, 'Lowering the Cost of Living' groups taxes/energy/healthcare costs together with no distinct public-vs-private direction",
-        "housing": "re-checked Sep 2, 2026: winwithjackie.com fetched, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: winwithjackie.com fetched, no immigration statement found",
-        "taxes": "re-checked Sep 2, 2026: winwithjackie.com fetched, same cost-of-living bundle already noted, no distinct tax-rate statement",
         "climate": "re-checked Sep 2, 2026: winwithjackie.com fetched, no separate climate/energy statement beyond the cost bundle",
-        "education": "re-checked Sep 2, 2026: winwithjackie.com fetched, only 'career-connected education,' too vague for a public-vs-choice direction",
         "safety": "re-checked Sep 2, 2026: winwithjackie.com fetched, 'protecting residents rights and public safety' listed only as a slogan under government accountability, no specific policy",
-        "repro": "re-checked Sep 2, 2026: winwithjackie.com fetched, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: winwithjackie.com fetched, no voting/elections statement found"
+        "repro": "re-checked Sep 2, 2026: winwithjackie.com fetched, no abortion statement found"
       },
       "sources": [
         {
@@ -3459,9 +3484,25 @@
         {
           "label": "Win With Jackie",
           "url": "https://winwithjackie.com/"
+        },
+        {
+          "label": "Auringer press release on educational choice, May 11, 2026",
+          "url": "https://winwithjackie.com/press/auringer-praises-educational-choice-may-2026"
+        },
+        {
+          "label": "Auringer press release on voter ID, Jul 24, 2026",
+          "url": "https://winwithjackie.com/press/auringer-pat-ryan-profits-from-identity-verification-abroad-but-opposes-voter-id-at-home"
+        },
+        {
+          "label": "Auringer statement on Newburgh ICE facility, Jul 6, 2026",
+          "url": "https://winwithjackie.com/press/auringer-opposes-ice-facility-newburgh"
+        },
+        {
+          "label": "Auringer statement on Ulster County tax surcharge, May 23, 2026",
+          "url": "https://winwithjackie.com/press/auringer-blasts-ulster-county-income-tax-surcharge-may-2026"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8NY22177",
@@ -3987,7 +4028,7 @@
       ],
       "positions": {
         "cost": 1,
-        "health": null,
+        "health": 1,
         "housing": null,
         "immigration": 2,
         "taxes": null,
@@ -4009,10 +4050,13 @@
         "climate": {
           "label": "Opposes 'insane... green energy regulations' that raise costs, citing solar-farm impacts on farmland (campaign agenda page)",
           "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
+        },
+        "health": {
+          "label": "Says he is 'the only candidate who wants to stop the endless debate about making [healthcare] free to focus on innovation and delivering better outcomes' (Ballotpedia Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Anthony_Constantino"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: constantino.com press page fetched, only endorsement and event coverage, no healthcare statement",
         "housing": "re-checked Sep 2, 2026: constantino.com press page fetched, no housing statement found",
         "taxes": "re-checked Sep 2, 2026: constantino.com press page fetched, no tax-rate statement beyond general jobs/manufacturing framing",
         "education": "re-checked Sep 2, 2026: constantino.com press page fetched, no education statement found",
@@ -4028,9 +4072,13 @@
         {
           "label": "Constantino's Agenda",
           "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection, Anthony Constantino",
+          "url": "https://ballotpedia.org/Anthony_Constantino"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4NY22085",
@@ -5517,14 +5565,14 @@
         "Opposing authoritarian federal immigration enforcement"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -2,
         "housing": -1,
         "immigration": -2,
         "taxes": -2,
         "climate": null,
-        "education": null,
-        "safety": null,
+        "education": -1,
+        "safety": -2,
         "repro": null,
         "democracy": null
       },
@@ -5540,14 +5588,26 @@
         "immigration": {
           "label": "Pledges 'no New Yorker should have to face Trump's deportation machine alone' and that 'defending our immigrant neighbors isn't a slogan, it's something you do with your body' (campaign site)",
           "url": "https://www.bradlanderforcongress.com/about"
+        },
+        "health": {
+          "label": "2026 campaign website message: Brad will fight to 'win Medicare for All, and strengthen the rights of workers to organize' (Ballotpedia, campaign website, Apr 7, 2026)",
+          "url": "https://ballotpedia.org/Brad_Lander"
+        },
+        "cost": {
+          "label": "Campaign message pledged to 'increase the federal minimum wage, win Medicare for All' (Ballotpedia, 2021 campaign website)",
+          "url": "https://ballotpedia.org/Brad_Lander"
+        },
+        "education": {
+          "label": "Pledged to 'add guidance counselors, nurses, social workers to schools, lower class sizes' (Ballotpedia, 2021 campaign website)",
+          "url": "https://ballotpedia.org/Brad_Lander"
+        },
+        "safety": {
+          "label": "Wants to 'shift many social service functions to non-policing alternatives' and voted against a city budget because it 'did not meaningfully shift funding away from the NYPD' (Ballotpedia, 2021 campaign website)",
+          "url": "https://ballotpedia.org/Brad_Lander"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: correct domain confirmed as bradlanderforcongress.com (bradlander.nyc now redirects off-topic); /issues page fetched, only four campaign slogans, no policy text",
-        "health": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no healthcare statement found",
         "climate": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no climate/energy statement found",
-        "education": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no education statement found",
-        "safety": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no public-safety statement found",
         "repro": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no abortion statement found",
         "democracy": "re-checked Sep 2, 2026: bradlanderforcongress.com/issues fetched, no voting/elections statement found"
       },
@@ -5559,9 +5619,13 @@
         {
           "label": "Brad Lander for Congress",
           "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        {
+          "label": "Ballotpedia, Brad Lander",
+          "url": "https://ballotpedia.org/Brad_Lander"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY13279",

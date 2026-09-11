@@ -1955,13 +1955,13 @@
         "cost": -2,
         "health": -1,
         "housing": -1,
-        "immigration": null,
+        "immigration": -2,
         "taxes": null,
         "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "education": -2,
+        "safety": -2,
+        "repro": -2,
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -1975,6 +1975,26 @@
         "cost": {
           "label": "Bringing down the cost of living by expanding access to quality healthcare, building affordable homes, managing our rapid growth, investing in small businesses (McClain for SC issues page)",
           "url": "https://www.mcclainforsc.com/issues"
+        },
+        "education": {
+          "label": "Would 'establish a national teacher pay incentive program' to raise teacher salaries, 'increase Title I funding,' boost Head Start and pass 'a universal free meal program' for schools (campaign issues page: Stronger Schools)",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-here"
+        },
+        "safety": {
+          "label": "Backs 'diversion programs that provide alternatives to incarceration' for mental health and substance issues, 'comprehensive reentry programs,' youth prevention to avoid 'the prison pipeline,' and legislation increasing 'accountability for law enforcement misconduct' (campaign issues page: Safer Communities)",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-hereeee"
+        },
+        "democracy": {
+          "label": "Would 'enact automatic voter registration,' 'protect mail-in voting,' 'ban voter purges based on inactivity' and end partisan gerrymandering (campaign issues page: Protecting the Power of Every Vote)",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-hereeeeee"
+        },
+        "immigration": {
+          "label": "'End detention and deportation as a default, by investing in housing, legal support, and integration,' fund immigration courts 'to ensure counsel for all' and 'repeal the travel bans' (campaign issues page: Supporting Common Sense Humanity)",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-here8"
+        },
+        "repro": {
+          "label": "'Oppose the dangerous restrictions placed on women's right to choose, by ensuring equal and safe access to reproductive care within South Carolina and across the U.S.' (campaign issues page: Our Health, Our Fight)",
+          "url": "https://www.mcclainforsc.com/issues/issue-2"
         }
       },
       "nullNotes": {
@@ -1998,9 +2018,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC04171/"
+        },
+        {
+          "label": "Campaign issues page: Stronger Schools",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-here"
+        },
+        {
+          "label": "Campaign issues page: Safer Communities",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-hereeee"
+        },
+        {
+          "label": "Campaign issues page: Protecting Every Vote",
+          "url": "https://www.mcclainforsc.com/issues/your-issue-title-hereeeeee"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6SC05228",
@@ -2367,16 +2399,16 @@
         "Disaster preparedness for coastal communities"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -1,
         "housing": null,
         "immigration": 0,
         "taxes": -1,
         "climate": null,
-        "education": null,
+        "education": -2,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": -2
       },
       "positionSources": {
         "immigration": {
@@ -2386,6 +2418,26 @@
         "taxes": {
           "label": "Advocates 'tax relief for working families' that would 'benefit the middle class, not just the wealthy' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/John_Vincent_(South_Carolina)"
+        },
+        "cost": {
+          "label": "Would 'raise the federal minimum wage to $20 an hour,' protect food assistance and 'take on the rising utility bills,' while also calling to 'end the across-the-board tariffs that act as a 15 percent tax' on goods (campaign issues page: Making Life Affordable)",
+          "url": "https://www.vincentforcongress.com/issues/fight-to-end-government-dysfunction"
+        },
+        "health": {
+          "label": "'Stop the premium cliff' by protecting ACA health care tax credits, 'protect Medicaid and keep our rural hospitals and clinics open,' and hold hospital, drug and insurance companies 'accountable for the costs they drive' (campaign issues page: Healthcare and Veterans)",
+          "url": "https://www.vincentforcongress.com/issues/issue-2"
+        },
+        "education": {
+          "label": "'Public funds belong in public schools': pledges to be 'an unwavering voice in Congress against any federal effort to expand school voucher programs' and to protect Title I and IDEA funding (campaign education policy backgrounder, Mar 2026)",
+          "url": "https://www.vincentforcongress.com/education-policy-backgrounder"
+        },
+        "repro": {
+          "label": "'Protect women's reproductive freedom and keep personal medical decisions between a woman and her doctor, not politicians' (campaign issues page: Healthcare and Veterans)",
+          "url": "https://www.vincentforcongress.com/issues/issue-2"
+        },
+        "democracy": {
+          "label": "Opposes the SAVE America Act as 'voter suppression dressed up as election integrity' and backs 'the John R. Lewis Voting Rights Advancement Act of 2025 (H.R. 14)' (campaign SAVE Act backgrounder, Mar 2026)",
+          "url": "https://www.vincentforcongress.com/save-act-backgrounder"
         }
       },
       "nullNotes": {
@@ -2406,9 +2458,25 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6SC07034/"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.vincentforcongress.com/"
+        },
+        {
+          "label": "Campaign issues page: Healthcare and Veterans",
+          "url": "https://www.vincentforcongress.com/issues/issue-2"
+        },
+        {
+          "label": "Campaign education policy backgrounder",
+          "url": "https://www.vincentforcongress.com/education-policy-backgrounder"
+        },
+        {
+          "label": "Campaign SAVE Act backgrounder",
+          "url": "https://www.vincentforcongress.com/save-act-backgrounder"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "age": null,

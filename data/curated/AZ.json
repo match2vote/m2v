@@ -1687,14 +1687,14 @@
         "Mining-driven economic development"
       ],
       "positions": {
-        "cost": null,
+        "cost": 2,
         "health": null,
         "housing": null,
         "immigration": 1,
         "taxes": 2,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "climate": 1,
+        "education": 2,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
@@ -1706,6 +1706,22 @@
         "taxes": {
           "label": "Backs \"simplifying America's tax system: toward a fairer, flatter future and eliminating the IRS\" (Butierez campaign)",
           "url": "https://butierezforcongress.com/policy/"
+        },
+        "cost": {
+          "label": "\"I support targeted measures to control inflation without stifling growth, such as streamlining regulations that hinder domestic production and investing in energy independence\"; also wants wasteful spending cut via audits (Butierez economic policy page)",
+          "url": "https://butierezforcongress.com/economic-policy/"
+        },
+        "climate": {
+          "label": "Backs energy independence and \"expanding renewable energy sources while maintaining a balanced approach to fossil fuels to lower costs for families and businesses\"; supports \"responsible mining\" in southern Arizona (Butierez economic policy page)",
+          "url": "https://butierezforcongress.com/economic-policy/"
+        },
+        "education": {
+          "label": "\"Parents need to be in charge of what their children are learning not the government\" (Ballotpedia Candidate Connection, 2024)",
+          "url": "https://ballotpedia.org/Daniel_Butierez"
+        },
+        "safety": {
+          "label": "Would \"enforce anti-vagrancy laws to protect public spaces,\" tie shelter to \"mandatory drug rehabilitation,\" allow \"court-ordered treatment\" in mental health crises, and \"enforce anti-drug trafficking laws more rigorously\" (Butierez homelessness and housing policy page)",
+          "url": "https://butierezforcongress.com/homelessnes-and-housing-policy/"
         }
       },
       "nullNotes": {
@@ -1730,9 +1746,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4AZ07134/"
+        },
+        {
+          "label": "Butierez economic policy",
+          "url": "https://butierezforcongress.com/economic-policy/"
+        },
+        {
+          "label": "Butierez homelessness policy",
+          "url": "https://butierezforcongress.com/homelessnes-and-housing-policy/"
+        },
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Daniel_Butierez"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4AZ08108",
@@ -2023,16 +2051,16 @@
         "First-time homebuyer assistance"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": -1,
-        "immigration": null,
+        "immigration": 0,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -2046,6 +2074,22 @@
         "education": {
           "label": "Would \"fully fund public schools\" and \"increase teacher pay and classroom support\" (Sterbinsky campaign)",
           "url": "https://www.sterbinskyforcongress.com"
+        },
+        "cost": {
+          "label": "\"Make childcare affordable so parents can work or train,\" \"provide rental assistance to keep families and seniors housed,\" and give gig workers \"portable benefits\" (Sterbinsky for Congress)",
+          "url": "https://www.sterbinskyforcongress.com"
+        },
+        "immigration": {
+          "label": "Mixed: \"Modernize the legal process\" and \"expedite the legal immigration process\" with \"humane and practical\" solutions, while also \"strengthen border security and enforce the law responsibly\" (Sterbinsky for Congress, more priorities)",
+          "url": "https://www.sterbinskyforcongress.com/services"
+        },
+        "climate": {
+          "label": "Priorities are \"local clean energy jobs,\" \"responsible resource management,\" and \"long-term water protection for Arizona communities\" (Sterbinsky for Congress, more priorities)",
+          "url": "https://www.sterbinskyforcongress.com/services"
+        },
+        "democracy": {
+          "label": "\"I also believe in expanding voter access with automatic registration, secure early voting, and mail-in ballots,\" alongside paper ballots and transparent audits (Ballotpedia Candidate Connection, 2026)",
+          "url": "https://ballotpedia.org/Danielle_Sterbinsky"
         }
       },
       "nullNotes": {
@@ -2065,9 +2109,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6AZ09085/"
+        },
+        {
+          "label": "Sterbinsky more priorities",
+          "url": "https://www.sterbinskyforcongress.com/services"
+        },
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Danielle_Sterbinsky"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

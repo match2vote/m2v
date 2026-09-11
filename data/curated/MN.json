@@ -582,9 +582,9 @@
       "positions": {
         "cost": -1,
         "health": 2,
-        "housing": null,
+        "housing": 2,
         "immigration": 0,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": null,
@@ -603,16 +603,22 @@
         "health": {
           "label": "As a former licensed Minnesota health insurance agent, proposes 'fully underwritten policies, real group-style coverage, pay for your own risk, not someone else's,' favoring market-based solutions over government programs (Tyler Bass for Congress homepage)",
           "url": "https://bassforcongress.com/"
+        },
+        "housing": {
+          "label": "'Make Minnesota Affordable Again' page cites rent 'up 111% since 2013' and calls for reducing regulatory burdens on construction to increase housing supply and market-based solutions rather than government housing programs, which he characterizes as socialist (bassforcongress.com)",
+          "url": "https://bassforcongress.com/make-minnesota-affordable-again"
+        },
+        "taxes": {
+          "label": "Runs on 'more jobs, less taxes,' blames excessive government spending for inflation, and wants 'a real plan to stop fraud, waste, and abuse in programs like Medicaid before another dollar goes out the door' (bassforcongress.com homepage, affordability page, and Morrison vs. Bass comparison)",
+          "url": "https://bassforcongress.com/morrison-vs-bass"
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: site frames housing costs only through opposing federal involvement in local property-tax policy, a federalism argument rather than a zoning/building or renter-protection stance, does not cleanly fit the axis",
-        "taxes": "re-checked Sep 2, 2026: same federalism framing ('get Washington's hand out of your local tax bill'), about jurisdiction not tax level, does not cleanly fit the axis",
-        "climate": "re-checked Sep 2, 2026: homepage fetched in full, no climate/energy content found",
-        "education": "re-checked Sep 2, 2026: homepage fetched in full, no education content found",
-        "safety": "re-checked Sep 2, 2026: homepage frames crime only through immigration enforcement and gun rights, neither of which maps to the safety axis per the guide",
-        "repro": "re-checked Sep 2, 2026: same survey review, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: same survey review, no voting/elections statement found"
+        "climate": "re-checked Sep 11, 2026: bassforcongress.com homepage, /archives (all nine posts listed), /make-minnesota-affordable-again, /morrison-vs-bass, /no-more-rinos fetched, no statement on this axis",
+        "education": "re-checked Sep 11, 2026: bassforcongress.com homepage, /archives (all nine posts listed), /make-minnesota-affordable-again, /morrison-vs-bass, /no-more-rinos fetched, no statement on this axis",
+        "safety": "re-checked Sep 11, 2026: bassforcongress.com homepage, /archives (all nine posts listed), /make-minnesota-affordable-again, /morrison-vs-bass, /no-more-rinos fetched, no statement on this axis",
+        "repro": "re-checked Sep 11, 2026: bassforcongress.com homepage, /archives (all nine posts listed), /make-minnesota-affordable-again, /morrison-vs-bass, /no-more-rinos fetched, no statement on this axis",
+        "democracy": "re-checked Sep 11, 2026: bassforcongress.com homepage, /archives (all nine posts listed), /make-minnesota-affordable-again, /morrison-vs-bass, /no-more-rinos fetched, no statement on this axis"
       },
       "sources": [
         {
@@ -626,9 +632,17 @@
         {
           "label": "The Green Papers: Minnesota 2026 general election candidates",
           "url": "https://www.thegreenpapers.com/G26/MN"
+        },
+        {
+          "label": "Bass for Congress: Make Minnesota Affordable Again",
+          "url": "https://bassforcongress.com/make-minnesota-affordable-again"
+        },
+        {
+          "label": "Bass for Congress: Morrison vs. Bass",
+          "url": "https://bassforcongress.com/morrison-vs-bass"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "mn-house-5-jackson",

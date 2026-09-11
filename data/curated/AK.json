@@ -503,6 +503,10 @@
         {
           "label": "Alaska Public Media: super PACs try to game Alaska's open primary, Aug 14 2026",
           "url": "https://alaskapublic.org/news/politics/2026-08-14/super-pacs-try-to-game-alaskas-open-primary-for-u-s-senate-by-elevating-political-unknowns"
+        },
+        {
+          "label": "Ballotpedia: Gerald Heikes (2024 Alaska Beacon Q&A excerpts)",
+          "url": "https://ballotpedia.org/Gerald_Heikes"
         }
       ],
       "age": null,
@@ -517,9 +521,9 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": null,
         "repro": 2,
@@ -529,6 +533,14 @@
         "repro": {
           "label": "Said there should 'absolutely' be a nationwide abortion ban, including in cases of rape and incest, and stayed in a past race specifically after a rival supported rape/incest exceptions (Anchorage Daily News, Aug 11 2024; the-downballot.com)",
           "url": "https://www.adn.com/politics/2024/08/11/attacks-on-relatively-unknown-gop-candidate-for-alaskas-us-house-seat-could-shape-primary-results/"
+        },
+        "immigration": {
+          "label": "His immigration platform in one line: 'Enforcing the law, protecting the borders' (Alaska Beacon 2024 candidate Q&A, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Gerald_Heikes"
+        },
+        "climate": {
+          "label": "'Climate change is a fear factor of the ignorant'; 'We have enough oil to light and heat all of America for thousands of years' and Alaska 'should have the lowest fuel prices' (Alaska Beacon 2024 candidate Q&A, via Ballotpedia)",
+          "url": "https://ballotpedia.org/Gerald_Heikes"
         }
       },
       "nullNotes": {
@@ -542,7 +554,7 @@
         "safety": "re-checked Sep 2, 2026: same no-website limitation",
         "democracy": "re-checked Sep 2, 2026: same no-website limitation beyond the previously logged RCV opposition quote"
       },
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ak-gov-bronson",

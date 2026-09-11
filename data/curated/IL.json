@@ -787,6 +787,10 @@
         {
           "label": "Politics1 Illinois 2026 candidate list",
           "url": "https://politics1.com/il.htm"
+        },
+        {
+          "label": "Campaign news page",
+          "url": "https://noack4congress.com/news/"
         }
       ],
       "age": null,
@@ -804,7 +808,7 @@
         "housing": null,
         "immigration": 0,
         "taxes": 1,
-        "climate": null,
+        "climate": 1,
         "education": null,
         "safety": 1,
         "repro": null,
@@ -822,18 +826,21 @@
         "safety": {
           "label": "Proposes to \"hire military veterans for police forces\" (campaign site)",
           "url": "https://noack4congress.com/issues"
+        },
+        "climate": {
+          "label": "Backs \"an all-of-the-above energy strategy that prioritizes hydroelectric and proven technologies, keeps electricity bills affordable, and puts American energy independence ahead of costly government mandates\" (campaign news page, Jan 28, 2026)",
+          "url": "https://noack4congress.com/news/"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: Ballotpedia robots-blocked twice, no other source found",
         "health": "Proposes converting insurers to nonprofits to cut premiums, but this structural idea does not clearly map to either a bigger public role or a bigger private/competition role (checked Aug 29, 2026)",
         "housing": "Only property-tax relief mentioned, scored under taxes per one-sentence-one-axis rule; no separate housing/zoning position found (checked Aug 29, 2026)",
-        "climate": "Backs hydroelectric power over wind/solar but does not state a clean-transition or oil-and-gas-expansion position; too ambiguous to score (checked Aug 29, 2026)",
         "education": "re-checked Sep 2, 2026: same access failure",
         "repro": "re-checked Sep 2, 2026: same access failure",
         "democracy": "re-checked Sep 2, 2026: same access failure"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "il-house-4-castillo",
@@ -2090,12 +2097,12 @@
       ],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": 2,
         "housing": null,
         "immigration": 2,
         "taxes": 1,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": null,
         "repro": 2,
         "democracy": null
@@ -2112,14 +2119,20 @@
         "repro": {
           "label": "Campaign theme section \"Protect and defend life\" under \"Sanctity of Life\" (Ballotpedia)",
           "url": "https://ballotpedia.org/Chad_Koppie"
+        },
+        "health": {
+          "label": "Health-care plank is \"Making Health Care affordable again: Repeal Obamacare,\" framed on the issues index as a \"free-market advocate\" who wants government to \"protect the freedom to choose\" (campaign site)",
+          "url": "https://chadkoppie.com/includes/issues/health-care.php"
+        },
+        "education": {
+          "label": "\"The Constitution grants the Federal Government absolutely no authority over Education,\" calls for dismantling the federal Department of Education, returning control to local communities, and \"Stop Common Core!\" (campaign site)",
+          "url": "https://chadkoppie.com/includes/issues/education.php"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: Ballotpedia confirms Chad Koppie did not complete the 2020, 2022, or 2024 Candidate Connection survey; only a Ukraine-war grocery-price aside tied to foreign policy found, not a domestic cost-of-living position",
-        "health": "re-checked Sep 2, 2026: same as cost, not addressed on the page fetched",
         "housing": "re-checked Sep 2, 2026: same as cost, not addressed",
         "climate": "re-checked Sep 2, 2026: same as cost, not addressed",
-        "education": "re-checked Sep 2, 2026: same as cost, not addressed",
         "safety": "re-checked Sep 2, 2026: same as cost, not addressed",
         "democracy": "re-checked Sep 2, 2026: same as cost, not addressed"
       },
@@ -2131,9 +2144,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2IL08203/"
+        },
+        {
+          "label": "Campaign health-care page",
+          "url": "https://chadkoppie.com/includes/issues/health-care.php"
+        },
+        {
+          "label": "Campaign education page",
+          "url": "https://chadkoppie.com/includes/issues/education.php"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6IL08329",
@@ -3411,15 +3432,15 @@
         "Campaign-finance and stock-trading reform"
       ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": -2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": -1,
+        "taxes": -2,
         "climate": -1,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": -1
       },
       "positionSources": {
@@ -3434,16 +3455,28 @@
         "democracy": {
           "label": "Would \"ban members of Congress and their families from trading stocks\" and protect \"Freedom of Speech\" from government overreach (campaign site)",
           "url": "https://nolleyforcongress.com/issues"
+        },
+        "cost": {
+          "label": "Prioritizes the \"rising cost of living\" and pledges to \"fight against industry consolidation that has allowed large corporations to reduce consumer choice and drive up prices\" (WTTW voters guide, Aug 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/paul-nolley"
+        },
+        "immigration": {
+          "label": "\"We cannot have open borders, but we also cannot accept a paramilitary-style force of masked federal agents terrorizing immigrant communities,\" backs \"structured, lawful, and fair pathways for immigrants to seek legal status\" (WTTW voters guide, Aug 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/paul-nolley"
+        },
+        "taxes": {
+          "label": "\"Income tax rates for working-class and middle-class people should be reduced, while tax rates for the ultra-rich and large corporations should be increased,\" plus closing loopholes for the ultra-rich (WTTW voters guide, Aug 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/paul-nolley"
+        },
+        "repro": {
+          "label": "On abortion, \"the decision is ultimately between a woman, her religious advisors or religious leader, and the physician,\" opposing government restriction of access (WILL The 21st Show, Aug 2026)",
+          "url": "https://will.illinois.edu/21stshow/story/democrat-paul-nolley"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: nolleyforcongress.com/issues covers Social Security/Medicare/Medicaid, anti-corruption, agriculture, labor, manufacturing, environment, family support, civil rights, veterans, no cost-of-living statement",
         "housing": "re-checked Sep 2, 2026: nolleyforcongress.com/issues covers Social Security/Medicare/Medicaid, anti-corruption, farm preservation, workers' rights, manufacturing, environment, family support, women's rights, veterans, civil liberties, no housing statement found",
-        "immigration": "re-checked Sep 2, 2026: same source, no immigration statement found",
-        "taxes": "re-checked Sep 2, 2026: 'Increase Child Tax Credit' is a targeted household tax credit, which per the calibration guide does not fit the broader raise-vs-cut taxes axis",
         "education": "re-checked Sep 2, 2026: same source, no education statement found",
-        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found",
-        "repro": "re-checked Sep 2, 2026: 'Civil Rights' plank protects 'women's rights' generally with no specific abortion-policy statement"
+        "safety": "re-checked Sep 2, 2026: same source, no public-safety statement found"
       },
       "sources": [
         {
@@ -3457,9 +3490,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL16108/"
+        },
+        {
+          "label": "WTTW voters guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/paul-nolley"
+        },
+        {
+          "label": "WILL The 21st Show interview",
+          "url": "https://will.illinois.edu/21stshow/story/democrat-paul-nolley"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2IL17147",
@@ -3569,9 +3610,9 @@
         "cost": null,
         "health": 1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 2,
         "education": null,
         "safety": null,
         "repro": null,
@@ -3581,14 +3622,23 @@
         "health": {
           "label": "Pledges to \"fight for price transparency in our broken healthcare system\" (campaign site)",
           "url": "https://www.vancilforcongress.com"
+        },
+        "climate": {
+          "label": "Says \"Green New Deal Democrats have driven up costs with their obsession over unreliable renewable energy\" and wants to \"unleash American energy, firing up our clean coal plants, expanding natural gas, and investing in safe nuclear\" (WTTW voters guide, 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/dillan-vancil"
+        },
+        "immigration": {
+          "label": "\"Federal immigration reform is not needed right now; what we need is full enforcement of the laws that already exist, including the Laken Riley Act,\" with local police working closely with federal immigration agencies (WTTW voters guide, 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/dillan-vancil"
+        },
+        "taxes": {
+          "label": "\"Washington has a spending problem, not a revenue problem\"; top priority is no federal income tax on the first $25,000 for individuals and $50,000 for couples, and opposes raising the payroll tax (WTTW voters guide, 2026)",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/dillan-vancil"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: Ballotpedia robots-blocked, campaign site still not addressed",
         "housing": "re-checked Sep 2, 2026: same as cost",
-        "immigration": "re-checked Sep 2, 2026: same as cost",
-        "taxes": "re-checked Sep 2, 2026: same as cost",
-        "climate": "re-checked Sep 2, 2026: same as cost",
         "education": "Only says he'll \"push for funding to help Illinois Students,\" with no clear public-schools-vs-choice direction stated (checked Aug 29, 2026)",
         "safety": "re-checked Sep 2, 2026: same as cost",
         "repro": "re-checked Sep 2, 2026: same as cost",
@@ -3606,9 +3656,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6IL17247/"
+        },
+        {
+          "label": "WTTW voters guide",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/dillan-vancil"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

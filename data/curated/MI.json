@@ -4152,18 +4152,47 @@
       "background": "Democratic nominee for Michigan's 5th Congressional District, campaigning on 'working-class values.'",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
+        "cost": -1,
+        "health": -1,
+        "housing": -1,
+        "immigration": 0,
         "taxes": null,
-        "climate": null,
-        "education": null,
+        "climate": -1,
+        "education": -2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Pledges 'taking on the monopolies by enforcing antitrust laws' so companies 'compete fairly,' plus 'lowering prescription drug costs' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "health": {
+          "label": "Would lower 'prescription drug costs, protect coverage for people with preexisting conditions, and expand access to doctors and hospitals in rural and small-town communities' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "housing": {
+          "label": "Backs 'policies that help build and preserve affordable homes, and offer first-time buyers the help they need' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "immigration": {
+          "label": "Mixed: wants 'a border security and immigration system that is orderly, lawful,' while also 'rooted in the faith and decency that define the American spirit' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "climate": {
+          "label": "Supports 'smart investments in our electrical grid, renewable energy, and storage technology to create good jobs' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "education": {
+          "label": "Career teacher and NEA/AAUP organizer pushing to 'expand pre-K for every family, make community college and trade schools tuition-free, and pay our teachers what they are worth' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        },
+        "democracy": {
+          "label": "Lists 'defending the right to vote, due process, and equal treatment under the law' and campaign finance reform among his priorities (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: christian4michigan.com/issues fetched directly, still returns only meta title/description, no body content",
         "health": "re-checked Sep 2, 2026: same metadata-only result",
@@ -4184,9 +4213,13 @@
         {
           "label": "Campaign site: Christian for Michigan",
           "url": "https://christian4michigan.com"
+        },
+        {
+          "label": "Ballotpedia: Christian Vukasovich (Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Christian_Vukasovich"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4MI12079",
@@ -4457,18 +4490,47 @@
         "Environmental stewardship"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": -1,
+        "taxes": -1,
+        "climate": -1,
         "education": null,
-        "safety": null,
+        "safety": -1,
         "repro": null,
-        "democracy": null
+        "democracy": -1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Calls for 'raising the minimum wage while putting a maximum ratio for CEO pay' and requiring that corporate profits are 'properly shared with the employees that created the value' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "health": {
+          "label": "Wants to 'break the corporate monopolies on healthcare' and provide 'security and peace of mind you deserve through Medicare For All' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "immigration": {
+          "label": "Pairs 'a secure border' with 'a clear, swift pathway to citizenship for those who follow the rules' and 'no more harassing immigrants for merely existing in our country' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "taxes": {
+          "label": "Would simplify the code 'so the ultra-wealthy pay their fair share,' cut taxes for working families and close 'all the tax loopholes these corporations take advantage of' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "climate": {
+          "label": "Backs 'American-made solar, wind, and other innovative technologies' for 'abundant, cheap, and clean power' and holding companies accountable for 'knowingly polluting our planet' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "safety": {
+          "label": "Safety plank is 'Fund mental healthcare, secure our safety,' with expanding mental healthcare as the non-gun component (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        },
+        "democracy": {
+          "label": "Would 'overturn Citizens United to get dark money out of politics,' create 'a public financing system for campaigns' and 'move towards a ranked-choice voting system' (Pooley 4 Congress issues page)",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: pooley4congress.com/issues returns 404, homepage still only a vague healthcare aspiration and generic manufacturing tagline",
         "health": "re-checked Sep 2, 2026: same finding",
@@ -4485,9 +4547,13 @@
         {
           "label": "Campaign site: Pooley 4 Congress",
           "url": "https://www.pooley4congress.com"
+        },
+        {
+          "label": "Pooley 4 Congress: The Issues",
+          "url": "https://www.pooley4congress.com/copy-of-the-issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MI10276",

@@ -9499,15 +9499,28 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "immigration": {
+          "label": "Campaign Issues page lists \"Strong Border & Immigration Control Policies\" as a top plank of his \"America-First\" platform (Sell Texas True campaign site, fetched Sep 11, 2026)",
+          "url": "https://selltexastrue.com/issues"
+        },
+        "climate": {
+          "label": "Campaign Issues page pledges to \"Promote Energy Dominance\" alongside being a \"Champion for Agriculture\" (Sell Texas True campaign site, fetched Sep 11, 2026)",
+          "url": "https://selltexastrue.com/issues"
+        },
+        "repro": {
+          "label": "Campaign Issues page lists \"Protect Life\" as a core plank of his platform (Sell Texas True campaign site, fetched Sep 11, 2026)",
+          "url": "https://selltexastrue.com/issues"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: selltexastrue.com (new domain from politics1.com roster, prior pass found no site) fetched fresh; homepage, About, and Press pages contain only biography (Texas Tech, work for Rep. Larry Combest on the 2002 Farm Bill) and general Trump/America-First messaging, no policy content",
         "health": "re-checked Sep 2, 2026: same finding",
@@ -9528,9 +9541,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX19206/"
+        },
+        {
+          "label": "Campaign site: Issues",
+          "url": "https://selltexastrue.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6TX30211",
@@ -9600,18 +9617,35 @@
         "educational justice"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
         "immigration": null,
         "taxes": null,
         "climate": null,
-        "education": null,
+        "education": -2,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Would \"cap interest rates nationally and close loopholes that allow predatory lenders to exploit vulnerable borrowers\" and backs \"wage growth tied to the real cost of living, not outdated benchmarks\" plus paid family leave (Haynes for Congress, Economic Security priorities, fetched Sep 11, 2026)",
+          "url": "https://www.haynesforcongress.com/issues/congressional-priorities-for-economic-security"
+        },
+        "health": {
+          "label": "Frames economic security as \"a public good, not a privilege\" and pledges to \"Expand Access to affordable housing, childcare, healthcare, and paid family leave\"; no specific Medicare or public option mechanism stated (Haynes for Congress, Economic Security priorities, fetched Sep 11, 2026)",
+          "url": "https://www.haynesforcongress.com/issues/congressional-priorities-for-economic-security"
+        },
+        "housing": {
+          "label": "Pledges to \"Expand Access to affordable housing\" and invest in \"home ownership\"; companion Equitable Development page says \"Development should not displace communities\" and calls for \"Federal investment in historically under-resourced neighborhoods\" (Haynes for Congress, Economic Security priorities, fetched Sep 11, 2026)",
+          "url": "https://www.haynesforcongress.com/issues/congressional-priorities-for-economic-security"
+        },
+        "education": {
+          "label": "Calls for \"Equitable federal funding formulas that prioritize high-need districts,\" \"Increased investment in early childhood education,\" \"Fair pay and support for educators,\" and school counselors and social workers; no mention of vouchers or charters (Haynes for Congress, Policies for Educational Justice, fetched Sep 11, 2026)",
+          "url": "https://www.haynesforcongress.com/issues/policies-for-educational-justice"
+        }
+      },
       "nullNotes": {
         "cost": "campaign site (haynesforcongress.com) is a JavaScript rendered app that returns only navigation shell and general mission language to a fetcher, no readable Issues page body text on economic security, no Candidate Connection survey, Ballotpedia profile page returned a repeated robots error (checked Aug 29, 2026)",
         "health": "same site limitation: Issues and economic security pages return no readable body text, meta description mentions affordable healthcare and justice only as a slogan with no stated public versus private mechanism (checked Aug 29, 2026)",
@@ -9640,9 +9674,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TX30245/"
+        },
+        {
+          "label": "Campaign site: Economic Security priorities",
+          "url": "https://www.haynesforcongress.com/issues/congressional-priorities-for-economic-security"
+        },
+        {
+          "label": "Campaign site: Educational Justice policies",
+          "url": "https://www.haynesforcongress.com/issues/policies-for-educational-justice"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

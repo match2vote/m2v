@@ -508,7 +508,7 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": null,
         "climate": null,
         "education": null,
@@ -516,12 +516,16 @@
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "immigration": {
+          "label": "Everett Herald reports Feller's 'top priorities include addressing illegal immigration, expanding hydropower and nuclear energy projects, and banning transgender girls from participating in girls sports' (Everett Herald, Aug 4, 2026)",
+          "url": "https://www.heraldnet.com/2026/08/04/three-incumbents-lead-in-congressional-primary-races/"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: politics1.com/wa.htm confirms same domain (fellerforcongress.com), no alternate site found, only a fiscal-responsibility tagline",
         "health": "re-checked Sep 2, 2026: same site, no healthcare statement",
         "housing": "re-checked Sep 2, 2026: same site, no housing statement",
-        "immigration": "re-checked Sep 2, 2026: same site, no immigration statement",
         "taxes": "re-checked Sep 2, 2026: same site, no tax statement",
         "climate": "re-checked Sep 2, 2026: same site, no climate statement",
         "education": "re-checked Sep 2, 2026: same site, no education statement",
@@ -529,7 +533,7 @@
         "repro": "re-checked Sep 2, 2026: same site, no abortion statement",
         "democracy": "re-checked Sep 2, 2026: same site, no voting or elections statement"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "wa-house-10-chung",
@@ -796,25 +800,38 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 2,
         "taxes": null,
-        "climate": null,
+        "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 2,
+        "repro": 2,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "immigration": {
+          "label": "'A nation without borders is not a nation': supports 'President Trump's commitment to border security and enforcing immigration law' and 'strong border enforcement' that 'puts American safety and sovereignty first' (McKinney campaign site, 2026)",
+          "url": "https://mckinneyforwashington.com/"
+        },
+        "climate": {
+          "label": "'Energy independence is national security': backs 'American energy dominance through hydropower, nuclear energy, natural gas, and responsible domestic production' and 'opposes radical energy mandates that raise costs' (McKinney campaign site, 2026)",
+          "url": "https://mckinneyforwashington.com/"
+        },
+        "safety": {
+          "label": "Will 'fight to restore law and order, dismantle fentanyl trafficking networks, and ensure law enforcement has the tools they need' and 'rejects anti-police rhetoric and policies that embolden criminals' (McKinney campaign site, 2026)",
+          "url": "https://mckinneyforwashington.com/"
+        },
+        "repro": {
+          "label": "States that 'all life has meaning and value and must be protected from conception' (McKinney campaign site, About page, 2026)",
+          "url": "https://mckinneyforwashington.com/about"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: politics1.com/wa.htm confirms same domain (mckinneyforwashington.com), already established this round as unreachable, not re-fetched again",
         "health": "re-checked Sep 2, 2026: same limitation",
         "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
         "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
         "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
         "democracy": "re-checked Sep 2, 2026: same limitation"
       },
       "sources": [
@@ -825,9 +842,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6WA04216/"
+        },
+        {
+          "label": "McKinney campaign site",
+          "url": "https://mckinneyforwashington.com/"
+        },
+        {
+          "label": "McKinney campaign: About",
+          "url": "https://mckinneyforwashington.com/about"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6WA04190",

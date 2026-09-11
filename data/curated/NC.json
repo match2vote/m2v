@@ -3119,37 +3119,70 @@
         "Republican platform (specific issue positions not documented)"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "cost": 2,
+        "health": 2,
+        "housing": 2,
+        "immigration": 1,
+        "taxes": 2,
         "climate": null,
         "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "safety": 1,
+        "repro": 2,
+        "democracy": 1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Wants to abolish the Federal Reserve and return to money 'backed by something real like gold and silver'; says government should 'protect rights, enforce contracts, and keep the rules fair' rather than 'run the economy or pick winners and losers,' and blames 'the rising cost of basics (like housing)' on an unbacked dollar (Ballotpedia Candidate Connection, 2026)",
+          "url": "https://ballotpedia.org/Jack_Codiga"
+        },
+        "health": {
+          "label": "Would 'reform and phase out all welfare programs, including ... government healthcare' and 'expose healthcare to real market forces like price transparency and competition' (campaign platform, ihatepolitics.com, 2026)",
+          "url": "https://ihatepolitics.com/pages/platform"
+        },
+        "housing": {
+          "label": "'Zoning should be limited to genuine infrastructure or pollution concerns'; also backs 'a nationwide ban on property taxes,' ending government-backed mortgages, and eliminating tax incentives that treat homes 'more like investments than shelters' (campaign platform, ihatepolitics.com, 2026)",
+          "url": "https://ihatepolitics.com/pages/platform"
+        },
+        "immigration": {
+          "label": "Approach 'starts with deporting violent criminals and those who abuse government programs,' then removing 'incentives, like welfare benefits, that encourage illegal residency'; would limit work visas, but says second-generation individuals who assimilate 'should have a path to lawful residency' (Ballotpedia Candidate Connection, 2026)",
+          "url": "https://ballotpedia.org/Jack_Codiga"
+        },
+        "taxes": {
+          "label": "'Property tax & the income tax should be abolished,' repeal the 16th Amendment, adopt 'simpler, consumption-based taxes and tariffs,' and phase out welfare and Social Security, 'the godfather of all Ponzi schemes' (campaign platform, ihatepolitics.com, 2026)",
+          "url": "https://ihatepolitics.com/pages/platform"
+        },
+        "safety": {
+          "label": "Cites the Charlotte killing of Iryna Zarutska by 'a man released for at least the 14th time' as avoidable 'if Charlotte's justice system upheld equal justice under the law,' calling for stricter accountability for repeat offenders (campaign platform, ihatepolitics.com, 2026)",
+          "url": "https://ihatepolitics.com/pages/platform"
+        },
+        "repro": {
+          "label": "'I support a federal abortion ban because I believe life begins at conception and that the right to life should be protected equally across state lines' (Ballotpedia Candidate Connection, 2026)",
+          "url": "https://ballotpedia.org/Jack_Codiga"
+        },
+        "democracy": {
+          "label": "Federal elections 'must mandate voter ID and paper ballots at the federal level to ensure honest elections'; also wants Election Day made a federal holiday and majority-runoff voting (campaign platform, ihatepolitics.com, 2026)",
+          "url": "https://ihatepolitics.com/pages/platform"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign URL (codigaforcongress.com) confirmed still redirects to an unrelated site (ihatepolitics.com); Ballotpedia page robots-blocked",
-        "health": "re-checked Sep 2, 2026: same",
-        "housing": "re-checked Sep 2, 2026: same",
-        "immigration": "re-checked Sep 2, 2026: same",
-        "taxes": "re-checked Sep 2, 2026: same",
         "climate": "re-checked Sep 2, 2026: same",
-        "education": "re-checked Sep 2, 2026: same",
-        "safety": "re-checked Sep 2, 2026: same",
-        "repro": "re-checked Sep 2, 2026: same",
-        "democracy": "re-checked Sep 2, 2026: same"
+        "education": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
           "label": "Politics1: North Carolina 2026 candidates",
           "url": "https://politics1.com/nc.htm"
+        },
+        {
+          "label": "Ballotpedia: Jack Codiga (Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Jack_Codiga"
+        },
+        {
+          "label": "Codiga campaign platform (ihatepolitics.com)",
+          "url": "https://ihatepolitics.com/pages/platform"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4NC13116",

@@ -210,15 +210,36 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 1,
         "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
+        "education": 2,
+        "safety": -1,
+        "repro": 2,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "immigration": {
+          "label": "\"Paul prioritizes strong border security to safeguard our communities and uphold national sovereignty\" (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Paul_Berry_(Missouri)"
+        },
+        "taxes": {
+          "label": "\"Paul champions low income taxes, promoting economic growth for all Missourians\" and \"supports tax relief for seniors\" (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Paul_Berry_(Missouri)"
+        },
+        "education": {
+          "label": "\"Paul champions diverse school options for all,\" listed under school choice (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Paul_Berry_(Missouri)"
+        },
+        "safety": {
+          "label": "\"Paul advocates fair sentencing, prison reform, and community-focused policing for justice reform\" (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Paul_Berry_(Missouri)"
+        },
+        "repro": {
+          "label": "\"Championing the sanctity of life, Paul advocates for policies that protect and value every unborn child\" (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Paul_Berry_(Missouri)"
+        }
+      },
       "nullNotes": {
         "cost": "Campaign page (facebook.com/BerryForUSA) is robots-blocked; Ballotpedia's Paul Berry III page was robots-blocked on retry, and the separate 'Paul Berry (Missouri)' page covers only his 2024 lieutenant governor campaign with no 2026 content (checked Aug 29, 2026)",
         "health": "Campaign page (facebook.com/BerryForUSA) is robots-blocked; Ballotpedia's Paul Berry III page was robots-blocked on retry, and the separate 'Paul Berry (Missouri)' page covers only his 2024 lieutenant governor campaign with no 2026 content (checked Aug 29, 2026)",
@@ -231,7 +252,7 @@
         "repro": "Campaign page (facebook.com/BerryForUSA) is robots-blocked; Ballotpedia's Paul Berry III page was robots-blocked on retry, and the separate 'Paul Berry (Missouri)' page covers only his 2024 lieutenant governor campaign with no 2026 content (checked Aug 29, 2026)",
         "democracy": "Campaign page (facebook.com/BerryForUSA) is robots-blocked; Ballotpedia's Paul Berry III page was robots-blocked on retry, and the separate 'Paul Berry (Missouri)' page covers only his 2024 lieutenant governor campaign with no 2026 content (checked Aug 29, 2026)"
       },
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "mo-house-1-schmitz",
@@ -1777,18 +1798,47 @@
       "background": "Conservative radio talk-show host and Republican nominee for Missouri's 6th Congressional District. His listed campaign presence is an X (Twitter) account, not a policy-bearing campaign website.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": 1,
+        "health": 1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 2,
         "climate": null,
-        "education": null,
+        "education": 1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 2
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "\"Families, farmers, and small businesses deserve tax relief - not bigger government,\" and pledges to \"reduce burdensome regulations that hurt family farms\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        "health": {
+          "label": "Rural hospitals \"struggling under the weight of federal mandates,\" pledges to \"reduce red tape, expand access to care, strengthen rural hospitals\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "\"A nation without secure borders is not a nation at all,\" supports Trump's efforts to \"secure the border, finish the wall, end catch-and-release policies, and deport dangerous criminal illegal immigrants\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "\"I support making President Trump's tax cuts permanent and will fight against any effort to raise taxes on hardworking Americans\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        "education": {
+          "label": "Campaign site says Stigall and his wife \"have worked actively to promote school choice through the Herzog Foundation\" (Stigall for Congress homepage, 2026)",
+          "url": "https://stigallforcongress.com"
+        },
+        "repro": {
+          "label": "\"I am proudly pro-life... I support policies that defend the unborn, support mothers and families\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "\"I also support the SAVE Act to ensure only American citizens can vote in federal elections\" (Stigall for Congress issues page, 2026)",
+          "url": "https://www.stigallforcongress.com/issues"
+        }
+      },
       "nullNotes": {
         "cost": "Politics1 lists only an X (Twitter) profile for this candidate, which is not fetchable as a policy page; Ballotpedia was robots-blocked on retry (checked Aug 29, 2026)",
         "health": "Politics1 lists only an X (Twitter) profile for this candidate, which is not fetchable as a policy page; Ballotpedia was robots-blocked on retry (checked Aug 29, 2026)",
@@ -1805,9 +1855,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO06310/"
+        },
+        {
+          "label": "Campaign site: issues",
+          "url": "https://www.stigallforcongress.com/issues"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://stigallforcongress.com"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6MO06260",
@@ -1992,18 +2050,51 @@
         "Farms not data centers"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -2,
+        "health": -1,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "immigration": -1,
+        "taxes": -2,
+        "climate": -1,
+        "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -2,
+        "democracy": -1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Would \"ban dynamic pricing once a price is shown to the customer,\" outlaw \"grossly excessive\" food prices and surveillance pricing in grocery stores, and \"guarantee 12 weeks of paid leave through a payroll insurance fund\" (Missi for MO, Affordability for All page, 2026)",
+          "url": "https://www.missiformo.com/affordability-for-all"
+        },
+        "health": {
+          "label": "\"Medicare for All Who Want It\": \"establish a public plan option open to all with a sliding scale based on income level, while still leaving private insurance intact,\" expand Medicare drug price negotiation to 50 drugs a year (Missi for MO healthcare page, 2026)",
+          "url": "https://www.missiformo.com/healthcare-that-works-for-all"
+        },
+        "immigration": {
+          "label": "Campaign site excerpt: advocates humane treatment of migrants, federal reimbursement to border communities, and addressing root causes of migration through international cooperation (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        },
+        "taxes": {
+          "label": "Proposes \"a minimum tax for billionaires,\" reclassifying carried interest as ordinary income, and lifting the Social Security wage cap and taxing investment income \"for earners over $400k\" (Missi for MO, Affordability for All page, 2026)",
+          "url": "https://www.missiformo.com/affordability-for-all"
+        },
+        "climate": {
+          "label": "\"We need to protect our water, air, and soil - there is no planet B\" (Ballotpedia, 2025 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        },
+        "education": {
+          "label": "\"We need to REMAIN DEDICATED to our Public Education system... As an educator, I know the challenges that teachers face in the classroom\" (Ballotpedia, 2024 campaign website excerpt)",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        },
+        "repro": {
+          "label": "\"We need to codify Roe and give women and their partners the autonomy they need and deserve\" (Ballotpedia, 2025 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        },
+        "democracy": {
+          "label": "\"I believe strongly in continuing absentee voting and mail-in ballots for those unable to participate on election day\" (Ballotpedia, 2025 Candidate Connection survey)",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        }
+      },
       "nullNotes": {
         "cost": "Campaign site missiformo.com lists priority headings only; the linked detail pages (e.g. /top-5-issues) were not accessible from the homepage fetch, and the redirect target's /issues page timed out on retry (checked Aug 29, 2026)",
         "health": "Campaign site missiformo.com lists priority headings only; the linked detail pages (e.g. /top-5-issues) were not accessible from the homepage fetch, and the redirect target's /issues page timed out on retry (checked Aug 29, 2026)",
@@ -2024,9 +2115,21 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4MO07156/"
+        },
+        {
+          "label": "Ballotpedia candidate page",
+          "url": "https://ballotpedia.org/Missi_Hesketh"
+        },
+        {
+          "label": "Campaign site: Affordability for All",
+          "url": "https://www.missiformo.com/affordability-for-all"
+        },
+        {
+          "label": "Campaign site: healthcare",
+          "url": "https://www.missiformo.com/healthcare-that-works-for-all"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4MO08162",
@@ -2129,18 +2232,35 @@
       "background": "Democratic nominee for Missouri's 8th Congressional District. Campaign site was not accessible in the time available.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -2,
         "housing": null,
-        "immigration": null,
+        "immigration": -2,
         "taxes": null,
         "climate": null,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Says \"the working class is falling behind,\" would \"back pro-labor bills like the PRO Act\" to ban union-busting and ensure \"fair bargaining for better pay,\" and blames tariffs for roughly $2,400 a year in added family costs (Reichard for Rep, Support Working Families page, 2026)",
+          "url": "https://reichardforrep.com/issues/support_working_families"
+        },
+        "health": {
+          "label": "Would \"secure affordable healthcare access\" through \"Medicare-For-All or Medicaid support\" to keep rural facilities and emergency care open (Reichard for Rep, Support Working Families page, 2026)",
+          "url": "https://reichardforrep.com/issues/support_working_families"
+        },
+        "immigration": {
+          "label": "\"Push to de-fund and abolish ICE... We deserve an enforcement system that respects rights and follows due process\" (Reichard for Rep, civil rights page, 2026)",
+          "url": "https://reichardforrep.com/issues/defend-our-constitution-and-civil-rights"
+        },
+        "repro": {
+          "label": "\"Support women's rights to bodily autonomy... This includes access to safe abortion care\" (Reichard for Rep, civil rights page, 2026)",
+          "url": "https://reichardforrep.com/issues/defend-our-constitution-and-civil-rights"
+        }
+      },
       "nullNotes": {
         "cost": "Campaign site reichardforrep.com was robots-blocked (connect timeout) on first attempt and robots-blocked again on retry; no alternate source located in the time available (checked Aug 29, 2026)",
         "health": "Campaign site reichardforrep.com was robots-blocked (connect timeout) on first attempt and robots-blocked again on retry; no alternate source located in the time available (checked Aug 29, 2026)",
@@ -2157,9 +2277,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6MO08183/"
+        },
+        {
+          "label": "Campaign site: Support Working Families",
+          "url": "https://reichardforrep.com/issues/support_working_families"
+        },
+        {
+          "label": "Campaign site: civil rights",
+          "url": "https://reichardforrep.com/issues/defend-our-constitution-and-civil-rights"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     }
   ]
 }

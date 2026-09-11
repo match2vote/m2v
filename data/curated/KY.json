@@ -910,26 +910,42 @@
         "Fair tax policy for working families"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": -2,
+        "health": -1,
+        "housing": -1,
         "immigration": null,
-        "taxes": null,
+        "taxes": -2,
         "climate": null,
-        "education": null,
+        "education": -2,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Proposes a 'Living Wage Standard Act' with regional wage floors (example: $17/hour production wage, small firms scaling from $8 to $15 as they add staff), a 5-day paid sick leave guarantee, and a '15% Profit Margin Cap PER DOSE' on essential medicines with brand-name drugs capped at 1.5 to 2x OECD prices (williamsforky.com labor-rights and drug-pricing plans, 2026)",
+          "url": "https://www.williamsforky.com/labor-rights"
+        },
+        "health": {
+          "label": "'Healthcare Insurance Reform' plan tightens federal rules on private insurers rather than expanding public coverage: bars retroactive denial after prior authorization, says 'medical decisions should never be made by unchecked algorithms,' requires upfront price transparency and PBM reform so patients do not 'pay more for medicine because a private middleman controls formularies'; no public option or Medicare expansion stated (williamsforky.com, 2026)",
+          "url": "https://www.williamsforky.com/healthcare"
+        },
+        "housing": {
+          "label": "'American Home Promise' plan would 'incentivize construction of 4 million affordable starter homes within five years' via tax credits and low-interest loans plus streamlined permitting, restrict investor purchases because 'single-family homes should be places to live, not corporate investments,' and add a first-time buyer closing-cost guarantee (williamsforky.com, 2026)",
+          "url": "https://www.williamsforky.com/housing"
+        },
+        "taxes": {
+          "label": "'Tax Policy for the Everyday American' restores a roughly $100,000 exemption for lower earners while raising rates on the wealthy: income tax rates 'increase smoothly from 1% at $100,000 to 35% at $1 million,' a '0.5% annually on net worth above $100 million' wealth tax, a 5% luxury tax, and a '0.1% financial transaction tax on stock trades'; 'no one, no matter how wealthy, should be able to opt out of contributing' (williamsforky.com, 2026)",
+          "url": "https://www.williamsforky.com/taxpolicy"
+        },
+        "education": {
+          "label": "'American Education Renewal' plan invests in public schools: 'expand access to high-quality universal pre-K through federal-state matching grants,' paid student teaching stipends and teacher residencies ('if we can't pay student teachers, we're pricing working people out of the profession'), and a Modern Schools Infrastructure Act; no vouchers or charters proposed (williamsforky.com, 2026)",
+          "url": "https://www.williamsforky.com/education"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
-        "health": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
-        "housing": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
         "immigration": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
-        "taxes": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
         "climate": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
-        "education": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
         "safety": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
         "repro": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked",
         "democracy": "re-checked Sep 2, 2026: williamsforky.com homepage fetched in full (nav: Sign Up, Get Involved, Easy Volunteer, Join the Team, Mutual Aid Events, Donate, Pre-Orders, Neighbor-to-Neighbor Trainings); purely a volunteer-recruitment page with zero policy content on any axis; /policies still robots-blocked"
@@ -946,9 +962,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6KY01169/"
+        },
+        {
+          "label": "Campaign policy index",
+          "url": "https://www.williamsforky.com/policy"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6KY02068",

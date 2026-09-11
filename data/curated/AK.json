@@ -446,6 +446,10 @@
         {
           "label": "Alaska Beacon: two of the final candidates don't live in Alaska and one is in prison, Aug 31 2026",
           "url": "https://alaskabeacon.com/2026/08/31/in-alaskas-u-s-house-race-two-of-the-final-candidates-dont-live-in-alaska-and-one-is-in-prison/"
+        },
+        {
+          "label": "Ballotpedia profile (2024 Alaska Beacon interview quotes)",
+          "url": "https://ballotpedia.org/Eric_Hafner"
         }
       ],
       "district": "at-large",
@@ -460,26 +464,33 @@
         "housing": null,
         "immigration": null,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": -2,
         "democracy": null
       },
-      "positionSources": {},
-      "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ak.htm confirms no campaign website listed for Eric Hafner (incarcerated, no Alaska campaign infrastructure), nothing new found",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+      "positionSources": {
+        "repro": {
+          "label": "On abortion and contraception: \"Healthcare decisions are between a woman and her medical provider. Returning to the 1950s does not work\" (Alaska Beacon 2024 candidate interview as reproduced on Ballotpedia)",
+          "url": "https://ballotpedia.org/Eric_Hafner"
+        },
+        "climate": {
+          "label": "Backs transitioning Alaska off its fossil fuel economy: \"Stabilizing the industries via discontinuing expansion, as additional income sources are developed will ensure a smooth transition\" (Alaska Beacon 2024 candidate interview as reproduced on Ballotpedia)",
+          "url": "https://ballotpedia.org/Eric_Hafner"
+        }
       },
-      "curatedAt": "2026-09-02"
+      "nullNotes": {
+        "cost": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "health": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "housing": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "immigration": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "taxes": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "education": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "safety": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site",
+        "democracy": "re-checked Sep 11, 2026: only sourced statements are 2024 Alaska Beacon interview quotes on Ballotpedia (abortion, fossil-fuel transition, a process-only immigration answer, generic cost-of-living and homelessness lines with no mechanism); 2026 Alaska Public and Alaska Beacon coverage has no policy quotes; ontheissues 404; no campaign site"
+      },
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ak-senate-heikes",
@@ -671,16 +682,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ak.htm lists tregforak.com as her campaign site, but that domain is actually Treg Taylor's gubernatorial campaign, a mismatched link, not usable; no other campaign site found",
-        "health": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "housing": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "immigration": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "taxes": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "climate": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "education": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "safety": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "repro": "re-checked Sep 2, 2026: same mismatched-link issue, no source found",
-        "democracy": "re-checked Sep 2, 2026: same mismatched-link issue, no source found"
+        "cost": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "health": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "housing": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "immigration": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "taxes": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "climate": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "education": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "safety": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "repro": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy",
+        "democracy": "re-checked Sep 11, 2026: tregforak.com still presents Treg Taylor as the candidate (English not named as governor candidate there, so not attributable); Ballotpedia blocked by robots.txt fetch failure; englishforalaska.com and candiceenglish.com do not resolve; Alaska Beacon (Aug 31) and Alaska News Source (Sep 1) quote her only on stepping up to the race, no policy"
       },
       "sources": [
         {
@@ -696,7 +707,7 @@
           "url": "https://www.alaskasnewssource.com/2026/09/01/2026-election-final-candidates-governors-race-still-unclear-after-11th-hour-scrambles-get-ballot/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2AK01083",

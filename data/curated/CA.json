@@ -1311,27 +1311,46 @@
       "background": "Republican challenger to incumbent Kevin Mullin in the Peninsula-based 15th District. No FEC candidate record found under this id, and no campaign website or Ballotpedia survey content was reachable.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "'Rising prices are hurting families. Charles supports cutting unnecessary spending, lowering taxes, and restoring economic stability' (campaign site, Economy & Inflation page)",
+          "url": "https://hoelterforuscongress.com/issues/economy-inflation/"
+        },
+        "taxes": {
+          "label": "Will 'fight for lower taxes, reduced government spending, and pro-business policies that create jobs' (campaign site, Stronger Economy and Lower Taxes page)",
+          "url": "https://hoelterforuscongress.com/campaignss/stronger-economy-and-lower-taxes/"
+        },
+        "immigration": {
+          "label": "'Immigration should be legal, fair, and controlled. A secure border is a national security issue and must be treated as one' (campaign site, Secure Borders page)",
+          "url": "https://hoelterforuscongress.com/campaignss/secure-borders-and-fair-immigration-policies/"
+        },
+        "climate": {
+          "label": "'Supports American energy production to lower costs and reduce reliance on foreign nations' (campaign site, Energy Independence page)",
+          "url": "https://hoelterforuscongress.com/issues/energy-independence/"
+        },
+        "education": {
+          "label": "'Parents must have a voice in education. He supports school choice, transparency, and stronger academic standards' (campaign site, Education page)",
+          "url": "https://hoelterforuscongress.com/issues/education/"
+        },
+        "safety": {
+          "label": "'Crime is rising across the nation. Charles supports law enforcement and believes in policies that protect communities and hold criminals accountable' (campaign site, Safer Communities page)",
+          "url": "https://hoelterforuscongress.com/campaignss/safer-communities-and-support-for-law-enforcement/"
+        }
+      },
       "nullNotes": {
-        "cost": "Campaign site (hoelterforuscongress.com) is robots-disallowed for automated fetching (retried once); Ballotpedia states he has not completed the 2026 Candidate Connection survey and has no documented positions; politics1.com/ca.htm lists no other campaign link; not found (checked Aug 29, 2026).",
         "health": "Same sources checked; not found (checked Aug 29, 2026).",
         "housing": "Same sources checked; not found (checked Aug 29, 2026).",
-        "immigration": "Same sources checked; not found (checked Aug 29, 2026).",
-        "taxes": "Same sources checked; not found (checked Aug 29, 2026).",
-        "climate": "Same sources checked; not found (checked Aug 29, 2026).",
-        "education": "Same sources checked; not found (checked Aug 29, 2026).",
-        "safety": "Same sources checked; not found (checked Aug 29, 2026).",
         "repro": "Same sources checked; not found (checked Aug 29, 2026).",
         "democracy": "Same sources checked; not found (checked Aug 29, 2026)."
       },
@@ -1347,9 +1366,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign site issues index",
+          "url": "https://hoelterforuscongress.com/issues/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-16-soule",
@@ -1825,9 +1848,9 @@
       "background": "Lake Elsinore-area Republican challenger to incumbent Rep. Mark Takano; previously ran for the California State Assembly in 2020.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
+        "housing": 1,
         "immigration": null,
         "taxes": null,
         "climate": null,
@@ -1836,11 +1859,18 @@
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Pledges to 'remove the regulatory barriers that increase the cost of housing and basic needs' (campaign site)",
+          "url": "https://manosforcongress.com/"
+        },
+        "housing": {
+          "label": "Backs 'affordable, market-rate housing' and removing 'the barriers to housing that have made that basic asset attractive to giant hedge funds' (campaign site)",
+          "url": "https://manosforcongress.com/"
+        }
+      },
       "nullNotes": {
-        "cost": "campaign site homepage contains only general local-priorities language (city safety, cleanliness, economic development), no consumer cost-of-living statement; no issues page link found (checked Aug 29, 2026)",
         "health": "no health care statement found on campaign homepage; Ballotpedia page returned content for his 2020 state Assembly race, not 2026 (checked Aug 29, 2026)",
-        "housing": "no housing statement found on campaign homepage (checked Aug 29, 2026)",
         "immigration": "no immigration statement found on campaign homepage; not a sitting House member so no roll call (checked Aug 29, 2026)",
         "taxes": "no tax statement found on campaign homepage (checked Aug 29, 2026)",
         "climate": "no climate/energy statement found on campaign homepage (checked Aug 29, 2026)",
@@ -1861,9 +1891,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign site (manosforcongress.com)",
+          "url": "https://manosforcongress.com/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-41-clemmons",
@@ -1968,27 +2002,52 @@
       "background": "Perennial candidate who previously ran unsuccessfully in California's 2022 gubernatorial primary; challenging incumbent Rep. Maxine Waters.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "cost": 1,
+        "health": 1,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "'Cut taxes and reduce unnecessary regulations,' 'lower energy, gasoline, food, and housing costs,' and 'oppose wasteful federal spending that drives inflation' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "health": {
+          "label": "'Expand affordable healthcare choices and competition,' 'increase price transparency,' and 'reduce bureaucratic costs that drive up premiums,' while protecting pre-existing conditions (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "housing": {
+          "label": "'Increase housing supply by reducing unnecessary permitting and regulatory barriers' and 'reform environmental and zoning rules that unnecessarily delay construction' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "immigration": {
+          "label": "'Secure the border and enforce immigration laws,' paired with 'support legal immigration and streamline lawful immigration processes' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "taxes": {
+          "label": "'Cut taxes and reduce unnecessary regulations,' 'oppose wasteful federal spending,' and 'make government live within its means' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "climate": {
+          "label": "'Pursue energy independence' with 'an all-of-the-above energy strategy: oil, natural gas, nuclear, hydroelectric, solar' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "education": {
+          "label": "'Support school choice and high-quality public, charter, private, and vocational education options' and 'put parents back at the center of education' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        },
+        "safety": {
+          "label": "'Crack down on violent criminals, repeat offenders, gang activity' and 'support law enforcement while demanding professionalism and accountability' (campaign platform page)",
+          "url": "https://forallvoices.com/platform"
+        }
+      },
       "nullNotes": {
-        "cost": "campaign site forallvoices.com is in maintenance mode with no content; Ballotpedia page returns only his 2022 gubernatorial campaign, not 2026 (checked Aug 29, 2026)",
-        "health": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
-        "housing": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
-        "immigration": "campaign site in maintenance mode; Ballotpedia has no 2026 content; not a sitting House member so no roll call (checked Aug 29, 2026)",
-        "taxes": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
-        "climate": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
-        "education": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
-        "safety": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
         "repro": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)",
         "democracy": "campaign site in maintenance mode; Ballotpedia has no 2026 content (checked Aug 29, 2026)"
       },
@@ -2000,9 +2059,13 @@
         {
           "label": "270toWin, 2026 California U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/california"
+        },
+        {
+          "label": "Campaign platform page (forallvoices.com)",
+          "url": "https://forallvoices.com/platform"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ca-house-50-cohen",
@@ -4682,29 +4745,54 @@
       "background": "Long-shot Republican challenger to incumbent Rep. Laura Friedman in a heavily Democratic district.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "housing": 1,
+        "immigration": 1,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Platform: 'Oppose reckless federal spending that fuels inflation,' 'fight for lower taxes,' and 'cut regulatory red tape that drives up housing and small business costs' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "housing": {
+          "label": "'Cut regulatory red tape that drives up housing and small business costs' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "immigration": {
+          "label": "'Support strong leadership to secure the southern border' and 'back aggressive enforcement against drug trafficking' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "'I oppose tax increases' and demands 'full accountability and transparency over how our tax money is spent' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Scott_Meyers_(California)"
+        },
+        "climate": {
+          "label": "'Support American energy independence to lower gas and utility costs' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "education": {
+          "label": "'Support parental rights,' 'oppose political indoctrination in classrooms,' and 'restore focus on reading, writing, math, and analytical thinking' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "safety": {
+          "label": "'Support law enforcement and restore consequences for crime' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "Election Integrity plank: 'strong voter ID protections' and 'policies like the SAVE Act' (campaign site issues page)",
+          "url": "https://www.meyersforcongress.com/issues"
+        }
+      },
       "nullNotes": {
-        "cost": "politics1.com lists no campaign website for this candidate; Ballotpedia page (Scott_Meyers) robots-blocked twice (checked Aug 29, 2026)",
         "health": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "housing": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "immigration": "no campaign website found; Ballotpedia robots-blocked twice; not a sitting House member so no roll call (checked Aug 29, 2026)",
-        "taxes": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "climate": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "education": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "safety": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "repro": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)",
-        "democracy": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)"
+        "repro": "no campaign website found; Ballotpedia robots-blocked twice (checked Aug 29, 2026)"
       },
       "sources": [
         {
@@ -4714,9 +4802,17 @@
         {
           "label": "politics1.com California candidate roster",
           "url": "https://politics1.com/ca.htm"
+        },
+        {
+          "label": "Campaign site issues page",
+          "url": "https://www.meyersforcongress.com/issues"
+        },
+        {
+          "label": "Ballotpedia profile and Candidate Connection survey",
+          "url": "https://ballotpedia.org/Scott_Meyers_(California)"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H2CA39151",

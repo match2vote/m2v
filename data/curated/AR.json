@@ -1239,29 +1239,57 @@
         "Resisting Christian nationalism"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
+        "cost": -1,
+        "health": -2,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
+        "safety": -1,
+        "repro": -1,
+        "democracy": -1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Values page: 'Work should pay enough to live, which means raising wages and supporting jobs that actually help families build a stable life,' plus 'ease everyday expenses, lower housing costs' (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "health": {
+          "label": "'Health care is a human right, which means Medicare for All so no one is denied care because of cost' (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "immigration": {
+          "label": "'Immigrant families deserve to live without fear, which means amnesty, keeping families together, and abolishing ICE' (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "taxes": {
+          "label": "'If you're working hard to support your family, you shouldn't be paying more while the wealthy get the biggest breaks,' framing tax fairness as shifting burden toward the wealthy; no rate specifics (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "climate": {
+          "label": "'We must move to clean energy and protect our communities' from pollution and unsafe water (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "education": {
+          "label": "'A child's future shouldn't depend on their zip code, which is why we must strengthen public schools and support the teachers who make them work'; no voucher or choice language (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "safety": {
+          "label": "'People should not be defined forever by their worst mistake,' calling for fairness, reduced incarceration, and rehabilitation pathways (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "repro": {
+          "label": "'People should be free to make their own personal decisions, which means keeping politicians out of choices about their bodies, their health, and their lives' (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        },
+        "democracy": {
+          "label": "'End gerrymandering, protect voting rights, and ensure every eligible Arkansan can vote freely and fairly' (robbforcongress.com Our Values, 2026)",
+          "url": "https://www.robbforcongress.com/our-values"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: robbforcongress.com/issues returns 404, home and meet-Robb pages fetched previously still the only source; Newsweek cost-of-living quote is a diagnosis not a mechanism",
-        "health": "re-checked Sep 2, 2026: robbforcongress.com/issues 404, no new source found",
-        "housing": "re-checked Sep 2, 2026: same",
-        "immigration": "re-checked Sep 2, 2026: same",
-        "taxes": "re-checked Sep 2, 2026: same",
-        "climate": "re-checked Sep 2, 2026: same",
-        "education": "re-checked Sep 2, 2026: same",
-        "safety": "re-checked Sep 2, 2026: same",
-        "repro": "re-checked Sep 2, 2026: same",
-        "democracy": "re-checked Sep 2, 2026: same"
+        "housing": "re-checked Sep 2, 2026: same"
       },
       "sources": [
         {
@@ -1279,9 +1307,13 @@
         {
           "label": "Ballotpedia profile",
           "url": "https://ballotpedia.org/Robb_Ryerse"
+        },
+        {
+          "label": "Campaign values page",
+          "url": "https://www.robbforcongress.com/our-values"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "age": null,

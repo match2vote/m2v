@@ -1498,15 +1498,24 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 1,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "taxes": {
+          "label": "His \"Plan to Clean Up Washington\" says \"SUPPORT A BALANCED BUDGET AMENDMENT to end the reckless spending\"; no tax-rate proposal stated (Vote Strada campaign site, fetched Sep 11, 2026)",
+          "url": "https://votestrada.com/"
+        },
+        "immigration": {
+          "label": "Campaign priorities described as \"immigration enforcement, government accountability and addressing the shortage of skilled workers\" (The Apopka Chief, Aug 2026)",
+          "url": "https://theapopkachief.com/recount-confirms-strada-as-gop-nominee-for-district-11/"
+        }
+      },
       "nullNotes": {
         "cost": "politics1.com/fl.htm (fetched this pass) lists no campaign URL for Joe Strada beyond votestrada.com, already exhausted in a prior pass.",
         "health": "politics1.com/fl.htm (fetched this pass) lists no campaign URL for Joe Strada beyond votestrada.com, already exhausted in a prior pass.",
@@ -1533,7 +1542,7 @@
           "url": "https://votestrada.com/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL11357",
@@ -6220,18 +6229,39 @@
         "National security/veterans"
       ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "immigration": 2,
+        "taxes": 1,
+        "climate": 2,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Says \"reducing federal spending and expanding domestic energy production can help lower costs for families\"; campaign site vows to \"lower fuel costs, groceries, and the ever rising cost of living\" via \"time-tested conservative values\" (Fox 35 Orlando, Aug 19, 2026)",
+          "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        },
+        "taxes": {
+          "label": "Argues \"reducing federal spending\" is how to \"lower costs for families\"; no tax-rate proposal stated (Fox 35 Orlando, Aug 19, 2026)",
+          "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        },
+        "immigration": {
+          "label": "\"Supports stronger border enforcement\" as a core campaign plank (Fox 35 Orlando, Aug 19, 2026)",
+          "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        },
+        "climate": {
+          "label": "Backs \"expanding domestic energy production\" to lower household costs (Fox 35 Orlando, Aug 19, 2026)",
+          "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        },
+        "safety": {
+          "label": "\"Has stressed support for law enforcement and public safety\" as a campaign priority (Fox 35 Orlando, Aug 19, 2026)",
+          "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        }
+      },
       "nullNotes": {
         "cost": "politics1.com/fl.htm (fetched this pass) lists no campaign URL for Dan Green; the sole prior profile (Florida Voice News) still has no policy detail beyond affordability rhetoric.",
         "health": "politics1.com/fl.htm (fetched this pass) lists no campaign URL for Dan Green; the sole prior profile (Florida Voice News) still has no policy detail beyond affordability rhetoric.",
@@ -6256,9 +6286,13 @@
         {
           "label": "GOP primary nominee Dan Green likely to face Rep. Darren Soto (Fox 35 Orlando)",
           "url": "https://www.fox35orlando.com/news/florida-congressional-district-9-election-results"
+        },
+        {
+          "label": "Campaign site: Dan Green for Congress",
+          "url": "https://www.dangreenfl.com/"
         }
       ],
-      "curatedAt": "2026-09-02"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6FL09179",

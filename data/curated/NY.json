@@ -1747,18 +1747,39 @@
       "background": "Real estate attorney and Republican candidate for NY-16 in Westchester and the Bronx; the only public page found (politics1's listed URL) is his law-firm biography, with no campaign policy content.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": 2,
+        "health": 1,
+        "housing": 1,
         "immigration": null,
-        "taxes": null,
-        "climate": null,
+        "taxes": 2,
+        "climate": 2,
         "education": null,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Affordability plan is supply-side: \"tax relieve by cutting spending; reducing energy costs by recommissioning IPEC\", \"cut the budget, tame inflation, and lower interest rates\", and \"Markets, not the Federal Reserve, must determine interest rates\" (Cinquemani for Congress site, 2026)",
+          "url": "https://www.cinquemaniforcongress.com"
+        },
+        "health": {
+          "label": "Offers \"A 3-part healthcare insurance solution: Inform, Expand, Deregulate\", saying \"health insurance is too expensive, too complicated, and too frustrating\"; no public-program expansion proposed (Cinquemani for Congress issues page, 2026)",
+          "url": "https://www.cinquemaniforcongress.com/issues"
+        },
+        "housing": {
+          "label": "Housing answer is macro and market-side: \"cut the budget, tame inflation, and lower interest rates to make housing more affordable for all of us here in Westchester\"; no public housing or renter-protection plank (Cinquemani for Congress site, 2026)",
+          "url": "https://www.cinquemaniforcongress.com"
+        },
+        "taxes": {
+          "label": "\"Our taxes are too high\": wants \"tax relieve by cutting spending\", \"an across-the-board 10% reduction in federal spending\", and to \"extend the federal income tax withholding exemption to cover all income up to the federal poverty line\" (Cinquemani for Congress issues page, 2026)",
+          "url": "https://www.cinquemaniforcongress.com/issues"
+        },
+        "climate": {
+          "label": "\"Drill, baby, drill!\": tap the Marcellus Shale so New York is \"entirely energy sufficient\" and \"Recommission the Indian Point Energy Center for SMR\", pitched as \"slashing home heating and electric bills\" (Cinquemani for Congress issues page, 2026)",
+          "url": "https://www.cinquemaniforcongress.com/issues"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; still unfindable",
         "health": "re-checked Sep 2, 2026: same as above",
@@ -1775,9 +1796,17 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "Cinquemani for Congress campaign site",
+          "url": "https://www.cinquemaniforcongress.com"
+        },
+        {
+          "label": "Cinquemani for Congress issues page",
+          "url": "https://www.cinquemaniforcongress.com/issues"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "ny-house-26-hannon",
@@ -1795,18 +1824,39 @@
       "background": "Republican candidate for NY-26 in Buffalo and Western New York, unopposed for the Republican nomination; campaign website could not be fetched.",
       "priorities": [],
       "positions": {
-        "cost": null,
+        "cost": 0,
         "health": null,
         "housing": null,
-        "immigration": null,
+        "immigration": 1,
         "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "climate": 2,
+        "education": 1,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Mixed: direct relief via \"tax rebates\" for \"struggling working class families\" and a pledge to \"reform middle-men pharmacy benefit managers\", paired with supply-side \"less red tape on federal and private land leases\" and barring governments from banning energy sources (Hannon for Congress site, 2026)",
+          "url": "https://hannonforcongress.com"
+        },
+        "immigration": {
+          "label": "\"Enforce immigration and border protection policies with a priortization on serious public safety threats\" and \"Strengthen worksite compliance and lawful hiring\" (Hannon for Congress site, 2026)",
+          "url": "https://hannonforcongress.com"
+        },
+        "climate": {
+          "label": "\"Prohibit state and local governments from banning or limiting specific energy sources\" and \"Less red tape on federal and private land leases for energy or mineral extraction\", framed as lowering costs (Hannon for Congress site, 2026)",
+          "url": "https://hannonforcongress.com"
+        },
+        "education": {
+          "label": "Parental-control framing: platform promises to \"let parents be heard\" and \"Respect for parents\", and would \"Designate federally approved sex-ed instructional material that's focused solely around abstinence, STD prevention, and safe sex\" (Hannon for Congress site, 2026)",
+          "url": "https://hannonforcongress.com"
+        },
+        "safety": {
+          "label": "\"Public safety that's both tough and smart\": \"Aggressively disrupt fentanyl trafficking networks\", fund \"local and federal agency cooperation through grants\", and \"Reinstate capital punishment eligibility for convicted child rapists\" (Hannon for Congress site, 2026)",
+          "url": "https://hannonforcongress.com"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; still unfindable",
         "health": "re-checked Sep 2, 2026: same as above",
@@ -1823,9 +1873,13 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "Hannon for Congress campaign site",
+          "url": "https://hannonforcongress.com"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H0NY02234",
@@ -2377,15 +2431,24 @@
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": null,
-        "taxes": null,
+        "immigration": 2,
+        "taxes": 1,
         "climate": null,
         "education": null,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "taxes": {
+          "label": "Pledges to \"lower the tax burden by restoring the full State and Local Tax (SALT) Deduction\" and faults Rep. Gillen for voting against \"quadrupling the SALT deduction, ending taxes on tips and overtime\" and \"eliminating taxes on Social Security benefits for 88% of seniors\" (Driscoll for Congress site, 2026)",
+          "url": "https://www.driscoll4congress.com"
+        },
+        "immigration": {
+          "label": "Vows to \"ensure the southern border can never be opened again\" and attacks Gillen for voting against \"records funding to secure the border and prevent another migrant crisis\"; bio lists \"a secure southern border\" as a top priority (Driscoll for Congress site, 2026)",
+          "url": "https://www.driscoll4congress.com"
+        }
+      },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed, only a Facebook page; still unfindable",
         "health": "re-checked Sep 2, 2026: same as above",
@@ -2406,9 +2469,13 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "Driscoll for Congress campaign site",
+          "url": "https://www.driscoll4congress.com"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NY04237",

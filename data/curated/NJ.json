@@ -1914,16 +1914,16 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: mullockforcongress.com root still loads only three broad phrases (affordable healthcare, good-paying jobs, brighter future), no policy mechanism",
-        "health": "re-checked Sep 2, 2026: same limitation",
-        "housing": "re-checked Sep 2, 2026: same limitation",
-        "immigration": "re-checked Sep 2, 2026: same limitation",
-        "taxes": "re-checked Sep 2, 2026: same limitation",
-        "climate": "re-checked Sep 2, 2026: same limitation",
-        "education": "re-checked Sep 2, 2026: same limitation",
-        "safety": "re-checked Sep 2, 2026: same limitation",
-        "repro": "re-checked Sep 2, 2026: same limitation",
-        "democracy": "re-checked Sep 2, 2026: same limitation"
+        "cost": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "health": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "housing": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "immigration": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "taxes": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "climate": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "education": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "safety": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "repro": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable",
+        "democracy": "re-checked Sep 11, 2026: mullockforcongress.com root, /issues, /about, /priorities, /platform all render only meta-tag taglines (JS site); Ballotpedia survey not completed; ontheissues 404; no policy text reachable"
       },
       "sources": [
         {
@@ -1939,7 +1939,7 @@
           "url": "https://www.fec.gov/data/candidate/H6NJ02251/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H4NJ03080",
@@ -2194,28 +2194,41 @@
       "priorities": [],
       "positions": {
         "cost": null,
-        "health": null,
+        "health": -1,
         "housing": null,
         "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
         "safety": null,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "taxes": {
+          "label": "Says voters are \"tired of paying taxes while companies and billionaires take advantage of loopholes and get handouts the government pays for\" and want taxes to fund education, childcare and doctor visits instead (peace4shore.com About page, 2026)",
+          "url": "https://www.peace4shore.com/about"
+        },
+        "climate": {
+          "label": "Says she has \"worked towards holding polluters accountable for the damage we experience at the shore\" and \"urged state lawmakers to send the bill to big oil, not taxpayers\" to prepare for future hurricanes (peace4shore.com About page, 2026)",
+          "url": "https://www.peace4shore.com/about"
+        },
+        "education": {
+          "label": "Wants taxes to cover \"a quality education for your kids (from pre-k to college), daycare and aftercare while you work\" (peace4shore.com About page, 2026)",
+          "url": "https://www.peace4shore.com/about"
+        },
+        "health": {
+          "label": "Wants taxes to cover \"doctors visits when your family is sick\" and says she pushed county commissioners to pass resolutions \"to protect programs so kids can see the doctor\" (peace4shore.com About page, 2026)",
+          "url": "https://www.peace4shore.com/about"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: peace4shore.com listed on politics1.com/nj.htm; not separately re-fetched this round given repeated rate-limiting on prior attempts",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed",
+        "housing": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed",
+        "immigration": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed",
+        "safety": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed",
+        "repro": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed",
+        "democracy": "re-checked Sep 11, 2026: peace4shore.com/policy renders only \"Loading priorities\" (JS-loaded, no text reachable); /about has no statement on this axis; Ballotpedia survey not completed"
       },
       "sources": [
         {
@@ -2229,9 +2242,13 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NJ04257/"
+        },
+        {
+          "label": "Campaign site: About",
+          "url": "https://www.peace4shore.com/about"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H6NJ05171",
@@ -2327,29 +2344,54 @@
       "background": "Republican nominee challenging Rep. Josh Gottheimer in New Jersey's 5th District.",
       "priorities": [],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": 1,
+        "health": 0,
+        "housing": -1,
         "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
+        "taxes": 1,
+        "climate": 1,
+        "education": 1,
+        "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Affordability plan is tax relief: \"Restoring the full SALT deduction\", \"Eliminating taxes on retirement income so seniors can afford to stay\", and \"Capping administrative waste in federal programs at 10%\" (seankirrane.com platform, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "health": {
+          "label": "Mixed: backs an American Citizens Health Insurance Act with \"universal baseline coverage\" and \"income-based caps on out-of-pocket costs\" but with private insurers competing and \"preserving free-market choice\" (seankirrane.com platform and Ballotpedia survey, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "housing": {
+          "label": "Authored a Primary Residence Mortgage Act that \"provides temporary federal interest relief during high rate periods\", adds 30 and 40 year fixed mortgages and \"prioritizes American families not investors or foreign buyers\" (seankirrane.com platform, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "taxes": {
+          "label": "Restore full SALT deduction, \"eliminate retirement income taxes\", \"cap administrative costs at 10%\" and require performance-based funding; says \"government should do fewer things, and do them well\" (seankirrane.com platform and Ballotpedia survey, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "climate": {
+          "label": "Supports an \"all-of-the-above energy approach\": \"expand domestic energy production\", \"strengthen grid reliability\", innovation to reduce long-term costs (seankirrane.com platform, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "education": {
+          "label": "Education plank: \"Increasing transparency so parents know what is being taught\" and \"keeping schools focused on academic excellence and outcomes\" (seankirrane.com platform, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "safety": {
+          "label": "Pledges to \"stand with law enforcement to keep our communities safe\" (seankirrane.com platform, 2026)",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        "democracy": {
+          "label": "Proposes nine election-integrity measures including uniform voter ID with \"free ID access for those who lack one\", a national ballot tracking system, standardized mail-ballot procedures and risk-limiting audits (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Sean_Kirrane"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: kirraneforcongress.com listed on politics1.com/nj.htm but root domain still returns 404 per prior round; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "immigration": "re-checked Sep 11, 2026: not addressed on seankirrane.com/platform or Ballotpedia survey",
+        "repro": "re-checked Sep 11, 2026: not addressed on seankirrane.com/platform or Ballotpedia survey"
       },
       "sources": [
         {
@@ -2359,9 +2401,17 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NJ05221/"
+        },
+        {
+          "label": "Campaign site: Platform",
+          "url": "https://www.seankirrane.com/platform"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection survey",
+          "url": "https://ballotpedia.org/Sean_Kirrane"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-09-11"
     },
     {
       "id": "fec-H8NJ03073",

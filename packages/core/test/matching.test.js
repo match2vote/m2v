@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { computeMatch, rankCandidates, isStated } from '../src/matching.js';
+import { computeMatch, rankCandidates, isStated, statedCount, MIN_STATED_POSITIONS } from '../src/matching.js';
 import { ISSUES, stanceLabel, ISSUE_KEYS } from '../src/issues.js';
 
 test('there are exactly 10 issues with unique keys', () => {
@@ -24,16 +24,49 @@ test('maximum disagreement on all issues = 0%', () => {
 });
 
 test('null candidate positions are excluded, never inferred', () => {
-  // Candidate states only ONE issue and agrees perfectly there.
+  // Candidate states 7 issues (the floor) and agrees perfectly there.
   const answers = {}, positions = {};
   for (const k of ISSUE_KEYS) { answers[k] = 1; positions[k] = null; }
-  positions.health = 1;
-  const { pct, sharedIssues, perIssue } = computeMatch(answers, {}, positions);
-  assert.equal(pct, 100);           // 100% of the ONE shared issue
-  assert.equal(sharedIssues, 1);    // ...and shown as only 1 shared issue
+  for (const k of ISSUE_KEYS.slice(0, 7)) positions[k] = 1;
+  const { pct, sharedIssues, statedIssues, underResearched, perIssue } = computeMatch(answers, {}, positions);
+  assert.equal(pct, 100);           // 100% of the SEVEN shared issues
+  assert.equal(sharedIssues, 7);    // ...and shown as 7 shared issues
+  assert.equal(statedIssues, 7);
+  assert.equal(underResearched, false);
   const unstated = perIssue.filter((p) => !p.shared);
-  assert.equal(unstated.length, 9);
+  assert.equal(unstated.length, 3);
   for (const p of unstated) assert.equal(p.agreement, null);
+});
+
+test(`fewer than ${MIN_STATED_POSITIONS} sourced positions → not scored, even on perfect agreement`, () => {
+  const answers = {};
+  for (const k of ISSUE_KEYS) answers[k] = 2;
+  for (let n = 0; n < MIN_STATED_POSITIONS; n++) {
+    const positions = {};
+    for (const k of ISSUE_KEYS) positions[k] = null;
+    for (const k of ISSUE_KEYS.slice(0, n)) positions[k] = 2;
+    const r = computeMatch(answers, {}, positions);
+    assert.equal(r.pct, null, `${n} stated positions must not score`);
+    assert.equal(r.underResearched, true);
+    assert.equal(r.statedIssues, n);
+    assert.equal(statedCount(positions), n);
+  }
+  // Exactly at the floor: scored.
+  const positions = {};
+  for (const k of ISSUE_KEYS) positions[k] = null;
+  for (const k of ISSUE_KEYS.slice(0, MIN_STATED_POSITIONS)) positions[k] = 2;
+  assert.equal(computeMatch(answers, {}, positions).pct, 100);
+});
+
+test('under-researched candidates rank after scored ones', () => {
+  const answers = {};
+  for (const k of ISSUE_KEYS) answers[k] = 2;
+  const thin = { name: 'thin', positions: Object.fromEntries(ISSUE_KEYS.map((k, i) => [k, i < 3 ? 2 : null])) };
+  const full = { name: 'full', positions: Object.fromEntries(ISSUE_KEYS.map((k) => [k, -2])) };
+  const ranked = rankCandidates(answers, {}, [thin, full]);
+  assert.equal(ranked[0].candidate.name, 'full'); // 0% but scored beats unscored
+  assert.equal(ranked[1].pct, null);
+  assert.equal(ranked[1].underResearched, true);
 });
 
 test('no shared issues → pct is null (Not enough info), never a guess', () => {
@@ -44,10 +77,15 @@ test('no shared issues → pct is null (Not enough info), never a guess', () => 
   assert.equal(sharedIssues, 0);
 });
 
+// Candidates in the arithmetic tests below carry a stated position on every
+// issue so they clear the research floor; the user answers only the issues
+// under test, so only those are shared and counted.
+const pad = (positions) => Object.fromEntries(ISSUE_KEYS.map((k) => [k, k in positions ? positions[k] : 0]));
+
 test('"matters" flag doubles an issue\'s weight', () => {
   // Two issues: agree fully on health, disagree fully on taxes.
   const answers = { health: 2, taxes: -2 };
-  const positions = { health: 2, taxes: 2 };
+  const positions = pad({ health: 2, taxes: 2 });
   const even = computeMatch(answers, {}, positions);
   assert.equal(even.pct, 50); // (1 + 0) / 2
   const mattersHealth = computeMatch(answers, { health: true }, positions);
@@ -57,13 +95,13 @@ test('"matters" flag doubles an issue\'s weight', () => {
 });
 
 test('adjacent positions score 75% agreement', () => {
-  const { pct } = computeMatch({ health: 1 }, {}, { health: 2 });
+  const { pct } = computeMatch({ health: 1 }, {}, pad({ health: 2 }));
   assert.equal(pct, 75); // |1-2|/4 = 0.25 → 0.75
 });
 
 test('user skipping an issue (null answer) excludes it', () => {
   const answers = { health: 2, taxes: null };
-  const positions = { health: 2, taxes: 2 };
+  const positions = pad({ health: 2, taxes: 2 });
   const { pct, sharedIssues } = computeMatch(answers, {}, positions);
   assert.equal(pct, 100);
   assert.equal(sharedIssues, 1);
@@ -73,13 +111,15 @@ test('ranking: computable matches first, null-match candidates last, ties by cov
   const answers = {}, matters = {};
   for (const k of ISSUE_KEYS) answers[k] = 0;
   const full = { id: 'full', positions: Object.fromEntries(ISSUE_KEYS.map((k) => [k, 0])) };
-  const thin = { id: 'thin', positions: { health: 0 } };            // also 100%, 1 issue
+  const seven = { id: 'seven', positions: Object.fromEntries(ISSUE_KEYS.map((k, i) => [k, i < 7 ? 0 : null])) }; // also 100%, 7 issues
+  const thin = { id: 'thin', positions: { health: 0 } };            // below the floor: pct null
   const none = { id: 'none', positions: {} };                        // pct null
-  const ranked = rankCandidates(answers, matters, [none, thin, full]);
-  assert.deepEqual(ranked.map((r) => r.candidate.id), ['full', 'thin', 'none']);
+  const ranked = rankCandidates(answers, matters, [none, thin, seven, full]);
+  assert.deepEqual(ranked.map((r) => r.candidate.id), ['full', 'seven', 'none', 'thin']);
   assert.equal(ranked[0].pct, 100);
   assert.equal(ranked[1].pct, 100);
   assert.equal(ranked[2].pct, null);
+  assert.equal(ranked[3].pct, null);
 });
 
 test('stanceLabel renders null as "Not stated"', () => {

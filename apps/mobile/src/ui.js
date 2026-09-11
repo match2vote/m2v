@@ -132,7 +132,7 @@ export function TierBadge({ tier }) {
 // count-up is a JS number ticker (no style is animated), skipped under
 // reduced motion. Colour is only a hint: the number and the "match" text
 // carry the meaning, so nothing here is communicated by colour alone.
-export function MatchRing({ pct, size = 92 }) {
+export function MatchRing({ pct, size = 92, statedIssues, underResearched, minStated }) {
   const { colors } = useTheme();
   const anim = useRef(new Animated.Value(0)).current;
   const reduced = useReducedMotion();
@@ -146,7 +146,10 @@ export function MatchRing({ pct, size = 92 }) {
     return () => anim.removeListener(id);
   }, [pct, reduced]);
   const color = matchColor(pct, colors);
-  const label = pct === null || pct === undefined
+  const researching = !!underResearched && statedIssues !== undefined;
+  const label = researching
+    ? S.matchRingResearchingA11y({ n: statedIssues, min: minStated })
+    : pct === null || pct === undefined
     ? S.matchRingNotScoredA11y
     : S.matchRingPctA11y({ pct });
   return (
@@ -163,7 +166,7 @@ export function MatchRing({ pct, size = 92 }) {
         {shown === null ? S.matchRingDash : S.matchRingPct({ pct: shown })}
       </Text>
       <Text style={{ fontSize: 10, color: colors.inkSoft, fontWeight: '600' }}>
-        {pct === null ? S.matchRingNotEnough : S.matchRingMatch}
+        {pct === null ? (researching ? S.matchRingResearching : S.matchRingNotEnough) : S.matchRingMatch}
       </Text>
     </View>
   );

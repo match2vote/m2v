@@ -66,6 +66,8 @@ jobs:
           mkdir -p _site/m2v/privacy && cp docs/launch/privacy.html _site/m2v/privacy/index.html
           # Terms of use at /terms (linked from the app beside the privacy policy)
           mkdir -p _site/terms && cp docs/launch/terms.html _site/terms/index.html
+          # About page at /about (who built M2V; linked from the app and match2vote.org)
+          mkdir -p _site/about && cp docs/launch/about.html _site/about/index.html
           # Custom domain. Pages reads this file on branch deploys; the setting
           # in the repo's Pages page covers artifact deploys. Keep both in sync.
           echo "app.match2vote.org" > _site/CNAME

@@ -97,6 +97,16 @@ export function About() {
           </Card>
         )}
 
+        <Card>
+          <H2>{S.builtTitle}</H2>
+          <Body style={{ fontSize: 14, marginBottom: space(2) }}>{S.builtBody}</Body>
+          <Button
+            kind="ghost"
+            label={S.linkedin}
+            onPress={() => Linking.openURL('https://www.linkedin.com/in/kiki-taylor').catch(() => {})}
+          />
+        </Card>
+
         <Button
           kind="ghost"
           small

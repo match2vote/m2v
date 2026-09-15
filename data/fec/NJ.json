@@ -1,7 +1,7 @@
 {
   "state": "NJ",
   "electionYear": 2026,
-  "syncedAt": "2026-08-27T17:40:12.620Z",
+  "syncedAt": "2026-09-15T11:49:10.557Z",
   "candidates": [
     {
       "id": "fec-H2NJ01187",
@@ -734,6 +734,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NJ12326/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NJ12441",
+      "fecId": "H6NJ12441",
+      "name": "Andres Jinete",
+      "party": "Green",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "12",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NJ12441/"
         }
       ],
       "funding": null,

@@ -61,6 +61,8 @@ Graphics: 512×512 icon (in repo: `apps/mobile/assets/icon.png`, the real M2V ma
 
 Audit basis: the app makes two kinds of network call (`api.js`). (1) A read-only GET to Supabase REST to download public candidate data. (2) Only when the user taps "I want M2V to cover my state" on an uncovered-state screen: a single INSERT of the two-letter state code to an insert-only table; the row stores the code and a server timestamp and nothing else (no IP retained in the table, no device/user/session id, no user agent; the app's key cannot read the table). All other user state (ballot state, quiz answers, picks, theme) is AsyncStorage/localStorage on device. No analytics SDK, no ads SDK, no crash reporting, no accounts, no permissions beyond INTERNET.
 
+Sep 17, 2026 note: `api.js` gained a third call, `recordAppOpen()`, gated by `COUNTED_PLATFORMS = ['web']`. It runs only in the web build at app.match2vote.org and never on Android, so the answers below and the live listing ("No analytics") are unchanged. If that gate is ever widened to Android, update this form, the listing text above, and the privacy page's "How we count use" section in the same release.
+
 | Play question | Answer |
 |---|---|
 | Does your app collect or share any of the required user data types? | **No** — see the state-code note below |

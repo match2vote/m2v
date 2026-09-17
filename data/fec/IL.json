@@ -1,7 +1,7 @@
 {
   "state": "IL",
   "electionYear": 2026,
-  "syncedAt": "2026-07-22T12:14:05.823Z",
+  "syncedAt": "2026-09-17T11:47:03.005Z",
   "candidates": [
     {
       "id": "fec-H6IL01191",
@@ -3710,6 +3710,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6IL00482/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6IL00730",
+      "fecId": "S6IL00730",
+      "name": "Sean Amedee Brown",
+      "party": "Democrat",
+      "state": "IL",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6IL00730/"
         }
       ],
       "funding": null,

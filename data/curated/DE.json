@@ -1,17 +1,13 @@
 {
   "state": "DE",
-  "note": "Hand-curated, sourced entries. Senate only: Delaware has no 2026 governor race (Gov. Matt Meyer was elected in 2024).",
+  "note": "Hand-curated, sourced entries. Senate only: Delaware has no 2026 governor race (Gov. Matt Meyer was elected in 2024). Sep 15, 2026 primaries resolved.",
   "races": {
     "DE-senate": {
-      "status": "primary-pending",
-      "statusNote": "Sen. Chris Coons (D) seeks a fourth term. The Sept 15, 2026 primary ballots are set: Coons faces Jeff Appelhans, E. No-Trump Hansen and Mary Louve for the Democratic nomination, and John Shulli faces Michael \"Dr. Mike\" Katz for the Republican nomination, according to the Delaware Department of Elections candidate list.",
+      "status": "general",
+      "statusNote": "Sen. Chris Coons won the Sep 15 Democratic primary with about 84% over Jeff Appelhans, E. No-Trump Hansen and Mary Louve. Dr. Mike Katz, a pediatric anesthesiologist and former state senator, beat John Shulli for the Republican nomination. Coons and Katz meet on Nov 3.",
       "advancing": [
         "fec-S0DE00092",
-        "fec-S6DE00198",
-        "fec-S6DE00206",
-        "de-senate-appelhans",
-        "de-senate-hansen",
-        "de-senate-louve"
+        "fec-S6DE00206"
       ]
     }
   },
@@ -23,7 +19,7 @@
       "office": "us-senate",
       "state": "DE",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": true,
       "age": 62,
       "home": "Wilmington, DE",
@@ -115,7 +111,7 @@
       "office": "us-senate",
       "state": "DE",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "now": "U.S. Army War College instructor; Army Reserve colonel",
       "background": "Delaware native and U.S. Army Reserve colonel with more than 29 years of service, now an instructor at the U.S. Army War College; previously worked in the Pentagon's Chief Digital and AI Office. First-time candidate who leads the Republican primary field in fundraising ahead of the September 15 primary.",
@@ -205,7 +201,7 @@
       "district": null,
       "state": "DE",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -222,7 +218,7 @@
       "district": null,
       "state": "DE",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -239,7 +235,7 @@
       "district": null,
       "state": "DE",
       "tier": "fec",
-      "ballotStatus": "filed",
+      "ballotStatus": "lost",
       "incumbent": false,
       "sources": [
         {
@@ -247,6 +243,59 @@
           "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2026.html"
         }
       ]
+    },
+    {
+      "id": "fec-S6DE00206",
+      "name": "Mike Katz",
+      "party": "Republican",
+      "office": "us-senate",
+      "district": null,
+      "state": "DE",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "WHYY: Katz defeats Shulli in Delaware's Republican primary election for U.S. Senate (Sep 15, 2026)",
+          "url": "https://whyy.org/articles/election-2026-delaware-primary-senate-republican-winner/"
+        },
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6DE00206/"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "now": "Pediatric critical care anesthesiologist; former Delaware state senator",
+      "background": "Pediatric critical care anesthesiologist and commercial real estate company owner who previously served as a Delaware state senator; campaigns as 'Dr. Mike' Katz. Won the Sep 15, 2026 Republican primary over John Shulli. Said he would focus on lowering the cost of living, fixing the health care system and making the federal government more fiscally responsible (WHYY).",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "health": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "housing": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "immigration": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "taxes": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "climate": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "education": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "safety": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "repro": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending",
+        "democracy": "added names-only Sep 16, 2026 after the Sep 15 GOP primary win reported by WHYY; positions pass pending"
+      },
+      "curatedAt": "2026-09-16",
+      "fecId": "S6DE00206"
     }
   ]
 }

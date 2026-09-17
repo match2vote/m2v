@@ -1,6 +1,6 @@
 {
   "state": "RI",
-  "note": "Hand-curated, sourced entries. Both primaries pending (Wednesday, September 9, 2026, per the RI Secretary of State election calendar).",
+  "note": "Hand-curated, sourced entries. Both Sep 9, 2026 primaries resolved; Board of Elections certified results Sep 15, 2026.",
   "races": {
     "RI-senate": {
       "status": "general",
@@ -11,8 +11,15 @@
       ]
     },
     "RI-governor": {
-      "status": "primary-pending",
-      "statusNote": "Businesswoman Helena Foulkes defeated Gov. Dan McKee in the Sep 9 Democratic primary, four years after nearly beating him in 2022. On the Republican side Aaron Guckian holds a narrow lead over Elaine Pelino and, barring a change in the state Board of Elections recount set for Sep 14, will be the GOP nominee. Ken Block (Independent) has also filed for the November ballot."
+      "status": "general",
+      "statusNote": "Businesswoman Helena Foulkes defeated Gov. Dan McKee in the Sep 9 Democratic primary. Aaron Guckian won the Republican primary by 259 votes over Elaine Pelino; the state Board of Elections review confirmed the result and certified it Sep 15. The November ballot is a five-way race: Foulkes (D), Guckian (R) and independents Ken Block, Jay Gotra and C.D. Reynolds.",
+      "advancing": [
+        "ri-gov-foulkes",
+        "ri-gov-guckian",
+        "ri-gov-block",
+        "ri-gov-gotra",
+        "ri-gov-reynolds"
+      ]
     }
   },
   "candidates": [
@@ -287,7 +294,7 @@
       "office": "governor",
       "state": "RI",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 62,
       "home": "Providence, RI",
@@ -378,7 +385,7 @@
       "office": "governor",
       "state": "RI",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 49,
       "home": "East Greenwich, RI",
@@ -451,6 +458,10 @@
         {
           "label": "NBC 10 GOP primary debate",
           "url": "https://turnto10.com/news/local/aaron-guckian-elaine-pelino-health-care-housing-spending-nbc-10-coastal-abc-debate-rhode-island-governor-republican-primary-debate-august-12-2026"
+        },
+        {
+          "label": "Rhode Island Current: Guckian confirmed as GOP gubernatorial nominee; primary turnout cracks 20% (Sep 15, 2026)",
+          "url": "https://rhodeislandcurrent.com/2026/09/15/guckian-confirmed-as-gop-gubernatorial-nominee-primary-turnout-cracks-20/"
         }
       ],
       "curatedAt": "2026-08-13"
@@ -462,7 +473,7 @@
       "office": "governor",
       "state": "RI",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "lost",
       "incumbent": false,
       "now": "Republican candidate for governor; former actress",
       "background": "Former actress running as a self-described '100% MAGA' Republican who says 'I believe in our president.' Led party-endorsed Aaron Guckian by roughly 25 points in the June 2026 UNH poll of the GOP primary, though 40% of Republican voters were undecided.",
@@ -542,7 +553,7 @@
       "office": "governor",
       "state": "RI",
       "tier": "curated",
-      "ballotStatus": null,
+      "ballotStatus": "nominee",
       "incumbent": false,
       "age": 60,
       "home": "Barrington, RI",
@@ -596,6 +607,102 @@
         }
       ],
       "curatedAt": "2026-08-13"
+    },
+    {
+      "id": "ri-gov-gotra",
+      "name": "Jay Gotra",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Rhode Island Current: Guckian confirmed as GOP gubernatorial nominee; primary turnout cracks 20% (Sep 15, 2026)",
+          "url": "https://rhodeislandcurrent.com/2026/09/15/guckian-confirmed-as-gop-gubernatorial-nominee-primary-turnout-cracks-20/"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Governor of Rhode Island",
+      "background": "Independent candidate on the November 3, 2026 ballot for Governor of Rhode Island, listed in the certified general election field alongside Helena Foulkes, Aaron Guckian and Ken Block.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "health": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "housing": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "immigration": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "taxes": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "climate": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "education": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "safety": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "repro": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "democracy": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending"
+      },
+      "curatedAt": "2026-09-16"
+    },
+    {
+      "id": "ri-gov-reynolds",
+      "name": "C.D. Reynolds",
+      "party": "Independent",
+      "office": "governor",
+      "district": null,
+      "state": "RI",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "sources": [
+        {
+          "label": "Rhode Island Current: Guckian confirmed as GOP gubernatorial nominee; primary turnout cracks 20% (Sep 15, 2026)",
+          "url": "https://rhodeislandcurrent.com/2026/09/15/guckian-confirmed-as-gop-gubernatorial-nominee-primary-turnout-cracks-20/"
+        }
+      ],
+      "age": null,
+      "home": null,
+      "now": "Independent candidate for Governor of Rhode Island",
+      "background": "Independent candidate on the November 3, 2026 ballot for Governor of Rhode Island, listed in the certified general election field alongside Helena Foulkes, Aaron Guckian and Ken Block.",
+      "priorities": [],
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {},
+      "nullNotes": {
+        "cost": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "health": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "housing": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "immigration": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "taxes": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "climate": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "education": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "safety": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "repro": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending",
+        "democracy": "added names-only Sep 16, 2026 from the certified general election field reported by Rhode Island Current; no campaign site or position statements located yet, positions pass pending"
+      },
+      "curatedAt": "2026-09-16"
     }
   ]
 }

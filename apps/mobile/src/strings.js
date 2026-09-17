@@ -555,7 +555,7 @@ export const strings = {
 
   terms: {
     title: 'Terms of use',
-    effective: 'Effective September 10, 2026',
+    effective: 'Effective September 10, 2026, updated September 17, 2026',
     back: 'Home',
     privacyLink: 'Read the privacy policy',
     contact: 'Questions: match2vote@gmail.com',
@@ -566,7 +566,7 @@ export const strings = {
       },
       {
         heading: '2. No accounts, no personal data',
-        body: 'M2V has no accounts and no sign-in. It does not ask for your name, email address, phone number, precise location, or contacts. Your quiz answers, the issues you mark as mattering most, the candidates you mark on your sample ballot, and your display preferences are stored only on your device. Deleting the app deletes all of it. The privacy policy describes the two network requests the app can make.',
+        body: 'M2V has no accounts and no sign-in. It does not ask for your name, email address, phone number, precise location, or contacts. Your quiz answers, the issues you mark as mattering most, the candidates you mark on your sample ballot, and your display preferences are stored only on your device. Deleting the app deletes all of it. The privacy policy describes every network request the app can make.',
       },
       {
         heading: '3. Independence',

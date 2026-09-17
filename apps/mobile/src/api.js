@@ -4,6 +4,7 @@
 // Order of truth: live server data > cached server data > bundled snapshot.
 // The publishable key below is designed to be public (read-only access,
 // enforced by Postgres row-level security). The secret key never ships here.
+import { Platform } from 'react-native';
 import bundled from './data/candidates.json';
 
 export const SUPABASE_URL = 'https://tfhszpjhylekdvhrvcjm.supabase.co';
@@ -142,6 +143,50 @@ export async function recordStateInterest(state) {
     });
   } catch {
     // Silent by design. The thank-you already showed; a lost signal is fine.
+  }
+}
+
+// --- Usage counter: "a device opened the web app today" ----------------------
+// Sends EXACTLY two things: the platform label ("web") and whether this device
+// has ever been counted before (true/false). The server stamps the time. No IP
+// retained in the table, no device id, no user id, no session id, no cookie,
+// no user agent, no page, no state. At most one row per device per local
+// calendar day, remembered on the device, so a day's rows read as "devices
+// that opened the web app that day" and first_open rows read as "devices that
+// opened it for the first time". WEB ONLY: the Android build must stay
+// byte-for-byte honest to its Play listing ("No analytics") and Data safety
+// form; widen COUNTED_PLATFORMS only together with those. The privacy policy
+// ("How we count use") documents this sentence-for-sentence; if this ever
+// sends more, update the policy in the same commit. Fire-and-forget, never
+// throws, never shows anything to the user, never runs in development.
+// Insert-only RLS means this key cannot read the table back.
+const OPEN_DAY_KEY = 'm2v:open:lastDay';
+const COUNTED_PLATFORMS = ['web'];
+function localDay() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+export async function recordAppOpen() {
+  let previous = null;
+  try {
+    if (typeof __DEV__ !== 'undefined' && __DEV__) return;
+    const platform = Platform.OS;
+    if (!COUNTED_PLATFORMS.includes(platform)) return;
+    const today = localDay();
+    previous = await store.get(OPEN_DAY_KEY);
+    if (previous === today) return;
+    await store.set(OPEN_DAY_KEY, today);
+    await fetch(`${SUPABASE_URL}/rest/v1/app_opens`, {
+      method: 'POST',
+      keepalive: true,
+      headers: { ...HEADERS, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+      body: JSON.stringify({ platform, first_open: !previous }),
+    });
+  } catch {
+    // Silent by design. If the request never left (offline), un-mark the day
+    // so a later open today can count; a lost count is otherwise fine.
+    try { await store.set(OPEN_DAY_KEY, previous || ''); } catch { /* nothing */ }
   }
 }
 

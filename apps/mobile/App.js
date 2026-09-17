@@ -17,7 +17,7 @@ import { HowTo } from './src/screens/HowTo';
 import { WhatYouVoteFor } from './src/screens/WhatYouVoteFor';
 import { ChooseState, ChooseDistrict } from './src/screens/ChooseState';
 import { getRaces, getCoverage, STATE_NAMES, districtLabel, statesPhrase } from './src/ballot';
-import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, kv } from './src/api';
+import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, recordAppOpen, kv } from './src/api';
 import { shareResultCard } from './src/share';
 import { DistrictLine } from './src/DistrictLine';
 import { ErrorBoundary } from './src/ErrorBoundary';
@@ -55,6 +55,9 @@ function Root() {
       if (saved) setQuiz(saved);
       setQuizLoaded(true);
     })();
+    // Usage count: web only, one row per device per day, no identifiers.
+    // See recordAppOpen in src/api.js and the privacy policy ("How we count use").
+    recordAppOpen();
   }, []);
 
   // Keep the ballot badge fresh whenever navigation happens.

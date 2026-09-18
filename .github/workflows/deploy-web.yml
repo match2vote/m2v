@@ -68,6 +68,8 @@ jobs:
           mkdir -p _site/terms && cp docs/launch/terms.html _site/terms/index.html
           # About page at /about (who built M2V; linked from the app and match2vote.org)
           mkdir -p _site/about && cp docs/launch/about.html _site/about/index.html
+          # Usage page at /usage (kiki's device-count dashboard; needs the report key, see supabase/2026-09-18-usage-report.sql)
+          mkdir -p _site/usage && cp docs/launch/usage.html _site/usage/index.html
           # Custom domain. Pages reads this file on branch deploys; the setting
           # in the repo's Pages page covers artifact deploys. Keep both in sync.
           echo "app.match2vote.org" > _site/CNAME

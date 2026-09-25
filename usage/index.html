@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>Page not found</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #FAF8F5; --surface: #FFFFFF; --ink: #262019; --ink-soft: #7A7167; --ink-muted: #A0968A;
+    --line: #EAE4DB; --grid: #EFEAE2; --accent: #63305A; --on-accent: #FFFFFF; --accent-soft: #F2E9F0;
+    --new: #178C6C; --returning: #C98026; --danger: #9C4E35; --danger-soft: #F6E7E0;
+    --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif: Georgia, "Newsreader", "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #191512; --surface: #241E19; --ink: #F2EBE1; --ink-soft: #A89C8E; --ink-muted: #7E7365;
+      --line: #38302A; --grid: #2E2721; --accent: #D3A8C4; --on-accent: #241E19; --accent-soft: #3A2430;
+      --new: #259672; --returning: #C8842A; --danger: #D08A73; --danger-soft: #3A2822;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); }
+  body { font: 15px/1.5 var(--sans); padding-block: env(safe-area-inset-top, 0px) calc(40px + env(safe-area-inset-bottom, 0px)); }
+  main { max-width: 860px; margin: 0 auto; padding: 28px 16px 0; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 20px; }
+  h1 { font: 400 30px/1.15 var(--serif); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+  h1 span { color: var(--ink-soft); }
+  .meta { color: var(--ink-soft); font-size: 13px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  button, .btn { font: 500 13px/1 var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+  button:hover { border-color: var(--ink-muted); }
+  button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 22px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 12px; min-width: 0; }
+  .tile .label { font-size: 12px; color: var(--ink-soft); letter-spacing: 0.02em; }
+  .tile .value { font-weight: 600; font-size: 28px; line-height: 1.1; margin-top: 4px; }
+  .tile.hero .value { font-size: 48px; }
+  .tile .sub { font-size: 12px; color: var(--ink-soft); margin-top: 6px; }
+  .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .toolbar h2 { font: 500 15px/1.3 var(--sans); margin: 0; }
+  .toolbar h2 small { color: var(--ink-soft); font-weight: 400; }
+  .range { display: flex; gap: 6px; flex-wrap: wrap; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 12px 8px; position: relative; }
+  .legend { display: flex; gap: 18px; padding: 0 6px 8px; font-size: 13px; color: var(--ink-soft); flex-wrap: wrap; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 7px; vertical-align: -1px; background: var(--sw); }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .grid line { stroke: var(--grid); stroke-width: 1; }
+  .axis text { fill: var(--ink-soft); font: 11px var(--sans); font-variant-numeric: tabular-nums; }
+  .col-new { fill: var(--new); } .col-ret { fill: var(--returning); }
+  .hit { fill: transparent; cursor: default; }
+  .hit:hover, .hit:focus { fill: var(--accent); fill-opacity: 0.07; outline: none; }
+  .cap-label { fill: var(--ink); font: 600 12px var(--sans); text-anchor: middle; }
+  .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; line-height: 1.45; padding: 8px 10px; border-radius: 8px; white-space: nowrap; transform: translate(-50%, calc(-100% - 10px)); opacity: 0; transition: opacity .12s; z-index: 2; }
+  .tip b { font-weight: 600; }
+  .tip.show { opacity: 1; }
+  .tip .row { display: flex; gap: 10px; justify-content: space-between; }
+  .tip .row i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; vertical-align: 0; }
+  .empty { color: var(--ink-soft); text-align: center; padding: 40px 12px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 14px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: right; padding: 8px 10px; border-top: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--ink-soft); font-weight: 500; font-size: 12px; border-top: 0; }
+  .tablewrap { overflow-x: auto; }
+  .note { color: var(--ink-soft); font-size: 13px; margin-top: 22px; max-width: 65ch; }
+  .note a { color: var(--accent); }
+  .gate { max-width: 480px; margin: 18vh auto 0; text-align: center; }
+  .gate h2 { font: 400 30px/1.2 var(--serif); margin: 0 0 10px; }
+  .gate p { color: var(--ink-soft); font-size: 15px; margin: 0 0 18px; }
+  .gate a { color: var(--accent); }
+  .faded { opacity: 0.55; transition: opacity .2s; }
+  @media (prefers-reduced-motion: reduce) { .tip, .faded { transition: none; } }
+  @media (max-width: 480px) { .tile.hero .value { font-size: 40px; } h1 { font-size: 26px; } }
+</style>
+</head>
+<body>
+<main>
+  <header id="pagehead" hidden>
+    <h1>M2V <span>usage</span></h1>
+    <div class="meta">
+      <span id="updated">Loading…</span>
+      <button id="refresh" type="button" hidden>Refresh</button>
+      <button id="signout" type="button" hidden title="Forget the report key on this device">Forget key</button>
+    </div>
+  </header>
+
+  <!-- Without the key this page is indistinguishable from the app's 404. -->
+  <section id="gate" class="gate" hidden>
+    <h2>Page not found</h2>
+    <p>The page you were looking for does not exist.</p>
+    <p><a href="/">Go to Match to Vote</a></p>
+  </section>
+
+  <section id="report" hidden>
+    <div class="tiles" id="tiles"></div>
+
+    <div class="toolbar">
+      <h2>Devices per day <small id="rangenote"></small></h2>
+      <div class="range" role="group" aria-label="Date range">
+        <button type="button" data-range="14" aria-pressed="false">14 days</button>
+        <button type="button" data-range="30" aria-pressed="true">30 days</button>
+        <button type="button" data-range="0" aria-pressed="false">All</button>
+        <button type="button" id="tabletoggle" aria-pressed="false">Table</button>
+      </div>
+    </div>
+
+    <div class="card" id="chartcard">
+      <div class="legend">
+        <span style="--sw: var(--new)">New devices</span>
+        <span style="--sw: var(--returning)">Returning devices</span>
+      </div>
+      <div id="chart"></div>
+      <div id="tip" class="tip" role="status" aria-live="polite"></div>
+      <div id="tablewrap" class="tablewrap" hidden></div>
+    </div>
+
+    <div class="toolbar" style="margin-top: 26px">
+      <h2>By hour of day <small id="hournote"></small></h2>
+      <div class="range" role="group" aria-label="Hourly view">
+        <button type="button" data-hrange="today" aria-pressed="true">Today</button>
+        <button type="button" data-hrange="yesterday" aria-pressed="false">Yesterday</button>
+        <button type="button" data-hrange="7" aria-pressed="false">7 days</button>
+        <button type="button" data-hrange="14" aria-pressed="false">14 days</button>
+        <button type="button" id="htabletoggle" aria-pressed="false">Table</button>
+      </div>
+    </div>
+
+    <div class="card" id="hchartcard">
+      <div class="legend">
+        <span style="--sw: var(--new)">New devices</span>
+        <span style="--sw: var(--returning)">Returning devices</span>
+      </div>
+      <div id="hchart"></div>
+      <div id="htip" class="tip" role="status" aria-live="polite"></div>
+      <div id="htablewrap" class="tablewrap" hidden></div>
+    </div>
+
+    <p class="note">One count per device per day, kept on the device itself; nothing here identifies anyone. "New" means the device had never been counted before, so the all-time new count is a ceiling on devices reached (clearing browser storage makes a device new again). Days and hours are Eastern time; the hourly chart shows when each device's first open of the day happened. Android usage is in Play Console under Statistics. How this is counted: <a href="/privacy/">privacy policy</a>.</p>
+  </section>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var SUPABASE_URL = 'https://tfhszpjhylekdvhrvcjm.supabase.co';
+  var PUBLISHABLE_KEY = 'sb_publishable_H61HevfahZAjaU6Kd8onzQ_tD9sGz3n';
+  var KEY_STORE = 'm2v:usage:reportKey';
+  var RANGE_STORE = 'm2v:usage:range';
+  var HRANGE_STORE = 'm2v:usage:hrange';
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { data: null, range: 30, hrange: 'today', table: false, htable: false, key: null };
+
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} }
+
+  // A link like /usage/#k=... fills the key once, then the fragment is removed.
+  (function takeKeyFromFragment() {
+    var m = /(?:^|[#&])k=([^&]+)/.exec(location.hash || '');
+    if (m) { lsSet(KEY_STORE, decodeURIComponent(m[1])); history.replaceState(null, '', location.pathname + location.search); }
+  })();
+  state.key = lsGet(KEY_STORE);
+  var savedRange = parseInt(lsGet(RANGE_STORE), 10);
+  if (savedRange === 0 || savedRange === 14 || savedRange === 30) state.range = savedRange;
+  var savedH = lsGet(HRANGE_STORE);
+  if (['today', 'yesterday', '7', '14'].indexOf(savedH) >= 0) state.hrange = savedH;
+
+  function fmt(n) { return Number(n || 0).toLocaleString('en-US'); }
+  function nyToday() {
+    // Today's date in Eastern time as YYYY-MM-DD, matching the server's day buckets.
+    var p = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+    return p;
+  }
+  function addDays(iso, n) { var d = new Date(iso + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
+  function shortDate(iso) { var d = new Date(iso + 'T12:00:00Z'); return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }); }
+  function longDate(iso) { var d = new Date(iso + 'T12:00:00Z'); return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }); }
+
+  async function load() {
+    if (!state.key) { showGate(); return; }
+    $('report').classList.add('faded');
+    if (state.data) $('updated').textContent = 'Updating…';
+    try {
+      var r = await fetch(SUPABASE_URL + '/rest/v1/rpc/usage_report', {
+        method: 'POST',
+        headers: { apikey: PUBLISHABLE_KEY, Authorization: 'Bearer ' + PUBLISHABLE_KEY, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ report_key: state.key })
+      });
+      if (!r.ok) {
+        var body = await r.text();
+        if (r.status === 400 && /invalid report key/i.test(body) || r.status === 401 || r.status === 403) {
+          // Revoked or wrong key: forget it and show the 404, nothing more.
+          lsSet(KEY_STORE, null); state.key = null;
+          showGate();
+          return;
+        }
+        throw new Error('HTTP ' + r.status);
+      }
+      state.data = await r.json();
+      showReport();
+      render();
+    } catch (e) {
+      $('updated').textContent = state.data ? 'Could not refresh (showing earlier numbers)' : 'Could not load. Check your connection and refresh.';
+      if (!state.data) { $('report').hidden = false; $('tiles').innerHTML = ''; $('chart').innerHTML = '<div class="empty">No data yet.</div>'; }
+    } finally {
+      $('report').classList.remove('faded');
+    }
+  }
+
+  function showGate() {
+    document.title = 'Page not found';
+    $('pagehead').hidden = true; $('report').hidden = true; $('gate').hidden = false;
+    $('refresh').hidden = true; $('signout').hidden = true; $('updated').textContent = '';
+  }
+  function showReport() {
+    document.title = 'M2V Usage';
+    $('gate').hidden = true; $('pagehead').hidden = false; $('report').hidden = false; $('refresh').hidden = false; $('signout').hidden = false;
+  }
+
+  // Sum every platform into one series per day (only web sends today; android/ios would fold in).
+  function dailySeries() {
+    var byDay = {};
+    (state.data.daily || []).forEach(function (d) {
+      var b = byDay[d.day] || (byDay[d.day] = { day: d.day, opens: 0, newDevices: 0 });
+      b.opens += Number(d.opens); b.newDevices += Number(d.new_devices);
+    });
+    var days = Object.keys(byDay).sort();
+    var today = nyToday();
+    var first = days.length ? days[0] : today;
+    var start = state.range ? addDays(today, -(state.range - 1)) : first;
+    if (start < first && !state.range) start = first;
+    var out = [];
+    for (var d = start; d <= today; d = addDays(d, 1)) {
+      var b = byDay[d] || { day: d, opens: 0, newDevices: 0 };
+      out.push({ day: d, opens: b.opens, newDevices: b.newDevices, returning: Math.max(0, b.opens - b.newDevices) });
+    }
+    return out;
+  }
+
+  // 24 buckets for the chosen day or span, all platforms summed.
+  function hourlySeries() {
+    var today = nyToday(), from, to;
+    if (state.hrange === 'today') { from = to = today; }
+    else if (state.hrange === 'yesterday') { from = to = addDays(today, -1); }
+    else { to = today; from = addDays(today, -(parseInt(state.hrange, 10) - 1)); }
+    var byHour = [];
+    for (var h = 0; h < 24; h++) byHour.push({ hour: h, opens: 0, newDevices: 0 });
+    (state.data.hourly || []).forEach(function (r) {
+      if (r.day < from || r.day > to) return;
+      var b = byHour[Number(r.hour)]; if (!b) return;
+      b.opens += Number(r.opens); b.newDevices += Number(r.new_devices);
+    });
+    var nowHour = parseInt(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: 'numeric', hour12: false }).format(new Date()), 10) % 24;
+    return byHour.map(function (b) {
+      return { key: b.hour, opens: b.opens, newDevices: b.newDevices, returning: Math.max(0, b.opens - b.newDevices),
+               tick: hourTick(b.hour), label: hourLabel(b.hour), future: state.hrange === 'today' && b.hour > nowHour, from: from, to: to };
+    });
+  }
+  function hourTick(h) { return h === 0 ? '12a' : h < 12 ? h + 'a' : h === 12 ? '12p' : (h - 12) + 'p'; }
+  function hourLabel(h) {
+    var f = function (x) { x = x % 24; return (x % 12 === 0 ? 12 : x % 12) + (x < 12 ? ' AM' : ' PM'); };
+    return f(h) + ' to ' + f(h + 1);
+  }
+
+  function totals() {
+    var t = { today: 0, yesterday: 0, last_7_days: 0, last_30_days: 0, all_time: 0, devices_reached: 0, latest: null };
+    (state.data.totals || []).forEach(function (row) {
+      ['today', 'yesterday', 'last_7_days', 'last_30_days', 'all_time', 'devices_reached'].forEach(function (k) { t[k] += Number(row[k] || 0); });
+      if (row.latest_open_at && (!t.latest || row.latest_open_at > t.latest)) t.latest = row.latest_open_at;
+    });
+    return t;
+  }
+
+  function render() {
+    var t = totals();
+    var gen = state.data.generated_at ? new Date(state.data.generated_at) : new Date();
+    $('updated').textContent = 'Updated ' + gen.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }) + ' ET';
+    var delta = t.today - t.yesterday;
+    var deltaText = t.yesterday || t.today ? (delta === 0 ? 'same as yesterday' : (delta > 0 ? '+' : '−') + fmt(Math.abs(delta)) + ' vs yesterday') : 'first day of counting';
+    $('tiles').innerHTML =
+      tile('Today', t.today, deltaText, true) +
+      tile('Yesterday', t.yesterday, 'devices') +
+      tile('Last 7 days', t.last_7_days, 'device-days') +
+      tile('Last 30 days', t.last_30_days, 'device-days') +
+      tile('Devices reached', t.devices_reached, 'all time, a ceiling');
+    var series = dailySeries();
+    $('rangenote').textContent = series.length ? shortDate(series[0].day) + ' to ' + shortDate(series[series.length - 1].day) : '';
+    drawChart(series);
+    drawTable(series);
+    renderHourly();
+  }
+  function renderHourly() {
+    var hs = hourlySeries();
+    var total = 0, peak = null;
+    hs.forEach(function (b) { total += b.opens; if (b.opens > 0 && (!peak || b.opens > peak.opens)) peak = b; });
+    var span = hs[0].from === hs[0].to ? longDate(hs[0].from) : shortDate(hs[0].from) + ' to ' + shortDate(hs[0].to);
+    $('hournote').textContent = span + (peak ? ' · busiest ' + hourLabel(peak.key) + ' (' + fmt(peak.opens) + ')' : ' · no opens yet');
+    drawColumns({ host: $('hchart'), card: $('hchartcard'), tip: $('htip'), series: hs, tickEvery: 3, labelLast: false,
+      aria: 'Devices by hour of day, new and returning, stacked columns', empty: 'No opens in this span yet.' });
+    var rows = hs.filter(function (b) { return b.opens > 0; });
+    var t = '<table><thead><tr><th>Hour</th><th>New</th><th>Returning</th><th>Total</th></tr></thead><tbody>';
+    rows.forEach(function (b) { t += '<tr><td>' + b.label + '</td><td>' + fmt(b.newDevices) + '</td><td>' + fmt(b.returning) + '</td><td>' + fmt(b.opens) + '</td></tr>'; });
+    t += '<tr><td>All hours</td><td>' + fmt(hs.reduce(function (a, b) { return a + b.newDevices; }, 0)) + '</td><td>' + fmt(hs.reduce(function (a, b) { return a + b.returning; }, 0)) + '</td><td>' + fmt(total) + '</td></tr></tbody></table>';
+    $('htablewrap').innerHTML = t;
+  }
+  function tile(label, value, sub, hero) {
+    return '<div class="tile' + (hero ? ' hero' : '') + '"><div class="label">' + label + '</div><div class="value">' + fmt(value) + '</div><div class="sub">' + sub + '</div></div>';
+  }
+
+  // Top of the y scale: four whole-number ticks that reach the largest value.
+  function niceMax(v) {
+    var need = Math.max(1, v / 4), p = Math.pow(10, Math.floor(Math.log10(need)));
+    var steps = [1, 2, 2.5, 5, 10], step = 10 * p;
+    for (var i = 0; i < steps.length; i++) { var m = steps[i] * p; if (m >= 1 && Number.isInteger(m) && need <= m) { step = m; break; } }
+    return step * 4;
+  }
+
+  function drawChart(series) {
+    drawColumns({ host: $('chart'), card: $('chartcard'), tip: $('tip'),
+      series: series.map(function (d) { return { key: d.day, opens: d.opens, newDevices: d.newDevices, returning: d.returning, tick: shortDate(d.day), label: longDate(d.day) }; }),
+      tickEvery: Math.max(1, Math.ceil(series.length / 6)), labelLast: true,
+      aria: 'Devices per day, new and returning, stacked columns', empty: 'No opens recorded yet.' });
+  }
+
+  // One stacked-column renderer for both charts. Each series item: key, opens, newDevices, returning, tick, label, future?
+  function drawColumns(o) {
+    var host = o.host, series = o.series;
+    if (!series.length || !series.some(function (d) { return d.opens > 0; })) { host.innerHTML = '<div class="empty">' + o.empty + '</div>'; return; }
+    // Draw at the container's real pixel width so text stays 11px on a phone.
+    var W = Math.max(300, Math.round(host.clientWidth || 800)), padL = 40, padR = 12, padT = 22, padB = 30, H = W < 480 ? 220 : 260;
+    var plotW = W - padL - padR, plotH = H - padT - padB;
+    var n = series.length, band = plotW / n;
+    var barW = Math.min(24, Math.max(3, band * 0.6));
+    var maxV = niceMax(Math.max.apply(null, series.map(function (s) { return s.opens; }).concat([1])));
+    var y = function (v) { return padT + plotH - (v / maxV) * plotH; };
+    var ticks = 4, s = '';
+    s += '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + o.aria + '">';
+    s += '<g class="grid axis">';
+    for (var i = 0; i <= ticks; i++) {
+      var v = maxV * i / ticks, yy = y(v);
+      s += '<line x1="' + padL + '" x2="' + (W - padR) + '" y1="' + yy + '" y2="' + yy + '"/>';
+      s += '<text x="' + (padL - 8) + '" y="' + (yy + 4) + '" text-anchor="end">' + fmt(v) + '</text>';
+    }
+    s += '</g>';
+    var gap = 2, r = 4;
+    series.forEach(function (d, i) {
+      var cx = padL + band * i + band / 2, x0 = cx - barW / 2;
+      var yTop = y(d.opens), yMid = y(d.returning);
+      // Returning sits on the baseline, square; new stacks above with a rounded cap and a 2px surface gap between.
+      if (d.returning > 0) {
+        var hR = (padT + plotH) - yMid;
+        if (d.newDevices > 0) hR = Math.max(0, hR - gap);
+        if (d.newDevices === 0) s += roundedTop(x0, yMid, barW, hR, r, 'col-ret');
+        else s += '<rect class="col-ret" x="' + x0 + '" y="' + yMid + '" width="' + barW + '" height="' + hR.toFixed(2) + '"/>';
+      }
+      if (d.newDevices > 0) {
+        var hN = yMid - yTop;
+        s += roundedTop(x0, yTop, barW, hN, r, 'col-new');
+      }
+    });
+    // Direct label: the latest column only (daily chart), or the busiest hour (hourly chart).
+    var labelIdx = n - 1;
+    if (!o.labelLast) { labelIdx = -1; series.forEach(function (d, i) { if (d.opens > 0 && (labelIdx < 0 || d.opens > series[labelIdx].opens)) labelIdx = i; }); }
+    if (labelIdx >= 0 && series[labelIdx].opens > 0) s += '<text class="cap-label" x="' + (padL + band * labelIdx + band / 2) + '" y="' + (y(series[labelIdx].opens) - 7) + '">' + fmt(series[labelIdx].opens) + '</text>';
+    // X labels: every Nth column, anchored on the last (daily) or the first (hourly).
+    var every = o.tickEvery;
+    s += '<g class="axis">';
+    series.forEach(function (d, i) {
+      var isLast = i === n - 1;
+      var show = o.labelLast ? (isLast || (n - 1 - i) % every === 0) : (i % every === 0);
+      if (show) s += '<text x="' + (padL + band * i + band / 2) + '" y="' + (H - 10) + '" text-anchor="middle">' + d.tick + '</text>';
+    });
+    s += '<line x1="' + padL + '" x2="' + (W - padR) + '" y1="' + (padT + plotH) + '" y2="' + (padT + plotH) + '" style="stroke:var(--line)"/>';
+    s += '</g>';
+    // Hit targets: full band height, at least 24px wide.
+    series.forEach(function (d, i) {
+      var hw = Math.max(band, 24), hx = padL + band * i + band / 2 - hw / 2;
+      if (d.future) return; // hours still to come today get no hover
+      s += '<rect class="hit" tabindex="0" data-i="' + i + '" x="' + hx + '" y="' + padT + '" width="' + hw + '" height="' + plotH + '" aria-label="' + d.label + ': ' + fmt(d.opens) + ' devices, ' + fmt(d.newDevices) + ' new"/>';
+    });
+    s += '</svg>';
+    host.innerHTML = s;
+    var tip = o.tip;
+    function show(el) {
+      var i = +el.getAttribute('data-i'), d = series[i];
+      tip.innerHTML = '<b>' + d.label + '</b><div class="row"><span><i style="background:var(--new)"></i>New</span><span>' + fmt(d.newDevices) + '</span></div><div class="row"><span><i style="background:var(--returning)"></i>Returning</span><span>' + fmt(d.returning) + '</span></div><div class="row"><span>Total</span><b>' + fmt(d.opens) + '</b></div>';
+      var svg = host.querySelector('svg'), sb = svg.getBoundingClientRect(), cb = o.card.getBoundingClientRect();
+      var scale = sb.width / W;
+      var cx = sb.left - cb.left + (padL + band * i + band / 2) * scale;
+      var ty = sb.top - cb.top + y(d.opens) * scale;
+      tip.style.left = Math.max(70, Math.min(cb.width - 70, cx)) + 'px';
+      tip.style.top = ty + 'px';
+      tip.classList.add('show');
+    }
+    function hide() { tip.classList.remove('show'); }
+    host.querySelectorAll('.hit').forEach(function (el) {
+      el.addEventListener('mouseenter', function () { show(el); });
+      el.addEventListener('mouseleave', hide);
+      el.addEventListener('focus', function () { show(el); });
+      el.addEventListener('blur', hide);
+      el.addEventListener('touchstart', function () { show(el); }, { passive: true });
+    });
+    host.addEventListener('touchend', function () { setTimeout(hide, 1500); }, { passive: true });
+  }
+  function roundedTop(x, y, w, h, r, cls) {
+    if (h <= 0) return '';
+    r = Math.min(r, w / 2, h);
+    var d = 'M' + x + ' ' + (y + h) + 'V' + (y + r) + 'a' + r + ' ' + r + ' 0 0 1 ' + r + ' ' + (-r) + 'h' + (w - 2 * r) + 'a' + r + ' ' + r + ' 0 0 1 ' + r + ' ' + r + 'V' + (y + h) + 'Z';
+    return '<path class="' + cls + '" d="' + d + '"/>';
+  }
+  function drawTable(series) {
+    var rows = series.slice().reverse().filter(function (d) { return d.opens > 0 || state.range; });
+    var s = '<table><thead><tr><th>Day</th><th>New</th><th>Returning</th><th>Total</th></tr></thead><tbody>';
+    rows.forEach(function (d) { s += '<tr><td>' + longDate(d.day) + '</td><td>' + fmt(d.newDevices) + '</td><td>' + fmt(d.returning) + '</td><td>' + fmt(d.opens) + '</td></tr>'; });
+    s += '</tbody></table>';
+    $('tablewrap').innerHTML = s;
+  }
+
+  // Controls
+  document.querySelectorAll('[data-range]').forEach(function (b) {
+    b.setAttribute('aria-pressed', String(+b.getAttribute('data-range') === state.range));
+    b.addEventListener('click', function () {
+      state.range = +b.getAttribute('data-range'); lsSet(RANGE_STORE, String(state.range));
+      document.querySelectorAll('[data-range]').forEach(function (o) { o.setAttribute('aria-pressed', String(o === b)); });
+      if (state.data) render();
+    });
+  });
+  document.querySelectorAll('[data-hrange]').forEach(function (b) {
+    b.setAttribute('aria-pressed', String(b.getAttribute('data-hrange') === state.hrange));
+    b.addEventListener('click', function () {
+      state.hrange = b.getAttribute('data-hrange'); lsSet(HRANGE_STORE, state.hrange);
+      document.querySelectorAll('[data-hrange]').forEach(function (o) { o.setAttribute('aria-pressed', String(o === b)); });
+      if (state.data) renderHourly();
+    });
+  });
+  $('htabletoggle').addEventListener('click', function () {
+    state.htable = !state.htable;
+    $('htabletoggle').setAttribute('aria-pressed', String(state.htable));
+    $('htablewrap').hidden = !state.htable;
+  });
+  $('tabletoggle').addEventListener('click', function () {
+    state.table = !state.table;
+    $('tabletoggle').setAttribute('aria-pressed', String(state.table));
+    $('tablewrap').hidden = !state.table;
+  });
+  $('refresh').addEventListener('click', load);
+  $('signout').addEventListener('click', function () { lsSet(KEY_STORE, null); state.key = null; state.data = null; showGate(); });
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && state.data) load(); });
+  setInterval(function () { if (!document.hidden && state.data) load(); }, 5 * 60 * 1000);
+  var resizeTimer = null;
+  window.addEventListener('resize', function () {
+    $('tip').classList.remove('show'); $('htip').classList.remove('show');
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () { if (state.data && !$('report').hidden) { drawChart(dailySeries()); renderHourly(); } }, 120);
+  });
+
+  load();
+})();
+</script>
+</body>
+</html>

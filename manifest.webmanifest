@@ -1,0 +1,19 @@
+{
+  "name": "Match2Vote",
+  "short_name": "Match2Vote",
+  "description": "Free, nonpartisan voter guide. Answer a short quiz and see which candidates on your ballot match your positions.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#63305A",
+  "background_color": "#FAF8F5",
+  "lang": "en-US",
+  "categories": ["government", "education", "news"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>M2V Curation Tool</title>
+<style>
+  :root { --ink:#1F1B16; --soft:#6E6459; --bg:#FAF7F2; --card:#fff; --line:#E7E0D6;
+          --accent:#3D5A46; --gold:#B08D3E; --red:#A33B2E; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Public Sans', -apple-system, system-ui, sans-serif; background:var(--bg);
+         color:var(--ink); margin:0; padding:24px; max-width:980px; margin-inline:auto; }
+  h1 { font-family: Georgia, 'Newsreader', serif; margin:0 0 4px; }
+  h2 { margin:24px 0 8px; font-size:18px; }
+  .soft { color:var(--soft); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin:10px 0; }
+  select,input,textarea,button { font:inherit; padding:8px 10px; border:1px solid var(--line);
+         border-radius:8px; background:#fff; }
+  input[type=url] { width:100%; }
+  textarea { width:100%; min-height:60px; }
+  button.primary { background:var(--accent); color:#fff; border:none; padding:10px 18px; cursor:pointer; }
+  button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); cursor:pointer; }
+  .issue { display:grid; grid-template-columns: 180px 170px 1fr; gap:8px; align-items:start;
+           padding:10px 0; border-bottom:1px solid var(--line); }
+  .issue label { font-weight:600; font-size:14px; padding-top:8px; }
+  .err { color:var(--red); font-weight:600; }
+  .ok { color:var(--accent); font-weight:600; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .badge { font-size:11px; border-radius:99px; padding:2px 10px; font-weight:700; }
+  .curated { background:#E4EBE6; color:var(--accent); }
+  .fec { background:#F1EAE0; color:#8A7B45; }
+  .banner { background:#FDF6E7; border:1px solid var(--gold); border-radius:10px; padding:10px 14px;
+            font-size:13px; margin:12px 0; }
+</style>
+</head>
+<body>
+<h1>M2V Curation</h1>
+<p class="soft">Internal tool. Every scored position <b>requires a source URL</b> — the form won't save without one, and the database refuses it independently. Party is never a source. Unknown stays “Not stated.”</p>
+
+<div class="card" id="auth">
+  <b>Curator key</b>
+  <p class="soft">Paste the Supabase <i>secret</i> key. It stays in this browser tab only — never sent anywhere except directly to the M2V database.</p>
+  <div class="row"><input type="password" id="key" size="40" placeholder="sb_secret_…">
+  <button class="primary" onclick="connect()">Connect</button> <span id="authmsg"></span></div>
+</div>
+
+<div id="app" style="display:none">
+  <div class="row">
+    <select id="state"></select>
+    <select id="cand" style="max-width:420px"></select>
+    <button class="ghost" onclick="loadState()">Reload</button>
+  </div>
+  <div id="editor"></div>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://tfhszpjhylekdvhrvcjm.supabase.co';
+const ISSUES = [
+  ['cost','Cost of Living'],['health','Healthcare'],['housing','Housing'],
+  ['immigration','Immigration'],['taxes','Taxes & Spending'],['climate','Climate & Energy'],
+  ['education','Education'],['safety','Crime & Public Safety'],['repro','Reproductive Rights'],
+  ['democracy','Elections & Democracy']];
+const SCALE = [[null,'Not stated'],[-2,'−2 · strongly A'],[-1,'−1 · lean A'],[0,'0 · middle/mixed'],[1,'+1 · lean B'],[2,'+2 · strongly B']];
+const STATES = 'AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC'.split(' ');
+let KEY = null, cands = [], current = null;
+
+function hdrs() { return { apikey: KEY, Authorization: 'Bearer '+KEY, 'Content-Type':'application/json' }; }
+
+async function connect() {
+  KEY = document.getElementById('key').value.trim();
+  const r = await fetch(SUPABASE_URL+'/rest/v1/candidates?select=id&limit=1', { headers: hdrs() });
+  const msg = document.getElementById('authmsg');
+  if (!r.ok) { msg.innerHTML = '<span class="err">Key rejected ('+r.status+')</span>'; return; }
+  msg.innerHTML = '<span class="ok">Connected</span>';
+  document.getElementById('app').style.display = 'block';
+  const st = document.getElementById('state');
+  st.innerHTML = STATES.map(s=>'<option>'+s+'</option>').join('');
+  st.onchange = loadState;
+  document.getElementById('cand').onchange = e => edit(cands.find(c=>c.id===e.target.value));
+  loadState();
+}
+
+async function loadState() {
+  const s = document.getElementById('state').value;
+  const r = await fetch(SUPABASE_URL+'/rest/v1/candidates?state=eq.'+s+'&select=*&order=office,district,name&limit=2000', { headers: hdrs() });
+  cands = await r.json();
+  const sel = document.getElementById('cand');
+  sel.innerHTML = '<option value="">— pick a candidate ('+cands.length+') —</option>' +
+    cands.map(c=>'<option value="'+c.id+'">'+(c.office==='us-senate'?'SEN':c.office==='governor'?'GOV':'H-'+(c.district||'AL'))
+      +' · '+c.name+' ('+(c.party||'?')[0]+')'+(c.tier==='curated'?' ✓':'')+'</option>').join('');
+  document.getElementById('editor').innerHTML='';
+}
+
+function edit(c) {
+  if (!c) return;
+  current = c;
+  const p = c.positions||{}, ps = c.position_sources||{};
+  document.getElementById('editor').innerHTML = `
+  <div class="card">
+    <div class="row"><h2 style="margin:0">${c.name}</h2>
+      <span class="badge ${c.tier==='curated'?'curated':'fec'}">${c.tier}</span>
+      <span class="soft">${c.party||''} · ${c.office} · ${c.state}${c.district?'-'+c.district:''}</span></div>
+    <p><label>Background<br><textarea id="bg">${c.background||''}</textarea></label></p>
+    <p class="row"><label>Ballot status:
+      <select id="bstat">${['','nominee','not-advancing'].map(v=>'<option '+(c.ballot_status===v?'selected':'')+'>'+v+'</option>').join('')}</select></label></p>
+    ${ISSUES.map(([k,name])=>`
+      <div class="issue"><label>${name}</label>
+        <select id="pos_${k}">${SCALE.map(([v,l])=>'<option value="'+v+'" '+(String(p[k]??null)===String(v)?'selected':'')+'>'+l+'</option>').join('')}</select>
+        <div><input type="url" id="src_${k}" placeholder="Source URL (required if scored)" value="${(ps[k]&&ps[k].url)||''}">
+        <input type="text" id="lbl_${k}" style="width:100%;margin-top:4px" placeholder="Source label (what/where, e.g. 'Vetoed SB20, May 2023 (NPR)')" value="${(ps[k]&&ps[k].label)||''}"></div>
+      </div>`).join('')}
+    <div class="banner">Saving marks this candidate <b>curated</b>. Scores describe the candidate's own stated positions or documented record — never their party's platform.</div>
+    <p class="row"><button class="primary" onclick="save()">Save to database</button> <span id="savemsg"></span></p>
+  </div>`;
+}
+
+async function save() {
+  const msg = document.getElementById('savemsg');
+  const positions = {}, position_sources = {};
+  for (const [k] of ISSUES) {
+    const v = document.getElementById('pos_'+k).value;
+    const url = document.getElementById('src_'+k).value.trim();
+    const label = document.getElementById('lbl_'+k).value.trim();
+    if (v === 'null' || v === '') { positions[k] = null; continue; }
+    if (!/^https?:\/\/.+\..+/.test(url)) {
+      msg.innerHTML = '<span class="err">“'+k+'” is scored but has no valid source URL — not saved.</span>'; return;
+    }
+    positions[k] = Number(v);
+    position_sources[k] = { label: label || url, url };
+  }
+  const body = {
+    positions, position_sources,
+    background: document.getElementById('bg').value.trim() || null,
+    ballot_status: document.getElementById('bstat').value || null,
+    tier: 'curated', updated_at: new Date().toISOString(),
+  };
+  const r = await fetch(SUPABASE_URL+'/rest/v1/candidates?id=eq.'+encodeURIComponent(current.id), {
+    method:'PATCH', headers: hdrs(), body: JSON.stringify(body) });
+  msg.innerHTML = r.ok ? '<span class="ok">Saved ✓ — live in the app on next launch</span>'
+    : '<span class="err">Database refused: '+(await r.text()).slice(0,200)+'</span>';
+}
+</script>
+</body>
+</html>

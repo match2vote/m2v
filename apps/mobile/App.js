@@ -17,7 +17,7 @@ import { HowTo } from './src/screens/HowTo';
 import { WhatYouVoteFor } from './src/screens/WhatYouVoteFor';
 import { ChooseState, ChooseDistrict } from './src/screens/ChooseState';
 import { getRaces, getCoverage, STATE_NAMES, districtLabel, statesPhrase } from './src/ballot';
-import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, recordAppOpen, kv } from './src/api';
+import { getStateData, getPicks, savePick, removePick, getQuizState, saveQuizState, clearQuizState, getBallotLocation, recordAppOpen, recordQuizDone, kv } from './src/api';
 import { shareResultCard } from './src/share';
 import { DistrictLine } from './src/DistrictLine';
 import { ErrorBoundary } from './src/ErrorBoundary';
@@ -137,7 +137,7 @@ if (!onboarded) {
           {r.name === 'race' && <Race raceId={r.id} />}
           {r.name === 'candidate' && <Profile candidateId={r.id} />}
           {r.name === 'quiz' && (
-            <Quiz quiz={quiz} setQuiz={setQuizPersist} onDone={() => nav.go({ name: 'matches' }, { replace: true })} />
+            <Quiz quiz={quiz} setQuiz={setQuizPersist} onDone={() => { recordQuizDone(); nav.go({ name: 'matches' }, { replace: true }); }} />
           )}
           {r.name === 'matches' && (
             <Matches quiz={quiz} setQuiz={setQuizPersist} onPicksChanged={(n) => setBallotCount(n)} />

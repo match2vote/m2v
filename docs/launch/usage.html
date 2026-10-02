@@ -73,6 +73,26 @@
   .gate p { color: var(--ink-soft); font-size: 15px; margin: 0 0 18px; }
   .gate a { color: var(--accent); }
   .faded { opacity: 0.55; transition: opacity .2s; }
+  .avg-line { fill: none; stroke: var(--ink-soft); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .legend .key-line::before { height: 2px; border-radius: 1px; vertical-align: 3px; }
+  .flag { fill: var(--accent); }
+  .trend-line { fill: none; stroke: var(--new); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .trend-area { fill: var(--new); fill-opacity: 0.1; }
+  .trend-dot { fill: var(--new); stroke: var(--surface); stroke-width: 2; }
+  .notes { padding: 6px 6px 4px; }
+  .notes ul { list-style: none; margin: 0 0 10px; padding: 0; font-size: 13px; }
+  .notes li { display: flex; gap: 10px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--line); }
+  .notes li .d { color: var(--ink-soft); white-space: nowrap; font-variant-numeric: tabular-nums; min-width: 92px; }
+  .notes li .t { flex: 1; }
+  .notes li button { padding: 4px 9px; font-size: 12px; }
+  .notes form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .notes input { font: 14px var(--sans); padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); min-width: 0; }
+  .notes input[type=text] { flex: 1 1 180px; }
+  .notes .hint { font-size: 12px; color: var(--ink-soft); flex-basis: 100%; }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px; }
+  .two .card { padding-top: 14px; }
+  .two h3 { font: 500 14px/1.3 var(--sans); margin: 0 0 4px 6px; }
+  .two h3 small { color: var(--ink-soft); font-weight: 400; }
   @media (prefers-reduced-motion: reduce) { .tip, .faded { transition: none; } }
   @media (max-width: 480px) { .tile.hero .value { font-size: 40px; } h1 { font-size: 26px; } }
 </style>
@@ -105,6 +125,7 @@
         <button type="button" data-range="30" aria-pressed="true">30 days</button>
         <button type="button" data-range="0" aria-pressed="false">All</button>
         <button type="button" id="tabletoggle" aria-pressed="false">Table</button>
+        <button type="button" id="csvbtn" title="Download the daily numbers as a spreadsheet file">CSV</button>
       </div>
     </div>
 
@@ -112,10 +133,38 @@
       <div class="legend">
         <span style="--sw: var(--new)">New devices</span>
         <span style="--sw: var(--returning)">Returning devices</span>
+        <span class="key-line" id="avgkey" style="--sw: var(--ink-soft)" hidden>7-day average</span>
+        <span style="--sw: var(--accent)" id="flagkey" hidden>Note</span>
       </div>
       <div id="chart"></div>
       <div id="tip" class="tip" role="status" aria-live="polite"></div>
       <div id="tablewrap" class="tablewrap" hidden></div>
+      <div class="notes" id="notes">
+        <ul id="notelist"></ul>
+        <form id="noteform">
+          <input id="noteday" type="date" aria-label="Date of the note" required>
+          <input id="notetext" type="text" maxlength="120" placeholder="What happened that day (press, ads, a post)" aria-label="Note" required>
+          <button type="submit">Add note</button>
+          <span class="hint">Notes mark the chart so you remember what moved the numbers. Adding one on a day that already has a note replaces it.</span>
+        </form>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top: 10px">
+      <div class="card" id="trendcard">
+        <h3>Devices reached <small id="trendnote"></small></h3>
+        <div id="trend"></div>
+        <div id="ttip" class="tip" role="status" aria-live="polite"></div>
+      </div>
+      <div class="card" id="wdcard">
+        <h3>Average by weekday <small id="wdnote"></small></h3>
+        <div class="legend">
+          <span style="--sw: var(--new)">New</span>
+          <span style="--sw: var(--returning)">Returning</span>
+        </div>
+        <div id="wdchart"></div>
+        <div id="wtip" class="tip" role="status" aria-live="polite"></div>
+      </div>
     </div>
 
     <div class="toolbar" style="margin-top: 26px">
@@ -279,17 +328,100 @@
     $('updated').textContent = 'Updated ' + gen.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }) + ' ET';
     var delta = t.today - t.yesterday;
     var deltaText = t.yesterday || t.today ? (delta === 0 ? 'same as yesterday' : (delta > 0 ? '+' : '−') + fmt(Math.abs(delta)) + ' vs yesterday') : 'first day of counting';
+    var all = allDays();
+    var today = nyToday();
+    var prev7 = all.filter(function (d) { return d.day >= addDays(today, -13) && d.day <= addDays(today, -7); }).reduce(function (a, d) { return a + d.opens; }, 0);
+    var d7 = t.last_7_days - prev7;
+    var sevenText = all.length && all[0].day <= addDays(today, -7) ? (d7 === 0 ? 'same as the 7 before' : (d7 > 0 ? '+' : '−') + fmt(Math.abs(d7)) + ' vs the 7 before') : 'device-days';
+    var best = null; all.forEach(function (d) { if (!best || d.opens > best.opens) best = d; });
     $('tiles').innerHTML =
       tile('Today', t.today, deltaText, true) +
       tile('Yesterday', t.yesterday, 'devices') +
-      tile('Last 7 days', t.last_7_days, 'device-days') +
+      tile('Last 7 days', t.last_7_days, sevenText) +
       tile('Last 30 days', t.last_30_days, 'device-days') +
-      tile('Devices reached', t.devices_reached, 'all time, a ceiling');
+      tile('Devices reached', t.devices_reached, 'all time, a ceiling') +
+      (best && best.opens > 0 ? tile('Best day', best.opens, longDate(best.day)) : '');
     var series = dailySeries();
     $('rangenote').textContent = series.length ? shortDate(series[0].day) + ' to ' + shortDate(series[series.length - 1].day) : '';
     drawChart(series);
     drawTable(series);
+    renderNotes();
+    renderTrend(series);
+    renderWeekday(series);
     renderHourly();
+  }
+
+  // Every day from the first open to today, zero-filled, all platforms summed.
+  function allDays() {
+    var byDay = {};
+    (state.data.daily || []).forEach(function (d) {
+      var b = byDay[d.day] || (byDay[d.day] = { day: d.day, opens: 0, newDevices: 0 });
+      b.opens += Number(d.opens); b.newDevices += Number(d.new_devices);
+    });
+    var days = Object.keys(byDay).sort(), today = nyToday(), out = [];
+    if (!days.length) return out;
+    for (var d = days[0]; d <= today; d = addDays(d, 1)) {
+      var b = byDay[d] || { opens: 0, newDevices: 0 };
+      out.push({ day: d, opens: b.opens, newDevices: b.newDevices, returning: Math.max(0, b.opens - b.newDevices) });
+    }
+    return out;
+  }
+  function notesByDay() {
+    var m = {}; (state.data.notes || []).forEach(function (n) { m[n.day] = n.note; }); return m;
+  }
+
+  // Notes list and form.
+  function renderNotes() {
+    var notes = (state.data.notes || []).slice().sort(function (a, b) { return a.day < b.day ? 1 : -1; });
+    $('notelist').innerHTML = notes.map(function (n) {
+      return '<li><span class="d">' + longDate(n.day) + '</span><span class="t">' + escapeHtml(n.note) + '</span><button type="button" data-delnote="' + n.day + '" aria-label="Remove note for ' + longDate(n.day) + '">Remove</button></li>';
+    }).join('');
+    if (!$('noteday').value) $('noteday').value = nyToday();
+    $('noteday').max = nyToday();
+  }
+  function escapeHtml(x) { return String(x).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  async function setNote(day, note) {
+    try {
+      var r = await fetch(SUPABASE_URL + '/rest/v1/rpc/usage_note_set', {
+        method: 'POST',
+        headers: { apikey: PUBLISHABLE_KEY, Authorization: 'Bearer ' + PUBLISHABLE_KEY, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ report_key: state.key, note_day: day, note_text: note })
+      });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      state.data.notes = await r.json();
+      render();
+    } catch (e) {
+      $('updated').textContent = 'Could not save the note. Try again.';
+    }
+  }
+
+  // Cumulative devices reached (first opens) over the selected range.
+  function renderTrend(series) {
+    var all = allDays(), before = 0, run = 0, pts = [], firstDay = series.length ? series[0].day : null;
+    all.forEach(function (d) { if (firstDay && d.day < firstDay) before += d.newDevices; });
+    run = before;
+    series.forEach(function (d) { run += d.newDevices; pts.push({ key: d.day, value: run, label: longDate(d.day), tick: shortDate(d.day), added: d.newDevices }); });
+    var gained = run - before;
+    $('trendnote').textContent = pts.length ? '+' + fmt(gained) + ' in this range' : '';
+    drawLine({ host: $('trend'), card: $('trendcard'), tip: $('ttip'), series: pts, tickEvery: Math.max(1, Math.ceil(pts.length / 4)),
+      aria: 'Cumulative devices reached', empty: 'No devices yet.', valueLabel: 'Devices reached', subLabel: 'new that day' });
+  }
+
+  // Average devices per weekday over the selected range (only weekdays that occur in the range).
+  function renderWeekday(series) {
+    var names = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], acc = [];
+    for (var i = 0; i < 7; i++) acc.push({ n: 0, opens: 0, nd: 0 });
+    series.forEach(function (d) { var w = new Date(d.day + 'T12:00:00Z').getUTCDay(); acc[w].n++; acc[w].opens += d.opens; acc[w].nd += d.newDevices; });
+    var order = [1, 2, 3, 4, 5, 6, 0];
+    var out = order.map(function (w) {
+      var a = acc[w], avg = a.n ? a.opens / a.n : 0, nd = a.n ? a.nd / a.n : 0;
+      var r1 = function (x) { return Math.round(x * 10) / 10; };
+      return { key: w, opens: r1(avg), newDevices: r1(nd), returning: r1(Math.max(0, avg - nd)), tick: names[w], label: names[w] + (a.n ? ' (' + a.n + (a.n === 1 ? ' day' : ' days') + ')' : ''), future: !a.n };
+    });
+    var best = null; out.forEach(function (b) { if (b.opens > 0 && (!best || b.opens > best.opens)) best = b; });
+    $('wdnote').textContent = best ? 'busiest ' + best.tick : '';
+    drawColumns({ host: $('wdchart'), card: $('wdcard'), tip: $('wtip'), series: out, tickEvery: 1, labelLast: false, compact: true,
+      aria: 'Average devices per weekday, new and returning', empty: 'Not enough days yet.' });
   }
   function renderHourly() {
     var hs = hourlySeries();
@@ -318,9 +450,19 @@
   }
 
   function drawChart(series) {
+    var notes = notesByDay(), all = allDays(), idx = {};
+    all.forEach(function (d, i) { idx[d.day] = i; });
+    // Trailing 7-day average, computed over all days so the first week of the range is not biased.
+    var avg = series.map(function (d) {
+      var i = idx[d.day]; if (i === undefined || i < 6) return null;
+      var sum = 0; for (var k = i - 6; k <= i; k++) sum += all[k].opens; return sum / 7;
+    });
+    var showAvg = avg.some(function (v) { return v !== null; }) && series.length >= 10;
+    var hasNotes = series.some(function (d) { return notes[d.day]; });
+    $('avgkey').hidden = !showAvg; $('flagkey').hidden = !hasNotes;
     drawColumns({ host: $('chart'), card: $('chartcard'), tip: $('tip'),
-      series: series.map(function (d) { return { key: d.day, opens: d.opens, newDevices: d.newDevices, returning: d.returning, tick: shortDate(d.day), label: longDate(d.day) }; }),
-      tickEvery: Math.max(1, Math.ceil(series.length / 6)), labelLast: true,
+      series: series.map(function (d) { return { key: d.day, opens: d.opens, newDevices: d.newDevices, returning: d.returning, tick: shortDate(d.day), label: longDate(d.day), note: notes[d.day] || null }; }),
+      tickEvery: Math.max(1, Math.ceil(series.length / 6)), labelLast: true, line: showAvg ? avg : null,
       aria: 'Devices per day, new and returning, stacked columns', empty: 'No opens recorded yet.' });
   }
 
@@ -329,11 +471,12 @@
     var host = o.host, series = o.series;
     if (!series.length || !series.some(function (d) { return d.opens > 0; })) { host.innerHTML = '<div class="empty">' + o.empty + '</div>'; return; }
     // Draw at the container's real pixel width so text stays 11px on a phone.
-    var W = Math.max(300, Math.round(host.clientWidth || 800)), padL = 40, padR = 12, padT = 22, padB = 30, H = W < 480 ? 220 : 260;
+    var W = Math.max(300, Math.round(host.clientWidth || 800)), padL = 40, padR = 12, padT = 22, padB = 30, H = o.compact ? 180 : (W < 480 ? 220 : 260);
     var plotW = W - padL - padR, plotH = H - padT - padB;
     var n = series.length, band = plotW / n;
+    var lineMax = o.line ? Math.max.apply(null, o.line.filter(function (v) { return v !== null; }).concat([0])) : 0;
     var barW = Math.min(24, Math.max(3, band * 0.6));
-    var maxV = niceMax(Math.max.apply(null, series.map(function (s) { return s.opens; }).concat([1])));
+    var maxV = niceMax(Math.max.apply(null, series.map(function (s) { return s.opens; }).concat([1, lineMax])));
     var y = function (v) { return padT + plotH - (v / maxV) * plotH; };
     var ticks = 4, s = '';
     s += '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + o.aria + '">';
@@ -360,6 +503,18 @@
         s += roundedTop(x0, yTop, barW, hN, r, 'col-new');
       }
     });
+    // Trailing average as a thin line over the columns (same scale, same unit).
+    if (o.line) {
+      var dpath = '', pen = false;
+      o.line.forEach(function (v, i) { if (v === null) { pen = false; return; } var px = padL + band * i + band / 2, py = y(v); dpath += (pen ? 'L' : 'M') + px.toFixed(1) + ' ' + py.toFixed(1); pen = true; });
+      if (dpath) s += '<path class="avg-line" d="' + dpath + '"/>';
+    }
+    // Note flags: a small marker above the column, in the accent color.
+    series.forEach(function (d, i) {
+      if (!d.note) return;
+      var fx = padL + band * i + band / 2, fy = padT - 6;
+      s += '<path class="flag" d="M' + (fx - 5) + ' ' + (fy - 8) + 'h10l-5 8z"/>';
+    });
     // Direct label: the latest column only (daily chart), or the busiest hour (hourly chart).
     var labelIdx = n - 1;
     if (!o.labelLast) { labelIdx = -1; series.forEach(function (d, i) { if (d.opens > 0 && (labelIdx < 0 || d.opens > series[labelIdx].opens)) labelIdx = i; }); }
@@ -385,7 +540,9 @@
     var tip = o.tip;
     function show(el) {
       var i = +el.getAttribute('data-i'), d = series[i];
-      tip.innerHTML = '<b>' + d.label + '</b><div class="row"><span><i style="background:var(--new)"></i>New</span><span>' + fmt(d.newDevices) + '</span></div><div class="row"><span><i style="background:var(--returning)"></i>Returning</span><span>' + fmt(d.returning) + '</span></div><div class="row"><span>Total</span><b>' + fmt(d.opens) + '</b></div>';
+      tip.innerHTML = '<b>' + d.label + '</b><div class="row"><span><i style="background:var(--new)"></i>New</span><span>' + fmt(d.newDevices) + '</span></div><div class="row"><span><i style="background:var(--returning)"></i>Returning</span><span>' + fmt(d.returning) + '</span></div><div class="row"><span>Total</span><b>' + fmt(d.opens) + '</b></div>' +
+        (o.line && o.line[i] !== null && o.line[i] !== undefined ? '<div class="row"><span>7-day avg</span><span>' + fmt(Math.round(o.line[i] * 10) / 10) + '</span></div>' : '') +
+        (d.note ? '<div class="row" style="margin-top:4px;max-width:240px;white-space:normal"><span><i style="background:var(--accent)"></i>' + escapeHtml(d.note) + '</span></div>' : '');
       var svg = host.querySelector('svg'), sb = svg.getBoundingClientRect(), cb = o.card.getBoundingClientRect();
       var scale = sb.width / W;
       var cx = sb.left - cb.left + (padL + band * i + band / 2) * scale;
@@ -404,6 +561,50 @@
     });
     host.addEventListener('touchend', function () { setTimeout(hide, 1500); }, { passive: true });
   }
+  // Single-series line with an area wash, end marker and end label.
+  function drawLine(o) {
+    var host = o.host, pts = o.series;
+    if (!pts.length || !pts.some(function (p) { return p.value > 0; })) { host.innerHTML = '<div class="empty">' + o.empty + '</div>'; return; }
+    var W = Math.max(280, Math.round(host.clientWidth || 400)), padL = 44, padR = 16, padT = 22, padB = 30, H = 180;
+    var plotW = W - padL - padR, plotH = H - padT - padB, n = pts.length;
+    var maxV = niceMax(Math.max.apply(null, pts.map(function (p) { return p.value; }).concat([1])));
+    var x = function (i) { return n === 1 ? padL + plotW / 2 : padL + (i / (n - 1)) * plotW; };
+    var y = function (v) { return padT + plotH - (v / maxV) * plotH; };
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + o.aria + '"><g class="grid axis">';
+    for (var i = 0; i <= 4; i++) { var v = maxV * i / 4, yy = y(v); s += '<line x1="' + padL + '" x2="' + (W - padR) + '" y1="' + yy + '" y2="' + yy + '"/><text x="' + (padL - 8) + '" y="' + (yy + 4) + '" text-anchor="end">' + fmt(v) + '</text>'; }
+    s += '</g>';
+    var d = '', area = 'M' + x(0).toFixed(1) + ' ' + (padT + plotH);
+    pts.forEach(function (p, i) { var px = x(i).toFixed(1), py = y(p.value).toFixed(1); d += (i ? 'L' : 'M') + px + ' ' + py; area += 'L' + px + ' ' + py; });
+    area += 'L' + x(n - 1).toFixed(1) + ' ' + (padT + plotH) + 'Z';
+    s += '<path class="trend-area" d="' + area + '"/><path class="trend-line" d="' + d + '"/>';
+    var last = pts[n - 1];
+    s += '<circle class="trend-dot" cx="' + x(n - 1) + '" cy="' + y(last.value) + '" r="4"/>';
+    s += '<text class="cap-label" x="' + Math.min(x(n - 1), W - padR - 14) + '" y="' + (y(last.value) - 10) + '">' + fmt(last.value) + '</text>';
+    s += '<g class="axis">';
+    pts.forEach(function (p, i) { if (i === n - 1 || (n - 1 - i) % o.tickEvery === 0) s += '<text x="' + x(i) + '" y="' + (H - 10) + '" text-anchor="middle">' + p.tick + '</text>'; });
+    s += '<line x1="' + padL + '" x2="' + (W - padR) + '" y1="' + (padT + plotH) + '" y2="' + (padT + plotH) + '" style="stroke:var(--line)"/></g>';
+    var band = n > 1 ? plotW / (n - 1) : plotW;
+    pts.forEach(function (p, i) { var hw = Math.max(band, 24); s += '<rect class="hit" tabindex="0" data-i="' + i + '" x="' + (x(i) - hw / 2) + '" y="' + padT + '" width="' + hw + '" height="' + plotH + '" aria-label="' + p.label + ': ' + fmt(p.value) + ' ' + o.valueLabel.toLowerCase() + '"/>'; });
+    s += '</svg>';
+    host.innerHTML = s;
+    var tip = o.tip;
+    function show(el) {
+      var i = +el.getAttribute('data-i'), p = pts[i];
+      tip.innerHTML = '<b>' + p.label + '</b><div class="row"><span>' + o.valueLabel + '</span><b>' + fmt(p.value) + '</b></div><div class="row"><span>' + o.subLabel + '</span><span>' + fmt(p.added) + '</span></div>';
+      var svg = host.querySelector('svg'), sb = svg.getBoundingClientRect(), cb = o.card.getBoundingClientRect(), scale = sb.width / W;
+      tip.style.left = Math.max(70, Math.min(cb.width - 70, sb.left - cb.left + x(i) * scale)) + 'px';
+      tip.style.top = (sb.top - cb.top + y(p.value) * scale) + 'px';
+      tip.classList.add('show');
+    }
+    function hide() { tip.classList.remove('show'); }
+    host.querySelectorAll('.hit').forEach(function (el) {
+      el.addEventListener('mouseenter', function () { show(el); }); el.addEventListener('mouseleave', hide);
+      el.addEventListener('focus', function () { show(el); }); el.addEventListener('blur', hide);
+      el.addEventListener('touchstart', function () { show(el); }, { passive: true });
+    });
+    host.addEventListener('touchend', function () { setTimeout(hide, 1500); }, { passive: true });
+  }
+
   function roundedTop(x, y, w, h, r, cls) {
     if (h <= 0) return '';
     r = Math.min(r, w / 2, h);
@@ -411,9 +612,10 @@
     return '<path class="' + cls + '" d="' + d + '"/>';
   }
   function drawTable(series) {
+    var notes = notesByDay();
     var rows = series.slice().reverse().filter(function (d) { return d.opens > 0 || state.range; });
-    var s = '<table><thead><tr><th>Day</th><th>New</th><th>Returning</th><th>Total</th></tr></thead><tbody>';
-    rows.forEach(function (d) { s += '<tr><td>' + longDate(d.day) + '</td><td>' + fmt(d.newDevices) + '</td><td>' + fmt(d.returning) + '</td><td>' + fmt(d.opens) + '</td></tr>'; });
+    var s = '<table><thead><tr><th>Day</th><th>New</th><th>Returning</th><th>Total</th><th style="text-align:left">Note</th></tr></thead><tbody>';
+    rows.forEach(function (d) { s += '<tr><td>' + longDate(d.day) + '</td><td>' + fmt(d.newDevices) + '</td><td>' + fmt(d.returning) + '</td><td>' + fmt(d.opens) + '</td><td style="text-align:left;color:var(--ink-soft)">' + (notes[d.day] ? escapeHtml(notes[d.day]) : '') + '</td></tr>'; });
     s += '</tbody></table>';
     $('tablewrap').innerHTML = s;
   }
@@ -445,15 +647,34 @@
     $('tabletoggle').setAttribute('aria-pressed', String(state.table));
     $('tablewrap').hidden = !state.table;
   });
+  $('noteform').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var day = $('noteday').value, text = $('notetext').value.trim();
+    if (!day || !text || !state.data) return;
+    $('notetext').value = '';
+    setNote(day, text);
+  });
+  $('notelist').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-delnote]'); if (!b) return;
+    setNote(b.getAttribute('data-delnote'), '');
+  });
+  $('csvbtn').addEventListener('click', function () {
+    if (!state.data) return;
+    var notes = notesByDay(), lines = ['day,new_devices,returning_devices,total_devices,note'];
+    allDays().forEach(function (d) { lines.push([d.day, d.newDevices, d.returning, d.opens, '"' + (notes[d.day] || '').replace(/"/g, '""') + '"'].join(',')); });
+    var blob = new Blob([lines.join('\n') + '\n'], { type: 'text/csv' }), a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = 'm2v-usage-' + nyToday() + '.csv'; document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  });
   $('refresh').addEventListener('click', load);
   $('signout').addEventListener('click', function () { lsSet(KEY_STORE, null); state.key = null; state.data = null; showGate(); });
   document.addEventListener('visibilitychange', function () { if (!document.hidden && state.data) load(); });
   setInterval(function () { if (!document.hidden && state.data) load(); }, 5 * 60 * 1000);
   var resizeTimer = null;
   window.addEventListener('resize', function () {
-    $('tip').classList.remove('show'); $('htip').classList.remove('show');
+    ['tip', 'htip', 'ttip', 'wtip'].forEach(function (id) { $(id).classList.remove('show'); });
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () { if (state.data && !$('report').hidden) { drawChart(dailySeries()); renderHourly(); } }, 120);
+    resizeTimer = setTimeout(function () { if (state.data && !$('report').hidden) render(); }, 120);
   });
 
   load();

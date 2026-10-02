@@ -90,6 +90,16 @@
   .notes input[type=text] { flex: 1 1 180px; }
   .notes .hint { font-size: 12px; color: var(--ink-soft); flex-basis: 100%; }
   .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px; }
+  .srcs { padding: 4px 6px 6px; font-size: 13px; }
+  .srcs .row { display: grid; grid-template-columns: 92px 1fr 64px; gap: 10px; align-items: center; padding: 5px 0; }
+  .srcs .name { color: var(--ink); }
+  .srcs .bar { height: 10px; background: var(--grid); border-radius: 3px; overflow: hidden; }
+  .srcs .bar i { display: block; height: 100%; background: var(--new); border-radius: 3px; }
+  .srcs .row.untagged .bar i { background: var(--ink-muted); }
+  .srcs .n { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+  .srcs .n b { color: var(--ink); font-weight: 600; }
+  .srcs .how { color: var(--ink-soft); font-size: 12px; margin: 8px 0 0; line-height: 1.5; }
+  .srcs code { font: 12px ui-monospace, Menlo, Consolas, monospace; background: var(--bg); padding: 1px 5px; border-radius: 4px; }
   .two .card { padding-top: 14px; }
   .two h3 { font: 500 14px/1.3 var(--sans); margin: 0 0 4px 6px; }
   .two h3 small { color: var(--ink-soft); font-weight: 400; }
@@ -156,6 +166,10 @@
         <div id="trend"></div>
         <div id="ttip" class="tip" role="status" aria-live="polite"></div>
       </div>
+      <div class="card" id="srccard">
+        <h3>Where devices came from <small id="srcnote"></small></h3>
+        <div class="srcs" id="srcs"></div>
+      </div>
       <div class="card" id="wdcard">
         <h3>Average by weekday <small id="wdnote"></small></h3>
         <div class="legend">
@@ -188,7 +202,7 @@
       <div id="htablewrap" class="tablewrap" hidden></div>
     </div>
 
-    <p class="note">One count per device per day, kept on the device itself; nothing here identifies anyone. "New" means the device had never been counted before, so the all-time new count is a ceiling on devices reached (clearing browser storage makes a device new again). Days and hours are Eastern time; the hourly chart shows when each device's first open of the day happened. Android usage is in Play Console under Statistics. How this is counted: <a href="/privacy/">privacy policy</a>.</p>
+    <p class="note">One count per device per day, kept on the device itself; nothing here identifies anyone. "New" means the device had never been counted before, so the all-time new count is a ceiling on devices reached (clearing browser storage makes a device new again). "Finished the quiz" is counted once per device per day with no answers attached. "Where devices came from" only knows M2V's own tagged links (for example <code>app.match2vote.org/?from=qr</code>); everything else is untagged. Days and hours are Eastern time; the hourly chart shows when each device's first open of the day happened. Android usage is in Play Console under Statistics. How this is counted: <a href="/privacy/">privacy policy</a>.</p>
   </section>
 </main>
 
@@ -334,9 +348,12 @@
     var d7 = t.last_7_days - prev7;
     var sevenText = all.length && all[0].day <= addDays(today, -7) ? (d7 === 0 ? 'same as the 7 before' : (d7 > 0 ? '+' : '−') + fmt(Math.abs(d7)) + ' vs the 7 before') : 'device-days';
     var best = null; all.forEach(function (d) { if (!best || d.opens > best.opens) best = d; });
+    var qz = quizByDay(), qToday = qz[today] || 0;
+    var qShare = t.today ? Math.round(100 * qToday / t.today) + '% of today\'s devices' : 'once per device per day';
     $('tiles').innerHTML =
       tile('Today', t.today, deltaText, true) +
       tile('Yesterday', t.yesterday, 'devices') +
+      tile('Finished the quiz', qToday, qShare) +
       tile('Last 7 days', t.last_7_days, sevenText) +
       tile('Last 30 days', t.last_30_days, 'device-days') +
       tile('Devices reached', t.devices_reached, 'all time, a ceiling') +
@@ -347,6 +364,7 @@
     drawTable(series);
     renderNotes();
     renderTrend(series);
+    renderSources(series);
     renderWeekday(series);
     renderHourly();
   }
@@ -365,6 +383,9 @@
       out.push({ day: d, opens: b.opens, newDevices: b.newDevices, returning: Math.max(0, b.opens - b.newDevices) });
     }
     return out;
+  }
+  function quizByDay() {
+    var m = {}; (state.data.quiz || []).forEach(function (q) { m[q.day] = (m[q.day] || 0) + Number(q.done); }); return m;
   }
   function notesByDay() {
     var m = {}; (state.data.notes || []).forEach(function (n) { m[n.day] = n.note; }); return m;
@@ -405,6 +426,27 @@
     $('trendnote').textContent = pts.length ? '+' + fmt(gained) + ' in this range' : '';
     drawLine({ host: $('trend'), card: $('trendcard'), tip: $('ttip'), series: pts, tickEvery: Math.max(1, Math.ceil(pts.length / 4)),
       aria: 'Cumulative devices reached', empty: 'No devices yet.', valueLabel: 'Devices reached', subLabel: 'new that day' });
+  }
+
+  // Which of M2V's own tagged links brought the day's first open, over the selected range.
+  function renderSources(series) {
+    var from = series.length ? series[0].day : null, to = series.length ? series[series.length - 1].day : null;
+    var names = { qr: 'QR code', site: 'Website', press: 'Press', ads: 'Ads', social: 'Social', untagged: 'Untagged' };
+    var order = ['qr', 'site', 'press', 'ads', 'social', 'untagged'], sum = {}, total = 0;
+    (state.data.sources || []).forEach(function (r) {
+      if (from && (r.day < from || r.day > to)) return;
+      sum[r.source] = (sum[r.source] || 0) + Number(r.opens); total += Number(r.opens);
+    });
+    var tagged = total - (sum.untagged || 0);
+    $('srcnote').textContent = total ? fmt(tagged) + ' of ' + fmt(total) + ' tagged' : '';
+    var rows = order.filter(function (k) { return sum[k]; });
+    if (!rows.length) { $('srcs').innerHTML = '<div class="empty">No opens in this range.</div>'; return; }
+    var h = rows.map(function (k) {
+      var v = sum[k], pct = total ? Math.round(100 * v / total) : 0;
+      return '<div class="row ' + k + '"><span class="name">' + names[k] + '</span><span class="bar" aria-hidden="true"><i style="width:' + (total ? (100 * v / total).toFixed(1) : 0) + '%"></i></span><span class="n"><b>' + fmt(v) + '</b> ' + pct + '%</span></div>';
+    }).join('');
+    h += '<p class="how">Tag your own links to fill this in: <code>?from=qr</code> on the QR code, <code>?from=site</code> on match2vote.org buttons, <code>?from=press</code> for reporters, <code>?from=ads</code>, <code>?from=social</code>. Anything else counts as untagged.</p>';
+    $('srcs').innerHTML = h;
   }
 
   // Average devices per weekday over the selected range (only weekdays that occur in the range).
@@ -450,7 +492,7 @@
   }
 
   function drawChart(series) {
-    var notes = notesByDay(), all = allDays(), idx = {};
+    var notes = notesByDay(), qz = quizByDay(), all = allDays(), idx = {};
     all.forEach(function (d, i) { idx[d.day] = i; });
     // Trailing 7-day average, computed over all days so the first week of the range is not biased.
     var avg = series.map(function (d) {
@@ -461,7 +503,7 @@
     var hasNotes = series.some(function (d) { return notes[d.day]; });
     $('avgkey').hidden = !showAvg; $('flagkey').hidden = !hasNotes;
     drawColumns({ host: $('chart'), card: $('chartcard'), tip: $('tip'),
-      series: series.map(function (d) { return { key: d.day, opens: d.opens, newDevices: d.newDevices, returning: d.returning, tick: shortDate(d.day), label: longDate(d.day), note: notes[d.day] || null }; }),
+      series: series.map(function (d) { return { key: d.day, opens: d.opens, newDevices: d.newDevices, returning: d.returning, tick: shortDate(d.day), label: longDate(d.day), note: notes[d.day] || null, quiz: qz[d.day] || 0 }; }),
       tickEvery: Math.max(1, Math.ceil(series.length / 6)), labelLast: true, line: showAvg ? avg : null,
       aria: 'Devices per day, new and returning, stacked columns', empty: 'No opens recorded yet.' });
   }
@@ -541,6 +583,7 @@
     function show(el) {
       var i = +el.getAttribute('data-i'), d = series[i];
       tip.innerHTML = '<b>' + d.label + '</b><div class="row"><span><i style="background:var(--new)"></i>New</span><span>' + fmt(d.newDevices) + '</span></div><div class="row"><span><i style="background:var(--returning)"></i>Returning</span><span>' + fmt(d.returning) + '</span></div><div class="row"><span>Total</span><b>' + fmt(d.opens) + '</b></div>' +
+        (d.quiz !== undefined ? '<div class="row"><span>Finished quiz</span><span>' + fmt(d.quiz) + '</span></div>' : '') +
         (o.line && o.line[i] !== null && o.line[i] !== undefined ? '<div class="row"><span>7-day avg</span><span>' + fmt(Math.round(o.line[i] * 10) / 10) + '</span></div>' : '') +
         (d.note ? '<div class="row" style="margin-top:4px;max-width:240px;white-space:normal"><span><i style="background:var(--accent)"></i>' + escapeHtml(d.note) + '</span></div>' : '');
       var svg = host.querySelector('svg'), sb = svg.getBoundingClientRect(), cb = o.card.getBoundingClientRect();
@@ -612,10 +655,10 @@
     return '<path class="' + cls + '" d="' + d + '"/>';
   }
   function drawTable(series) {
-    var notes = notesByDay();
+    var notes = notesByDay(), qz = quizByDay();
     var rows = series.slice().reverse().filter(function (d) { return d.opens > 0 || state.range; });
-    var s = '<table><thead><tr><th>Day</th><th>New</th><th>Returning</th><th>Total</th><th style="text-align:left">Note</th></tr></thead><tbody>';
-    rows.forEach(function (d) { s += '<tr><td>' + longDate(d.day) + '</td><td>' + fmt(d.newDevices) + '</td><td>' + fmt(d.returning) + '</td><td>' + fmt(d.opens) + '</td><td style="text-align:left;color:var(--ink-soft)">' + (notes[d.day] ? escapeHtml(notes[d.day]) : '') + '</td></tr>'; });
+    var s = '<table><thead><tr><th>Day</th><th>New</th><th>Returning</th><th>Total</th><th>Quiz</th><th style="text-align:left">Note</th></tr></thead><tbody>';
+    rows.forEach(function (d) { s += '<tr><td>' + longDate(d.day) + '</td><td>' + fmt(d.newDevices) + '</td><td>' + fmt(d.returning) + '</td><td>' + fmt(d.opens) + '</td><td>' + fmt(qz[d.day] || 0) + '</td><td style="text-align:left;color:var(--ink-soft)">' + (notes[d.day] ? escapeHtml(notes[d.day]) : '') + '</td></tr>'; });
     s += '</tbody></table>';
     $('tablewrap').innerHTML = s;
   }
@@ -660,8 +703,8 @@
   });
   $('csvbtn').addEventListener('click', function () {
     if (!state.data) return;
-    var notes = notesByDay(), lines = ['day,new_devices,returning_devices,total_devices,note'];
-    allDays().forEach(function (d) { lines.push([d.day, d.newDevices, d.returning, d.opens, '"' + (notes[d.day] || '').replace(/"/g, '""') + '"'].join(',')); });
+    var notes = notesByDay(), qz = quizByDay(), lines = ['day,new_devices,returning_devices,total_devices,finished_quiz,note'];
+    allDays().forEach(function (d) { lines.push([d.day, d.newDevices, d.returning, d.opens, qz[d.day] || 0, '"' + (notes[d.day] || '').replace(/"/g, '""') + '"'].join(',')); });
     var blob = new Blob([lines.join('\n') + '\n'], { type: 'text/csv' }), a = document.createElement('a');
     a.href = URL.createObjectURL(blob); a.download = 'm2v-usage-' + nyToday() + '.csv'; document.body.appendChild(a); a.click();
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);

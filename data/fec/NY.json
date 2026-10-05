@@ -1,7 +1,7 @@
 {
   "state": "NY",
   "electionYear": 2026,
-  "syncedAt": "2026-09-20T11:29:37.089Z",
+  "syncedAt": "2026-10-05T14:47:40.045Z",
   "candidates": [
     {
       "id": "fec-H6NY01159",
@@ -3614,6 +3614,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2NY00010/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NY07255",
+      "fecId": "H6NY07255",
+      "name": "Priscilla Ghaznavi",
+      "party": "Independent",
+      "state": "NY",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NY07255/"
         }
       ],
       "funding": null,

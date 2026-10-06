@@ -59,9 +59,10 @@
       "status": "general",
       "advancing": [
         "fec-H0CT03072",
-        "fec-H6CT03178"
+        "fec-H6CT03178",
+        "ct-house-3-egan"
       ],
-      "statusNote": "Rep. Rosa DeLauro (D) is the incumbent. Christopher Lancia (R) won the Republican endorsement at the May 15, 2026 convention; no primary was held in either party. Both candidates researched on the same ten issues.",
+      "statusNote": "Rep. Rosa DeLauro (D) is the incumbent. Christopher Lancia (R) won the Republican endorsement at the May 15, 2026 convention; no primary was held in either party. Thomas Egan is the endorsed candidate of the Independent Party of Connecticut and is on the Secretary of the State's November candidate list. All three candidates were researched on the same ten issues; Egan has documented positions on four so far.",
       "sources": [
         {
           "label": "CT Mirror, Luke Bronin defeats Rep. John Larson in CT 1st District primary, August 11, 2026 results",
@@ -74,6 +75,14 @@
         {
           "label": "270toWin, 2026 Connecticut U.S. House races",
           "url": "https://www.270towin.com/2026-house-election/states/connecticut"
+        },
+        {
+          "label": "Connecticut Secretary of the State, 2026 General Election Guide, candidate list",
+          "url": "https://portal.ct.gov/-/media/sots/electionservices/voter_guide/2026/2026_voter_guide_final.pdf"
+        },
+        {
+          "label": "New Haven Independent, DeLauro Challenger Targets Insurers, September 15, 2026",
+          "url": "https://www.newhavenindependent.org/2026/09/15/delauro-challenger-targets-insurers/"
         }
       ]
     },
@@ -1050,6 +1059,87 @@
       "curatedAt": "2026-08-18",
       "nullNotes": {
         "housing": "checked campaign site, Joe Hoft interview, CT Mirror and Bristol Edition convention stories, Milford Mirror 2021 profile, Patch 2021 story, Lock N Load and CT Common Sense podcast descriptions, web searches for Lancia with housing, rent, zoning, affordable; nothing on housing"
+      }
+    },
+    {
+      "id": "ct-house-3-egan",
+      "name": "Thomas Egan",
+      "party": "Independent Party",
+      "office": "us-house",
+      "district": "3",
+      "state": "CT",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 38,
+      "home": "Ansonia, CT",
+      "now": "Attorney and owner of Egan Law LLC in Ansonia; runs a pro bono legal defense clinic for tenants facing eviction",
+      "background": "Ansonia attorney, known as Tom, whose solo practice handles insurance, personal injury and tenant defense cases; he founded a pro bono clinic for tenants facing eviction. Holds a political science degree from the University of Connecticut (2010) and a law degree from Western Michigan University Cooley Law School (2017). Previously ran for Ansonia mayor and, in 2024, for the state House on the Independent Party line. He is the endorsed candidate of the Independent Party of Connecticut for the 3rd District and says he is running to offer voters a 'third choice.' He has no FEC candidate record as of Oct 6, 2026.",
+      "priorities": [
+        "Insurance reform: let courts award attorney fees to policyholders whose claims are fought",
+        "Cost of living, including a higher federal minimum wage",
+        "Bring back manufacturing jobs, starting with the former Ansonia Copper & Brass site"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": null,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": 1,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "cost": {
+          "label": "The Independent reports he 'spoke of raising the $7.25 federal hourly minimum wage'; asked in the interview if he would vote for a higher federal minimum: 'Oh, definitely. Definitely' (New Haven Independent and WNHH Dateline New Haven, Sept 15, 2026)",
+          "url": "https://www.newhavenindependent.org/2026/09/15/delauro-challenger-targets-insurers/"
+        },
+        "housing": {
+          "label": "The Independent reports he 'spoke of maintaining funding that helps people who struggle to pay rent'; on rent aid for people facing eviction: 'I would help ensure that program remains funded' (New Haven Independent and WNHH Dateline New Haven, Sept 15, 2026)",
+          "url": "https://www.newhavenindependent.org/2026/09/15/delauro-challenger-targets-insurers/"
+        },
+        "immigration": {
+          "label": "'What's happening right now with ICE is absolutely atrocious. We are a nation of immigrants'; proposes 'a path towards citizenship'. The Independent reports he favors 'ending current federal immigration raids in favor of a pathway to citizenship' (New Haven Independent and WNHH Dateline New Haven, Sept 15, 2026)",
+          "url": "https://www.newhavenindependent.org/2026/09/15/delauro-challenger-targets-insurers/"
+        },
+        "safety": {
+          "label": "As a 2024 state House candidate: 'I will work to secure additional funding for our local police departments' and 'advocate for rolling back certain provisions' of Connecticut's police accountability law, while backing community engagement programs (Valley Independent Sentinel Q&A, Oct 8, 2024)",
+          "url": "https://valley.newhavenindependent.org/2024/10/08/candidate_q_a_ansonias_thomas_egan/"
+        }
+      },
+      "sources": [
+        {
+          "label": "New Haven Independent: DeLauro Challenger Targets Insurers, Sept 15, 2026",
+          "url": "https://www.newhavenindependent.org/2026/09/15/delauro-challenger-targets-insurers/"
+        },
+        {
+          "label": "WNHH Dateline New Haven: Congressional Candidate Thomas Egan, Sept 15, 2026 (full interview)",
+          "url": "https://www.youtube.com/watch?v=wcJVKEhq1Dg"
+        },
+        {
+          "label": "Connecticut Secretary of the State: 2026 General Election Guide, candidate list",
+          "url": "https://portal.ct.gov/-/media/sots/electionservices/voter_guide/2026/2026_voter_guide_final.pdf"
+        },
+        {
+          "label": "Valley Independent Sentinel: Candidate Q&A, Ansonia's Thomas Egan, Oct 8, 2024",
+          "url": "https://valley.newhavenindependent.org/2024/10/08/candidate_q_a_ansonias_thomas_egan/"
+        },
+        {
+          "label": "Campaign Facebook page",
+          "url": "https://www.facebook.com/tomforansonia/"
+        }
+      ],
+      "curatedAt": "2026-10-06",
+      "nullNotes": {
+        "health": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); his insurance plank covers homeowner and property claims, and asked about public insurance he answered only on property insurers; nothing on health coverage",
+        "taxes": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); the 2024 Patch profile mentions targeted tax relief for small businesses and lower property taxes for his state House run, which does not fit the axis; no federal tax position found",
+        "climate": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); his Ansonia Copper & Brass proposal includes solar panel manufacturing and he backs high-speed rail investment, both framed as jobs and trade; no climate or energy policy position stated",
+        "education": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); only local remarks on vocational training (2024) and funding city schools (2025 mayoral run); nothing on federal education policy",
+        "repro": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); nothing on abortion",
+        "democracy": "checked Oct 6, 2026: New Haven Independent profile and the full WNHH Dateline New Haven interview (Sept 15, 2026), Valley Independent Sentinel coverage of his 2024 and 2025 runs, Patch 2024 candidate profile, localcandidates.org (no positions posted), iVoterGuide (candidate list only, full guide due Oct 16), Ballotpedia (not on the district page), campaign Facebook (login wall) and tomforansonia.com (not loading); nothing on voting rules; his third-party pitch is about representation, not election law"
       }
     },
     {

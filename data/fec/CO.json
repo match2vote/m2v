@@ -1,7 +1,7 @@
 {
   "state": "CO",
   "electionYear": 2026,
-  "syncedAt": "2026-07-09T02:11:11.460Z",
+  "syncedAt": "2026-10-07T13:30:19.976Z",
   "candidates": [
     {
       "id": "fec-H6CO01141",
@@ -94,6 +94,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6CO01307/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6CO01356",
+      "fecId": "H6CO01356",
+      "name": "Shimon Blau",
+      "party": "UNAFFILIATED",
+      "state": "CO",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CO01356/"
         }
       ],
       "funding": null,

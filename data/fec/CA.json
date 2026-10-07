@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-08-15T06:59:38.951Z",
+  "syncedAt": "2026-10-07T13:30:19.953Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -1790,6 +1790,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2CA01250/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2CA20144",
+      "fecId": "H2CA20144",
+      "name": "Ben Dewell",
+      "party": "Independent",
+      "state": "CA",
+      "office": "us-house",
+      "district": "20",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA20144/"
         }
       ],
       "funding": null,

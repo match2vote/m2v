@@ -1,7 +1,7 @@
 {
   "state": "PA",
   "electionYear": 2026,
-  "syncedAt": "2026-07-17T11:11:20.943Z",
+  "syncedAt": "2026-10-09T13:22:44.576Z",
   "candidates": [
     {
       "id": "fec-H6PA08277",
@@ -1374,6 +1374,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6PA03195/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6PA04169",
+      "fecId": "H6PA04169",
+      "name": "Aurora Stuski",
+      "party": "Republican",
+      "state": "PA",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6PA04169/"
         }
       ],
       "funding": null,

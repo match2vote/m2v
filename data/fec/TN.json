@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-08-04T12:32:01.041Z",
+  "syncedAt": "2026-10-12T15:34:03.003Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -1118,6 +1118,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN08367/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TN08342",
+      "fecId": "H6TN08342",
+      "name": "Horace Taylor",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-house",
+      "district": "8",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN08342/"
         }
       ],
       "funding": null,

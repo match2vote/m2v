@@ -1,7 +1,7 @@
 {
   "state": "WV",
   "electionYear": 2026,
-  "syncedAt": "2026-07-21T12:11:42.721Z",
+  "syncedAt": "2026-10-12T15:34:02.997Z",
   "candidates": [
     {
       "id": "fec-H6WV01137",
@@ -446,6 +446,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6WV00170/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6WV00204",
+      "fecId": "S6WV00204",
+      "name": "S. Marshall Wilson",
+      "party": "CONSTITUTION PARTY",
+      "state": "WV",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6WV00204/"
         }
       ],
       "funding": null,

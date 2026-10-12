@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-10-07T13:30:19.953Z",
+  "syncedAt": "2026-10-12T15:34:02.983Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -5182,6 +5182,70 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2CA39078/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2CA38260",
+      "fecId": "H2CA38260",
+      "name": "Mitchell Clemmons",
+      "party": "Republican",
+      "state": "CA",
+      "office": "us-house",
+      "district": "41",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2CA38260/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6CA41380",
+      "fecId": "H6CA41380",
+      "name": "Mitchell Lee Clemmons",
+      "party": "Republican",
+      "state": "CA",
+      "office": "us-house",
+      "district": "41",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA41380/"
         }
       ],
       "funding": null,

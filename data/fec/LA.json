@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-09-25T11:55:07.082Z",
+  "syncedAt": "2026-10-12T15:34:03.004Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -222,6 +222,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA04187/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA04229",
+      "fecId": "H6LA04229",
+      "name": "Gordon Brian Heslop",
+      "party": "Republican",
+      "state": "LA",
+      "office": "us-house",
+      "district": "4",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA04229/"
         }
       ],
       "funding": null,

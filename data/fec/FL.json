@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-09-02T11:23:42.931Z",
+  "syncedAt": "2026-10-14T11:58:39.882Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -3966,6 +3966,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL22107/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6FL24061",
+      "fecId": "H6FL24061",
+      "name": "Andy Daro",
+      "party": "NO PARTY AFFILIATION",
+      "state": "FL",
+      "office": "us-house",
+      "district": "24",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6FL24061/"
         }
       ],
       "funding": null,

@@ -278,14 +278,11 @@ function Quiz({ quiz, setQuiz, onDone }) {
   return (
     <Screen>
       <ProgressBar value={(qIndex + 1) / ISSUES.length} />
+     <ScrollView style={{ flex: 1 }} keyboardShouldPersistTaps="handled">
       <Body soft style={{ marginBottom: space(1) }}>
         {SQ.progress({ n: qIndex + 1, total: ISSUES.length, issue: issue.name })}
       </Body>
       <H2 style={{ marginBottom: space(3), fontSize: 24, lineHeight: 30 }}>{issue.question}</H2>
-      {/* Legend + top-issue toggle live OUTSIDE the ScrollView so they stay
-          pinned while the answers scroll; the mapping never leaves the screen.
-          The toggle is a statement about the question, not an answer, so it
-          sits with the question, styled as a toggle rather than an answer pill. */}
       <Card>
         <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 10, marginBottom: space(2) }}>
           <OptionBadge n={1} />
@@ -318,7 +315,6 @@ function Quiz({ quiz, setQuiz, onDone }) {
           {mattersFlag ? SQ.topIssueOn : SQ.topIssueOff}
         </Text>
       </Pressable>
-      <ScrollView style={{ flex: 1 }}>
         {CHOICES.map((c) => (
           <AnswerButton key={c.value} choice={c} stances={[issue.stanceA, issue.stanceB]} onPress={() => answer(c.value)} />
         ))}

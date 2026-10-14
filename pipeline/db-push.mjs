@@ -45,6 +45,9 @@ for (const f of (await readdir(IN_DIR)).filter((f) => f.endsWith('.json')).sort(
       const adv = advancingByRace[raceId];
       if (adv && !adv.has(c.id)) c.ballotStatus = 'not-advancing';
     }
+    // Skip a repeated id: PostgREST rejects a batch that upserts the same
+    // row twice ("ON CONFLICT DO UPDATE command cannot affect row a second time").
+    if (seen.has(c.id)) continue;
     seen.add(c.id);
     rows.push(toRow(c));
   }

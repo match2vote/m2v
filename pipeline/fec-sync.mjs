@@ -133,7 +133,15 @@ async function fetchAllCandidates(office, apiKey) {
 async function writeStates(candidates) {
   await mkdir(OUT_DIR, { recursive: true });
   const byState = {};
-  for (const c of candidates) (byState[c.state] ||= []).push(c);
+  // The FEC API can repeat a record across pages when its ordering shifts
+  // mid-fetch (Oct 14, 2026: Sarah Eckhardt, TX-10, appeared twice). A
+  // duplicate id breaks the Supabase upsert, so keep the first copy only.
+  const seenIds = new Set();
+  for (const c of candidates) {
+    if (seenIds.has(c.id)) continue;
+    seenIds.add(c.id);
+    (byState[c.state] ||= []).push(c);
+  }
   for (const [state, list] of Object.entries(byState)) {
     list.sort((a, b) => (a.office + (a.district || '')).localeCompare(b.office + (b.district || '')) || a.name.localeCompare(b.name));
     const file = path.join(OUT_DIR, `${state}.json`);

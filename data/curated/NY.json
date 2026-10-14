@@ -1,6 +1,6 @@
 {
   "state": "NY",
-  "note": "Hand-curated, sourced entries. Major-party primaries held June 23.",
+  "note": "Hand-curated, sourced entries. Major-party primaries held June 23, 2026. House ballot lines checked against the State Board of Elections' October 7, 2026 amended general election certification on October 14, 2026.",
   "races": {
     "NY-governor": {
       "status": "general",
@@ -14,12 +14,14 @@
       "status": "general",
       "advancing": [
         "fec-H2NY01190",
-        "fec-H6NY01159",
-        "ny-house-1-maggio",
-        "ny-house-1-sorensen"
+        "fec-H6NY01159"
       ],
-      "statusNote": "Rep. Nick LaLota (R) seeks a third term against Democrat Chris Gallant, who won the June 23, 2026 primary with 59.7%, plus independents Jordan Maggio and Thomas Sorensen.",
+      "statusNote": "Rep. Nick LaLota (R, also Conservative line) seeks a third term against Democrat Chris Gallant, who won the June 23, 2026 primary with 59.7%. The State Board of Elections' October 7, 2026 certification lists only these two candidates; independents Jordan Maggio and Thomas Sorensen did not make the ballot.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
@@ -89,10 +91,15 @@
       "status": "general",
       "advancing": [
         "fec-H2NY04244",
-        "fec-H6NY04211"
+        "fec-H6NY04211",
+        "fec-H6NY04237"
       ],
-      "statusNote": "Rep. Laura Gillen (D) holds the Long Island seat she won from Republican Anthony D'Esposito in 2024 and is scored here largely from 119th Congress roll calls. Republican Jeanine Driscoll has published no documented policy positions that could be fetched, so the overlap for this race is zero.",
+      "statusNote": "Rep. Laura Gillen (D) holds the Long Island seat she won from Republican Anthony D'Esposito in 2024 and faces Republican and Conservative nominee Jeanine Driscoll, the Hempstead Town Receiver of Taxes, and Libertarian Blay Tarnoff, per the State Board of Elections' October 7, 2026 certification.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
@@ -115,8 +122,12 @@
         "fec-H8NY06048",
         "ny-house-5-marsh"
       ],
-      "statusNote": "Rep. Gregory Meeks (D) faces Republican George Marsh in a safe Queens seat; both were unopposed in the June 23, 2026 primary. Marsh has published no documented policy positions that could be fetched, so the overlap for this race is zero.",
+      "statusNote": "Rep. Gregory Meeks (D) faces George Marsh, who appears on the Republican and Queens United lines, in a safe Queens seat. Marsh's campaign site blocks fetches and his questionnaires are unanswered, so he has no documented positions.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
@@ -139,6 +150,10 @@
       ],
       "statusNote": "Seven term Democratic incumbent Grace Meng won her June 23, 2026 primary with 56.8 percent over Chuck Park and faces Republican Joseph J. Chou, a Queens auto repair shop owner.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
@@ -191,6 +206,10 @@
       "statusNote": "House Democratic leader Hakeem Jeffries was unopposed for renomination on June 23, 2026 and faces Republican Lewis Mizrahi, who has no public campaign website.",
       "sources": [
         {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
         },
@@ -212,6 +231,10 @@
       ],
       "statusNote": "Rep. Yvette D. Clarke, Democrat, has held this central Brooklyn seat since 2007 and faces Republican Joel Anabilah-Azumah.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Wikipedia 2026 U.S. House elections in New York",
           "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York"
@@ -236,6 +259,10 @@
       ],
       "statusNote": "Rep. Dan Goldman (D) lost the June 23, 2026 primary to former NYC Comptroller Brad Lander, who faces Republican Jennifer E. Moore, who has no public campaign website.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
           "url": "https://copublicstrategies.com/new-york-note-special-edition-nys-2026-primary-election-results/"
@@ -278,11 +305,15 @@
       "advancing": [
         "fec-H6NY12172",
         "fec-H6NY12404",
-        "fec-H6NY12297",
-        "ny-house-12-wintrich"
+        "ny-house-12-negron",
+        "fec-H6NY12297"
       ],
-      "statusNote": "Open seat in Manhattan: Rep. Jerrold Nadler is retiring. Assemblymember Micah Lasher faces Republican Caroline Shinkle and independents Karen Ortiz and Lucian Wintrich.",
+      "statusNote": "Open seat in Manhattan: Rep. Jerrold Nadler is retiring. Assemblymember Micah Lasher (D) faces Republican and Conservative nominee Caroline Shinkle, Wilneida Negron on the 'For All of Us' line and Civil Court Judge Karen Ortiz on her own independent line, per the State Board of Elections' October 7, 2026 certification. Lucian Wintrich, who filed as an independent, is not on the ballot.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
           "url": "https://copublicstrategies.com/new-york-note-special-edition-nys-2026-primary-election-results/"
@@ -312,6 +343,10 @@
       "statusNote": "Rep. Adriano Espaillat (D) lost the June 23, 2026 primary to Darializa Avila Chevalier, who faces Republican Manuel \"Jomo\" Williams.",
       "sources": [
         {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
           "url": "https://copublicstrategies.com/new-york-note-special-edition-nys-2026-primary-election-results/"
         },
@@ -334,6 +369,10 @@
       "statusNote": "Democratic incumbent Alexandria Ocasio-Cortez, in office since 2019, faces Republican Diamant Hysenaj.",
       "sources": [
         {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
           "url": "https://copublicstrategies.com/new-york-note-special-edition-nys-2026-primary-election-results/"
         },
@@ -355,10 +394,15 @@
         "fec-H0NY15160",
         "ny-house-15-sapaskis",
         "ny-house-15-duran",
-        "fec-H6NY15167"
+        "fec-H6NY15167",
+        "ny-house-15-vega"
       ],
-      "statusNote": "Rep. Ritchie Torres (D) won the June 23, 2026 primary with about 71% and faces Republican Stylo Sapaskis, Conservative Gonzalo Duran, and independent Andre Easton.",
+      "statusNote": "Rep. Ritchie Torres (D) won the June 23, 2026 primary with about 71% and faces Republican Stylo Sapaskis, Conservative Gonzalo Duran, Andre Easton on the Socialism PSL line and Jose Vega on the Speak The Truth line, per the State Board of Elections' October 7, 2026 certification.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "Cozen O'Connor NYS 2026 primary results recap",
           "url": "https://copublicstrategies.com/new-york-note-special-edition-nys-2026-primary-election-results/"
@@ -385,6 +429,10 @@
       ],
       "statusNote": "Freshman Democrat George Latimer, who won this Westchester and Bronx seat in 2024, faces Republican Joseph Cinquemani, whose only public page is a law-firm biography with no policy content.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
@@ -432,6 +480,10 @@
       ],
       "statusNote": "Two way race in the Hudson Valley: two term Democratic incumbent Pat Ryan against Republican Jackie Auringer.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
@@ -501,8 +553,12 @@
         "fec-H6NY21199",
         "fec-H6NY21157"
       ],
-      "statusNote": "Open seat in the North Country: Rep. Elise Stefanik is leaving the House and neither party had an incumbent; dairy farmer Blake Gendebien (D) faces Anthony Constantino (R).",
+      "statusNote": "Open seat in the North Country: Rep. Elise Stefanik is leaving the House. Dairy farmer Blake Gendebien (D, also Working Families) faces Sticker Mule CEO Anthony Constantino (R, also Taxpayer Rights line).",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
@@ -575,6 +631,10 @@
       "statusNote": "Claudia Tenney is the four term Republican incumbent in NY-24, a seat rated Solidly Republican, facing Democrat Alissa Ellman.",
       "sources": [
         {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
         },
@@ -599,6 +659,10 @@
       "statusNote": "Rep. Joseph Morelle, the Democratic incumbent since 2018, won the June 23, 2026 primary and faces Republican Virginia McIntyre, whose campaign site published no reachable policy content.",
       "sources": [
         {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
         },
@@ -622,6 +686,10 @@
       ],
       "statusNote": "Rep. Tim Kennedy (D) and Republican Dennis Hannon were each unopposed for nomination; Hannon's campaign site could not be fetched.",
       "sources": [
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
         {
           "label": "NYS BOE June 23, 2026 primary certification",
           "url": "https://elections.ny.gov/system/files/documents/2026/05/accessible-june-23-2026-primary-certification-amended-5.13.26_0.pdf"
@@ -913,12 +981,12 @@
       "district": "1",
       "state": "NY",
       "tier": "curated",
-      "ballotStatus": "nominee",
+      "ballotStatus": "not-advancing",
       "incumbent": false,
       "age": null,
       "home": null,
       "now": null,
-      "background": "Independent candidate for NY-1 with no campaign website, Ballotpedia survey, or news coverage found.",
+      "background": "Independent candidate for NY-1 with no campaign website, Ballotpedia survey, or news coverage found. Not on the certified November 3, 2026 ballot per the State Board of Elections' October 7, 2026 amended certification.",
       "priorities": [],
       "positions": {
         "cost": null,
@@ -957,9 +1025,13 @@
         {
           "label": "iVoterGuide New York Nov 3, 2026 guide",
           "url": "https://ivoterguide.com/voter-guide/state/ny"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-1-sorensen",
@@ -969,12 +1041,12 @@
       "district": "1",
       "state": "NY",
       "tier": "curated",
-      "ballotStatus": "nominee",
+      "ballotStatus": "not-advancing",
       "incumbent": false,
       "age": null,
       "home": null,
       "now": null,
-      "background": "Independent candidate for NY-1. Ballotpedia confirms candidacy but he has not completed its 2026 Candidate Connection survey; no campaign website found.",
+      "background": "Independent candidate for NY-1. Ballotpedia confirms candidacy but he has not completed its 2026 Candidate Connection survey; no campaign website found. Not on the certified November 3, 2026 ballot per the State Board of Elections' October 7, 2026 amended certification.",
       "priorities": [],
       "positions": {
         "cost": null,
@@ -1013,9 +1085,13 @@
         {
           "label": "The Green Papers NY 2026 roster",
           "url": "https://www.thegreenpapers.com/G26/NY"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-5-marsh",
@@ -1028,10 +1104,14 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Gregory Meeks in the safely Democratic NY-5; campaign presence limited to a Facebook page, no dedicated campaign website found.",
-      "priorities": [],
+      "home": "Rockaway Park, NY",
+      "now": "Mechanic",
+      "background": "A lifelong New Yorker raised in the Astoria Houses and a former employee of the New York City Mayor's Office, Marsh is a father and grandfather who lists his occupation as mechanic. His platform centers on infrastructure, public transit, small business, veterans and apprenticeships. He is on the Republican and Queens United lines against Rep. Gregory Meeks; no campaign committee appears in FEC records as of October 2026.",
+      "priorities": [
+        "Neighborhood small businesses",
+        "Veterans services",
+        "Transit and street safety"
+      ],
       "positions": {
         "cost": null,
         "health": null,
@@ -1046,24 +1126,40 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website, social media, or contact link listed; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "health": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "housing": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "immigration": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "taxes": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "climate": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "education": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "safety": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "repro": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered",
+        "democracy": "re-checked Oct 14, 2026 in a browser: georgemarshforcongress.com's platform covers infrastructure (reintroducing the IIJA), public transit, small business red tape, veterans services, nonprofits and apprenticeships, with no statement on this issue; iVoterGuide 2026 questionnaire unanswered; Vote411 questionnaire unanswered"
       },
       "sources": [
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "George Marsh for Congress",
+          "url": "https://georgemarshforcongress.com/"
+        },
+        {
+          "label": "BallotReady candidate profile",
+          "url": "https://www.ballotready.org/people/george-marsh"
+        },
+        {
+          "label": "iVoterGuide 2026 profile (questionnaire unanswered)",
+          "url": "https://ivoterguide.com/candidate/94879/race/33813/election/1487"
+        },
+        {
+          "label": "Central Queens Republican Club, Oct 15, 2026 debate notice",
+          "url": "https://central.queens.gop/blog/2026/09/28/debates-with-democrat-october-15-2026/"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-6-chou",
@@ -1076,63 +1172,86 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Grace Meng in central Queens, emphasizing balanced tax policy and school choice.",
+      "home": "Queens, NY",
+      "now": "Owner of a Queens car repair business since 1990",
+      "background": "Born in Japan in 1964, Chou lived in Taiwan with his grandmother and arrived in the United States in 1974. He earned a GED in 1981, is a naturalized citizen and has operated his own car repair business in Queens since 1990. He describes his politics as guided by his Christian faith and is on the Republican and Conservative lines against seven term Rep. Grace Meng.",
       "priorities": [
-        "Balanced tax policy for working families",
-        "Educational options",
-        "Cashless bail reform"
+        "Cutting federal spending and a balanced tax policy",
+        "Returning education control to the states",
+        "Legal protection for human life from conception"
       ],
       "positions": {
         "cost": null,
         "health": null,
         "housing": null,
-        "immigration": 0,
+        "immigration": 1,
         "taxes": 1,
-        "climate": null,
-        "education": 0,
+        "climate": 1,
+        "education": 1,
         "safety": -1,
-        "repro": null,
-        "democracy": null
+        "repro": 2,
+        "democracy": 1
       },
       "positionSources": {
         "taxes": {
-          "label": "Supports 'balanced tax policy that fosters growth and lightens burdens, particularly for our working families' (campaign site)",
-          "url": "https://josephforny.com/issues-1"
+          "label": "'Strongly Agree' that 'The government should cut spending in order to reduce the national debt,' Neutral on whether higher earners should pay more (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
         },
         "immigration": {
-          "label": "Mixed: calls for 'safe and secure borders alongside a compassionate approach' and 'a fair, effective immigration system that honors the dignity of all who seek a life here' (campaign site)",
-          "url": "https://josephforny.com/issues-1"
+          "label": "'Strongly Disagree' with supporting sanctuary cities, saying 'Too much unregulated immigration will overload our system' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
         },
         "education": {
-          "label": "Mixed: supports 'robust options for public, private, and alternative learning pathways' for a 'diverse and high-quality educational landscape' (campaign site)",
-          "url": "https://josephforny.com/issues-1"
+          "label": "'Strongly Agree' with 'eliminating the U.S. Department of Education and giving control back to states and communities' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
         },
         "safety": {
           "label": "Committed to 'evaluating our cashless bail system' seeking to 'balance justice with mercy' and rehabilitation (campaign site)",
           "url": "https://josephforny.com/issues-1"
+        },
+        "climate": {
+          "label": "Names the most reliable energy source as a 'combination of fossil, nuclear and solar' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
+        },
+        "repro": {
+          "label": "'Strongly Agree' that 'Human life deserves legal protection from conception until natural death,' would allow abortion only for 'Rape, medical, incest,' and 'Strongly Agree' the Comstock Act should be enforced (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
+        },
+        "democracy": {
+          "label": "'Strongly Disagree' that 'People should be able to vote without photo identification': 'To not have a proper identification is irresponsible' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: josephforny.com homepage fetched, only a general mission statement, no policy content",
-        "health": "re-checked Sep 2, 2026: josephforny.com homepage fetched, no healthcare statement beyond 'improving healthcare access'",
-        "housing": "re-checked Sep 2, 2026: josephforny.com homepage fetched, no housing statement found",
-        "climate": "re-checked Sep 2, 2026: josephforny.com homepage fetched, no climate/energy statement found",
-        "repro": "re-checked Sep 2, 2026: josephforny.com homepage fetched, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: josephforny.com homepage fetched, no voting/elections statement found"
+        "cost": "re-checked Oct 14, 2026: josephforny.com/issues-1 says only 'Economic stewardship is a cornerstone of my campaign'; the iVoterGuide questionnaire has no price, wage or inflation item answered",
+        "health": "re-checked Oct 14, 2026: iVoterGuide health care multiple choice left unanswered and his free text 'Our health care is definitely broken. There are working healthcare systems in capitalistic national' states no public or private direction; site says only 'improving healthcare access'",
+        "housing": "re-checked Oct 14, 2026: nothing on housing on josephforny.com issues, about or home pages or in the iVoterGuide questionnaire"
       },
       "sources": [
         {
-          "label": "Joseph Chou for NY-6, Issues",
+          "label": "Joseph Chou for Congress, issues",
           "url": "https://josephforny.com/issues-1"
         },
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "Joseph Chou for Congress, about",
+          "url": "https://josephforny.com/about"
+        },
+        {
+          "label": "iVoterGuide 2026 candidate questionnaire",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14",
+      "controversies": [
+        {
+          "label": "On the iVoterGuide questionnaire he answered 'Yes' to having been convicted of a felony, explaining 'Growing up in the ghettos of nyc, I was a juvenile delinquent' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/80135/race/33814/election/1487"
+        }
+      ]
     },
     {
       "id": "ny-house-7-rivera",
@@ -1159,7 +1278,7 @@
         "housing": -2,
         "immigration": 0,
         "taxes": -1,
-        "climate": null,
+        "climate": -1,
         "education": 0,
         "safety": 1,
         "repro": null,
@@ -1193,11 +1312,14 @@
         "democracy": {
           "label": "Wants to 'reform petitioning systems for broader participation' and increase voter engagement (campaign site)",
           "url": "https://melvinforcongress.com/issues.html"
+        },
+        "climate": {
+          "label": "Says the national government must act on 'multiple actionable fronts, including safe and effective reusable energy' and storm resilient infrastructure (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73212779"
         }
       },
       "nullNotes": {
         "health": "issues page fetched, not addressed (checked Aug 29, 2026)",
-        "climate": "issues page addresses flood resilience and lead/air quality standards, not a clean-energy-vs-energy-independence statement; does not fit this axis (checked Aug 29, 2026)",
         "repro": "issues page fetched, not addressed (checked Aug 29, 2026)"
       },
       "sources": [
@@ -1208,6 +1330,10 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73212779"
         }
       ],
       "curatedAt": "2026-08-29"
@@ -1237,11 +1363,11 @@
         "housing": -1,
         "immigration": null,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": -1,
         "safety": -1,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
@@ -1267,13 +1393,19 @@
         "repro": {
           "label": "References 'comprehensive reproductive care and support' under women's rights (campaign site)",
           "url": "https://priscillaghaznaviforcongress.com/community-concerns-1"
+        },
+        "climate": {
+          "label": "'The federal government should invest in clean energy, efficient buildings and climate-resilient infrastructure' with 'stronger sustainability standards for federal projects' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188926"
+        },
+        "democracy": {
+          "label": "'I support the Voting Rights Act and its protections against discrimination' and believes the system 'should protect minority communities from unlawful vote dilution,' while noting the tension Callais raises (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188926"
         }
       },
       "nullNotes": {
         "immigration": "re-checked Sep 2, 2026: site navigation shows only one community-concerns page and account/shop pages; no separate immigration statement beyond biographical mention of immigrant parents",
-        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found in site navigation",
-        "climate": "re-checked Sep 2, 2026: no climate/energy statement found in site navigation",
-        "democracy": "re-checked Sep 2, 2026: site mentions collecting signatures to get on the ballot, a procedural note not a voting-rules position"
+        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found in site navigation"
       },
       "sources": [
         {
@@ -1283,6 +1415,10 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188926"
         }
       ],
       "curatedAt": "2026-08-29"
@@ -1299,8 +1435,8 @@
       "incumbent": false,
       "age": null,
       "home": null,
-      "now": null,
-      "background": "Republican challenger to House Democratic Leader Hakeem Jeffries in central Brooklyn; only public presence found is a LinkedIn profile, no campaign website.",
+      "now": "Firefighter, Wildfire Defense Systems",
+      "background": "Mizrahi has worked as a firefighter with Wildfire Defense Systems since 2024, after jobs as a market research analyst at Comcast, a financial analyst and a criminal justice data analyst at the NYC Department of Probation; he holds a bachelor's in criminal justice and a master's in operations management from John Jay College. He is on the Republican and Conservative lines against House Democratic Leader Hakeem Jeffries. The Well News reported in August 2026 that he 'doesn't appear to have a campaign website and has generated little in the way of media coverage,' and no campaign committee appears in FEC records.",
       "priorities": [],
       "positions": {
         "cost": null,
@@ -1316,24 +1452,36 @@
       },
       "positionSources": {},
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "health": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "housing": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "immigration": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "taxes": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "climate": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "education": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "safety": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "repro": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions",
+        "democracy": "re-checked Oct 14, 2026: iVoterGuide 2026 questionnaire unanswered on all 32 items; BallotReady, Branch, Smarter.vote, The Well News (Aug 14, 2026), Our Time Press (Oct 2, 2026) and the Brooklyn outlets report no website and no stated positions"
       },
       "sources": [
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "BallotReady candidate profile",
+          "url": "https://www.ballotready.org/people/lewis-mizrahi"
+        },
+        {
+          "label": "The Well News, little known candidates take aim at House leaders (Aug 14, 2026)",
+          "url": "https://www.thewellnews.com/2026-elections/little-known-candidates-take-aim-at-house-leaders-in-midterm-showdown/"
+        },
+        {
+          "label": "iVoterGuide 2026 profile (questionnaire unanswered)",
+          "url": "https://ivoterguide.com/candidate/94882/race/33816/election/1487"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-9-anabilah-azumah",
@@ -1346,63 +1494,90 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Yvette Clarke in central Brooklyn, campaigning on a large minimum-wage increase and infrastructure rebuilding.",
+      "home": "Brooklyn, NY",
+      "now": "President of TransportAzumah, a bus company; men's volleyball coach at Brooklyn College",
+      "background": "Born in New York City and a Brooklyn resident since age nine, Anabilah-Azumah holds a civil engineering degree from Union College and has run TransportAzumah, a bus service company, since 2002. He has sought this seat repeatedly, in 2018, 2020 and 2024, and appears on the November 2026 ballot as 'Joel Azumah' on the Republican and Conservative lines against Rep. Yvette Clarke. Nassau County Executive Bruce Blakeman campaigned with him in Brownsville in September 2026.",
       "priorities": [
         "Raising the federal minimum wage to $17/hour",
-        "Infrastructure investment",
-        "Staying out of major foreign conflicts"
+        "Infrastructure, pipelines and nuclear power",
+        "Border wall and immigration enforcement"
       ],
       "positions": {
         "cost": -2,
-        "health": null,
+        "health": 1,
         "housing": 1,
-        "immigration": null,
+        "immigration": 2,
         "taxes": 2,
         "climate": 1,
         "education": null,
         "safety": null,
-        "repro": null,
+        "repro": 2,
         "democracy": null
       },
       "positionSources": {
         "cost": {
-          "label": "'The federal minimum wage has to increase from $7.25/hour to $17/hour' so families can live on two full-time incomes (campaign site)",
-          "url": "https://joelazumah.com/issues"
+          "label": "'It is my position that the federal minimum wage has to increase from $7.25/hour to $17/hour' so a family of two can live on two full time incomes (campaign site, issues)",
+          "url": "https://www.joelazumah.com/issues"
         },
         "taxes": {
-          "label": "\"We want to keep as much of the money we earn as possible. You spend your money better than the government does.\" (joelazumah.com)",
-          "url": "https://www.joelazumah.com"
-        },
-        "housing": {
-          "label": "\"Property ownership should not be punished by the government with high taxes or onerous regulations\" (joelazumah.com)",
-          "url": "https://www.joelazumah.com"
+          "label": "'We want to keep as much of the money we earn as possible. You spend your money better than the government does' (campaign site homepage); would end wars 'to help balance the budget' (iVoterGuide 2020 questionnaire)",
+          "url": "https://www.joelazumah.com/"
         },
         "climate": {
-          "label": "Calls for 'a major infrastructure campaign to rebuild roads, rail, pipelines, and new nuclear power plants,' an expand-supply energy stance (campaign site, Issues)",
-          "url": "https://joelazumah.com/issues"
+          "label": "'We have to go on a major infrastructure campaign to rebuild roads, rail, pipelines, and new nuclear power plants' (campaign site, issues)",
+          "url": "https://www.joelazumah.com/issues"
+        },
+        "health": {
+          "label": "Disagrees that government must ensure everyone has health insurance and opposes eliminating private insurance, favoring removing 'middlemen' and lower ACA deductibles (iVoterGuide 2020 questionnaire, his own answers)",
+          "url": "https://ivoterguide.com/candidate/32217/race/2157/election/781"
+        },
+        "immigration": {
+          "label": "'Strongly Agree' with a border wall and with denying funds to sanctuary cities, 'Strongly Disagree' with abolishing ICE, supports E-Verify, and says 'Anyone that can improve the quality of life or function of the US should be admitted' (iVoterGuide 2020 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/32217/race/2157/election/781"
+        },
+        "repro": {
+          "label": "'Strongly Agree' that 'Human life begins at conception and deserves legal protection at every stage until natural death,' allowing abortion only when 'the baby was conceived involuntarily or because of illegal actions (such as incest or rape)' (iVoterGuide 2020 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/32217/race/2157/election/781"
+        },
+        "housing": {
+          "label": "'Property ownership should not be punished by the government with high taxes or onerous regulations' (campaign site homepage)",
+          "url": "https://www.joelazumah.com/"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: no healthcare statement found on joelazumah.com",
-        "immigration": "re-checked Sep 2, 2026: no immigration statement found",
-        "education": "re-checked Sep 2, 2026: no education statement found",
-        "safety": "re-checked Sep 2, 2026: site says only 'we want our communities to be safe,' too vague to indicate an enforcement-vs-prevention direction",
-        "repro": "re-checked Sep 2, 2026: no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: no voting/elections statement found"
+        "education": "re-checked Oct 14, 2026: iVoterGuide 2020 answer on taxpayer funded education through college was Neutral and the 2018 answer Disagree; neither maps to public schools versus choice; nothing on joelazumah.com",
+        "safety": "re-checked Oct 14, 2026: joelazumah.com/issues argues for legalizing and taxing marijuana and ending civil asset forfeiture, the 2020 questionnaire is Neutral on mandatory minimums and the 2018 one supports the death penalty; mixed and mostly outside the prevention versus enforcement axis",
+        "democracy": "re-checked Oct 14, 2026: iVoterGuide 2020 answers cover the Electoral College and term limits only; nothing on voting access or voter ID on joelazumah.com"
       },
       "sources": [
         {
-          "label": "Joel Anabilah-Azumah, Issues",
-          "url": "https://joelazumah.com/issues"
+          "label": "Joel Anabilah-Azumah for Congress, homepage",
+          "url": "https://www.joelazumah.com/"
         },
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "Joel Anabilah-Azumah for Congress, issues",
+          "url": "https://www.joelazumah.com/issues"
+        },
+        {
+          "label": "iVoterGuide 2020 candidate questionnaire",
+          "url": "https://ivoterguide.com/candidate/32217/race/2157/election/781"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14",
+      "controversies": [
+        {
+          "label": "Posted in 2024 that '9/11 was an inside job' and told The New Republic in September 2026 that 'elements within the US government orchestrated 9/11' (The New Republic, Sept 11, 2026)",
+          "url": "https://newrepublic.com/article/215290/new-york-republican-candidate-governor-911-truthers"
+        },
+        {
+          "label": "amNY reported the same 2024 post after Bruce Blakeman endorsed him, quoting him: 'You don't have to believe it, but that is what happened' (amNY, Sept 9, 2026)",
+          "url": "https://www.amny.com/news/blakeman-endorsing-candidate-9-11-inside-job/"
+        }
+      ]
     },
     {
       "id": "ny-house-10-moore",
@@ -1415,10 +1590,14 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican candidate for the open NY-10 seat in Brooklyn/Manhattan; only public presence found is an Instagram account, no campaign website.",
-      "priorities": [],
+      "home": "Brooklyn, NY",
+      "now": "NYC regional coordinator, New York State Senate (per her NYC Votes voter guide profile)",
+      "background": "A lifelong Brooklynite who lists her current job as NYC regional coordinator for the New York State Senate, and a Brooklyn Republican operative making her first run for office, Moore became the Republican and Conservative nominee for the open NY-10 seat after both June 23, 2026 primaries were canceled. The day after Brad Lander defeated Rep. Dan Goldman she told the New York Post that 'The political earthquake last night of Brad Lander unseating an incumbent has infused interest in this race.' She filed her FEC statement of candidacy on June 27, 2026 and had raised under $3,000 through September 30, 2026.",
+      "priorities": [
+        "Supporting the NYPD and first responders",
+        "Affordability",
+        "Opposing what she calls Lander's 'radical ideology'"
+      ],
       "positions": {
         "cost": null,
         "health": null,
@@ -1427,30 +1606,50 @@
         "taxes": null,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "safety": {
+          "label": "Platform: 'Support the NYPD and first responders. Reject policies that soft-on-crime approaches have made our streets less safe' (campaign site mooreforny.com, as reproduced by The Gist)",
+          "url": "https://thegist.vote/candidate/jennifer-e-moore"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed, only an Instagram account; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "cost": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "health": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "housing": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "immigration": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "taxes": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "climate": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "education": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "repro": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026",
+        "democracy": "re-checked Oct 14, 2026: mooreforny.com blocks fetches; The Gist, Smarter.vote and Branch reproductions of it carry only the public safety plank and an 'affordability' heading with no direction; iVoterGuide 2026 questionnaire unanswered on every item; NY Post (via AOL, June 24, 2026) profile has no policy statement on this issue; her NYC Votes profile lists top issues (crime, affordable housing, inflation, healthcare, immigration, homelessness, racial inequality, schools) without positions, and mooreforny.com returned an error page on Oct 14, 2026"
       },
       "sources": [
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "The Gist candidate page (reproduces mooreforny.com)",
+          "url": "https://thegist.vote/candidate/jennifer-e-moore"
+        },
+        {
+          "label": "NYC Votes 2026 general election voter guide profile",
+          "url": "https://www.nycvotes.org/whats-on-the-ballot/2026-general-election-voter-guide/representative-in-congress/profile/?candidateId=V1769&electionCycle=2026&officeType=10&partyId=R,C&geoAreaAbbr=10&officelevel=3"
+        },
+        {
+          "label": "New York Post via AOL, meet the GOP hopefuls taking on Mamdani endorsed House Democrats (June 24, 2026)",
+          "url": "https://www.aol.com/articles/meet-gop-hopefuls-taking-mamdani-223254000.html"
+        },
+        {
+          "label": "iVoterGuide 2026 profile (questionnaire unanswered)",
+          "url": "https://ivoterguide.com/candidate/94884/race/33818/election/1487"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-12-wintrich",
@@ -1460,12 +1659,12 @@
       "district": "12",
       "state": "NY",
       "tier": "curated",
-      "ballotStatus": "nominee",
+      "ballotStatus": "not-advancing",
       "incumbent": false,
       "age": null,
       "home": null,
       "now": null,
-      "background": "Independent candidate for the open NY-12 seat running a policy-heavy 'points' platform emphasizing housing supply, trade education, and tax relief.",
+      "background": "Independent candidate for the open NY-12 seat running a policy-heavy 'points' platform emphasizing housing supply, trade education, and tax relief. Not on the certified November 3, 2026 ballot per the State Board of Elections' October 7, 2026 amended certification.",
       "priorities": [
         "Grocery rebates and tax relief",
         "Unlocking housing supply",
@@ -1526,9 +1725,13 @@
         {
           "label": "Politics1 New York 2026 candidate list",
           "url": "https://www.politics1.com/ny.htm"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-13-williams",
@@ -1541,18 +1744,18 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican candidate for NY-13 in upper Manhattan/the Bronx, running on a self-styled 'Universal Capitalism' platform combining guaranteed-employment ideas with strict immigration enforcement.",
+      "home": "New York, NY",
+      "now": "Harlem business owner, paralegal and Army reservist",
+      "background": "Born and raised in Harlem, Williams describes himself as an 'Urbanist Conservative' and former Democrat; his site lists retail businesses in Harlem and New Jersey, paralegal work for Harlem law firms, a Verizon technician job and Army service beginning in 1985. He ran for City Council District 7 in 2021 and appears on the November 2026 ballot as 'Jomo M. Williams' on the Republican line against Darializa Avila Chevalier. His platform, 'Universal Capitalism,' pairs a guaranteed public job at a living wage with strict immigration enforcement and voter ID.",
       "priorities": [
         "Election integrity litigation and the SAVE Act",
         "Closing the border and opposing sanctuary-city status",
         "Smaller government and lower taxes"
       ],
       "positions": {
-        "cost": null,
+        "cost": 0,
         "health": -1,
-        "housing": null,
+        "housing": 0,
         "immigration": 2,
         "taxes": 2,
         "climate": null,
@@ -1564,47 +1767,60 @@
       "positionSources": {
         "health": {
           "label": "Platform's 'universal baseline' framing: 'quality healthcare ensures a medical emergency doesn't wipe out a family's savings' (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "url": "https://jmw4congress.com/page/8"
         },
         "immigration": {
-          "label": "Supports closing/securing the border, the SAVE Act, a 'Dignity Act' with 'strict ideological vetting,' and opposes NYC's sanctuary-city status and ICE abolition (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "label": "'I will move to Repeal and Cease NYC's Sanctuary Status' and proposes 'data-driven pauses in local immigration processing' when indicators show harm to 'local unemployment rates, housing availability, or the displacement of working-class citizens' (campaign site)",
+          "url": "https://jmw4congress.com/page/9"
         },
         "taxes": {
-          "label": "Advocates 'smaller government, less taxes, less spending' (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "label": "'Smaller government, less taxes, less spending': 'The simple mathematical equation to less taxes is to decrease the need of spending cost' (campaign site)",
+          "url": "https://jmw4congress.com/page/10"
         },
         "safety": {
-          "label": "Would 'fully fund public safety' and complete a 'criminal justice system overhaul,' opposing defunding police (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "label": "'No to Defund Police,' 'Fully fund public safety' and 'Execute complete Criminal Justice System (CJS) Overhaul' (campaign site)",
+          "url": "https://jmw4congress.com/page/2"
         },
         "democracy": {
-          "label": "Backs the SAVE Act and voter ID requirements, and has active litigation against the NYC Board of Elections to 'close voter registration loopholes' (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "label": "'Say YES to the SAVE Act & Voter ID,' 'Restoring Voter ID in New York,' and active litigation against the NYC Board of Elections (campaign site)",
+          "url": "https://jmw4congress.com/page/5"
         },
         "education": {
-          "label": "Platform calls for 'no multi-gender sexuality ideology in early education' and protecting 'women's sports & private spaces,' a parental-control curriculum stance (campaign site)",
-          "url": "https://jmw4congress.com/"
+          "label": "Platform calls for 'no multi-gender sexuality ideology in early education' and to 'protect women's sports & private spaces' (campaign site comparison table)",
+          "url": "https://jmw4congress.com/page/2"
+        },
+        "cost": {
+          "label": "Mixed: proposes a guaranteed public job that 'pays a baseline living wage linked to mandatory civic work' under his Universal Capitalism plan while branding the campaign 'Free Economy' (campaign site)",
+          "url": "https://jmw4congress.com/page/8"
+        },
+        "housing": {
+          "label": "Mixed: lists housing among 'Universal Baselines' and would guarantee 'the right to counsel in both criminal and critical civil matters' such as housing disputes, while promising to 'slash the bureaucratic red tape that drives up building costs' (campaign site)",
+          "url": "https://jmw4congress.com/page/8"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: 'Universal Capitalism' land/property-opportunity language still too vague for a price/deregulation direction",
-        "housing": "re-checked Sep 2, 2026: housing content remains tangled with anti-sanctuary-city and anti-gentrification framing (protecting local ownership from displacement), not a clean public-action-vs-deregulation statement",
-        "climate": "re-checked Sep 2, 2026: no climate/energy statement found on jmw4congress.com",
-        "education": "re-checked Sep 2, 2026: curriculum content (AI literacy, opposition to 'multi-gender sexuality ideology') is culture-war curriculum-content framing, does not map to the public-schools-funding-vs-choice axis",
-        "repro": "re-checked Sep 2, 2026: no abortion statement found on jmw4congress.com"
+        "climate": "re-checked Oct 14, 2026: jmw4congress.com pages 2, 4, 5, 6, 8, 9 and 10 contain no energy or climate statement; iVoterGuide 2026 energy item unanswered",
+        "repro": "re-checked Oct 14, 2026: no abortion statement on any jmw4congress.com page; iVoterGuide 2026 Right to Life items unanswered"
       },
       "sources": [
         {
-          "label": "JMW 4 Congress",
-          "url": "https://jmw4congress.com/"
+          "label": "JMW for Congress, candidate side by side",
+          "url": "https://jmw4congress.com/page/2"
         },
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "JMW for Congress, Universal Capitalism platform",
+          "url": "https://jmw4congress.com/page/8"
+        },
+        {
+          "label": "JMW for Congress, SAVE Act and voter ID",
+          "url": "https://jmw4congress.com/page/5"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-15-sapaskis",
@@ -1619,44 +1835,66 @@
       "age": null,
       "home": null,
       "now": null,
-      "background": "Perennial Republican candidate for NY-15 in the South Bronx; no campaign website found and has not completed Ballotpedia's Candidate Connection survey in any cycle.",
-      "priorities": [],
+      "background": "Sapaskis is a perennial Bronx candidate who was the 2022 Republican nominee for NY-15, ran for NY-16 in 2016 and for City Council District 11 in 2009 and 2025. His 2022 iVoterGuide profile lists degrees from Borough of Manhattan Community College and City College. He has no campaign website and is on the Republican line against Rep. Ritchie Torres; the Conservative line went to Gonzalo Duran.",
+      "priorities": [
+        "A $20 minimum wage",
+        "More police presence",
+        "Financial aid for higher education"
+      ],
       "positions": {
-        "cost": null,
+        "cost": -1,
         "health": null,
         "housing": null,
         "immigration": null,
         "taxes": null,
         "climate": null,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 0,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Proposed 'to elevate minimum wage to 20 dollars per hour' in response to inflation and rising gas and food prices (iVoterGuide 2022 campaign statement, his own words)",
+          "url": "https://ivoterguide.com/candidate/31346/race/2163/election/993"
+        },
+        "safety": {
+          "label": "Called for 'more police presence and employment for the disabled' (iVoterGuide 2022 campaign statement, his own words)",
+          "url": "https://ivoterguide.com/candidate/31346/race/2163/election/993"
+        },
+        "repro": {
+          "label": "Mixed: 'Strongly Agree' that 'Human life deserves legal protection from conception until natural death' but also 'Strongly Agree' that abortion providers including Planned Parenthood 'should receive taxpayer funds' (iVoterGuide 2026 questionnaire)",
+          "url": "https://ivoterguide.com/candidate/31346/race/33823/election/1487"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; Ballotpedia confirms no Candidate Connection survey; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "health": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "housing": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "immigration": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "taxes": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "climate": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "education": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions",
+        "democracy": "re-checked Oct 14, 2026: iVoterGuide 2026 and 2022 questionnaire items on this issue left unanswered; no campaign website exists (Ballot Brief, Sept 2026); Vote Smart and OpenCampaign list no positions"
       },
       "sources": [
         {
-          "label": "Ballotpedia: Stylo A. Sapaskis",
+          "label": "iVoterGuide 2026 candidate questionnaire",
+          "url": "https://ivoterguide.com/candidate/31346/race/33823/election/1487"
+        },
+        {
+          "label": "iVoterGuide 2022 candidate profile and campaign statement",
+          "url": "https://ivoterguide.com/candidate/31346/race/2163/election/993"
+        },
+        {
+          "label": "Ballotpedia",
           "url": "https://ballotpedia.org/Stylo_Sapaskis"
         },
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-15-duran",
@@ -1742,10 +1980,14 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": "Real estate and business attorney in New Rochelle, NY",
-      "background": "Real estate attorney and Republican candidate for NY-16 in Westchester and the Bronx; the only public page found (politics1's listed URL) is his law-firm biography, with no campaign policy content.",
-      "priorities": [],
+      "home": "New Rochelle, NY",
+      "now": "Attorney, Law Office of Joseph Cinquemani (real estate, business transactions and succession planning)",
+      "background": "A New Rochelle attorney with 32 years in practice and a graduate of Cornell's School of Industrial and Labor Relations, Cinquemani is the father of triplets who attended New Rochelle public schools. This is his first run for office. In September 2026 he sued Mount Vernon after the city blocked a town hall he planned with Bruce Blakeman. He is the Republican nominee against Rep. George Latimer; a League of Women Voters of Westchester debate was scheduled for October 8, 2026.",
+      "priorities": [
+        "Cutting federal spending and taxes",
+        "Recommissioning Indian Point and expanding energy production",
+        "Deregulating health insurance and housing"
+      ],
       "positions": {
         "cost": 2,
         "health": 1,
@@ -1756,7 +1998,7 @@
         "education": null,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "cost": {
@@ -1764,12 +2006,12 @@
           "url": "https://www.cinquemaniforcongress.com"
         },
         "health": {
-          "label": "Offers \"A 3-part healthcare insurance solution: Inform, Expand, Deregulate\", saying \"health insurance is too expensive, too complicated, and too frustrating\"; no public-program expansion proposed (Cinquemani for Congress issues page, 2026)",
+          "label": "Offers 'A 3-part healthcare insurance solution: Inform, Expand, Deregulate,' saying 'health insurance is too expensive, too complicated, and too frustrating'; no public program expansion proposed (Cinquemani for Congress issues page, 2026)",
           "url": "https://www.cinquemaniforcongress.com/issues"
         },
         "housing": {
-          "label": "Housing answer is macro and market-side: \"cut the budget, tame inflation, and lower interest rates to make housing more affordable for all of us here in Westchester\"; no public housing or renter-protection plank (Cinquemani for Congress site, 2026)",
-          "url": "https://www.cinquemaniforcongress.com"
+          "label": "Would address housing by 'eliminating unnecessary regulation to encourage market forces to build housing'; no public housing or renter protection plank (Cinquemani for Congress issues page, 2026)",
+          "url": "https://www.cinquemaniforcongress.com/issues"
         },
         "taxes": {
           "label": "\"Our taxes are too high\": wants \"tax relieve by cutting spending\", \"an across-the-board 10% reduction in federal spending\", and to \"extend the federal income tax withholding exemption to cover all income up to the federal poverty line\" (Cinquemani for Congress issues page, 2026)",
@@ -1778,35 +2020,41 @@
         "climate": {
           "label": "\"Drill, baby, drill!\": tap the Marcellus Shale so New York is \"entirely energy sufficient\" and \"Recommission the Indian Point Energy Center for SMR\", pitched as \"slashing home heating and electric bills\" (Cinquemani for Congress issues page, 2026)",
           "url": "https://www.cinquemaniforcongress.com/issues"
+        },
+        "democracy": {
+          "label": "'The US Supreme Court correctly decided Louisiana v. Callais. Race should not be an issue in forming congressional election districts' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188963"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "immigration": "re-checked Oct 14, 2026: the issues page lists a bare bullet 'State & local law enforcement to cooperate with federal law officers' with no immigration context; no border, ICE or sanctuary statement on any campaign page; iVoterGuide 2026 immigration item unanswered",
+        "education": "re-checked Oct 14, 2026: issues page promotes trade unions as 'a superior, highly lucrative alternative to college' and names 'failing schools' as a problem, with nothing on K-12 funding, vouchers, charters or parental control; iVoterGuide Department of Education item unanswered",
+        "safety": "re-checked Oct 14, 2026: Black Westchester (Aug 5, 2026) quotes him pledging to 'tie federal safety grants directly to strict community oversight and rigorous background standards,' which is police accountability conditioning rather than a prevention or enforcement stance; no bail, sentencing or police funding statement",
+        "repro": "re-checked Oct 14, 2026: no abortion statement on cinquemaniforcongress.com home, about, issues, ideas or direction pages; iVoterGuide 2026 abortion item unanswered"
       },
       "sources": [
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
-        },
-        {
-          "label": "Cinquemani for Congress campaign site",
-          "url": "https://www.cinquemaniforcongress.com"
-        },
-        {
-          "label": "Cinquemani for Congress issues page",
+          "label": "Cinquemani for Congress, issues",
           "url": "https://www.cinquemaniforcongress.com/issues"
+        },
+        {
+          "label": "Cinquemani for Congress, about",
+          "url": "https://www.cinquemaniforcongress.com/about"
+        },
+        {
+          "label": "BallotReady candidate profile",
+          "url": "https://www.ballotready.org/people/joseph-j-cinquemani"
+        },
+        {
+          "label": "Hoodline, GOP challenger sues Mount Vernon over blocked town hall (Sept 15, 2026)",
+          "url": "https://hoodline.com/2026/09/gop-challenger-sues-mount-vernon-over-blocked-town-hall-with-blakeman/"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188963"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "ny-house-26-hannon",
@@ -1821,65 +2069,76 @@
       "age": null,
       "home": null,
       "now": null,
-      "background": "Republican candidate for NY-26 in Buffalo and Western New York, unopposed for the Republican nomination; campaign website could not be fetched.",
-      "priorities": [],
+      "background": "Hannon grew up working in his father's construction business and says parenthood drove him into politics. He launched his campaign on April 11, 2026 with three priorities: reducing crime, easing the cost of living and protecting children in person and online. He runs on the Republican and Conservative lines against Rep. Tim Kennedy.",
+      "priorities": [
+        "Public safety and fentanyl enforcement",
+        "Lowering the cost of living",
+        "Parental rights and homeschooling support"
+      ],
       "positions": {
         "cost": 0,
         "health": null,
         "housing": null,
-        "immigration": 1,
+        "immigration": 2,
         "taxes": null,
         "climate": 2,
-        "education": 1,
-        "safety": 1,
+        "education": 2,
+        "safety": 2,
         "repro": null,
         "democracy": null
       },
       "positionSources": {
         "cost": {
-          "label": "Mixed: direct relief via \"tax rebates\" for \"struggling working class families\" and a pledge to \"reform middle-men pharmacy benefit managers\", paired with supply-side \"less red tape on federal and private land leases\" and barring governments from banning energy sources (Hannon for Congress site, 2026)",
-          "url": "https://hannonforcongress.com"
+          "label": "Mixed: would break up the largest pharmacy benefit managers and suspend the federal gas tax during supply disruptions, paired with streamlined leasing and permitting for domestic energy (Hannon for Congress action plan, 2026)",
+          "url": "https://www.hannonforcongress.com/Hannon_for_congress_action_plan.pdf"
         },
         "immigration": {
-          "label": "\"Enforce immigration and border protection policies with a priortization on serious public safety threats\" and \"Strengthen worksite compliance and lawful hiring\" (Hannon for Congress site, 2026)",
-          "url": "https://hannonforcongress.com"
+          "label": "'Zero tolerance for illegal immigration,' stronger asylum standards, and federal law enforcement grants prioritized for jurisdictions that cooperate with federal authorities (Hannon for Congress action plan, 2026)",
+          "url": "https://www.hannonforcongress.com/Hannon_for_congress_action_plan.pdf"
         },
         "climate": {
-          "label": "\"Prohibit state and local governments from banning or limiting specific energy sources\" and \"Less red tape on federal and private land leases for energy or mineral extraction\", framed as lowering costs (Hannon for Congress site, 2026)",
-          "url": "https://hannonforcongress.com"
+          "label": "'Protect energy choice' by prohibiting state and local bans on lawful energy sources and 'fast-track energy development' through streamlined leasing and permitting for domestic energy and mineral extraction (Hannon for Congress action plan, 2026)",
+          "url": "https://www.hannonforcongress.com/Hannon_for_congress_action_plan.pdf"
         },
         "education": {
-          "label": "Parental-control framing: platform promises to \"let parents be heard\" and \"Respect for parents\", and would \"Designate federally approved sex-ed instructional material that's focused solely around abstinence, STD prevention, and safe sex\" (Hannon for Congress site, 2026)",
-          "url": "https://hannonforcongress.com"
+          "label": "Federal tax credit for homeschooling expenses, homeschooler access to public school sports, and a ban on federal education funds promoting gender transition content to minors (Hannon for Congress action plan, 2026)",
+          "url": "https://www.hannonforcongress.com/Hannon_for_congress_action_plan.pdf"
         },
         "safety": {
-          "label": "\"Public safety that's both tough and smart\": \"Aggressively disrupt fentanyl trafficking networks\", fund \"local and federal agency cooperation through grants\", and \"Reinstate capital punishment eligibility for convicted child rapists\" (Hannon for Congress site, 2026)",
-          "url": "https://hannonforcongress.com"
+          "label": "'Aggressively disrupt fentanyl trafficking networks' and 'Reinstate capital punishment eligibility for convicted child rapists' (BallotReady 2026 profile, reproducing hannonforcongress.com)",
+          "url": "https://www.ballotready.org/people/dennis-e-hannon"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "health": "re-checked Oct 14, 2026: his Ballotpedia survey says only 'lower prescription drug and health care costs, especially for seniors, reform pharmacy benefit managers,' and the action plan's health section is PBM reform scored under cost; no public versus private role stated",
+        "housing": "re-checked Oct 14, 2026: no housing content in the Ballotpedia survey, on the homepage, in the action plan PDF or on BallotReady",
+        "taxes": "re-checked Oct 14, 2026: Ballotpedia survey says 'I will back tax relief for working-class families' and the action plan lists only targeted items (rebates, homeschool credit, gas tax holidays, data center fair share); no across the board cut, spending cut agenda or high earner increase",
+        "repro": "re-checked Oct 14, 2026: no abortion content in the Ballotpedia survey, on the homepage or in the action plan PDF; iVoterGuide Right to Life items unanswered",
+        "democracy": "re-checked Oct 14, 2026: nothing on voting rules in the Ballotpedia survey, on the homepage, in the action plan PDF or on BallotReady; iVoterGuide and Vote411 questionnaires unanswered on the subject"
       },
       "sources": [
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "Hannon for Congress, action plan (PDF)",
+          "url": "https://www.hannonforcongress.com/Hannon_for_congress_action_plan.pdf"
         },
         {
-          "label": "Hannon for Congress campaign site",
-          "url": "https://hannonforcongress.com"
+          "label": "Hannon for Congress",
+          "url": "https://www.hannonforcongress.com/"
+        },
+        {
+          "label": "Ballotpedia Candidate Connection survey, 2026",
+          "url": "https://ballotpedia.org/Dennis_Hannon"
+        },
+        {
+          "label": "BallotReady candidate profile (reproduces campaign planks)",
+          "url": "https://www.ballotready.org/people/dennis-e-hannon"
+        },
+        {
+          "label": "Spectrum News, Dennis Hannon announces campaign for NY-26 (April 12, 2026)",
+          "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/04/12/dennis-hannon-announces-campaign-for-ny-26"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H0NY02234",
@@ -2045,7 +2304,7 @@
         "education": null,
         "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -2075,12 +2334,15 @@
         "safety": {
           "label": "Runs on enforcement capacity, saying he \"hired hundreds of cops\", negotiated a police contract and invested in \"better equipment and expanded training\", and citing a mandatory arrest order that took domestic violence arrests \"from just 146 the previous year to more than 2,400\" (campaign issue page, Safety and Immigration)",
           "url": "https://www.halpinforcongress.com/safety-immigration"
+        },
+        "democracy": {
+          "label": "Calls Louisiana v. Callais 'a dangerous setback that guts vital Voting Rights Act protections and makes it easier for politicians to rig the system' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529532"
         }
       },
       "nullNotes": {
         "education": "his campaign site has nine issue subpages listed in its sitemap and none covers schools; the Building a Better Long Island agenda page, the Issues page and the About page state no position on school funding, choice or student loans; the nine campaign videos cover healthcare, housing, ICE, climate, tariffs and Social Security and none covers education; Ballotpedia lists no profile content and he has not completed the 2026 Candidate Connection survey; the New York Post campaign launch story reposted on his own site mentions drug prevention in schools as a past accomplishment but states no education policy",
-        "repro": "no abortion or reproductive rights item on any of the nine issue subpages in his campaign sitemap, none in the Building a Better Long Island agenda, none among the nine campaign videos; Ballotpedia candidate page is a placeholder with no positions and the 2026 Candidate Connection survey is unanswered; the New York Post campaign launch story and the two Newsday pieces reposted on his site do not quote him on it; he has held no federal office so there is no roll call record",
-        "democracy": "searched Aug 28, 2026: Ballotpedia and race coverage contain no voting-rules or election-law position"
+        "repro": "no abortion or reproductive rights item on any of the nine issue subpages in his campaign sitemap, none in the Building a Better Long Island agenda, none among the nine campaign videos; Ballotpedia candidate page is a placeholder with no positions and the 2026 Candidate Connection survey is unanswered; the New York Post campaign launch story and the two Newsday pieces reposted on his site do not quote him on it; he has held no federal office so there is no roll call record"
       },
       "sources": [
         {
@@ -2150,6 +2412,10 @@
         {
           "label": "Ballotpedia race page",
           "url": "https://ballotpedia.org/New_York%27s_2nd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529532"
         }
       ],
       "curatedAt": "2026-08-17"
@@ -2218,8 +2484,7 @@
       "nullNotes": {
         "housing": "re-checked Sep 2, 2026: no new statement found",
         "taxes": "re-checked Sep 2, 2026: no new statement found beyond the already-noted no vote on H.R.1, which alone does not establish this axis",
-        "education": "re-checked Sep 2, 2026: no new statement found",
-        "democracy": "issues page fetched, no voting/elections statement found (checked Aug 29, 2026)"
+        "education": "re-checked Sep 2, 2026: no new statement found"
       },
       "sources": [
         {
@@ -2303,10 +2568,7 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully, affordability language remains the tax-cut statement already scored under taxes",
         "housing": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully, still no specific building/zoning proposal beyond 'making it easier to buy a home'",
-        "climate": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully, no climate/energy statement, only infrastructure/water content already rejected",
-        "repro": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully, no abortion statement found",
         "democracy": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully, no voting/elections statement found",
         "education": "re-checked Sep 2, 2026: mikelipetri.com/issues fetched fully; site advocates local control from national standards and 'sustainable funding' for districts, but this states a federalism position, not a clear public-investment-vs-choice direction, so it does not score"
       },
@@ -2422,44 +2684,52 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Laura Gillen in NY-4; campaign presence limited to a Facebook page, no dedicated campaign website found.",
-      "priorities": [],
+      "age": 59,
+      "home": "Bellerose Village, NY",
+      "now": "Hempstead Town Receiver of Taxes and attorney",
+      "background": "Raised in Middle Village, Queens, Driscoll earned a B.A. from The Catholic University of America and a J.D. from Fordham Law and practiced law for more than 30 years, also serving as an Associate Village Justice in Bellerose. She was first elected Hempstead Town Receiver of Taxes in 2019 and re elected in 2023. She won the June 23, 2026 Republican primary with about 91 percent and faces first term Rep. Laura Gillen on the Republican and Conservative lines. She is married with five children.",
+      "priorities": [
+        "Restoring the full SALT deduction and lowering taxes",
+        "Securing the southern border",
+        "Supporting police and law and order"
+      ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": 2,
-        "taxes": 1,
+        "taxes": 2,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": null
       },
       "positionSources": {
         "taxes": {
-          "label": "Pledges to \"lower the tax burden by restoring the full State and Local Tax (SALT) Deduction\" and faults Rep. Gillen for voting against \"quadrupling the SALT deduction, ending taxes on tips and overtime\" and \"eliminating taxes on Social Security benefits for 88% of seniors\" (Driscoll for Congress site, 2026)",
-          "url": "https://www.driscoll4congress.com"
+          "label": "Faults Gillen for 'voting against extending the Trump administration's tax cuts,' would 'lead the fight to fully restore the SALT deduction' and 'lower taxes on small businesses' (LI Life and Politics, April 2026; Patch questionnaire)",
+          "url": "https://lilifepolitics.com/news/politics/hempstead-tax-receiver-seeks-to-unseat-gillen-in-congressional-election/"
         },
         "immigration": {
           "label": "Vows to \"ensure the southern border can never be opened again\" and attacks Gillen for voting against \"records funding to secure the border and prevent another migrant crisis\"; bio lists \"a secure southern border\" as a top priority (Driscoll for Congress site, 2026)",
           "url": "https://www.driscoll4congress.com"
+        },
+        "cost": {
+          "label": "Says the quickest way to make Long Island more affordable is easing the tax burden, and criticizes candidates who promise 'free housing,' rent freezes and 'free childcare' (Patch questionnaire, June 2026; Breitbart interview, July 2026)",
+          "url": "https://patch.com/new-york/longisland/new-york-primary-previews-meet-jeanine-driscoll-candidate-new-york-s-4th"
+        },
+        "safety": {
+          "label": "Wants police 'fully funded, respected, and supported': 'If you don't have law and order, the communities fall apart' (Breitbart interview, July 16, 2026)",
+          "url": "https://www.breitbart.com/politics/2026/07/16/exclusive-jeanine-driscoll-campaign-reclaim-long-island-house-seat/"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no campaign website listed, only a Facebook page; still unfindable",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "health": "checked Oct 14, 2026: driscoll4congress.com homepage and Meet Jeanine page, the June 2026 Patch questionnaire and the July 2026 Breitbart interview contain no health care statement beyond a line on funding Social Security",
+        "housing": "checked Oct 14, 2026: no building, zoning or renter statement on driscoll4congress.com, in the Patch questionnaire or the Breitbart interview; her criticism of 'free housing' promises is scored under cost",
+        "climate": "checked Oct 14, 2026: nothing on energy or climate on driscoll4congress.com, in the Patch questionnaire, the Breitbart interview or LI Life and Politics",
+        "education": "checked Oct 14, 2026: nothing on schools, vouchers or parental control on driscoll4congress.com, in the Patch questionnaire or the Breitbart interview",
+        "repro": "checked Oct 14, 2026: no abortion statement on driscoll4congress.com, in the Patch questionnaire, the Breitbart interview or LI Life and Politics; searches for her name with abortion returned nothing on the record",
+        "democracy": "checked Oct 14, 2026: no voting rules statement on driscoll4congress.com, in the Patch questionnaire or the Breitbart interview; Newsday and LI Herald coverage could not be fetched"
       },
       "sources": [
         {
@@ -2467,57 +2737,83 @@
           "url": "https://www.fec.gov/data/candidate/H6NY04211/"
         },
         {
-          "label": "Politics1 New York 2026 candidate list",
-          "url": "https://www.politics1.com/ny.htm"
+          "label": "Driscoll for Congress",
+          "url": "https://www.driscoll4congress.com"
         },
         {
-          "label": "Driscoll for Congress campaign site",
-          "url": "https://www.driscoll4congress.com"
+          "label": "Patch, Meet Jeanine Driscoll candidate questionnaire (June 18, 2026)",
+          "url": "https://patch.com/new-york/longisland/new-york-primary-previews-meet-jeanine-driscoll-candidate-new-york-s-4th"
+        },
+        {
+          "label": "LI Life and Politics, Hempstead tax receiver seeks to unseat Gillen (April 15, 2026)",
+          "url": "https://lilifepolitics.com/news/politics/hempstead-tax-receiver-seeks-to-unseat-gillen-in-congressional-election/"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H6NY04237",
       "name": "Blay Tarnoff",
-      "party": "Independent",
+      "party": "Libertarian",
       "district": "4",
       "state": "NY",
       "office": "us-house",
       "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "withdrawn",
+      "tier": "curated",
+      "ballotStatus": "nominee",
       "home": "Port Washington, NY",
-      "background": "Tarnoff is a Nassau County attorney and technologist who has been a Libertarian activist and representative since 1990. He is County Chair of the Nassau County Libertarian Party and Chair of the Libertarian National Judicial Committee, and the Libertarian Party of New York lists him as its 2026 candidate in the 4th Congressional District, though his FEC registration is as an independent. He holds a J.D. from Pace University and an A.B. in mathematics from Brown University, and has worked as a computer systems analyst providing technical support for quantitative financial analysts on Wall Street and as a neural network system developer and presenter at NVIDIA GPU Technology Conferences.",
+      "background": "A Libertarian activist since 1990, Tarnoff chairs the Nassau County Libertarian Party and is immediate past chair of the Libertarian National Judicial Committee. He holds a J.D. from Pace University and an A.B. in mathematics from Brown University and has worked as a computer systems analyst, most recently supporting quantitative financial analysts on Wall Street. He is certified on the Libertarian line for the 4th District on November 3, 2026; his FEC registration lists him as an independent. Prior runs include Nassau County Comptroller in 2009, the Nassau Legislature in 2019 and the state Assembly in 2020.",
       "priorities": [
-        "health care",
-        "affordability and inflation",
-        "civil liberty"
+        "Ending government involvement in health care",
+        "Abolishing federal administrative agencies and the income tax",
+        "Ending inflation by pegging the dollar to gold or bitcoin"
       ],
       "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
+        "cost": 2,
+        "health": 2,
+        "housing": 1,
         "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "taxes": 2,
+        "climate": 2,
+        "education": 2,
         "safety": null,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Would 'phase out all foreign aid and subsidies' and 'end inflation by pegging the dollar to gold or bitcoin' (Libertarian Party of New York campaign launch release, Sept 2026)",
+          "url": "https://lpny.org/2026/09/30/blay-tarnoff-launches-campaign-for-congress/"
+        },
+        "taxes": {
+          "label": "Would end 'the criminally intrusive income tax' and privatize then abolish federal administrative agencies (campaign site, blay.us; LPNY campaign launch release)",
+          "url": "https://tarnoff.mystrikingly.com/"
+        },
+        "health": {
+          "label": "'We must end government involvement in health care and allow free market competition to bring back the transparency, quality, affordability, and trust in medical care we once enjoyed' (campaign site, blay.us)",
+          "url": "https://tarnoff.mystrikingly.com/"
+        },
+        "climate": {
+          "label": "Would replace EPA regulation with private and class action lawsuits against polluters, says 'a booming economy is essential to producing a clean and healthy environment,' and calls climate policy a socialist lever (campaign site, blay.us; Vote411 questionnaire, 2026)",
+          "url": "https://tarnoff.mystrikingly.com/"
+        },
+        "education": {
+          "label": "Champions 'the right to seek or provide education, medical care or anything else of your choice without government regulation, competition or interference' (Ballotpedia Candidate Connection survey, 2026)",
+          "url": "https://ballotpedia.org/Blay_Tarnoff"
+        },
+        "democracy": {
+          "label": "Agrees with Louisiana v. Callais that 'the government should be completely color-blind' in drawing districts (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188920"
+        },
+        "housing": {
+          "label": "Objects that government has 'WAY too much power' including 'to determine what you may do with your own property,' and says deregulation will let everyone afford 'housing of their choice'; no public housing or renter plank (Vote411 questionnaire, 2026; campaign site, blay.us)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188920"
+        }
+      },
       "nullNotes": {
-        "cost": "his Libertarian Party of New York candidate profile lists only bare topic tags including Affordability and Inflation with no stated position, his campaign site blay.us returns 403 to every fetch including the root and sitemap, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "health": "his Libertarian Party of New York candidate profile lists Health Care as a bare topic tag with no stated position, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "housing": "his Libertarian Party of New York candidate profile has no housing tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "immigration": "his Libertarian Party of New York candidate profile has no immigration tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "taxes": "his Libertarian Party of New York candidate profile has no tax tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "climate": "his Libertarian Party of New York candidate profile lists Environment as a bare topic tag with no stated position, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "education": "his Libertarian Party of New York candidate profile has no education tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "safety": "his Libertarian Party of New York candidate profile has no policing or criminal justice tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "repro": "his Libertarian Party of New York candidate profile has no abortion tag or statement, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record",
-        "democracy": "his Libertarian Party of New York candidate profile lists Civil Liberty and Liberty as bare topic tags with nothing about voting rules, his campaign site blay.us returns 403 to every fetch, no Ballotpedia candidate page exists, no Vote Smart profile reachable, no news coverage found, and he holds no office so there is no legislative record"
+        "immigration": "checked Oct 14, 2026: nothing on immigration in the Ballotpedia survey, the Vote411 questionnaire, blay.us (health care, environment, affordability, inflation, liberty sections) or the LPNY release",
+        "safety": "checked Oct 14, 2026: blay.us Liberty section concerns self defense rights (guns, ignored per rule) and investigations of political opponents, with nothing on policing, prevention or sentencing; Ballotpedia and Vote411 silent",
+        "repro": "checked Oct 14, 2026: no abortion statement in the Ballotpedia survey, the Vote411 questionnaire, blay.us or the LPNY release"
       },
       "sources": [
         {
@@ -2525,15 +2821,28 @@
           "url": "https://www.fec.gov/data/candidate/H6NY04237/"
         },
         {
-          "label": "Libertarian Party of New York candidate profile",
-          "url": "https://lpny.org/candidate/2026-blay-tarnoff/"
+          "label": "Tarnoff for Congress (blay.us), issues in depth",
+          "url": "https://tarnoff.mystrikingly.com/"
         },
         {
-          "label": "Libertarian Party of New York candidates index",
-          "url": "https://www.lpny.org/candidates/"
+          "label": "Ballotpedia Candidate Connection survey, 2026",
+          "url": "https://ballotpedia.org/Blay_Tarnoff"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188920"
+        },
+        {
+          "label": "Libertarian Party of New York, campaign launch release (Sept 30, 2026)",
+          "url": "https://lpny.org/2026/09/30/blay-tarnoff-launches-campaign-for-congress/"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
         }
       ],
-      "curatedAt": "2026-08-17"
+      "curatedAt": "2026-10-14",
+      "now": "Chair of the Nassau County Libertarian Party; career computer systems analyst"
     },
     {
       "id": "fec-H2NY06116",
@@ -2986,10 +3295,10 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
+      "age": 44,
       "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Alexandria Ocasio-Cortez in the Bronx/Queens, campaigning on affordability and a pro-police, accountability-focused public safety message.",
+      "now": "President of DCG New York Inc., a construction and development firm",
+      "background": "Born in 1982 on a farm in Kosovo, Hysenaj fled with his family to the Bronx in 1991. He earned an associate degree from SUNY Westchester Community College, started a construction company in 2005 that closed after the 2008 crisis, and founded DCG New York in 2014. He is married with two children and is on the Republican and Conservative lines against Rep. Alexandria Ocasio-Cortez.",
       "priorities": [
         "Affordability",
         "Streamlined housing construction with tenant protections",
@@ -3026,12 +3335,12 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: votefordiamant.com homepage fetched, only rhetorical questions about grocery/rent/healthcare/childcare costs, no stated policy direction",
-        "health": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, 'fight for affordable, accessible healthcare, real solutions not bandaids' still has no public-vs-private policy direction",
-        "climate": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, only a 'local green jobs' transit mention, does not fit this axis",
-        "education": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no education statement found",
-        "repro": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: votefordiamant.com plan page fetched, no voting/elections statement found"
+        "cost": "re-checked Oct 14, 2026: votefordiamant.com homepage planks ('Affordable Rent. Quality Homes', 'Lower your healthcare cost') and plan page state no price intervention or deregulation direction; iVoterGuide 2026 questionnaire unanswered",
+        "health": "re-checked Oct 14, 2026: plan page says 'Get rid of waste and fraud, giving back to the people, not the insurance companies' with no public or private role stated; iVoterGuide unanswered",
+        "climate": "re-checked Oct 14, 2026: plan page has only 'A Cleaner, smarter NY-14' and a green jobs transit line; iVoterGuide energy item unanswered",
+        "education": "re-checked Oct 14, 2026: nothing on education on votefordiamant.com plan, home or story pages, in the NY Post profile or on iVoterGuide",
+        "repro": "re-checked Oct 14, 2026: no abortion statement on votefordiamant.com or in press; iVoterGuide Right to Life items unanswered; Ballotpedia survey not completed",
+        "democracy": "re-checked Oct 14, 2026: no voting rules statement on votefordiamant.com or in press; iVoterGuide voting item unanswered"
       },
       "sources": [
         {
@@ -3039,15 +3348,19 @@
           "url": "https://www.fec.gov/data/candidate/H6NY14251/"
         },
         {
-          "label": "Vote for Diamant, Plan for NY-14",
+          "label": "Diamant Hysenaj for Congress, plan for NY-14",
           "url": "https://votefordiamant.com/diamants-plan-for-ny-14"
         },
         {
-          "label": "Vote for Diamant, home",
-          "url": "https://votefordiamant.com/"
+          "label": "Diamant Hysenaj for Congress, my story",
+          "url": "https://votefordiamant.com/my-story"
+        },
+        {
+          "label": "New York Post via AOL, GOP businessman and immigrant takes on AOC (June 29, 2025)",
+          "url": "https://www.aol.com/news/diamant-hysenaj-gop-businessman-immigrant-180934733.html"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H4NY16087",
@@ -3116,9 +3429,7 @@
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: no new statement found on homepage or issues pages",
-        "health": "re-checked Sep 2, 2026: no healthcare statement found",
-        "housing": "re-checked Sep 2, 2026: no housing statement found",
-        "education": "re-checked Sep 2, 2026: no education statement found"
+        "housing": "re-checked Sep 2, 2026: no housing statement found"
       },
       "sources": [
         {
@@ -3490,58 +3801,64 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Pat Ryan in the Hudson Valley, campaigning broadly on affordability and government accountability.",
+      "age": 29,
+      "home": "Kingston, NY",
+      "now": "Project manager and managerial accountant at her family's construction business, Urban Precast",
+      "background": "A Kingston native, Auringer works as a project manager and managerial accountant in her family's precast concrete and crane business, Urban Precast. She entered the race in April 2026 after the prior Republican candidate withdrew, survived a Democratic petition challenge and was certified on the ballot in May. She runs on the Republican and Conservative lines against two term Rep. Pat Ryan; a candidate forum at Mount Saint Mary College was set for October 22, 2026.",
       "priorities": [
-        "Lowering taxes and everyday costs",
-        "Good-paying jobs and workforce education",
-        "Government accountability"
+        "Lowering taxes and the cost of living",
+        "Backing law enforcement and immigration enforcement",
+        "Voter ID and election security"
       ],
       "positions": {
-        "cost": 1,
+        "cost": 2,
         "health": null,
         "housing": 1,
-        "immigration": 1,
-        "taxes": 1,
-        "climate": null,
+        "immigration": 2,
+        "taxes": 2,
+        "climate": 1,
         "education": 1,
-        "safety": null,
+        "safety": 1,
         "repro": null,
         "democracy": 1
       },
       "positionSources": {
         "cost": {
-          "label": "Would address 'taxes, energy costs, everyday expenses, and healthcare costs to ensure more' income stays with families and businesses (campaign site)",
-          "url": "https://winwithjackie.com/"
+          "label": "'The answer isn't more government programs to help people survive an unaffordable New York'; wants to 'build more housing, rein in energy costs, make childcare affordable, and reduce the tax burden' (campaign statement, Aug 11, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-statement-hudson-valley-affordability-crisis-august-2026"
         },
         "education": {
           "label": "Praised the federal K-12 scholarship tax credit: 'We should be empowering parents and students with more options, not fewer' while also supporting 'strong public schools' (campaign press release, May 11, 2026)",
           "url": "https://winwithjackie.com/press/auringer-praises-educational-choice-may-2026"
         },
         "democracy": {
-          "label": "Frames voter ID as 'protecting confidence in American elections' and attacks Ryan for claiming 'voter identification is unacceptable' (campaign press release, Jul 24, 2026)",
-          "url": "https://winwithjackie.com/press/auringer-pat-ryan-profits-from-identity-verification-abroad-but-opposes-voter-id-at-home"
+          "label": "Calls voter ID a 'basic standard' that should apply 'to voting here in America' and calls Ryan 'a hypocrite when it comes to securing our elections' for voting against a resolution backing citizenship verification, voter ID and the SAVE America Act (campaign press releases, Jul 24 and Sep 2, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-pat-ryan-not-socialist-with-his-money-september-2026"
         },
         "immigration": {
-          "label": "Opposes siting an ICE facility in Newburgh without local input but says when Albany 'blocks the use of existing, professional, well-run local facilities, like our county jails' for immigration enforcement, federal alternatives follow; Albany 'made it more chaotic' (campaign press release, Jul 6, 2026)",
-          "url": "https://winwithjackie.com/press/auringer-opposes-ice-facility-newburgh"
+          "label": "Backs the Orange County Sheriff's ICE jail agreement: Hochul's order ending it 'doesn't make our communities safer,' and she supports 'his decision to challenge this law' (campaign press release, Sept 3, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-stands-with-orange-county-sheriff-paul-arteta-september-2026"
         },
         "taxes": {
-          "label": "Opposed a proposed Ulster County income-tax surcharge: 'Once government creates a new tax, it rarely stops with the people it first claims to target'; wants officials to 'live within their means' (campaign press release, May 23, 2026)",
-          "url": "https://winwithjackie.com/press/auringer-blasts-ulster-county-income-tax-surcharge-may-2026"
+          "label": "Praises the SALT cap increase to $40,000, no tax on tips and Social Security tax relief and attacks Ryan for voting no: 'We need leaders who will lower costs, cut taxes' (campaign press release, May 22, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-praises-trump-lawler-salt-relief-may-2026"
         },
         "housing": {
-          "label": "Running on 'cutting red tape behind rising housing costs' to make 'the Hudson Valley a place people can afford to stay' (campaign op-ed, May 18, 2026)",
-          "url": "https://winwithjackie.com/press/icymi-why-im-running-for-congress-ny18"
+          "label": "Wants to 'build more housing' and says 'Housing costs too much'; no renter protection or public housing plank (campaign statement, Aug 11, 2026)",
+          "url": "https://winwithjackie.com/press/auringer-statement-hudson-valley-affordability-crisis-august-2026"
+        },
+        "climate": {
+          "label": "Blames Ryan's 'million-panel promise' and the state's Clean Energy Standard push for 'sky-high utility costs' and says 'Ryan never once told you what it would cost'; no clean energy plank of her own (campaign press release, Sept 21, 2026)",
+          "url": "https://winwithjackie.com/press/day-1-pat-ryan-failure-tour-million-panel-promise"
+        },
+        "safety": {
+          "label": "'I believe in backing the blue'; says she 'stands with law enforcement' and attacked Ryan's no vote on the National Police Week resolution, with no bail or sentencing specifics (Mid-Hudson News letter, May 17, 2026; campaign release, May 14, 2026)",
+          "url": "https://midhudsonnews.com/2026/05/17/letter-to-the-editor-why-im-running-for-congress-in-ny-18/"
         }
       },
       "nullNotes": {
-        "health": "re-checked Sep 2, 2026: winwithjackie.com fetched, 'Lowering the Cost of Living' groups taxes/energy/healthcare costs together with no distinct public-vs-private direction",
-        "climate": "re-checked Sep 2, 2026: winwithjackie.com fetched, no separate climate/energy statement beyond the cost bundle",
-        "safety": "re-checked Sep 2, 2026: winwithjackie.com fetched, 'protecting residents rights and public safety' listed only as a slogan under government accountability, no specific policy",
-        "repro": "re-checked Sep 2, 2026: winwithjackie.com fetched, no abortion statement found"
+        "health": "re-checked Oct 14, 2026: her June 24 and Sept 15 releases attack Ryan's hospital lobby ties with no policy of her own, her letter mentions 'treating mental health like an emergency' with no public or private direction; iVoterGuide health item unanswered; Daily Freeman debate coverage (Oct 3, 2026) could not be fetched",
+        "repro": "re-checked Oct 14, 2026: none of the 119 release titles on winwithjackie.com/press concern abortion, the issues page is silent, iVoterGuide abortion item unanswered; Daily Freeman debate coverage (Oct 3, 2026) could not be fetched"
       },
       "sources": [
         {
@@ -3549,27 +3866,19 @@
           "url": "https://www.fec.gov/data/candidate/H6NY18252/"
         },
         {
-          "label": "Win With Jackie",
-          "url": "https://winwithjackie.com/"
+          "label": "Auringer for Congress, press releases",
+          "url": "https://winwithjackie.com/press"
         },
         {
-          "label": "Auringer press release on educational choice, May 11, 2026",
-          "url": "https://winwithjackie.com/press/auringer-praises-educational-choice-may-2026"
+          "label": "Mid-Hudson News, letter: why I'm running for Congress in NY-18 (May 17, 2026)",
+          "url": "https://midhudsonnews.com/2026/05/17/letter-to-the-editor-why-im-running-for-congress-in-ny-18/"
         },
         {
-          "label": "Auringer press release on voter ID, Jul 24, 2026",
-          "url": "https://winwithjackie.com/press/auringer-pat-ryan-profits-from-identity-verification-abroad-but-opposes-voter-id-at-home"
-        },
-        {
-          "label": "Auringer statement on Newburgh ICE facility, Jul 6, 2026",
-          "url": "https://winwithjackie.com/press/auringer-opposes-ice-facility-newburgh"
-        },
-        {
-          "label": "Auringer statement on Ulster County tax surcharge, May 23, 2026",
-          "url": "https://winwithjackie.com/press/auringer-blasts-ulster-county-income-tax-surcharge-may-2026"
+          "label": "Spectrum News, Republican businesswoman Jackie Auringer enters race for NY-18 (April 13, 2026)",
+          "url": "https://spectrumlocalnews.com/nys/hudson-valley/politics/2026/04/13/republican-businesswoman-jackie-auringer-enters-race-for-ny-18-seat"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H8NY22177",
@@ -3889,9 +4198,7 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: tonko.house.gov news feed checked (document type 27), no cost-of-living statement found",
         "housing": "re-checked Sep 2, 2026: no housing policy statement found in news feed",
-        "taxes": "re-checked Sep 2, 2026: news feed shows only headline-level tax-related items, no quotable stance text retrievable",
         "education": "re-checked Sep 2, 2026: no new education statement found beyond already-noted STEM/workforce programs"
       },
       "sources": [
@@ -4085,24 +4392,24 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican candidate for the open North Country NY-21 seat being vacated by Rep. Elise Stefanik, running on a Trump-aligned border-security and deregulation platform.",
+      "home": "Edinburg, NY",
+      "now": "Founder and CEO of Sticker Mule, Amsterdam, NY",
+      "background": "Constantino founded Sticker Mule in Amsterdam, New York in 2010; the printing company now employs more than 1,000 people. He holds a 2004 economics degree from Rensselaer Polytechnic Institute, was endorsed by President Trump in April 2026, won the June 23 primary over Assemblyman Robert Smullen and is self funding his campaign. He appears on the Republican and Taxpayer Rights lines against Democrat Blake Gendebien, who skipped the October 6, 2026 CBS6 debate that Constantino did alone.",
       "priorities": [
-        "Cutting waste and regulations to lower costs",
-        "Permanently securing the northern border",
-        "Opposing green-energy regulations"
+        "Cutting waste, regulations and taxes",
+        "Securing the border",
+        "Expanding American oil, gas and energy production"
       ],
       "positions": {
         "cost": 1,
         "health": 1,
         "housing": null,
         "immigration": 2,
-        "taxes": null,
+        "taxes": 2,
         "climate": 2,
         "education": null,
-        "safety": null,
-        "repro": null,
+        "safety": 1,
+        "repro": 2,
         "democracy": null
       },
       "positionSources": {
@@ -4111,25 +4418,34 @@
           "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
         },
         "immigration": {
-          "label": "Would 'permanently secure the northern border' and work to 'stop drugs, crime, terrorism, and low-wage labor' from crossing it (campaign agenda page)",
-          "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
+          "label": "'Millions of people are pouring into our country illegally. When President Trump secured the border, he stopped all that'; would 'permanently secure the northern border' (CBS6 debate coverage, Oct 6, 2026; campaign agenda page)",
+          "url": "https://cbs6albany.com/news/local/anthony-constantino-discusses-tariffs-energy-and-iran-after-blake-gendebien-misses-debate-ny-21-cbs6-wrgb"
         },
         "climate": {
-          "label": "Opposes 'insane... green energy regulations' that raise costs, citing solar-farm impacts on farmland (campaign agenda page)",
-          "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
+          "label": "'We're for drill, baby, drill. We're for developing American energy'; opposes 'insane... green energy regulations' and 'unfair solar farm deals' (CBS6 debate coverage, Oct 6, 2026; campaign agenda page)",
+          "url": "https://cbs6albany.com/news/local/anthony-constantino-discusses-tariffs-energy-and-iran-after-blake-gendebien-misses-debate-ny-21-cbs6-wrgb"
         },
         "health": {
           "label": "Says he is 'the only candidate who wants to stop the endless debate about making [healthcare] free to focus on innovation and delivering better outcomes' (Ballotpedia Candidate Connection survey)",
           "url": "https://ballotpedia.org/Anthony_Constantino"
+        },
+        "taxes": {
+          "label": "'I like all tax cuts'; the paper reports he said there is bloat in every federal budget that he would cut (Adirondack Daily Enterprise via Daily Gazette, Oct 9, 2026)",
+          "url": "https://www.dailygazette.com/ade/constantino-saranac-lake-republican-rally/article_cb864606-6713-4886-bd03-da4c85148218.html"
+        },
+        "safety": {
+          "label": "'I want to support our law enforcement 100%'; accepting the police union's endorsement he pledged to 'back the people who keep us safe,' with no bail or sentencing specifics (NNY360, Jan 20, 2026; campaign release on IUPA endorsement, Sept 30, 2026)",
+          "url": "https://www.constantino.com/press/iupa/"
+        },
+        "repro": {
+          "label": "Pro life 'with exceptions only in cases of rape, incest, and when the life of the mother is at risk,' would 'oppose taxpayer funding of abortion'; endorsed by New York Right to Life (campaign release, Oct 12, 2026)",
+          "url": "https://www.constantino.com/press/nylife/"
         }
       },
       "nullNotes": {
-        "housing": "re-checked Sep 2, 2026: constantino.com press page fetched, no housing statement found",
-        "taxes": "re-checked Sep 2, 2026: constantino.com press page fetched, no tax-rate statement beyond general jobs/manufacturing framing",
-        "education": "re-checked Sep 2, 2026: constantino.com press page fetched, no education statement found",
-        "safety": "re-checked Sep 2, 2026: constantino.com press page fetched, same border-security content already scored under immigration, no separate domestic safety statement",
-        "repro": "re-checked Sep 2, 2026: constantino.com press page fetched, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: constantino.com press page fetched, no voting/elections statement found"
+        "housing": "re-checked Oct 14, 2026: no housing statement on the agenda page, constantino.com press releases, the Ballotpedia survey, or in WCAX, WAMC, WNYT, CBS6, Daily Gazette, Adirondack Daily Enterprise or Press-Republican coverage",
+        "education": "re-checked Oct 14, 2026: no education statement on the agenda page, constantino.com press releases or the Ballotpedia survey; iVoterGuide Department of Education item unanswered",
+        "democracy": "re-checked Oct 14, 2026: his election related remarks concern dark money, sign theft and an FEC complaint against Gendebien, not voting access or voter ID; iVoterGuide voter ID item unanswered"
       },
       "sources": [
         {
@@ -4137,15 +4453,29 @@
           "url": "https://www.fec.gov/data/candidate/H6NY21157/"
         },
         {
-          "label": "Constantino's Agenda",
+          "label": "Constantino's agenda for NY-21 (campaign page)",
           "url": "https://www.stickermule.com/write/constantino/constantinos-agenda-to-improve-lives-in-new-yorks-21st-congressional-district"
         },
         {
-          "label": "Ballotpedia Candidate Connection, Anthony Constantino",
+          "label": "Ballotpedia Candidate Connection survey",
           "url": "https://ballotpedia.org/Anthony_Constantino"
+        },
+        {
+          "label": "CBS6 Albany, Constantino discusses tariffs, energy and Iran after Gendebien misses debate (Oct 6, 2026)",
+          "url": "https://cbs6albany.com/news/local/anthony-constantino-discusses-tariffs-energy-and-iran-after-blake-gendebien-misses-debate-ny-21-cbs6-wrgb"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14",
+      "controversies": [
+        {
+          "label": "The Saint Regis Mohawk Tribal Council demanded an apology over a since deleted video discussing border policy at Akwesasne; Constantino replied that 'it's objectively true that Native American borders are relatively porous' (CBS6 Albany, Oct 5, 2026)",
+          "url": "https://cbs6albany.com/news/local/saint-regis-mohawk-tribe-rebukes-deleted-video-by-gop-candidate-local-business-owner"
+        },
+        {
+          "label": "Gendebien ads cite 'Kill the Police' stickers once printed by Sticker Mule; Constantino says an independent contractor offered the design in violation of company policy (Press-Republican, Sept 18, 2026)",
+          "url": "https://www.pressrepublican.com/news/ny-21-race-commercial-campaign-heats-up/article_f167aeb6-9eef-4f1f-9014-641d658324f3.html"
+        }
+      ]
     },
     {
       "id": "fec-H4NY22085",
@@ -4307,9 +4637,6 @@
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: campaign blog affordability/energy-cost framing still overlaps entirely with already-scored axes",
-        "immigration": "re-checked Sep 2, 2026: no immigration statement found, /issues/ still 404s",
-        "education": "re-checked Sep 2, 2026: no education statement found",
         "repro": "re-checked Sep 2, 2026: no abortion statement found",
         "democracy": "re-checked Sep 2, 2026: no voting/elections statement found despite targeted search"
       },
@@ -4475,7 +4802,7 @@
         "housing": null,
         "immigration": 0,
         "taxes": -2,
-        "climate": null,
+        "climate": -2,
         "education": -2,
         "safety": null,
         "repro": -2,
@@ -4509,10 +4836,13 @@
         "democracy": {
           "label": "Calls the Louisiana v. Callais ruling 'a slap in the face to Black voters' and pledges to fight for federal fair maps legislation to abolish gerrymandering (campaign press release)",
           "url": "https://aaronforny23.com/press-release/gies-speaks-out-against-supreme-courts-attack-on-voting-rights-calls-for-federal-action/"
+        },
+        "climate": {
+          "label": "'Climate change is caused by human choices'; supports 'expanding clean energy, zero-emission transit, climate-smart farming' and 'making polluters, not working families, pay for damages' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529616"
         }
       },
       "nullNotes": {
-        "climate": "campaign site priorities and Taking a Stand sections have no climate, emissions or clean energy plank, only 'invest in sustainable farming practices' under agriculture, Ballotpedia 2026 Candidate Connection survey unanswered, and the endorsement releases from Citizen Action, Lake Effect Change and the Working Families Party carry no energy statement; his STAMP data center opposition is argued purely on utility bills and property taxes, not on climate",
         "safety": "campaign site priorities and Taking a Stand sections cover rule of law, speech and gun safety but no policing, sentencing, reentry or criminal justice plank, Ballotpedia 2026 Candidate Connection survey unanswered, and no such statement in the town hall tour, primary night or endorsement press releases fetched",
         "housing": "verify gate: the cited section's only housing content is supply expansion, redevelopment and construction jobs, and the words zoning, permitting, renter, tenant and public housing are all absent, so neither pole is documented and a 0 would be wrong because 0 requires both sides quoted; also checked his priorities section, his endorsement releases and his Ballotpedia page, whose survey is unanswered"
       },
@@ -4556,6 +4886,10 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NY23559/"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529616"
         }
       ],
       "curatedAt": "2026-08-17"
@@ -4663,59 +4997,67 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
-      "home": null,
-      "now": null,
-      "background": "Democratic challenger to Rep. Claudia Tenney in central New York, campaigning on Medicaid protection, housing tax credits, and reproductive rights.",
+      "age": 42,
+      "home": "Lockport, NY",
+      "now": "Full time candidate; former Buffalo VA program support assistant and special education teacher",
+      "background": "Ellman enlisted in the Army National Guard at 17, deployed to Afghanistan in 2003 and 2004 as a flight operations specialist, then worked for Halliburton in Kandahar. She earned a special education degree from Niagara University and taught in Lockport for about a decade before working in the Buffalo VA's education division, where her job was eliminated in the February 2025 federal workforce cuts. She won the June 23, 2026 Democratic primary over Diana Kastenbaum and runs on the Democratic and Working Families lines against four term Rep. Claudia Tenney.",
       "priorities": [
-        "Childcare access and small-business support",
-        "Protecting and expanding Medicaid",
+        "Health care for everybody and Medicare expansion",
+        "Childcare access and cost of living",
         "Protecting abortion rights"
       ],
       "positions": {
-        "cost": -1,
-        "health": -1,
-        "housing": -1,
-        "immigration": -1,
-        "taxes": null,
-        "climate": null,
+        "cost": -2,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
         "education": -1,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "cost": {
-          "label": "Would 'expand access to childcare' and support small-business aid and home-repair programs (campaign site)",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Would support a universal basic income 'so people are not working three jobs,' expand childcare access and offer subsidies to insulate homes including rentals (OrleansHub forum report, June 22, 2026; campaign site; Spectrum News)",
+          "url": "https://orleanshub.com/?p=246438"
         },
         "health": {
-          "label": "Will 'protect and expand Medicaid coverage,' opposing cuts that would remove 31,000 district residents from coverage (campaign site)",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Supports a single payer system and 'healthcare for everybody,' would 'expand Medicare down to age 45 for people who work in laborious jobs' and 'protect and expand Medicaid coverage' (Oswego County News Now debate report, May 9, 2026; CNY Central, Aug 31, 2026; campaign site)",
+          "url": "https://www.oswegocountynewsnow.com/news/democratic-congressional-candidates-differ-on-guns-nukes-in-first-debate/article_c3bad412-b798-4cb4-89cd-1106d6c8c74a.html"
         },
         "housing": {
-          "label": "Supports expanding the low-income housing tax credit to improve district affordability (campaign site)",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Mixed: would expand the low income housing tax credit and fund home repair programs, and 'proposes a federal incentive for states and local governments to speed up housing approval processes' (The Daily News, Batavia, Aug 11, 2026; campaign site)",
+          "url": "https://www.thedailynewsonline.com/news/ellman-pitches-solutions-focused-campaign-in-bid-against-tenney/article_3099ab38-ed98-4023-af80-3fc7701f3a6f.html"
         },
         "immigration": {
-          "label": "'Believes there is a place for anyone who wants to call America their home,' advocating welcoming immigration policies (campaign site)",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Supports 'a President Ronald Reagan-style amnesty program and a pathway to citizenship' for immigrants working and paying taxes here, and favors abolishing ICE (Oswego County News Now debate report, May 9, 2026; OrleansHub, June 22, 2026)",
+          "url": "https://www.oswegocountynewsnow.com/news/democratic-congressional-candidates-differ-on-guns-nukes-in-first-debate/article_c3bad412-b798-4cb4-89cd-1106d6c8c74a.html"
         },
         "repro": {
-          "label": "Described as 'a defender of a woman's right to choose,' opposing the incumbent's anti-abortion stance (campaign site)",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Campaign site calls her 'a defender of a woman's right to choose' and contrasts Tenney as 'ardently anti-choice'; no codify Roe specifics found (campaign site)",
+          "url": "https://www.ellmanforcongress.com/issues"
         },
         "education": {
-          "label": "Wants to extend public school education down to age 2 as part of making family life more affordable (WRVO, Jun 22, 2026)",
-          "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
+          "label": "Priorities include 'investing in public education' and extending public school down to age 2 (CNY Central, Aug 31, 2026; WRVO, June 22, 2026)",
+          "url": "https://cnycentral.com/news/local/race-for-ny-24-heats-up-as-democratic-challenger-seeks-to-flip-district-in-november-plamyra-wayne-county-alissa-ellman-election-federal-worker"
+        },
+        "taxes": {
+          "label": "Plan includes 'a better tax structure and enforcement for corporations and large companies': Amazon 'should be paying the exact same tax rate, if not more, than you or me' (Adirondack Daily Enterprise via Daily Gazette, Aug 7, 2025)",
+          "url": "https://www.dailygazette.com/ade/archives/u-s-army-vet-laid-off-federal-employee-campaigns-for-congress-in-ny-24/article_33771142-92cd-51e3-b4bf-eab399b60f1c.html"
+        },
+        "climate": {
+          "label": "Supports solar and wind projects weighed against farmland loss, wants investment in 'green energy facilities across Upstate New York,' and is skeptical of new nuclear on cost and waste (Oswego County News Now debate report, May 9, 2026; The Daily News, Aug 11, 2026)",
+          "url": "https://www.oswegocountynewsnow.com/news/democratic-congressional-candidates-differ-on-guns-nukes-in-first-debate/article_c3bad412-b798-4cb4-89cd-1106d6c8c74a.html"
+        },
+        "democracy": {
+          "label": "At the May 7, 2026 primary debate she and Kastenbaum said Republican backed voter ID laws 'were pointless and undemocratic'; also backs term limits and public campaign financing (Oswego County News Now, May 9, 2026)",
+          "url": "https://www.oswegocountynewsnow.com/news/democratic-congressional-candidates-differ-on-guns-nukes-in-first-debate/article_c3bad412-b798-4cb4-89cd-1106d6c8c74a.html"
         }
       },
       "nullNotes": {
-        "taxes": "re-checked Sep 2, 2026: no new statement found via Ballotpedia (robots-blocked)",
-        "climate": "re-checked Sep 2, 2026: NCPR profile still robots-blocked; VOTE411 still 403; no new source found",
-        "education": "re-checked Sep 2, 2026: no new statement found beyond already-noted rural bus access item",
-        "safety": "re-checked Sep 2, 2026: no new statement found",
-        "democracy": "re-checked Sep 2, 2026: no new statement found"
+        "safety": "re-checked Oct 14, 2026: campaign issues page has no crime or policing content; OrleansHub, Oswego County News Now, CNY Central, The Daily News and Spectrum coverage carry no domestic policing or sentencing statement; her 'law enforcement that gets the criminals out' line is in the ICE context"
       },
       "sources": [
         {
@@ -4723,15 +5065,19 @@
           "url": "https://www.fec.gov/data/candidate/H6NY24219/"
         },
         {
-          "label": "Ellman for Congress, Issues",
-          "url": "https://ellmanforcongress.com/issues"
+          "label": "Ellman for Congress, issues",
+          "url": "https://www.ellmanforcongress.com/issues"
         },
         {
-          "label": "WRVO, Meet the Democrats in NY-24, Jun 22, 2026",
-          "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
+          "label": "Oswego County News Now, Democratic congressional candidates differ on guns, nukes in first debate (May 9, 2026)",
+          "url": "https://www.oswegocountynewsnow.com/news/democratic-congressional-candidates-differ-on-guns-nukes-in-first-debate/article_c3bad412-b798-4cb4-89cd-1106d6c8c74a.html"
+        },
+        {
+          "label": "OrleansHub, candidate forum report (June 22, 2026)",
+          "url": "https://orleanshub.com/?p=246438"
         }
       ],
-      "curatedAt": "2026-09-11"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H8NY25105",
@@ -4830,34 +5176,48 @@
       "ballotStatus": "nominee",
       "incumbent": false,
       "age": null,
-      "home": null,
-      "now": null,
-      "background": "Republican challenger to Rep. Joe Morelle in the Rochester area; campaign site is JavaScript-rendered with no substantive policy text reachable on fetch, and she has not completed Ballotpedia's Candidate Connection survey.",
-      "priorities": [],
+      "home": "Gates, NY",
+      "now": "Monroe County Legislator, District 4; English and ESL instructor and interpreter",
+      "background": "Born and raised in Monroe County, McIntyre graduated from Gates Chili High School and attended Monroe Community College and SUNY Purchase. She joined the Monroe County Legislature in January 2024, sits on its Environment and Public Works committee and chairs the Gates Conservation Advisory Board. Designated by the Monroe County Republican Committee in February 2026, she launched her campaign at the Susan B. Anthony House on March 31, 2026 and runs on the Republican and Conservative lines against Rep. Joseph Morelle.",
+      "priorities": [
+        "Suspending federal and state gas taxes",
+        "Community policing and prevention",
+        "Affordable health care and stronger schools"
+      ],
       "positions": {
-        "cost": null,
+        "cost": 1,
         "health": null,
         "housing": null,
         "immigration": null,
-        "taxes": null,
+        "taxes": 1,
         "climate": null,
         "education": null,
-        "safety": null,
+        "safety": -1,
         "repro": null,
         "democracy": null
       },
-      "positionSources": {},
+      "positionSources": {
+        "cost": {
+          "label": "Called for the federal government to 'immediately suspend' the 18.5 cent federal gas tax, 'this is common sense legislation, this should not be a partisan issue,' saying government 'should not be profiting off the pain of the people' (WHEC, May 18, 2026)",
+          "url": "https://www.whec.com/top-news/federal-and-state-gas-tax-suspension-being-considered/"
+        },
+        "safety": {
+          "label": "'Support community policing and prevention,' 'Invest in programs that reduce repeat violence' and 'Target trafficking and fentanyl' (campaign site)",
+          "url": "https://virginiamcintyreforcongress.com/issues"
+        },
+        "taxes": {
+          "label": "Platform supports 'No tax on Social Security, tips, or overtime,' 'small-business relief, and enhanced child tax credits,' and 'Eliminating fraud and wasteful spending'; would 'Cut waste so families keep more of what they earn' (campaign site)",
+          "url": "https://virginiamcintyreforcongress.com/issues"
+        }
+      },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: politics1.com/ny.htm confirms no additional link beyond the campaign homepage already fetched; still unfindable beyond meta-description text",
-        "health": "re-checked Sep 2, 2026: same as above",
-        "housing": "re-checked Sep 2, 2026: same as above",
-        "immigration": "re-checked Sep 2, 2026: same as above",
-        "taxes": "re-checked Sep 2, 2026: same as above",
-        "climate": "re-checked Sep 2, 2026: same as above",
-        "education": "re-checked Sep 2, 2026: same as above",
-        "safety": "re-checked Sep 2, 2026: same as above",
-        "repro": "re-checked Sep 2, 2026: same as above",
-        "democracy": "re-checked Sep 2, 2026: same as above"
+        "health": "re-checked Oct 14, 2026 in a browser: the campaign site's health care plank is 'Require pricing transparency,' 'Hold insurers and hospitals accountable' and 'Protect families from unfair billing practices,' with no public or private role stated; iVoterGuide unanswered",
+        "housing": "re-checked Oct 14, 2026 in a browser: no housing plank on the campaign site, on BallotReady or in WHEC, WXXI and Spectrum coverage",
+        "immigration": "re-checked Oct 14, 2026: no immigration statement in the BallotReady planks, county legislature coverage or WHEC, WXXI and Spectrum coverage",
+        "climate": "re-checked Oct 14, 2026 in a browser: the campaign site says only 'Lowering energy costs & keeping utilities American owned' and backs H.R. 1047, with no position on energy sources or emissions",
+        "education": "re-checked Oct 14, 2026 in a browser: the campaign site's education plank ('Expand vocational and technical education,' 'Support effective schools with accountability,' 'Help families access opportunity, regardless of ZIP code') lands on neither side of the axis",
+        "repro": "re-checked Oct 14, 2026: iVoterGuide Right to Life items unanswered, Ballotpedia survey not completed, nothing on BallotReady or in WHEC, WXXI and Spectrum coverage",
+        "democracy": "re-checked Oct 14, 2026: nothing on voting rules on BallotReady, iVoterGuide (unanswered) or in WHEC, WXXI and Spectrum coverage"
       },
       "sources": [
         {
@@ -4865,11 +5225,23 @@
           "url": "https://www.fec.gov/data/candidate/H6NY25208/"
         },
         {
-          "label": "Ballotpedia: Virginia McIntyre",
-          "url": "https://ballotpedia.org/Virginia_McIntyre"
+          "label": "Virginia McIntyre for Congress, priorities and plan",
+          "url": "https://virginiamcintyreforcongress.com/issues"
+        },
+        {
+          "label": "BallotReady candidate profile (reproduces campaign planks)",
+          "url": "https://www.ballotready.org/people/virginia-e-mcintyre"
+        },
+        {
+          "label": "Monroe County Legislature, legislator biographies",
+          "url": "https://www.monroecounty.gov/legislature-legislators"
+        },
+        {
+          "label": "WHEC, Monroe County legislator Virginia McIntyre enters race against Rep. Joe Morelle (March 31, 2026)",
+          "url": "https://www.whec.com/top-news/monroe-county-legislator-virginia-mcintyre-enters-race-against-rep-joe-morelle/"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14"
     },
     {
       "id": "fec-H6NY12172",
@@ -4900,7 +5272,7 @@
         "education": -1,
         "safety": null,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -4930,12 +5302,15 @@
         "repro": {
           "label": "Would 'fight to pass the Women's Health Protection Act to restore abortion rights nationwide' and protect abortion pills, IVF, and contraception (campaign site)",
           "url": "https://micahlasher.com/platform-and-policies/"
+        },
+        "democracy": {
+          "label": "Calls the Callais ruling 'the latest step in dismantling the Voting Rights Act' and urges 'passing the John R. Lewis Voting Rights Advancement Act' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529580"
         }
       },
       "nullNotes": {
         "taxes": "platform page fetched, no tax-rate statement found (checked Aug 29, 2026)",
-        "safety": "platform page statement is specifically about gun background checks and assault weapons, which the guide instructs does not map to this axis (checked Aug 29, 2026)",
-        "democracy": "platform page fetched, no voting/elections statement found (checked Aug 29, 2026)"
+        "safety": "platform page statement is specifically about gun background checks and assault weapons, which the guide instructs does not map to this axis (checked Aug 29, 2026)"
       },
       "sources": [
         {
@@ -4945,6 +5320,10 @@
         {
           "label": "Micah Lasher, Platform and Policies",
           "url": "https://micahlasher.com/platform-and-policies/"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529580"
         }
       ],
       "curatedAt": "2026-08-29"
@@ -4978,7 +5357,7 @@
         "education": 2,
         "safety": 1,
         "repro": null,
-        "democracy": null
+        "democracy": 1
       },
       "positionSources": {
         "health": {
@@ -5008,15 +5387,15 @@
         "education": {
           "label": "'Empower parents with school choice and greater curriculum transparency' (campaign site)",
           "url": "https://carolinefornewyork.com/priorities"
+        },
+        "democracy": {
+          "label": "Says the Supreme Court 'ruled properly' in Louisiana v. Callais and 'It should have been a 9-0 decision'; opposes partisan gerrymandering (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188940"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: carolinefornewyork.com priorities page fetched, cost content still overlaps entirely with tax-cut/housing statements already scored",
         "immigration": "re-checked Sep 2, 2026: carolinefornewyork.com fetched, no immigration statement found",
-        "climate": "re-checked Sep 2, 2026: carolinefornewyork.com fetched, no climate/energy statement found",
-        "education": "re-checked Sep 2, 2026: carolinefornewyork.com priorities page states only 'treat every student like an honors student,' still too vague to indicate a public-schools-vs-choice direction",
-        "repro": "re-checked Sep 2, 2026: carolinefornewyork.com fetched, no abortion statement found",
-        "democracy": "re-checked Sep 2, 2026: carolinefornewyork.com fetched, no voting/elections statement found"
+        "repro": "re-checked Sep 2, 2026: carolinefornewyork.com fetched, no abortion statement found"
       },
       "sources": [
         {
@@ -5026,6 +5405,10 @@
         {
           "label": "Caroline for New York, Priorities",
           "url": "https://carolinefornewyork.com/priorities"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188940"
         }
       ],
       "curatedAt": "2026-09-11"
@@ -5142,11 +5525,11 @@
         "housing": null,
         "immigration": -2,
         "taxes": null,
-        "climate": null,
+        "climate": -1,
         "education": null,
         "safety": null,
         "repro": -1,
-        "democracy": null
+        "democracy": -1
       },
       "positionSources": {
         "health": {
@@ -5160,16 +5543,22 @@
         "repro": {
           "label": "Medicare for All platform lists 'abortion access' among covered services (campaign site)",
           "url": "https://ko4congress.com"
+        },
+        "democracy": {
+          "label": "Says Louisiana v. Callais 'opened the floodgates to gerrymandering, thus diluting Black and minority voting power,' supports overturning it and 'uncapping' the House (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188944"
+        },
+        "climate": {
+          "label": "Calls the military 'the world's biggest polluter' and warns of 'catastrophic' carbon release from fossil fuel powered AI data centers, urging reduced reliance on both (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188944"
         }
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: no new source found",
         "housing": "re-checked Sep 2, 2026: no new source found",
         "taxes": "re-checked Sep 2, 2026: no new source found",
-        "climate": "re-checked Sep 2, 2026: no new source found",
         "education": "re-checked Sep 2, 2026: no new source found",
-        "safety": "re-checked Sep 2, 2026: no new source found",
-        "democracy": "re-checked Sep 2, 2026: no new source found"
+        "safety": "re-checked Sep 2, 2026: no new source found"
       },
       "sources": [
         {
@@ -5179,6 +5568,10 @@
         {
           "label": "Karen Ortiz for Congress",
           "url": "https://ko4congress.com"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188944"
         }
       ],
       "curatedAt": "2026-08-29"
@@ -5279,26 +5672,26 @@
       "tier": "curated",
       "ballotStatus": "nominee",
       "incumbent": false,
-      "age": null,
-      "home": null,
-      "now": "Air traffic controller and volunteer firefighter",
-      "background": "Air traffic controller, volunteer firefighter and Coast Guard veteran challenging Rep. Nick LaLota for the eastern Long Island seat. Campaign centers on affordability and coastal infrastructure.",
+      "age": 37,
+      "home": "Amity Harbor, NY",
+      "now": "Army National Guard Black Hawk pilot and volunteer firefighter; former FAA air traffic controller",
+      "background": "Born in Smithtown, Gallant joined the Army at 17, became an air traffic controller and deployed to Kuwait in 2012, then worked as an FAA controller, most recently at Kennedy Airport, resigning in 2025 to run. He joined the Army National Guard in 2019, became a Black Hawk pilot and deployed again in 2022, and has served nine years with the Copiague Fire Department. He won the June 23, 2026 Democratic primary over Lukas Ventouras and faces two term Rep. Nick LaLota. His platform is a Six Point Mission Plan on costs, infrastructure, water, storm resilience, veterans and small business.",
       "priorities": [
-        "Cost of living and price gouging",
-        "Protecting Medicare and Medicaid",
-        "Coastal resilience infrastructure"
+        "Cost of living and corporate price gouging",
+        "Health care for every American",
+        "Coastal resilience and water infrastructure"
       ],
       "positions": {
         "cost": -1,
-        "health": -1,
-        "housing": -1,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
+        "health": -2,
+        "housing": 0,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
+        "education": -1,
         "safety": null,
-        "repro": null,
-        "democracy": null
+        "repro": -1,
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -5306,22 +5699,40 @@
           "url": "https://gallantny.com/mission-one/"
         },
         "health": {
-          "label": "'Medicare and Medicaid are lifelines for older adults. I'll protect these programs and push for improvements that expand access and lower out-of-pocket costs' (campaign site)",
-          "url": "https://gallantny.com/mission-three/"
+          "label": "Said 'Every American should be entitled to free health care' at the May 2026 primary debate and would oppose 'any cuts or privatization of Medicare, Medicaid, or Social Security' (Suffolk Times; campaign site)",
+          "url": "https://suffolktimes.timesreview.com/2026/06/ventouras-gallant-debate-ahead-of-primary-face-off-to-oppose-lalota/"
         },
         "housing": {
-          "label": "Will 'secure federal housing grants to increase workforce housing, starter homes, and attainable housing options' (campaign site)",
-          "url": "https://gallantny.com/mission-one/"
+          "label": "Mixed: wants federal housing grants for workforce housing and starter homes and to get private equity out of housing, but says 'We fix it by cutting red tape, have new construction' (Riverhead Local; campaign site)",
+          "url": "https://riverheadlocal.com/2025/08/07/two-dems-launch-bids-to-unseat-rep-nick-lalota"
+        },
+        "immigration": {
+          "label": "Says 'the root of the immigration problem right now is the lack of a clear pathway to citizenship,' wants local police kept out of federal immigration enforcement and criticized ICE 'for operating outside of its purview' and hiring agents 'that are not trained' (Suffolk Times debate report, May 2026)",
+          "url": "https://suffolktimes.timesreview.com/2026/06/ventouras-gallant-debate-ahead-of-primary-face-off-to-oppose-lalota/"
+        },
+        "taxes": {
+          "label": "Campaign ad criticizes LaLota 'for a vote to cut health care while giving tax cuts to billionaires'; also wants an expanded SALT deduction (East Hampton Star; campaign site)",
+          "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
+        },
+        "climate": {
+          "label": "Would focus on 'restoring the clean energy tax credits that were recklessly gutted' and 'an all-of-the-above energy strategy that aggressively grows renewable capacity while responsibly managing existing resources' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529526"
+        },
+        "education": {
+          "label": "Says 'Congress should be looking at options for free college' and wants expanded income based repayment and protected Public Service Loan Forgiveness; higher education only (East Hampton Press; TBR News Media)",
+          "url": "https://www.27east.com/east-hampton-press/news/government/article_de69b231-4ef6-4516-a33f-766d330e39e2.html"
+        },
+        "repro": {
+          "label": "'He supports reproductive rights,' per the report of the February 2026 Democratic candidates forum; no codify Roe language found (TBR News Media)",
+          "url": "https://tbrnewsmedia.com/democratic-candidates-introduce-themselves-at-forum/"
+        },
+        "democracy": {
+          "label": "'I will support the John R. Lewis Voting Rights Advancement Act and every measure that protects every American's right to vote'; calls Louisiana v. Callais 'a serious blow to voting rights' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529526"
         }
       },
       "nullNotes": {
-        "immigration": "re-checked Sep 2, 2026: no new source found; gallantny.com mission pages remain the only content",
-        "taxes": "re-checked Sep 2, 2026: no new source found beyond the SALT-expansion statement already noted",
-        "climate": "re-checked Sep 2, 2026: no new source found",
-        "education": "re-checked Sep 2, 2026: no new source found",
-        "safety": "re-checked Sep 2, 2026: no new source found",
-        "repro": "re-checked Sep 2, 2026: no new source found",
-        "democracy": "re-checked Sep 2, 2026: no new source found"
+        "safety": "checked Oct 14, 2026: gallantny.com homepage says only that first responders should have 'the tools they need' and 27east reports he said police should have public support; generic support with no prevention or enforcement policy, null per calibration"
       },
       "sources": [
         {
@@ -5333,11 +5744,25 @@
           "url": "https://gallantny.com/mission-one/"
         },
         {
-          "label": "Gallant for Congress, Mission Three (healthcare)",
-          "url": "https://gallantny.com/mission-three/"
+          "label": "Suffolk Times, Ventouras and Gallant primary debate report (June 2026)",
+          "url": "https://suffolktimes.timesreview.com/2026/06/ventouras-gallant-debate-ahead-of-primary-face-off-to-oppose-lalota/"
+        },
+        {
+          "label": "Riverhead Local, Gallant wins NY-1 Democratic primary (June 24, 2026)",
+          "url": "https://riverheadlocal.com/2026/06/24/gallant-wins-big-in-ny-01-democratic-primary/"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529526"
         }
       ],
-      "curatedAt": "2026-08-29"
+      "curatedAt": "2026-10-14",
+      "controversies": [
+        {
+          "label": "In September 2026 conservative outlets circulated fetish model photos of Gallant taken years before the campaign; he responded 'I'm not embarrassed or ashamed' (LGBTQ Nation, Sept 15, 2026)",
+          "url": "https://www.lgbtqnation.com/2026/09/im-not-embarrassed-or-ashamed-gay-democrat-defiant-as-conservatives-share-his-racy-pictures/"
+        }
+      ]
     },
     {
       "id": "fec-H8NY06048",
@@ -5406,8 +5831,6 @@
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: house.gov issues page and financial-services/labor/immigration subpages fetched, no cost-of-living statement",
-        "housing": "re-checked Sep 2, 2026: house.gov housing subpage still describes basement-conversion-grant, credit-scoring and mortgage-insurance bills, incremental programs too narrow to indicate a broad build-more-supply-vs-public-housing direction",
-        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found across house.gov issue pages checked",
         "education": "re-checked Sep 2, 2026: no education issue page exists on house.gov site; press releases pages 1-2 checked, no education statement found"
       },
       "sources": [
@@ -5467,7 +5890,7 @@
         "education": null,
         "safety": -1,
         "repro": -2,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "health": {
@@ -5501,14 +5924,14 @@
         "safety": {
           "label": "Opposes the death penalty, would outlaw solitary confinement, and commits to visiting incarcerated constituents and working toward release of rehabilitated people (Jim Owles Liberal Democratic Club questionnaire, 2026)",
           "url": "https://jimowles.org/news/candidate-answers-to-joldc-claire-valdez-for-us-congress-ny-07-2026"
+        },
+        "democracy": {
+          "label": "'Appalled by the gutting of the Voting Rights Act,' supports 'the passage of the John Lewis Voting Rights Advancement Act' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529552"
         }
       },
       "nullNotes": {
-        "cost": "re-checked Sep 2, 2026: cost-of-living content still overlaps entirely with housing/taxes already scored",
-        "education": "re-checked Sep 2, 2026: 'Education at Every Stage of Life' is listed as a heading with a broken sub-link, no policy text retrieved",
-        "safety": "re-checked Sep 2, 2026: /issues page fetched fully, no public-safety/crime statement found",
-        "repro": "re-checked Sep 2, 2026: 'Guaranteed Reproductive Justice' is listed as a heading with a broken sub-link, no policy text retrieved",
-        "democracy": "re-checked Sep 2, 2026: /issues page fetched fully, only union-organizing language ('organized workers are more likely to vote'), not a voting-rules statement"
+        "education": "re-checked Sep 2, 2026: 'Education at Every Stage of Life' is listed as a heading with a broken sub-link, no policy text retrieved"
       },
       "sources": [
         {
@@ -5522,6 +5945,10 @@
         {
           "label": "Jim Owles Liberal Democratic Club questionnaire, 2026",
           "url": "https://jimowles.org/news/candidate-answers-to-joldc-claire-valdez-for-us-congress-ny-07-2026"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529552"
         }
       ],
       "curatedAt": "2026-09-11"
@@ -5723,7 +6150,7 @@
         "education": -2,
         "safety": -2,
         "repro": -1,
-        "democracy": null
+        "democracy": -2
       },
       "positionSources": {
         "cost": {
@@ -5761,14 +6188,13 @@
         "safety": {
           "label": "'We have to think about how do we create a society where people feel so safe that they don't need to pick up the phone and call the police' (NY Editorial Board interview)",
           "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
+        },
+        "democracy": {
+          "label": "'We must fight back by passing the John R. Lewis Voting Rights Advancement Act' after a 'reactionary Supreme Court significantly weakened the 1965 Voting Rights Act' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529588"
         }
       },
-      "nullNotes": {
-        "taxes": "re-checked Sep 2, 2026: darializaforcongress.com/issues fetched fully, no tax-rate statement beyond campaign-finance PAC-money pledge",
-        "climate": "re-checked Sep 2, 2026: darializaforcongress.com/issues fetched fully, no climate/energy statement",
-        "safety": "re-checked Sep 2, 2026: darializaforcongress.com/issues fetched fully, no public-safety/crime statement",
-        "democracy": "re-checked Sep 2, 2026: darializaforcongress.com/issues fetched fully, no voting/elections statement"
-      },
+      "nullNotes": {},
       "sources": [
         {
           "label": "FEC filing",
@@ -5781,6 +6207,10 @@
         {
           "label": "NY Editorial Board interview",
           "url": "https://nyeditorialboard.substack.com/p/darializa-avila-chevalier-on-housing"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72529588"
         }
       ],
       "curatedAt": "2026-09-11"
@@ -5851,9 +6281,6 @@
       },
       "nullNotes": {
         "cost": "re-checked Sep 2, 2026: correct house.gov site identified (ritchietorres.house.gov, confirmed distinct from Norma Torres of CA-35); /resources hub and /press page both fetched, no cost-of-living statement, press page shows 'No press releases found'",
-        "health": "re-checked Sep 2, 2026: /resources/health subpage fetched, shows 'No resources found'",
-        "housing": "re-checked Sep 2, 2026: /resources/housing-all subpage fetched, shows 'No resources found'",
-        "taxes": "re-checked Sep 2, 2026: no tax-rate statement found on ritchietorres.house.gov; a no vote on H.R.1 alone does not establish this axis",
         "education": "re-checked Sep 2, 2026: /resources?category=Education subpage fetched, no article content returned"
       },
       "sources": [
@@ -6056,6 +6483,182 @@
         }
       ],
       "curatedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-house-12-negron",
+      "name": "Wilneida Negron",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "12",
+      "state": "NY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": null,
+      "home": "New York, NY",
+      "now": "Labor and technology policy advocate and author",
+      "background": "The daughter of Dominican and Puerto Rican immigrants, Negron was raised in NY-12 and is raising two children in District 12 public schools. She began as a crisis counselor and worked in juvenile detention centers, jails, senior centers and legal aid programs before two decades across government, labor, technology and financial markets, and describes herself as an external advisor to two Democratic presidential administrations. This is her first run for office; she is certified on the 'For All of Us' independent line for the open NY-12 seat.",
+      "priorities": [
+        "Universal health coverage through a public baseline plan",
+        "Affordable housing and Housing First",
+        "Worker rights and a cost of living test for legislation"
+      ],
+      "positions": {
+        "cost": -1,
+        "health": -2,
+        "housing": -2,
+        "immigration": -2,
+        "taxes": -1,
+        "climate": -1,
+        "education": -2,
+        "safety": -2,
+        "repro": null,
+        "democracy": -1
+      },
+      "positionSources": {
+        "cost": {
+          "label": "Would 'Require a cost-of-living test for major economic legislation,' 'Support fair wages and labor standards' and create a Family Care Credit for child and elder care costs (campaign site, first hundred days agenda)",
+          "url": "https://www.wilneidany12.com/my-first-hundred-days"
+        },
+        "health": {
+          "label": "Would 'Build toward universal coverage through automatic enrollment in a public baseline plan,' pursue all payer rate setting and extend ACA subsidies (campaign site, policy priorities)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "housing": {
+          "label": "Would 'Expand federal support for affordable housing preservation,' 'Restore Emergency Housing Voucher funding' and 'Defend Housing First as the federal standard' (campaign site, policy priorities and first hundred days agenda)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "immigration": {
+          "label": "Would 'Expand legal pathways and reduce the backlogs' and 'Narrow ICE to genuine serious-threat cases; move routine civil cases to supervised legal processing' (campaign site, policy priorities)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "taxes": {
+          "label": "Would 'End carried interest treatment, tighten S-corp loopholes,' close the tax gap through IRS enforcement, and cast 'No votes to cut Medicaid, Medicare, Social Security, or CHIP to fund tax cuts for the wealthy' (campaign site, policy priorities and first hundred days agenda)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "education": {
+          "label": "'Protect and strengthen funding for high-poverty schools: Title I must be treated as baseline infrastructure' and 'Treat educator recruitment and pay as a workforce crisis' (campaign site, policy priorities)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "safety": {
+          "label": "Would 'Fund mental health first-response programs that dispatch trained clinicians alongside or instead of police,' non police behavioral health responders and community violence intervention (campaign site, policy priorities)",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        "climate": {
+          "label": "Would 'treat climate resilience as infrastructure,' 'rebuild American manufacturing of batteries and clean energy components,' speed permitting for transmission lines and keep 'cooperating with other nations on climate' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188942"
+        },
+        "democracy": {
+          "label": "Says Louisiana v. Callais 'was wrongly decided' and that Voting Rights Act maps 'would be judged by their effects' (Vote411 candidate questionnaire, 2026)",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188942"
+        }
+      },
+      "nullNotes": {
+        "repro": "checked Oct 14, 2026: no abortion or reproductive rights statement on any wilneidany12.com page (home, priorities, first hundred days, about, New Deal pages); iVoterGuide 2026 questionnaire unanswered"
+      },
+      "sources": [
+        {
+          "label": "Wilneida Negron for Congress, policy priorities",
+          "url": "https://www.wilneidany12.com/#policy-Priorities"
+        },
+        {
+          "label": "Wilneida Negron for Congress, first hundred days agenda",
+          "url": "https://www.wilneidany12.com/my-first-hundred-days"
+        },
+        {
+          "label": "Wilneida Negron for Congress, about",
+          "url": "https://www.wilneidany12.com/about-wilneida"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        },
+        {
+          "label": "Vote411 (League of Women Voters) candidate questionnaire, 2026",
+          "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=73188942"
+        }
+      ],
+      "curatedAt": "2026-10-14"
+    },
+    {
+      "id": "ny-house-15-vega",
+      "name": "Jose Vega",
+      "party": "Independent",
+      "office": "us-house",
+      "district": "15",
+      "state": "NY",
+      "tier": "curated",
+      "ballotStatus": "nominee",
+      "incumbent": false,
+      "age": 27,
+      "home": "Bronx, NY",
+      "now": "Political organizer with the LaRouche movement",
+      "background": "Raised in the South Bronx, Vega has organized with the LaRouche movement since age 16. He ran against Rep. Ritchie Torres as an independent in 2024, lost to Torres in the June 23, 2026 Democratic primary, and is on the November ballot on the 'Speak The Truth' independent line after filing independent nominating petitions. His platform centers on Medicare for All, a 'Space CCC' jobs program, nuclear and fusion power and a 'Peace through Development' foreign policy.",
+      "priorities": [
+        "Single payer Medicare for All",
+        "A Space CCC youth jobs program",
+        "Immigration reform with multi year work visas"
+      ],
+      "positions": {
+        "cost": null,
+        "health": -2,
+        "housing": -1,
+        "immigration": -2,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "positionSources": {
+        "health": {
+          "label": "Calls for 'a proposed universal single-payer national health insurance system' and a hospital building program; agreed with Medicare for All at the April 2026 NY-15 debate (campaign site; Bronx Times)",
+          "url": "https://votevega.nyc/policy/real-medicare-for-all/"
+        },
+        "housing": {
+          "label": "At the April 2026 debate 'called for federal policy changes to ensure access to higher-quality housing for all residents,' including NYCHA tenants, financed through a national banking system (Bronx Times, April 8, 2026)",
+          "url": "https://www.bxtimes.com/?p=142612"
+        },
+        "immigration": {
+          "label": "'I abhor this current policy' of ICE 'taking immigrants right off the street'; proposes two to four year temporary work visas and called for abolishing ICE at the April 2026 debate (campaign site; Bronx Times)",
+          "url": "https://votevega.nyc/policy/robust-immigration-reform/"
+        }
+      },
+      "nullNotes": {
+        "cost": "checked Oct 14, 2026: votevega.nyc economics and Space CCC pages cover Glass-Steagall, national banking and federal credit with no price or wage policy; Bronx Times debate report has no price direction",
+        "taxes": "checked Oct 14, 2026: no tax or spending position on the economics, Medicare or Space CCC pages or in the Bronx Times debate report",
+        "climate": "checked Oct 14, 2026: votevega.nyc calls for 'hundreds of small and large-scale nuclear power plants' and a fusion crash program with no statement on fossil fuels or emissions, which maps to neither pole",
+        "education": "checked Oct 14, 2026: the classical education page calls the current curriculum 'completely inadequate' with no funding, voucher or charter position",
+        "safety": "checked Oct 14, 2026: only ICE and surveillance material, scored under immigration; nothing on policing or sentencing on votevega.nyc, in the Bronx Times or Norwood News",
+        "repro": "checked Oct 14, 2026: no abortion statement on any votevega.nyc page; iVoterGuide 2026 and 2024 questionnaires unanswered",
+        "democracy": "checked Oct 14, 2026: votevega.nyc attacks the two party system and 'the machine' with no voting access or voter ID position"
+      },
+      "sources": [
+        {
+          "label": "Vote Vega, policy index",
+          "url": "https://votevega.nyc/policy/"
+        },
+        {
+          "label": "Vote Vega, meet Jose",
+          "url": "https://votevega.nyc/meet-jose/"
+        },
+        {
+          "label": "Bronx Times, NY-15 debate report (April 8, 2026)",
+          "url": "https://www.bxtimes.com/?p=142612"
+        },
+        {
+          "label": "NYS Board of Elections, Amended Certification for the November 3, 2026 General Election (Oct 7, 2026)",
+          "url": "https://elections.ny.gov/certification-november-3-2026-general-election"
+        }
+      ],
+      "controversies": [
+        {
+          "label": "A January 2026 campaign video said Torres is 'bought and controlled by Zionist influencers and millionaires' in Riverdale, which Rabbi Binyamin Krauss called 'ugly, ugly, old-fashioned antisemitism' (Jerusalem Post, Jan 31, 2026)",
+          "url": "https://www.jpost.com/diaspora/antisemitism/article-885098"
+        }
+      ],
+      "curatedAt": "2026-10-14"
     }
   ]
 }

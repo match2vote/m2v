@@ -1,7 +1,7 @@
 {
   "state": "CA",
   "electionYear": 2026,
-  "syncedAt": "2026-10-12T15:34:02.983Z",
+  "syncedAt": "2026-10-16T11:29:54.903Z",
   "candidates": [
     {
       "id": "fec-H6CA01251",
@@ -5438,6 +5438,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H2CA47188/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6CA43188",
+      "fecId": "H6CA43188",
+      "name": "Cristian Morales",
+      "party": "Republican",
+      "state": "CA",
+      "office": "us-house",
+      "district": "43",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6CA43188/"
         }
       ],
       "funding": null,

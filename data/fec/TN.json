@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-10-12T15:34:03.003Z",
+  "syncedAt": "2026-10-16T11:29:54.923Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -190,6 +190,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0TN03254/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TN03251",
+      "fecId": "H6TN03251",
+      "name": "Rodney Joe King",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN03251/"
         }
       ],
       "funding": null,
@@ -1502,6 +1534,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6TN00380/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S6TN00364",
+      "fecId": "S6TN00364",
+      "name": "Yoshi D. Matthews",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S6TN00364/"
         }
       ],
       "funding": null,

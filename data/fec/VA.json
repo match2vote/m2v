@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-08-06T12:33:23.973Z",
+  "syncedAt": "2026-10-16T11:29:54.929Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -1534,6 +1534,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA05217/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H8VA05106",
+      "fecId": "H8VA05106",
+      "name": "Thomas Stuart Price Perriello",
+      "party": "Democrat",
+      "state": "VA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H8VA05106/"
         }
       ],
       "funding": null,

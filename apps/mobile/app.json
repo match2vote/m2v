@@ -7,8 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "org.match2vote.app"
+      "supportsTablet": false,
+      "bundleIdentifier": "org.match2vote.app",
+      "config": { "usesNonExemptEncryption": false }
     },
     "android": {
       "package": "org.match2vote.app",

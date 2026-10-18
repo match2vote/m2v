@@ -1,7 +1,7 @@
 {
   "state": "OK",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.762Z",
+  "syncedAt": "2026-10-18T11:13:41.128Z",
   "candidates": [
     {
       "id": "fec-H6OK01243",
@@ -510,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H4OK06056/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OK03272",
+      "fecId": "H6OK03272",
+      "name": "Suzanne Byrd",
+      "party": "Democrat",
+      "state": "OK",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OK03272/"
         }
       ],
       "funding": null,

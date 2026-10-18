@@ -1,7 +1,7 @@
 {
   "state": "NE",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.752Z",
+  "syncedAt": "2026-10-18T11:13:41.116Z",
   "candidates": [
     {
       "id": "fec-H6NE01150",
@@ -510,6 +510,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NE03172/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NE03206",
+      "fecId": "H6NE03206",
+      "name": "Macey Budke",
+      "party": "Independent",
+      "state": "NE",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NE03206/"
         }
       ],
       "funding": null,

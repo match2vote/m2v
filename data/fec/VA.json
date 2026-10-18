@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-10-16T11:29:54.929Z",
+  "syncedAt": "2026-10-18T11:13:41.117Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -900,6 +900,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6VA02263",
+      "fecId": "H6VA02263",
+      "name": "Matthew Baker",
+      "party": "Independent",
+      "state": "VA",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA02263/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H6VA02156",
       "fecId": "H6VA02156",
       "name": "Michael Williamson",
@@ -1508,38 +1540,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6VA05217",
-      "fecId": "H6VA05217",
-      "name": "Thomas Perriello",
-      "party": "Democrat",
-      "state": "VA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6VA05217/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H8VA05106",
       "fecId": "H8VA05106",
       "name": "Thomas Stuart Price Perriello",
@@ -1758,6 +1758,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA07270/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA07353",
+      "fecId": "H6VA07353",
+      "name": "Alaha Ahrar",
+      "party": "Independent",
+      "state": "VA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA07353/"
         }
       ],
       "funding": null,
@@ -2046,6 +2078,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA07320/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA07312",
+      "fecId": "H6VA07312",
+      "name": "Randall Terry",
+      "party": "Independent",
+      "state": "VA",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA07312/"
         }
       ],
       "funding": null,

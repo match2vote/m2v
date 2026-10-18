@@ -1,7 +1,7 @@
 {
   "state": "NJ",
   "electionYear": 2026,
-  "syncedAt": "2026-10-14T11:58:39.883Z",
+  "syncedAt": "2026-10-18T11:13:41.113Z",
   "candidates": [
     {
       "id": "fec-H2NJ01187",
@@ -1508,6 +1508,38 @@
       "syncedFrom": "fec-api"
     },
     {
+      "id": "fec-H6NJ03192",
+      "fecId": "H6NJ03192",
+      "name": "Ryan Michael Kelly",
+      "party": "Independent",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "3",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NJ03192/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
       "id": "fec-H8NJ04014",
       "fecId": "H8NJ04014",
       "name": "Christopher H Smith",
@@ -2046,6 +2078,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NJ07235/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NJ07300",
+      "fecId": "H6NJ07300",
+      "name": "Randall Terry",
+      "party": "Independent",
+      "state": "NJ",
+      "office": "us-house",
+      "district": "7",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NJ07300/"
         }
       ],
       "funding": null,

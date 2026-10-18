@@ -1,7 +1,7 @@
 {
   "state": "RI",
   "electionYear": 2026,
-  "syncedAt": "2026-07-19T10:59:58.758Z",
+  "syncedAt": "2026-10-18T11:13:41.123Z",
   "candidates": [
     {
       "id": "fec-H4RI01265",
@@ -62,6 +62,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6RI01153/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6RI01161",
+      "fecId": "H6RI01161",
+      "name": "Pedro Desouza",
+      "party": "Independent",
+      "state": "RI",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6RI01161/"
         }
       ],
       "funding": null,

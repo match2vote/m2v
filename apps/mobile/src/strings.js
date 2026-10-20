@@ -236,6 +236,27 @@ export const strings = {
     bannerA11y: 'Sample ballot, not an official ballot, for planning only',
     bannerTitle: 'SAMPLE BALLOT: NOT AN OFFICIAL BALLOT',
     bannerSub: 'For planning only',
+    // Statewide ballot measures: shown on the ballot paper after the races.
+    // M2V never scores a measure. The question is the state's own wording.
+    measures: {
+      heading: 'STATEWIDE QUESTIONS',
+      intro: 'These questions are on your ballot alongside the candidates. M2V does not score or recommend them. Read the state\u2019s own wording and the sources, then mark your choice.',
+      count: ({ marked, total }) => `${marked} of ${total} ${pl(total, 'question', 'questions')} marked`,
+      readQuestion: 'Read the full question',
+      hideQuestion: 'Hide the question',
+      readA11y: ({ label }) => `Read the full ballot question for ${label}`,
+      hideA11y: ({ label }) => `Hide the ballot question for ${label}`,
+      questionTruncated: 'The ballot language continues. See the official source for the full text.',
+      noQuestion: 'The state has not published the ballot language yet. See the sources below.',
+      yesLabel: 'YES',
+      noLabel: 'NO',
+      choiceMeans: ({ choice }) => `A ${String(choice).toUpperCase()} vote:`,
+      noOvals: 'This question is multiple choice on the real ballot, so there is no Yes or No to mark here.',
+      sourcesLabel: 'Read more',
+      choiceA11y: ({ choice, label, marked }) =>
+        `${choice} on ${label}` + (marked ? ', marked, tap to unmark' : ', tap to mark'),
+      sourceA11y: ({ label }) => `Open source: ${label}`,
+    },
   },
 
   chooseState: {

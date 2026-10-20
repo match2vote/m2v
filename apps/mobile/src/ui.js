@@ -1,6 +1,6 @@
 // Shared UI v2, bold type, motion, dark-mode aware, ballot bubbles, tab bar.
 import React, { useEffect, useRef } from 'react';
-import { Text, View, Pressable, Animated, Easing, StyleSheet } from 'react-native';
+import { Text, View, Pressable, Animated, Easing, StyleSheet, Platform } from 'react-native';
 import { theme, useTheme, matchColor, typography } from './theme';
 import { useReducedMotion } from './screens/VoteScenes';
 import { strings } from './strings';
@@ -15,7 +15,7 @@ export function Screen({ children, style, pad = true }) {
     <View
       style={[
         { flex: 1, backgroundColor: colors.bg },
-        pad && { paddingHorizontal: space(5), paddingTop: space(14) },
+        pad && { paddingHorizontal: space(5), paddingTop: Platform.OS === 'ios' ? space(4) : space(14) },
         style,
       ]}
     >
@@ -271,7 +271,7 @@ export function TabBar({ active, onChange, ballotCount }) {
     <View
       style={{
         flexDirection: 'row', borderTopWidth: 1, borderTopColor: colors.line,
-        backgroundColor: colors.tabBg, paddingBottom: space(5), paddingTop: space(2),
+        backgroundColor: colors.tabBg, paddingBottom: Platform.OS === 'ios' ? space(1) : space(5), paddingTop: space(2),
       }}
     >
       {tabs.map((t) => {

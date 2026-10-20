@@ -4,7 +4,7 @@
   "races": {
     "FL-senate": {
       "status": "general",
-      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination. No Party Affiliation candidate Neil J. Gillespie confirmed on the Nov 3, 2026 special-election general ballot per Ballotpedia; his existing curated id fec-S6FL00863 uses the corrected spelling \"Gillespie\" while the raw FEC roster (data/fec/FL.json) has it misspelled \"Gilespie\" (logged, not corrected in the FEC source).",
+      "statusNote": "Special election for the seat Marco Rubio vacated. Appointed Sen. Ashley Moody (R) and state Rep. Angie Nixon (D) won their Aug 18 primaries. Nixon defeated Alex Vindman for the Democratic nomination. No Party Affiliation candidate Neil J. Gillespie is also on the Nov 3 special-election ballot.",
       "advancing": [
         "fec-S6FL00640",
         "fec-S6FL00830",
@@ -13,7 +13,7 @@
     },
     "FL-governor": {
       "status": "general",
-      "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries. Desmond Meade (NPA) withdrew from the race Aug 28, 2026 (WUSF); he should be dropped from the advancing list, not curated. Six of the seven remaining minor NPA/Libertarian candidates now have full curated entries (Datto is all-null, no fetchable source found).",
+      "statusNote": "Open seat, Gov. DeSantis is term-limited. Rep. Byron Donalds (R) and former Rep. David Jolly (D) won their Aug 18 primaries. Several No Party Affiliation and Libertarian candidates are also on the November ballot. Desmond Meade (NPA) withdrew from the race Aug 28, 2026.",
       "advancing": [
         "fl-gov-donalds",
         "fl-gov-jolly",
@@ -35,7 +35,7 @@
     },
     "FL-house-10": {
       "status": "general",
-      "statusNote": "Maxwell Frost is unopposed: no Republican or write-in candidate qualified for the November 2026 ballot (Florida Politics, 'Maxwell Frost secures another term in Congress unopposed,' confirmed by clickorlando.com qualifying-week wrap). FEC roster lists only Frost; verified against fetched sources per agent instructions.",
+      "statusNote": "Maxwell Frost is unopposed: no Republican or write-in candidate qualified for the November 2026 ballot (Florida Politics; clickorlando.com qualifying-week coverage).",
       "advancing": [
         "fec-H2FL10259"
       ]

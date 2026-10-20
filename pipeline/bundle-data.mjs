@@ -106,3 +106,17 @@ try {
 } catch {}
 await writeFile(path.join(OUT_DIR, 'voting-rules.json'), JSON.stringify(rules));
 console.log(`Bundled voting rules for ${Object.keys(rules).length} states → apps/mobile/src/data/voting-rules.json`);
+
+// Statewide ballot measures (data/ballot-measures.json, keyed by two-letter
+// code, each an array of measures with the verbatim ballot question, plain
+// Yes/No lines and source URLs). Copied through as-is; {} until the data
+// lands so the import always resolves and the ballot shows no measures.
+const MEASURES_SRC = path.join(__dirname, '..', 'data', 'ballot-measures.json');
+let measures = {};
+try {
+  measures = JSON.parse(await readFile(MEASURES_SRC, 'utf8'));
+  if (!measures || typeof measures !== 'object' || Array.isArray(measures)) measures = {};
+} catch {}
+await writeFile(path.join(OUT_DIR, 'ballot-measures.json'), JSON.stringify(measures));
+const measureCount = Object.values(measures).reduce((n, list) => n + (Array.isArray(list) ? list.length : 0), 0);
+console.log(`Bundled ${measureCount} ballot measures for ${Object.keys(measures).length} states → apps/mobile/src/data/ballot-measures.json`);

@@ -1,7 +1,7 @@
 // M2V root v3, persistent tab bar, real routing, quiz that never loses
 // progress, ballot always one tap away.
 import React, { useEffect, useMemo, useState } from 'react';
-import { ScrollView, View, Text, Pressable, StyleSheet, Platform } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, Platform, SafeAreaView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ISSUES, rankCandidates, MIN_STATED_POSITIONS } from '@m2v/core';
 import { Screen, H1, H2, Body, Card, Button, ProgressBar, TierBadge, MatchRing, TabBar } from './src/ui';
@@ -85,21 +85,21 @@ function Root() {
   if (!onboarded && deepLink) {
         return (
                 <QuizContext.Provider value={quizCtx}>
-                  <View style={{ flex: 1, backgroundColor: colors.bg }}>
+                  <SafeAreaView style={{ flex: 1, backgroundColor: colors.bg }}>
           <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
               <ErrorBoundary>
   {nav.route.name === 'race'
                   ? <Race raceId={nav.route.id} />
                   : <Profile candidateId={nav.route.id} />}
                     </ErrorBoundary>
-                    </View>
+                    </SafeAreaView>
                     </QuizContext.Provider>
                         );
 }
 
 if (!onboarded) {
     return (
-      <View style={{ flex: 1, backgroundColor: colors.bg }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
         <ErrorBoundary>
           {onboarded === false && !quiz.pickingState ? (
@@ -115,14 +115,14 @@ if (!onboarded) {
             />
           )}
         </ErrorBoundary>
-      </View>
+      </SafeAreaView>
     );
   }
 
   const r = nav.route;
   return (
     <QuizContext.Provider value={quizCtx}>
-      <View style={{ flex: 1, backgroundColor: colors.bg }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: colors.bg }}>
         <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
         <View style={{ flex: 1 }}>
         <ErrorBoundary>
@@ -157,7 +157,7 @@ if (!onboarded) {
             else nav.go({ name: 'matches' });
           }}
         />
-      </View>
+      </SafeAreaView>
     </QuizContext.Provider>
   );
 }

@@ -20,6 +20,7 @@ import { getRaces, STATE_NAMES, districtLabel } from '../ballot';
 import { useNav } from '../nav';
 import { shareBallotImage } from '../share';
 import { BallotShareCard } from '../BallotShareCard';
+import { BallotMeasures } from '../BallotMeasures';
 
 const { space } = theme;
 const paper = '#FFFDF8';
@@ -262,6 +263,7 @@ export function OfficialBallot() {
               </View>
             );
           })}
+          <BallotMeasures stateCode={stateCode} />
         </View>
 
         {!quiz && (

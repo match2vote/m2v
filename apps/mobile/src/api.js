@@ -255,6 +255,25 @@ export async function savePick(pick) {
   await store.set(PICKS_KEY, JSON.stringify(picks));
   return picks;
 }
+// --- Ballot measures: the user's own Yes/No marks, on device only ---
+// Stored apart from candidate picks so nothing that counts or scores races
+// ever sees a measure. Shape: { [measureId]: 'yes' | 'no' }.
+const MEASURE_PICKS_KEY = 'm2v:measurePicks:v1';
+export async function getMeasurePicks() {
+  try {
+    const v = JSON.parse((await store.get(MEASURE_PICKS_KEY)) || '{}');
+    return v && typeof v === 'object' && !Array.isArray(v) ? v : {};
+  } catch { return {}; }
+}
+// choice: 'yes' | 'no' | null (null clears the mark)
+export async function setMeasurePick(measureId, choice) {
+  const picks = await getMeasurePicks();
+  if (choice === 'yes' || choice === 'no') picks[measureId] = choice;
+  else delete picks[measureId];
+  await store.set(MEASURE_PICKS_KEY, JSON.stringify(picks));
+  return picks;
+}
+
 export async function removePick(raceId) {
   const picks = (await getPicks()).filter((p) => p.raceId !== raceId);
   await store.set(PICKS_KEY, JSON.stringify(picks));

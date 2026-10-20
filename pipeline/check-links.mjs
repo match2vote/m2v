@@ -52,6 +52,8 @@ for (const [st, data] of Object.entries(cands)) {
 }
 const rules = JSON.parse(await readFile(path.join(ROOT, 'apps/mobile/src/data/voting-rules.json'), 'utf8'));
 for (const [st, r] of Object.entries(rules)) walk(r, `${st} voting rules`);
+const measures = JSON.parse(await readFile(path.join(ROOT, 'apps/mobile/src/data/ballot-measures.json'), 'utf8'));
+for (const [st, list] of Object.entries(measures)) for (const m of list) walk(m.sources, `${st} ${m.ballotLabel || m.title}`);
 
 console.log(`Checking ${urls.size} URLs with concurrency ${CONCURRENCY}...`);
 

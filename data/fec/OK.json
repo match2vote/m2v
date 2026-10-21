@@ -1,7 +1,7 @@
 {
   "state": "OK",
   "electionYear": 2026,
-  "syncedAt": "2026-10-18T11:13:41.128Z",
+  "syncedAt": "2026-10-21T11:56:18.060Z",
   "candidates": [
     {
       "id": "fec-H6OK01243",
@@ -414,6 +414,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OK01326/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H4OK02196",
+      "fecId": "H4OK02196",
+      "name": "Brandon Wade",
+      "party": "Democrat",
+      "state": "OK",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H4OK02196/"
         }
       ],
       "funding": null,

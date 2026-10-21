@@ -1,7 +1,7 @@
 {
   "state": "VA",
   "electionYear": 2026,
-  "syncedAt": "2026-10-18T11:13:41.117Z",
+  "syncedAt": "2026-10-21T11:56:18.052Z",
   "candidates": [
     {
       "id": "fec-H6VA01182",
@@ -382,6 +382,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6VA01273/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6VA10274",
+      "fecId": "H6VA10274",
+      "name": "Ahsen Mujeeb Malik",
+      "party": "Independent",
+      "state": "VA",
+      "office": "us-house",
+      "district": "10",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6VA10274/"
         }
       ],
       "funding": null,

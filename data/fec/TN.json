@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-10-18T11:13:41.123Z",
+  "syncedAt": "2026-10-21T11:56:18.057Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -542,6 +542,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6TN05397/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6TN05462",
+      "fecId": "H6TN05462",
+      "name": "Micheal O'Leary",
+      "party": "Independent",
+      "state": "TN",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6TN05462/"
         }
       ],
       "funding": null,

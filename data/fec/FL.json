@@ -1,7 +1,7 @@
 {
   "state": "FL",
   "electionYear": 2026,
-  "syncedAt": "2026-10-14T11:58:39.882Z",
+  "syncedAt": "2026-10-22T11:58:42.363Z",
   "candidates": [
     {
       "id": "fec-H4FL01213",
@@ -158,6 +158,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6FL01523/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6FL01143",
+      "fecId": "H6FL01143",
+      "name": "Ralph John III Mills",
+      "party": "Republican",
+      "state": "FL",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6FL01143/"
         }
       ],
       "funding": null,

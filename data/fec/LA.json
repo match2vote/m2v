@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-10-23T11:44:30.300Z",
+  "syncedAt": "2026-10-24T11:08:02.630Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -62,6 +62,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0LA01087/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H2LA02305",
+      "fecId": "H2LA02305",
+      "name": "Lisa Ballay",
+      "party": "Libertarian",
+      "state": "LA",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H2LA02305/"
         }
       ],
       "funding": null,
@@ -356,38 +388,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6LA05325",
-      "fecId": "H6LA05325",
-      "name": "Antonio Wilson",
-      "party": "Democrat",
-      "state": "LA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6LA05325/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6LA05333",
       "fecId": "H6LA05333",
       "name": "Antonio Wilson",
@@ -414,6 +414,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05333/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05325",
+      "fecId": "H6LA05325",
+      "name": "Antonio Wilson",
+      "party": "Democrat",
+      "state": "LA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05325/"
         }
       ],
       "funding": null,

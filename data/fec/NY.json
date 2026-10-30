@@ -1,40 +1,8 @@
 {
   "state": "NY",
   "electionYear": 2026,
-  "syncedAt": "2026-10-25T11:37:52.139Z",
+  "syncedAt": "2026-10-30T13:01:31.055Z",
   "candidates": [
-    {
-      "id": "fec-H6NY01225",
-      "fecId": "H6NY01225",
-      "name": "Celina Wilson",
-      "party": "Republican",
-      "state": "NY",
-      "office": "us-house",
-      "district": "1",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6NY01225/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
     {
       "id": "fec-H6NY01217",
       "fecId": "H6NY01217",
@@ -62,6 +30,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6NY01217/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6NY01225",
+      "fecId": "H6NY01225",
+      "name": "Celina Wilson",
+      "party": "Republican",
+      "state": "NY",
+      "office": "us-house",
+      "district": "1",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6NY01225/"
         }
       ],
       "funding": null,

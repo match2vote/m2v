@@ -1,7 +1,7 @@
 {
   "state": "UT",
   "electionYear": 2026,
-  "syncedAt": "2026-09-17T11:47:03.033Z",
+  "syncedAt": "2026-11-02T16:03:47.447Z",
   "candidates": [
     {
       "id": "fec-H8UT04053",
@@ -286,6 +286,70 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H0UT01205/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6UT02259",
+      "fecId": "H6UT02259",
+      "name": "Carlton E Bowen",
+      "party": "INDEPENDENT AMERICAN PARTY",
+      "state": "UT",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT02259/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6UT02549",
+      "fecId": "H6UT02549",
+      "name": "Carlton E. Bowen",
+      "party": "INDEPENDENT AMERICAN PARTY",
+      "state": "UT",
+      "office": "us-house",
+      "district": "2",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6UT02549/"
         }
       ],
       "funding": null,

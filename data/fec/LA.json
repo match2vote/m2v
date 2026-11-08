@@ -1,7 +1,7 @@
 {
   "state": "LA",
   "electionYear": 2026,
-  "syncedAt": "2026-11-07T13:09:32.252Z",
+  "syncedAt": "2026-11-08T13:30:33.392Z",
   "candidates": [
     {
       "id": "fec-H6LA01258",
@@ -388,38 +388,6 @@
       "syncedFrom": "fec-api"
     },
     {
-      "id": "fec-H6LA05333",
-      "fecId": "H6LA05333",
-      "name": "Antonio Wilson",
-      "party": "Democrat",
-      "state": "LA",
-      "office": "us-house",
-      "district": "5",
-      "incumbent": false,
-      "tier": "fec",
-      "ballotStatus": "filed",
-      "positions": {
-        "cost": null,
-        "health": null,
-        "housing": null,
-        "immigration": null,
-        "taxes": null,
-        "climate": null,
-        "education": null,
-        "safety": null,
-        "repro": null,
-        "democracy": null
-      },
-      "sources": [
-        {
-          "label": "FEC filing",
-          "url": "https://www.fec.gov/data/candidate/H6LA05333/"
-        }
-      ],
-      "funding": null,
-      "syncedFrom": "fec-api"
-    },
-    {
       "id": "fec-H6LA05325",
       "fecId": "H6LA05325",
       "name": "Antonio Wilson",
@@ -446,6 +414,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6LA05325/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6LA05333",
+      "fecId": "H6LA05333",
+      "name": "Antonio Wilson",
+      "party": "Democrat",
+      "state": "LA",
+      "office": "us-house",
+      "district": "5",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6LA05333/"
         }
       ],
       "funding": null,

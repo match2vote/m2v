@@ -1,7 +1,7 @@
 {
   "state": "TN",
   "electionYear": 2026,
-  "syncedAt": "2026-10-21T11:56:18.057Z",
+  "syncedAt": "2026-11-19T15:49:32.628Z",
   "candidates": [
     {
       "id": "fec-H0TN01118",
@@ -1566,6 +1566,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/S6TN00380/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-S4TN00542",
+      "fecId": "S4TN00542",
+      "name": "Marquita Bradshaw",
+      "party": "Democrat",
+      "state": "TN",
+      "office": "us-senate",
+      "district": null,
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/S4TN00542/"
         }
       ],
       "funding": null,

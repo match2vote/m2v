@@ -1,7 +1,7 @@
 {
   "state": "OR",
   "electionYear": 2026,
-  "syncedAt": "2026-07-21T12:11:42.713Z",
+  "syncedAt": "2026-11-26T16:58:32.720Z",
   "candidates": [
     {
       "id": "fec-H6OR01308",
@@ -670,6 +670,38 @@
         {
           "label": "FEC filing",
           "url": "https://www.fec.gov/data/candidate/H6OR06018/"
+        }
+      ],
+      "funding": null,
+      "syncedFrom": "fec-api"
+    },
+    {
+      "id": "fec-H6OR02314",
+      "fecId": "H6OR02314",
+      "name": "Peter L Quince",
+      "party": "02",
+      "state": "OR",
+      "office": "us-house",
+      "district": "at-large",
+      "incumbent": false,
+      "tier": "fec",
+      "ballotStatus": "filed",
+      "positions": {
+        "cost": null,
+        "health": null,
+        "housing": null,
+        "immigration": null,
+        "taxes": null,
+        "climate": null,
+        "education": null,
+        "safety": null,
+        "repro": null,
+        "democracy": null
+      },
+      "sources": [
+        {
+          "label": "FEC filing",
+          "url": "https://www.fec.gov/data/candidate/H6OR02314/"
         }
       ],
       "funding": null,
